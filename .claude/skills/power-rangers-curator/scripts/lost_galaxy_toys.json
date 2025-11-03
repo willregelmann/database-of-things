@@ -1,0 +1,897 @@
+{
+  "season": "lost-galaxy",
+  "url": "https://www.grnrngr.com/toys/power-rangers/lost-galaxy",
+  "toy_lines": [
+    {
+      "asst_no": "3040",
+      "name": "Navigator",
+      "metadata": {
+        "srp": "28.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3040",
+          "item_no": "3040",
+          "name": "Galaxy Navigator",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03040_3.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "3200",
+      "name": "Digizord",
+      "metadata": {
+        "srp": "9.99"
+      },
+      "toys": [
+        {
+          "asst_no": "3200",
+          "item_no": "3201",
+          "name": "Interactive Battling Game Galaxy Digizord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03201.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3202",
+          "name": "Interactive Battling Game Galaxy Digizord (red)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03202.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3203",
+          "name": "Interactive Battling Game Galaxy Digizord (green)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03203.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3204",
+          "name": "Interactive Battling Game Defender Digizord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03204.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3205",
+          "name": "Interactive Battling Game Defender Digizord (green/yellow)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03205.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3206",
+          "name": "Interactive Battling Game Defender Digizord (red/blue)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03206.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4240",
+      "name": "Talking Galaxy Power Rangers",
+      "metadata": {
+        "srp": "5.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4240",
+          "item_no": "4241",
+          "name": "Talking Red Galaxy Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04241.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4242",
+          "name": "Talking Green Galaxy Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04242.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4243",
+          "name": "Talking Blue Galaxy Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04243.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4244",
+          "name": "Talking Yellow Galaxy Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04244.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4245",
+          "name": "Talking Pink Galaxy Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04245.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4246",
+          "name": "Talking Galaxy Magna Defender",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04246.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4247",
+          "name": "Space Buccaneer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04247.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4240",
+          "item_no": "4248",
+          "name": "Space Android",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04248.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4255",
+      "name": "5\u2033 Action Zords",
+      "metadata": {
+        "srp": "5.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4255",
+          "item_no": "3122",
+          "name": "Astro Megaship",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03122_2.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4255",
+          "item_no": "3126",
+          "name": "Mega Winger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03126_2.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4255",
+          "item_no": "4256",
+          "name": "Galaxy Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04256.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4255",
+          "item_no": "4257",
+          "name": "Torozord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04257.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4255",
+          "item_no": "4258",
+          "name": "Centaurus Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04258.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4255",
+          "item_no": "4259",
+          "name": "Stratoforce Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04259.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4255",
+          "item_no": "4261",
+          "name": "Defender Torozord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04261.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4265",
+      "name": "Astro Cycles",
+      "metadata": {
+        "srp": "9.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4265",
+          "item_no": "4266",
+          "name": "Red Astro Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04266.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4265",
+          "item_no": "4267",
+          "name": "Green Astro Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04267.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4265",
+          "item_no": "4268",
+          "name": "Blue Astro Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04268.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4265",
+          "item_no": "4271",
+          "name": "Magna Defender Astro Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04271.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4275",
+      "name": "Morpher Assortment",
+      "metadata": {
+        "srp": "9.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "4275",
+          "item_no": "4276",
+          "name": "Transmorpher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04276.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4275",
+          "item_no": "4277",
+          "name": "Magna Defender Morpher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04277.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4275",
+          "item_no": "4278",
+          "name": "Galaxy Morpher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04278.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4280",
+      "name": "Weapon Assortment",
+      "metadata": {
+        "srp": "14.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4280",
+          "item_no": "4281",
+          "name": "Quasar Saber",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04281.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4280",
+          "item_no": "4282",
+          "name": "Galaxy Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04282.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4283",
+      "name": "Transdagger",
+      "metadata": {
+        "srp": "9.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4283",
+          "item_no": "4283",
+          "name": "Transdagger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04283.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4285",
+      "name": "Intermediate Zord Assortment",
+      "metadata": {
+        "srp": "15.00"
+      },
+      "toys": [
+        {
+          "asst_no": "4285",
+          "item_no": "4286",
+          "name": "Galaxy Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04286.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4285",
+          "item_no": "4287",
+          "name": "Defender Torozord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04287.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4290",
+      "name": "Deluxe Galaxy Megazord",
+      "metadata": {
+        "srp": "39.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4290",
+          "item_no": "4290",
+          "name": "Deluxe Galaxy Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04290.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4291",
+      "name": "Deluxe Defender Torozord",
+      "metadata": {
+        "srp": "29.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4291",
+          "item_no": "4291",
+          "name": "Deluxe Defender Torozord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04291.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4292",
+      "name": "Exclusive Die-Cast DX Gingaioh",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "4292",
+          "item_no": "4292",
+          "name": "Exclusive Die-Cast DX Gingaioh",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04292.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4295",
+      "name": "Deluxe Micro Playsets",
+      "metadata": {
+        "srp": "9.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4295",
+          "item_no": "4296",
+          "name": "Deluxe Micro Playset Galaxy Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04296.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4295",
+          "item_no": "4297",
+          "name": "Deluxe Micro Playset Galaxy Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04297.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4295",
+          "item_no": "4298",
+          "name": "Deluxe Micro Playset Zenith Carrierzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04298.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4295",
+          "item_no": "4299",
+          "name": "Deluxe Micro Playset Centaurus Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04299.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4300",
+      "name": "5\u2033 Conquering Power Rangers",
+      "metadata": {
+        "srp": "7.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4300",
+          "item_no": "4301",
+          "name": "Red Conquering Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04301.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4300",
+          "item_no": "4302",
+          "name": "Green Conquering Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04302.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4300",
+          "item_no": "4303",
+          "name": "Blue Conquering Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04303.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "4300",
+          "item_no": "4304",
+          "name": "Conquering Magna Defender",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04304.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4310",
+      "name": "5\u2033 Armored Power Rangers",
+      "metadata": {
+        "srp": "7.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4310",
+          "item_no": "4311",
+          "name": "Red Armored Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04311.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4310",
+          "item_no": "4312",
+          "name": "Green Armored Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04312.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4310",
+          "item_no": "4313",
+          "name": "Blue Armored Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04313.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4320",
+      "name": "4\u2033 Explorer Power Rangers",
+      "metadata": {
+        "srp": "4.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4320",
+          "item_no": "4321",
+          "name": "Red Explorer Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04321.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4320",
+          "item_no": "4322",
+          "name": "Green Explorer Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04322.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4320",
+          "item_no": "4323",
+          "name": "Blue Explorer Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04323.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4320",
+          "item_no": "4324",
+          "name": "Yellow Explorer Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04324.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4320",
+          "item_no": "4325",
+          "name": "Pink Explorer Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04325.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4320",
+          "item_no": "4326",
+          "name": "Explorer Magna Defender",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04326.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4330",
+      "name": "5\u2033 Blasting Power Rangers",
+      "metadata": {
+        "srp": "5.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4330",
+          "item_no": "4331",
+          "name": "Red Blasting Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04331.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4330",
+          "item_no": "4332",
+          "name": "Green Blasting Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04332.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4330",
+          "item_no": "4333",
+          "name": "Blue Blasting Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04333.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4330",
+          "item_no": "4334",
+          "name": "Yellow Blasting Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04334.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4330",
+          "item_no": "4335",
+          "name": "Pink Blasting Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04335.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4330",
+          "item_no": "4336",
+          "name": "Blasting Magna Defender",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04336.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4340",
+      "name": "10\u2033 Auto Morphin Power Rangers",
+      "metadata": {
+        "srp": "19.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4340",
+          "item_no": "4341",
+          "name": "10\u2033 Red Auto Morphin Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04341.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4340",
+          "item_no": "4342",
+          "name": "10\u2033 Green Auto Morphin Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04342.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4340",
+          "item_no": "4343",
+          "name": "10\u2033 Blue Auto Morphin Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04343.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4344",
+      "name": "Talking Silver Ranger Deluxe Set",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "4344",
+          "item_no": "4344",
+          "name": "Talking Silver Ranger Deluxe Set",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04344.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4346",
+      "name": "FAO Schwartz-Exclusive Deluxe Gold Galaxy Megazord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "4346",
+          "item_no": "4346",
+          "name": "Deluxe Gold Galaxy Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04346.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4348",
+      "name": "Deluxe Super Galactic Megazord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "4348",
+          "item_no": "4348",
+          "name": "Deluxe Super Galactic Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04348.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4350",
+      "name": "Jet Jammers",
+      "metadata": {
+        "srp": "9.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4350",
+          "item_no": "4351",
+          "name": "Red Jet Jammer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04351.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4350",
+          "item_no": "4352",
+          "name": "Green Jet Jammer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04352.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4350",
+          "item_no": "4353",
+          "name": "Blue Jet Jammer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04353.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4350",
+          "item_no": "4354",
+          "name": "Yellow Jet Jammer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04354.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4350",
+          "item_no": "4355",
+          "name": "Pink Jet Jammer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04355.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4350",
+          "item_no": "4356",
+          "name": "Magna Defender\u2019s Jet Jammer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04356.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4360",
+      "name": "Galactic Speeder",
+      "metadata": {
+        "srp": "19.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4360",
+          "item_no": "4361",
+          "name": "Red Galactic Speeder",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04361.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4360",
+          "item_no": "4362",
+          "name": "Green Galactic Speeder",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04362.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4360",
+          "item_no": "4363",
+          "name": "Blue Galactic Speeder",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04363.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4360",
+          "item_no": "4364",
+          "name": "Magna Defender\u2019s Galactic Speeder",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04364.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4365",
+      "name": "Magna Rotator",
+      "metadata": {
+        "srp": "14.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4365",
+          "item_no": "4365",
+          "name": "Magna Rotator",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04365.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4366",
+      "name": "Power Ranger Mega Packs",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "4366",
+          "item_no": "4366",
+          "name": "Talking Galaxy Power Ranger Mega Pack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04366_1.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4366",
+          "item_no": "4366",
+          "name": "Blasting Power Ranger Mega Pack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04366_2.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4369",
+      "name": "Deluxe Zord Assortment",
+      "metadata": {
+        "srp": "29.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4369",
+          "item_no": "4370",
+          "name": "Deluxe Centaurus Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04370.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4369",
+          "item_no": "4371",
+          "name": "Deluxe Stratoforce Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04371.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4372",
+      "name": "Deluxe Carrier Zord Assortment",
+      "metadata": {
+        "srp": "39.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4372",
+          "item_no": "4372",
+          "name": "Deluxe Zenith Carrierzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04372.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4373",
+      "name": "Battery-Powered Deluxe Megazords",
+      "metadata": {
+        "srp": "29.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4373",
+          "item_no": "4374",
+          "name": "Deluxe Charging Galaxy Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04374.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4373",
+          "item_no": "4379",
+          "name": "Deluxe Astro Galactic Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04379.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4375",
+      "name": "Weapon Assortment",
+      "metadata": {
+        "srp": "19.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4375",
+          "item_no": "4376",
+          "name": "Quasar Launcher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04376.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4375",
+          "item_no": "4377",
+          "name": "Magna Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04377.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "4390",
+      "name": "Capsular Cycles",
+      "metadata": {
+        "srp": "12.99"
+      },
+      "toys": [
+        {
+          "asst_no": "4390",
+          "item_no": "4391",
+          "name": "Red Capsular Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04391.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4390",
+          "item_no": "4392",
+          "name": "Green Capsular Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04392.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4390",
+          "item_no": "4393",
+          "name": "Blue Capsular Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04393.jpg",
+          "release_date": "Fall 1999"
+        },
+        {
+          "asst_no": "4390",
+          "item_no": "4396",
+          "name": "Magna Defender\u2019s Capsular Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/04396.jpg",
+          "release_date": "Fall 1999"
+        }
+      ]
+    }
+  ]
+}

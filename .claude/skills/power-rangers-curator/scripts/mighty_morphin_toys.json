@@ -1,0 +1,2155 @@
+{
+  "season": "mighty-morphin",
+  "url": "https://www.grnrngr.com/toys/power-rangers/mighty-morphin",
+  "toy_lines": [
+    {
+      "asst_no": "2200",
+      "name": "Mighty Morphin Power Rangers",
+      "metadata": {
+        "srp": "7.49",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2200",
+          "item_no": "2200",
+          "name": "Jason Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02200_1.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2200",
+          "item_no": "2200",
+          "name": "Billy Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02200_5.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2200",
+          "item_no": "2200",
+          "name": "Zach Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02200_3.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2200",
+          "item_no": "2200",
+          "name": "Trini Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02200_4.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2200",
+          "item_no": "2200",
+          "name": "Kimberly Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02200_2.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2201",
+      "name": "Karate Action Power Rangers",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2201",
+          "item_no": "2202",
+          "name": "Karate Kickin\u2019 Jason",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02202.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2201",
+          "item_no": "2203",
+          "name": "Karate Kickin\u2019 Kimberly",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02203.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2201",
+          "item_no": "2204",
+          "name": "Karate Kickin\u2019 Zack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02204.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2201",
+          "item_no": "2205",
+          "name": "Karate Choppin\u2019 Trini",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02205.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2201",
+          "item_no": "2206",
+          "name": "Karate Choppin\u2019 Billy",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02206.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2208",
+      "name": "Karate Action 2-Packs",
+      "metadata": {
+        "case_count": 8
+      },
+      "toys": [
+        {
+          "asst_no": "2208",
+          "item_no": "2208",
+          "name": "Karate Action 2-Pack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02208.jpg",
+          "release_date": "?"
+        }
+      ]
+    },
+    {
+      "asst_no": "2210",
+      "name": "Evil Space Aliens",
+      "metadata": {
+        "srp": "7.49",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "Baboo",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_3.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "Squatt",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_1.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "Goldar",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_2.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "King Sphinx",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_4.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "Bones",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_6.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "Finster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_5.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2210",
+          "item_no": "2210",
+          "name": "Putty Patrol",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02210_7.jpg",
+          "release_date": "Spring 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2211",
+      "name": "Deluxe Evil Space Aliens",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2211",
+          "item_no": "2212",
+          "name": "Lord Zedd",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02212.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2211",
+          "item_no": "2213",
+          "name": "Rhino Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02213.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2211",
+          "item_no": "2214",
+          "name": "Pirantis Head",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02214.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2211",
+          "item_no": "2215",
+          "name": "Guitardo",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02215.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2211",
+          "item_no": "2216",
+          "name": "Socadillo",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02216.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2211",
+          "item_no": "2217",
+          "name": "Goo Fish",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02217.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2220",
+      "name": "Megazord",
+      "metadata": {
+        "srp": "9.99",
+        "case_count": 5
+      },
+      "toys": [
+        {
+          "asst_no": "2220",
+          "item_no": "2220",
+          "name": "Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02220.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2222",
+      "name": "Yellow & Pink Rangers: Trini & Kimberly Gift Set",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2222",
+          "item_no": "2222",
+          "name": "Yellow & Pink Rangers: Trini & Kimberly",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02222.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2225",
+      "name": "Red Dragon Thunderzord",
+      "metadata": {
+        "srp": "14.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2225",
+          "item_no": "2225",
+          "name": "Red Dragon Thunderzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02225.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2230",
+      "name": "Battle Bikes",
+      "metadata": {
+        "srp": "9.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2230",
+          "item_no": "2230",
+          "name": "Mammoth Battle Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02230_2.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2230",
+          "item_no": "2230",
+          "name": "Triceratops Battle Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02230_3.jpg",
+          "release_date": "Fall 1993"
+        },
+        {
+          "asst_no": "2230",
+          "item_no": "2230",
+          "name": "Tyrannosaurus Battle Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02230_1.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2231",
+      "name": "Thunder Bikes",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 8
+      },
+      "toys": [
+        {
+          "asst_no": "2231",
+          "item_no": "2232",
+          "name": "Thunder Bike with Red Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02232.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2231",
+          "item_no": "2233",
+          "name": "Thunder Bike with Pink Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02233.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2231",
+          "item_no": "2234",
+          "name": "Thunder Bike with Black Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02234.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2231",
+          "item_no": "2236",
+          "name": "Thunder Bike with Yellow Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02236.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2231",
+          "item_no": "2237",
+          "name": "Thunder Bike with Blue Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02237.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2240",
+      "name": "Titanus",
+      "metadata": {
+        "srp": "39.99",
+        "case_count": 2
+      },
+      "toys": [
+        {
+          "asst_no": "2240",
+          "item_no": "2240",
+          "name": "Titanus the Carrier Zord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02240.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2242",
+      "name": "Tor The Shuttlezord",
+      "metadata": {
+        "srp": "34.99",
+        "case_count": 2
+      },
+      "toys": [
+        {
+          "asst_no": "2242",
+          "item_no": "2242",
+          "name": "Tor The Shuttlezord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02242.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2250",
+      "name": "Power Morpher & Power Gun/Sword",
+      "metadata": {
+        "srp": "16.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2250",
+          "item_no": "2250",
+          "name": "Power Morpher & Power Gun/Sword",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02250.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2251",
+      "name": "Dragon Dagger",
+      "metadata": {
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2251",
+          "item_no": "2251",
+          "name": "Dragon Dagger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02251.jpg",
+          "release_date": "Spring 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2253",
+      "name": "Power Cannon",
+      "metadata": {
+        "srp": "18.99",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2253",
+          "item_no": "2253",
+          "name": "Power Cannon",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02253.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2254",
+      "name": "Saba The Tiger Saber",
+      "metadata": {
+        "srp": "14.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2254",
+          "item_no": "2254",
+          "name": "Saba the Talking Tiger Sword",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02254.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2255",
+      "name": "Power Blaster",
+      "metadata": {
+        "srp": "16.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2255",
+          "item_no": "2255",
+          "name": "Power Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02255.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2260",
+      "name": "Deluxe Megazord",
+      "metadata": {
+        "srp": "29.99",
+        "case_count": 3
+      },
+      "toys": [
+        {
+          "asst_no": "2260",
+          "item_no": "2260",
+          "name": "Deluxe Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02260.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2261",
+      "name": "Special Edition Megazord",
+      "metadata": {
+        "case_count": 3
+      },
+      "toys": [
+        {
+          "asst_no": "2261",
+          "item_no": "2261",
+          "name": "Special Edition Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02261.jpg",
+          "release_date": "Spring 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2262",
+      "name": "Thunderzord Assault Team",
+      "metadata": {
+        "srp": "24.99",
+        "case_count": 3
+      },
+      "toys": [
+        {
+          "asst_no": "2262",
+          "item_no": "2262",
+          "name": "Thunderzord Assault Team",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02262.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2263",
+      "name": "Deluxe Thunder Megazord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2263",
+          "item_no": "2263",
+          "name": "Deluxe Thunder Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02263.jpg",
+          "release_date": "1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2270",
+      "name": "Dragonzord with Green Ranger",
+      "metadata": {
+        "srp": "24.99",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2270",
+          "item_no": "2270",
+          "name": "Dragonzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02270.jpg",
+          "release_date": "Fall 1993"
+        }
+      ]
+    },
+    {
+      "asst_no": "2271",
+      "name": "Tigerzord & White Ranger",
+      "metadata": {
+        "srp": "29.99",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2271",
+          "item_no": "2271",
+          "name": "White Tigerzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02271.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2290",
+      "name": "Power Dome Playset",
+      "metadata": {
+        "srp": "49.99",
+        "case_count": 3
+      },
+      "toys": [
+        {
+          "asst_no": "2290",
+          "item_no": "2290",
+          "name": "Power Dome",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02290.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2300",
+      "name": "Collectible Figures",
+      "metadata": {
+        "case_count": 24
+      },
+      "toys": [
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Alpha 5)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_04.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Baboo)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_08.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Black Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_02.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Blue Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_03.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Finster)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_12.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Goldar)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_09.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Green Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_06.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(King Sphinx)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_10.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Pink Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_07.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Red Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_05.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Squatt)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_11.jpg",
+          "release_date": "Spring 1994"
+        },
+        {
+          "asst_no": "2300",
+          "item_no": "2300",
+          "name": "(Yellow Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02300_01.jpg",
+          "release_date": "Spring 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2301",
+      "name": "Power Rangers Collector Set 1",
+      "metadata": {
+        "case_count": 20
+      },
+      "toys": [
+        {
+          "asst_no": "2301",
+          "item_no": "2301",
+          "name": "Power Rangers Collector Set I",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02301.jpg",
+          "release_date": "1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2302",
+      "name": "Power Rangers Collectibles Series 2",
+      "metadata": {
+        "srp": "1.19",
+        "case_count": 24
+      },
+      "toys": [
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Billy)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_01.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Bulk)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_02.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Jason)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_03.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Kimberly)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_04.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Lord Zedd)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_05.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Silver Horns)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_06.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Skellerina)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_07.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Skull)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_08.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Trini)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_09.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(White Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_10.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2302",
+          "item_no": "2302",
+          "name": "(Zack)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02302_11.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2303",
+      "name": "Toys R Us-Exclusive Power Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2303",
+          "item_no": "2303",
+          "name": "Special Size Red Dragon Thunderzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02303.jpg",
+          "release_date": null
+        }
+      ]
+    },
+    {
+      "asst_no": "2304",
+      "name": "Target-Exclusive Power Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2304",
+          "item_no": "2304",
+          "name": "Special Size White Tigerzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02304.jpg",
+          "release_date": null
+        }
+      ]
+    },
+    {
+      "asst_no": "2305",
+      "name": "Toys R Us-Exclusive Power Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2305",
+          "item_no": "2305",
+          "name": "Special Size Mega Tigerzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02305.jpg",
+          "release_date": null
+        }
+      ]
+    },
+    {
+      "asst_no": "2306",
+      "name": "Target-Exclusive Power Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2306",
+          "item_no": "2306",
+          "name": "Special Size Tor The Shuttlezord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02306.jpg",
+          "release_date": null
+        }
+      ]
+    },
+    {
+      "asst_no": "2307",
+      "name": "Power Rangers Collector Set 2",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2307",
+          "item_no": "2307",
+          "name": "Power Rangers Collector Set 2",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02307.jpg",
+          "release_date": null
+        }
+      ]
+    },
+    {
+      "asst_no": "2308",
+      "name": "Special Size Thunder Megazord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2308",
+          "item_no": "2308",
+          "name": "Special Size Thunder Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02308.jpg",
+          "release_date": null
+        }
+      ]
+    },
+    {
+      "asst_no": "2310",
+      "name": "Auto-Morphin Power Rangers",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2310",
+          "item_no": "2311",
+          "name": "Auto Morphin Power Rangers Jason",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02311.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2310",
+          "item_no": "2312",
+          "name": "Auto Morphin Power Rangers Kimberly",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02312.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2310",
+          "item_no": "2313",
+          "name": "Auto Morphin Power Rangers Zack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02313.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2310",
+          "item_no": "2314",
+          "name": "Auto Morphin Power Rangers Trini",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02314.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2310",
+          "item_no": "2315",
+          "name": "Auto Morphin Power Rangers Billy",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02315.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2310",
+          "item_no": "2316",
+          "name": "Auto Morphin Power Rangers Tommy",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02316.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2320",
+      "name": "Action Feature Aliens",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2320",
+          "item_no": "????",
+          "name": "UnreleasedRita Repulsa",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02321.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "????",
+          "name": "UnreleasedScorpina",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02322.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "????",
+          "name": "UnreleasedMutitus",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02323.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2324",
+          "name": "Slash & Block Minotaur",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02324.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2325",
+          "name": "Devouring Snizard Lips",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02325.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2326",
+          "name": "Eye Popping Eye Guy",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02326.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2327",
+          "name": "Food Gobbling Pudgy Pig",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02327.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2328",
+          "name": "Snatch Attack Spidertron",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02328.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2330",
+          "name": "Sword Slashing Knasty Knight",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02330.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2331",
+          "name": "Missile Launching Pete & Repeat",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02331.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2332",
+          "name": "Clawing Dramole",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02332.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2333",
+          "name": "Peck Attack Peckster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02333.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2334",
+          "name": "Stinger Shooting Grumble Bee",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02334.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2335",
+          "name": "Slicing Horns Stag Beetle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02335.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "2336",
+          "name": "Killer Bite Slippery Shark",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02336.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "????",
+          "name": "UnreleasedUnknown Evil Space Alien #1",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02343.jpg",
+          "release_date": "Fall 1994"
+        },
+        {
+          "asst_no": "2320",
+          "item_no": "????",
+          "name": "UnreleasedUnknown Evil Space Alien #2",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02344.jpg",
+          "release_date": "Fall 1994"
+        }
+      ]
+    },
+    {
+      "asst_no": "2350",
+      "name": "Action Feature Evil Space Aliens Series II",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2350",
+          "item_no": "2337",
+          "name": "Evil Light Lord Zedd",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02337.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2350",
+          "item_no": "2338",
+          "name": "Darting Tongue Pythor",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02338.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2350",
+          "item_no": "2339",
+          "name": "Falls Apart Putty Patrol",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02339.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2350",
+          "item_no": "2340",
+          "name": "Sword Slashing Goldar",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02340.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2350",
+          "item_no": "2341",
+          "name": "Snapping Chest Invenusable Fly Trap",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02341.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2350",
+          "item_no": "2342",
+          "name": "Head Butting Robogoat",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02342.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2360",
+      "name": "Power Rangers for Girls Dolls",
+      "metadata": {
+        "srp": "9.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2360",
+          "item_no": "2361",
+          "name": "Pink Ranger Kimberly",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02361.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2360",
+          "item_no": "2362",
+          "name": "Yellow Ranger Trini",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02362.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2367",
+      "name": "Power Rangers Girls Dolls",
+      "metadata": {
+        "srp": "9.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2367",
+          "item_no": "????",
+          "name": "UnreleasedPower Ranger Girls Pink Ranger Kimberly",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02368.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2367",
+          "item_no": "2369",
+          "name": "Power Ranger Girls Yellow Ranger Aisha",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02369.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2370",
+      "name": "Power Rangers Girls Dolls Gift Set",
+      "metadata": {
+        "srp": "19.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2370",
+          "item_no": "2370",
+          "name": "Power Ranger Girls Yellow & Pink Rangers Movie Edition",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02370_2.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2370",
+          "item_no": "2370",
+          "name": "Power Ranger Girls Yellow & Pink Rangers",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02370.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2375",
+      "name": "Power Rangers Girls Playset",
+      "metadata": {
+        "srp": "11.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2375",
+          "item_no": "2375",
+          "name": "Power Rangers Girls Carrying Case Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02375.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2390",
+      "name": "8\u2033 Talking Power Rangers",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2390",
+          "item_no": "2391",
+          "name": "Talking Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02391.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2390",
+          "item_no": "2392",
+          "name": "Talking Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02392.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2390",
+          "item_no": "2393",
+          "name": "Talking Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02393.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2390",
+          "item_no": "2394",
+          "name": "Talking Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02394.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2390",
+          "item_no": "2395",
+          "name": "Talking Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02395.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2390",
+          "item_no": "2396",
+          "name": "Talking White Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02396.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2398",
+      "name": "8\u2033 Talking Lord Zedd",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2398",
+          "item_no": "2398",
+          "name": "Talking Lord Zedd",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02398.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2400",
+      "name": "Micro Morphin Playset",
+      "metadata": {
+        "srp": "6.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2400",
+          "item_no": "2401",
+          "name": "Red Ranger\u2019s Micro Morphin Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02401.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2400",
+          "item_no": "2402",
+          "name": "Pink Ranger\u2019s Micro Morphin Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02402.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2400",
+          "item_no": "2406",
+          "name": "White Ranger\u2019s Micro Morphin Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02406.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2410",
+      "name": "Revvin\u2019 Thunder Bikes",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2410",
+          "item_no": "2411",
+          "name": "Red Ranger\u2019s Revvin\u2019 Thunder Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02411.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2410",
+          "item_no": "2412",
+          "name": "Pink Ranger\u2019s Revvin\u2019 Thunder Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02412.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2410",
+          "item_no": "2413",
+          "name": "Black Ranger\u2019s Revvin\u2019 Thunder Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02413.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2410",
+          "item_no": "2414",
+          "name": "Yellow Ranger\u2019s Revvin\u2019 Thunder Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02414.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2410",
+          "item_no": "2415",
+          "name": "Blue Ranger\u2019s Revvin\u2019 Thunder Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02415.jpg",
+          "release_date": "Spring 1995"
+        },
+        {
+          "asst_no": "2410",
+          "item_no": "2416",
+          "name": "White Ranger\u2019s Revvin\u2019 Thunder Bike",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02416.jpg",
+          "release_date": "Spring 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2420",
+      "name": "5.5\u2033 Power Rangers",
+      "metadata": {
+        "srp": "5.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2420",
+          "item_no": "2421",
+          "name": "Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02421.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2422",
+          "name": "Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02422.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2423",
+          "name": "Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02423.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2424",
+          "name": "Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02424.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2425",
+          "name": "Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02425.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2426",
+          "name": "White Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02426.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2564",
+          "name": "Special Edition Metallic Auto Morphin White Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02564.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2565",
+          "name": "Special Edition Metallic Auto Morphin Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02565.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2566",
+          "name": "Special Edition Metallic Auto Morphin Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02566.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2567",
+          "name": "Special Edition Metallic Auto Morphin Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02567.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2568",
+          "name": "Special Edition Metallic Auto Morphin Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02568.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2420",
+          "item_no": "2569",
+          "name": "Special Edition Metallic Auto Morphin Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02569.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2428",
+      "name": "Ninja Megafalconzord",
+      "metadata": {
+        "srp": "16.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2428",
+          "item_no": "2428",
+          "name": "Movie Edition Ninja Megafalconzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02428.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2428",
+          "item_no": "2428",
+          "name": "Ninja Megafalconzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02428_2.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2430",
+      "name": "8\u2033 Power Rangers",
+      "metadata": {
+        "srp": "9.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2430",
+          "item_no": "2431",
+          "name": "Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02431.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2430",
+          "item_no": "2432",
+          "name": "Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02432.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2430",
+          "item_no": "2433",
+          "name": "Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02433.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2430",
+          "item_no": "2434",
+          "name": "Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02434.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2430",
+          "item_no": "2435",
+          "name": "Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02435.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2430",
+          "item_no": "2436",
+          "name": "White Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02436.jpg",
+          "release_date": "Summer 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2440",
+      "name": "New Auto Morphin Series 2",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2440",
+          "item_no": "2441",
+          "name": "Auto Morphin Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02441.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2440",
+          "item_no": "2442",
+          "name": "Auto Morphin Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02442.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2440",
+          "item_no": "2443",
+          "name": "Auto Morphin Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02443.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2440",
+          "item_no": "2444",
+          "name": "Auto Morphin White Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02444.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2448",
+      "name": "3\u2033 Collectible Figures",
+      "metadata": {
+        "srp": "1.25",
+        "case_count": 24
+      },
+      "toys": [
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Black Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_01.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Black Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_02.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Blue Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_03.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_04.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Pink Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_05.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_06.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Red Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_07.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_08.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "White Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_11.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "White Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_12.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Yellow Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_09.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2448",
+          "item_no": "2448",
+          "name": "Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02448_10.jpg",
+          "release_date": "Summer 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2450",
+      "name": "5.5\u2033 Movie Edition Evil Space Aliens",
+      "metadata": {
+        "srp": "4.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2450",
+          "item_no": "2451",
+          "name": "Ivan Ooze",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02451.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2450",
+          "item_no": "2452",
+          "name": "Mordant",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02452.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2450",
+          "item_no": "2453",
+          "name": "Tengu Warrior",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02453.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2450",
+          "item_no": "2454",
+          "name": "Lord Zedd",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02454.jpg",
+          "release_date": "Summer 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2460",
+      "name": "5.5\u2033 Action Evil Space Aliens",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2460",
+          "item_no": "2461",
+          "name": "Flap Attack Vampirus",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02461.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2460",
+          "item_no": "2462",
+          "name": "Air-Pump Cannon Rito Revolto",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02462.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2460",
+          "item_no": "2463",
+          "name": "Spinning Head Attack Master Vile",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02463.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2460",
+          "item_no": "2464",
+          "name": "Dual-Attack Slotsky",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02464.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2460",
+          "item_no": "2465",
+          "name": "Slicing Action Erik The Barbaric",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02465.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2460",
+          "item_no": "2466",
+          "name": "Rapid-Fire Steamy Meany",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02466.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2460",
+          "item_no": "????",
+          "name": "UnreleasedWitchblade",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02467.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2470",
+      "name": "5.5\u2033 Action Ninja Rangers",
+      "metadata": {
+        "srp": "3.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2470",
+          "item_no": "2471",
+          "name": "Twirling Action White Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02471.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2470",
+          "item_no": "2472",
+          "name": "Sword Slashing Red Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02472.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2470",
+          "item_no": "2473",
+          "name": "Disc Firing Blue Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02473.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2470",
+          "item_no": "2474",
+          "name": "One-Two Punch Black Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02474.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2470",
+          "item_no": "2475",
+          "name": "Kick Action Yellow Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02475.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2470",
+          "item_no": "2476",
+          "name": "Net Launching Pink Ninja Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02476.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2480",
+      "name": "Shark Cycles",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2480",
+          "item_no": "2481",
+          "name": "Blue Ranger\u2019s Shark Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02481.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2480",
+          "item_no": "2482",
+          "name": "Black Ranger\u2019s Shark Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02482.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2480",
+          "item_no": "2483",
+          "name": "Yellow Ranger\u2019s Shark Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02483.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2480",
+          "item_no": "2484",
+          "name": "Red Ranger\u2019s Shark Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02484.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2480",
+          "item_no": "2485",
+          "name": "White Ranger\u2019s Shark Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02485.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2480",
+          "item_no": "2486",
+          "name": "Pink Ranger\u2019s Shark Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02486.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2488",
+      "name": "8\u2033 Evil Space Aliens",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2488",
+          "item_no": "2527",
+          "name": "Ivan Ooze",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02527.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2488",
+          "item_no": "2528",
+          "name": "Hornitor",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02528_1.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2488",
+          "item_no": "2529",
+          "name": "Scorpitan",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02529_1.jpg",
+          "release_date": "Summer 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2490",
+      "name": "Deluxe Shogun Megazord",
+      "metadata": {
+        "srp": "29.99",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2490",
+          "item_no": "2490",
+          "name": "Deluxe Shogun Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02490.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2491",
+      "name": "Deluxe Ninja Megazord",
+      "metadata": {
+        "srp": "29.99",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2491",
+          "item_no": "2491",
+          "name": "Deluxe Movie Edition Ninja Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02491_1.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2491",
+          "item_no": "2491",
+          "name": "Deluxe Ninja Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02491_2.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2492",
+      "name": "Deluxe Falconzord",
+      "metadata": {
+        "srp": "14.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2492",
+          "item_no": "2492",
+          "name": "White Ranger\u2019s Deluxe Movie Edition Falconzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02492_1.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2492",
+          "item_no": "2492",
+          "name": "White Ranger\u2019s Deluxe Falconzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02492_2.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2493",
+      "name": "The Return Of Titanus",
+      "metadata": {
+        "srp": "39.99",
+        "case_count": 2
+      },
+      "toys": [
+        {
+          "asst_no": "2493",
+          "item_no": "2493",
+          "name": "The Return Of Titanus",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02493.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2494",
+      "name": "Lord Zedd\u2019s Serpentera",
+      "metadata": {
+        "srp": "39.99",
+        "case_count": 2
+      },
+      "toys": [
+        {
+          "asst_no": "2494",
+          "item_no": "2494",
+          "name": "Lord Zedd\u2019s Serpentera",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02494.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2495",
+      "name": "Micro Morphin Playsets",
+      "metadata": {
+        "srp": "6.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2495",
+          "item_no": "2496",
+          "name": "Black Ranger\u2019s Micro Morphin Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02496.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2495",
+          "item_no": "2497",
+          "name": "Yellow Ranger\u2019s Micro Morphin Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02497.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2495",
+          "item_no": "2498",
+          "name": "Blue Ranger\u2019s Micro Morphin Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02498.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2521",
+      "name": "New Deluxe Evil Space Aliens",
+      "metadata": {
+        "srp": "7.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2521",
+          "item_no": "2522",
+          "name": "Deluxe Merrick The Barbaric",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02522.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2521",
+          "item_no": "2523",
+          "name": "Deluxe Calcifire",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02523.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2521",
+          "item_no": "2524",
+          "name": "Deluxe Master Vile",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02524.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2521",
+          "item_no": "2525",
+          "name": "Deluxe Silent Knight",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02525.jpg",
+          "release_date": "Fall 1995"
+        },
+        {
+          "asst_no": "2521",
+          "item_no": "2528",
+          "name": "Deluxe Hornitor",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02528_2.jpg",
+          "release_date": "Summer 1995"
+        },
+        {
+          "asst_no": "2521",
+          "item_no": "2529",
+          "name": "Deluxe Scorpitan",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02529_2.jpg",
+          "release_date": "Summer 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2526",
+      "name": "Deluxe Ninjor",
+      "metadata": {
+        "srp": "18.99",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2526",
+          "item_no": "2526",
+          "name": "Deluxe Auto Morphin Ninjor",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02526.jpg",
+          "release_date": "Fall 1995"
+        }
+      ]
+    },
+    {
+      "asst_no": "2660",
+      "name": "Battle Borgs",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2660",
+          "item_no": "2661",
+          "name": "Red Battle Borg",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02661.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2660",
+          "item_no": "2662",
+          "name": "White Battle Borg",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02662.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2660",
+          "item_no": "2663",
+          "name": "Black Battle Borg",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02663.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2660",
+          "item_no": "2664",
+          "name": "Blue Battle Borg",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02664.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2660",
+          "item_no": "2665",
+          "name": "Yellow Battle Borg",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02665.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2670",
+      "name": "Alien Rangers",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2670",
+          "item_no": "2671",
+          "name": "Red Alien Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02671.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2670",
+          "item_no": "2672",
+          "name": "White Alien Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02672.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2670",
+          "item_no": "2673",
+          "name": "Black Alien Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02673.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2670",
+          "item_no": "2674",
+          "name": "Blue Alien Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02674.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2670",
+          "item_no": "2675",
+          "name": "Yellow Alien Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02675.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    }
+  ]
+}

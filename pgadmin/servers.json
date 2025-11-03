@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Collectibles DB (Local)",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "collectibles",
+      "Username": "curator",
+      "SSLMode": "prefer",
+      "PassFile": "/tmp/pgpassfile"
+    }
+  }
+}

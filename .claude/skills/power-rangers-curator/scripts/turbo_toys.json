@@ -1,0 +1,806 @@
+{
+  "season": "turbo",
+  "url": "https://www.grnrngr.com/toys/power-rangers/turbo",
+  "toy_lines": [
+    {
+      "asst_no": "1090",
+      "name": "5\u2033 Turbo Rangers and Trading Card Sets",
+      "metadata": {
+        "case_count": 24
+      },
+      "toys": [
+        {
+          "asst_no": "1090",
+          "item_no": "1090",
+          "name": "Turbo Rangers Trading Card Set (Red Turbo Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/01090_1.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "1090",
+          "item_no": "1090",
+          "name": "Turbo Rangers Trading Card Set (Blue Turbo Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/01090_2.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "1090",
+          "item_no": "1090",
+          "name": "Turbo Rangers Trading Card Set (Green Turbo Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/01090_3.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2766",
+      "name": "5-inch Action Feature Evil Space Aliens",
+      "metadata": {
+        "srp": "6.75",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2766",
+          "item_no": "2767",
+          "name": "Stinger Head Action! Rygog",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02767.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2768",
+          "name": "Slack Jaw Action! Elgar",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02768.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2769",
+          "name": "Whip Spinning Action! Chromite",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02769.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2770",
+          "name": "Horn Honking Action! Griller",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02770.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2772",
+          "name": "Pirate Queen Cape Action! Divatox",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02772.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2773",
+          "name": "Spinning Chest Turbine Action! Visceron",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02773.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2774",
+          "name": "Jaw-Dropping Action! Amphibitor",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02774.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2766",
+          "item_no": "2775",
+          "name": "Hammer-Hand Motion! Hammeron",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02775.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2780",
+      "name": "5-inch Key Double Action Turbo Rangers",
+      "metadata": {
+        "srp": "6.75",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2780",
+          "item_no": "2781",
+          "name": "Two Sword Swinging Actions! Red Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02781.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2780",
+          "item_no": "2782",
+          "name": "Rapid Turbo Fire Action! Green Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02782.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2780",
+          "item_no": "2783",
+          "name": "Right And Left Aiming Action! Blue Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02783.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2780",
+          "item_no": "2784",
+          "name": "Lifts And Swings Power Weapons! Yellow Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02784.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2780",
+          "item_no": "2785",
+          "name": "Raises And Twirls Power Bow! Pink Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02785.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2780",
+          "item_no": "2786",
+          "name": "Quick Draw Action! Blue Senturion",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02786.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2790",
+      "name": "5-inch Turbo Shifter Action Figures",
+      "metadata": {
+        "srp": "6.75"
+      },
+      "toys": [
+        {
+          "asst_no": "2790",
+          "item_no": "2791",
+          "name": "Arms Open! Blades Spin! Red Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02791.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2790",
+          "item_no": "2792",
+          "name": "Head And Cannon Take Aim! Cannon Fires! Green Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02792.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2790",
+          "item_no": "2793",
+          "name": "Stand And Defend Action! Weapon Thrust Action! Blue Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02793.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2790",
+          "item_no": "2794",
+          "name": "Grapple Hooks Shoot! Turbo Ranger Slides! Yellow Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02794.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2790",
+          "item_no": "2795",
+          "name": "Karate Chop And Kick Action! Breakaway Wall! Pink Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02795.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2790",
+          "item_no": "2796",
+          "name": "Moving Chest Plates and Fold Out Armor! Phantom Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02796.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2798",
+      "name": "Shifter Action Turbo Ranger Collection",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2798",
+          "item_no": "2798",
+          "name": "Shifter Action Turbo Ranger Collection",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02798.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2950",
+      "name": "5-inch Action Feature Turbo Zords",
+      "metadata": {
+        "srp": "6.75",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2950",
+          "item_no": "2951",
+          "name": "Rolls And Stands Up! Turbo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02951.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2950",
+          "item_no": "2952",
+          "name": "Raises Arm And Shoots! Robo Racer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02952.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2950",
+          "item_no": "2953",
+          "name": "See The Inside Construction! X-Ray Turbo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02953.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2950",
+          "item_no": "2954",
+          "name": "See The Inside Construction! X-Ray Robo Racer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02954.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2950",
+          "item_no": "2955",
+          "name": "Turbo Spinning Drill Action! Turbo Rescue Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02955.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2950",
+          "item_no": "2956",
+          "name": "Reconstruction Action! Artillatron The Turbo Transport",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02956.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2958",
+      "name": "Turbo Morpher",
+      "metadata": {
+        "srp": "10.50",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2958",
+          "item_no": "2958",
+          "name": "Turbo Morpher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02958.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2959",
+      "name": "Auto Blaster and Turbo Blade",
+      "metadata": {
+        "srp": "21.00",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2959",
+          "item_no": "2959",
+          "name": "Auto Blaster & Turbo Blade",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02959.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2961",
+      "name": "Turbo R.A.M.",
+      "metadata": {
+        "srp": "28.00",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2961",
+          "item_no": "2961",
+          "name": "Deluxe Turbo R.A.M.",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02961.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2963",
+      "name": "Deluxe Turbo Megazord",
+      "metadata": {
+        "srp": "42.00",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2963",
+          "item_no": "2963",
+          "name": "Deluxe Turbo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02963.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2964",
+      "name": "Turbo Charged Turbo Zords",
+      "metadata": {
+        "srp": "6.00",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2964",
+          "item_no": "2965",
+          "name": "Red Lightning & Wind Chaser",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02965.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2964",
+          "item_no": "2966",
+          "name": "Desert Thunder & Mountain Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02966.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2964",
+          "item_no": "2967",
+          "name": "Robo Racer & Dune Star",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02967.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2971",
+      "name": "Turbo Carts & 4-inch Turbo Rangers",
+      "metadata": {
+        "srp": "11.00",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2971",
+          "item_no": "2972",
+          "name": "Red Turbo Ranger Turbo Cart",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02972.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2971",
+          "item_no": "2973",
+          "name": "Green Turbo Ranger Turbo Cart",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02973.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2971",
+          "item_no": "2974",
+          "name": "Blue Turbo Ranger Turbo Cart",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02974.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2971",
+          "item_no": "2975",
+          "name": "Yellow Turbo Ranger Turbo Cart",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02975.jpg",
+          "release_date": "Spring 1997"
+        },
+        {
+          "asst_no": "2971",
+          "item_no": "2976",
+          "name": "Pink Turbo Ranger Turbo Cart",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02976.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2980",
+      "name": "8-inch Repeat Action Turbo Rangers",
+      "metadata": {
+        "srp": "11.00",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2980",
+          "item_no": "2981",
+          "name": "Repeating Turbo Punching Action Red Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02981.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "2982",
+          "name": "Repeating Turbo Chopping Action Green Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02982.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "2983",
+          "name": "Repeating Turbo Punching Action Blue Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02983.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "2984",
+          "name": "Repeating Turbo Chopping Action Yellow Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02984.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "2985",
+          "name": "Repeating Turbo Punching Action Pink Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02985.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "2986",
+          "name": "Repeating Quick Aim Action Blue Senturion",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02986.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "2987",
+          "name": "Repeating Quick Aim Action Phantom Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02987.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "????",
+          "name": "UnreleasedMaligore",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02988.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2980",
+          "item_no": "????",
+          "name": "UnreleasedTerrorsaur",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02989.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "2993",
+      "name": "5-inch Triple Action Turbo Rangers",
+      "metadata": {
+        "srp": "6.75",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2993",
+          "item_no": "2994",
+          "name": "Head And Chest Morph! Triple Action Red Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02994.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2993",
+          "item_no": "2995",
+          "name": "Head And Chest Morph! Triple Action Green Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02995.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2993",
+          "item_no": "2996",
+          "name": "Head And Chest Morph! Triple Action Blue Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02996.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2993",
+          "item_no": "2997",
+          "name": "Head And Chest Morph! Triple Action Yellow Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02997.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "2993",
+          "item_no": "2998",
+          "name": "Head And Chest Morph! Triple Action Pink Turbo Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02998.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3031",
+      "name": "Triple Action Turbo Ranger Collection",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3031",
+          "item_no": "3031",
+          "name": "Triple Action Turbo Ranger Collection",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03031.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3033",
+      "name": "Turbo Power Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3033",
+          "item_no": "3033",
+          "name": "Turbo Power Pack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03033.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3040",
+      "name": "Navigator",
+      "metadata": {
+        "srp": "28.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3040",
+          "item_no": "3040",
+          "name": "Turbo Navigator",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03040.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3043",
+      "name": "Deluxe Robo Racer",
+      "metadata": {
+        "srp": "15.50",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "3043",
+          "item_no": "3043",
+          "name": "Deluxe Robo Racer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03043.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3045",
+      "name": "Artillatron The Turbo Transport",
+      "metadata": {
+        "srp": "45.00",
+        "case_count": 2
+      },
+      "toys": [
+        {
+          "asst_no": "3045",
+          "item_no": "3045",
+          "name": "Deluxe Artillatron The Turbo Transport",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03045.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3047",
+      "name": "Deluxe Rescue Megazord",
+      "metadata": {
+        "srp": "45.00",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "3047",
+          "item_no": "3047",
+          "name": "Deluxe Double Morphing Rescue Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03047.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3049",
+      "name": "Senturion Synergizer",
+      "metadata": {
+        "srp": "21.00",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "3049",
+          "item_no": "3049",
+          "name": "Senturion Synergizer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03049.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3057",
+      "name": "Blue Senturion & Senturion Cycle",
+      "metadata": {
+        "srp": "11.00",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "3057",
+          "item_no": "3057",
+          "name": "Deluxe Blue Senturion and Senturion Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03057.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3059",
+      "name": "Turbo Rangers\u2019 Deluxe Vehicles",
+      "metadata": {
+        "srp": "21.00",
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "3059",
+          "item_no": "3061",
+          "name": "Deluxe Lightning Cruiser",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03061.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "3059",
+          "item_no": "3062",
+          "name": "Deluxe Storm Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03062.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3060",
+      "name": "Turbo Rangers Garage Playset",
+      "metadata": {
+        "srp": "28.00",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "3060",
+          "item_no": "3060",
+          "name": "Deluxe Turbo Rangers Garage Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03060.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3065",
+      "name": "Mini Turbo R.A.M.",
+      "metadata": {
+        "srp": "7.00",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "3065",
+          "item_no": "3065",
+          "name": "Mini Turbo R.A.M.",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03065.jpg",
+          "release_date": "Spring 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3066",
+      "name": "Deluxe Turbine Laser",
+      "metadata": {
+        "srp": "21.00",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "3066",
+          "item_no": "3066",
+          "name": "Deluxe Turbine Laser",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03066.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3070",
+      "name": "Micro Playsets",
+      "metadata": {
+        "srp": "10.00",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "3070",
+          "item_no": "3071",
+          "name": "Turbo Megazord Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03071.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "3070",
+          "item_no": "3072",
+          "name": "Divatox\u2019s Subcraft Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03072.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    },
+    {
+      "asst_no": "3073",
+      "name": "Real Metal Turbo Vehicles",
+      "metadata": {
+        "srp": "4.50",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "3073",
+          "item_no": "3074",
+          "name": "Red Lightning: Real Metal Turbo Rangers Vehicles",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03074.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "3073",
+          "item_no": "3075",
+          "name": "Mountain Blaster: Real Metal Turbo Rangers Vehicles",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03075.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "3073",
+          "item_no": "3076",
+          "name": "Robo Racer: Real Metal Turbo Rangers Vehicles",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03076.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "3073",
+          "item_no": "3077",
+          "name": "Lightning Cruiser: Real Metal Turbo Rangers Vehicles",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03077.jpg",
+          "release_date": "Fall 1997"
+        },
+        {
+          "asst_no": "3073",
+          "item_no": "3078",
+          "name": "Storm Blaster: Real Metal Turbo Rangers Vehicles",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03078.jpg",
+          "release_date": "Fall 1997"
+        }
+      ]
+    }
+  ]
+}

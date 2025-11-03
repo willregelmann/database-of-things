@@ -1,0 +1,854 @@
+{
+  "season": "in-space",
+  "url": "https://www.grnrngr.com/toys/power-rangers/in-space",
+  "toy_lines": [
+    {
+      "asst_no": "1035",
+      "name": "5\u2033 Space Rangers and Trading Cards Sets",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "1035",
+          "item_no": "1036",
+          "name": "Trading Card Set (Red Space Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/01036.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "1035",
+          "item_no": "1037",
+          "name": "Trading Card Set (Astro Megazord)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/01037.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "1035",
+          "item_no": "1038",
+          "name": "Trading Card Set (Blue Space Ranger)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/01038.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3040",
+      "name": "Navigator",
+      "metadata": {
+        "srp": "28.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3040",
+          "item_no": "3040",
+          "name": "Astro Galaxy Navigator",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03040_2.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3047",
+      "name": "Deluxe Rescue Megazord",
+      "metadata": {
+        "srp": "45.00",
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "3047",
+          "item_no": "3047",
+          "name": "Deluxe Double Morphing Rescue Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03047_2.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3100",
+      "name": "5-inch Lightstar Power Rangers",
+      "metadata": {
+        "srp": "6.75"
+      },
+      "toys": [
+        {
+          "asst_no": "3100",
+          "item_no": "3101",
+          "name": "Red Lightstar Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03101.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3100",
+          "item_no": "3102",
+          "name": "Black Lightstar Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03102.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3100",
+          "item_no": "3103",
+          "name": "Blue Lightstar Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03103.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3100",
+          "item_no": "3104",
+          "name": "Yellow Lightstar Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03104.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3100",
+          "item_no": "3105",
+          "name": "Pink Lightstar Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03105.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3100",
+          "item_no": "3112",
+          "name": "Ecliptor",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03112.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3100",
+          "item_no": "3114",
+          "name": "Craterites",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03114.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3120",
+      "name": "5-inch Action Zords",
+      "metadata": {
+        "srp": "6.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3120",
+          "item_no": "3121",
+          "name": "Astro Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03121.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3120",
+          "item_no": "3122",
+          "name": "Astro Megaship",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03122.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3120",
+          "item_no": "3123",
+          "name": "Mega Tank",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03123.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3120",
+          "item_no": "3124",
+          "name": "Delta Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03124.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3120",
+          "item_no": "3126",
+          "name": "Mega Winger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03126.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3130",
+      "name": "Morpher Assortment",
+      "metadata": {
+        "srp": "10.50"
+      },
+      "toys": [
+        {
+          "asst_no": "3130",
+          "item_no": "3136",
+          "name": "Astro Morpher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03136.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3130",
+          "item_no": "3137",
+          "name": "Battlizer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03137.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3130",
+          "item_no": "3138",
+          "name": "Digimorpher",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03138.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3132",
+      "name": "Deluxe Astro Megazord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3132",
+          "item_no": "3132",
+          "name": "Deluxe Astro Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03132.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3133",
+      "name": "Astro Blaster",
+      "metadata": {
+        "srp": "15.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3133",
+          "item_no": "3133",
+          "name": "Astro Blaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03133.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3135",
+      "name": "Quadroblaster",
+      "metadata": {
+        "srp": "21.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3135",
+          "item_no": "3135",
+          "name": "Quadroblaster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03135.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3140",
+      "name": "Galaxy Gliders",
+      "metadata": {
+        "srp": "8.50"
+      },
+      "toys": [
+        {
+          "asst_no": "3140",
+          "item_no": "3141",
+          "name": "Red Galaxy Glider",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03141.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3140",
+          "item_no": "3142",
+          "name": "Black Galaxy Glider",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03142.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3140",
+          "item_no": "3143",
+          "name": "Blue Galaxy Glider",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03143.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3140",
+          "item_no": "3144",
+          "name": "Yellow Galaxy Glider",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03144.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3140",
+          "item_no": "3145",
+          "name": "Pink Galaxy Glider",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03145.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3150",
+      "name": "8-inch Talking Power Rangers",
+      "metadata": {
+        "srp": "10.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3150",
+          "item_no": "3151",
+          "name": "Red Astro Armor Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03151.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3150",
+          "item_no": "3152",
+          "name": "Black Astro Armor Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03152.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3150",
+          "item_no": "3153",
+          "name": "Blue Astro Armor Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03153.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3150",
+          "item_no": "3154",
+          "name": "Yellow Astro Armor Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03154.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3150",
+          "item_no": "3155",
+          "name": "Pink Astro Armor Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03155.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3160",
+      "name": "Deluxe Galaxy Cycles",
+      "metadata": {
+        "srp": "10.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3160",
+          "item_no": "3161",
+          "name": "Deluxe Red Galaxy Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03161.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3160",
+          "item_no": "3162",
+          "name": "Deluxe Black Galaxy Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03162.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3160",
+          "item_no": "3163",
+          "name": "Deluxe Blue Galaxy Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03163.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3160",
+          "item_no": "3164",
+          "name": "Deluxe Yellow Galaxy Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03164.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3160",
+          "item_no": "3165",
+          "name": "Deluxe Pink Galaxy Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03165.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3160",
+          "item_no": "3166",
+          "name": "Deluxe Silver Galaxy Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03166.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3180",
+      "name": "Jumbo Megazord Assortment",
+      "metadata": {
+        "srp": "20.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3180",
+          "item_no": "3181",
+          "name": "Jumbo Astro Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03181.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3180",
+          "item_no": "????",
+          "name": "UnreleasedJumbo Mega Voyager",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03182.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3185",
+      "name": "Deluxe Delta Megazord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3185",
+          "item_no": "3185",
+          "name": "Deluxe Delta Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03185.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3186",
+      "name": "Deluxe Mega Voyager",
+      "metadata": {
+        "srp": "40.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3186",
+          "item_no": "3186",
+          "name": "Deluxe Mega Voyager",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03186.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3190",
+      "name": "Deluxe Micro Playsets",
+      "metadata": {
+        "srp": "10.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3190",
+          "item_no": "3191",
+          "name": "Astro Delta Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03191.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3190",
+          "item_no": "3192",
+          "name": "Mega Voyager",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03192.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3200",
+      "name": "Digizord",
+      "metadata": {
+        "srp": "9.99"
+      },
+      "toys": [
+        {
+          "asst_no": "3200",
+          "item_no": "3200",
+          "name": "Digizord Electronic Gaming Figure",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03200_1.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3200",
+          "name": "Digizord Electronic Gaming Figure (red)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03200_2.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3200",
+          "item_no": "3200",
+          "name": "Digizord Electronic Gaming Figure (white)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03200_3.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3210",
+      "name": "5-inch Astro Power Rangers",
+      "metadata": {
+        "srp": "6.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3210",
+          "item_no": "3211",
+          "name": "Astro Red Power Ranger with Bonus Figure",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03211.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3210",
+          "item_no": "3212",
+          "name": "Astro Black Power Ranger with Bonus Figure",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03212.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3210",
+          "item_no": "3213",
+          "name": "Astro Blue Power Ranger with Bonus Figure",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03213.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3210",
+          "item_no": "3214",
+          "name": "Astro Yellow Power Ranger with Bonus Figure",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03214.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3210",
+          "item_no": "3215",
+          "name": "Astro Pink Power Ranger with Bonus Figure",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03215.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3220",
+      "name": "5-inch Battlized Power Rangers",
+      "metadata": {
+        "srp": "8.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3220",
+          "item_no": "3221",
+          "name": "Red Battlized Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03221.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3220",
+          "item_no": "3222",
+          "name": "Black Battlized Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03222.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3220",
+          "item_no": "3223",
+          "name": "Blue Battlized Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03223.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3220",
+          "item_no": "3226",
+          "name": "Silver Battlized Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03226.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3246",
+      "name": "Toys R Us-Exclusive Astro Power Ranger Space Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3246",
+          "item_no": "3246",
+          "name": "Astro Power Ranger Space Pack",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03246.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3248",
+      "name": "Astro Team Packs",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3248",
+          "item_no": "3248",
+          "name": "Astro Team Packs (Red Ranger & Astro Megazord)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03248_1.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3248",
+          "item_no": "3248",
+          "name": "Astro Team Packs (Black Ranger & Mega Tank)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03248_2.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3248",
+          "item_no": "3248",
+          "name": "Astro Team Packs (Blue Ranger & Astro Megaship)",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03248_3.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3250",
+      "name": "Zord Assortment",
+      "metadata": {
+        "srp": "15.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3250",
+          "item_no": "3251",
+          "name": "Astro Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03251.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3250",
+          "item_no": "3252",
+          "name": "Astro Megaship",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03252.jpg",
+          "release_date": "Spring 1998"
+        },
+        {
+          "asst_no": "3250",
+          "item_no": "3253",
+          "name": "Astro Delta Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03253.jpg",
+          "release_date": "Spring 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3260",
+      "name": "5.5-inch Mega Launching Power Rangers",
+      "metadata": {
+        "srp": "6.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3260",
+          "item_no": "3261",
+          "name": "Red Mega Launching Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03261.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3260",
+          "item_no": "3262",
+          "name": "Black Mega Launching Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03262.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3260",
+          "item_no": "3263",
+          "name": "Blue Mega Launching Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03263.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3260",
+          "item_no": "3266",
+          "name": "Silver Mega Launching Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03266.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3270",
+      "name": "Deluxe Mega Winger",
+      "metadata": {
+        "srp": "25.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3270",
+          "item_no": "3270",
+          "name": "Deluxe Mega Winger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03270.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3272",
+      "name": "Super Silverizer",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3272",
+          "item_no": "3272",
+          "name": "Super Silverizer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03272.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3273",
+      "name": "Deluxe Galactic Rovers",
+      "metadata": {
+        "srp": "15.00"
+      },
+      "toys": [
+        {
+          "asst_no": "3273",
+          "item_no": "3275",
+          "name": "Deluxe Red Galactic Rover",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03275.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3273",
+          "item_no": "3276",
+          "name": "Deluxe Black Galactic Rover",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03276.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3273",
+          "item_no": "3277",
+          "name": "Deluxe Blue Galactic Rover",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03277.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3273",
+          "item_no": "3278",
+          "name": "Deluxe Silver Galactic Rover",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03278.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3274",
+      "name": "Deluxe Silver Titanus Carrierzord",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3274",
+          "item_no": "3274",
+          "name": "Deluxe Silver Titanus Carrierzord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03274.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3280",
+      "name": "4\u2033 Lunar Power Rangers",
+      "metadata": {
+        "srp": "4.99"
+      },
+      "toys": [
+        {
+          "asst_no": "3280",
+          "item_no": "3281",
+          "name": "Lunar Red Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03281.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3280",
+          "item_no": "3282",
+          "name": "Lunar Black Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03282.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3280",
+          "item_no": "3283",
+          "name": "Lunar Blue Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03283.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3280",
+          "item_no": "3284",
+          "name": "Lunar Yellow Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03284.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3280",
+          "item_no": "3285",
+          "name": "Lunar Pink Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03285.jpg",
+          "release_date": "Fall 1998"
+        },
+        {
+          "asst_no": "3280",
+          "item_no": "3286",
+          "name": "Lunar Silver Power Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03286.jpg",
+          "release_date": "Fall 1998"
+        }
+      ]
+    },
+    {
+      "asst_no": "3290",
+      "name": "Heroes Of Space",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3290",
+          "item_no": "3291",
+          "name": "Red Astro Ranger with Commander Charles Conrad, Jr.",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03291.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "3290",
+          "item_no": "3292",
+          "name": "Black Astro Ranger with Lunar Module Pilot Alan Bean",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03292.jpg",
+          "release_date": "Spring 1999"
+        },
+        {
+          "asst_no": "3290",
+          "item_no": "3293",
+          "name": "Blue Astro Ranger with Lunar Module Pilot Charles Duke",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03293.jpg",
+          "release_date": "Spring 1999"
+        }
+      ]
+    },
+    {
+      "asst_no": "3310",
+      "name": "Heroes Of Space Triple Pack",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "3310",
+          "item_no": "3310",
+          "name": "Heroes Of Space",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/03310.jpg",
+          "release_date": "1999"
+        }
+      ]
+    }
+  ]
+}

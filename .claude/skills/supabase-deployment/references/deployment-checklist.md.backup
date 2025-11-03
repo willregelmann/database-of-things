@@ -1,0 +1,335 @@
+# Production Deployment Checklist
+
+Complete step-by-step guide for deploying the Supabase collectibles database to production.
+
+## Pre-Deployment Preparation
+
+### 1. Convert Image URLs to Relative Paths
+
+**Why**: Makes the database portable across environments. The `get_image_url()` function constructs full URLs based on the environment.
+
+```bash
+cd .claude/skills/supabase-deployment/scripts
+python3 convert_images_to_relative.py --dry-run  # Preview
+python3 convert_images_to_relative.py            # Apply
+```
+
+**What it does**:
+- Converts `http://127.0.0.1:54321/storage/v1/object/public/images/uuid.jpg`
+- To: `images/uuid.jpg`
+
+### 2. Create Database Backup
+
+```bash
+./scripts/db-backup
+```
+
+**Result**: Timestamped backup in `backups/` directory for rollback if needed.
+
+### 3. Export Production Data
+
+```bash
+cd .claude/skills/supabase-deployment/scripts
+./export_data.sh production-data.sql
+```
+
+**What it exports**:
+- Entities table data (20,000+ rows)
+- Relationships table data (20,000+ rows)
+- Does NOT export schema (migrations will handle that)
+
+### 4. Backup Storage Files
+
+Ensure storage backup is complete:
+
+```bash
+# Check if backup is running
+./scripts/storage-backup
+
+# Or verify backup exists
+ls -lh storage-backup/
+```
+
+## Production Setup
+
+### 5. Create Supabase Cloud Project
+
+**Option A: Supabase Cloud (Recommended)**
+
+1. Go to https://supabase.com/dashboard
+2. Click "New project"
+3. Choose organization
+4. Set project name (e.g., "collectibles-db-prod")
+5. Generate strong database password
+6. Select region closest to users
+7. Wait for project initialization (~2 minutes)
+
+**Option B: Self-Hosted**
+
+Follow Supabase self-hosting guide: https://supabase.com/docs/guides/self-hosting
+
+### 6. Link Local Project to Production
+
+```bash
+./bin/supabase link --project-ref YOUR_PROJECT_REF
+```
+
+Get your project ref from the Supabase dashboard URL:
+`https://supabase.com/dashboard/project/YOUR_PROJECT_REF`
+
+### 7. Update get_image_url() Function for Production
+
+Create migration to update base URL:
+
+```bash
+./bin/supabase migration new update_image_url_for_production
+```
+
+Edit the migration file:
+
+```sql
+-- Update get_image_url() function for production
+CREATE OR REPLACE FUNCTION get_image_url(image_key TEXT, width INT DEFAULT NULL, height INT DEFAULT NULL)
+RETURNS TEXT AS $$
+DECLARE
+  base_url TEXT := 'https://YOUR_PROJECT_REF.supabase.co/storage/v1/object/public';
+  -- Change localhost to your production URL ^^^
+BEGIN
+  -- Return NULL if no image
+  IF image_key IS NULL OR image_key = '' THEN
+    RETURN NULL;
+  END IF;
+
+  -- External URLs (http/https) - return as-is
+  IF image_key LIKE 'http://%' OR image_key LIKE 'https://%' THEN
+    RETURN image_key;
+  END IF;
+
+  -- Storage paths - construct full URL with optional transformations
+  IF width IS NOT NULL AND height IS NOT NULL THEN
+    RETURN base_url || '/' || image_key || '?width=' || width || '&height=' || height;
+  ELSIF width IS NOT NULL THEN
+    RETURN base_url || '/' || image_key || '?width=' || width;
+  ELSE
+    RETURN base_url || '/' || image_key;
+  END IF;
+END;
+$$ LANGUAGE plpgsql STABLE;
+```
+
+### 8. Push Migrations to Production
+
+```bash
+./scripts/safe-migrate push
+```
+
+**What this does**:
+- Creates production database schema (entities, relationships tables)
+- Installs extensions (uuid-ossp, pg_trgm, vector)
+- Creates indexes
+- Creates database functions (get_image_url, search_by_text)
+- Creates storage bucket and policies
+
+### 9. Import Data to Production
+
+Get production connection string from Supabase dashboard:
+Settings → Database → Connection string → URI
+
+```bash
+psql "postgresql://postgres:[PASSWORD]@db.[PROJECT_REF].supabase.co:5432/postgres" \
+  -f production-data.sql
+```
+
+**Progress**: This may take 1-5 minutes depending on data size.
+
+### 10. Upload Storage Files
+
+Get production credentials from Supabase dashboard:
+Settings → API → Project API keys
+
+```bash
+cd .claude/skills/supabase-deployment/scripts
+
+python3 upload_storage.py \
+  --project-url "https://YOUR_PROJECT_REF.supabase.co" \
+  --service-key "YOUR_SERVICE_ROLE_KEY" \
+  --dry-run  # Preview first
+
+python3 upload_storage.py \
+  --project-url "https://YOUR_PROJECT_REF.supabase.co" \
+  --service-key "YOUR_SERVICE_ROLE_KEY"
+```
+
+**What it uploads**: All 610+ image files from local storage to production bucket.
+
+## Verification
+
+### 11. Verify Deployment
+
+```bash
+cd .claude/skills/supabase-deployment/scripts
+
+python3 verify_deployment.py \
+  --db-url "postgresql://postgres:[PASSWORD]@db.[PROJECT_REF].supabase.co:5432/postgres" \
+  --project-url "https://YOUR_PROJECT_REF.supabase.co"
+```
+
+**Checks performed**:
+- ✅ Table row counts match expectations
+- ✅ Extensions installed (uuid-ossp, pg_trgm, vector)
+- ✅ Functions exist (get_image_url, search_by_text)
+- ✅ Storage bucket accessible
+
+### 12. Test GraphQL API
+
+Open GraphQL playground:
+`https://YOUR_PROJECT_REF.supabase.co/graphql/v1`
+
+Test query:
+
+```graphql
+query {
+  entitiesCollection(first: 5) {
+    edges {
+      node {
+        id
+        name
+        type
+        image_url
+      }
+    }
+  }
+}
+```
+
+### 13. Test Search Functionality
+
+```sql
+-- Test semantic search
+SELECT * FROM search_by_text('charizard', NULL, 10);
+
+-- Test image URL generation
+SELECT name, get_image_url(image_url) FROM entities LIMIT 5;
+```
+
+## Post-Deployment
+
+### 14. Update Client Applications
+
+If you have any client applications (web apps, mobile apps), update:
+
+- **API URL**: Change from `http://127.0.0.1:54321` to `https://YOUR_PROJECT_REF.supabase.co`
+- **API Keys**: Use production anon key and service role key
+- **Storage URLs**: Will automatically use production URLs via `get_image_url()`
+
+### 15. Configure Row-Level Security (Optional)
+
+If your app needs authentication:
+
+```sql
+-- Enable RLS on entities table
+ALTER TABLE entities ENABLE ROW LEVEL SECURITY;
+
+-- Create policy (example: allow public read)
+CREATE POLICY "Allow public read access"
+  ON entities FOR SELECT
+  USING (true);
+```
+
+### 16. Set Up Backups
+
+Supabase Cloud automatically backs up your database daily. For additional safety:
+
+1. Enable Point-in-Time Recovery (PITR) in project settings
+2. Schedule weekly manual backups using `pg_dump`
+3. Store backups in separate cloud storage (S3, GCS, etc.)
+
+### 17. Monitor Performance
+
+In Supabase dashboard:
+- Database → Usage tab: Monitor connection count, CPU, memory
+- Storage → Usage tab: Monitor storage size
+- Set up alerts for quota limits
+
+## Rollback Procedure
+
+If deployment fails:
+
+### Rollback Database
+
+```bash
+# Restore from backup
+./scripts/db-restore backups/backup_YYYYMMDD_HHMMSS.sql
+```
+
+### Rollback Storage
+
+```bash
+# Re-run storage backup and upload from local
+./scripts/storage-backup
+```
+
+## Troubleshooting
+
+### Issue: Migrations fail to push
+
+**Solution**: Check if migrations are in correct order. Run migrations locally first:
+```bash
+./scripts/safe-migrate reset
+./scripts/safe-migrate push
+```
+
+### Issue: Data import fails
+
+**Solution**: Check for UUID conflicts or constraint violations. Import entities before relationships:
+```bash
+# Split export into two files
+docker exec supabase_db_database-of-things pg_dump -U postgres -d postgres \
+  --data-only --table=entities > entities.sql
+
+docker exec supabase_db_database-of-things pg_dump -U postgres -d postgres \
+  --data-only --table=relationships > relationships.sql
+
+# Import in order
+psql "$PROD_DB_URL" -f entities.sql
+psql "$PROD_DB_URL" -f relationships.sql
+```
+
+### Issue: Storage upload fails
+
+**Solution**: Verify service role key and bucket exists:
+```bash
+# Check bucket exists in Supabase dashboard: Storage → Buckets
+# Verify service role key in: Settings → API → service_role
+```
+
+### Issue: Images not loading
+
+**Solution**:
+1. Verify storage bucket is public
+2. Check `get_image_url()` function has correct production URL
+3. Test direct storage URL: `https://YOUR_PROJECT_REF.supabase.co/storage/v1/object/public/images/test.jpg`
+
+## Cost Estimation
+
+**Supabase Cloud Free Tier Limits**:
+- ✅ 500 MB database (your data: ~50-100 MB)
+- ✅ 1 GB storage (your images: ~200-500 MB)
+- ✅ 50,000 monthly active users
+- ✅ 2 GB bandwidth
+
+**You should fit comfortably in the free tier.**
+
+**Paid Plan** ($25/month):
+- 8 GB database
+- 100 GB storage
+- 250,000 monthly active users
+- 250 GB bandwidth
+
+## Next Steps After Deployment
+
+1. **Set up monitoring**: Configure alerts for database and storage usage
+2. **Document API**: Create API documentation for client developers
+3. **Test thoroughly**: Run integration tests against production
+4. **Plan for scaling**: Monitor query performance, add indexes as needed
+5. **Security audit**: Review RLS policies, API key usage, CORS settings

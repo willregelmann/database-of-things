@@ -1,0 +1,647 @@
+{
+  "season": "zeo",
+  "url": "https://www.grnrngr.com/toys/power-rangers/zeo",
+  "toy_lines": [
+    {
+      "asst_no": "2500",
+      "name": "7 in 1 Zeo Blaster Set",
+      "metadata": {
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2500",
+          "item_no": "2500",
+          "name": "7-In-1 Zeo Blaster Set",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02500.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2506",
+      "name": "Zeo Jet Cycles",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2506",
+          "item_no": "2507",
+          "name": "Red Zeo Jet Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02507.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2506",
+          "item_no": "2508",
+          "name": "Blue Zeo Jet Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02508.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2506",
+          "item_no": "2509",
+          "name": "Green Zeo Jet Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02509.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2506",
+          "item_no": "2510",
+          "name": "Yellow Zeo Jet Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02510.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2506",
+          "item_no": "2511",
+          "name": "Pink Zeo Jet Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02511.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2506",
+          "item_no": "2512",
+          "name": "The Gold Ranger\u2019s Zeo Jet Cycle",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02512.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2530",
+      "name": "5.5\u2033 Action Feature Zeo Rangers",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2530",
+          "item_no": "2537",
+          "name": "Staff Whirling The Gold Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02537.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2530",
+          "item_no": "2538",
+          "name": "Sword Action Red Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02538.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2530",
+          "item_no": "2539",
+          "name": "Axe Action Blue Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02539.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2530",
+          "item_no": "2540",
+          "name": "Hatchet Action Green Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02540.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2530",
+          "item_no": "2541",
+          "name": "Shield Spinning Action Pink Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02541.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2530",
+          "item_no": "2542",
+          "name": "Double Club Action Yellow Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02542.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2560",
+      "name": "5.5\u2033 Action Feature Zeo Zords",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2560",
+          "item_no": "2561",
+          "name": "1-2 Punching Action Red Battlezord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02561.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2560",
+          "item_no": "2562",
+          "name": "Sword Swinging Super Zeo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02562.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2560",
+          "item_no": "2563",
+          "name": "Power Sword Action Zeo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02563.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2560",
+          "item_no": "2597",
+          "name": "Morphin Action Warrior Wheel",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02597.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2560",
+          "item_no": "2598",
+          "name": "Power Cloak Action Auric The Conqueror Zord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02598.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2560",
+          "item_no": "2599",
+          "name": "Dual Morphin Action Pyramidas The Carrier Zord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02599.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2570",
+      "name": "5.5\u2033 Action Feature Evil Space Aliens",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2570",
+          "item_no": "2340",
+          "name": "Rapid Sword Swinging Goldar",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02340_2.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2462",
+          "name": "Air-Pumping Cannon Rito Revolto",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02462_2.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2571",
+          "name": "Chest-Beating Cogs",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02571.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2572",
+          "name": "Drill-Spinning Drill Master",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02572.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2573",
+          "name": "Missile-Firing Mechanizer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02573.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2574",
+          "name": "Missile-Launching Quadrafighter",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02574.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2575",
+          "name": "Missile Aiming Silo",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02575.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2760",
+          "name": "Missile-Firing Staroid",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02760.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2761",
+          "name": "Clawing Mace Face",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02761.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2762",
+          "name": "Drilling Digster",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02762.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2570",
+          "item_no": "2763",
+          "name": "1-2-3 Punch-A-Bunch",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02763.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2577",
+      "name": "Zeonizer",
+      "metadata": {
+        "srp": "14.99",
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2577",
+          "item_no": "2577",
+          "name": "Zeonizer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02577_1.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2577",
+          "item_no": "2577",
+          "name": "The Gold Ranger\u2019s Zeonizer",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02577_2.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2578",
+      "name": "Deluxe Zeo Megazord",
+      "metadata": {
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2578",
+          "item_no": "2578",
+          "name": "Deluxe Zeo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02578.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2588",
+      "name": "Deluxe Red Battlezord",
+      "metadata": {
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2588",
+          "item_no": "2588",
+          "name": "Deluxe Red Battlezord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02588.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2590",
+      "name": "Micro Zeo Zord Playsets",
+      "metadata": {
+        "case_count": 10
+      },
+      "toys": [
+        {
+          "asst_no": "2590",
+          "item_no": "2591",
+          "name": "Micro Zeo Zord V Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02591.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2590",
+          "item_no": "2592",
+          "name": "Micro Zeo Zord III Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02592.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2590",
+          "item_no": "2593",
+          "name": "Micro Zeo Zord IV Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02593.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2590",
+          "item_no": "2594",
+          "name": "Micro Zeo Zord I Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02594.jpg",
+          "release_date": "Spring 1996"
+        },
+        {
+          "asst_no": "2590",
+          "item_no": "2595",
+          "name": "Micro Zeo Zord II Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02595.jpg",
+          "release_date": "Spring 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2596",
+      "name": "Micro Red Battlezord Playset",
+      "metadata": {
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2596",
+          "item_no": "2596",
+          "name": "Micro Red Battlezord Playset",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02596.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2666",
+      "name": "Deluxe Warrior Wheel",
+      "metadata": {
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2666",
+          "item_no": "2666",
+          "name": "Deluxe Warrior Wheel",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02666.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2667",
+      "name": "Zeo Cannon",
+      "metadata": {
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2667",
+          "item_no": "2667",
+          "name": "Zeo Cannon",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02667.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2669",
+      "name": "Auto Morphin Zeo Ranger Collection",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2669",
+          "item_no": "2669",
+          "name": "Auto Morphin Zeo Ranger Collection",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02669.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2676",
+      "name": "Special Edition Auto Morphin Gold Team",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2676",
+          "item_no": "2676",
+          "name": "Special Edition Auto Morphin Gold Team",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02676.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2680",
+      "name": "8\u2033 Action Feature Zeo Rangers",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2680",
+          "item_no": "2681",
+          "name": "Zeo Laser Blade Action Zeo Ranger I",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02681.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2680",
+          "item_no": "2682",
+          "name": "Zeo Laser Pistol Action Zeo Ranger II",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02682.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2680",
+          "item_no": "2683",
+          "name": "Zeo Laser Blade Action Zeo Ranger III",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02683.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2680",
+          "item_no": "2684",
+          "name": "Zeo Laser Pistol Action Zeo Ranger IV",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02684.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2680",
+          "item_no": "2685",
+          "name": "Zeo Laser Pistol Action Zeo Ranger V",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02685.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2680",
+          "item_no": "2686",
+          "name": "Staff Whirling Gold Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02686.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2687",
+      "name": "Deluxe Special Edition Gold Team",
+      "metadata": {},
+      "toys": [
+        {
+          "asst_no": "2687",
+          "item_no": "2687",
+          "name": "Deluxe Special Edition Gold Team",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02687.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2699",
+      "name": "Deluxe Super Zeo Megazord",
+      "metadata": {
+        "case_count": 3
+      },
+      "toys": [
+        {
+          "asst_no": "2699",
+          "item_no": "2699",
+          "name": "Deluxe Super Zeo Megazord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02699.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2703",
+      "name": "Zord Morphin Zeo Rangers",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2703",
+          "item_no": "2704",
+          "name": "Zord Morphin Zeo Ranger V",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02704.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2703",
+          "item_no": "2705",
+          "name": "Zord Morphin Zeo Ranger IV",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02705.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2703",
+          "item_no": "2706",
+          "name": "Zord Morphin Zeo Ranger III",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02706.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2713",
+      "name": "Golden Power Staff",
+      "metadata": {
+        "case_count": 6
+      },
+      "toys": [
+        {
+          "asst_no": "2713",
+          "item_no": "2713",
+          "name": "Golden Power Staff",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02713.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2715",
+      "name": "Deluxe Auric, The Conqueror Zord",
+      "metadata": {
+        "case_count": 4
+      },
+      "toys": [
+        {
+          "asst_no": "2715",
+          "item_no": "2715",
+          "name": "Auric, The Conqueror Zord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02715.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2717",
+      "name": "Deluxe Pyramidas, The Carrier Zord",
+      "metadata": {
+        "case_count": 2
+      },
+      "toys": [
+        {
+          "asst_no": "2717",
+          "item_no": "2717",
+          "name": "Deluxe Pyramidas, The Carrier Zord",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02717.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    },
+    {
+      "asst_no": "2750",
+      "name": "Auto-Morphin Zeo Rangers",
+      "metadata": {
+        "case_count": 12
+      },
+      "toys": [
+        {
+          "asst_no": "2750",
+          "item_no": "2751",
+          "name": "Auto Morphin Zeo Ranger I Pink",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02751.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2750",
+          "item_no": "2752",
+          "name": "Auto Morphin Zeo Ranger II Yellow",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02752.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2750",
+          "item_no": "2753",
+          "name": "Auto Morphin Zeo Ranger III Blue",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02753.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2750",
+          "item_no": "2754",
+          "name": "Auto Morphin Zeo Ranger IV Green",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02754.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2750",
+          "item_no": "2755",
+          "name": "Auto Morphin Zeo Ranger V Red",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02755.jpg",
+          "release_date": "Fall 1996"
+        },
+        {
+          "asst_no": "2750",
+          "item_no": "2756",
+          "name": "Auto Morphin Gold Ranger",
+          "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02756.jpg",
+          "release_date": "Fall 1996"
+        }
+      ]
+    }
+  ]
+}
