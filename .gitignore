@@ -29,6 +29,14 @@ env/
 .venv/
 **/__pycache__/
 
+# Python build artifacts
+*.egg-info/
+*.egg
+
+# Curator runtime artifacts
+curators/artifacts/
+curators/workflows/
+
 # Node modules (if any frontend is added later)
 node_modules/
 .pnp

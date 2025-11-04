@@ -1,0 +1,100 @@
+version: '3.8'
+
+services:
+  # LangGraph Platform API
+  langgraph-api:
+    image: langchain/langgraph-api:latest
+    container_name: curator_langgraph_api
+    ports:
+      - "8000:8000"
+    environment:
+      # LangGraph configuration
+      LANGGRAPH_API_KEY: ${LANGGRAPH_API_KEY:-dev-key-local-only}
+
+      # Database for state persistence
+      POSTGRES_HOST: langgraph-db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: langgraph
+      POSTGRES_USER: langgraph
+      POSTGRES_PASSWORD: ${LANGGRAPH_DB_PASSWORD:-langgraph-password}
+
+      # Redis for task queue
+      REDIS_URL: redis://langgraph-redis:6379
+
+      # External services
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    depends_on:
+      - langgraph-db
+      - langgraph-redis
+    volumes:
+      - ./workflows:/app/workflows
+      - ./utilities:/app/utilities
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+  # PostgreSQL for LangGraph state
+  langgraph-db:
+    image: postgres:16-alpine
+    container_name: curator_langgraph_db
+    environment:
+      POSTGRES_DB: langgraph
+      POSTGRES_USER: langgraph
+      POSTGRES_PASSWORD: ${LANGGRAPH_DB_PASSWORD:-langgraph-password}
+    volumes:
+      - langgraph-db-data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"  # Avoid conflict with Supabase on 5432
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+  # Redis for rate limiting, caching, and LangGraph queue
+  langgraph-redis:
+    image: redis:7-alpine
+    container_name: curator_redis
+    command: redis-server --appendonly yes ${REDIS_PASSWORD:+--requirepass $REDIS_PASSWORD}
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+  # Qdrant vector database for Mem0
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: curator_qdrant
+    ports:
+      - "6333:6333"  # HTTP API
+      - "6334:6334"  # gRPC
+    volumes:
+      - qdrant-data:/qdrant/storage
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+  # Optional: Qdrant Web UI
+  qdrant-web-ui:
+    image: qdrant/qdrant:latest
+    container_name: curator_qdrant_ui
+    ports:
+      - "6335:6333"
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+volumes:
+  langgraph-db-data:
+    driver: local
+  redis-data:
+    driver: local
+  qdrant-data:
+    driver: local
+
+networks:
+  curator-network:
+    driver: bridge

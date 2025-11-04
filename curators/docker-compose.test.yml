@@ -1,0 +1,39 @@
+# Simplified docker-compose for Phase 1 testing
+# Just the infrastructure services (LangGraph Platform not yet available)
+
+services:
+  # Redis for rate limiting, caching, and token budget
+  redis:
+    image: redis:7-alpine
+    container_name: curator_redis
+    command: redis-server --appendonly yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+  # Qdrant vector database for Mem0
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: curator_qdrant
+    ports:
+      - "6333:6333"  # HTTP API
+      - "6334:6334"  # gRPC
+    volumes:
+      - qdrant-data:/qdrant/storage
+    restart: unless-stopped
+    networks:
+      - curator-network
+
+volumes:
+  redis-data:
+    driver: local
+  qdrant-data:
+    driver: local
+
+networks:
+  curator-network:
+    driver: bridge
