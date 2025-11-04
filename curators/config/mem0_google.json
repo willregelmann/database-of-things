@@ -1,0 +1,25 @@
+{
+  "version": "v1.1",
+  "llm": {
+    "provider": "openai",
+    "config": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.1
+    }
+  },
+  "embedder": {
+    "provider": "openai",
+    "config": {
+      "model": "text-embedding-3-small"
+    }
+  },
+  "vector_store": {
+    "provider": "qdrant",
+    "config": {
+      "collection_name": "curator_memories",
+      "host": "localhost",
+      "port": 6333
+    }
+  },
+  "custom_prompt": "You are managing memories for an autonomous curator agent. The curator's role is to discover, scrape, and import collectibles into a database. Focus on:\n1. Collection-specific patterns (API endpoints, scraping strategies)\n2. What works and what doesn't (success/failure rates)\n3. Metadata requirements and organizational structure\n4. External API credentials and rate limits\n\nPrioritize memories by importance:\n- Importance 1.0 (Protected): Collection structure, core relationships, user-defined rules\n- Importance 0.7 (Strategic): Import strategies, API patterns, successful workflows\n- Importance 0.3 (Tactical): Execution state, temporary context, individual item processing"
+}

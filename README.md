@@ -1,183 +1,394 @@
-# Supabase CLI
+# Database of Things
 
-[![Coverage Status](https://coveralls.io/repos/github/supabase/cli/badge.svg?branch=main)](https://coveralls.io/github/supabase/cli?branch=main) [![Bitbucket Pipelines](https://img.shields.io/bitbucket/pipelines/supabase-cli/setup-cli/master?style=flat-square&label=Bitbucket%20Canary)](https://bitbucket.org/supabase-cli/setup-cli/pipelines) [![Gitlab Pipeline Status](https://img.shields.io/gitlab/pipeline-status/sweatybridge%2Fsetup-cli?label=Gitlab%20Canary)
-](https://gitlab.com/sweatybridge/setup-cli/-/pipelines)
+A minimal, pure graph database for managing collectibles using PostgreSQL via Supabase, with autonomous curator agents for automated imports.
 
-[Supabase](https://supabase.io) is an open source Firebase alternative. We're building the features of Firebase using enterprise-grade open source tools.
+## Overview
 
-This repository contains all the functionality for Supabase CLI.
+This project provides a flexible collectibles management system with two key components:
 
-- [x] Running Supabase locally
-- [x] Managing database migrations
-- [x] Creating and deploying Supabase Functions
-- [x] Generating types directly from your database schema
-- [x] Making authenticated HTTP requests to [Management API](https://supabase.com/docs/reference/api/introduction)
+1. **Graph Database**: Pure graph-based architecture using PostgreSQL (entities + relationships)
+2. **Curator Agents**: Autonomous AI agents that discover, scrape, and import collectibles
 
-## Getting started
+**Core Philosophy**: Everything is an entity (collections, items, variants, etc.), connected by typed relationships. No fixed schema beyond the essentials. Curators autonomously learn the best strategies for managing each collection.
 
-### Install the CLI
+## Quick Start
 
-Available via [NPM](https://www.npmjs.com) as dev dependency. To install:
+### Database Setup
 
 ```bash
-npm i supabase --save-dev
+# Start Supabase stack
+./bin/supabase start
+
+# Apply migrations
+./scripts/safe-migrate push
+
+# View Studio UI
+open http://127.0.0.1:54323
 ```
 
-To install the beta release channel:
+### Curator Setup
 
 ```bash
-npm i supabase@beta --save-dev
+cd curators
+
+# Install dependencies
+pip install -e .
+
+# Initialize environment
+curator init
+
+# Start services
+docker-compose up -d
+
+# Create your first curator
+curator setup
+
+# Run it
+curator run your-curator-id
 ```
 
-When installing with yarn 4, you need to disable experimental fetch with the following nodejs config.
+See `curators/QUICKSTART.md` for detailed setup.
+
+## Features
+
+### Graph Database
+
+- **Pure Graph Model**: Two tables (entities, relationships) handle everything
+- **Flexible Schema**: JSONB attributes for heterogeneous data
+- **GraphQL API**: Auto-generated from database schema
+- **Image Storage**: Supabase Storage with pre-generated thumbnails
+- **Optimized Indexes**: Composite, covering, BRIN, GIN indexes for fast queries
+
+### Curator Agents
+
+- **🤖 Autonomous Operation**: AI agents that learn over time
+- **🧠 Long-Term Memory**: Tiered importance strategy with Mem0
+- **💰 Token Budget Management**: Automatic cost control
+- **⚡ Rate Limiting**: Built-in throttling with exponential backoff
+- **📊 Real-Time Progress**: Structured event system for monitoring
+- **🎨 Collection-Agnostic**: Reusable utilities for any collectible type
+
+## Architecture
 
 ```
-NODE_OPTIONS=--no-experimental-fetch yarn add supabase
+┌──────────────────────────────────────────────────────────────┐
+│                      Curator Agents                          │
+│  (DeepAgents + LangGraph + Mem0 for autonomous imports)      │
+└────────────────┬─────────────────────────────────────────────┘
+                 │
+┌────────────────▼─────────────────────────────────────────────┐
+│                    Supabase Stack                            │
+│  • PostgreSQL (graph database)                               │
+│  • GraphQL API (auto-generated)                              │
+│  • Storage (images + thumbnails)                             │
+│  • Auth, Realtime, REST APIs                                 │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-> **Note**
-For Bun versions below v1.0.17, you must add `supabase` as a [trusted dependency](https://bun.sh/guides/install/trusted) before running `bun add -D supabase`.
+## Project Structure
 
-<details>
-  <summary><b>macOS</b></summary>
+```
+.
+├── curators/                   # Autonomous curator agents
+│   ├── cli/                   # CLI commands
+│   ├── core/                  # Core functionality
+│   ├── utilities/             # Collection-agnostic utilities
+│   ├── workflows/             # LangGraph workflows
+│   ├── docker-compose.yml     # Curator services
+│   ├── README.md              # Curator documentation
+│   └── QUICKSTART.md          # 5-minute setup guide
+├── scripts/                   # Helper scripts
+│   ├── safe-migrate           # Safe migration wrapper
+│   ├── db-backup              # Manual backup
+│   ├── db-restore             # Restore from backup
+│   └── thumbnails/            # Thumbnail generation
+├── supabase/                  # Supabase configuration
+│   ├── config.toml            # Supabase config
+│   └── migrations/            # Database migrations
+├── CLAUDE.md                  # Project guidelines for AI
+├── CURATOR_ARCHITECTURE_FINAL.md  # Curator design docs
+└── THUMBNAIL_QUICKSTART.md    # Thumbnail system guide
+```
 
-  Available via [Homebrew](https://brew.sh). To install:
+## Database Schema
 
-  ```sh
-  brew install supabase/tap/supabase
-  ```
+### Entities Table
 
-  To install the beta release channel:
-  
-  ```sh
-  brew install supabase/tap/supabase-beta
-  brew link --overwrite supabase-beta
-  ```
-  
-  To upgrade:
+Everything is an entity:
 
-  ```sh
-  brew upgrade supabase
-  ```
-</details>
+```sql
+CREATE TABLE entities (
+  id UUID PRIMARY KEY,
+  type TEXT NOT NULL,              -- "collection", "card", "figure", etc.
+  name TEXT NOT NULL,
+  year INT,
+  country CHAR(2),                 -- ISO country code
+  language CHAR(2),                -- ISO language code
+  image_url TEXT,                  -- Original image path
+  thumbnail_url TEXT,              -- Pre-generated thumbnail
+  attributes JSONB,                -- Flexible JSONB data
+  created_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ
+);
+```
 
-<details>
-  <summary><b>Windows</b></summary>
+### Relationships Table
 
-  Available via [Scoop](https://scoop.sh). To install:
+Typed connections between entities:
 
-  ```powershell
-  scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
-  scoop install supabase
-  ```
+```sql
+CREATE TABLE relationships (
+  id UUID PRIMARY KEY,
+  from_id UUID REFERENCES entities(id),
+  to_id UUID REFERENCES entities(id),
+  type TEXT NOT NULL,              -- "contains", "variant_of", "part_of"
+  "order" INT,                     -- Sort order for collections
+  attributes JSONB,                -- Relationship-specific data
+  created_at TIMESTAMPTZ
+);
+```
 
-  To upgrade:
+### Common Patterns
 
-  ```powershell
-  scoop update supabase
-  ```
-</details>
+**Collection Hierarchy**:
+```
+Franchise → Game → Expansion → Card
+(all "contains" relationships)
+```
 
-<details>
-  <summary><b>Linux</b></summary>
+**Variants**:
+```
+Base Item ← Variant Item
+(variant_of relationship)
+```
 
-  Available via [Homebrew](https://brew.sh) and Linux packages.
+**Components**:
+```
+Whole Item ← Component
+(part_of relationship)
+```
 
-  #### via Homebrew
+## Key Workflows
 
-  To install:
-
-  ```sh
-  brew install supabase/tap/supabase
-  ```
-
-  To upgrade:
-
-  ```sh
-  brew upgrade supabase
-  ```
-
-  #### via Linux packages
-
-  Linux packages are provided in [Releases](https://github.com/supabase/cli/releases). To install, download the `.apk`/`.deb`/`.rpm`/`.pkg.tar.zst` file depending on your package manager and run the respective commands.
-
-  ```sh
-  sudo apk add --allow-untrusted <...>.apk
-  ```
-
-  ```sh
-  sudo dpkg -i <...>.deb
-  ```
-
-  ```sh
-  sudo rpm -i <...>.rpm
-  ```
-
-  ```sh
-  sudo pacman -U <...>.pkg.tar.zst
-  ```
-</details>
-
-<details>
-  <summary><b>Other Platforms</b></summary>
-
-  You can also install the CLI via [go modules](https://go.dev/ref/mod#go-install) without the help of package managers.
-
-  ```sh
-  go install github.com/supabase/cli@latest
-  ```
-
-  Add a symlink to the binary in `$PATH` for easier access:
-
-  ```sh
-  ln -s "$(go env GOPATH)/bin/cli" /usr/bin/supabase
-  ```
-
-  This works on other non-standard Linux distros.
-</details>
-
-<details>
-  <summary><b>Community Maintained Packages</b></summary>
-
-  Available via [pkgx](https://pkgx.sh/). Package script [here](https://github.com/pkgxdev/pantry/blob/main/projects/supabase.com/cli/package.yml).
-  To install in your working directory:
-
-  ```bash
-  pkgx install supabase
-  ```
-
-  Available via [Nixpkgs](https://nixos.org/). Package script [here](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/tools/supabase-cli/default.nix).
-</details>
-
-### Run the CLI
+### 1. Manual Import (Traditional)
 
 ```bash
-supabase bootstrap
+# Direct SQL or GraphQL
+# See CLAUDE.md for query examples
 ```
 
-Or using npx:
+### 2. Automated Import (Curators)
 
 ```bash
-npx supabase bootstrap
+# Create curator for your collection
+cd curators
+curator setup
+
+# Run it (learns over time)
+curator run pokemon-tcg
+
+# Monitor progress
+curator status pokemon-tcg
+curator budget pokemon-tcg
 ```
 
-The bootstrap command will guide you through the process of setting up a Supabase project using one of the [starter](https://github.com/supabase-community/supabase-samples/blob/main/samples.json) templates.
+### 3. Image Management
 
-## Docs
+```bash
+# Generate thumbnails for existing images
+cd scripts/thumbnails
+npm install
+npm run backfill
 
-Command & config reference can be found [here](https://supabase.com/docs/reference/cli/about).
-
-## Breaking changes
-
-We follow semantic versioning for changes that directly impact CLI commands, flags, and configurations.
-
-However, due to dependencies on other service images, we cannot guarantee that schema migrations, seed.sql, and generated types will always work for the same CLI major version. If you need such guarantees, we encourage you to pin a specific version of CLI in package.json.
-
-## Developing
-
-To run from source:
-
-```sh
-# Go >= 1.22
-go run . help
+# See THUMBNAIL_QUICKSTART.md for details
 ```
+
+## Documentation
+
+- **`CLAUDE.md`**: Comprehensive project guide
+- **`curators/README.md`**: Curator agent documentation
+- **`curators/QUICKSTART.md`**: 5-minute curator setup
+- **`CURATOR_ARCHITECTURE_FINAL.md`**: Curator design and implementation
+- **`THUMBNAIL_QUICKSTART.md`**: Image optimization guide
+- **`BACKUP_SYSTEM.md`**: Database backup documentation
+
+## Development Commands
+
+### Supabase
+
+```bash
+# Start services
+./bin/supabase start
+
+# Check status
+./bin/supabase status
+
+# View logs
+./bin/supabase logs
+
+# Stop services
+./bin/supabase stop
+```
+
+### Database
+
+```bash
+# Create migration
+./bin/supabase migration new name
+
+# Apply migrations (with automatic backup)
+./scripts/safe-migrate push
+
+# Reset database (with confirmation)
+./scripts/safe-migrate reset
+
+# Manual backup
+./scripts/db-backup
+
+# Restore backup
+./scripts/db-restore backups/backup_*.sql
+```
+
+### Curators
+
+```bash
+cd curators
+
+# Setup new curator
+curator setup
+
+# List curators
+curator list
+
+# Run curator
+curator run <id>
+
+# Check status
+curator status <id>
+
+# View token budget
+curator budget <id>
+```
+
+## Curator Examples
+
+### Pokémon TCG
+
+```bash
+curator setup
+# ID: pokemon-tcg
+# Type: cards
+# API: pokemontcg.io
+
+curator run pokemon-tcg
+```
+
+### Power Rangers Toys
+
+```bash
+curator setup
+# ID: power-rangers
+# Type: toys
+# Source: GRNRngr.com scraping
+
+curator run power-rangers
+```
+
+### Custom Collection
+
+```bash
+curator setup
+# ID: your-collection
+# Provide custom prompt and data sources
+
+curator run your-collection --instructions "Import only items from 2023"
+```
+
+## Cost Savings
+
+### Image Thumbnails
+
+Pre-generating 300x300 WebP thumbnails achieves:
+
+- **97.6% size reduction** (measured on production images)
+- **$60,300/year saved** at 100K images (vs Supabase Pro image transforms)
+- **Instant loading** (no on-demand processing)
+
+### Token Budget Management
+
+Curators automatically enforce daily token limits:
+
+- Default: 1,000,000 tokens/day
+- 10% buffer reserved for critical operations
+- Real-time tracking via Redis
+- Prevents runaway costs
+
+## Deployment
+
+### Local Development
+
+```bash
+# Supabase
+./bin/supabase start
+
+# Curators
+cd curators && docker-compose up -d
+```
+
+### Production
+
+**Supabase**: Deploy to [Supabase Cloud](https://supabase.com) or self-host
+
+**Curators**: Self-hosted via Docker Compose (included)
+
+See `curators/README.md` for scaling and deployment details.
+
+## Contributing
+
+This is a personal project, but contributions are welcome:
+
+1. Follow existing architecture
+2. Test thoroughly
+3. Update documentation
+4. File issues for bugs
+
+## Roadmap
+
+### Phase 1: Foundation ✅ (Weeks 1-2)
+
+- [x] Graph database schema
+- [x] Image optimization system
+- [x] Curator framework
+- [x] Collection-agnostic utilities
+- [x] CLI and setup wizard
+
+### Phase 2: Reference Curator (Weeks 3-4)
+
+- [ ] Pokémon TCG reference implementation
+- [ ] End-to-end workflow testing
+- [ ] Memory strategy refinement
+- [ ] Best practices documentation
+
+### Phase 3: Multiple Curators (Weeks 5-6)
+
+- [ ] Scheduling support
+- [ ] Curator coordination
+- [ ] Manual approval workflow
+- [ ] Dashboard (optional)
+
+### Phase 4: Optimization (Weeks 7-8)
+
+- [ ] Performance tuning
+- [ ] Cost reduction
+- [ ] Production deployment guide
+- [ ] Monitoring and observability
+
+## License
+
+MIT License - see LICENSE file
+
+## Support
+
+- File issues in the repository
+- Check `CLAUDE.md` for detailed documentation
+- See `curators/README.md` for curator-specific help

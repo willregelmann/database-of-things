@@ -121,7 +121,8 @@ The schema consists of only two tables:
 - `year` (INT): Optional universal year attribute
 - `country` (CHAR(2)): Optional ISO country code
 - `language` (CHAR(2)): Optional ISO 639-1 language code (e.g., "en", "ja", "es")
-- `image_url` (TEXT): Image URL path - local storage uses `/storage/v1/object/public/images/uuid.ext`, external URLs stored as-is
+- `image_url` (TEXT): Image URL path - local storage uses `/storage/v1/object/public/images/originals/uuid.ext`, external URLs stored as-is
+- `thumbnail_url` (TEXT): Optional pre-generated thumbnail path (typically 300x300 WebP) - `/storage/v1/object/public/images/thumbnails/uuid.webp`
 - `attributes` (JSONB): All other data (description, additional images, external IDs, custom fields)
 - Timestamps: `created_at`, `updated_at`
 
@@ -138,7 +139,7 @@ The schema consists of only two tables:
 ### Design Patterns
 
 **JSONB Attributes Philosophy**:
-- Only universally applicable fields are columns (`name`, `type`, `year`, `country`, `language`, `image_url`)
+- Only universally applicable fields are columns (`name`, `type`, `year`, `country`, `language`, `image_url`, `thumbnail_url`)
 - For relationships, commonly-used fields like `order` are dedicated columns
 - Everything else goes in `attributes` JSONB (additional images, external IDs, custom metadata)
 - Allows heterogeneous entity types without schema changes
@@ -172,6 +173,7 @@ The schema consists of only two tables:
 - `idx_entities_name_trgm`: Fuzzy name search (GIN trigram)
 - `idx_entities_language`: Filter by language
 - `idx_entities_image_url`: Image URL lookups (partial index, only non-null values)
+- `idx_entities_thumbnail_url`: Thumbnail URL lookups (partial index, only non-null values)
 - `idx_entities_attributes`: JSONB path queries (GIN)
 - `idx_entities_search`: Full-text search on name
 
@@ -188,14 +190,15 @@ Supabase automatically generates GraphQL types from your database schema.
 ### Query Examples
 
 ```graphql
-# Get all collections
+# Get all collections with thumbnails
 query {
   entitiesCollection(filter: {type: {eq: "collection"}}) {
     edges {
       node {
         id
         name
-        image_url
+        image_url       # Full resolution original
+        thumbnail_url   # 300x300 WebP thumbnail
         attributes
       }
     }
@@ -252,17 +255,89 @@ The `images` bucket is automatically created via migration and configured for:
 - **File size limit** - 5MB max per image
 - **Allowed types** - JPEG, PNG, GIF, WebP
 
+### Image Optimization Strategy
+
+**⚠️ IMPORTANT**: Supabase image transformations require **Pro Plan** ($25/month, $5 per 1,000 transforms).
+
+**For Free Tier deployments**, use pre-generated thumbnails:
+
+| Field | Purpose | Example |
+|-------|---------|---------|
+| `image_url` | Full-resolution original | `/storage/v1/object/public/images/originals/{uuid}.jpg` |
+| `thumbnail_url` | 300x300 WebP thumbnail | `/storage/v1/object/public/images/thumbnails/{uuid}.webp` |
+
+**Storage structure**:
+```
+images/
+  originals/
+    {uuid}.jpg           # Full resolution (200-500 KB)
+    {uuid}.png
+  thumbnails/
+    {uuid}.webp          # 300x300 WebP (20-50 KB, ~90% savings)
+```
+
+**Benefits**:
+- ✅ **90-95% size reduction** for list views and grids
+- ✅ **$0 cost** (vs $5,000/month for 100K images × 10 views)
+- ✅ **Works on Free Tier** (no Pro Plan required)
+- ✅ **Instant delivery** (no on-demand processing)
+
+### Generating Thumbnails
+
+**For existing images** (backfill):
+```bash
+# If using Supabase CLI (credentials auto-detected):
+./scripts/generate-all-thumbnails
+
+# Or manually:
+cd scripts/thumbnails
+npm install
+npm run backfill -- --dry-run  # Preview first
+npm run backfill               # Process all entities
+```
+
+**Note**: If you have Supabase CLI linked (`supabase link`), credentials are auto-detected. Otherwise, create `.env` file with your credentials.
+
+**For new uploads** (in your application):
+```javascript
+import { generateThumbnailFromBuffer } from './scripts/thumbnails/generate-thumbnails.js';
+
+// Generate thumbnail when uploading
+const thumbnailBuffer = await generateThumbnailFromBuffer(imageBuffer, {
+  size: 300,
+  quality: 85
+});
+
+// Upload both original and thumbnail
+await supabase.storage.from('images').upload(`originals/${uuid}.jpg`, imageBuffer);
+await supabase.storage.from('images').upload(`thumbnails/${uuid}.webp`, thumbnailBuffer);
+
+// Create entity with both URLs
+await supabase.from('entities').insert({
+  id: uuid,
+  name: 'Charizard',
+  image_url: `/storage/v1/object/public/images/originals/${uuid}.jpg`,
+  thumbnail_url: `/storage/v1/object/public/images/thumbnails/${uuid}.webp`
+});
+```
+
+See `scripts/thumbnails/README.md` for detailed instructions.
+
 ### Image URL Pattern
 
-The `image_url` column stores URL paths (not full URLs) using two patterns:
+The `image_url` and `thumbnail_url` columns store URL paths (not full URLs):
 
 **1. Supabase Storage Paths** (recommended):
 ```sql
-INSERT INTO entities (name, image_url)
-VALUES ('Charizard', '/storage/v1/object/public/images/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.png');
+INSERT INTO entities (name, image_url, thumbnail_url)
+VALUES (
+  'Charizard',
+  '/storage/v1/object/public/images/originals/34a6d4a2.jpg',
+  '/storage/v1/object/public/images/thumbnails/34a6d4a2.webp'
+);
 ```
 
-**2. External URLs** (for external images):
+**2. External URLs** (for external images without thumbnails):
 ```sql
 INSERT INTO entities (name, image_url)
 VALUES ('Charizard', 'https://images.pokemontcg.io/base1/4.png');
@@ -272,16 +347,25 @@ VALUES ('Charizard', 'https://images.pokemontcg.io/base1/4.png');
 
 **Local development**:
 ```
-http://127.0.0.1:54321/storage/v1/object/public/images/uuid.png
+# Original
+http://127.0.0.1:54321/storage/v1/object/public/images/originals/uuid.jpg
+
+# Thumbnail
+http://127.0.0.1:54321/storage/v1/object/public/images/thumbnails/uuid.webp
 ```
 
 **Production**:
 ```
-https://yourproject.supabase.co/storage/v1/object/public/images/uuid.png
+# Original
+https://yourproject.supabase.co/storage/v1/object/public/images/originals/uuid.jpg
+
+# Thumbnail
+https://yourproject.supabase.co/storage/v1/object/public/images/thumbnails/uuid.webp
 ```
 
-**With transformations** (resize, format, quality):
+**Image transformations** (local dev only, requires Pro Plan in production):
 ```
+# Only works if [storage.image_transformation] enabled = true in config.toml
 http://127.0.0.1:54321/storage/v1/object/public/images/uuid.png?width=300&height=400
 ```
 
@@ -311,13 +395,14 @@ VALUES ('Charizard', 'card', '/storage/v1/object/public/images/34a6d4a2-50d6-459
 
 ### Entity Examples
 
-**Using external URL**:
+**Using external URL** (no thumbnail):
 ```json
 {
   "id": "uuid-here",
   "name": "Charizard",
   "type": "card",
   "image_url": "https://images.pokemontcg.io/base1/4.png",
+  "thumbnail_url": null,
   "attributes": {
     "hp": 120,
     "card_number": "4/102"
@@ -325,19 +410,20 @@ VALUES ('Charizard', 'card', '/storage/v1/object/public/images/34a6d4a2-50d6-459
 }
 ```
 
-**Using Supabase Storage**:
+**Using Supabase Storage** (with thumbnail):
 ```json
 {
-  "id": "uuid-here",
+  "id": "34a6d4a2-50d6-459e-9ae8-f29271f0e16d",
   "name": "Blastoise",
   "type": "card",
-  "image_url": "/storage/v1/object/public/images/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.jpg",
+  "image_url": "/storage/v1/object/public/images/originals/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.jpg",
+  "thumbnail_url": "/storage/v1/object/public/images/thumbnails/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.webp",
   "attributes": {
     "hp": 100,
     "card_number": "2/102",
     "images": [
-      "/storage/v1/object/public/images/34a6d4a2-front.jpg",
-      "/storage/v1/object/public/images/34a6d4a2-back.jpg"
+      "/storage/v1/object/public/images/originals/34a6d4a2-front.jpg",
+      "/storage/v1/object/public/images/originals/34a6d4a2-back.jpg"
     ]
   }
 }
@@ -359,6 +445,7 @@ Migrations are stored in `supabase/migrations/` and run automatically on `supaba
 - `20251024191322_convert_image_key_to_image_url_paths.sql`: Convert image_key to image_url with path-based storage
 - `20251021064735_create_collectible_images_bucket.sql`: Create images storage bucket with policies (originally collectible-images)
 - `20251021065503_rename_images_bucket.sql`: Rename bucket from collectible-images to images
+- `20251102000000_add_thumbnail_url.sql`: Add thumbnail_url column for pre-generated thumbnails (Free Tier optimization)
 
 **To add new migrations**:
 ```bash
@@ -403,9 +490,15 @@ SELECT * FROM entities
 WHERE attributes @> '{"tcgplayer_id": "base1-4"}';
 
 -- Extract JSONB values and standard columns
-SELECT name, image_url, attributes->>'hp' as hp
+SELECT name, image_url, thumbnail_url, attributes->>'hp' as hp
 FROM entities
 WHERE type = 'card';
+
+-- Find entities missing thumbnails (for backfill)
+SELECT id, name, image_url
+FROM entities
+WHERE image_url IS NOT NULL
+  AND thumbnail_url IS NULL;
 ```
 
 ### Relationship Queries
