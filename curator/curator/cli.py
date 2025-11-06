@@ -13,19 +13,63 @@ from supabase import create_client
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
-load_dotenv()
-
 console = Console()
+
+
+def load_env_file(env: str = None):
+    """Load environment-specific .env file.
+
+    Args:
+        env: Environment name (e.g., "production", "local")
+             If None, loads .env or .env.local
+    """
+    curator_dir = Path.cwd() / "curator"
+
+    if env:
+        env_file = curator_dir / f".env.{env}"
+        if not env_file.exists():
+            console.print(f"[red]Error: Environment file not found: {env_file}[/]")
+            console.print(f"[yellow]Create {env_file} with your {env} credentials[/]")
+            return False
+        load_dotenv(env_file)
+        console.print(f"[dim]Loaded environment: {env}[/]\n")
+    else:
+        # Try .env.local first, then .env
+        local_env = curator_dir / ".env.local"
+        default_env = curator_dir / ".env"
+
+        if local_env.exists():
+            load_dotenv(local_env)
+            console.print(f"[dim]Loaded environment: local[/]\n")
+        elif default_env.exists():
+            load_dotenv(default_env)
+            console.print(f"[dim]Loaded environment: default[/]\n")
+        else:
+            console.print(f"[yellow]No .env file found in {curator_dir}/[/]")
+
+    return True
 
 
 @click.group()
 @click.version_option(version="0.1.0")
-def main():
+@click.option("--env", help="Environment to use (e.g., 'production', 'local')")
+@click.pass_context
+def main(ctx, env):
     """Curator - Agentic collection management system.
 
     Create and manage curator agents that autonomously maintain collections.
+
+    Examples:
+      curator init "Pokemon TCG"
+      curator --env production run "Pokemon TCG"
+      curator --env local status "Pokemon TCG"
     """
-    pass
+    # Store env in context for subcommands
+    ctx.ensure_object(dict)
+    ctx.obj['env'] = env
+
+    # Load environment
+    load_env_file(env)
 
 
 @main.command()

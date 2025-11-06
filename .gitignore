@@ -58,3 +58,8 @@ Thumbs.db
 # Curator system
 .curator/
 curator/.env
+curator/.env.local
+curator/.env.production
+curator/.env.staging
+curator/.env.*
+!curator/.env.*.example
