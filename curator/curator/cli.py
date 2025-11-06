@@ -5,6 +5,14 @@ from rich.console import Console
 from rich.table import Table
 from pathlib import Path
 import os
+from curator.discovery import DiscoverySession
+from curator.storage import CuratorStorage
+from curator.tools import CuratorTools
+from supabase import create_client
+from anthropic import Anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
 
 console = Console()
 
@@ -26,20 +34,95 @@ def init(name: str, collection_id: str = None):
     """Initialize a new curator with interactive discovery.
 
     NAME: Curator name (e.g., "Pokemon TCG")
-
-    This starts an interactive discovery session where you'll design
-    the curator's workflow, data sources, and organization strategy.
     """
     console.print(f"\n[bold blue]Initializing curator:[/] {name}\n")
 
-    # TODO: Implement discovery session
-    console.print("[yellow]Discovery session not yet implemented[/]")
-    console.print("\nWill implement:")
-    console.print("  1. Interactive conversation to design curator")
-    console.print("  2. Generate plan document")
-    console.print("  3. Generate data fetching scripts")
-    console.print("  4. Collect API keys/secrets")
-    console.print("  5. Save curator configuration")
+    # Check if curator already exists
+    storage = CuratorStorage()
+    if storage.curator_exists(name):
+        console.print(f"[red]Error: Curator '{name}' already exists[/]")
+        return
+
+    # Get credentials
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    supabase_url = os.getenv("SUPABASE_URL")
+    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
+
+    if not anthropic_key:
+        console.print("[red]Error: ANTHROPIC_API_KEY not found in environment[/]")
+        console.print("Set it in .env file or environment variables")
+        return
+
+    if not supabase_url or not supabase_key:
+        console.print("[red]Error: Supabase credentials not found[/]")
+        console.print("Set SUPABASE_URL and SUPABASE_SERVICE_KEY in .env")
+        return
+
+    # Create Supabase client
+    supabase = create_client(supabase_url, supabase_key)
+
+    # Create or get collection
+    if collection_id is None:
+        console.print("[yellow]No collection ID provided. Creating new collection...[/]")
+        result = supabase.table("entities").insert({
+            "name": name,
+            "type": "collection"
+        }).execute()
+        collection_id = result.data[0]["id"]
+        console.print(f"[green]✓ Created collection: {collection_id}[/]\n")
+
+    # Run discovery session
+    session = DiscoverySession(
+        curator_name=name,
+        collection_id=collection_id,
+        anthropic_key=anthropic_key,
+        supabase_client=supabase
+    )
+
+    try:
+        artifacts = session.run()
+
+        # Save artifacts
+        storage.create_curator_directory(name)
+        storage.save_plan(name, artifacts["plan"])
+        storage.save_scripts(name, artifacts["scripts"])
+
+        # Save config
+        config = artifacts.get("config", {})
+        config["collection_id"] = collection_id
+        storage.save_config(name, config)
+
+        # Prompt for secrets
+        secrets_list = artifacts.get("secrets", [])
+        if secrets_list:
+            console.print("\n[bold yellow]📝 Configure Secrets[/]\n")
+            secrets = {}
+            for secret in secrets_list:
+                console.print(f"[bold]{secret['key']}[/]: {secret['description']}")
+                value = console.input("  Value (or press Enter to skip): ").strip()
+                if value:
+                    secrets[secret['key']] = value
+
+            if secrets:
+                storage.save_secrets(name, secrets)
+                console.print(f"\n[green]✓ Saved {len(secrets)} secrets[/]")
+
+        # Save to database
+        supabase.table("curators").insert({
+            "name": name,
+            "collection_id": collection_id,
+            "config": config
+        }).execute()
+
+        console.print(f"\n[bold green]✓ Curator '{name}' initialized successfully![/]\n")
+        console.print(f"Run with: [bold]curator run \"{name}\"[/]")
+
+    except KeyboardInterrupt:
+        console.print("\n\n[yellow]Discovery cancelled[/]")
+    except Exception as e:
+        console.print(f"\n[red]Error during discovery: {e}[/]")
+        import traceback
+        traceback.print_exc()
 
 
 @main.command()
