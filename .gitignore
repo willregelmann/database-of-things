@@ -20,9 +20,6 @@ supabase/.branches/
 # Docker volumes
 .docker/
 
-# pgAdmin
-pgadmin/storage/
-
 # Python virtual environments
 venv/
 env/
@@ -32,10 +29,6 @@ env/
 # Python build artifacts
 *.egg-info/
 *.egg
-
-# Curator runtime artifacts
-curators/artifacts/
-curators/workflows/
 
 # Node modules (if any frontend is added later)
 node_modules/
@@ -61,3 +54,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 .cache/
+
+# Curator system
+.curator/
+curator/.env
