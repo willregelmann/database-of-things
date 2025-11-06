@@ -62,15 +62,72 @@ def init(name: str, collection_id: str = None):
     # Create Supabase client
     supabase = create_client(supabase_url, supabase_key)
 
-    # Create or get collection
+    # Smart collection search and selection
     if collection_id is None:
-        console.print("[yellow]No collection ID provided. Creating new collection...[/]")
-        result = supabase.table("entities").insert({
-            "name": name,
-            "type": "collection"
-        }).execute()
-        collection_id = result.data[0]["id"]
-        console.print(f"[green]✓ Created collection: {collection_id}[/]\n")
+        console.print(f"[cyan]Searching for existing collections matching \"{name}\"...[/]\n")
+
+        # Search for collections by name similarity
+        search_results = supabase.table("entities").select(
+            "id, name, created_at"
+        ).eq("type", "collection").ilike("name", f"%{name}%").execute()
+
+        if search_results.data:
+            console.print(f"[green]Found {len(search_results.data)} existing collection(s):[/]\n")
+
+            # Display matches with stats
+            for idx, collection in enumerate(search_results.data, 1):
+                # Get entity count
+                count_result = supabase.table("relationships").select(
+                    "id", count="exact"
+                ).eq("from_id", collection["id"]).eq("type", "contains").execute()
+
+                entity_count = count_result.count or 0
+                created = collection["created_at"][:10] if collection.get("created_at") else "Unknown"
+
+                console.print(f"  {idx}. [bold]{collection['name']}[/]")
+                console.print(f"     ID: {collection['id']}")
+                console.print(f"     Entities: {entity_count} | Created: {created}")
+                console.print()
+
+            # Ask user
+            console.print("[bold yellow]? Use existing collection or create new?[/]")
+            console.print(f"  [1-{len(search_results.data)}] Use existing collection (enter number)")
+            console.print(f"  [n] Create new collection \"{name}\"")
+            console.print(f"  [q] Cancel")
+            console.print()
+
+            choice = console.input("[bold blue]Your choice:[/] ").strip().lower()
+
+            if choice == 'q':
+                console.print("[yellow]Cancelled[/]")
+                return
+            elif choice == 'n':
+                # Create new collection
+                result = supabase.table("entities").insert({
+                    "name": name,
+                    "type": "collection"
+                }).execute()
+                collection_id = result.data[0]["id"]
+                console.print(f"\n[green]✓ Created new collection: {collection_id}[/]\n")
+            elif choice.isdigit() and 1 <= int(choice) <= len(search_results.data):
+                # Use existing collection
+                collection_id = search_results.data[int(choice) - 1]["id"]
+                collection_name = search_results.data[int(choice) - 1]["name"]
+                console.print(f"\n[green]✓ Using existing collection: {collection_name}[/]\n")
+            else:
+                console.print(f"[red]Invalid choice: {choice}[/]")
+                return
+        else:
+            # No matches found, create new
+            console.print(f"[yellow]No existing collections found matching \"{name}\"[/]")
+            console.print(f"[cyan]Creating new collection...[/]\n")
+
+            result = supabase.table("entities").insert({
+                "name": name,
+                "type": "collection"
+            }).execute()
+            collection_id = result.data[0]["id"]
+            console.print(f"[green]✓ Created collection: {collection_id}[/]\n")
 
     # Run discovery session
     session = DiscoverySession(
