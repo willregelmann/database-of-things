@@ -23,7 +23,19 @@ def load_env_file(env: str = None):
         env: Environment name (e.g., "production", "local")
              If None, loads .env or .env.local
     """
-    curator_dir = Path.cwd() / "curator"
+    # Detect if we're in curator/ directory or project root
+    cwd = Path.cwd()
+
+    # Check if current directory has curator package (we're in curator/)
+    if (cwd / "curator" / "__init__.py").exists():
+        curator_dir = cwd
+    # Otherwise look for curator/ subdirectory (we're in project root)
+    elif (cwd / "curator" / "curator" / "__init__.py").exists():
+        curator_dir = cwd / "curator"
+    else:
+        console.print(f"[red]Error: Could not find curator directory[/]")
+        console.print(f"[yellow]Run from project root or curator/ directory[/]")
+        return False
 
     if env:
         env_file = curator_dir / f".env.{env}"
