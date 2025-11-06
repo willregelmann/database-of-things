@@ -218,14 +218,94 @@ def status(name: str, runs: int = 10):
     """
     console.print(f"\n[bold blue]Status for:[/] {name}\n")
 
-    # TODO: Implement status display
-    console.print("[yellow]Status display not yet implemented[/]")
-    console.print("\nWill show:")
-    console.print("  • Curator configuration")
-    console.print("  • Collection statistics")
-    console.print("  • Last run time and result")
-    console.print("  • Next scheduled run")
-    console.print("  • Recent run history")
+    # Get credentials
+    supabase_url = os.getenv("SUPABASE_URL")
+    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
+
+    if not supabase_url or not supabase_key:
+        console.print("[red]Error: Supabase credentials not found[/]")
+        return
+
+    # Create clients
+    storage = CuratorStorage()
+    supabase = create_client(supabase_url, supabase_key)
+
+    # Check curator exists
+    if not storage.curator_exists(name):
+        console.print(f"[red]Error: Curator '{name}' not found[/]")
+        return
+
+    # Load config
+    config = storage.load_config(name)
+
+    # Get curator from database
+    curator_result = supabase.table("curators").select("*").eq("name", name).single().execute()
+    curator = curator_result.data
+
+    # Get collection stats
+    collection_id = curator["collection_id"]
+    tools = CuratorTools(collection_id, supabase)
+    stats = tools.get_collection_stats()
+
+    # Display curator info
+    console.print("[bold]Curator Configuration:[/]")
+    console.print(f"  Collection ID: {collection_id}")
+    console.print(f"  Status: {curator['status']}")
+    console.print(f"  Created: {curator['created_at']}")
+    console.print(f"  Last run: {curator['last_run_at'] or 'Never'}")
+    console.print()
+
+    # Display collection stats
+    console.print("[bold]Collection Statistics:[/]")
+    console.print(f"  Total entities: {stats['total_entities']}")
+    console.print(f"  Subcollections: {stats['total_subcollections']}")
+    console.print(f"  Embedding coverage: {stats['has_embeddings']}/{stats['total_entities']}")
+    console.print(f"  Thumbnail coverage: {stats['has_thumbnails']}/{stats['total_entities']}")
+    console.print()
+
+    # Display entities by type
+    if stats['entities_by_type']:
+        console.print("[bold]Entities by Type:[/]")
+        for entity_type, count in stats['entities_by_type'].items():
+            console.print(f"  {entity_type}: {count}")
+        console.print()
+
+    # Get recent runs
+    runs_result = supabase.table("curator_runs").select("*").eq(
+        "curator_id", curator["id"]
+    ).order("started_at", desc=True).limit(runs).execute()
+
+    if runs_result.data:
+        console.print(f"[bold]Recent Runs ({len(runs_result.data)}):[/]")
+
+        table = Table(show_header=True, header_style="bold")
+        table.add_column("Started")
+        table.add_column("Trigger")
+        table.add_column("Status")
+        table.add_column("Operations")
+        table.add_column("Duration")
+
+        for run in runs_result.data:
+            started = run["started_at"][:16].replace("T", " ")
+            status_color = {"completed": "green", "failed": "red", "running": "yellow"}.get(run["status"], "white")
+            status = f"[{status_color}]{run['status']}[/{status_color}]"
+
+            duration = "?"
+            if run.get("completed_at"):
+                from datetime import datetime
+                start = datetime.fromisoformat(run["started_at"])
+                end = datetime.fromisoformat(run["completed_at"])
+                duration = str(end - start)
+
+            table.add_row(
+                started,
+                run["trigger"],
+                status,
+                str(run.get("operations_count", 0)),
+                duration
+            )
+
+        console.print(table)
 
 
 @main.command()
