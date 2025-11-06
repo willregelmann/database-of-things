@@ -8,6 +8,7 @@ import os
 from curator.discovery import DiscoverySession
 from curator.storage import CuratorStorage
 from curator.tools import CuratorTools
+from curator.runner import CuratorRunner
 from supabase import create_client
 from anthropic import Anthropic
 from dotenv import load_dotenv
@@ -132,17 +133,61 @@ def run(name: str, dry_run: bool = False):
     """Run a curator manually.
 
     NAME: Curator name to run
-
-    This triggers a manual curator run, where the agent assesses the
-    collection state and decides what actions to take.
     """
     console.print(f"\n[bold blue]Running curator:[/] {name}\n")
 
     if dry_run:
         console.print("[yellow]DRY RUN - No changes will be made[/]\n")
 
-    # TODO: Implement curator run
-    console.print("[yellow]Curator run not yet implemented[/]")
+    # Get credentials
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    supabase_url = os.getenv("SUPABASE_URL")
+    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
+
+    if not all([anthropic_key, supabase_url, supabase_key]):
+        console.print("[red]Error: Missing credentials in environment[/]")
+        return
+
+    # Create clients
+    storage = CuratorStorage()
+    supabase = create_client(supabase_url, supabase_key)
+
+    # Check curator exists
+    if not storage.curator_exists(name):
+        console.print(f"[red]Error: Curator '{name}' not found[/]")
+        console.print(f"Run: [bold]curator init \"{name}\"[/]")
+        return
+
+    # Load secrets
+    secrets = storage.load_secrets(name)
+    for key, value in secrets.items():
+        os.environ[key] = value
+
+    # Create runner
+    runner = CuratorRunner(
+        curator_name=name,
+        storage=storage,
+        supabase_client=supabase,
+        anthropic_key=anthropic_key
+    )
+
+    try:
+        result = runner.run(dry_run=dry_run)
+
+        if result["status"] == "completed":
+            console.print(f"\n[bold green]✓ Run completed successfully[/]")
+            console.print(f"Operations: {result['operations_count']}")
+            console.print(f"Run ID: {result['run_id']}")
+        else:
+            console.print(f"\n[bold red]✗ Run failed[/]")
+            console.print(f"Error: {result.get('error', 'Unknown')}")
+
+    except KeyboardInterrupt:
+        console.print("\n\n[yellow]Run cancelled[/]")
+    except Exception as e:
+        console.print(f"\n[red]Error: {e}[/]")
+        import traceback
+        traceback.print_exc()
 
 
 @main.command()
