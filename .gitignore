@@ -56,10 +56,17 @@ Thumbs.db
 .cache/
 
 # Curator system
-.curator/
 curator/.env
 curator/.env.local
 curator/.env.production
 curator/.env.staging
 curator/.env.*
 !curator/.env.*.example
+
+# Curator secrets
+.curator/curators/*/secrets.env
+
+# Curator temporary files
+.curator/curators/*/fetched_data.json
+.curator/curators/*/scripts/__pycache__/
+.curator/curators/*/scripts/*.pyc
