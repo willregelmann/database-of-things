@@ -14,6 +14,7 @@ Supabase image transformations require **Pro Plan** ($25/month). This script gen
 - ✅ **Dry-run mode** - Test before making changes
 - ✅ **Progress tracking** - Shows download size, thumbnail size, and savings
 - ✅ **Error handling** - Continues processing even if some images fail
+- ✅ **Cursor-based pagination** - Processes unlimited entities in one run (no Supabase offset limit)
 
 ## Setup
 

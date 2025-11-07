@@ -3,6 +3,7 @@
 from typing import Dict, List, Optional, Any
 from uuid import UUID
 import logging
+import os
 from datetime import datetime, timedelta
 
 logger = logging.getLogger(__name__)
@@ -304,6 +305,111 @@ class CuratorTools:
 
         return entity_id
 
+    def execute_script(
+        self,
+        script_name: str,
+        args: Optional[Dict[str, Any]] = None
+    ) -> Dict[str, Any]:
+        """Execute a curator script from the scripts/ directory.
+
+        Args:
+            script_name: Name of the script file (e.g., "fetch_rangerwiki.py")
+            args: Optional arguments to pass to the script as JSON
+
+        Returns:
+            {
+                "success": bool,
+                "output": str,
+                "error": str or None,
+                "exit_code": int
+            }
+
+        Example:
+            execute_script("fetch_rangerwiki.py", {"series": "Mighty Morphin"})
+        """
+        import subprocess
+        import json
+        from pathlib import Path
+
+        # Get curator scripts directory - use absolute path
+        curator_home = Path(os.getenv("CURATOR_HOME", ".curator")).resolve()
+
+        # Find curator name by collection_id
+        # This is a bit hacky - we should pass curator_name to __init__
+        # For now, scan curator directories
+        curator_name = None
+        curators_dir = curator_home / "curators"
+        if curators_dir.exists():
+            for curator_dir in curators_dir.iterdir():
+                if curator_dir.is_dir():
+                    config_file = curator_dir / "config.json"
+                    if config_file.exists():
+                        with open(config_file) as f:
+                            config = json.load(f)
+                            if config.get("collection_id") == self.collection_id:
+                                curator_name = curator_dir.name
+                                break
+
+        if not curator_name:
+            return {
+                "success": False,
+                "output": "",
+                "error": f"Could not find curator for collection {self.collection_id}",
+                "exit_code": -1
+            }
+
+        script_path = curator_home / "curators" / curator_name / "scripts" / script_name
+
+        if not script_path.exists():
+            return {
+                "success": False,
+                "output": "",
+                "error": f"Script not found: {script_path}",
+                "exit_code": -1
+            }
+
+        # Build command
+        cmd = ["python3", str(script_path.resolve())]
+
+        # Add args as JSON if provided
+        if args:
+            cmd.extend(["--json-args", json.dumps(args)])
+
+        try:
+            # Execute script from the scripts directory
+            scripts_dir = script_path.parent
+            logger.info(f"Executing script: {' '.join(cmd)} from {scripts_dir}")
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=300,  # 5 minute timeout
+                cwd=str(scripts_dir.resolve())
+            )
+
+            return {
+                "success": result.returncode == 0,
+                "output": result.stdout,
+                "error": result.stderr if result.returncode != 0 else None,
+                "exit_code": result.returncode
+            }
+
+        except subprocess.TimeoutExpired:
+            return {
+                "success": False,
+                "output": "",
+                "error": "Script execution timeout (5 minutes)",
+                "exit_code": -1
+            }
+        except Exception as e:
+            logger.error(f"Error executing script {script_name}: {e}")
+            return {
+                "success": False,
+                "output": "",
+                "error": str(e),
+                "exit_code": -1
+            }
+
     def _get_all_entity_ids_recursive(self) -> List[str]:
         """Get all entity IDs in collection tree (recursive).
 
@@ -417,6 +523,24 @@ class CuratorTools:
                         "language": {"type": "string", "description": "ISO language code"}
                     },
                     "required": ["name", "entity_type"]
+                }
+            },
+            {
+                "name": "execute_script",
+                "description": "Execute a curator-specific Python script from the scripts/ directory. Use this to run data fetching, import, validation, or deduplication scripts that were generated during discovery.",
+                "input_schema": {
+                    "type": "object",
+                    "properties": {
+                        "script_name": {
+                            "type": "string",
+                            "description": "Name of the script file (e.g., 'fetch_rangerwiki.py', 'import_toylines.py')"
+                        },
+                        "args": {
+                            "type": "object",
+                            "description": "Optional arguments to pass to the script as JSON"
+                        }
+                    },
+                    "required": ["script_name"]
                 }
             }
         ]

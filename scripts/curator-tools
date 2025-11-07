@@ -1,0 +1,287 @@
+#!/bin/bash
+
+# ================================================================
+# Curator Tools - Helper commands for data curation
+# ================================================================
+
+set -e
+
+# Database connection
+DB_HOST="${DB_HOST:-127.0.0.1}"
+DB_PORT="${DB_PORT:-54322}"
+DB_NAME="${DB_NAME:-postgres}"
+DB_USER="${DB_USER:-postgres}"
+DB_PASSWORD="${DB_PASSWORD:-postgres}"
+DB_CONTAINER="${DB_CONTAINER:-supabase_db_database-of-things}"
+
+export PGPASSWORD="$DB_PASSWORD"
+
+# Use docker exec if psql not available on host
+if command -v psql > /dev/null 2>&1; then
+    PSQL="psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME"
+else
+    PSQL="docker exec -i $DB_CONTAINER psql -U $DB_USER -d $DB_NAME"
+fi
+
+# Colors
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+NC='\033[0m'
+
+command=${1:-help}
+
+case "$command" in
+    help)
+        echo "Curator Tools - Data Quality and Management"
+        echo ""
+        echo "Usage: ./scripts/curator-tools <command>"
+        echo ""
+        echo "Commands:"
+        echo "  stats           - Show database statistics"
+        echo "  quality         - Check data quality issues"
+        echo "  duplicates      - Find potential duplicate entities"
+        echo "  missing         - Find entities missing key data"
+        echo "  recent          - Show recently added entities"
+        echo "  orphans         - Find entities not in any collection"
+        echo "  embeddings      - Show embedding coverage"
+        echo "  images          - Show image coverage (original + thumbnail)"
+        echo ""
+        ;;
+
+    stats)
+        echo "Database Statistics"
+        echo "==================="
+        echo ""
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as count,
+            COUNT(*) FILTER (WHERE image_url IS NOT NULL) as with_images,
+            COUNT(*) FILTER (WHERE thumbnail_url IS NOT NULL) as with_thumbnails,
+            COUNT(*) FILTER (WHERE name_embedding IS NOT NULL) as with_embeddings
+        FROM entities
+        GROUP BY type
+        ORDER BY count DESC;
+        "
+
+        echo ""
+        echo "Relationships by Type"
+        echo "====================="
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as count
+        FROM relationships
+        GROUP BY type
+        ORDER BY count DESC;
+        "
+        ;;
+
+    quality)
+        echo "Data Quality Issues"
+        echo "==================="
+        echo ""
+        $PSQL -c "
+        SELECT
+            issue_type,
+            COUNT(*) as count
+        FROM entity_data_quality_issues
+        GROUP BY issue_type
+        ORDER BY count DESC;
+        "
+
+        echo ""
+        echo "Sample Issues (first 20):"
+        echo "========================="
+        $PSQL -c "
+        SELECT
+            id,
+            name,
+            type,
+            issue_type
+        FROM entity_data_quality_issues
+        ORDER BY created_at DESC
+        LIMIT 20;
+        "
+        ;;
+
+    duplicates)
+        echo "Potential Duplicate Entities"
+        echo "============================"
+        echo ""
+        echo "Finding entities with same name and type..."
+        echo ""
+        $PSQL -c "
+        SELECT
+            type,
+            name,
+            COUNT(*) as duplicate_count,
+            ARRAY_AGG(id) as entity_ids
+        FROM entities
+        GROUP BY type, name
+        HAVING COUNT(*) > 1
+        ORDER BY duplicate_count DESC, type, name
+        LIMIT 50;
+        "
+        ;;
+
+    missing)
+        echo "Entities Missing Key Data"
+        echo "========================="
+        echo ""
+
+        echo "Missing Images:"
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as count
+        FROM entities
+        WHERE image_url IS NULL
+        GROUP BY type
+        ORDER BY count DESC;
+        "
+
+        echo ""
+        echo "Missing Thumbnails (but have images):"
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as count
+        FROM entities
+        WHERE image_url IS NOT NULL
+          AND thumbnail_url IS NULL
+        GROUP BY type
+        ORDER BY count DESC;
+        "
+
+        echo ""
+        echo "Missing Embeddings:"
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as count
+        FROM entities
+        WHERE name_embedding IS NULL
+        GROUP BY type
+        ORDER BY count DESC;
+        "
+        ;;
+
+    recent)
+        echo "Recently Added Entities (last 50)"
+        echo "=================================="
+        echo ""
+        $PSQL -c "
+        SELECT
+            id,
+            type,
+            name,
+            year,
+            created_at,
+            CASE
+                WHEN image_url IS NOT NULL THEN '✓'
+                ELSE '✗'
+            END as img,
+            CASE
+                WHEN name_embedding IS NOT NULL THEN '✓'
+                ELSE '✗'
+            END as emb
+        FROM entities
+        ORDER BY created_at DESC
+        LIMIT 50;
+        "
+        ;;
+
+    orphans)
+        echo "Orphaned Entities (not in any collection)"
+        echo "=========================================="
+        echo ""
+        $PSQL -c "
+        SELECT
+            e.type,
+            COUNT(*) as count
+        FROM entities e
+        WHERE NOT EXISTS (
+            SELECT 1 FROM relationships r
+            WHERE r.to_id = e.id
+        )
+        AND e.type != 'collection'  -- Collections are top-level
+        AND e.type != 'franchise'   -- Franchises are top-level
+        GROUP BY e.type
+        ORDER BY count DESC;
+        "
+
+        echo ""
+        echo "Sample orphaned entities (first 20):"
+        $PSQL -c "
+        SELECT
+            e.id,
+            e.type,
+            e.name,
+            e.created_at
+        FROM entities e
+        WHERE NOT EXISTS (
+            SELECT 1 FROM relationships r
+            WHERE r.to_id = e.id
+        )
+        AND e.type NOT IN ('collection', 'franchise')
+        ORDER BY e.created_at DESC
+        LIMIT 20;
+        "
+        ;;
+
+    embeddings)
+        echo "Embedding Coverage"
+        echo "=================="
+        echo ""
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as total,
+            COUNT(*) FILTER (WHERE name_embedding IS NOT NULL) as with_embedding,
+            ROUND(100.0 * COUNT(*) FILTER (WHERE name_embedding IS NOT NULL) / COUNT(*), 1) as coverage_pct
+        FROM entities
+        GROUP BY type
+        ORDER BY total DESC;
+        "
+
+        echo ""
+        echo "Embedding Queue Status:"
+        $PSQL -c "SELECT * FROM embedding_queue_stats;" 2>/dev/null || echo "Queue not initialized (run embedding migration first)"
+        ;;
+
+    images)
+        echo "Image Coverage"
+        echo "=============="
+        echo ""
+        $PSQL -c "
+        SELECT
+            type,
+            COUNT(*) as total,
+            COUNT(*) FILTER (WHERE image_url IS NOT NULL) as with_image,
+            COUNT(*) FILTER (WHERE thumbnail_url IS NOT NULL) as with_thumbnail,
+            ROUND(100.0 * COUNT(*) FILTER (WHERE image_url IS NOT NULL) / COUNT(*), 1) as image_pct,
+            ROUND(100.0 * COUNT(*) FILTER (WHERE thumbnail_url IS NOT NULL) / COUNT(*), 1) as thumb_pct
+        FROM entities
+        GROUP BY type
+        ORDER BY total DESC;
+        "
+
+        echo ""
+        echo "Images needing thumbnails:"
+        $PSQL -c "
+        SELECT COUNT(*) as count
+        FROM entities
+        WHERE image_url IS NOT NULL
+          AND thumbnail_url IS NULL;
+        "
+        ;;
+
+    *)
+        echo -e "${RED}Unknown command: $command${NC}"
+        echo ""
+        ./scripts/curator-tools help
+        exit 1
+        ;;
+esac

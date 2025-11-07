@@ -354,9 +354,9 @@ query {
 
 **API Key**: Include in headers as `apikey: sb_publishable_...` (get from `supabase status`)
 
-## Curator Plugin
+## Curator System
 
-Autonomous agents for importing collectibles data.
+Autonomous agents for importing collectibles data, implemented as project-level slash commands and skills.
 
 ### Available Commands
 
@@ -385,11 +385,14 @@ Autonomous agents for importing collectibles data.
 
 ### How It Works
 
-1. **Discovery** (`/curator:init`) - Socratic questioning generates import plan and working scripts
-2. **Execution** (`/curator:run`) - Autonomously runs scripts, debugging and fixing issues
+1. **Discovery** (`/curator:init`) - Invokes `init-curator` skill for Socratic questioning, generates import plan and working scripts
+2. **Execution** (`/curator:run`) - Invokes `run-curator` skill to autonomously run scripts, debugging and fixing issues
 3. **Results** - Reports imported items and issues resolved
 
-Scripts are in `.curator/curators/{name}/scripts/` and can be edited manually if needed.
+**Implementation**:
+- Slash commands: `.claude/commands/curator-*.md`
+- Skills: `.claude/skills/init-curator/` and `.claude/skills/run-curator/`
+- Generated curators: `.curator/curators/{name}/scripts/`
 
 ## Image Storage
 

@@ -168,22 +168,27 @@ class CuratorRunner:
 Your plan:
 {self.plan}
 
-Your role: Assess the current state of your collection and decide what actions to take.
+Your role: Assess the current state of your collection and ACTIVELY IMPORT NEW ITEMS.
 
 Available tools:
 - Collection management (get_collection_stats, search_entities, etc.)
 - Entity operations (add_entity, etc.)
+- **execute_script** - Run your custom Python scripts to fetch and import data
 
 Available scripts in scripts/:
 {chr(10).join(f'  - {s}' for s in self.scripts)}
 
+**IMPORTANT: Use execute_script() to run your import scripts!**
+For example: execute_script("fetch_rangerwiki.py") or execute_script("import_toylines.py")
+
 Process:
 1. Use tools to assess current collection state
-2. Decide what needs to be done (based on your plan)
-3. Execute appropriate actions
-4. Summarize what you did
+2. Execute your data fetching/import scripts using execute_script()
+3. Review what was imported
+4. Run validation scripts if needed
+5. Summarize what you did
 
-Be autonomous but cautious. Don't make changes unless there's clear need."""
+Be autonomous and proactive. Your primary job is to import new items into the collection."""
 
     def _build_agent_user_prompt(self, stats: Dict[str, Any]) -> str:
         """Build user prompt with context."""
@@ -197,13 +202,16 @@ Be autonomous but cautious. Don't make changes unless there's clear need."""
 - Embedding coverage: {stats['has_embeddings']}/{stats['total_entities']}
 - Thumbnail coverage: {stats['has_thumbnails']}/{stats['total_entities']}
 
-**Your Task:**
-1. Assess what needs to be done (check for new items, updates, etc.)
-2. Use tools to investigate further if needed
-3. Take appropriate actions
-4. Summarize your work
+**Your Task: IMPORT NEW ITEMS**
 
-What would you like to do?"""
+Your collection has {stats['total_entities']} items. Your job is to grow it by importing more.
+
+Execute your import workflow now:
+1. Run execute_script("fetch_rangerwiki.py") to fetch new toy data
+2. Run execute_script("import_toylines.py") to import the fetched data
+3. Summarize what was imported
+
+Start by executing your first script now!"""
 
     def _process_agent_response(
         self,
@@ -267,7 +275,8 @@ What would you like to do?"""
             "search_entities": self.tools.search_entities,
             "get_recent_additions": self.tools.get_recent_additions,
             "find_duplicates": self.tools.find_duplicates,
-            "add_entity": self.tools.add_entity
+            "add_entity": self.tools.add_entity,
+            "execute_script": self.tools.execute_script
         }
 
         tool_method = tool_methods.get(tool_name)

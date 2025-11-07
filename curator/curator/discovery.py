@@ -52,15 +52,21 @@ class DiscoverySession:
         """Build system prompt for discovery agent."""
         return """You are helping a user design a curator agent for their collectibles database.
 
-Your goal: Through Socratic questioning, understand their collection and help them design an autonomous curator.
+Your goal: Through Socratic questioning, understand their collection and help them design an autonomous curator that ACTIVELY IMPORTS DATA.
+
+**CRITICAL: All curators are for DATA IMPORT by default.** The curator should fetch items from external sources and add them to the database.
 
 Key areas to explore:
 1. **Collection Scope** - What items belong in this collection? How are they organized?
 2. **Data Sources** - Where does data come from? APIs? Web scraping? Manual entry?
+   - Focus on HOW to fetch/scrape this data programmatically
+   - What URLs, endpoints, or APIs are available?
 3. **Organization** - Should items be in subcollections? How should they be hierarchical?
 4. **Metadata** - What attributes are important? What makes items unique?
-5. **Update Frequency** - How often should the curator check for updates?
-6. **Deduplication** - How should duplicates be detected? What's the threshold?
+5. **Import Strategy** - How should new items be added?
+   - Bulk import vs incremental?
+   - What's the deduplication key (unique identifier)?
+6. **Update Frequency** - How often should the curator run to import new items?
 
 Ask thoughtful questions. Listen to their answers. Build understanding incrementally.
 
@@ -68,22 +74,25 @@ When you have sufficient understanding, generate:
 
 1. **Plan Document** (Markdown)
    - Collection structure
-   - Data sources and APIs
-   - Update workflow
+   - Data sources and HOW to access them
+   - Import workflow (fetch → deduplicate → import)
    - Deduplication strategy
 
-2. **Scripts** (Python)
-   - fetch_data.py - Fetch new items from source
-   - update_existing.py - Update existing item metadata
-   - deduplicate.py - Find and handle duplicates
+2. **Scripts** (Python) - FOCUS ON IMPORT
+   - fetch_data.py - Scrape/fetch items from external source
+   - import_items.py - Import fetched items into database
+   - validate_collection.py - Optional validation/audit
 
 3. **Secrets List**
    - Required API keys
    - Validation instructions
 
+The curator will have access to execute_script() tool to run these scripts during execution.
+
 Use tools to inspect the current database state when helpful.
 
 Important: Generate COMPLETE, WORKING scripts. Don't use pseudocode or placeholders.
+Scripts should be IMPORT-FOCUSED - scraping data and adding items to the collection.
 """
 
     def run(self) -> Dict[str, Any]:
@@ -165,9 +174,12 @@ Tell me about what you're collecting!"""
             Assistant's response text
         """
         try:
+            # Use higher max_tokens for artifact generation
+            max_tokens = 8192 if any("generate:" in msg["content"].lower() or "synthesis" in msg["content"].lower() for msg in self.conversation_history[-3:]) else 4096
+
             response = self.client.messages.create(
                 model="claude-sonnet-4-5-20250929",
-                max_tokens=4096,
+                max_tokens=max_tokens,
                 system=self.system_prompt,
                 messages=self.conversation_history
             )
@@ -200,9 +212,12 @@ Tell me about what you're collecting!"""
         synthesis_prompt = """Based on our conversation, please generate:
 
 1. A comprehensive plan document (Markdown format)
-2. Python scripts for data fetching and management
+2. Python scripts for data fetching and management (CONCISE but complete)
 3. List of required secrets/API keys
 4. Configuration settings (dedup threshold, schedule, etc)
+
+IMPORTANT: Keep scripts CONCISE. Focus on core logic. Use helper functions.
+Aim for 100-200 lines per script max. Prioritize the 2-3 most important scripts.
 
 Format your response as JSON:
 
@@ -224,13 +239,13 @@ Format your response as JSON:
   ],
   "config": {
     "dedup_threshold": 0.93,
-    "schedule": "0 2 * * *",
-    "...": "..."
+    "schedule": "0 2 * * *"
   }
 }
 ```
 
-Generate COMPLETE, WORKING code. No placeholders or pseudocode."""
+Generate COMPLETE, WORKING code. No placeholders or pseudocode.
+Keep total response under 8000 tokens."""
 
         self._add_message("user", synthesis_prompt)
 
@@ -241,7 +256,8 @@ Generate COMPLETE, WORKING code. No placeholders or pseudocode."""
             # Extract JSON from markdown code block
             if "```json" in response:
                 json_start = response.index("```json") + 7
-                json_end = response.index("```", json_start)
+                # Use rindex to find the LAST ``` (not first, in case there are ``` in the JSON)
+                json_end = response.rindex("```")
                 json_str = response[json_start:json_end].strip()
             else:
                 json_str = response
@@ -252,8 +268,15 @@ Generate COMPLETE, WORKING code. No placeholders or pseudocode."""
         except Exception as e:
             logger.error(f"Error parsing artifacts: {e}")
             console.print(f"[red]Error parsing artifacts: {e}[/]")
-            console.print("[yellow]Raw response:[/]")
-            console.print(response)
+            console.print("[yellow]Raw response (first 2000 chars):[/]")
+            console.print(response[:2000])
+            console.print("\n[yellow]... (truncated)[/]")
+
+            # Save raw response to file for debugging
+            import tempfile
+            with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.txt') as f:
+                f.write(response)
+                console.print(f"\n[dim]Full response saved to: {f.name}[/]")
 
     def _display_results(self):
         """Display generated artifacts to user."""

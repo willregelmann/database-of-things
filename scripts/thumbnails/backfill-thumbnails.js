@@ -306,9 +306,11 @@ async function main() {
     errors: []
   };
 
-  // Fetch and process in pages (Supabase limit is 1000 rows per query)
+  // Fetch and process in pages using cursor-based pagination (avoids Supabase offset limit)
   const PAGE_SIZE = 1000;
   let processed = 0;
+  let lastCreatedAt = null;
+  let lastId = null;
 
   while (processed < effectiveLimit) {
     // Fetch next page
@@ -316,10 +318,16 @@ async function main() {
 
     let query = supabase
       .from('entities')
-      .select('id, name, image_url')
+      .select('id, name, image_url, created_at')
       .not('image_url', 'is', null)
       .order('created_at', { ascending: true })
-      .range(processed, processed + pageSize - 1);
+      .order('id', { ascending: true })
+      .limit(pageSize);
+
+    // Cursor-based pagination: fetch records after the last processed entity
+    if (lastCreatedAt) {
+      query = query.or(`created_at.gt.${lastCreatedAt},and(created_at.eq.${lastCreatedAt},id.gt.${lastId})`);
+    }
 
     if (!RESUME) {
       query = query.is('thumbnail_url', null);
@@ -349,6 +357,13 @@ async function main() {
     }
 
     processed += entities.length;
+
+    // Update cursor for next page (track last entity)
+    if (entities.length > 0) {
+      const lastEntity = entities[entities.length - 1];
+      lastCreatedAt = lastEntity.created_at;
+      lastId = lastEntity.id;
+    }
   }
 
   progressBar.stop();
