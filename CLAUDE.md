@@ -51,6 +51,18 @@ docker exec -it supabase_db_database-of-things psql -U postgres -d postgres
 
 # Restore from backup
 ./scripts/db-restore backups/backup_YYYYMMDD_HHMMSS.sql
+
+# Backup Supabase storage bucket
+./scripts/storage-backup
+
+# Restore Supabase storage bucket
+./scripts/storage-restore backups/storage_backup_YYYYMMDD_HHMMSS.tar.gz
+
+# Repair migration issues (if needed)
+./scripts/repair-migrations
+
+# Generate thumbnails for all images
+./scripts/generate-all-thumbnails
 ```
 
 ### ⚠️ CRITICAL: Database Safety
@@ -123,7 +135,9 @@ The schema consists of only two tables:
 - `language` (CHAR(2)): Optional ISO 639-1 language code (e.g., "en", "ja", "es")
 - `image_url` (TEXT): Image URL path - local storage uses `/storage/v1/object/public/images/originals/uuid.ext`, external URLs stored as-is
 - `thumbnail_url` (TEXT): Optional pre-generated thumbnail path (typically 300x300 WebP) - `/storage/v1/object/public/images/thumbnails/uuid.webp`
-- `attributes` (JSONB): All other data (description, additional images, external IDs, custom fields)
+- `name_embedding` (vector(384)): Vector embedding for semantic search (nullable, generated externally)
+- `external_ids` (JSONB): External system IDs (e.g., `{"tcgplayer": "base1-4", "pokemontcg_io": "base1-4"}`)
+- `attributes` (JSONB): All other data (description, additional images, custom fields)
 - Timestamps: `created_at`, `updated_at`
 
 **`relationships`** - Connections between entities:
@@ -132,18 +146,20 @@ The schema consists of only two tables:
 - `to_id` (UUID): Target entity
 - `type` (TEXT): Relationship type (e.g., "contains", "variant_of", "component_of")
 - `order` (INT): Sort order for items in collections (nullable)
-- `attributes` (JSONB): Relationship-specific data (additional metadata)
 - `created_at` timestamp
 - UNIQUE constraint on `(from_id, to_id, type)`
+- **Note**: Previously had an `attributes` JSONB column, but it was removed in migration `20251024195010_drop_relationships_attributes.sql` as it was unused (all values were empty objects)
 
 ### Design Patterns
 
 **JSONB Attributes Philosophy**:
 - Only universally applicable fields are columns (`name`, `type`, `year`, `country`, `language`, `image_url`, `thumbnail_url`)
+- External system IDs are stored in dedicated `external_ids` JSONB column (not in `attributes`)
 - For relationships, commonly-used fields like `order` are dedicated columns
-- Everything else goes in `attributes` JSONB (additional images, external IDs, custom metadata)
+- Everything else goes in `attributes` JSONB (description, additional images, custom metadata)
 - Allows heterogeneous entity types without schema changes
 - **Important**: Always use dedicated columns when available instead of JSONB attributes
+- **Relationships**: The `relationships` table has NO attributes column - all relationship metadata must use dedicated columns (currently only `order` exists)
 
 **Relationship Types** (all use parent→child direction):
 - `contains`: Parent contains child (e.g., Collection → Card, Franchise → Game)
@@ -164,6 +180,7 @@ The schema consists of only two tables:
 
 - **uuid-ossp**: UUID generation (`uuid_generate_v4()`)
 - **pg_trgm**: Trigram similarity for fuzzy name matching
+- **vector**: pgvector extension for vector embeddings and similarity search (cosine distance, HNSW indexing)
 
 ### Indexes
 
@@ -171,17 +188,109 @@ The schema consists of only two tables:
 - `idx_entities_type`: Filter by entity type
 - `idx_entities_name`: Exact name lookup
 - `idx_entities_name_trgm`: Fuzzy name search (GIN trigram)
-- `idx_entities_language`: Filter by language
-- `idx_entities_image_url`: Image URL lookups (partial index, only non-null values)
-- `idx_entities_thumbnail_url`: Thumbnail URL lookups (partial index, only non-null values)
-- `idx_entities_attributes`: JSONB path queries (GIN)
+- `idx_entities_name_embedding`: Semantic search (HNSW with cosine distance)
+- `idx_entities_language`: Filter by language (partial index, only non-null values)
+- `idx_entities_attributes`: JSONB path queries on attributes (GIN)
+- `idx_entities_external_ids`: JSONB queries on external_ids (GIN)
 - `idx_entities_search`: Full-text search on name
 
 **Relationship traversal**:
 - `idx_relationships_from_type`: Outbound relationships by type
 - `idx_relationships_to_type`: Inbound relationships by type
-- `idx_relationships_order`: Sort by order
-- `idx_relationships_attributes`: JSONB queries on relationship data
+- `idx_relationships_order`: Sort by order (partial index, only non-null values)
+
+## Semantic Search
+
+The database supports semantic search using vector embeddings, allowing you to find similar entities based on meaning rather than exact text matches.
+
+### How It Works
+
+1. **Embeddings**: Entity names are converted to 384-dimensional vectors using a sentence-transformer model (e.g., `all-MiniLM-L6-v2`)
+2. **Storage**: Vectors stored in `name_embedding` column
+3. **Indexing**: HNSW (Hierarchical Navigable Small World) index enables fast approximate nearest neighbor search
+4. **Similarity**: Uses cosine distance (1 - cosine similarity) to find semantically similar entities
+
+### Search Functions
+
+**`semantic_search(query_embedding, entity_type_filter, result_limit)`** - Vector-based search:
+```sql
+-- Search using a pre-computed embedding vector
+SELECT * FROM semantic_search(
+  '[0.123, 0.456, ...]'::vector(384),  -- Your query embedding
+  'card',                                -- Optional: filter by type
+  20                                     -- Limit results
+);
+```
+
+**`search_by_text(query_text, entity_type_filter, result_limit)`** - Text-based search:
+```sql
+-- Search using plain text (finds closest entity name, uses its embedding)
+SELECT * FROM search_by_text(
+  'fire dragon pokemon',  -- Plain text query
+  'card',                 -- Optional: filter by type
+  20                      -- Limit results
+);
+```
+
+### GraphQL Examples
+
+```graphql
+# Semantic search with vector embedding
+query {
+  semantic_search(
+    args: {
+      query_embedding: "[0.123, 0.456, ...]"
+      entity_type_filter: "card"
+      result_limit: 20
+    }
+  ) {
+    id
+    name
+    type
+    similarity
+    image_url
+    thumbnail_url
+  }
+}
+
+# Text-based semantic search
+query {
+  search_by_text(
+    args: {
+      query_text: "fire dragon pokemon"
+      entity_type_filter: "card"
+      result_limit: 20
+    }
+  ) {
+    id
+    name
+    type
+    similarity
+  }
+}
+```
+
+### Generating Embeddings
+
+Embeddings must be generated externally using Python or another language:
+
+```python
+from sentence_transformers import SentenceTransformer
+
+# Load model (384 dimensions)
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+
+# Generate embedding
+entity_name = "Charizard"
+embedding = model.encode(entity_name).tolist()
+
+# Store in database
+supabase.table('entities').update({
+    'name_embedding': embedding
+}).eq('id', entity_id).execute()
+```
+
+**Note**: ~20,632 entities currently have embeddings in production.
 
 ## GraphQL API Usage
 
@@ -244,6 +353,43 @@ query {
 ```
 
 **API Key**: Include in headers as `apikey: sb_publishable_...` (get from `supabase status`)
+
+## Curator Plugin
+
+Autonomous agents for importing collectibles data.
+
+### Available Commands
+
+- `/curator:init "Collection Name"` - Initialize new curator (interactive discovery)
+- `/curator:run "Collection Name"` - Execute curator to import items
+- `/curator:status "Collection Name"` - Show collection stats
+
+### Example Usage
+
+```bash
+# Create curator
+/curator:init "Pokemon TCG"
+# → Interactive questions about collection and data sources
+# → Generates plan and scripts in .curator/curators/Pokemon TCG/
+
+# Run curator
+/curator:run "Pokemon TCG"
+# → Executes fetch and import scripts autonomously
+# → Fixes errors, installs dependencies
+# → Reports: "Imported 152 cards from pokemontcg.io"
+
+# Check status
+/curator:status "Pokemon TCG"
+# → Collection: 152 cards, last updated 2 hours ago
+```
+
+### How It Works
+
+1. **Discovery** (`/curator:init`) - Socratic questioning generates import plan and working scripts
+2. **Execution** (`/curator:run`) - Autonomously runs scripts, debugging and fixing issues
+3. **Results** - Reports imported items and issues resolved
+
+Scripts are in `.curator/curators/{name}/scripts/` and can be edited manually if needed.
 
 ## Image Storage
 
@@ -389,8 +535,13 @@ curl -X POST \
 
 **Then store the path in your entity**:
 ```sql
-INSERT INTO entities (name, type, image_url)
-VALUES ('Charizard', 'card', '/storage/v1/object/public/images/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.jpg');
+INSERT INTO entities (name, type, image_url, external_ids)
+VALUES (
+  'Charizard',
+  'card',
+  '/storage/v1/object/public/images/originals/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.jpg',
+  '{"pokemontcg_io": "base1-4"}'::jsonb
+);
 ```
 
 ### Entity Examples
@@ -401,11 +552,18 @@ VALUES ('Charizard', 'card', '/storage/v1/object/public/images/34a6d4a2-50d6-459
   "id": "uuid-here",
   "name": "Charizard",
   "type": "card",
+  "year": 1999,
+  "language": "en",
   "image_url": "https://images.pokemontcg.io/base1/4.png",
   "thumbnail_url": null,
+  "external_ids": {
+    "pokemontcg_io": "base1-4",
+    "tcgplayer": "base1-4"
+  },
   "attributes": {
     "hp": 120,
-    "card_number": "4/102"
+    "card_number": "4/102",
+    "description": "A legendary Fire-type Pokémon"
   }
 }
 ```
@@ -416,11 +574,17 @@ VALUES ('Charizard', 'card', '/storage/v1/object/public/images/34a6d4a2-50d6-459
   "id": "34a6d4a2-50d6-459e-9ae8-f29271f0e16d",
   "name": "Blastoise",
   "type": "card",
+  "year": 1999,
+  "language": "en",
   "image_url": "/storage/v1/object/public/images/originals/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.jpg",
   "thumbnail_url": "/storage/v1/object/public/images/thumbnails/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.webp",
+  "external_ids": {
+    "pokemontcg_io": "base1-2"
+  },
   "attributes": {
     "hp": 100,
     "card_number": "2/102",
+    "description": "A powerful Water-type Pokémon",
     "images": [
       "/storage/v1/object/public/images/originals/34a6d4a2-front.jpg",
       "/storage/v1/object/public/images/originals/34a6d4a2-back.jpg"
@@ -437,15 +601,28 @@ No special configuration needed - just update your application's base URL from d
 
 Migrations are stored in `supabase/migrations/` and run automatically on `supabase start`.
 
-**Current migrations**:
-- `20251020000000_initial_schema.sql`: Core entities and relationships tables
-- `20251021063959_add_image_url_to_entities.sql`: Add image_url column to entities
-- `20251021064255_remove_description_from_entities.sql`: Remove description column (use attributes JSONB instead)
-- `20251021064612_convert_image_url_to_flexible_key.sql`: Rename image_url to image_key, add get_image_url() function (superseded)
-- `20251024191322_convert_image_key_to_image_url_paths.sql`: Convert image_key to image_url with path-based storage
-- `20251021064735_create_collectible_images_bucket.sql`: Create images storage bucket with policies (originally collectible-images)
-- `20251021065503_rename_images_bucket.sql`: Rename bucket from collectible-images to images
-- `20251102000000_add_thumbnail_url.sql`: Add thumbnail_url column for pre-generated thumbnails (Free Tier optimization)
+**Current migrations** (chronological order):
+1. `20251020000000_initial_schema.sql`: Core entities and relationships tables
+2. `20251021063959_add_image_url_to_entities.sql`: Add image_url column to entities
+3. `20251021064255_remove_description_from_entities.sql`: Remove description column (use attributes JSONB instead)
+4. `20251021064612_convert_image_url_to_flexible_key.sql`: Rename image_url to image_key (superseded)
+5. `20251021064735_create_collectible_images_bucket.sql`: Create storage bucket with policies
+6. `20251021065503_rename_images_bucket.sql`: Rename bucket from collectible-images to images
+7. `20251021081225_add_external_ids_to_entities.sql`: Add external_ids JSONB column with GIN index
+8. `20251022165916_add_entities_with_image_urls_view.sql`: Add view for entities with image URLs
+9. `20251022170207_add_image_url_generated_column.sql`: Add generated column for image URLs
+10. `20251023000000_increase_graphql_page_size.sql`: Increase GraphQL default page size
+11. `20251023172157_increase_graphql_page_size.sql`: (duplicate/empty - may need cleanup)
+12. `20251023185803_increase_graphql_page_limit.sql`: Further increase GraphQL page limits
+13. `20251023190331_add_language_and_order_columns.sql`: Add language to entities, order to relationships
+14. `20251023215655_add_semantic_search_function.sql`: Add semantic search capability
+15. `20251023220000_add_text_based_semantic_search.sql`: Enhanced text-based semantic search
+16. `20251024191322_convert_image_key_to_image_url_paths.sql`: Convert image_key to image_url paths
+17. `20251024195010_drop_relationships_attributes.sql`: **Remove attributes column from relationships**
+18. `20251024195527_remove_series_attribute_from_sets.sql`: Clean up series attributes
+19. `20251025164508_fix_search_by_text_image_column.sql`: Fix search functionality for images
+20. `20251104233648_add_thumbnail_url.sql`: Add thumbnail_url column for pre-generated thumbnails
+21. `20251105125958_add_vector_embedding.sql`: Add pgvector extension and name_embedding column for semantic search
 
 **To add new migrations**:
 ```bash
@@ -467,6 +644,15 @@ Migrations are stored in `supabase/migrations/` and run automatically on `supaba
 - Backups are automatically created before migrations
 - Use `./scripts/db-restore backups/backup_*.sql` to restore
 
+**Migration Drift**:
+If your production database has columns/features that don't exist locally:
+1. Create the missing migration: `./bin/supabase migration new migration_name`
+2. Write the SQL to match production (e.g., `ALTER TABLE entities ADD COLUMN ...`)
+3. Apply locally: `docker exec supabase_db_database-of-things psql -U postgres -d postgres -f supabase/migrations/YYYYMMDD_migration_name.sql`
+4. The migration file is now in git and new developers will get the correct schema
+
+**Note**: Some migrations may fail with `db push` due to permission requirements (e.g., GraphQL config). Use direct psql execution as a workaround.
+
 ## Common SQL Queries
 
 ### Entity Queries
@@ -487,10 +673,16 @@ WHERE to_tsvector('english', name)
 
 -- Query JSONB attributes
 SELECT * FROM entities
-WHERE attributes @> '{"tcgplayer_id": "base1-4"}';
+WHERE attributes @> '{"hp": 120}';
+
+-- Query external_ids (separate JSONB column)
+SELECT * FROM entities
+WHERE external_ids @> '{"tcgplayer": "base1-4"}';
 
 -- Extract JSONB values and standard columns
-SELECT name, image_url, thumbnail_url, attributes->>'hp' as hp
+SELECT name, image_url, thumbnail_url,
+       attributes->>'hp' as hp,
+       external_ids->>'pokemontcg_io' as tcg_id
 FROM entities
 WHERE type = 'card';
 
@@ -499,6 +691,20 @@ SELECT id, name, image_url
 FROM entities
 WHERE image_url IS NOT NULL
   AND thumbnail_url IS NULL;
+
+-- Find entities missing embeddings (for backfill)
+SELECT id, name, type
+FROM entities
+WHERE name_embedding IS NULL
+LIMIT 100;
+
+-- Semantic search using text
+SELECT id, name, type, similarity
+FROM search_by_text('fire dragon pokemon', 'card', 20);
+
+-- Semantic search using vector (requires pre-computed embedding)
+SELECT id, name, type, similarity
+FROM semantic_search('[0.1, 0.2, ...]'::vector(384), NULL, 10);
 ```
 
 ### Relationship Queries
@@ -525,13 +731,13 @@ JOIN relationships r ON r.from_id = e.id
 WHERE r.to_id = 'base-item-uuid'
   AND r.type = 'variant_of';
 
--- Relationship with attributes (e.g., order in collection)
-SELECT e.*, r.attributes->>'order' as position
+-- Relationship with order column
+SELECT e.*, r."order" as position
 FROM entities e
 JOIN relationships r ON r.to_id = e.id
 WHERE r.from_id = 'collection-uuid'
   AND r.type = 'contains'
-ORDER BY (r.attributes->>'order')::int;
+ORDER BY r."order";
 
 -- Traverse full hierarchy (franchise → game → collection → card)
 WITH RECURSIVE hierarchy AS (
