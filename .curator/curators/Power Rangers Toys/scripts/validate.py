@@ -10,7 +10,7 @@ try:
 except ImportError:
     print("Installing required dependencies...")
     import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "supabase"])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "--break-system-packages", "supabase"])
     from supabase import create_client, Client
 
 FRANCHISE_ID = "d183e3a9-4eb7-40a5-b264-526b9a03ec30"

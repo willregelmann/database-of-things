@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch Power Rangers toy data from RangerWiki."""
+"""Fetch Power Rangers toy data from grnrngr.com."""
 
 import json
+import re
 import time
 import sys
 from pathlib import Path
@@ -14,38 +15,53 @@ try:
 except ImportError:
     print("Installing required dependencies...")
     import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "requests", "beautifulsoup4", "lxml"])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "--break-system-packages", "requests", "beautifulsoup4", "lxml"])
     import requests
     from bs4 import BeautifulSoup
 
 # Configuration
-BASE_URL = "https://powerrangers.fandom.com"
+BASE_URL = "https://www.grnrngr.com"
 OUTPUT_FILE = "fetched_data.json"
 RATE_LIMIT = 1  # seconds between requests
 
-# Starting points for toy discovery
-CATEGORY_URLS = [
-    "/wiki/Category:Toys",
-    "/wiki/Category:Action_Figures",
-    "/wiki/Category:Zords_(toys)"
+# Season toylines to scrape
+SEASON_TOYLINES = [
+    "/toys/power-rangers/mighty-morphin",
+    "/toys/power-rangers/zeo",
+    "/toys/power-rangers/turbo",
+    "/toys/power-rangers/in-space",
+    "/toys/power-rangers/lost-galaxy",
+    "/toys/power-rangers/lightspeed-rescue",
+    "/toys/power-rangers/time-force",
+    "/toys/power-rangers/wild-force",
+    "/toys/power-rangers/ninja-storm",
+    "/toys/power-rangers/dino-thunder",
+    "/toys/power-rangers/spd",
+    "/toys/power-rangers/mystic-force",
+    "/toys/power-rangers/operation-overdrive",
+    "/toys/power-rangers/jungle-fury",
+    "/toys/power-rangers/rpm",
+    "/toys/power-rangers/samurai",
+    "/toys/power-rangers/megaforce",
+    "/toys/power-rangers/dino-charge",
+    "/toys/power-rangers/ninja-steel",
+    "/toys/power-rangers/beast-morphers",
+    "/toys/power-rangers/dino-fury",
+    "/toys/power-rangers/cosmic-fury"
 ]
 
 USER_AGENT = "Power Rangers Collector Database Bot (Educational/Personal Project)"
 
 
-class RangerWikiScraper:
-    """Scrape toy data from RangerWiki."""
+class GrnRngrScraper:
+    """Scrape toy data from grnrngr.com."""
 
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT})
-        self.scraped_urls = set()
 
     def fetch_page(self, url: str) -> Optional[BeautifulSoup]:
-        """Fetch and parse a wiki page."""
-        if url in self.scraped_urls:
-            return None
-
+        """Fetch and parse a page."""
         try:
             full_url = url if url.startswith("http") else f"{BASE_URL}{url}"
             print(f"Fetching: {full_url}")
@@ -53,168 +69,144 @@ class RangerWikiScraper:
             response = self.session.get(full_url, timeout=10)
             response.raise_for_status()
 
-            self.scraped_urls.add(url)
             time.sleep(RATE_LIMIT)
-
             return BeautifulSoup(response.text, "lxml")
 
         except Exception as e:
             print(f"Error fetching {url}: {e}")
             return None
 
-    def extract_category_members(self, soup: BeautifulSoup) -> List[str]:
-        """Extract page URLs from a category page."""
-        members = []
-
-        # Find category member links
-        category_div = soup.find("div", class_="mw-category")
-        if category_div:
-            for link in category_div.find_all("a"):
-                href = link.get("href")
-                if href and href.startswith("/wiki/") and ":" not in href:
-                    members.append(href)
-
-        # Handle pagination (next page link)
-        next_link = soup.find("a", string="next page")
-        if next_link and next_link.get("href"):
-            members.append(next_link["href"])
-
-        return members
-
-    def extract_toy_data(self, url: str, soup: BeautifulSoup) -> Optional[Dict]:
-        """Extract toy data from a wiki page."""
-        # Get title
-        title_elem = soup.find("h1", class_="page-header__title")
-        if not title_elem:
+    def extract_year_from_release(self, release_text: str) -> Optional[int]:
+        """Extract year from release date like '[Fall 1993]' or '[1994]'."""
+        if not release_text:
             return None
 
-        name = title_elem.get_text(strip=True)
+        # Look for 4-digit year
+        match = re.search(r'\b(19\d{2}|20\d{2})\b', release_text)
+        if match:
+            return int(match.group(1))
+        return None
 
-        # Look for infobox
-        infobox = soup.find("aside", class_="portable-infobox")
+    def extract_price(self, text: str) -> Optional[str]:
+        """Extract price from text like 'SRP: $14.99'."""
+        if not text:
+            return None
 
-        # Extract year from infobox or page content
-        year = None
-        series = None
-        toy_type = None
-        manufacturer = None
-        description = None
-        image_url = None
+        match = re.search(r'\$[\d,.]+', text)
+        if match:
+            return match.group(0)
+        return None
 
-        if infobox:
-            # Extract image
-            img = infobox.find("img")
-            if img and img.get("src"):
-                image_url = img["src"].split("/revision/")[0]  # Remove version suffix
+    def parse_toy_entry(self, item_number: str, item_text: str, series_name: str) -> Optional[Dict]:
+        """Parse a toy entry from grnrngr.com."""
+        if not item_text or not item_number:
+            return None
 
-            # Extract data from infobox rows
-            for row in infobox.find_all("div", class_="pi-item"):
-                label_elem = row.find("h3", class_="pi-data-label")
-                value_elem = row.find("div", class_="pi-data-value")
+        # Extract name - remove item number prefix and link texts
+        name = item_text
+        # Remove item number
+        name = re.sub(r'^' + re.escape(item_number) + r'\s*', '', name)
+        # Remove link texts
+        name = re.sub(r'\(off-site link\)', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'View\s+(Photo|Barcode|Instructions)', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'Browse\s+eBay', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'Instructions\s+\(PDF\)', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'Buy\s+Item', '', name, flags=re.IGNORECASE)
+        # Remove release dates in brackets
+        name = re.sub(r'\[(Fall|Spring|Summer|Winter)?\s*(19\d{2}|20\d{2})\]', '', name)
+        # Remove question marks used for unknown info
+        name = re.sub(r'\[\?\]', '', name)
+        # Clean up whitespace and newlines
+        name = ' '.join(name.split())
+        name = name.strip()
 
-                if not label_elem or not value_elem:
-                    continue
+        if not name or len(name) < 2:
+            return None
 
-                label = label_elem.get_text(strip=True).lower()
-                value = value_elem.get_text(strip=True)
+        # Extract release date and year
+        release_match = re.search(r'\[(Fall|Spring|Summer|Winter)?\s*(19\d{2}|20\d{2})\]', item_text)
+        release_date = release_match.group(0) if release_match else None
+        year = self.extract_year_from_release(item_text)
 
-                if "year" in label or "release" in label:
-                    # Extract year from text like "1993" or "1993-1995"
-                    import re
-                    year_match = re.search(r"\b(19\d{2}|20\d{2})\b", value)
-                    if year_match:
-                        year = int(year_match.group(1))
+        # Extract price
+        price = self.extract_price(item_text)
 
-                elif "series" in label or "line" in label:
-                    series = value
-
-                elif "type" in label:
-                    toy_type = value
-
-                elif "manufacturer" in label or "company" in label:
-                    manufacturer = value
-
-        # Get first paragraph as description
-        content_div = soup.find("div", class_="mw-parser-output")
-        if content_div:
-            paragraphs = content_div.find_all("p", recursive=False)
-            for p in paragraphs:
-                text = p.get_text(strip=True)
-                if text and len(text) > 20:
-                    description = text
-                    break
-
-        # Determine series from URL or title if not found in infobox
-        if not series:
-            # Try to extract from breadcrumbs or categories
-            categories = soup.find("div", id="mw-normal-catlinks")
-            if categories:
-                for link in categories.find_all("a"):
-                    link_text = link.get_text(strip=True)
-                    if "Power Rangers" in link_text and link_text != "Power Rangers":
-                        series = link_text
-                        break
+        # Build image URL (grnrngr.com uses item numbers in image paths)
+        # Format: /toys/pictures/bandai/ITEMNUM_1.jpg
+        # Pad item number to 5 digits
+        padded_number = item_number.zfill(5)
+        image_url = f"{BASE_URL}/toys/pictures/bandai/{padded_number}_1.jpg"
 
         return {
             "name": name,
-            "url": url,
+            "item_number": item_number,
+            "series": series_name,
             "year": year,
-            "series": series,
-            "toy_type": toy_type or "unknown",
-            "manufacturer": manufacturer,
-            "description": description,
+            "release_date": release_date,
+            "price": price,
             "image_url": image_url,
-            "source_url": f"{BASE_URL}{url}"
+            "source_url": f"{BASE_URL}{SEASON_TOYLINES[0]}"  # Will be updated per season
         }
 
-    def crawl_category(self, category_url: str) -> List[Dict]:
-        """Crawl a category and extract all toy pages."""
+    def scrape_season_page(self, season_url: str) -> List[Dict]:
+        """Scrape all toys from a season page."""
+        soup = self.fetch_page(season_url)
+        if not soup:
+            return []
+
+        # Extract series name from page title or heading
+        title_elem = soup.find("h1") or soup.find("title")
+        series_name = title_elem.get_text(strip=True) if title_elem else "Unknown Series"
+
+        # Clean up series name
+        series_name = series_name.replace(" - GrnRngr.com", "").strip()
+
+        print(f"  Series: {series_name}")
+
         toys = []
-        pages_to_visit = [category_url]
-        visited = set()
 
-        while pages_to_visit:
-            url = pages_to_visit.pop(0)
+        # Find all list items (li elements) containing toy data
+        for li in soup.find_all("li"):
+            li_text = li.get_text(separator='\n', strip=True)
 
-            if url in visited:
-                continue
-            visited.add(url)
-
-            soup = self.fetch_page(url)
-            if not soup:
+            # Extract item number from start of text (e.g., "2200" from "2200 Jason Red Ranger")
+            number_match = re.match(r'^(\d+)', li_text)
+            if not number_match:
                 continue
 
-            # If this is a category page, get member pages
-            if "Category:" in url:
-                member_urls = self.extract_category_members(soup)
-                for member_url in member_urls:
-                    if "Category:" in member_url:
-                        # It's a subcategory
-                        pages_to_visit.append(member_url)
-                    else:
-                        # It's a toy page
-                        toy_data = self.extract_toy_data(member_url, self.fetch_page(member_url))
-                        if toy_data:
-                            toys.append(toy_data)
-                            print(f"  ✓ Extracted: {toy_data['name']}")
+            item_number = number_match.group(1)
+
+            # Parse the toy entry
+            toy_data = self.parse_toy_entry(item_number, li_text, series_name)
+
+            if toy_data:
+                toy_data["source_url"] = f"{BASE_URL}{season_url}"
+                toys.append(toy_data)
+                print(f"    ✓ {toy_data['name']} ({item_number})")
 
         return toys
 
     def fetch_all_toys(self) -> List[Dict]:
-        """Fetch all Power Rangers toys from configured categories."""
+        """Fetch all Power Rangers toys from configured season toylines."""
         all_toys = []
 
-        for category_url in CATEGORY_URLS:
-            print(f"\nCrawling category: {category_url}")
-            toys = self.crawl_category(category_url)
+        for season_url in SEASON_TOYLINES:
+            print(f"\n{'='*60}")
+            print(f"Scraping: {season_url}")
+            print('='*60)
+
+            toys = self.scrape_season_page(season_url)
             all_toys.extend(toys)
 
-        # Deduplicate by URL
-        seen_urls = set()
+            print(f"  Found {len(toys)} toys")
+
+        # Deduplicate by item number
+        seen_numbers = set()
         unique_toys = []
         for toy in all_toys:
-            if toy["url"] not in seen_urls:
-                seen_urls.add(toy["url"])
+            item_num = toy.get("item_number")
+            if item_num and item_num not in seen_numbers:
+                seen_numbers.add(item_num)
                 unique_toys.append(toy)
 
         return unique_toys
@@ -222,11 +214,11 @@ class RangerWikiScraper:
 
 def main():
     print("=" * 60)
-    print("Power Rangers Toy Data Fetcher")
+    print("Power Rangers Toy Data Fetcher (grnrngr.com)")
     print("=" * 60)
     print()
 
-    scraper = RangerWikiScraper()
+    scraper = GrnRngrScraper()
     toys = scraper.fetch_all_toys()
 
     # Save to file
@@ -248,6 +240,16 @@ def main():
     print("\nToys by series:")
     for series, count in sorted(series_counts.items(), key=lambda x: -x[1]):
         print(f"  {series}: {count}")
+
+    # Summary of data quality
+    with_images = sum(1 for t in toys if t.get("image_url"))
+    with_years = sum(1 for t in toys if t.get("year"))
+    with_prices = sum(1 for t in toys if t.get("price"))
+
+    print(f"\nData quality:")
+    print(f"  With images: {with_images}/{len(toys)} ({with_images/len(toys)*100:.1f}%)")
+    print(f"  With years: {with_years}/{len(toys)} ({with_years/len(toys)*100:.1f}%)")
+    print(f"  With prices: {with_prices}/{len(toys)} ({with_prices/len(toys)*100:.1f}%)")
 
 
 if __name__ == "__main__":

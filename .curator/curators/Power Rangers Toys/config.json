@@ -1,17 +1,37 @@
 {
   "collection_name": "Power Rangers Toys",
   "franchise_id": "d183e3a9-4eb7-40a5-b264-526b9a03ec30",
-  "data_source": "https://powerrangers.fandom.com",
+  "data_source": "https://www.grnrngr.com/toys/power-rangers/",
   "requires_api_key": false,
-  "dedup_strategy": "name_series_year",
+  "dedup_strategy": "item_number",
   "rate_limit_seconds": 1,
   "scraping_config": {
-    "base_url": "https://powerrangers.fandom.com",
-    "category_pages": [
-      "https://powerrangers.fandom.com/wiki/Category:Toys",
-      "https://powerrangers.fandom.com/wiki/Category:Action_Figures",
-      "https://powerrangers.fandom.com/wiki/Category:Zords_(toys)"
-    ],
-    "user_agent": "Power Rangers Collector Database Bot (Educational/Personal Project)"
+    "base_url": "https://www.grnrngr.com",
+    "main_page": "/toys/power-rangers/",
+    "user_agent": "Power Rangers Collector Database Bot (Educational/Personal Project)",
+    "season_toylines": [
+      "/toys/power-rangers/mighty-morphin",
+      "/toys/power-rangers/zeo",
+      "/toys/power-rangers/turbo",
+      "/toys/power-rangers/in-space",
+      "/toys/power-rangers/lost-galaxy",
+      "/toys/power-rangers/lightspeed-rescue",
+      "/toys/power-rangers/time-force",
+      "/toys/power-rangers/wild-force",
+      "/toys/power-rangers/ninja-storm",
+      "/toys/power-rangers/dino-thunder",
+      "/toys/power-rangers/spd",
+      "/toys/power-rangers/mystic-force",
+      "/toys/power-rangers/operation-overdrive",
+      "/toys/power-rangers/jungle-fury",
+      "/toys/power-rangers/rpm",
+      "/toys/power-rangers/samurai",
+      "/toys/power-rangers/megaforce",
+      "/toys/power-rangers/dino-charge",
+      "/toys/power-rangers/ninja-steel",
+      "/toys/power-rangers/beast-morphers",
+      "/toys/power-rangers/dino-fury",
+      "/toys/power-rangers/cosmic-fury"
+    ]
   }
 }

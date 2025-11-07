@@ -6,9 +6,10 @@
 - **Organization:** Hierarchical by series (MMPR → Zeo → Turbo → etc.)
 
 ## Data Sources
-- **Primary:** RangerWiki (https://powerrangers.fandom.com)
-- **Authentication:** None required (public wiki)
+- **Primary:** GrnRngr.com (https://www.grnrngr.com/toys/power-rangers/)
+- **Authentication:** None required (public catalog)
 - **Method:** Web scraping with Beautiful Soup
+- **Data Quality:** 233,480+ pieces of data, comprehensive catalog with images, item numbers, prices, release dates
 
 ## Target Structure
 
@@ -26,25 +27,28 @@ Power Rangers (franchise)
 
 ## Import Workflow
 
-1. **Fetch series list** from RangerWiki's toy category pages
-2. **For each series:**
-   - Create series entity if doesn't exist
+1. **Fetch season list** from grnrngr.com main Power Rangers page
+2. **For each season/toyline:**
+   - Create series entity if doesn't exist (e.g., "Mighty Morphin Power Rangers")
    - Link series to Power Rangers franchise with "contains" relationship
-3. **Scrape toy listings** for each series
+3. **Scrape toy entries** from each season page
 4. **Parse toy data:**
-   - Name, year, type (figure/zord/megazord/playset)
-   - Image URL
-   - Description
-5. **Deduplicate** using composite key: `name + series + year`
+   - Item number (e.g., "2200") → `external_ids.grnrngr`
+   - Name (e.g., "Jason Red Ranger")
+   - Image URL (e.g., `/toys/pictures/bandai/02200_1.jpg`)
+   - Release date (e.g., "[Fall 1993]") → extract year
+   - Price (e.g., "SRP: $14.99")
+   - UPC/barcode
+5. **Deduplicate** using item number: `external_ids.grnrngr`
 6. **Import to database:**
    - Create entity for each toy
    - Link to series with "contains" relationship
 
 ## Deduplication Strategy
 
-- **Key:** Composite of `name + series + year`
-- **Method:** Check if entity exists with matching name, linked to series, with matching year
-- **Rationale:** Same toy name can appear in different series or years (re-releases, variants)
+- **Key:** Item number in `external_ids.grnrngr` (e.g., "2200")
+- **Method:** Check if entity exists with matching `external_ids->>'grnrngr'` value
+- **Rationale:** Item numbers are unique identifiers assigned by manufacturers, providing reliable deduplication
 
 ## Data Model
 
@@ -65,24 +69,30 @@ Power Rangers (franchise)
 ```json
 {
   "type": "toy",
-  "name": "Red Ranger Action Figure",
+  "name": "Jason Red Ranger",
   "year": 1993,
-  "image_url": "https://...",
+  "image_url": "https://www.grnrngr.com/toys/pictures/bandai/02200_1.jpg",
   "external_ids": {
-    "rangerwiki": "Red_Ranger_Action_Figure"
+    "grnrngr": "2200",
+    "upc": "045557022009"
   },
   "attributes": {
-    "toy_type": "action_figure",
-    "character": "Red Ranger",
-    "manufacturer": "Bandai",
-    "description": "5-inch articulated figure"
+    "item_number": "2200",
+    "release_date": "Fall 1993",
+    "price": "$9.99",
+    "manufacturer": "Bandai America",
+    "photo_url": "/toys/pictures/bandai/02200_1.jpg",
+    "barcode_url": "/toys/upcs/bandai/04555702200.png"
   }
 }
 ```
 
 ## Technical Notes
 
-- RangerWiki uses MediaWiki structure, may need to parse infoboxes
+- grnrngr.com uses definition list HTML structure (`<dl>`, `<dt>`, `<dd>`)
 - Rate limiting: 1 request per second to be respectful
-- Images hosted on Fandom CDN, can be linked directly or downloaded to Supabase storage
-- Some toy pages may have incomplete data - import what's available
+- Images hosted on grnrngr.com, can be linked directly (e.g., https://www.grnrngr.com/toys/pictures/bandai/02200_1.jpg)
+- Item numbers are unique identifiers for reliable deduplication
+- Release dates need parsing (e.g., "[Fall 1993]" → year: 1993)
+- Prices need parsing (e.g., "SRP: $14.99" → "$14.99")
+- Instructions PDFs available for many toys

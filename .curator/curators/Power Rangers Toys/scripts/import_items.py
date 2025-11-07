@@ -13,7 +13,7 @@ try:
 except ImportError:
     print("Installing required dependencies...")
     import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "supabase"])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "--break-system-packages", "supabase"])
     from supabase import create_client, Client
 
 FETCHED_FILE = "fetched_data.json"
@@ -72,17 +72,18 @@ class ToyImporter:
         print(f"  Created series: {series_name}")
         return series_id
 
-    def check_toy_exists(self, name: str, series_id: str, year: Optional[int]) -> Optional[str]:
-        """Check if toy already exists using deduplication strategy: name + series + year."""
-        # Find toys with matching name linked to this series
-        result = self.supabase.table("relationships").select(
-            "to_id, entities!relationships_to_id_fkey(id, name, year)"
-        ).eq("from_id", series_id).eq("type", "contains").execute()
+    def check_toy_exists(self, item_number: str) -> Optional[str]:
+        """Check if toy already exists using item number (grnrngr external ID)."""
+        if not item_number:
+            return None
 
-        for rel in result.data:
-            entity = rel["entities"]
-            if entity["name"] == name and entity.get("year") == year:
-                return entity["id"]
+        # Query for entity with matching grnrngr item number
+        result = self.supabase.table("entities").select("id").eq(
+            "external_ids->>grnrngr", item_number
+        ).execute()
+
+        if result.data:
+            return result.data[0]["id"]
 
         return None
 
@@ -90,11 +91,12 @@ class ToyImporter:
         """Import a single toy. Returns (success, message)."""
         name = toy_data["name"]
         year = toy_data.get("year")
+        item_number = toy_data.get("item_number")
 
-        # Check for duplicates
-        existing_id = self.check_toy_exists(name, series_id, year)
+        # Check for duplicates using item number
+        existing_id = self.check_toy_exists(item_number)
         if existing_id:
-            return False, f"Skip: {name} (already exists)"
+            return False, f"Skip: {name} (item #{item_number} already exists)"
 
         # Prepare entity data
         entity_data = {
@@ -103,12 +105,12 @@ class ToyImporter:
             "year": year,
             "image_url": toy_data.get("image_url"),
             "external_ids": {
-                "rangerwiki": toy_data["url"]
+                "grnrngr": item_number
             },
             "attributes": {
-                "toy_type": toy_data.get("toy_type"),
-                "manufacturer": toy_data.get("manufacturer"),
-                "description": toy_data.get("description"),
+                "item_number": item_number,
+                "release_date": toy_data.get("release_date"),
+                "price": toy_data.get("price"),
                 "source_url": toy_data.get("source_url")
             }
         }
@@ -128,7 +130,7 @@ class ToyImporter:
                 "type": "contains"
             }).execute()
 
-            return True, f"✓ Imported: {name}"
+            return True, f"✓ Imported: {name} (#{item_number})"
 
         except Exception as e:
             return False, f"Error importing {name}: {str(e)}"
