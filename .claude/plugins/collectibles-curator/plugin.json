@@ -1,0 +1,10 @@
+{
+  "name": "collectibles-curator",
+  "version": "1.0.0",
+  "description": "Autonomous agents for importing collectibles data",
+  "author": "Database of Things",
+  "skills": [
+    "init-curator",
+    "run-curator"
+  ]
+}
