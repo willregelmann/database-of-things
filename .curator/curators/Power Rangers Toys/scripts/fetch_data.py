@@ -132,10 +132,12 @@ class GrnRngrScraper:
         price = self.extract_price(item_text)
 
         # Build image URL (grnrngr.com uses item numbers in image paths)
-        # Format: /toys/pictures/bandai/ITEMNUM_1.jpg
+        # Format: /toys/pictures/bandai/ITEMNUM.jpg OR /toys/pictures/bandai/ITEMNUM_1.jpg
+        # Note: Some images have _1 suffix, others don't - backfill script tries both
         # Pad item number to 5 digits
         padded_number = item_number.zfill(5)
-        image_url = f"{BASE_URL}/toys/pictures/bandai/{padded_number}_1.jpg"
+        # Store base URL without suffix - backfill will try both patterns
+        image_url = f"{BASE_URL}/toys/pictures/bandai/{padded_number}.jpg"
 
         return {
             "name": name,
@@ -148,8 +150,31 @@ class GrnRngrScraper:
             "source_url": f"{BASE_URL}{SEASON_TOYLINES[0]}"  # Will be updated per season
         }
 
+    def parse_assortment_header(self, h3_text: str) -> Optional[Dict]:
+        """Parse toy line assortment header like '3130 Morpher Assortment [SRP: $10.50]'."""
+        if not h3_text:
+            return None
+
+        # Extract assortment number and name
+        match = re.match(r'^(\d+)\s+(.+?)(?:\s+\[|$)', h3_text)
+        if not match:
+            return None
+
+        assortment_number = match.group(1)
+        assortment_name = match.group(2).strip()
+
+        # Extract price
+        price = self.extract_price(h3_text)
+
+        return {
+            "assortment_number": assortment_number,
+            "name": f"{assortment_number} {assortment_name}",
+            "price": price,
+            "manufacturer": "Bandai America"  # Standard for Power Rangers toys
+        }
+
     def scrape_season_page(self, season_url: str) -> List[Dict]:
-        """Scrape all toys from a season page."""
+        """Scrape all toy lines and toys from a season page."""
         soup = self.fetch_page(season_url)
         if not soup:
             return []
@@ -163,53 +188,83 @@ class GrnRngrScraper:
 
         print(f"  Series: {series_name}")
 
-        toys = []
+        toy_lines = []
 
-        # Find all list items (li elements) containing toy data
-        for li in soup.find_all("li"):
-            li_text = li.get_text(separator='\n', strip=True)
+        # Find all h2 headers (toy line assortments)
+        for h2 in soup.find_all("h2"):
+            h2_text = h2.get_text(strip=True)
 
-            # Extract item number from start of text (e.g., "2200" from "2200 Jason Red Ranger")
-            number_match = re.match(r'^(\d+)', li_text)
-            if not number_match:
+            # Parse assortment header
+            assortment_info = self.parse_assortment_header(h2_text)
+            if not assortment_info:
                 continue
 
-            item_number = number_match.group(1)
+            print(f"    Toy Line: {assortment_info['name']}")
 
-            # Parse the toy entry
-            toy_data = self.parse_toy_entry(item_number, li_text, series_name)
+            # Find the next ul (may not be direct sibling due to div elements)
+            ul = h2.find_next("ul")
+            if not ul:
+                continue
 
-            if toy_data:
-                toy_data["source_url"] = f"{BASE_URL}{season_url}"
-                toys.append(toy_data)
-                print(f"    ✓ {toy_data['name']} ({item_number})")
+            toys = []
 
-        return toys
+            # Parse all li items under this assortment
+            for li in ul.find_all("li", recursive=False):
+                li_text = li.get_text(separator='\n', strip=True)
 
-    def fetch_all_toys(self) -> List[Dict]:
-        """Fetch all Power Rangers toys from configured season toylines."""
-        all_toys = []
+                # Extract item number from start of text
+                number_match = re.match(r'^(\d+)', li_text)
+                if not number_match:
+                    continue
+
+                item_number = number_match.group(1)
+
+                # Parse the toy entry
+                toy_data = self.parse_toy_entry(item_number, li_text, series_name)
+
+                if toy_data:
+                    toys.append(toy_data)
+                    print(f"      ✓ {toy_data['name']} (#{item_number})")
+
+            if toys:
+                toy_line_data = {
+                    "series": series_name,
+                    "assortment_number": assortment_info["assortment_number"],
+                    "name": assortment_info["name"],
+                    "manufacturer": assortment_info["manufacturer"],
+                    "price": assortment_info["price"],
+                    "source_url": f"{BASE_URL}{season_url}",
+                    "toys": toys
+                }
+                toy_lines.append(toy_line_data)
+
+        return toy_lines
+
+    def fetch_all_toy_lines(self) -> List[Dict]:
+        """Fetch all Power Rangers toy lines from configured season toylines."""
+        all_toy_lines = []
 
         for season_url in SEASON_TOYLINES:
             print(f"\n{'='*60}")
             print(f"Scraping: {season_url}")
             print('='*60)
 
-            toys = self.scrape_season_page(season_url)
-            all_toys.extend(toys)
+            toy_lines = self.scrape_season_page(season_url)
+            all_toy_lines.extend(toy_lines)
 
-            print(f"  Found {len(toys)} toys")
+            toy_count = sum(len(tl["toys"]) for tl in toy_lines)
+            print(f"  Found {len(toy_lines)} toy lines with {toy_count} toys")
 
-        # Deduplicate by item number
-        seen_numbers = set()
-        unique_toys = []
-        for toy in all_toys:
-            item_num = toy.get("item_number")
-            if item_num and item_num not in seen_numbers:
-                seen_numbers.add(item_num)
-                unique_toys.append(toy)
+        # Deduplicate toy lines by assortment number
+        seen_assortments = set()
+        unique_toy_lines = []
+        for toy_line in all_toy_lines:
+            assort_num = toy_line.get("assortment_number")
+            if assort_num and assort_num not in seen_assortments:
+                seen_assortments.add(assort_num)
+                unique_toy_lines.append(toy_line)
 
-        return unique_toys
+        return unique_toy_lines
 
 
 def main():
@@ -219,37 +274,40 @@ def main():
     print()
 
     scraper = GrnRngrScraper()
-    toys = scraper.fetch_all_toys()
+    toy_lines = scraper.fetch_all_toy_lines()
 
     # Save to file
     output_path = Path(__file__).parent.parent / OUTPUT_FILE
     with open(output_path, "w") as f:
-        json.dump(toys, f, indent=2)
+        json.dump(toy_lines, f, indent=2)
 
     print()
     print("=" * 60)
-    print(f"✓ Fetched {len(toys)} toys → {output_path}")
+    total_toys = sum(len(tl["toys"]) for tl in toy_lines)
+    print(f"✓ Fetched {len(toy_lines)} toy lines with {total_toys} toys → {output_path}")
     print("=" * 60)
 
     # Summary by series
     series_counts = {}
-    for toy in toys:
-        series = toy.get("series") or "Unknown Series"
-        series_counts[series] = series_counts.get(series, 0) + 1
+    for toy_line in toy_lines:
+        series = toy_line.get("series") or "Unknown Series"
+        toy_count = len(toy_line.get("toys", []))
+        series_counts[series] = series_counts.get(series, 0) + toy_count
 
     print("\nToys by series:")
     for series, count in sorted(series_counts.items(), key=lambda x: -x[1]):
         print(f"  {series}: {count}")
 
     # Summary of data quality
-    with_images = sum(1 for t in toys if t.get("image_url"))
-    with_years = sum(1 for t in toys if t.get("year"))
-    with_prices = sum(1 for t in toys if t.get("price"))
+    all_toys = [toy for tl in toy_lines for toy in tl.get("toys", [])]
+    with_images = sum(1 for t in all_toys if t.get("image_url"))
+    with_years = sum(1 for t in all_toys if t.get("year"))
 
     print(f"\nData quality:")
-    print(f"  With images: {with_images}/{len(toys)} ({with_images/len(toys)*100:.1f}%)")
-    print(f"  With years: {with_years}/{len(toys)} ({with_years/len(toys)*100:.1f}%)")
-    print(f"  With prices: {with_prices}/{len(toys)} ({with_prices/len(toys)*100:.1f}%)")
+    print(f"  Toy lines: {len(toy_lines)}")
+    print(f"  Total toys: {total_toys}")
+    print(f"  With images: {with_images}/{total_toys} ({with_images/total_toys*100:.1f}%)")
+    print(f"  With years: {with_years}/{total_toys} ({with_years/total_toys*100:.1f}%)")
 
 
 if __name__ == "__main__":

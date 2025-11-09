@@ -1,0 +1,175 @@
+#!/usr/bin/env python3
+"""
+Fetch data from [DATA_SOURCE] for [COLLECTION_NAME].
+
+This is a template - customize for your specific data source.
+"""
+
+import json
+import sys
+from pathlib import Path
+from typing import List, Dict, Optional
+
+# Auto-install dependencies if missing
+try:
+    import requests
+    # Add other dependencies as needed (beautifulsoup4, lxml, etc.)
+except ImportError:
+    print("Installing required dependencies...")
+    import subprocess
+    subprocess.check_call([
+        sys.executable, "-m", "pip", "install", "-q",
+        "--break-system-packages",
+        "requests"
+        # Add other packages: "beautifulsoup4", "lxml", etc.
+    ])
+    import requests
+
+# Configuration
+API_URL = "https://api.example.com/v1"  # CUSTOMIZE: Your data source URL
+OUTPUT_FILE = "fetched_data.json"
+RATE_LIMIT = 1  # seconds between requests
+
+# For web scraping, import BeautifulSoup:
+# from bs4 import BeautifulSoup
+# USER_AGENT = "Your Collection Database Bot (Educational/Personal Project)"
+
+
+class DataFetcher:
+    """Fetch data from [DATA_SOURCE]."""
+
+    def __init__(self):
+        self.session = requests.Session()
+        # self.session.headers.update({"User-Agent": USER_AGENT})
+
+    def fetch_items(self, limit: Optional[int] = None) -> List[Dict]:
+        """
+        Fetch all items from the data source.
+
+        CUSTOMIZE THIS METHOD for your specific data source:
+        - API pagination logic
+        - Web scraping patterns
+        - Data extraction and parsing
+        - Error handling for your source
+
+        Args:
+            limit: Optional limit for testing (fetch only N items)
+
+        Returns:
+            List of item dictionaries
+        """
+        items = []
+
+        # EXAMPLE: API with pagination
+        # page = 1
+        # while True:
+        #     response = self.session.get(
+        #         f"{API_URL}/items",
+        #         params={"page": page, "pageSize": 100}
+        #     )
+        #     response.raise_for_status()
+        #     data = response.json()
+        #
+        #     items.extend(data["items"])
+        #
+        #     if not data.get("hasMore") or (limit and len(items) >= limit):
+        #         break
+        #     page += 1
+        #     time.sleep(RATE_LIMIT)
+
+        # EXAMPLE: Web scraping
+        # response = self.session.get(SCRAPE_URL)
+        # soup = BeautifulSoup(response.text, "lxml")
+        # for element in soup.select(".item"):
+        #     item = self.parse_item(element)
+        #     if item:
+        #         items.append(item)
+
+        # Truncate to limit if specified
+        if limit:
+            items = items[:limit]
+
+        return items
+
+    def parse_item(self, raw_data) -> Optional[Dict]:
+        """
+        Parse raw item data into standardized format.
+
+        CUSTOMIZE THIS METHOD to extract:
+        - name (required)
+        - id or unique identifier (for deduplication)
+        - year (if available)
+        - language (if available, use ISO 639-1 codes: "en", "ja", etc.)
+        - imageUrl (external URL - will be localized during import)
+        - sourceUrl (attribution/source page URL)
+        - Any other metadata specific to your collection
+
+        Returns:
+            Dictionary with standardized fields, or None if parsing fails
+        """
+        try:
+            # EXAMPLE: Parse from API response
+            # return {
+            #     "name": raw_data["name"],
+            #     "id": raw_data["id"],
+            #     "year": raw_data.get("releaseYear"),
+            #     "language": raw_data.get("language", "en"),
+            #     "imageUrl": raw_data.get("imageUrl"),
+            #     "sourceUrl": raw_data.get("url"),
+            #     # Domain-specific fields (will go in attributes)
+            #     "description": raw_data.get("description"),
+            #     "manufacturer": raw_data.get("manufacturer"),
+            # }
+
+            # EXAMPLE: Parse from HTML element
+            # name = element.select_one(".name").get_text(strip=True)
+            # image_url = element.select_one("img")["src"]
+            # return {
+            #     "name": name,
+            #     "id": extract_id_from_url(element["href"]),
+            #     "imageUrl": image_url,
+            #     "sourceUrl": element["href"]
+            # }
+
+            pass  # Replace with your parsing logic
+
+        except Exception as e:
+            print(f"  ⚠️  Failed to parse item: {e}")
+            return None
+
+
+def main():
+    print("=" * 60)
+    print("[COLLECTION_NAME] Data Fetcher")
+    print("=" * 60)
+    print()
+
+    fetcher = DataFetcher()
+
+    # Fetch items
+    print("Fetching items from [DATA_SOURCE]...")
+    items = fetcher.fetch_items()
+
+    # Save to file
+    output_path = Path(__file__).parent.parent / OUTPUT_FILE
+    with open(output_path, "w") as f:
+        json.dump(items, f, indent=2)
+
+    print()
+    print("=" * 60)
+    print(f"✓ Fetched {len(items)} items → {output_path}")
+    print("=" * 60)
+
+    # Data quality report
+    if items:
+        with_images = sum(1 for item in items if item.get("imageUrl"))
+        with_years = sum(1 for item in items if item.get("year"))
+
+        print(f"\nData quality:")
+        print(f"  Total items: {len(items)}")
+        print(f"  With images: {with_images}/{len(items)} ({with_images/len(items)*100:.1f}%)")
+        print(f"  With years: {with_years}/{len(items)} ({with_years/len(items)*100:.1f}%)")
+
+
+if __name__ == "__main__":
+    main()

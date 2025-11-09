@@ -135,6 +135,7 @@ The schema consists of only two tables:
 - `language` (CHAR(2)): Optional ISO 639-1 language code (e.g., "en", "ja", "es")
 - `image_url` (TEXT): Image URL path - local storage uses `/storage/v1/object/public/images/originals/uuid.ext`, external URLs stored as-is
 - `thumbnail_url` (TEXT): Optional pre-generated thumbnail path (typically 300x300 WebP) - `/storage/v1/object/public/images/thumbnails/uuid.webp`
+- `source_url` (TEXT): Source page URL where entity data was obtained (for attribution)
 - `name_embedding` (vector(384)): Vector embedding for semantic search (nullable, generated externally)
 - `external_ids` (JSONB): External system IDs (e.g., `{"tcgplayer": "base1-4", "pokemontcg_io": "base1-4"}`)
 - `attributes` (JSONB): All other data (description, additional images, custom fields)
@@ -559,6 +560,7 @@ VALUES (
   "language": "en",
   "image_url": "https://images.pokemontcg.io/base1/4.png",
   "thumbnail_url": null,
+  "source_url": "https://pokemontcg.io/cards/base1-4",
   "external_ids": {
     "pokemontcg_io": "base1-4",
     "tcgplayer": "base1-4"
@@ -581,6 +583,7 @@ VALUES (
   "language": "en",
   "image_url": "/storage/v1/object/public/images/originals/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.jpg",
   "thumbnail_url": "/storage/v1/object/public/images/thumbnails/34a6d4a2-50d6-459e-9ae8-f29271f0e16d.webp",
+  "source_url": "https://pokemontcg.io/cards/base1-2",
   "external_ids": {
     "pokemontcg_io": "base1-2"
   },
