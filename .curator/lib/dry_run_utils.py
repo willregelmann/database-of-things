@@ -152,3 +152,75 @@ class ImageValidator:
             result["error"] = str(e)
 
         return result
+
+
+class DryRunOutput:
+    """Generates human-readable YAML and structured JSON from dry run results."""
+
+    def __init__(self, mock_client: MockSupabaseClient, image_results: List[Dict]):
+        self.entities = mock_client.entities
+        self.relationships = mock_client.relationships
+        self.image_results = image_results
+
+    def build_hierarchy(self) -> Dict[str, Any]:
+        """Build hierarchical structure from flat entities/relationships."""
+        # Create entity lookup
+        entity_map = {e["id"]: e for e in self.entities}
+
+        # Group relationships by parent
+        children_map = {}
+        for rel in self.relationships:
+            from_id = rel["from_id"]
+            if from_id not in children_map:
+                children_map[from_id] = []
+            children_map[from_id].append({
+                "entity_id": rel["to_id"],
+                "order": rel.get("order")
+            })
+
+        # Sort children by order if present
+        for children in children_map.values():
+            children.sort(key=lambda x: x["order"] if x["order"] is not None else float('inf'))
+
+        # Build tree recursively
+        def build_subtree(entity_id: str) -> Any:
+            entity = entity_map.get(entity_id)
+            if not entity:
+                return None
+
+            # If this entity has children
+            if entity_id in children_map:
+                children = children_map[entity_id]
+
+                # If children are collections, nest as dict
+                first_child = entity_map.get(children[0]["entity_id"])
+                if first_child and first_child.get("type") == "collection":
+                    result = {}
+                    for child_info in children:
+                        child_entity = entity_map.get(child_info["entity_id"])
+                        if child_entity:
+                            result[child_entity["name"]] = build_subtree(child_info["entity_id"])
+                    return result
+                # Otherwise, return as list
+                else:
+                    result = []
+                    for child_info in children:
+                        child_entity = entity_map.get(child_info["entity_id"])
+                        if child_entity:
+                            result.append(child_entity)
+                    return result
+
+            # Leaf node
+            return entity
+
+        # Find root entities (not referenced as children)
+        child_ids = {rel["to_id"] for rel in self.relationships}
+        root_ids = [e["id"] for e in self.entities if e["id"] not in child_ids]
+
+        # Build hierarchy from roots
+        hierarchy = {}
+        for root_id in root_ids:
+            entity = entity_map[root_id]
+            hierarchy[entity["name"]] = build_subtree(root_id)
+
+        return hierarchy

@@ -1,5 +1,6 @@
 # tests/curator/test_dry_run_utils.py
 import sys
+import uuid
 from pathlib import Path
 from unittest.mock import Mock, patch
 
@@ -90,3 +91,59 @@ def test_image_validator_detects_failures():
 
     assert result["accessible"] is False
     assert result["status_code"] == 404
+
+
+def test_dry_run_output_builds_hierarchy():
+    """DryRunOutput should build hierarchical structure from flat data."""
+    from dry_run_utils import DryRunOutput, MockSupabaseClient
+
+    # Create mock client with sample data
+    client = MockSupabaseClient()
+
+    # Add collection
+    collection_id = str(uuid.uuid4())
+    client.entities.append({
+        "id": collection_id,
+        "name": "Test Collection",
+        "type": "collection"
+    })
+
+    # Add series
+    series_id = str(uuid.uuid4())
+    client.entities.append({
+        "id": series_id,
+        "name": "Test Series",
+        "type": "collection"
+    })
+
+    # Add issue
+    issue_id = str(uuid.uuid4())
+    client.entities.append({
+        "id": issue_id,
+        "name": "Issue #1",
+        "type": "comic",
+        "attributes": {"issue_number": 1}
+    })
+
+    # Add relationships
+    client.relationships.append({
+        "from_id": collection_id,
+        "to_id": series_id,
+        "type": "contains"
+    })
+    client.relationships.append({
+        "from_id": series_id,
+        "to_id": issue_id,
+        "type": "contains",
+        "order": 1
+    })
+
+    # Build hierarchy
+    output = DryRunOutput(client, [])
+    hierarchy = output.build_hierarchy()
+
+    # Should nest properly
+    assert "Test Collection" in hierarchy
+    assert "Test Series" in hierarchy["Test Collection"]
+    assert len(hierarchy["Test Collection"]["Test Series"]) == 1
+    assert hierarchy["Test Collection"]["Test Series"][0]["name"] == "Issue #1"
