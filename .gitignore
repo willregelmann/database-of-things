@@ -5,7 +5,7 @@
 
 # Backups (large files)
 backups/
-*.sql
+backups/*.sql
 *.tar.gz
 *.dump
 
