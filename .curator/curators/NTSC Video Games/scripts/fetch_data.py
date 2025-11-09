@@ -241,7 +241,7 @@ class MobyGamesFetcher:
         enriched = {
             "id": f"{game_id}-{platform_id}",  # Compound ID
             "game_id": game_id,
-            "name": f"{title} ({platform_name})",
+            "name": title,  # Just the game title, platform stored in attributes
             "platform": platform_name,
             "year": year,
             "country": "US",
