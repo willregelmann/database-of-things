@@ -1,6 +1,8 @@
 """Utilities for dry run mode in curator scripts."""
 
+import json
 import uuid
+import yaml
 import requests
 from typing import Any, Dict, List, Optional
 
@@ -224,3 +226,60 @@ class DryRunOutput:
             hierarchy[entity["name"]] = build_subtree(root_id)
 
         return hierarchy
+
+    def get_summary(self) -> Dict[str, Any]:
+        """Get summary statistics."""
+        # Count by entity type
+        type_counts = {}
+        for entity in self.entities:
+            entity_type = entity.get("type", "unknown")
+            type_counts[entity_type] = type_counts.get(entity_type, 0) + 1
+
+        # Count image results
+        images_accessible = sum(1 for r in self.image_results if r.get("accessible"))
+
+        return {
+            "entity_types": type_counts,
+            "total_entities": len(self.entities),
+            "total_relationships": len(self.relationships),
+            "images_validated": len(self.image_results),
+            "images_accessible": images_accessible
+        }
+
+    def print_yaml(self, max_entities: int = 3):
+        """Print YAML summary to terminal (limited to avoid spam)."""
+        summary = self.get_summary()
+        hierarchy = self.build_hierarchy()
+
+        # Limit hierarchy depth for display
+        limited_hierarchy = dict(list(hierarchy.items())[:max_entities])
+
+        output = {
+            "Dry Run Results": {
+                "Summary": summary,
+                "Structure (showing first {} entities)".format(max_entities): limited_hierarchy
+            }
+        }
+
+        # Add image issues if any
+        image_issues = [r for r in self.image_results if not r.get("accessible")]
+        if image_issues:
+            output["Dry Run Results"]["Image Issues"] = [
+                f"{r['url']} ({r.get('error', 'Unknown error')})"
+                for r in image_issues[:10]  # Limit to 10
+            ]
+
+        print(yaml.dump(output, default_flow_style=False, sort_keys=False))
+
+    def save_json(self, filepath: str):
+        """Save complete results to JSON file."""
+        data = {
+            "summary": self.get_summary(),
+            "entities": self.entities,
+            "relationships": self.relationships,
+            "image_results": self.image_results,
+            "hierarchy": self.build_hierarchy()
+        }
+
+        with open(filepath, 'w') as f:
+            json.dump(data, f, indent=2)
