@@ -1,6 +1,7 @@
 """Utilities for dry run mode in curator scripts."""
 
 import uuid
+import requests
 from typing import Any, Dict, List, Optional
 
 
@@ -101,3 +102,53 @@ class MockSupabaseClient:
     def table(self, table_name: str) -> MockTable:
         """Return mock table interface."""
         return MockTable(self, table_name)
+
+
+class ImageValidator:
+    """Validates image URLs are accessible without downloading full images."""
+
+    def __init__(self, timeout: int = 5):
+        self.timeout = timeout
+
+    def validate_image(self, url: str) -> Dict[str, Any]:
+        """
+        Validate image URL with HEAD request.
+
+        Returns:
+            {
+                "url": str,
+                "accessible": bool,
+                "status_code": int,
+                "content_type": str,
+                "error": str (if failed)
+            }
+        """
+        result = {
+            "url": url,
+            "accessible": False,
+            "status_code": None,
+            "content_type": None,
+            "error": None
+        }
+
+        try:
+            # Try HEAD request first (faster, no body download)
+            response = requests.head(url, timeout=self.timeout, allow_redirects=True)
+            result["status_code"] = response.status_code
+            result["content_type"] = response.headers.get('content-type', '')
+
+            # Check if successful and is an image
+            if response.status_code == 200:
+                if 'image/' in result["content_type"]:
+                    result["accessible"] = True
+                else:
+                    result["error"] = f"Not an image: {result['content_type']}"
+            else:
+                result["error"] = f"HTTP {response.status_code}"
+
+        except requests.exceptions.Timeout:
+            result["error"] = "Timeout"
+        except requests.exceptions.RequestException as e:
+            result["error"] = str(e)
+
+        return result
