@@ -455,6 +455,32 @@ def main():
     print("=" * 60)
     print()
 
+    # DRY RUN: Run fetch script first to get real data
+    if args.dry_run:
+        print("Step 1: Fetching data from grnrngr.com...")
+        print("-" * 60)
+        fetch_script = Path(__file__).parent / "fetch_data.py"
+
+        if fetch_script.exists():
+            import subprocess
+            result = subprocess.run(
+                [sys.executable, str(fetch_script)],
+                capture_output=False,
+                cwd=Path(__file__).parent.parent
+            )
+
+            if result.returncode != 0:
+                print("\n⚠️  Fetch failed - cannot proceed with dry run")
+                sys.exit(1)
+        else:
+            print("⚠️  fetch_data.py not found - skipping fetch step")
+
+        print()
+        print("=" * 60)
+        print("Step 2: Validating import (dry run)")
+        print("=" * 60)
+        print()
+
     # Load configuration
     supabase_url, supabase_key = load_config()
 

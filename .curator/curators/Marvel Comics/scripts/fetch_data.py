@@ -54,13 +54,14 @@ class MarvelAPIFetcher:
             "hash": hash_value
         }
 
-    def fetch_comics(self, limit: Optional[int] = None, offset: int = 0) -> List[Dict]:
+    def fetch_comics(self, limit: Optional[int] = None, offset: int = 0, series_title: Optional[str] = None) -> List[Dict]:
         """
         Fetch comics from Marvel API.
 
         Args:
             limit: Maximum number of comics to fetch (None = all)
             offset: Starting offset for pagination
+            series_title: Filter by series title (e.g., "Journey Into Mystery")
 
         Returns:
             List of comic dictionaries
@@ -79,6 +80,10 @@ class MarvelAPIFetcher:
                 "limit": page_size,
                 "offset": offset
             })
+
+            # Add series title filter if provided
+            if series_title:
+                params["titleStartsWith"] = series_title
 
             print(f"  Fetching comics {offset}-{offset + page_size}...")
 
@@ -212,14 +217,19 @@ def main():
     limit = os.getenv("FETCH_LIMIT")
     limit = int(limit) if limit else None
 
+    # Allow series filtering
+    series_title = os.getenv("SERIES_TITLE")
+
     fetcher = MarvelAPIFetcher(public_key, private_key)
 
     print(f"Fetching comics from Marvel API...")
+    if series_title:
+        print(f"  Series: {series_title}")
     if limit:
         print(f"  Limit: {limit} comics (for testing)")
     print()
 
-    comics = fetcher.fetch_comics(limit=limit)
+    comics = fetcher.fetch_comics(limit=limit, series_title=series_title)
 
     # Save to file
     output_path = Path(__file__).parent.parent / OUTPUT_FILE
