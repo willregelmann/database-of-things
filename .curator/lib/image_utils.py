@@ -211,7 +211,18 @@ class ImageLocalizer:
         # Upload original
         original_path = f"originals/{entity_id}.{ext}"
         print(f"    📤 Uploading original...")
-        if not self.upload_to_storage(image_bytes, original_path, f'image/{ext}'):
+
+        # Map file extensions to proper MIME types
+        mime_types = {
+            'jpg': 'image/jpeg',
+            'jpeg': 'image/jpeg',
+            'png': 'image/png',
+            'gif': 'image/gif',
+            'webp': 'image/webp'
+        }
+        content_type = mime_types.get(ext, 'image/jpeg')
+
+        if not self.upload_to_storage(image_bytes, original_path, content_type):
             return None, None
 
         # Generate thumbnail
