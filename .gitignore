@@ -68,5 +68,6 @@ curator/.env.*
 
 # Curator temporary files
 .curator/curators/*/fetched_data.json
+.curator/curators/*/dry_run_results.json
 .curator/curators/*/scripts/__pycache__/
 .curator/curators/*/scripts/*.pyc

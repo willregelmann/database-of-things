@@ -1,0 +1,19 @@
+{
+  "name": "NTSC Video Games",
+  "description": "Physical NTSC video game releases from North America",
+  "entity_type": "video_game",
+  "source": "MobyGames API",
+  "source_url": "https://www.mobygames.com/",
+  "region": "North America",
+  "language": "en",
+  "country": "US",
+  "external_id_field": "moby_games",
+  "rate_limit": {
+    "requests_per_second": 0.66,
+    "note": "MobyGames free tier: ~1 request per 1.5 seconds (360/hour)"
+  },
+  "import_strategy": "incremental",
+  "deduplication": "moby_games game_id + platform_id compound key",
+  "created": "2025-11-08",
+  "status": "active"
+}
