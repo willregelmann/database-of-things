@@ -59,6 +59,35 @@ class MockTable:
         return MockResponse()
 
 
+class MockStorageBucket:
+    """Mock storage bucket interface."""
+
+    def __init__(self, client: 'MockSupabaseClient', bucket_name: str):
+        self.client = client
+        self.bucket_name = bucket_name
+
+    def upload(self, path: str, file_data: bytes, file_options: Dict = None):
+        """Capture upload operation."""
+        self.client.storage_uploads.append({
+            "bucket": self.bucket_name,
+            "path": path,
+            "size": len(file_data),
+            "content_type": file_options.get("content-type") if file_options else None
+        })
+        return {"path": path}
+
+
+class MockStorage:
+    """Mock storage interface."""
+
+    def __init__(self, client: 'MockSupabaseClient'):
+        self.client = client
+
+    def from_(self, bucket_name: str) -> MockStorageBucket:
+        """Return mock bucket interface."""
+        return MockStorageBucket(self.client, bucket_name)
+
+
 class MockSupabaseClient:
     """Mock Supabase client that captures operations without executing them."""
 
@@ -67,6 +96,7 @@ class MockSupabaseClient:
         self.relationships: List[Dict] = []
         self.queries: List[Dict] = []
         self.storage_uploads: List[Dict] = []
+        self.storage = MockStorage(self)  # Add storage interface
 
     def table(self, table_name: str) -> MockTable:
         """Return mock table interface."""

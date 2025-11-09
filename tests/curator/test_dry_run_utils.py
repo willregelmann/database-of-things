@@ -34,3 +34,20 @@ def test_mock_client_returns_empty_for_select():
 
     # Should return empty (simulates "not found")
     assert result.data == []
+
+
+def test_mock_client_captures_storage_upload():
+    """Mock client should capture storage upload operations."""
+    client = MockSupabaseClient()
+
+    # Simulate storage upload
+    client.storage.from_('images').upload(
+        'originals/test.jpg',
+        b'fake image data',
+        file_options={"content-type": "image/jpeg"}
+    )
+
+    # Should capture the upload
+    assert len(client.storage_uploads) == 1
+    assert client.storage_uploads[0]["bucket"] == "images"
+    assert client.storage_uploads[0]["path"] == "originals/test.jpg"
