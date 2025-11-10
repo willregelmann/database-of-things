@@ -10,16 +10,70 @@ Autonomous curator for importing physical NTSC video game releases from MobyGame
 - **Rate Limits**: ~1 request per 1.5 seconds (360/hour)
 - **Import Strategy**: Small batches (10-50 games at a time)
 
-## Quick Start
+## Multi-Collection Design
 
-### 1. Set API Key
+**This curator serves multiple platform collections.**
 
-Already configured in `secrets.env`:
-```bash
-MOBY_GAMES_API_KEY=moby_HeFOMCcpF4PkxwwbxKH6kRcVCyW
+Unlike single-collection curators (Marvel Comics, Power Rangers), this curator is a **reusable import pipeline** that can target different platform collections:
+
+```
+NTSC Video Games Curator (import pipeline)
+├─> imports to: Game Boy Games collection
+├─> imports to: NES Games collection
+├─> imports to: SNES Games collection
+└─> imports to: PlayStation Games collection
 ```
 
-### 2. Run Dry Run (Recommended)
+**Workflow:**
+1. Create a platform collection (e.g., "Game Boy Games")
+2. Configure `PLATFORM_ID` and `COLLECTION_ID` in `secrets.env`
+3. Run import - games go into that specific collection
+4. Repeat for other platforms
+
+This design allows one curator to maintain multiple platform collections without duplication.
+
+## Quick Start
+
+### 1. Create Platform Collection
+
+First, create a collection entity for the platform you want to import:
+
+```sql
+INSERT INTO entities (name, type, year, country, language, attributes)
+VALUES (
+  'Game Boy Games',
+  'collection',
+  1989,
+  'US',
+  'en',
+  jsonb_build_object(
+    'description', 'Physical Game Boy cartridges released in North America',
+    'platform', 'Game Boy',
+    'platform_id', 10
+  )
+)
+RETURNING id;
+```
+
+Note the returned UUID - you'll need it for the next step.
+
+### 2. Configure Curator
+
+Edit `secrets.env` with your collection ID and platform:
+
+```bash
+# MobyGames API key
+MOBY_GAMES_API_KEY=moby_HeFOMCcpF4PkxwwbxKH6kRcVCyW
+
+# Target collection (from step 1)
+COLLECTION_ID=your-collection-uuid-here
+
+# Target platform
+PLATFORM_ID=10  # Game Boy
+FETCH_LIMIT=10
+```
+
+### 3. Run Dry Run (Recommended)
 
 Test the complete pipeline without writing to database:
 ```bash
@@ -28,12 +82,12 @@ python3 import_items.py --dry-run
 ```
 
 This will:
-- Fetch 10 games from MobyGames (respects rate limits)
+- Fetch games from MobyGames (respects rate limits)
 - Validate image URLs
 - Show what would be imported
 - Save validation report to `dry_run_results.json`
 
-### 3. Import Games
+### 4. Import Games
 
 After dry run succeeds, import to database:
 ```bash
@@ -129,8 +183,8 @@ Each game is stored as an entity:
 
 ```json
 {
-  "name": "Super Mario Bros. (NES)",
-  "type": "game",
+  "name": "Super Mario Bros.",
+  "type": "video_game",
   "year": 1985,
   "country": "US",
   "language": "en",
@@ -142,19 +196,24 @@ Each game is stored as an entity:
   },
   "attributes": {
     "platform": "NES",
-    "platform_id": 18,
     "game_id": 1234,
-    "title": "Super Mario Bros.",
-    "genres": ["Platform", "Action"],
-    "description": "..."
+    "publisher": "Nintendo",
+    "developer": "Nintendo R&D4"
   }
 }
 ```
 
+**Key Design Decisions:**
+- **Name**: Just the game title (no platform suffix). Platform stored in `attributes->platform`
+- **Type**: `video_game` (not `game`)
+- **External ID**: Compound key `{game_id}-{platform_id}` for deduplication
+- **Attributes**: Platform, publisher, developer (domain-specific metadata)
+
 **Deduplication**: Same game on different platforms = different entities
-- "Super Mario Bros. (NES)" has ID `1234-18`
-- "Super Mario Bros. (Game Boy Advance)" has ID `1234-14`
+- "Super Mario Bros." on NES has external_id `1234-18`
+- "Super Mario Bros." on Game Boy Advance has external_id `1234-14`
 - Both are separate collectibles (different physical media)
+- Each lives in its respective platform collection
 
 ## Troubleshooting
 
@@ -187,11 +246,48 @@ Following curator best practices:
 - ✅ **Dry run support**: Test pipeline before committing to database
 - ✅ **Progress tracking**: Clear feedback during fetch and import
 
+## Creating New Platform Collections
+
+To add another platform (e.g., NES):
+
+**1. Create collection:**
+```sql
+INSERT INTO entities (name, type, year, country, language, attributes)
+VALUES (
+  'NES Games',
+  'collection',
+  1985,
+  'US',
+  'en',
+  jsonb_build_object(
+    'description', 'Physical NES cartridges released in North America',
+    'platform', 'NES',
+    'platform_id', 18
+  )
+)
+RETURNING id;
+```
+
+**2. Find a logo** and localize it (see Game Boy example in git history)
+
+**3. Update `secrets.env`:**
+```bash
+COLLECTION_ID=nes-collection-uuid
+PLATFORM_ID=18
+```
+
+**4. Run import:**
+```bash
+python3 scripts/import_items.py
+```
+
+The same curator serves all your platform collections!
+
 ## Future Enhancements
 
 Possible improvements:
-- Fetch publisher/developer (requires additional API calls)
 - Import box scans (MobyGames has cover art variants)
-- Add game series relationships
-- Import release dates (day-level precision)
-- Platform-specific attributes (cartridge type, memory cards, etc.)
+- Add game series relationships (e.g., all Mario games)
+- Import precise release dates (currently year only)
+- Platform-specific attributes (cartridge type, region variants, etc.)
+- Support for PAL/Japan regions (new curators)
