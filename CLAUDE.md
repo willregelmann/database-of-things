@@ -895,6 +895,25 @@ VALUES (
 }
 ```
 
+**Variant with attributes:**
+```json
+{
+  "id": "variant-uuid-here",
+  "variant_of": "base-entity-uuid",
+  "name": "1st Edition",
+  "image_url": "/storage/v1/object/public/images/originals/variant-uuid.jpg",
+  "thumbnail_url": "/storage/v1/object/public/images/thumbnails/variant-uuid.webp",
+  "attributes": {
+    "edition": "1st",
+    "print_run": "shadowless",
+    "rarity": "rare",
+    "condition": "mint"
+  },
+  "created_at": "2024-01-15T12:00:00Z",
+  "updated_at": "2024-01-15T12:00:00Z"
+}
+```
+
 ## Schema Management & Migrations
 
 Migrations are stored in `supabase/migrations/` and run automatically on `supabase start`.
