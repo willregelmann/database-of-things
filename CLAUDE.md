@@ -1022,12 +1022,15 @@ JOIN relationships r ON r.from_id = e.id
 WHERE r.to_id = 'item-uuid-here'
   AND r.type = 'contains';
 
--- Get all variants of a base item (variants point to base)
+-- DEPRECATED: Old variant_of relationships (use variants table instead)
+-- Get all variants of a base item (legacy relationship-based variants)
 SELECT e.*
 FROM entities e
 JOIN relationships r ON r.from_id = e.id
 WHERE r.to_id = 'base-item-uuid'
   AND r.type = 'variant_of';
+
+-- NOTE: New variants use the variants table, see examples below
 
 -- Relationship with order column
 SELECT e.*, r."order" as position
@@ -1054,6 +1057,41 @@ WITH RECURSIVE hierarchy AS (
   WHERE r.type = 'contains'
 )
 SELECT * FROM hierarchy ORDER BY level, name;
+
+-- Get all variants of a base entity
+SELECT v.*
+FROM variants v
+WHERE v.variant_of = 'base-entity-uuid';
+
+-- Get variant count per entity
+SELECT e.id, e.name, COUNT(v.id) as variant_count
+FROM entities e
+LEFT JOIN variants v ON v.variant_of = e.id
+GROUP BY e.id, e.name
+HAVING COUNT(v.id) > 0
+ORDER BY variant_count DESC;
+
+-- Find variants with specific attributes
+SELECT v.*, e.name as base_name
+FROM variants v
+JOIN entities e ON v.variant_of = e.id
+WHERE v.attributes @> '{"edition": "1st"}'::jsonb;
+
+-- Get entity with all its variants (JSON aggregation)
+SELECT
+  e.id,
+  e.name,
+  json_agg(
+    json_build_object(
+      'id', v.id,
+      'name', v.name,
+      'attributes', v.attributes
+    )
+  ) FILTER (WHERE v.id IS NOT NULL) as variants
+FROM entities e
+LEFT JOIN variants v ON v.variant_of = e.id
+WHERE e.id = 'entity-uuid-here'
+GROUP BY e.id, e.name;
 ```
 
 ## Configuration
