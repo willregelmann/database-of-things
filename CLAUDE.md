@@ -8,6 +8,52 @@ A minimal, pure graph database for managing collectibles using PostgreSQL via Su
 
 **Core Philosophy**: Everything is an entity (collections, items, variants, etc.), connected by typed relationships. No fixed schema beyond the essentials.
 
+## Project Philosophy & Vision
+
+### Why a Pure Graph Model?
+
+Traditional relational schemas force collectibles into rigid hierarchies. Real collectibles don't work that way:
+
+- **Many-to-many relationships**: Pokemon Red Version belongs to both "Game Boy Games" and "Pokemon Generation I" collections
+- **Arbitrary nesting**: Franchises contain games, games contain sets, sets contain cards - but also cross-collection relationships
+- **Heterogeneous items**: Cards, toys, games, and comics all coexist without schema changes
+
+The pure graph model provides **maximum flexibility** while remaining conceptually simple. Two tables, infinite possibilities.
+
+### Data Integrity Philosophy
+
+**Relationships**:
+- Support arbitrarily deep nesting (franchise → game → collection → item)
+- Allow many-to-many relationships (one item, multiple parent collections)
+- Carefully avoid circular references (managed through data integrity, not schema constraints)
+
+**Metadata**:
+- **Minimal by design**: Focus on coverage and relationships over exhaustive details
+- **Source attribution**: Every entity tracks `source_url` for data provenance
+- **External IDs**: Preserve original system identifiers for reconciliation
+- **Curator-specific consistency**: Within a collection, metadata fields are standardized (e.g., all video games have "publisher" and "developers")
+
+### Long-Term Vision
+
+**Mission**: Build the most comprehensive collectibles database on the Internet.
+
+**Goals**:
+1. **Coverage**: Every collectible ever made, across all categories
+2. **Relationship richness**: Connect items through franchises, variants, components, and cross-references
+3. **Public resource**: Free read-only access for anyone building collectibles applications
+4. **Sustainable**: Automated curator system for imports, updates, and reconciliation
+
+**Use cases we're enabling**:
+- Price tracking apps that need comprehensive item catalogs
+- Collection management tools that leverage our relationship graph
+- Market research analyzing collectibles trends across categories
+- Educational resources exploring collectibles history
+
+**Not optimizing for**:
+- Exhaustive metadata (descriptions, detailed specs) - that's what source links are for
+- Real-time market data - we're a catalog, not a marketplace
+- User-generated content - curators maintain data quality
+
 ## Development Commands
 
 ### Supabase Local Development
@@ -69,32 +115,11 @@ docker exec -it supabase_db_database-of-things psql -U postgres -d postgres
 
 **ALWAYS use `./scripts/safe-migrate` instead of direct `./bin/supabase db` commands!**
 
-The safe-migrate wrapper:
-- ✅ **Automatically creates backups** before any migration
-- ✅ **Prevents accidental data loss** with confirmation prompts
-- ✅ **Makes recovery trivial** if something goes wrong
-- ✅ **Stores timestamped backups** in `backups/`
+- ✅ Auto-creates backups before migrations (stored in `backups/` with timestamps)
+- ✅ Requires confirmation for destructive operations
+- ⚠️ `./bin/supabase db reset` **DESTROYS ALL DATA** without warning - use `./scripts/safe-migrate reset` instead
 
-**Why this matters:**
-- `./bin/supabase db reset` **DESTROYS ALL DATA** without warning
-- `./scripts/safe-migrate reset` creates a backup first and requires explicit confirmation
-- Even `./scripts/safe-migrate push` creates a backup before applying migrations
-
-**Recovery from disaster:**
-```bash
-# List available backups
-ls -lh backups/
-
-# Restore from most recent backup
-./scripts/db-restore backups/backup_YYYYMMDD_HHMMSS.sql
-```
-
-**Direct supabase commands (USE WITH CAUTION):**
-```bash
-# Only use these if you know what you're doing
-./bin/supabase db push    # Apply migrations without backup
-./bin/supabase db reset   # DESTROYS ALL DATA - avoid at all costs!
-```
+**Recovery:** `./scripts/db-restore backups/backup_YYYYMMDD_HHMMSS.sql`
 
 ## Supabase Stack Access
 
@@ -124,9 +149,9 @@ When running (`./bin/supabase start`), you get:
 
 ### Pure Graph Model
 
-The schema consists of only two tables:
+The schema consists of three tables:
 
-**`entities`** - Everything in the system (collections, items, variants, components):
+**`entities`** - Collections, items, and components in the system:
 - `id` (UUID): Primary key
 - `type` (TEXT): Entity type (e.g., "collection", "card", "figure")
 - `name` (TEXT): Display name
@@ -139,6 +164,15 @@ The schema consists of only two tables:
 - `name_embedding` (vector(384)): Vector embedding for semantic search (nullable, generated externally)
 - `external_ids` (JSONB): External system IDs (e.g., `{"tcgplayer": "base1-4", "pokemontcg_io": "base1-4"}`)
 - `attributes` (JSONB): All other data (description, additional images, custom fields)
+- Timestamps: `created_at`, `updated_at`
+
+**`variants`** - Alternative versions of entities (e.g., 1st Edition, Shadowless):
+- `id` (UUID): Primary key
+- `variant_of` (UUID): Foreign key to entities (NOT NULL, CASCADE delete)
+- `name` (TEXT): Variant name (e.g., "1st Edition", "Shadowless")
+- `image_url` (TEXT): Image URL path (same pattern as entities)
+- `thumbnail_url` (TEXT): Pre-generated thumbnail path
+- `attributes` (JSONB): Variant-specific metadata (edition, print run, condition, etc.)
 - Timestamps: `created_at`, `updated_at`
 
 **`relationships`** - Connections between entities:
@@ -162,12 +196,21 @@ The schema consists of only two tables:
 - **Important**: Always use dedicated columns when available instead of JSONB attributes
 - **Relationships**: The `relationships` table has NO attributes column - all relationship metadata must use dedicated columns (currently only `order` exists)
 
+**Variants Architecture**:
+- Variants are stored in dedicated table, not as entities
+- `variant_of` foreign key is mandatory (NOT NULL)
+- CASCADE delete ensures variants removed when base entity deleted
+- Access via `entity_variants()` GraphQL computed field
+- **Note**: JSONB filtering on variants.attributes does NOT work in GraphQL (PostgREST limitation) - use SQL queries for attribute filtering
+- Legacy: Some older variant data may exist as entities with `variant_of` relationships
+
 **Relationship Types** (all use parent→child direction):
 - `contains`: Parent contains child (e.g., Collection → Card, Franchise → Game)
   - Most common relationship type
   - Makes querying intuitive: "show me what this collection contains"
-- `variant_of`: Variant → Base (e.g., "Shadowless Charizard" → "Charizard")
-  - For alternative versions of the same item
+- `variant_of`: **DEPRECATED** - Use variants table instead
+  - Legacy: Some old variant data stored as entity relationships
+  - New variants: Use dedicated variants table
 - `part_of`: Component → Whole (e.g., "Megazord arm" → "Megazord")
   - For physical components or pieces
 - Custom types as needed for domain-specific relationships
@@ -199,6 +242,10 @@ The schema consists of only two tables:
 - `idx_relationships_from_type`: Outbound relationships by type
 - `idx_relationships_to_type`: Inbound relationships by type
 - `idx_relationships_order`: Sort by order (partial index, only non-null values)
+
+**Variant lookups**:
+- `idx_variants_variant_of`: Find all variants of a base entity
+- `idx_variants_attributes`: JSONB queries on variant metadata (GIN)
 
 ## Semantic Search
 
@@ -232,6 +279,49 @@ SELECT * FROM search_by_text(
   20                      -- Limit results
 );
 ```
+
+**⚠️ WARNING**: `search_by_text()` has limitations because it uses trigram text matching to find a similar entity first, then uses that entity's embedding. This means it fails for synonyms and variations (e.g., "scarlet and violet" won't find "Scarlet & Violet").
+
+**Use the CLI utility instead for proper semantic search.**
+
+### CLI Semantic Search (Recommended)
+
+The `scripts/semantic-search` utility provides **true semantic search** by generating embeddings for your queries:
+
+```bash
+# Basic search
+./scripts/semantic-search "scarlet and violet"
+
+# Filter by entity type
+./scripts/semantic-search "fire dragon pokemon" --type card
+
+# Limit results
+./scripts/semantic-search "charizard" --limit 10
+```
+
+**Why use this?**
+- ✅ Handles synonyms and variations ("and" vs "&", "pokemon" vs "pokémon")
+- ✅ Understands semantic meaning ("fire dragon" finds Charizard)
+- ✅ No exact text match required
+
+**Example:**
+```bash
+$ ./scripts/semantic-search "scarlet and violet" --type collection --limit 5
+
+🔍 Searching for: scarlet and violet
+   Filtering by type: collection
+
+Found 5 results
+
+1. Scarlet & Violet
+   Type: collection
+   Similarity: 95.8%
+   Year: 2023
+```
+
+Even though we searched for "and", it found "Scarlet & Violet" with "&" because the embeddings understand they mean the same thing.
+
+See `scripts/README.md` for more examples.
 
 ### GraphQL Examples
 
@@ -359,6 +449,8 @@ query {
 
 Autonomous agents for importing collectibles data, implemented as project-level slash commands and skills.
 
+**Purpose**: Make importing, updating, and reconciling collections effortless through AI-driven automation.
+
 ### Available Commands
 
 - `/curator:init "Collection Name"` - Initialize new curator (interactive discovery)
@@ -368,21 +460,171 @@ Autonomous agents for importing collectibles data, implemented as project-level 
 ### Example Usage
 
 ```bash
-# Create curator
-/curator:init "Pokemon TCG"
-# → Interactive questions about collection and data sources
-# → Generates plan and scripts in .curator/curators/Pokemon TCG/
-
-# Run curator
-/curator:run "Pokemon TCG"
-# → Executes fetch and import scripts autonomously
-# → Fixes errors, installs dependencies
-# → Reports: "Imported 152 cards from pokemontcg.io"
-
-# Check status
-/curator:status "Pokemon TCG"
-# → Collection: 152 cards, last updated 2 hours ago
+/curator:init "Pokemon TCG"    # Interactive setup, generates scripts
+/curator:run "Pokemon TCG"     # Autonomous execution, fixes errors
+/curator:status "Pokemon TCG"  # Show stats
 ```
+
+### Design Principles
+
+These principles guide all curator development and usage:
+
+#### 1. Always Run Dry Run Before Real Import
+
+**Mandatory.** Every curator initialization MUST end with a dry run outputting YAML (collection hierarchy + 3-5 sample items) to validate schema before database writes. Requires user approval.
+
+**Why**: Catches schema mismatches, relationship errors, and metadata inconsistencies before corrupting the database.
+
+#### 2. Ask About Metadata During Init
+
+**Required questions**: Source URL pattern, language/country codes, external ID systems, image handling, and collection-specific metadata fields (e.g., for video games: publisher, developers, platform).
+
+**Why**: Ensures consistency within each collection and prevents metadata drift.
+
+#### 3. Load Appropriate Skills for Every Run
+
+**CRITICAL**: When running curators, ALWAYS load the `run-curator` skill. Don't run scripts directly, skip it because "it's simple", or assume you remember it.
+
+**Why**: The skill contains autonomous debugging protocols, error handling patterns, and best practices that prevent common mistakes.
+
+#### 4. Curator-Specific Metadata Consistency
+
+**Within a single curator**, all items must have consistent metadata field names (e.g., always use `card_number`, not mixing `card_number` and `number`).
+
+**Why**: Consistent metadata enables querying and analysis within collections.
+
+#### 5. Deduplication Strategy: External IDs First, Semantic Search Fallback
+
+**Priority order**: Use external IDs when available (fastest, most reliable), fall back to semantic search for sources without IDs. See "Choosing Deduplication Strategy" under Operating Instructions for implementation details.
+
+**Why**: External IDs are authoritative when available, but many sources lack them. Semantic search provides fuzzy matching for noisy data.
+
+#### 6. Maintain Relationships, Don't Skip Updates
+
+**CRITICAL**: When an entity already exists, UPDATE its relationships instead of skipping. Items can move between collections or gain new parents (many-to-many).
+
+```python
+existing_id = check_exists(external_id)
+if existing_id:
+    update_parent_relationship(existing_id, new_parent_id, name)  # Update, don't skip
+    return True, f"Updated parent: {name}"
+```
+
+**Track as**: Created (new) | Updated (reconciled relationships) | Failed (errors)
+
+### Operating Instructions
+
+#### Creating New Curators
+
+**Use `/curator:init "Collection Name"`** - Do NOT create curators manually.
+
+**Process**: Socratic questioning → generate scripts (fetch_data.py, import_items.py, validate.py) → create config (plan.md, config.json, secrets.env.example) → mandatory dry run → user approval
+
+**Output**: `.curator/curators/{Collection Name}/` with plan, config, secrets template, and scripts
+
+#### Running Existing Curators
+
+**Use `/curator:run "Collection Name"`** - Loads the `run-curator` skill for autonomous execution.
+
+**Process**: Load config → validate environment → execute fetch → execute import (deduplicate, localize images, generate embeddings) → autonomous debugging (auto-install dependencies, fix API changes, handle rate limiting) → report results
+
+#### Configuring Curators for Local Development
+
+**Local Supabase Configuration**
+
+Curators use `secrets.env` files to store credentials. During local development, these should point to your local Supabase instance.
+
+**Example `secrets.env` for local development**:
+```bash
+# Data source API credentials (varies by curator)
+MOBY_GAMES_API_KEY=your_api_key_here
+
+# Supabase configuration (local development)
+SUPABASE_URL=http://127.0.0.1:54321
+SUPABASE_SERVICE_KEY=sb_secret_N7UND0UgjKTVK-Uodkm0Hg_xSvEMPvz  # Local dev key from ./bin/supabase status
+
+# Collection ID (get from database after creating collection entity)
+COLLECTION_ID=00000000-0000-0000-0000-000000000000
+
+# Optional: Curator-specific configuration
+FETCH_LIMIT=100
+```
+
+**Finding local Supabase credentials**:
+```bash
+# Start Supabase if not running
+./bin/supabase start
+
+# Get service key and other credentials
+./bin/supabase status
+```
+
+**Important**:
+- Use `http://127.0.0.1:54321` for local, `https://yourproject.supabase.co` for production
+- **Never commit** `secrets.env` to git (use `secrets.env.example` as template)
+- The service key shown above is **local development only** and safe to document
+
+#### Updating Collections
+
+**Regular updates**: Re-run `/curator:run "Collection Name"` to fetch latest data, deduplicate, reconcile relationships, and add new items.
+
+**Schema changes**: Edit `scripts/import_items.py` to update metadata mapping, then run again.
+
+#### Choosing Deduplication Strategy
+
+**Decision tree**:
+
+```
+Does the data source provide unique IDs?
+├─ Yes → Use external ID matching
+│         External IDs go in `external_ids` JSONB field
+│         Check `external_ids->>field_name` before creating
+│
+└─ No → Use semantic search
+          Generate embeddings for all items
+          Match by cosine similarity on name_embedding
+          Log ambiguous matches (0.90-0.98 similarity) for review
+```
+
+**Combining strategies** (for cross-source reconciliation):
+1. Check external ID first (fastest)
+2. If no match, try semantic search
+3. If similarity > 0.95, link as same entity
+4. Otherwise, create new entity
+
+**Implementation example**:
+```python
+from curator_utils import check_exists_by_semantic_search
+
+def check_exists(self, external_id: str, item_name: str = None) -> Optional[str]:
+    """Check if entity exists by external ID, with semantic search fallback."""
+    # Try external ID first (fastest, most reliable)
+    if external_id:
+        result = self.supabase.table("entities").select("id").eq(
+            "external_ids->>api_name",
+            external_id
+        ).execute()
+
+        if result.data:
+            return result.data[0]["id"]
+
+    # Fallback to semantic search if external ID not found/available
+    if item_name:
+        return check_exists_by_semantic_search(
+            self.supabase,
+            item_name,
+            entity_type="card",  # Optional: filter by type
+            threshold=0.95  # High confidence threshold
+        )
+
+    return None
+```
+
+#### Ensuring Metadata Alignment
+
+**During init**: Ask about collection-specific metadata fields
+**During import**: Use `MetadataValidator` from curator_utils to validate required fields
+**Post-import**: Run validate.py to check consistency
 
 ### How It Works
 
@@ -394,6 +636,7 @@ Autonomous agents for importing collectibles data, implemented as project-level 
 - Slash commands: `.claude/commands/curator-*.md`
 - Skills: `.claude/skills/init-curator/` and `.claude/skills/run-curator/`
 - Generated curators: `.curator/curators/{name}/scripts/`
+- Shared utilities: `.curator/lib/` (image_utils, embedding_utils, curator_utils)
 
 ## Image Storage
 
@@ -598,10 +841,6 @@ VALUES (
   }
 }
 ```
-
-### Production Deployment
-
-No special configuration needed - just update your application's base URL from development (`http://127.0.0.1:54321`) to production (`https://yourproject.supabase.co`).
 
 ## Schema Management & Migrations
 
