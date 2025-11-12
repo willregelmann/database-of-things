@@ -83,6 +83,23 @@ CREATE TABLE entities (
 );
 ```
 
+### Variants Table
+
+Alternative versions of entities (e.g., 1st Edition, Shadowless):
+
+```sql
+CREATE TABLE variants (
+  id UUID PRIMARY KEY,
+  variant_of UUID NOT NULL REFERENCES entities(id) ON DELETE CASCADE,
+  name TEXT NOT NULL,              -- Variant name
+  image_url TEXT,                  -- Original image path
+  thumbnail_url TEXT,              -- Pre-generated thumbnail
+  attributes JSONB,                -- Variant-specific metadata
+  created_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ
+);
+```
+
 ### Relationships Table
 
 Typed connections between entities:
@@ -92,9 +109,8 @@ CREATE TABLE relationships (
   id UUID PRIMARY KEY,
   from_id UUID REFERENCES entities(id),
   to_id UUID REFERENCES entities(id),
-  type TEXT NOT NULL,              -- "contains", "variant_of", "part_of"
+  type TEXT NOT NULL,              -- "contains", "part_of"
   "order" INT,                     -- Sort order for collections
-  attributes JSONB,                -- Relationship-specific data
   created_at TIMESTAMPTZ
 );
 ```
@@ -109,9 +125,11 @@ Franchise → Game → Expansion → Card
 
 **Variants**:
 ```
-Base Item ← Variant Item
-(variant_of relationship)
+Base Entity ← Variant
+(variants table, variant_of foreign key)
 ```
+
+Note: Legacy variants may exist as entities with `variant_of` relationships.
 
 **Components**:
 ```
