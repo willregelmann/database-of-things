@@ -441,7 +441,60 @@ query {
     }
   }
 }
+
+# Query variants of an entity (using computed field)
+query {
+  entitiesCollection(filter: {name: {eq: "Charizard"}}) {
+    edges {
+      node {
+        id
+        name
+        image_url
+        thumbnail_url
+        entity_variants {
+          id
+          name
+          image_url
+          thumbnail_url
+          attributes
+        }
+      }
+    }
+  }
+}
+
+# Query all variants directly
+query {
+  variantsCollection {
+    edges {
+      node {
+        id
+        name
+        variant_of
+        attributes
+        created_at
+      }
+    }
+  }
+}
+
+# Get variants for specific entity by ID
+query {
+  variantsCollection(
+    filter: {variant_of: {eq: "entity-uuid-here"}}
+  ) {
+    edges {
+      node {
+        id
+        name
+        attributes
+      }
+    }
+  }
+}
 ```
+
+**Note**: JSONB attribute filtering (e.g., `attributes: {contains: {edition: "1st"}}`) is not supported in GraphQL. Use SQL queries for filtering by variant attributes - see Common SQL Queries section.
 
 **API Key**: Include in headers as `apikey: sb_publishable_...` (get from `supabase status`)
 
