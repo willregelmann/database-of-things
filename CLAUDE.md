@@ -18,7 +18,7 @@ Traditional relational schemas force collectibles into rigid hierarchies. Real c
 - **Arbitrary nesting**: Franchises contain games, games contain sets, sets contain cards - but also cross-collection relationships
 - **Heterogeneous items**: Cards, toys, games, and comics all coexist without schema changes
 
-The pure graph model provides **maximum flexibility** while remaining conceptually simple. Two tables, infinite possibilities.
+The pure graph model provides **maximum flexibility** while remaining conceptually simple. Three tables, infinite possibilities.
 
 ### Data Integrity Philosophy
 
