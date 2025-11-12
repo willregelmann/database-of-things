@@ -30,6 +30,7 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "lib"))
 from image_utils import ImageLocalizer
 from embedding_utils import EmbeddingGenerator
+from curator_utils import register_curator
 
 FETCHED_FILE = "fetched_data.json"
 
@@ -102,6 +103,55 @@ class ItemImporter:
             if '409' in str(e) or 'unique' in str(e).lower():
                 return f"Re-linked: {entity_name} (relationship already exists)"
             raise
+
+    def create_variant(self, base_entity_id: str, variant_name: str,
+                       image_url: str = None, attributes: dict = None) -> Optional[str]:
+        """
+        Create a variant of an existing entity.
+
+        Args:
+            base_entity_id: UUID of the base entity
+            variant_name: Display name for the variant (e.g., "1st Edition")
+            image_url: Optional image URL for variant
+            attributes: Optional dict of variant-specific metadata
+
+        Returns:
+            UUID of created variant, or None if failed
+
+        Example usage:
+            # Create a card entity and its variants
+            # base_id = create_entity("card", "Charizard", {...})
+            # create_variant(base_id, "1st Edition", image_url, {"edition": "1st"})
+            # create_variant(base_id, "Shadowless", image_url, {"print": "shadowless"})
+        """
+        try:
+            variant_data = {
+                "variant_of": base_entity_id,
+                "name": variant_name,
+                "attributes": attributes or {}
+            }
+
+            if image_url:
+                variant_data["image_url"] = image_url
+                # Generate thumbnail path if using Supabase storage
+                if image_url.startswith("/storage/"):
+                    variant_data["thumbnail_url"] = image_url.replace(
+                        "/originals/", "/thumbnails/"
+                    ).replace(image_url.split(".")[-1], "webp")
+
+            result = self.supabase.table("variants").insert(variant_data).execute()
+
+            if result.data:
+                variant_id = result.data[0]["id"]
+                print(f"    ✓ Created variant: {variant_name} for {base_entity_id}")
+                return variant_id
+            else:
+                print(f"    ✗ Failed to create variant: {variant_name}")
+                return None
+
+        except Exception as e:
+            print(f"    ✗ Error creating variant {variant_name}: {e}")
+            return None
 
     def import_item(self, item_data: Dict) -> Tuple[bool, str]:
         """
