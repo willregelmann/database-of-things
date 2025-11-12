@@ -71,3 +71,4 @@ curator/.env.*
 .curator/curators/*/dry_run_results.json
 .curator/curators/*/scripts/__pycache__/
 .curator/curators/*/scripts/*.pyc
+.claude/skills/supabase-deployment/scripts/production-data.sql
