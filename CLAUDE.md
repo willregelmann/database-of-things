@@ -121,6 +121,66 @@ docker exec -it supabase_db_database-of-things psql -U postgres -d postgres
 
 **Recovery:** `./scripts/db-restore backups/backup_YYYYMMDD_HHMMSS.sql`
 
+### Data Seeding & Testing
+
+```bash
+# Seed local database with sample data (24 entities, 6 variants)
+python3 scripts/seed-sample-data.py
+
+# Generate embeddings for semantic search (required after seeding)
+python3 scripts/generate-embeddings.py
+
+# Test semantic search
+export SUPABASE_URL="http://127.0.0.1:54321"
+export SUPABASE_ANON_KEY="sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH"
+./scripts/semantic-search "pokemon" --type card --limit 10
+
+# Verify schema synchronization between local and production
+./scripts/verify-schema-sync.sh
+```
+
+**Seeded Data Includes:**
+- 4 top-level collections (Pokemon TCG, Power Rangers Toys, Marvel Comics, Video Games)
+- 4 sub-collections with nested relationships
+- 16 collectible items across different types (cards, figures, comics, video games)
+- 6 variants demonstrating the variants table
+- All entities include embeddings for semantic search
+
+### Migration Tracking Best Practices
+
+**ALWAYS use Supabase CLI for migrations:**
+```bash
+# Create new migration
+./bin/supabase migration new feature_name
+
+# Apply locally
+./bin/supabase db push
+
+# Apply to production
+./bin/supabase db push --linked
+
+# Check migration status
+./bin/supabase migration list --linked
+```
+
+**NEVER:**
+- ❌ Apply migrations via Supabase Dashboard SQL Editor (bypasses tracking)
+- ❌ Use direct psql for schema changes
+- ❌ Skip creating migration files
+
+**If migration tracking gets out of sync:**
+```bash
+# Repair local tracking (mark as applied without running)
+docker exec supabase_db_database-of-things psql -U postgres -d postgres << 'SQL'
+INSERT INTO supabase_migrations.schema_migrations (version)
+VALUES ('20251112171928') ON CONFLICT DO NOTHING;
+SQL
+
+# For production, use scripts/fix-production-migrations.sql in Dashboard
+```
+
+See `MIGRATION_STATUS.md` for current migration tracking status.
+
 ## Supabase Stack Access
 
 When running (`./bin/supabase start`), you get:
@@ -149,7 +209,7 @@ When running (`./bin/supabase start`), you get:
 
 ### Pure Graph Model
 
-The schema consists of three tables:
+The schema consists of four tables:
 
 **`entities`** - Collections, items, and components in the system:
 - `id` (UUID): Primary key
@@ -173,6 +233,17 @@ The schema consists of three tables:
 - `image_url` (TEXT): Image URL path (same pattern as entities)
 - `thumbnail_url` (TEXT): Pre-generated thumbnail path
 - `attributes` (JSONB): Variant-specific metadata (edition, print run, condition, etc.)
+- Timestamps: `created_at`, `updated_at`
+
+**`components`** - Physical pieces that can be removed/lost from items:
+- `id` (UUID): Primary key
+- `component_of` (UUID): Foreign key to entities (NOT NULL, CASCADE delete)
+- `name` (TEXT): Component name (e.g., "Red Ranger Zord", "Wooden Tokens")
+- `quantity` (INTEGER): How many of this component (default 1)
+- `order` (INTEGER): Optional sort order for display
+- `image_url` (TEXT): Image URL path (same pattern as entities)
+- `thumbnail_url` (TEXT): Pre-generated thumbnail path
+- `attributes` (JSONB): Component metadata (condition notes, materials, physical specs)
 - Timestamps: `created_at`, `updated_at`
 
 **`relationships`** - Connections between entities:
@@ -204,6 +275,15 @@ The schema consists of three tables:
 - **Note**: JSONB filtering on variants.attributes does NOT work in GraphQL (PostgREST limitation) - use SQL queries for attribute filtering
 - Legacy: Some older variant data may exist as entities with `variant_of` relationships
 
+**Components Architecture**:
+- Components stored in dedicated table, not as entities
+- `component_of` foreign key is mandatory (NOT NULL)
+- CASCADE delete ensures components removed when parent entity deleted
+- Access via `entity_components()` GraphQL computed field
+- Quantity tracking for bulk items (e.g., 50 tokens vs. 1 unique piece)
+- Optional ordering for assembly instructions or logical grouping
+- Legacy: Some older component data may exist as entities with `part_of` relationships
+
 **Relationship Types** (all use parent→child direction):
 - `contains`: Parent contains child (e.g., Collection → Card, Franchise → Game)
   - Most common relationship type
@@ -211,8 +291,9 @@ The schema consists of three tables:
 - `variant_of`: **DEPRECATED** - Use variants table instead
   - Legacy: Some old variant data stored as entity relationships
   - New variants: Use dedicated variants table
-- `part_of`: Component → Whole (e.g., "Megazord arm" → "Megazord")
-  - For physical components or pieces
+- `part_of`: **DEPRECATED** - Use components table instead
+  - Legacy: Some old component data stored as entity relationships
+  - New components: Use dedicated components table
 - Custom types as needed for domain-specific relationships
 
 **Graph Traversal**:
@@ -246,6 +327,11 @@ The schema consists of three tables:
 **Variant lookups**:
 - `idx_variants_variant_of`: Find all variants of a base entity
 - `idx_variants_attributes`: JSONB queries on variant metadata (GIN)
+
+**Component lookups**:
+- `idx_components_component_of`: Find all components of a parent entity
+- `idx_components_order`: Sort by order (partial index, only non-null values)
+- `idx_components_attributes`: JSONB queries on component metadata (GIN)
 
 ## Semantic Search
 
@@ -488,6 +574,58 @@ query {
         id
         name
         attributes
+      }
+    }
+  }
+}
+
+# Query components of an entity (using computed field)
+query {
+  entitiesCollection(filter: {id: {eq: "megazord-uuid"}}) {
+    edges {
+      node {
+        id
+        name
+        entity_components {
+          id
+          name
+          quantity
+          order
+          image_url
+          thumbnail_url
+          attributes
+        }
+      }
+    }
+  }
+}
+
+# Query all components directly
+query {
+  componentsCollection {
+    edges {
+      node {
+        id
+        name
+        component_of
+        quantity
+        attributes
+      }
+    }
+  }
+}
+
+# Get components for specific entity by ID
+query {
+  componentsCollection(
+    filter: {component_of: {eq: "entity-uuid-here"}}
+  ) {
+    edges {
+      node {
+        id
+        name
+        quantity
+        order
       }
     }
   }
@@ -1109,6 +1247,48 @@ SELECT
   ) FILTER (WHERE v.id IS NOT NULL) as variants
 FROM entities e
 LEFT JOIN variants v ON v.variant_of = e.id
+WHERE e.id = 'entity-uuid-here'
+GROUP BY e.id, e.name;
+
+-- Get all components for an item (ordered)
+SELECT * FROM components
+WHERE component_of = 'item-uuid'
+ORDER BY COALESCE("order", 999999), name;
+
+-- Check if item has all required components (with quantities)
+SELECT name, quantity
+FROM components
+WHERE component_of = 'item-uuid'
+ORDER BY COALESCE("order", 999999), name;
+
+-- Get component count per entity
+SELECT e.id, e.name, COUNT(c.id) as component_count
+FROM entities e
+LEFT JOIN components c ON c.component_of = e.id
+GROUP BY e.id, e.name
+HAVING COUNT(c.id) > 0
+ORDER BY component_count DESC;
+
+-- Find components with specific attributes
+SELECT c.*, e.name as parent_name
+FROM components c
+JOIN entities e ON c.component_of = e.id
+WHERE c.attributes @> '{"material": "plastic"}'::jsonb;
+
+-- Get entity with all its components (JSON aggregation)
+SELECT
+  e.id,
+  e.name,
+  json_agg(
+    json_build_object(
+      'id', c.id,
+      'name', c.name,
+      'quantity', c.quantity,
+      'order', c.order
+    )
+  ) FILTER (WHERE c.id IS NOT NULL) as components
+FROM entities e
+LEFT JOIN components c ON c.component_of = e.id
 WHERE e.id = 'entity-uuid-here'
 GROUP BY e.id, e.name;
 ```
