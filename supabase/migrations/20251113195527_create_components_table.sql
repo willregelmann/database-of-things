@@ -1,3 +1,6 @@
+-- Enable uuid-ossp extension (idempotent)
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
 -- Create components table
 CREATE TABLE components (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
