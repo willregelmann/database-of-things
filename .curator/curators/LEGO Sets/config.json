@@ -1,0 +1,15 @@
+{
+  "collection_name": "LEGO Sets",
+  "entity_type": "lego_set",
+  "data_source": "https://rebrickable.com/api/v3/lego/sets/",
+  "requires_api_key": true,
+  "dedup_field": "rebrickable_set_num",
+  "supports_runtime_filters": true,
+  "runtime_parameters": {
+    "THEME_NAME": {
+      "description": "LEGO theme to import (e.g., 'Space', 'Star Wars', 'City')",
+      "required": true,
+      "example": "Space"
+    }
+  }
+}
