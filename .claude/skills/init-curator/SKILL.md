@@ -321,20 +321,29 @@ class ItemImporter:
 
 
 def load_config():
-    """Load Supabase configuration from environment."""
+    """Load Supabase configuration from environment.
+
+    Supabase credentials are expected in the global .curator/secrets.env file.
+    Collection ID and curator-specific config are in curator's secrets.env.
+    """
     supabase_url = os.getenv("SUPABASE_URL")
     supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
     collection_id = os.getenv("COLLECTION_ID")
 
     if not supabase_url or not supabase_key:
-        print("Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
-        print("Either:")
-        print("  1. Set environment variables")
-        print("  2. Create secrets.env file in curator directory")
+        print("❌ Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
+        print("\nSupabase credentials should be in: .curator/secrets.env")
+        print("Curator-specific config should be in: .curator/curators/<name>/secrets.env")
+        print("\nTo run with both:")
+        print("  cd .curator/curators/<name>")
+        print("  set -a && source ../../secrets.env && source secrets.env && set +a")
+        print("  python3 scripts/import_items.py")
         sys.exit(1)
 
     if not collection_id:
-        print("Error: COLLECTION_ID must be set")
+        print("❌ Error: COLLECTION_ID must be set")
+        print("\nCreate a collection entity first, then set its ID in:")
+        print("  .curator/curators/<name>/secrets.env")
         sys.exit(1)
 
     return supabase_url, supabase_key, collection_id
@@ -501,21 +510,22 @@ if __name__ == "__main__":
 Create `.curator/curators/{name}/secrets.env.example`:
 
 ```bash
-# API Keys and Secrets
+# Data Source API Keys (curator-specific)
 API_KEY=your_api_key_here
 
-# Supabase (usually from .env.local in project root)
-SUPABASE_URL=http://127.0.0.1:54321
-SUPABASE_SERVICE_KEY=your_service_key
+# Note: Supabase credentials (SUPABASE_URL, SUPABASE_SERVICE_KEY) are
+# loaded from the global .curator/secrets.env file
 
-# Collection
-COLLECTION_ID=uuid-from-database
+# Collection Configuration
+# Create a collection entity first, then paste its UUID here
+COLLECTION_ID=00000000-0000-0000-0000-000000000000
+
+# Optional: Runtime parameters (if needed)
+# FETCH_LIMIT=10
 ```
 
-**Add to .gitignore:**
-```bash
-echo "secrets.env" >> .curator/.gitignore
-```
+**Note:** The global `.curator/secrets.env` contains shared Supabase credentials.
+The `.curator/.gitignore` already excludes `secrets.env` files from git.
 
 ### 5. Offer Dry Run Validation
 
@@ -531,12 +541,16 @@ Options:
 
 1. **Check prerequisites:**
    ```bash
-   # Verify secrets.env exists (or create minimal version)
+   # Verify both secrets files exist:
+   # - .curator/secrets.env (Supabase credentials)
+   # - .curator/curators/<name>/secrets.env (curator config)
    # Check if FETCH_LIMIT should be set
    ```
 
 2. **Run fetch script** (with small limit):
    ```bash
+   cd .curator/curators/<name>
+   set -a && source ../../secrets.env && source secrets.env && set +a
    export FETCH_LIMIT=10  # Small sample for testing
    python3 scripts/fetch_data.py
    ```
