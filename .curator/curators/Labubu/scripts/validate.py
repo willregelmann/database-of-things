@@ -107,14 +107,6 @@ def validate_collection(supabase: Client, collection_id: str):
                 missing_external_ids += 1
                 issues.append(f"Missing external ID: {series_name} - {figure['name']}")
 
-            # Check attributes
-            attributes = figure.get("attributes", {})
-            if not attributes.get("series"):
-                issues.append(f"Missing series attribute: {series_name} - {figure['name']}")
-
-            if "is_secret" not in attributes:
-                issues.append(f"Missing is_secret flag: {series_name} - {figure['name']}")
-
     print()
     print("=" * 60)
     print("Validation Summary")
@@ -139,28 +131,6 @@ def validate_collection(supabase: Client, collection_id: str):
         print("✓ No issues found!")
 
     print()
-
-    # Metadata consistency check
-    print("Metadata Consistency:")
-    print()
-
-    # Check for consistent attribute fields
-    all_figures = supabase.table("entities").select(
-        "attributes"
-    ).eq("type", "figure").execute()
-
-    attribute_keys = set()
-    for figure in all_figures.data:
-        attrs = figure.get("attributes", {})
-        attribute_keys.update(attrs.keys())
-
-    print(f"  Unique attribute keys: {', '.join(sorted(attribute_keys))}")
-    print()
-
-    if len(attribute_keys) > 5:
-        print("⚠️  Many different attribute keys detected - check for consistency")
-    else:
-        print("✓ Attribute keys look consistent")
 
 
 def main():

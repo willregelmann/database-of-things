@@ -294,16 +294,8 @@ class LabubuImporter:
                     "popmartworld_slug": figure_slug,
                     "popmartworld_series": series_data["slug"]
                 },
-                "attributes": {
-                    "series": series_name,
-                    "character": "Labubu",
-                    "is_secret": figure_data.get("is_secret", False)
-                }
+                "attributes": {}
             }
-
-            # Add size if available
-            if series_data.get("size"):
-                entity_data["attributes"]["size"] = series_data["size"]
 
             if self.dry_run:
                 print(f"      [DRY RUN] Would create figure: {figure_name}")

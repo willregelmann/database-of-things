@@ -62,13 +62,10 @@
 
 ### Attributes
 ```json
-{
-  "series": "Art Series",
-  "size": "3-4 inches",
-  "is_secret": false,
-  "character": "Labubu"
-}
+{}
 ```
+
+**Note:** Attributes are intentionally left empty. Series information is captured via relationships, and additional metadata can be added later if needed.
 
 ## Runtime Configuration
 

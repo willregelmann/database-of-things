@@ -92,10 +92,10 @@ python3 scripts/validate.py
 ### Figures (Entities)
 - Type: `figure`
 - Example: "Mona Lisa", "Hiking", "Girl with a Pearl Earring"
-- Metadata: Series, size, secret status, character
 - Images localized to Supabase storage
 - Thumbnails generated (300x300 WebP)
 - Embeddings for semantic search
+- Series relationship captured via `contains` relationship
 
 ### Relationships
 - Series → Figures (`contains` relationship)
@@ -122,13 +122,10 @@ python3 scripts/validate.py
 
 ### Attributes
 ```json
-{
-  "series": "Art Series",
-  "size": "3-4 inches",
-  "is_secret": false,
-  "character": "Labubu"
-}
+{}
 ```
+
+Attributes are intentionally left empty. Series information is captured via relationships.
 
 ## Data Source
 
