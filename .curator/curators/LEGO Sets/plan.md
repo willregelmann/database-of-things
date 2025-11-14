@@ -56,15 +56,23 @@
 
 ## Runtime Configuration
 
-The curator accepts a theme filter at runtime:
+The curator accepts theme name as a command-line argument:
 
 ```bash
-export THEME_NAME="Space"  # Or "Star Wars", "City", "Technic", etc.
-python3 scripts/fetch_data.py
+# Basic usage
+python3 scripts/fetch_data.py "Super Mario"
 python3 scripts/import_items.py
+
+# Test with limited sets
+python3 scripts/fetch_data.py "Star Wars" --limit 10
+python3 scripts/import_items.py --dry-run
+
+# Import different themes
+python3 scripts/fetch_data.py "City"
+python3 scripts/fetch_data.py "Technic"
 ```
 
-This allows importing different themes without modifying code.
+This allows importing different themes without modifying configuration.
 
 ## Notes
 

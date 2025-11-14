@@ -142,34 +142,36 @@ def fetch_sets(api_key: str, theme_id: int, fetch_limit: int = None) -> list:
 
 
 def main():
+    import argparse
+
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(
+        description="Fetch LEGO sets from Rebrickable API by theme"
+    )
+    parser.add_argument(
+        "theme",
+        help="LEGO theme to fetch (e.g., 'Super Mario', 'Star Wars', 'City')"
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        help="Limit number of sets to fetch (useful for testing)"
+    )
+    args = parser.parse_args()
+
     # Get configuration from environment
     api_key = os.getenv("REBRICKABLE_API_KEY")
-    theme_name = os.getenv("THEME_NAME")
-    fetch_limit = os.getenv("FETCH_LIMIT")
 
     if not api_key:
         print("❌ Error: REBRICKABLE_API_KEY not found in environment")
         print("Get your API key at: https://rebrickable.com/api/")
-        print("\nThen set it in: .curator/curators/LEGO Sets/secrets.env")
+        print("\nSet it in: .curator/curators/LEGO Sets/secrets.env")
         print("  REBRICKABLE_API_KEY=your_key_here")
         print("\nNote: Supabase credentials come from .curator/secrets.env")
         sys.exit(1)
 
-    if not theme_name:
-        print("❌ Error: THEME_NAME not found in environment")
-        print("\nSet the theme in secrets.env:")
-        print("  THEME_NAME=Space")
-        print("\nOr pass it at runtime:")
-        print("  THEME_NAME='Star Wars' python3 scripts/fetch_data.py")
-        sys.exit(1)
-
-    # Convert fetch_limit to int if provided
-    if fetch_limit:
-        try:
-            fetch_limit = int(fetch_limit)
-        except ValueError:
-            print(f"⚠️  Warning: Invalid FETCH_LIMIT '{fetch_limit}', ignoring")
-            fetch_limit = None
+    theme_name = args.theme
+    fetch_limit = args.limit
 
     print("=" * 60)
     print("LEGO Sets Fetcher - Rebrickable API")
@@ -198,9 +200,13 @@ def main():
         print(f"✓ Complete! Fetched {len(sets)} sets for theme '{theme_name}'")
         print(f"  Output: {OUTPUT_FILE}")
         print()
-        print("Next step:")
+        print("Next steps:")
         print("  python3 scripts/import_items.py --dry-run  # Test import")
         print("  python3 scripts/import_items.py            # Real import")
+        print()
+        print("To fetch another theme:")
+        print(f"  python3 scripts/fetch_data.py 'Star Wars'")
+        print(f"  python3 scripts/fetch_data.py 'City' --limit 10  # Test with 10 sets")
 
     except ValueError as e:
         print(f"\n❌ Error: {e}")
