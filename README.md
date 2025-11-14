@@ -27,11 +27,12 @@ open http://127.0.0.1:54323
 
 ### Graph Database
 
-- **Pure Graph Model**: Two tables (entities, relationships) handle everything
+- **Pure Graph Model**: Three tables (entities, relationships, variants) handle everything
 - **Flexible Schema**: JSONB attributes for heterogeneous data
 - **GraphQL API**: Auto-generated from database schema
+- **Semantic Search**: Vector embeddings with pgvector for intelligent search
 - **Image Storage**: Supabase Storage with pre-generated thumbnails
-- **Optimized Indexes**: Composite, covering, BRIN, GIN indexes for fast queries
+- **Optimized Indexes**: Composite, covering, BRIN, GIN, HNSW indexes for fast queries
 
 ## Architecture
 
@@ -49,16 +50,24 @@ open http://127.0.0.1:54323
 
 ```
 .
-├── scripts/                   # Helper scripts
-│   ├── safe-migrate           # Safe migration wrapper
-│   ├── db-backup              # Manual backup
-│   ├── db-restore             # Restore from backup
-│   └── thumbnails/            # Thumbnail generation
-├── supabase/                  # Supabase configuration
-│   ├── config.toml            # Supabase config
-│   └── migrations/            # Database migrations
-├── CLAUDE.md                  # Project guidelines for AI
-└── THUMBNAIL_QUICKSTART.md    # Thumbnail system guide
+├── scripts/                        # Helper scripts
+│   ├── safe-migrate                # Safe migration wrapper
+│   ├── db-backup                   # Manual backup
+│   ├── db-restore                  # Restore from backup
+│   ├── seed-sample-data.py         # Seed test data
+│   ├── generate-embeddings.py     # Generate semantic search embeddings
+│   ├── semantic-search             # CLI semantic search utility
+│   ├── verify-schema-sync.sh       # Verify local/prod sync
+│   └── thumbnails/                 # Thumbnail generation
+├── supabase/                       # Supabase configuration
+│   ├── config.toml                 # Supabase config
+│   └── migrations/                 # Database migrations
+├── .curator/                       # Curator system
+│   ├── curators/                   # Collection-specific curators
+│   └── lib/                        # Shared utilities
+├── CLAUDE.md                       # Project guidelines for AI
+├── MIGRATION_STATUS.md             # Migration tracking status
+└── THUMBNAIL_QUICKSTART.md         # Image optimization guide
 ```
 
 ## Database Schema
@@ -159,9 +168,12 @@ npm run backfill
 
 ## Documentation
 
-- **`CLAUDE.md`**: Comprehensive project guide
+- **`CLAUDE.md`**: Comprehensive project guide (architecture, commands, patterns)
+- **`MIGRATION_STATUS.md`**: Migration tracking status (current: 33/33 synced ✅)
+- **`MIGRATION_SYNC_PLAN.md`**: Migration synchronization guide
 - **`THUMBNAIL_QUICKSTART.md`**: Image optimization guide
 - **`BACKUP_SYSTEM.md`**: Database backup documentation
+- **`scripts/README.md`**: Utility scripts documentation
 
 ## Development Commands
 
@@ -192,6 +204,17 @@ npm run backfill
 
 # Reset database (with confirmation)
 ./scripts/safe-migrate reset
+
+# Seed local database with sample data
+python3 scripts/seed-sample-data.py
+
+# Generate embeddings for semantic search
+python3 scripts/generate-embeddings.py
+
+# Test semantic search
+export SUPABASE_URL="http://127.0.0.1:54321"
+export SUPABASE_ANON_KEY="sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH"
+./scripts/semantic-search "pokemon" --type card
 
 # Manual backup
 ./scripts/db-backup
