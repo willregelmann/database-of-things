@@ -26,6 +26,12 @@ Use Socratic method like the brainstorming skill:
 - What makes items unique? (ID field, name+year, product number)
 - How should duplicates be detected?
 
+**Attributes & Metadata:**
+- What attributes should we capture for each item?
+- Examples: For video games (publisher, developers, platform), for cards (HP, rarity, card number)
+- Should attributes be empty (relying only on relationships and external IDs)?
+- Note: Dedicated columns (name, year, country, language, image_url, etc.) are already available
+
 **Import Strategy:**
 - Should this import incrementally or bulk fetch?
 - What metadata is critical vs optional?
