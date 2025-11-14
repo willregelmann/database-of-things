@@ -27,17 +27,18 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "lib"))
 from image_utils import ImageLocalizer
 from embedding_utils import EmbeddingGenerator
+from curator_utils import load_environment_config
 
 FETCHED_FILE = "fetched_data.json"
-FRANCHISE_ID = "d183e3a9-4eb7-40a5-b264-526b9a03ec30"  # Power Rangers franchise
-POWER_RANGERS_TOYS_ID = "cf968bae-4353-4e54-95b1-87f41e5f9994"  # Power Rangers Toys collection
+CURATOR_NAME = "Power Rangers Toys"
 
 
 class ToyImporter:
     """Import Power Rangers toys to Supabase."""
 
-    def __init__(self, supabase: Client):
+    def __init__(self, supabase: Client, collection_id: str):
         self.supabase = supabase
+        self.collection_id = collection_id
         self.series_cache = {}  # Cache series entities to avoid repeated lookups
         self.toy_line_cache = {}  # Cache toy line entities
         self.image_localizer = ImageLocalizer(supabase)  # For image downloads
@@ -48,7 +49,7 @@ class ToyImporter:
     def get_or_create_series(self, series_name: str, year: Optional[int] = None) -> str:
         """Get or create a series entity (TV show), return its ID."""
         if not series_name:
-            return FRANCHISE_ID  # Default to franchise if no series specified
+            return self.collection_id  # Default to collection if no series specified
 
         # Check cache
         cache_key = f"{series_name}_{year}"
@@ -81,7 +82,7 @@ class ToyImporter:
 
         # Link series to Power Rangers Toys collection
         self.supabase.table("relationships").insert({
-            "from_id": POWER_RANGERS_TOYS_ID,
+            "from_id": self.collection_id,
             "to_id": series_id,
             "type": "contains"
         }).execute()
@@ -134,7 +135,7 @@ class ToyImporter:
         # Link toy line to both Power Rangers Toys collection AND series
         # Link to Power Rangers Toys collection
         self.supabase.table("relationships").insert({
-            "from_id": POWER_RANGERS_TOYS_ID,
+            "from_id": self.collection_id,
             "to_id": toy_line_id,
             "type": "contains"
         }).execute()
@@ -408,19 +409,6 @@ class ToyImporter:
         return toy_lines_imported, toys_created, toys_updated, toys_skipped
 
 
-def load_config():
-    """Load Supabase configuration from environment."""
-    supabase_url = os.getenv("SUPABASE_URL")
-    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
-
-    if not supabase_url or not supabase_key:
-        print("Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
-        print("Either:")
-        print("  1. Set environment variables")
-        print("  2. Create secrets.env file in curator directory")
-        sys.exit(1)
-
-    return supabase_url, supabase_key
 
 
 def load_fetched_data() -> list:
@@ -446,10 +434,22 @@ def main():
         action='store_true',
         help='Validate import without writing to database'
     )
+    parser.add_argument(
+        '--env',
+        choices=['local', 'prod'],
+        default='local',
+        help='Environment to import to (default: local)'
+    )
     args = parser.parse_args()
+
+    # Warn if using default environment
+    if not any(arg.startswith('--env') for arg in sys.argv):
+        print("⚠️  No --env specified, defaulting to local")
+        print()
 
     print("=" * 60)
     print("Power Rangers Toy Importer")
+    print(f"Environment: {args.env}")
     if args.dry_run:
         print("🔍 DRY RUN MODE - No data will be written to database")
     print("=" * 60)
@@ -482,7 +482,10 @@ def main():
         print()
 
     # Load configuration
-    supabase_url, supabase_key = load_config()
+    supabase_url, supabase_key, collection_id = load_environment_config(
+        CURATOR_NAME,
+        args.env
+    )
 
     # Use mock or real client
     if args.dry_run:
@@ -504,7 +507,7 @@ def main():
     if not args.dry_run:
         print("Loading embedding model: sentence-transformers/all-MiniLM-L6-v2")
 
-    importer = ToyImporter(supabase)
+    importer = ToyImporter(supabase, collection_id)
 
     # Pass validator to image localizer if present
     if image_validator:

@@ -25,8 +25,10 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "lib"))
 from image_utils import ImageLocalizer
 from embedding_utils import EmbeddingGenerator
+from curator_utils import load_environment_config
 
 FETCHED_FILE = "fetched_data.json"
+CURATOR_NAME = "LEGO Sets"
 
 
 class LegoSetImporter:
@@ -199,35 +201,6 @@ class LegoSetImporter:
         return created, updated, failed
 
 
-def load_config():
-    """Load Supabase configuration from environment.
-
-    Supabase credentials are expected in the global .curator/secrets.env file.
-    Collection ID and curator-specific config are in curator's secrets.env.
-    """
-    supabase_url = os.getenv("SUPABASE_URL")
-    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
-    collection_id = os.getenv("COLLECTION_ID")
-
-    if not supabase_url or not supabase_key:
-        print("❌ Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
-        print("\nSupabase credentials should be in: .curator/secrets.env")
-        print("Curator-specific config should be in: .curator/curators/<name>/secrets.env")
-        print("\nTo run with both:")
-        print("  cd .curator/curators/<name>")
-        print("  set -a && source ../../secrets.env && source secrets.env && set +a")
-        print("  python3 scripts/import_items.py")
-        sys.exit(1)
-
-    if not collection_id:
-        print("❌ Error: COLLECTION_ID must be set")
-        print("\nCreate a theme collection entity first, then set its ID:")
-        print("  COLLECTION_ID=uuid-from-database")
-        sys.exit(1)
-
-    return supabase_url, supabase_key, collection_id
-
-
 def load_fetched_data() -> list:
     """Load data from fetch script."""
     data_file = Path(__file__).parent.parent / FETCHED_FILE
@@ -252,17 +225,35 @@ def main():
         action='store_true',
         help='Validate import without writing to database'
     )
+    parser.add_argument(
+        '--env',
+        choices=['local', 'prod'],
+        default='local',
+        help='Environment to import to (default: local)'
+    )
     args = parser.parse_args()
+
+    # Warn if using default environment
+    if not any(arg.startswith('--env') for arg in sys.argv):
+        print("⚠️  No --env specified, defaulting to local")
+        print()
 
     print("=" * 60)
     print("LEGO Set Importer - Rebrickable")
-    if args.dry_run:
-        print("🔍 DRY RUN MODE - No data will be written to database")
     print("=" * 60)
     print()
+    print(f"Environment: {args.env}")
+    if args.dry_run:
+        print("Mode: DRY RUN - No data will be written to database")
+    else:
+        print("Mode: LIVE IMPORT")
+    print()
 
-    # Load configuration
-    supabase_url, supabase_key, collection_id = load_config()
+    # Load environment-specific configuration
+    supabase_url, supabase_key, collection_id = load_environment_config(
+        CURATOR_NAME,
+        args.env
+    )
 
     # Use mock or real client
     if args.dry_run:

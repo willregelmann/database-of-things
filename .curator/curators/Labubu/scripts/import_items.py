@@ -27,44 +27,14 @@ sys.path.insert(0, str(curator_lib))
 try:
     from image_utils import ImageLocalizer
     from embedding_utils import EmbeddingGenerator
-    from curator_utils import check_exists_by_semantic_search
+    from curator_utils import check_exists_by_semantic_search, load_environment_config
 except ImportError as e:
     print(f"❌ Error: Could not import curator utilities: {e}")
     print(f"Expected path: {curator_lib}")
     sys.exit(1)
 
 FETCHED_DATA_FILE = Path(__file__).parent.parent / "fetched_data.json"
-
-
-def load_config():
-    """Load Supabase configuration from environment.
-
-    Supabase credentials are expected in the global .curator/secrets.env file.
-    Collection ID and curator-specific config are in curator's secrets.env.
-    """
-    supabase_url = os.getenv("SUPABASE_URL")
-    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
-    collection_id = os.getenv("COLLECTION_ID")
-
-    if not supabase_url or not supabase_key:
-        print("❌ Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
-        print("\\nSupabase credentials should be in: .curator/secrets.env")
-        print("Curator-specific config should be in: .curator/curators/Labubu/secrets.env")
-        print("\\nTo run with both:")
-        print("  cd .curator/curators/Labubu")
-        print("  set -a && source ../../secrets.env && source secrets.env && set +a")
-        print("  python3 scripts/import_items.py")
-        sys.exit(1)
-
-    if not collection_id:
-        print("❌ Error: COLLECTION_ID not found in environment")
-        print("\\nCreate a collection entity first:")
-        print("  INSERT INTO entities (name, type)")
-        print("  VALUES ('THE MONSTERS', 'collection');")
-        print("\\nThen set COLLECTION_ID in: .curator/curators/Labubu/secrets.env")
-        sys.exit(1)
-
-    return supabase_url, supabase_key, collection_id
+CURATOR_NAME = "Labubu"
 
 
 class MockSupabaseClient:
@@ -372,10 +342,24 @@ def main():
         action="store_true",
         help="Test import without writing to database"
     )
+    parser.add_argument(
+        "--env",
+        choices=["local", "prod"],
+        default="local",
+        help="Environment to import to (default: local)"
+    )
     args = parser.parse_args()
 
-    # Load configuration
-    supabase_url, supabase_key, collection_id = load_config()
+    # Warn if using default environment
+    if not any(arg.startswith('--env') for arg in sys.argv):
+        print("⚠️  No --env specified, defaulting to local")
+        print()
+
+    # Load environment-specific configuration
+    supabase_url, supabase_key, collection_id = load_environment_config(
+        CURATOR_NAME,
+        args.env
+    )
 
     # Check if fetched data exists
     if not FETCHED_DATA_FILE.exists():
@@ -396,6 +380,7 @@ def main():
     print("Labubu Figure Importer")
     print("=" * 60)
     print()
+    print(f"Environment: {args.env}")
     print(f"Mode: {'DRY RUN' if args.dry_run else 'LIVE IMPORT'}")
     print(f"Series to import: {len(data)}")
     print(f"Total figures: {sum(len(s.get('figures', [])) for s in data)}")

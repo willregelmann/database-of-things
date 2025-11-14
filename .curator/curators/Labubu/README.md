@@ -12,41 +12,49 @@ This curator fetches and imports Labubu figures from [PopMart World](https://www
 
 ## Quick Start
 
-1. **Configure secrets**
+1. **Configure global secrets** (one-time setup)
 
 ```bash
-cd .curator/curators/Labubu
-cp secrets.env.example secrets.env
-# Edit secrets.env and set COLLECTION_ID
+cd .curator
+cp secrets.local.env.example secrets.local.env
+# Edit secrets.local.env with local Supabase credentials
 ```
 
-2. **Create main collection entity** (if not exists)
+2. **Configure curator secrets**
+
+```bash
+cd curators/Labubu
+cp secrets.local.env.example secrets.local.env
+# Edit secrets.local.env and set COLLECTION_ID
+```
+
+3. **Create main collection entity** (if not exists)
 
 ```sql
 INSERT INTO entities (name, type) VALUES ('THE MONSTERS', 'collection');
--- Copy the returned UUID to COLLECTION_ID in secrets.env
+-- Copy the returned UUID to COLLECTION_ID in secrets.local.env
 ```
 
-3. **Fetch data**
+4. **Fetch data**
 
 ```bash
-# Load both global and curator-specific secrets
-set -a && source ../../secrets.env && source secrets.env && set +a
-
-# Fetch all Labubu series
 python3 scripts/fetch_data.py
 ```
 
-4. **Test with dry run**
+5. **Test with dry run**
 
 ```bash
-python3 scripts/import_items.py --dry-run
+python3 scripts/import_items.py --dry-run --env=local
 ```
 
-5. **Import to database**
+6. **Import to database**
 
 ```bash
-python3 scripts/import_items.py
+# Import to local
+python3 scripts/import_items.py --env=local
+
+# Or import to production
+python3 scripts/import_items.py --env=prod
 ```
 
 ## Usage
@@ -67,12 +75,20 @@ python3 scripts/fetch_data.py --limit 3
 ### Import Items
 
 ```bash
-# Dry run (no database changes)
+# Dry run (no database changes, defaults to local)
 python3 scripts/import_items.py --dry-run
 
-# Live import
-python3 scripts/import_items.py
+# Import to local environment
+python3 scripts/import_items.py --env=local
+
+# Import to production
+python3 scripts/import_items.py --env=prod
+
+# Dry run for production
+python3 scripts/import_items.py --dry-run --env=prod
 ```
+
+**Note:** If `--env` is not specified, defaults to `local` with a warning.
 
 ### Validate Data
 

@@ -29,11 +29,10 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent / "lib"))
 from image_utils import ImageLocalizer
 from embedding_utils import EmbeddingGenerator
+from curator_utils import load_environment_config
 
 FETCHED_FILE = "fetched_data.json"
-
-# Collection UUID from database
-COLLECTION_ID = os.getenv("COLLECTION_ID")
+CURATOR_NAME = "NTSC Video Games"
 
 
 class GameImporter:
@@ -227,24 +226,6 @@ class GameImporter:
         return created, updated, failed
 
 
-def load_config():
-    """Load Supabase configuration from environment."""
-    supabase_url = os.getenv("SUPABASE_URL")
-    supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
-    collection_id = os.getenv("COLLECTION_ID")
-
-    if not supabase_url or not supabase_key:
-        print("Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
-        print("Either:")
-        print("  1. Set environment variables")
-        print("  2. Create secrets.env file in curator directory")
-        sys.exit(1)
-
-    if not collection_id:
-        print("Error: COLLECTION_ID must be set")
-        sys.exit(1)
-
-    return supabase_url, supabase_key, collection_id
 
 
 def load_fetched_data() -> list:
@@ -270,10 +251,22 @@ def main():
         action='store_true',
         help='Validate import without writing to database'
     )
+    parser.add_argument(
+        '--env',
+        choices=['local', 'prod'],
+        default='local',
+        help='Environment to import to (default: local)'
+    )
     args = parser.parse_args()
+
+    # Warn if using default environment
+    if not any(arg.startswith('--env') for arg in sys.argv):
+        print("⚠️  No --env specified, defaulting to local")
+        print()
 
     print("=" * 60)
     print("NTSC Video Games Importer")
+    print(f"Environment: {args.env}")
     if args.dry_run:
         print("🔍 DRY RUN MODE - No data will be written to database")
     print("=" * 60)
@@ -307,7 +300,10 @@ def main():
         print()
 
     # Load configuration
-    supabase_url, supabase_key, collection_id = load_config()
+    supabase_url, supabase_key, collection_id = load_environment_config(
+        CURATOR_NAME,
+        args.env
+    )
 
     # Use mock or real client
     if args.dry_run:
