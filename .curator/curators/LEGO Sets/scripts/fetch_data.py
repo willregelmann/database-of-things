@@ -150,8 +150,9 @@ def main():
     if not api_key:
         print("❌ Error: REBRICKABLE_API_KEY not found in environment")
         print("Get your API key at: https://rebrickable.com/api/")
-        print("\nThen set it in secrets.env:")
+        print("\nThen set it in: .curator/curators/LEGO Sets/secrets.env")
         print("  REBRICKABLE_API_KEY=your_key_here")
+        print("\nNote: Supabase credentials come from .curator/secrets.env")
         sys.exit(1)
 
     if not theme_name:

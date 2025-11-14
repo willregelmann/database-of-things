@@ -200,16 +200,23 @@ class LegoSetImporter:
 
 
 def load_config():
-    """Load Supabase configuration from environment."""
+    """Load Supabase configuration from environment.
+
+    Supabase credentials are expected in the global .curator/secrets.env file.
+    Collection ID and curator-specific config are in curator's secrets.env.
+    """
     supabase_url = os.getenv("SUPABASE_URL")
     supabase_key = os.getenv("SUPABASE_SERVICE_KEY")
     collection_id = os.getenv("COLLECTION_ID")
 
     if not supabase_url or not supabase_key:
         print("❌ Error: SUPABASE_URL and SUPABASE_SERVICE_KEY must be set")
-        print("Either:")
-        print("  1. Set environment variables")
-        print("  2. Create secrets.env file in curator directory")
+        print("\nSupabase credentials should be in: .curator/secrets.env")
+        print("Curator-specific config should be in: .curator/curators/<name>/secrets.env")
+        print("\nTo run with both:")
+        print("  cd .curator/curators/<name>")
+        print("  set -a && source ../../secrets.env && source secrets.env && set +a")
+        print("  python3 scripts/import_items.py")
         sys.exit(1)
 
     if not collection_id:
