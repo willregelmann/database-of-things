@@ -20,6 +20,7 @@ import { createVariant, updateVariant } from "./tools/write/variants.js";
 import { createComponent } from "./tools/write/components.js";
 import { createImage } from "./tools/write/images.js";
 import { generateEmbedding, bulkGenerateEmbeddings } from "./tools/write/embeddings.js";
+import { listCurators, getCuratorConfig } from "./tools/curator/discovery.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -305,6 +306,26 @@ const TOOLS = [
       required: ["entity_ids"]
     }
   },
+  // Curator Tools - Discovery
+  {
+    name: "list_curators",
+    description: "List all available curators with their status.",
+    inputSchema: {
+      type: "object",
+      properties: {}
+    }
+  },
+  {
+    name: "get_curator_config",
+    description: "Get configuration and details for a specific curator.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        name: { type: "string", description: "Curator name (required)" }
+      },
+      required: ["name"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -363,6 +384,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await generateEmbedding(args as any);
       case "bulk_generate_embeddings":
         return await bulkGenerateEmbeddings(args as any);
+
+      case "list_curators":
+        return await listCurators();
+      case "get_curator_config":
+        return await getCuratorConfig(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
