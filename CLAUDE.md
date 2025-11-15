@@ -538,11 +538,15 @@ query {
         image_url
         thumbnail_url
         entity_variants {
-          id
-          name
-          image_url
-          thumbnail_url
-          attributes
+          edges {
+            node {
+              id
+              name
+              image_url
+              thumbnail_url
+              attributes
+            }
+          }
         }
       }
     }
@@ -587,13 +591,17 @@ query {
         id
         name
         entity_components {
-          id
-          name
-          quantity
-          order
-          image_url
-          thumbnail_url
-          attributes
+          edges {
+            node {
+              id
+              name
+              quantity
+              order
+              image_url
+              thumbnail_url
+              attributes
+            }
+          }
         }
       }
     }
@@ -635,6 +643,111 @@ query {
 **Note**: JSONB attribute filtering (e.g., `attributes: {contains: {edition: "1st"}}`) is not supported in GraphQL. Use SQL queries for filtering by variant attributes - see Common SQL Queries section.
 
 **API Key**: Include in headers as `apikey: sb_publishable_...` (get from `supabase status`)
+
+## MCP Server
+
+The database is accessible via MCP (Model Context Protocol) server for AI assistants like Claude Code.
+
+### Features
+
+**Read Operations (5 tools):**
+- **Semantic Search**: Find collectibles using natural language
+- **Entity Details**: Get complete information about items
+- **Browse Collections**: Explore collection contents
+- **Variants & Components**: View alternative versions and parts
+
+**Write Operations (11 tools):**
+- **Entity CRUD**: create_entity, update_entity, delete_entity
+- **Relationships**: create_relationship, delete_relationship
+- **Variants**: create_variant, update_variant
+- **Components**: create_component
+- **Images**: create_image
+- **Embeddings**: generate_embedding, bulk_generate_embeddings
+
+**Curator Integration (5 tools):**
+- **Discovery**: list_curators, get_curator_config
+- **Execution**: run_curator_fetch, validate_curator_data, get_curator_stats
+- **AI-Driven Workflows**: Claude can autonomously fetch, validate, and import collectibles data
+
+### Multi-Environment Setup
+
+The project supports both local and production environments through separate MCP server configurations in `.mcp.json`:
+
+- **`database-of-things-local`** - Local Supabase (http://127.0.0.1:54321)
+- **`database-of-things-prod`** - Production Supabase (requires env vars)
+
+### Configuration
+
+Production access requires environment variables:
+
+```bash
+# Create .env file (not committed to git)
+cp .env.example .env
+
+# Edit .env with your production credentials
+export SUPABASE_PROD_URL="https://yourproject.supabase.co"
+export SUPABASE_PROD_ANON_KEY="your-production-anon-key"
+
+# Source before starting Claude Code
+source .env
+claude
+```
+
+### Available Tools
+
+Once configured, you can use either environment with all 21 tools:
+
+**Read Tools (5):**
+- `search_collectibles` - Semantic search for collectibles
+- `get_entity` - Get detailed entity information
+- `browse_collection` - List items in a collection
+- `get_variants` - Get entity variants
+- `get_components` - Get entity components
+
+**Write Tools (11):**
+- `create_entity`, `update_entity`, `delete_entity` - Entity operations
+- `create_relationship`, `delete_relationship` - Relationship operations
+- `create_variant`, `update_variant` - Variant operations
+- `create_component` - Component operations
+- `create_image` - Image operations
+- `generate_embedding`, `bulk_generate_embeddings` - Embedding operations
+
+**Curator Tools (5):**
+- `list_curators`, `get_curator_config` - Discovery
+- `run_curator_fetch`, `validate_curator_data`, `get_curator_stats` - Execution
+
+All tools are available with both local and production environment prefixes:
+```
+mcp__database-of-things-local__<tool_name>
+mcp__database-of-things-prod__<tool_name>
+```
+
+Enable/disable servers via `/mcp` command or @mentioning in Claude Code.
+
+**Documentation**:
+- See `mcp-server/README.md` for detailed usage examples and workflow patterns
+- See `docs/plans/2025-11-15-mcp-write-tools-design.md` for technical design and architecture
+
+### Curator-MCP Integration
+
+The MCP server's curator tools enable Claude to autonomously run curator workflows:
+
+**Example workflow:**
+```
+1. Claude uses list_curators() to discover available curators
+2. Uses run_curator_fetch("Pokemon TCG") to fetch data from API
+3. Uses search_collectibles() to check for duplicates
+4. Uses create_entity() + create_relationship() for new items
+5. Uses bulk_generate_embeddings() to enable semantic search
+6. Reports: "Imported 50 new cards, 3 updated, 2 skipped"
+```
+
+This combines the power of:
+- **Curator scripts** - Domain-specific data fetching and parsing
+- **MCP tools** - Database operations and search
+- **Claude's intelligence** - Error handling, deduplication, and workflow orchestration
+
+For manual curator operation, use the slash commands (`/curator-run`, `/curator-init`) which provide interactive control.
 
 ## Curator System
 
