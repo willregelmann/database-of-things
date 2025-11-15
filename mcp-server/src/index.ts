@@ -17,6 +17,7 @@ import { getComponents } from "./tools/components.js";
 import { createEntity, updateEntity, deleteEntity } from "./tools/write/entities.js";
 import { createRelationship, deleteRelationship } from "./tools/write/relationships.js";
 import { createVariant, updateVariant } from "./tools/write/variants.js";
+import { createComponent } from "./tools/write/components.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -239,6 +240,24 @@ const TOOLS = [
       required: ["variant_id"]
     }
   },
+  // Write Tools - Component Operations
+  {
+    name: "create_component",
+    description: "Create a component/part of an entity (e.g., Zord piece, game token).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        component_of: { type: "string", description: "Parent entity UUID (required)" },
+        name: { type: "string", description: "Component name (required)" },
+        quantity: { type: "number", description: "Quantity (default 1)" },
+        order: { type: "number", description: "Display order (optional)" },
+        image_url: { type: "string", description: "Image URL (optional)" },
+        thumbnail_url: { type: "string", description: "Thumbnail URL (optional)" },
+        attributes: { type: "object", description: "Component metadata (optional)" }
+      },
+      required: ["component_of", "name"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -286,6 +305,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await createVariant(args as any);
       case "update_variant":
         return await updateVariant(args as any);
+
+      case "create_component":
+        return await createComponent(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
