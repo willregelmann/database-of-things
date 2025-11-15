@@ -19,6 +19,7 @@ import { createRelationship, deleteRelationship } from "./tools/write/relationsh
 import { createVariant, updateVariant } from "./tools/write/variants.js";
 import { createComponent } from "./tools/write/components.js";
 import { createImage } from "./tools/write/images.js";
+import { generateEmbedding, bulkGenerateEmbeddings } from "./tools/write/embeddings.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -277,6 +278,33 @@ const TOOLS = [
       required: ["image_url"]
     }
   },
+  // Write Tools - Embedding Operations
+  {
+    name: "generate_embedding",
+    description: "Queue embedding generation for an entity. Note: Requires running scripts/generate-embeddings.py separately.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        entity_id: { type: "string", description: "Entity UUID (required)" }
+      },
+      required: ["entity_id"]
+    }
+  },
+  {
+    name: "bulk_generate_embeddings",
+    description: "Queue embedding generation for multiple entities. Note: Requires running scripts/generate-embeddings.py separately.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        entity_ids: {
+          type: "array",
+          items: { type: "string" },
+          description: "Array of entity UUIDs (required)"
+        }
+      },
+      required: ["entity_ids"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -330,6 +358,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case "create_image":
         return await createImage(args as any);
+
+      case "generate_embedding":
+        return await generateEmbedding(args as any);
+      case "bulk_generate_embeddings":
+        return await bulkGenerateEmbeddings(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
