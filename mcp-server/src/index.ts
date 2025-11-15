@@ -16,6 +16,7 @@ import { getVariants } from "./tools/variants.js";
 import { getComponents } from "./tools/components.js";
 import { createEntity, updateEntity, deleteEntity } from "./tools/write/entities.js";
 import { createRelationship, deleteRelationship } from "./tools/write/relationships.js";
+import { createVariant, updateVariant } from "./tools/write/variants.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -207,6 +208,37 @@ const TOOLS = [
       required: ["from_id", "to_id", "type"]
     }
   },
+  // Write Tools - Variant Operations
+  {
+    name: "create_variant",
+    description: "Create a variant of an entity (e.g., '1st Edition', 'Shadowless').",
+    inputSchema: {
+      type: "object",
+      properties: {
+        variant_of: { type: "string", description: "Base entity UUID (required)" },
+        name: { type: "string", description: "Variant name (required)" },
+        image_url: { type: "string", description: "Image URL (optional)" },
+        thumbnail_url: { type: "string", description: "Thumbnail URL (optional)" },
+        attributes: { type: "object", description: "Variant metadata (optional)" }
+      },
+      required: ["variant_of", "name"]
+    }
+  },
+  {
+    name: "update_variant",
+    description: "Update a variant's fields.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        variant_id: { type: "string", description: "Variant UUID (required)" },
+        name: { type: "string" },
+        image_url: { type: "string" },
+        thumbnail_url: { type: "string" },
+        attributes: { type: "object" }
+      },
+      required: ["variant_id"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -249,6 +281,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await createRelationship(args as any);
       case "delete_relationship":
         return await deleteRelationship(args as any);
+
+      case "create_variant":
+        return await createVariant(args as any);
+      case "update_variant":
+        return await updateVariant(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
