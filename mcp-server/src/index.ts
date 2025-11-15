@@ -21,6 +21,7 @@ import { createComponent } from "./tools/write/components.js";
 import { createImage } from "./tools/write/images.js";
 import { generateEmbedding, bulkGenerateEmbeddings } from "./tools/write/embeddings.js";
 import { listCurators, getCuratorConfig } from "./tools/curator/discovery.js";
+import { runCuratorFetch, validateCuratorData, getCuratorStats } from "./tools/curator/execution.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -326,6 +327,42 @@ const TOOLS = [
       required: ["name"]
     }
   },
+  // Curator Tools - Execution
+  {
+    name: "run_curator_fetch",
+    description: "Execute a curator's fetch_data.py script and return the fetched JSON data. Returns status, items_fetched count, partial data (first 5 items), and any errors.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        name: { type: "string", description: "Curator name (required)" },
+        options: { type: "object", description: "Optional parameters for fetch script" }
+      },
+      required: ["name"]
+    }
+  },
+  {
+    name: "validate_curator_data",
+    description: "Run validation on fetched curator data. Validates JSON structure and checks for required fields. Uses fetched_data.json if data not provided.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        name: { type: "string", description: "Curator name (required)" },
+        data: { type: "object", description: "Optional data to validate (uses fetched_data.json if not provided)" }
+      },
+      required: ["name"]
+    }
+  },
+  {
+    name: "get_curator_stats",
+    description: "Get statistics about a curator's collection from the database. Returns total items, last import date, collection info.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        name: { type: "string", description: "Curator name (required)" }
+      },
+      required: ["name"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -389,6 +426,13 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await listCurators();
       case "get_curator_config":
         return await getCuratorConfig(args as any);
+
+      case "run_curator_fetch":
+        return await runCuratorFetch(args as any);
+      case "validate_curator_data":
+        return await validateCuratorData(args as any);
+      case "get_curator_stats":
+        return await getCuratorStats(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
