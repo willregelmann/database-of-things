@@ -67,6 +67,29 @@ export async function createRelationship(args: CreateRelationshipArgs): Promise<
       };
     }
 
+    // Check that both entities exist
+    const { data: entities, error: checkError } = await supabase
+      .from("entities")
+      .select("id")
+      .in("id", [from_id, to_id]);
+
+    if (checkError || !entities || entities.length !== 2) {
+      const foundIds = entities?.map(e => e.id) || [];
+      const missing = [from_id, to_id].filter(id => !foundIds.includes(id));
+
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: false,
+            error: `Referenced entities not found: ${missing.join(', ')}`,
+            error_code: "NOT_FOUND",
+            details: { missing_ids: missing }
+          }, null, 2)
+        }]
+      };
+    }
+
     // Create relationship
     const { data, error } = await supabase
       .from("relationships")
