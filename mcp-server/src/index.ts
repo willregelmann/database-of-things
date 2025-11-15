@@ -15,6 +15,7 @@ import { browseCollection } from "./tools/collections.js";
 import { getVariants } from "./tools/variants.js";
 import { getComponents } from "./tools/components.js";
 import { createEntity, updateEntity, deleteEntity } from "./tools/write/entities.js";
+import { createRelationship, deleteRelationship } from "./tools/write/relationships.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -178,6 +179,34 @@ const TOOLS = [
       required: ["entity_id"]
     }
   },
+  // Write Tools - Relationship Operations
+  {
+    name: "create_relationship",
+    description: "Create a relationship between two entities (e.g., add card to collection).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        from_id: { type: "string", description: "Parent entity UUID (required)" },
+        to_id: { type: "string", description: "Child entity UUID (required)" },
+        type: { type: "string", description: "Relationship type like 'contains' (required)" },
+        order: { type: "number", description: "Sort order (optional)" }
+      },
+      required: ["from_id", "to_id", "type"]
+    }
+  },
+  {
+    name: "delete_relationship",
+    description: "Delete a relationship between two entities.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        from_id: { type: "string", description: "Parent entity UUID (required)" },
+        to_id: { type: "string", description: "Child entity UUID (required)" },
+        type: { type: "string", description: "Relationship type (required)" }
+      },
+      required: ["from_id", "to_id", "type"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -215,6 +244,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await updateEntity(args as any);
       case "delete_entity":
         return await deleteEntity(args as any);
+
+      case "create_relationship":
+        return await createRelationship(args as any);
+      case "delete_relationship":
+        return await deleteRelationship(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
