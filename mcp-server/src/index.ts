@@ -18,6 +18,7 @@ import { createEntity, updateEntity, deleteEntity } from "./tools/write/entities
 import { createRelationship, deleteRelationship } from "./tools/write/relationships.js";
 import { createVariant, updateVariant } from "./tools/write/variants.js";
 import { createComponent } from "./tools/write/components.js";
+import { createImage } from "./tools/write/images.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -258,6 +259,24 @@ const TOOLS = [
       required: ["component_of", "name"]
     }
   },
+  // Write Tools - Image Operations
+  {
+    name: "create_image",
+    description: "Create and link an image to an entity, variant, or component. Provide exactly one of entity_id, variant_id, or component_id. Use is_primary to set as the primary image (shown in lists), otherwise adds to additional images.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        entity_id: { type: "string", description: "Entity UUID (provide exactly one of: entity_id, variant_id, component_id)" },
+        variant_id: { type: "string", description: "Variant UUID (provide exactly one of: entity_id, variant_id, component_id)" },
+        component_id: { type: "string", description: "Component UUID (provide exactly one of: entity_id, variant_id, component_id)" },
+        image_url: { type: "string", description: "Image URL (required)" },
+        thumbnail_url: { type: "string", description: "Thumbnail URL (optional)" },
+        source_url: { type: "string", description: "Source URL for attribution (optional)" },
+        is_primary: { type: "boolean", description: "Set as primary image (default: false, adds to additional images instead)" }
+      },
+      required: ["image_url"]
+    }
+  },
 ];
 
 // Register tool handlers
@@ -308,6 +327,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case "create_component":
         return await createComponent(args as any);
+
+      case "create_image":
+        return await createImage(args as any);
 
       default:
         throw new Error(`Unknown tool: ${name}`);
