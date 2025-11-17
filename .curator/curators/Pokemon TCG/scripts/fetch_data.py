@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch Pokemon TCG cards from pokemontcg.io API (v2 format)."""
+"""Fetch Pokemon TCG cards from GitHub pokemon-tcg-data repository (v2 format)."""
 
 import argparse
 import os
@@ -21,142 +21,61 @@ except ImportError:
     ])
     import requests
 
-API_URL = "https://api.pokemontcg.io/v2"
+# GitHub raw data URLs
+GITHUB_BASE = "https://raw.githubusercontent.com/PokemonTCG/pokemon-tcg-data/master"
+SETS_URL = f"{GITHUB_BASE}/sets/en.json"
+CARDS_BASE_URL = f"{GITHUB_BASE}/cards/en"
+
 OUTPUT_FILE = Path(__file__).parent.parent / "fetched_data.json"
 
-# Rate limiting (20 requests/second per pokemontcg.io recommendations)
-RATE_LIMIT_DELAY = 0.05  # 50ms between requests
 
-
-def fetch_with_rate_limit(url: str, headers: dict, params: dict = None) -> dict:
-    """Fetch from API with rate limiting.
+def fetch_json(url: str, max_retries: int = 3) -> dict:
+    """Fetch JSON from URL with retry logic.
 
     Args:
-        url: API endpoint URL
-        headers: Request headers (including API key)
-        params: Query parameters
+        url: URL to fetch
+        max_retries: Maximum number of retry attempts (default: 3)
 
     Returns:
         JSON response data
     """
-    time.sleep(RATE_LIMIT_DELAY)
-    response = requests.get(url, headers=headers, params=params, timeout=30)
-    response.raise_for_status()
-    return response.json()
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, timeout=60)
+            response.raise_for_status()
+            return response.json()
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            if attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 2  # Exponential backoff: 2s, 4s, 6s
+                print(f"⚠️  Request timeout/error (attempt {attempt + 1}/{max_retries}), retrying in {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ Request failed after {max_retries} attempts: {url}")
+                raise
 
 
-def fetch_all_series(api_key: str) -> list:
-    """Fetch all Pokemon TCG series.
-
-    Args:
-        api_key: pokemontcg.io API key
-
-    Returns:
-        List of series names
-    """
-    headers = {"X-Api-Key": api_key}
-
-    # Get all sets first
-    all_sets = []
-    page = 1
-
-    while True:
-        data = fetch_with_rate_limit(
-            f"{API_URL}/sets",
-            headers=headers,
-            params={"page": page, "pageSize": 250}
-        )
-
-        all_sets.extend(data.get("data", []))
-
-        if page >= data.get("totalCount", 0) / 250:
-            break
-        page += 1
-
-    # Extract unique series names
-    series_names = list(set(s.get("series") for s in all_sets if s.get("series")))
-    series_names.sort()
-
-    return series_names
-
-
-def fetch_sets(api_key: str, series_filter: str = None) -> list:
-    """Fetch Pokemon TCG sets, optionally filtered by series.
-
-    Args:
-        api_key: pokemontcg.io API key
-        series_filter: Optional series name to filter by
+def fetch_all_sets() -> list:
+    """Fetch all Pokemon TCG sets from GitHub.
 
     Returns:
         List of set dictionaries
     """
-    headers = {"X-Api-Key": api_key}
-    all_sets = []
-    page = 1
-
-    params = {"page": page, "pageSize": 250}
-    if series_filter:
-        params["q"] = f'series:"{series_filter}"'
-
-    while True:
-        data = fetch_with_rate_limit(
-            f"{API_URL}/sets",
-            headers=headers,
-            params=params
-        )
-
-        all_sets.extend(data.get("data", []))
-
-        if page >= data.get("totalCount", 0) / 250:
-            break
-        page += 1
-        params["page"] = page
-
-    return all_sets
+    print(f"Fetching sets from GitHub...")
+    return fetch_json(SETS_URL)
 
 
-def fetch_cards(api_key: str, set_id: str = None, limit: int = None) -> list:
-    """Fetch Pokemon TCG cards from API.
+def fetch_cards_for_set(set_id: str) -> list:
+    """Fetch all cards for a specific set.
 
     Args:
-        api_key: pokemontcg.io API key
-        set_id: Optional set ID to filter by
-        limit: Maximum cards to fetch
+        set_id: Set ID (e.g., "swsh12" for Silver Tempest)
 
     Returns:
         List of card dictionaries
     """
-    headers = {"X-Api-Key": api_key}
-    all_cards = []
-    page = 1
-
-    params = {"page": page, "pageSize": 250}
-    if set_id:
-        params["q"] = f'set.id:"{set_id}"'
-
-    while True:
-        data = fetch_with_rate_limit(
-            f"{API_URL}/cards",
-            headers=headers,
-            params=params
-        )
-
-        cards = data.get("data", [])
-        all_cards.extend(cards)
-
-        # Check limit
-        if limit and len(all_cards) >= limit:
-            all_cards = all_cards[:limit]
-            break
-
-        # Check for more pages
-        if page >= data.get("totalCount", 0) / 250:
-            break
-
-        page += 1
-        params["page"] = page
-
-    return all_cards
+    url = f"{CARDS_BASE_URL}/{set_id}.json"
+    print(f"Fetching cards for set {set_id}...")
+    return fetch_json(url)
 
 
 def normalize_series(series_name: str, sets_in_series: list) -> dict:
@@ -188,7 +107,7 @@ def normalize_set(set_data: dict, series_name: str) -> dict:
     """Transform set data to standard format.
 
     Args:
-        set_data: Raw set data from API
+        set_data: Raw set data from GitHub
         series_name: Name of parent series
 
     Returns:
@@ -229,18 +148,24 @@ def normalize_set(set_data: dict, series_name: str) -> dict:
     return entity
 
 
-def normalize_card(card_data: dict) -> dict:
+def normalize_card(card_data: dict, set_data: dict = None) -> dict:
     """Transform card data to standard format.
 
     Args:
-        card_data: Raw card data from API
+        card_data: Raw card data from GitHub
+        set_data: Set metadata (optional, for year and set ID)
 
     Returns:
         Normalized card entity
     """
-    # Extract year from set release date
-    set_release = card_data.get("set", {}).get("releaseDate", "")
-    year = int(set_release[:4]) if set_release and len(set_release) >= 4 else None
+    # Extract year from set data if available
+    if set_data:
+        set_release = set_data.get("releaseDate", "")
+        year = int(set_release[:4]) if set_release and len(set_release) >= 4 else None
+        set_id = set_data.get("id")
+    else:
+        year = None
+        set_id = None
 
     # Build external IDs
     external_ids = {
@@ -273,7 +198,7 @@ def normalize_card(card_data: dict) -> dict:
         "parent": {
             "type": "collection",
             "external_ids": {
-                "pokemontcg_io_set": card_data.get("set", {}).get("id")
+                "pokemontcg_io_set": set_id
             }
         },
         "relationship": {
@@ -295,7 +220,7 @@ def normalize_card(card_data: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Fetch Pokemon TCG cards from pokemontcg.io API"
+        description="Fetch Pokemon TCG cards from GitHub pokemon-tcg-data repository"
     )
     parser.add_argument(
         "--limit",
@@ -308,20 +233,18 @@ def main():
     )
     parser.add_argument(
         "--set",
-        help='Filter by set name (e.g., "Base Set")'
+        help='Filter by set name (e.g., "Silver Tempest")'
     )
     args = parser.parse_args()
 
-    # Load API key from environment
-    api_key = os.getenv("POKEMONTCG_API_KEY")
-    if not api_key:
-        print("❌ Error: POKEMONTCG_API_KEY not found in environment")
-        print("Set it in secrets.env")
-        return 1
+    print("=" * 60)
+    print("Pokemon TCG Fetcher - GitHub pokemon-tcg-data (v2)")
+    print("=" * 60)
+    print()
 
-    print("=" * 60)
-    print("Pokemon TCG Fetcher - pokemontcg.io API (v2)")
-    print("=" * 60)
+    # Fetch all sets from GitHub
+    all_sets = fetch_all_sets()
+    print(f"✓ Loaded {len(all_sets)} sets from GitHub")
     print()
 
     # Determine what to fetch
@@ -332,7 +255,6 @@ def main():
         print(f"Fetching set: {args.set}...")
 
         # Find the set
-        all_sets = fetch_sets(api_key)
         target_set = next((s for s in all_sets if s.get("name") == args.set), None)
 
         if not target_set:
@@ -340,6 +262,7 @@ def main():
             return 1
 
         series_name = target_set.get("series")
+        set_id = target_set.get("id")
 
         # Add series
         series_sets = [s for s in all_sets if s.get("series") == series_name]
@@ -349,16 +272,21 @@ def main():
         items.append(normalize_set(target_set, series_name))
 
         # Add cards from this set
-        print(f"Fetching cards from {args.set}...")
-        cards = fetch_cards(api_key, target_set.get("id"), args.limit)
-        items.extend([normalize_card(card) for card in cards])
+        cards = fetch_cards_for_set(set_id)
+        print(f"✓ Fetched {len(cards)} cards from {args.set}")
+
+        if args.limit:
+            cards = cards[:args.limit]
+            print(f"  Limited to {args.limit} cards")
+
+        items.extend([normalize_card(card, target_set) for card in cards])
 
     elif args.series:
         # Fetch entire series (all sets and cards)
         print(f"Fetching series: {args.series}...")
 
         # Get sets in this series
-        sets = fetch_sets(api_key, args.series)
+        sets = [s for s in all_sets if s.get("series") == args.series]
 
         if not sets:
             print(f"❌ Series '{args.series}' not found")
@@ -379,18 +307,19 @@ def main():
             if cards_remaining is not None and cards_remaining <= 0:
                 break
 
-            cards = fetch_cards(api_key, set_data.get("id"), cards_remaining)
-            items.extend([normalize_card(card) for card in cards])
+            set_id = set_data.get("id")
+            cards = fetch_cards_for_set(set_id)
 
             if cards_remaining is not None:
+                cards = cards[:cards_remaining]
                 cards_remaining -= len(cards)
+
+            items.extend([normalize_card(card, set_data) for card in cards])
+            print(f"  ✓ {set_data.get('name')}: {len(cards)} cards")
 
     else:
         # Full import: all series, sets, and cards
         print("Fetching all Pokemon TCG data...")
-
-        # Get all sets
-        all_sets = fetch_sets(api_key)
 
         # Group by series
         series_map = {}
@@ -410,15 +339,34 @@ def main():
 
         # Add all cards
         print(f"Fetching cards from {len(all_sets)} sets...")
-        cards = fetch_cards(api_key, limit=args.limit)
-        items.extend([normalize_card(card) for card in cards])
+        cards_fetched = 0
+        cards_remaining = args.limit
+
+        for set_data in all_sets:
+            if cards_remaining is not None and cards_remaining <= 0:
+                break
+
+            set_id = set_data.get("id")
+            try:
+                cards = fetch_cards_for_set(set_id)
+
+                if cards_remaining is not None:
+                    cards = cards[:cards_remaining]
+                    cards_remaining -= len(cards)
+
+                items.extend([normalize_card(card, set_data) for card in cards])
+                cards_fetched += len(cards)
+                print(f"  ✓ {set_data.get('name')}: {len(cards)} cards (total: {cards_fetched})")
+            except Exception as e:
+                print(f"  ⚠️  Failed to fetch cards for {set_data.get('name')}: {e}")
+                continue
 
     # Build output
     output = {
         "format_version": "1.0",
         "metadata": {
             "curator": "Pokemon TCG",
-            "source": API_URL,
+            "source": "https://github.com/PokemonTCG/pokemon-tcg-data",
             "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             "total_items": len(items),
             "filters_applied": {
@@ -441,7 +389,7 @@ def main():
     print(f"  Output: {OUTPUT_FILE}")
     print()
     print("Next steps:")
-    print('  /curator:run "Pokemon TCG"  # Import via MCP tools (Claude)')
+    print('  /curator-run "Pokemon TCG"  # Import via MCP tools (Claude)')
     print()
 
     return 0

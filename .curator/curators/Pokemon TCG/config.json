@@ -1,11 +1,11 @@
 {
   "curator_version": "2.0",
   "collection_name": "Pokemon TCG",
-  "data_source": "https://api.pokemontcg.io/v2",
+  "data_source": "https://github.com/PokemonTCG/pokemon-tcg-data",
   "fetch": {
     "script": "scripts/fetch_data.py",
-    "requires_api_key": true,
-    "rate_limit_seconds": 0.05,
+    "requires_api_key": false,
+    "rate_limit_seconds": 0,
     "supports_filters": ["limit", "series", "set"]
   },
   "deduplication": {

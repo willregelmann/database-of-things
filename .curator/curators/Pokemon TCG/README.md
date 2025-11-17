@@ -5,7 +5,7 @@ Autonomous data import agent for Pokemon Trading Card Game cards from pokemontcg
 ## Overview
 
 - **Collection:** Pokemon Trading Card Game (all cards, sets, and series)
-- **Data Source:** https://api.pokemontcg.io/v2
+- **Data Source:** https://github.com/PokemonTCG/pokemon-tcg-data (GitHub repository)
 - **Organization:** Hierarchical - Series → Expansion/Set → Card → Variants
 - **Deduplication:** `external_ids.pokemontcg_io` (card ID like "base1-4")
 
