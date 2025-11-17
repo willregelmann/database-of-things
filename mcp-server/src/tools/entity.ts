@@ -43,22 +43,19 @@ export async function getEntity(args: GetEntityArgs) {
     .from("relationships")
     .select(`
       from_id,
-      type,
       entities!relationships_from_id_fkey (
         id,
         name,
         type
       )
     `)
-    .eq("to_id", id)
-    .eq("type", "contains");
+    .eq("to_id", id);
 
   // Get child items
   const { data: children } = await supabase
     .from("relationships")
     .select(`
       to_id,
-      type,
       order,
       entities!relationships_to_id_fkey (
         id,
@@ -67,7 +64,6 @@ export async function getEntity(args: GetEntityArgs) {
       )
     `)
     .eq("from_id", id)
-    .eq("type", "contains")
     .order("order", { ascending: true, nullsFirst: false });
 
   // Format output

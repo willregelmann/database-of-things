@@ -3,22 +3,21 @@ import { supabase } from "../../index.js";
 interface CreateRelationshipArgs {
   from_id: string;
   to_id: string;
-  type: string;
   order?: number;
 }
 
 export async function createRelationship(args: CreateRelationshipArgs): Promise<any> {
   try {
-    const { from_id, to_id, type, order } = args;
+    const { from_id, to_id, order } = args;
 
     // Validate required fields
-    if (!from_id || !to_id || !type) {
+    if (!from_id || !to_id) {
       return {
         content: [{
           type: "text",
           text: JSON.stringify({
             success: false,
-            error: "Missing required fields: from_id, to_id, and type are required",
+            error: "Missing required fields: from_id and to_id are required",
             error_code: "MISSING_REQUIRED_FIELD"
           }, null, 2)
         }]
@@ -96,7 +95,6 @@ export async function createRelationship(args: CreateRelationshipArgs): Promise<
       .insert({
         from_id,
         to_id,
-        type,
         order
       })
       .select("id")
@@ -112,7 +110,7 @@ export async function createRelationship(args: CreateRelationshipArgs): Promise<
               success: false,
               error: "Relationship already exists",
               error_code: "RELATIONSHIP_EXISTS",
-              details: { from_id, to_id, type }
+              details: { from_id, to_id }
             }, null, 2)
           }]
         };
@@ -170,18 +168,18 @@ export async function createRelationship(args: CreateRelationshipArgs): Promise<
   }
 }
 
-export async function deleteRelationship(args: { from_id: string; to_id: string; type: string }): Promise<any> {
+export async function deleteRelationship(args: { from_id: string; to_id: string }): Promise<any> {
   try {
-    const { from_id, to_id, type } = args;
+    const { from_id, to_id } = args;
 
     // Validate required fields
-    if (!from_id || !to_id || !type) {
+    if (!from_id || !to_id) {
       return {
         content: [{
           type: "text",
           text: JSON.stringify({
             success: false,
-            error: "Missing required fields: from_id, to_id, and type are required",
+            error: "Missing required fields: from_id and to_id are required",
             error_code: "MISSING_REQUIRED_FIELD"
           }, null, 2)
         }]
@@ -220,8 +218,7 @@ export async function deleteRelationship(args: { from_id: string; to_id: string;
       .from("relationships")
       .delete()
       .eq("from_id", from_id)
-      .eq("to_id", to_id)
-      .eq("type", type);
+      .eq("to_id", to_id);
 
     if (error) {
       return {

@@ -381,8 +381,7 @@ export async function getCuratorStats(args: { name: string }): Promise<any> {
     const { count, error: countError } = await supabase
       .from("relationships")
       .select("*", { count: "exact", head: true })
-      .eq("from_id", collection_id)
-      .eq("type", "contains");
+      .eq("from_id", collection_id);
 
     const itemCount = countError ? 0 : (count || 0);
 
@@ -391,7 +390,6 @@ export async function getCuratorStats(args: { name: string }): Promise<any> {
       .from("relationships")
       .select("to_id, entities!relationships_to_id_fkey(created_at)")
       .eq("from_id", collection_id)
-      .eq("type", "contains")
       .order("created_at", { ascending: false })
       .limit(1);
 

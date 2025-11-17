@@ -35,7 +35,6 @@ export async function browseCollection(args: BrowseCollectionArgs) {
       )
     `)
     .eq("from_id", collection_id)
-    .eq("type", "contains")
     .order("order", { ascending: true, nullsFirst: false })
     .limit(limit);
 

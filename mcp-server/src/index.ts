@@ -259,10 +259,9 @@ const TOOLS = [
       properties: {
         from_id: { type: "string", description: "Parent entity UUID (required)" },
         to_id: { type: "string", description: "Child entity UUID (required)" },
-        type: { type: "string", description: "Relationship type like 'contains' (required)" },
         order: { type: "number", description: "Sort order (optional)" }
       },
-      required: ["from_id", "to_id", "type"]
+      required: ["from_id", "to_id"]
     }
   },
   {
@@ -272,10 +271,9 @@ const TOOLS = [
       type: "object",
       properties: {
         from_id: { type: "string", description: "Parent entity UUID (required)" },
-        to_id: { type: "string", description: "Child entity UUID (required)" },
-        type: { type: "string", description: "Relationship type (required)" }
+        to_id: { type: "string", description: "Child entity UUID (required)" }
       },
-      required: ["from_id", "to_id", "type"]
+      required: ["from_id", "to_id"]
     }
   },
   // Write Tools - Variant Operations
