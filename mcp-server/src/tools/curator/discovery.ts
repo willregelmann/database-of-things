@@ -94,12 +94,12 @@ export async function getCuratorConfig(args: { name: string }): Promise<any> {
 
     const curatorPath = join(CURATOR_BASE_PATH, name);
 
-    // Read plan.md
-    let plan = "";
+    // Read README.md
+    let readme = "";
     try {
-      plan = await readFile(join(curatorPath, "plan.md"), "utf-8");
+      readme = await readFile(join(curatorPath, "README.md"), "utf-8");
     } catch {
-      plan = "No plan.md found";
+      readme = "No README.md found";
     }
 
     // Read config.json
@@ -140,7 +140,7 @@ export async function getCuratorConfig(args: { name: string }): Promise<any> {
         type: "text",
         text: JSON.stringify({
           name,
-          plan,
+          readme,
           config,
           collection_id,
           data_source

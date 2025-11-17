@@ -1,4 +1,5 @@
 import { supabase } from "../../index.js";
+import { generateTextEmbedding, batchGenerateTextEmbeddings } from "../../utils/embeddings.js";
 
 // Validate UUID format
 function isValidUUID(uuid: string): boolean {
@@ -59,19 +60,40 @@ export async function generateEmbedding(args: { entity_id: string }): Promise<an
       };
     }
 
-    // For now, just mark that embedding generation was requested
-    // In real implementation, this would trigger background job
-    // User must run scripts/generate-embeddings.py separately
+    // Generate embedding
+    try {
+      console.error(`Generating text embedding for "${entity.name}"...`);
+      const embedding = await generateTextEmbedding(entity.name);
 
-    return {
-      content: [{
-        type: "text",
-        text: JSON.stringify({
-          success: true,
-          message: `Embedding generation queued for entity '${entity.name}'. Run scripts/generate-embeddings.py to process.`
-        }, null, 2)
-      }]
-    };
+      // Update entity with embedding
+      await supabase
+        .from("entities")
+        .update({ name_embedding: embedding })
+        .eq("id", entity_id);
+
+      console.error(`✓ Text embedding generated for "${entity.name}"`);
+
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: true,
+            message: `Text embedding generated for entity '${entity.name}'`
+          }, null, 2)
+        }]
+      };
+    } catch (embError: any) {
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: false,
+            error: `Failed to generate embedding: ${embError.message}`,
+            error_code: "EMBEDDING_ERROR"
+          }, null, 2)
+        }]
+      };
+    }
 
   } catch (err: any) {
     return {
@@ -142,18 +164,66 @@ export async function bulkGenerateEmbeddings(args: { entity_ids: string[] }): Pr
     const found_ids = entities?.map(e => e.id) || [];
     const not_found = entity_ids.filter(id => !found_ids.includes(id));
 
-    return {
-      content: [{
-        type: "text",
-        text: JSON.stringify({
-          success: true,
-          success_count: found_ids.length,
-          failed: not_found,
-          errors: not_found.length > 0 ? { not_found: `${not_found.length} entities not found` } : {},
-          message: `Embedding generation queued for ${found_ids.length} entities. Run scripts/generate-embeddings.py to process.`
-        }, null, 2)
-      }]
-    };
+    if (!entities || entities.length === 0) {
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: false,
+            error: "No entities found",
+            error_code: "NOT_FOUND"
+          }, null, 2)
+        }]
+      };
+    }
+
+    // Generate embeddings in batch
+    try {
+      console.error(`Generating embeddings for ${entities.length} entities...`);
+      const names = entities.map(e => e.name);
+      const embeddings = await batchGenerateTextEmbeddings(names);
+
+      // Update each entity with its embedding
+      let success_count = 0;
+      const errors: string[] = [];
+
+      for (let i = 0; i < entities.length; i++) {
+        try {
+          await supabase
+            .from("entities")
+            .update({ name_embedding: embeddings[i] })
+            .eq("id", entities[i].id);
+          success_count++;
+        } catch (updateError: any) {
+          errors.push(`${entities[i].name}: ${updateError.message}`);
+        }
+      }
+
+      console.error(`✓ Generated embeddings for ${success_count}/${entities.length} entities`);
+
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: true,
+            success_count,
+            failed: not_found.concat(errors),
+            message: `Generated embeddings for ${success_count} entities`
+          }, null, 2)
+        }]
+      };
+    } catch (embError: any) {
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: false,
+            error: `Failed to generate embeddings: ${embError.message}`,
+            error_code: "EMBEDDING_ERROR"
+          }, null, 2)
+        }]
+      };
+    }
 
   } catch (err: any) {
     return {

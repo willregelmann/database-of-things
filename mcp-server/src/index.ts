@@ -9,7 +9,7 @@ import {
 import { createClient } from "@supabase/supabase-js";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
-import { searchCollectibles } from "./tools/search.js";
+import { searchCollectibles, searchByExternalId } from "./tools/search.js";
 import { getEntity } from "./tools/entity.js";
 import { browseCollection } from "./tools/collections.js";
 import { getVariants } from "./tools/variants.js";
@@ -20,6 +20,7 @@ import { createVariant, updateVariant } from "./tools/write/variants.js";
 import { createComponent } from "./tools/write/components.js";
 import { createImage } from "./tools/write/images.js";
 import { generateEmbedding, bulkGenerateEmbeddings } from "./tools/write/embeddings.js";
+import { localizeImage } from "./tools/write/localize-image.js";
 import { listCurators, getCuratorConfig } from "./tools/curator/discovery.js";
 import { runCuratorFetch, validateCuratorData, getCuratorStats } from "./tools/curator/execution.js";
 
@@ -70,6 +71,28 @@ const TOOLS = [
         },
       },
       required: ["query"],
+    },
+  },
+  {
+    name: "search_by_external_id",
+    description: "Search for entities by external_ids. Essential for deduplication and parent lookup in curator workflows. Returns entity with matching external ID key/value pair.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        external_id_key: {
+          type: "string",
+          description: "External ID field name (e.g., 'metron_id', 'tcgplayer_id', 'pokemontcg_io')"
+        },
+        external_id_value: {
+          type: "string",
+          description: "External ID value to search for"
+        },
+        entity_type: {
+          type: "string",
+          description: "Optional: Filter by entity type (e.g., 'collection', 'comic', 'card')",
+        },
+      },
+      required: ["external_id_key", "external_id_value"],
     },
   },
   {
@@ -307,6 +330,19 @@ const TOOLS = [
       required: ["entity_ids"]
     }
   },
+  {
+    name: "localize_image",
+    description: "Download external image, generate thumbnail, and upload to Supabase storage. Returns localized image_url and thumbnail_url paths. This is the standard way to import images in curator workflows.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        external_url: { type: "string", description: "External image URL to download (required)" },
+        entity_id: { type: "string", description: "Entity UUID for storage paths (required)" },
+        thumbnail_size: { type: "number", description: "Thumbnail max width/height in pixels (default: 300)" }
+      },
+      required: ["external_url", "entity_id"]
+    }
+  },
   // Curator Tools - Discovery
   {
     name: "list_curators",
@@ -382,6 +418,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       case "search_collectibles":
         return await searchCollectibles(args as any);
 
+      case "search_by_external_id":
+        return await searchByExternalId(args as any);
+
       case "get_entity":
         return await getEntity(args as any);
 
@@ -421,6 +460,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await generateEmbedding(args as any);
       case "bulk_generate_embeddings":
         return await bulkGenerateEmbeddings(args as any);
+
+      case "localize_image":
+        return await localizeImage(args as any);
 
       case "list_curators":
         return await listCurators();

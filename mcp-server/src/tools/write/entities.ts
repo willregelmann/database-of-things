@@ -1,4 +1,5 @@
 import { supabase } from "../../index.js";
+import { generateTextEmbedding } from "../../utils/embeddings.js";
 
 interface CreateEntityArgs {
   name: string;
@@ -80,6 +81,23 @@ export async function createEntity(args: CreateEntityArgs): Promise<any> {
           }, null, 2)
         }]
       };
+    }
+
+    // AUTOMATIC: Generate text embedding for semantic search
+    try {
+      console.error(`Generating text embedding for "${name}"...`);
+      const embedding = await generateTextEmbedding(name);
+
+      // Update entity with embedding
+      await supabase
+        .from("entities")
+        .update({ name_embedding: embedding })
+        .eq("id", data.id);
+
+      console.error(`✓ Text embedding generated for "${name}"`);
+    } catch (embeddingError: any) {
+      // Log but don't fail - entity was created successfully
+      console.error(`Warning: Failed to generate embedding: ${embeddingError.message}`);
     }
 
     return {

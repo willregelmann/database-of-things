@@ -6,13 +6,14 @@ interface CreateImageArgs {
   component_id?: string;
   image_url: string;
   thumbnail_url?: string;
+  image_embedding?: number[];
   source_url?: string;
   is_primary?: boolean;
 }
 
 export async function createImage(args: CreateImageArgs): Promise<any> {
   try {
-    const { entity_id, variant_id, component_id, image_url, thumbnail_url, source_url, is_primary } = args;
+    const { entity_id, variant_id, component_id, image_url, thumbnail_url, image_embedding, source_url, is_primary } = args;
 
     // Validate that exactly one parent is provided
     const parents = [entity_id, variant_id, component_id].filter(Boolean);
@@ -119,6 +120,7 @@ export async function createImage(args: CreateImageArgs): Promise<any> {
       .insert({
         image_url,
         thumbnail_url,
+        embedding: image_embedding,
         source_url
       })
       .select("id")

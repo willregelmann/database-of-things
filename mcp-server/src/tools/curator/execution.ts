@@ -28,10 +28,58 @@ export async function runCuratorFetch(args: { name: string; options?: Record<str
     const curatorPath = join(CURATOR_BASE_PATH, name);
     const fetchScript = join(curatorPath, "scripts", "fetch_data.py");
 
+    // Build CLI arguments from options object
+    const scriptArgs = [fetchScript];
+    if (options) {
+      for (const [key, value] of Object.entries(options)) {
+        // Handle boolean flags (e.g., --dry-run)
+        if (typeof value === 'boolean') {
+          if (value) {
+            scriptArgs.push(`--${key}`);
+          }
+        }
+        // Handle array values (e.g., multiple --series arguments)
+        else if (Array.isArray(value)) {
+          for (const item of value) {
+            scriptArgs.push(`--${key}`);
+            scriptArgs.push(String(item));
+          }
+        }
+        // Handle regular key-value pairs
+        else {
+          scriptArgs.push(`--${key}`);
+          scriptArgs.push(String(value));
+        }
+      }
+    }
+
+    // Load curator-specific secrets.env file
+    let curatorEnv = { ...process.env };
+    try {
+      const secretsPath = join(curatorPath, "secrets.env");
+      const secretsContent = await readFile(secretsPath, "utf-8");
+
+      // Parse key=value pairs from secrets.env
+      for (const line of secretsContent.split('\n')) {
+        const trimmed = line.trim();
+        // Skip empty lines and comments
+        if (!trimmed || trimmed.startsWith('#')) continue;
+
+        const match = trimmed.match(/^([A-Z_][A-Z0-9_]*)=(.*)$/);
+        if (match) {
+          const [, key, value] = match;
+          // Remove quotes if present
+          curatorEnv[key] = value.replace(/^["']|["']$/g, '');
+        }
+      }
+    } catch (err) {
+      // secrets.env is optional - continue without it
+    }
+
     return new Promise((resolve) => {
-      const python = spawn("python3", [fetchScript], {
+      const python = spawn("python3", scriptArgs, {
         cwd: curatorPath,
-        env: process.env
+        env: curatorEnv
       });
 
       let stdout = "";
