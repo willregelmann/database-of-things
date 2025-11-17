@@ -1,19 +1,25 @@
 {
-  "name": "NTSC Video Games",
-  "description": "Physical NTSC video game releases from North America",
-  "entity_type": "video_game",
-  "source": "MobyGames API",
-  "source_url": "https://www.mobygames.com/",
-  "region": "North America",
-  "language": "en",
-  "country": "US",
-  "external_id_field": "moby_games",
-  "rate_limit": {
-    "requests_per_second": 0.66,
-    "note": "MobyGames free tier: ~1 request per 1.5 seconds (360/hour)"
+  "curator_version": "2.0",
+  "collection_name": "NTSC Video Games",
+  "data_source": "https://www.mobygames.com",
+  "fetch": {
+    "script": "scripts/fetch_data.py",
+    "requires_api_key": true,
+    "rate_limit_seconds": 1.5,
+    "supports_filters": [
+      {"name": "platform", "type": "string", "description": "Platform name or ID (e.g., 'PlayStation 2', '21')"},
+      {"name": "limit", "type": "integer", "description": "Number of games to fetch"}
+    ]
   },
-  "import_strategy": "incremental",
-  "deduplication": "moby_games game_id + platform_id compound key",
-  "created": "2025-11-08",
-  "status": "active"
+  "deduplication": {
+    "strategy": "external_id",
+    "field": "mobygames_game_platform_id",
+    "fallback": "semantic",
+    "semantic_threshold": 0.95
+  },
+  "entity_mapping": {
+    "parent_type": "collection",
+    "child_type": "video_game",
+    "attributes": ["publisher", "developer"]
+  }
 }

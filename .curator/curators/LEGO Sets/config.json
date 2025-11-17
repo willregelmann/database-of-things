@@ -1,15 +1,37 @@
 {
+  "curator_version": "2.0",
   "collection_name": "LEGO Sets",
-  "entity_type": "lego_set",
-  "data_source": "https://rebrickable.com/api/v3/lego/sets/",
-  "requires_api_key": true,
-  "dedup_field": "rebrickable_set_num",
-  "supports_runtime_filters": true,
-  "runtime_parameters": {
-    "THEME_NAME": {
-      "description": "LEGO theme to import (e.g., 'Space', 'Star Wars', 'City')",
-      "required": true,
-      "example": "Space"
-    }
+  "data_source": "https://rebrickable.com",
+  "fetch": {
+    "script": "scripts/fetch_data.py",
+    "requires_api_key": true,
+    "rate_limit_seconds": 0,
+    "supports_filters": [
+      {
+        "name": "theme",
+        "type": "string",
+        "repeatable": false,
+        "description": "LEGO theme to fetch (e.g., 'Space', 'Star Wars', 'City')",
+        "example": "\"Star Wars\""
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "repeatable": false,
+        "description": "Limit number of sets to fetch (for testing)",
+        "example": "--limit 10"
+      }
+    ]
+  },
+  "deduplication": {
+    "strategy": "external_id",
+    "field": "rebrickable_set_num",
+    "fallback": "semantic",
+    "semantic_threshold": 0.95
+  },
+  "entity_mapping": {
+    "parent_type": "collection",
+    "child_type": "lego_set",
+    "attributes": ["pieces"]
   }
 }

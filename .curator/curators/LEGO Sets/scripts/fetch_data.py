@@ -1,10 +1,25 @@
 #!/usr/bin/env python3
-"""Fetch LEGO sets from Rebrickable API by theme."""
+"""
+Fetch LEGO sets from Rebrickable API.
 
+Usage:
+  # Fetch specific theme
+  python3 fetch_data.py --theme "Star Wars"
+  python3 fetch_data.py --theme "Space"
+
+  # Limit number of sets (for testing)
+  python3 fetch_data.py --theme "Star Wars" --limit 10
+
+  # Default: Fetch sample theme for testing
+  python3 fetch_data.py
+"""
+
+import argparse
+import json
 import os
 import sys
-import json
 from pathlib import Path
+from typing import List, Dict, Optional
 
 # Auto-install dependencies if missing
 try:
@@ -19,93 +34,114 @@ except ImportError:
     import requests
 
 API_BASE = "https://rebrickable.com/api/v3/lego"
-OUTPUT_FILE = Path(__file__).parent.parent / "fetched_data.json"
+OUTPUT_FILE = "fetched_data.json"
 
 
-def get_theme_id(api_key: str, theme_name: str) -> int:
-    """Look up theme ID by name from Rebrickable API.
+class RebrickableFetcher:
+    """Fetch LEGO sets from Rebrickable API."""
 
-    Args:
-        api_key: Rebrickable API key
-        theme_name: Theme name to search for (e.g., "Space", "Star Wars")
+    def __init__(self, api_key: str, limit: Optional[int] = None):
+        self.api_key = api_key
+        self.headers = {"Authorization": f"key {api_key}"}
+        self.limit = limit
+        self.request_count = 0
 
-    Returns:
-        Theme ID integer
+    def get_theme_by_name(self, theme_name: str) -> Optional[Dict]:
+        """Look up theme by name from Rebrickable API.
 
-    Raises:
-        ValueError: If theme not found
-    """
-    print(f"Looking up theme ID for: {theme_name}")
+        Returns:
+            Theme dict with id, name, parent_id
+        """
+        print(f"  Looking up theme: {theme_name}")
 
-    headers = {"Authorization": f"key {api_key}"}
-    page = 1
-    page_size = 100
+        page = 1
+        page_size = 100
 
-    while True:
-        response = requests.get(
-            f"{API_BASE}/themes/",
-            headers=headers,
-            params={"page": page, "page_size": page_size},
-            timeout=30
-        )
-        response.raise_for_status()
+        while True:
+            self.request_count += 1
+            response = requests.get(
+                f"{API_BASE}/themes/",
+                headers=self.headers,
+                params={"page": page, "page_size": page_size},
+                timeout=30
+            )
+            response.raise_for_status()
 
-        data = response.json()
-        themes = data.get("results", [])
+            data = response.json()
+            themes = data.get("results", [])
 
-        # Search for matching theme (case-insensitive)
-        for theme in themes:
-            if theme["name"].lower() == theme_name.lower():
-                theme_id = theme["id"]
-                print(f"✓ Found theme '{theme['name']}' with ID: {theme_id}")
-                return theme_id
+            # Search for matching theme (case-insensitive)
+            for theme in themes:
+                if theme["name"].lower() == theme_name.lower():
+                    print(f"  ✓ Found: {theme['name']} (ID: {theme['id']})")
+                    return theme
 
-        # Check if there are more pages
-        if not data.get("next"):
-            break
+            # Check if there are more pages
+            if not data.get("next"):
+                break
 
-        page += 1
+            page += 1
 
-    raise ValueError(f"Theme '{theme_name}' not found in Rebrickable database")
+        return None
 
+    def fetch_sets_by_theme(self, theme_id: int, theme_name: str) -> List[Dict]:
+        """Fetch all sets for a theme.
 
-def fetch_sets(api_key: str, theme_id: int, fetch_limit: int = None) -> list:
-    """Fetch all sets for a given theme from Rebrickable API.
+        Returns graph structure: parent entity (theme) + child entities (sets).
+        """
+        print(f"\n{'=' * 60}")
+        print(f"Fetching LEGO Sets for Theme: {theme_name}")
+        print(f"{'=' * 60}\n")
 
-    Args:
-        api_key: Rebrickable API key
-        theme_id: Theme ID to filter
-        fetch_limit: Optional limit for testing (default: fetch all)
+        all_entities = []
 
-    Returns:
-        List of set dictionaries
-    """
-    sets = []
-    page = 1
-    page_size = 1000  # Rebrickable max page size
+        # Fetch raw sets from API
+        sets = self._fetch_sets_paginated(theme_id)
 
-    print(f"Fetching LEGO sets for theme_id: {theme_id}")
-    print(f"API endpoint: {API_BASE}/sets/")
+        if not sets:
+            print(f"  ⚠️  No sets found for theme")
+            return []
 
-    if fetch_limit:
-        print(f"⚠️  FETCH_LIMIT set to {fetch_limit} - fetching sample only")
-
-    headers = {"Authorization": f"key {api_key}"}
-
-    while True:
-        params = {
-            "theme_id": theme_id,
-            "page": page,
-            "page_size": page_size,
-            "ordering": "year"
+        # Create parent entity (theme/collection)
+        parent_entity = {
+            "name": theme_name,
+            "type": "collection",
+            "external_ids": {
+                "rebrickable_theme_id": str(theme_id)
+            },
+            "attributes": {}
         }
+        all_entities.append(parent_entity)
 
-        print(f"  Fetching page {page}...", end=" ", flush=True)
+        # Convert sets to child entities with parent reference
+        for raw_set in sets:
+            set_entity = self._parse_set(raw_set, theme_id)
+            if set_entity:
+                all_entities.append(set_entity)
 
-        try:
+        print(f"\n  ✓ Fetched 1 theme + {len(sets)} sets")
+        return all_entities
+
+    def _fetch_sets_paginated(self, theme_id: int) -> List[Dict]:
+        """Fetch all sets for a theme (handles pagination)."""
+        sets = []
+        page = 1
+        page_size = 1000  # Rebrickable max page size
+
+        while True:
+            params = {
+                "theme_id": theme_id,
+                "page": page,
+                "page_size": page_size,
+                "ordering": "year"
+            }
+
+            print(f"  Fetching page {page}...", end=" ", flush=True)
+
+            self.request_count += 1
             response = requests.get(
                 f"{API_BASE}/sets/",
-                headers=headers,
+                headers=self.headers,
                 params=params,
                 timeout=30
             )
@@ -122,10 +158,10 @@ def fetch_sets(api_key: str, theme_id: int, fetch_limit: int = None) -> list:
 
             sets.extend(page_sets)
 
-            # Check if we've hit the fetch limit
-            if fetch_limit and len(sets) >= fetch_limit:
-                sets = sets[:fetch_limit]
-                print(f"  Reached FETCH_LIMIT ({fetch_limit}), stopping early")
+            # Check if we've hit the limit
+            if self.limit and len(sets) >= self.limit:
+                sets = sets[:self.limit]
+                print(f"  ⚠️  Reached limit of {self.limit} sets")
                 break
 
             # Check if there are more pages
@@ -134,83 +170,173 @@ def fetch_sets(api_key: str, theme_id: int, fetch_limit: int = None) -> list:
 
             page += 1
 
-        except requests.exceptions.RequestException as e:
-            print(f"\n❌ Request failed: {e}")
-            break
+        return sets
 
-    return sets
+    def _parse_set(self, raw_set: Dict, theme_id: int) -> Optional[Dict]:
+        """Parse set data from Rebrickable API (v2 format).
+
+        Returns:
+            Entity dict with parent reference and relationship metadata.
+        """
+        try:
+            set_num = raw_set.get("set_num")
+            name = raw_set.get("name")
+            year = raw_set.get("year")
+            num_parts = raw_set.get("num_parts")
+            image_url = raw_set.get("set_img_url")
+            source_url = raw_set.get("set_url")
+
+            # Return v2 format (graph structure)
+            return {
+                "name": name,
+                "type": "lego_set",
+                "year": year,
+                "external_ids": {
+                    "rebrickable_set_num": set_num
+                },
+                "image_url": image_url,
+                "source_url": source_url,
+                "parent": {
+                    "type": "collection",
+                    "external_ids": {
+                        "rebrickable_theme_id": str(theme_id)
+                    }
+                },
+                "relationship": {
+                    "type": "contains",
+                    "order": year  # Sort by year within theme
+                },
+                "attributes": {
+                    "pieces": num_parts
+                }
+            }
+
+        except Exception as e:
+            print(f"  ⚠️  Failed to parse set: {e}")
+            return None
 
 
 def main():
-    import argparse
-
     # Parse command-line arguments
     parser = argparse.ArgumentParser(
-        description="Fetch LEGO sets from Rebrickable API by theme"
+        description="Fetch LEGO sets from Rebrickable API",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Fetch specific theme
+  python3 fetch_data.py --theme "Star Wars"
+  python3 fetch_data.py --theme "Space"
+
+  # Limit number of sets (for testing)
+  python3 fetch_data.py --theme "Star Wars" --limit 10
+
+  # Default: Fetch sample theme for testing
+  python3 fetch_data.py
+        """
     )
     parser.add_argument(
-        "theme",
-        help="LEGO theme to fetch (e.g., 'Super Mario', 'Star Wars', 'City')"
+        "--theme",
+        type=str,
+        default=None,
+        help="LEGO theme to fetch (e.g., 'Space', 'Star Wars', 'City')"
     )
     parser.add_argument(
         "--limit",
         type=int,
-        help="Limit number of sets to fetch (useful for testing)"
+        help="Limit total number of sets to fetch (for testing)"
     )
+
     args = parser.parse_args()
 
-    # Get configuration from environment
-    api_key = os.getenv("REBRICKABLE_API_KEY")
-
-    if not api_key:
-        print("❌ Error: REBRICKABLE_API_KEY not found in environment")
-        print("Get your API key at: https://rebrickable.com/api/")
-        print("\nSet it in: .curator/curators/LEGO Sets/secrets.env")
-        print("  REBRICKABLE_API_KEY=your_key_here")
-        print("\nNote: Supabase credentials come from .curator/secrets.env")
-        sys.exit(1)
-
-    theme_name = args.theme
-    fetch_limit = args.limit
-
     print("=" * 60)
-    print("LEGO Sets Fetcher - Rebrickable API")
+    print("LEGO Sets - Rebrickable API Fetcher")
     print("=" * 60)
     print()
 
-    try:
-        # Look up theme ID
-        theme_id = get_theme_id(api_key, theme_name)
-        print()
+    # Load credentials from environment
+    api_key = os.getenv("REBRICKABLE_API_KEY")
 
-        # Fetch sets
-        sets = fetch_sets(api_key, theme_id, fetch_limit)
-
-        if not sets:
-            print("\n⚠️  No sets found for theme:", theme_name)
-            sys.exit(1)
-
-        # Save to file
-        print()
-        print(f"Saving {len(sets)} sets to {OUTPUT_FILE.name}...")
-
-        with open(OUTPUT_FILE, "w") as f:
-            json.dump(sets, f, indent=2)
-
-        print(f"✓ Complete! Fetched {len(sets)} sets for theme '{theme_name}'")
-        print(f"  Output: {OUTPUT_FILE}")
-        print()
-        print("Next steps:")
-        print("  python3 scripts/import_items.py --dry-run  # Test import")
-        print("  python3 scripts/import_items.py            # Real import")
-        print()
-        print("To fetch another theme:")
-        print(f"  python3 scripts/fetch_data.py 'Star Wars'")
-        print(f"  python3 scripts/fetch_data.py 'City' --limit 10  # Test with 10 sets")
-
-    except ValueError as e:
-        print(f"\n❌ Error: {e}")
+    if not api_key:
+        print("Error: REBRICKABLE_API_KEY not set")
+        print("Get your API key from: https://rebrickable.com/api/")
         sys.exit(1)
+
+    fetcher = RebrickableFetcher(api_key, limit=args.limit)
+
+    # Determine what to fetch
+    entities = []
+    filters_applied = {}
+
+    if not args.theme:
+        print("Error: THEME argument is required")
+        print("\nExamples:")
+        print("  python3 fetch_data.py 'Star Wars'")
+        print("  python3 fetch_data.py 'Space' --limit 10")
+        print("  python3 fetch_data.py 'Harry Potter'")
+        sys.exit(1)
+
+    theme_name = args.theme
+
+    # Look up theme
+    theme = fetcher.get_theme_by_name(theme_name)
+    if not theme:
+        print(f"\n❌ Error: Theme '{theme_name}' not found in Rebrickable database")
+        sys.exit(1)
+
+    theme_id = theme["id"]
+    filters_applied["theme"] = theme_name
+
+    if args.limit:
+        filters_applied["limit"] = args.limit
+
+    # Fetch sets
+    entities = fetcher.fetch_sets_by_theme(theme_id, theme_name)
+
+    if not entities:
+        print(f"\n⚠️  No sets found for theme: {theme_name}")
+        sys.exit(1)
+
+    # Wrap in v2 format with metadata
+    from datetime import datetime, timezone
+    output_data = {
+        "format_version": "1.0",
+        "metadata": {
+            "curator": "LEGO Sets",
+            "source": "https://rebrickable.com",
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "total_items": len(entities),
+            "filters_applied": filters_applied
+        },
+        "items": entities
+    }
+
+    # Save to file
+    output_path = Path(__file__).parent.parent / OUTPUT_FILE
+    with open(output_path, "w") as f:
+        json.dump(output_data, f, indent=2)
+
+    print()
+    print("=" * 60)
+    print(f"✓ Fetched {len(entities)} entities → {output_path}")
+    print(f"  Total API requests: {fetcher.request_count}")
+    print("=" * 60)
+
+    # Data quality report
+    if entities:
+        # Count different entity types
+        collections = sum(1 for e in entities if e.get("type") == "collection")
+        sets = sum(1 for e in entities if e.get("type") == "lego_set")
+
+        # Count quality metrics (only for sets)
+        with_images = sum(1 for e in entities if e.get("type") == "lego_set" and e.get("image_url"))
+        with_years = sum(1 for e in entities if e.get("year"))
+        with_pieces = sum(1 for e in entities if e.get("type") == "lego_set" and e.get("attributes", {}).get("pieces"))
+
+        print(f"\nData quality:")
+        print(f"  Total entities: {len(entities)} ({collections} collections, {sets} sets)")
+        print(f"  Sets with images: {with_images}/{sets} ({with_images/sets*100:.1f}%)" if sets > 0 else "")
+        print(f"  Entities with years: {with_years}/{len(entities)} ({with_years/len(entities)*100:.1f}%)")
+        print(f"  Sets with piece count: {with_pieces}/{sets} ({with_pieces/sets*100:.1f}%)" if sets > 0 else "")
 
 
 if __name__ == "__main__":
