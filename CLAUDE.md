@@ -127,8 +127,9 @@ docker exec -it supabase_db_database-of-things psql -U postgres -d postgres
 # Seed local database with sample data (24 entities, 6 variants)
 python3 scripts/seed-sample-data.py
 
-# Generate embeddings for semantic search (required after seeding)
-python3 scripts/generate-embeddings.py
+# NOTE: Embeddings are now generated automatically when entities are created
+# No manual embedding generation needed for new data!
+# (For backfill of existing data: python3 scripts/generate-embeddings.py)
 
 # Test semantic search
 export SUPABASE_URL="http://127.0.0.1:54321"
@@ -221,7 +222,7 @@ The schema consists of four tables:
 - `image_url` (TEXT): Image URL path - local storage uses `/storage/v1/object/public/images/originals/uuid.ext`, external URLs stored as-is
 - `thumbnail_url` (TEXT): Optional pre-generated thumbnail path (typically 300x300 WebP) - `/storage/v1/object/public/images/thumbnails/uuid.webp`
 - `source_url` (TEXT): Source page URL where entity data was obtained (for attribution)
-- `name_embedding` (vector(384)): Vector embedding for semantic search (nullable, generated externally)
+- `name_embedding` (vector(384)): Vector embedding for semantic search (nullable, **generated automatically** on entity creation via Transformers.js)
 - `external_ids` (JSONB): External system IDs (e.g., `{"tcgplayer": "base1-4", "pokemontcg_io": "base1-4"}`)
 - `attributes` (JSONB): All other data (description, additional images, custom fields)
 - Timestamps: `created_at`, `updated_at`
@@ -449,25 +450,27 @@ query {
 
 ### Generating Embeddings
 
-Embeddings must be generated externally using Python or another language:
+**Embeddings are now generated automatically:**
 
-```python
-from sentence_transformers import SentenceTransformer
+- **Text embeddings** (384d): Generated automatically via Transformers.js when calling `create_entity` MCP tool
+- **Image embeddings** (512d): Generated automatically via Transformers.js when calling `localize_image` MCP tool
 
-# Load model (384 dimensions)
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+**No manual embedding generation required** for new entities or images!
 
-# Generate embedding
-entity_name = "Charizard"
-embedding = model.encode(entity_name).tolist()
+**Models used:**
+- Text: `Xenova/all-MiniLM-L6-v2` (384 dimensions, sentence-transformers)
+- Image: `Xenova/clip-vit-base-patch32` (512 dimensions, CLIP vision transformer)
 
-# Store in database
-supabase.table('entities').update({
-    'name_embedding': embedding
-}).eq('id', entity_id).execute()
+**For backfilling existing entities** without embeddings, use the manual tools:
+```bash
+# Backfill text embeddings for existing entities
+python3 scripts/generate-embeddings.py
+
+# Or use MCP tools directly
+bulk_generate_embeddings(entity_ids=[...])
 ```
 
-**Note**: ~20,632 entities currently have embeddings in production.
+**Note**: ~20,632 entities currently have embeddings in production (legacy data may need backfill).
 
 ## GraphQL API Usage
 
@@ -650,19 +653,20 @@ The database is accessible via MCP (Model Context Protocol) server for AI assist
 
 ### Features
 
-**Read Operations (5 tools):**
+**Read Operations (6 tools):**
 - **Semantic Search**: Find collectibles using natural language
+- **External ID Search**: Find entities by external system IDs (deduplication & parent lookup)
 - **Entity Details**: Get complete information about items
 - **Browse Collections**: Explore collection contents
 - **Variants & Components**: View alternative versions and parts
 
-**Write Operations (11 tools):**
-- **Entity CRUD**: create_entity, update_entity, delete_entity
+**Write Operations (12 tools):**
+- **Entity CRUD**: create_entity (**auto text embeddings**), update_entity, delete_entity
 - **Relationships**: create_relationship, delete_relationship
 - **Variants**: create_variant, update_variant
 - **Components**: create_component
-- **Images**: create_image
-- **Embeddings**: generate_embedding, bulk_generate_embeddings
+- **Images**: localize_image (**auto image embeddings** + thumbnail + storage), create_image (link to entity)
+- **Embeddings**: generate_embedding, bulk_generate_embeddings (for backfill only - **embeddings now automatic**)
 
 **Curator Integration (5 tools):**
 - **Discovery**: list_curators, get_curator_config
@@ -695,22 +699,24 @@ claude
 
 ### Available Tools
 
-Once configured, you can use either environment with all 21 tools:
+Once configured, you can use either environment with all 23 tools:
 
-**Read Tools (5):**
+**Read Tools (6):**
 - `search_collectibles` - Semantic search for collectibles
+- `search_by_external_id` - Find entities by external_ids (for deduplication and parent lookup)
 - `get_entity` - Get detailed entity information
 - `browse_collection` - List items in a collection
 - `get_variants` - Get entity variants
 - `get_components` - Get entity components
 
-**Write Tools (11):**
-- `create_entity`, `update_entity`, `delete_entity` - Entity operations
+**Write Tools (12):**
+- `create_entity`, `update_entity`, `delete_entity` - Entity operations (**text embeddings auto-generated**)
 - `create_relationship`, `delete_relationship` - Relationship operations
 - `create_variant`, `update_variant` - Variant operations
 - `create_component` - Component operations
-- `create_image` - Image operations
-- `generate_embedding`, `bulk_generate_embeddings` - Embedding operations
+- `localize_image` - Download image, generate thumbnail + **image embedding**, upload to Supabase storage
+- `create_image` - Link image to entity (with optional embedding)
+- `generate_embedding`, `bulk_generate_embeddings` - Embedding backfill (manual only, **auto for new data**)
 
 **Curator Tools (5):**
 - `list_curators`, `get_curator_config` - Discovery
@@ -736,11 +742,15 @@ The MCP server's curator tools enable Claude to autonomously run curator workflo
 ```
 1. Claude uses list_curators() to discover available curators
 2. Uses run_curator_fetch("Pokemon TCG") to fetch data from API
-3. Uses search_collectibles() to check for duplicates
-4. Uses create_entity() + create_relationship() for new items
-5. Uses bulk_generate_embeddings() to enable semantic search
-6. Reports: "Imported 50 new cards, 3 updated, 2 skipped"
+3. Uses search_by_external_id() for exact deduplication via external IDs
+4. Falls back to search_collectibles() for semantic matching when needed
+5. Uses create_entity() for new items (text embeddings generated automatically)
+6. Uses localize_image() to download images, generate thumbnails + image embeddings, store in Supabase
+7. Uses create_relationship() to link items to collections
+8. Reports: "Imported 50 new cards (with embeddings), 3 updated, 2 skipped"
 ```
+
+**Note**: Embeddings (text + image) are now generated automatically - no separate embedding step needed!
 
 This combines the power of:
 - **Curator scripts** - Domain-specific data fetching and parsing
@@ -751,9 +761,9 @@ For manual curator operation, use the slash commands (`/curator-run`, `/curator-
 
 ## Curator System
 
-Autonomous agents for importing collectibles data, implemented as project-level slash commands and skills.
+Autonomous agents for importing collectibles data via AI-driven workflows.
 
-**Purpose**: Make importing, updating, and reconciling collections effortless through AI-driven automation.
+**Purpose**: Make importing, updating, and reconciling collections effortless through automated fetch + intelligent MCP-based import.
 
 ### Available Commands
 
@@ -761,186 +771,73 @@ Autonomous agents for importing collectibles data, implemented as project-level 
 - `/curator:run "Collection Name"` - Execute curator to import items
 - `/curator:status "Collection Name"` - Show collection stats
 
-### Example Usage
+### Architecture (v2)
 
+**Hybrid Design**: Python handles mechanical fetch, Claude handles intelligent import via MCP.
+
+```
+Fetch Phase:          Python script (fetch_data.py)
+                      ↓
+                      fetched_data.json (standardized format)
+                      ↓
+Import Phase:         Claude via MCP tools
+                      - Semantic deduplication
+                      - Entity creation
+                      - Image linking
+                      - Embedding generation
+```
+
+**Key Benefits**:
+- ✅ Simplified fetch scripts (~200 lines vs ~500)
+- ✅ Intelligent deduplication via semantic search
+- ✅ Natural language invocation ("Import Pokemon Base Set")
+- ✅ Multi-environment support (local vs production)
+
+### When to Use
+
+**Creating a curator**: Use `/curator:init "Collection Name"` when you need to import a new collection. Claude will:
+- Ask Socratic questions about data source, ToS, metadata
+- Generate fetch_data.py script (~200 lines)
+- Create config files and secrets templates
+- Test the fetch with `--limit=5`
+
+**Running a curator**: Use `/curator:run "Collection Name"` or natural language ("Import Labubu figures"). Claude will:
+- Load the run-curator skill (autonomous debugging + MCP import)
+- Execute fetch_data.py
+- Import via MCP tools (semantic deduplication, entity/image/relationship creation, embeddings)
+- Report created/updated/failed counts
+
+**Command variations**:
 ```bash
-/curator:init "Pokemon TCG"    # Interactive setup, generates scripts
-/curator:run "Pokemon TCG"     # Autonomous execution, fixes errors
-/curator:status "Pokemon TCG"  # Show stats
+/curator:run "Labubu"                  # Full workflow
+/curator:run "Labubu" --fetch-only     # Fetch only, no import
+/curator:run "Labubu" --env=prod       # Use production environment
 ```
 
-### Design Principles
+### Critical Principles
 
-These principles guide all curator development and usage:
+**1. Always load run-curator skill**: When running curators, ALWAYS load the `run-curator` skill. It contains autonomous debugging, error handling, and MCP import workflows.
 
-#### 1. Always Run Dry Run Before Real Import
+**2. Multi-environment secrets**:
+- `secrets.env` - Shared API keys (all environments)
+- `secrets.local.env` - Local collection ID
+- `secrets.prod.env` - Production collection ID
 
-**Mandatory.** Every curator initialization MUST end with a dry run outputting YAML (collection hierarchy + 3-5 sample items) to validate schema before database writes. Requires user approval.
+**3. Standardized fetch output**: All fetch scripts output `fetched_data.json` with format_version 1.0 (see technical reference for schema).
 
-**Why**: Catches schema mismatches, relationship errors, and metadata inconsistencies before corrupting the database.
+**4. Intelligent deduplication**: Uses MCP `search_by_external_id` for exact matching via external system IDs, with `search_collectibles` semantic fallback (0.95+ similarity threshold) when external IDs unavailable.
 
-#### 2. Ask About Metadata During Init
+### Documentation
 
-**Required questions**: Source URL pattern, language/country codes, external ID systems, image handling, and collection-specific metadata fields (e.g., for video games: publisher, developers, platform).
+**For complete workflows and examples**: See `docs/curator-user-guide.md`
+**For schemas and specifications**: See `docs/curator-technical-reference.md`
 
-**Why**: Ensures consistency within each collection and prevents metadata drift.
+### Implementation
 
-#### 3. Load Appropriate Skills for Every Run
-
-**CRITICAL**: When running curators, ALWAYS load the `run-curator` skill. Don't run scripts directly, skip it because "it's simple", or assume you remember it.
-
-**Why**: The skill contains autonomous debugging protocols, error handling patterns, and best practices that prevent common mistakes.
-
-#### 4. Curator-Specific Metadata Consistency
-
-**Within a single curator**, all items must have consistent metadata field names (e.g., always use `card_number`, not mixing `card_number` and `number`).
-
-**Why**: Consistent metadata enables querying and analysis within collections.
-
-#### 5. Deduplication Strategy: External IDs First, Semantic Search Fallback
-
-**Priority order**: Use external IDs when available (fastest, most reliable), fall back to semantic search for sources without IDs. See "Choosing Deduplication Strategy" under Operating Instructions for implementation details.
-
-**Why**: External IDs are authoritative when available, but many sources lack them. Semantic search provides fuzzy matching for noisy data.
-
-#### 6. Maintain Relationships, Don't Skip Updates
-
-**CRITICAL**: When an entity already exists, UPDATE its relationships instead of skipping. Items can move between collections or gain new parents (many-to-many).
-
-```python
-existing_id = check_exists(external_id)
-if existing_id:
-    update_parent_relationship(existing_id, new_parent_id, name)  # Update, don't skip
-    return True, f"Updated parent: {name}"
-```
-
-**Track as**: Created (new) | Updated (reconciled relationships) | Failed (errors)
-
-### Operating Instructions
-
-#### Creating New Curators
-
-**Use `/curator:init "Collection Name"`** - Do NOT create curators manually.
-
-**Process**: Socratic questioning → generate scripts (fetch_data.py, import_items.py, validate.py) → create config (plan.md, config.json, secrets.env.example) → mandatory dry run → user approval
-
-**Output**: `.curator/curators/{Collection Name}/` with plan, config, secrets template, and scripts
-
-#### Running Existing Curators
-
-**Use `/curator:run "Collection Name"`** - Loads the `run-curator` skill for autonomous execution.
-
-**Process**: Load config → validate environment → execute fetch → execute import (deduplicate, localize images, generate embeddings) → autonomous debugging (auto-install dependencies, fix API changes, handle rate limiting) → report results
-
-#### Configuring Curators for Local Development
-
-**Local Supabase Configuration**
-
-Curators use `secrets.env` files to store credentials. During local development, these should point to your local Supabase instance.
-
-**Example `secrets.env` for local development**:
-```bash
-# Data source API credentials (varies by curator)
-MOBY_GAMES_API_KEY=your_api_key_here
-
-# Supabase configuration (local development)
-SUPABASE_URL=http://127.0.0.1:54321
-SUPABASE_SERVICE_KEY=sb_secret_N7UND0UgjKTVK-Uodkm0Hg_xSvEMPvz  # Local dev key from ./bin/supabase status
-
-# Collection ID (get from database after creating collection entity)
-COLLECTION_ID=00000000-0000-0000-0000-000000000000
-
-# Optional: Curator-specific configuration
-FETCH_LIMIT=100
-```
-
-**Finding local Supabase credentials**:
-```bash
-# Start Supabase if not running
-./bin/supabase start
-
-# Get service key and other credentials
-./bin/supabase status
-```
-
-**Important**:
-- Use `http://127.0.0.1:54321` for local, `https://yourproject.supabase.co` for production
-- **Never commit** `secrets.env` to git (use `secrets.env.example` as template)
-- The service key shown above is **local development only** and safe to document
-
-#### Updating Collections
-
-**Regular updates**: Re-run `/curator:run "Collection Name"` to fetch latest data, deduplicate, reconcile relationships, and add new items.
-
-**Schema changes**: Edit `scripts/import_items.py` to update metadata mapping, then run again.
-
-#### Choosing Deduplication Strategy
-
-**Decision tree**:
-
-```
-Does the data source provide unique IDs?
-├─ Yes → Use external ID matching
-│         External IDs go in `external_ids` JSONB field
-│         Check `external_ids->>field_name` before creating
-│
-└─ No → Use semantic search
-          Generate embeddings for all items
-          Match by cosine similarity on name_embedding
-          Log ambiguous matches (0.90-0.98 similarity) for review
-```
-
-**Combining strategies** (for cross-source reconciliation):
-1. Check external ID first (fastest)
-2. If no match, try semantic search
-3. If similarity > 0.95, link as same entity
-4. Otherwise, create new entity
-
-**Implementation example**:
-```python
-from curator_utils import check_exists_by_semantic_search
-
-def check_exists(self, external_id: str, item_name: str = None) -> Optional[str]:
-    """Check if entity exists by external ID, with semantic search fallback."""
-    # Try external ID first (fastest, most reliable)
-    if external_id:
-        result = self.supabase.table("entities").select("id").eq(
-            "external_ids->>api_name",
-            external_id
-        ).execute()
-
-        if result.data:
-            return result.data[0]["id"]
-
-    # Fallback to semantic search if external ID not found/available
-    if item_name:
-        return check_exists_by_semantic_search(
-            self.supabase,
-            item_name,
-            entity_type="card",  # Optional: filter by type
-            threshold=0.95  # High confidence threshold
-        )
-
-    return None
-```
-
-#### Ensuring Metadata Alignment
-
-**During init**: Ask about collection-specific metadata fields
-**During import**: Use `MetadataValidator` from curator_utils to validate required fields
-**Post-import**: Run validate.py to check consistency
-
-### How It Works
-
-1. **Discovery** (`/curator:init`) - Invokes `init-curator` skill for Socratic questioning, generates import plan and working scripts
-2. **Execution** (`/curator:run`) - Invokes `run-curator` skill to autonomously run scripts, debugging and fixing issues
-3. **Results** - Reports imported items and issues resolved
-
-**Implementation**:
 - Slash commands: `.claude/commands/curator-*.md`
-- Skills: `.claude/skills/init-curator/` and `.claude/skills/run-curator/`
-- Generated curators: `.curator/curators/{name}/scripts/`
-- Shared utilities: `.curator/lib/` (image_utils, embedding_utils, curator_utils)
+- Skills: `.claude/skills/init-curator/` and `.claude/skills/run-curator/` (v2)
+- Fetch scripts: `.curator/curators/{name}/scripts/fetch_data.py`
+- Import: Claude via MCP tools (21 tools: 5 read, 11 write, 5 curator)
 
 ## Image Storage
 
