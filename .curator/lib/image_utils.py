@@ -246,6 +246,175 @@ class ImageLocalizer:
         thumbnail_url = f"/storage/v1/object/public/images/{thumbnail_path}"
         return image_url, thumbnail_url
 
+    def localize_and_link_to_entity(
+        self,
+        supabase_client,
+        table_name: str,
+        entity_id: str,
+        external_image_url: str,
+        source_url: Optional[str] = None
+    ) -> Optional[str]:
+        """
+        Download, localize, and link image to an entity in one call.
+
+        This is a convenience method for curators that combines image localization
+        with the new images table architecture. It downloads the image, generates
+        a thumbnail, uploads both to storage, creates an image record, and links
+        it as the primary image for the entity.
+
+        Args:
+            supabase_client: Supabase client instance
+            table_name: Parent table ("entities", "variants", or "components")
+            entity_id: Entity/variant/component ID
+            external_image_url: External image URL to download
+            source_url: Optional attribution URL
+
+        Returns:
+            image_id if successful, None otherwise
+
+        Example:
+            localizer = ImageLocalizer(supabase)
+            image_id = localizer.localize_and_link_to_entity(
+                supabase,
+                "entities",
+                entity_id,
+                "https://example.com/image.jpg",
+                "https://example.com/source"
+            )
+        """
+        if not external_image_url:
+            return None
+
+        # Localize the image
+        image_url, thumbnail_url = self.localize_image(external_image_url, entity_id)
+
+        if not image_url:
+            return None
+
+        # Create and link
+        return create_and_link_image(
+            supabase_client,
+            table_name,
+            entity_id,
+            image_url,
+            thumbnail_url,
+            source_url
+        )
+
+
+# ============================================================
+# IMAGE TABLE MANAGEMENT (for new images table architecture)
+# ============================================================
+
+def create_image_record(
+    supabase_client,
+    image_url: str,
+    thumbnail_url: Optional[str] = None,
+    source_url: Optional[str] = None
+) -> Optional[str]:
+    """
+    Create a new image record in the images table.
+
+    Args:
+        supabase_client: Supabase client instance
+        image_url: Full-resolution image URL or path
+        thumbnail_url: Optional thumbnail URL or path
+        source_url: Optional attribution URL
+
+    Returns:
+        Image ID (UUID) or None on failure
+    """
+    if not image_url:
+        return None
+
+    try:
+        result = supabase_client.table("images").insert({
+            "image_url": image_url,
+            "thumbnail_url": thumbnail_url,
+            "source_url": source_url
+        }).execute()
+
+        if result.data and len(result.data) > 0:
+            return result.data[0]["id"]
+
+        return None
+
+    except Exception as e:
+        print(f"    ⚠️  Failed to create image record: {e}")
+        return None
+
+
+def link_primary_image(
+    supabase_client,
+    table_name: str,
+    parent_id: str,
+    image_id: str
+) -> bool:
+    """
+    Link an image as the primary image for an entity/variant/component.
+
+    Args:
+        supabase_client: Supabase client instance
+        table_name: Parent table ("entities", "variants", or "components")
+        parent_id: Parent record ID
+        image_id: Image ID to link
+
+    Returns:
+        True on success, False on failure
+    """
+    if not image_id or not parent_id:
+        return False
+
+    try:
+        supabase_client.table(table_name).update({
+            "primary_image_id": image_id
+        }).eq("id", parent_id).execute()
+
+        return True
+
+    except Exception as e:
+        print(f"    ⚠️  Failed to link primary image: {e}")
+        return False
+
+
+def create_and_link_image(
+    supabase_client,
+    table_name: str,
+    parent_id: str,
+    image_url: str,
+    thumbnail_url: Optional[str] = None,
+    source_url: Optional[str] = None
+) -> Optional[str]:
+    """
+    Convenience function: Create image record and link it as primary in one call.
+
+    This is the main function curators should use when importing entities with images.
+
+    Args:
+        supabase_client: Supabase client instance
+        table_name: Parent table ("entities", "variants", or "components")
+        parent_id: Parent record ID
+        image_url: Full-resolution image URL or path
+        thumbnail_url: Optional thumbnail URL or path
+        source_url: Optional attribution URL
+
+    Returns:
+        Image ID (UUID) or None on failure
+    """
+    # Create image
+    image_id = create_image_record(supabase_client, image_url, thumbnail_url, source_url)
+
+    if not image_id:
+        return None
+
+    # Link as primary
+    success = link_primary_image(supabase_client, table_name, parent_id, image_id)
+
+    if not success:
+        return None
+
+    return image_id
+
 
 # Standalone functions for simple usage
 def localize_image(supabase_client, external_url: str, entity_id: str) -> Tuple[Optional[str], Optional[str]]:
