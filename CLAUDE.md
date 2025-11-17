@@ -214,7 +214,8 @@ The schema consists of four tables:
 
 **`entities`** - Collections, items, and components in the system:
 - `id` (UUID): Primary key
-- `type` (TEXT): Entity type (e.g., "collection", "card", "figure")
+- `type` (entity_type ENUM): Entity type - either "item" or "collection"
+- `category` (category_type ENUM): Optional category - trading_card_games, figures, comics, video_games, or buildables (nullable, can apply to both items and collections)
 - `name` (TEXT): Display name
 - `year` (INT): Optional universal year attribute
 - `country` (CHAR(2)): Optional ISO country code
@@ -251,11 +252,10 @@ The schema consists of four tables:
 - `id` (UUID): Primary key
 - `from_id` (UUID): Source entity
 - `to_id` (UUID): Target entity
-- `type` (TEXT): Relationship type (e.g., "contains", "variant_of", "component_of")
 - `order` (INT): Sort order for items in collections (nullable)
 - `created_at` timestamp
-- UNIQUE constraint on `(from_id, to_id, type)`
-- **Note**: Previously had an `attributes` JSONB column, but it was removed in migration `20251024195010_drop_relationships_attributes.sql` as it was unused (all values were empty objects)
+- UNIQUE constraint on `(from_id, to_id)`
+- **Note**: The `type` column was removed in migration `20251117140439_simplify_schema_with_enums.sql` - all relationships now represent a single "contains" semantic. The `attributes` JSONB column was removed in migration `20251024195010_drop_relationships_attributes.sql` as it was unused.
 
 ### Design Patterns
 
@@ -285,22 +285,16 @@ The schema consists of four tables:
 - Optional ordering for assembly instructions or logical grouping
 - Legacy: Some older component data may exist as entities with `part_of` relationships
 
-**Relationship Types** (all use parent→child direction):
-- `contains`: Parent contains child (e.g., Collection → Card, Franchise → Game)
-  - Most common relationship type
-  - Makes querying intuitive: "show me what this collection contains"
-- `variant_of`: **DEPRECATED** - Use variants table instead
-  - Legacy: Some old variant data stored as entity relationships
-  - New variants: Use dedicated variants table
-- `part_of`: **DEPRECATED** - Use components table instead
-  - Legacy: Some old component data stored as entity relationships
-  - New components: Use dedicated components table
-- Custom types as needed for domain-specific relationships
+**Relationships Semantics**:
+- All relationships represent a "contains" relationship (parent→child direction)
+- Example: Collection → Card, Franchise → Game, Collection → Sub-Collection
+- Makes querying intuitive: "show me what this collection contains"
+- For variants and components, use the dedicated `variants` and `components` tables instead of relationships
 
 **Graph Traversal**:
-- Use `from_id + type` for forward traversal (what does this entity contain/relate to?)
-- Use `to_id + type` for reverse traversal (what contains/relates to this entity?)
-- Indexes optimized for both directions
+- Use `from_id` for forward traversal (what does this entity contain?)
+- Use `to_id` for reverse traversal (what contains this entity?)
+- Indexes `idx_relationships_from_id` and `idx_relationships_to_id` optimized for both directions
 
 ### PostgreSQL Extensions
 
@@ -312,6 +306,7 @@ The schema consists of four tables:
 
 **Entity lookups**:
 - `idx_entities_type`: Filter by entity type
+- `idx_entities_category`: Filter by category (partial index, only non-null values)
 - `idx_entities_name`: Exact name lookup
 - `idx_entities_name_trgm`: Fuzzy name search (GIN trigram)
 - `idx_entities_name_embedding`: Semantic search (HNSW with cosine distance)
@@ -321,8 +316,8 @@ The schema consists of four tables:
 - `idx_entities_search`: Full-text search on name
 
 **Relationship traversal**:
-- `idx_relationships_from_type`: Outbound relationships by type
-- `idx_relationships_to_type`: Inbound relationships by type
+- `idx_relationships_from_id`: Find all children of an entity (what it contains)
+- `idx_relationships_to_id`: Find all parents of an entity (what contains it)
 - `idx_relationships_order`: Sort by order (partial index, only non-null values)
 
 **Variant lookups**:
@@ -499,13 +494,12 @@ query {
   relationshipsCollection(
     filter: {
       from_id: {eq: "collection-uuid-here"}
-      type: {eq: "contains"}
     }
   ) {
     edges {
       node {
         to_id
-        attributes
+        order
         entities {  # Auto-joined by foreign key
           id
           name
@@ -699,7 +693,7 @@ claude
 
 ### Available Tools
 
-Once configured, you can use either environment with all 23 tools:
+Once configured, you can use either environment with all 24 tools:
 
 **Read Tools (6):**
 - `search_collectibles` - Semantic search for collectibles
@@ -710,7 +704,7 @@ Once configured, you can use either environment with all 23 tools:
 - `get_components` - Get entity components
 
 **Write Tools (12):**
-- `create_entity`, `update_entity`, `delete_entity` - Entity operations (**text embeddings auto-generated**)
+- `create_entity` (**category** parameter added), `update_entity`, `delete_entity` - Entity operations (**text embeddings auto-generated**)
 - `create_relationship`, `delete_relationship` - Relationship operations
 - `create_variant`, `update_variant` - Variant operations
 - `create_component` - Component operations
@@ -721,6 +715,9 @@ Once configured, you can use either environment with all 23 tools:
 **Curator Tools (5):**
 - `list_curators`, `get_curator_config` - Discovery
 - `run_curator_fetch`, `validate_curator_data`, `get_curator_stats` - Execution
+
+**Utility Tools (1):**
+- `list_categories` - Get all available category values (trading_card_games, figures, comics, video_games, buildables)
 
 All tools are available with both local and production environment prefixes:
 ```
@@ -1088,6 +1085,8 @@ Migrations are stored in `supabase/migrations/` and run automatically on `supaba
 19. `20251025164508_fix_search_by_text_image_column.sql`: Fix search functionality for images
 20. `20251104233648_add_thumbnail_url.sql`: Add thumbnail_url column for pre-generated thumbnails
 21. `20251105125958_add_vector_embedding.sql`: Add pgvector extension and name_embedding column for semantic search
+22. `20251117140439_simplify_schema_with_enums.sql`: **Convert entities.type to entity_type enum ('item', 'collection'), drop relationships.type column**
+23. `20251117153023_add_category_to_entities.sql`: **Add category_type enum and optional category column to entities (trading_card_games, figures, comics, video_games, buildables)**
 
 **To add new migrations**:
 ```bash
@@ -1179,32 +1178,19 @@ FROM semantic_search('[0.1, 0.2, ...]'::vector(384), NULL, 10);
 SELECT e.*
 FROM entities e
 JOIN relationships r ON r.to_id = e.id
-WHERE r.from_id = 'collection-uuid-here'
-  AND r.type = 'contains';
+WHERE r.from_id = 'collection-uuid-here';
 
 -- Get what contains an item (reverse: child → parent)
 SELECT e.*
 FROM entities e
 JOIN relationships r ON r.from_id = e.id
-WHERE r.to_id = 'item-uuid-here'
-  AND r.type = 'contains';
-
--- DEPRECATED: Old variant_of relationships (use variants table instead)
--- Get all variants of a base item (legacy relationship-based variants)
-SELECT e.*
-FROM entities e
-JOIN relationships r ON r.from_id = e.id
-WHERE r.to_id = 'base-item-uuid'
-  AND r.type = 'variant_of';
-
--- NOTE: New variants use the variants table, see examples below
+WHERE r.to_id = 'item-uuid-here';
 
 -- Relationship with order column
 SELECT e.*, r."order" as position
 FROM entities e
 JOIN relationships r ON r.to_id = e.id
 WHERE r.from_id = 'collection-uuid'
-  AND r.type = 'contains'
 ORDER BY r."order";
 
 -- Traverse full hierarchy (franchise → game → collection → card)
@@ -1221,7 +1207,6 @@ WITH RECURSIVE hierarchy AS (
   FROM entities e
   JOIN relationships r ON r.to_id = e.id
   JOIN hierarchy h ON r.from_id = h.id
-  WHERE r.type = 'contains'
 )
 SELECT * FROM hierarchy ORDER BY level, name;
 

@@ -35,6 +35,47 @@ if (!supabaseUrl || !supabaseKey) {
 
 export const supabase: SupabaseClient = createClient(supabaseUrl, supabaseKey);
 
+// Utility functions
+async function listCategories(): Promise<any> {
+  try {
+    const { data, error } = await supabase.rpc('get_categories');
+
+    if (error) {
+      return {
+        content: [{
+          type: "text",
+          text: JSON.stringify({
+            success: false,
+            error: error.message,
+            error_code: "DATABASE_ERROR"
+          }, null, 2)
+        }]
+      };
+    }
+
+    return {
+      content: [{
+        type: "text",
+        text: JSON.stringify({
+          success: true,
+          categories: data || []
+        }, null, 2)
+      }]
+    };
+  } catch (err: any) {
+    return {
+      content: [{
+        type: "text",
+        text: JSON.stringify({
+          success: false,
+          error: err.message,
+          error_code: "INTERNAL_ERROR"
+        }, null, 2)
+      }]
+    };
+  }
+}
+
 // Create MCP server
 const server = new Server(
   {
@@ -169,6 +210,7 @@ const TOOLS = [
       properties: {
         name: { type: "string", description: "Entity name (required)" },
         type: { type: "string", description: "Entity type like 'collection', 'card', 'figure' (required)" },
+        category: { type: "string", description: "Category: trading_card_games, figures, comics, video_games, or buildables (optional)" },
         year: { type: "number", description: "Year (optional)" },
         country: { type: "string", description: "ISO country code (optional)" },
         language: { type: "string", description: "ISO 639-1 language code (optional)" },
@@ -399,6 +441,15 @@ const TOOLS = [
       required: ["name"]
     }
   },
+  // Utility Tools
+  {
+    name: "list_categories",
+    description: "Get all available category values (trading_card_games, figures, comics, video_games, buildables).",
+    inputSchema: {
+      type: "object",
+      properties: {}
+    }
+  },
 ];
 
 // Register tool handlers
@@ -475,6 +526,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await validateCuratorData(args as any);
       case "get_curator_stats":
         return await getCuratorStats(args as any);
+
+      case "list_categories":
+        return await listCategories();
 
       default:
         throw new Error(`Unknown tool: ${name}`);

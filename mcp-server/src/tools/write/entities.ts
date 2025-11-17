@@ -4,6 +4,7 @@ import { generateTextEmbedding } from "../../utils/embeddings.js";
 interface CreateEntityArgs {
   name: string;
   type: string;
+  category?: string;
   year?: number;
   country?: string;
   language?: string;
@@ -22,7 +23,7 @@ interface EntityResponse {
 
 export async function createEntity(args: CreateEntityArgs): Promise<any> {
   try {
-    const { name, type, year, country, language, source_url, external_ids, attributes } = args;
+    const { name, type, category, year, country, language, source_url, external_ids, attributes } = args;
 
     // Validate required fields
     if (!name || !type) {
@@ -44,6 +45,7 @@ export async function createEntity(args: CreateEntityArgs): Promise<any> {
       .insert({
         name,
         type,
+        category,
         year,
         country,
         language,
