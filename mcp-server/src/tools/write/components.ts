@@ -5,14 +5,12 @@ interface CreateComponentArgs {
   name: string;
   quantity?: number;
   order?: number;
-  image_url?: string;
-  thumbnail_url?: string;
   attributes?: Record<string, any>;
 }
 
 export async function createComponent(args: CreateComponentArgs): Promise<any> {
   try {
-    const { component_of, name, quantity, order, image_url, thumbnail_url, attributes } = args;
+    const { component_of, name, quantity, order, attributes } = args;
 
     // Validate required fields
     if (!component_of || !name) {
@@ -64,6 +62,8 @@ export async function createComponent(args: CreateComponentArgs): Promise<any> {
     }
 
     // Create component
+    // Note: For images, use the create_image MCP tool after creating the component
+    // to add images to the images table and link via primary_image_id
     const { data, error } = await supabase
       .from("components")
       .insert({
@@ -71,8 +71,6 @@ export async function createComponent(args: CreateComponentArgs): Promise<any> {
         name,
         quantity: quantity || 1,
         order,
-        image_url,
-        thumbnail_url,
         attributes: attributes || {}
       })
       .select("id")

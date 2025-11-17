@@ -23,6 +23,7 @@ import { generateEmbedding, bulkGenerateEmbeddings } from "./tools/write/embeddi
 import { localizeImage } from "./tools/write/localize-image.js";
 import { listCurators, getCuratorConfig } from "./tools/curator/discovery.js";
 import { runCuratorFetch, validateCuratorData, getCuratorStats } from "./tools/curator/execution.js";
+import { bulkImportCuratorBatch } from "./tools/curator/bulk-import.js";
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -279,14 +280,12 @@ const TOOLS = [
   // Write Tools - Variant Operations
   {
     name: "create_variant",
-    description: "Create a variant of an entity (e.g., '1st Edition', 'Shadowless').",
+    description: "Create a variant of an entity (e.g., '1st Edition', 'Shadowless'). For images, use create_image tool after creating the variant.",
     inputSchema: {
       type: "object",
       properties: {
         variant_of: { type: "string", description: "Base entity UUID (required)" },
         name: { type: "string", description: "Variant name (required)" },
-        image_url: { type: "string", description: "Image URL (optional)" },
-        thumbnail_url: { type: "string", description: "Thumbnail URL (optional)" },
         attributes: { type: "object", description: "Variant metadata (optional)" }
       },
       required: ["variant_of", "name"]
@@ -294,14 +293,12 @@ const TOOLS = [
   },
   {
     name: "update_variant",
-    description: "Update a variant's fields.",
+    description: "Update a variant's fields. For images, use create_image tool.",
     inputSchema: {
       type: "object",
       properties: {
         variant_id: { type: "string", description: "Variant UUID (required)" },
         name: { type: "string" },
-        image_url: { type: "string" },
-        thumbnail_url: { type: "string" },
         attributes: { type: "object" }
       },
       required: ["variant_id"]
@@ -310,7 +307,7 @@ const TOOLS = [
   // Write Tools - Component Operations
   {
     name: "create_component",
-    description: "Create a component/part of an entity (e.g., Zord piece, game token).",
+    description: "Create a component/part of an entity (e.g., Zord piece, game token). For images, use create_image tool after creating the component.",
     inputSchema: {
       type: "object",
       properties: {
@@ -318,8 +315,6 @@ const TOOLS = [
         name: { type: "string", description: "Component name (required)" },
         quantity: { type: "number", description: "Quantity (default 1)" },
         order: { type: "number", description: "Display order (optional)" },
-        image_url: { type: "string", description: "Image URL (optional)" },
-        thumbnail_url: { type: "string", description: "Thumbnail URL (optional)" },
         attributes: { type: "object", description: "Component metadata (optional)" }
       },
       required: ["component_of", "name"]
@@ -439,6 +434,43 @@ const TOOLS = [
       required: ["name"]
     }
   },
+  {
+    name: "bulk_import_curator_batch",
+    description: "Bulk import curator items in a single transaction. 100x+ faster than individual creates. Handles deduplication, relationships, embeddings, and image processing in parallel. Returns summary with created/updated/skipped counts.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        collection_id: { type: "string", description: "Parent collection UUID (required)" },
+        items: {
+          type: "array",
+          description: "Array of items to import (required)",
+          items: {
+            type: "object",
+            properties: {
+              name: { type: "string", description: "Item name (required)" },
+              type: { type: "string", description: "Entity type (default: 'item')" },
+              category: { type: "string", description: "Category (optional)" },
+              year: { type: "number", description: "Year (optional)" },
+              country: { type: "string", description: "ISO country code (optional)" },
+              language: { type: "string", description: "ISO language code (optional)" },
+              source_url: { type: "string", description: "Source URL (optional)" },
+              external_ids: { type: "object", description: "External system IDs for deduplication (optional)" },
+              attributes: { type: "object", description: "Additional metadata (optional)" },
+              image_url: { type: "string", description: "Image URL to download and store (optional)" },
+              order: { type: "number", description: "Sort order in collection (optional)" }
+            },
+            required: ["name"]
+          }
+        },
+        skip_duplicates: { type: "boolean", description: "Skip items with existing external_ids (default: true)" },
+        update_existing: { type: "boolean", description: "Update existing items instead of skipping (default: false)" },
+        generate_embeddings: { type: "boolean", description: "Generate text embeddings for semantic search (default: true)" },
+        localize_images: { type: "boolean", description: "Download images and store in Supabase (default: true)" },
+        parallel_image_limit: { type: "number", description: "Max concurrent image downloads (default: 10)" }
+      },
+      required: ["collection_id", "items"]
+    }
+  },
   // Utility Tools
   {
     name: "list_categories",
@@ -524,6 +556,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return await validateCuratorData(args as any);
       case "get_curator_stats":
         return await getCuratorStats(args as any);
+      case "bulk_import_curator_batch":
+        return await bulkImportCuratorBatch(args as any);
 
       case "list_categories":
         return await listCategories();

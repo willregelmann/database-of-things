@@ -3,14 +3,12 @@ import { supabase } from "../../index.js";
 interface CreateVariantArgs {
   variant_of: string;
   name: string;
-  image_url?: string;
-  thumbnail_url?: string;
   attributes?: Record<string, any>;
 }
 
 export async function createVariant(args: CreateVariantArgs): Promise<any> {
   try {
-    const { variant_of, name, image_url, thumbnail_url, attributes } = args;
+    const { variant_of, name, attributes } = args;
 
     // Validate required fields
     if (!variant_of || !name) {
@@ -62,13 +60,13 @@ export async function createVariant(args: CreateVariantArgs): Promise<any> {
     }
 
     // Create variant
+    // Note: For images, use the create_image MCP tool after creating the variant
+    // to add images to the images table and link via primary_image_id
     const { data, error } = await supabase
       .from("variants")
       .insert({
         variant_of,
         name,
-        image_url,
-        thumbnail_url,
         attributes: attributes || {}
       })
       .select("id")
