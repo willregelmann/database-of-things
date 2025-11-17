@@ -1,5 +1,27 @@
 # Power Rangers Toys Curator
 
+> **⚠️ COMPLIANCE WARNING**
+>
+> **Data Source:** GrnRngr.com (fan-run website)
+>
+> **Status:** ⚠️ Requires explicit permission
+>
+> **Issue:** No formal ToS or API. Website states it's "provided as a resource to all" but doesn't explicitly grant permission for automated scraping. Images are acknowledged to belong to respective copyright holders (Bandai America, Hasbro, etc.).
+>
+> **Current Approach:**
+> - Using metadata only (item numbers, names, dates, manufacturers)
+> - **NOT copying images** from GrnRngr directly
+> - Need to source official product images from manufacturers or retailers
+>
+> **Required Actions:**
+> - [ ] Contact GrnRngr webmaster (John Green) for explicit permission
+> - [ ] Source images from official channels (Hasbro, Bandai America, retailers)
+> - [ ] Document permission received before continuing imports
+>
+> See [compliance analysis document] for full details.
+
+---
+
 Autonomous data import system for Power Rangers toy collectibles from grnrngr.com.
 
 ## Overview
