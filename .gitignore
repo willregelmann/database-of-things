@@ -79,3 +79,5 @@ curator/.env.*
 docs/plans/
 
 .mcp.json
+
+*.env
