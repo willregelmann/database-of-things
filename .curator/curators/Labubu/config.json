@@ -1,63 +1,22 @@
 {
-  "name": "Labubu",
-  "version": "1.0.0",
-  "description": "Curator for Pop Mart Labubu figures from THE MONSTERS series",
-  "data_source": {
-    "type": "web_scraping",
-    "base_url": "https://www.popmartworld.com",
-    "endpoints": {
-      "brand_page": "/brand/the-monsters",
-      "series_list": "/collection",
-      "series_detail": "/collection/{series_slug}"
-    },
-    "rate_limit": {
-      "requests_per_second": 2,
-      "delay_between_requests_ms": 500
-    }
-  },
-  "entity_types": {
-    "series": {
-      "type": "collection",
-      "required_fields": ["name", "year", "source_url"],
-      "optional_fields": ["image_url", "thumbnail_url"]
-    },
-    "figure": {
-      "type": "figure",
-      "required_fields": ["name", "series", "character"],
-      "optional_fields": ["size", "is_secret", "year"]
-    }
+  "curator_version": "2.0",
+  "collection_name": "Labubu",
+  "data_source": "https://www.popmartworld.com",
+  "fetch": {
+    "script": "scripts/fetch_data.py",
+    "requires_api_key": false,
+    "rate_limit_seconds": 0.5,
+    "supports_filters": []
   },
   "deduplication": {
-    "strategy": "external_id_with_semantic_fallback",
-    "external_id_field": "popmartworld_slug",
-    "semantic_search_threshold": 0.95,
-    "semantic_search_format": "{series} - {figure_name}"
+    "strategy": "external_id",
+    "field": "popmartworld_slug",
+    "fallback": "semantic",
+    "semantic_threshold": 0.95
   },
-  "image_processing": {
-    "localize": true,
-    "generate_thumbnails": true,
-    "thumbnail_size": 300,
-    "thumbnail_format": "webp",
-    "thumbnail_quality": 85
-  },
-  "embeddings": {
-    "enabled": true,
-    "model": "sentence-transformers/all-MiniLM-L6-v2",
-    "dimensions": 384,
-    "field": "name_embedding"
-  },
-  "relationships": {
-    "series_to_figures": {
-      "type": "contains",
-      "from": "series",
-      "to": "figure",
-      "many_to_many": true
-    }
-  },
-  "metadata": {
-    "created": "2025-11-14",
-    "author": "Claude Code",
-    "scope": "Official Pop Mart THE MONSTERS series",
-    "license": "Data sourced from PopMart World (fan archive)"
+  "entity_mapping": {
+    "type": "item",
+    "category": "figures",
+    "attributes": ["character", "series", "size", "is_secret", "year"]
   }
 }

@@ -31,7 +31,8 @@
   },
   "entity_mapping": {
     "parent_type": "collection",
-    "child_type": "lego_set",
+    "child_type": "item",
+    "child_category": "buildables",
     "attributes": ["pieces"]
   }
 }

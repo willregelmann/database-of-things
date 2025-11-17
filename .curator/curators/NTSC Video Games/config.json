@@ -19,7 +19,8 @@
   },
   "entity_mapping": {
     "parent_type": "collection",
-    "child_type": "video_game",
+    "child_type": "item",
+    "child_category": "video_games",
     "attributes": ["publisher", "developer"]
   }
 }

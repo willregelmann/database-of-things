@@ -15,7 +15,8 @@
     "semantic_threshold": 0.95
   },
   "entity_mapping": {
-    "type": "card",
+    "type": "item",
+    "category": "trading_card_games",
     "attributes": ["rarity", "artist"]
   }
 }

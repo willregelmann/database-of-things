@@ -37,7 +37,8 @@
     "semantic_threshold": 0.95
   },
   "entity_mapping": {
-    "type": "comic",
+    "type": "item",
+    "category": "comics",
     "attributes": ["series_name", "series_id", "issue_number", "publisher", "writers", "artists"]
   }
 }

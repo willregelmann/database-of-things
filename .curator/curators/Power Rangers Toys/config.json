@@ -19,7 +19,8 @@
   },
   "entity_mapping": {
     "parent_type": "collection",
-    "child_type": "action_figure",
+    "child_type": "item",
+    "child_category": "figures",
     "attributes": ["manufacturer"]
   }
 }
