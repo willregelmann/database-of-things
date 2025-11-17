@@ -2,11 +2,21 @@
 """
 Fetch comic book data from Metron API.
 
-Phase C: Curated series import (hardcoded list)
-Phase A: Single publisher import (--publisher flag)
-Phase B: All publishers import (--all-publishers flag)
+Usage:
+  # Fetch specific series by name
+  python3 fetch_data.py --series "Monstress" --series "Saga"
+
+  # Fetch all series from a publisher
+  python3 fetch_data.py --publisher "Image"
+
+  # Limit number of issues (for testing)
+  python3 fetch_data.py --series "Monstress" --limit 10
+
+  # Default: Fetch sample series for testing
+  python3 fetch_data.py
 """
 
+import argparse
 import json
 import os
 import sys
@@ -26,49 +36,35 @@ except ImportError:
     ])
     import mokkari
 
-# Target series for Phase C (curated import)
-# Starting with just Monstress for testing (full series will be added after testing)
-TARGET_SERIES = [
-    {"name": "Monstress", "publisher": "Image", "year": 2015},
-]
-
-# Full Phase C list (uncomment after testing):
-# TARGET_SERIES = [
-#     # User's personal collection
-#     {"name": "DOOMWAR", "publisher": "Marvel", "year": 2010},
-#     {"name": "Loki: Agent of Asgard", "publisher": "Marvel", "year": 2014},
-#     {"name": "Monstress", "publisher": "Image", "year": 2015},
-#
-#     # Popular modern series
-#     {"name": "Saga", "publisher": "Image", "year": 2012},
-#     {"name": "The Walking Dead", "publisher": "Image", "year": 2003},
-#     {"name": "Invincible", "publisher": "Image", "year": 2003},
-#     {"name": "Ms. Marvel", "publisher": "Marvel", "year": 2014},
-#     {"name": "Hawkeye", "publisher": "Marvel", "year": 2012},
-#     {"name": "Batman", "publisher": "DC", "year": 2011},
-#     {"name": "Descender", "publisher": "Image", "year": 2015},
-# ]
-
 OUTPUT_FILE = "fetched_data.json"
 
 
 class MetronFetcher:
     """Fetch comics data from Metron API using Mokkari."""
 
-    def __init__(self, username: str, password: str):
+    def __init__(self, username: str, password: str, limit: Optional[int] = None):
         self.api = mokkari.api(username=username, passwd=password)
         self.request_count = 0
+        self.limit = limit
+        self.total_issues_fetched = 0
 
-    def fetch_curated_series(self) -> List[Dict]:
-        """Fetch hardcoded list of target series (Phase C)."""
+    def fetch_series_list(self, series_configs: List[Dict]) -> List[Dict]:
+        """Fetch specific series by name/publisher/year.
+
+        Returns graph structure: parent entities (series) + child entities (issues).
+        """
         print(f"\n{'=' * 60}")
-        print("Phase C: Fetching Curated Series")
+        print(f"Fetching {len(series_configs)} Series")
         print(f"{'=' * 60}\n")
 
-        all_comics = []
+        all_entities = []
 
-        for i, series_config in enumerate(TARGET_SERIES, 1):
-            print(f"\n[{i}/{len(TARGET_SERIES)}] {series_config['name']}")
+        for i, series_config in enumerate(series_configs, 1):
+            if self.limit and self.total_issues_fetched >= self.limit:
+                print(f"\n⚠️  Reached limit of {self.limit} issues")
+                break
+
+            print(f"\n[{i}/{len(series_configs)}] {series_config['name']}")
             print("-" * 60)
 
             # Search for series
@@ -82,13 +78,101 @@ class MetronFetcher:
                 print(f"  ⚠️  Series not found in Metron")
                 continue
 
-            # Fetch all issues for this series
+            # Create parent entity (series/collection)
+            parent_entity = self._create_series_entity(series)
+            all_entities.append(parent_entity)
+
+            # Fetch all issues for this series (they reference the parent)
             issues = self._fetch_series_issues(series)
-            all_comics.extend(issues)
+            all_entities.extend(issues)
 
-            print(f"  ✓ Fetched {len(issues)} issues")
+            print(f"  ✓ Fetched 1 series + {len(issues)} issues")
 
-        return all_comics
+        return all_entities
+
+    def fetch_by_publisher(self, publisher_name: str) -> List[Dict]:
+        """Fetch all series from a specific publisher.
+
+        Returns graph structure: parent entities (series) + child entities (issues).
+        """
+        print(f"\n{'=' * 60}")
+        print(f"Fetching All Series from Publisher: {publisher_name}")
+        print(f"{'=' * 60}\n")
+
+        all_entities = []
+
+        try:
+            # Search for publisher
+            self.request_count += 1
+            publishers = self.api.publisher_list(params={"name": publisher_name})
+
+            if not publishers:
+                print(f"  ⚠️  Publisher '{publisher_name}' not found")
+                return []
+
+            publisher = publishers[0]
+            print(f"Found publisher: {publisher.name} (ID: {publisher.id})")
+
+            # Get all series for this publisher
+            self.request_count += 1
+            series_list = self.api.series_list(params={"publisher_id": publisher.id})
+
+            print(f"Found {len(series_list)} series from {publisher.name}\n")
+
+            # Fetch issues for each series
+            for i, base_series in enumerate(series_list, 1):
+                if self.limit and self.total_issues_fetched >= self.limit:
+                    print(f"\n⚠️  Reached limit of {self.limit} issues")
+                    break
+
+                print(f"[{i}/{len(series_list)}] {base_series.display_name}")
+                print("-" * 60)
+
+                # Get full series details
+                self.request_count += 1
+                series = self.api.series(base_series.id)
+
+                # Create parent entity
+                parent_entity = self._create_series_entity(series)
+                all_entities.append(parent_entity)
+
+                # Fetch issues
+                issues = self._fetch_series_issues(series)
+                all_entities.extend(issues)
+
+                print(f"  ✓ Fetched 1 series + {len(issues)} issues")
+
+        except Exception as e:
+            print(f"  ⚠️  Error fetching publisher series: {e}")
+
+        return all_entities
+
+    def _create_series_entity(self, series) -> Dict:
+        """Create parent entity for a series/collection."""
+        # Get series name
+        series_name = getattr(series, 'name', getattr(series, 'display_name', 'Unknown Series'))
+
+        # Get year
+        year = None
+        if hasattr(series, 'year_began'):
+            year = series.year_began
+
+        # Get publisher name
+        publisher = ''
+        if hasattr(series, 'publisher') and hasattr(series.publisher, 'name'):
+            publisher = series.publisher.name
+
+        return {
+            "name": series_name,
+            "type": "collection",
+            "year": year,
+            "external_ids": {
+                "metron_series_id": str(series.id)
+            },
+            "attributes": {
+                "publisher": publisher
+            }
+        }
 
     def _find_series(self, name: str, publisher: Optional[str] = None, year: Optional[int] = None):
         """Find a series in Metron by name, publisher, and year."""
@@ -150,6 +234,10 @@ class MetronFetcher:
             issue_list = self.api.issues_list(params=params)
 
             for base_issue in issue_list:
+                # Check limit
+                if self.limit and self.total_issues_fetched >= self.limit:
+                    break
+
                 # Fetch full issue details to get credits
                 self.request_count += 1
                 full_issue = self.api.issue(base_issue.id)
@@ -157,6 +245,7 @@ class MetronFetcher:
                 comic_data = self._parse_issue(full_issue, series)
                 if comic_data:
                     issues.append(comic_data)
+                    self.total_issues_fetched += 1
 
             return issues
 
@@ -165,7 +254,7 @@ class MetronFetcher:
             return []
 
     def _parse_issue(self, issue, series) -> Optional[Dict]:
-        """Parse issue data from Metron API."""
+        """Parse issue data from Metron API (v2 format)."""
         try:
             # Extract issue number
             number = getattr(issue, 'number', '')
@@ -212,18 +301,32 @@ class MetronFetcher:
             if hasattr(series, 'publisher') and hasattr(series.publisher, 'name'):
                 publisher = series.publisher.name
 
+            # Return v2 format (graph structure)
             return {
-                "id": issue.id,
                 "name": name,
-                "series_name": series_name,
-                "series_id": series.id,
-                "issue_number": number,
+                "type": "comic",
                 "year": year,
-                "publisher": publisher,
-                "writers": writers,
-                "artists": artists,
+                "external_ids": {
+                    "metron_id": str(issue.id)
+                },
                 "image_url": image_url,
-                "source_url": source_url
+                "source_url": source_url,
+                "parent": {
+                    "type": "collection",
+                    "external_ids": {
+                        "metron_series_id": str(series.id)
+                    }
+                },
+                "relationship": {
+                    "type": "contains",
+                    "order": int(number) if number.isdigit() else None
+                },
+                "attributes": {
+                    "issue_number": number,
+                    "publisher": publisher,
+                    "writers": writers,
+                    "artists": artists
+                }
             }
 
         except Exception as e:
@@ -232,6 +335,42 @@ class MetronFetcher:
 
 
 def main():
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(
+        description="Fetch comic book data from Metron API",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Fetch specific series
+  python3 fetch_data.py --series "Monstress" --series "Saga"
+
+  # Fetch all series from a publisher
+  python3 fetch_data.py --publisher "Image Comics"
+
+  # Limit number of issues (for testing)
+  python3 fetch_data.py --series "Monstress" --limit 10
+
+  # Default: Fetch sample series for testing
+  python3 fetch_data.py
+        """
+    )
+    parser.add_argument(
+        "--series",
+        action="append",
+        help="Series name to fetch (can be specified multiple times)"
+    )
+    parser.add_argument(
+        "--publisher",
+        help="Fetch all series from this publisher"
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        help="Limit total number of issues to fetch (for testing)"
+    )
+
+    args = parser.parse_args()
+
     print("=" * 60)
     print("American Comics - Metron API Fetcher")
     print("=" * 60)
@@ -246,33 +385,73 @@ def main():
         print("Get credentials from: https://metron.cloud/")
         sys.exit(1)
 
-    fetcher = MetronFetcher(username, password)
+    fetcher = MetronFetcher(username, password, limit=args.limit)
 
-    # Phase C: Fetch curated series
-    comics = fetcher.fetch_curated_series()
+    # Determine what to fetch
+    entities = []
+    filters_applied = {}
+
+    if args.publisher:
+        # Fetch by publisher
+        entities = fetcher.fetch_by_publisher(args.publisher)
+        filters_applied["publisher"] = args.publisher
+    elif args.series:
+        # Fetch specific series
+        series_configs = [{"name": name} for name in args.series]
+        entities = fetcher.fetch_series_list(series_configs)
+        filters_applied["series"] = args.series
+    else:
+        print("Error: Either --series or --publisher is required")
+        print("\nExamples:")
+        print("  python3 fetch_data.py --series 'Monstress' --series 'Saga'")
+        print("  python3 fetch_data.py --publisher 'Image Comics'")
+        print("  python3 fetch_data.py --series 'Monstress' --limit 10")
+        sys.exit(1)
+
+    if args.limit:
+        filters_applied["limit"] = args.limit
+
+    # Wrap in v2 format with metadata
+    from datetime import datetime, timezone
+    output_data = {
+        "format_version": "1.0",
+        "metadata": {
+            "curator": "American Comics",
+            "source": "https://metron.cloud",
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "total_items": len(entities),
+            "filters_applied": filters_applied
+        },
+        "items": entities
+    }
 
     # Save to file
     output_path = Path(__file__).parent.parent / OUTPUT_FILE
     with open(output_path, "w") as f:
-        json.dump(comics, f, indent=2)
+        json.dump(output_data, f, indent=2)
 
     print()
     print("=" * 60)
-    print(f"✓ Fetched {len(comics)} comics → {output_path}")
+    print(f"✓ Fetched {len(entities)} entities → {output_path}")
     print(f"  Total API requests: {fetcher.request_count}")
     print("=" * 60)
 
     # Data quality report
-    if comics:
-        with_images = sum(1 for c in comics if c.get("image_url"))
-        with_years = sum(1 for c in comics if c.get("year"))
-        with_writers = sum(1 for c in comics if c.get("writers"))
+    if entities:
+        # Count different entity types
+        collections = sum(1 for e in entities if e.get("type") == "collection")
+        comics = sum(1 for e in entities if e.get("type") == "comic")
+
+        # Count quality metrics (only for comics)
+        with_images = sum(1 for e in entities if e.get("type") == "comic" and e.get("image_url"))
+        with_years = sum(1 for e in entities if e.get("year"))
+        with_writers = sum(1 for e in entities if e.get("type") == "comic" and e.get("attributes", {}).get("writers"))
 
         print(f"\nData quality:")
-        print(f"  Total comics: {len(comics)}")
-        print(f"  With images: {with_images}/{len(comics)} ({with_images/len(comics)*100:.1f}%)")
-        print(f"  With years: {with_years}/{len(comics)} ({with_years/len(comics)*100:.1f}%)")
-        print(f"  With writers: {with_writers}/{len(comics)} ({with_writers/len(comics)*100:.1f}%)")
+        print(f"  Total entities: {len(entities)} ({collections} collections, {comics} comics)")
+        print(f"  Comics with images: {with_images}/{comics} ({with_images/comics*100:.1f}%)" if comics > 0 else "")
+        print(f"  Entities with years: {with_years}/{len(entities)} ({with_years/len(entities)*100:.1f}%)")
+        print(f"  Comics with writers: {with_writers}/{comics} ({with_writers/comics*100:.1f}%)" if comics > 0 else "")
 
 
 if __name__ == "__main__":

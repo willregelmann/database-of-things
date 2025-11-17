@@ -1,0 +1,43 @@
+{
+  "curator_version": "2.0",
+  "collection_name": "American Comics",
+  "data_source": "https://metron.cloud",
+  "fetch": {
+    "script": "scripts/fetch_data.py",
+    "requires_api_key": true,
+    "rate_limit_seconds": 0,
+    "supports_filters": [
+      {
+        "name": "series",
+        "type": "string",
+        "repeatable": true,
+        "description": "Series name to fetch (can be specified multiple times)",
+        "example": "--series \"Monstress\" --series \"Saga\""
+      },
+      {
+        "name": "publisher",
+        "type": "string",
+        "repeatable": false,
+        "description": "Fetch all series from this publisher",
+        "example": "--publisher \"Image Comics\""
+      },
+      {
+        "name": "limit",
+        "type": "integer",
+        "repeatable": false,
+        "description": "Limit total number of issues to fetch (for testing)",
+        "example": "--limit 100"
+      }
+    ]
+  },
+  "deduplication": {
+    "strategy": "external_id",
+    "field": "metron_id",
+    "fallback": "semantic",
+    "semantic_threshold": 0.95
+  },
+  "entity_mapping": {
+    "type": "comic",
+    "attributes": ["series_name", "series_id", "issue_number", "publisher", "writers", "artists"]
+  }
+}
