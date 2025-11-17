@@ -59,18 +59,18 @@ Edit `secrets.local.env`:
 COLLECTION_ID=your_local_collection_uuid
 ```
 
-### 3. Test Fetch
+### 3. Test Fetch via MCP
 
-```bash
-cd ".curator/curators/Pokemon TCG"
-source secrets.env
-python3 scripts/fetch_data.py --limit 10
+Use Claude with MCP tools to test the fetch:
+
+```
+/curator:run "Pokemon TCG" --limit 10
 ```
 
-### 4. Run Import via Claude
-
-```bash
-/curator:run "Pokemon TCG"
+Or via MCP tools directly in Claude Code:
+```
+mcp__database-of-things-local__run_curator_fetch(name="Pokemon TCG", options={"limit": 10})
+mcp__database-of-things-local__validate_curator_data(name="Pokemon TCG")
 ```
 
 ## How It Works
@@ -185,20 +185,35 @@ Alternative version of a card:
 }
 ```
 
-## Filter Options
+## Usage Examples
+
+**Via Claude (recommended):**
 
 ```bash
 # Test with 10 cards
-python3 scripts/fetch_data.py --limit 10
+/curator:run "Pokemon TCG" --limit 10
 
 # Fetch specific set
-python3 scripts/fetch_data.py --set "Base Set"
+/curator:run "Pokemon TCG" --set "Base Set"
 
 # Fetch entire series
-python3 scripts/fetch_data.py --series "Scarlet & Violet"
+/curator:run "Pokemon TCG" --series "Scarlet & Violet"
 
 # Full import (all cards, all sets, all series)
-python3 scripts/fetch_data.py
+/curator:run "Pokemon TCG"
+```
+
+**Via MCP tools (in Claude Code):**
+
+```
+# Test fetch only (no import)
+mcp__database-of-things-local__run_curator_fetch(
+  name="Pokemon TCG",
+  options={"limit": 10, "series": "Base"}
+)
+
+# Validate fetched data
+mcp__database-of-things-local__validate_curator_data(name="Pokemon TCG")
 ```
 
 ## Troubleshooting
