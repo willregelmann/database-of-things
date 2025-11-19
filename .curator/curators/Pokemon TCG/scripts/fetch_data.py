@@ -189,8 +189,14 @@ def normalize_card(card_data: dict, set_data: dict = None) -> dict:
         if match:
             external_ids["cardmarket_id"] = match.group(1)
 
+    # Build name with card number if available
+    card_name = card_data.get("name")
+    card_number = card_data.get("number")
+    if card_number:
+        card_name = f"{card_name} {card_number}"
+
     entity = {
-        "name": card_data.get("name"),
+        "name": card_name,
         "type": "card",
         "year": year,
         "external_ids": external_ids,
@@ -206,8 +212,10 @@ def normalize_card(card_data: dict, set_data: dict = None) -> dict:
             "order": int(card_data.get("number", "0").split("/")[0]) if card_data.get("number") else None
         },
         "attributes": {
-            "rarity": card_data.get("rarity"),
-            "artist": card_data.get("artist")
+            k: v for k, v in {
+                "rarity": card_data.get("rarity"),
+                "artist": card_data.get("artist")
+            }.items() if v is not None
         }
     }
 
