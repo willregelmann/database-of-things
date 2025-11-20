@@ -21,6 +21,16 @@
 --   }
 -- ================================================================
 
+-- Enable pgvector extension (required for vector type)
+CREATE EXTENSION IF NOT EXISTS vector WITH SCHEMA extensions;
+
+-- Add name_embedding column to entities (required for semantic search)
+ALTER TABLE entities ADD COLUMN IF NOT EXISTS name_embedding vector(384);
+
+-- Create HNSW index for fast similarity search
+CREATE INDEX IF NOT EXISTS idx_entities_name_embedding
+ON entities USING hnsw (name_embedding vector_cosine_ops);
+
 -- Create the semantic search function
 CREATE OR REPLACE FUNCTION semantic_search(
     query_embedding vector(384),

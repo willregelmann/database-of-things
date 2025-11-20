@@ -24,7 +24,7 @@ UPDATE entities
 SET image_url = get_image_url(image_key);
 
 -- Add index on image_url for faster queries
-CREATE INDEX idx_entities_image_url ON entities(image_url) WHERE image_url IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_entities_image_url ON entities(image_url) WHERE image_url IS NOT NULL;
 
 -- Add comment
 COMMENT ON COLUMN entities.image_url IS 'Computed full URL for images. Automatically updated when image_key changes. External URLs returned as-is, storage paths converted to Supabase Storage URLs.';

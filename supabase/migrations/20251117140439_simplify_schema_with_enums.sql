@@ -16,6 +16,11 @@ UPDATE entities SET type_new = CASE
   ELSE 'item'::entity_type
 END;
 
+-- Drop dependent objects first
+DROP VIEW IF EXISTS entities_missing_embeddings CASCADE;
+DROP TRIGGER IF EXISTS trigger_validate_card_attributes ON entities;
+DROP FUNCTION IF EXISTS validate_card_attributes() CASCADE;
+
 -- Drop the old TEXT column
 ALTER TABLE entities DROP COLUMN type;
 

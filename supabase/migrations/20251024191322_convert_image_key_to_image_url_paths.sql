@@ -39,7 +39,7 @@ DROP INDEX IF EXISTS idx_entities_image_key;
 ALTER TABLE entities DROP COLUMN image_key;
 
 -- Create index on image_url (partial index, only for non-null values)
-CREATE INDEX idx_entities_image_url ON entities(image_url) WHERE image_url IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_entities_image_url ON entities(image_url) WHERE image_url IS NOT NULL;
 
 -- Drop the get_image_url() function (no longer needed - store full paths)
 DROP FUNCTION IF EXISTS get_image_url(TEXT, INT, INT);
