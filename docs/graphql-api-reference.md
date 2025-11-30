@@ -744,17 +744,23 @@ query {
 semantic_search(
   query_embedding vector(384),
   entity_type_filter text DEFAULT NULL,
+  category_filter text DEFAULT NULL,
   result_limit integer DEFAULT 20
 )
 RETURNS TABLE (
   id uuid,
   name text,
   type text,
+  category text,
   year integer,
   country char(2),
   language char(2),
+  source_url text,
+  external_ids jsonb,
   attributes jsonb,
-  similarity float
+  similarity float,
+  image_url text,
+  thumbnail_url text
 )
 ```
 
@@ -764,51 +770,61 @@ query {
   semantic_search(
     args: {
       query_embedding: "[0.123, 0.456, ...]"
-      entity_type_filter: "card"
+      entity_type_filter: "item"
+      category_filter: "trading_card_games"
       result_limit: 20
     }
   ) {
     id
     name
     type
+    category
     similarity
+    image_url
+    thumbnail_url
   }
 }
 ```
 
 **Parameters:**
 - `query_embedding` (vector(384), required): 384-dimensional vector from sentence-transformers model (e.g., all-MiniLM-L6-v2)
-- `entity_type_filter` (text, optional): Filter results by entity type
+- `entity_type_filter` (text, optional): Filter by entity type ('item' or 'collection')
+- `category_filter` (text, optional): Filter by category ('trading_card_games', 'figures', 'comics', 'video_games', 'buildables')
 - `result_limit` (integer, optional): Maximum results (default 20)
 
 **Returns:**
 - Only entities with non-null `name_embedding`
 - Ranked by cosine similarity (1 - distance)
 - Similarity score 0-1 (higher = more similar)
+- Includes image URLs from the images table
 
-**Example with all fields:**
+**Example with category filter:**
 ```graphql
 query {
   semantic_search(
     args: {
       query_embedding: "[0.1, 0.2, 0.3, ...]"
-      entity_type_filter: "card"
+      entity_type_filter: "item"
+      category_filter: "trading_card_games"
       result_limit: 10
     }
   ) {
     id
     name
     type
+    category
     year
     country
     language
     attributes
     similarity
+    image_url
+    thumbnail_url
   }
 }
 ```
 
-**Without type filter:**
+**Without filters:**
 ```graphql
 query {
   semantic_search(
@@ -820,6 +836,7 @@ query {
     id
     name
     type
+    category
     similarity
   }
 }
@@ -832,13 +849,23 @@ query {
 search_by_text(
   query_text text,
   entity_type_filter text DEFAULT NULL,
+  category_filter text DEFAULT NULL,
   result_limit integer DEFAULT 20
 )
 RETURNS TABLE (
   id uuid,
   name text,
   type text,
-  similarity float
+  category text,
+  year integer,
+  country char(2),
+  language char(2),
+  source_url text,
+  external_ids jsonb,
+  attributes jsonb,
+  similarity float,
+  image_url text,
+  thumbnail_url text
 )
 ```
 
@@ -848,28 +875,33 @@ query {
   search_by_text(
     args: {
       query_text: "fire dragon pokemon"
-      entity_type_filter: "card"
+      entity_type_filter: "item"
+      category_filter: "trading_card_games"
       result_limit: 20
     }
   ) {
     id
     name
     type
+    category
     similarity
+    image_url
+    thumbnail_url
   }
 }
 ```
 
 **Parameters:**
 - `query_text` (text, required): Plain text search query
-- `entity_type_filter` (text, optional): Filter results by entity type
+- `entity_type_filter` (text, optional): Filter by entity type ('item' or 'collection')
+- `category_filter` (text, optional): Filter by category ('trading_card_games', 'figures', 'comics', 'video_games', 'buildables')
 - `result_limit` (integer, optional): Maximum results (default 20)
 
 **Limitations:**
 - Uses trigram matching to find similar entity name first
 - Then uses that entity's embedding for semantic search
 - Fails for synonyms/variations ("and" vs "&")
-- **Recommendation:** Use CLI tool `./scripts/semantic-search` instead for proper semantic search
+- **Recommendation:** Use MCP tool `search_collectibles` for proper semantic search with synonym handling
 
 ### image_search
 
@@ -1395,11 +1427,11 @@ query { imagesCollection { edges { node { id image_url thumbnail_url } } } }
 ### Search Queries
 
 ```graphql
-# Semantic search
-query { semantic_search(args: {query_embedding: "[...]", entity_type_filter: "card", result_limit: 20}) { id name similarity } }
+# Semantic search with category filter
+query { semantic_search(args: {query_embedding: "[...]", entity_type_filter: "item", category_filter: "trading_card_games", result_limit: 20}) { id name category similarity } }
 
-# Text search (limited, use CLI instead)
-query { search_by_text(args: {query_text: "fire dragon", entity_type_filter: "card", result_limit: 20}) { id name similarity } }
+# Text search (limited, use MCP search_collectibles instead)
+query { search_by_text(args: {query_text: "fire dragon", entity_type_filter: "item", category_filter: "trading_card_games", result_limit: 20}) { id name category similarity } }
 
 # Image search
 query { image_search(args: {query_embedding: "[...]", result_limit: 20}) { image_id image_url similarity parent_type parent_name } }

@@ -134,7 +134,6 @@ Complete technical specifications for the v2 curator system.
 | `items[].relationship.type` | string | If relationship | Relationship type (e.g., "contains") |
 | `items[].relationship.order` | integer | No | Sort order in relationship |
 | `items[].attributes` | object | No | Custom metadata |
-| `items[].dedup_hint` | object | No | **RARELY USED** - Override curator-level dedup strategy |
 
 **Graph Structure**:
 
@@ -157,39 +156,25 @@ The `items` array contains BOTH parent and child entities in a graph structure:
 - ✅ New parent entities (first import)
 - ✅ Existing parent entities (subsequent imports)
 
-**Deduplication Strategy**:
+**Deduplication**:
 
-⚠️ **IMPORTANT**: Deduplication strategy is defined at the **curator level** in `config.json`, NOT on individual items.
+Deduplication is handled automatically by `bulk_import_curator_batch` using `external_ids`:
 
-**DO NOT include `dedup_hint` on items** unless that specific item needs a DIFFERENT strategy than the curator default. This is rare.
+1. Items with matching `external_ids` are detected as duplicates
+2. `skip_duplicates=true` (default): Existing items are skipped
+3. `update_existing=true`: Existing items are updated instead
 
-**Curator-level (config.json)** - Use this:
+**No per-item dedup configuration needed** - just include `external_ids` on items:
+
 ```json
 {
-  "deduplication": {
-    "strategy": "external_id",
-    "field": "pokemontcg_io",
-    "fallback": "semantic",
-    "semantic_threshold": 0.95
-  }
+  "name": "Charizard",
+  "external_ids": {"pokemontcg_io": "base1-4"},
+  "type": "item"
 }
 ```
 
-**Per-item override** - Only use if this specific item is different:
-```json
-{
-  "name": "Special Card",
-  "external_id": "123",
-  "dedup_hint": {
-    "strategy": "semantic",
-    "semantic_threshold": 0.90
-  }
-}
-```
-
-- `strategy`: "external_id" or "semantic"
-- `field`: External ID field name (for external_ids JSONB column)
-- `fallback`: "semantic" to fall back if external ID not found
+Re-running an import is always safe - duplicates are detected and handled automatically.
 
 ### config.json (v2.0)
 
@@ -365,7 +350,7 @@ fi
 ### Available Tools
 
 **Read Tools (5)**:
-- `search_collectibles(query, entity_type, limit)` - Semantic search
+- `search_collectibles(query, entity_type, category, limit)` - Semantic search with optional category filter
 - `get_entity(id)` - Get entity details
 - `browse_collection(collection_id, entity_type, limit)` - List items
 - `get_variants(entity_id)` - Get variants
@@ -391,181 +376,110 @@ fi
 - `validate_curator_data(name, data)` - Validate fetched data
 - `get_curator_stats(name)` - Get collection stats
 
-### Import Workflow (MCP Implementation)
+### Import Workflow (Bulk Import)
 
-**Pseudocode**:
-```python
-# Load fetched data
-with open('fetched_data.json') as f:
-    data = json.load(f)
+The recommended import approach uses `bulk_import_curator_batch` for 100x+ faster imports:
 
-stats = {created: 0, updated: 0, failed: 0}
-created_entity_ids = []
-
-for item in data['items']:
-    try:
-        # Step 1: Deduplication
-        existing = None
-
-        # Strategy 1: External ID
-        if item.get('external_id') and item['dedup_hint']['strategy'] == 'external_id':
-            results = search_collectibles(
-                query=item['external_id'],
-                entity_type=item['type'],
-                limit=1
-            )
-            # Verify exact match on external_ids field
-            if results and results[0].external_ids.get(item['dedup_hint']['field']) == item['external_id']:
-                existing = results[0].id
-
-        # Strategy 2: Semantic fallback
-        if not existing and item['dedup_hint'].get('fallback') == 'semantic':
-            results = search_collectibles(
-                query=item['name'],
-                entity_type=item['type'],
-                limit=3
-            )
-            # High confidence threshold
-            if results and results[0].similarity > 0.95:
-                existing = results[0].id
-
-        # Step 2: Create or update
-        if existing:
-            # Entity exists - create relationship
-            create_relationship(
-                from_id=COLLECTION_ID,
-                to_id=existing,
-                type="contains"
-            )
-            stats['updated'] += 1
-        else:
-            # Create new entity
-            entity_id = create_entity(
-                name=item['name'],
-                type=item['type'],
-                year=item.get('year'),
-                language=item.get('language'),
-                country=item.get('country'),
-                source_url=item.get('source_url'),
-                external_ids={item['dedup_hint']['field']: item['external_id']} if item.get('external_id') else {},
-                attributes=item.get('attributes', {})
-            )
-
-            # Link image
-            if item.get('image_url'):
-                create_image(
-                    entity_id=entity_id,
-                    image_url=item['image_url'],
-                    is_primary=True,
-                    source_url=item.get('source_url')
-                )
-
-            # Create relationship
-            create_relationship(
-                from_id=COLLECTION_ID,
-                to_id=entity_id,
-                type="contains"
-            )
-
-            stats['created'] += 1
-            created_entity_ids.append(entity_id)
-
-    except Exception as e:
-        log_error(f"Failed to import {item['name']}: {e}")
-        stats['failed'] += 1
-        continue
-
-# Step 3: Generate embeddings
-if created_entity_ids:
-    bulk_generate_embeddings(created_entity_ids)
+```
+bulk_import_curator_batch(
+  collection_id: "parent-collection-uuid",
+  items: [...],              // Array from fetched_data.json
+  skip_duplicates: true,     // Skip items with matching external_ids (default)
+  update_existing: false,    // Or update existing items
+  generate_embeddings: true, // Generate text embeddings for search (default)
+  localize_images: true,     // Download and store images locally (default)
+  parallel_image_limit: 10   // Concurrent image downloads (default)
+)
 ```
 
-## Deduplication Strategies
+**What it does in a single call:**
 
-### External ID Strategy
+1. **Database Transaction**: Creates all entities and relationships atomically
+2. **Deduplication**: Matches existing entities by `external_ids`
+3. **Text Embeddings**: Generates 384d embeddings for semantic search
+4. **Image Processing**: Downloads images, generates thumbnails, uploads to storage
+5. **CLIP Embeddings**: Generates 512d embeddings for reverse image search
 
-**When to use**: Source provides stable unique IDs.
-
-**Configuration**:
+**Return value:**
 ```json
 {
-  "dedup_hint": {
-    "strategy": "external_id",
-    "field": "pokemontcg_io",
-    "fallback": "semantic"
+  "success": true,
+  "summary": {
+    "total": 100,
+    "created": 85,
+    "updated": 0,
+    "skipped": 15,
+    "errors": 0
+  },
+  "created_entity_ids": ["uuid1", "uuid2", ...],
+  "execution_time_ms": 45000,
+  "image_processing": {
+    "attempted": 85,
+    "succeeded": 83,
+    "failed": 2
   }
 }
 ```
 
-**Matching algorithm**:
-1. Search by external ID (exact match in query)
-2. Verify match has same external_ids field value
-3. If found: Link to existing entity
-4. If not found: Fall back to semantic (if configured)
+## Image Handling
 
-**Example**:
-```json
-{
-  "external_id": "base1-4",
-  "dedup_hint": {"strategy": "external_id", "field": "pokemontcg_io"}
-}
+**How `localize_images: true` works:**
+
+1. **Download**: Fetches image from external URL
+2. **Store Original**: Uploads to `images/originals/{entity_id}.{ext}` in Supabase storage
+3. **Generate Thumbnail**: Creates 300x300 WebP thumbnail
+4. **Store Thumbnail**: Uploads to `images/thumbnails/{entity_id}.webp`
+5. **CLIP Embedding**: Generates 512d vector for reverse image search
+6. **Link to Entity**: Creates image record with `primary_image_id` foreign key
+
+**Why localize?**
+- ✅ **Preservation**: External URLs break over time
+- ✅ **Performance**: Thumbnails load faster
+- ✅ **Search**: CLIP embeddings enable "find similar images"
+
+**If you don't want to localize**: Set `localize_images: false` and images remain as external URLs (not recommended for preservation).
+
+## Failure Handling & Recovery
+
+### Transaction Safety
+
+The database import runs in a **single transaction**:
+- If any entity fails to create → entire batch rolls back
+- Either all entities are created, or none are
+
+### Image Processing
+
+Image processing happens **after** the database transaction:
+- If images fail, entities still exist
+- Failed images logged but don't affect entity creation
+
+### Re-running Imports
+
+**Re-running is always safe:**
+
+| Scenario | With `skip_duplicates: true` | With `update_existing: true` |
+|----------|------------------------------|------------------------------|
+| Entity exists | Skipped (no change) | Updated with new data |
+| Entity is new | Created | Created |
+| Image failed last time | Will retry if entity still needs image | Will retry |
+
+**Best practice**: Keep `skip_duplicates: true` (default). If you need to update existing items, use `update_existing: true`.
+
+### Partial Failure Example
+
+```
+First run: 100 items
+  - 95 created successfully
+  - 5 failed (bad data)
+  - 90 images processed, 5 failed (timeouts)
+
+Second run (same items):
+  - 95 skipped (already exist)
+  - 5 still fail (same bad data)
+  - 0 new images (already processed)
 ```
 
-Searches for entities where `external_ids->>'pokemontcg_io' = 'base1-4'`.
-
-### Semantic Strategy
-
-**When to use**: No stable IDs, or handling noisy data.
-
-**Configuration**:
-```json
-{
-  "dedup_hint": {
-    "strategy": "semantic",
-    "fallback": null
-  }
-}
-```
-
-**Matching algorithm**:
-1. Search by entity name (vector similarity)
-2. Check top 3 results
-3. If similarity > 0.95 (configurable): Match found
-4. If no high-confidence match: Create new entity
-
-**Why 0.95 threshold?**:
-- 0.99+: Too strict, misses valid matches
-- 0.90-0.94: Too loose, false positives
-- 0.95: Sweet spot for high confidence
-
-**Example**:
-```
-Query: "Charizard"
-Results:
-  1. "Charizard" (similarity: 0.98) ← Match!
-  2. "Charizard EX" (similarity: 0.93) ← No match (different card)
-  3. "Charmeleon" (similarity: 0.85) ← No match
-```
-
-### Hybrid Strategy
-
-**Recommended**: Use external ID with semantic fallback.
-
-**Configuration**:
-```json
-{
-  "dedup_hint": {
-    "strategy": "external_id",
-    "field": "pokemontcg_io",
-    "fallback": "semantic"
-  }
-}
-```
-
-**Flow**:
-1. Try external ID first (fast, exact)
-2. If not found, try semantic (handles missing IDs)
-3. If still no match, create new entity
+**To fix the 5 failed items**: Fix the data issues in the fetch script, then re-run. The 95 good items will be skipped automatically.
 
 ## Fetch Script Template
 
@@ -812,8 +726,7 @@ python3 scripts/fetch_data.py --limit=1
 2. format_version is "1.0"
 3. metadata section complete
 4. Items have required fields (name, type)
-5. dedup_hint structure correct
-6. External IDs present (if applicable)
+5. External IDs present (for deduplication)
 
 ### Integration Testing (Full Workflow)
 

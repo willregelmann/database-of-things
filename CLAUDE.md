@@ -131,10 +131,9 @@ python3 scripts/seed-sample-data.py
 # No manual embedding generation needed for new data!
 # (For backfill of existing data: python3 scripts/generate-embeddings.py)
 
-# Test semantic search
-export SUPABASE_URL="http://127.0.0.1:54321"
-export SUPABASE_ANON_KEY="sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH"
-./scripts/semantic-search "pokemon" --type card --limit 10
+# Test semantic search via SQL
+docker exec supabase_db_database-of-things psql -U postgres -d postgres \
+  -c "SELECT name, category, round(similarity::numeric, 2) FROM search_by_text('pokemon', 'item', 'trading_card_games', 5);"
 
 # Verify schema synchronization between local and production
 ./scripts/verify-schema-sync.sh
@@ -367,102 +366,100 @@ The database supports semantic search using vector embeddings, allowing you to f
 
 ### Search Functions
 
-**`semantic_search(query_embedding, entity_type_filter, result_limit)`** - Vector-based search:
+**`semantic_search(query_embedding, entity_type_filter, category_filter, result_limit)`** - Vector-based search:
 ```sql
 -- Search using a pre-computed embedding vector
 SELECT * FROM semantic_search(
   '[0.123, 0.456, ...]'::vector(384),  -- Your query embedding
-  'item'::entity_type,                  -- Optional: filter by type ('item' or 'collection')
-  20                                     -- Limit results
+  'item',                               -- Optional: filter by type ('item' or 'collection')
+  'trading_card_games',                 -- Optional: filter by category
+  20                                    -- Limit results
+);
+
+-- Search all categories, just filter by type
+SELECT * FROM semantic_search(
+  '[0.123, 0.456, ...]'::vector(384),
+  'item',
+  NULL,  -- No category filter
+  20
 );
 ```
 
-**`search_by_text(query_text, entity_type_filter, result_limit)`** - Text-based search:
+**`search_by_text(query_text, entity_type_filter, category_filter, result_limit)`** - Text-based search:
 ```sql
 -- Search using plain text (finds closest entity name, uses its embedding)
 SELECT * FROM search_by_text(
   'fire dragon pokemon',  -- Plain text query
-  'item'::entity_type,    -- Optional: filter by type ('item' or 'collection')
+  'item',                 -- Optional: filter by type ('item' or 'collection')
+  'trading_card_games',   -- Optional: filter by category
   20                      -- Limit results
 );
+
+-- Search figures only
+SELECT * FROM search_by_text('megazord', NULL, 'figures', 10);
 ```
+
+**Available categories**: `trading_card_games`, `figures`, `comics`, `video_games`, `buildables`
 
 **⚠️ WARNING**: `search_by_text()` has limitations because it uses trigram text matching to find a similar entity first, then uses that entity's embedding. This means it fails for synonyms and variations (e.g., "scarlet and violet" won't find "Scarlet & Violet").
 
-**Use the CLI utility instead for proper semantic search.**
+**Use MCP tools for proper semantic search.** The `search_collectibles` MCP tool generates embeddings for queries, handling synonyms and semantic variations.
 
-### CLI Semantic Search (Recommended)
+### MCP Semantic Search (Recommended)
 
-The `scripts/semantic-search` utility provides **true semantic search** by generating embeddings for your queries:
+Use the `search_collectibles` MCP tool for true semantic search:
 
-```bash
-# Basic search
-./scripts/semantic-search "scarlet and violet"
-
-# Filter by entity type
-./scripts/semantic-search "fire dragon pokemon" --type card
-
-# Limit results
-./scripts/semantic-search "charizard" --limit 10
+```
+mcp__database-of-things-local__search_collectibles
+  query: "fire dragon pokemon"
+  category: "trading_card_games"  # Optional: filter by category
+  entity_type: "item"              # Optional: filter by type
+  limit: 10
 ```
 
 **Why use this?**
 - ✅ Handles synonyms and variations ("and" vs "&", "pokemon" vs "pokémon")
 - ✅ Understands semantic meaning ("fire dragon" finds Charizard)
-- ✅ No exact text match required
-
-**Example:**
-```bash
-$ ./scripts/semantic-search "scarlet and violet" --type collection --limit 5
-
-🔍 Searching for: scarlet and violet
-   Filtering by type: collection
-
-Found 5 results
-
-1. Scarlet & Violet
-   Type: collection
-   Similarity: 95.8%
-   Year: 2023
-```
-
-Even though we searched for "and", it found "Scarlet & Violet" with "&" because the embeddings understand they mean the same thing.
-
-See `scripts/README.md` for more examples.
+- ✅ Supports category filtering (trading_card_games, figures, comics, etc.)
+- ✅ Returns images with results
 
 ### GraphQL Examples
 
 ```graphql
-# Semantic search with vector embedding
+# Semantic search with vector embedding and category filter
 query {
   semantic_search(
     args: {
       query_embedding: "[0.123, 0.456, ...]"
-      entity_type_filter: "card"
+      entity_type_filter: "item"
+      category_filter: "trading_card_games"
       result_limit: 20
     }
   ) {
     id
     name
     type
+    category
     similarity
     image_url
     thumbnail_url
   }
 }
 
-# Text-based semantic search
+# Text-based semantic search with category filter
 query {
   search_by_text(
     args: {
       query_text: "fire dragon pokemon"
-      entity_type_filter: "card"
+      entity_type_filter: "item"
+      category_filter: "trading_card_games"
       result_limit: 20
     }
   ) {
     id
     name
     type
+    category
     similarity
   }
 }
@@ -753,12 +750,13 @@ Once configured, you can use either environment with all 25 tools:
 - `get_variants` - Get entity variants
 - `get_components` - Get entity components
 
-**Write Tools (12):**
+**Write Tools (13):**
 - `create_entity` (**category** parameter added), `update_entity`, `delete_entity` - Entity operations (**text embeddings auto-generated**)
 - `create_relationship`, `delete_relationship` - Relationship operations
 - `create_variant`, `update_variant` - Variant operations
 - `create_component` - Component operations
 - `localize_image` - Download image, generate thumbnail + **image embedding**, upload to Supabase storage
+- `bulk_localize_images` - **Batch image localization** for existing entities (parallel processing, 10x+ faster)
 - `create_image` - Link image to entity (with optional embedding)
 - `generate_embedding`, `bulk_generate_embeddings` - Embedding backfill (manual only, **auto for new data**)
 
@@ -1171,6 +1169,11 @@ Migrations are stored in `supabase/migrations/` and run automatically on `supaba
 27. `20251114223852_add_graphql_image_computed_fields.sql`: **Add GraphQL computed fields for accessing images via relationships**
 28. `20251117183349_fix_search_function_signatures.sql`: **Fix search functions to use entity_type enum and match current schema**
 29. `20251117193102_add_bulk_import_curator_batch.sql`: **Add bulk import function for 100x+ faster curator imports (single transaction)**
+30. `20251117200000_fix_bulk_import_type_mapping.sql`: Fix entity type mapping in bulk import function
+31. `20251117201000_add_hierarchical_parent_support.sql`: Add support for hierarchical parent lookups in bulk import
+32. `20251119225536_drop_embedding_queue.sql`: Remove unused embedding queue table (embeddings now generated inline)
+33. `20251126213601_add_image_urls_to_search_functions.sql`: Add image_url and thumbnail_url to search function results
+34. `20251130194412_add_category_filter_to_search_functions.sql`: **Add category_filter parameter to semantic_search and search_by_text functions**
 
 **To add new migrations**:
 ```bash
@@ -1227,18 +1230,19 @@ WHERE attributes @> '{"hp": 120}';
 SELECT * FROM entities
 WHERE external_ids @> '{"tcgplayer": "base1-4"}';
 
--- Extract JSONB values and standard columns
-SELECT name, image_url, thumbnail_url,
-       attributes->>'hp' as hp,
-       external_ids->>'pokemontcg_io' as tcg_id
-FROM entities
-WHERE type = 'card';
+-- Extract JSONB values and standard columns (e.g., for trading cards)
+SELECT e.name, i.image_url, i.thumbnail_url,
+       e.attributes->>'hp' as hp,
+       e.external_ids->>'pokemontcg_io' as tcg_id
+FROM entities e
+LEFT JOIN images i ON e.primary_image_id = i.id
+WHERE e.category = 'trading_card_games';
 
 -- Find entities missing thumbnails (for backfill)
-SELECT id, name, image_url
-FROM entities
-WHERE image_url IS NOT NULL
-  AND thumbnail_url IS NULL;
+SELECT e.id, e.name, i.image_url
+FROM entities e
+JOIN images i ON e.primary_image_id = i.id
+WHERE i.thumbnail_url IS NULL;
 
 -- Find entities missing embeddings (for backfill)
 SELECT id, name, type
@@ -1246,13 +1250,13 @@ FROM entities
 WHERE name_embedding IS NULL
 LIMIT 100;
 
--- Semantic search using text
-SELECT id, name, type, similarity
-FROM search_by_text('fire dragon pokemon', 'card', 20);
+-- Semantic search using text (with category filter)
+SELECT id, name, type, category, similarity
+FROM search_by_text('fire dragon pokemon', 'item', 'trading_card_games', 20);
 
 -- Semantic search using vector (requires pre-computed embedding)
-SELECT id, name, type, similarity
-FROM semantic_search('[0.1, 0.2, ...]'::vector(384), NULL, 10);
+SELECT id, name, type, category, similarity
+FROM semantic_search('[0.1, 0.2, ...]'::vector(384), NULL, NULL, 10);
 ```
 
 ### Relationship Queries

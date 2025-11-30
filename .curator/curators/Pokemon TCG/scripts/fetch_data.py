@@ -189,10 +189,19 @@ def normalize_card(card_data: dict, set_data: dict = None) -> dict:
         if match:
             external_ids["cardmarket_id"] = match.group(1)
 
-    # Build name with card number if available
+    # Build name with card number in format "Name 001/102"
     card_name = card_data.get("name")
     card_number = card_data.get("number")
-    if card_number:
+    if card_number and set_data:
+        printed_total = set_data.get("printedTotal") or set_data.get("total")
+        # Try to parse card number as int for zero-padding
+        try:
+            num = int(card_number)
+            card_name = f"{card_name} {num:03d}/{printed_total}"
+        except ValueError:
+            # Card number might be non-numeric (e.g., "SV001")
+            card_name = f"{card_name} {card_number}/{printed_total}"
+    elif card_number:
         card_name = f"{card_name} {card_number}"
 
     entity = {

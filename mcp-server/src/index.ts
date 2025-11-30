@@ -21,6 +21,7 @@ import { createComponent } from "./tools/write/components.js";
 import { createImage } from "./tools/write/images.js";
 import { generateEmbedding, bulkGenerateEmbeddings } from "./tools/write/embeddings.js";
 import { localizeImage } from "./tools/write/localize-image.js";
+import { bulkLocalizeImages } from "./tools/write/bulk-localize-images.js";
 import { listCurators, getCuratorConfig } from "./tools/curator/discovery.js";
 import { runCuratorFetch, validateCuratorData, getCuratorStats } from "./tools/curator/execution.js";
 import { bulkImportCuratorBatch } from "./tools/curator/bulk-import.js";
@@ -105,6 +106,10 @@ const TOOLS = [
         entity_type: {
           type: "string",
           description: "Optional: Filter by entity type (e.g., 'card', 'figure', 'comic', 'collection')",
+        },
+        category: {
+          type: "string",
+          description: "Optional: Filter by category (e.g., 'trading_card_games', 'figures', 'comics', 'video_games', 'buildables')",
         },
         limit: {
           type: "number",
@@ -378,6 +383,29 @@ const TOOLS = [
       required: ["external_url", "entity_id"]
     }
   },
+  {
+    name: "bulk_localize_images",
+    description: "Bulk localize images for multiple existing entities. Downloads images, generates thumbnails + CLIP embeddings, uploads to Supabase storage, and links to entities. Much faster than individual localize_image calls for batch operations.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        images: {
+          type: "array",
+          description: "Array of image items to process (required)",
+          items: {
+            type: "object",
+            properties: {
+              entity_id: { type: "string", description: "Entity UUID to link image to (required)" },
+              external_url: { type: "string", description: "External image URL to download (required)" }
+            },
+            required: ["entity_id", "external_url"]
+          }
+        },
+        parallel_limit: { type: "number", description: "Max concurrent image downloads (default: 10)" }
+      },
+      required: ["images"]
+    }
+  },
   // Curator Tools - Discovery
   {
     name: "list_curators",
@@ -544,6 +572,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case "localize_image":
         return await localizeImage(args as any);
+      case "bulk_localize_images":
+        return await bulkLocalizeImages(args as any);
 
       case "list_curators":
         return await listCurators();

@@ -433,14 +433,18 @@ query {
   semantic_search(
     args: {
       query_embedding: "[0.123, 0.456, ...]"  # 384-dimensional vector
-      entity_type_filter: "card"
+      entity_type_filter: "item"
+      category_filter: "trading_card_games"
       result_limit: 20
     }
   ) {
     id
     name
     type
+    category
     similarity
+    image_url
+    thumbnail_url
   }
 }
 ```
@@ -453,18 +457,26 @@ query {
       {
         "id": "1c0957dc-3f31-43e3-95bf-f7759a8d74fb",
         "name": "Charizard",
-        "type": "card",
-        "similarity": 0.92
+        "type": "item",
+        "category": "trading_card_games",
+        "similarity": 0.92,
+        "image_url": "/storage/v1/object/public/images/originals/abc123.jpg",
+        "thumbnail_url": "/storage/v1/object/public/images/thumbnails/abc123.webp"
       }
     ]
   }
 }
 ```
 
-**Note:** Generating embeddings requires external tooling. For easier semantic search, use the CLI tool:
+**Available category filters:** `trading_card_games`, `figures`, `comics`, `video_games`, `buildables`
 
-```bash
-./scripts/semantic-search "fire dragon pokemon" --type card --limit 10
+**Note:** Generating embeddings requires external tooling. For easier semantic search, use the MCP tool:
+
+```
+mcp__database-of-things-local__search_collectibles
+  query: "fire dragon pokemon"
+  category: "trading_card_games"
+  limit: 10
 ```
 
 ### Working with Variants and Components

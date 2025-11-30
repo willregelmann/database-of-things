@@ -81,3 +81,5 @@ docs/plans/
 .mcp.json
 
 *.env
+
+.curator/adhoc/

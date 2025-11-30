@@ -3,11 +3,12 @@ import { supabase } from "../index.js";
 interface SearchArgs {
   query: string;
   entity_type?: string;
+  category?: string;
   limit?: number;
 }
 
 export async function searchCollectibles(args: SearchArgs) {
-  const { query, entity_type, limit = 20 } = args;
+  const { query, entity_type, category, limit = 20 } = args;
 
   // Cap limit at 100
   const cappedLimit = Math.min(limit, 100);
@@ -16,6 +17,7 @@ export async function searchCollectibles(args: SearchArgs) {
   const { data, error } = await supabase.rpc("search_by_text", {
     query_text: query,
     entity_type_filter: entity_type || null,
+    category_filter: category || null,
     result_limit: cappedLimit,
   });
 
@@ -37,10 +39,12 @@ export async function searchCollectibles(args: SearchArgs) {
   // Format results
   const results = data.map((item: any, index: number) => {
     const similarity = (item.similarity * 100).toFixed(1);
-    return `${index + 1}. **${item.name}** (${item.type})
+    const categoryInfo = item.category ? ` | ${item.category}` : "";
+    const imageInfo = item.thumbnail_url || item.image_url ? `\n   Image: ${item.thumbnail_url || item.image_url}` : "";
+    return `${index + 1}. **${item.name}** (${item.type}${categoryInfo})
    ID: ${item.id}
    Similarity: ${similarity}%
-   Year: ${item.year || "Unknown"}`;
+   Year: ${item.year || "Unknown"}${imageInfo}`;
   }).join("\n\n");
 
   return {
