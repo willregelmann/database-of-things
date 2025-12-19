@@ -27,12 +27,13 @@ AS $$
       e.type::TEXT,
       e.year,
       e.country,
-      e.image_url,
-      e.thumbnail_url,
+      i.image_url,
+      i.thumbnail_url,
       1 AS depth,
       ARRAY[e.id] AS path
     FROM relationships r
     JOIN entities e ON e.id = r.from_id
+    LEFT JOIN images i ON e.primary_image_id = i.id
     WHERE r.to_id = p_entity_id
 
     UNION ALL
@@ -44,13 +45,14 @@ AS $$
       e.type::TEXT,
       e.year,
       e.country,
-      e.image_url,
-      e.thumbnail_url,
+      i.image_url,
+      i.thumbnail_url,
       pt.depth + 1,
       pt.path || e.id
     FROM parent_tree pt
     JOIN relationships r ON r.to_id = pt.id
     JOIN entities e ON e.id = r.from_id
+    LEFT JOIN images i ON e.primary_image_id = i.id
     WHERE pt.depth < p_max_depth
       AND NOT (e.id = ANY(pt.path))  -- Prevent cycles
   )
