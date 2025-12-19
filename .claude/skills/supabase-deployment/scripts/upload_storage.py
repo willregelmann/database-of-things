@@ -56,14 +56,18 @@ def upload_file(file_path, storage_path, project_url, service_key, dry_run=False
         print(f"  Would upload: {storage_path}")
         return True
 
-    # Upload using curl
+    # Upload using curl with cache-control header
+    # Images are content-addressed by UUID, so safe to cache for 1 year
     upload_url = f"{project_url}/storage/v1/object/images/{storage_path}"
+    cache_control = "public, max-age=31536000, immutable"
 
     cmd = [
         'curl', '-X', 'POST', upload_url,
         '-H', f'apikey: {service_key}',
         '-H', f'Authorization: Bearer {service_key}',
         '-H', f'Content-Type: {content_type}',
+        '-H', f'x-upsert: true',
+        '-H', f'cache-control: {cache_control}',
         '--data-binary', f'@{file_path}',
         '-s', '-w', '%{http_code}'
     ]
