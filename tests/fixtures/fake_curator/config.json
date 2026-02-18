@@ -1,0 +1,19 @@
+{
+  "curator_version": "2.0",
+  "collection_name": "Fake Curator",
+  "data_source": "https://example.com",
+  "fetch": {
+    "script": "scripts/fetch_data.py",
+    "requires_api_key": false,
+    "rate_limit_seconds": 0,
+    "supports_filters": ["limit"]
+  },
+  "deduplication": {
+    "strategy": "external_id",
+    "field": "test_id"
+  },
+  "entity_mapping": {
+    "type": "card",
+    "category": "trading_card_games"
+  }
+}
