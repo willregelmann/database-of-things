@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import os
+import selectors
 import subprocess
 import sys
 from pathlib import Path
@@ -80,7 +82,7 @@ class MCPClient:
             resolved_args.append(str(p) if p.exists() else arg)
         cmd = [cmd[0]] + resolved_args
 
-        env = {**dict(__import__("os").environ), **config.get("env", {})}
+        env = {**dict(os.environ), **config.get("env", {})}
 
         self._process = subprocess.Popen(
             cmd,
@@ -99,18 +101,19 @@ class MCPClient:
                 "clientInfo": {"name": "curator-cli", "version": "0.1.0"},
             })
         )
-        self._read_response()  # Read initialize result (we don't need it)
+        self._read_response(timeout=15.0)  # Initialize may take a moment
 
         # Send initialized notification (no id, no response expected)
         notification = {"jsonrpc": "2.0", "method": "notifications/initialized"}
         self._send_raw(notification)
 
-    def call_tool(self, name: str, arguments: dict | None = None) -> dict | str:
+    def call_tool(self, name: str, arguments: dict | None = None, timeout: float = 300.0) -> dict | str:
         """Call an MCP tool and return the parsed response.
 
         Args:
             name: Tool name (e.g., "bulk_import_curator_batch").
             arguments: Tool arguments dict.
+            timeout: Seconds to wait for tool response (default 5 min for bulk ops).
 
         Returns:
             Parsed JSON dict if response is JSON, raw text otherwise.
@@ -126,7 +129,7 @@ class MCPClient:
             "arguments": arguments or {},
         })
         self._send_raw(request)
-        response = self._read_response()
+        response = self._read_response(timeout=timeout)
         return self._parse_tool_response(response)
 
     def close(self):
@@ -159,27 +162,47 @@ class MCPClient:
         self._process.stdin.write(frame.encode())
         self._process.stdin.flush()
 
-    def _read_response(self) -> dict:
-        """Read a JSON-RPC response from the server's stdout."""
+    def _read_response(self, timeout: float = 30.0) -> dict:
+        """Read a JSON-RPC response from the server's stdout.
+
+        Args:
+            timeout: Seconds to wait for response before raising MCPError.
+        """
         if not self._process or not self._process.stdout:
             raise MCPError("MCP server stdout not available")
 
-        # Read Content-Length header
-        headers = {}
-        while True:
-            line = self._process.stdout.readline().decode()
-            if line == "\r\n" or line == "\n" or line == "":
-                break
-            if ":" in line:
-                key, _, value = line.partition(":")
-                headers[key.strip().lower()] = value.strip()
+        sel = selectors.DefaultSelector()
+        sel.register(self._process.stdout, selectors.EVENT_READ)
 
-        content_length = int(headers.get("content-length", 0))
-        if content_length == 0:
-            raise MCPError("Empty response from MCP server")
+        try:
+            # Read Content-Length header
+            headers = {}
+            while True:
+                # Check if process died
+                if self._process.poll() is not None:
+                    stderr = self._process.stderr.read().decode() if self._process.stderr else ""
+                    raise MCPError(f"MCP server exited unexpectedly (code {self._process.returncode}): {stderr[:500]}")
 
-        data = self._process.stdout.read(content_length).decode()
-        return json.loads(data)
+                ready = sel.select(timeout=timeout)
+                if not ready:
+                    raise MCPError(f"MCP server response timed out after {timeout}s")
+
+                line = self._process.stdout.readline().decode()
+                if line == "\r\n" or line == "\n" or line == "":
+                    break
+                if ":" in line:
+                    key, _, value = line.partition(":")
+                    headers[key.strip().lower()] = value.strip()
+
+            content_length = int(headers.get("content-length", 0))
+            if content_length == 0:
+                raise MCPError("Empty response from MCP server")
+
+            data = self._process.stdout.read(content_length).decode()
+            return json.loads(data)
+        finally:
+            sel.unregister(self._process.stdout)
+            sel.close()
 
     def _parse_tool_response(self, raw: dict) -> dict | str:
         """Parse a JSON-RPC response into the tool's result.
