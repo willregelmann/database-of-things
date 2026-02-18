@@ -21,3 +21,4 @@ include = ["curator*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "--ignore=tests/curator"
+markers = ["integration: requires external services (network, Supabase)"]
