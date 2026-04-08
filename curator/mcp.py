@@ -93,7 +93,7 @@ class MCPClient:
             cwd=str(self._root),
         )
 
-        # MCP initialize handshake
+        # MCP initialize handshake (SDK v0.5.x: newline-delimited JSON)
         self._send_raw(
             self._build_request("initialize", {
                 "protocolVersion": "2024-11-05",
@@ -156,10 +156,9 @@ class MCPClient:
         """Send a JSON-RPC message to the server's stdin."""
         if not self._process or not self._process.stdin:
             raise MCPError("MCP server stdin not available")
-        data = json.dumps(message)
-        # MCP uses Content-Length header framing
-        frame = f"Content-Length: {len(data)}\r\n\r\n{data}"
-        self._process.stdin.write(frame.encode())
+        # SDK v0.5.x uses newline-delimited JSON (not Content-Length framing)
+        data = json.dumps(message) + "\n"
+        self._process.stdin.write(data.encode())
         self._process.stdin.flush()
 
     def _read_response(self, timeout: float = 30.0) -> dict:
@@ -175,31 +174,20 @@ class MCPClient:
         sel.register(self._process.stdout, selectors.EVENT_READ)
 
         try:
-            # Read Content-Length header
-            headers = {}
-            while True:
-                # Check if process died
-                if self._process.poll() is not None:
-                    stderr = self._process.stderr.read().decode() if self._process.stderr else ""
-                    raise MCPError(f"MCP server exited unexpectedly (code {self._process.returncode}): {stderr[:500]}")
+            # SDK v0.5.x uses newline-delimited JSON
+            if self._process.poll() is not None:
+                stderr = self._process.stderr.read().decode() if self._process.stderr else ""
+                raise MCPError(f"MCP server exited unexpectedly (code {self._process.returncode}): {stderr[:500]}")
 
-                ready = sel.select(timeout=timeout)
-                if not ready:
-                    raise MCPError(f"MCP server response timed out after {timeout}s")
+            ready = sel.select(timeout=timeout)
+            if not ready:
+                raise MCPError(f"MCP server response timed out after {timeout}s")
 
-                line = self._process.stdout.readline().decode()
-                if line == "\r\n" or line == "\n" or line == "":
-                    break
-                if ":" in line:
-                    key, _, value = line.partition(":")
-                    headers[key.strip().lower()] = value.strip()
+            line = self._process.stdout.readline().decode()
+            if not line:
+                raise MCPError("MCP server closed stdout unexpectedly")
 
-            content_length = int(headers.get("content-length", 0))
-            if content_length == 0:
-                raise MCPError("Empty response from MCP server")
-
-            data = self._process.stdout.read(content_length).decode()
-            return json.loads(data)
+            return json.loads(line)
         finally:
             sel.unregister(self._process.stdout)
             sel.close()

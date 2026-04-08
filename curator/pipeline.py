@@ -55,12 +55,44 @@ def fetch(config: CuratorConfig, limit: int | None = None, **extra_args: str):
         )
 
 
+BATCH_SIZE = 250
+
+
+def _call_bulk_import(mcp: MCPClient, collection_id: str, items: list) -> dict:
+    """Call bulk_import_curator_batch and raise on failure."""
+    result = mcp.call_tool("bulk_import_curator_batch", {
+        "collection_id": collection_id,
+        "items": items,
+        "skip_duplicates": True,
+        "localize_images": True,
+    }, timeout=600.0)
+    if isinstance(result, dict) and not result.get("success", True):
+        raise ImportError_(
+            result.get("error", "Import failed"),
+            mcp_response=result,
+        )
+    return result
+
+
+def _merge_summaries(summaries: list[dict]) -> dict:
+    """Sum created/updated/skipped/errors across batch results."""
+    totals: dict = {}
+    for s in summaries:
+        for k, v in s.items():
+            if isinstance(v, int):
+                totals[k] = totals.get(k, 0) + v
+    return totals
+
+
 def import_items(
     config: CuratorConfig,
     data: dict,
     mcp: MCPClient,
 ) -> dict:
-    """Import validated items via MCP bulk import.
+    """Import validated items via MCP bulk import, batched to avoid timeouts.
+
+    Collections are sent first so cards can reference them as parents.
+    Remaining items are sent in chunks of BATCH_SIZE.
 
     Args:
         config: Resolved curator config.
@@ -68,25 +100,34 @@ def import_items(
         mcp: Connected MCP client.
 
     Returns:
-        Import result dict with summary counts.
+        Merged import result dict with summary counts.
 
     Raises:
-        ImportError_: If MCP returns success=false.
+        ImportError_: If any MCP batch returns success=false.
     """
-    result = mcp.call_tool("bulk_import_curator_batch", {
-        "collection_id": config.collection_id,
-        "items": data["items"],
-        "skip_duplicates": True,
-        "localize_images": True,
-    })
+    items = data["items"]
+    collections = [i for i in items if i.get("type") == "collection"]
+    rest = [i for i in items if i.get("type") != "collection"]
 
-    if isinstance(result, dict) and not result.get("success", True):
-        raise ImportError_(
-            result.get("error", "Import failed"),
-            mcp_response=result,
-        )
+    batches: list[list] = []
+    if collections:
+        batches.append(collections)
+    for i in range(0, len(rest), BATCH_SIZE):
+        batches.append(rest[i:i + BATCH_SIZE])
 
-    return result
+    if not batches:
+        return {"summary": {}}
+
+    total = len(items)
+    summaries = []
+    for idx, batch in enumerate(batches, 1):
+        print(f"Batch {idx}/{len(batches)} ({len(batch)} items)...", flush=True)
+        result = _call_bulk_import(mcp, config.collection_id, batch)
+        if isinstance(result, dict):
+            summaries.append(result.get("summary", {}))
+
+    merged = _merge_summaries(summaries)
+    return {"summary": merged}
 
 
 def run(
