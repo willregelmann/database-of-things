@@ -150,9 +150,9 @@ Before import, determine where items should go.
 ### 3.1 Search Existing Collections
 
 ```
-Use search_collectibles MCP tool:
+Use entity_search MCP tool:
   query: "{collection description}"
-  entity_type: "collection"
+  type: "collection"
   limit: 10
 ```
 
@@ -227,13 +227,9 @@ Does this look correct? Say 'yes' to import all 47 items, or let me know what ne
 **Once approved, use bulk import:**
 
 ```
-Use bulk_import_curator_batch MCP tool:
+Use entities_upsert MCP tool:
   collection_id: {resolved parent collection ID}
-  items: {contents of fetched_data.json items array}
-  skip_duplicates: true
-  localize_images: true
-  generate_embeddings: true
-  parallel_image_limit: 10
+  items: {all items to import}
 ```
 
 **Report results:**
@@ -279,12 +275,12 @@ Offer checkpoints: "I've found 100+ items. Should I continue, or import what we 
 
 - Files remain in `.curator/adhoc/` for reference
 - User can delete if not needed
-- If this becomes a recurring import, suggest creating a proper scripted curator with `init-curator`
+- If this becomes a recurring import, suggest creating a prompt-based curator with `init-curator` — it saves the instructions as `prompt.md` so the same collection can be re-run without starting from scratch
 
 ## Key Principles
 
 1. **Prioritize accuracy** - ask rather than guess when uncertain
 2. **Show your work** - log sources and decisions in research_notes.md
 3. **Sample before commit** - always show sample for approval
-4. **Use existing tools** - leverage bulk_import_curator_batch, don't reinvent
+4. **Use existing tools** - leverage entities_upsert, don't reinvent
 5. **Fail gracefully** - missing images or data shouldn't block entire import

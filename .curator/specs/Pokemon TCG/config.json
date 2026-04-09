@@ -1,0 +1,17 @@
+{
+  "curator_version": "2.0",
+  "type": "agent",
+  "collection_name": "Pokemon TCG",
+  "data_source": "https://github.com/PokemonTCG/pokemon-tcg-data",
+  "deduplication": {
+    "strategy": "external_id",
+    "field": "pokemontcg_io",
+    "fallback": "semantic",
+    "semantic_threshold": 0.95
+  },
+  "entity_mapping": {
+    "type": "card",
+    "category": "trading_card_games",
+    "attributes": ["rarity", "artist"]
+  }
+}

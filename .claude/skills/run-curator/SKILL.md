@@ -1,69 +1,24 @@
 ---
 name: run-curator
-description: Execute a curator import pipeline (fetch, validate, import)
+description: Execute a curator import pipeline
 ---
 
 # Run Curator
 
-Execute a curator pipeline using the `curator` CLI.
+All curators are agent curators. Read `.curator/specs/{Name}/prompt.md` for data source and import instructions.
 
-## Usage
+Read secrets to get `COLLECTION_ID`:
+- Local: `.curator/specs/{Name}/secrets.local.env`
+- Prod: `.curator/specs/{Name}/secrets.prod.env`
 
-When the user says `/curator:run "Name"` or asks to run/import a curator, execute:
+## Execution Flow
 
-```bash
-.venv/bin/python -m curator run "Name" --env=local
-```
+- **Phase 1 (Research)** — follow `prompt.md` instructions; use WebFetch to retrieve data from the source; honor any `--limit` argument
+- **Phase 2 (Sample Review)** — show a sample of what will be imported for approval before proceeding
+- **Phase 3 (Import)** — call `entities_upsert` with the resolved `COLLECTION_ID`
 
-## Parsing Arguments
+If `--dry-run` is passed, stop after Phase 1 and report what was found without importing.
 
-Map user intent to CLI flags:
+## Environment
 
-| User says | CLI command |
-|-----------|------------|
-| `/curator:run "Pokemon TCG"` | `python -m curator run "Pokemon TCG"` |
-| `/curator:run "Pokemon TCG" --limit=50` | `python -m curator run "Pokemon TCG" --limit 50` |
-| `/curator:run "Pokemon TCG" --env=prod` | `python -m curator run "Pokemon TCG" --env prod` |
-| `/curator:run "Pokemon TCG" --fetch-only` | `python -m curator fetch "Pokemon TCG"` |
-| `/curator:run "Pokemon TCG" --import-only` | `python -m curator import "Pokemon TCG"` |
-| `/curator:run "Pokemon TCG" --dry-run` | `python -m curator run "Pokemon TCG" --dry-run` |
-| "Import latest Pokemon Base Set cards" | `python -m curator run "Pokemon TCG" --set "Base Set"` |
-| "Fetch 50 LEGO sets but don't import" | `python -m curator fetch "LEGO Sets" --limit 50` |
-
-## Execution
-
-1. Run the CLI command via Bash using `.venv/bin/python -m curator`
-2. Report the output to the user
-3. If it fails with a clear error, report it — the CLI provides actionable messages
-
-## Available Commands
-
-```bash
-# Full pipeline: fetch → validate → import
-.venv/bin/python -m curator run "Name" --env=local --limit=50
-
-# Fetch only (no import)
-.venv/bin/python -m curator fetch "Name" --limit=50
-
-# Import existing fetched_data.json
-.venv/bin/python -m curator import "Name" --env=local
-
-# Show collection stats
-.venv/bin/python -m curator status "Name" --env=local
-```
-
-## Flags
-
-- `--env local|prod` — Target environment (default: local)
-- `--limit N` — Max items to fetch
-- `--dry-run` — Fetch + validate only, skip import
-
-## Error Recovery
-
-The CLI provides clear error messages. If the user asks you to debug further:
-
-1. Read the traceback
-2. Check the curator's fetch script at `.curator/curators/{name}/scripts/fetch_data.py`
-3. Fix the issue and re-run
-
-The pipeline is resumable — re-running skips already-completed phases (uses `.curator/curators/{name}/run_status.json`).
+Default env is `local`. Pass `--env=prod` to import to production.

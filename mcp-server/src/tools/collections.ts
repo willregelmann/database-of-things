@@ -1,95 +1,46 @@
-import { supabase } from "../index.js";
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { z } from "zod";
+import { supabase } from "../db.js";
 
-interface BrowseCollectionArgs {
-  collection_id: string;
-  entity_type?: string;
-  limit?: number;
-}
+export function register(server: McpServer) {
+  server.tool(
+    "collection_browse",
+    "List items inside a collection, optionally filtered by entity type.",
+    {
+      collection_id: z.string().uuid().describe("Collection UUID"),
+      type: z.string().optional().describe("Filter by entity type (e.g. 'card', 'figure')"),
+      limit: z.number().int().min(1).max(500).default(50).describe("Max items to return"),
+    },
+    async ({ collection_id, type, limit }) => {
+      const { data: collection, error: collErr } = await supabase
+        .from("entities")
+        .select("id, name, type, year")
+        .eq("id", collection_id)
+        .single();
+      if (collErr) throw new Error(`Collection not found: ${collErr.message}`);
 
-export async function browseCollection(args: BrowseCollectionArgs) {
-  const { collection_id, entity_type, limit = 50 } = args;
+      const { data: items, error } = await supabase
+        .from("relationships")
+        .select("to_id, order, entities!relationships_to_id_fkey(id, name, type, year)")
+        .eq("from_id", collection_id)
+        .order("order", { ascending: true, nullsFirst: false })
+        .limit(limit);
+      if (error) throw new Error(`Browse failed: ${error.message}`);
 
-  // Get collection info
-  const { data: collection, error: collectionError } = await supabase
-    .from("entities")
-    .select("id, name, type, year")
-    .eq("id", collection_id)
-    .single();
+      const filtered = type ? (items ?? []).filter((r: any) => r.entities.type === type) : (items ?? []);
 
-  if (collectionError) {
-    throw new Error(`Collection not found: ${collectionError.message}`);
-  }
+      if (!filtered.length) {
+        return { content: [{ type: "text", text: `Collection "${collection.name}" has no ${type ? `items of type "${type}"` : "items"}.` }] };
+      }
 
-  // Build query for items in collection
-  let query = supabase
-    .from("relationships")
-    .select(`
-      to_id,
-      order,
-      entities!relationships_to_id_fkey (
-        id,
-        name,
-        type,
-        year,
-        attributes
-      )
-    `)
-    .eq("from_id", collection_id)
-    .order("order", { ascending: true, nullsFirst: false })
-    .limit(limit);
+      let out = `# ${collection.name}\n\n`;
+      out += `**Type**: ${collection.type}${collection.year ? `  **Year**: ${collection.year}` : ""}  **Items**: ${filtered.length}\n\n`;
+      filtered.forEach((r: any, i: number) => {
+        const e = r.entities;
+        out += `${i + 1}. **${e.name}** (${e.type})${e.year ? ` — ${e.year}` : ""}\n   ID: ${e.id}\n`;
+      });
 
-  const { data: items, error } = await query;
-
-  if (error) {
-    throw new Error(`Failed to browse collection: ${error.message}`);
-  }
-
-  if (!items || items.length === 0) {
-    return {
-      content: [
-        {
-          type: "text",
-          text: `Collection "${collection.name}" is empty.`,
-        },
-      ],
-    };
-  }
-
-  // Filter by entity_type if specified
-  const filteredItems = entity_type
-    ? items.filter((item: any) => item.entities.type === entity_type)
-    : items;
-
-  if (filteredItems.length === 0) {
-    return {
-      content: [
-        {
-          type: "text",
-          text: `No items of type "${entity_type}" found in collection "${collection.name}".`,
-        },
-      ],
-    };
-  }
-
-  // Format output
-  let output = `# ${collection.name}\n\n`;
-  output += `**Type**: ${collection.type}\n`;
-  if (collection.year) output += `**Year**: ${collection.year}\n`;
-  output += `**Items**: ${filteredItems.length}${entity_type ? ` (type: ${entity_type})` : ""}\n\n`;
-
-  filteredItems.forEach((item: any, idx: number) => {
-    const entity = item.entities;
-    output += `${idx + 1}. **${entity.name}** (${entity.type})`;
-    if (entity.year) output += ` - ${entity.year}`;
-    output += `\n   ID: ${entity.id}\n`;
-  });
-
-  return {
-    content: [
-      {
-        type: "text",
-        text: output,
-      },
-    ],
-  };
+      return { content: [{ type: "text", text: out }] };
+    }
+  );
 }

@@ -51,6 +51,21 @@ docker exec -it supabase_db_database-of-things psql -U postgres -d postgres
 
 **CRITICAL**: Always use `./scripts/safe-migrate` instead of `./bin/supabase db` commands. Direct `db reset` destroys all data without warning.
 
+### Testing
+
+```bash
+# SQL schema tests (requires running Supabase)
+bash tests/run-all-tests.sh
+```
+
+### MCP Server (TypeScript)
+
+```bash
+cd mcp-server && npm install    # Install dependencies
+npm run build                   # Compile TypeScript → build/
+npm run watch                   # Watch mode during development
+```
+
 ### Data Seeding
 
 ```bash
@@ -172,7 +187,7 @@ Embeddings auto-generated when creating entities/images via MCP tools.
 - Text: `Xenova/all-MiniLM-L6-v2` (384d sentence-transformers)
 - Image: `Xenova/clip-vit-base-patch32` (512d CLIP)
 
-**Use MCP `search_collectibles` for semantic search** - handles synonyms and variations properly ("and" vs "&", "pokemon" vs "pokémon").
+**Use MCP `entity_search` for semantic search** - handles synonyms and variations properly ("and" vs "&", "pokemon" vs "pokémon").
 
 ```sql
 -- SQL functions available but have limitations (trigram matching first)
@@ -224,35 +239,43 @@ See `docs/graphql-examples.md` for more examples.
 
 ## MCP Server
 
-Database accessible via MCP tools for both local and production environments.
+Database accessible via MCP tools for both local and production environments. Built on `@modelcontextprotocol/sdk@^1.29.0` using proper MCP primitives: Tools, Resources, and Prompts.
 
-### Available Tools (26 total)
+### Tools (16 total)
 
-**Read (6)**:
-- `search_collectibles` - Semantic search (recommended)
-- `search_by_external_id` - Find by external IDs (deduplication)
-- `get_entity` - Full entity details
-- `browse_collection` - List collection contents
-- `get_variants` - Entity variants
-- `get_components` - Entity components
+**Entity (6)**:
+- `entity_search` - Semantic search (recommended for discovery)
+- `entity_find` - Exact lookup by external ID (deduplication)
+- `entity_get` - Full entity details with parents, children, variants, components
+- `entity_create`, `entity_update`, `entity_delete` - CRUD (create auto-generates text embedding)
 
-**Write (13)**:
-- `create_entity`, `update_entity`, `delete_entity` - Entity CRUD (auto text embeddings)
-- `create_relationship`, `delete_relationship` - Relationships
-- `create_variant`, `update_variant` - Variants
-- `create_component` - Components
-- `localize_image` - Download, thumbnail, CLIP embedding, upload to storage
-- `bulk_localize_images` - Batch image localization (10x faster)
-- `create_image` - Link image to entity
-- `generate_embedding`, `bulk_generate_embeddings` - Backfill only (auto for new)
+**Bulk (1)**:
+- `entities_upsert` - Bulk upsert into a collection: single transaction, deduplication via `external_ids`, parallel image processing, auto embeddings. Use for all curator imports.
 
-**Curator (6)**:
-- `list_curators`, `get_curator_config` - Discovery
-- `run_curator_fetch`, `validate_curator_data`, `get_curator_stats` - Execution
-- `bulk_import_curator_batch` - 100x+ faster bulk import
+**Collections & Relationships (3)**:
+- `collection_browse` - List items inside a collection
+- `relationship_create`, `relationship_delete` - Parent→child graph edges
 
-**Utility (1)**:
-- `list_categories` - Get available categories
+**Variants & Components (5)**:
+- `variant_list`, `variant_create`, `variant_update`
+- `component_list`, `component_create`
+
+**Images (1)**:
+- `image_localize` - Download external image, generate thumbnail + CLIP embedding, upload to Supabase Storage, link to entity
+
+### Resources
+
+Curator specs are exposed as MCP Resources at `curator://{name}`:
+
+```
+curator://Pokemon TCG    # Returns config.json, prompt.md, collection IDs
+```
+
+List all curators: read the `curator://` resource list.
+
+### Prompts
+
+`run_curator(name, env, instructions?)` — fuzzy-matches a curator name and returns a ready-to-execute protocol injected with that curator's spec and collection ID.
 
 ### Environment Prefixes
 
@@ -269,49 +292,39 @@ cp .env.example .env
 source .env && claude
 ```
 
-### Curator-MCP Workflow
+### Bulk Import Workflow
 
-Using `bulk_import_curator_batch` (recommended):
 ```
-1. list_curators() → discover available curators
-2. run_curator_fetch("Pokemon TCG") → fetch 500 items
-3. bulk_import_curator_batch() → ONE call handles all:
-   - Single transaction
-   - Auto deduplication via external_ids
-   - Parallel image processing (10 concurrent)
-   - Auto text/image embeddings
-   - Auto relationship creation
-4. Result: "450 created, 30 updated, 20 skipped" in ~45s
+entities_upsert(collection_id, items) → ONE call handles all:
+  - Single DB transaction via import_curator_batch RPC
+  - Auto deduplication via external_ids
+  - Parallel image processing (configurable concurrency)
+  - Auto text embeddings for new entities
+  Result: { created, updated, skipped, errors } in ~45s for 500 items
 ```
-
-vs individual calls: ~1,850 MCP calls, 15 minutes → **20x faster, 99.9% fewer calls**
 
 ## Curator System
 
 Autonomous agents for importing collectibles data.
 
-### Commands
+### Slash Commands (Claude Code)
 
 - `/curator:init "Name"` - Initialize new curator (interactive discovery)
 - `/curator:run "Name"` - Execute curator import
 - `/curator:status "Name"` - Show collection stats
 
-### Architecture
+### Curator Structure
 
 ```
-Python fetch_data.py → fetched_data.json → Claude MCP import
+.curator/specs/<Name>/
+├── config.json           # type: "agent", collection metadata, dedup strategy
+├── prompt.md             # Instructions: sources, scope, hierarchy, exclusions
+├── secrets.local.env     # Local COLLECTION_ID
+└── secrets.prod.env      # Production COLLECTION_ID
 ```
 
-**Critical**: Always load `run-curator` skill when running curators (autonomous debugging + MCP import).
+**Deduplication**: Uses `external_ids` for exact matching, semantic fallback (0.95+ similarity) when external IDs unavailable.
 
-**Secrets files**:
-- `secrets.env` - Shared API keys
-- `secrets.local.env` - Local collection ID
-- `secrets.prod.env` - Production collection ID
-
-**Deduplication**: Uses `search_by_external_id` for exact matching, semantic fallback (0.95+ similarity) when external IDs unavailable.
-
-See `docs/curator-user-guide.md` and `docs/curator-technical-reference.md` for details.
 
 ## Image Storage
 
@@ -319,7 +332,7 @@ Images in Supabase Storage bucket `images/`:
 - `originals/{uuid}.jpg` - Full resolution (200-500 KB)
 - `thumbnails/{uuid}.webp` - 300x300 WebP (20-50 KB, ~90% savings)
 
-**Use `localize_image` MCP tool** - handles download, thumbnail generation, CLIP embedding, and storage upload automatically.
+**Use `image_localize` MCP tool** - handles download, thumbnail generation, CLIP embedding, and storage upload automatically.
 
 **Bucket config**: Public read, authenticated write, 5MB max, JPEG/PNG/GIF/WebP.
 
@@ -404,5 +417,5 @@ See `docs/migrations.md` for full migration list and tracking.
 - **GraphQL**: `docs/graphql-examples.md` - Query examples
 - **SQL**: `docs/sql-examples.md` - Common queries
 - **Images**: `docs/images.md` - Storage and thumbnails
-- **Curator**: `docs/curator-user-guide.md`, `docs/curator-technical-reference.md`
-- **MCP Server**: `mcp-server/README.md`
+- **Curator specs**: `.curator/specs/<Name>/prompt.md` — each curator's data source and import instructions
+- **MCP Server**: `mcp-server/src/` — Tools in `tools/`, Resources in `resources/`, Prompts in `prompts/`

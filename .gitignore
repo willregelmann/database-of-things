@@ -64,13 +64,13 @@ curator/.env.*
 !curator/.env.*.example
 
 # Curator secrets
-.curator/curators/*/secrets.env
+.curator/specs/*/secrets.env
 
 # Curator temporary files
-.curator/curators/*/fetched_data.json
-.curator/curators/*/dry_run_results.json
-.curator/curators/*/scripts/__pycache__/
-.curator/curators/*/scripts/*.pyc
+.curator/specs/*/fetched_data.json
+.curator/specs/*/dry_run_results.json
+.curator/specs/*/scripts/__pycache__/
+.curator/specs/*/scripts/*.pyc
 .claude/skills/supabase-deployment/scripts/production-data.sql
 
 # Environment files with production credentials

@@ -36,7 +36,7 @@ ON public.curator_collections(curator_name, collection_id);
 
 COMMENT ON TABLE public.curator_collections IS 'Tracks which curators manage which collections. Supports multi-collection curators (e.g., NTSC Video Games serving Game Boy Games, NES Games) and single-collection curators (e.g., Marvel Comics serving Marvel Comics).';
 
-COMMENT ON COLUMN public.curator_collections.curator_name IS 'Name of the curator (matches directory name in .curator/curators/)';
+COMMENT ON COLUMN public.curator_collections.curator_name IS 'Name of the curator (matches directory name in .curator/specs/)';
 
 COMMENT ON COLUMN public.curator_collections.collection_id IS 'Collection entity UUID. Can be NULL for free-floating curators.';
 
