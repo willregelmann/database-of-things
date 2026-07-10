@@ -53,105 +53,98 @@ $$ LANGUAGE plpgsql;
 -- Test: Valid entity creation should succeed
 SELECT run_test(
     'Valid entity creation',
-    $$INSERT INTO entities (type, name) VALUES ('card', 'Test Card')$$,
+    $$INSERT INTO entities (type, name) VALUES ('item', 'Test Item')$$,
     FALSE
+);
+
+-- Test: Invalid entity type (pre-migration value) should fail
+SELECT run_test(
+    'Invalid entity type rejection',
+    $$INSERT INTO entities (type, name) VALUES ('card', 'Test Item')$$,
+    TRUE
+);
+
+-- Test: Valid category should succeed
+SELECT run_test(
+    'Valid category',
+    $$INSERT INTO entities (type, name, category) VALUES ('item', 'Test Item', 'trading_card_games')$$,
+    FALSE
+);
+
+-- Test: Invalid category should fail
+SELECT run_test(
+    'Invalid category rejection',
+    $$INSERT INTO entities (type, name, category) VALUES ('item', 'Test Item', 'not_a_real_category')$$,
+    TRUE
 );
 
 -- Test: Empty name should fail
 SELECT run_test(
     'Empty name rejection',
-    $$INSERT INTO entities (type, name) VALUES ('card', '')$$,
+    $$INSERT INTO entities (type, name) VALUES ('item', '')$$,
     TRUE
 );
 
 -- Test: Whitespace-only name should fail
 SELECT run_test(
     'Whitespace name rejection',
-    $$INSERT INTO entities (type, name) VALUES ('card', '   ')$$,
+    $$INSERT INTO entities (type, name) VALUES ('item', '   ')$$,
     TRUE
 );
 
 -- Test: Invalid year (too old) should fail
 SELECT run_test(
     'Invalid year (too old) rejection',
-    $$INSERT INTO entities (type, name, year) VALUES ('card', 'Old Card', 1799)$$,
+    $$INSERT INTO entities (type, name, year) VALUES ('item', 'Old Item', 1799)$$,
     TRUE
 );
 
 -- Test: Invalid year (future) should fail
 SELECT run_test(
     'Invalid year (future) rejection',
-    $$INSERT INTO entities (type, name, year) VALUES ('card', 'Future Card', 2101)$$,
+    $$INSERT INTO entities (type, name, year) VALUES ('item', 'Future Item', 2101)$$,
     TRUE
 );
 
 -- Test: Invalid country code should fail
 SELECT run_test(
     'Invalid country code rejection',
-    $$INSERT INTO entities (type, name, country) VALUES ('card', 'Test Card', 'USA')$$,
+    $$INSERT INTO entities (type, name, country) VALUES ('item', 'Test Item', 'USA')$$,
     TRUE
 );
 
 -- Test: Valid country code should succeed
 SELECT run_test(
     'Valid country code',
-    $$INSERT INTO entities (type, name, country) VALUES ('card', 'Test Card', 'US')$$,
+    $$INSERT INTO entities (type, name, country) VALUES ('item', 'Test Item', 'US')$$,
     FALSE
 );
 
 -- Test: Invalid language code should fail
 SELECT run_test(
     'Invalid language code rejection',
-    $$INSERT INTO entities (type, name, language) VALUES ('card', 'Test Card', 'eng')$$,
+    $$INSERT INTO entities (type, name, language) VALUES ('item', 'Test Item', 'eng')$$,
     TRUE
 );
 
 -- Test: Valid language code should succeed
 SELECT run_test(
     'Valid language code',
-    $$INSERT INTO entities (type, name, language) VALUES ('card', 'Test Card', 'en')$$,
+    $$INSERT INTO entities (type, name, language) VALUES ('item', 'Test Item', 'en')$$,
     FALSE
-);
-
--- Test: Invalid image_url should fail
-SELECT run_test(
-    'Invalid image_url rejection',
-    $$INSERT INTO entities (type, name, image_url) VALUES ('card', 'Test Card', 'not-a-valid-url')$$,
-    TRUE
-);
-
--- Test: Valid storage path should succeed
-SELECT run_test(
-    'Valid storage path image_url',
-    $$INSERT INTO entities (type, name, image_url) VALUES ('card', 'Test Card', '/storage/v1/object/public/images/originals/test.jpg')$$,
-    FALSE
-);
-
--- Test: Valid HTTP URL should succeed
-SELECT run_test(
-    'Valid HTTP URL image_url',
-    $$INSERT INTO entities (type, name, image_url) VALUES ('card', 'Test Card', 'https://example.com/image.jpg')$$,
-    FALSE
-);
-
--- Test: Thumbnail without image should fail
-SELECT run_test(
-    'Thumbnail without image rejection',
-    $$INSERT INTO entities (type, name, thumbnail_url) VALUES ('card', 'Test Card', '/storage/v1/object/public/images/thumbnails/test.webp')$$,
-    TRUE
 );
 
 -- Test: Invalid external_ids (not an object) should fail
 SELECT run_test(
     'Invalid external_ids (array) rejection',
-    $$INSERT INTO entities (type, name, external_ids) VALUES ('card', 'Test Card', '["not", "an", "object"]'::jsonb)$$,
+    $$INSERT INTO entities (type, name, external_ids) VALUES ('item', 'Test Item', '["not", "an", "object"]'::jsonb)$$,
     TRUE
 );
 
 -- Test: Valid external_ids object should succeed
 SELECT run_test(
     'Valid external_ids object',
-    $$INSERT INTO entities (type, name, external_ids) VALUES ('card', 'Test Card', '{"tcgplayer": "base1-4"}'::jsonb)$$,
+    $$INSERT INTO entities (type, name, external_ids) VALUES ('item', 'Test Item', '{"tcgplayer": "base1-4"}'::jsonb)$$,
     FALSE
 );
 
@@ -162,40 +155,33 @@ SELECT run_test(
 -- Create test entities for relationship tests
 INSERT INTO entities (id, type, name) VALUES
     ('00000000-0000-0000-0000-000000000001', 'collection', 'Test Collection'),
-    ('00000000-0000-0000-0000-000000000002', 'card', 'Test Card');
+    ('00000000-0000-0000-0000-000000000002', 'item', 'Test Item');
 
 -- Test: Valid relationship should succeed
 SELECT run_test(
     'Valid relationship creation',
-    $$INSERT INTO relationships (from_id, to_id, type) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002', 'contains')$$,
+    $$INSERT INTO relationships (from_id, to_id) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002')$$,
     FALSE
 );
 
 -- Test: Self-referential relationship should fail
 SELECT run_test(
     'Self-referential relationship rejection',
-    $$INSERT INTO relationships (from_id, to_id, type) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000001', 'contains')$$,
-    TRUE
-);
-
--- Test: Empty relationship type should fail
-SELECT run_test(
-    'Empty relationship type rejection',
-    $$INSERT INTO relationships (from_id, to_id, type) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002', '')$$,
+    $$INSERT INTO relationships (from_id, to_id) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000001')$$,
     TRUE
 );
 
 -- Test: Negative order should fail
 SELECT run_test(
     'Negative order rejection',
-    $$INSERT INTO relationships (from_id, to_id, type, "order") VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002', 'contains', -1)$$,
+    $$INSERT INTO relationships (from_id, to_id, "order") VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002', -1)$$,
     TRUE
 );
 
 -- Test: Duplicate relationship should fail
 SELECT run_test(
     'Duplicate relationship rejection',
-    $$INSERT INTO relationships (from_id, to_id, type) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002', 'contains')$$,
+    $$INSERT INTO relationships (from_id, to_id) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000002')$$,
     TRUE
 );
 
@@ -204,8 +190,8 @@ SELECT run_test(
 -- ================================================================
 
 -- Test: Deleting entity should cascade to relationships
-INSERT INTO entities (id, type, name) VALUES ('00000000-0000-0000-0000-000000000003', 'card', 'Delete Test');
-INSERT INTO relationships (from_id, to_id, type) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000003', 'contains');
+INSERT INTO entities (id, type, name) VALUES ('00000000-0000-0000-0000-000000000003', 'item', 'Delete Test');
+INSERT INTO relationships (from_id, to_id) VALUES ('00000000-0000-0000-0000-000000000001', '00000000-0000-0000-0000-000000000003');
 
 DELETE FROM entities WHERE id = '00000000-0000-0000-0000-000000000003';
 

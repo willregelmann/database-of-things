@@ -1,5 +1,7 @@
 # Database of Things
 
+[![CI](https://github.com/willregelmann/database-of-things/actions/workflows/ci.yml/badge.svg)](https://github.com/willregelmann/database-of-things/actions/workflows/ci.yml)
+
 A minimal, pure graph database for managing collectibles using PostgreSQL via Supabase.
 
 ## Overview
