@@ -10,7 +10,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
     "sharp": "^0.33.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.4.2",
     "cli-progress": "^3.12.0"
   }
 }
