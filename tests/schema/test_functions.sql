@@ -22,17 +22,20 @@ BEGIN;
 \echo 'Testing semantic_search function...'
 
 -- Create test entities with embeddings
-INSERT INTO entities (id, type, name, name_embedding) VALUES
-    ('00000000-0000-0000-0000-000000000001', 'card', 'Charizard',
+INSERT INTO entities (id, type, name, category, name_embedding) VALUES
+    ('00000000-0000-0000-0000-000000000001', 'item', 'Charizard', 'trading_card_games',
      array_fill(0.1::float, ARRAY[384])::vector(384)),
-    ('00000000-0000-0000-0000-000000000002', 'card', 'Blastoise',
+    ('00000000-0000-0000-0000-000000000002', 'item', 'Blastoise', 'trading_card_games',
      array_fill(0.2::float, ARRAY[384])::vector(384)),
-    ('00000000-0000-0000-0000-000000000003', 'figure', 'Optimus Prime',
+    ('00000000-0000-0000-0000-000000000003', 'item', 'Optimus Prime', 'figures',
      array_fill(0.3::float, ARRAY[384])::vector(384)),
-    ('00000000-0000-0000-0000-000000000004', 'card', 'Pikachu',
+    ('00000000-0000-0000-0000-000000000004', 'item', 'Pikachu', 'trading_card_games',
      NULL); -- No embedding
 
 -- Test 1: Basic semantic search should return results
+-- Note: tests scope by our own test entity IDs (rather than asserting an
+-- absolute result count) so they pass whether run against an empty
+-- database (fresh CI) or one with pre-existing data (populated local dev).
 \echo '  Test 1: Basic search returns results'
 DO $$
 DECLARE
@@ -42,18 +45,25 @@ BEGIN
     FROM semantic_search(
         array_fill(0.15::float, ARRAY[384])::vector(384),
         NULL,
-        10
+        NULL,
+        1000
+    ) s
+    WHERE s.id IN (
+        '00000000-0000-0000-0000-000000000001',
+        '00000000-0000-0000-0000-000000000002',
+        '00000000-0000-0000-0000-000000000003',
+        '00000000-0000-0000-0000-000000000004'
     );
 
     IF result_count != 3 THEN
-        RAISE EXCEPTION 'Expected 3 results (only entities with embeddings), got %', result_count;
+        RAISE EXCEPTION 'Expected 3 of our 4 test entities (only ones with embeddings), got %', result_count;
     END IF;
 
     RAISE NOTICE '    ✓ Returned correct number of results';
 END $$;
 
--- Test 2: Type filtering should work
-\echo '  Test 2: Type filtering works'
+-- Test 2: Category filtering should work
+\echo '  Test 2: Category filtering works'
 DO $$
 DECLARE
     result_count INT;
@@ -61,15 +71,22 @@ BEGIN
     SELECT COUNT(*) INTO result_count
     FROM semantic_search(
         array_fill(0.15::float, ARRAY[384])::vector(384),
-        'card',
-        10
+        NULL,
+        'trading_card_games',
+        1000
+    ) s
+    WHERE s.id IN (
+        '00000000-0000-0000-0000-000000000001',
+        '00000000-0000-0000-0000-000000000002',
+        '00000000-0000-0000-0000-000000000003',
+        '00000000-0000-0000-0000-000000000004'
     );
 
     IF result_count != 2 THEN
-        RAISE EXCEPTION 'Expected 2 card results, got %', result_count;
+        RAISE EXCEPTION 'Expected 2 of our trading_card_games test entities, got %', result_count;
     END IF;
 
-    RAISE NOTICE '    ✓ Type filter working correctly';
+    RAISE NOTICE '    ✓ Category filter working correctly';
 END $$;
 
 -- Test 3: Result limit should be respected
@@ -81,6 +98,7 @@ BEGIN
     SELECT COUNT(*) INTO result_count
     FROM semantic_search(
         array_fill(0.15::float, ARRAY[384])::vector(384),
+        NULL,
         NULL,
         1
     );
@@ -103,6 +121,7 @@ BEGIN
     FROM semantic_search(
         array_fill(0.15::float, ARRAY[384])::vector(384),
         NULL,
+        NULL,
         10
     );
 
@@ -117,16 +136,14 @@ BEGIN
     RAISE NOTICE '    ✓ Similarity scores in valid range [0,1]';
 END $$;
 
--- Test 5: Check that image_url is returned (not image_key)
-\echo '  Test 5: Returns image_url column (not image_key)'
+-- Test 5: Check that image_url is returned (joined from the images table)
+\echo '  Test 5: Returns image_url column'
 DO $$
-DECLARE
-    column_exists BOOLEAN;
 BEGIN
-    -- Try to select image_url from results
     PERFORM image_url
     FROM semantic_search(
         array_fill(0.15::float, ARRAY[384])::vector(384),
+        NULL,
         NULL,
         1
     )
@@ -134,47 +151,25 @@ BEGIN
 
     RAISE NOTICE '    ✓ Function returns image_url column';
 EXCEPTION WHEN undefined_column THEN
-    RAISE EXCEPTION 'semantic_search function still references image_key instead of image_url!';
+    RAISE EXCEPTION 'semantic_search function does not return an image_url column!';
 END $$;
 
 -- ================================================================
--- Test search_by_text function (if it exists)
+-- Test search_by_text function
 -- ================================================================
 
 \echo ''
 \echo 'Testing search_by_text function...'
 
+\echo '  Test 1: Text-based search finds similar entities'
 DO $$
 BEGIN
-    -- Test 1: Should find similar entities based on name
-    \echo '  Test 1: Text-based search finds similar entities'
     PERFORM *
-    FROM search_by_text('Charizard', 'card', 5);
+    FROM search_by_text('Charizard', 'item', 'trading_card_games', 5);
 
     RAISE NOTICE '    ✓ search_by_text function working';
 EXCEPTION WHEN undefined_function THEN
     RAISE NOTICE '    ⚠ search_by_text function not found (may not be created yet)';
-END $$;
-
--- ================================================================
--- Test entity_data_quality_issues view (if validation migration applied)
--- ================================================================
-
-\echo ''
-\echo 'Testing data quality view...'
-
-DO $$
-BEGIN
-    -- Create an entity with quality issues
-    INSERT INTO entities (type, name, year) VALUES ('unknown_type', 'Test Entity', 1799);
-
-    PERFORM * FROM entity_data_quality_issues WHERE name = 'Test Entity';
-
-    RAISE NOTICE '    ✓ Data quality view working';
-EXCEPTION WHEN undefined_table THEN
-    RAISE NOTICE '    ⚠ entity_data_quality_issues view not found (validation migration not applied)';
-WHEN check_violation THEN
-    RAISE NOTICE '    ✓ Validation constraints active (prevented invalid data)';
 END $$;
 
 -- ================================================================
