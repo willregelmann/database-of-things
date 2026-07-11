@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 # Set working directory
 WORKDIR /app
@@ -15,7 +15,7 @@ COPY requirements.txt .
 # Install Python dependencies
 # Using CPU-only torch to reduce image size
 RUN pip install --no-cache-dir -r requirements.txt && \
-    pip install --no-cache-dir torch==2.0.1 --index-url https://download.pytorch.org/whl/cpu
+    pip install --no-cache-dir torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
 
 # Pre-download the model during build to avoid runtime download
 RUN python -c "from sentence_transformers import SentenceTransformer; \
