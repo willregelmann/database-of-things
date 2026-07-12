@@ -20,9 +20,6 @@ Each category carries its own curation guidance right next to its data:
 - **`template.schema.json`** — a JSON Schema for that category's item
   attributes, enforced by CI on every PR.
 
-See [`docs/dbot-target-architecture.md`](docs/dbot-target-architecture.md) for
-the full design and where this is headed.
-
 ## Repository structure
 
 ```
