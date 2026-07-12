@@ -102,7 +102,6 @@ notes on individual items.
 id: 3f4334f3-6a41-45fb-a1c1-dcf44566491e   # stable, generated once, never reused
 name: Charizard
 type: card
-collection: base-set
 number: "4/102"
 rarity: Holo Rare
 year: 1999
@@ -115,8 +114,15 @@ image:
 ```
 
 `attributes` is validated against the collection's `template.schema.json`; the
-top-level fields (`id`, `name`, `type`, `collection`) are structural and validated
-the same way everywhere.
+top-level fields (`id`, `name`, `type`) are structural and validated the same way
+everywhere.
+
+**No `collection:`/`parent_collection:` field.** Parent membership is *derived
+from directory position*, not a hand-typed reference — this file lives in
+`base-set/`, so its parent is whatever `base-set/_collection.yaml` says it is.
+A slug string duplicating that would be a second place for the same fact to go
+stale (rename the directory, forget to bulk-update every child's reference).
+Directory position can't drift from itself.
 
 ### Curation workflow
 
