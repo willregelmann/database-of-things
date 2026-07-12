@@ -267,9 +267,11 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
   what's version-controlled here); what they gave up was the ability to
   reproduce that schema from scratch, which nobody needs anymore since the
   data behind it isn't being carried forward. The MCP server's remaining read
-  tools (research helpers for curators, querying the still-live instance) are
-  a separate, independent decision from this cutover — not blocking, and not
-  blocked by it.
+  tools (research helpers for curators, querying the still-live instance) were
+  a separate, independent decision from this cutover, now resolved: retired
+  rather than repurposed, and removed from this repo. `collections/` is small
+  enough to browse directly, and the legacy data those tools searched isn't
+  being carried forward anyway (see Phase 3 above).
 
 The standalone Agent-SDK curator service remains the long-term target for running
 audits/updates at scale (see `wills-attic/docs/plans/2026-07-12-ai-curator-system-design.md`)
@@ -281,7 +283,4 @@ tools against Postgres, it opens a PR against this repo.
 - Entity file format: YAML chosen for readability/diffability/comments; revisit if
   schema validation tooling or merge-conflict rates make a different format
   preferable.
-- Whether the existing MCP server's 26 tools get repurposed as read-only research
-  helpers for curators (search/lookup while drafting a PR) or retired in favor of
-  plain file edits.
 - Full resolution of the images question above.
