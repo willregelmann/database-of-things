@@ -1,0 +1,10 @@
+id: e2b066cf-f860-43da-b075-09b7c152fbbe
+name: Poké Ball
+type: card
+year: 1999
+attributes:
+  number: "64/64"
+  rarity: Common
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base2/64_hires.png

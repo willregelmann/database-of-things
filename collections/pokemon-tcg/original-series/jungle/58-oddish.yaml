@@ -1,0 +1,10 @@
+id: 91eae803-7947-4be8-a631-33e700fd093e
+name: Oddish
+type: card
+year: 1999
+attributes:
+  number: "58/64"
+  rarity: Common
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base2/58_hires.png
