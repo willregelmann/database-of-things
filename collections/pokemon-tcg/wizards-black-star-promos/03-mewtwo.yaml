@@ -1,0 +1,10 @@
+id: d3ecaff1-98b8-4ef2-a5f6-2607d52d14c7
+name: Mewtwo
+type: card
+year: 1999
+attributes:
+  number: "3/53"
+  rarity: Promo
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/basep/3_hires.png

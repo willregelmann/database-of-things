@@ -96,5 +96,21 @@ GX` card as `Rare Holo EX`).
   expansion, not a retail SKU.
 - Don't confuse *series* with *expansion* — a series (e.g. "Base Series") is
   never a directory that directly contains cards; only an expansion is.
-- Promo cards are not part of any numbered set — they belong in a separate
-  `promos` collection, not shoehorned into the nearest numbered set.
+- Promo cards are not part of any numbered set — they belong in a `promos`
+  collection, not shoehorned into the nearest numbered set. **Whether that
+  `promos` collection is scoped to a series depends on whether the promo
+  line itself was scoped that way at the time.** From the Nintendo era
+  onward, promo lines are explicitly tied to one series — often via a
+  number prefix (e.g. "Mega Evolution Promos" uses `MEP`, distinct from
+  every other series' promo prefix) — and that promo line lives at
+  `<series>/promos/`, a sibling of that series' expansions. But the
+  earliest promo line, the **Wizards Black Star Promos** (1999–2003, #1–53),
+  predates that convention entirely: Wizards never reset or re-scoped the
+  numbering by series, so cards from the Original Series, Neo Series, and
+  e-Card Series eras are interleaved in one continuous run. Don't split it
+  across series directories to force-fit the later convention — file it as
+  its own top-level collection, `pokemon-tcg/wizards-black-star-promos/`,
+  a sibling of `original-series/` rather than nested inside it. Whichever
+  form a `promos` collection takes, treat it like any other expansion-level
+  directory: it needs its own `_collection.yaml` and contains card files
+  directly (promo numbering is promo-specific, not tied to any expansion).
