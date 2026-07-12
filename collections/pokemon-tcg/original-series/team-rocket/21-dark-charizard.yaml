@@ -1,0 +1,10 @@
+id: a0b5d463-4060-4f96-bd9e-299615fe8260
+name: Dark Charizard
+type: card
+year: 2000
+attributes:
+  number: "21/82"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base5/21_hires.png

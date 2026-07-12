@@ -1,0 +1,10 @@
+id: 07641061-f863-43b4-8c06-0b56cc0bc22a
+name: Magikarp
+type: card
+year: 2000
+attributes:
+  number: "47/82"
+  rarity: Uncommon
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/base5/47_hires.png
