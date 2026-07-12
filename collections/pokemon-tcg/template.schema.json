@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pokemon TCG card attributes",
+  "type": "object",
+  "properties": {
+    "hp": { "type": "integer", "minimum": 10 },
+    "stage": {
+      "type": "string",
+      "enum": ["Basic", "Stage 1", "Stage 2", "VMAX", "VSTAR", "ex", "GX", "V"]
+    },
+    "card_type": {
+      "type": "string",
+      "enum": [
+        "Grass", "Fire", "Water", "Lightning", "Psychic", "Fighting",
+        "Darkness", "Metal", "Fairy", "Dragon", "Colorless",
+        "Trainer", "Energy"
+      ]
+    },
+    "retreat_cost": { "type": "integer", "minimum": 0 },
+    "illustrator": { "type": "string" }
+  },
+  "required": ["card_type"],
+  "additionalProperties": true
+}

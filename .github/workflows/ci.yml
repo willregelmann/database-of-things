@@ -44,3 +44,21 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+
+  collections-validate:
+    name: Validate collections data
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/collections-validate
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/collections-validate/package-lock.json
+
+      - run: npm ci
+      - run: npm run validate
