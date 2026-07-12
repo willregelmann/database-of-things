@@ -1,0 +1,10 @@
+id: cb2ac6f3-d8d9-4030-898f-fd64384abcce
+name: Krabby
+type: card
+year: 1999
+attributes:
+  number: "51/62"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base3/51_hires.png

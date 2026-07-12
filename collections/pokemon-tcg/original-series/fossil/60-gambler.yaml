@@ -1,0 +1,10 @@
+id: c37e76c6-e970-4f09-b6ac-1cfdfbab3507
+name: Gambler
+type: card
+year: 1999
+attributes:
+  number: "60/62"
+  rarity: Common
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base3/60_hires.png
