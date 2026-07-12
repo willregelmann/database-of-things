@@ -1,7 +1,7 @@
 # DBoT Target Architecture: GitHub Repo as Source of Truth
 
 **Date**: 2026-07-11
-**Status**: Proposed (Phase 1 scaffolding in progress)
+**Status**: Proposed (Phases 1–2 shipped, see Migration phases below)
 **Supersedes**: `docs/rearchitecture-plan.md` (2026-05-29) — see that file's banner.
 
 ## Summary
@@ -205,17 +205,26 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
   build the validator + CI wiring, build the curator-facing tooling to add/edit
   entries in the new format. Purely additive: the existing Supabase-backed system
   keeps running untouched, nothing in production changes.
-- **Phase 2** — in `wills-attic`/`attic-api`: stand up the mirror schema in Supabase
-  as new tables alongside the old ones, add `dbot_sync_state`, and build the
-  `dbot:sync` command described above. Nothing in `database-of-things` changes for
-  this phase. No cutover yet.
+- **Phase 2 (shipped)** — in `wills-attic`/`attic-api`: `dbot_entities` and
+  `dbot_sync_state` tables plus the `dbot:sync` command described above.
+  **Correction from the original plan below**: these tables were added as ordinary
+  Laravel migrations, which means they live in attic-api's *existing* Postgres
+  (the separate Railway instance, alongside `users`/`user_items`/etc.) rather than
+  in Supabase directly. Standing up a second live DB connection to Supabase for
+  just this table, only to fold it into the same connection again a phase later
+  in Phase 4, was extra transitional complexity for no lasting benefit — the
+  mirror is co-located with attic-api's app data now, and both move to Supabase
+  together in one cutover instead of two. Nothing in `database-of-things` changed
+  for this phase.
 - **Phase 3** — migrate one real, already-verified collection into the new format
   (candidate: "Base" Pokémon — recently audited complete at 102/102 cards) and run
   the sync end-to-end against a non-prod mirror; diff against the live GraphQL data
   for parity before trusting it further.
-- **Phase 4** — migrate attic-api's own app tables (`users`, `user_items`,
-  `wishlists`, `user_collection_favorites`, `api_tokens`) from the separate Railway
-  Postgres into this same Supabase project. Point attic-api's DB connection at it.
+- **Phase 4** — migrate attic-api's *entire* database — its own app tables
+  (`users`, `user_items`, `wishlists`, `user_collection_favorites`, `api_tokens`,
+  plus `dbot_entities`/`dbot_sync_state` from Phase 2) — from the separate Railway
+  Postgres into the Supabase project in one move. Point attic-api's DB connection
+  at it.
 - **Phase 5** — cut over attic-api's canonical-data reads from
   `DatabaseOfThingsService` (GraphQL-over-HTTP) to direct SQL against the mirror
   tables in the same connection.
