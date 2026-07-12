@@ -15,14 +15,16 @@ transparent git repo with a CI job that checks data quality. It has no database,
 no secrets, and no knowledge that Will's Attic or Supabase exist. Anyone could
 clone it and use it for something else entirely.
 
-Separately, the Supabase project that currently hosts DBoT's Postgres gets
-**repurposed** as Will's Attic's own application database. It stops being "the
-database curators write to" and becomes "the database attic-api reads and writes
-directly" — holding both user data (currently on a separate Railway Postgres) and a
-synced, read-only mirror of this repo's canonical data. **Will's Attic owns the
-sync**: attic-api is the platform that needs to be performant, so it's the one that
-pulls from DBoT on its own schedule, at its own tolerance for staleness. DBoT never
-pushes anywhere and never holds credentials to anything of Will's Attic's.
+Separately, Will's Attic gets **its own** consolidated database — a Railway
+Postgres, not the Supabase project DBoT used to run on (that project's data is
+being discarded, not inherited; see Phase 3 below, and see
+`wills-attic`'s Phase 4 design doc for why Supabase was dropped from that plan
+entirely). That database holds both user data (currently on a separate Railway
+Postgres) and a synced, read-only mirror of this repo's canonical data.
+**Will's Attic owns the sync**: attic-api is the platform that needs to be
+performant, so it's the one that pulls from DBoT on its own schedule, at its
+own tolerance for staleness. DBoT never pushes anywhere and never holds
+credentials to anything of Will's Attic's.
 
 ## Why
 
@@ -37,7 +39,7 @@ pushes anywhere and never holds credentials to anything of Will's Attic's.
 - **One database, not three moving parts.** Today attic-api's own data lives in a
   Railway Postgres, canonical data lives in a separate Supabase Postgres, and every
   canonical read is a network hop through a GraphQL API in between. Consolidating
-  onto one Postgres (Supabase, repurposed) removes a service boundary and a
+  onto one Postgres (attic-api's own, on Railway) removes a service boundary and a
   network hop for no loss of correctness — the *real* source of truth for canonical
   data is moving to git, so the database was never the durable record anyway; it's
   just a cache.
@@ -49,9 +51,9 @@ pushes anywhere and never holds credentials to anything of Will's Attic's.
 | Store | Role | Written by |
 |---|---|---|
 | `database-of-things` (this GitHub repo) | Source of truth for canonical collectibles data | Curator PRs (human or AI), reviewed and merged |
-| Supabase Postgres (repurposed) | Will's Attic's application database | (a) attic-api directly, for user data. (b) attic-api's own sync command, for the canonical-data mirror — never edited by hand, never by anything in DBoT |
+| Railway Postgres (attic-api's own) | Will's Attic's application database | (a) attic-api directly, for user data. (b) attic-api's own sync command, for the canonical-data mirror — never edited by hand, never by anything in DBoT |
 
-attic-api connects to the Supabase Postgres directly for **everything** — its own
+attic-api connects to its own Postgres directly for **everything** — its own
 user tables and the canonical-data mirror both live there. The mirror is rebuilt
 from git; if it's ever wrong, the fix is a PR to this repo, not a manual DB edit.
 
@@ -135,8 +137,8 @@ Directory position can't drift from itself.
    a live query).
 4. Merge to `main`.
 5. On its own schedule, attic-api's sync command checks whether `main` has moved
-   since the last sync, and if so pulls and upserts the changed entities into the
-   Supabase mirror, keyed on `id`. Because git is the source of truth, the mirror
+   since the last sync, and if so pulls and upserts the changed entities into
+   its mirror, keyed on `id`. Because git is the source of truth, the mirror
    can always be thrown away and rebuilt from a full repo scan — it's a cache, not
    a record. DBoT does nothing here; there is no push, no webhook, no CI step
    reaching out to Will's Attic. attic-api reaches in, on its own terms, and can
@@ -170,25 +172,30 @@ Flagged as a real challenge, not yet solved:
 
 - Binary images should **not** live in the git repo — it bloats history, makes PR
   diffs noisy, and Git LFS has its own cost/complexity. An entity file should
-  reference an image (`source_url`, or a stable key), not embed it.
-- The current system already has a working image pipeline — Supabase Storage with
-  originals + generated thumbnails. That can very likely keep serving this purpose
-  as "where image bytes live," decoupled from where the *metadata* about which
-  image belongs to which entity lives (that part moves to git, like everything
-  else).
-- Open questions to resolve before Phase 2: who fetches a `source_url` into Storage
-  the first time (the sync job, or a separate step?), how re-localization/thumbnail
-  regeneration is triggered when an entity's image reference changes in a PR, and
-  what happens to the ~existing images already in Storage for currently-live
-  collections during migration.
+  reference an image (`source_url`, or a stable key), not embed it. In practice
+  today, `source_url` points at a genuinely external source (e.g. Pokémon
+  TCG's public image CDN for the migrated Base Set cards) — not at any
+  DBoT-adjacent storage.
+- **No longer assumed**: the old plan here was "Supabase Storage can keep
+  serving as where image bytes live," but that assumed Will's Attic was
+  reusing the Supabase project DBoT ran on. It isn't (see Summary) — so where
+  image *bytes* live for entities that reference something other than a
+  stable public CDN URL is genuinely unresolved again, not just deferred.
+  Likely candidates: attic-api's own existing image storage (it already has
+  one, for user-uploaded images), or nothing at all if every entity can
+  reference a stable external URL directly.
+- Open question: who (if anyone) ever needs to fetch/localize a `source_url`
+  rather than just reference it directly, and how re-localization/thumbnail
+  regeneration would be triggered if so.
 
 ### What changes for attic-api / the "never write to DBoT" rule
 
 The rule doesn't go away, it just stops being enforced by a network boundary:
 
-- **"Never write to DBoT" now means "never write to the canonical-mirror tables in
-  Supabase directly."** The only legitimate writer of those tables is attic-api's
-  own sync command. The only way to change canonical data is a PR to this repo.
+- **"Never write to DBoT" now means "never write to the canonical-mirror tables
+  in attic-api's database directly."** The only legitimate writer of those
+  tables is attic-api's own sync command. The only way to change canonical
+  data is a PR to this repo.
 - Because the sync command and the rest of attic-api share both a Postgres
   instance *and* a codebase, this is no longer a network/service boundary — it's a
   convention enforced by code review: application code reads the mirror tables,
@@ -209,13 +216,14 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
   `dbot_sync_state` tables plus the `dbot:sync` command described above.
   **Correction from the original plan below**: these tables were added as ordinary
   Laravel migrations, which means they live in attic-api's *existing* Postgres
-  (the separate Railway instance, alongside `users`/`user_items`/etc.) rather than
-  in Supabase directly. Standing up a second live DB connection to Supabase for
-  just this table, only to fold it into the same connection again a phase later
+  (the separate Railway instance, alongside `users`/`user_items`/etc.) rather
+  than in a separate connection. Standing up a second live DB connection just
+  for this table, only to fold it into the same connection again a phase later
   in Phase 4, was extra transitional complexity for no lasting benefit — the
-  mirror is co-located with attic-api's app data now, and both move to Supabase
-  together in one cutover instead of two. Nothing in `database-of-things` changed
-  for this phase.
+  mirror is co-located with attic-api's app data now, and both move together
+  in one cutover instead of two (Phase 4's target itself later changed — see
+  below — but this reasoning held regardless of what that target turned out
+  to be). Nothing in `database-of-things` changed for this phase.
 - **Phase 3 (resolved)** — migrate real, already-verified collections into the
   new format and prove the sync end-to-end against production for parity. Base
   Set Pokémon (102/102 cards) shipped as the proof of concept. Scoping the rest
@@ -229,34 +237,39 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
   Supabase schema/data no longer needs preserving *at all* — see below.
 - **Phase 4** — migrate attic-api's *entire* database — its own app tables
   (`users`, `user_items`, `wishlists`, `user_collection_favorites`, `api_tokens`,
-  plus `dbot_entities`/`dbot_sync_state` from Phase 2) — from the separate Railway
-  Postgres into the Supabase project in one move. Point attic-api's DB connection
-  at it. Independent of Phase 5 below — this consolidates *where* attic-api's own
+  plus `dbot_entities`/`dbot_sync_state` from Phase 2) — from its current Railway
+  Postgres into a **new, pgvector-enabled Railway Postgres** (not the legacy
+  Supabase project — see Summary; see `wills-attic`'s Phase 4 design doc for
+  the full reasoning and mechanics). Point attic-api's DB connection at it.
+  Independent of Phase 5 below — this consolidates *where* attic-api's own
   database lives, not what it reads for canonical data.
 - **Phase 5** — cut over attic-api's canonical-data reads from
-  `DatabaseOfThingsService` (GraphQL-over-HTTP) to direct SQL against the mirror
-  tables. This is the real gate on removing Supabase from `database-of-things` —
-  until it's done, Supabase has to stay up and correctly schema'd. Requires more
-  than copying data over; `DatabaseOfThingsService` does things the mirror can't
-  serve yet:
+  `DatabaseOfThingsService` (GraphQL-over-HTTP against the legacy Supabase
+  project) to direct SQL against the mirror tables. This is the real gate on
+  ever decommissioning that legacy project — until it's done, it has to stay
+  up and correctly schema'd. Requires more than copying data over;
+  `DatabaseOfThingsService` does things the mirror can't serve yet:
   - **Search** — needs an actual index over the mirror (pg_trgm or full-text at
     minimum); the mirror today has no index beyond its primary key.
-  - **Semantic search — open decision, not just engineering.** Its embedding
-    generation lived in `services/embedding-worker`, already deleted from this
-    repo. Does attic-api build its own embedding pipeline (text, and/or reuse the
-    `clip-service` image-embedding pattern it already has), or is semantic search
-    dropped/simplified (e.g. to plain text search) as part of this migration?
+  - **Semantic search — decided**: attic-api builds its own embedding pipeline
+    (pgvector on the new Phase 4 Postgres, per above) rather than dropping
+    semantic search or trying to keep the deleted `services/embedding-worker`
+    alive. Design of that pipeline itself is separate, later work.
   - **Hierarchy** — `collection_path` as a flat string on `dbot_entities` likely
     can't replace what `relationships`/parent-child traversal, item-parents
-    lookup, and collection filter fields do today. Probably needs an explicit
-    `parent_id` or relationships shape added to the mirror schema.
+    lookup, and collection filter fields do today. Scoped separately in
+    `wills-attic`'s hierarchy schema design doc: an explicit `parent_id` +
+    `sort_order`, resolved by a post-sync pass — confirmed sufficient
+    (multi-parent membership checked and found unused in production).
   - **Representative images** (BFS descendant-image lookup) — needs an equivalent
     query path against the mirror's hierarchy once that exists.
-- **Phase 6** — decommission the *live* Supabase project (the actual running
-  database and its GraphQL surface) and the separate Railway app-Postgres.
-  Finalize the images answer. Still gated on Phase 5 — attic-api reads that
-  live instance directly over HTTPS today, so it has to stay up and correctly
-  populated until nothing depends on it anymore.
+- **Phase 6** — decommission the legacy Supabase project (the actual running
+  database and its GraphQL surface — the one this repo's own copy of the
+  schema, removed in Phase 3, used to describe) and the old Railway
+  app-Postgres from before Phase 4. Finalize the images answer. Still gated on
+  Phase 5 — attic-api reads that legacy Supabase instance directly over HTTPS
+  today, so it has to stay up and correctly populated until nothing depends on
+  it anymore.
 
   **Note**: this repo's own copy of the schema — `supabase/migrations/`,
   `supabase/config.toml`, `bin/` (the local Supabase CLI), `tests/`, the
