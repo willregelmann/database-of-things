@@ -33,6 +33,24 @@ nested under its series): move it, don't recreate it — `git mv <expansion>/
 <series>/<expansion>/`. Card `id`s, filenames, and content are untouched by the
 move; only the path changes.
 
+## Collection records
+
+Every `_collection.yaml` in this category — category, series, and expansion
+level alike — carries two fields beyond the baseline `id`/`name`/`type`:
+
+- `category: Trading Card Games` — same value at every level.
+- `description` — a short prose blurb of context (release history, scope,
+  what it spans). Match the tone of existing `_collection.yaml` files.
+
+Neither is required by the schema, but every existing record has both —
+include them when adding a new series or expansion.
+
+Expansions also carry `image.source_url` pointing at the set's official
+logo/box art (e.g. the Pokémon TCG API's `images.logo` for that set) when one
+exists. Series records usually don't get one — most series (e.g. "Original
+Series") are retroactive groupings with no single official logo to point to;
+don't invent one.
+
 ## Identifying items
 
 Cards are identified by their **collector number within a set**, formatted as

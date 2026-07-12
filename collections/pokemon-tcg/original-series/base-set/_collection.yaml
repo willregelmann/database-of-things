@@ -1,5 +1,13 @@
 id: 208cdcbd-e291-458d-98ca-632bccf36614
 name: Base Set
 type: collection
+category: Trading Card Games
+description: >
+  The first Pokémon Trading Card Game expansion released in English, published
+  by Wizards of the Coast on January 9, 1999. Spans 102 cards drawn from the
+  original 151 Pokémon and introduced iconic cards like Charizard to players
+  outside Japan.
 year: 1999
 total_cards: 102
+image:
+  source_url: https://images.pokemontcg.io/base1/logo.png
