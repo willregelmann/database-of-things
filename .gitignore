@@ -55,22 +55,6 @@ Thumbs.db
 *.tmp
 .cache/
 
-# Curator system
-curator/.env
-curator/.env.local
-curator/.env.production
-curator/.env.staging
-curator/.env.*
-!curator/.env.*.example
-
-# Curator secrets
-.curator/specs/*/secrets.env
-
-# Curator temporary files
-.curator/specs/*/fetched_data.json
-.curator/specs/*/dry_run_results.json
-.curator/specs/*/scripts/__pycache__/
-.curator/specs/*/scripts/*.pyc
 .claude/skills/supabase-deployment/scripts/production-data.sql
 
 # Environment files with production credentials
@@ -81,5 +65,3 @@ docs/plans/
 .mcp.json
 
 *.env
-
-.curator/adhoc/

@@ -64,9 +64,7 @@ open http://127.0.0.1:54323
 ├── supabase/                       # Supabase configuration
 │   ├── config.toml                 # Supabase config
 │   └── migrations/                 # Database migrations
-├── .curator/                       # Curator system
-│   ├── curators/                   # Collection-specific curators
-│   └── lib/                        # Shared utilities
+├── collections/                    # Canonical data — source of truth, curated via PRs
 ├── CLAUDE.md                       # Project guidelines for AI
 ├── MIGRATION_STATUS.md             # Migration tracking status
 └── THUMBNAIL_QUICKSTART.md         # Image optimization guide

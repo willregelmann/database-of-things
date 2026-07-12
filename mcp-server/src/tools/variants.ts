@@ -33,38 +33,4 @@ export function register(server: McpServer) {
       return { content: [{ type: "text", text: out }] };
     }
   );
-
-  server.tool(
-    "variant_create",
-    "Create a variant of an entity (e.g. a 1st Edition printing of a card).",
-    {
-      variant_of: z.string().uuid().describe("Base entity UUID"),
-      name: z.string().describe("Variant name (e.g. '1st Edition', 'Shadowless')"),
-      attributes: z.record(z.unknown()).optional().describe("Variant metadata (edition, condition, etc.)"),
-    },
-    async ({ variant_of, name, attributes }) => {
-      const { data, error } = await supabase
-        .from("variants")
-        .insert({ variant_of, name, attributes: attributes ?? {} })
-        .select("id")
-        .single();
-      if (error) return { content: [{ type: "text", text: JSON.stringify({ success: false, error: error.message }, null, 2) }] };
-      return { content: [{ type: "text", text: JSON.stringify({ success: true, variant_id: data.id }, null, 2) }] };
-    }
-  );
-
-  server.tool(
-    "variant_update",
-    "Update a variant's name or attributes.",
-    {
-      variant_id: z.string().uuid().describe("Variant UUID"),
-      name: z.string().optional(),
-      attributes: z.record(z.unknown()).optional(),
-    },
-    async ({ variant_id, ...updates }) => {
-      const { error } = await supabase.from("variants").update(updates).eq("id", variant_id);
-      if (error) return { content: [{ type: "text", text: JSON.stringify({ success: false, error: error.message }, null, 2) }] };
-      return { content: [{ type: "text", text: JSON.stringify({ success: true }, null, 2) }] };
-    }
-  );
 }

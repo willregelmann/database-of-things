@@ -12,7 +12,10 @@ A minimal, pure graph database for managing collectibles using PostgreSQL via Su
 - Pure graph model for maximum flexibility (many-to-many relationships, arbitrary nesting)
 - Minimal metadata by design - focus on coverage and relationships over exhaustive details
 - Source attribution via `source_url` and `external_ids` for data provenance
-- Automated curator system for imports, updates, and reconciliation
+- Canonical data curation is moving to `collections/` in this repo, via PRs — see
+  `docs/dbot-target-architecture.md`. This Supabase project still holds the live
+  legacy schema below (read-only via GraphQL for existing consumers) but is no
+  longer where curators write; it's slated for eventual retirement/repurposing.
 
 **Not optimizing for**:
 - Exhaustive metadata (that's what source links are for)
@@ -241,41 +244,22 @@ See `docs/graphql-examples.md` for more examples.
 
 Database accessible via MCP tools for both local and production environments. Built on `@modelcontextprotocol/sdk@^1.29.0` using proper MCP primitives: Tools, Resources, and Prompts.
 
-### Tools (16 total)
+### Tools (6 total, read-only)
 
-**Entity (6)**:
+Write tools were removed once canonical data curation moved to `collections/` +
+PRs (see `docs/dbot-target-architecture.md`) — nothing should write to this
+database directly anymore.
+
+**Entity (3)**:
 - `entity_search` - Semantic search (recommended for discovery)
 - `entity_find` - Exact lookup by external ID (deduplication)
 - `entity_get` - Full entity details with parents, children, variants, components
-- `entity_create`, `entity_update`, `entity_delete` - CRUD (create auto-generates text embedding)
 
-**Bulk (1)**:
-- `entities_upsert` - Bulk upsert into a collection: single transaction, deduplication via `external_ids`, parallel image processing, auto embeddings. Use for all curator imports.
-
-**Collections & Relationships (3)**:
+**Collections (1)**:
 - `collection_browse` - List items inside a collection
-- `relationship_create`, `relationship_delete` - Parent→child graph edges
 
-**Variants & Components (5)**:
-- `variant_list`, `variant_create`, `variant_update`
-- `component_list`, `component_create`
-
-**Images (1)**:
-- `image_localize` - Download external image, generate thumbnail + CLIP embedding, upload to Supabase Storage, link to entity
-
-### Resources
-
-Curator specs are exposed as MCP Resources at `curator://{name}`:
-
-```
-curator://Pokemon TCG    # Returns config.json, prompt.md, collection IDs
-```
-
-List all curators: read the `curator://` resource list.
-
-### Prompts
-
-`run_curator(name, env, instructions?)` — fuzzy-matches a curator name and returns a ready-to-execute protocol injected with that curator's spec and collection ID.
+**Variants & Components (2)**:
+- `variant_list`, `component_list`
 
 ### Environment Prefixes
 
@@ -292,47 +276,14 @@ cp .env.example .env
 source .env && claude
 ```
 
-### Bulk Import Workflow
-
-```
-entities_upsert(collection_id, items) → ONE call handles all:
-  - Single DB transaction via import_curator_batch RPC
-  - Auto deduplication via external_ids
-  - Parallel image processing (configurable concurrency)
-  - Auto text embeddings for new entities
-  Result: { created, updated, skipped, errors } in ~45s for 500 items
-```
-
-## Curator System
-
-Autonomous agents for importing collectibles data.
-
-### Slash Commands (Claude Code)
-
-- `/curator:init "Name"` - Initialize new curator (interactive discovery)
-- `/curator:run "Name"` - Execute curator import
-- `/curator:status "Name"` - Show collection stats
-
-### Curator Structure
-
-```
-.curator/specs/<Name>/
-├── config.json           # type: "agent", collection metadata, dedup strategy
-├── prompt.md             # Instructions: sources, scope, hierarchy, exclusions
-├── secrets.local.env     # Local COLLECTION_ID
-└── secrets.prod.env      # Production COLLECTION_ID
-```
-
-**Deduplication**: Uses `external_ids` for exact matching, semantic fallback (0.95+ similarity) when external IDs unavailable.
-
-
 ## Image Storage
 
 Images in Supabase Storage bucket `images/`:
 - `originals/{uuid}.jpg` - Full resolution (200-500 KB)
 - `thumbnails/{uuid}.webp` - 300x300 WebP (20-50 KB, ~90% savings)
 
-**Use `image_localize` MCP tool** - handles download, thumbnail generation, CLIP embedding, and storage upload automatically.
+How images get populated under the new `collections/`-based model is still an
+open question — see the Images section of `docs/dbot-target-architecture.md`.
 
 **Bucket config**: Public read, authenticated write, 5MB max, JPEG/PNG/GIF/WebP.
 
@@ -417,5 +368,5 @@ See `docs/migrations.md` for full migration list and tracking.
 - **GraphQL**: `docs/graphql-examples.md` - Query examples
 - **SQL**: `docs/sql-examples.md` - Common queries
 - **Images**: `docs/images.md` - Storage and thumbnails
-- **Curator specs**: `.curator/specs/<Name>/prompt.md` — each curator's data source and import instructions
-- **MCP Server**: `mcp-server/src/` — Tools in `tools/`, Resources in `resources/`, Prompts in `prompts/`
+- **DBoT target architecture**: `docs/dbot-target-architecture.md` — canonical data curation model
+- **MCP Server**: `mcp-server/src/` — read-only tools in `tools/`
