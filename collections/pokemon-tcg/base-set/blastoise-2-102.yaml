@@ -1,13 +1,10 @@
-id: cef3eb77-1caf-40d1-9a5e-f5af25247b92
+id: 4ca90ffe-7c94-46c9-911d-5e15ba9bd678
 name: Blastoise
 type: card
 number: "2/102"
 rarity: Holo Rare
 year: 1999
 attributes:
-  hp: 100
-  stage: Stage 2
-  card_type: Water
-  retreat_cost: 3
+  illustrator: Ken Sugimori
 image:
-  source_url: https://images.pokemontcg.io/base1/2_hires.png
+  source_url: https://cogxqhlogmagvgicaccg.supabase.co/storage/v1/object/public/images/4ca90ffe-7c94-46c9-911d-5e15ba9bd678.png

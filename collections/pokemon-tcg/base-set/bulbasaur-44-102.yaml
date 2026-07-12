@@ -1,0 +1,10 @@
+id: a707db22-0b5c-4126-a0ec-5d672bebaa40
+name: Bulbasaur
+type: card
+number: "44/102"
+rarity: Common
+year: 1999
+attributes:
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://cogxqhlogmagvgicaccg.supabase.co/storage/v1/object/public/images/a707db22-0b5c-4126-a0ec-5d672bebaa40.png
