@@ -1,0 +1,10 @@
+id: 3c31c135-348b-46c6-b773-5067f3317b7b
+name: Oddish
+type: card
+year: 2000
+attributes:
+  number: "63/82"
+  rarity: Common
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/base5/63_hires.png

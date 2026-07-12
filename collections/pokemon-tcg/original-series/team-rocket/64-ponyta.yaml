@@ -1,0 +1,10 @@
+id: 6fe60e01-8a9b-4402-98d5-e9466a0fdf4f
+name: Ponyta
+type: card
+year: 2000
+attributes:
+  number: "64/82"
+  rarity: Common
+  illustrator: Atsuko Nishida
+image:
+  source_url: https://images.pokemontcg.io/base5/64_hires.png
