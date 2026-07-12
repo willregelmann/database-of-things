@@ -20,17 +20,3 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "chore"
-
-  - package-ecosystem: "docker"
-    directory: "/services/embedding-worker"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "chore"
-
-  - package-ecosystem: "pip"
-    directory: "/services/embedding-worker"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "chore"
