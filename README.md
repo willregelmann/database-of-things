@@ -37,11 +37,6 @@ collections/                  # the data — see collections/README.md
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
 .claude/skills/collections-curate/  # agent tooling for adding/editing entries
-mcp-server/                    # read-only research tools (search, browse,
-                                # variants, components) for curators drafting
-                                # a PR — queries the legacy Supabase instance
-                                # this data used to live in; that instance is
-                                # not the source of truth anymore
 docs/                          # design docs
 ```
 
