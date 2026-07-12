@@ -1,0 +1,14 @@
+id: 3f4334f3-6a41-45fb-a1c1-dcf44566491e
+name: Charizard
+type: card
+collection: base-set
+number: "4/102"
+rarity: Holo Rare
+year: 1999
+attributes:
+  hp: 120
+  stage: Stage 2
+  card_type: Fire
+  retreat_cost: 3
+image:
+  source_url: https://images.pokemontcg.io/base1/4_hires.png
