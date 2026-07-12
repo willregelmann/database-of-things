@@ -1,0 +1,10 @@
+id: cf9a7188-23d3-4b98-8009-fa59d47285dc
+name: Pikachu
+type: card
+year: 1999
+attributes:
+  number: "60/64"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base2/60_hires.png

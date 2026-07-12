@@ -1,0 +1,10 @@
+id: b2d09403-d96e-420a-8bb9-96614ea445fa
+name: Persian
+type: card
+year: 1999
+attributes:
+  number: "42/64"
+  rarity: Uncommon
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/base2/42_hires.png

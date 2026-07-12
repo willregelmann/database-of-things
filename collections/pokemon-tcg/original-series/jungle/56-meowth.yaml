@@ -1,0 +1,10 @@
+id: 5da80bae-b808-4aa0-a380-7767894607e8
+name: Meowth
+type: card
+year: 1999
+attributes:
+  number: "56/64"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base2/56_hires.png

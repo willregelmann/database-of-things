@@ -1,0 +1,10 @@
+id: b77c0e61-e96c-4544-b48a-87bd45fa7ad3
+name: Venomoth
+type: card
+year: 1999
+attributes:
+  number: "29/64"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base2/29_hires.png
