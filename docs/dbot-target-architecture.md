@@ -10,14 +10,19 @@ Database of Things (DBoT) stops being a Postgres database that curators write to
 directly. It becomes **this public GitHub repo**: canonical collectibles data lives
 as files, curators (human or AI) propose changes as pull requests, and each
 collection carries its own `AGENTS.md` (curation hints) and item property template
-right next to its data.
+right next to its data. DBoT itself stays deliberately dumb — a plain, public,
+transparent git repo with a CI job that checks data quality. It has no database,
+no secrets, and no knowledge that Will's Attic or Supabase exist. Anyone could
+clone it and use it for something else entirely.
 
 Separately, the Supabase project that currently hosts DBoT's Postgres gets
 **repurposed** as Will's Attic's own application database. It stops being "the
 database curators write to" and becomes "the database attic-api reads and writes
 directly" — holding both user data (currently on a separate Railway Postgres) and a
-synced, read-only mirror of this repo's canonical data. attic-api talks to it with a
-normal DB connection, not an HTTP/GraphQL round trip to a different service.
+synced, read-only mirror of this repo's canonical data. **Will's Attic owns the
+sync**: attic-api is the platform that needs to be performant, so it's the one that
+pulls from DBoT on its own schedule, at its own tolerance for staleness. DBoT never
+pushes anywhere and never holds credentials to anything of Will's Attic's.
 
 ## Why
 
@@ -44,11 +49,16 @@ normal DB connection, not an HTTP/GraphQL round trip to a different service.
 | Store | Role | Written by |
 |---|---|---|
 | `database-of-things` (this GitHub repo) | Source of truth for canonical collectibles data | Curator PRs (human or AI), reviewed and merged |
-| Supabase Postgres (repurposed) | Will's Attic's application database | (a) attic-api directly, for user data. (b) A sync job only, for the canonical-data mirror — never edited by hand, never by attic-api |
+| Supabase Postgres (repurposed) | Will's Attic's application database | (a) attic-api directly, for user data. (b) attic-api's own sync command, for the canonical-data mirror — never edited by hand, never by anything in DBoT |
 
 attic-api connects to the Supabase Postgres directly for **everything** — its own
 user tables and the canonical-data mirror both live there. The mirror is rebuilt
 from git; if it's ever wrong, the fix is a PR to this repo, not a manual DB edit.
+
+**No submodule.** Pinning "which DBoT commit is our cache built from" doesn't need
+a git submodule (extra clone/init steps, easy to silently drift). attic-api stores
+the last-synced commit SHA itself, as one row of sync state, and uses GitHub's
+compare API to fetch exactly what changed since then.
 
 ### Repo layout
 
@@ -118,9 +128,35 @@ the same way everywhere.
    `curator-audit-*` skills in the `wills-attic` repo, pointed at a diff instead of
    a live query).
 4. Merge to `main`.
-5. A sync job picks up the diff and upserts the changed entities into the Supabase
-   mirror, keyed on `id`. Because git is the source of truth, the mirror can always
-   be thrown away and rebuilt from a full repo scan — it's a cache, not a record.
+5. On its own schedule, attic-api's sync command checks whether `main` has moved
+   since the last sync, and if so pulls and upserts the changed entities into the
+   Supabase mirror, keyed on `id`. Because git is the source of truth, the mirror
+   can always be thrown away and rebuilt from a full repo scan — it's a cache, not
+   a record. DBoT does nothing here; there is no push, no webhook, no CI step
+   reaching out to Will's Attic. attic-api reaches in, on its own terms, and can
+   tolerate being a sync interval behind.
+
+### Sync mechanism (attic-api side)
+
+- **State**: one row (or table) in attic-api's database — `dbot_sync_state`, holding
+  `last_synced_sha` and `last_synced_at`. Nothing about the mirror's freshness lives
+  in DBoT.
+- **Trigger**: a scheduled Artisan command (e.g. `php artisan dbot:sync`), run on
+  Laravel's scheduler at whatever interval matches the "slightly stale is fine"
+  tolerance (minutes-to-hours, not real-time).
+- **Check**: fetch DBoT's current `main` SHA (`GET /repos/.../commits/main`, cheap,
+  public, no auth required for a public repo). If it matches `last_synced_sha`,
+  stop — nothing to do.
+- **Diff**: if it's the first run, walk the full `collections/**` tree. Otherwise
+  call GitHub's compare API (`GET /repos/.../compare/{last_synced_sha}...{new_sha}`)
+  to get exactly the files that changed, added, or were removed since last time —
+  no full-repo rescan needed on steady-state syncs.
+- **Apply**: for each changed/added entity file, fetch its content, parse the YAML,
+  upsert into the mirror keyed on `id`; for each removed file, delete the
+  corresponding mirror row. Re-validating against `template.schema.json` here is
+  optional-but-cheap insurance (DBoT's own CI already validated it pre-merge).
+- **Commit**: update `dbot_sync_state.last_synced_sha` to the new SHA once the sync
+  completes successfully.
 
 ### Images (open question)
 
@@ -145,12 +181,12 @@ Flagged as a real challenge, not yet solved:
 The rule doesn't go away, it just stops being enforced by a network boundary:
 
 - **"Never write to DBoT" now means "never write to the canonical-mirror tables in
-  Supabase directly."** The only legitimate writer of those tables is the sync job.
-  The only way to change canonical data is a PR to this repo.
-- Because attic-api and the mirror now share a Postgres instance, that needs an
-  explicit safeguard instead of an implicit one (there's no longer a different
-  hostname to protect it): a separate DB role for the sync job vs. attic-api's own
-  role (mirror tables `SELECT`-only for attic-api), and/or a lint check.
+  Supabase directly."** The only legitimate writer of those tables is attic-api's
+  own sync command. The only way to change canonical data is a PR to this repo.
+- Because the sync command and the rest of attic-api share both a Postgres
+  instance *and* a codebase, this is no longer a network/service boundary — it's a
+  convention enforced by code review: application code reads the mirror tables,
+  only `dbot:sync` (and its migrations) writes them.
 - **Keep no FK constraints** from `user_items`/`wishlists`/`user_collection_favorites`
   to the mirror tables, even though they're now in the same database. The mirror
   can be dropped and rebuilt from git at any time; a hard FK would turn that into a
@@ -163,8 +199,10 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
   build the validator + CI wiring, build the curator-facing tooling to add/edit
   entries in the new format. Purely additive: the existing Supabase-backed system
   keeps running untouched, nothing in production changes.
-- **Phase 2** — build the sync job (git → Supabase mirror tables). Stand up the
-  mirror schema in Supabase as new tables alongside the old ones. No cutover yet.
+- **Phase 2** — in `wills-attic`/`attic-api`: stand up the mirror schema in Supabase
+  as new tables alongside the old ones, add `dbot_sync_state`, and build the
+  `dbot:sync` command described above. Nothing in `database-of-things` changes for
+  this phase. No cutover yet.
 - **Phase 3** — migrate one real, already-verified collection into the new format
   (candidate: "Base" Pokémon — recently audited complete at 102/102 cards) and run
   the sync end-to-end against a non-prod mirror; diff against the live GraphQL data
@@ -191,6 +229,4 @@ tools against Postgres, it opens a PR against this repo.
 - Whether the existing MCP server's 26 tools get repurposed as read-only research
   helpers for curators (search/lookup while drafting a PR) or retired in favor of
   plain file edits.
-- Where the sync job runs (a GitHub Action on merge vs. a small Railway worker
-  polling the repo) — affects how quickly the mirror reflects a merged PR.
 - Full resolution of the images question above.
