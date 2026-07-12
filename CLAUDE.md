@@ -5,21 +5,15 @@ This file provides guidance to Claude Code when working with this repository.
 ## Project Overview
 
 Database of Things (DBoT) is a minimal, git-driven database of collectibles —
-curated by agents and humans through GitHub pull requests. It's the canonical
-collectibles data behind [Will's Attic](https://www.my-attic.online).
+curated by agents and humans through GitHub pull requests.
 
 **Mission**: Build the most comprehensive collectibles database on the Internet.
 
 **Source of truth**: [`collections/`](collections/) — one YAML file per item,
 organized into directories by category. There's no database to write to;
-curation *is* opening a pull request. See
-[`docs/dbot-target-architecture.md`](docs/dbot-target-architecture.md) for the
-full design and where this is headed.
+curation *is* opening a pull request.
 
 **Core philosophy**:
-- Graph model conceptually (many-to-many relationships, arbitrary nesting),
-  expressed as directory position rather than database rows or a
-  `collection:`/`parent_collection:` field
 - Minimal metadata by design — focus on coverage over exhaustive detail
 - Source attribution via `source_url` for data provenance
 - Curation guidance travels with the data: each category carries its own
@@ -28,7 +22,6 @@ full design and where this is headed.
 **Not optimizing for**:
 - Exhaustive metadata (that's what source links are for)
 - Real-time market data (we're a catalog, not a marketplace)
-- User-generated content (curators maintain data quality)
 
 ## Repository structure
 
@@ -104,26 +97,8 @@ CI runs this validator on every PR that touches `collections/**`.
    collection's conventions changed.
 2. Open a PR. CI validates schema conformance, UUID uniqueness/format, and
    required files.
-3. Review — human and/or an AI review pass.
-4. Merge to `main`. Will's Attic's `attic-api` syncs from `main` on its own
-   schedule (see `docs/dbot-target-architecture.md`); this repo never pushes
-   anywhere and holds no credentials to anything of Will's Attic's.
-
-## Legacy Supabase (not part of this repo's workflow)
-
-Will's Attic still reads a live, separate Supabase Postgres project directly
-over HTTPS/GraphQL for canonical-data reads — the system `collections/` is
-replacing, not something this repo manages. This repo no longer holds that
-project's schema, migrations, or any write path to it (removed once the
-Phase 3 decision was made to discard legacy data rather than migrate it
-forward — see `docs/dbot-target-architecture.md`). Decommissioning that live
-project is gated on Will's Attic's own migration work (Phase 5/6 in the
-target-architecture doc), independent of anything in this repo. This repo
-carries no operational tooling for that live instance anymore.
 
 ## Reference documentation
 
-- **Target architecture**: [`docs/dbot-target-architecture.md`](docs/dbot-target-architecture.md)
-  — full design, migration phases, open questions
 - **Collections format**: [`collections/README.md`](collections/README.md)
 - **Category-specific curation**: `collections/<category>/AGENTS.md`
