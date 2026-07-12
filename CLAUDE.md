@@ -32,7 +32,7 @@ collections/                  # the data — see collections/README.md
     template.schema.json      # JSON Schema for item attributes, enforced by CI
     original-series/
       base-set/
-        charizard-4-102.yaml
+        004-charizard.yaml
         ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
@@ -48,13 +48,11 @@ One YAML file per entity (`collections/<category>/.../<item>.yaml`):
 id: 3f4334f3-6a41-45fb-a1c1-dcf44566491e   # stable, generated once, never reused
 name: Charizard
 type: card
-number: "4/102"
-rarity: Holo Rare
 year: 1999
 attributes:
-  hp: 120
-  stage: Stage 2
-  card_type: Fire
+  number: "4/102"
+  rarity: Holo Rare
+  illustrator: Mitsuhiro Arita
 image:
   source_url: https://images.pokemontcg.io/base1/4_hires.png
 ```
@@ -72,6 +70,22 @@ image:
   from its category.
 
 See [`collections/README.md`](collections/README.md) for the full format and
+[`collections/pokemon-tcg/CLAUDE.md`](collections/pokemon-tcg/CLAUDE.md) for a
+worked example.
+
+## Naming files
+
+`collections/<category>/.../<slugified-name>.yaml` — lowercase, hyphenated.
+
+When a collection has canonical numbering (a collector number, catalog
+number, issue number, etc.), **prefix the slug with that number**, zero-padded
+to the collection's total digit width — e.g. `004-charizard.yaml` for card
+`4/102`. This keeps directory listings in canonical order instead of
+alphabetical order. Collections without canonical numbering just use
+`<slugified-name>.yaml`.
+
+The category `CLAUDE.md` documents the specifics (which field is canonical,
+how to slugify, disambiguation rules) — see
 [`collections/pokemon-tcg/CLAUDE.md`](collections/pokemon-tcg/CLAUDE.md) for a
 worked example.
 

@@ -1,0 +1,10 @@
+id: 321ff6bb-8100-496d-8a30-05b3d4dc701d
+name: Ivysaur
+type: card
+year: 1999
+attributes:
+  number: "30/102"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base1/30_hires.png

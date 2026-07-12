@@ -3,20 +3,11 @@
   "title": "Pokemon TCG card attributes",
   "type": "object",
   "properties": {
-    "hp": { "type": "integer", "minimum": 10 },
-    "stage": {
+    "number": { "type": "string", "pattern": "^[0-9]+/[0-9]+$" },
+    "rarity": {
       "type": "string",
-      "enum": ["Basic", "Stage 1", "Stage 2", "VMAX", "VSTAR", "ex", "GX", "V"]
+      "enum": ["Common", "Uncommon", "Rare", "Holo Rare", "Rare Holo EX"]
     },
-    "card_type": {
-      "type": "string",
-      "enum": [
-        "Grass", "Fire", "Water", "Lightning", "Psychic", "Fighting",
-        "Darkness", "Metal", "Fairy", "Dragon", "Colorless",
-        "Trainer", "Energy"
-      ]
-    },
-    "retreat_cost": { "type": "integer", "minimum": 0 },
     "illustrator": { "type": "string" }
   },
   "additionalProperties": true

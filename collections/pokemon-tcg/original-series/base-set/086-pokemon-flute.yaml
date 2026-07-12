@@ -1,0 +1,10 @@
+id: a514f537-46b3-4185-bacb-c178021c05ed
+name: Pokémon Flute
+type: card
+year: 1999
+attributes:
+  number: "86/102"
+  rarity: Uncommon
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base1/86_hires.png

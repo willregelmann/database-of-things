@@ -1,0 +1,10 @@
+id: 5d6dad5c-36e2-4899-905e-bf4b78d1e0a9
+name: Caterpie
+type: card
+year: 1999
+attributes:
+  number: "45/102"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base1/45_hires.png

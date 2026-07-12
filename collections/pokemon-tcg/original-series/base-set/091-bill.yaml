@@ -1,0 +1,10 @@
+id: 704f784d-0013-4ce8-8f9a-58691ef31e18
+name: Bill
+type: card
+year: 1999
+attributes:
+  number: "91/102"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base1/91_hires.png

@@ -1,0 +1,10 @@
+id: 3c85f4f1-8c13-4a29-bc40-07432fd85000
+name: Gastly
+type: card
+year: 1999
+attributes:
+  number: "50/102"
+  rarity: Common
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base1/50_hires.png

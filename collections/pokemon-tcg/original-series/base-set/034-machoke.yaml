@@ -1,0 +1,10 @@
+id: 3d434c07-e48f-4fd0-80b5-7e5f6f9f796e
+name: Machoke
+type: card
+year: 1999
+attributes:
+  number: "34/102"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base1/34_hires.png

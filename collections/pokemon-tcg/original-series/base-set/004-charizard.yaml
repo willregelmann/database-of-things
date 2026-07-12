@@ -1,0 +1,10 @@
+id: 181bd056-a11c-43a6-998b-254c2a5d7cb3
+name: Charizard
+type: card
+year: 1999
+attributes:
+  number: "4/102"
+  rarity: Holo Rare
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base1/4_hires.png

@@ -43,9 +43,9 @@ reprints/alt-art variants.
 
 ## Verifying a set is complete
 
-A set's total card count is public and fixed (encoded in every card's `number`
-field, e.g. `.../102`). To check completeness:
-1. Read any card's `number` field to get the set total.
+A set's total card count is public and fixed (encoded in every card's
+`attributes.number` field, e.g. `.../102`). To check completeness:
+1. Read any card's `attributes.number` field to get the set total.
 2. Confirm that many distinct numbers 1..N exist as entity files in the set
    directory.
 3. Cross-reference the full checklist against an authoritative source (Bulbapedia,
@@ -54,8 +54,22 @@ field, e.g. `.../102`). To check completeness:
 
 ## Naming files
 
-`<slugified-name>-<number>-<total>.yaml`, e.g. `charizard-4-102.yaml`. Reprints of
-the same name within a set get disambiguated by number, which is already unique.
+`<number>-<slugified-name>.yaml`, number zero-padded to the set's total digit
+width, e.g. `004-charizard.yaml` for card `4/102` in a 102-card set. Reprints
+of the same name within a set get disambiguated by number, which is already
+unique.
+
+## Rarity
+
+`attributes.rarity` is enum-validated in `template.schema.json`. The enum
+starts small (`Common`, `Uncommon`, `Rare`, `Holo Rare`, `Rare Holo EX`) and is
+expected to grow — it is not meant to gate curation. If a card's real rarity
+tier isn't in the enum yet, add it as part of the same PR: confirm the exact
+label against an authoritative source (Bulbapedia, Pokémon TCG API, or
+Serebii), then add that label to the `enum` array in `template.schema.json`
+alongside the card file(s) that need it. Don't invent a label, and don't
+reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
+GX` card as `Rare Holo EX`).
 
 ## Common pitfalls
 
@@ -66,5 +80,3 @@ the same name within a set get disambiguated by number, which is already unique.
   never a directory that directly contains cards; only an expansion is.
 - Promo cards are not part of any numbered set — they belong in a separate
   `promos` collection, not shoehorned into the nearest numbered set.
-- Rarity naming should follow the modern Pokémon TCG conventions (`Common`,
-  `Uncommon`, `Rare`, `Holo Rare`, `Rare Holo EX`, etc.) — don't invent new labels.

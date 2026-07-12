@@ -1,0 +1,10 @@
+id: 3ac214bc-4022-47ca-a950-6d73407a983f
+name: Charmander
+type: card
+year: 1999
+attributes:
+  number: "46/102"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base1/46_hires.png

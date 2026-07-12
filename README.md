@@ -28,7 +28,7 @@ collections/                  # the data — see collections/README.md
     template.schema.json
     original-series/
       base-set/
-        charizard-4-102.yaml
+        004-charizard.yaml
         ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence

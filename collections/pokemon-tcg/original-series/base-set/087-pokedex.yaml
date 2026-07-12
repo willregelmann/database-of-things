@@ -1,0 +1,10 @@
+id: a67a6cf5-3e28-45ef-b561-69eab8cbe28a
+name: Pokédex
+type: card
+year: 1999
+attributes:
+  number: "87/102"
+  rarity: Uncommon
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base1/87_hires.png

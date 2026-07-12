@@ -54,10 +54,10 @@ function walk(dir, inherited) {
   const files = entries.filter((e) => e.isFile()).map((e) => e.name);
   const dirs = entries.filter((e) => e.isDirectory()).map((e) => e.name);
 
-  let { agentsPath, schema } = inherited;
+  let { claudeMdPath, schema } = inherited;
 
-  if (files.includes('AGENTS.md')) {
-    agentsPath = path.join(dir, 'AGENTS.md');
+  if (files.includes('CLAUDE.md')) {
+    claudeMdPath = path.join(dir, 'CLAUDE.md');
   }
   if (files.includes('template.schema.json')) {
     const schemaPath = path.join(dir, 'template.schema.json');
@@ -67,8 +67,8 @@ function walk(dir, inherited) {
 
   const entityFiles = files.filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'));
 
-  if (entityFiles.length > 0 && !agentsPath) {
-    errors.push(`${rel(dir)}: contains entity files but has no AGENTS.md (own or inherited)`);
+  if (entityFiles.length > 0 && !claudeMdPath) {
+    errors.push(`${rel(dir)}: contains entity files but has no CLAUDE.md (own or inherited)`);
   }
   if (entityFiles.length > 0 && !schema) {
     errors.push(`${rel(dir)}: contains entity files but has no template.schema.json (own or inherited)`);
@@ -97,7 +97,7 @@ function walk(dir, inherited) {
   }
 
   for (const d of dirs) {
-    walk(path.join(dir, d), { agentsPath, schema });
+    walk(path.join(dir, d), { claudeMdPath, schema });
   }
 }
 
@@ -106,7 +106,7 @@ if (!fs.existsSync(COLLECTIONS_ROOT)) {
   process.exit(1);
 }
 
-walk(COLLECTIONS_ROOT, { agentsPath: null, schema: null });
+walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null });
 
 if (errors.length > 0) {
   console.error(`✗ ${errors.length} validation error(s):\n`);
