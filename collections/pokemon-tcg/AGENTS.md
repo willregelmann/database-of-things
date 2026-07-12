@@ -1,5 +1,38 @@
 # Pokémon TCG — curation hints
 
+## Directory structure
+
+```
+pokemon-tcg/
+  AGENTS.md
+  template.schema.json
+  _collection.yaml              # the whole "Pokémon TCG" collection
+  <series>/
+    _collection.yaml            # the series, e.g. "Base Series"
+    <expansion>/
+      _collection.yaml          # the expansion/set, e.g. "Base Set"
+      <card>.yaml
+```
+
+Three levels under this category, not two: **series → expansion → card**. A
+series is a group of related expansions released together under one banner
+(e.g. "Base Series" contains Base Set, Jungle, Fossil; "Neo Series" contains Neo
+Genesis, Neo Discovery, Neo Revelation, Neo Destiny). An expansion is a single
+released set — same level a card-containing directory already occupied before
+this convention existed.
+
+**Determining a set's series**: look it up, don't guess from the name alone.
+Bulbapedia's "List of Pokémon Trading Card Game expansions" groups every
+expansion under its official series — use that grouping, not an invented one.
+
+**Naming series directories**: same convention as expansions — lowercase,
+hyphenated (e.g. `base-series`, `neo-series`, `ex-series`).
+
+**Migrating an expansion that's still flat under `pokemon-tcg/`** (not yet
+nested under its series): move it, don't recreate it — `git mv <expansion>/
+<series>/<expansion>/`. Card `id`s, filenames, and content are untouched by the
+move; only the path changes.
+
 ## Identifying items
 
 Cards are identified by their **collector number within a set**, formatted as
@@ -29,6 +62,8 @@ the same name within a set get disambiguated by number, which is already unique.
 - Don't confuse a set's *TCG expansion name* with its *physical product name*
   (booster box vs. theme deck exclusives) — the set directory should represent the
   expansion, not a retail SKU.
+- Don't confuse *series* with *expansion* — a series (e.g. "Base Series") is
+  never a directory that directly contains cards; only an expansion is.
 - Promo cards are not part of any numbered set — they belong in a separate
   `promos` collection, not shoehorned into the nearest numbered set.
 - Rarity naming should follow the modern Pokémon TCG conventions (`Common`,
