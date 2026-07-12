@@ -24,6 +24,11 @@ collections/
   its category.
 - Every entity file (`_collection.yaml` included) needs `id` (a UUID, generated
   once, never reused), `name`, and `type`.
+- **Parent membership is derived from directory position — don't add a
+  `collection:`/`parent_collection:` field.** An item's parent is whatever
+  directory it's in; a nested collection's parent is whatever directory *it's*
+  in. Moving a file (`git mv`) re-parents it; there's no separate reference to
+  keep in sync. The validator rejects these fields if it finds them.
 
 ## Validating
 

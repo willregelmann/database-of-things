@@ -27,6 +27,13 @@ function validateEntityStructure(filePath, data) {
       errors.push(`${rel(filePath)}: missing or empty required field "${field}"`);
     }
   }
+  for (const field of ['collection', 'parent_collection']) {
+    if (data[field] !== undefined) {
+      errors.push(
+        `${rel(filePath)}: has a "${field}" field — parent membership is derived from directory position, remove it`
+      );
+    }
+  }
   if (data.id) {
     if (!UUID_RE.test(data.id)) {
       errors.push(`${rel(filePath)}: "id" is not a valid UUID: ${data.id}`);

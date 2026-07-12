@@ -47,10 +47,11 @@ directly (there's no sync job yet — see Phase 2 in that doc).
    `collections/pokemon-tcg/AGENTS.md`), write `template.schema.json` (JSON Schema
    for `attributes`), and `_collection.yaml` (`type: collection`, plus a
    `category`/`description`).
-3. For a nested set: create the directory and its `_collection.yaml` only
-   (`type: collection`, `parent_collection: <parent-dir-name>`, plus whatever
-   descriptive fields fit — see `collections/pokemon-tcg/base-set/_collection.yaml`
-   for the shape).
+3. For a nested set: create the directory (inside its parent category/set
+   directory — that placement *is* the parent relationship, don't add a
+   `parent_collection` field) and its `_collection.yaml` only (`type: collection`,
+   plus whatever descriptive fields fit — see
+   `collections/pokemon-tcg/base-set/_collection.yaml` for the shape).
 4. Run the validator.
 
 ## Workflow: validate pending changes
@@ -61,7 +62,9 @@ cd tools/collections-validate && npm run validate
 
 Reports, per file: missing/empty required fields (`id`, `name`, `type`), invalid or
 duplicate `id`, missing `AGENTS.md`/`template.schema.json` (own or inherited),
-missing `_collection.yaml`, and schema violations in `attributes`.
+missing `_collection.yaml`, a stray `collection:`/`parent_collection:` field
+(parent membership comes from directory position, not a field), and schema
+violations in `attributes`.
 
 ## Checklist
 
