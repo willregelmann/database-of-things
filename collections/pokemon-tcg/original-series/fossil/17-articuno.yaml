@@ -1,0 +1,10 @@
+id: dd15f081-e4e8-4ec6-9ad9-1b1d2b9b56b6
+name: Articuno
+type: card
+year: 1999
+attributes:
+  number: "17/62"
+  rarity: Rare
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base3/17_hires.png

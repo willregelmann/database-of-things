@@ -1,0 +1,10 @@
+id: e4ef042c-3521-4aea-8a99-0aef8193f233
+name: Growlithe
+type: card
+year: 2000
+attributes:
+  number: "42/130"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/42_hires.png

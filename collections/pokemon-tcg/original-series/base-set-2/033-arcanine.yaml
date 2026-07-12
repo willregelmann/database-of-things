@@ -1,0 +1,10 @@
+id: e5116c21-2f52-45f5-8c95-ad4fb1e93e50
+name: Arcanine
+type: card
+year: 2000
+attributes:
+  number: "33/130"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/33_hires.png

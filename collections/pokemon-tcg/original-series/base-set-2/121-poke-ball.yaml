@@ -1,0 +1,10 @@
+id: e3ced4ef-df5b-4b54-925a-a0c1e30478f3
+name: Poké Ball
+type: card
+year: 2000
+attributes:
+  number: "121/130"
+  rarity: Common
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base4/121_hires.png

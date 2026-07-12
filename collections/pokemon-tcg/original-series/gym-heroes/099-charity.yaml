@@ -1,0 +1,10 @@
+id: d5c12bb0-5518-4654-a2cf-df5f37b1ea8f
+name: Charity
+type: card
+year: 2000
+attributes:
+  number: "99/132"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/gym1/99_hires.png
