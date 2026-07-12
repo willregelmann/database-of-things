@@ -4,7 +4,7 @@
 
 ```
 pokemon-tcg/
-  AGENTS.md
+  CLAUDE.md
   template.schema.json
   _collection.yaml              # the whole "Pokémon TCG" collection
   <series>/

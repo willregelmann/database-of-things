@@ -17,7 +17,7 @@ curation *is* opening a pull request.
 - Minimal metadata by design — focus on coverage over exhaustive detail
 - Source attribution via `source_url` for data provenance
 - Curation guidance travels with the data: each category carries its own
-  `AGENTS.md` and `template.schema.json` right next to its entity files
+  `CLAUDE.md` and `template.schema.json` right next to its entity files
 
 **Not optimizing for**:
 - Exhaustive metadata (that's what source links are for)
@@ -28,7 +28,7 @@ curation *is* opening a pull request.
 ```
 collections/                  # the data — see collections/README.md
   pokemon-tcg/
-    AGENTS.md                 # naming conventions, verification, pitfalls
+    CLAUDE.md                 # naming conventions, verification, pitfalls
     template.schema.json      # JSON Schema for item attributes, enforced by CI
     original-series/
       base-set/
@@ -67,18 +67,18 @@ image:
   them.
 - Every collection directory (top-level or nested) needs its own
   `_collection.yaml` — the entity record for the collection/set itself.
-- `AGENTS.md` and `template.schema.json` are only required where a directory's
+- `CLAUDE.md` and `template.schema.json` are only required where a directory's
   conventions differ from its parent's — a nested set normally inherits both
   from its category.
 
 See [`collections/README.md`](collections/README.md) for the full format and
-[`collections/pokemon-tcg/AGENTS.md`](collections/pokemon-tcg/AGENTS.md) for a
+[`collections/pokemon-tcg/CLAUDE.md`](collections/pokemon-tcg/CLAUDE.md) for a
 worked example.
 
 ## Adding or editing an entry
 
 Use the `collections-curate` skill if you're working with Claude Code — it
-resolves the right template and `AGENTS.md`, generates a UUID, writes the file
+resolves the right template and `CLAUDE.md`, generates a UUID, writes the file
 in the right place, and validates before opening a PR.
 
 Otherwise, validate by hand before opening a PR:
@@ -93,7 +93,7 @@ CI runs this validator on every PR that touches `collections/**`.
 
 ## Curation workflow
 
-1. Branch, add or edit entity files, update `AGENTS.md`/template if a
+1. Branch, add or edit entity files, update `CLAUDE.md`/template if a
    collection's conventions changed.
 2. Open a PR. CI validates schema conformance, UUID uniqueness/format, and
    required files.
@@ -101,4 +101,4 @@ CI runs this validator on every PR that touches `collections/**`.
 ## Reference documentation
 
 - **Collections format**: [`collections/README.md`](collections/README.md)
-- **Category-specific curation**: `collections/<category>/AGENTS.md`
+- **Category-specific curation**: `collections/<category>/CLAUDE.md`
