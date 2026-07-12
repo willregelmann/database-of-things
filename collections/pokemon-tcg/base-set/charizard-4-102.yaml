@@ -1,13 +1,10 @@
-id: 3f4334f3-6a41-45fb-a1c1-dcf44566491e
+id: 181bd056-a11c-43a6-998b-254c2a5d7cb3
 name: Charizard
 type: card
 number: "4/102"
 rarity: Holo Rare
 year: 1999
 attributes:
-  hp: 120
-  stage: Stage 2
-  card_type: Fire
-  retreat_cost: 3
+  illustrator: Mitsuhiro Arita
 image:
   source_url: https://images.pokemontcg.io/base1/4_hires.png

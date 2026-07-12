@@ -1,13 +1,10 @@
-id: 1cc841e1-0a69-429f-8897-4695d1af23e2
+id: b811c87a-566c-4a36-a283-50bca8afd753
 name: Venusaur
 type: card
 number: "15/102"
 rarity: Holo Rare
 year: 1999
 attributes:
-  hp: 100
-  stage: Stage 2
-  card_type: Grass
-  retreat_cost: 2
+  illustrator: Mitsuhiro Arita
 image:
   source_url: https://images.pokemontcg.io/base1/15_hires.png

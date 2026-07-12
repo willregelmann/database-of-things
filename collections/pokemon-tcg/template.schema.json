@@ -19,6 +19,5 @@
     "retreat_cost": { "type": "integer", "minimum": 0 },
     "illustrator": { "type": "string" }
   },
-  "required": ["card_type"],
   "additionalProperties": true
 }

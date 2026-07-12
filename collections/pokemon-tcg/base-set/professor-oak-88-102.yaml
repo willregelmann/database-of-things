@@ -1,0 +1,10 @@
+id: ddd3d6be-1999-4dee-8687-11df4b822bd3
+name: Professor Oak
+type: card
+number: "88/102"
+rarity: Uncommon
+year: 1999
+attributes:
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base1/88_hires.png
