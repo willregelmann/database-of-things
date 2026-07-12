@@ -6,10 +6,3 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "ci"
-
-  - package-ecosystem: "npm"
-    directory: "/scripts/thumbnails"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "chore"

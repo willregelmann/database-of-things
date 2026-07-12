@@ -118,11 +118,8 @@ project's schema, migrations, or any write path to it (removed once the
 Phase 3 decision was made to discard legacy data rather than migrate it
 forward — see `docs/dbot-target-architecture.md`). Decommissioning that live
 project is gated on Will's Attic's own migration work (Phase 5/6 in the
-target-architecture doc), independent of anything in this repo.
-
-`scripts/` still contains legacy Supabase operational tooling (backups,
-thumbnails, embeddings, curator scripts) for whoever operates that live
-instance — none of it touches `collections/`.
+target-architecture doc), independent of anything in this repo. This repo
+carries no operational tooling for that live instance anymore.
 
 ## Reference documentation
 
