@@ -1,0 +1,10 @@
+id: f7530ae5-7525-4f45-9691-341df880776a
+name: Pokémon Breeder
+type: card
+year: 2000
+attributes:
+  number: "105/130"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/105_hires.png

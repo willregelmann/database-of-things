@@ -1,0 +1,10 @@
+id: 3e406d0a-3912-495f-950e-2153b238cc9e
+name: Electabuzz
+type: card
+year: 2000
+attributes:
+  number: "24/130"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/24_hires.png

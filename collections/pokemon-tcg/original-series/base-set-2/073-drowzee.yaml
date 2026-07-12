@@ -1,0 +1,10 @@
+id: aaa35dd1-9ef4-4087-8ca6-9ff76bfd80d6
+name: Drowzee
+type: card
+year: 2000
+attributes:
+  number: "73/130"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/73_hires.png

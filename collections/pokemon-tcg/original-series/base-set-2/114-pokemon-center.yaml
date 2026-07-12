@@ -1,0 +1,10 @@
+id: e9c28344-2c80-4738-9129-dc5c5bdc632d
+name: Pokémon Center
+type: card
+year: 2000
+attributes:
+  number: "114/130"
+  rarity: Uncommon
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/base4/114_hires.png

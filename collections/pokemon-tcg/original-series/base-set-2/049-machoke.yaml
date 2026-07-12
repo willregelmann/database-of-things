@@ -1,0 +1,10 @@
+id: fd1f810c-9ff8-4c6b-80e2-28badcc5c369
+name: Machoke
+type: card
+year: 2000
+attributes:
+  number: "49/130"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/49_hires.png

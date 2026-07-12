@@ -1,0 +1,10 @@
+id: e06f164c-22b4-4e02-9503-bd6e4370f00b
+name: Pidgey
+type: card
+year: 2000
+attributes:
+  number: "86/130"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/86_hires.png
