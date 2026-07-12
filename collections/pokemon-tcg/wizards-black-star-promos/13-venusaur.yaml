@@ -1,0 +1,10 @@
+id: 31a4caf3-1fb2-414b-ac45-efba28a8f003
+name: Venusaur
+type: card
+year: 2000
+attributes:
+  number: "13/53"
+  rarity: Promo
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/basep/13_hires.png
