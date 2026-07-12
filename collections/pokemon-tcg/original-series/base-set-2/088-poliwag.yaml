@@ -1,0 +1,10 @@
+id: a4f220d0-8af6-45cd-bfcb-7f005fc66137
+name: Poliwag
+type: card
+year: 2000
+attributes:
+  number: "88/130"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/88_hires.png

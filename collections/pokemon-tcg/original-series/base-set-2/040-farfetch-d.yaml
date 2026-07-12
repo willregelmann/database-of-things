@@ -1,0 +1,10 @@
+id: f67f863a-7b66-4d8f-ab9f-848881b1b07d
+name: Farfetch'd
+type: card
+year: 2000
+attributes:
+  number: "40/130"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base4/40_hires.png
