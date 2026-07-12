@@ -1,7 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { supabase } from "../db.js";
-import { generateTextEmbedding } from "../utils/embeddings.js";
 
 export function register(server: McpServer) {
   // entity_search — semantic + trigram search
@@ -132,78 +131,6 @@ export function register(server: McpServer) {
       }
 
       return { content: [{ type: "text", text: out }] };
-    }
-  );
-
-  // entity_create
-  server.tool(
-    "entity_create",
-    "Create a new entity (collection, card, figure, etc). Auto-generates text embedding for semantic search.",
-    {
-      name: z.string().describe("Entity name"),
-      type: z.string().describe("Entity type (e.g. 'collection', 'card', 'figure')"),
-      category: z.string().optional().describe("Category: trading_card_games, figures, comics, video_games, buildables"),
-      year: z.number().int().optional(),
-      country: z.string().length(2).optional().describe("ISO country code"),
-      language: z.string().length(2).optional().describe("ISO 639-1 language code"),
-      source_url: z.string().url().optional(),
-      external_ids: z.record(z.string()).optional().describe("External system IDs for deduplication"),
-      attributes: z.record(z.unknown()).optional().describe("Additional metadata"),
-    },
-    async ({ name, type, category, year, country, language, source_url, external_ids, attributes }) => {
-      const { data, error } = await supabase
-        .from("entities")
-        .insert({ name, type, category, year, country, language, source_url, external_ids: external_ids ?? {}, attributes: attributes ?? {} })
-        .select("id")
-        .single();
-
-      if (error) {
-        return { content: [{ type: "text", text: JSON.stringify({ success: false, error: error.message }, null, 2) }] };
-      }
-
-      try {
-        const embedding = await generateTextEmbedding(name);
-        await supabase.from("entities").update({ name_embedding: embedding }).eq("id", data.id);
-      } catch (err: any) {
-        console.error(`Warning: embedding failed for "${name}": ${err.message}`);
-      }
-
-      return { content: [{ type: "text", text: JSON.stringify({ success: true, entity_id: data.id }, null, 2) }] };
-    }
-  );
-
-  // entity_update
-  server.tool(
-    "entity_update",
-    "Update fields on an existing entity. Only provided fields are changed.",
-    {
-      entity_id: z.string().uuid().describe("Entity UUID"),
-      name: z.string().optional(),
-      year: z.number().int().optional(),
-      country: z.string().length(2).optional(),
-      language: z.string().length(2).optional(),
-      source_url: z.string().url().optional(),
-      external_ids: z.record(z.string()).optional(),
-      attributes: z.record(z.unknown()).optional(),
-    },
-    async ({ entity_id, ...updates }) => {
-      const { error } = await supabase.from("entities").update(updates).eq("id", entity_id);
-      if (error) return { content: [{ type: "text", text: JSON.stringify({ success: false, error: error.message }, null, 2) }] };
-      return { content: [{ type: "text", text: JSON.stringify({ success: true }, null, 2) }] };
-    }
-  );
-
-  // entity_delete
-  server.tool(
-    "entity_delete",
-    "Delete an entity by ID. Cascades to relationships, variants, and components.",
-    {
-      entity_id: z.string().uuid().describe("Entity UUID"),
-    },
-    async ({ entity_id }) => {
-      const { error } = await supabase.from("entities").delete().eq("id", entity_id);
-      if (error) return { content: [{ type: "text", text: JSON.stringify({ success: false, error: error.message }, null, 2) }] };
-      return { content: [{ type: "text", text: JSON.stringify({ success: true }, null, 2) }] };
     }
   );
 }

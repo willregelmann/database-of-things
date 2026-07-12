@@ -1,7 +1,0 @@
-# Secrets
-curators/*/secrets.env
-
-# Temporary data
-curators/*/fetched_data.json
-curators/*/scripts/__pycache__/
-curators/*/scripts/*.pyc

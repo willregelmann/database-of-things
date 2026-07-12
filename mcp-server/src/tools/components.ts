@@ -34,25 +34,4 @@ export function register(server: McpServer) {
       return { content: [{ type: "text", text: out }] };
     }
   );
-
-  server.tool(
-    "component_create",
-    "Create a component (physical part) of an entity.",
-    {
-      component_of: z.string().uuid().describe("Parent entity UUID"),
-      name: z.string().describe("Component name"),
-      quantity: z.number().int().min(1).default(1).describe("Quantity (default 1)"),
-      order: z.number().int().optional().describe("Display order"),
-      attributes: z.record(z.unknown()).optional().describe("Component metadata"),
-    },
-    async ({ component_of, name, quantity, order, attributes }) => {
-      const { data, error } = await supabase
-        .from("components")
-        .insert({ component_of, name, quantity, order, attributes: attributes ?? {} })
-        .select("id")
-        .single();
-      if (error) return { content: [{ type: "text", text: JSON.stringify({ success: false, error: error.message }, null, 2) }] };
-      return { content: [{ type: "text", text: JSON.stringify({ success: true, component_id: data.id }, null, 2) }] };
-    }
-  );
 }
