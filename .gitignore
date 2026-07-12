@@ -2,23 +2,14 @@
 .env
 .env.local
 .env.*.local
+*.env
+.mcp.json
 
-# Backups (large files)
+# Old local Supabase/backup artifacts (not tracked, kept on disk for now)
 backups/
-backups/*.sql
-*.tar.gz
-*.dump
-
-# Supabase CLI binary
 bin/
-
-# Supabase local data
 supabase/.temp/
 supabase/.branches/
-.supabase/
-
-# Docker volumes
-.docker/
 
 # Python virtual environments
 venv/
@@ -30,14 +21,12 @@ env/
 *.egg-info/
 *.egg
 
-# Node modules (if any frontend is added later)
+# Node modules
 node_modules/
 .pnp
 .pnp.js
 
-# Build outputs
-dist/
-build/
+# Logs
 *.log
 
 # IDE
@@ -55,31 +44,16 @@ Thumbs.db
 *.tmp
 .cache/
 
-# Curator system
-curator/.env
-curator/.env.local
-curator/.env.production
-curator/.env.staging
-curator/.env.*
-!curator/.env.*.example
-
-# Curator secrets
+# Curator specs — secrets and generated scratch files
 .curator/specs/*/secrets.env
-
-# Curator temporary files
 .curator/specs/*/fetched_data.json
 .curator/specs/*/dry_run_results.json
 .curator/specs/*/scripts/__pycache__/
 .curator/specs/*/scripts/*.pyc
+.curator/adhoc/
+
+# Legacy production data dump (not tracked, kept on disk for now)
 .claude/skills/supabase-deployment/scripts/production-data.sql
 
-# Environment files with production credentials
-.env
-
+# Local plan scratch files
 docs/plans/
-
-.mcp.json
-
-*.env
-
-.curator/adhoc/
