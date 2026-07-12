@@ -1,7 +1,7 @@
 # DBoT Target Architecture: GitHub Repo as Source of Truth
 
 **Date**: 2026-07-11
-**Status**: Proposed (Phases 1–2 shipped, see Migration phases below)
+**Status**: Proposed (Phases 1–3 resolved, legacy Supabase repo cleanup shipped ahead of Phase 6 — see Migration phases below)
 **Supersedes**: `docs/rearchitecture-plan.md` (2026-05-29) — see that file's banner.
 
 ## Summary
@@ -216,16 +216,17 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
   mirror is co-located with attic-api's app data now, and both move to Supabase
   together in one cutover instead of two. Nothing in `database-of-things` changed
   for this phase.
-- **Phase 3 (in progress)** — migrate real, already-verified collections into the
+- **Phase 3 (resolved)** — migrate real, already-verified collections into the
   new format and prove the sync end-to-end against production for parity. Base
-  Set Pokémon (102/102 cards) shipped as the proof of concept. **Open decision**:
-  full migration of every canonical collection (the old `.curator/specs/` covered
-  six: American Comics, Power Rangers Toys, LEGO Sets, Bluey Figures, NTSC Video
-  Games, Pokémon TCG — and Pokémon TCG alone is many sets beyond Base Set) before
-  any cutover, or collection-by-collection incremental cutover, where Supabase
-  stays alive only for whatever hasn't migrated yet? Either way, DBoT's Supabase
-  code/schema/CI can't be removed from *this* repo until nothing outside it still
-  depends on that data existing in Supabase — see Phase 5.
+  Set Pokémon (102/102 cards) shipped as the proof of concept. Scoping the rest
+  found production data for the other five legacy curator collections is mostly
+  empty or low-quality (American Comics, LEGO Sets, Bluey Figures, NTSC Video
+  Games have next to nothing real; Pokémon TCG has ~380 more sets but with
+  duplicate/inconsistent collection records) — not worth migrating forward.
+  **Decision: discard it.** `collections/` stays at just Base Set for now; the
+  rest gets rebuilt properly through PR-based curation (human and AI) over time,
+  rather than carrying forward messy legacy data. This also means the old
+  Supabase schema/data no longer needs preserving *at all* — see below.
 - **Phase 4** — migrate attic-api's *entire* database — its own app tables
   (`users`, `user_items`, `wishlists`, `user_collection_favorites`, `api_tokens`,
   plus `dbot_entities`/`dbot_sync_state` from Phase 2) — from the separate Railway
@@ -251,14 +252,24 @@ The rule doesn't go away, it just stops being enforced by a network boundary:
     `parent_id` or relationships shape added to the mirror schema.
   - **Representative images** (BFS descendant-image lookup) — needs an equivalent
     query path against the mirror's hierarchy once that exists.
-- **Phase 6** — decommission the old Supabase GraphQL surface (pg_graphql
-  exposure) and the separate Railway app-Postgres. Finalize the images answer.
-  Once Phase 5 is genuinely complete (nothing reads Supabase for canonical data
-  anymore), this repo's `supabase/migrations/`, `supabase/config.toml`, the
-  `db-tests` CI job, and `tests/` become safe to delete — they're only there to
-  keep a schema alive/tested that nothing will depend on anymore. The MCP
-  server's remaining read tools (research helpers for curators) are a separate,
-  independent decision from this cutover — not blocking, and not blocked by it.
+- **Phase 6** — decommission the *live* Supabase project (the actual running
+  database and its GraphQL surface) and the separate Railway app-Postgres.
+  Finalize the images answer. Still gated on Phase 5 — attic-api reads that
+  live instance directly over HTTPS today, so it has to stay up and correctly
+  populated until nothing depends on it anymore.
+
+  **Note**: this repo's own copy of the schema — `supabase/migrations/`,
+  `supabase/config.toml`, `bin/` (the local Supabase CLI), `tests/`, the
+  `db-tests` CI job, `services/embedding-worker/`, and the historical
+  planning docs describing that system — has *already been removed*, ahead of
+  Phase 5, once the Phase 3 discard decision above was made. Deleting those
+  files never touched the live database (attic-api's reads are independent of
+  what's version-controlled here); what they gave up was the ability to
+  reproduce that schema from scratch, which nobody needs anymore since the
+  data behind it isn't being carried forward. The MCP server's remaining read
+  tools (research helpers for curators, querying the still-live instance) are
+  a separate, independent decision from this cutover — not blocking, and not
+  blocked by it.
 
 The standalone Agent-SDK curator service remains the long-term target for running
 audits/updates at scale (see `wills-attic/docs/plans/2026-07-12-ai-curator-system-design.md`)

@@ -2,264 +2,78 @@
 
 [![CI](https://github.com/willregelmann/database-of-things/actions/workflows/ci.yml/badge.svg)](https://github.com/willregelmann/database-of-things/actions/workflows/ci.yml)
 
-A minimal, pure graph database for managing collectibles using PostgreSQL via Supabase.
+A minimal, git-driven database of collectibles — curated by agents and humans
+through GitHub pull requests.
 
-## Overview
+## What this is
 
-This project provides a flexible collectibles management system built on a graph-based architecture using PostgreSQL (entities + relationships).
+Database of Things (DBoT) is the canonical collectibles data behind
+[Will's Attic](https://www.my-attic.online). Its source of truth is
+[`collections/`](collections/) in this repo: one YAML file per item, organized
+into directories by category. There's no database to write to — curation
+*is* opening a pull request.
 
-**Core Philosophy**: Everything is an entity (collections, items, variants, etc.), connected by typed relationships. No fixed schema beyond the essentials.
+Each category carries its own curation guidance right next to its data:
 
-## Quick Start
+- **`AGENTS.md`** — naming conventions, how to identify items, how to verify a
+  collection is complete, common pitfalls specific to that category.
+- **`template.schema.json`** — a JSON Schema for that category's item
+  attributes, enforced by CI on every PR.
 
-### Database Setup
+See [`docs/dbot-target-architecture.md`](docs/dbot-target-architecture.md) for
+the full design and where this is headed.
+
+## Repository structure
+
+```
+collections/                  # the data — see collections/README.md
+  pokemon-tcg/
+    AGENTS.md
+    template.schema.json
+    original-series/
+      base-set/
+        charizard-4-102.yaml
+        ...
+tools/collections-validate/   # CI validator: schema conformance, UUID
+                               # uniqueness, required-file presence
+.claude/skills/collections-curate/  # agent tooling for adding/editing entries
+mcp-server/                    # read-only research tools (search, browse,
+                                # variants, components) for curators drafting
+                                # a PR — queries the legacy Supabase instance
+                                # this data used to live in; that instance is
+                                # not the source of truth anymore
+docs/                          # design docs
+```
+
+## Adding or editing an entry
+
+Use the `collections-curate` skill if you're working with Claude Code — it
+resolves the right template and `AGENTS.md`, generates a UUID, writes the file
+in the right place, and validates before you open a PR. See
+[`collections/README.md`](collections/README.md) for the file format and
+[`collections/pokemon-tcg/AGENTS.md`](collections/pokemon-tcg/AGENTS.md) for an
+example of category-specific curation hints.
+
+Otherwise: add or edit YAML files by hand, following the conventions in the
+category's `AGENTS.md`, and validate before opening a PR:
 
 ```bash
-# Start Supabase stack
-./bin/supabase start
-
-# Apply migrations
-./scripts/safe-migrate push
-
-# View Studio UI
-open http://127.0.0.1:54323
+cd tools/collections-validate
+npm install   # first time only
+npm run validate
 ```
-
-## Features
-
-### Graph Database
-
-- **Pure Graph Model**: Three tables (entities, relationships, variants) handle everything
-- **Flexible Schema**: JSONB attributes for heterogeneous data
-- **GraphQL API**: Auto-generated from database schema
-- **Semantic Search**: Vector embeddings with pgvector for intelligent search
-- **Image Storage**: Supabase Storage with pre-generated thumbnails
-- **Optimized Indexes**: Composite, covering, BRIN, GIN, HNSW indexes for fast queries
-
-## Architecture
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                    Supabase Stack                            │
-│  • PostgreSQL (graph database)                               │
-│  • GraphQL API (auto-generated)                              │
-│  • Storage (images + thumbnails)                             │
-│  • Auth, Realtime, REST APIs                                 │
-└──────────────────────────────────────────────────────────────┘
-```
-
-## Project Structure
-
-```
-.
-├── scripts/                        # Helper scripts
-│   ├── safe-migrate                # Safe migration wrapper
-│   ├── db-backup                   # Manual backup
-│   ├── db-restore                  # Restore from backup
-│   ├── seed-sample-data.py         # Seed test data
-│   ├── generate-embeddings.py     # Generate semantic search embeddings
-│   ├── semantic-search             # CLI semantic search utility
-│   ├── verify-schema-sync.sh       # Verify local/prod sync
-│   └── thumbnails/                 # Thumbnail generation
-├── supabase/                       # Supabase configuration
-│   ├── config.toml                 # Supabase config
-│   └── migrations/                 # Database migrations
-├── collections/                    # Canonical data — source of truth, curated via PRs
-├── CLAUDE.md                       # Project guidelines for AI
-├── MIGRATION_STATUS.md             # Migration tracking status
-└── THUMBNAIL_QUICKSTART.md         # Image optimization guide
-```
-
-## Database Schema
-
-### Entities Table
-
-Everything is an entity:
-
-```sql
-CREATE TABLE entities (
-  id UUID PRIMARY KEY,
-  type TEXT NOT NULL,              -- "collection", "card", "figure", etc.
-  name TEXT NOT NULL,
-  year INT,
-  country CHAR(2),                 -- ISO country code
-  language CHAR(2),                -- ISO language code
-  image_url TEXT,                  -- Original image path
-  thumbnail_url TEXT,              -- Pre-generated thumbnail
-  attributes JSONB,                -- Flexible JSONB data
-  created_at TIMESTAMPTZ,
-  updated_at TIMESTAMPTZ
-);
-```
-
-### Variants Table
-
-Alternative versions of entities (e.g., 1st Edition, Shadowless):
-
-```sql
-CREATE TABLE variants (
-  id UUID PRIMARY KEY,
-  variant_of UUID NOT NULL REFERENCES entities(id) ON DELETE CASCADE,
-  name TEXT NOT NULL,              -- Variant name
-  image_url TEXT,                  -- Original image path
-  thumbnail_url TEXT,              -- Pre-generated thumbnail
-  attributes JSONB,                -- Variant-specific metadata
-  created_at TIMESTAMPTZ,
-  updated_at TIMESTAMPTZ
-);
-```
-
-### Relationships Table
-
-Typed connections between entities:
-
-```sql
-CREATE TABLE relationships (
-  id UUID PRIMARY KEY,
-  from_id UUID REFERENCES entities(id),
-  to_id UUID REFERENCES entities(id),
-  type TEXT NOT NULL,              -- "contains", "part_of"
-  "order" INT,                     -- Sort order for collections
-  created_at TIMESTAMPTZ
-);
-```
-
-### Common Patterns
-
-**Collection Hierarchy**:
-```
-Franchise → Game → Expansion → Card
-(all "contains" relationships)
-```
-
-**Variants**:
-```
-Base Entity ← Variant
-(variants table, variant_of foreign key)
-```
-
-Note: Legacy variants may exist as entities with `variant_of` relationships.
-
-**Components**:
-```
-Whole Item ← Component
-(part_of relationship)
-```
-
-## Key Workflows
-
-### 1. Manual Import
-
-```bash
-# Direct SQL or GraphQL
-# See CLAUDE.md for query examples
-```
-
-### 2. Image Management
-
-```bash
-# Generate thumbnails for existing images
-cd scripts/thumbnails
-npm install
-npm run backfill
-
-# See THUMBNAIL_QUICKSTART.md for details
-```
-
-## Documentation
-
-- **`CLAUDE.md`**: Comprehensive project guide (architecture, commands, patterns)
-- **`MIGRATION_STATUS.md`**: Migration tracking status (current: 33/33 synced ✅)
-- **`MIGRATION_SYNC_PLAN.md`**: Migration synchronization guide
-- **`THUMBNAIL_QUICKSTART.md`**: Image optimization guide
-- **`BACKUP_SYSTEM.md`**: Database backup documentation
-- **`scripts/README.md`**: Utility scripts documentation
-
-## Development Commands
-
-### Supabase
-
-```bash
-# Start services
-./bin/supabase start
-
-# Check status
-./bin/supabase status
-
-# View logs
-./bin/supabase logs
-
-# Stop services
-./bin/supabase stop
-```
-
-### Database
-
-```bash
-# Create migration
-./bin/supabase migration new name
-
-# Apply migrations (with automatic backup)
-./scripts/safe-migrate push
-
-# Reset database (with confirmation)
-./scripts/safe-migrate reset
-
-# Seed local database with sample data
-python3 scripts/seed-sample-data.py
-
-# Generate embeddings for semantic search
-python3 scripts/generate-embeddings.py
-
-# Test semantic search
-export SUPABASE_URL="http://127.0.0.1:54321"
-export SUPABASE_ANON_KEY="sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH"
-./scripts/semantic-search "pokemon" --type card
-
-# Manual backup
-./scripts/db-backup
-
-# Restore backup
-./scripts/db-restore backups/backup_*.sql
-```
-
-## Cost Savings
-
-### Image Thumbnails
-
-Pre-generating 300x300 WebP thumbnails achieves:
-
-- **97.6% size reduction** (measured on production images)
-- **$60,300/year saved** at 100K images (vs Supabase Pro image transforms)
-- **Instant loading** (no on-demand processing)
-
-## Deployment
-
-### Local Development
-
-```bash
-# Supabase
-./bin/supabase start
-```
-
-### Production
-
-**Supabase**: Deploy to [Supabase Cloud](https://supabase.com) or self-host
 
 ## Contributing
 
-This is a personal project, but contributions are welcome:
+This is a curator-reviewed project — contributions are welcome as pull
+requests:
 
-1. Follow existing architecture
-2. Test thoroughly
-3. Update documentation
-4. File issues for bugs
+1. Read the target category's `AGENTS.md` before naming or structuring
+   anything.
+2. Run the validator; it must pass before review.
+3. Open a PR against `main`. It won't be merged automatically — expect
+   review.
 
 ## License
 
-MIT License - see LICENSE file
-
-## Support
-
-- File issues in the repository
-- Check `CLAUDE.md` for detailed documentation
+MIT License — see [LICENSE](LICENSE).

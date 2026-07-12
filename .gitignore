@@ -9,14 +9,6 @@ backups/*.sql
 *.tar.gz
 *.dump
 
-# Supabase CLI binary
-bin/
-
-# Supabase local data
-supabase/.temp/
-supabase/.branches/
-.supabase/
-
 # Docker volumes
 .docker/
 
