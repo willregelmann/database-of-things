@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Monstress issue attributes",
+  "type": "object",
+  "properties": {
+    "number": { "type": "string", "pattern": "^[0-9]+$" },
+    "writer": { "type": "string" },
+    "artist": { "type": "string" }
+  },
+  "additionalProperties": true
+}

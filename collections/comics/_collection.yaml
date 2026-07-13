@@ -1,0 +1,6 @@
+id: 7a9ed734-838f-4d1e-8a14-c83c7c9bc1ed
+name: Comics
+type: collection
+description: >
+  Published comic book series, organized by publisher. Each publisher is a
+  nested collection holding its own series.
