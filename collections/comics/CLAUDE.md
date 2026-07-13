@@ -24,9 +24,11 @@ comics/
       <issue>.yaml
 ```
 
-Publisher is its own directory level (not folded into series) because
-series names aren't guaranteed unique across publishers. Follow the shape
-of [`image/monstress/CLAUDE.md`](image/monstress/CLAUDE.md) as a worked
+**The top level under `comics/` is always a publisher** — never a genre,
+imprint-within-a-publisher, era, or anything else. Publisher is its own
+directory level (not folded into series) because series names aren't
+guaranteed unique across publishers. Follow the shape of
+[`image/monstress/CLAUDE.md`](image/monstress/CLAUDE.md) as a worked
 example.
 
 ## Adding a new series
