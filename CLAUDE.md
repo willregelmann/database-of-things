@@ -27,13 +27,14 @@ curation *is* opening a pull request.
 
 ```
 collections/                  # the data — see collections/README.md
-  pokemon-tcg/
-    CLAUDE.md                 # naming conventions, verification, pitfalls
-    template.schema.json      # JSON Schema for item attributes, enforced by CI
-    original-series/
-      base-set/
-        004-charizard.yaml
-        ...
+  trading-card-games/
+    pokemon-tcg/
+      CLAUDE.md               # naming conventions, verification, pitfalls
+      template.schema.json    # JSON Schema for item attributes, enforced by CI
+      original-series/
+        base-set/
+          004-charizard.yaml
+          ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
 .claude/skills/collections-curate/  # agent tooling for adding/editing entries
@@ -70,7 +71,7 @@ image:
   from its category.
 
 See [`collections/README.md`](collections/README.md) for the full format and
-[`collections/pokemon-tcg/CLAUDE.md`](collections/pokemon-tcg/CLAUDE.md) for a
+[`collections/trading-card-games/pokemon-tcg/CLAUDE.md`](collections/trading-card-games/pokemon-tcg/CLAUDE.md) for a
 worked example.
 
 ## Naming files
@@ -86,7 +87,7 @@ alphabetical order. Collections without canonical numbering just use
 
 The category `CLAUDE.md` documents the specifics (which field is canonical,
 how to slugify, disambiguation rules) — see
-[`collections/pokemon-tcg/CLAUDE.md`](collections/pokemon-tcg/CLAUDE.md) for a
+[`collections/trading-card-games/pokemon-tcg/CLAUDE.md`](collections/trading-card-games/pokemon-tcg/CLAUDE.md) for a
 worked example.
 
 ## Adding or editing an entry

@@ -7,18 +7,29 @@ collectibles data. See `docs/dbot-target-architecture.md` for the full design.
 
 ```
 collections/
-  <category>/
-    CLAUDE.md                 # curation hints for this category
-    template.schema.json      # JSON Schema for item `attributes`
-    _collection.yaml          # this collection's own entity record
-    <set>/
-      _collection.yaml        # nested collection; inherits CLAUDE.md + template
-                               # from the nearest ancestor unless it has its own
-      <item>.yaml
+  <domain-family>/             # broad grouping, e.g. trading-card-games
+    CLAUDE.md                  # what belongs in this family, shared hints
+    template.schema.json       # generic fallback; categories override it
+    _collection.yaml           # this family's own entity record
+    <category>/
+      CLAUDE.md                 # curation hints for this category
+      template.schema.json      # JSON Schema for item `attributes`
+      _collection.yaml          # this collection's own entity record
+      <set>/
+        _collection.yaml        # nested collection; inherits CLAUDE.md + template
+                                 # from the nearest ancestor unless it has its own
+        <item>.yaml
 ```
 
-- Every directory that represents a collection (top-level or nested) needs a
-  `_collection.yaml`.
+Domain families exist to keep `collections/` itself from growing one entry
+per specific collection — group related categories (all trading card games,
+all coins, etc.) under one family directory. A category that doesn't fit any
+existing family yet can sit directly under `collections/`, or start a new
+family — see [`trading-card-games/CLAUDE.md`](trading-card-games/CLAUDE.md)
+for a worked example of a family.
+
+- Every directory that represents a collection (domain family, category, or
+  nested set) needs a `_collection.yaml`.
 - `CLAUDE.md` and `template.schema.json` are only required where a directory's
   conventions differ from its parent's — a nested set normally inherits both from
   its category.
