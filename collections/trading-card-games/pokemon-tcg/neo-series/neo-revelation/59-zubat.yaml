@@ -1,0 +1,10 @@
+id: 1d87a092-deb0-4df2-b646-5fc300eb8c9c
+name: Zubat
+type: card
+year: 2001
+attributes:
+  number: "59/64"
+  rarity: Common
+  illustrator: Yukiko Baba
+image:
+  source_url: https://images.pokemontcg.io/neo3/59_hires.png

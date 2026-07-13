@@ -1,0 +1,10 @@
+id: a70dc77e-a939-465c-ab4c-b8ffcfaa090e
+name: Pikachu
+type: card
+year: 2000
+attributes:
+  number: "70/111"
+  rarity: Common
+  illustrator: Naoyo Kimura
+image:
+  source_url: https://images.pokemontcg.io/neo1/70_hires.png
