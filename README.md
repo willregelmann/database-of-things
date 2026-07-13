@@ -23,13 +23,14 @@ Each category carries its own curation guidance right next to its data:
 
 ```
 collections/                  # the data — see collections/README.md
-  pokemon-tcg/
-    CLAUDE.md
-    template.schema.json
-    original-series/
-      base-set/
-        004-charizard.yaml
-        ...
+  trading-card-games/
+    pokemon-tcg/
+      CLAUDE.md
+      template.schema.json
+      original-series/
+        base-set/
+          004-charizard.yaml
+          ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
 .claude/skills/collections-curate/  # agent tooling for adding/editing entries
@@ -42,7 +43,7 @@ Use the `collections-curate` skill if you're working with Claude Code — it
 resolves the right template and `CLAUDE.md`, generates a UUID, writes the file
 in the right place, and validates before you open a PR. See
 [`collections/README.md`](collections/README.md) for the file format and
-[`collections/pokemon-tcg/CLAUDE.md`](collections/pokemon-tcg/CLAUDE.md) for an
+[`collections/trading-card-games/pokemon-tcg/CLAUDE.md`](collections/trading-card-games/pokemon-tcg/CLAUDE.md) for an
 example of category-specific curation hints.
 
 Otherwise: add or edit YAML files by hand, following the conventions in the

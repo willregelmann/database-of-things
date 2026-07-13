@@ -1,0 +1,7 @@
+id: 1a0b043a-268b-4f9e-acd1-ff00ca63a706
+name: Trading Card Games
+type: collection
+description: >
+  Collectible card games with a structured ruleset — as opposed to one-off
+  novelty card sets. Each specific game (Pokémon TCG, Magic: The Gathering,
+  etc.) is its own nested collection.

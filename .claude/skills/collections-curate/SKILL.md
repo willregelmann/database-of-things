@@ -22,7 +22,7 @@ directly (there's no sync job yet — see Phase 2 in that doc).
 ## Workflow: add an entity to an existing collection
 
 1. Find the target collection directory under `collections/` (e.g.
-   `collections/pokemon-tcg/base-set/`).
+   `collections/trading-card-games/pokemon-tcg/original-series/base-set/`).
 2. Read the nearest ancestor `CLAUDE.md` (walk up until you find one) for
    naming/identification conventions specific to this category.
 3. Read the nearest ancestor `template.schema.json` to know what `attributes`
@@ -38,20 +38,34 @@ directly (there's no sync job yet — see Phase 2 in that doc).
 
 ## Workflow: add a new collection
 
-1. Decide if this is a new top-level category (needs its own `CLAUDE.md` +
-   `template.schema.json`) or a set nested under an existing category (usually
-   just needs its own `_collection.yaml` and inherits the rest).
-2. For a new top-level category: create the directory, write `CLAUDE.md`
-   (curation hints — identification scheme, completeness-checking approach, naming
-   convention, known pitfalls — follow the shape of
-   `collections/pokemon-tcg/CLAUDE.md`), write `template.schema.json` (JSON Schema
-   for `attributes`), and `_collection.yaml` (`type: collection`, plus a
-   `category`/`description`).
+1. Decide what kind of collection this is:
+   - **A new category** (a specific collectible line, e.g. a new card game or
+     coin series) — needs its own `CLAUDE.md` + `template.schema.json`.
+   - **A set nested under an existing category** (e.g. a new expansion) —
+     usually just needs its own `_collection.yaml` and inherits the rest.
+   - **A new domain family** (a broad grouping like `trading-card-games` that
+     will hold multiple categories) — only when the category doesn't fit any
+     existing family; see `collections/README.md` for when families are
+     warranted.
+2. For a new category: decide whether it belongs inside an existing domain
+   family (e.g. `collections/trading-card-games/<game>/`) or directly under
+   `collections/`. Create the directory, write `CLAUDE.md` (curation hints —
+   identification scheme, completeness-checking approach, naming convention,
+   known pitfalls — follow the shape of
+   `collections/trading-card-games/pokemon-tcg/CLAUDE.md`), write
+   `template.schema.json` (JSON Schema for `attributes`), and `_collection.yaml`
+   (`type: collection`, plus a `description`).
 3. For a nested set: create the directory (inside its parent category/set
    directory — that placement *is* the parent relationship, don't add a
    `parent_collection` field) and its `_collection.yaml` only (`type: collection`,
    plus whatever descriptive fields fit — see
-   `collections/pokemon-tcg/base-set/_collection.yaml` for the shape).
+   `collections/trading-card-games/pokemon-tcg/original-series/base-set/_collection.yaml`
+   for the shape).
+4. For a new domain family: create the directory, write `CLAUDE.md` (what
+   belongs in this family, pointer to a worked-example category), a minimal
+   permissive `template.schema.json` (required by the validator even though
+   the family's own `_collection.yaml` has no `attributes` to check — see
+   `collections/trading-card-games/template.schema.json`), and `_collection.yaml`.
 4. Run the validator.
 
 ## Workflow: validate pending changes
