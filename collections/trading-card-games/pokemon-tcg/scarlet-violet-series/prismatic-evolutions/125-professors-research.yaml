@@ -1,0 +1,9 @@
+id: 30c49474-621f-469d-9cea-eef3169331b0
+name: Professor's Research
+type: card
+year: 2025
+attributes:
+  number: "125/131"
+  rarity: Common
+image:
+  source_url: "https://images.pokemontcg.io/sv8pt5/125_hires.png"

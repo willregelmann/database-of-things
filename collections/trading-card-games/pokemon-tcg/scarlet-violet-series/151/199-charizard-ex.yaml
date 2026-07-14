@@ -1,0 +1,10 @@
+id: b7176b20-08c3-41b3-b878-d3d7e066c119
+name: Charizard ex
+type: card
+year: 2023
+attributes:
+  number: "199/165"
+  rarity: Special Illustration Rare
+  illustrator: miki kudo
+image:
+  source_url: https://images.pokemontcg.io/sv3pt5/199_hires.png

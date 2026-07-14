@@ -1,0 +1,9 @@
+id: 5db119ff-a99f-449a-ae29-b6ccfd50c5b9
+name: Ponyta
+type: card
+year: 2024
+attributes:
+  number: "19/142"
+  rarity: Common
+image:
+  source_url: https://images.pokemontcg.io/sv7/19_hires.png

@@ -1,0 +1,10 @@
+id: 9e5aa30d-f11c-4a87-9b37-94e1e005dc6a
+name: "Farfetch'd"
+type: card
+year: 2024
+attributes:
+  number: "132/167"
+  rarity: Common
+  illustrator: miki kudo
+image:
+  source_url: https://images.pokemontcg.io/sv6/132_hires.png

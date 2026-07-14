@@ -1,0 +1,10 @@
+id: f1f27672-27f3-452c-9fc8-cd46e539c4cf
+name: Charmander
+type: card
+year: 2023
+attributes:
+  number: "26/197"
+  rarity: Common
+  illustrator: DOM
+image:
+  source_url: https://images.pokemontcg.io/sv3/26_hires.png

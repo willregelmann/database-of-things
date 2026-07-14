@@ -1,0 +1,9 @@
+id: 23f818b0-9a26-4608-a25b-ed4e06e96b2c
+name: Meowth
+type: card
+year: 2024
+attributes:
+  number: "48/64"
+  rarity: Common
+image:
+  source_url: https://images.pokemontcg.io/sv6pt5/48_hires.png

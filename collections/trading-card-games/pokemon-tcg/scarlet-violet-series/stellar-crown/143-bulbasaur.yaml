@@ -1,0 +1,9 @@
+id: f1d18310-c217-4084-a0a8-2107f601d44f
+name: Bulbasaur
+type: card
+year: 2024
+attributes:
+  number: "143/142"
+  rarity: Illustration Rare
+image:
+  source_url: https://images.pokemontcg.io/sv7/143_hires.png

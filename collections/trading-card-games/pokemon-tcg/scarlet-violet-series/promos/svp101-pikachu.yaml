@@ -1,0 +1,10 @@
+id: 7b839d2d-af66-4c1b-bcf4-65cbfc5e43d2
+name: Pikachu
+type: card
+year: 2023
+attributes:
+  number: "101"
+  rarity: Promo
+  illustrator: Jiro Sasumo
+image:
+  source_url: https://images.pokemontcg.io/svp/101_hires.png

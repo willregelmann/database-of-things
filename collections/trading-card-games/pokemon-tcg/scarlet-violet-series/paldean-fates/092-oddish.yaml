@@ -1,0 +1,10 @@
+id: 55b233c2-735d-43f8-bfe6-f8ecc1c605e0
+name: Oddish
+type: card
+year: 2024
+attributes:
+  number: "92/91"
+  rarity: Shiny Rare
+  illustrator: otumami
+image:
+  source_url: https://images.pokemontcg.io/sv4pt5/92_hires.png

@@ -1,0 +1,9 @@
+id: b4fdbd01-98cc-4d3a-9bf6-34cc5403267b
+name: Charizard ex
+type: card
+year: 2023
+attributes:
+  number: "161"
+  rarity: Promo
+image:
+  source_url: https://images.pokemontcg.io/svp/161_hires.png

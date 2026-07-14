@@ -1,0 +1,10 @@
+id: b0bfe48f-d239-47a5-a3cc-ee1f4480e67a
+name: Pawniard
+type: card
+year: 2024
+attributes:
+  number: "111"
+  rarity: Promo
+  illustrator: matazo
+image:
+  source_url: https://images.pokemontcg.io/svp/111_hires.png

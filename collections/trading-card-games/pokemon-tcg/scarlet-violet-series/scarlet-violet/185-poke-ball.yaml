@@ -1,0 +1,10 @@
+id: d33001e5-9671-4c9b-89e4-bb799c888603
+name: Poké Ball
+type: card
+year: 2023
+attributes:
+  number: "185/198"
+  rarity: Common
+  illustrator: Studio Bora Inc.
+image:
+  source_url: https://images.pokemontcg.io/sv1/185_hires.png

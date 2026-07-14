@@ -1,0 +1,10 @@
+id: 0e7193e3-0594-4cc0-a2f5-ba1bd1e5afc8
+name: Slowpoke
+type: card
+year: 2023
+attributes:
+  number: "42/198"
+  rarity: Common
+  illustrator: Narumi Sato
+image:
+  source_url: https://images.pokemontcg.io/sv1/42_hires.png
