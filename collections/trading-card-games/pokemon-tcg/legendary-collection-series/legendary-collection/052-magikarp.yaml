@@ -1,0 +1,10 @@
+id: 6eff19f3-d56f-40f2-9079-3c4c42d6e3f4
+name: Magikarp
+type: card
+year: 2002
+attributes:
+  number: "52/110"
+  rarity: Uncommon
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base6/52_hires.png

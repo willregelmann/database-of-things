@@ -1,0 +1,10 @@
+id: f6f4e682-02bb-4f96-9752-13c206c48c46
+name: Charizard
+type: card
+year: 2002
+attributes:
+  number: "3/110"
+  rarity: Holo Rare
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base6/3_hires.png
