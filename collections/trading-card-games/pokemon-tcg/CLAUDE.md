@@ -102,7 +102,7 @@ unique.
 ## Rarity
 
 `attributes.rarity` is enum-validated in `template.schema.json`. The enum
-starts small (`Common`, `Uncommon`, `Rare`, `Holo Rare`, `Rare Holo EX`) and is
+starts small (`Common`, `Uncommon`, `Rare`, `Rare Holo`, `Rare Holo EX`) and is
 expected to grow — it is not meant to gate curation. If a card's real rarity
 tier isn't in the enum yet, add it as part of the same PR: confirm the exact
 label against an authoritative source (Bulbapedia, Pokémon TCG API, or
@@ -110,6 +110,19 @@ Serebii), then add that label to the `enum` array in `template.schema.json`
 alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
 GX` card as `Rare Holo EX`).
+
+**Word order matters, and existing precedent isn't automatically correct.**
+Every card in this category originally used `Holo Rare` for the base holo
+rarity — reversed from Bulbapedia's actual canonical name, `Rare Holo`
+(confirmed via the standard rarity icon's `alt`/`title` text, reused
+identically across every individual card's infobox site-wide, and via the
+Rarity overview page's own prose). This went unnoticed through several PRs
+because later additions like `Rare Holo EX` and `Rare Holo ☆` happened to
+get the word order right on their own, and "it's already in the enum" was
+read as settled instead of re-verified. Fixed across the whole category in
+one pass — if you're about to reuse an enum value instead of researching
+it fresh because "that's what's already there," verify it against Bulbapedia
+anyway; precedent set before careful verification isn't evidence.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
