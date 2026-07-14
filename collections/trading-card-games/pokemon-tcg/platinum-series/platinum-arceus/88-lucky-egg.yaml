@@ -1,0 +1,10 @@
+id: a8b83401-646b-4e84-b327-3f8c93631934
+name: Lucky Egg
+type: card
+year: 2009
+attributes:
+  number: "88/99"
+  rarity: Uncommon
+  illustrator: Nobuyuki Fujimoto
+image:
+  source_url: https://images.pokemontcg.io/pl4/88_hires.png

@@ -81,15 +81,30 @@ fetch, and prefer web-searching for the exact article title over guessing
 it. `attributes.number`'s pattern allows a single `A`-`Z`/`!`/`?` character
 as the numerator to accommodate this.
 
-**Bare alpha-prefixed numbering with no denominator at all**: some special
-subsets aren't printed with a `number/total` fraction at all — just a bare
-identifier. Confirmed cases: Stormfront's 3 "Shiny" secret cards (`SH1`-`SH3`)
-and the DP Black Star Promos line (`DP01`-`DP56`, zero-padded as printed).
+identifier. Confirmed cases: the "Shiny" secret sub-line that runs across
+*four* Diamond & Pearl/Platinum Series sets without resetting (Stormfront
+`SH1`-`SH3`, Platinum `SH4`-`SH6`, Supreme Victors `SH7`-`SH9`, Platinum:
+Arceus `SH10`-`SH12`), Rising Rivals' Rotom-themed `RT1`-`RT6`, Platinum:
+Arceus' `AR1`-`AR9`, the DP Black Star Promos line (`DP01`-`DP56`), and the
+HGSS Black Star Promos line (`HGSS01`-`HGSS25`), all zero-padded as printed.
 Verify via Bulbapedia's "English card no." field the same way as any other
 numbering quirk — don't assume a denominator exists just because every other
-case so far has had one. `attributes.number`'s pattern allows a bare
-1-4-uppercase-letter prefix followed by digits (widened from 1-3 to fit
-`HGSS01`-`HGSS25`), with no `/denominator`, to accommodate this.
+case so far has had one, and don't assume a prefix resets to 1 in a later
+set just because the set changed. `attributes.number`'s pattern allows a
+bare 1-4-uppercase-letter prefix followed by digits (widened from 1-3 to
+fit `HGSS01`-`HGSS25`), with no `/denominator`, to accommodate this.
+
+**The Pokémon TCG API's `rarity` field is wrong for every bare-numbered
+special-subset card checked so far.** All of `SH1`-`SH12`, `RT1`-`RT6`, and
+`AR1`-`AR9` come back from the API as plain `"Rare"`, but every one
+independently checked directly against Bulbapedia's own infobox (not a
+search summary — fetch the raw page) is actually `Rare Holo`. This was
+caught only after 3 of these cards had already been merged with the wrong
+value in an earlier PR and had to be corrected after the fact. Don't trust
+the API's `rarity` field for cards with this numbering pattern — verify
+each subset directly against Bulbapedia before writing anything, even if
+you've already verified a different subset with the same prefix pattern
+in a different set.
 
 **Fully spelled-out numbers, no digits at all**: the HeartGold & SoulSilver
 Series' "Alph Lithograph" secret card — one per mainline expansion, same

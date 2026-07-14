@@ -1,0 +1,10 @@
+id: 1ae8bf83-1fb4-4e45-99a7-5922dffa8fa4
+name: Magikarp
+type: card
+year: 2009
+attributes:
+  number: "110/147"
+  rarity: Common
+  illustrator: Masakazu Fukuda
+image:
+  source_url: https://images.pokemontcg.io/pl3/110_hires.png

@@ -1,0 +1,10 @@
+id: 172ef9de-e17d-4096-984d-99fe57bc864d
+name: Pokémon Rescue
+type: card
+year: 2009
+attributes:
+  number: "115/127"
+  rarity: Uncommon
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/pl1/115_hires.png
