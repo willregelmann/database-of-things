@@ -1,7 +1,7 @@
 id: db42494c-d40a-4112-9a07-884029bad909
 name: Bill
 type: card
-year: 2010
+date: "2010-02-10"
 attributes:
   number: "89/123"
   rarity: Uncommon

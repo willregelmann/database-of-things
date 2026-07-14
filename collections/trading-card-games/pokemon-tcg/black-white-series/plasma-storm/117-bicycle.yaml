@@ -1,7 +1,7 @@
 id: 3ac80966-9714-4dd7-b5d9-0992d0eb67bd
 name: Bicycle
 type: card
-year: 2013
+date: "2013-02-06"
 attributes:
   number: "117/135"
   rarity: Uncommon

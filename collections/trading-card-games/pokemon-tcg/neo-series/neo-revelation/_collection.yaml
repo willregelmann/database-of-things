@@ -7,7 +7,7 @@ description: >
   September 21, 2001. Spans 64 cards, plus the secret Shining Gyarados
   (65/64) and Shining Magikarp (66/64) — the TCG's first "Shining Pokémon,"
   alternately colored cards numbered beyond the set's printed total.
-year: 2001
+date: "2001-09-21"
 total_cards: 64
 image:
   source_url: https://images.pokemontcg.io/neo3/logo.png

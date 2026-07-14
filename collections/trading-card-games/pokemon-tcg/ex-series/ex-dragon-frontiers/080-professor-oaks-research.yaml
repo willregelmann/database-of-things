@@ -1,7 +1,7 @@
 id: 1d3161d8-f89b-4fc4-b931-ef73a33bb867
 name: Professor Oak's Research
 type: card
-year: 2006
+date: "2006-11-01"
 attributes:
   number: "80/101"
   rarity: Uncommon

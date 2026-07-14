@@ -7,7 +7,7 @@ description: >
   by Wizards of the Coast on January 9, 1999. Spans 102 cards drawn from the
   original 151 Pokémon and introduced iconic cards like Charizard to players
   outside Japan.
-year: 1999
+date: "1999-01-09"
 total_cards: 102
 image:
   source_url: https://images.pokemontcg.io/base1/logo.png
