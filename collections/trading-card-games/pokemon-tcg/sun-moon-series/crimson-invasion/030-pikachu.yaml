@@ -1,0 +1,10 @@
+id: 455bf5c4-f687-407d-bd0e-22379fdc29d8
+name: Pikachu
+type: card
+year: 2017
+attributes:
+  number: "30/111"
+  rarity: Common
+  illustrator: Shibuzoh.
+image:
+  source_url: https://images.pokemontcg.io/sm4/30_hires.png

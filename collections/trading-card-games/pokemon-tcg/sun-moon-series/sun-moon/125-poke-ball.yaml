@@ -1,0 +1,10 @@
+id: 658cabb6-0a12-480c-a88e-961ce08775e8
+name: Poké Ball
+type: card
+year: 2017
+attributes:
+  number: "125/149"
+  rarity: Uncommon
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/sm1/125_hires.png

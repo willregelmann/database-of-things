@@ -1,0 +1,10 @@
+id: 39fd74cc-1d69-4066-95fd-0fa13b6a43d8
+name: Mars
+type: card
+year: 2018
+attributes:
+  number: "128/156"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/sm5/128_hires.png

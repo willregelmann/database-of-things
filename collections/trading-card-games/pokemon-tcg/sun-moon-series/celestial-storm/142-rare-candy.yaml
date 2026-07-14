@@ -1,0 +1,10 @@
+id: 4b8e7b64-3e46-4abb-8014-ab4b8766687f
+name: Rare Candy
+type: card
+year: 2018
+attributes:
+  number: "142/168"
+  rarity: Uncommon
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/sm7/142_hires.png

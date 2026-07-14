@@ -1,0 +1,10 @@
+id: 7d9cd079-d000-456f-8ea0-51d91c1c5508
+name: Charmander
+type: card
+year: 2019
+attributes:
+  number: "4/18"
+  rarity: Common
+  illustrator: MPC Film
+image:
+  source_url: https://images.pokemontcg.io/det1/4_hires.png

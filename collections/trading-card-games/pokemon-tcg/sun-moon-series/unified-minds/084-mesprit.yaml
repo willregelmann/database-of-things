@@ -1,0 +1,10 @@
+id: 1c0d5664-ae38-479d-830d-49b0e0b2d81a
+name: Mesprit
+type: card
+year: 2019
+attributes:
+  number: "84/236"
+  rarity: Uncommon
+  illustrator: Sekio
+image:
+  source_url: https://images.pokemontcg.io/sm11/84_hires.png

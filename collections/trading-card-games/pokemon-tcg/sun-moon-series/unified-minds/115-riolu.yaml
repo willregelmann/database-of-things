@@ -1,0 +1,10 @@
+id: 5ac3cf44-bc23-4ec5-aa14-9d98bf0a4988
+name: Riolu
+type: card
+year: 2019
+attributes:
+  number: "115/236"
+  rarity: Common
+  illustrator: kirisAki
+image:
+  source_url: https://images.pokemontcg.io/sm11/115_hires.png

@@ -1,0 +1,10 @@
+id: 6c34aa61-8725-46cd-b33e-5ba06d0a1c58
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "56/236"
+  rarity: Common
+  illustrator: Misa Tsutsui
+image:
+  source_url: https://images.pokemontcg.io/sm11/56_hires.png

@@ -1,0 +1,10 @@
+id: cd3a41d5-46e4-4b28-963b-28dd781636c3
+name: Magikarp
+type: card
+year: 2019
+attributes:
+  number: "8/18"
+  rarity: Common
+  illustrator: Framestore
+image:
+  source_url: https://images.pokemontcg.io/det1/8_hires.png

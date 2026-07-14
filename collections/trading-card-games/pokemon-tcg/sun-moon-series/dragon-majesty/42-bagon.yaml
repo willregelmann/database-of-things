@@ -1,0 +1,10 @@
+id: 4f36f9c8-0a8c-4734-9bed-6cee7c27747c
+name: Bagon
+type: card
+year: 2018
+attributes:
+  number: "42/70"
+  rarity: Common
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/sm75/42_hires.png

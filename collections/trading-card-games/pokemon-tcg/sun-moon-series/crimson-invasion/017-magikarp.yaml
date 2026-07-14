@@ -1,0 +1,10 @@
+id: c4724dac-95fa-4eb2-9247-688220e99164
+name: Magikarp
+type: card
+year: 2017
+attributes:
+  number: "17/111"
+  rarity: Common
+  illustrator: TOKIYA
+image:
+  source_url: https://images.pokemontcg.io/sm4/17_hires.png

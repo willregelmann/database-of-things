@@ -1,0 +1,10 @@
+id: 9bd5bdb5-100b-43ac-a481-aa02813ae975
+name: Meowth
+type: card
+year: 2019
+attributes:
+  number: "147/214"
+  rarity: Common
+  illustrator: Shibuzoh.
+image:
+  source_url: https://images.pokemontcg.io/sm10/147_hires.png

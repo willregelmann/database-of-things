@@ -1,0 +1,10 @@
+id: 80958d29-be0c-44e3-b5bc-d986458290e2
+name: Magikarp
+type: card
+year: 2019
+attributes:
+  number: "15/68"
+  rarity: Common
+  illustrator: Shigenori Negishi
+image:
+  source_url: https://images.pokemontcg.io/sm115/15_hires.png

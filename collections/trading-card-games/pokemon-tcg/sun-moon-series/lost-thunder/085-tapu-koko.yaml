@@ -1,0 +1,10 @@
+id: a9d53796-8972-494e-97e3-e8c54404ac5f
+name: Tapu Koko
+type: card
+year: 2018
+attributes:
+  number: "85/214"
+  rarity: Rare Holo
+  illustrator: kawayoo
+image:
+  source_url: https://images.pokemontcg.io/sm8/85_hires.png

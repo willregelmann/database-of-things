@@ -1,0 +1,10 @@
+id: 78cc9357-5648-48cf-8991-ce4f9d3bff5b
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "19/68"
+  rarity: Common
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/sm115/19_hires.png

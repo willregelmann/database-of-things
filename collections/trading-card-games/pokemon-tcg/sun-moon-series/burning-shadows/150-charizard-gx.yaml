@@ -1,0 +1,10 @@
+id: efab2f51-4aa4-4c79-a8f7-2315bb29f544
+name: Charizard-GX
+type: card
+year: 2017
+attributes:
+  number: "150/147"
+  rarity: Rare Rainbow
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/sm3/150_hires.png

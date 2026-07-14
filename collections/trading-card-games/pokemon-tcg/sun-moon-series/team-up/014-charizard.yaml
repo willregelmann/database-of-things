@@ -1,0 +1,10 @@
+id: 70c5a71f-79c5-4735-ac12-8714f944a158
+name: Charizard
+type: card
+year: 2019
+attributes:
+  number: "14/181"
+  rarity: Rare
+  illustrator: Masakazu Fukuda
+image:
+  source_url: https://images.pokemontcg.io/sm9/14_hires.png

@@ -1,0 +1,10 @@
+id: e0ecea54-3a42-4315-bfb2-d3f1b6b9f480
+name: Bulbasaur
+type: card
+year: 2019
+attributes:
+  number: "1/18"
+  rarity: Common
+  illustrator: MPC Film
+image:
+  source_url: https://images.pokemontcg.io/det1/1_hires.png

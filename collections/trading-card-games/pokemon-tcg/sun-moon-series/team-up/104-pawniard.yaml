@@ -1,0 +1,10 @@
+id: 3a9ec7c9-41d0-437c-ae43-cced050517e2
+name: Pawniard
+type: card
+year: 2019
+attributes:
+  number: "104/181"
+  rarity: Common
+  illustrator: Masakazu Fukuda
+image:
+  source_url: https://images.pokemontcg.io/sm9/104_hires.png
