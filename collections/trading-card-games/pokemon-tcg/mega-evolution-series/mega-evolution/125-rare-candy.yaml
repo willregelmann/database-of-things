@@ -1,0 +1,9 @@
+id: d0318edb-6fec-452f-a198-9c143e0f5b8a
+name: Rare Candy
+type: card
+year: 2025
+attributes:
+  number: "125/132"
+  rarity: Common
+image:
+  source_url: https://images.pokemontcg.io/me1/125_hires.png
