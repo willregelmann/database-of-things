@@ -1,0 +1,10 @@
+id: c2e898cf-4db6-4d33-9708-9e3431bfa5cc
+name: Mudkip
+type: card
+year: 2003
+attributes:
+  number: "60/109"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex1/60_hires.png

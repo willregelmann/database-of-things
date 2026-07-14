@@ -1,0 +1,10 @@
+id: cc6ccf29-3c93-4413-b61b-93f8bbce241e
+name: Charmander
+type: card
+year: 2007
+attributes:
+  number: "48/108"
+  rarity: Common
+  illustrator: Sachiko Adachi
+image:
+  source_url: https://images.pokemontcg.io/ex16/48_hires.png

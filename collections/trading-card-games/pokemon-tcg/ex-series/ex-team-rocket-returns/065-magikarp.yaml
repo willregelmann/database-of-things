@@ -1,0 +1,10 @@
+id: 208bf255-a361-4c00-8aa8-ba764a4268b0
+name: Magikarp
+type: card
+year: 2004
+attributes:
+  number: "65/109"
+  rarity: Common
+  illustrator: Yukiko Baba
+image:
+  source_url: https://images.pokemontcg.io/ex7/65_hires.png

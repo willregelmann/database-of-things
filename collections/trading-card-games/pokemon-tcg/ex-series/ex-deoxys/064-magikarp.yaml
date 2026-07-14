@@ -1,0 +1,10 @@
+id: 487b27df-dafd-463e-9045-a0fe0eed9a74
+name: Magikarp
+type: card
+year: 2005
+attributes:
+  number: "64/107"
+  rarity: Common
+  illustrator: Hisao Nakamura
+image:
+  source_url: https://images.pokemontcg.io/ex8/64_hires.png

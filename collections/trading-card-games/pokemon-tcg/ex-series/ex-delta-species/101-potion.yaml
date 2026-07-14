@@ -1,0 +1,10 @@
+id: 64465c33-66cd-4847-8338-d1d222227a4c
+name: Potion
+type: card
+year: 2005
+attributes:
+  number: "101/113"
+  rarity: Common
+  illustrator: Shin-ichi Yoshikawa
+image:
+  source_url: https://images.pokemontcg.io/ex11/101_hires.png

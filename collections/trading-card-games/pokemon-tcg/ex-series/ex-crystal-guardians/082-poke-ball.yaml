@@ -1,0 +1,10 @@
+id: a7495ec9-0a09-477f-b42f-56affa987814
+name: Poké Ball
+type: card
+year: 2006
+attributes:
+  number: "82/100"
+  rarity: Uncommon
+  illustrator: Shin-ichi Yoshikawa
+image:
+  source_url: https://images.pokemontcg.io/ex14/82_hires.png

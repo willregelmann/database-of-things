@@ -1,0 +1,10 @@
+id: cc2b8b6b-5aac-44a4-882b-325c1f02db24
+name: Bulbasaur
+type: card
+year: 2006
+attributes:
+  number: "46/100"
+  rarity: Common
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/ex14/46_hires.png

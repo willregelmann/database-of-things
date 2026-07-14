@@ -59,6 +59,20 @@ prefer it over name matching, since many cards share a name across sets (multipl
 "Charizard" printings exist across dozens of sets) and even within a set via
 reprints/alt-art variants.
 
+**EX Unseen Forces' lettered Unown secret set**: this expansion's 28 secret
+Unown cards are printed on their own sub-checklist, numbered `A`–`Z` then
+`!` and `?`, with a fixed `/28` denominator (e.g. `G/28`, `!/28`) — entirely
+independent of the main `/115` numbering. The card's actual name is just
+"Unown" (verified via both the Pokémon TCG API and Bulbapedia's own article
+title, e.g. "Unown (EX Unseen Forces G)") — don't append the letter to the
+`name` field, it belongs only in `attributes.number`. A naive fetch of a
+per-letter Bulbapedia URL can silently 404 into an empty "no text on this
+page" stub rather than erroring — confirm you actually got a populated
+infobox (check for the "English card no." field) before trusting a page
+fetch, and prefer web-searching for the exact article title over guessing
+it. `attributes.number`'s pattern allows a single `A`-`Z`/`!`/`?` character
+as the numerator to accommodate this.
+
 ## Verifying a set is complete
 
 A set's total card count is public and fixed (encoded in every card's
@@ -88,6 +102,18 @@ Serebii), then add that label to the `enum` array in `template.schema.json`
 alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
 GX` card as `Rare Holo EX`).
+
+## Third-party data sources can disagree — verify glyphs, not just facts
+
+The Pokémon TCG API (`api.pokemontcg.io`) is a convenient bulk source for
+card lists (name, number, rarity, illustrator, image), but it isn't
+authoritative for exact typography. Confirmed case: the "Gold Star" Pokémon
+of the EX Series (e.g. `Mudkip ★`) come back from the API with `★` (U+2605
+BLACK STAR), but the actual printed card and Bulbapedia's own article title
+use `☆` (U+2606 WHITE STAR) — `Mudkip ☆`. Use the API for bulk data, but
+when a name contains a symbol (stars, gender signs, Greek letters), confirm
+the exact codepoint against Bulbapedia's page title or infobox before
+writing the entity file — don't assume the API's rendering is correct.
 
 ## Common pitfalls
 

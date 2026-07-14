@@ -1,0 +1,10 @@
+id: 56c28044-7ec3-4312-b537-d27417250697
+name: Poké Ball
+type: card
+year: 2004
+attributes:
+  number: "95/112"
+  rarity: Uncommon
+  illustrator: K. Hoshiba
+image:
+  source_url: https://images.pokemontcg.io/ex6/95_hires.png

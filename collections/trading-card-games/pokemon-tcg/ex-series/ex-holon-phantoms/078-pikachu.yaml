@@ -1,0 +1,10 @@
+id: bc7eb353-00e0-4fbe-b062-cf8ce80e9063
+name: Pikachu
+type: card
+year: 2006
+attributes:
+  number: "78/110"
+  rarity: Common
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/ex13/78_hires.png

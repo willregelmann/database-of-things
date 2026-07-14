@@ -1,0 +1,10 @@
+id: 63aab068-22a6-49b8-9c68-f7ca716350d0
+name: Magikarp
+type: card
+year: 2003
+attributes:
+  number: "60/97"
+  rarity: Common
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/ex3/60_hires.png
