@@ -7,7 +7,7 @@ description: >
   (2010-2011) through Pokémon League events, theme decks, and other
   promotions, marked with a black star and an "HGSS" number prefix. Spans
   25 cards, numbered HGSS01-HGSS25 with no printed denominator.
-year: 2010
+date: "2010"
 total_cards: 25
 image:
   source_url: https://images.pokemontcg.io/hsp/logo.png

@@ -66,8 +66,10 @@ confirmation it exists for that specific series (a single uncorroborated
 mention isn't enough; manufacturers don't advertise these, so official
 listings won't confirm or deny them either way).
 
-## Release year
+## Release date
 
 Manufacturers don't publish official release dates for these. Absent a
 better source, use a reputable retailer's "date first available" as a
-reasonable proxy and note in the PR which listing it came from.
+reasonable proxy and note in the PR which listing it came from — store just
+the year (`date: "YYYY"`) unless that listing's month/day is itself
+reliable enough to trust.

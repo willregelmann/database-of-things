@@ -1,7 +1,7 @@
 id: 5eaaff2e-2052-4fc4-a9e0-1c4f8dfc2f18
 name: Pokémon Center
 type: card
-year: 1999
+date: "1999-01-09"
 attributes:
   number: "85/102"
   rarity: Uncommon

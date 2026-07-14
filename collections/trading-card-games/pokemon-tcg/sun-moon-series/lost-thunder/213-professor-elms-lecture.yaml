@@ -1,7 +1,7 @@
 id: b6665a85-88da-4908-8103-56054f6b51b0
 name: "Professor Elm's Lecture"
 type: card
-year: 2018
+date: "2018-11-02"
 attributes:
   number: "213/214"
   rarity: Rare Ultra

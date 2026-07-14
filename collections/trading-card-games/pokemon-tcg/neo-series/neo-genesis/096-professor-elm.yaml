@@ -1,7 +1,7 @@
 id: 1ad2ec92-9d29-412d-8489-d6c1f9b23a68
 name: Professor Elm
 type: card
-year: 2000
+date: "2000-12-16"
 attributes:
   number: "96/111"
   rarity: Uncommon

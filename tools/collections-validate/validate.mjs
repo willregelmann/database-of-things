@@ -8,6 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const COLLECTIONS_ROOT = path.join(REPO_ROOT, 'collections');
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 const seenIds = new Map();
@@ -31,6 +32,13 @@ function validateEntityStructure(filePath, data) {
     if (data[field] !== undefined) {
       errors.push(
         `${rel(filePath)}: has a "${field}" field — parent membership is derived from directory position, remove it`
+      );
+    }
+  }
+  if (data.date !== undefined) {
+    if (typeof data.date !== 'string' || !DATE_RE.test(data.date)) {
+      errors.push(
+        `${rel(filePath)}: "date" must be a quoted string in YYYY, YYYY-MM, or YYYY-MM-DD format: ${JSON.stringify(data.date)}`
       );
     }
   }

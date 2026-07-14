@@ -10,7 +10,7 @@ description: >
   of a set symbol. Numbering runs continuously across the Original Series,
   Neo Series, and e-Card Series eras without resetting per series, so unlike
   later promo lines it isn't scoped to any one series.
-year: 1999
+date: "1999"
 total_cards: 53
 image:
   source_url: https://images.pokemontcg.io/basep/logo.png

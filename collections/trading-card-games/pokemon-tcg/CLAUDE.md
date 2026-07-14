@@ -68,6 +68,65 @@ JSON's actual `images.large`/`images.logo` field — verify every
 before considering a set's generation complete, don't assume the pattern
 that worked for one set works for the next.
 
+## Release dates
+
+Every numbered expansion's own `_collection.yaml` and every card inside it
+carry the expansion's official US/English release date as `date:
+"YYYY-MM-DD"` (see [`collections/CLAUDE.md`](../../CLAUDE.md) for the
+general `date` field format) — one date per expansion, not per card, since
+every card in a numbered expansion ships together on the same day.
+
+**Source: the Pokémon TCG API's `/v2/sets` endpoint (`releaseDate` field),
+bulk-fetched and spot-checked — not a per-set Bulbapedia lookup for every
+expansion.** A single `GET https://api.pokemontcg.io/v2/sets?pageSize=300`
+call returns every set's metadata at once, including `releaseDate` (as
+`YYYY/MM/DD`). This is a deliberate exception to this category's usual
+"verify every field against Bulbapedia" bar (see the rarity/numbering notes
+above) — a release date is one objective fact, not an interpretation-prone
+label like rarity, so bulk-trusting the API after spot-checking a sample is
+proportionate. Confirmed via 6 independent Bulbapedia infobox checks
+spanning the game's full history — Base Set (Jan 9, 1999), Team Rocket
+(Apr 24, 2000), Aquapolis (Jan 15, 2003 — not October 2002, a common
+misremembering), Celebrations (Oct 8, 2021), Prismatic Evolutions
+(Jan 17, 2025), Perfect Order (Mar 27, 2026) — all matched the API's
+`releaseDate` exactly. If a newly-added expansion's `releaseDate` looks
+off, verify it against Bulbapedia's infobox before trusting it, same as any
+other API field in this category.
+
+**Map an expansion directory to its API set id via an existing card's
+`image.source_url`, not by matching set names.** The id embedded in every
+card's image URL is unambiguous — `images.pokemontcg.io/<setId>/<n>_hires.png`
+for the legacy CDN, `images.scrydex.com/pokemon/<setId>-<n>/large` for the
+newer one (see the image-sourcing note above) — where display names can
+diverge from this repo's directory slugs. Look up that id in the bulk
+`/v2/sets` response rather than matching on name.
+
+**Sub-checklists folded into a parent expansion's directory (Trainer
+Gallery, Shiny Vault, Galarian Gallery, Celebrations' Classic Collection —
+see the numbering notes above) carry their own separate API set id, but
+ship inside the same physical product as the parent set on the same day.**
+Confirmed by comparing `releaseDate` across all 8 known pairs (e.g. `swsh9`
+/ `swsh9tg` for Brilliant Stars/Trainer Gallery, `cel25` / `cel25c` for
+Celebrations/Classic Collection) — every pair's `releaseDate` matched
+exactly. Apply one date to the whole directory; don't try to split by
+sub-checklist.
+
+**Celebrations' Classic Collection reprints use Celebrations' own release
+date (`2021-10-08`) for every card, not each card's original historical
+printing date — unlike `attributes.number`, which deliberately keeps the
+ORIGINAL denominator (see the numbering note above).** Don't assume `date`
+follows the same "preserve the original" logic just because `number` does
+— this was a deliberate call to treat `date` as "when this physical card
+was sold," not "what historical card this reprints."
+
+**Promo lines and the Energies subset are excluded from this — they don't
+have one release date to begin with.** `<series>/promos/`,
+`wizards-black-star-promos/`, and `scarlet-violet-series/energies/` each
+release cards individually over months or years rather than as a single
+dated product, so they stay at year-only `date` precision until each card
+gets its own individually-sourced date — a separate, harder task, not yet
+started.
+
 ## Identifying items
 
 Cards are identified by their **collector number within a set**, formatted as
