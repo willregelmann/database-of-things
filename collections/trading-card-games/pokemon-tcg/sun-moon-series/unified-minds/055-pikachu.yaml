@@ -1,0 +1,10 @@
+id: 209bb706-6f70-47f3-b756-fa0c360fa37b
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "55/236"
+  rarity: Common
+  illustrator: Sanosuke Sakuma
+image:
+  source_url: https://images.pokemontcg.io/sm11/55_hires.png

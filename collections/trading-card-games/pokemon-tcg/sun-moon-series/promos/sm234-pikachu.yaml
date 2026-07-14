@@ -1,0 +1,10 @@
+id: c7ab5828-1dd9-4e8d-9068-7cf5525c68fd
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "SM234"
+  rarity: Promo
+  illustrator: Naoki Saito
+image:
+  source_url: https://images.pokemontcg.io/smp/SM234_hires.png

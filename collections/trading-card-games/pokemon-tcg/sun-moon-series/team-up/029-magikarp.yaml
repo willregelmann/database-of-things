@@ -1,0 +1,10 @@
+id: e15f89c0-557d-48e5-b10f-0b8bbc3368b2
+name: Magikarp
+type: card
+year: 2019
+attributes:
+  number: "29/181"
+  rarity: Common
+  illustrator: sui
+image:
+  source_url: https://images.pokemontcg.io/sm9/29_hires.png

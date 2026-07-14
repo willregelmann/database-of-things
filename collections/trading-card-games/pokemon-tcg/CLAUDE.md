@@ -127,15 +127,19 @@ already gives you consistently. When multiple parallel agents touched Unown
 cards in the same PR, some incorrectly stripped the brackets based on the
 Bulbapedia title alone; keep the brackets.
 
-**"Radiant Collection" (`RC*`) subsets**: unlike every other bare-prefix
-subset so far, these ARE printed with a fraction — but the *denominator*
-is also prefixed, not the set's main total: `RC1/RC25`, not `RC1/113`.
-Confirmed via Bulbapedia's raw wikitext (`cardno=RC1/RC25`).
-`attributes.number`'s pattern allows an `RC` prefix on either side of the
-fraction, alongside the existing `H` prefix, to accommodate this. **The
-denominator isn't fixed at 25** — Legendary Treasures' is `RC25`, but
-Generations' own, separate Radiant Collection is `RC32` (confirmed via
-the same raw-wikitext method) — check each set rather than assuming.
+**Prefixed-fraction subsets (`RC*`, `SV*`, ...)**: unlike every bare-prefix
+subset (no fraction at all — see below), some subsets ARE printed with a
+fraction, but the *denominator* is also prefixed, not the set's main
+total: `RC1/RC25`, not `RC1/113`. Confirmed via Bulbapedia's raw wikitext
+(`cardno=RC1/RC25`, `cardno=SV1/SV94`). Known cases so far: Legendary
+Treasures' and Generations' separate "Radiant Collection"s (`RC25` and
+`RC32` respectively — the denominator isn't fixed, check each set) and
+Hidden Fates' "Shiny Vault" (`SV94`, folded into the `hidden-fates/`
+directory alongside Hidden Fates' own numbered checklist — Shiny Vault is
+not a separate expansion, Bulbapedia treats it as part of Hidden Fates).
+`attributes.number`'s pattern allows any 0-2-uppercase-letter prefix on
+either side of the fraction rather than an enumerated list of known
+prefixes, since a new one has shown up in each of the last few series.
 **Zero-pad the numeral in the filename to the collection's own width**,
 same as any other numbered set (e.g. `rc01`-`rc25`, not `rc1`-`rc25`) —
 Legendary Treasures originally shipped with `rc1`-`rc9` unpadded, which
@@ -188,6 +192,22 @@ A set's total card count is public and fixed (encoded in every card's
 3. Cross-reference the full checklist against an authoritative source (Bulbapedia,
    Pokémon TCG API, or Serebii) rather than assuming — some sets have secret rares
    numbered above the printed total (e.g. `103/102`).
+
+**The API sometimes invents a sequential number for a card that isn't
+printed with one at all — don't trust `attributes.number` blindly for
+trailing basic Energy cards.** Sun & Moon's API data includes 9 basic
+Energy cards (one of each type, including Fairy) at what look like
+numbers 164-172, beyond its documented 163-card checklist. Bulbapedia's
+own compiled printing history for these explicitly calls this a Sun &
+Moon-era Basic Energy print "**unnumbered**" — the physical card carries
+no collector number at all, and the API's sequential numbering is its own
+invention for database bookkeeping, not something to reproduce. Excluded
+these 9 from `sun-moon/` for exactly that reason (a card's number is this
+category's primary identifier — don't fabricate one). This appears to be
+a one-off tied to this specific print event, not a recurring pattern —
+every other Sun & Moon-era set's genuine numeric-card count matched its
+independently-documented community checklist exactly with no similar
+excess, so don't assume it recurs without checking.
 
 ## Naming files
 
@@ -260,6 +280,47 @@ confirmed via raw wikitext on 2 cards across 2 sets.
 **`Rare BREAK`** (BREAKthrough onward): "BREAK Evolution" Pokémon (named
 `<Pokémon> BREAK` in-game). Matches the API's casing exactly — confirmed
 via raw wikitext on 2 cards across 2 sets, no correction needed.
+
+**A single card's raw wikitext can itself be stale — cross-check against
+the Rarity overview page's prose when they disagree.** Individual
+Pokémon-GX cards' `{{rar|}}` template parameter often literally reads
+`Ultra-Rare Rare` (confirmed on 2 different cards' base Sun & Moon-era
+printings), which looks like a genuine value but isn't the intended one:
+the Rarity overview page's own maintained prose states outright "Their
+rarity is rare Holo GX." Individual card infoboxes aren't always kept in
+sync with what a rarity is *supposed* to be called; when a raw-wikitext
+value looks inconsistent with how the same rarity reads elsewhere (e.g.
+via the API, or via other cards of the same mechanic), check the Rarity
+overview page's dedicated prose for that mechanic before trusting a
+single card's template value. Two independent raw-wikitext checks
+verifies a value is *used*, not that it's *correct* — Bulbapedia is
+maintained by editors, not machine-consistent.
+
+**`Rare Holo GX`** (Sun & Moon onward): Pokémon-GX cards, including "Tag
+Team" GX from Team Up onward. Matches the API's casing — confirmed via
+the Rarity overview page's prose (see above), not just individual card
+infoboxes, which are unreliable for this one specifically.
+
+**`Rare Rainbow`** (Sun & Moon onward): secret "Rainbow Rare" full-art
+reprints, mostly of Pokémon-GX. Matches the API exactly — confirmed via
+raw wikitext.
+
+**`Rare Prism Star`** (Ultra Prism onward): "Prism Star" (◇) cards, max 1
+per deck. Matches the API and the Rarity overview page's prose exactly.
+
+**`Rare Shining`** (Shining Legends only): a 2017 one-set revival of the
+"Shining Pokémon" concept, but a GENUINELY DIFFERENT rarity from the
+1999-2002 Neo Series' `Shining Holofoil` — don't conflate them just
+because both eras name the cards "Shining <Pokémon>". Confirmed via raw
+wikitext on 2 cards.
+
+**`Rare Shiny` / `Rare Shiny GX`** (Hidden Fates' Shiny Vault only):
+non-GX and GX secret reprints in the `SV1/SV94` sub-checklist. Matches
+the API exactly — confirmed via raw wikitext on multiple cards. Also
+genuinely different from both `Shining Holofoil` and `Rare Shining` —
+three visually/conceptually similar but textually distinct "shiny
+Pokémon" rarities now exist in this enum across three different eras;
+don't collapse them into one just because they sound alike.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 

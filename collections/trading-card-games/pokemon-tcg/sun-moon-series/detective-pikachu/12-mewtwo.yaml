@@ -1,0 +1,10 @@
+id: 4ea11f06-9b4b-44f0-8c92-69f5cf462586
+name: Mewtwo
+type: card
+year: 2019
+attributes:
+  number: "12/18"
+  rarity: Rare Ultra
+  illustrator: MPC Film
+image:
+  source_url: https://images.pokemontcg.io/det1/12_hires.png

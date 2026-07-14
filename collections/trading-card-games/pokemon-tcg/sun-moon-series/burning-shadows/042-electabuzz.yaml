@@ -1,0 +1,10 @@
+id: 236bf96a-e3f0-465f-84d5-ff5ab1f56449
+name: Electabuzz
+type: card
+year: 2017
+attributes:
+  number: "42/147"
+  rarity: Uncommon
+  illustrator: match
+image:
+  source_url: https://images.pokemontcg.io/sm3/42_hires.png

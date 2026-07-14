@@ -1,0 +1,10 @@
+id: 1103244e-7763-4349-9a3d-b73995946298
+name: Vaporeon
+type: card
+year: 2019
+attributes:
+  number: "42/236"
+  rarity: Uncommon
+  illustrator: sui
+image:
+  source_url: https://images.pokemontcg.io/sm12/42_hires.png

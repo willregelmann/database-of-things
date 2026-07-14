@@ -1,0 +1,10 @@
+id: 8ec55e78-d7b0-4edf-852a-3b2a2281b0b8
+name: Tentacool
+type: card
+year: 2019
+attributes:
+  number: "60/181"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/sm9/60_hires.png

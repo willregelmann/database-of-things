@@ -1,0 +1,10 @@
+id: 38def613-9c4c-4a31-9cb1-fc0fcf37bb4c
+name: Staryu
+type: card
+year: 2019
+attributes:
+  number: "28/181"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/sm9/28_hires.png

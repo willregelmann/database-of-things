@@ -1,0 +1,10 @@
+id: 555707d4-a739-41b3-85bf-fcc4e6f2469c
+name: Morty
+type: card
+year: 2018
+attributes:
+  number: "212/214"
+  rarity: Rare Ultra
+  illustrator: Sanosuke Sakuma
+image:
+  source_url: https://images.pokemontcg.io/sm8/212_hires.png

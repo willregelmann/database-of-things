@@ -1,0 +1,10 @@
+id: 2b205027-574e-4a16-964c-4779d30ce898
+name: Dragonite
+type: card
+year: 2019
+attributes:
+  number: "151/236"
+  rarity: Rare
+  illustrator: Misa Tsutsui
+image:
+  source_url: https://images.pokemontcg.io/sm11/151_hires.png

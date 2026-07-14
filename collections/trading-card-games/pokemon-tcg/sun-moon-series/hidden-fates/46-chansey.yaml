@@ -1,0 +1,10 @@
+id: 13aee16b-7ecb-43f3-8bd9-eb04e781cf6e
+name: Chansey
+type: card
+year: 2019
+attributes:
+  number: "46/68"
+  rarity: Uncommon
+  illustrator: sowsow
+image:
+  source_url: https://images.pokemontcg.io/sm115/46_hires.png

@@ -1,0 +1,10 @@
+id: 829dc95d-930a-4223-89ba-4643c9f24bc3
+name: Psyduck
+type: card
+year: 2019
+attributes:
+  number: "40/236"
+  rarity: Common
+  illustrator: sui
+image:
+  source_url: https://images.pokemontcg.io/sm12/40_hires.png

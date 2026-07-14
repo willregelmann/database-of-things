@@ -1,0 +1,10 @@
+id: ebd1c367-f1fc-4f74-a830-1c0a5918ec14
+name: Rare Candy
+type: card
+year: 2017
+attributes:
+  number: "165/145"
+  rarity: Secret Rare
+  illustrator: Toyste Beach
+image:
+  source_url: https://images.pokemontcg.io/sm2/165_hires.png

@@ -1,0 +1,10 @@
+id: af3a19e3-5e70-483b-8b0f-47864655e5b5
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "SM183"
+  rarity: Promo
+  illustrator: Aya Kusube
+image:
+  source_url: https://images.pokemontcg.io/smp/SM183_hires.png

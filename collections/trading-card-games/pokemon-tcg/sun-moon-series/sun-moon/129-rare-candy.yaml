@@ -1,0 +1,10 @@
+id: ca146faa-1c28-407f-a194-0c9cd4127ee9
+name: Rare Candy
+type: card
+year: 2017
+attributes:
+  number: "129/149"
+  rarity: Uncommon
+  illustrator: Toyste Beach
+image:
+  source_url: https://images.pokemontcg.io/sm1/129_hires.png

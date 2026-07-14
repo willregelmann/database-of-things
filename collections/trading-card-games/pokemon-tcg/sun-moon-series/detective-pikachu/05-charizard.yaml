@@ -1,0 +1,10 @@
+id: 0031f963-2540-40e3-8d9d-b374b993caa2
+name: Charizard
+type: card
+year: 2019
+attributes:
+  number: "5/18"
+  rarity: Rare Ultra
+  illustrator: Framestore
+image:
+  source_url: https://images.pokemontcg.io/det1/5_hires.png

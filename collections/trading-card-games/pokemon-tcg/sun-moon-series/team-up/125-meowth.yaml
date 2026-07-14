@@ -1,0 +1,10 @@
+id: 7de82edd-6e45-406a-bb52-9019c3e4205a
+name: Meowth
+type: card
+year: 2019
+attributes:
+  number: "125/181"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/sm9/125_hires.png

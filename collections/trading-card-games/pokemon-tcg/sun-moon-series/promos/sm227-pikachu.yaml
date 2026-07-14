@@ -1,0 +1,10 @@
+id: ccb726a1-b267-4085-8958-799d6c81415e
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "SM227"
+  rarity: Promo
+  illustrator: 2019 Pikachu Project
+image:
+  source_url: https://images.pokemontcg.io/smp/SM227_hires.png

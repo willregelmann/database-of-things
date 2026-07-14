@@ -1,0 +1,10 @@
+id: f25d8555-cb7a-4df4-b9e4-56331e1b6993
+name: Magikarp
+type: card
+year: 2017
+attributes:
+  number: "32/147"
+  rarity: Common
+  illustrator: Yukiko Baba
+image:
+  source_url: https://images.pokemontcg.io/sm3/32_hires.png

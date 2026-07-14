@@ -1,0 +1,10 @@
+id: 74cc9979-4295-45e3-8d38-2c70b8c135ec
+name: "Professor Elm's Lecture"
+type: card
+year: 2018
+attributes:
+  number: "188/214"
+  rarity: Uncommon
+  illustrator: Hideki Ishikawa
+image:
+  source_url: https://images.pokemontcg.io/sm8/188_hires.png

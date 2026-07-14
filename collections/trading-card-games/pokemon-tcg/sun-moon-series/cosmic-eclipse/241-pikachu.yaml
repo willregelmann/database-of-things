@@ -1,0 +1,10 @@
+id: cf335660-e3cd-4869-a1e0-d1def2f04eb8
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "241/236"
+  rarity: Secret Rare
+  illustrator: Hitoshi Ariga
+image:
+  source_url: https://images.pokemontcg.io/sm12/241_hires.png

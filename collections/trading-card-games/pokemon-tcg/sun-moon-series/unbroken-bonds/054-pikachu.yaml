@@ -1,0 +1,10 @@
+id: f2f9caa7-d705-41bf-9a60-7a0061040f82
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "54/214"
+  rarity: Common
+  illustrator: nagimiso
+image:
+  source_url: https://images.pokemontcg.io/sm10/54_hires.png

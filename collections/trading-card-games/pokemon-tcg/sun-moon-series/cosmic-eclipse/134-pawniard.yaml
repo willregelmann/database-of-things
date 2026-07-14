@@ -1,0 +1,10 @@
+id: a5842e40-72c4-4b4d-b2ab-64b654a868da
+name: Pawniard
+type: card
+year: 2019
+attributes:
+  number: "134/236"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/sm12/134_hires.png

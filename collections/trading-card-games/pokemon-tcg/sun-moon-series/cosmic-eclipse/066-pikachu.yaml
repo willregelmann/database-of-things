@@ -1,0 +1,10 @@
+id: d6de20bc-226d-4a08-97f2-23d141d285fb
+name: Pikachu
+type: card
+year: 2019
+attributes:
+  number: "66/236"
+  rarity: Common
+  illustrator: Naoyo Kimura
+image:
+  source_url: https://images.pokemontcg.io/sm12/66_hires.png
