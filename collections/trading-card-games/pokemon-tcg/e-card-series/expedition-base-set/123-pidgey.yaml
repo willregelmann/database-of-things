@@ -1,0 +1,10 @@
+id: 35028d2f-d58f-426f-b7ee-c256f3fa9304
+name: Pidgey
+type: card
+year: 2002
+attributes:
+  number: "123/165"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/ecard1/123_hires.png

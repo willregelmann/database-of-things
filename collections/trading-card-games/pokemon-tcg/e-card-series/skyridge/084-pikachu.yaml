@@ -1,0 +1,10 @@
+id: 44a8cacc-d12a-494f-b4a4-844fbac8fa6a
+name: Pikachu
+type: card
+year: 2003
+attributes:
+  number: "84/144"
+  rarity: Common
+  illustrator: Yuka Morii
+image:
+  source_url: https://images.pokemontcg.io/ecard3/84_hires.png

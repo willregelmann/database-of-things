@@ -1,0 +1,10 @@
+id: 30722a9d-c26b-4a5c-949c-9d5166e2b37c
+name: Charizard
+type: card
+year: 2003
+attributes:
+  number: "146/144"
+  rarity: Secret Rare
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/ecard3/146_hires.png

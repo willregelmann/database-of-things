@@ -1,0 +1,10 @@
+id: 5f19a795-db55-4109-b9c2-035c65f60f32
+name: Bulbasaur
+type: card
+year: 2002
+attributes:
+  number: "94/165"
+  rarity: Common
+  illustrator: Sachi Matoba
+image:
+  source_url: https://images.pokemontcg.io/ecard1/94_hires.png

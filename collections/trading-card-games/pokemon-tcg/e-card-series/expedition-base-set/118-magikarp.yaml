@@ -1,0 +1,10 @@
+id: c1d25e57-250b-4507-9a2b-1f99e174db86
+name: Magikarp
+type: card
+year: 2002
+attributes:
+  number: "118/165"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/ecard1/118_hires.png
