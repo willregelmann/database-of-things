@@ -1,0 +1,10 @@
+id: 6733cce6-1c98-4624-8b24-e00a4148da5b
+name: Pikachu
+type: card
+year: 2002
+attributes:
+  number: "86/110"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base6/86_hires.png

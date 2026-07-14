@@ -1,0 +1,10 @@
+id: ec7bc3a2-2b86-4d71-a274-17bf2491d374
+name: Fearow
+type: card
+year: 2002
+attributes:
+  number: "42/110"
+  rarity: Uncommon
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base6/42_hires.png

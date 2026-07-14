@@ -1,0 +1,10 @@
+id: 28fbc831-41d2-4dce-ae80-d2cf12e05c8e
+name: Bulbasaur
+type: card
+year: 2002
+attributes:
+  number: "68/110"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/base6/68_hires.png

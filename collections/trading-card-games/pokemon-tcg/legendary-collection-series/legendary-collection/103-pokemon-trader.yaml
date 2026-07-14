@@ -1,0 +1,10 @@
+id: e4eff0e6-06ff-405e-a91c-af5fc66f14e7
+name: Pokémon Trader
+type: card
+year: 2002
+attributes:
+  number: "103/110"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base6/103_hires.png

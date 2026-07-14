@@ -1,0 +1,10 @@
+id: 5910ad97-d1df-4cb5-9543-9274b965776e
+name: Bill
+type: card
+year: 2002
+attributes:
+  number: "108/110"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base6/108_hires.png

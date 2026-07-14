@@ -1,0 +1,10 @@
+id: bcfe00e4-e3c8-4cdb-8ee6-2cb446432cb7
+name: Mewtwo
+type: card
+year: 2002
+attributes:
+  number: "29/110"
+  rarity: Rare
+  illustrator: Christopher Rush
+image:
+  source_url: https://images.pokemontcg.io/base6/29_hires.png
