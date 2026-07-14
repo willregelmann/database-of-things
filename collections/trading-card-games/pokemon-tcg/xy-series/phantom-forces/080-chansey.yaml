@@ -1,0 +1,10 @@
+id: 5beaf664-3cc3-44a4-ba1c-ff966a3ddcec
+name: Chansey
+type: card
+year: 2014
+attributes:
+  number: "80/119"
+  rarity: Common
+  illustrator: Naoyo Kimura
+image:
+  source_url: https://images.pokemontcg.io/xy4/80_hires.png

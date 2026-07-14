@@ -1,0 +1,10 @@
+id: 5cb2786d-4ff2-4b02-be05-f25ac7a40d05
+name: Electabuzz
+type: card
+year: 2016
+attributes:
+  number: "42/122"
+  rarity: Common
+  illustrator: Shin Nagasawa
+image:
+  source_url: https://images.pokemontcg.io/xy9/42_hires.png

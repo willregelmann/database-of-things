@@ -1,0 +1,10 @@
+id: cd3ca216-1a0e-4d53-9c3d-38e8523ccf64
+name: Staryu
+type: card
+year: 2016
+attributes:
+  number: "25/122"
+  rarity: Common
+  illustrator: Hiroki Asanuma
+image:
+  source_url: https://images.pokemontcg.io/xy9/25_hires.png

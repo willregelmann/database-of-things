@@ -1,0 +1,10 @@
+id: 83c11436-ab4c-4e22-adff-0fec7874857b
+name: Staryu
+type: card
+year: 2015
+attributes:
+  number: "32/160"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/xy5/32_hires.png

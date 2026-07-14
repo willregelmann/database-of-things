@@ -1,0 +1,10 @@
+id: 29ad77e5-e892-4eef-9c15-1bd61d9b53c0
+name: Pikachu
+type: card
+year: 2016
+attributes:
+  number: "XY202"
+  rarity: Promo
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY202_hires.png

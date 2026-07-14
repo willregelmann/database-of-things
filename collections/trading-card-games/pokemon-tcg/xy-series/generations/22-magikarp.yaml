@@ -1,0 +1,10 @@
+id: 8dd1adee-fd63-4290-b439-cb96a08a2f89
+name: Magikarp
+type: card
+year: 2016
+attributes:
+  number: "22/83"
+  rarity: Common
+  illustrator: Miki Tanaka
+image:
+  source_url: https://images.pokemontcg.io/g1/22_hires.png

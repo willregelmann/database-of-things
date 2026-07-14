@@ -1,0 +1,10 @@
+id: 96e94645-f42a-4175-97b0-ca5cc0321b1c
+name: Gyarados
+type: card
+year: 2016
+attributes:
+  number: "XY109"
+  rarity: Promo
+  illustrator: Hajime Kusajima
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY109_hires.png

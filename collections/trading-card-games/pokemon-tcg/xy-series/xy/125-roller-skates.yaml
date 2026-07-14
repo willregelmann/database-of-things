@@ -1,0 +1,10 @@
+id: d24d5135-dcee-42bc-98fc-ad4f488c778a
+name: Roller Skates
+type: card
+year: 2014
+attributes:
+  number: "125/146"
+  rarity: Uncommon
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/xy1/125_hires.png

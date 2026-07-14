@@ -1,0 +1,10 @@
+id: 2c2f2fd8-f854-4e26-bfc2-d5ad80e3b383
+name: Pikachu
+type: card
+year: 2015
+attributes:
+  number: "48/162"
+  rarity: Common
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/xy8/48_hires.png

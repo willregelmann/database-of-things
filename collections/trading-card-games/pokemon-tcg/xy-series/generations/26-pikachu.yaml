@@ -1,0 +1,10 @@
+id: de5e5ccf-6de5-4625-bccc-4f0d92acc503
+name: Pikachu
+type: card
+year: 2016
+attributes:
+  number: "26/83"
+  rarity: Common
+  illustrator: Atsuko Nishida
+image:
+  source_url: https://images.pokemontcg.io/g1/26_hires.png

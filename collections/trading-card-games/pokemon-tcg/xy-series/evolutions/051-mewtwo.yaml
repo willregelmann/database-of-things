@@ -1,0 +1,10 @@
+id: 8a00aa36-358c-4ab9-ab7d-0e7fd1b60b17
+name: Mewtwo
+type: card
+year: 2016
+attributes:
+  number: "51/108"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/xy12/51_hires.png

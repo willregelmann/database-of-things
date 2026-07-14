@@ -1,0 +1,10 @@
+id: 2fdc3d11-0434-469f-8a44-27609115bdce
+name: Whiscash
+type: card
+year: 2015
+attributes:
+  number: "40/160"
+  rarity: Uncommon
+  illustrator: Naoyo Kimura
+image:
+  source_url: https://images.pokemontcg.io/xy5/40_hires.png

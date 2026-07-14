@@ -1,0 +1,10 @@
+id: 7fd8f178-01d0-415f-ab89-be50d03462b8
+name: Gym Badge
+type: card
+year: 2017
+attributes:
+  number: "XY210"
+  rarity: Promo
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY210_hires.png
