@@ -1,0 +1,10 @@
+id: b9d8b260-ad81-4afd-a8f9-5d9db8220d2b
+name: Beldum
+type: card
+year: 2004
+attributes:
+  number: "29/101"
+  rarity: Uncommon
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/ex5/29_hires.png

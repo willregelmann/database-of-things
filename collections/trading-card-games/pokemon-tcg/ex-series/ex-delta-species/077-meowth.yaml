@@ -1,0 +1,10 @@
+id: 64c7e89f-7190-4892-ae72-dad7311ff677
+name: Meowth
+type: card
+year: 2005
+attributes:
+  number: "77/113"
+  rarity: Common
+  illustrator: Hiroki Fuchino
+image:
+  source_url: https://images.pokemontcg.io/ex11/77_hires.png

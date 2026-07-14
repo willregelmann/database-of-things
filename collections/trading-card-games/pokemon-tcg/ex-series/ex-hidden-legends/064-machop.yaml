@@ -1,0 +1,10 @@
+id: f3be8bac-2ae9-4cd8-9823-8a0f9c568e83
+name: Machop
+type: card
+year: 2004
+attributes:
+  number: "64/101"
+  rarity: Common
+  illustrator: Hajime Kusajima
+image:
+  source_url: https://images.pokemontcg.io/ex5/64_hires.png

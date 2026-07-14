@@ -1,0 +1,10 @@
+id: 3600f566-cedc-4f2f-a86c-03a158f49f91
+name: Pikachu
+type: card
+year: 2004
+attributes:
+  number: "74/112"
+  rarity: Common
+  illustrator: Midori Harada
+image:
+  source_url: https://images.pokemontcg.io/ex6/74_hires.png

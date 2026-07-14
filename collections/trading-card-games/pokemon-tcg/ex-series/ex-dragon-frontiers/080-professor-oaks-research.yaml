@@ -1,0 +1,10 @@
+id: 1d3161d8-f89b-4fc4-b931-ef73a33bb867
+name: Professor Oak's Research
+type: card
+year: 2006
+attributes:
+  number: "80/101"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex15/80_hires.png

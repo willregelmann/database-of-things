@@ -1,0 +1,10 @@
+id: a28c37e8-e865-401c-9829-615a1ba6fcbb
+name: Bulbasaur
+type: card
+year: 2004
+attributes:
+  number: "39/95"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex4/39_hires.png

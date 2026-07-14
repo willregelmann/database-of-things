@@ -1,0 +1,10 @@
+id: 1e32f054-cf0b-4c8a-9c53-5f942999f141
+name: Meowth
+type: card
+year: 2004
+attributes:
+  number: "42/95"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex4/42_hires.png

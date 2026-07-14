@@ -1,0 +1,10 @@
+id: 2a81f3be-f38d-4eac-bad1-ff3c848cba8c
+name: Gyarados
+type: card
+year: 2003
+attributes:
+  number: "32/97"
+  rarity: Uncommon
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/ex3/32_hires.png

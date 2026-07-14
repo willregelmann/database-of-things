@@ -1,0 +1,10 @@
+id: 77e87223-c9ff-4cbe-92e4-f2780221c5c3
+name: Mudkip
+type: card
+year: 2006
+attributes:
+  number: "58/100"
+  rarity: Common
+  illustrator: Hajime Kusajima
+image:
+  source_url: https://images.pokemontcg.io/ex14/58_hires.png

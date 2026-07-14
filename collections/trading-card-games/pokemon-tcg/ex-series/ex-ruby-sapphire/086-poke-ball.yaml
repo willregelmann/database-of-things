@@ -1,0 +1,10 @@
+id: e32d2b8d-adb2-4595-bf22-473fb9807b44
+name: Poké Ball
+type: card
+year: 2003
+attributes:
+  number: "86/109"
+  rarity: Uncommon
+  illustrator: K. Hoshiba
+image:
+  source_url: https://images.pokemontcg.io/ex1/86_hires.png

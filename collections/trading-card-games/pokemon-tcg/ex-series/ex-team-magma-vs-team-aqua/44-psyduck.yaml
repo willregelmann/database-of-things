@@ -1,0 +1,10 @@
+id: 64d50419-199b-44c3-8ad7-0123ca3292ac
+name: Psyduck
+type: card
+year: 2004
+attributes:
+  number: "44/95"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex4/44_hires.png

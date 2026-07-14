@@ -1,0 +1,10 @@
+id: e5f850dc-d55f-4f46-83aa-b31fb95f6e46
+name: Potion
+type: card
+year: 2004
+attributes:
+  number: "101/112"
+  rarity: Common
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/ex6/101_hires.png

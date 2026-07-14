@@ -1,0 +1,10 @@
+id: e80de28d-4986-4d93-a7bf-8a72140b14c7
+name: Pichu
+type: card
+year: 2007
+attributes:
+  number: "21/108"
+  rarity: Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex16/21_hires.png

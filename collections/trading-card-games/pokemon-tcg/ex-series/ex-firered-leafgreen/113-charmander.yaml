@@ -1,0 +1,10 @@
+id: 3d97ed12-64bf-4eee-bc8f-2893637f1b85
+name: Charmander
+type: card
+year: 2004
+attributes:
+  number: "113/112"
+  rarity: Secret Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ex6/113_hires.png

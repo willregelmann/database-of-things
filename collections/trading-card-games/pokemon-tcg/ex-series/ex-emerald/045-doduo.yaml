@@ -1,0 +1,10 @@
+id: e1a3d1eb-9748-4b3c-8dcb-08c93ac341db
+name: Doduo
+type: card
+year: 2005
+attributes:
+  number: "45/106"
+  rarity: Common
+  illustrator: Hajime Kusajima
+image:
+  source_url: https://images.pokemontcg.io/ex9/45_hires.png
