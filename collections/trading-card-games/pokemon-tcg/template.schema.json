@@ -6,7 +6,7 @@
     "number": { "type": "string", "pattern": "^(H?[0-9]+|[A-Z]|[!?])/H?[0-9]+$" },
     "rarity": {
       "type": "string",
-      "enum": ["Common", "Uncommon", "Rare", "Rare Holo", "Rare Holo EX", "Rare Holo ☆", "Secret Rare", "Shining Holofoil", "Promo"]
+      "enum": ["Common", "Uncommon", "Rare", "Rare Holo", "Rare Holo ex", "Rare Holo ☆", "Secret Rare", "Shining Holofoil", "Promo"]
     },
     "illustrator": { "type": "string" }
   },

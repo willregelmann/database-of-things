@@ -102,27 +102,36 @@ unique.
 ## Rarity
 
 `attributes.rarity` is enum-validated in `template.schema.json`. The enum
-starts small (`Common`, `Uncommon`, `Rare`, `Rare Holo`, `Rare Holo EX`) and is
+starts small (`Common`, `Uncommon`, `Rare`, `Rare Holo`, `Rare Holo ex`) and is
 expected to grow — it is not meant to gate curation. If a card's real rarity
 tier isn't in the enum yet, add it as part of the same PR: confirm the exact
 label against an authoritative source (Bulbapedia, Pokémon TCG API, or
 Serebii), then add that label to the `enum` array in `template.schema.json`
 alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
-GX` card as `Rare Holo EX`).
+GX` card as `Rare Holo ex`).
 
-**Word order matters, and existing precedent isn't automatically correct.**
-Every card in this category originally used `Holo Rare` for the base holo
-rarity — reversed from Bulbapedia's actual canonical name, `Rare Holo`
-(confirmed via the standard rarity icon's `alt`/`title` text, reused
-identically across every individual card's infobox site-wide, and via the
-Rarity overview page's own prose). This went unnoticed through several PRs
-because later additions like `Rare Holo EX` and `Rare Holo ☆` happened to
-get the word order right on their own, and "it's already in the enum" was
-read as settled instead of re-verified. Fixed across the whole category in
-one pass — if you're about to reuse an enum value instead of researching
-it fresh because "that's what's already there," verify it against Bulbapedia
-anyway; precedent set before careful verification isn't evidence.
+**`Rare Holo ex` is lowercase — it's not the same thing as `Rare Holo EX`.**
+The EX Series (2003-2007) mechanic is styled `Pokémon-ex`, lowercase, and its
+rarity symbol reads `Rare Holo ex` on every individual card infobox (verified
+independently on cards from both ends of the series, EX Ruby & Sapphire and
+EX Power Keepers). A *different*, later mechanic from the Black & White/XY
+era (2012+) is `Pokémon-EX`, capitalized, and would need its own enum value
+when that era gets curated — don't conflate the two just because the set
+branding ("**EX** Series") capitalizes it.
+
+**Word order and case both matter, and existing precedent isn't automatically
+correct.** Two rarity values in this enum were wrong before being
+re-verified against Bulbapedia: `Holo Rare` (should be `Rare Holo` — reversed
+word order) and `Rare Holo EX` (should be `Rare Holo ex` — wrong case). Both
+went unnoticed through several PRs because "it's already in the enum" was
+read as settled instead of re-verified — and a third value, `Rare Holo ☆`,
+that looked equally suspect on the same pass turned out to already be
+correct (confirmed independently on two cards from different sets). The
+lesson isn't "assume existing values are wrong" — it's that *neither*
+assumption (precedent is right / precedent is suspect) substitutes for
+actually checking. If you're about to reuse an enum value instead of
+confirming it fresh, verify it against Bulbapedia anyway.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
