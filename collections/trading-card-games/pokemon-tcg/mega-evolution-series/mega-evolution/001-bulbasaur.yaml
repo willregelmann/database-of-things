@@ -1,0 +1,9 @@
+id: 6e8be7cf-d189-4000-839d-e167999fd3dc
+name: Bulbasaur
+type: card
+year: 2025
+attributes:
+  number: "1/132"
+  rarity: Common
+image:
+  source_url: https://images.pokemontcg.io/me1/1_hires.png

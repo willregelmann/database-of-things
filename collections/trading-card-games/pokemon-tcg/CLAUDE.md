@@ -51,6 +51,23 @@ exists. Series records usually don't get one — most series (e.g. "Original
 Series") are retroactive groupings with no single official logo to point to;
 don't invent one.
 
+**Always take `image.source_url` (both card- and set-level) directly from
+the API response's own `images` field — never hand-construct the URL from
+a pattern.** The API's image CDN is mid-migration: older sets serve from
+`images.pokemontcg.io/<setId>/<n>_hires.png` (and `<setId>/logo.png` for
+set logos), but newer sets — first confirmed on Mega Evolution Series'
+`me3` (Perfect Order) and `me4` (Chaos Rising), and already the case for
+100% of `me2pt5` (Ascended Heroes) including cards fetched via page 1 —
+serve exclusively from `images.scrydex.com/pokemon/<setId>-<n>/large`
+(and `<setId>-logo/logo` for set logos) instead, with the old host
+returning a 404. Two whole expansions' worth of card files (246 cards)
+had to be repaired after generation because a workflow agent
+reconstructed the legacy URL pattern instead of reading the fetched
+JSON's actual `images.large`/`images.logo` field — verify every
+`source_url` actually resolves (e.g. `curl -o /dev/null -w '%{http_code}'`)
+before considering a set's generation complete, don't assume the pattern
+that worked for one set works for the next.
+
 ## Identifying items
 
 Cards are identified by their **collector number within a set**, formatted as
@@ -435,6 +452,47 @@ the live API — not a scattered gap, the entire set.** Omit the
 illustrator field for all of them per the existing null-illustrator
 precedent, rather than hand-researching 180 credits from Bulbapedia
 one at a time.
+
+**Mega Evolution Series (2025 onward) mostly continues the Scarlet &
+Violet star-tier system — `Common` through `Special Illustration Rare`
+carry over unchanged — but adds two genuinely new top-tier values for
+the returning Mega Evolution / "M Pokémon ex" mechanic**, confirmed via
+Bulbapedia's Rarity page: `Mega Hyper Rare` (gold-star-with-black-border,
+effectively replaces plain `Hyper Rare` for this era — none of this
+series' live data contains a bare `"Hyper Rare"` string at all, don't
+reuse the SV-era value) and `Mega Attack Rare` (pastel star, the
+standard-art secret-rare print of a Mega Pokémon ex). **The API returns
+`Mega Attack Rare` as the raw string `"MEGA_ATTACK_RARE"`
+(SCREAMING_SNAKE_CASE) — the only rarity in this whole category that
+doesn't come back human-readable — map it explicitly, don't pass it
+through.**
+
+**Ascended Heroes (`me2pt5`) has a genuine bulk-list pagination bug in
+the live API, not a real data gap — don't just trust `totalCount`.**
+`/v2/cards?q=set.id:me2pt5&pageSize=250&page=2` returns 45 cards that
+are exact duplicates of page 1's records instead of the true tail, so a
+naive paginate-and-merge silently caps out at 250 unique cards even
+though the set's own metadata says `total: 295`. Confirmed real,
+distinct cards exist through `me2pt5-295` by fetching individual card
+IDs (`/v2/cards/me2pt5-<n>`) — `me2pt5-296` returns nothing, so 295 is
+the true ceiling. When a page-2 fetch returns cards you already have
+(check by ID, not just count), fall back to per-ID fetching for the
+missing range rather than accepting a truncated merge.
+
+**`me1` (Mega Evolution) and `me3` (Perfect Order) have null `artist` on
+every single card in the live API — the same total-set gap pattern as
+Prismatic Evolutions, just recurring across two full sets in the same
+series.** Omit the illustrator field throughout both, per precedent.
+
+**No Mega Evolution-era promo line exists yet — don't fabricate a
+partial one.** Bulbapedia's Rarity page prose references an "MEP Black
+Star Promos" line with named examples (`Mega Charizard X ex`, `Mega
+Lucario ex`), but neither the Pokémon TCG API (no `mep`-style set id in
+`/v2/sets`) nor Bulbapedia itself (the checklist page doesn't exist yet)
+have a usable card list. This is different from the SWSH/SVP promo gaps
+— those had a *partial* real dataset to catalogue faithfully; this has
+*no* dataset at all yet. Left unfiled as a documented future task rather
+than reconstructed from a couple of named examples.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 

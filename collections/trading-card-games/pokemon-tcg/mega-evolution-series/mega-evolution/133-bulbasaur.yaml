@@ -1,0 +1,9 @@
+id: e3117f96-df27-46fe-a2b4-3ab64a2e12ff
+name: Bulbasaur
+type: card
+year: 2025
+attributes:
+  number: "133/132"
+  rarity: Illustration Rare
+image:
+  source_url: https://images.pokemontcg.io/me1/133_hires.png
