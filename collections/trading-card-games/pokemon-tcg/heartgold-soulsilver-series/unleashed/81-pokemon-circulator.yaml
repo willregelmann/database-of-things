@@ -1,0 +1,10 @@
+id: 1db50879-081d-48cc-95e7-37f6feb3d098
+name: Pokémon Circulator
+type: card
+year: 2010
+attributes:
+  number: "81/95"
+  rarity: Uncommon
+  illustrator: Hideaki Hakozaki
+image:
+  source_url: https://images.pokemontcg.io/hgss2/81_hires.png

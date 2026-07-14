@@ -1,0 +1,10 @@
+id: 4307755e-e89d-40c5-8a4d-8e0a428c5900
+name: Magikarp
+type: card
+year: 2010
+attributes:
+  number: "72/123"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/hgss1/72_hires.png

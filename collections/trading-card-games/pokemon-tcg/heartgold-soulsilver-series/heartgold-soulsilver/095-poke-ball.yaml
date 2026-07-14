@@ -1,0 +1,10 @@
+id: b3e3589a-76c5-4b34-a13f-1d0d3529ca67
+name: Poké Ball
+type: card
+year: 2010
+attributes:
+  number: "95/123"
+  rarity: Uncommon
+  illustrator: Hideaki Hakozaki
+image:
+  source_url: https://images.pokemontcg.io/hgss1/95_hires.png

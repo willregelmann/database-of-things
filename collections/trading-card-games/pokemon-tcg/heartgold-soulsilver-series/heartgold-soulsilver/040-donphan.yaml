@@ -1,0 +1,10 @@
+id: 1d8571a9-9b1b-4d20-8e98-2f37719857c5
+name: Donphan
+type: card
+year: 2010
+attributes:
+  number: "40/123"
+  rarity: Uncommon
+  illustrator: Midori Harada
+image:
+  source_url: https://images.pokemontcg.io/hgss1/40_hires.png

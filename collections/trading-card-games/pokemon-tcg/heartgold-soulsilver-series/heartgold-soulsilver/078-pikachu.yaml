@@ -1,0 +1,10 @@
+id: 83234db6-8bdc-4853-8640-8f1f31a65f1a
+name: Pikachu
+type: card
+year: 2010
+attributes:
+  number: "78/123"
+  rarity: Common
+  illustrator: match
+image:
+  source_url: https://images.pokemontcg.io/hgss1/78_hires.png

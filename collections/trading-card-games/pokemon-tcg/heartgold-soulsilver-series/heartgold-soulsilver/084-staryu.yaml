@@ -1,0 +1,10 @@
+id: 2d5a4295-2cab-4bdb-8084-b23e22ec4055
+name: Staryu
+type: card
+year: 2010
+attributes:
+  number: "84/123"
+  rarity: Common
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/hgss1/84_hires.png

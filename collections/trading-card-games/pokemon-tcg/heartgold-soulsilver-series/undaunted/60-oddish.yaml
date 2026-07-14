@@ -1,0 +1,10 @@
+id: 5a657e14-7abf-4173-9a2a-379db3bb8a4f
+name: Oddish
+type: card
+year: 2010
+attributes:
+  number: "60/90"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/hgss3/60_hires.png

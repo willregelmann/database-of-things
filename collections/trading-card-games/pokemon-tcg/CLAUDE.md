@@ -81,19 +81,18 @@ fetch, and prefer web-searching for the exact article title over guessing
 it. `attributes.number`'s pattern allows a single `A`-`Z`/`!`/`?` character
 as the numerator to accommodate this.
 
-**Bare alpha-prefixed numbering with no denominator at all**: some special
-subsets aren't printed with a `number/total` fraction at all — just a bare
 identifier. Confirmed cases: the "Shiny" secret sub-line that runs across
 *four* Diamond & Pearl/Platinum Series sets without resetting (Stormfront
 `SH1`-`SH3`, Platinum `SH4`-`SH6`, Supreme Victors `SH7`-`SH9`, Platinum:
 Arceus `SH10`-`SH12`), Rising Rivals' Rotom-themed `RT1`-`RT6`, Platinum:
-Arceus' `AR1`-`AR9`, and the DP Black Star Promos line (`DP01`-`DP56`,
-zero-padded as printed). Verify via Bulbapedia's "English card no." field
-the same way as any other numbering quirk — don't assume a denominator
-exists just because every other case so far has had one, and don't assume
-a prefix resets to 1 in a later set just because the set changed.
-`attributes.number`'s pattern allows a bare 1-3-uppercase-letter prefix
-followed by digits, with no `/denominator`, to accommodate this.
+Arceus' `AR1`-`AR9`, the DP Black Star Promos line (`DP01`-`DP56`), and the
+HGSS Black Star Promos line (`HGSS01`-`HGSS25`), all zero-padded as printed.
+Verify via Bulbapedia's "English card no." field the same way as any other
+numbering quirk — don't assume a denominator exists just because every other
+case so far has had one, and don't assume a prefix resets to 1 in a later
+set just because the set changed. `attributes.number`'s pattern allows a
+bare 1-4-uppercase-letter prefix followed by digits (widened from 1-3 to
+fit `HGSS01`-`HGSS25`), with no `/denominator`, to accommodate this.
 
 **The Pokémon TCG API's `rarity` field is wrong for every bare-numbered
 special-subset card checked so far.** All of `SH1`-`SH12`, `RT1`-`RT6`, and
@@ -106,6 +105,15 @@ the API's `rarity` field for cards with this numbering pattern — verify
 each subset directly against Bulbapedia before writing anything, even if
 you've already verified a different subset with the same prefix pattern
 in a different set.
+
+**Fully spelled-out numbers, no digits at all**: the HeartGold & SoulSilver
+Series' "Alph Lithograph" secret card — one per mainline expansion, same
+name and illustrator every time, disambiguated only by which expansion
+it's in — is printed with its English card number spelled out as a word:
+`ONE`, `TWO`, `THREE`, `FOUR` for the four expansions in release order.
+Confirmed via Bulbapedia's "English card no." field. `attributes.number`'s
+pattern has a dedicated `ONE|TWO|THREE|FOUR` alternative for this rather
+than a generic word-matcher, since it's a closed, known set.
 
 **Unown cards on a set's *main* numbered checklist keep the bracket**: outside
 the EX Unseen Forces secret sub-checklist above, every other Unown printing
@@ -170,6 +178,16 @@ lesson isn't "assume existing values are wrong" — it's that *neither*
 assumption (precedent is right / precedent is suspect) substitutes for
 actually checking. If you're about to reuse an enum value instead of
 confirming it fresh, verify it against Bulbapedia anyway.
+
+**The API routinely drops the `Rare Holo` prefix from compound rarities.**
+Confirmed so far: the API's `"Rare Prime"` should be `Rare Holo Prime`
+(HeartGold & SoulSilver Series' Pokémon Prime mechanic), and its bare
+`"LEGEND"` should be `Rare Holo LEGEND` (the same series' two-card LEGEND
+Pokémon) — both verified independently on two cards each. This is the same
+failure mode as `Rare Holo EX`/`Rare Holo ex`, just via omission instead of
+casing: when the API gives a short/bare rarity string, check whether
+Bulbapedia's actual infobox has a longer `Rare Holo <modifier>` form before
+trusting the short one.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 

@@ -1,0 +1,10 @@
+id: e61107eb-b2f7-4230-874f-58e8a81e4761
+name: Professor Oak's New Theory
+type: card
+year: 2010
+attributes:
+  number: "101/123"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/hgss1/101_hires.png
