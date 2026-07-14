@@ -1,0 +1,10 @@
+id: d39e25b3-ffab-488f-9ea7-f9e4dbbcb6d1
+name: Mudkip
+type: card
+year: 2015
+attributes:
+  number: "33/160"
+  rarity: Common
+  illustrator: Aya Kusube
+image:
+  source_url: https://images.pokemontcg.io/xy5/33_hires.png

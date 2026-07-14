@@ -1,0 +1,10 @@
+id: 536501a6-e80a-47a3-90b0-7070e7bf696d
+name: Mewtwo
+type: card
+year: 2016
+attributes:
+  number: "XY101"
+  rarity: Promo
+  illustrator: match
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY101_hires.png

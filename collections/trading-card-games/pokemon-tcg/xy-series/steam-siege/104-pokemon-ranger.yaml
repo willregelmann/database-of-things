@@ -1,0 +1,10 @@
+id: 5bce9c9c-bdbf-49b7-8332-a3ae120e82b8
+name: Pokémon Ranger
+type: card
+year: 2016
+attributes:
+  number: "104/114"
+  rarity: Uncommon
+  illustrator: Yusuke Ohmura
+image:
+  source_url: https://images.pokemontcg.io/xy11/104_hires.png

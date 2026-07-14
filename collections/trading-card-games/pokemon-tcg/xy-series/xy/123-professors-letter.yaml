@@ -1,0 +1,10 @@
+id: 9e183f92-6aa6-4e9e-a621-c03b536834cf
+name: Professor's Letter
+type: card
+year: 2014
+attributes:
+  number: "123/146"
+  rarity: Uncommon
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/xy1/123_hires.png

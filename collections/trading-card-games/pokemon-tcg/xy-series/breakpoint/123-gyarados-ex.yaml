@@ -1,0 +1,10 @@
+id: d2e901a2-bf48-4bfd-af6e-53e0429bc3b4
+name: Gyarados-EX
+type: card
+year: 2016
+attributes:
+  number: "123/122"
+  rarity: Secret Rare
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/xy9/123_hires.png

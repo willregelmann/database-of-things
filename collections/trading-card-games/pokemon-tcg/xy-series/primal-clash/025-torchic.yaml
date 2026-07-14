@@ -1,0 +1,10 @@
+id: 4d2b797a-6f45-4f30-b886-b9614eeb9ffc
+name: Torchic
+type: card
+year: 2015
+attributes:
+  number: "25/160"
+  rarity: Common
+  illustrator: sui
+image:
+  source_url: https://images.pokemontcg.io/xy5/25_hires.png

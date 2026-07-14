@@ -1,0 +1,10 @@
+id: 73da5a0f-f188-42ee-8283-81cf32aea4bf
+name: Charmander
+type: card
+year: 2016
+attributes:
+  number: "RC3/RC32"
+  rarity: Common
+  illustrator: Akira Komayama
+image:
+  source_url: https://images.pokemontcg.io/g1/RC3_hires.png

@@ -1,0 +1,10 @@
+id: f53b4582-0a8f-4262-abf8-fa8b5f4a5f2b
+name: Gym Badge
+type: card
+year: 2016
+attributes:
+  number: "XY204"
+  rarity: Promo
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY204_hires.png

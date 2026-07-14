@@ -1,0 +1,10 @@
+id: ee7f2a6f-9439-43dc-a1bc-5ed4bb360ea4
+name: Charizard-EX
+type: card
+year: 2014
+attributes:
+  number: "XY29"
+  rarity: Promo
+  illustrator: Eske Yoshinob
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY29_hires.png

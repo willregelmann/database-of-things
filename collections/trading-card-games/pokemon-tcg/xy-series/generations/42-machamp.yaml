@@ -1,0 +1,10 @@
+id: 1251b2b3-72cf-4902-b51c-d5cd57193fb8
+name: Machamp
+type: card
+year: 2016
+attributes:
+  number: "42/83"
+  rarity: Rare Holo
+  illustrator: PLANETA
+image:
+  source_url: https://images.pokemontcg.io/g1/42_hires.png

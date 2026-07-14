@@ -1,0 +1,10 @@
+id: bd6263d2-4a38-4153-aba1-f2cefd63118f
+name: Pikachu
+type: card
+year: 2016
+attributes:
+  number: "35/108"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/xy12/35_hires.png

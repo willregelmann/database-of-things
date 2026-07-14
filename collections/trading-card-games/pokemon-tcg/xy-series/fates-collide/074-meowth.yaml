@@ -1,0 +1,10 @@
+id: 46c9c43e-4fff-4b72-9259-90654b40fda4
+name: Meowth
+type: card
+year: 2016
+attributes:
+  number: "74/124"
+  rarity: Common
+  illustrator: Shigenori Negishi
+image:
+  source_url: https://images.pokemontcg.io/xy10/74_hires.png

@@ -1,0 +1,10 @@
+id: 25fc8d64-2fde-4bc9-9a0c-b836326229d1
+name: Staryu
+type: card
+year: 2015
+attributes:
+  number: "29/162"
+  rarity: Common
+  illustrator: Shigenori Negishi
+image:
+  source_url: https://images.pokemontcg.io/xy8/29_hires.png

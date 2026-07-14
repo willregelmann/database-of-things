@@ -1,0 +1,10 @@
+id: abe91328-ebb1-48d9-8b66-26593430e8b2
+name: Gym Badge
+type: card
+year: 2017
+attributes:
+  number: "XY207"
+  rarity: Promo
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY207_hires.png

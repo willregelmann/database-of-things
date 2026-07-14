@@ -1,0 +1,10 @@
+id: f7c04ec2-80a4-4e75-80aa-9b9aefcaf42b
+name: Professor Sycamore
+type: card
+year: 2014
+attributes:
+  number: "122/146"
+  rarity: Uncommon
+  illustrator: Yusuke Ohmura
+image:
+  source_url: https://images.pokemontcg.io/xy1/122_hires.png

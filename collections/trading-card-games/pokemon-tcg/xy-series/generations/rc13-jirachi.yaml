@@ -1,0 +1,10 @@
+id: 1c2fc560-8046-4cf5-8f3e-91d72f46770d
+name: Jirachi
+type: card
+year: 2016
+attributes:
+  number: "RC13/RC32"
+  rarity: Uncommon
+  illustrator: kirisAki
+image:
+  source_url: https://images.pokemontcg.io/g1/RC13_hires.png

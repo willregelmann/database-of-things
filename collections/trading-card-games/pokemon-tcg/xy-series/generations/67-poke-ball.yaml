@@ -1,0 +1,10 @@
+id: ada31f85-1d86-4fd4-a906-c846d8ae153f
+name: Poké Ball
+type: card
+year: 2016
+attributes:
+  number: "67/83"
+  rarity: Uncommon
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/g1/67_hires.png

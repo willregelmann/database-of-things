@@ -1,0 +1,10 @@
+id: 737cf2fc-457f-44af-bda3-a11b127dccd0
+name: Chespin
+type: card
+year: 2013
+attributes:
+  number: "XY01"
+  rarity: Promo
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/xyp/XY01_hires.png

@@ -127,12 +127,20 @@ already gives you consistently. When multiple parallel agents touched Unown
 cards in the same PR, some incorrectly stripped the brackets based on the
 Bulbapedia title alone; keep the brackets.
 
-**Legendary Treasures' Radiant Collection (`RC1`-`RC25`)**: unlike every
-other bare-prefix subset so far, these ARE printed with a fraction — but
-the *denominator* is also prefixed, not the set's main total: `RC1/RC25`,
-not `RC1/113`. Confirmed via Bulbapedia's raw wikitext (`cardno=RC1/RC25`).
+**"Radiant Collection" (`RC*`) subsets**: unlike every other bare-prefix
+subset so far, these ARE printed with a fraction — but the *denominator*
+is also prefixed, not the set's main total: `RC1/RC25`, not `RC1/113`.
+Confirmed via Bulbapedia's raw wikitext (`cardno=RC1/RC25`).
 `attributes.number`'s pattern allows an `RC` prefix on either side of the
-fraction, alongside the existing `H` prefix, to accommodate this.
+fraction, alongside the existing `H` prefix, to accommodate this. **The
+denominator isn't fixed at 25** — Legendary Treasures' is `RC25`, but
+Generations' own, separate Radiant Collection is `RC32` (confirmed via
+the same raw-wikitext method) — check each set rather than assuming.
+**Zero-pad the numeral in the filename to the collection's own width**,
+same as any other numbered set (e.g. `rc01`-`rc25`, not `rc1`-`rc25`) —
+Legendary Treasures originally shipped with `rc1`-`rc9` unpadded, which
+sorted after `rc25` in a directory listing; fixed alongside the
+Generations addition that caught it.
 
 **BW Black Star Promos has a genuine printed inconsistency — don't
 normalize it.** Cards are numbered `BW01`-`BW101` (2 digits), except
@@ -140,6 +148,35 @@ Reshiram and Zekrom, which are printed `BW004`/`BW005` (3 digits) — this
 is confirmed as the actual printed number by multiple independent
 commercial listings, not an API typo. Use each card's number exactly as
 the API gives it; don't zero-pad the whole line to a uniform width.
+
+**Kalos Starter Set has no rarity symbol on any card — omit the field,
+don't guess.** All 39 cards return `rarity: null` from the API, and
+Bulbapedia's raw wikitext confirms it: no `rarity=` parameter at all in
+the template call (unlike a genuinely-uncredited-illustrator case, where
+the card still has other rarity data). This is a real starter/beginner
+product without rarity tiers, not a data gap. Same treatment as omitting
+`illustrator` when uncredited: leave `attributes.rarity` out of the file
+entirely rather than inventing a value.
+
+**"Yellow A Alternate cards" are a separate, later collection — exclude
+them from the mainline expansion they appear to belong to.** Starting
+around Flashfire, several XY-era sets contain extra cards with a letter
+suffix on their number (e.g. `88a`, `98a`/`98b`). These look like
+alternate-art secret rares of the base numbered card, but Bulbapedia's
+raw wikitext shows their `expansion=` parameter is literally `Yellow A
+Alternate cards`, not the set they're numbered alongside (confirmed on 2
+cards from 2 different sets) — a distinct reprint line, first released
+during the *Sun & Moon* era via the Mega Powers Collection, that reuses
+XY-era card numbers with a letter appended and a yellow "A" symbol to
+keep them format-legal only alongside their original printing. **Do not
+generate files for these letter-suffixed cards as part of a mainline XY
+expansion** — they're out of scope until "Yellow A Alternate cards" gets
+curated as its own collection. This also explains an API metadata
+inconsistency: most sets' `total` field already excludes these cards, but
+not consistently (Ancient Origins' `total: 100` excludes its one `75a`
+card, while other sets' `total` appears to include theirs) — don't trust
+the set-level `total` field for your generation target; count printed +
+genuine secret rares (digits only, no letter suffix) yourself instead.
 
 ## Verifying a set is complete
 
@@ -219,6 +256,10 @@ via raw wikitext on 2 cards across 2 sets.
 **`Rare Ace`** (Boundaries Crossed onward): "ACE SPEC" Trainer/Item cards
 (max 1 per deck). Title case, NOT the API's all-caps `"Rare ACE"` —
 confirmed via raw wikitext on 2 cards across 2 sets.
+
+**`Rare BREAK`** (BREAKthrough onward): "BREAK Evolution" Pokémon (named
+`<Pokémon> BREAK` in-game). Matches the API's casing exactly — confirmed
+via raw wikitext on 2 cards across 2 sets, no correction needed.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 

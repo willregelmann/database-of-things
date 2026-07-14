@@ -1,0 +1,10 @@
+id: 8981dc60-eb07-4868-a7d1-a08cc7b6abc2
+name: Pokédex
+type: card
+year: 2016
+attributes:
+  number: "82/108"
+  rarity: Uncommon
+  illustrator: Keiji Kinebuchi
+image:
+  source_url: https://images.pokemontcg.io/xy12/82_hires.png
