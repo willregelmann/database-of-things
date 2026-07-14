@@ -1,0 +1,10 @@
+id: 4c4e0b99-ccd0-4717-a0b7-419d4f7531a4
+name: Blastoise
+type: card
+year: 2010
+attributes:
+  number: "13/95"
+  rarity: Rare
+  illustrator: Masakazu Fukuda
+image:
+  source_url: https://images.pokemontcg.io/hgss2/13_hires.png

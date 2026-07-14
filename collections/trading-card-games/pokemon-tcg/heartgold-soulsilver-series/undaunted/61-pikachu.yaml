@@ -1,0 +1,10 @@
+id: 4e3b6296-d4d7-47ba-9405-4f7164bd38e0
+name: Pikachu
+type: card
+year: 2010
+attributes:
+  number: "61/90"
+  rarity: Common
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/hgss3/61_hires.png

@@ -1,0 +1,10 @@
+id: 54045f7d-2e78-4f57-aa7a-972b30003fee
+name: Pichu
+type: card
+year: 2010
+attributes:
+  number: "28/123"
+  rarity: Rare
+  illustrator: match
+image:
+  source_url: https://images.pokemontcg.io/hgss1/28_hires.png

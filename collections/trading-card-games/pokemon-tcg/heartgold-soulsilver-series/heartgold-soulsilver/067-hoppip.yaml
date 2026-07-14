@@ -1,0 +1,10 @@
+id: e6ae6048-1349-447c-905d-38e8c7365965
+name: Hoppip
+type: card
+year: 2010
+attributes:
+  number: "67/123"
+  rarity: Common
+  illustrator: sui
+image:
+  source_url: https://images.pokemontcg.io/hgss1/67_hires.png

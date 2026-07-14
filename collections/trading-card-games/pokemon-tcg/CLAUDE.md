@@ -88,8 +88,17 @@ and the DP Black Star Promos line (`DP01`-`DP56`, zero-padded as printed).
 Verify via Bulbapedia's "English card no." field the same way as any other
 numbering quirk — don't assume a denominator exists just because every other
 case so far has had one. `attributes.number`'s pattern allows a bare
-1-3-uppercase-letter prefix followed by digits, with no `/denominator`, to
-accommodate this.
+1-4-uppercase-letter prefix followed by digits (widened from 1-3 to fit
+`HGSS01`-`HGSS25`), with no `/denominator`, to accommodate this.
+
+**Fully spelled-out numbers, no digits at all**: the HeartGold & SoulSilver
+Series' "Alph Lithograph" secret card — one per mainline expansion, same
+name and illustrator every time, disambiguated only by which expansion
+it's in — is printed with its English card number spelled out as a word:
+`ONE`, `TWO`, `THREE`, `FOUR` for the four expansions in release order.
+Confirmed via Bulbapedia's "English card no." field. `attributes.number`'s
+pattern has a dedicated `ONE|TWO|THREE|FOUR` alternative for this rather
+than a generic word-matcher, since it's a closed, known set.
 
 **Unown cards on a set's *main* numbered checklist keep the bracket**: outside
 the EX Unseen Forces secret sub-checklist above, every other Unown printing
@@ -154,6 +163,16 @@ lesson isn't "assume existing values are wrong" — it's that *neither*
 assumption (precedent is right / precedent is suspect) substitutes for
 actually checking. If you're about to reuse an enum value instead of
 confirming it fresh, verify it against Bulbapedia anyway.
+
+**The API routinely drops the `Rare Holo` prefix from compound rarities.**
+Confirmed so far: the API's `"Rare Prime"` should be `Rare Holo Prime`
+(HeartGold & SoulSilver Series' Pokémon Prime mechanic), and its bare
+`"LEGEND"` should be `Rare Holo LEGEND` (the same series' two-card LEGEND
+Pokémon) — both verified independently on two cards each. This is the same
+failure mode as `Rare Holo EX`/`Rare Holo ex`, just via omission instead of
+casing: when the API gives a short/bare rarity string, check whether
+Bulbapedia's actual infobox has a longer `Rare Holo <modifier>` form before
+trusting the short one.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
