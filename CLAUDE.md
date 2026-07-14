@@ -52,7 +52,7 @@ type: card
 year: 1999
 attributes:
   number: "4/102"
-  rarity: Holo Rare
+  rarity: Rare Holo
   illustrator: Mitsuhiro Arita
 image:
   source_url: https://images.pokemontcg.io/base1/4_hires.png

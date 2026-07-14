@@ -124,14 +124,36 @@ unique.
 ## Rarity
 
 `attributes.rarity` is enum-validated in `template.schema.json`. The enum
-starts small (`Common`, `Uncommon`, `Rare`, `Holo Rare`, `Rare Holo EX`) and is
+starts small (`Common`, `Uncommon`, `Rare`, `Rare Holo`, `Rare Holo ex`) and is
 expected to grow — it is not meant to gate curation. If a card's real rarity
 tier isn't in the enum yet, add it as part of the same PR: confirm the exact
 label against an authoritative source (Bulbapedia, Pokémon TCG API, or
 Serebii), then add that label to the `enum` array in `template.schema.json`
 alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
-GX` card as `Rare Holo EX`).
+GX` card as `Rare Holo ex`).
+
+**`Rare Holo ex` is lowercase — it's not the same thing as `Rare Holo EX`.**
+The EX Series (2003-2007) mechanic is styled `Pokémon-ex`, lowercase, and its
+rarity symbol reads `Rare Holo ex` on every individual card infobox (verified
+independently on cards from both ends of the series, EX Ruby & Sapphire and
+EX Power Keepers). A *different*, later mechanic from the Black & White/XY
+era (2012+) is `Pokémon-EX`, capitalized, and would need its own enum value
+when that era gets curated — don't conflate the two just because the set
+branding ("**EX** Series") capitalizes it.
+
+**Word order and case both matter, and existing precedent isn't automatically
+correct.** Two rarity values in this enum were wrong before being
+re-verified against Bulbapedia: `Holo Rare` (should be `Rare Holo` — reversed
+word order) and `Rare Holo EX` (should be `Rare Holo ex` — wrong case). Both
+went unnoticed through several PRs because "it's already in the enum" was
+read as settled instead of re-verified — and a third value, `Rare Holo ☆`,
+that looked equally suspect on the same pass turned out to already be
+correct (confirmed independently on two cards from different sets). The
+lesson isn't "assume existing values are wrong" — it's that *neither*
+assumption (precedent is right / precedent is suspect) substitutes for
+actually checking. If you're about to reuse an enum value instead of
+confirming it fresh, verify it against Bulbapedia anyway.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
