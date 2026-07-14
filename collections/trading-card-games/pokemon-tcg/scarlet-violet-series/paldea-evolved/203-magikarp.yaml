@@ -1,0 +1,10 @@
+id: c64d2cc1-2755-46da-9bb8-1569f661287a
+name: Magikarp
+type: card
+year: 2023
+attributes:
+  number: "203/193"
+  rarity: Illustration Rare
+  illustrator: Shinji Kanda
+image:
+  source_url: https://images.pokemontcg.io/sv2/203_hires.png

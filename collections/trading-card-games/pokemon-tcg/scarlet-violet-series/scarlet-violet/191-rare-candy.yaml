@@ -1,0 +1,10 @@
+id: d7cd6ed7-42cd-4135-b815-159d6a228e09
+name: Rare Candy
+type: card
+year: 2023
+attributes:
+  number: "191/198"
+  rarity: Common
+  illustrator: Studio Bora Inc.
+image:
+  source_url: https://images.pokemontcg.io/sv1/191_hires.png

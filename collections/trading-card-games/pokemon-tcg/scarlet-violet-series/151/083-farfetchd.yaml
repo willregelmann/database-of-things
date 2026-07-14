@@ -1,0 +1,10 @@
+id: df1001ec-e667-4af3-aa68-8c6f84ba3f0d
+name: Farfetch'd
+type: card
+year: 2023
+attributes:
+  number: "83/165"
+  rarity: Common
+  illustrator: KG-2000
+image:
+  source_url: https://images.pokemontcg.io/sv3pt5/83_hires.png

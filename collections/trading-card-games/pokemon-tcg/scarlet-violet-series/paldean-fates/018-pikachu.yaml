@@ -1,0 +1,10 @@
+id: de166fab-79e8-4b26-a837-7d8e6b4df6a2
+name: Pikachu
+type: card
+year: 2024
+attributes:
+  number: "18/91"
+  rarity: Common
+  illustrator: OKACHEKE
+image:
+  source_url: https://images.pokemontcg.io/sv4pt5/18_hires.png

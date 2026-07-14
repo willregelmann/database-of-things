@@ -1,0 +1,10 @@
+id: e7c28acc-6a77-4461-81a0-ec260a3b5bb3
+name: Pawniard
+type: card
+year: 2023
+attributes:
+  number: "148/197"
+  rarity: Common
+  illustrator: Hitoshi Ariga
+image:
+  source_url: https://images.pokemontcg.io/sv3/148_hires.png

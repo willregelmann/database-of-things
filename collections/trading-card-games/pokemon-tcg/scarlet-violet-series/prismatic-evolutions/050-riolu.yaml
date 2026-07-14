@@ -1,0 +1,9 @@
+id: f91e4e05-5aa3-444a-9125-e3d3b349399f
+name: Riolu
+type: card
+year: 2025
+attributes:
+  number: "50/131"
+  rarity: Common
+image:
+  source_url: "https://images.pokemontcg.io/sv8pt5/50_hires.png"

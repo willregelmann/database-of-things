@@ -1,0 +1,10 @@
+id: 70903a05-9b63-4029-a3e8-9a55fd5bcf87
+name: Rare Candy
+type: card
+year: 2024
+attributes:
+  number: "89/91"
+  rarity: Common
+  illustrator: Studio Bora Inc.
+image:
+  source_url: https://images.pokemontcg.io/sv4pt5/89_hires.png

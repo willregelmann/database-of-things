@@ -1,0 +1,10 @@
+id: bd36e237-5c04-4901-ba58-834918fa48dc
+name: Charizard ex
+type: card
+year: 2023
+attributes:
+  number: "228/197"
+  rarity: Hyper Rare
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/sv3/228_hires.png

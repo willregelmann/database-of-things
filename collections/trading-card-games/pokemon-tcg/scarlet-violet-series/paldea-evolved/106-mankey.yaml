@@ -1,0 +1,10 @@
+id: 01a43a08-36e6-40be-88a5-6547b8dd9f9b
+name: Mankey
+type: card
+year: 2023
+attributes:
+  number: "106/193"
+  rarity: Common
+  illustrator: kurumitsu
+image:
+  source_url: https://images.pokemontcg.io/sv2/106_hires.png

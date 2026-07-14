@@ -1,0 +1,10 @@
+id: 6cd8f4c5-6581-4941-8389-4e4ca7544e4f
+name: Whiscash
+type: card
+year: 2023
+attributes:
+  number: "109/197"
+  rarity: Uncommon
+  illustrator: "0313"
+image:
+  source_url: https://images.pokemontcg.io/sv3/109_hires.png

@@ -383,6 +383,59 @@ its 25 cards as `Rare Classic`. Trust the expansion's own setlist page
 over the API string here. See the numbering note below — this subset's
 `attributes.number` values are unlike anything else in this category.
 
+**Scarlet & Violet Series (2023 onward) replaced the whole rarity-tier
+vocabulary — none of the SWSH-era `Rare Holo <mechanic>` values apply,
+even to physically holographic cards.** Nine new enum values, all
+confirmed via Bulbapedia's Rarity overview page prose:
+`Double Rare` (two stars, Pokémon ex — note this is a visually distinct
+white-art mechanic from both the 2003-2007 `ex` and 2011+ `EX` eras
+sharing the `Rare Holo ex` value, but SV's `ex` gets its own new rarity
+name, not reused), `Ultra Rare` (two silver stars, full-art ex/Supporter
+— textually distinct from the older `Rare Ultra`, don't conflate them),
+`Illustration Rare` (one gold star, full-art non-ex), `Special
+Illustration Rare` (two gold stars), `Hyper Rare` (three gold stars,
+gold-bordered secret rares), `ACE SPEC Rare` (pink star, 1-per-deck —
+textually distinct from the older title-case `Rare Ace`), `Shiny Rare`
+and `Shiny Ultra Rare` (Paldean Fates' Shiny Vault subset only, hollow
+gold star / two hollow gold stars), and `Black White Rare` (monochrome
+foil, verified via web search rather than the Rarity page itself since
+it's new enough not to be documented there yet — exactly 2 cards exist
+across the whole series: Zekrom ex in Black Bolt and Reshiram ex in
+White Flare).
+
+**SV era needs no sub-checklist folding at all — a real simplification
+vs. SWSH.** Every mainline set's card numbers are plain `<n>/<printed
+total>`, contiguous, with zero letter prefixes anywhere — confirmed by
+checking every set's live number strings are 100% numeric. Even the two
+sets whose SWSH-era analogues had special sub-checklist prefixes
+(`151`, echoing Champion's Path; `Paldean Fates`, echoing Shining Fates)
+just use plain numbering with secret rares past the printed total —
+Paldean Fates' Shiny Vault-equivalent tail (cards past #91, rarity
+`Shiny Rare`/`Shiny Ultra Rare`) is NOT given an `SV`-style prefix this
+time, don't assume the SWSH pattern recurs without checking.
+
+**`Scarlet & Violet Energies` (API id `sve`) is a genuine cross-product
+support line, not part of any single expansion.** Bare numbers `001`
+through `024` with NO denominator at all (unlike every mainline SV set),
+released in three batches alongside three different expansions. Gets
+its own top-level directory, `scarlet-violet-series/energies/`, a
+sibling of `promos/` — not folded into `scarlet-violet/`.
+
+**`SVP` (SV Black Star Promos) has the same live-API completeness gap
+as the SWSH promo line — verify against the API's OWN set metadata,
+don't trust it blindly either.** The `/v2/sets` endpoint's `printedTotal`
+figure for `svp` is stale, but the live `/v2/cards` query is also
+missing several real numbers relative to Bulbapedia's own SVP category
+page. Same policy as the SWSH gap: catalogue what the API actually
+returns, document the specific missing numbers as a future task, don't
+fabricate entries from secondary sources.
+
+**Prismatic Evolutions (`sv8pt5`) has null `artist` on all 180 cards in
+the live API — not a scattered gap, the entire set.** Omit the
+illustrator field for all of them per the existing null-illustrator
+precedent, rather than hand-researching 180 credits from Bulbapedia
+one at a time.
+
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
 The Pokémon TCG API (`api.pokemontcg.io`) is a convenient bulk source for
@@ -432,4 +485,8 @@ writing the entity file — don't assume the API's rendering is correct.
   V & Lugia V, both January 2023). Don't fabricate entries for a gap like
   this without the same sourcing rigor (image URL, illustrator, exact
   name) used for every other card — left unfiled as a documented future
-  task rather than guessed at.
+  task rather than guessed at. **This recurs, not a one-off**: the SV
+  Black Star Promos (`svp/promos/`) has the same pattern — runs
+  `SVP001`-`SVP207` but the live API returns only 200 records, missing
+  `SVP175`, `SVP176`, `SVP190`-`SVP192`, and `SVP204`-`SVP205`. Same
+  policy: catalogue what's live, document the gap, don't fabricate.

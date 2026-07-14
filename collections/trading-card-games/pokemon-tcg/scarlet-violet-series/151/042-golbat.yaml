@@ -1,0 +1,10 @@
+id: 27c5fc44-1385-473e-8cff-3fc578f2a9de
+name: Golbat
+type: card
+year: 2023
+attributes:
+  number: "42/165"
+  rarity: Uncommon
+  illustrator: Scav
+image:
+  source_url: https://images.pokemontcg.io/sv3pt5/42_hires.png

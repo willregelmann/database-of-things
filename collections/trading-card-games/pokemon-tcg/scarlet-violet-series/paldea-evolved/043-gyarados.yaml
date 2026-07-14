@@ -1,0 +1,10 @@
+id: e3f0992b-9bc0-462c-8d2f-775171259c76
+name: Gyarados
+type: card
+year: 2023
+attributes:
+  number: "43/193"
+  rarity: Rare
+  illustrator: Yuya Oka
+image:
+  source_url: https://images.pokemontcg.io/sv2/43_hires.png

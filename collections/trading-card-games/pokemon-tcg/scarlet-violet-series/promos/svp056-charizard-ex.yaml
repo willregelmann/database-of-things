@@ -1,0 +1,10 @@
+id: 2f1a0c77-2245-448f-bde3-40fda6ddf15a
+name: Charizard ex
+type: card
+year: 2023
+attributes:
+  number: "056"
+  rarity: Promo
+  illustrator: takuyoa
+image:
+  source_url: https://images.pokemontcg.io/svp/56_hires.png

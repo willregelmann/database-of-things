@@ -1,0 +1,10 @@
+id: b8c4f60f-0c55-4458-95b9-d8131994a25f
+name: Mewtwo
+type: card
+year: 2023
+attributes:
+  number: "150/165"
+  rarity: Rare
+  illustrator: AKIRA EGAWA
+image:
+  source_url: https://images.pokemontcg.io/sv3pt5/150_hires.png

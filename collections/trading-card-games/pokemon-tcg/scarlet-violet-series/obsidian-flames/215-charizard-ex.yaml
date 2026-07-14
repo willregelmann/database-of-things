@@ -1,0 +1,10 @@
+id: 4e7f6bfe-ad3c-4a17-b74e-fe65a9407cb4
+name: Charizard ex
+type: card
+year: 2023
+attributes:
+  number: "215/197"
+  rarity: Ultra Rare
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/sv3/215_hires.png

@@ -1,0 +1,10 @@
+id: a16db72a-e066-41c9-a185-fae4950bd972
+name: Charizard ex
+type: card
+year: 2023
+attributes:
+  number: "183/165"
+  rarity: Ultra Rare
+  illustrator: PLANETA Mochizuki
+image:
+  source_url: https://images.pokemontcg.io/sv3pt5/183_hires.png
