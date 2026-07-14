@@ -1,0 +1,10 @@
+id: b525b9f5-f0c2-40d6-9cf7-9dd6b5cba510
+name: Charmander
+type: card
+year: 2013
+attributes:
+  number: "17/113"
+  rarity: Common
+  illustrator: match
+image:
+  source_url: https://images.pokemontcg.io/bw11/17_hires.png

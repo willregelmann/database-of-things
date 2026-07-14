@@ -1,0 +1,10 @@
+id: 9a04bfbc-712b-415f-b1d3-e1b1656627ea
+name: Rare Candy
+type: card
+year: 2012
+attributes:
+  number: "100/108"
+  rarity: Uncommon
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/bw5/100_hires.png

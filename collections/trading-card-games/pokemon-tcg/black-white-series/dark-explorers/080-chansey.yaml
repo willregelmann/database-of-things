@@ -1,0 +1,10 @@
+id: 00016cf9-c63c-41b2-ae40-2dd6aff86601
+name: Chansey
+type: card
+year: 2012
+attributes:
+  number: "80/108"
+  rarity: Common
+  illustrator: Kagemaru Himeno
+image:
+  source_url: https://images.pokemontcg.io/bw5/80_hires.png

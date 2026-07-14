@@ -1,0 +1,10 @@
+id: e7e7da38-b624-4ef5-b18c-1efb49b6310c
+name: Pikachu
+type: card
+year: 2013
+attributes:
+  number: "RC7/RC25"
+  rarity: Uncommon
+  illustrator: Atsuko Nishida
+image:
+  source_url: https://images.pokemontcg.io/bw11/RC7_hires.png

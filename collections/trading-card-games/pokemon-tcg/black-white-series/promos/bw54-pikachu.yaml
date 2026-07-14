@@ -1,0 +1,10 @@
+id: 3a524fde-6533-4225-9b99-5674da938313
+name: Pikachu
+type: card
+year: 2012
+attributes:
+  number: "BW54"
+  rarity: Promo
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/bwp/BW54_hires.png
