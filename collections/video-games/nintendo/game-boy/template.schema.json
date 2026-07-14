@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Game Boy game attributes",
+  "type": "object",
+  "properties": {
+    "developer": { "type": "string" },
+    "publisher": { "type": "string" },
+    "genre": { "type": "string" }
+  },
+  "additionalProperties": true
+}

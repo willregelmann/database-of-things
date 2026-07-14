@@ -1,0 +1,10 @@
+id: f78d7b21-f5fb-44d3-858b-20048e918f4a
+name: Charmander
+type: card
+year: 2002
+attributes:
+  number: "97/165"
+  rarity: Common
+  illustrator: Masako Yamashita
+image:
+  source_url: https://images.pokemontcg.io/ecard1/97_hires.png

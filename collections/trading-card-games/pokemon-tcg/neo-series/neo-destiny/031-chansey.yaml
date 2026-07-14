@@ -1,0 +1,10 @@
+id: 555cc298-6f60-4051-85a0-72b1219794ab
+name: Chansey
+type: card
+year: 2002
+attributes:
+  number: "31/105"
+  rarity: Uncommon
+  illustrator: Yuka Morii
+image:
+  source_url: https://images.pokemontcg.io/neo4/31_hires.png

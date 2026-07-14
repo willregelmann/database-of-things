@@ -1,0 +1,10 @@
+id: 1ad2ec92-9d29-412d-8489-d6c1f9b23a68
+name: Professor Elm
+type: card
+year: 2000
+attributes:
+  number: "96/111"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/neo1/96_hires.png

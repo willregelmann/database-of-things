@@ -1,0 +1,10 @@
+id: a66ce4ee-480d-43e9-8874-7cd618f7fcef
+name: Pokémon March
+type: card
+year: 2000
+attributes:
+  number: "102/111"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/neo1/102_hires.png

@@ -1,0 +1,10 @@
+id: d393f887-e9b8-43c1-bb4a-cba09a1a9844
+name: Ivysaur
+type: card
+year: 2002
+attributes:
+  number: "47/110"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base6/47_hires.png

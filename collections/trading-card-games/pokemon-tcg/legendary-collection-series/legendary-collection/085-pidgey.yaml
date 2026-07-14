@@ -1,0 +1,10 @@
+id: b6e15421-5245-4f5a-98fb-ede8f5b3983e
+name: Pidgey
+type: card
+year: 2002
+attributes:
+  number: "85/110"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/base6/85_hires.png

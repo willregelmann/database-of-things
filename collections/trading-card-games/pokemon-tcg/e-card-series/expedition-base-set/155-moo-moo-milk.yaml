@@ -1,0 +1,10 @@
+id: 09c9322f-d291-4b2f-898d-49bbebbb75f9
+name: Moo-Moo Milk
+type: card
+year: 2002
+attributes:
+  number: "155/165"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/ecard1/155_hires.png

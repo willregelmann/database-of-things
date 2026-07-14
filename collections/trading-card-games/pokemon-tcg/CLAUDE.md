@@ -59,6 +59,14 @@ prefer it over name matching, since many cards share a name across sets (multipl
 "Charizard" printings exist across dozens of sets) and even within a set via
 reprints/alt-art variants.
 
+**e-Card Series `H`-prefixed numbering**: Aquapolis and Skyridge each give
+certain Rare cards a separate Holo-foil printing, numbered independently of
+the main checklist as `H1`–`H32` with its own fixed denominator — e.g. `H1/H32`,
+not `H1/147`. Confirm the exact printed number against Bulbapedia's card
+infobox ("English card no.") rather than assuming; don't reuse the set's main
+denominator for these. `attributes.number`'s pattern allows an optional
+leading `H` on either side of the fraction to accommodate this.
+
 **EX Unseen Forces' lettered Unown secret set**: this expansion's 28 secret
 Unown cards are printed on their own sub-checklist, numbered `A`–`Z` then
 `!` and `?`, with a fixed `/28` denominator (e.g. `G/28`, `!/28`) — entirely

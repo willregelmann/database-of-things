@@ -1,0 +1,10 @@
+id: 7b0f24ff-db6e-4f6c-8c5e-b51d5acdb9b8
+name: Pokémon Nurse
+type: card
+year: 2002
+attributes:
+  number: "145/165"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/ecard1/145_hires.png

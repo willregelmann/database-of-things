@@ -1,0 +1,10 @@
+id: dc6cc925-fa9f-4abe-ab31-f2f48e036f78
+name: Venusaur
+type: card
+year: 2002
+attributes:
+  number: "68/165"
+  rarity: Rare
+  illustrator: Shin-ichi Yoshikawa
+image:
+  source_url: https://images.pokemontcg.io/ecard1/68_hires.png

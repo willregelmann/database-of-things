@@ -1,0 +1,6 @@
+id: 73d45ee7-a820-4731-ad94-e7c190cc2043
+name: Video Games
+type: collection
+description: >
+  Physical video game software, organized by manufacturer/hardware family.
+  Each manufacturer is a nested collection holding its own platforms.

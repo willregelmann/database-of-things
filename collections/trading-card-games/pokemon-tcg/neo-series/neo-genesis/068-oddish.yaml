@@ -1,0 +1,10 @@
+id: ea61c2d3-7db0-45fe-9d2c-7e904a51cd84
+name: Oddish
+type: card
+year: 2000
+attributes:
+  number: "68/111"
+  rarity: Common
+  illustrator: Sumiyoshi Kizuki
+image:
+  source_url: https://images.pokemontcg.io/neo1/68_hires.png
