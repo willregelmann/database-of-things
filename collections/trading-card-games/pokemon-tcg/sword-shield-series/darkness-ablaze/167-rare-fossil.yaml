@@ -1,0 +1,10 @@
+id: 036d8696-0c8c-4f99-9530-a5d90e1f8008
+name: Rare Fossil
+type: card
+year: 2020
+attributes:
+  number: "167/189"
+  rarity: Uncommon
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/swsh3/167_hires.png

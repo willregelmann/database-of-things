@@ -1,0 +1,10 @@
+id: a9ac15dc-a97a-4ddb-9e7d-9e418b196450
+name: Rare Candy
+type: card
+year: 2022
+attributes:
+  number: "69/78"
+  rarity: Uncommon
+  illustrator: Ayaka Yoshida
+image:
+  source_url: https://images.pokemontcg.io/pgo/69_hires.png

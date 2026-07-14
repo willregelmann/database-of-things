@@ -1,0 +1,10 @@
+id: caa7718e-e9ce-4d60-b192-1df1152356ab
+name: Pikachu
+type: card
+year: 2022
+attributes:
+  number: "27/78"
+  rarity: Common
+  illustrator: N-DESIGN Inc.
+image:
+  source_url: https://images.pokemontcg.io/pgo/27_hires.png

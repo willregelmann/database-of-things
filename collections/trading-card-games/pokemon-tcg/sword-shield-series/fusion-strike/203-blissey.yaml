@@ -1,0 +1,10 @@
+id: a0ec0a3c-6d87-4b18-94f2-4f8e1b3f5e44
+name: Blissey
+type: card
+year: 2021
+attributes:
+  number: "203/264"
+  rarity: Rare
+  illustrator: Mizue
+image:
+  source_url: https://images.pokemontcg.io/swsh8/203_hires.png

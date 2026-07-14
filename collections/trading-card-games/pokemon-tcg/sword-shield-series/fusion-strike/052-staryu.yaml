@@ -1,0 +1,10 @@
+id: 343e6b8b-3d83-4935-83c7-23d00125f147
+name: Staryu
+type: card
+year: 2021
+attributes:
+  number: "52/264"
+  rarity: Common
+  illustrator: tetsuya koizumi
+image:
+  source_url: https://images.pokemontcg.io/swsh8/52_hires.png

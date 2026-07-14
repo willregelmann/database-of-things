@@ -1,0 +1,10 @@
+id: fe2fce94-60f7-4137-9b93-149fb2cf1316
+name: Charizard VMAX
+type: card
+year: 2022
+attributes:
+  number: "SWSH261"
+  rarity: Promo
+  illustrator: Shiburingaru
+image:
+  source_url: https://images.pokemontcg.io/swshp/SWSH261_hires.png

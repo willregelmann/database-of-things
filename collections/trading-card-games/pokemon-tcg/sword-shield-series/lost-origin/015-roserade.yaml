@@ -1,0 +1,10 @@
+id: 265e2dc3-c68c-4fd0-be61-ff6c66d0d8bf
+name: Roserade
+type: card
+year: 2022
+attributes:
+  number: "15/196"
+  rarity: Uncommon
+  illustrator: "0313"
+image:
+  source_url: https://images.pokemontcg.io/swsh11/15_hires.png

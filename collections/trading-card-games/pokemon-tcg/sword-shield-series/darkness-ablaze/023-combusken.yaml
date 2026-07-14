@@ -1,0 +1,10 @@
+id: 3d2772b9-78ba-45b4-b0d5-654bcd5b0ba0
+name: Combusken
+type: card
+year: 2020
+attributes:
+  number: "23/189"
+  rarity: Uncommon
+  illustrator: kodama
+image:
+  source_url: https://images.pokemontcg.io/swsh3/23_hires.png

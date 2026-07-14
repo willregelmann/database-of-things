@@ -1,0 +1,10 @@
+id: d79c64ec-efe0-493e-9a2c-b566dfaef9fa
+name: Rare Candy
+type: card
+year: 2023
+attributes:
+  number: "141/159"
+  rarity: Uncommon
+  illustrator: Yoshinobu Saito
+image:
+  source_url: https://images.pokemontcg.io/swsh12pt5/141_hires.png

@@ -6,7 +6,7 @@
     "number": { "type": "string", "pattern": "^([A-Z]{0,2}[0-9]+|[A-Z]|[!?])/[A-Z]{0,2}[0-9]+$|^[A-Z]{1,4}[0-9]+$|^(ONE|TWO|THREE|FOUR)$" },
     "rarity": {
       "type": "string",
-      "enum": ["Common", "Uncommon", "Rare", "Rare Holo", "Rare Holo ex", "Rare Holo ☆", "Rare Holo LV.X", "Rare Holo Prime", "Rare Holo LEGEND", "Rare Ultra", "Rare Ace", "Rare BREAK", "Rare Holo GX", "Rare Rainbow", "Rare Prism Star", "Rare Shining", "Rare Shiny", "Rare Shiny GX", "Secret Rare", "Shining Holofoil", "Promo"]
+      "enum": ["Common", "Uncommon", "Rare", "Rare Holo", "Rare Holo ex", "Rare Holo ☆", "Rare Holo LV.X", "Rare Holo Prime", "Rare Holo LEGEND", "Rare Ultra", "Rare Ace", "Rare BREAK", "Rare Holo GX", "Rare Rainbow", "Rare Prism Star", "Rare Shining", "Rare Shiny", "Rare Shiny GX", "Rare Holo V", "Rare Holo VMAX", "Rare Holo VSTAR", "Amazing Rare", "Radiant Rare", "Trainer Gallery Rare Holo", "Rare Classic", "Secret Rare", "Shining Holofoil", "Promo"]
     },
     "illustrator": { "type": "string" }
   },

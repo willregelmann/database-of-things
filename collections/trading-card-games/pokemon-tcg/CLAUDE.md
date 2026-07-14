@@ -144,7 +144,40 @@ prefixes, since a new one has shown up in each of the last few series.
 same as any other numbered set (e.g. `rc01`-`rc25`, not `rc1`-`rc25`) —
 Legendary Treasures originally shipped with `rc1`-`rc9` unpadded, which
 sorted after `rc25` in a directory listing; fixed alongside the
-Generations addition that caught it.
+Generations addition that caught it. **Many more prefixed-fraction
+sub-checklists have since turned up, all folded into their parent
+expansion's directory the same way, not a separate expansion**: Shining
+Fates has its own separate `SV*` "Shiny Vault" (`SV001/SV122` — note the
+3-digit zero-padded numerator, unlike Hidden Fates' unpadded `SV1/SV94`;
+these are two unrelated Shiny Vaults with different widths, check each
+one), Brilliant Stars/Astral Radiance/Lost Origin/Silver Tempest each
+have a `TG*` "Trainer Gallery" (`TG01/TG30`, confirmed via Bulbapedia's
+own card-list template `ennum=` field rather than conflicting
+third-party listings — some showed `TG01/30`, only the primary source
+resolved it), and Crown Zenith has a `GG*` "Galarian Gallery"
+(`GG01/GG70`).
+
+**Celebrations' "Classic Collection" is numbered like nothing else in
+this category — each card's `attributes.number` reflects its ORIGINAL
+historical printing, not anything specific to Celebrations.** These 25
+cards are reprints of iconic cards spanning the entire history of the
+TCG (Base Set's Charizard, Neo Revelation's Shining Magikarp, EX-era
+Gold Star Umbreon, Sword & Shield's own Tapu Lele-GX, etc.), and the
+Pokémon Company deliberately kept each card's original collector number
+and denominator as a homage — so `Charizard`'s number here is `4/102`
+(Base Set's own numbering), not `4/25` or `4/CC25`. Do not invent a
+Celebrations-specific denominator. The full 25-card table (number,
+original source expansion, name) is authoritative from Bulbapedia's own
+`Celebrations (TCG)` setlist page, not the API (which also mislabels the
+rarity — see above) — re-derive it from that page's raw wikitext rather
+than the API's bare numbers if this needs redoing. Multiple cards
+legitimately share the same numerator (four different cards are all
+`15/<something>`, one per original expansion) since they're independent
+historical references — filenames stay unique via the name slug, same
+as any other reprint, but ALSO need a way to avoid colliding with the
+main Celebrations set's own `1-25` numbering in the same directory (e.g.
+a `cc-` filename prefix, since — unlike RC/TG/GG/SV — this subset's
+`attributes.number` itself carries no distinguishing prefix to reuse).
 
 **BW Black Star Promos has a genuine printed inconsistency — don't
 normalize it.** Cards are numbered `BW01`-`BW101` (2 digits), except
@@ -322,6 +355,34 @@ three visually/conceptually similar but textually distinct "shiny
 Pokémon" rarities now exist in this enum across three different eras;
 don't collapse them into one just because they sound alike.
 
+**`Rare Holo V` / `Rare Holo VMAX` / `Rare Holo VSTAR`** (Sword & Shield
+onward): Pokémon V, VMAX, and VSTAR mechanics. All three match the API's
+casing exactly — confirmed via the Rarity overview page's own prose
+("Their rarity is holo rare V/VMAX/VSTAR"), not just individual card
+infoboxes (see the GX lesson above about why that matters).
+
+**`Amazing Rare`** (Vivid Voltage onward) and **`Radiant Rare`** (Astral
+Radiance onward): "Amazing Pokémon" and "Radiant Pokémon" mechanics.
+Both match the API's casing exactly — confirmed via the Rarity overview
+page's prose.
+
+**`Trainer Gallery Rare Holo`**: cards in a "Trainer Gallery" (Brilliant
+Stars onward) or "Galarian Gallery" (Crown Zenith) sub-checklist — both
+use this SAME rarity value, there's no separate "Galarian Gallery" rarity
+despite the different subset name. Matches the API exactly — confirmed
+via the existence of Bulbapedia's own `Category:Trainer Gallery Rare Holo
+cards` page (a curated category is as authoritative as prose for
+confirming a value is real, when the Rarity overview page itself doesn't
+cover a mechanic in prose).
+
+**`Rare Classic`** (Celebrations' Classic Collection only): the API calls
+this rarity `"Classic Collection"`, but Bulbapedia's own `Celebrations
+(TCG)` expansion page — which maintains the authoritative card-by-card
+setlist table for this specific subset — explicitly lists every one of
+its 25 cards as `Rare Classic`. Trust the expansion's own setlist page
+over the API string here. See the numbering note below — this subset's
+`attributes.number` values are unlike anything else in this category.
+
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
 The Pokémon TCG API (`api.pokemontcg.io`) is a convenient bulk source for
@@ -359,3 +420,16 @@ writing the entity file — don't assume the API's rendering is correct.
   form a `promos` collection takes, treat it like any other expansion-level
   directory: it needs its own `_collection.yaml` and contains card files
   directly (promo numbering is promo-specific, not tied to any expansion).
+- **The Pokémon TCG API's own `/v2/cards` endpoint can silently omit real,
+  documented cards even while its own set object admits the gap.** The
+  SWSH Black Star Promos (`swshp/promos/`) run `SWSH001`-`SWSH307`, but the
+  live `/v2/cards?q=set.id:swshp` query returns only 304 records — missing
+  `SWSH299` (Jirachi V), `SWSH300` (Unown V), and `SWSH301` (Lugia V)
+  entirely. The set's own metadata (`printedTotal: 307` vs. `total: 304`)
+  flags the discrepancy, and Bulbapedia's raw-wikitext checklist plus
+  independent retail listings confirm all three are real printed cards
+  (tied to the Jirachi V Box and the Crown Zenith Special Collection—Unown
+  V & Lugia V, both January 2023). Don't fabricate entries for a gap like
+  this without the same sourcing rigor (image URL, illustrator, exact
+  name) used for every other card — left unfiled as a documented future
+  task rather than guessed at.

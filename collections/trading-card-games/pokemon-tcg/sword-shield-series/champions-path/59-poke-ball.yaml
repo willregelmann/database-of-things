@@ -1,0 +1,10 @@
+id: e4ce13bb-2488-4652-ab09-f807522b497e
+name: Poké Ball
+type: card
+year: 2020
+attributes:
+  number: 59/73
+  rarity: Common
+  illustrator: Studio Bora Inc.
+image:
+  source_url: https://images.pokemontcg.io/swsh35/59_hires.png

@@ -1,0 +1,10 @@
+id: 3abfddeb-7908-4564-b493-877fc9ed1e57
+name: Charmander
+type: card
+year: 2021
+attributes:
+  number: "SWSH092"
+  rarity: Promo
+  illustrator: Uta
+image:
+  source_url: https://images.pokemontcg.io/swshp/SWSH092_hires.png

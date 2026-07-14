@@ -1,0 +1,10 @@
+id: f2fcccb5-3fe9-4899-a441-e5dfcae66a21
+name: Whiscash
+type: card
+year: 2020
+attributes:
+  number: "100/192"
+  rarity: Rare
+  illustrator: kawayoo
+image:
+  source_url: https://images.pokemontcg.io/swsh2/100_hires.png

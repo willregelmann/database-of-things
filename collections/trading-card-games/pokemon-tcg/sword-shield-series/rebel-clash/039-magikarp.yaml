@@ -1,0 +1,10 @@
+id: 9f57bc77-bf17-4af1-9750-bf1c8c82a601
+name: Magikarp
+type: card
+year: 2020
+attributes:
+  number: "39/192"
+  rarity: Common
+  illustrator: kanahei
+image:
+  source_url: https://images.pokemontcg.io/swsh2/39_hires.png

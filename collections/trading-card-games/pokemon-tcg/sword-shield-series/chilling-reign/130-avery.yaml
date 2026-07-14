@@ -1,0 +1,10 @@
+id: 9bbecd69-b3f7-4210-b1ec-7d023742a0d8
+name: Avery
+type: card
+year: 2021
+attributes:
+  number: "130/198"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/swsh6/130_hires.png

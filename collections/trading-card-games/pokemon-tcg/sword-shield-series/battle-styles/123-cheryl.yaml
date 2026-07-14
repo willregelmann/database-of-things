@@ -1,0 +1,10 @@
+id: 7fedd325-aaa8-4a8b-91ca-c4f2ae5192f7
+name: Cheryl
+type: card
+year: 2021
+attributes:
+  number: "123/163"
+  rarity: Uncommon
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/swsh5/123_hires.png

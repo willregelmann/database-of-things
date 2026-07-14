@@ -1,0 +1,10 @@
+id: e12dfead-fa30-411f-bc9a-8320ced5b39d
+name: Venusaur
+type: card
+year: 1999
+attributes:
+  number: "15/102"
+  rarity: Rare Classic
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/cel25c/15_A_hires.png

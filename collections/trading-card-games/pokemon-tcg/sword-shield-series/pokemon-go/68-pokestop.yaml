@@ -1,0 +1,10 @@
+id: f5f55870-e3aa-4d20-8e44-349de2428a87
+name: PokéStop
+type: card
+year: 2022
+attributes:
+  number: "68/78"
+  rarity: Uncommon
+  illustrator: Studio Bora Inc.
+image:
+  source_url: https://images.pokemontcg.io/pgo/68_hires.png

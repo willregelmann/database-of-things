@@ -1,0 +1,10 @@
+id: a16c1983-f8c4-42fe-ad99-3b69cd3ba939
+name: Pikachu
+type: card
+year: 2022
+attributes:
+  number: "28/78"
+  rarity: Rare Holo
+  illustrator: Narumi Sato
+image:
+  source_url: https://images.pokemontcg.io/pgo/28_hires.png

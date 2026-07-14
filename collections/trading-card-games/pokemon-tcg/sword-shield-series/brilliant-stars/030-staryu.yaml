@@ -1,0 +1,10 @@
+id: afba309c-75b7-4cd4-b25d-e9299eceddc9
+name: Staryu
+type: card
+year: 2022
+attributes:
+  number: "30/172"
+  rarity: Common
+  illustrator: Yuka Morii
+image:
+  source_url: https://images.pokemontcg.io/swsh9/30_hires.png
