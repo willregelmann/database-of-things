@@ -1,0 +1,10 @@
+id: 452e003b-24e9-4800-8bdc-acbf9d192f34
+name: Magikarp
+type: card
+year: 2012
+attributes:
+  number: "23/124"
+  rarity: Common
+  illustrator: Mizue
+image:
+  source_url: https://images.pokemontcg.io/bw6/23_hires.png

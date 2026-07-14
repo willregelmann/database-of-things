@@ -3,10 +3,10 @@
   "title": "Pokemon TCG card attributes",
   "type": "object",
   "properties": {
-    "number": { "type": "string", "pattern": "^(H?[0-9]+|[A-Z]|[!?])/H?[0-9]+$|^[A-Z]{1,4}[0-9]+$|^(ONE|TWO|THREE|FOUR)$" },
+    "number": { "type": "string", "pattern": "^((H|RC)?[0-9]+|[A-Z]|[!?])/(H|RC)?[0-9]+$|^[A-Z]{1,4}[0-9]+$|^(ONE|TWO|THREE|FOUR)$" },
     "rarity": {
       "type": "string",
-      "enum": ["Common", "Uncommon", "Rare", "Rare Holo", "Rare Holo ex", "Rare Holo ☆", "Rare Holo LV.X", "Rare Holo Prime", "Rare Holo LEGEND", "Secret Rare", "Shining Holofoil", "Promo"]
+      "enum": ["Common", "Uncommon", "Rare", "Rare Holo", "Rare Holo ex", "Rare Holo ☆", "Rare Holo LV.X", "Rare Holo Prime", "Rare Holo LEGEND", "Rare Ultra", "Rare Ace", "Secret Rare", "Shining Holofoil", "Promo"]
     },
     "illustrator": { "type": "string" }
   },

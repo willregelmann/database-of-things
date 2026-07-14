@@ -1,0 +1,10 @@
+id: af23f015-7807-4d3b-b49a-e488e60a9e1a
+name: Magnemite
+type: card
+year: 2013
+attributes:
+  number: "42/135"
+  rarity: Common
+  illustrator: Shigenori Negishi
+image:
+  source_url: https://images.pokemontcg.io/bw8/42_hires.png

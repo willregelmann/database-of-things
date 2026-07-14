@@ -1,0 +1,10 @@
+id: 6ba6f434-2881-40e8-9077-34cb6a0718f3
+name: Blastoise
+type: card
+year: 2013
+attributes:
+  number: "137/135"
+  rarity: Secret Rare
+  illustrator: Ayaka Yoshida
+image:
+  source_url: https://images.pokemontcg.io/bw8/137_hires.png

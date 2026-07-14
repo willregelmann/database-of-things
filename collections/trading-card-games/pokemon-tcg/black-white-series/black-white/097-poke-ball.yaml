@@ -1,0 +1,10 @@
+id: fb49281a-5f3b-4532-85bd-b81e2c79a901
+name: Poké Ball
+type: card
+year: 2011
+attributes:
+  number: "97/114"
+  rarity: Uncommon
+  illustrator: Yuri Umemura
+image:
+  source_url: https://images.pokemontcg.io/bw1/97_hires.png

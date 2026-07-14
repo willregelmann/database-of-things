@@ -1,0 +1,10 @@
+id: f74ab2a4-3ce4-4cd1-bb28-b8778ed2ffc0
+name: Pokémon Center
+type: card
+year: 2012
+attributes:
+  number: "90/99"
+  rarity: Uncommon
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/bw4/90_hires.png

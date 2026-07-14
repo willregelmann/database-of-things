@@ -1,0 +1,10 @@
+id: 3ac80966-9714-4dd7-b5d9-0992d0eb67bd
+name: Bicycle
+type: card
+year: 2013
+attributes:
+  number: "117/135"
+  rarity: Uncommon
+  illustrator: Toyste Beach
+image:
+  source_url: https://images.pokemontcg.io/bw8/117_hires.png

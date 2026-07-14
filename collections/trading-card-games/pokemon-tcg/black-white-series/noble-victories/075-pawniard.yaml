@@ -1,0 +1,10 @@
+id: b1122ed2-ebbd-4ff0-8fed-19be6e575b17
+name: Pawniard
+type: card
+year: 2011
+attributes:
+  number: "75/101"
+  rarity: Common
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/bw3/75_hires.png

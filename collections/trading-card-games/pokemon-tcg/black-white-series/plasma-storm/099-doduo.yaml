@@ -1,0 +1,10 @@
+id: f3512f0f-23aa-4401-b330-565f00c0a1a4
+name: Doduo
+type: card
+year: 2013
+attributes:
+  number: "99/135"
+  rarity: Common
+  illustrator: Kyoko Umemoto
+image:
+  source_url: https://images.pokemontcg.io/bw8/99_hires.png

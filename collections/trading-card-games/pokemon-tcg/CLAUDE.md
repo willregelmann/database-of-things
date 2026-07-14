@@ -127,6 +127,20 @@ already gives you consistently. When multiple parallel agents touched Unown
 cards in the same PR, some incorrectly stripped the brackets based on the
 Bulbapedia title alone; keep the brackets.
 
+**Legendary Treasures' Radiant Collection (`RC1`-`RC25`)**: unlike every
+other bare-prefix subset so far, these ARE printed with a fraction — but
+the *denominator* is also prefixed, not the set's main total: `RC1/RC25`,
+not `RC1/113`. Confirmed via Bulbapedia's raw wikitext (`cardno=RC1/RC25`).
+`attributes.number`'s pattern allows an `RC` prefix on either side of the
+fraction, alongside the existing `H` prefix, to accommodate this.
+
+**BW Black Star Promos has a genuine printed inconsistency — don't
+normalize it.** Cards are numbered `BW01`-`BW101` (2 digits), except
+Reshiram and Zekrom, which are printed `BW004`/`BW005` (3 digits) — this
+is confirmed as the actual printed number by multiple independent
+commercial listings, not an API typo. Use each card's number exactly as
+the API gives it; don't zero-pad the whole line to a uniform width.
+
 ## Verifying a set is complete
 
 A set's total card count is public and fixed (encoded in every card's
@@ -157,14 +171,20 @@ alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
 GX` card as `Rare Holo ex`).
 
-**`Rare Holo ex` is lowercase — it's not the same thing as `Rare Holo EX`.**
-The EX Series (2003-2007) mechanic is styled `Pokémon-ex`, lowercase, and its
-rarity symbol reads `Rare Holo ex` on every individual card infobox (verified
-independently on cards from both ends of the series, EX Ruby & Sapphire and
-EX Power Keepers). A *different*, later mechanic from the Black & White/XY
-era (2012+) is `Pokémon-EX`, capitalized, and would need its own enum value
-when that era gets curated — don't conflate the two just because the set
-branding ("**EX** Series") capitalizes it.
+**`Rare Holo ex` is lowercase, and — despite an earlier note here predicting
+otherwise — it's the SAME enum value for both the 2003-2007 `Pokémon-ex`
+mechanic and the 2011+ `Pokémon-EX` mechanic.** The card's `name` field
+still shows the real difference (space-separated lowercase `Chansey ex` vs.
+hyphenated capitalized `Shaymin-EX`), and Bulbapedia's own card template
+has a separate `class=EX` field to track the mechanic distinction — but the
+`rarity` template parameter itself is `Rare Holo ex` (lowercase) for both,
+confirmed via raw wikitext (`action=raw`, not rendered HTML/icon alt text,
+which can be ambiguous when a page lists multiple printings) on 4
+independent BW-era cards across 2 sets. The Pokémon TCG API instead returns
+`"Rare Holo EX"` (capitalized) for these BW-era cards — don't trust that;
+map it to the existing `Rare Holo ex` value, not a new one. Full-art
+BW-era `-EX` reprints are a genuinely different, separate rarity: see
+`Rare Ultra` below.
 
 **Word order and case both matter, and existing precedent isn't automatically
 correct.** Two rarity values in this enum were wrong before being
@@ -188,6 +208,17 @@ failure mode as `Rare Holo EX`/`Rare Holo ex`, just via omission instead of
 casing: when the API gives a short/bare rarity string, check whether
 Bulbapedia's actual infobox has a longer `Rare Holo <modifier>` form before
 trusting the short one.
+
+**`Rare Ultra`** (Black & White Series onward): the full-art secret-style
+reprint of an already-numbered `-EX` Pokémon within the same set (e.g.
+Entei-EX prints at both `13/108` as `Rare Holo ex` and again later in the
+same set's numbering as `Rare Ultra`) — not a beyond-total secret rare,
+still within the printed range. Matches the API's own casing; confirmed
+via raw wikitext on 2 cards across 2 sets.
+
+**`Rare Ace`** (Boundaries Crossed onward): "ACE SPEC" Trainer/Item cards
+(max 1 per deck). Title case, NOT the API's all-caps `"Rare ACE"` —
+confirmed via raw wikitext on 2 cards across 2 sets.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
