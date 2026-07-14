@@ -1,0 +1,10 @@
+id: 5528c733-33ed-4447-92ce-8c9906354c88
+name: Pikachu
+type: card
+year: 2009
+attributes:
+  number: "71/99"
+  rarity: Common
+  illustrator: sui
+image:
+  source_url: https://images.pokemontcg.io/pl4/71_hires.png

@@ -1,0 +1,10 @@
+id: 36926754-0c31-49e1-8b8d-e14f2aa922aa
+name: Poké Ball
+type: card
+year: 2009
+attributes:
+  number: "113/127"
+  rarity: Uncommon
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/pl1/113_hires.png

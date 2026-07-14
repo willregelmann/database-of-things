@@ -1,0 +1,10 @@
+id: eceeb038-1c73-4aea-9999-d68cfbf2caa8
+name: Electabuzz
+type: card
+year: 2009
+attributes:
+  number: "128/127"
+  rarity: Secret Rare
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/pl1/128_hires.png
