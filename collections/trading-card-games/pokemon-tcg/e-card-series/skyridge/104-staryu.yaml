@@ -1,0 +1,10 @@
+id: 1de68732-04e6-4f0d-8682-fb016ae4afe1
+name: Staryu
+type: card
+year: 2003
+attributes:
+  number: "104/144"
+  rarity: Common
+  illustrator: Keiko Fukuyama
+image:
+  source_url: https://images.pokemontcg.io/ecard3/104_hires.png

@@ -1,0 +1,10 @@
+id: 8b96a515-aa71-459b-9ab5-f6d6534c9b71
+name: Meowth
+type: card
+year: 2002
+attributes:
+  number: "121/165"
+  rarity: Common
+  illustrator: Hironobu Yoshida
+image:
+  source_url: https://images.pokemontcg.io/ecard1/121_hires.png

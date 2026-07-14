@@ -1,0 +1,10 @@
+id: f6aeaeb7-7141-49cc-80e4-43c0351fb863
+name: Bulbasaur
+type: card
+year: 2002
+attributes:
+  number: "95/165"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/ecard1/95_hires.png

@@ -1,0 +1,10 @@
+id: de1511c2-5fcc-4f4a-b78a-2d990615f1e6
+name: Meowth
+type: card
+year: 2003
+attributes:
+  number: "78/144"
+  rarity: Common
+  illustrator: Keiko Fukuyama
+image:
+  source_url: https://images.pokemontcg.io/ecard3/78_hires.png
