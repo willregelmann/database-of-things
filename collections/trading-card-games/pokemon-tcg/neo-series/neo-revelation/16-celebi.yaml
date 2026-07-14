@@ -1,0 +1,10 @@
+id: 234a5541-e9e0-4cda-9a63-f222946f26c2
+name: Celebi
+type: card
+year: 2001
+attributes:
+  number: "16/64"
+  rarity: Rare
+  illustrator: Sumiyoshi Kizuki
+image:
+  source_url: https://images.pokemontcg.io/neo3/16_hires.png

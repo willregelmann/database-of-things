@@ -1,0 +1,10 @@
+id: 6a4275e1-9233-40d4-a8e3-f268afa7cfb6
+name: Pokémon Personality Test
+type: card
+year: 2002
+attributes:
+  number: "102/105"
+  rarity: Uncommon
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/neo4/102_hires.png
