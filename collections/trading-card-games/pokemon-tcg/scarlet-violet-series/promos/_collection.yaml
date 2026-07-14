@@ -9,7 +9,7 @@ description: >
   SVP001-SVP207 with no printed denominator; 200 cards catalogued here
   (SVP175, SVP176, SVP190-SVP192, and SVP204-SVP205 are known real cards
   missing from the primary data source -- see category CLAUDE.md).
-year: 2023
+date: "2023"
 total_cards: 200
 image:
   source_url: https://images.pokemontcg.io/svp/logo.png
