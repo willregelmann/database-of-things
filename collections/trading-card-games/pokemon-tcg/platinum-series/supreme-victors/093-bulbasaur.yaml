@@ -1,0 +1,10 @@
+id: eac4edef-fa54-47fe-805e-ca246cbda1d7
+name: Bulbasaur
+type: card
+year: 2009
+attributes:
+  number: "93/147"
+  rarity: Common
+  illustrator: Naoyo Kimura
+image:
+  source_url: https://images.pokemontcg.io/pl3/93_hires.png

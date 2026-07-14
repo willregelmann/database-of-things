@@ -1,0 +1,10 @@
+id: e5c500ed-579b-42af-b9f7-3d04778b6ffe
+name: Meowth
+type: card
+year: 2009
+attributes:
+  number: "114/147"
+  rarity: Common
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/pl3/114_hires.png
