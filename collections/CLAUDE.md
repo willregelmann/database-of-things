@@ -7,6 +7,21 @@ family- and category-specific `CLAUDE.md` files (e.g.
 [`trading-card-games/pokemon-tcg/CLAUDE.md`](trading-card-games/pokemon-tcg/CLAUDE.md))
 add game/category-specific detail on top of this — they don't replace it.
 
+## Dates
+
+The optional top-level `date` field records when an entity was released —
+always a quoted string, since an unquoted `YYYY-MM-DD` gets parsed as a YAML
+timestamp instead of a string. Use whatever precision the source actually
+supports, don't pad it out:
+
+- `date: "1999"` — year only, when that's the best precision the source gives.
+- `date: "1999-06"` — year and month.
+- `date: "1999-06-30"` — full release date, when a reliable per-item or
+  per-expansion source exists (e.g. Pokémon TCG's expansion release dates).
+
+Don't fabricate precision that isn't in the source — a card known only to
+have shipped "in 1999" stays `date: "1999"` rather than guessing a month.
+
 ## Logos
 
 When adding or editing a collection's own `_collection.yaml` — at any level,

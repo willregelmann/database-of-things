@@ -49,7 +49,7 @@ One YAML file per entity (`collections/<category>/.../<item>.yaml`):
 id: 3f4334f3-6a41-45fb-a1c1-dcf44566491e   # stable, generated once, never reused
 name: Charizard
 type: card
-year: 1999
+date: "1999-01-09"
 attributes:
   number: "4/102"
   rarity: Rare Holo
