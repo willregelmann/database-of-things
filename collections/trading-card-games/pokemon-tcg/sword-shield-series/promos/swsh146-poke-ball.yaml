@@ -1,0 +1,10 @@
+id: 7f07702e-2894-4474-a1e5-be5505fcaf07
+name: Poké Ball
+type: card
+year: 2021
+attributes:
+  number: "SWSH146"
+  rarity: Promo
+  illustrator: 5ban Graphics
+image:
+  source_url: https://images.pokemontcg.io/swshp/SWSH146_hires.png

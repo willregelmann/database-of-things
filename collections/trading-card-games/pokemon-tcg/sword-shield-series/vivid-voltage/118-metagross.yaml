@@ -1,0 +1,10 @@
+id: 7e91dccc-c7ae-4c85-b4bc-057d3fffe616
+name: Metagross
+type: card
+year: 2020
+attributes:
+  number: "118/185"
+  rarity: Rare
+  illustrator: kawayoo
+image:
+  source_url: https://images.pokemontcg.io/swsh4/118_hires.png

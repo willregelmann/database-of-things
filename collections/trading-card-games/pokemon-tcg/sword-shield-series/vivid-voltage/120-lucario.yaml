@@ -1,0 +1,10 @@
+id: 99c16f86-3dce-4577-89b8-a3e4d3d6cbaa
+name: Lucario
+type: card
+year: 2020
+attributes:
+  number: "120/185"
+  rarity: Rare
+  illustrator: kodama
+image:
+  source_url: https://images.pokemontcg.io/swsh4/120_hires.png

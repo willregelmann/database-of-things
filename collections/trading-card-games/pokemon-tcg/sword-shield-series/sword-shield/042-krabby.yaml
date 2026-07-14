@@ -1,0 +1,10 @@
+id: 41deba74-8d39-495f-92f9-1df27411e8f1
+name: Krabby
+type: card
+year: 2020
+attributes:
+  number: "42/202"
+  rarity: Common
+  illustrator: ryoma uratsuka
+image:
+  source_url: https://images.pokemontcg.io/swsh1/42_hires.png

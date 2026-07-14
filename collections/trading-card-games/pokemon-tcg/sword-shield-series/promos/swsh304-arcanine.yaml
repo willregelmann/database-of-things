@@ -1,0 +1,10 @@
+id: 90bd897f-2e69-43a1-a4a0-67bda8a85c4b
+name: Arcanine
+type: card
+year: 2022
+attributes:
+  number: "SWSH304"
+  rarity: Promo
+  illustrator: REND
+image:
+  source_url: https://images.pokemontcg.io/swshp/SWSH304_hires.png

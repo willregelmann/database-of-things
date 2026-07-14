@@ -1,0 +1,10 @@
+id: c0b66132-1fe5-42c7-a861-542c99186d0f
+name: Psyduck
+type: card
+year: 2021
+attributes:
+  number: "24/203"
+  rarity: Common
+  illustrator: OKACHEKE
+image:
+  source_url: https://images.pokemontcg.io/swsh7/24_hires.png

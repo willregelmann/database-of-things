@@ -1,0 +1,10 @@
+id: 7b75db50-f392-41e9-89b8-fb377b7bea94
+name: Lugia
+type: card
+year: 2021
+attributes:
+  number: "22/25"
+  rarity: Rare
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/cel25/22_hires.png

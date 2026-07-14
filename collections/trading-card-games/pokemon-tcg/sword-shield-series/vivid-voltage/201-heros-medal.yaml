@@ -1,0 +1,10 @@
+id: 19db68bf-82fa-41c8-908d-372efd198529
+name: "Hero's Medal"
+type: card
+year: 2020
+attributes:
+  number: "201/185"
+  rarity: Secret Rare
+  illustrator: Toyste Beach
+image:
+  source_url: https://images.pokemontcg.io/swsh4/201_hires.png

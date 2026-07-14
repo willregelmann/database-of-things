@@ -1,0 +1,10 @@
+id: 0716f3f1-dc88-438e-a100-d26de4556463
+name: Poké Ball
+type: card
+year: 2020
+attributes:
+  number: "164/192"
+  rarity: Uncommon
+  illustrator: Studio Bora Inc.
+image:
+  source_url: https://images.pokemontcg.io/swsh2/164_hires.png

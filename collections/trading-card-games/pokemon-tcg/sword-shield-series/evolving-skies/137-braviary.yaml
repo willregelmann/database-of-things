@@ -1,0 +1,10 @@
+id: 2de23675-3144-466b-aaed-19248ef64ac5
+name: Braviary
+type: card
+year: 2021
+attributes:
+  number: "137/203"
+  rarity: Uncommon
+  illustrator: SATOSHI NAKAI
+image:
+  source_url: https://images.pokemontcg.io/swsh7/137_hires.png

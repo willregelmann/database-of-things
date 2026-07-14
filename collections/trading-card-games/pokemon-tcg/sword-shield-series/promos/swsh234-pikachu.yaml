@@ -1,0 +1,10 @@
+id: f11d148b-675d-49bc-8936-81a0cd8d6f85
+name: Pikachu
+type: card
+year: 2022
+attributes:
+  number: "SWSH234"
+  rarity: Promo
+  illustrator: Ryota Murayama
+image:
+  source_url: https://images.pokemontcg.io/swshp/SWSH234_hires.png

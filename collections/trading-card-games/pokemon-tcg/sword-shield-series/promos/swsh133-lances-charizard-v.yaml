@@ -1,0 +1,10 @@
+id: 5fda899d-85fd-4f70-a882-ff137ffeb76f
+name: "Lance's Charizard V"
+type: card
+year: 2021
+attributes:
+  number: "SWSH133"
+  rarity: Promo
+  illustrator: Hideki Ishikawa
+image:
+  source_url: https://images.pokemontcg.io/swshp/SWSH133_hires.png

@@ -1,0 +1,10 @@
+id: c3420fd1-00ec-4ca6-a378-515e0333b879
+name: Charizard
+type: card
+year: 2022
+attributes:
+  number: "TG03/TG30"
+  rarity: Trainer Gallery Rare Holo
+  illustrator: GIDORA
+image:
+  source_url: https://images.pokemontcg.io/swsh11tg/TG03_hires.png

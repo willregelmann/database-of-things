@@ -1,0 +1,10 @@
+id: b20901a3-6985-49b0-91e7-50828c24746c
+name: Ivysaur
+type: card
+year: 2022
+attributes:
+  number: "2/78"
+  rarity: Uncommon
+  illustrator: zig
+image:
+  source_url: https://images.pokemontcg.io/pgo/2_hires.png

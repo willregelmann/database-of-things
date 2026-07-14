@@ -1,0 +1,10 @@
+id: 54c4c326-4c2a-43a3-9f17-05da7bdd6297
+name: Charizard
+type: card
+year: 2020
+attributes:
+  number: "25/185"
+  rarity: Rare
+  illustrator: Ryuta Fuse
+image:
+  source_url: https://images.pokemontcg.io/swsh4/25_hires.png
