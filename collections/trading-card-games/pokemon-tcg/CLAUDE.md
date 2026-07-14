@@ -81,6 +81,28 @@ fetch, and prefer web-searching for the exact article title over guessing
 it. `attributes.number`'s pattern allows a single `A`-`Z`/`!`/`?` character
 as the numerator to accommodate this.
 
+**Bare alpha-prefixed numbering with no denominator at all**: some special
+subsets aren't printed with a `number/total` fraction at all — just a bare
+identifier. Confirmed cases: Stormfront's 3 "Shiny" secret cards (`SH1`-`SH3`)
+and the DP Black Star Promos line (`DP01`-`DP56`, zero-padded as printed).
+Verify via Bulbapedia's "English card no." field the same way as any other
+numbering quirk — don't assume a denominator exists just because every other
+case so far has had one. `attributes.number`'s pattern allows a bare
+1-3-uppercase-letter prefix followed by digits, with no `/denominator`, to
+accommodate this.
+
+**Unown cards on a set's *main* numbered checklist keep the bracket**: outside
+the EX Unseen Forces secret sub-checklist above, every other Unown printing
+(Neo Discovery/Revelation/Destiny, Diamond & Pearl Series, etc.) is named
+`Unown [A]` — brackets included — both in the Pokémon TCG API's `name` field
+and as the established convention across dozens of already-curated files.
+Bulbapedia's *article title* for these drops the brackets (e.g. "Unown A
+(Diamond & Pearl 65)"), but that's MediaWiki's own title-simplification, not
+the printed card name — don't let a page title override a name the API
+already gives you consistently. When multiple parallel agents touched Unown
+cards in the same PR, some incorrectly stripped the brackets based on the
+Bulbapedia title alone; keep the brackets.
+
 ## Verifying a set is complete
 
 A set's total card count is public and fixed (encoded in every card's

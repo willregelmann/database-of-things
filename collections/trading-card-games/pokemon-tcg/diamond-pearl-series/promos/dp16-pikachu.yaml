@@ -1,0 +1,10 @@
+id: 0dda6397-6cdb-4db2-a806-ae3bf711ff9b
+name: Pikachu
+type: card
+year: 2007
+attributes:
+  number: "DP16"
+  rarity: Promo
+  illustrator: Sumiyoshi Kizuki
+image:
+  source_url: https://images.pokemontcg.io/dpp/DP16_hires.png

@@ -1,0 +1,10 @@
+id: ebdf2681-51a6-459c-b75c-e3dd8eeb619d
+name: Poké Ball
+type: card
+year: 2008
+attributes:
+  number: "85/100"
+  rarity: Uncommon
+  illustrator: Ryo Ueda
+image:
+  source_url: https://images.pokemontcg.io/dp5/85_hires.png

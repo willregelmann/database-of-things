@@ -1,0 +1,10 @@
+id: 5ebbb1d4-2bbd-461f-adc1-323b37ffbeb6
+name: Magikarp
+type: card
+year: 2008
+attributes:
+  number: "65/100"
+  rarity: Common
+  illustrator: Tomokazu Komiya
+image:
+  source_url: https://images.pokemontcg.io/dp7/65_hires.png

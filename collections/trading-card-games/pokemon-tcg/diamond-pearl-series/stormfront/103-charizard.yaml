@@ -1,0 +1,10 @@
+id: b00fe011-28c0-4e7f-8168-14909b62b85d
+name: Charizard
+type: card
+year: 2008
+attributes:
+  number: "103/100"
+  rarity: Secret Rare
+  illustrator: Mitsuhiro Arita
+image:
+  source_url: https://images.pokemontcg.io/dp7/103_hires.png
