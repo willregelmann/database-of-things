@@ -1,0 +1,10 @@
+id: 848cdfca-27da-4ceb-bcb0-ae634ac8880c
+name: Pikachu
+type: card
+year: 2008
+attributes:
+  number: "70/100"
+  rarity: Common
+  illustrator: Hajime Kusajima
+image:
+  source_url: https://images.pokemontcg.io/dp7/70_hires.png

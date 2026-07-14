@@ -1,0 +1,10 @@
+id: b335ca6a-87e0-4836-9947-86ae0b88df04
+name: "Farfetch'd"
+type: card
+year: 2008
+attributes:
+  number: "38/100"
+  rarity: Uncommon
+  illustrator: Sumiyoshi Kizuki
+image:
+  source_url: https://images.pokemontcg.io/dp7/38_hires.png

@@ -1,0 +1,10 @@
+id: 6d2e3919-5975-4661-b3a9-4dc4e4090ce5
+name: Pichu
+type: card
+year: 2008
+attributes:
+  number: "45/100"
+  rarity: Uncommon
+  illustrator: Atsuko Nishida
+image:
+  source_url: https://images.pokemontcg.io/dp7/45_hires.png

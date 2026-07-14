@@ -1,0 +1,10 @@
+id: 5d87321d-2be5-4e8a-bd21-ef6b82aab22b
+name: Chansey
+type: card
+year: 2007
+attributes:
+  number: "76/123"
+  rarity: Common
+  illustrator: Atsuko Nishida
+image:
+  source_url: https://images.pokemontcg.io/dp2/76_hires.png

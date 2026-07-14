@@ -1,0 +1,10 @@
+id: 45e92e54-8a03-4f8f-a0df-4c25860a4085
+name: Krabby
+type: card
+year: 2008
+attributes:
+  number: "75/106"
+  rarity: Common
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/dp4/75_hires.png

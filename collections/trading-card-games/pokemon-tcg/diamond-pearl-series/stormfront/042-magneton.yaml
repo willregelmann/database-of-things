@@ -1,0 +1,10 @@
+id: fe0c3d91-e0de-4771-b84d-0f030b0f7bb1
+name: Magneton
+type: card
+year: 2008
+attributes:
+  number: "42/100"
+  rarity: Uncommon
+  illustrator: Hajime Kusajima
+image:
+  source_url: https://images.pokemontcg.io/dp7/42_hires.png
