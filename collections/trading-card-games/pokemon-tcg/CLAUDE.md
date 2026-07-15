@@ -70,6 +70,15 @@ that worked for one set works for the next.
 
 ## Release dates
 
+**Series- and category-level `_collection.yaml` records also carry a
+`date`, rolled up from their earliest mainline expansion** (see
+[`collections/CLAUDE.md`](../../CLAUDE.md)'s general grouping-date rule) —
+e.g. Original Series' `date` matches Base Set's (`1999-01-09`), and the
+whole Pokémon TCG category's `date` matches its earliest series in turn.
+Exclude `promos/`/`energies/` sub-lines from this rollup — they only carry
+placeholder-year dates themselves (see below), so they'd distort which
+expansion is genuinely "first" for the series.
+
 Every numbered expansion's own `_collection.yaml` and every card inside it
 carry the expansion's official US/English release date as `date:
 "YYYY-MM-DD"` (see [`collections/CLAUDE.md`](../../CLAUDE.md) for the
