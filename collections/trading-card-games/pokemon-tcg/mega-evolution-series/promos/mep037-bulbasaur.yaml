@@ -1,0 +1,10 @@
+id: e02516f8-8353-4907-927f-4812dea2b8db
+name: Bulbasaur
+type: card
+date: "2026"
+attributes:
+  number: "037"
+  rarity: Promo
+  illustrator: Saboteri
+image:
+  source_url: https://archives.bulbagarden.net/wiki/Special:FilePath/BulbasaurMEPPromo37.jpg
