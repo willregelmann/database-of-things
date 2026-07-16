@@ -55,3 +55,18 @@ Don't invent a logo where none exists — many groupings (e.g. retroactive
 "series" groupings that were never marketed under one banner) have no
 official logo at all. Leave `image` off rather than substituting a fan-made
 or unrelated image.
+
+Hold the line on "authoritative and clean": a real logo spotted only
+embedded in a marketing photo or webpage banner (mixed with character art,
+other logos, or UI chrome) isn't the same as a standalone asset — don't crop
+or hand-construct one to force a fit. Leave `image` off and treat it as a
+sourcing gap instead.
+
+**The logo must belong to the entity itself, not a franchise it's merely
+based on or licensed from.** A merchandise line themed around a video game
+isn't the same entity as the game — pointing its `image` at the game's own
+trademarked logo implies that mark represents the merchandise, which it
+doesn't (contrast with e.g. the Pokémon TCG collection, whose logo is
+correct precisely because that collection *is* the Pokémon TCG, not a
+product based on it). If the entity has no logo of its own, leave `image`
+off rather than substituting the thing it's licensed from.
