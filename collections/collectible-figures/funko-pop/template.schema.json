@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Funko Pop! attributes",
+  "type": "object",
+  "properties": {
+    "number": { "type": "string", "pattern": "^[0-9]{1,5}$" },
+    "franchise": { "type": "string" },
+    "manufacturer": { "type": "string" },
+    "variant": {
+      "type": "string",
+      "enum": ["Common", "Chase", "Flocked", "Glow in the Dark", "Metallic", "Diamond Collection"]
+    },
+    "exclusive_to": { "type": "string" }
+  },
+  "additionalProperties": true
+}
