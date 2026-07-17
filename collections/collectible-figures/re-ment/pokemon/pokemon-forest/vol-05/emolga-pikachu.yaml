@@ -1,0 +1,10 @@
+id: 79a313a4-4ab6-4464-af9b-ddf499b58819
+name: Emolga & Pikachu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Emolga
+    - Pikachu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/119488550.jpg

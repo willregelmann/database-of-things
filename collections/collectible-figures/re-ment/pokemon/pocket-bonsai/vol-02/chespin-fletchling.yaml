@@ -1,0 +1,10 @@
+id: a58f8a03-865e-489c-949d-1e0af1df9ac3
+name: Chespin & Fletchling
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Chespin
+    - Fletchling
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1532979015.jpg

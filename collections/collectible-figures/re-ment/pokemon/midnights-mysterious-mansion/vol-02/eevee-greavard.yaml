@@ -1,0 +1,10 @@
+id: 1f9a3e4d-f49e-481c-b81d-d1a79d77919b
+name: Eevee & Greavard
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Eevee
+    - Greavard
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1532952373.jpg

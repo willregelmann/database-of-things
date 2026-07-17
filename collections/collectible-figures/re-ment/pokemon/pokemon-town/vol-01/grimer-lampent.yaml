@@ -1,0 +1,10 @@
+id: 62d2817f-19ff-4fd3-87cf-bb736e9abd44
+name: Grimer & Lampent
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Grimer
+    - Lampent
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1889482546.jpg

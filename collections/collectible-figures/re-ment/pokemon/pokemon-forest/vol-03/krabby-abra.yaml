@@ -1,0 +1,10 @@
+id: dc7c5c03-7995-4d3d-9799-d03eb0eec8c1
+name: Krabby & Abra
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Krabby
+    - Abra
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1089634494.jpg

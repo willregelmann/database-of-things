@@ -1,0 +1,10 @@
+id: 471f96f3-d32d-4b51-8334-e672fb21f11f
+name: Piplup & Shuppet
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Piplup
+    - Shuppet
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/2053434254.jpg

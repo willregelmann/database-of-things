@@ -1,0 +1,10 @@
+id: 56214336-c321-4a8d-ae31-1cecf0d53d0a
+name: Marill & Corsola
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Marill
+    - Corsola
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/845381223.jpg

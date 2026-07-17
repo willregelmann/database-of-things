@@ -1,0 +1,10 @@
+id: b37f7878-d3d8-450a-ac31-b872b6eeac12
+name: Pikachu & Galarian Zigzagoon
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Galarian Zigzagoon
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1938424386.jpg

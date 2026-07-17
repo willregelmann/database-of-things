@@ -1,0 +1,10 @@
+id: c0815bbd-20ff-4207-a516-86942636597e
+name: Umbreon & Lunatone
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Umbreon
+    - Lunatone
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/723032717.jpg

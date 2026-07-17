@@ -1,0 +1,8 @@
+id: 6e2f9ebc-bb57-4f9b-a14f-1dfea2b239e9
+name: Pikachu & Caterpie
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Caterpie

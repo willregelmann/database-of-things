@@ -1,0 +1,10 @@
+id: c5d2322e-c8b2-4951-a3e4-09317f370ffe
+name: Pikachu & Dreepy
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Dreepy
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1676850355.jpg

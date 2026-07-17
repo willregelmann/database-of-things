@@ -1,0 +1,10 @@
+id: fdc63c82-a525-4df9-b665-b20fea8d31e1
+name: Wooloo & Mareep
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Wooloo
+    - Mareep
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/562401995.jpg

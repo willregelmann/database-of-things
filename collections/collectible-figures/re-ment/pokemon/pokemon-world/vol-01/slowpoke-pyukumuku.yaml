@@ -1,0 +1,10 @@
+id: 730ee0de-b653-4c88-8231-e7c6ab0f82c0
+name: Slowpoke & Pyukumuku
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Slowpoke
+    - Pyukumuku
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1002759274.jpg

@@ -1,0 +1,10 @@
+id: bcd205e7-ea3e-44af-8dcc-650cc3370cbf
+name: Pikachu & Pichu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Pichu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1840812011.jpg

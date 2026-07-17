@@ -1,0 +1,10 @@
+id: 0cc15da4-e7d8-4c0a-b8ce-1abec5bddf88
+name: Whimsicott & Jumpluff
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Whimsicott
+    - Jumpluff
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/402874776.jpg

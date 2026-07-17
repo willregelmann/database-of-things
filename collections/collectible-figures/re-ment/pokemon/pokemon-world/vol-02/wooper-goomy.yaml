@@ -1,0 +1,10 @@
+id: 77ece421-eeb8-4bcc-b00f-94d8c23901ae
+name: Wooper & Goomy
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Wooper
+    - Goomy
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1466104040.jpg

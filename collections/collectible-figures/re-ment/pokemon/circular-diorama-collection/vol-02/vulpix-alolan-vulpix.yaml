@@ -1,0 +1,10 @@
+id: d75c9fca-067a-408e-8b2d-19813e6ea29d
+name: Vulpix & Alolan Vulpix
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Vulpix
+    - Alolan Vulpix
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/95972520.jpg

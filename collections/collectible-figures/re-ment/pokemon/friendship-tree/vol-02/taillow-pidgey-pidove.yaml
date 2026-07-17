@@ -1,0 +1,11 @@
+id: 8a0d948c-0a94-4feb-ae2e-2f0e7ad1c04b
+name: Taillow & Pidgey & Pidove
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Taillow
+    - Pidgey
+    - Pidove
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1405413040.jpg

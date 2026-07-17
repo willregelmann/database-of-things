@@ -1,0 +1,10 @@
+id: 89ae3ccd-ab36-40f7-93a2-73ddc0856956
+name: Oddish & Bulbasaur
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Oddish
+    - Bulbasaur
+image:
+  source_url: https://pokevault.com/image/cache/catalog/201707/1523364351_rementpokemonforest4-500x500.jpg

@@ -1,0 +1,10 @@
+id: 2f6bf8ec-7b4e-4389-8b4e-2c27d632caa4
+name: Jirachi & Chimecho
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Jirachi
+    - Chimecho
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/539203301.jpg

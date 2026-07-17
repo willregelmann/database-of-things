@@ -1,0 +1,10 @@
+id: a3f3b68f-42fc-474c-a369-f8273f1bc430
+name: Pikachu & Duskull
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Duskull
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/570599296.jpg

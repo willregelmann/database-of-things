@@ -1,0 +1,10 @@
+id: 1339959d-0dae-4547-8f8c-003c364ec84d
+name: Relicanth & Clamperl
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Relicanth
+    - Clamperl
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/704946875.jpg

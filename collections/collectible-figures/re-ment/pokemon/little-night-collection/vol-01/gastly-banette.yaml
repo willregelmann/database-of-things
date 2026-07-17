@@ -1,0 +1,10 @@
+id: b1febe2b-8fd4-482c-8d1a-a31c144a6dfe
+name: Gastly & Banette
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Gastly
+    - Banette
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/871341412.jpg

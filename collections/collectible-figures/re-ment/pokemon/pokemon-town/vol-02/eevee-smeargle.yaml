@@ -1,0 +1,10 @@
+id: 0420f09f-0cca-4b4e-aca6-7a5387bdc9c1
+name: Eevee & Smeargle
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Eevee
+    - Smeargle
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1543998426.jpg

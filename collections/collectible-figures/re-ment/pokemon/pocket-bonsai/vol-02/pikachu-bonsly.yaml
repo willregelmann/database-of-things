@@ -1,0 +1,10 @@
+id: fc166759-e7d4-4afb-9e6c-2bc136032fda
+name: Pikachu & Bonsly
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Bonsly
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/537978191.jpg

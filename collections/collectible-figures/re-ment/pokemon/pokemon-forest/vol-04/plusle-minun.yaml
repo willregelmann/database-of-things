@@ -1,0 +1,10 @@
+id: 1c198e6d-512b-4fb6-9882-9f881b000161
+name: Plusle & Minun
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Plusle
+    - Minun
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/369118409.jpg

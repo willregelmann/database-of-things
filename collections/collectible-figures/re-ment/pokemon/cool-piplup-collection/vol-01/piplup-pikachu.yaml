@@ -1,0 +1,10 @@
+id: 2c8e27d9-e82b-4908-bc3a-e852d6cff1e7
+name: Piplup & Pikachu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Piplup
+    - Pikachu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/166139337.jpg

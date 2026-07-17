@@ -1,0 +1,10 @@
+id: d5551374-d16e-457e-a0ea-ec6625d1255c
+name: Pikachu & Manaphy
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Manaphy
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/262044353.jpg

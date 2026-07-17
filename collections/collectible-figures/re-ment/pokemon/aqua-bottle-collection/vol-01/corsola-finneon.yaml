@@ -1,0 +1,10 @@
+id: ec9a3f00-50b8-4291-a2ef-748f485f3713
+name: Corsola & Finneon
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Corsola
+    - Finneon
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/689026912.jpg

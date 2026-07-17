@@ -1,0 +1,11 @@
+id: 8aebdd97-e70b-457d-b6b1-719b71248809
+name: Jumpluff & Hoppip & Skiploom
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Jumpluff
+    - Hoppip
+    - Skiploom
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/129625186.jpg

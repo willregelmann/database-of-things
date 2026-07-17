@@ -1,0 +1,10 @@
+id: 7e90b1f0-9445-4309-9987-91f569180b5d
+name: Togepi & Exeggcute
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Togepi
+    - Exeggcute
+image:
+  source_url: https://pokevault.com/image/cache/catalog/201707/1543638241_pokemonforest2-3-500x500.jpg

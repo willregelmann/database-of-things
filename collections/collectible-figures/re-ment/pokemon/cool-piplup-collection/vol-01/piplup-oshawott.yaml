@@ -1,0 +1,10 @@
+id: 43ef8e67-fb72-42a1-8ed5-301815db0c2e
+name: Piplup & Oshawott
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Piplup
+    - Oshawott
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1468726127.jpg

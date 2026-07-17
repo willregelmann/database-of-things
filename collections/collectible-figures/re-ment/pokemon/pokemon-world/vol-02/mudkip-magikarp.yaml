@@ -1,0 +1,10 @@
+id: dbd19b1d-ee5f-4c2c-a8e2-cfe8b090c58a
+name: Mudkip & Magikarp
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Mudkip
+    - Magikarp
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/2036362737.jpg

@@ -1,0 +1,10 @@
+id: 6ac3ca0a-5f85-49b5-a257-0269d34cbcf0
+name: Drifloon & Mimikyu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Drifloon
+    - Mimikyu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/887886139.jpg

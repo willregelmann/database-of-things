@@ -1,0 +1,10 @@
+id: 022b61b0-d387-46fe-973b-22560c0da3f4
+name: Pikachu & Shaymin
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Shaymin
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/637914963.jpg

@@ -1,0 +1,10 @@
+id: 1996315d-53c4-4671-80d9-9c0c30a19599
+name: Poliwag & Goldeen
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Poliwag
+    - Goldeen
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1515783893.jpg

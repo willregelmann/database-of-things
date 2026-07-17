@@ -1,0 +1,10 @@
+id: b8a5c738-9cd9-44dc-8499-0c65c44b3e2c
+name: Ditto & Cubone
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Ditto
+    - Cubone
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1588985261.jpg
