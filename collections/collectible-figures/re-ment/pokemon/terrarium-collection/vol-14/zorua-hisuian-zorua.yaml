@@ -1,0 +1,10 @@
+id: c2f62838-6bad-4225-a15d-11d7ec136699
+name: Zorua & Hisuian Zorua
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Zorua
+    - Hisuian Zorua
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/427392548.jpg

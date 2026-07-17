@@ -1,0 +1,123 @@
+# Re-Ment — curation hints
+
+## What belongs here
+
+Re-Ment's blind-box **character figure/diorama** lines only. Re-Ment also
+sells a huge catalog of non-figure novelty items under the same licenses
+(erasers, magnets, mini towels, kitchen playsets, miniature food/snacks,
+stationery) — those aren't standalone character figures and don't belong in
+`collectible-figures` at all. When scoping a new product for curation, check
+it's actually a posed character figure/diorama, not merchandise that merely
+features a Pokémon on it.
+
+## Directory structure
+
+```
+re-ment/
+  CLAUDE.md
+  template.schema.json          # manufacturer + pokemon attributes, inherited by everything below
+  _collection.yaml               # Re-Ment itself
+  <franchise>/                   # e.g. "pokemon" — only Pokémon is curated so far
+    _collection.yaml
+    <series>/                    # e.g. "Terrarium Collection" — an ongoing named product line
+      _collection.yaml
+      CLAUDE.md                  # only where the series has its own quirks worth documenting
+      vol-<NN>/                  # one blind-box release
+        _collection.yaml
+        <slugified-pokemon-name(s)>.yaml
+```
+
+Four levels, one more than FireLink's `<game>/<series>/<figure>` (see
+[`../firelink/CLAUDE.md`](../firelink/CLAUDE.md)) — Re-Ment runs many
+differently-named series per franchise, and most of those series release in
+numbered volumes/waves over time rather than as a single one-off set.
+
+Series without volume numbering yet (a single release so far) still get a
+`vol-01/` directory — Re-Ment's ongoing lines routinely add a second volume
+later, and this keeps the structure consistent instead of needing to
+retrofit nesting when that happens.
+
+## Series names are official (unlike FireLink)
+
+Re-Ment publishes real product names for each series — source them from
+Re-Ment's own listings, not retailer inventions:
+- **Current/active products**: `re-ment.co.jp/product/brand.php?c=<franchise>`
+  (e.g. `?c=pokemon`)
+- **Discontinued/historical products**: `re-ment.co.jp/product/discontinue.php`
+  — this is the authoritative archive of *every* past release with exact
+  release dates; prefer it over a retailer's "date first available," which
+  sometimes reflects a reprint/restock date rather than the true original
+  release.
+- **Individual product pages**: `re-ment.co.jp/product/r<NNNNN>` — gives
+  exact release date and price reliably, but does **not** list box contents
+  as text (see Identifying rosters below).
+
+Prefer Re-Ment's own English rendering when a product page gives one;
+otherwise use the most consistent retailer English name and note the
+Japanese original.
+
+The `r<NNNNN>` in a product URL is Re-Ment's own website catalog ID, not a
+number printed on the packaging — don't treat it as a public figure/product
+number.
+
+## No printed catalog number on figures
+
+Unlike Nendoroid, individual figures carry no manufacturer number. Identify
+a figure by the Pokémon it depicts, within its volume directory — matching
+[`../firelink/CLAUDE.md`](../firelink/CLAUDE.md)'s approach.
+
+## Box contents
+
+Each release is typically an outer carton of 6 individually blind-wrapped
+figures ("全6種類" = "all 6 types"), one guaranteed of each design per full
+carton. The count varies by series/volume (some are 4, 7, or 8) — verify the
+actual count per volume rather than assuming 6.
+
+## Identifying rosters — verify against the actual photos
+
+A Re-Ment product page's **text** never lists which Pokémon are in the box —
+that information only exists in the page's photo gallery (a "N/6"-labeled
+image set, `data-original="../data/photo/product/t/<id>.jpg"` in the page
+HTML). Cross-reference a retailer/fan checklist for a first-pass roster, but
+**always verify each pairing against the actual gallery photo** before
+filing:
+
+- **Gallery image order does not reliably match a checklist's listed
+  order.** Match by visual content, not position, before attaching an image
+  URL to a figure file.
+- **Japanese→English Pokémon name mistranslation is common** from automated
+  tools and even some retailer listings. Confirmed mistakes caught while
+  curating Terrarium Collection: シェルダー is Shellder, not Cloyster;
+  ヌマクロー is Marshtomp, not Palpitoad; ソーナンス is Wobbuffet, not
+  Wynaut; ココドラ is Aron, not Roggenrola; マグマラシ is Quilava, not
+  Slugma; キレイハナ is Bellossom, not Vileplume; オオタチ is Furret, not
+  Bibarel; ピジョン is Pidgeotto, not Pidgeot. Cross-check any Japanese
+  name against [Bulbapedia's "List of Japanese Pokémon
+  names"](https://bulbapedia.bulbagarden.net/wiki/List_of_Japanese_Pok%C3%A9mon_names)
+  rather than trusting a single auto-translated source.
+- **Many designs depict two Pokémon together** (e.g. "Pikachu & Mareep").
+  Don't assume a design is solo from a quick glance — a small second figure
+  is easy to miss in a low-res thumbnail.
+
+## Naming and identifying figures
+
+`name` is the Pokémon depicted, joined with " & " for a paired design (e.g.
+`Pikachu & Mareep`). File slug matches: `pikachu-mareep.yaml`.
+`attributes.pokemon` lists the same species as a structured array. Use each
+Pokémon's official English species name.
+
+## Images
+
+Attach `image.source_url` pointing directly at the verified Re-Ment gallery
+photo (`https://www.re-ment.co.jp/data/photo/product/t/<id>.jpg`) once
+you've confirmed which photo matches which figure — these are Re-Ment's own
+official product photography, an authoritative source per the root
+[`collections/CLAUDE.md`](../../../CLAUDE.md) logo/image guidance.
+
+## Dates
+
+For a series' own `_collection.yaml`, use its first volume's release date
+(sourced from the discontinue-products archive when available). For a
+currently-active series with no discontinued predecessor, the true original
+release date may not be independently confirmable yet — leave `date` off
+rather than guessing (see root `collections/CLAUDE.md`).

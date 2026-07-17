@@ -1,0 +1,10 @@
+id: c7edf2fa-d00b-4b3d-b19a-8b9b3f5dc6ae
+name: Jigglypuff & Meowth
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Jigglypuff
+    - Meowth
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/2077305514.jpg

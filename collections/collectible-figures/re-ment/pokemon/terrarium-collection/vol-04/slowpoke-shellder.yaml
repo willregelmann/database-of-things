@@ -1,0 +1,10 @@
+id: b8b2d88d-2e88-4cda-954c-3c27925d3f22
+name: Slowpoke & Shellder
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Slowpoke
+    - Shellder
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/585233185.jpg

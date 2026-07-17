@@ -1,0 +1,10 @@
+id: c5915eff-446d-4bee-9b80-ce30f38aa303
+name: Pikachu & Mareep
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Mareep
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1604377511.jpg

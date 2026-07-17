@@ -1,0 +1,10 @@
+id: 056f9a09-d8de-4e07-aa4b-89e499b9b5a0
+name: Psyduck & Poliwag
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Psyduck
+    - Poliwag
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/638379936.jpg

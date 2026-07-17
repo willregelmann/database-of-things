@@ -1,0 +1,10 @@
+id: f6f414be-2b98-40d5-9377-1b33ab14c93b
+name: Pikachu & Pidgeotto
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Pidgeotto
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/732919973.jpg

@@ -1,0 +1,10 @@
+id: f4126767-619c-4fa9-b723-4b6a0be5ed76
+name: Cubone & Sandshrew
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Cubone
+    - Sandshrew
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1378966213.jpg
