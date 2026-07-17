@@ -1,0 +1,10 @@
+id: ea88ff7c-28fd-4c6c-867f-f00a08b87dd5
+name: Togepi & Pikachu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Togepi
+    - Pikachu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1957868529.jpg

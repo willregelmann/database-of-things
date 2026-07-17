@@ -1,0 +1,10 @@
+id: 33e155cf-6ed6-437b-b149-53c50c6706b8
+name: Charmander & Diglett
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Charmander
+    - Diglett
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/109339674.jpg

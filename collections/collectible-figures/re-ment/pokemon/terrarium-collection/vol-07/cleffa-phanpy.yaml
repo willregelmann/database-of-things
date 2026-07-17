@@ -1,0 +1,10 @@
+id: d88915ab-df97-498b-bd67-8d1f9dec261c
+name: Cleffa & Phanpy
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Cleffa
+    - Phanpy
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1147590161.jpg

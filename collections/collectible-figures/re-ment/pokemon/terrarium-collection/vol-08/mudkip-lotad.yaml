@@ -1,0 +1,10 @@
+id: 4b35368f-0b78-42a0-936d-6f3aad98a7bf
+name: Mudkip & Lotad
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Mudkip
+    - Lotad
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1171181661.jpg
