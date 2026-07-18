@@ -1,0 +1,11 @@
+id: d417f891-2863-4d51-86b0-aae1e2557675
+name: Zeo Cannon
+type: weapon
+date: '1996'
+attributes:
+  number: '2667'
+  category: Zeo Cannon
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02667.jpg'

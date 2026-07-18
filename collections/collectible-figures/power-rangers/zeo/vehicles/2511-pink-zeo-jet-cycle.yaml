@@ -1,0 +1,11 @@
+id: d54667dd-536a-45d0-b5fc-7a067518cd98
+name: Pink Zeo Jet Cycle
+type: vehicle
+date: '1996'
+attributes:
+  number: '2511'
+  category: Zeo Jet Cycles
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02511.jpg'

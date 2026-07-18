@@ -1,0 +1,11 @@
+id: 7a38acf7-909a-49cd-95fc-18120454c7e8
+name: Green Zeo Jet Cycle
+type: vehicle
+date: '1996'
+attributes:
+  number: '2509'
+  category: Zeo Jet Cycles
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02509.jpg'

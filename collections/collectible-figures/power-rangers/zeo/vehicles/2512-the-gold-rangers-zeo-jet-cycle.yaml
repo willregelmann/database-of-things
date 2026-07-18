@@ -1,0 +1,11 @@
+id: ee6bb304-0066-47b1-83fd-356c05114253
+name: The Gold Ranger's Zeo Jet Cycle
+type: vehicle
+date: '1996'
+attributes:
+  number: '2512'
+  category: Zeo Jet Cycles
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02512.jpg'
