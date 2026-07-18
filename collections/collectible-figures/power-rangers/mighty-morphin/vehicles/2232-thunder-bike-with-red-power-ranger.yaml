@@ -1,0 +1,11 @@
+id: 962191f6-d2a7-4073-ac5e-c59a40d9ebba
+name: Thunder Bike with Red Power Ranger
+type: vehicle
+date: '1994'
+attributes:
+  number: '2232'
+  category: Thunder Bikes
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02232.jpg'

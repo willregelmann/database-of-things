@@ -1,0 +1,11 @@
+id: 62dd34be-bb2c-48b5-9a3c-25588b1152f3
+name: Yellow Ranger's Shark Cycle
+type: vehicle
+date: '1995'
+attributes:
+  number: '2483'
+  category: Shark Cycles
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02483.jpg'

@@ -1,0 +1,11 @@
+id: c590bbb6-b6d3-44c7-b2ca-5c981009da11
+name: Tyrannosaurus Battle Bike
+type: vehicle
+date: '1993'
+attributes:
+  number: '2230'
+  category: Battle Bikes
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02230_1.jpg'

@@ -1,0 +1,11 @@
+id: 52208b8f-becd-4a88-8c8f-dfa8adfd2d7e
+name: Pink Ranger's Revvin' Thunder Bike
+type: vehicle
+date: '1995'
+attributes:
+  number: '2412'
+  category: Revvin' Thunder Bikes
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02412.jpg'

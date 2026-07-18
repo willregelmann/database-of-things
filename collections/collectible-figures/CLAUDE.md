@@ -7,6 +7,18 @@ action figures (Figma), static scale figures, and similar product lines sold
 as individually numbered or titled collectibles. Not one-off statues/props
 with no product line behind them.
 
+**Exception: inseparable toy lines.** A small number of toy lines bundle
+character figures together with companion vehicles, combining robots,
+playsets, and role-play weapons/accessories under one numbered product line
+and one packaging identity — splitting the figures out into this category
+while routing vehicles/zords/playsets elsewhere would fragment a single
+collector's checklist across unrelated parts of the tree. When a line's own
+identity is inseparable from its full toy range (e.g. Power Rangers — see
+[`power-rangers/CLAUDE.md`](power-rangers/CLAUDE.md)), curate the whole
+numbered line here rather than only the poseable figures. This is a judgment
+call made per-line, not a general loosening of the figures-only rule —
+document the reasoning in that line's own `CLAUDE.md`.
+
 ## Directory structure
 
 ```

@@ -1,0 +1,11 @@
+id: 47f554ca-7e69-4aeb-bbd8-fce7c561a656
+name: Titanus the Carrier Zord
+type: zord
+date: '1993'
+attributes:
+  number: '2240'
+  category: Titanus
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02240.jpg'
