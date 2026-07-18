@@ -1,0 +1,10 @@
+id: 4eb93790-208d-4fdc-a0d2-a3f5253d2b23
+name: Vanillite & Cubchoo
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Vanillite
+    - Cubchoo
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/188702932.jpg

@@ -1,0 +1,10 @@
+id: 386aca1c-430c-45e3-881d-7991a83ee054
+name: Jigglypuff & Igglybuff
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Jigglypuff
+    - Igglybuff
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/382717807.jpg

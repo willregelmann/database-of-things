@@ -1,0 +1,10 @@
+id: ab1655ff-de03-4868-b840-09bf0e9c9cbb
+name: Pikachu & Snom
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Snom
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/138254496.jpg

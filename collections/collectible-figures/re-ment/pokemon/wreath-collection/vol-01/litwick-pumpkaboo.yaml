@@ -1,0 +1,10 @@
+id: ce262c4e-587e-40bb-9855-a9ea28340ce5
+name: Litwick & Pumpkaboo
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Litwick
+    - Pumpkaboo
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/431728166.jpg

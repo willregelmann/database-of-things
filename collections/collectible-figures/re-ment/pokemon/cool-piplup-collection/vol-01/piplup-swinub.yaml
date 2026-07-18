@@ -1,0 +1,10 @@
+id: 8a768941-ad15-4e89-9149-726ae1f5de60
+name: Piplup & Swinub
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Piplup
+    - Swinub
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/994363775.jpg

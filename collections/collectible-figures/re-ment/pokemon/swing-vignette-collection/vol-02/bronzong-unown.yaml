@@ -1,0 +1,10 @@
+id: 65cb4b0e-5a96-41ef-999a-5c06d617640c
+name: Bronzong & Unown
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Bronzong
+    - Unown
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1539312260.jpg

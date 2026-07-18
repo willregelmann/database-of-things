@@ -1,0 +1,10 @@
+id: 40f2eae2-386f-4bcd-a4b6-ca62046e100c
+name: Castform & Psyduck
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Castform
+    - Psyduck
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/364926534.jpg

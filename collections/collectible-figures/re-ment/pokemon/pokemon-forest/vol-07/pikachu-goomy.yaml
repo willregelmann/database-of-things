@@ -1,0 +1,10 @@
+id: f0b413d9-2e98-454d-bf4b-955e1126589e
+name: Pikachu & Goomy
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Goomy
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1719104722.jpg

@@ -1,0 +1,10 @@
+id: cd4ebeec-c3a6-4628-ad34-a6a069b29843
+name: Pelipper & Smoochum
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pelipper
+    - Smoochum
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/720071292.jpg

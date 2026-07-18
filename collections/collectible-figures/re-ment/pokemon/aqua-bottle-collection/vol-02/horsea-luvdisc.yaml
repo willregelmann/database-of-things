@@ -1,0 +1,10 @@
+id: accb19c8-ad69-4271-8da6-cbd74a3eb357
+name: Horsea & Luvdisc
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Horsea
+    - Luvdisc
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1107529627.jpg

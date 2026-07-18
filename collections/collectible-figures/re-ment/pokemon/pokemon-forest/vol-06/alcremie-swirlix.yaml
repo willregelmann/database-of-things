@@ -1,0 +1,10 @@
+id: 259c2b4f-1854-4257-9ebf-9145344e7af0
+name: Alcremie & Swirlix
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Alcremie
+    - Swirlix
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1841579552.jpg

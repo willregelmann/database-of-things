@@ -1,0 +1,10 @@
+id: af0a2ab1-dcef-4f04-913a-15645d0df84b
+name: Duskull & Pumpkaboo
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Duskull
+    - Pumpkaboo
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/723419269.jpg

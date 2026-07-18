@@ -1,0 +1,10 @@
+id: f2d6273c-80d4-43b3-afcc-c8f242d4e651
+name: Pikachu & Ludicolo
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Ludicolo
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1721773698.jpg

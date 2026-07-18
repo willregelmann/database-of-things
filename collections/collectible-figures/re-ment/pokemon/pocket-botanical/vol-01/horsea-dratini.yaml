@@ -1,0 +1,10 @@
+id: c9752183-af38-47b7-bbda-7aeda351bf3e
+name: Horsea & Dratini
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Horsea
+    - Dratini
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/981774297.jpg

@@ -1,0 +1,10 @@
+id: 613e78fb-cd6f-4f7a-bd12-619abd904285
+name: Rowlet & Fuecoco
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Rowlet
+    - Fuecoco
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/841023490.jpg

@@ -1,0 +1,10 @@
+id: d7a71249-48bc-4d03-9b84-c25b92e46ccd
+name: Pachirisu & Munchlax
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pachirisu
+    - Munchlax
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/2097350260.jpg

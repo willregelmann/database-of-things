@@ -106,6 +106,14 @@ filing:
 `attributes.pokemon` lists the same species as a structured array. Use each
 Pokémon's official English species name.
 
+**A volume can feature the same species more than once** (e.g. a "napping"
+Piplup design and a separate "tumbling" Piplup design in the same box) — a
+bare species name would collide as a filename. Disambiguate with a short
+parenthetical pose/scene descriptor in both `name` and the slug (e.g.
+`Piplup (Napping)` → `piplup-napping.yaml`). This is a judgment call each
+time, not a fixed vocabulary — describe what's actually different about the
+pose/scene.
+
 ## Images
 
 Attach `image.source_url` pointing directly at the verified Re-Ment gallery
@@ -113,6 +121,19 @@ photo (`https://www.re-ment.co.jp/data/photo/product/t/<id>.jpg`) once
 you've confirmed which photo matches which figure — these are Re-Ment's own
 official product photography, an authoritative source per the root
 [`collections/CLAUDE.md`](../../../CLAUDE.md) logo/image guidance.
+
+**Some older volumes never got an individual per-figure gallery** — Re-Ment's
+page for that product has only a single box-art photo instead of a "N/6"
+gallery (confirmed by checking the Wayback Machine's earliest snapshot, not
+just the current live page). When that's genuinely the case: use that one
+official box-art photo as `image.source_url` for every figure in the volume
+(still authoritative Re-Ment photography, just shared rather than 1:1) rather
+than inventing per-figure crops, or fall back to a retailer/marketplace photo
+per the project's general image-sourcing policy if even that's unavailable —
+don't leave `image` off if a reasonable source exists. If truly no clean
+photo can be found for a specific figure after a real search, it's fine to
+omit `image` for just that figure rather than reuse an unrelated or
+low-confidence image.
 
 ## Dates
 

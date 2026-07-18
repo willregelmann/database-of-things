@@ -1,0 +1,10 @@
+id: 255d2fd2-26d9-46f3-ba37-b0c9c025d422
+name: Squirtle & Staryu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Squirtle
+    - Staryu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1766709583.jpg

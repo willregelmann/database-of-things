@@ -1,0 +1,10 @@
+id: 040103e8-1b92-4117-a809-b97ae6c1ff7a
+name: Elekid & Bellossom
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Elekid
+    - Bellossom
+image:
+  source_url: https://pokevault.com/image/cache/catalog/201707/1523364448_rementpokemonforest5-500x500.jpg

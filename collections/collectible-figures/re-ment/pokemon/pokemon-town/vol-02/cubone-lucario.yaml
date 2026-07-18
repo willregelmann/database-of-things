@@ -1,0 +1,10 @@
+id: 82fbc8f3-5066-4537-9c76-bc7ff3ec5f23
+name: Cubone & Lucario
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Cubone
+    - Lucario
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/81380568.jpg

@@ -1,0 +1,10 @@
+id: 5b22d200-e4a5-4245-a95e-368f13b66fe0
+name: Pidove & Yamper
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pidove
+    - Yamper
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1763982859.jpg

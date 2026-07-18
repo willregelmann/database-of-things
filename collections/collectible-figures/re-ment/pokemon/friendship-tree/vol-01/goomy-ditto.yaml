@@ -1,0 +1,10 @@
+id: e946dfc4-2759-4345-9669-0abe048e7653
+name: Goomy & Ditto
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Goomy
+    - Ditto
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/633318754.jpg

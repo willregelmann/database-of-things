@@ -1,0 +1,10 @@
+id: e82ce4ac-9de2-41c5-8822-0f75fdec38d0
+name: Torchic & Rowlet
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Torchic
+    - Rowlet
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/328822695.jpg

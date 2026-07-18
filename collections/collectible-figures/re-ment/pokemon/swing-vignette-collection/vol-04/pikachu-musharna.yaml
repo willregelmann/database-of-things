@@ -1,0 +1,10 @@
+id: bea93136-e729-408c-97d8-85629883c101
+name: Pikachu & Musharna
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Musharna
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/484775829.jpg

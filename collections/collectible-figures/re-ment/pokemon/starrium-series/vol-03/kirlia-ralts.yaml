@@ -1,0 +1,10 @@
+id: ca2f6480-a125-47c0-ba63-7edc68aee127
+name: Kirlia & Ralts
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Kirlia
+    - Ralts
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/96592321.jpg

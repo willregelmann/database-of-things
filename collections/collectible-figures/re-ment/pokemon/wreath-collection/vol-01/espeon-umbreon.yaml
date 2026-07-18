@@ -1,0 +1,10 @@
+id: 9282a6e1-3977-4c61-b952-7cf9bd34b413
+name: Espeon & Umbreon
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Espeon
+    - Umbreon
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/812294235.jpg

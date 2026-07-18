@@ -1,0 +1,10 @@
+id: 7037db6f-d92a-4607-bf44-08588be6dc8f
+name: Tinkatuff & Shuppet
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Tinkatuff
+    - Shuppet
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1294471.jpg
