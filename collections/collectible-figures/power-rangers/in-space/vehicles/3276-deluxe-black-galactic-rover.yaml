@@ -1,0 +1,11 @@
+id: afe56324-bf1a-4b57-974b-f91a7fc16a44
+name: Deluxe Black Galactic Rover
+type: vehicle
+date: '1998'
+attributes:
+  number: '3276'
+  category: Deluxe Galactic Rovers
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03276.jpg'

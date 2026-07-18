@@ -1,0 +1,11 @@
+id: bfc618dc-aef0-452a-ac9e-fbcd764558b0
+name: White Ranger's Revvin' Thunder Bike
+type: vehicle
+date: '1995'
+attributes:
+  number: '2416'
+  category: Revvin' Thunder Bikes
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02416.jpg'

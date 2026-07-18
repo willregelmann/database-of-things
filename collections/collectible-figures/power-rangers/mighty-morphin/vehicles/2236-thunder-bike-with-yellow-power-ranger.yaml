@@ -1,0 +1,11 @@
+id: ed0ebb63-7359-4ddf-a350-cfcf08fb3a05
+name: Thunder Bike with Yellow Power Ranger
+type: vehicle
+date: '1994'
+attributes:
+  number: '2236'
+  category: Thunder Bikes
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02236.jpg'

@@ -1,0 +1,11 @@
+id: 11a60ae3-23db-4cbb-8f22-ebee66ac1fbc
+name: Red Galaxy Glider
+type: vehicle
+date: '1998'
+attributes:
+  number: '3141'
+  category: Galaxy Gliders
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03141.jpg'

@@ -1,0 +1,11 @@
+id: 8c18e00f-dfbe-46f3-96cd-f7080c1cc629
+name: Yellow Zeo Jet Cycle
+type: vehicle
+date: '1996'
+attributes:
+  number: '2510'
+  category: Zeo Jet Cycles
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02510.jpg'

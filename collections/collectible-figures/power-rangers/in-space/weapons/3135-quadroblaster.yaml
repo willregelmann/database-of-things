@@ -1,0 +1,11 @@
+id: bab258d4-71e5-4300-824c-a832c21fdff5
+name: Quadroblaster
+type: weapon
+date: '1998'
+attributes:
+  number: '3135'
+  category: Quadroblaster
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03135.jpg'

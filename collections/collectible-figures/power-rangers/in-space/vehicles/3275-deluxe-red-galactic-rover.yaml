@@ -1,0 +1,11 @@
+id: f3ea83d6-dcac-4f90-b37e-38f445f28ec0
+name: Deluxe Red Galactic Rover
+type: vehicle
+date: '1998'
+attributes:
+  number: '3275'
+  category: Deluxe Galactic Rovers
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03275.jpg'

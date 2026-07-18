@@ -1,0 +1,11 @@
+id: 6f1f78e9-a408-4732-9534-357113fe22fd
+name: Special Size Mega Tigerzord
+type: zord
+attributes:
+  number: '2305'
+  category: Toys "R" Us-Exclusive Power Pack
+  manufacturer: Bandai America
+  variant: Store Exclusive
+  exclusive_to: Toys "R" Us
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02305.jpg'

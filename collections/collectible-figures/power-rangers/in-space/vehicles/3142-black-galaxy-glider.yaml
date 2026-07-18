@@ -1,0 +1,11 @@
+id: 66b21a4c-6543-4af2-b905-b1d9eacafb8f
+name: Black Galaxy Glider
+type: vehicle
+date: '1998'
+attributes:
+  number: '3142'
+  category: Galaxy Gliders
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03142.jpg'

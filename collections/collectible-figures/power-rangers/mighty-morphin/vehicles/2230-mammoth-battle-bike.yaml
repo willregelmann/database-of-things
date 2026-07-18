@@ -1,0 +1,11 @@
+id: eb5b730f-14ca-4b97-b92f-a8be00f0098d
+name: Mammoth Battle Bike
+type: vehicle
+date: '1993'
+attributes:
+  number: '2230'
+  category: Battle Bikes
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02230_2.jpg'

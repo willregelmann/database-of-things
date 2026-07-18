@@ -1,0 +1,11 @@
+id: f132a57c-a0ad-4dc1-aa6e-3f794bd01b8b
+name: Blue Ranger's Shark Cycle
+type: vehicle
+date: '1995'
+attributes:
+  number: '2481'
+  category: Shark Cycles
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02481.jpg'

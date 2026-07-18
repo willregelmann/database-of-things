@@ -1,0 +1,11 @@
+id: c620d183-fd26-4a53-b706-af595d4e66f7
+name: Megazord
+type: zord
+date: '1993'
+attributes:
+  number: '2220'
+  category: Megazord
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02220.jpg'

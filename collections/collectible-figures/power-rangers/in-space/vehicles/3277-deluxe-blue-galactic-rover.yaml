@@ -1,0 +1,11 @@
+id: e4ab7584-0e33-45c1-a7f3-6fbaf582b367
+name: Deluxe Blue Galactic Rover
+type: vehicle
+date: '1998'
+attributes:
+  number: '3277'
+  category: Deluxe Galactic Rovers
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03277.jpg'
