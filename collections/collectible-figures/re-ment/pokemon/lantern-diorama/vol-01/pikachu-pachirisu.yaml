@@ -1,0 +1,10 @@
+id: 6de37fcc-b39d-46a7-bbcd-e183c6923e02
+name: Pikachu & Pachirisu
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Pikachu
+    - Pachirisu
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/251790259.jpg

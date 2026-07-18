@@ -1,0 +1,10 @@
+id: 4188dc2f-e1e0-4748-b93d-cc1da23551cc
+name: Joltik & Morelull
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Joltik
+    - Morelull
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/1335893404.jpg
