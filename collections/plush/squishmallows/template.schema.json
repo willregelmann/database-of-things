@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Squishmallows attributes",
+  "type": "object",
+  "properties": {
+    "number": { "type": "string", "pattern": "^[0-9]{1,6}$" },
+    "species": { "type": "string" },
+    "size": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?\"$" },
+    "manufacturer": { "type": "string" },
+    "license": { "type": "string" },
+    "rarity": {
+      "type": "string",
+      "enum": ["Rare", "Ultra Rare", "Special Edition", "Select Series", "Founders Edition"]
+    },
+    "exclusive_to": { "type": "string" },
+    "squishdate": { "type": "string" }
+  },
+  "additionalProperties": true
+}
