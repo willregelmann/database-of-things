@@ -1,0 +1,10 @@
+id: 4a40e832-2f64-4b19-b9bd-30853931831d
+name: Gothorita & Hatenna
+type: figure
+attributes:
+  manufacturer: Re-Ment
+  pokemon:
+    - Gothorita
+    - Hatenna
+image:
+  source_url: https://www.re-ment.co.jp/data/photo/product/t/240836225.jpg
