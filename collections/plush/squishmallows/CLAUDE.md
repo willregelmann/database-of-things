@@ -78,6 +78,48 @@ Funko's HobbyDB/Pop Price Guide; cross-reference more than one where
 possible, since neither is as consistently authoritative as a
 manufacturer-run database.
 
+## Bulk sourcing (numbers 21-3205 filed this way)
+
+Fetching `squishmallowsquad.fandom.com` through a generic web-fetch tool or
+plain web search is unreliable — the site blocks or 402s many automated
+fetches, and falling back to search-snippet synthesis produces confidently
+wrong, self-contradictory answers (verified by trying it — see
+[[project_squishmallows_curation]] in curator memory for specifics). What
+actually works: `curl` with a browser user-agent against the Fandom wiki's
+own MediaWiki API, which isn't blocked. Two calls matter:
+
+- The **Collector Number List** page's raw wikitext (`action=parse&page=Collector_Number_List&prop=wikitext`)
+  gives the full number→name mapping in one fetch (goes past 3200 as of this
+  writing) — this page cites itself to the official "Collector's Guide and
+  Trading Cards," so it's a reasonably authoritative primary source on its
+  own, not just wiki-editor guesswork.
+- Individual character pages can be **batch-fetched 50 at a time**
+  (`action=query&prop=revisions&rvprop=content&rvslots=main&titles=A|B|C...&redirects=1`),
+  which turns thousands of would-be one-by-one fetches into ~50 requests.
+  Each page's `{{Squishmallow_Infobox|...}}` (or `{{Squishmallow Infobox}}`
+  — both spellings exist) carries `type=` (species), `collector_number=`,
+  `squishdate=`, and `year=` as machine-parseable fields.
+
+**Confirmation policy actually used at this scale**: trust the List page's
+name+number pairing by default (it's already a named, cited source). Only
+skip a number if the individual character page's own `collector_number=`
+field states a *different* number than the List assigned it (a real,
+specific conflict — e.g. two characters' own pages both claiming the same
+number) — don't skip merely because the individual page lacks the field
+entirely; that's "unconfirmed by a second source," not "contradicted."
+Requiring independent double-confirmation for every single entry (the
+standard used for the first ~48 numbers, filed by hand) doesn't scale past a
+few dozen items and left too much on the table — most of the catalog only
+has the List page to go on, and it's reliable often enough (>97% agreement
+where a second source exists) to trust by default.
+
+For the **name**, prefer the bio's bolded name (e.g. resolves "Cam" over the
+List's own display text "Cameron") but fall back to the List's display text
+when the bio's markup doesn't parse cleanly (occasionally a bio splits the
+bolded name across a wikilink, e.g. `'''JSK the''' [[Cat|'''Cat''']]`) — the
+List text is usually clean even when the bio isn't. If neither is clean,
+skip the number rather than filing a mangled name.
+
 ## Naming files
 
 `<number>-<slugified-name>.yaml`, number zero-padded to 5 digits (e.g.
@@ -139,9 +181,20 @@ that need it.
   cross-checking whatever range you're curating against the Squishmallows
   Wiki or SquadApp for that range.
 - The Squishmallows Wiki's own per-character pages don't always agree with
-  its Collector Number List page (missing `collector_number`/year fields, or
-  a squishdate year that doesn't fit the surrounding sequence) — when a
-  number's identity or date can't be cross-confirmed against a second
-  source, skip it rather than filing a guess. A gap in the sequence (e.g. a
-  missing number between two filed ones) means "not yet verified," not
-  "doesn't exist."
+  its Collector Number List page — when they actively conflict (both claim
+  a different number for the same character, or two characters claim the
+  same number), skip it rather than guessing which is right. See "Bulk
+  sourcing" above for when a *missing* field (as opposed to conflicting one)
+  is fine to proceed on. A gap in the sequence (e.g. a missing number
+  between two filed ones) means "not yet verified or a real numbering gap
+  the wiki marks '???'," not "doesn't exist."
+- As of this writing, numbers 1-3205 have been swept once (chronological,
+  bulk-sourced per above) with the following still open: numbers where the
+  List and a character's own page actively conflict (skipped), a handful of
+  pages that don't fetch cleanly or lack the standard infobox, and 3 pages
+  where neither the bio nor the List gave a cleanly parseable name. Treat
+  any number in this range that isn't filed as one of these known gaps, not
+  as unswept territory — re-verifying them means resolving the specific
+  conflict/parse failure, not re-researching from scratch. Numbers past
+  ~3205 (the List's current end) are genuinely new territory as the catalog
+  keeps growing.
