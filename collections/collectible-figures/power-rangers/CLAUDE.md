@@ -19,7 +19,7 @@ Each U.S. toy release era (Mighty Morphin, Zeo, Turbo, In Space, ... Hasbro's
 Lightning Collection) is its own line, nested here the same way FireLink
 nests `<game>/` under its brand — see
 [`../firelink/CLAUDE.md`](../firelink/CLAUDE.md). `mighty-morphin/`,
-`zeo/`, and `turbo/` are curated so far.
+`zeo/`, `turbo/`, and `in-space/` are curated so far.
 
 ## Full toy line, not figures-only
 

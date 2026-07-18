@@ -1,0 +1,11 @@
+id: 9cbbb1c7-2c38-4406-9fed-1d6c0310b776
+name: Pink Galaxy Glider
+type: vehicle
+date: '1998'
+attributes:
+  number: '3145'
+  category: Galaxy Gliders
+  manufacturer: Bandai America
+  variant: Standard
+image:
+  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03145.jpg'
