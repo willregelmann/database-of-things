@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
-import { REPO_ROOT } from './lib/repo.mjs';
+import { REPO_ROOT, COLLECTIONS_ROOT, buildIndex, getCollection } from './lib/repo.mjs';
 import { readAll, clear } from './lib/changelog.mjs';
 
 // Deterministic post-session pipeline: no LLM judgment involved past this
@@ -46,6 +46,24 @@ function entryPaths(entry) {
   return entry.kind === 'rename' ? [entry.oldPath, entry.newPath] : [entry.path];
 }
 
+// The collectionId recorded on a changelog entry is whichever collection
+// the write actually landed in/under, and every entry in a run traces back
+// to the one collection that run's session audited (single-collection,
+// one-level-only per the skill) — so the first entry that has one names it
+// for the whole run. Resolved from the on-disk index (not the changelog
+// entry itself) so we always show the collection's current path, not a
+// stale one recorded before an audit-time rename elsewhere in the run.
+function resolveCollectionLabel(changes) {
+  const collectionId = changes.map((e) => e.collectionId).find(Boolean);
+  if (!collectionId) return null;
+  try {
+    const node = getCollection(buildIndex(), collectionId);
+    return path.relative(COLLECTIONS_ROOT, node.dir);
+  } catch {
+    return null;
+  }
+}
+
 function buildPr(changes) {
   const created = changes.filter((e) => e.action === 'create').length;
   const updated = changes.filter((e) => e.action === 'update').length;
@@ -54,9 +72,10 @@ function buildPr(changes) {
   if (created) parts.push(`${created} added`);
   if (updated) parts.push(`${updated} updated`);
   if (renamed) parts.push(`${renamed} renamed`);
-  const title = `Audit fixes: ${parts.join(', ')}`;
+  const label = resolveCollectionLabel(changes);
+  const title = label ? `Audit fixes (${label}): ${parts.join(', ')}` : `Audit fixes: ${parts.join(', ')}`;
   const body = [
-    'Automated audit of a randomly-selected collection.',
+    label ? `Automated audit of \`${label}\`.` : 'Automated audit of a randomly-selected collection.',
     '',
     ...changes.map(formatEntry),
     '',

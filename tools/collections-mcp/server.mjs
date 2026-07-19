@@ -217,8 +217,9 @@ server.registerTool(
   },
   async ({ item_id, new_filename }) => {
     try {
+      const collectionId = getItem(index, item_id).collectionId;
       const result = renameItem(index, { itemId: item_id, newFilename: new_filename });
-      appendEntry({ kind: 'rename', entityKind: 'item', id: item_id, ...result });
+      appendEntry({ kind: 'rename', entityKind: 'item', id: item_id, collectionId, ...result });
       index = buildIndex();
       return text(result);
     } catch (err) {

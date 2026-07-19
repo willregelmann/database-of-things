@@ -80,8 +80,9 @@ try {
     }
     case 'rename-item': {
       const [itemId, newFilename] = rest;
+      const collectionId = getItem(index, itemId).collectionId;
       const result = renameItem(index, { itemId, newFilename });
-      appendEntry({ kind: 'rename', entityKind: 'item', id: itemId, ...result });
+      appendEntry({ kind: 'rename', entityKind: 'item', id: itemId, collectionId, ...result });
       out(result);
       break;
     }
