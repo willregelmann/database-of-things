@@ -55,3 +55,6 @@ docs/plans/
 .mcp.json
 
 *.env
+
+# collections-mcp per-run changelog (read by submit.mjs, never committed)
+tools/collections-mcp/.changelog.json
