@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "The Electric Tale of Pikachu volume attributes",
+  "type": "object",
+  "properties": {
+    "number": { "type": "string", "pattern": "^[1-4]$" },
+    "creator": { "type": "string" },
+    "translator": { "type": "string" }
+  },
+  "additionalProperties": true
+}
