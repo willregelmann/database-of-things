@@ -19,7 +19,7 @@ LOG_DIR="tools/collections-mcp/logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/$(date -u +%Y%m%dT%H%M%SZ).log"
 
-MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__get_collection_context mcp__collections-mcp__get_collection_details mcp__collections-mcp__list_items mcp__collections-mcp__list_collections mcp__collections-mcp__get_item_details mcp__collections-mcp__upsert_item mcp__collections-mcp__upsert_collection"
+MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__get_collection_context mcp__collections-mcp__get_collection_details mcp__collections-mcp__list_items mcp__collections-mcp__list_collections mcp__collections-mcp__get_item_details mcp__collections-mcp__upsert_item mcp__collections-mcp__upsert_collection mcp__collections-mcp__rename_item mcp__collections-mcp__flag_finding"
 
 {
   echo "=== collections-audit-fix run: $(date -u +%Y-%m-%dT%H:%M:%SZ) ==="
@@ -31,7 +31,6 @@ MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__
     --strict-mcp-config \
     --allowedTools "$MCP_TOOLS WebSearch WebFetch" \
     --disallowedTools "Bash Edit Write Read" \
-    --max-budget-usd 2 \
     --output-format text \
     --no-session-persistence
   claude_exit=$?
