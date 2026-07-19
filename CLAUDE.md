@@ -126,3 +126,5 @@ CI runs this validator on every PR that touches `collections/**`.
 
 - **Collections format**: [`collections/README.md`](collections/README.md)
 - **Category-specific curation**: `collections/<category>/CLAUDE.md`
+- **Core data-model primitives**: [`docs/primitives/`](docs/primitives/)
+  (`COLLECTION.md`, `ITEM.md`, `COMPONENT.md`)
