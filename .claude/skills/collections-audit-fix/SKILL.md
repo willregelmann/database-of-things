@@ -76,8 +76,16 @@ dimensions, just without the fix step.
    - **Content completeness/accuracy** — are this collection's *direct*
      children (via `list_items`/`list_collections`, drilling into
      `get_item_details` as needed) complete and correct per an authoritative
-     source? Spot-check rather than exhaustively re-verify a large
-     collection.
+     source? Spot-check rather than exhaustively re-verify *existing*
+     items in a large collection — but if you find a genuine, well-sourced
+     **completeness** gap (missing items, not just a wrong field), populate
+     the whole gap, not just one token entry. A PR is reviewed before it
+     merges either way, so a large well-sourced batch costs the same as a
+     small one if you're right, and is just as cheap to reject if you're
+     not — restraint here isn't protecting anything. Every individual item
+     in the batch still needs the same per-item sourcing rigor as a
+     one-off fix; "there are many of them" is never a reason to skip
+     verifying one.
 5. For each finding that's well-sourced:
    - **Fixable within the tool surface** (a wrong/missing field value, a
      missing item, a missing nested collection record, or a single item's
