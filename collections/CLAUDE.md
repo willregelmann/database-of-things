@@ -147,3 +147,55 @@ doesn't (contrast with e.g. the Pokémon TCG collection, whose logo is
 correct precisely because that collection *is* the Pokémon TCG, not a
 product based on it). If the entity has no logo of its own, leave `image`
 off rather than substituting the thing it's licensed from.
+
+## Components
+
+Some items are physically made up of other, independently-catalogable
+things — a LEGO set includes several minifigures, a board game includes
+miniatures, a vinyl box set includes prints. Those parts are **components**,
+not items in their own right: **owning every component of an item doesn't
+constitute owning the item, unlike owning every item in a collection, which
+does constitute owning the collection.** A person who somehow acquired all
+four minifigures from a LEGO set loose hasn't acquired the set.
+
+A component is catalogued exactly like any other entity — its own YAML file
+with `id`/`name`/`type`, filed wherever it naturally belongs in the tree
+(see the category's own `CLAUDE.md` for where that is). What makes it a
+component is that some other item's top-level `components` field points at
+it:
+
+```yaml
+components:
+  - a42e702b-e52b-4247-8ed6-103ed31a340b
+  - 53708aaf-cb2a-41c7-b03a-bc95d651f563
+```
+
+- **Reference by `id`, never by path.** A component's file can move (a
+  minifig re-filed under a different theme, a set migrated into a new
+  subtheme) without breaking anything that points at it — the same reason
+  `id` is "generated once, never reused" everywhere else in this format.
+- **Duplicate `id`s in one `components` list are allowed** — unlike `tags`,
+  where a duplicate is an error. Repeating an id represents owning more than
+  one of that component (e.g. a set that includes two identical minifigs).
+- The validator checks every `components` entry resolves to a real `id`
+  somewhere in the catalog, but doesn't require the component to already
+  exist before the referencing item does within the same PR.
+- **A directory whose name is prefixed with `_` (other than the
+  `_collection.yaml` file itself) is a components bucket, not a browsable
+  collection someone completes — it doesn't get its own `_collection.yaml`,
+  and the validator doesn't require one.** This convention predates
+  components (`_collection.yaml` already used a leading underscore to mean
+  "structural, not a normal peer") — extending the same marker to a
+  directory name means a components bucket doesn't need an entity record
+  of its own just to satisfy the validator, since nothing ever references
+  the bucket itself; components are referenced individually, by their own
+  `id`. It still needs `CLAUDE.md`/`template.schema.json` (own or
+  inherited) like any directory holding entity files. See the category's
+  own `CLAUDE.md` for the actual directory convention (e.g.
+  [`model-kits/lego/CLAUDE.md`](model-kits/lego/CLAUDE.md) for LEGO
+  minifigures).
+- Don't retrofit `components` onto every item that happens to include
+  extra parts — add it where a curator has actually catalogued the specific
+  components, and leave a category's existing summary-count attribute (e.g.
+  LEGO's `attributes.minifigCount`) in place for items whose specific
+  components aren't catalogued yet. Partial coverage beats none.

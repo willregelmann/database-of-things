@@ -13,6 +13,7 @@ const TAG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 const seenIds = new Map();
+const componentRefs = []; // { filePath, id }
 const errors = [];
 
 function rel(p) {
@@ -61,6 +62,19 @@ function validateEntityStructure(filePath, data) {
       }
     }
   }
+  if (data.components !== undefined) {
+    if (!Array.isArray(data.components)) {
+      errors.push(`${rel(filePath)}: "components" must be an array of ids`);
+    } else {
+      for (const ref of data.components) {
+        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
+          errors.push(`${rel(filePath)}: invalid component id ${JSON.stringify(ref)} — must be a UUID`);
+        } else {
+          componentRefs.push({ filePath, id: ref.toLowerCase() });
+        }
+      }
+    }
+  }
   if (data.id) {
     if (!UUID_RE.test(data.id)) {
       errors.push(`${rel(filePath)}: "id" is not a valid UUID: ${data.id}`);
@@ -100,7 +114,8 @@ function walk(dir, inherited) {
   if (entityFiles.length > 0 && !schema) {
     errors.push(`${rel(dir)}: contains entity files but has no template.schema.json (own or inherited)`);
   }
-  if (dir !== COLLECTIONS_ROOT && !files.includes('_collection.yaml')) {
+  const isComponentsDir = path.basename(dir).startsWith('_');
+  if (dir !== COLLECTIONS_ROOT && !isComponentsDir && !files.includes('_collection.yaml')) {
     errors.push(`${rel(dir)}: missing _collection.yaml`);
   }
 
@@ -134,6 +149,12 @@ if (!fs.existsSync(COLLECTIONS_ROOT)) {
 }
 
 walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null });
+
+for (const { filePath, id } of componentRefs) {
+  if (!seenIds.has(id)) {
+    errors.push(`${rel(filePath)}: "components" references unknown id ${id}`);
+  }
+}
 
 if (errors.length > 0) {
   console.error(`✗ ${errors.length} validation error(s):\n`);
