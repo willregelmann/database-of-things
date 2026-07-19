@@ -7,11 +7,27 @@ import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js'
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SERVER_PATH = path.join(__dirname, '..', 'server.mjs');
 const SCRATCH_CHANGELOG = path.join(__dirname, '.smoke-test-changelog.json');
+const REPO_ROOT = path.join(__dirname, '..', '..', '..');
+const SCRATCH_DIR = path.join(REPO_ROOT, 'collections', 'zzz-smoke-test-scratch');
 
 function ok(label, cond) {
   console.log(`${cond ? 'ok' : 'FAIL'} - ${label}`);
   if (!cond) process.exitCode = 1;
 }
+
+// A throwaway collection with one item, just for exercising rename_item —
+// created on disk before the server starts (so its index picks it up),
+// removed at the end regardless of outcome.
+fs.rmSync(SCRATCH_DIR, { recursive: true, force: true });
+fs.mkdirSync(SCRATCH_DIR);
+fs.copyFileSync(path.join(REPO_ROOT, 'collections', 'plush', 'CLAUDE.md'), path.join(SCRATCH_DIR, 'CLAUDE.md'));
+fs.copyFileSync(path.join(REPO_ROOT, 'collections', 'plush', 'template.schema.json'), path.join(SCRATCH_DIR, 'template.schema.json'));
+const SCRATCH_ITEM_ID = 'aaaaaaaa-1111-1111-1111-111111111111';
+fs.writeFileSync(
+  path.join(SCRATCH_DIR, '_collection.yaml'),
+  'id: bbbbbbbb-1111-1111-1111-111111111111\nname: Smoke Test Scratch Collection\ntype: collection\n'
+);
+fs.writeFileSync(path.join(SCRATCH_DIR, 'wrong-name.yaml'), `id: ${SCRATCH_ITEM_ID}\nname: Test Item\ntype: plush\nattributes: {}\n`);
 
 const transport = new StdioClientTransport({
   command: 'node',
@@ -25,7 +41,7 @@ const { tools } = await client.listTools();
 const names = tools.map((t) => t.name).sort();
 console.log('tools:', names.join(', '));
 ok(
-  'all 9 tools registered',
+  'all 10 tools registered',
   [
     'choose_random_collection',
     'get_collection_context',
@@ -35,6 +51,7 @@ ok(
     'list_items',
     'upsert_collection',
     'upsert_item',
+    'rename_item',
     'flag_finding',
   ].every((n) => names.includes(n))
 );
@@ -70,6 +87,19 @@ ok('flag_finding did not error', !flagged.isError);
 const changelog = JSON.parse(fs.readFileSync(SCRATCH_CHANGELOG, 'utf8'));
 ok('flag_finding appended a flag entry to the changelog', changelog.some((e) => e.kind === 'flag' && e.title === 'smoke test finding'));
 
+const renamed = await client.callTool({
+  name: 'rename_item',
+  arguments: { item_id: SCRATCH_ITEM_ID, new_filename: 'correct-name.yaml' },
+});
+ok('rename_item did not error', !renamed.isError);
+ok('rename_item actually moved the file', !fs.existsSync(path.join(SCRATCH_DIR, 'wrong-name.yaml')) && fs.existsSync(path.join(SCRATCH_DIR, 'correct-name.yaml')));
+const badRename = await client.callTool({
+  name: 'rename_item',
+  arguments: { item_id: SCRATCH_ITEM_ID, new_filename: 'BadName.yaml' },
+});
+ok('rename_item rejects a non-conforming filename', badRename.isError === true);
+
 await client.close();
 fs.rmSync(SCRATCH_CHANGELOG, { force: true });
+fs.rmSync(SCRATCH_DIR, { recursive: true, force: true });
 console.log(process.exitCode ? '\nSMOKE TEST FAILED' : '\nSMOKE TEST PASSED');

@@ -3,7 +3,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
-import { upsertItem, upsertCollection } from './lib/mutate.mjs';
+import { upsertItem, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 
 // Rebuilt after every successful write so reads in the same session see it.
@@ -196,6 +196,29 @@ server.registerTool(
     try {
       const result = upsertCollection(index, { collectionId: collection_id, collection });
       appendEntry({ kind: 'collection', collectionId: collection_id, ...result });
+      index = buildIndex();
+      return text(result);
+    } catch (err) {
+      return errorText(err);
+    }
+  }
+);
+
+server.registerTool(
+  'rename_item',
+  {
+    title: 'Rename an item\'s file',
+    description:
+      'Renames an existing item\'s file in place (same directory, new filename only) — e.g. to fix a naming-convention violation. Cannot move an item between collections. Validates against the full collections/ validator after renaming and rolls back on failure.',
+    inputSchema: {
+      item_id: z.string(),
+      new_filename: z.string().describe('The new filename, following the category\'s naming convention, e.g. "111-blaines-quiz.yaml".'),
+    },
+  },
+  async ({ item_id, new_filename }) => {
+    try {
+      const result = renameItem(index, { itemId: item_id, newFilename: new_filename });
+      appendEntry({ kind: 'rename', entityKind: 'item', id: item_id, ...result });
       index = buildIndex();
       return text(result);
     } catch (err) {

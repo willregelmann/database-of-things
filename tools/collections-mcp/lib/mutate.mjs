@@ -5,6 +5,8 @@ import { execFileSync } from 'node:child_process';
 import yaml from 'js-yaml';
 import { REPO_ROOT, rel, getCollection, getItem } from './repo.mjs';
 
+const FILENAME_RE = /^[a-z0-9]+(-[a-z0-9]+)*\.ya?ml$/;
+
 const VALIDATE_DIR = path.join(REPO_ROOT, 'tools', 'collections-validate');
 
 /** Runs the full collections/ validator. Returns { ok, output }. */
@@ -103,6 +105,39 @@ export function upsertItem(index, { collectionId, item }) {
 
   const after = yaml.load(fs.readFileSync(writePath, 'utf8'));
   return { id: entityId, path: rel(writePath), action, before, after };
+}
+
+/**
+ * Renames an existing item's file in place (same directory, new filename
+ * only) — the one structural operation the tool surface exposes, added
+ * because a real audit run found a genuine naming-convention violation
+ * (stray suffixes on a reprint pair) it had no way to fix. Still narrow:
+ * no moving between collections, no directory renames, and the full
+ * validator gates it exactly like every other write.
+ */
+export function renameItem(index, { itemId, newFilename }) {
+  const node = getItem(index, itemId);
+  if (!FILENAME_RE.test(newFilename)) {
+    throw new Error(`"${newFilename}" must be a lowercase, hyphenated filename ending in .yaml (e.g. "004-charizard.yaml")`);
+  }
+  const oldPath = node.path;
+  const newPath = path.join(node.dir, newFilename);
+  if (newPath === oldPath) {
+    throw new Error(`item ${itemId} is already named ${newFilename}`);
+  }
+  if (fs.existsSync(newPath)) {
+    throw new Error(`${rel(newPath)} already exists`);
+  }
+
+  fs.renameSync(oldPath, newPath);
+
+  const result = runValidator();
+  if (!result.ok) {
+    fs.renameSync(newPath, oldPath);
+    throw new Error(`validation failed, rename rolled back:\n${result.output}`);
+  }
+
+  return { id: itemId, oldPath: rel(oldPath), newPath: rel(newPath) };
 }
 
 /**
