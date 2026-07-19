@@ -8,13 +8,15 @@ description: Autonomous single-pass audit-and-fix of one randomly-chosen collect
 One pass, one randomly-chosen collection, may write — but only through the
 `collections-mcp` MCP tools, never by editing `collections/**` directly.
 That tool surface is deliberately narrow: `upsert_item`/`upsert_collection`
-can only patch field values or add a new item/nested collection record —
-never rename/move a file, never author a new `CLAUDE.md` or
-`template.schema.json`. Anything a finding needs beyond that: call
-`flag_finding` instead — don't just mention it in your final report and
-leave it there, that's easy to miss and gets forgotten. `flag_finding`
-becomes a real GitHub issue after your session ends; text you only say in
-your final report doesn't durably go anywhere.
+can only patch field values or add a new item/nested collection record,
+and `rename_item` can rename a single item's file in place (same
+directory only) — nothing beyond that. No moving items between
+collections, no renaming/restructuring a whole collection directory, no
+authoring a new `CLAUDE.md` or `template.schema.json`. Anything a finding
+needs beyond that: call `flag_finding` instead — don't just mention it in
+your final report and leave it there, that's easy to miss and gets
+forgotten. `flag_finding` becomes a real GitHub issue after your session
+ends; text you only say in your final report doesn't durably go anywhere.
 
 This exists for the scheduled hourly job. For a manual, read-only audit
 (no writes, for when a human wants a report to review before touching
@@ -41,8 +43,18 @@ dimensions, just without the fix step.
 - **One level only.** Same scope as `collections-audit` — don't recurse into
   a nested collection you didn't land on; that's a separate future
   invocation's job.
-- **Field-value fixes only.** No renames, no restructuring — the tools
-  don't expose that, so this is enforced by construction, not just policy.
+- **Field-value fixes and single-item renames only.** No moving items
+  between collections, no renaming a whole collection directory, no
+  authoring new curation conventions — the tools don't expose any of
+  that, so it's enforced by construction, not just policy.
+- **A rename is still a fix, not an excuse to skip verification.** A prior
+  run once flagged two "inconsistently named" files by pattern-matching
+  against a sibling reprint pair, without checking whether the two cards
+  actually shared a name the way that sibling pair did — they didn't (they
+  were genuinely different cards whose numbers are part of the real
+  name), so the "fix" would have broken correct data. Verify a rename
+  target the same way you'd verify any other fact before calling
+  `rename_item`.
 
 ## Steps
 
@@ -68,14 +80,16 @@ dimensions, just without the fix step.
      collection.
 5. For each finding that's well-sourced:
    - **Fixable within the tool surface** (a wrong/missing field value, a
-     missing item, a missing nested collection record): call
-     `upsert_item`/`upsert_collection`.
-   - **Not fixable within the tool surface** (needs a rename/restructure, a
-     missing sibling collection outside this one's scope, or genuine
-     human judgment): call `flag_finding` with a specific title and a body
-     that includes your source(s) and why the upsert tools can't handle
-     it. Only flag things you're confident are real and well-sourced —
-     same discipline as a fix, just a different outcome.
+     missing item, a missing nested collection record, or a single item's
+     file misnamed relative to its own correct content): call
+     `upsert_item`/`upsert_collection`/`rename_item` as appropriate.
+   - **Not fixable within the tool surface** (moving an item between
+     collections, restructuring a whole collection directory, a missing
+     sibling collection outside this one's scope, or genuine human
+     judgment): call `flag_finding` with a specific title and a body that
+     includes your source(s) and why the other tools can't handle it.
+     Only flag things you're confident are real and well-sourced — same
+     discipline as a fix, just a different outcome.
    - Anything you can't confirm one way or the other: leave it alone
      entirely. Don't fix, don't flag, don't guess.
 6. When you're done, just report back: which collection you audited, what

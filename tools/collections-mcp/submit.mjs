@@ -27,7 +27,10 @@ function diffFields(before, after) {
   return changed;
 }
 
-function formatUpsertEntry(entry) {
+function formatEntry(entry) {
+  if (entry.kind === 'rename') {
+    return `- Renamed ${entry.entityKind} at \`${entry.oldPath}\` to \`${entry.newPath}\``;
+  }
   const label = entry.kind === 'item' ? 'item' : 'collection';
   if (entry.action === 'create') {
     return `- Added ${label} **${entry.after.name}** (\`${entry.id}\`) at \`${entry.path}\``;
@@ -37,17 +40,23 @@ function formatUpsertEntry(entry) {
   return `- Updated ${label} **${entry.after.name}** (\`${entry.id}\`) at \`${entry.path}\` — ${fieldList || 'no field diff'}`;
 }
 
-function buildPr(upserts) {
-  const created = upserts.filter((e) => e.action === 'create').length;
-  const updated = upserts.filter((e) => e.action === 'update').length;
+function entryPaths(entry) {
+  return entry.kind === 'rename' ? [entry.oldPath, entry.newPath] : [entry.path];
+}
+
+function buildPr(changes) {
+  const created = changes.filter((e) => e.action === 'create').length;
+  const updated = changes.filter((e) => e.action === 'update').length;
+  const renamed = changes.filter((e) => e.kind === 'rename').length;
   const parts = [];
   if (created) parts.push(`${created} added`);
   if (updated) parts.push(`${updated} updated`);
+  if (renamed) parts.push(`${renamed} renamed`);
   const title = `Audit fixes: ${parts.join(', ')}`;
   const body = [
     'Automated audit of a randomly-selected collection.',
     '',
-    ...upserts.map(formatUpsertEntry),
+    ...changes.map(formatEntry),
     '',
     '_Generated mechanically from the collections-mcp changelog — no free-form summary._',
   ].join('\n');
@@ -58,13 +67,13 @@ function buildIssue(flag) {
   const body = [
     flag.body,
     '',
-    `_Collection: \`${flag.collectionPath}\` (id \`${flag.collectionId}\`). Filed automatically by the collections-audit-fix job — not fixable via the collections-mcp tool surface (upsert_item/upsert_collection can only patch field values, not rename/restructure)._`,
+    `_Collection: \`${flag.collectionPath}\` (id \`${flag.collectionId}\`). Filed automatically by the collections-audit-fix job — the collections-mcp tool surface (upsert_item/upsert_collection/rename_item) couldn't cover this one._`,
   ].join('\n');
   return { title: flag.title, body };
 }
 
 const entries = readAll();
-const upserts = entries.filter((e) => e.kind === 'item' || e.kind === 'collection');
+const changes = entries.filter((e) => e.kind === 'item' || e.kind === 'collection' || e.kind === 'rename');
 const flags = entries.filter((e) => e.kind === 'flag');
 
 if (entries.length === 0) {
@@ -72,15 +81,15 @@ if (entries.length === 0) {
   process.exit(0);
 }
 
-if (upserts.length > 0) {
+if (changes.length > 0) {
   const validateOutput = execFileSync('node', ['validate.mjs'], {
     cwd: `${REPO_ROOT}/tools/collections-validate`,
     encoding: 'utf8',
   }); // throws on non-zero exit, which is what we want: abort, don't touch git
   console.log(validateOutput.trim());
 
-  const paths = [...new Set(upserts.map((e) => e.path))];
-  const { title, body } = buildPr(upserts);
+  const paths = [...new Set(changes.flatMap(entryPaths))];
+  const { title, body } = buildPr(changes);
   const branch = `audit/${crypto.randomUUID().slice(0, 8)}`;
   const originalBranch = git(['rev-parse', '--abbrev-ref', 'HEAD']);
 

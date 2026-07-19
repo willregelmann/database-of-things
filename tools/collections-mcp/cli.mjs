@@ -5,7 +5,7 @@
 // operations, same validation/rollback, just invoked via Bash instead of
 // the MCP protocol.
 import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
-import { upsertItem, upsertCollection } from './lib/mutate.mjs';
+import { upsertItem, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 import fs from 'node:fs';
 
@@ -78,9 +78,16 @@ try {
       out({ flagged: true });
       break;
     }
+    case 'rename-item': {
+      const [itemId, newFilename] = rest;
+      const result = renameItem(index, { itemId, newFilename });
+      appendEntry({ kind: 'rename', entityKind: 'item', id: itemId, ...result });
+      out(result);
+      break;
+    }
     default:
       throw new Error(
-        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>`
+        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>, rename-item <item_id> <new_filename>`
       );
   }
 } catch (err) {
