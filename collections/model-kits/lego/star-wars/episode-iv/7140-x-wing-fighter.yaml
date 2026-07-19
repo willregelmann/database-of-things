@@ -1,0 +1,15 @@
+id: abfcd7a3-76ce-4c12-bee7-aa5de43a3266
+name: X-wing Fighter
+type: set
+date: "1999-02-22"
+attributes:
+  number: "7140"
+  pieceCount: 266
+  minifigCount: 4
+image:
+  source_url: https://images.brickset.com/sets/images/7140-1.jpg
+components:
+  - 53708aaf-cb2a-41c7-b03a-bc95d651f563   # sw0028 Astromech Droid, R2-D2
+  - 62463fd1-36bb-4ee1-a0b9-5ae548728d0e   # sw0009 Biggs Darklighter - Yellow Head
+  - fa233ef2-493f-48a0-80ca-cff398da5cef   # sw0019 Luke Skywalker - Pilot Suit
+  - ef9413a1-e824-4668-b887-54c0123d0cec   # sw0034 Rebel Technician - Tan Uniform

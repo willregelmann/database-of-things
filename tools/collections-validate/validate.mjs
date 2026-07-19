@@ -13,6 +13,7 @@ const TAG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 const seenIds = new Map();
+const componentRefs = []; // { filePath, id }
 const errors = [];
 
 function rel(p) {
@@ -57,6 +58,19 @@ function validateEntityStructure(filePath, data) {
           errors.push(`${rel(filePath)}: duplicate tag "${tag}"`);
         } else {
           seenTags.add(tag);
+        }
+      }
+    }
+  }
+  if (data.components !== undefined) {
+    if (!Array.isArray(data.components)) {
+      errors.push(`${rel(filePath)}: "components" must be an array of ids`);
+    } else {
+      for (const ref of data.components) {
+        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
+          errors.push(`${rel(filePath)}: invalid component id ${JSON.stringify(ref)} — must be a UUID`);
+        } else {
+          componentRefs.push({ filePath, id: ref.toLowerCase() });
         }
       }
     }
@@ -134,6 +148,12 @@ if (!fs.existsSync(COLLECTIONS_ROOT)) {
 }
 
 walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null });
+
+for (const { filePath, id } of componentRefs) {
+  if (!seenIds.has(id)) {
+    errors.push(`${rel(filePath)}: "components" references unknown id ${id}`);
+  }
+}
 
 if (errors.length > 0) {
   console.error(`✗ ${errors.length} validation error(s):\n`);
