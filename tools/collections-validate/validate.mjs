@@ -114,7 +114,8 @@ function walk(dir, inherited) {
   if (entityFiles.length > 0 && !schema) {
     errors.push(`${rel(dir)}: contains entity files but has no template.schema.json (own or inherited)`);
   }
-  if (dir !== COLLECTIONS_ROOT && !files.includes('_collection.yaml')) {
+  const isComponentsDir = path.basename(dir).startsWith('_');
+  if (dir !== COLLECTIONS_ROOT && !isComponentsDir && !files.includes('_collection.yaml')) {
     errors.push(`${rel(dir)}: missing _collection.yaml`);
   }
 

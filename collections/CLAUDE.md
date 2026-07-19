@@ -180,10 +180,17 @@ components:
 - The validator checks every `components` entry resolves to a real `id`
   somewhere in the catalog, but doesn't require the component to already
   exist before the referencing item does within the same PR.
-- A directory that exists purely to hold component entities (not a
-  browsable collection someone completes) doesn't need special validator
-  treatment beyond the usual `_collection.yaml`/`CLAUDE.md` requirements —
-  just say so in its `_collection.yaml` description, and see the category's
+- **A directory whose name is prefixed with `_` (other than the
+  `_collection.yaml` file itself) is a components bucket, not a browsable
+  collection someone completes — it doesn't get its own `_collection.yaml`,
+  and the validator doesn't require one.** This convention predates
+  components (`_collection.yaml` already used a leading underscore to mean
+  "structural, not a normal peer") — extending the same marker to a
+  directory name means a components bucket doesn't need an entity record
+  of its own just to satisfy the validator, since nothing ever references
+  the bucket itself; components are referenced individually, by their own
+  `id`. It still needs `CLAUDE.md`/`template.schema.json` (own or
+  inherited) like any directory holding entity files. See the category's
   own `CLAUDE.md` for the actual directory convention (e.g.
   [`model-kits/lego/CLAUDE.md`](model-kits/lego/CLAUDE.md) for LEGO
   minifigures).

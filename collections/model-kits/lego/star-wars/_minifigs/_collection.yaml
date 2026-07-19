@@ -1,8 +1,0 @@
-id: a42e702b-e52b-4247-8ed6-103ed31a340b
-name: Star Wars Minifigures
-type: collection
-description: >
-  Minifigure components for LEGO Star Wars sets — not a browsable
-  collection in its own right; see ../_collection.yaml for the Star Wars
-  theme's own record. A set includes specific minifigures via its
-  top-level `components` field, referencing entries here by id.

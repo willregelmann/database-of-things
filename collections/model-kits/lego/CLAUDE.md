@@ -86,7 +86,7 @@ lego/
   star-wars/
     _collection.yaml
     _minifigs/                       # this theme's minifig components
-      _collection.yaml
+      template.schema.json
       sw0028-astromech-droid-r2-d2.yaml
     episode-iv/                      # subtheme, sets only
       _collection.yaml
@@ -97,10 +97,12 @@ lego/
 top-level `minifigs/` tree, so there's exactly one directory anywhere
 asserting "this is the Star Wars theme" — a sibling tree would need its own
 `star-wars/` folder that has to be kept in sync with the sets side, with
-nothing enforcing that they match. `_minifigs/` still needs its own
-`_collection.yaml` (the validator requires one in every directory) — keep it
-a bare structural stub; the theme's real description/logo live once, on the
-theme's own `_collection.yaml`.
+nothing enforcing that they match. The leading underscore marks it as a
+components bucket, not a collection (see root `collections/CLAUDE.md`,
+"Components") — it doesn't get its own `_collection.yaml`; the theme's real
+description/logo live once, on the theme's own `_collection.yaml`. It still
+needs a `template.schema.json` (own or inherited), same as any directory
+holding entity files.
 
 If a single theme's minifig count ever approaches the 1000-item guideline
 (root `collections/CLAUDE.md`), subdivide `_minifigs/` further (e.g. by era),
