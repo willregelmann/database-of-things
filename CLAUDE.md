@@ -23,6 +23,15 @@ curation *is* opening a pull request.
 - Exhaustive metadata (that's what source links are for)
 - Real-time market data (we're a catalog, not a marketplace)
 
+**Curation model**: the catalog is meant to grow and self-correct primarily
+through AI agents web-searching for collectible data and opening PRs, not
+through a human driving every addition. Two skills carry this:
+- `collections-curate` — human- or agent-directed: add or edit specific
+  entries
+- `collections-audit-fix` — fully autonomous: picks a collection, web-searches
+  to verify and fill gaps, opens a PR if anything changed; this is what the
+  scheduled hourly job runs
+
 ## Repository structure
 
 ```
