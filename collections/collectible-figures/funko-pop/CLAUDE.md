@@ -24,9 +24,10 @@ can share the same number.
 box, not the character's source franchise — a figure's *franchise* (e.g.
 "The Office", "Breaking Bad") is usually narrower than its *line* (e.g.
 "Television"), and one line spans many unrelated franchises. Record the
-franchise separately via the top-level `tags` field (e.g. `tags:
-[the-office]`) — see [`collections/CLAUDE.md`](../../CLAUDE.md#tags) — not as
-an `attributes` field; the directory captures the line only.
+franchise separately via the top-level `tags` field, referencing a
+`tags/franchises/` entity by id (e.g. "The Office") — see
+[`collections/CLAUDE.md`](../../CLAUDE.md#tags) — not as an `attributes`
+field; the directory captures the line only.
 
 **Naming line directories**: lowercase, hyphenated, matching the printed
 category name (e.g. `movies`, `animation`, `marvel`, `star-wars`, `disney`,

@@ -44,6 +44,11 @@ collections/                  # the data — see collections/README.md
         base-set/
           004-charizard.yaml
           ...
+tags/                          # cross-cutting tag entities — see
+                               # docs/primitives/TAG.md
+  franchises/
+    pokemon.yaml
+    ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
 .claude/skills/collections-curate/  # agent tooling for adding/editing entries
@@ -127,4 +132,4 @@ CI runs this validator on every PR that touches `collections/**`.
 - **Collections format**: [`collections/README.md`](collections/README.md)
 - **Category-specific curation**: `collections/<category>/CLAUDE.md`
 - **Core data-model primitives**: [`docs/primitives/`](docs/primitives/)
-  (`COLLECTION.md`, `ITEM.md`, `COMPONENT.md`)
+  (`COLLECTION.md`, `ITEM.md`, `COMPONENT.md`, `TAG.md`)

@@ -19,8 +19,9 @@ component is a distinct primitive rather than just another item.
 
 A component is catalogued exactly like any other entity — its own YAML
 file, `id`/`name`/`type`, the same optional fields (`date`, `attributes`,
-`image.source_url`, `tags`) as an item. Nothing about a component's own
-file marks it as a component; what makes it one is that some item's
+`image.source_url`, [`tags`](TAG.md)) as an item. Nothing about a
+component's own file marks it as a component; what makes it one is that
+some item's
 top-level `components` field points at it.
 
 ## Where it lives: the components bucket

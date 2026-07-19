@@ -1,0 +1,8 @@
+id: 563454f5-b2b6-4c99-8679-398f2fc2d2e6
+name: Franchises
+type: collection
+description: >
+  Franchise/IP tags referenced by items and collections across the whole
+  catalog via their top-level `tags` field (see collections/CLAUDE.md,
+  "Tags", and docs/primitives/TAG.md) — not a browsable collection someone
+  completes.

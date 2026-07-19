@@ -35,9 +35,9 @@ type: card
 - **`image.source_url`** — the item's own image, from an authoritative
   source (or a retailer/marketplace photo, as a documented fallback when
   no authoritative source exists).
-- **`tags`** — cross-cutting groupings (see `collections/CLAUDE.md`,
-  "Tags") — the main case is a franchise/IP spanning multiple, unrelated
-  categories.
+- **`tags`** — ids referencing [tag](TAG.md) entities for cross-cutting
+  groupings (see `collections/CLAUDE.md`, "Tags") — the main case is a
+  franchise/IP spanning multiple, unrelated categories.
 - **`components`** — ids of the entities this item is physically made up
   of (see [COMPONENT.md](COMPONENT.md)). Not every item has this — a
   category may track a components summary count instead (e.g. LEGO's

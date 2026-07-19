@@ -48,8 +48,9 @@ description: >
   from an authoritative source, only when one genuinely exists and
   belongs to the entity itself, not a franchise it's merely licensed
   from.
-- **`tags`** — cross-cutting groupings a collection's directory position
-  doesn't already express (see `collections/CLAUDE.md`, "Tags").
+- **`tags`** — ids referencing [tag](TAG.md) entities for cross-cutting
+  groupings a collection's directory position doesn't already express
+  (see `collections/CLAUDE.md`, "Tags").
 - Category-specific fields some categories add on top of this baseline
   (e.g. Pokémon TCG's `category: Trading Card Games` on every
   `_collection.yaml` in that category) — see the category's own

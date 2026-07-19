@@ -73,13 +73,31 @@ related categories, not things that were themselves released.
 
 ## Tags
 
-The optional top-level `tags` field is a flat array of lowercase, hyphenated
-strings (`tags: [pokemon, halloween]`) for cross-cutting groupings that don't
-map to directory position. The main case: a franchise/IP that spans multiple,
-unrelated categories — a Pokémon-themed Squishmallow, Funko Pop, Nendoroid,
-and Re-Ment figure all sit in completely different parts of the tree, so
-nothing about their directory position lets someone find "everything
-Pokémon" across the catalog. A shared `tags: [pokemon]` closes that gap.
+The optional top-level `tags` field is a flat array of **ids**, each
+referencing a tag entity under [`tags/`](../tags/) — a sibling of
+`collections/`, not a part of it, since a tag is cross-cutting by nature
+(see [`tags/CLAUDE.md`](../tags/CLAUDE.md) and
+[`docs/primitives/TAG.md`](../docs/primitives/TAG.md) for the full tag
+primitive reference). Tags close a gap directory position can't: the main
+case is a franchise/IP that spans multiple, unrelated categories — a
+Pokémon-themed Squishmallow, Funko Pop, Nendoroid, and Re-Ment figure all
+sit in completely different parts of the tree, so nothing about their
+directory position lets someone find "everything Pokémon" across the
+catalog. Referencing the same `tags/franchises/pokemon.yaml` entity from
+all four closes that gap.
+
+```yaml
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4   # tags/franchises/pokemon.yaml
+```
+
+**Reusing an existing tag is as cheap as it's always been** — look up its
+id under `tags/` and reference it. **Adding a genuinely new tag means
+creating its entity file first** (under the right namespace, e.g.
+`tags/franchises/`), then referencing that id — there's no more freeform
+ad hoc string tagging. Duplicate ids within one entity's `tags` list are
+still an error (unlike `components`, where a duplicate is meaningful); the
+validator also enforces that every id resolves to a real `tags/` entity.
 
 **Franchise is always recorded via `tags`, never as a structured
 `attributes` field, even within a single line where it doesn't cross
@@ -96,7 +114,7 @@ A tag only earns its place if it captures a grouping that's genuinely useful
 and isn't already available some other way:
 
 - **Don't restate the hierarchy.** A card in `pokemon-tcg/` doesn't need
-  `tags: [pokemon]` — its category already says that. Tags exist for
+  the Pokémon tag — its category already says that. Tags exist for
   groupings the *directory position doesn't* express, not to duplicate it.
 - **Don't duplicate a tag into a structured `attributes` field**, and vice
   versa — pick one home for a given piece of information and search it there.
@@ -112,9 +130,8 @@ and isn't already available some other way:
   seasonal/exclusive-release status) can legitimately go over 5 — treat that
   as a rare, deliberate case, not a target to build up to.
 
-Format matches the repo's existing slug convention (lowercase, hyphenated,
-e.g. `star-wars` not `Star Wars`) so tags stay consistent and easy to
-search/group by.
+See [`tags/CLAUDE.md`](../tags/CLAUDE.md) for how to add a new tag entity
+(namespace, naming, display-name conventions).
 
 ## Logos
 
