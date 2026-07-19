@@ -1,10 +1,10 @@
 id: d7cacb2e-6e58-4263-bf10-46aa828da5eb
-name: Seel & Dewgong
+name: Spheal & Seel
 type: figure
 attributes:
   manufacturer: Re-Ment
   pokemon:
+    - Spheal
     - Seel
-    - Dewgong
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/950480922.jpg
