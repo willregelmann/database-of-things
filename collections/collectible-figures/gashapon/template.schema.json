@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gashapon attributes",
+  "type": "object",
+  "properties": {
+    "character": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Character(s)/subject(s) depicted by this figure, official names."
+    },
+    "brand_line": {
+      "type": "string",
+      "description": "Bandai's own capsule-toy sub-brand this release was sold under, e.g. \"Ringcolle!\", \"HGIF\", \"Cap-Chara\", \"ChibiMasters\", when the release is marketed under one — leave off for a plain \"GASHAPON\"-branded release with no further sub-brand."
+    }
+  },
+  "additionalProperties": true
+}
