@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bluey Mini Figures attributes",
+  "type": "object",
+  "properties": {
+    "series": {
+      "type": "string",
+      "description": "Release wave label as printed by Moose Toys, e.g. \"S11\". Not a TV season, not a sequential number."
+    },
+    "pack_type": {
+      "type": "string",
+      "enum": ["Single Pack", "Figure Case"]
+    },
+    "manufacturer": { "type": "string" }
+  },
+  "additionalProperties": true
+}

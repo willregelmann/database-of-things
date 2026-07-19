@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bluey Poseable Figures attributes",
+  "type": "object",
+  "properties": {
+    "pack_name": {
+      "type": "string",
+      "description": "The pack's own marketed name, e.g. \"Bluey & Family Figure 4-Pack\" or \"Bandit & Unicorse\"."
+    },
+    "pack_type": {
+      "type": "string",
+      "enum": ["Multi-Pack", "Story Starter"]
+    },
+    "accessory": {
+      "type": "string",
+      "description": "Included accessory, for Story Starter packs (e.g. \"Unicorse\", \"Crown\")."
+    },
+    "manufacturer": { "type": "string" }
+  },
+  "additionalProperties": true
+}
