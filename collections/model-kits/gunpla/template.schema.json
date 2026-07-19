@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gunpla kit attributes",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "description": "Official kit number within its grade/sub-line, e.g. \"HGUC 191\" or \"RG 01\"."
+    },
+    "scale": {
+      "type": "string",
+      "description": "Kit scale, e.g. \"1/144\", \"1/100\", \"1/60\", or \"Non-scale\" for SD/EG kits."
+    }
+  },
+  "additionalProperties": true
+}
