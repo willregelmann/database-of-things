@@ -2,9 +2,9 @@ id: 60d33e4b-234c-4e80-9740-5c7bd623528f
 name: Pikachu
 type: figure
 date: "2018-07-19"
+tags: [pokemon]
 attributes:
   number: "353"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
   exclusive_to: Target

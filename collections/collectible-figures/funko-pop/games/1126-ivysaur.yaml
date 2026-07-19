@@ -2,9 +2,9 @@ id: 555b0f28-febd-4560-a3bf-d3e3e2c94086
 name: Ivysaur
 type: figure
 date: "2026"
+tags: [pokemon]
 attributes:
   number: "1126"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

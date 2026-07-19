@@ -2,9 +2,9 @@ id: 863287c2-05e8-4e83-8fb1-11b1eba0cf71
 name: Pikachu (Grumpy)
 type: figure
 date: "2020-06"
+tags: [pokemon]
 attributes:
   number: "598"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

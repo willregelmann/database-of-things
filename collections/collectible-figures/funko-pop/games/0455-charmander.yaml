@@ -2,9 +2,9 @@ id: b11b60ea-2685-4e82-8246-97acd3a9ceca
 name: Charmander
 type: figure
 date: "2019-05-12"
+tags: [pokemon]
 attributes:
   number: "455"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

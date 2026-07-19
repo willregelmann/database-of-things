@@ -2,8 +2,8 @@ id: 4b0f0a67-5fab-4e9a-91d4-1ac9eff6f803
 name: Pac-Man
 type: figure
 date: "2016"
+tags: [pac-man]
 attributes:
   number: "81"
-  franchise: Pac-Man
   manufacturer: Funko, LLC
   variant: Common

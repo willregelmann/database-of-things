@@ -7,7 +7,6 @@
     "species": { "type": "string" },
     "size": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?\"$" },
     "manufacturer": { "type": "string" },
-    "license": { "type": "string" },
     "rarity": {
       "type": "string",
       "enum": ["Rare", "Ultra Rare", "Special Edition", "Select Series", "Founders Edition"]

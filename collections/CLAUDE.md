@@ -75,12 +75,21 @@ related categories, not things that were themselves released.
 
 The optional top-level `tags` field is a flat array of lowercase, hyphenated
 strings (`tags: [pokemon, halloween]`) for cross-cutting groupings that don't
-map to directory position or to an existing structured `attributes` field.
-The main case: a franchise/IP that spans multiple, unrelated categories — a
-Pokémon-themed Squishmallow, Funko Pop, Nendoroid, and Re-Ment figure all sit
-in completely different parts of the tree, so nothing about their directory
-position lets someone find "everything Pokémon" across the catalog. A shared
-`tags: [pokemon]` closes that gap.
+map to directory position. The main case: a franchise/IP that spans multiple,
+unrelated categories — a Pokémon-themed Squishmallow, Funko Pop, Nendoroid,
+and Re-Ment figure all sit in completely different parts of the tree, so
+nothing about their directory position lets someone find "everything
+Pokémon" across the catalog. A shared `tags: [pokemon]` closes that gap.
+
+**Franchise is always recorded via `tags`, never as a structured
+`attributes` field, even within a single line where it doesn't cross
+categories.** Funko Pop, for instance, resets its box-printed "line"
+independent of franchise, so nearly every figure carries a franchise tag
+(see
+[`collectible-figures/funko-pop/CLAUDE.md`](collectible-figures/funko-pop/CLAUDE.md))
+— not just the cross-category crossover cases. Keeping franchise in one
+place means a search for "everything Pokémon" never has to also check a
+per-category attribute that might hold the same information.
 
 **Don't over-tag — same philosophy as not adding speculative `attributes`.**
 A tag only earns its place if it captures a grouping that's genuinely useful
@@ -89,10 +98,8 @@ and isn't already available some other way:
 - **Don't restate the hierarchy.** A card in `pokemon-tcg/` doesn't need
   `tags: [pokemon]` — its category already says that. Tags exist for
   groupings the *directory position doesn't* express, not to duplicate it.
-- **Don't restate a structured attribute.** Funko Pop already records
-  `attributes.franchise` per figure (see
-  [`collectible-figures/funko-pop/CLAUDE.md`](collectible-figures/funko-pop/CLAUDE.md)) —
-  don't also add a `tags` entry that just repeats that value.
+- **Don't duplicate a tag into a structured `attributes` field**, and vice
+  versa — pick one home for a given piece of information and search it there.
 - **Don't invent tags for hypothetical future searches.** Add a tag when it
   reflects a grouping that's real and useful today, not because it might be
   handy if someone eventually wants to filter by it.

@@ -2,9 +2,9 @@ id: 8bcf303a-5e04-4c15-8b4d-4ad1bcbef820
 name: Pikachu (Waving)
 type: figure
 date: "2019-09-16"
+tags: [pokemon]
 attributes:
   number: "553"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

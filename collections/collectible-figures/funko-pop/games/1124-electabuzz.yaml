@@ -2,9 +2,9 @@ id: 72c318b0-13ae-48d8-860f-29610f53290e
 name: Electabuzz
 type: figure
 date: "2026"
+tags: [pokemon]
 attributes:
   number: "1124"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:
