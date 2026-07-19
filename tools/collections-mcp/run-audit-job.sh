@@ -39,10 +39,24 @@ MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__
   echo "--- claude -p exited $claude_exit ---"
 
   if [ "$claude_exit" -ne 0 ]; then
-    echo "Skipping submit.mjs: the audit session itself failed."
-    exit "$claude_exit"
+    echo "note: the audit session itself exited non-zero -- still attempting"
+    echo "submit.mjs below, since any upsert_item/upsert_collection calls made"
+    echo "before the failure already wrote real, individually-validated changes"
+    echo "to disk. Leaving those unsubmitted just strands them until some"
+    echo "future run's submit.mjs happens to pick them up alongside its own"
+    echo "(unrelated) changelog entries -- which is exactly how this failure"
+    echo "mode was discovered. submit.mjs's own validate-before-commit step is"
+    echo "the real safety net regardless of why the session ended."
   fi
 
   echo "--- running submit.mjs ---"
+  set +e
   node tools/collections-mcp/submit.mjs
+  submit_exit=$?
+  set -e
+
+  if [ "$claude_exit" -ne 0 ]; then
+    exit "$claude_exit"
+  fi
+  exit "$submit_exit"
 } 2>&1 | tee -a "$LOG_FILE"
