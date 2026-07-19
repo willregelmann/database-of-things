@@ -3,7 +3,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
-import { upsertItem, upsertCollection, renameItem } from './lib/mutate.mjs';
+import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 
 // Rebuilt after every successful write so reads in the same session see it.
@@ -72,7 +72,7 @@ server.registerTool(
   async ({ collection_id }) => {
     try {
       const node = getCollection(index, collection_id);
-      return text({ path: rel(node.path), ...node.data });
+      return text({ path: rel(node.path), ...node.data, componentBuckets: Object.keys(node.componentBuckets) });
     } catch (err) {
       return errorText(err);
     }
@@ -90,6 +90,29 @@ server.registerTool(
     try {
       const node = getCollection(index, collection_id);
       return text(node.childItems);
+    } catch (err) {
+      return errorText(err);
+    }
+  }
+);
+
+server.registerTool(
+  'list_components',
+  {
+    title: 'List a collection\'s components in a given bucket',
+    description:
+      'Lists the component entities (as {id, name, type}) inside the named components bucket (e.g. "minifigs" for a lego/<theme>/_minifigs/ directory) directly under this collection — see get_collection_details\'s "componentBuckets" field for a collection\'s available bucket names, and collections/CLAUDE.md ("Components") for the concept.',
+    inputSchema: {
+      collection_id: z.string(),
+      bucket: z.string().describe('Bucket name, e.g. "minifigs".'),
+    },
+  },
+  async ({ collection_id, bucket }) => {
+    try {
+      const node = getCollection(index, collection_id);
+      const bucketNode = node.componentBuckets[bucket];
+      if (!bucketNode) throw new Error(`collection ${collection_id} has no "_${bucket}" components bucket`);
+      return text(bucketNode.items);
     } catch (err) {
       return errorText(err);
     }
@@ -138,6 +161,10 @@ const itemFieldsShape = {
   attributes: z.record(z.any()).optional().describe('Merged key-by-key into any existing attributes on update.'),
   image: z.object({ source_url: z.string() }).optional(),
   tags: z.array(z.string()).optional(),
+  components: z
+    .array(z.string())
+    .optional()
+    .describe('ids of this item\'s components (see collections/CLAUDE.md, "Components") — e.g. a LEGO set\'s minifigures. Duplicates are allowed (owning more than one of the same component).'),
   filename: z
     .string()
     .optional()
@@ -149,7 +176,7 @@ server.registerTool(
   {
     title: 'Create or update an item',
     description:
-      'Creates a new item (omit "id") or patches fields on an existing one (provide "id") within the given collection. Never renames/moves a file. Validates against the full collections/ validator after writing and rolls back the write if it fails.',
+      'Creates a new item (omit "id") or patches fields on an existing one (provide "id") within the given collection. Never renames/moves a file, and never touches a components bucket — use upsert_component for those. Validates against the full collections/ validator after writing and rolls back the write if it fails.',
     inputSchema: {
       collection_id: z.string(),
       item: z.object(itemFieldsShape),
@@ -159,6 +186,30 @@ server.registerTool(
     try {
       const result = upsertItem(index, { collectionId: collection_id, item });
       appendEntry({ kind: 'item', collectionId: collection_id, ...result });
+      index = buildIndex();
+      return text(result);
+    } catch (err) {
+      return errorText(err);
+    }
+  }
+);
+
+server.registerTool(
+  'upsert_component',
+  {
+    title: 'Create or update a component',
+    description:
+      'Creates a new component (omit "id") or patches fields on an existing one (provide "id") within the given collection\'s named components bucket (e.g. "minifigs" for a lego/<theme>/_minifigs/ directory — see collections/CLAUDE.md, "Components"). The bucket must already exist — bootstrapping a brand-new bucket is a human/PR-level change, same as upsert_collection never authors new curation conventions. Never renames/moves a file. Validates against the full collections/ validator after writing and rolls back the write if it fails.',
+    inputSchema: {
+      collection_id: z.string().describe('The collection that owns this components bucket (e.g. a LEGO theme).'),
+      bucket: z.string().describe('Bucket name, e.g. "minifigs".'),
+      component: z.object(itemFieldsShape),
+    },
+  },
+  async ({ collection_id, bucket, component }) => {
+    try {
+      const result = upsertComponent(index, { collectionId: collection_id, bucket, item: component });
+      appendEntry({ kind: 'component', collectionId: collection_id, bucket, ...result });
       index = buildIndex();
       return text(result);
     } catch (err) {
