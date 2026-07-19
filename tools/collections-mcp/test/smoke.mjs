@@ -23,11 +23,22 @@ fs.mkdirSync(SCRATCH_DIR);
 fs.copyFileSync(path.join(REPO_ROOT, 'collections', 'plush', 'CLAUDE.md'), path.join(SCRATCH_DIR, 'CLAUDE.md'));
 fs.copyFileSync(path.join(REPO_ROOT, 'collections', 'plush', 'template.schema.json'), path.join(SCRATCH_DIR, 'template.schema.json'));
 const SCRATCH_ITEM_ID = 'aaaaaaaa-1111-1111-1111-111111111111';
+const SCRATCH_COLLECTION_ID = 'bbbbbbbb-1111-1111-1111-111111111111';
+const SCRATCH_COMPONENT_ID = 'cccccccc-1111-1111-1111-111111111111';
 fs.writeFileSync(
   path.join(SCRATCH_DIR, '_collection.yaml'),
-  'id: bbbbbbbb-1111-1111-1111-111111111111\nname: Smoke Test Scratch Collection\ntype: collection\n'
+  `id: ${SCRATCH_COLLECTION_ID}\nname: Smoke Test Scratch Collection\ntype: collection\n`
 );
 fs.writeFileSync(path.join(SCRATCH_DIR, 'wrong-name.yaml'), `id: ${SCRATCH_ITEM_ID}\nname: Test Item\ntype: plush\nattributes: {}\n`);
+// A components bucket (leading underscore, no _collection.yaml of its own —
+// see collections/CLAUDE.md, "Components") with one pre-existing component,
+// for exercising list_components/upsert_component below.
+const SCRATCH_BUCKET_DIR = path.join(SCRATCH_DIR, '_parts');
+fs.mkdirSync(SCRATCH_BUCKET_DIR);
+fs.writeFileSync(
+  path.join(SCRATCH_BUCKET_DIR, 'existing-part.yaml'),
+  `id: ${SCRATCH_COMPONENT_ID}\nname: Existing Part\ntype: plush\nattributes: {}\n`
+);
 
 const transport = new StdioClientTransport({
   command: 'node',
@@ -41,7 +52,7 @@ const { tools } = await client.listTools();
 const names = tools.map((t) => t.name).sort();
 console.log('tools:', names.join(', '));
 ok(
-  'all 10 tools registered',
+  'all 12 tools registered',
   [
     'choose_random_collection',
     'get_collection_context',
@@ -49,8 +60,10 @@ ok(
     'get_item_details',
     'list_collections',
     'list_items',
+    'list_components',
     'upsert_collection',
     'upsert_item',
+    'upsert_component',
     'rename_item',
     'flag_finding',
   ].every((n) => names.includes(n))
@@ -78,6 +91,49 @@ console.log(`collection ${collection_id}: ${JSON.parse(items.content[0].text).le
 
 const badItem = await client.callTool({ name: 'get_item_details', arguments: { item_id: 'nonexistent' } });
 ok('get_item_details on a bad id returns isError instead of throwing', badItem.isError === true);
+
+const scratchDetails = await client.callTool({ name: 'get_collection_details', arguments: { collection_id: SCRATCH_COLLECTION_ID } });
+ok('get_collection_details did not error (scratch)', !scratchDetails.isError);
+const scratchDetailsBody = JSON.parse(scratchDetails.content[0].text);
+ok(
+  'get_collection_details reports the scratch components bucket',
+  Array.isArray(scratchDetailsBody.componentBuckets) && scratchDetailsBody.componentBuckets.includes('parts')
+);
+
+const components = await client.callTool({ name: 'list_components', arguments: { collection_id: SCRATCH_COLLECTION_ID, bucket: 'parts' } });
+ok('list_components did not error', !components.isError);
+const componentsBody = JSON.parse(components.content[0].text);
+ok('list_components finds the existing component', componentsBody.some((c) => c.id === SCRATCH_COMPONENT_ID));
+
+const badBucket = await client.callTool({ name: 'list_components', arguments: { collection_id: SCRATCH_COLLECTION_ID, bucket: 'nonexistent' } });
+ok('list_components on an unknown bucket returns isError', badBucket.isError === true);
+
+const createdComponent = await client.callTool({
+  name: 'upsert_component',
+  arguments: {
+    collection_id: SCRATCH_COLLECTION_ID,
+    bucket: 'parts',
+    component: { name: 'New Part', type: 'plush', filename: 'new-part.yaml', attributes: {} },
+  },
+});
+ok('upsert_component (create) did not error', !createdComponent.isError);
+ok('upsert_component actually wrote the file', fs.existsSync(path.join(SCRATCH_BUCKET_DIR, 'new-part.yaml')));
+
+const badComponentBucket = await client.callTool({
+  name: 'upsert_component',
+  arguments: {
+    collection_id: SCRATCH_COLLECTION_ID,
+    bucket: 'nonexistent',
+    component: { name: 'Bad Part', type: 'plush', filename: 'bad-part.yaml', attributes: {} },
+  },
+});
+ok('upsert_component into an unknown bucket returns isError', badComponentBucket.isError === true);
+
+const itemWithComponents = await client.callTool({
+  name: 'upsert_item',
+  arguments: { collection_id: SCRATCH_COLLECTION_ID, item: { id: SCRATCH_ITEM_ID, components: [SCRATCH_COMPONENT_ID] } },
+});
+ok('upsert_item accepts a components field referencing a real component', !itemWithComponents.isError);
 
 const flagged = await client.callTool({
   name: 'flag_finding',

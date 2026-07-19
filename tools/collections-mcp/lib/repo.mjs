@@ -23,7 +23,12 @@ export function buildIndex() {
   const byId = new Map();
   const collectionIds = [];
 
-  function walk(dir, claudeChain, schemaPath) {
+  // `componentOwner` is set only while walking a components-bucket directory
+  // (name prefixed with `_`, other than `_collection.yaml` itself — see
+  // collections/CLAUDE.md, "Components"). Such a directory never has its own
+  // `_collection.yaml`/id; its items belong to the nearest ancestor
+  // collection's named bucket instead of that ancestor's own `childItems`.
+  function walk(dir, claudeChain, schemaPath, componentOwner) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     const files = entries.filter((e) => e.isFile()).map((e) => e.name);
     const dirs = entries.filter((e) => e.isDirectory()).map((e) => e.name);
@@ -56,6 +61,7 @@ export function buildIndex() {
         schemaPath: schema,
         childItems: [],
         childCollections: [],
+        componentBuckets: {},
       };
       byId.set(data.id, selfNode);
       collectionIds.push(data.id);
@@ -78,18 +84,30 @@ export function buildIndex() {
         dir,
         path: p,
         data,
-        collectionId: selfNode ? selfNode.id : null,
+        collectionId: componentOwner ? componentOwner.collectionId : selfNode ? selfNode.id : null,
+        bucket: componentOwner ? componentOwner.bucket : null,
         claudeChain: chain,
         schemaPath: schema,
       };
       byId.set(data.id, node);
-      if (selfNode) {
+      if (componentOwner) {
+        componentOwner.bucketItems.push({ id: data.id, name: data.name, type: data.type });
+      } else if (selfNode) {
         selfNode.childItems.push({ id: data.id, name: data.name, type: data.type });
       }
     }
 
     for (const d of dirs.sort()) {
-      const childId = walk(path.join(dir, d), chain, schema);
+      if (d.startsWith('_')) {
+        if (selfNode) {
+          const bucketName = d.slice(1);
+          const bucket = { dir: path.join(dir, d), items: [] };
+          selfNode.componentBuckets[bucketName] = bucket;
+          walk(bucket.dir, chain, schema, { collectionId: selfNode.id, bucket: bucketName, bucketItems: bucket.items });
+        }
+        continue;
+      }
+      const childId = walk(path.join(dir, d), chain, schema, null);
       if (selfNode && childId) {
         const child = byId.get(childId);
         selfNode.childCollections.push({ id: childId, name: child.name, type: child.type });
@@ -99,7 +117,7 @@ export function buildIndex() {
     return selfNode ? selfNode.id : null;
   }
 
-  walk(COLLECTIONS_ROOT, [], null);
+  walk(COLLECTIONS_ROOT, [], null, null);
   return { byId, collectionIds };
 }
 
