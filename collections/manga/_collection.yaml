@@ -1,0 +1,6 @@
+id: 5d41d785-6344-4d62-9367-cc88d766ed2e
+name: Manga
+type: collection
+description: >
+  Japanese comic series, collected by tankōbon volume. Each series is its
+  own nested collection.
