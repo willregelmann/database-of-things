@@ -1,0 +1,13 @@
+id: bc778996-0322-4f0d-abce-337ecd7a1771
+name: "Lance"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "28/302"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Rob Alexander"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/7/a7aa3a93-3765-49f0-8ff2-b6843509c34a.jpg?1783948650

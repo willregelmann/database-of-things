@@ -1,0 +1,13 @@
+id: 738e8d4a-ca48-452d-910e-b2f5da24f4ad
+name: "Demonic Hordes"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "104/302"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{3}{B}{B}{B}"
+  card_type: "Creature — Demon"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/d/c/dc20c19b-7216-4f23-a3bb-70d4dcd3865e.jpg?1783948634

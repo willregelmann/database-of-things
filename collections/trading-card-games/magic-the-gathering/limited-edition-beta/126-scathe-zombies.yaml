@@ -1,0 +1,13 @@
+id: 0418385d-72b6-4105-aec1-fbb893a86ee8
+name: "Scathe Zombies"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "126/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{2}{B}"
+  card_type: "Creature — Zombie"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/3/a30abb09-2f80-46cf-a839-b4dac5c23dce.jpg?1783948630

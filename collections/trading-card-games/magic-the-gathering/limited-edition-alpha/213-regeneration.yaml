@@ -1,0 +1,13 @@
+id: 2f8ca68c-22a5-4490-8823-da347828359f
+name: "Regeneration"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "213/295"
+  rarity: Common
+  colors: [G]
+  mana_cost: "{1}{G}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Quinton Hoover"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/7/b7b7aa34-b4f8-41b4-82ce-ab2e204c3bf4.jpg?1783948673

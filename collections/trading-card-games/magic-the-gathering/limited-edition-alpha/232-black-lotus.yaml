@@ -1,0 +1,12 @@
+id: 5aa27bed-794e-4b7a-a432-b116f32326f3
+name: "Black Lotus"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "232/295"
+  rarity: Rare
+  mana_cost: "{0}"
+  card_type: "Artifact"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/0/b0faa7f2-b547-42c4-a810-839da50dadfe.jpg?1783948669

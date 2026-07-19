@@ -1,0 +1,13 @@
+id: d62b57bf-f682-4bd4-982f-548547e269c0
+name: "Mesa Pegasus"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "29/302"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Creature — Pegasus"
+  illustrator: "Melissa A. Benson"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/5/55bff46a-6725-4918-9bdf-38efaaf50236.jpg?1783948650

@@ -1,0 +1,13 @@
+id: 7c3ea771-16dd-4799-9cb1-1e44923cb1e9
+name: "Lich"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "114/302"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{B}{B}{B}{B}"
+  card_type: "Enchantment"
+  illustrator: "Daniel Gelon"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/5/e5a9c089-0aad-4c14-9bfc-c0b39c976777.jpg?1783948632

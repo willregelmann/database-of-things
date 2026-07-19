@@ -1,0 +1,13 @@
+id: ed8e92d0-81b0-40f6-876b-74bf3915629e
+name: "Evil Presence"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "108/302"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{B}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/e/9e995f4b-efd3-4ac7-8fec-adb913294815.jpg?1783948633

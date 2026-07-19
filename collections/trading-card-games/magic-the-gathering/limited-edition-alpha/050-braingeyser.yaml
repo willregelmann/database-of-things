@@ -1,0 +1,13 @@
+id: 25c078da-1294-4505-a5d0-9db826aed724
+name: "Braingeyser"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "50/295"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{X}{U}{U}"
+  card_type: "Sorcery"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/2/62b19a12-6914-430e-81ce-dcfca47884df.jpg?1783948707

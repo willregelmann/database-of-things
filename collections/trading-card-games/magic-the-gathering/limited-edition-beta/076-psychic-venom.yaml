@@ -1,0 +1,13 @@
+id: abca8c5d-6074-43e0-9f63-bd527ee948dc
+name: "Psychic Venom"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "76/302"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{1}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Brian Snõddy"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/5/e5c8a81f-bf05-4504-ac87-4fd4b41e88c1.jpg?1783948640

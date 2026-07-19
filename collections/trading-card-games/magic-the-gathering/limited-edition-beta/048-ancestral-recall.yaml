@@ -1,0 +1,13 @@
+id: ebf26720-e050-409d-9316-951790df7622
+name: "Ancestral Recall"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "48/302"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{U}"
+  card_type: "Instant"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/4/6/46b0a5c2-ac85-448e-9e87-12fc74fd4147.jpg?1783948647

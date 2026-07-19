@@ -1,0 +1,13 @@
+id: e6dbb18e-f110-4f07-ad5d-241967f1024d
+name: "Twiddle"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "86/302"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{U}"
+  card_type: "Instant"
+  illustrator: "Rob Alexander"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/4/34bd24da-f156-494e-86cb-80707863e40b.jpg?1783948638

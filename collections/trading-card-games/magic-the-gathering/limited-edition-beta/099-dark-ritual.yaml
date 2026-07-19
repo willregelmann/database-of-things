@@ -1,0 +1,13 @@
+id: e00f3b1a-544e-44b3-b3dc-28bae5bbf37c
+name: "Dark Ritual"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "99/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{B}"
+  card_type: "Instant"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/6/0690f724-eb95-416b-b064-f1239e2a30e8.jpg?1783948636

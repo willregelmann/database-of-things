@@ -1,0 +1,12 @@
+id: 29b30ab5-f8da-451e-bf12-e6f17c6ca775
+name: "Copper Tablet"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "238/295"
+  rarity: Uncommon
+  mana_cost: "{2}"
+  card_type: "Artifact"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/0/30935e4a-013e-4c46-ad05-304df8e5dfa4.jpg?1783948667

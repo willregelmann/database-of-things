@@ -1,0 +1,13 @@
+id: 4980ac38-ec11-4ff2-b64f-111c7cc8a7e6
+name: "Sedge Troll"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "173/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{2}{R}"
+  card_type: "Creature — Troll"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/2/02ec317b-52a6-4490-80e5-a56826b06771.jpg?1783948620

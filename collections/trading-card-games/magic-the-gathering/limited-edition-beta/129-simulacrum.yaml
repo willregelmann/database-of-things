@@ -1,0 +1,13 @@
+id: b38170e6-6076-4217-a087-d170edcddd4b
+name: "Simulacrum"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "129/302"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{1}{B}"
+  card_type: "Instant"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/b/5bcda143-55f8-4d02-918f-975d9090d03f.jpg?1783948629

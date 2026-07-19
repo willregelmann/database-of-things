@@ -1,0 +1,13 @@
+id: c6b33afe-fa6a-4d9c-999f-0a2f75b76ac4
+name: "Air Elemental"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "47/302"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{3}{U}{U}"
+  card_type: "Creature — Elemental"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/6/36a94a6d-26b1-4486-9444-ec366e6f4d6e.jpg?1783948647

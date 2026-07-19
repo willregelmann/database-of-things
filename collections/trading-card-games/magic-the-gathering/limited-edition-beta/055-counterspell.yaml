@@ -1,0 +1,13 @@
+id: 2049ffb9-cf0a-4110-8ca6-e1c8db9b4a26
+name: "Counterspell"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "55/302"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{U}{U}"
+  card_type: "Instant"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/e/9e11bf7c-f439-4529-b29a-d711359807ef.jpg?1783948644

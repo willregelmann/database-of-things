@@ -1,0 +1,13 @@
+id: 3182095c-5613-435b-b291-4144ff157e91
+name: "Scryb Sprites"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "216/302"
+  rarity: Common
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Creature — Faerie"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/a/fafe9639-e9d0-4aa2-8a16-f4ec24c140c0.jpg?1783948611

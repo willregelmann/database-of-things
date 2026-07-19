@@ -1,0 +1,13 @@
+id: cc903818-e9d7-45d5-8820-23e2c14445fb
+name: "Verduran Enchantress"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "223/302"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{1}{G}{G}"
+  card_type: "Creature — Human Druid"
+  illustrator: "Kev Brockschmidt"
+image:
+  source_url: https://cards.scryfall.io/large/front/d/a/da3f051c-6be3-4f92-8f66-9f72d75dbcf5.jpg?1783948610

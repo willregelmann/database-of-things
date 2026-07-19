@@ -1,0 +1,13 @@
+id: 7df8f26d-0602-490c-8ca8-a9102a390ba5
+name: "Smoke"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "176/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{R}{R}"
+  card_type: "Enchantment"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/e/7eb0cb82-d930-43c3-a6d6-f947018d45d6.jpg?1783948619

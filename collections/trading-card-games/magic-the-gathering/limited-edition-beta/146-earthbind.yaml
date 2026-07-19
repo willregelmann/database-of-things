@@ -1,0 +1,13 @@
+id: fef008f6-2567-4c51-8c15-d12170fdc1c6
+name: "Earthbind"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "146/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{R}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Quinton Hoover"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/5/e5955a9d-8a0e-4e57-9433-ed3392b2f308.jpg?1783948626

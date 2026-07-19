@@ -1,0 +1,12 @@
+id: c7b74af1-105a-49a1-809c-b34cd121f92b
+name: "Crystal Rod"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "239/295"
+  rarity: Uncommon
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/6/76693233-7961-4b7e-80f2-ed90e494c4aa.jpg?1783948668

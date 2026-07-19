@@ -1,0 +1,13 @@
+id: 56e8ca05-b126-4f6e-813c-16e5668fc2dc
+name: "Steal Artifact"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "82/302"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{2}{U}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/2/92c14d4d-abaa-411a-aaa1-0b79fccee8c1.jpg?1783948639

@@ -1,0 +1,12 @@
+id: a5b9a2a1-f6b8-4d39-89cb-1fc560329719
+name: "Conservator"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "237/295"
+  rarity: Uncommon
+  mana_cost: "{4}"
+  card_type: "Artifact"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/7/c7824e2a-4eff-4f72-9216-0db30a4f4252.jpg?1783948668

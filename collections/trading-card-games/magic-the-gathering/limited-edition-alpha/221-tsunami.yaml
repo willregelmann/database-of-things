@@ -1,0 +1,13 @@
+id: c043e51e-945c-459c-9d08-a11f33aaf073
+name: "Tsunami"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "221/295"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{3}{G}"
+  card_type: "Sorcery"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/e/9ed67d61-cf47-446b-b454-eb404a8686b7.jpg?1783948672

@@ -1,0 +1,13 @@
+id: 65e220ec-ca82-4566-8bf3-f043cb413e59
+name: "Chaoslace"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "140/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{R}"
+  card_type: "Instant"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/d/9/d980e9c0-db88-41f9-8dbf-89f0e1ac6c20.jpg?1783948628

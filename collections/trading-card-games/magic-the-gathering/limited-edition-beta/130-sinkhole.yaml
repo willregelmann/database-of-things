@@ -1,0 +1,13 @@
+id: 242efd71-3560-4ca9-9423-87226ae6b1ab
+name: "Sinkhole"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "130/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{B}{B}"
+  card_type: "Sorcery"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/2/52ea4387-f23c-430c-99d6-0248a4ab1713.jpg?1783948629

@@ -1,0 +1,13 @@
+id: 1606be99-00f0-4c77-80cc-2f61731400b0
+name: "Aspect of Wolf"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "185/302"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{1}{G}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Jeff A. Menges"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/6/36f7dc8e-e02a-4ceb-8767-2875f86e6811.jpg?1783948617

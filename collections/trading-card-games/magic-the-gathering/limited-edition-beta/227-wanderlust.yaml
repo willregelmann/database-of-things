@@ -1,0 +1,13 @@
+id: 08fa72cb-7cfd-4128-abba-24be282c6cae
+name: "Wanderlust"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "227/302"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{2}{G}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Cornelius Brudi"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/9/393f08a2-7aa8-443f-aab5-4287240e9167.jpg?1783948609

@@ -1,0 +1,13 @@
+id: eb0664f3-ba36-4a0b-a65d-a55cf4595bcc
+name: "Timetwister"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "84/295"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{2}{U}"
+  card_type: "Sorcery"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/a/9a49dc44-616e-4bdd-8220-0bb71eccc512.jpg?1783948700

@@ -1,0 +1,13 @@
+id: b8a371d7-5d54-41e0-83b0-83454202ffd4
+name: "Regrowth"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "214/295"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{1}{G}"
+  card_type: "Sorcery"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/a/badc73ec-3728-4246-90c7-5f4eb7051ed5.jpg?1783948673

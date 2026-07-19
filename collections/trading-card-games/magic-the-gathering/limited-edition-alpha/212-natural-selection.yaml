@@ -1,0 +1,13 @@
+id: bb64d135-0be0-4701-a89e-47adf5704c87
+name: "Natural Selection"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "212/295"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Instant"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/8/a8917dc8-01c0-4e72-9310-c4d501775411.jpg?1783948673

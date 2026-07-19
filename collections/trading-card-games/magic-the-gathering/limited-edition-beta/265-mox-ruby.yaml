@@ -1,0 +1,12 @@
+id: 1cf5f26a-9678-4daa-92e7-12f5bf09858a
+name: "Mox Ruby"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "265/302"
+  rarity: Rare
+  mana_cost: "{0}"
+  card_type: "Artifact"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/d/fdac742b-16db-4e03-be8f-c600dbd522d5.jpg?1783948600

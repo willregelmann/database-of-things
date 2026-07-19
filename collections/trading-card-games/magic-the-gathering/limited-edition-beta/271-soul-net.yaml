@@ -1,0 +1,12 @@
+id: ac268919-e1aa-44de-9470-3eee9b05920a
+name: "Soul Net"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "271/302"
+  rarity: Uncommon
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/8/08ba41ec-4fff-4192-80ff-2afcd706ea59.jpg?1783948601

@@ -1,0 +1,12 @@
+id: 0c9d5638-12dd-4496-ad4c-3b5d935c6291
+name: "Sol Ring"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "269/295"
+  rarity: Uncommon
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/4/c4300d24-1cae-4dd5-be7e-38cc677cf5bd.jpg?1783948661

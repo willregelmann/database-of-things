@@ -1,0 +1,13 @@
+id: 20e061e8-fecc-49d0-a131-bf216aad7278
+name: "Plague Rats"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "122/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{2}{B}"
+  card_type: "Creature — Rat"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/9/995b58e6-5c69-4fdf-9c41-61cef7a610c4.jpg?1783948630

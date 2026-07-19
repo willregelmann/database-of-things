@@ -1,0 +1,13 @@
+id: 8d8a2b65-4e0d-447d-a430-6123b353c4ee
+name: "Power Surge"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "168/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{R}{R}"
+  card_type: "Enchantment"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/5/f52eb10a-a9eb-44b7-95ae-12fb551c8fa5.jpg?1783948621

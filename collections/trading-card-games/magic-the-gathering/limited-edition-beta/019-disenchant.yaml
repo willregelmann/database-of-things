@@ -1,0 +1,13 @@
+id: 1b495774-239e-4e33-bad1-7c9308e2feef
+name: "Disenchant"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "19/302"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Instant"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/d/9d61d0a5-7e92-4413-9121-925e1876b64d.jpg?1783948652

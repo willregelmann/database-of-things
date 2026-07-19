@@ -1,0 +1,13 @@
+id: 4620051c-894c-4ed5-ac91-439537e9261e
+name: "Earth Elemental"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "145/302"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{3}{R}{R}"
+  card_type: "Creature — Elemental"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/4/c427e8cc-d908-4b88-931d-a540fc8bfe74.jpg?1783948626

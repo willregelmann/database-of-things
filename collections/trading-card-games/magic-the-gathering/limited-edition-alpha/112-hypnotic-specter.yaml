@@ -1,0 +1,13 @@
+id: 06ec9987-ce5c-4ef4-8dd3-19e9acd57168
+name: "Hypnotic Specter"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "112/295"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{1}{B}{B}"
+  card_type: "Creature — Specter"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/4/b43b900f-2d9b-442b-9699-058483604ec9.jpg?1783948694

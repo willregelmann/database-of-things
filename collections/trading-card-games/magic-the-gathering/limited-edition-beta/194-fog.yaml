@@ -1,0 +1,13 @@
+id: 8ef81085-a0b7-4ca5-962d-5a184bb5a831
+name: "Fog"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "194/302"
+  rarity: Common
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Instant"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/4/f4e9597a-4489-47e9-8b15-888acb402ddd.jpg?1783948616

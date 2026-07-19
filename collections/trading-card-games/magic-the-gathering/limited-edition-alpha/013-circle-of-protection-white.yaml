@@ -1,0 +1,13 @@
+id: 6e82893e-e566-483a-8838-92124567fa0f
+name: "Circle of Protection: White"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "13/295"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Enchantment"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/2/92df19c9-e127-42d9-8dd2-7fa5a7095428.jpg?1783948715

@@ -1,0 +1,13 @@
+id: 3e98c9e2-f064-47fb-acef-cb2b171907d4
+name: "Pirate Ship"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "70/295"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{4}{U}"
+  card_type: "Creature — Human Pirate"
+  illustrator: "Tom Wänerstrand"
+image:
+  source_url: https://cards.scryfall.io/large/front/d/0/d0a7cb23-d229-43c5-addd-dcf423984b0c.jpg?1783948703

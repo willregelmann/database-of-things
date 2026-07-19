@@ -1,0 +1,13 @@
+id: b85c9010-328f-41fd-a2fd-6b1a584ff5ac
+name: "Lord of Atlantis"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "63/302"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{U}{U}"
+  card_type: "Creature — Merfolk"
+  illustrator: "Melissa A. Benson"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/7/27d7ac1f-2243-4c70-95a4-2b7343c8d92d.jpg?1783948643

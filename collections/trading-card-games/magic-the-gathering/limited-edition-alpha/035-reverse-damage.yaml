@@ -1,0 +1,13 @@
+id: c865988d-9202-4dc6-acec-b2a6b55071e1
+name: "Reverse Damage"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "35/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{1}{W}{W}"
+  card_type: "Instant"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/4/943baea8-b173-4863-a3ab-dd217d483cd9.jpg?1783948711

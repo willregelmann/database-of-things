@@ -1,0 +1,12 @@
+id: 11c3cc72-c007-41f4-a27d-822a26aae479
+name: "Jade Statue"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "253/295"
+  rarity: Uncommon
+  mana_cost: "{4}"
+  card_type: "Artifact"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/d/8d82d94b-ceef-4533-a4f2-b6442a61b839.jpg?1783948664

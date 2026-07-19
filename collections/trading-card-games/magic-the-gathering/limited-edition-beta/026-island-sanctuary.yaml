@@ -1,0 +1,13 @@
+id: 6ed18f36-0f68-48bd-b384-0e7a2895ed36
+name: "Island Sanctuary"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "26/302"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Enchantment"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/7/273fb2b6-3d11-4f0d-9fb0-0364353c2060.jpg?1783948650

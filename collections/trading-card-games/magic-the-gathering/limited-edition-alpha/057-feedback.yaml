@@ -1,0 +1,13 @@
+id: 27714999-4c9c-43d8-bc6f-008b230b1058
+name: "Feedback"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "57/295"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{2}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Quinton Hoover"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/e/0eb8f591-d763-49bf-8ef9-86265aaa72f7.jpg?1783948705

@@ -1,0 +1,13 @@
+id: d7d398f6-1b38-4821-bca4-79bec626f751
+name: "Dwarven Warriors"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "144/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{2}{R}"
+  card_type: "Creature — Dwarf Warrior"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/0/c0de88cf-b9e5-4611-a16f-2787d8d9d269.jpg?1783948626

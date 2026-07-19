@@ -1,0 +1,13 @@
+id: 52f08386-2e45-479d-b354-f571ffd48604
+name: "Animate Dead"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "92/295"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{1}{B}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/f/8fd7861d-925f-4b4c-a4ab-60be6f43d50b.jpg?1783948699

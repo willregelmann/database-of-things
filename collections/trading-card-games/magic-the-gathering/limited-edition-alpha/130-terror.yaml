@@ -1,0 +1,13 @@
+id: fe2305e8-d84e-4d77-8763-094f7d762840
+name: "Terror"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "130/295"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{1}{B}"
+  card_type: "Instant"
+  illustrator: "Ron Spencer"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/1/21004958-2c7e-4a55-bc80-411c4d780106.jpg?1783948690

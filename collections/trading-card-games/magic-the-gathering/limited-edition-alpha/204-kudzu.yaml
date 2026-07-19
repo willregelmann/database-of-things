@@ -1,0 +1,13 @@
+id: 096d619e-87ea-47a7-9186-578577d7d5f9
+name: "Kudzu"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "204/295"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{1}{G}{G}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/2/b2b72dcd-9ea1-4729-baae-ecd262fdff67.jpg?1783948675

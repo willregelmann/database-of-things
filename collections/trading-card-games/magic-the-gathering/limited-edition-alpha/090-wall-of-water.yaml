@@ -1,0 +1,13 @@
+id: 0975088d-990d-477f-a2fb-f94865561837
+name: "Wall of Water"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "90/295"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{1}{U}{U}"
+  card_type: "Creature — Wall"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/4/1/41faed1a-ded8-49ee-8e2a-c60d377775d7.jpg?1783948699

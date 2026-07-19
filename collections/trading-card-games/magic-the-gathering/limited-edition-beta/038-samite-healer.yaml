@@ -1,0 +1,13 @@
+id: a358e3d2-8246-4964-aa4e-e3123e0ec4b2
+name: "Samite Healer"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "38/302"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Creature — Human Cleric"
+  illustrator: "Tom Wänerstrand"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/f/3fbfb106-29d8-4065-b306-51dba0ed11a4.jpg?1783948648

@@ -1,0 +1,11 @@
+id: 5daf1046-e44b-41d9-9d64-55d5c495a7ef
+name: "Plains"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "288/302"
+  rarity: Common
+  card_type: "Basic Land — Plains"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/7/b7331b03-be66-419c-94bc-ed494c042ea3.jpg?1783948595

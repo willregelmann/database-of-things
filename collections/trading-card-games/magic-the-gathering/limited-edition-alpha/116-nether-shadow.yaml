@@ -1,0 +1,13 @@
+id: 57ca4902-8160-4837-9f6c-78a2395fcff6
+name: "Nether Shadow"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "116/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{B}{B}"
+  card_type: "Creature — Spirit"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/1/f13ad58a-6f9b-420a-bac1-40929f5e616a.jpg?1783948693

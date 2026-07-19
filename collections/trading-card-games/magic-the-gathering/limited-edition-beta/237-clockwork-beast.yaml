@@ -1,0 +1,12 @@
+id: 28d5d1e5-7679-4baa-bbc1-53a0431dd08e
+name: "Clockwork Beast"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "237/302"
+  rarity: Rare
+  mana_cost: "{6}"
+  card_type: "Artifact Creature — Beast"
+  illustrator: "Drew Tucker"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/c/6c6efe95-ae57-4ff1-8f8a-0d6f3bd36d9c.jpg?1783948607

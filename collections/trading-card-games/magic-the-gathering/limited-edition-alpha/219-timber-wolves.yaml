@@ -1,0 +1,13 @@
+id: 1d31a07f-3414-461f-9fdb-c5d781e977f3
+name: "Timber Wolves"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "219/295"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Creature — Wolf"
+  illustrator: "Melissa A. Benson"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/c/bc2570a4-eef9-430d-b6c2-cd51d29b9d01.jpg?1783948672

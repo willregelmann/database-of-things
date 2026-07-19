@@ -1,0 +1,13 @@
+id: 7d5b9a54-294e-4c0c-8065-3b069c730a75
+name: "Manabarbs"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "163/295"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{3}{R}"
+  card_type: "Enchantment"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/1/6121f72f-680f-4bb4-ae4d-37ee4ebed4d8.jpg?1783948683

@@ -1,0 +1,12 @@
+id: 82ef3d89-4f7d-482c-a6f6-c6fa052e23e6
+name: "Rod of Ruin"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "268/295"
+  rarity: Uncommon
+  mana_cost: "{4}"
+  card_type: "Artifact"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/f/af957200-c538-4f52-b105-6db7a7abb4dc.jpg?1783948662

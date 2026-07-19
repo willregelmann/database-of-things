@@ -1,0 +1,13 @@
+id: 3e352f71-7e19-47ab-bf9b-e1f59f315d29
+name: "Channel"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "189/302"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{G}{G}"
+  card_type: "Sorcery"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/f/6fa6468a-335a-467d-aef6-e537af9d5c1c.jpg?1783948616

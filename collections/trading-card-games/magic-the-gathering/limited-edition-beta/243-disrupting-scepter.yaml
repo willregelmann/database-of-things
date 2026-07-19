@@ -1,0 +1,12 @@
+id: 6fb5959c-66ed-4aad-916a-3027a87fc49a
+name: "Disrupting Scepter"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "243/302"
+  rarity: Rare
+  mana_cost: "{3}"
+  card_type: "Artifact"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/e/ae91e07c-ad6d-41d9-bd65-184f92761334.jpg?1783948605

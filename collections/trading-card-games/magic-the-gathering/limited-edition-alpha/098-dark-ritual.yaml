@@ -1,0 +1,13 @@
+id: fd598ac6-8c5a-4cf6-848e-047b611bd185
+name: "Dark Ritual"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "98/295"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{B}"
+  card_type: "Instant"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/b/ebb6664d-23ca-456e-9916-afcd6f26aa7f.jpg?1783948697

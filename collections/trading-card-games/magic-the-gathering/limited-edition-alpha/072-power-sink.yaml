@@ -1,0 +1,13 @@
+id: 215cec0a-bb56-43da-b143-e1de5592acd1
+name: "Power Sink"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "72/295"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{X}{U}"
+  card_type: "Instant"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/1/b/1b342dd3-09b9-4108-bf12-a65d4cef4eb9.jpg?1783948703

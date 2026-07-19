@@ -1,0 +1,13 @@
+id: 5df369c7-cd35-4839-8f61-b890774004f3
+name: "Spell Blast"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "79/295"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{X}{U}"
+  card_type: "Instant"
+  illustrator: "Brian Snõddy"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/4/845734da-ab03-4dbc-bb5f-96481d3b8e88.jpg?1783948701

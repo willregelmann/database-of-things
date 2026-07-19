@@ -1,0 +1,13 @@
+id: 47895e5b-8097-4fc0-beae-ad49e3e6e988
+name: "Holy Strength"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "24/295"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/9/e945a4cd-0eb1-4f54-898d-169ce2748a03.jpg?1783948712

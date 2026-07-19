@@ -1,0 +1,13 @@
+id: fd32874c-d490-4247-a604-514944865f73
+name: "Phantom Monster"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "69/295"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{3}{U}"
+  card_type: "Creature — Illusion"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/4/e46d2cf5-e8d0-4fb2-b950-252d52084b63.jpg?1783948703

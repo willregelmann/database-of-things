@@ -1,0 +1,13 @@
+id: 013e10fc-e50b-410d-9bb0-c6f75596751a
+name: "Serra Angel"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "39/295"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{3}{W}{W}"
+  card_type: "Creature — Angel"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/8/f8ac5006-91bd-4803-93da-f87cf196dd2f.jpg?1783948710

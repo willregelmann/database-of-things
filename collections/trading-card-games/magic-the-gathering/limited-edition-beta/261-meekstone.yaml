@@ -1,0 +1,12 @@
+id: ea56c451-099e-4b5a-9f86-169df7209b3c
+name: "Meekstone"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "261/302"
+  rarity: Rare
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Quinton Hoover"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/4/74b22007-9def-4c0f-921c-555483cc3deb.jpg?1783948601

@@ -1,0 +1,13 @@
+id: 86e55db1-151e-4bcc-97ee-ac31ca6f9e7c
+name: "Drain Power"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "57/302"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{U}{U}"
+  card_type: "Sorcery"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/6/9672caeb-5cf8-4b40-a371-005c911a67d9.jpg?1783948644

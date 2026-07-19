@@ -1,0 +1,13 @@
+id: a32fe290-a46d-4799-ad2d-f063eb11fe7d
+name: "Mana Flare"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "163/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{2}{R}"
+  card_type: "Enchantment"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/4/b44d3087-ced3-40e8-a63b-1733b7e7f34c.jpg?1783948622

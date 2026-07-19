@@ -1,0 +1,12 @@
+id: 88473cee-7d59-4b5d-9a0a-fcbb2a9f230f
+name: "Library of Leng"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "257/295"
+  rarity: Uncommon
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Daniel Gelon"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/3/2340edcb-8cd5-4ccd-99e2-b9a29f72c495.jpg?1783948664

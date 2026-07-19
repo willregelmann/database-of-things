@@ -1,0 +1,13 @@
+id: 3c467aab-a6fb-404c-a5c8-b213a2a62860
+name: "Blue Elemental Blast"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "49/295"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{U}"
+  card_type: "Instant"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/0/20d666ef-39bf-4fbf-8201-5f1056539da2.jpg?1783948707

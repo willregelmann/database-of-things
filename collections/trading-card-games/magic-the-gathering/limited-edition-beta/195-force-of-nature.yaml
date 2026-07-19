@@ -1,0 +1,13 @@
+id: d3ae00ff-c47e-4e68-aa1e-3e7f563d06c3
+name: "Force of Nature"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "195/302"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{2}{G}{G}{G}{G}"
+  card_type: "Creature — Elemental"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/2/c25a61b3-c828-491c-868d-e4eff770c1bb.jpg?1783948616

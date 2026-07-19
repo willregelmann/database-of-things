@@ -1,0 +1,12 @@
+id: f8332448-5f5a-41dc-89ae-b0e77c26a8f7
+name: "Iron Star"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "250/295"
+  rarity: Uncommon
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/7/5786de12-cade-43c2-a6b0-0c5b294b9d0e.jpg?1783948665

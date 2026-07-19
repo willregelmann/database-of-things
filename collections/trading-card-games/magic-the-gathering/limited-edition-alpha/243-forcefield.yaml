@@ -1,0 +1,12 @@
+id: f9c27edb-5774-4b5a-a64e-a60ebad99992
+name: "Forcefield"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "243/295"
+  rarity: Rare
+  mana_cost: "{3}"
+  card_type: "Artifact"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/f/3f2004c1-8efe-407f-bf48-27b807422eea.jpg?1783948667

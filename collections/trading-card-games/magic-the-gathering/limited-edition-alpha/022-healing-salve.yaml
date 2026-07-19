@@ -1,0 +1,13 @@
+id: 5b086c5a-eed0-494c-87a6-1e08a3d17679
+name: "Healing Salve"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "22/295"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Instant"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/2/e28de37e-84d5-4dc7-b36c-e14da5924729.jpg?1783948713

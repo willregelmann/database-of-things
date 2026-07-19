@@ -1,0 +1,13 @@
+id: af54e9c8-fc5b-4006-8e8b-93be9fa672ed
+name: "Green Ward"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "21/302"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/4/a488ce63-1adb-4051-9521-703bad8d02f6.jpg?1783948652

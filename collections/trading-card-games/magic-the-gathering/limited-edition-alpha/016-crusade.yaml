@@ -1,0 +1,13 @@
+id: 766c4489-a532-4da6-9d63-76912422eda7
+name: "Crusade"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "16/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{W}{W}"
+  card_type: "Enchantment"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/5/057986c7-20c0-4157-b4df-beae4ef5c66d.jpg?1783948714

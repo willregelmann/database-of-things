@@ -1,0 +1,13 @@
+id: 244399e0-3eef-412f-8c5a-17f3f290467a
+name: "Phantasmal Terrain"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "69/302"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{U}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/c/9c29369c-d909-45a7-be70-3181ddac9728.jpg?1783948642

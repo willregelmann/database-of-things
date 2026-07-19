@@ -1,0 +1,13 @@
+id: b3092674-d767-41e2-b59a-658c85a50b41
+name: "Northern Paladin"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "30/302"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{2}{W}{W}"
+  card_type: "Creature — Human Knight"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/4/b/4ba8493c-ae69-48d1-a050-a887ae27c83f.jpg?1783948650

@@ -1,0 +1,11 @@
+id: 5f242f52-e542-4a65-8af2-2ca9bba45813
+name: "Forest"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "301/302"
+  rarity: Common
+  card_type: "Basic Land — Forest"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/9/89ad91fc-50c2-44e0-b88e-2c13610377f9.jpg?1783948592

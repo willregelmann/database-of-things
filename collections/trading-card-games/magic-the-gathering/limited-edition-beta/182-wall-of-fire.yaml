@@ -1,0 +1,13 @@
+id: c32e2002-b45b-41c8-9f55-ef86045626e2
+name: "Wall of Fire"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "182/302"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{1}{R}{R}"
+  card_type: "Creature — Wall"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/8/88baaea5-69ec-4756-86c2-9c9d73ca8ef1.jpg?1783948618
