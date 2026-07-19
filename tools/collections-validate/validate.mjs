@@ -7,13 +7,14 @@ import Ajv from 'ajv';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const COLLECTIONS_ROOT = path.join(REPO_ROOT, 'collections');
+const TAGS_ROOT = path.join(REPO_ROOT, 'tags');
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
-const TAG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
-const seenIds = new Map();
+const seenIds = new Map(); // id -> { filePath, type }
 const componentRefs = []; // { filePath, id }
+const tagRefs = []; // { filePath, id }
 const errors = [];
 
 function rel(p) {
@@ -46,18 +47,20 @@ function validateEntityStructure(filePath, data) {
   }
   if (data.tags !== undefined) {
     if (!Array.isArray(data.tags)) {
-      errors.push(`${rel(filePath)}: "tags" must be an array of strings`);
+      errors.push(`${rel(filePath)}: "tags" must be an array of ids`);
     } else {
-      const seenTags = new Set();
-      for (const tag of data.tags) {
-        if (typeof tag !== 'string' || !TAG_RE.test(tag)) {
-          errors.push(
-            `${rel(filePath)}: invalid tag ${JSON.stringify(tag)} — must be lowercase and hyphenated (e.g. "pokemon", "star-wars")`
-          );
-        } else if (seenTags.has(tag)) {
-          errors.push(`${rel(filePath)}: duplicate tag "${tag}"`);
+      const seenTagIds = new Set();
+      for (const ref of data.tags) {
+        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
+          errors.push(`${rel(filePath)}: invalid tag id ${JSON.stringify(ref)} — must be a UUID (see tags/)`);
         } else {
-          seenTags.add(tag);
+          const key = ref.toLowerCase();
+          if (seenTagIds.has(key)) {
+            errors.push(`${rel(filePath)}: duplicate tag id ${ref}`);
+          } else {
+            seenTagIds.add(key);
+          }
+          tagRefs.push({ filePath, id: key });
         }
       }
     }
@@ -82,9 +85,9 @@ function validateEntityStructure(filePath, data) {
       const key = data.id.toLowerCase();
       const existing = seenIds.get(key);
       if (existing) {
-        errors.push(`${rel(filePath)}: duplicate id ${data.id} (also used by ${rel(existing)})`);
+        errors.push(`${rel(filePath)}: duplicate id ${data.id} (also used by ${rel(existing.filePath)})`);
       } else {
-        seenIds.set(key, filePath);
+        seenIds.set(key, { filePath, type: data.type });
       }
     }
   }
@@ -115,7 +118,8 @@ function walk(dir, inherited) {
     errors.push(`${rel(dir)}: contains entity files but has no template.schema.json (own or inherited)`);
   }
   const isComponentsDir = path.basename(dir).startsWith('_');
-  if (dir !== COLLECTIONS_ROOT && !isComponentsDir && !files.includes('_collection.yaml')) {
+  const isRoot = dir === COLLECTIONS_ROOT || dir === TAGS_ROOT;
+  if (!isRoot && !isComponentsDir && !files.includes('_collection.yaml')) {
     errors.push(`${rel(dir)}: missing _collection.yaml`);
   }
 
@@ -143,16 +147,28 @@ function walk(dir, inherited) {
   }
 }
 
-if (!fs.existsSync(COLLECTIONS_ROOT)) {
-  console.error(`No collections/ directory found at ${COLLECTIONS_ROOT}`);
-  process.exit(1);
+for (const root of [COLLECTIONS_ROOT, TAGS_ROOT]) {
+  if (!fs.existsSync(root)) {
+    console.error(`No ${rel(root)}/ directory found at ${root}`);
+    process.exit(1);
+  }
 }
 
 walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null });
+walk(TAGS_ROOT, { claudeMdPath: null, schema: null });
 
 for (const { filePath, id } of componentRefs) {
   if (!seenIds.has(id)) {
     errors.push(`${rel(filePath)}: "components" references unknown id ${id}`);
+  }
+}
+
+for (const { filePath, id } of tagRefs) {
+  const entity = seenIds.get(id);
+  if (!entity) {
+    errors.push(`${rel(filePath)}: "tags" references unknown id ${id}`);
+  } else if (entity.type !== 'tag') {
+    errors.push(`${rel(filePath)}: "tags" entry ${id} resolves to a ${entity.type}, not a tag (${rel(entity.filePath)})`);
   }
 }
 
@@ -161,5 +177,5 @@ if (errors.length > 0) {
   for (const e of errors) console.error(`  - ${e}`);
   process.exit(1);
 } else {
-  console.log(`✓ collections/ valid (${seenIds.size} entities checked)`);
+  console.log(`✓ collections/ and tags/ valid (${seenIds.size} entities checked)`);
 }

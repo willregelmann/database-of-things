@@ -86,9 +86,9 @@ against everything gathered:
   canonical-number prefix and zero-padding width, disambiguation rules).
 - `date` format, precision, and rollup-from-earliest-child rules followed
   (root `CLAUDE.md`'s "Dates" section).
-- `tags`, if present: lowercase-hyphenated, rarely more than 5, not
-  restating the hierarchy or a structured attribute (root `CLAUDE.md`'s
-  "Tags" section).
+- `tags`, if present: ids referencing real `tags/` entities (not freeform
+  strings), rarely more than 5, not restating the hierarchy or a
+  structured attribute (root `CLAUDE.md`'s "Tags" section).
 - `image.source_url` / logo guidance followed where it applies (root
   `CLAUDE.md`'s "Logos" section) — authoritative source, belongs to the
   entity itself, actually resolves.
