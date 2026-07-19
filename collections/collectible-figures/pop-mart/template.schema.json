@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "POP MART attributes",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string",
+      "enum": ["Vinyl Figure", "Vinyl Plush"]
+    },
+    "secret": { "type": "boolean" },
+    "secret_odds": { "type": "string" },
+    "manufacturer": { "type": "string" },
+    "exclusive_to": { "type": "string" }
+  },
+  "additionalProperties": true
+}
