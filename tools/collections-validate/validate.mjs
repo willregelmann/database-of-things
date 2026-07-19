@@ -9,6 +9,7 @@ const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const COLLECTIONS_ROOT = path.join(REPO_ROOT, 'collections');
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
+const TAG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 const seenIds = new Map();
@@ -40,6 +41,24 @@ function validateEntityStructure(filePath, data) {
       errors.push(
         `${rel(filePath)}: "date" must be a quoted string in YYYY, YYYY-MM, or YYYY-MM-DD format: ${JSON.stringify(data.date)}`
       );
+    }
+  }
+  if (data.tags !== undefined) {
+    if (!Array.isArray(data.tags)) {
+      errors.push(`${rel(filePath)}: "tags" must be an array of strings`);
+    } else {
+      const seenTags = new Set();
+      for (const tag of data.tags) {
+        if (typeof tag !== 'string' || !TAG_RE.test(tag)) {
+          errors.push(
+            `${rel(filePath)}: invalid tag ${JSON.stringify(tag)} — must be lowercase and hyphenated (e.g. "pokemon", "star-wars")`
+          );
+        } else if (seenTags.has(tag)) {
+          errors.push(`${rel(filePath)}: duplicate tag "${tag}"`);
+        } else {
+          seenTags.add(tag);
+        }
+      }
     }
   }
   if (data.id) {
