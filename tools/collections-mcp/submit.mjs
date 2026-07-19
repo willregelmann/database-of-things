@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { REPO_ROOT } from './lib/repo.mjs';
@@ -72,9 +74,25 @@ function buildIssue(flag) {
   return { title: flag.title, body };
 }
 
+// The one path that must still exist on disk for this entry to be
+// legitimately submittable. A create/update's `path` or a rename's
+// `newPath` going missing means something deleted the file out-of-band
+// after the changelog entry was written (e.g. a stale scratch-test
+// leftover) -- stale entries like that must never take the whole batch
+// down with them.
+function survivingPath(entry) {
+  return entry.kind === 'rename' ? entry.newPath : entry.path;
+}
+
 const entries = readAll();
-const changes = entries.filter((e) => e.kind === 'item' || e.kind === 'collection' || e.kind === 'rename');
+const rawChanges = entries.filter((e) => e.kind === 'item' || e.kind === 'collection' || e.kind === 'rename');
 const flags = entries.filter((e) => e.kind === 'flag');
+
+const changes = rawChanges.filter((e) => fs.existsSync(path.join(REPO_ROOT, survivingPath(e))));
+const stale = rawChanges.filter((e) => !fs.existsSync(path.join(REPO_ROOT, survivingPath(e))));
+for (const e of stale) {
+  console.log(`skipping stale changelog entry (path no longer exists): ${survivingPath(e)}`);
+}
 
 if (entries.length === 0) {
   console.log('no changelog entries — nothing to submit');
@@ -100,16 +118,22 @@ if (changes.length > 0) {
   console.log(`body:\n${body}`);
 
   if (!DRY_RUN) {
-    git(['checkout', '-b', branch]);
-    git(['add', ...paths]);
-    git(['commit', '-m', `${title}\n\n${body}`]);
-    git(['push', '-u', 'origin', branch]);
-    const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch], {
-      cwd: REPO_ROOT,
-      encoding: 'utf8',
-    }).trim();
-    git(['checkout', originalBranch]);
-    console.log(`\nopened: ${prUrl}`);
+    try {
+      git(['checkout', '-b', branch]);
+      git(['add', ...paths]);
+      git(['commit', '-m', `${title}\n\n${body}`]);
+      git(['push', '-u', 'origin', branch]);
+      const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch], {
+        cwd: REPO_ROOT,
+        encoding: 'utf8',
+      }).trim();
+      console.log(`\nopened: ${prUrl}`);
+    } finally {
+      // Always get back to where we started, whatever failed and
+      // wherever it failed -- a half-finished PR attempt must never
+      // strand the working tree on a throwaway branch.
+      git(['checkout', originalBranch]);
+    }
   }
 }
 
