@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEGO set attributes",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "description": "Official LEGO set number as printed on the box, e.g. \"75192\"."
+    },
+    "pieceCount": {
+      "type": "integer",
+      "description": "Total piece count as stated on the official packaging."
+    },
+    "minifigCount": {
+      "type": "integer",
+      "description": "Number of minifigures included, if any."
+    }
+  },
+  "additionalProperties": true
+}
