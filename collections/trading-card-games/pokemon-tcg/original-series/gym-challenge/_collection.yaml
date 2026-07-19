@@ -3,11 +3,11 @@ name: Gym Challenge
 type: collection
 category: Trading Card Games
 description: >
-  The seventh and final expansion in the Original Series, published in
-  English by Wizards of the Coast on October 16, 2000. Spans 132 cards
-  themed around Kanto's remaining Gym Leaders and Team Rocket's boss —
-  Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, and Giovanni.
-date: "2000-10-16"
+  The seventh and final expansion in the Original Series, published in English
+  by Wizards of the Coast on October 16, 2000. Spans 132 cards themed around
+  Kanto's remaining Gym Leaders and Team Rocket's boss — Koga, Sabrina, Blaine,
+  and Giovanni.
+date: '2000-10-16'
 total_cards: 132
 image:
   source_url: https://images.pokemontcg.io/gym2/logo.png
