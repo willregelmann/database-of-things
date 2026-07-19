@@ -9,14 +9,17 @@ One pass, one randomly-chosen collection, may write — but only through the
 `collections-mcp` MCP tools, never by editing `collections/**` directly.
 That tool surface is deliberately narrow: `upsert_item`/`upsert_collection`
 can only patch field values or add a new item/nested collection record,
-and `rename_item` can rename a single item's file in place (same
-directory only) — nothing beyond that. No moving items between
-collections, no renaming/restructuring a whole collection directory, no
-authoring a new `CLAUDE.md` or `template.schema.json`. Anything a finding
-needs beyond that: call `flag_finding` instead — don't just mention it in
-your final report and leave it there, that's easy to miss and gets
-forgotten. `flag_finding` becomes a real GitHub issue after your session
-ends; text you only say in your final report doesn't durably go anywhere.
+`upsert_component` does the same for a collection's components bucket (e.g.
+a LEGO theme's minifigures — see collections/CLAUDE.md, "Components"), and
+`rename_item` can rename a single item's file in place (same directory
+only) — nothing beyond that. No moving items between collections, no
+renaming/restructuring a whole collection directory, no bootstrapping a
+brand-new components bucket, no authoring a new `CLAUDE.md` or
+`template.schema.json`. Anything a finding needs beyond that: call
+`flag_finding` instead — don't just mention it in your final report and
+leave it there, that's easy to miss and gets forgotten. `flag_finding`
+becomes a real GitHub issue after your session ends; text you only say in
+your final report doesn't durably go anywhere.
 
 This exists for the scheduled hourly job. For a manual, read-only audit
 (no writes, for when a human wants a report to review before touching
@@ -65,6 +68,9 @@ dimensions, just without the fix step.
 3. `get_collection_details(collection_id)` and, depending on what this
    collection actually contains, `list_items(collection_id)` and/or
    `list_collections(collection_id)` → orient on what's here.
+   `get_collection_details`'s `componentBuckets` field lists any components
+   buckets this collection has (e.g. `["minifigs"]`) — use
+   `list_components(collection_id, bucket)` to see what's in one.
 4. Audit the same three dimensions `collections-audit` does, using these
    tools for reads instead of raw files, and web search for verification:
    - **Conformance** — does this collection follow the CLAUDE.md chain from
@@ -88,14 +94,17 @@ dimensions, just without the fix step.
      verifying one.
 5. For each finding that's well-sourced:
    - **Fixable within the tool surface** (a wrong/missing field value, a
-     missing item, a missing nested collection record, or a single item's
-     file misnamed relative to its own correct content): call
-     `upsert_item`/`upsert_collection`/`rename_item` as appropriate.
+     missing item, a missing component in an existing bucket, a missing
+     nested collection record, or a single item's file misnamed relative to
+     its own correct content): call
+     `upsert_item`/`upsert_component`/`upsert_collection`/`rename_item` as
+     appropriate.
    - **Not fixable within the tool surface** (moving an item between
-     collections, restructuring a whole collection directory, a missing
-     sibling collection outside this one's scope, or genuine human
-     judgment): call `flag_finding` with a specific title and a body that
-     includes your source(s) and why the other tools can't handle it.
+     collections, restructuring a whole collection directory, bootstrapping
+     a brand-new components bucket, a missing sibling collection outside
+     this one's scope, or genuine human judgment): call `flag_finding` with
+     a specific title and a body that includes your source(s) and why the
+     other tools can't handle it.
      Only flag things you're confident are real and well-sourced — same
      discipline as a fix, just a different outcome.
    - Anything you can't confirm one way or the other: leave it alone

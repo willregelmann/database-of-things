@@ -5,7 +5,7 @@
 // operations, same validation/rollback, just invoked via Bash instead of
 // the MCP protocol.
 import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
-import { upsertItem, upsertCollection, renameItem } from './lib/mutate.mjs';
+import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 import fs from 'node:fs';
 
@@ -41,11 +41,19 @@ try {
     }
     case 'get-collection-details': {
       const node = getCollection(index, rest[0]);
-      out({ path: rel(node.path), ...node.data });
+      out({ path: rel(node.path), ...node.data, componentBuckets: Object.keys(node.componentBuckets) });
       break;
     }
     case 'list-items': {
       out(getCollection(index, rest[0]).childItems);
+      break;
+    }
+    case 'list-components': {
+      const [collectionId, bucket] = rest;
+      const node = getCollection(index, collectionId);
+      const bucketNode = node.componentBuckets[bucket];
+      if (!bucketNode) throw new Error(`collection ${collectionId} has no "_${bucket}" components bucket`);
+      out(bucketNode.items);
       break;
     }
     case 'list-collections': {
@@ -71,6 +79,13 @@ try {
       out(result);
       break;
     }
+    case 'upsert-component': {
+      const [collectionId, bucket, json] = rest;
+      const result = upsertComponent(index, { collectionId, bucket, item: JSON.parse(json) });
+      appendEntry({ kind: 'component', collectionId, bucket, ...result });
+      out(result);
+      break;
+    }
     case 'flag-finding': {
       const [collectionId, title, body] = rest;
       const node = getCollection(index, collectionId);
@@ -88,7 +103,7 @@ try {
     }
     default:
       throw new Error(
-        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>, rename-item <item_id> <new_filename>`
+        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-components <collection_id> <bucket>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-component <collection_id> <bucket> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>, rename-item <item_id> <new_filename>`
       );
   }
 } catch (err) {

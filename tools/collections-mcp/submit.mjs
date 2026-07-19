@@ -33,7 +33,7 @@ function formatEntry(entry) {
   if (entry.kind === 'rename') {
     return `- Renamed ${entry.entityKind} at \`${entry.oldPath}\` to \`${entry.newPath}\``;
   }
-  const label = entry.kind === 'item' ? 'item' : 'collection';
+  const label = entry.kind === 'item' ? 'item' : entry.kind === 'component' ? 'component' : 'collection';
   if (entry.action === 'create') {
     return `- Added ${label} **${entry.after.name}** (\`${entry.id}\`) at \`${entry.path}\``;
   }
@@ -88,7 +88,7 @@ function buildIssue(flag) {
   const body = [
     flag.body,
     '',
-    `_Collection: \`${flag.collectionPath}\` (id \`${flag.collectionId}\`). Filed automatically by the collections-audit-fix job — the collections-mcp tool surface (upsert_item/upsert_collection/rename_item) couldn't cover this one._`,
+    `_Collection: \`${flag.collectionPath}\` (id \`${flag.collectionId}\`). Filed automatically by the collections-audit-fix job — the collections-mcp tool surface (upsert_item/upsert_component/upsert_collection/rename_item) couldn't cover this one._`,
   ].join('\n');
   return { title: flag.title, body };
 }
@@ -104,7 +104,7 @@ function survivingPath(entry) {
 }
 
 const entries = readAll();
-const rawChanges = entries.filter((e) => e.kind === 'item' || e.kind === 'collection' || e.kind === 'rename');
+const rawChanges = entries.filter((e) => e.kind === 'item' || e.kind === 'component' || e.kind === 'collection' || e.kind === 'rename');
 const flags = entries.filter((e) => e.kind === 'flag');
 
 const changes = rawChanges.filter((e) => fs.existsSync(path.join(REPO_ROOT, survivingPath(e))));
