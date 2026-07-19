@@ -7,6 +7,11 @@
 # itself happens here, after the session ends, not inside it.
 set -euo pipefail
 
+# cron runs with a minimal PATH that doesn't include nvm's node or a
+# user-local claude install -- prepend them so this works unattended, not
+# just when fired from an interactive shell that already has them.
+export PATH="/home/will/.nvm/versions/node/v22.22.0/bin:/home/will/.local/bin:$PATH"
+
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_ROOT"
 
