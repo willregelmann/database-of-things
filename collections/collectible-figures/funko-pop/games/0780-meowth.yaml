@@ -2,9 +2,9 @@ id: c335661f-c9ed-41dd-aa87-7805e41eb7ee
 name: Meowth
 type: figure
 date: "2021-05"
+tags: [pokemon]
 attributes:
   number: "780"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

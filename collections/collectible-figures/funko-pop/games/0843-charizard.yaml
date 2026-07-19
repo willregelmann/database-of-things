@@ -2,9 +2,9 @@ id: 215e6e8e-5c56-4d11-b2c2-2b3c591045fa
 name: Charizard
 type: figure
 date: "2021-06"
+tags: [pokemon]
 attributes:
   number: "843"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

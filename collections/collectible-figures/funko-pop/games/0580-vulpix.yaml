@@ -2,9 +2,9 @@ id: 42ba2dee-01a7-41c6-8cc0-7a33f4a10871
 name: Vulpix
 type: figure
 date: "2020-02-06"
+tags: [pokemon]
 attributes:
   number: "580"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

@@ -2,9 +2,9 @@ id: 4e5dab63-c3a5-40d9-9098-85c89db1f5ad
 name: Rattata
 type: figure
 date: "2020-06"
+tags: [pokemon]
 attributes:
   number: "595"
-  franchise: Pokémon
   manufacturer: Funko, LLC
   variant: Common
 image:

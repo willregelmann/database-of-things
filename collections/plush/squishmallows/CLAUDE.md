@@ -15,8 +15,10 @@ single continuous **Collector Number** sequence spanning every species and
 every licensed collab (Pokémon, Disney, Marvel, Harry Potter, Sanrio, and
 more), the same way Nendoroid uses one continuous number across franchises —
 see [`../../collectible-figures/nendoroids/CLAUDE.md`](../../collectible-figures/nendoroids/CLAUDE.md)
-for the analogous shape. Record the licensed franchise via
-`attributes.license`, not as a directory split.
+for the analogous shape. Record the licensed franchise via the top-level
+`tags` field (e.g. `tags: [pokemon]`) — see
+[`../../CLAUDE.md`](../../CLAUDE.md#tags) — not as a directory split or an
+`attributes` field.
 
 **Sub-formats with their own restarting numbering are separate sibling
 collections under `plush/`, not nested here.** Squishmallows has several
