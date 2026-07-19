@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bluey Fuzzies attributes",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "description": "Series 1 collector's-guide number (1-80). Only set when confirmed against the official guide, never guessed."
+    },
+    "pack_type": {
+      "type": "string",
+      "enum": ["Single Pack", "Surprise 2-Pack", "Episode Pack", "Friends & Family Pack", "Deluxe Figure Pack", "Advent Calendar"]
+    },
+    "episode": {
+      "type": "string",
+      "description": "Show episode this figure/pack is themed to, for Episode Packs."
+    },
+    "manufacturer": { "type": "string" }
+  },
+  "additionalProperties": true
+}
