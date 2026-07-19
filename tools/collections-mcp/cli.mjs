@@ -71,9 +71,16 @@ try {
       out(result);
       break;
     }
+    case 'flag-finding': {
+      const [collectionId, title, body] = rest;
+      const node = getCollection(index, collectionId);
+      appendEntry({ kind: 'flag', collectionId, collectionPath: rel(node.path), title, body });
+      out({ flagged: true });
+      break;
+    }
     default:
       throw new Error(
-        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-collection <collection_id> <json>`
+        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>`
       );
   }
 } catch (err) {

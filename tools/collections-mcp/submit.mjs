@@ -4,10 +4,12 @@ import { REPO_ROOT } from './lib/repo.mjs';
 import { readAll, clear } from './lib/changelog.mjs';
 
 // Deterministic post-session pipeline: no LLM judgment involved past this
-// point. The PR title/body are generated mechanically from the changelog —
-// same set of upserts always produces the same PR content.
+// point. The PR title/body (for upserts) and issue title/body (for flagged
+// findings) are generated mechanically from the changelog — the same set
+// of entries always produces the same output.
 
 const DRY_RUN = process.argv.includes('--dry-run');
+const FLAG_LABEL = 'audit-finding';
 
 function git(args) {
   return execFileSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
@@ -25,7 +27,7 @@ function diffFields(before, after) {
   return changed;
 }
 
-function formatEntry(entry) {
+function formatUpsertEntry(entry) {
   const label = entry.kind === 'item' ? 'item' : 'collection';
   if (entry.action === 'create') {
     return `- Added ${label} **${entry.after.name}** (\`${entry.id}\`) at \`${entry.path}\``;
@@ -35,9 +37,9 @@ function formatEntry(entry) {
   return `- Updated ${label} **${entry.after.name}** (\`${entry.id}\`) at \`${entry.path}\` — ${fieldList || 'no field diff'}`;
 }
 
-function buildMessage(entries) {
-  const created = entries.filter((e) => e.action === 'create').length;
-  const updated = entries.filter((e) => e.action === 'update').length;
+function buildPr(upserts) {
+  const created = upserts.filter((e) => e.action === 'create').length;
+  const updated = upserts.filter((e) => e.action === 'update').length;
   const parts = [];
   if (created) parts.push(`${created} added`);
   if (updated) parts.push(`${updated} updated`);
@@ -45,49 +47,79 @@ function buildMessage(entries) {
   const body = [
     'Automated audit of a randomly-selected collection.',
     '',
-    ...entries.map(formatEntry),
+    ...upserts.map(formatUpsertEntry),
     '',
     '_Generated mechanically from the collections-mcp changelog — no free-form summary._',
   ].join('\n');
   return { title, body };
 }
 
+function buildIssue(flag) {
+  const body = [
+    flag.body,
+    '',
+    `_Collection: \`${flag.collectionPath}\` (id \`${flag.collectionId}\`). Filed automatically by the collections-audit-fix job — not fixable via the collections-mcp tool surface (upsert_item/upsert_collection can only patch field values, not rename/restructure)._`,
+  ].join('\n');
+  return { title: flag.title, body };
+}
+
 const entries = readAll();
+const upserts = entries.filter((e) => e.kind === 'item' || e.kind === 'collection');
+const flags = entries.filter((e) => e.kind === 'flag');
+
 if (entries.length === 0) {
   console.log('no changelog entries — nothing to submit');
   process.exit(0);
 }
 
-const validateOutput = execFileSync('node', ['validate.mjs'], {
-  cwd: `${REPO_ROOT}/tools/collections-validate`,
-  encoding: 'utf8',
-}); // throws on non-zero exit, which is what we want: abort, don't touch git
-console.log(validateOutput.trim());
+if (upserts.length > 0) {
+  const validateOutput = execFileSync('node', ['validate.mjs'], {
+    cwd: `${REPO_ROOT}/tools/collections-validate`,
+    encoding: 'utf8',
+  }); // throws on non-zero exit, which is what we want: abort, don't touch git
+  console.log(validateOutput.trim());
 
-const paths = [...new Set(entries.map((e) => e.path))];
-const { title, body } = buildMessage(entries);
-const branch = `audit/${crypto.randomUUID().slice(0, 8)}`;
-const originalBranch = git(['rev-parse', '--abbrev-ref', 'HEAD']);
+  const paths = [...new Set(upserts.map((e) => e.path))];
+  const { title, body } = buildPr(upserts);
+  const branch = `audit/${crypto.randomUUID().slice(0, 8)}`;
+  const originalBranch = git(['rev-parse', '--abbrev-ref', 'HEAD']);
 
-console.log(`\n--- ${DRY_RUN ? 'DRY RUN — would run' : 'submitting'} ---`);
-console.log(`branch: ${branch}`);
-console.log(`files: ${paths.join(', ')}`);
-console.log(`title: ${title}`);
-console.log(`body:\n${body}`);
+  console.log(`\n--- ${DRY_RUN ? 'DRY RUN — would run' : 'submitting PR'} ---`);
+  console.log(`branch: ${branch}`);
+  console.log(`files: ${paths.join(', ')}`);
+  console.log(`title: ${title}`);
+  console.log(`body:\n${body}`);
 
-if (DRY_RUN) {
-  process.exit(0);
+  if (!DRY_RUN) {
+    git(['checkout', '-b', branch]);
+    git(['add', ...paths]);
+    git(['commit', '-m', `${title}\n\n${body}`]);
+    git(['push', '-u', 'origin', branch]);
+    const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch], {
+      cwd: REPO_ROOT,
+      encoding: 'utf8',
+    }).trim();
+    git(['checkout', originalBranch]);
+    console.log(`\nopened: ${prUrl}`);
+  }
 }
 
-git(['checkout', '-b', branch]);
-git(['add', ...paths]);
-git(['commit', '-m', `${title}\n\n${body}`]);
-git(['push', '-u', 'origin', branch]);
-const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch], {
-  cwd: REPO_ROOT,
-  encoding: 'utf8',
-}).trim();
-git(['checkout', originalBranch]);
-clear();
+for (const flag of flags) {
+  const { title, body } = buildIssue(flag);
+  console.log(`\n--- ${DRY_RUN ? 'DRY RUN — would file issue' : 'filing issue'} ---`);
+  console.log(`title: ${title}`);
+  console.log(`body:\n${body}`);
 
-console.log(`\nopened: ${prUrl}`);
+  if (!DRY_RUN) {
+    const issueUrl = execFileSync(
+      'gh',
+      ['issue', 'create', '--title', title, '--body', body, '--label', FLAG_LABEL],
+      { cwd: REPO_ROOT, encoding: 'utf8' }
+    ).trim();
+    console.log(`opened: ${issueUrl}`);
+  }
+}
+
+if (!DRY_RUN) {
+  clear();
+}
