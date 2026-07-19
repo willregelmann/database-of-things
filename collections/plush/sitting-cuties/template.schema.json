@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sitting Cuties attributes",
+  "type": "object",
+  "properties": {
+    "pokemon": { "type": "string" },
+    "series": { "type": "integer", "minimum": 1 },
+    "manufacturer": { "type": "string" },
+    "size": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?\"$" }
+  },
+  "additionalProperties": true
+}
