@@ -1,0 +1,13 @@
+id: b1087cf8-047b-4f52-b9cd-09916b442669
+name: "Instill Energy"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "203/302"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/8/58334cf9-5186-4fba-963c-fffb21f2b8de.jpg?1783948614

@@ -1,0 +1,12 @@
+id: ab4a8dd0-2253-4c5f-bddf-47503172499c
+name: "Howling Mine"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "248/302"
+  rarity: Rare
+  mana_cost: "{2}"
+  card_type: "Artifact"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/7/37634ffe-788f-4262-88e8-5ab7c7ca74d6.jpg?1783948604

@@ -1,0 +1,13 @@
+id: 36ced18e-7fe1-4e79-a9f5-538c68721ca4
+name: "Blaze of Glory"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "6/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Instant"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/8/98fba951-c5bb-497c-9292-ce1b2a1e1247.jpg?1783948716

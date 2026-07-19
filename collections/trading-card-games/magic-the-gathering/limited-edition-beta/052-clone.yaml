@@ -1,0 +1,13 @@
+id: 47e8eb57-9730-4dbb-9b5a-b7ec3b07619e
+name: "Clone"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "52/302"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{3}{U}"
+  card_type: "Creature — Shapeshifter"
+  illustrator: "Julie Baroh"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/f/af53b5fc-c31a-4f26-93bf-0c45c1f4e1e5.jpg?1783948646

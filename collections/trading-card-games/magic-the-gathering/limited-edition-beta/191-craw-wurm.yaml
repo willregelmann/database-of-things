@@ -1,0 +1,13 @@
+id: 4e7df3ff-9d77-4ea8-b041-cb1ffc722f57
+name: "Craw Wurm"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "191/302"
+  rarity: Common
+  colors: [G]
+  mana_cost: "{4}{G}{G}"
+  card_type: "Creature — Wurm"
+  illustrator: "Daniel Gelon"
+image:
+  source_url: https://cards.scryfall.io/large/front/1/7/17d5c1c7-a882-479a-9077-0784e83b462d.jpg?1783948616

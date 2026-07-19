@@ -1,0 +1,12 @@
+id: 6836322c-fdbc-4a96-beb5-b6e2fab53a08
+name: "Chaos Orb"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "235/295"
+  rarity: Rare
+  mana_cost: "{2}"
+  card_type: "Artifact"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/2/92274971-7c4a-4326-b0fe-75e2d124f718.jpg?1783948669

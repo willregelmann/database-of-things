@@ -1,0 +1,13 @@
+id: 0da59822-ebae-42d0-b8c6-d0e5bd4f5bd8
+name: "Karma"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "26/295"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{2}{W}{W}"
+  card_type: "Enchantment"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/f/6f30ad61-fcb7-4d55-ba86-94de1bf545e4.jpg?1783948713

@@ -1,0 +1,13 @@
+id: 0cb34bf6-fa5f-408a-aafc-e8cb2cdecaa8
+name: "Darkpact"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "99/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{B}{B}{B}"
+  card_type: "Sorcery"
+  illustrator: "Quinton Hoover"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/7/e78db688-93a2-47f5-9aa5-9158a72cd973.jpg?1783948697

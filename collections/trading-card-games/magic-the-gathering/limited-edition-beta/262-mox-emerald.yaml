@@ -1,0 +1,12 @@
+id: 94e8e434-0bfb-436d-a0ff-a9bfa2f1c8bd
+name: "Mox Emerald"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "262/302"
+  rarity: Rare
+  mana_cost: "{0}"
+  card_type: "Artifact"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/a/ea5d9476-76be-48e7-b6a0-49ced25cb092.jpg?1783948601

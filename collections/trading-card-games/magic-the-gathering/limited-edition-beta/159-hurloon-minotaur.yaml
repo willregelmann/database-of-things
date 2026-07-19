@@ -1,0 +1,13 @@
+id: 05b7a1cb-90d5-4630-a5ea-49b6c6c29d82
+name: "Hurloon Minotaur"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "159/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{1}{R}{R}"
+  card_type: "Creature — Minotaur"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/e/8ef29573-99a1-42fc-8941-2466cda2465f.jpg?1783948622

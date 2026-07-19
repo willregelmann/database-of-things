@@ -1,0 +1,13 @@
+id: c9b7ea9e-eddd-482e-88fc-f39aa71ded49
+name: "Savannah Lions"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "39/302"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Creature — Cat"
+  illustrator: "Daniel Gelon"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/7/67d1945d-d228-4dc3-a593-859408b2016b.jpg?1783948648

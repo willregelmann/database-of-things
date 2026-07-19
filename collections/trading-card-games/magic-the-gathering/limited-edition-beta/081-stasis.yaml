@@ -1,0 +1,13 @@
+id: 21caf9f5-0c9c-47e0-b377-ab34ed69f12b
+name: "Stasis"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "81/302"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{1}{U}"
+  card_type: "Enchantment"
+  illustrator: "Fay Jones"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/3/73c76f5d-d866-4eb7-b2d2-fc6ecf982f8e.jpg?1783948639

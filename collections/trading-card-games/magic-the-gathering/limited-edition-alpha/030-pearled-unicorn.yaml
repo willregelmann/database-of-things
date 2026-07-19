@@ -1,0 +1,13 @@
+id: 2ace2584-5db6-4c88-9a22-a302bf0c241e
+name: "Pearled Unicorn"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "30/295"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{2}{W}"
+  card_type: "Creature — Unicorn"
+  illustrator: "Cornelius Brudi"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/d/6daf1aab-1e58-4a5a-bc66-cb3f7c86e0e8.jpg?1783948711

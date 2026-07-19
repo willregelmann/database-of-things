@@ -1,0 +1,13 @@
+id: c0df669d-b27e-4125-a9c4-4f6da1c81b67
+name: "Bad Moon"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "93/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{1}{B}"
+  card_type: "Enchantment"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/4/3/43572906-ea74-4411-a549-5dc401591d2a.jpg?1783948699

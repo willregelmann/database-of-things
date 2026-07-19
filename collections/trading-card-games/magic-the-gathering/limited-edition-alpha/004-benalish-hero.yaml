@@ -1,0 +1,13 @@
+id: 31e5cba3-3610-4ad6-aaa8-2f63b40efd22
+name: "Benalish Hero"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "4/295"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Creature — Human Soldier"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/1/1/11600105-56c6-4073-a4a6-8469030b39c9.jpg?1783948717

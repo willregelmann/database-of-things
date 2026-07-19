@@ -1,0 +1,13 @@
+id: 686bf396-68f1-4c36-a0bb-cfff9570e841
+name: "Flashfires"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "152/302"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{3}{R}"
+  card_type: "Sorcery"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/a/5a2a91b9-c45f-4e3d-b3c4-944493bdd86a.jpg?1783948624

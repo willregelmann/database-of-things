@@ -1,0 +1,13 @@
+id: 2f739036-5edd-4ead-83c4-35cefe497dbd
+name: "Circle of Protection: Red"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "13/302"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Enchantment"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/d/5de9dc85-d566-4cb0-a2e3-1ed4e5fe2f14.jpg?1783948654

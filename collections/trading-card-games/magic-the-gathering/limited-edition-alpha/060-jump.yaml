@@ -1,0 +1,13 @@
+id: 0be18579-a2bc-4708-8d7f-8b985984f218
+name: "Jump"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "60/295"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{U}"
+  card_type: "Instant"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/b/cb3f4b11-ad1b-48e2-a500-787d351b0174.jpg?1783948705

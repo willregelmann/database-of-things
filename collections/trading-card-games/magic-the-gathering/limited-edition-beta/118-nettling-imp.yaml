@@ -1,0 +1,13 @@
+id: cad879c8-b210-4abe-b58a-fc6928ba8a58
+name: "Nettling Imp"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "118/302"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{2}{B}"
+  card_type: "Creature — Imp"
+  illustrator: "Quinton Hoover"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/7/576220c3-1e6b-43f3-a47e-5e8246ee7d46.jpg?1783948631

@@ -1,0 +1,13 @@
+id: b024aaba-2689-400a-b805-00d89ee14bc3
+name: "Holy Armor"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "23/295"
+  rarity: Common
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Melissa A. Benson"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/0/b01041d2-687e-4972-81c8-16690809275b.jpg?1783948713

@@ -1,0 +1,13 @@
+id: 6a7c4cc8-fd9f-45c7-8a18-471610b60529
+name: "Drain Life"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "106/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{X}{1}{B}"
+  card_type: "Sorcery"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/f/9fbc6761-c4fc-4b4c-afb5-94ad4d21bc05.jpg?1783948634

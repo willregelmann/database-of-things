@@ -1,0 +1,13 @@
+id: b6e7e781-1fd1-419f-838f-24c875ab0600
+name: "Shatter"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "174/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{1}{R}"
+  card_type: "Instant"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/6/76ddf3f4-1305-4599-bf4c-f9e148bdda4d.jpg?1783948620

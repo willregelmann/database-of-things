@@ -1,0 +1,13 @@
+id: a8ccb8a7-25e0-47d4-a30b-ef61940b9419
+name: "Ironroot Treefolk"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "203/295"
+  rarity: Common
+  colors: [G]
+  mana_cost: "{4}{G}"
+  card_type: "Creature — Treefolk"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/9/b93c5869-7777-44bb-967a-e9439b25ced4.jpg?1783948675

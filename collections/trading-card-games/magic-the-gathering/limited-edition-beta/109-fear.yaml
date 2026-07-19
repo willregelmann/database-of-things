@@ -1,0 +1,13 @@
+id: a7aee970-b3b6-4c53-ad36-f5406445ba04
+name: "Fear"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "109/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{B}{B}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/7/67830531-970a-4339-8673-40954376455d.jpg?1783948634

@@ -1,0 +1,13 @@
+id: f9adf8e6-b237-4de7-9781-09a064292e9b
+name: "Demonic Tutor"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "105/302"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{1}{B}"
+  card_type: "Sorcery"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/5/a5e571ef-1645-4584-ab53-e7ea5d443dea.jpg?1783948634

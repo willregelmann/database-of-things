@@ -1,0 +1,13 @@
+id: 3127fa55-e7cc-4e1f-8b63-b2a8784df16c
+name: "Lightning Bolt"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "162/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{R}"
+  card_type: "Instant"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/5/b5d3dcab-2260-479d-9ef6-dfb92d4f6061.jpg?1783948623

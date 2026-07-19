@@ -1,0 +1,13 @@
+id: 0ae287a9-0e7f-406d-a7f3-9f251374f890
+name: "Animate Wall"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "1/302"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/c/5c5b4738-20bb-465d-b67e-c6146dce9d0b.jpg?1783948656

@@ -1,0 +1,13 @@
+id: c3403a38-320e-407b-9ddb-ce12a1d3ae1c
+name: "Control Magic"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "52/295"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{2}{U}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/b/7b52f459-c703-4a0b-9114-ff69eec61287.jpg?1783948706

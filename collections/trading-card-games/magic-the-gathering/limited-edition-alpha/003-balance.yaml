@@ -1,0 +1,13 @@
+id: ae99f9ae-5667-4776-ad8d-758cabff3f08
+name: "Balance"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "3/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{1}{W}"
+  card_type: "Sorcery"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/f/6f9ea46a-411f-40ce-a873-a905180093f4.jpg?1783948717

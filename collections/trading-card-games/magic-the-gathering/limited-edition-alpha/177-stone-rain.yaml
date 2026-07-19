@@ -1,0 +1,13 @@
+id: ecb7aec4-74b7-40a1-a3a0-82edc65cb4f0
+name: "Stone Rain"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "177/295"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{2}{R}"
+  card_type: "Sorcery"
+  illustrator: "Daniel Gelon"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/7/57ff74cb-a2ed-4123-ac42-f72f9820049e.jpg?1783948681

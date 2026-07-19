@@ -1,0 +1,12 @@
+id: 09199c61-9446-44bb-a94a-bda8f4c16ee2
+name: "Jayemdae Tome"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "255/302"
+  rarity: Rare
+  mana_cost: "{4}"
+  card_type: "Artifact — Book"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/4/e48b1c51-c0fd-4c08-8631-80f507b04d28.jpg?1783948603

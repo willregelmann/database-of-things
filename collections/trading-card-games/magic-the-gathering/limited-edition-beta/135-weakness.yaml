@@ -1,0 +1,13 @@
+id: 3b2fd031-885b-4fa8-a4e1-b6779c26f7a5
+name: "Weakness"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "135/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{B}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/1/6/16137fa6-1b5c-49e7-ad79-dda4b7019a59.jpg?1783948628

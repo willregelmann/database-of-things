@@ -1,0 +1,13 @@
+id: 3e3fcfe0-7040-44cf-ad2e-66dc4d8b75f4
+name: "Castle"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "9/295"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{3}{W}"
+  card_type: "Enchantment"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/b/0/b0da8d56-3178-44c2-9344-95d2346d326f.jpg?1783948716

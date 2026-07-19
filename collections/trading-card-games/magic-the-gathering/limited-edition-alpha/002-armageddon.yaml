@@ -1,0 +1,13 @@
+id: 37a9354c-7d03-41be-92ee-b0970d461e7e
+name: "Armageddon"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "2/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{3}{W}"
+  card_type: "Sorcery"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/b/5b6ddce7-b9c5-431d-a0b0-46d4aa93cbcb.jpg?1783948717

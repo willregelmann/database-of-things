@@ -1,0 +1,13 @@
+id: a220762d-d68c-4936-831d-2feb8513ac74
+name: "Word of Command"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "136/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{B}{B}"
+  card_type: "Instant"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/6/96c21429-98d3-416b-be00-6aa9c4c5a006.jpg?1783948689

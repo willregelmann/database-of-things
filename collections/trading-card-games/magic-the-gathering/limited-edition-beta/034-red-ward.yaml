@@ -1,0 +1,13 @@
+id: bd396712-7734-41d5-853c-6500ba5db648
+name: "Red Ward"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "34/302"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/5/057237bb-e1e6-4bcc-8639-ca0dcdd4846c.jpg?1783948649

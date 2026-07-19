@@ -1,0 +1,13 @@
+id: ea2ffb0b-67f9-4b88-bb31-2e15e9b04121
+name: "Berserk"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "186/302"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Instant"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/8/88d6f431-a7ea-4508-a52c-86d33e12e4e4.jpg?1783948617

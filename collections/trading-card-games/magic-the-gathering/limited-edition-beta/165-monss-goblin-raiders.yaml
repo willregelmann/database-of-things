@@ -1,0 +1,13 @@
+id: 1b2c4bf5-b4a4-49dc-903f-baab9bdd2daf
+name: "Mons's Goblin Raiders"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "165/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{R}"
+  card_type: "Creature — Goblin"
+  illustrator: "Jeff A. Menges"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/f/2fbf039d-0ab9-4c42-a0a3-cbfa3ea1dd6e.jpg?1783948622

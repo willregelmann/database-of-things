@@ -1,0 +1,13 @@
+id: e4f57c6c-f2ea-4239-bbf1-4209ddddcbda
+name: "Zombie Master"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "138/302"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{1}{B}{B}"
+  card_type: "Creature — Zombie"
+  illustrator: "Jeff A. Menges"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/1/a1bfda92-b932-46d8-b549-e2bc2b584a17.jpg?1783948627

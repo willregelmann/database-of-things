@@ -1,0 +1,13 @@
+id: c9b5d5b7-c631-481f-ad72-5c9af52174de
+name: "Mind Twist"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "115/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{X}{B}"
+  card_type: "Sorcery"
+  illustrator: "Julie Baroh"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/e/eee9e106-a248-49d2-b8c8-6bbcd56ce739.jpg?1783948693

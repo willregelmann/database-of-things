@@ -1,0 +1,13 @@
+id: b092c7dd-f61e-4101-9c6e-8bdad7bcb4c8
+name: "Blessing"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "7/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{W}{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Julie Baroh"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/1/f131fd27-18da-47ca-b59f-135bcac83abd.jpg?1783948717

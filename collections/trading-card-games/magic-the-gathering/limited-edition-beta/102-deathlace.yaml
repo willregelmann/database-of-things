@@ -1,0 +1,13 @@
+id: 471bcbf9-9ff3-426d-b551-f212dacef27e
+name: "Deathlace"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "102/302"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{B}"
+  card_type: "Instant"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/1/e16fc59a-17da-462a-86ea-31f8a9ac18a1.jpg?1783948635

@@ -1,0 +1,13 @@
+id: bbefb68b-c201-4e1c-9da3-2bbd96762945
+name: "Black Ward"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "5/302"
+  rarity: Uncommon
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/3/0/30d5d3fe-5741-40f7-8f45-dadb818d79b0.jpg?1783948655

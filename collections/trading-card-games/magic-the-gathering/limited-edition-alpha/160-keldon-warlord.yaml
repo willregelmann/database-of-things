@@ -1,0 +1,13 @@
+id: 542cf1c4-7046-4f07-85dd-6670bb91f6ca
+name: "Keldon Warlord"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "160/295"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{2}{R}{R}"
+  card_type: "Creature — Human Barbarian"
+  illustrator: "Kev Brockschmidt"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/f/8fe3fd83-969c-4add-888f-86f4306b067c.jpg?1783948685

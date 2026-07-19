@@ -1,0 +1,12 @@
+id: ac13e646-798d-4ccc-9606-7592046a37e8
+name: "Winter Orb"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "275/295"
+  rarity: Rare
+  mana_cost: "{2}"
+  card_type: "Artifact"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/3/9359f60c-9a27-4e53-b35b-964a121a6fba.jpg?1783948660

@@ -1,0 +1,13 @@
+id: d237446e-7a04-4a52-919d-4a9067d4ac2a
+name: "Fireball"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "150/302"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{X}{R}"
+  card_type: "Sorcery"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/2/a285ab2e-836e-45b0-894e-574f733cf3db.jpg?1783948625

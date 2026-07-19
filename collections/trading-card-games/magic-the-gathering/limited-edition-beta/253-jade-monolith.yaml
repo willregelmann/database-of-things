@@ -1,0 +1,12 @@
+id: df655179-cc62-4ea7-88d4-f66f5c111c2e
+name: "Jade Monolith"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "253/302"
+  rarity: Rare
+  mana_cost: "{4}"
+  card_type: "Artifact"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/e/e/eeea32ba-dfe4-4a9b-b403-43c2abc80b78.jpg?1783948604

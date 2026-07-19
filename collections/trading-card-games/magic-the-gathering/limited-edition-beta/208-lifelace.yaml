@@ -1,0 +1,13 @@
+id: 0fa0af3c-8bf2-4009-8f7e-66741b2832d5
+name: "Lifelace"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "208/302"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{G}"
+  card_type: "Instant"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/3/9379e159-43ac-4bd2-8b33-f3de8e20cfe0.jpg?1783948613

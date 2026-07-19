@@ -1,0 +1,13 @@
+id: 436caedb-814d-46ce-a6d0-0f986b341b2e
+name: "Mana Short"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "65/295"
+  rarity: Rare
+  colors: [U]
+  mana_cost: "{2}{U}"
+  card_type: "Instant"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/7/3/73e3e0b3-5284-464f-8c62-0f7801c966f5.jpg?1783948704

@@ -1,0 +1,13 @@
+id: 9874978b-bc64-4659-9d01-279a4987c972
+name: "Stone Giant"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "177/302"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{2}{R}{R}"
+  card_type: "Creature — Giant"
+  illustrator: "Dameon Willich"
+image:
+  source_url: https://cards.scryfall.io/large/front/a/2/a2b5f545-a87d-4292-880f-5cd2f6755748.jpg?1783948619

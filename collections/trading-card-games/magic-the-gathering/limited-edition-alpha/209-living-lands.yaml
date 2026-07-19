@@ -1,0 +1,13 @@
+id: bd5b65d9-4796-4fdc-a0cb-1e8418d36b45
+name: "Living Lands"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "209/295"
+  rarity: Rare
+  colors: [G]
+  mana_cost: "{3}{G}"
+  card_type: "Enchantment"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/0/80be0580-7948-4d8e-8c0f-5e2797ac411b.jpg?1783948674

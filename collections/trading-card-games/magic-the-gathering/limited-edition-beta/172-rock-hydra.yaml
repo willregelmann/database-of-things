@@ -1,0 +1,13 @@
+id: b1362e78-618b-4594-95ba-8a900cf29608
+name: "Rock Hydra"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "172/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{X}{R}{R}"
+  card_type: "Creature — Hydra"
+  illustrator: "Jeff A. Menges"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/1/c17a982d-466d-4fec-b85a-a44161e5dad5.jpg?1783948620

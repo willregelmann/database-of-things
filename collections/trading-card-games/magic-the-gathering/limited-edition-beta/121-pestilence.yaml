@@ -1,0 +1,13 @@
+id: ea7b7ce8-04e5-4779-8690-39706cfa503f
+name: "Pestilence"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "121/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{2}{B}{B}"
+  card_type: "Enchantment"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/1/3/1313b7e6-4acb-435a-bde5-1def5e5350ac.jpg?1783948631

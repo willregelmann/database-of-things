@@ -1,0 +1,13 @@
+id: 1b6e348c-a498-4fac-9310-955d184c2417
+name: "Tunnel"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "179/302"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{R}"
+  card_type: "Instant"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/c/cc738025-a771-4186-b08c-7b37c0e9713b.jpg?1783948619

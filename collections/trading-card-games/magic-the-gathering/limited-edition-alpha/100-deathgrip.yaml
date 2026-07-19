@@ -1,0 +1,13 @@
+id: d41637a6-baae-4700-8384-26064d3991cf
+name: "Deathgrip"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "100/295"
+  rarity: Uncommon
+  colors: [B]
+  mana_cost: "{B}{B}"
+  card_type: "Enchantment"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/3/2371c126-f19a-472a-ba5f-3b1366274ea0.jpg?1783948697

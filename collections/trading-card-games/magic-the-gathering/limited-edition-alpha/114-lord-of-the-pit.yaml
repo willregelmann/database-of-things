@@ -1,0 +1,13 @@
+id: 4832ecf6-5e9b-4a93-8a49-10707158654a
+name: "Lord of the Pit"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "114/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{4}{B}{B}{B}"
+  card_type: "Creature — Demon"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/9/2926777a-4f6e-4965-ba83-22cf7df02602.jpg?1783948694

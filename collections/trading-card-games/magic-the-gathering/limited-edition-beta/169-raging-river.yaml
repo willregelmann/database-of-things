@@ -1,0 +1,13 @@
+id: bfc13a3b-2ccb-4fed-9bc2-3e19fbc8dda5
+name: "Raging River"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "169/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{R}{R}"
+  card_type: "Enchantment"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/1/c14746bb-aa00-4be2-9740-d87f976296d2.jpg?1783948621

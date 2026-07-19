@@ -1,0 +1,13 @@
+id: a38b8028-74c6-4c87-988d-18523a0ccb5c
+name: "Animate Artifact"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "49/302"
+  rarity: Uncommon
+  colors: [U]
+  mana_cost: "{3}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Douglas Shuler"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/b/cb575b27-d2ca-4d90-a650-dc670484f607.jpg?1783948646

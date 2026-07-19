@@ -1,0 +1,13 @@
+id: b4694a5f-9d57-4627-84e5-ff11af6a3b87
+name: "Wall of Ice"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "224/295"
+  rarity: Uncommon
+  colors: [G]
+  mana_cost: "{2}{G}"
+  card_type: "Creature — Wall"
+  illustrator: "Richard Thomas"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/c/cc743a03-867c-4bb0-8fb0-2bcaa0a8a756.jpg?1783948671

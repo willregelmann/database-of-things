@@ -1,0 +1,13 @@
+id: d332548c-b781-437b-9c50-d09ee2c7eb62
+name: "Raise Dead"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "122/295"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{B}"
+  card_type: "Sorcery"
+  illustrator: "Jeff A. Menges"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/e/ce07bede-2219-427c-a61a-56518751de42.jpg?1783948692

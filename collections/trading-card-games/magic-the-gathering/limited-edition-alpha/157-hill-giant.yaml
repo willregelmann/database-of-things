@@ -1,0 +1,13 @@
+id: 3c9b9fe5-06cc-45c4-a7a2-307c3a96bc35
+name: "Hill Giant"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "157/295"
+  rarity: Common
+  colors: [R]
+  mana_cost: "{3}{R}"
+  card_type: "Creature — Giant"
+  illustrator: "Dan Frazier"
+image:
+  source_url: https://cards.scryfall.io/large/front/0/d/0ddb98e8-13fe-4786-83f7-b72c56db135a.jpg?1783948685

@@ -1,0 +1,13 @@
+id: 15a6e06c-3cee-43e3-940f-b6c487380404
+name: "Royal Assassin"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "123/295"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{1}{B}{B}"
+  card_type: "Creature — Human Assassin"
+  illustrator: "Tom Wänerstrand"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/9/59590768-fa96-4869-8763-9d5ab6ac22ad.jpg?1783948692

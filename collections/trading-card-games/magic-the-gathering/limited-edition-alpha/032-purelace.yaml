@@ -1,0 +1,13 @@
+id: 419b7f97-4333-490d-bbf8-74f4509793c9
+name: "Purelace"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "32/295"
+  rarity: Rare
+  colors: [W]
+  mana_cost: "{W}"
+  card_type: "Instant"
+  illustrator: "Sandra Everingham"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/f/2facf462-55cd-4da4-997f-2cf4add75628.jpg?1783948710

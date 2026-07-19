@@ -1,0 +1,13 @@
+id: 60a1fe4c-710d-4ac8-a18a-15341647540f
+name: "Demonic Attorney"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "103/302"
+  rarity: Rare
+  colors: [B]
+  mana_cost: "{1}{B}{B}"
+  card_type: "Sorcery"
+  illustrator: "Daniel Gelon"
+image:
+  source_url: https://cards.scryfall.io/large/front/6/0/60f37eac-e8fa-48d3-b936-74461ea1853c.jpg?1783948635

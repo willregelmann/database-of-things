@@ -1,0 +1,12 @@
+id: 9656dcaa-d991-4240-9d0b-bfbadc347ce2
+name: "Basalt Monolith"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "232/302"
+  rarity: Uncommon
+  mana_cost: "{3}"
+  card_type: "Artifact"
+  illustrator: "Jesper Myrfors"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/1/81d73362-43c1-4dd0-87dd-9aa7ae13ff2f.jpg?1783948608

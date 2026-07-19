@@ -1,0 +1,13 @@
+id: 5b46afa4-d63c-46cb-89f0-04e4e8d205d3
+name: "Howl from Beyond"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "112/302"
+  rarity: Common
+  colors: [B]
+  mana_cost: "{X}{B}"
+  card_type: "Instant"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/6/f6018459-d09b-489a-81be-933fd7d854c1.jpg?1783948633

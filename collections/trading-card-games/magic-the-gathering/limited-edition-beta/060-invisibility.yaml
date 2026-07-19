@@ -1,0 +1,13 @@
+id: 6be102df-f392-4a38-bba0-5e94f19050df
+name: "Invisibility"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "60/302"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{U}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Anson Maddocks"
+image:
+  source_url: https://cards.scryfall.io/large/front/d/d/dde97b8f-7c10-48d3-8ae2-9f86158973ec.jpg?1783948643

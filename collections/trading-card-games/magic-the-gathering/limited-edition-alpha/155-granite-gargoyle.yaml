@@ -1,0 +1,13 @@
+id: ffe3d8e9-98f7-4fae-9307-58530ba61a98
+name: "Granite Gargoyle"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "155/295"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{2}{R}"
+  card_type: "Creature — Gargoyle"
+  illustrator: "Christopher Rush"
+image:
+  source_url: https://cards.scryfall.io/large/front/f/1/f15bf2b2-6848-4fbd-b89a-8d8da8ae1cdc.jpg?1783948685

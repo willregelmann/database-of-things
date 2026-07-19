@@ -1,0 +1,13 @@
+id: 4573b977-3ee9-4cdb-b53f-bc41cf63f435
+name: "Goblin Balloon Brigade"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "153/295"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{R}"
+  card_type: "Creature — Goblin Warrior"
+  illustrator: "Andi Rusu"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/1/5129b422-7a35-4bc5-b14b-c814012a0d8f.jpg?1783948685

@@ -1,0 +1,13 @@
+id: ff79224f-488e-480f-a473-1e3580d57cd6
+name: "War Mammoth"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "227/295"
+  rarity: Common
+  colors: [G]
+  mana_cost: "{3}{G}"
+  card_type: "Creature — Elephant"
+  illustrator: "Jeff A. Menges"
+image:
+  source_url: https://cards.scryfall.io/large/front/c/8/c8d6081e-f686-4263-a0a2-21c0d9af5fdb.jpg?1783948670

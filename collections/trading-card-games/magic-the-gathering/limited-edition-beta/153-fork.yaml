@@ -1,0 +1,13 @@
+id: b5567488-f11e-4d9f-a606-8025591b14ae
+name: "Fork"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "153/302"
+  rarity: Rare
+  colors: [R]
+  mana_cost: "{R}{R}"
+  card_type: "Instant"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/1/8144418b-e3e5-459f-8db2-f2e348fba4da.jpg?1783948624

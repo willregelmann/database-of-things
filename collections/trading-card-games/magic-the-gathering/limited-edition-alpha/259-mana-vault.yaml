@@ -1,0 +1,12 @@
+id: 4a4defca-fbf3-4ba5-aa87-d0011ae35dfd
+name: "Mana Vault"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "259/295"
+  rarity: Rare
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/1/9/19499cb7-eccb-4e69-af32-6002d447a160.jpg?1783948664

@@ -1,0 +1,12 @@
+id: b5f585fc-32c8-4055-b487-4f1ad18078fa
+name: "Helm of Chatzuk"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "247/302"
+  rarity: Rare
+  mana_cost: "{1}"
+  card_type: "Artifact"
+  illustrator: "Mark Tedin"
+image:
+  source_url: https://cards.scryfall.io/large/front/5/5/559d3329-9053-4301-b867-1b49c248fe31.jpg?1783948605

@@ -1,0 +1,11 @@
+id: e8689024-83a1-4631-8498-188f74cb12b3
+name: "Island"
+type: card
+date: "1993-08-05"
+attributes:
+  number: "288/295"
+  rarity: Common
+  card_type: "Basic Land — Island"
+  illustrator: "Mark Poole"
+image:
+  source_url: https://cards.scryfall.io/large/front/9/0/90a57c0e-fa61-45ef-955d-d296403967d5.jpg?1783948658

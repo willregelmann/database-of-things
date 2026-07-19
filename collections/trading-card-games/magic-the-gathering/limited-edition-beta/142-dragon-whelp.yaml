@@ -1,0 +1,13 @@
+id: 1c32f483-dd5f-4784-93c3-b87dc7fd39a3
+name: "Dragon Whelp"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "142/302"
+  rarity: Uncommon
+  colors: [R]
+  mana_cost: "{2}{R}{R}"
+  card_type: "Creature — Dragon"
+  illustrator: "Amy Weber"
+image:
+  source_url: https://cards.scryfall.io/large/front/2/e/2e009adf-aded-4d64-ba3e-ddc3448c967a.jpg?1783948626

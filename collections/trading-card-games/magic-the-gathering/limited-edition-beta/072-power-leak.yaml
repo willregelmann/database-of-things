@@ -1,0 +1,13 @@
+id: b34580d1-1b70-47fe-8fda-cd8befa21ce4
+name: "Power Leak"
+type: card
+date: "1993-10-04"
+attributes:
+  number: "72/302"
+  rarity: Common
+  colors: [U]
+  mana_cost: "{1}{U}"
+  card_type: "Enchantment — Aura"
+  illustrator: "Drew Tucker"
+image:
+  source_url: https://cards.scryfall.io/large/front/8/6/86fdfb7b-1bcf-485a-be70-0130fc1fceef.jpg?1783948640
