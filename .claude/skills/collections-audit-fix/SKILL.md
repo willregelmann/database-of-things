@@ -10,8 +10,11 @@ One pass, one randomly-chosen collection, may write — but only through the
 That tool surface is deliberately narrow: `upsert_item`/`upsert_collection`
 can only patch field values or add a new item/nested collection record —
 never rename/move a file, never author a new `CLAUDE.md` or
-`template.schema.json`. Anything a finding needs beyond that stays unfixed
-and simply doesn't produce a PR for that part.
+`template.schema.json`. Anything a finding needs beyond that: call
+`flag_finding` instead — don't just mention it in your final report and
+leave it there, that's easy to miss and gets forgotten. `flag_finding`
+becomes a real GitHub issue after your session ends; text you only say in
+your final report doesn't durably go anywhere.
 
 This exists for the scheduled hourly job. For a manual, read-only audit
 (no writes, for when a human wants a report to review before touching
@@ -63,13 +66,19 @@ dimensions, just without the fix step.
      `get_item_details` as needed) complete and correct per an authoritative
      source? Spot-check rather than exhaustively re-verify a large
      collection.
-5. For each finding that's well-sourced and fixable within the tool surface
-   (a wrong/missing field value, a missing item, a missing nested
-   collection record): call `upsert_item`/`upsert_collection`. Leave
-   everything else — structural conformance issues, anything needing a
-   judgment call — unfixed; there's no report artifact for those in this
-   skill (that's what a `collections-audit` invocation is for).
+5. For each finding that's well-sourced:
+   - **Fixable within the tool surface** (a wrong/missing field value, a
+     missing item, a missing nested collection record): call
+     `upsert_item`/`upsert_collection`.
+   - **Not fixable within the tool surface** (needs a rename/restructure, a
+     missing sibling collection outside this one's scope, or genuine
+     human judgment): call `flag_finding` with a specific title and a body
+     that includes your source(s) and why the upsert tools can't handle
+     it. Only flag things you're confident are real and well-sourced —
+     same discipline as a fix, just a different outcome.
+   - Anything you can't confirm one way or the other: leave it alone
+     entirely. Don't fix, don't flag, don't guess.
 6. When you're done, just report back: which collection you audited, what
-   (if anything) you changed and why, and any findings you left unfixed.
-   Don't try to submit anything yourself — the wrapper handles that after
-   your session ends.
+   (if anything) you changed, and what (if anything) you flagged. Don't try
+   to submit or file anything yourself — the wrapper handles both the PR
+   and any issues after your session ends.

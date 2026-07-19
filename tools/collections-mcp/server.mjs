@@ -204,5 +204,28 @@ server.registerTool(
   }
 );
 
+server.registerTool(
+  'flag_finding',
+  {
+    title: 'Flag a finding this tool surface cannot fix',
+    description:
+      'Records a real, well-sourced issue that upsert_item/upsert_collection cannot fix — a rename/restructure, a missing sibling collection outside this one\'s scope, anything needing human judgment. Opens as a GitHub issue after this session ends. Do not use this for anything fixable via upsert_item/upsert_collection — fix it instead of flagging it.',
+    inputSchema: {
+      collection_id: z.string(),
+      title: z.string().describe('Short, specific issue title, e.g. "Gym Challenge: two Blaine\'s Quiz files have inconsistent naming"'),
+      body: z.string().describe("Full description: what's wrong, the source(s) confirming it, and why upsert_item/upsert_collection can't fix it."),
+    },
+  },
+  async ({ collection_id, title, body }) => {
+    try {
+      const node = getCollection(index, collection_id);
+      appendEntry({ kind: 'flag', collectionId: collection_id, collectionPath: rel(node.path), title, body });
+      return text({ flagged: true });
+    } catch (err) {
+      return errorText(err);
+    }
+  }
+);
+
 const transport = new StdioServerTransport();
 await server.connect(transport);
