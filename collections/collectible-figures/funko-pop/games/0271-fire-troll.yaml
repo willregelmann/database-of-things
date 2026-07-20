@@ -2,7 +2,8 @@ id: 8eb31393-72bf-49cf-b09d-23f35403529d
 name: Fire Troll
 type: figure
 date: "2018"
-tags: [6178064f-7105-485a-88b2-442c89a16f56]
+tags:
+  - 6178064f-7105-485a-88b2-442c89a16f56
 attributes:
   number: "271"
   manufacturer: Funko, LLC

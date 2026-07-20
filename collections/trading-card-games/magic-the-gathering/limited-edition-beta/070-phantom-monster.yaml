@@ -1,13 +1,15 @@
 id: dc3e144c-370e-45e8-a61b-159c958b5872
-name: "Phantom Monster"
+name: Phantom Monster
 type: card
 date: "1993-10-04"
 attributes:
   number: "70/302"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{3}{U}"
-  card_type: "Creature — Illusion"
-  illustrator: "Jesper Myrfors"
+  card_type: Creature — Illusion
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/b/0/b0782e90-383b-4aed-8fa0-99c8cf8b2cec.jpg?1783948641
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/0/b0782e90-383b-4aed-8fa0-99c8cf8b2cec.jpg?1783948641

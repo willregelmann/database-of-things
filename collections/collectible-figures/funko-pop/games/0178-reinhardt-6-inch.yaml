@@ -2,7 +2,8 @@ id: f1986efc-d958-4370-9b0f-86fb86286bbb
 name: Reinhardt (6 inch)
 type: figure
 date: "2017"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "178"
   manufacturer: Funko, LLC

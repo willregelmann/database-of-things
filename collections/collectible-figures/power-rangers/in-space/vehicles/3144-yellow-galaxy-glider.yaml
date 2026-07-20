@@ -1,11 +1,11 @@
 id: 767b3486-de4f-4a1c-b874-c573d65c175f
 name: Yellow Galaxy Glider
 type: vehicle
-date: '1998'
+date: "1998"
 attributes:
-  number: '3144'
+  number: "3144"
   category: Galaxy Gliders
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03144.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03144.jpg

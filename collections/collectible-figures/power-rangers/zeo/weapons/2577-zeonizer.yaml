@@ -1,11 +1,11 @@
 id: 0959f2b8-e9ff-47ee-8651-ebc9d190c395
 name: Zeonizer
 type: weapon
-date: '1996'
+date: "1996"
 attributes:
-  number: '2577'
+  number: "2577"
   category: Zeonizer
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02577_1.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02577_1.jpg

@@ -1,11 +1,12 @@
 id: 2027862c-a0e2-4d5e-98de-2f8be035c6e3
-name: "Savannah"
+name: Savannah
 type: card
 date: "1993-08-05"
 attributes:
   number: "280/295"
   rarity: Rare
-  card_type: "Land — Forest Plains"
-  illustrator: "Rob Alexander"
+  card_type: Land — Forest Plains
+  illustrator: Rob Alexander
 image:
-  source_url: https://cards.scryfall.io/large/front/9/4/94f7e24c-2546-41b6-81ad-5e920b07e64e.jpg?1783948659
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/4/94f7e24c-2546-41b6-81ad-5e920b07e64e.jpg?1783948659

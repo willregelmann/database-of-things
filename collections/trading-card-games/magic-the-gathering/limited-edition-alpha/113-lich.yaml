@@ -1,13 +1,15 @@
 id: ebbdea2e-1394-47af-b4c5-6105cd03a77a
-name: "Lich"
+name: Lich
 type: card
 date: "1993-08-05"
 attributes:
   number: "113/295"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}{B}{B}{B}"
-  card_type: "Enchantment"
-  illustrator: "Daniel Gelon"
+  card_type: Enchantment
+  illustrator: Daniel Gelon
 image:
-  source_url: https://cards.scryfall.io/large/front/4/2/4250caec-0e37-41be-9ec4-8938deb5f0d0.jpg?1783948694
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/2/4250caec-0e37-41be-9ec4-8938deb5f0d0.jpg?1783948694

@@ -3,6 +3,7 @@ name: Spheal
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Spheal]
+  pokemon:
+    - Spheal
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/764275863.jpg

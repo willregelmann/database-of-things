@@ -2,7 +2,8 @@ id: ed7e4ed8-fa22-47f4-adb3-95ab6d6f870d
 name: Keyleth
 type: figure
 date: "2020"
-tags: [ccc586a6-51de-4a50-8a40-a163fcb68839]
+tags:
+  - ccc586a6-51de-4a50-8a40-a163fcb68839
 attributes:
   number: "605"
   manufacturer: Funko, LLC

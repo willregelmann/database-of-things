@@ -3,6 +3,7 @@ name: Swablu
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Swablu]
+  pokemon:
+    - Swablu
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1153292708.jpg

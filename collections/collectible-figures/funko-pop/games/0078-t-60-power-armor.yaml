@@ -2,7 +2,8 @@ id: 85c2367d-a86b-4829-a67b-66579949194c
 name: T-60 Power Armor
 type: figure
 date: "2016"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "78"
   manufacturer: Funko, LLC

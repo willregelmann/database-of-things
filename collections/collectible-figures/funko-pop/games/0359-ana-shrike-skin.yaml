@@ -2,7 +2,8 @@ id: 1a9d2a09-03ac-45ab-b109-60fde318bdff
 name: Ana (Shrike Skin)
 type: figure
 date: "2018"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "359"
   manufacturer: Funko, LLC

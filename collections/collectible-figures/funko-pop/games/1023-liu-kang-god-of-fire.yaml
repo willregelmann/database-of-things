@@ -2,7 +2,8 @@ id: 75ff798d-488e-4ded-8c29-439a014c57c8
 name: Liu Kang (God of Fire)
 type: figure
 date: "2024"
-tags: [d86d8e5d-1d70-478d-b595-9c454d3c7073]
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
 attributes:
   number: "1023"
   manufacturer: Funko, LLC

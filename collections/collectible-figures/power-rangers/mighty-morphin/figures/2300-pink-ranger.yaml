@@ -1,11 +1,11 @@
 id: bfee35fd-8c42-4adc-b0f9-742e8fdc67e4
 name: Pink Ranger
 type: figure
-date: '1994'
+date: "1994"
 attributes:
-  number: '2300'
+  number: "2300"
   category: Collectible Figures
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02300_07.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02300_07.jpg

@@ -3,6 +3,7 @@ name: Gholdengo
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Gholdengo]
+  pokemon:
+    - Gholdengo
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/122713613.jpg

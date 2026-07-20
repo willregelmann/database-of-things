@@ -2,7 +2,8 @@ id: 82327c32-a18d-46e0-ace4-bd2dca713567
 name: Vault Boy (Adamantium Skeleton)
 type: figure
 date: "2016"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "99"
   manufacturer: Funko, LLC

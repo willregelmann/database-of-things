@@ -1,13 +1,15 @@
 id: d2fd7002-e330-4e46-9ab5-2f7efba36d42
-name: "Frozen Shade"
+name: Frozen Shade
 type: card
 date: "1993-08-05"
 attributes:
   number: "109/295"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{2}{B}"
-  card_type: "Creature — Shade"
-  illustrator: "Douglas Shuler"
+  card_type: Creature — Shade
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/d/0/d0bd76c8-4cff-4c15-9686-7a299b589814.jpg?1783948695
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/0/d0bd76c8-4cff-4c15-9686-7a299b589814.jpg?1783948695

@@ -3,6 +3,7 @@ name: Drifloon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Drifloon]
+  pokemon:
+    - Drifloon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1770825063.jpg

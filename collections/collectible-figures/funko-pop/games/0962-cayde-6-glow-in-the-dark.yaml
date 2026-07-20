@@ -2,7 +2,8 @@ id: 4fc2d63c-9ec3-4af0-a2fe-4103ce0e95c0
 name: Cayde-6 (Glow in the Dark)
 type: figure
 date: "2024"
-tags: [6be6ad77-25d7-4997-99bd-9f7f3933f838]
+tags:
+  - 6be6ad77-25d7-4997-99bd-9f7f3933f838
 attributes:
   number: "962"
   manufacturer: Funko, LLC

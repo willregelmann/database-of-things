@@ -3,6 +3,7 @@ name: Espurr
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Espurr]
+  pokemon:
+    - Espurr
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1104365610.jpg

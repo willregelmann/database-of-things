@@ -3,6 +3,7 @@ name: Marshtomp
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Marshtomp]
+  pokemon:
+    - Marshtomp
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/145964706.jpg

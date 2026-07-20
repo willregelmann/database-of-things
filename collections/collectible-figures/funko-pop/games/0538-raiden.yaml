@@ -2,7 +2,8 @@ id: 9e83c749-f809-4dc6-994b-37c4a0c03cea
 name: Raiden
 type: figure
 date: "2019"
-tags: [d86d8e5d-1d70-478d-b595-9c454d3c7073]
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
 attributes:
   number: "538"
   manufacturer: Funko, LLC

@@ -1,13 +1,15 @@
 id: 410c3dbf-fe4c-4e11-b3ce-8d6637094a3b
-name: "White Ward"
+name: White Ward
 type: card
 date: "1993-08-05"
 attributes:
   number: "44/295"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment — Aura
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/4/9/49b22665-1501-420a-82ad-f71f6768bcf8.jpg?1783948709
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/9/49b22665-1501-420a-82ad-f71f6768bcf8.jpg?1783948709

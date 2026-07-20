@@ -1,13 +1,15 @@
 id: 689bef21-c344-47b7-92e4-cf58b34e50b8
-name: "Dwarven Demolition Team"
+name: Dwarven Demolition Team
 type: card
 date: "1993-08-05"
 attributes:
   number: "142/295"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{2}{R}"
-  card_type: "Creature — Dwarf"
-  illustrator: "Kev Brockschmidt"
+  card_type: Creature — Dwarf
+  illustrator: Kev Brockschmidt
 image:
-  source_url: https://cards.scryfall.io/large/front/0/3/03482c9c-1f25-4d73-9243-17462ea37ac4.jpg?1783948688
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/3/03482c9c-1f25-4d73-9243-17462ea37ac4.jpg?1783948688

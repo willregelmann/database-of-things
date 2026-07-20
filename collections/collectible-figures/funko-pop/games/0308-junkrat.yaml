@@ -2,7 +2,8 @@ id: 74c2e6ab-5cf6-4e43-9288-ac4ea42a6022
 name: Junkrat
 type: figure
 date: "2017"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "308"
   manufacturer: Funko, LLC

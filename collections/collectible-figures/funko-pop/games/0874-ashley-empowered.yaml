@@ -2,7 +2,8 @@ id: 902ffc36-be98-44b6-9d03-c9e56a43f851
 name: Ashley (Empowered)
 type: figure
 date: "2022"
-tags: [cb7e5eb7-6553-4b63-8d99-6ddeb1ddca49]
+tags:
+  - cb7e5eb7-6553-4b63-8d99-6ddeb1ddca49
 attributes:
   number: "874"
   manufacturer: Funko, LLC

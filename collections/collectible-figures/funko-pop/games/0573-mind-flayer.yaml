@@ -2,7 +2,8 @@ id: fc1dd2ac-696c-490b-93bb-a4927698c862
 name: Mind Flayer
 type: figure
 date: "2020"
-tags: [a9a0a918-baa3-4e5c-bf67-8c0bca87edea]
+tags:
+  - a9a0a918-baa3-4e5c-bf67-8c0bca87edea
 attributes:
   number: "573"
   manufacturer: Funko, LLC

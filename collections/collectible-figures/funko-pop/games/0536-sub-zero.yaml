@@ -2,7 +2,8 @@ id: b6d72a77-7ded-4b8b-a3b0-144148e94bbb
 name: Sub-Zero
 type: figure
 date: "2019"
-tags: [d86d8e5d-1d70-478d-b595-9c454d3c7073]
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
 attributes:
   number: "536"
   manufacturer: Funko, LLC

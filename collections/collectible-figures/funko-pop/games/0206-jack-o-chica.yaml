@@ -2,7 +2,8 @@ id: 1ee88760-ce9e-401f-97a7-9d8727eb3836
 name: Jack-O-Chica
 type: figure
 date: "2017"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "206"
   manufacturer: Funko, LLC

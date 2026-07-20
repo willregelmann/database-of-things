@@ -1,13 +1,15 @@
 id: 3fff97e4-0eb6-42c0-8a51-a049145be23a
-name: "Red Elemental Blast"
+name: Red Elemental Blast
 type: card
 date: "1993-08-05"
 attributes:
   number: "169/295"
   rarity: Common
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}"
-  card_type: "Instant"
-  illustrator: "Richard Thomas"
+  card_type: Instant
+  illustrator: Richard Thomas
 image:
-  source_url: https://cards.scryfall.io/large/front/7/7/776ad9be-3309-4f1d-9f27-6219d9477662.jpg?1783948682
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/7/776ad9be-3309-4f1d-9f27-6219d9477662.jpg?1783948682

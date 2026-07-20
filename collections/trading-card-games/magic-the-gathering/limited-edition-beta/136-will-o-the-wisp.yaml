@@ -1,13 +1,15 @@
 id: 2f20f8ff-a027-4dae-8745-382b25850dfd
-name: "Will-o'-the-Wisp"
+name: Will-o'-the-Wisp
 type: card
 date: "1993-10-04"
 attributes:
   number: "136/302"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}"
-  card_type: "Creature — Spirit"
-  illustrator: "Jesper Myrfors"
+  card_type: Creature — Spirit
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/4/b/4b60630c-f97c-43be-8410-53a68613b735.jpg?1783948627
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/b/4b60630c-f97c-43be-8410-53a68613b735.jpg?1783948627

@@ -1,13 +1,15 @@
 id: d5e5772b-efed-4cdc-b7bb-14c69cc82712
-name: "Shatter"
+name: Shatter
 type: card
 date: "1993-08-05"
 attributes:
   number: "173/295"
   rarity: Common
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{1}{R}"
-  card_type: "Instant"
-  illustrator: "Amy Weber"
+  card_type: Instant
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/5/0/50dc7fc1-cb6a-4c68-b993-1a25cf16226e.jpg?1783948682
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/0/50dc7fc1-cb6a-4c68-b993-1a25cf16226e.jpg?1783948682

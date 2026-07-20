@@ -1,13 +1,15 @@
 id: ab8ce672-9917-44bf-b77b-21d8637be302
-name: "Wheel of Fortune"
+name: Wheel of Fortune
 type: card
 date: "1993-10-04"
 attributes:
   number: "184/302"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{2}{R}"
-  card_type: "Sorcery"
-  illustrator: "Daniel Gelon"
+  card_type: Sorcery
+  illustrator: Daniel Gelon
 image:
-  source_url: https://cards.scryfall.io/large/front/9/0/9052369f-840f-438e-b86d-e2f8d6339585.jpg?1783948618
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/0/9052369f-840f-438e-b86d-e2f8d6339585.jpg?1783948618

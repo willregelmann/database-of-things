@@ -1,13 +1,15 @@
 id: 129231f8-df63-4c7c-af91-dfdbd8d2c6a5
-name: "Flight"
+name: Flight
 type: card
 date: "1993-08-05"
 attributes:
   number: "58/295"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Anson Maddocks"
+  card_type: Enchantment — Aura
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/6/7/67c7784b-6b79-4268-a714-895c82809aff.jpg?1783948705
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/7/67c7784b-6b79-4268-a714-895c82809aff.jpg?1783948705

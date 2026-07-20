@@ -2,7 +2,8 @@ id: 1dc5ec4c-a207-494e-ba18-b246a12f5e96
 name: Crota
 type: figure
 date: "2017"
-tags: [6be6ad77-25d7-4997-99bd-9f7f3933f838]
+tags:
+  - 6be6ad77-25d7-4997-99bd-9f7f3933f838
 attributes:
   number: "241"
   manufacturer: Funko, LLC

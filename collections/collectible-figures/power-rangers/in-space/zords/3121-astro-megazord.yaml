@@ -1,11 +1,11 @@
 id: 0e332660-a77f-4c66-87b8-43b025ec4445
 name: Astro Megazord
 type: zord
-date: '1998'
+date: "1998"
 attributes:
-  number: '3121'
+  number: "3121"
   category: 5″ Action Zords
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03121.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03121.jpg

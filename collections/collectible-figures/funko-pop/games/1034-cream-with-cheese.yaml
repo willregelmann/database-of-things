@@ -2,7 +2,8 @@ id: 357dc782-c288-403b-83ab-dc804c0743a6
 name: Cream with Cheese
 type: figure
 date: "2024"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "1034"
   manufacturer: Funko, LLC

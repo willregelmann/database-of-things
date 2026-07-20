@@ -2,7 +2,8 @@ id: 89dff0ef-e505-4325-98b1-bd267f3ec18d
 name: Capt. John Price
 type: figure
 date: "2015"
-tags: [bff4f001-c12c-4ffe-aa1d-a28466253d6f]
+tags:
+  - bff4f001-c12c-4ffe-aa1d-a28466253d6f
 attributes:
   number: "72"
   manufacturer: Funko, LLC

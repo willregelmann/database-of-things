@@ -1,13 +1,15 @@
 id: 56031a11-7998-4122-90e6-f98726db3f5a
-name: "Fire Elemental"
+name: Fire Elemental
 type: card
 date: "1993-10-04"
 attributes:
   number: "149/302"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{3}{R}{R}"
-  card_type: "Creature — Elemental"
-  illustrator: "Melissa A. Benson"
+  card_type: Creature — Elemental
+  illustrator: Melissa A. Benson
 image:
-  source_url: https://cards.scryfall.io/large/front/3/7/376cb9e5-89fb-4091-8a20-140bb6de0ef6.jpg?1783948625
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/7/376cb9e5-89fb-4091-8a20-140bb6de0ef6.jpg?1783948625

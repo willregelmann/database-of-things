@@ -2,7 +2,8 @@ id: d561fb6f-2341-43f0-8db6-5f8b8c1e5397
 name: P.A.N.D.A. Team Leader
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "515"
   manufacturer: Funko, LLC

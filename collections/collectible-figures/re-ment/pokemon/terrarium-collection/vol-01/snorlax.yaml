@@ -3,6 +3,7 @@ name: Snorlax
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Snorlax]
+  pokemon:
+    - Snorlax
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1703699628.jpg

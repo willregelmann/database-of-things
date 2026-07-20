@@ -1,11 +1,12 @@
 id: 0ec5260c-caaf-4df4-bc0b-aad0c288f90a
-name: "Mountain"
+name: Mountain
 type: card
 date: "1993-08-05"
 attributes:
   number: "292/295"
   rarity: Common
-  card_type: "Basic Land — Mountain"
-  illustrator: "Douglas Shuler"
+  card_type: Basic Land — Mountain
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/e/a/eace2c85-976c-425e-9800-5a6ccbd91b56.jpg?1783948657
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/a/eace2c85-976c-425e-9800-5a6ccbd91b56.jpg?1783948657

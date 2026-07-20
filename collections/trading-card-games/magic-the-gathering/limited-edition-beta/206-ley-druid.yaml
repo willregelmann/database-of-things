@@ -1,13 +1,15 @@
 id: 307c027c-bb28-4f34-92f5-b288a4953ea6
-name: "Ley Druid"
+name: Ley Druid
 type: card
 date: "1993-10-04"
 attributes:
   number: "206/302"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{2}{G}"
-  card_type: "Creature — Human Druid"
-  illustrator: "Sandra Everingham"
+  card_type: Creature — Human Druid
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/b/5/b58867ec-0b1a-4804-bc2e-1c88d338c29e.jpg?1783948613
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/5/b58867ec-0b1a-4804-bc2e-1c88d338c29e.jpg?1783948613

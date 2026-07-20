@@ -2,7 +2,8 @@ id: 11a62bd7-d950-4d90-9eb5-454e1cef6ac6
 name: Raven
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "459"
   manufacturer: Funko, LLC

@@ -3,6 +3,7 @@ name: Kirlia
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Kirlia]
+  pokemon:
+    - Kirlia
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1535027119.jpg

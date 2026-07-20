@@ -1,12 +1,13 @@
 id: 068a7614-4806-45bd-ad61-5489e514f9ff
-name: "Throne of Bone"
+name: Throne of Bone
 type: card
 date: "1993-10-04"
 attributes:
   number: "274/302"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Anson Maddocks"
+  card_type: Artifact
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/6/5/655b6265-3030-4c68-af5b-b9e636b1a778.jpg?1783948598
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/5/655b6265-3030-4c68-af5b-b9e636b1a778.jpg?1783948598

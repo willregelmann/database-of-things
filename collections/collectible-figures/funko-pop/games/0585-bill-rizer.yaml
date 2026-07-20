@@ -2,7 +2,8 @@ id: 7d945395-ec9c-4185-9b5b-f2eede15588f
 name: Bill Rizer
 type: figure
 date: "2020"
-tags: [2da94e11-856a-42ee-bf18-9cf33baee583]
+tags:
+  - 2da94e11-856a-42ee-bf18-9cf33baee583
 attributes:
   number: "585"
   manufacturer: Funko, LLC

@@ -1,12 +1,12 @@
 id: a3f2c8b0-ec02-41a5-815a-4f6cd36d5bce
 name: Astro Power Ranger Space Pack
 type: figure
-date: '1998'
+date: "1998"
 attributes:
-  number: '3246'
+  number: "3246"
   category: Toys "R" Us-Exclusive Astro Power Ranger Space Pack
   manufacturer: Bandai America
   variant: Store Exclusive
   exclusive_to: Toys "R" Us
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03246.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03246.jpg

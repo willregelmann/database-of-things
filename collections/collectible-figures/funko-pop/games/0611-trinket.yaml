@@ -2,7 +2,8 @@ id: 338ac90e-12b2-438e-99ae-3bb592b9ca89
 name: Trinket
 type: figure
 date: "2020"
-tags: [ccc586a6-51de-4a50-8a40-a163fcb68839]
+tags:
+  - ccc586a6-51de-4a50-8a40-a163fcb68839
 attributes:
   number: "611"
   manufacturer: Funko, LLC

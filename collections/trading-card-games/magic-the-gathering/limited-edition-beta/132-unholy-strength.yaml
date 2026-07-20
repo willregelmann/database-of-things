@@ -1,13 +1,15 @@
 id: 2268d89a-649c-483f-b793-ca9339097502
-name: "Unholy Strength"
+name: Unholy Strength
 type: card
 date: "1993-10-04"
 attributes:
   number: "132/302"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Douglas Shuler"
+  card_type: Enchantment — Aura
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/1/c/1c1c781d-1f27-40e3-9d79-0ebb6677e835.jpg?1783948628
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/c/1c1c781d-1f27-40e3-9d79-0ebb6677e835.jpg?1783948628

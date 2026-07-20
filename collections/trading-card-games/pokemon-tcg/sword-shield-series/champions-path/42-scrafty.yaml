@@ -3,7 +3,7 @@ name: Scrafty
 type: card
 date: "2020-09-25"
 attributes:
-  number: 42/73
+  number: "42/73"
   rarity: Rare Holo
   illustrator: tetsuya koizumi
 image:

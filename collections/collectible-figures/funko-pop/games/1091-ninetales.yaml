@@ -2,7 +2,8 @@ id: 59f7793f-ae7a-4cda-ae9d-0aba5c82d263
 name: Ninetales
 type: figure
 date: "2025"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1091"
   manufacturer: Funko, LLC

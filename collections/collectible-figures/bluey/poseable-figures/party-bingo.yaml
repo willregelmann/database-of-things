@@ -2,10 +2,11 @@ id: 92e0ca5a-6cd9-47cc-8a1a-5ac530bfccfd
 name: Bingo
 type: figure
 attributes:
-  pack_name: "Party Bingo"
-  pack_type: "Story Starter"
+  pack_name: Party Bingo
+  pack_type: Story Starter
   accessory: Cake
-  series: "S13"
-  manufacturer: "Moose Toys Pty Ltd"
+  series: S13
+  manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt9a93f1d08ea24337/683ce49854b05351f33f3388/19223_19224_BLUEY_S13_STORY_STARTER_PK_PARTY_BINGO_O04.png?format=webp&crop=1%3A1&width=624
+  source_url: >-
+    https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt9a93f1d08ea24337/683ce49854b05351f33f3388/19223_19224_BLUEY_S13_STORY_STARTER_PK_PARTY_BINGO_O04.png?format=webp&crop=1%3A1&width=624

@@ -2,7 +2,8 @@ id: b232f979-eb66-4904-b579-316d4f045b13
 name: Miles Morales (S.T.R.I.K.E. Suit)
 type: figure
 date: "2020"
-tags: [c70449f2-4081-4f2a-8778-aa315172358e]
+tags:
+  - c70449f2-4081-4f2a-8778-aa315172358e
 attributes:
   number: "766"
   manufacturer: Funko, LLC

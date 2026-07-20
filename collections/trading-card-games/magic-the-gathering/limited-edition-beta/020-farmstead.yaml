@@ -1,13 +1,15 @@
 id: 267c7457-c2c9-4449-8dd5-46e8d478d82e
-name: "Farmstead"
+name: Farmstead
 type: card
 date: "1993-10-04"
 attributes:
   number: "20/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}{W}{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Mark Poole"
+  card_type: Enchantment — Aura
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/c/4/c49ecc66-dccb-4026-8c6e-0b275a635a1f.jpg?1783948653
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/4/c49ecc66-dccb-4026-8c6e-0b275a635a1f.jpg?1783948653

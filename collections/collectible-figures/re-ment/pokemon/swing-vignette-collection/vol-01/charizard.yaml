@@ -3,6 +3,7 @@ name: Charizard
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Charizard]
+  pokemon:
+    - Charizard
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/678045724.jpg

@@ -2,7 +2,8 @@ id: 372e0a8f-5a17-42bc-bd01-40a7e5db4ba1
 name: Blinky
 type: figure
 date: "2016"
-tags: [b7e65c93-47fc-4159-85e8-482c8ad2a7f6]
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
 attributes:
   number: "83"
   manufacturer: Funko, LLC

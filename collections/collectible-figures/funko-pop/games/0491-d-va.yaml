@@ -2,7 +2,8 @@ id: 2b2be37b-ef44-45cd-bb32-a317c719110d
 name: D.Va
 type: figure
 date: "2019"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "491"
   manufacturer: Funko, LLC

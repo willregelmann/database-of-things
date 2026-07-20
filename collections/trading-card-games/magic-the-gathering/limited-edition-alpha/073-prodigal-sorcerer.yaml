@@ -1,13 +1,15 @@
 id: 8dee962f-8244-40d2-94fa-4fd42c4736cd
-name: "Prodigal Sorcerer"
+name: Prodigal Sorcerer
 type: card
 date: "1993-08-05"
 attributes:
   number: "73/295"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{2}{U}"
-  card_type: "Creature — Human Wizard Sorcerer"
-  illustrator: "Douglas Shuler"
+  card_type: Creature — Human Wizard Sorcerer
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/e/4/e4dc1103-7bf1-47f6-9006-d3ed9ccd7a6a.jpg?1783948702
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/4/e4dc1103-7bf1-47f6-9006-d3ed9ccd7a6a.jpg?1783948702

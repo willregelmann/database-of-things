@@ -1,13 +1,15 @@
 id: 35a42b0c-b85c-49f4-bf39-36f4c8e18477
-name: "Fastbond"
+name: Fastbond
 type: card
 date: "1993-10-04"
 attributes:
   number: "193/302"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Enchantment"
-  illustrator: "Mark Poole"
+  card_type: Enchantment
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/f/4/f48ed192-c1a1-437a-80dd-647a616b46e3.jpg?1783948616
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/4/f48ed192-c1a1-437a-80dd-647a616b46e3.jpg?1783948616

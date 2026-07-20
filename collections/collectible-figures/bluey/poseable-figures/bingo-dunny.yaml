@@ -2,9 +2,10 @@ id: eb663b79-5ec7-471a-8f9b-e7e32056d2b4
 name: Bingo
 type: figure
 attributes:
-  pack_name: "Bingo & Dunny"
-  pack_type: "Story Starter"
+  pack_name: Bingo & Dunny
+  pack_type: Story Starter
   accessory: Dunny
   manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://www.maziply.com/cdn/shop/files/bluey-bingo-and-dunny-story-starter-figure-series-7-main.jpg
+  source_url: >-
+    https://www.maziply.com/cdn/shop/files/bluey-bingo-and-dunny-story-starter-figure-series-7-main.jpg

@@ -3,6 +3,7 @@ name: Minccino
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Minccino]
+  pokemon:
+    - Minccino
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/614262514.jpg

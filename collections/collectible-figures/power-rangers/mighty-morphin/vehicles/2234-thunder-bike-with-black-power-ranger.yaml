@@ -1,11 +1,11 @@
 id: 65cef53e-adef-419c-84ae-dfe89ac91825
 name: Thunder Bike with Black Power Ranger
 type: vehicle
-date: '1994'
+date: "1994"
 attributes:
-  number: '2234'
+  number: "2234"
   category: Thunder Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02234.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02234.jpg

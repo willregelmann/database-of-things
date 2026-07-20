@@ -3,6 +3,7 @@ name: Dragonair
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Dragonair]
+  pokemon:
+    - Dragonair
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/96045282.jpg

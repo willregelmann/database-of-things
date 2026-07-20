@@ -2,7 +2,8 @@ id: cdbb3aa7-778d-4cd1-b490-d5c9a5190372
 name: Liberty Prime (6 inch)
 type: figure
 date: "2016"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "167"
   manufacturer: Funko, LLC

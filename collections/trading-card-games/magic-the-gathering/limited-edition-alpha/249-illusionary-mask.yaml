@@ -1,12 +1,13 @@
 id: f6d9ee60-133c-4e9b-8583-9f751b98d38f
-name: "Illusionary Mask"
+name: Illusionary Mask
 type: card
 date: "1993-08-05"
 attributes:
   number: "249/295"
   rarity: Rare
   mana_cost: "{2}"
-  card_type: "Artifact"
-  illustrator: "Amy Weber"
+  card_type: Artifact
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/6/2/62ef2f37-b8ad-47ad-89ca-d6abcb7ff21b.jpg?1783948666
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/2/62ef2f37-b8ad-47ad-89ca-d6abcb7ff21b.jpg?1783948666

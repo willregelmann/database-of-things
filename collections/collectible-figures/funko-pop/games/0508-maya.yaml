@@ -2,7 +2,8 @@ id: f541652d-21ab-44e0-9ed2-f6877e54a283
 name: Maya
 type: figure
 date: "2019"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "508"
   manufacturer: Funko, LLC

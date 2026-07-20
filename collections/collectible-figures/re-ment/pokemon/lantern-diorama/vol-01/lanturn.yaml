@@ -3,6 +3,7 @@ name: Lanturn
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Lanturn]
+  pokemon:
+    - Lanturn
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/632944321.jpg

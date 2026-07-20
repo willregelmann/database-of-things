@@ -1,13 +1,15 @@
 id: dbb3c9f2-bf77-44a5-ad16-7e0d83e34b09
-name: "Birds of Paradise"
+name: Birds of Paradise
 type: card
 date: "1993-10-04"
 attributes:
   number: "187/302"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Creature — Bird"
-  illustrator: "Mark Poole"
+  card_type: Creature — Bird
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/8/5/852d7a68-8682-4073-a44b-f10f5613879c.jpg?1783948617
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/5/852d7a68-8682-4073-a44b-f10f5613879c.jpg?1783948617

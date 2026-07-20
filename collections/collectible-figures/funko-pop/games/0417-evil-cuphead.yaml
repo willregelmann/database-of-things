@@ -2,7 +2,8 @@ id: 03fe3945-2f03-465d-944a-a11d220bb25b
 name: Evil Cuphead
 type: figure
 date: "2018"
-tags: [95af9989-f592-4224-96e4-9a028d595012]
+tags:
+  - 95af9989-f592-4224-96e4-9a028d595012
 attributes:
   number: "417"
   manufacturer: Funko, LLC

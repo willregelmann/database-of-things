@@ -3,6 +3,7 @@ name: Aggron
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Aggron]
+  pokemon:
+    - Aggron
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1020584090.jpg

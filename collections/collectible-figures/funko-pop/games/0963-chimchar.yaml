@@ -2,7 +2,8 @@ id: 29f6e07c-cfc1-41b0-a2e3-c83eb0a31894
 name: Chimchar
 type: figure
 date: "2024-05-13"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "963"
   manufacturer: Funko, LLC

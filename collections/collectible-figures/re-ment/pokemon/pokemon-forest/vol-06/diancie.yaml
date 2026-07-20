@@ -3,6 +3,7 @@ name: Diancie
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Diancie]
+  pokemon:
+    - Diancie
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1583311513.jpg

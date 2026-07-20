@@ -1,13 +1,15 @@
 id: 8d1f45c9-fb1d-4cae-ac54-11fd2cd15340
-name: "Wall of Stone"
+name: Wall of Stone
 type: card
 date: "1993-10-04"
 attributes:
   number: "183/302"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{1}{R}{R}"
-  card_type: "Creature — Wall"
-  illustrator: "Dan Frazier"
+  card_type: Creature — Wall
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/3/2/329ba196-a107-41ac-b02a-5f8b10ecd130.jpg?1783948618
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/2/329ba196-a107-41ac-b02a-5f8b10ecd130.jpg?1783948618

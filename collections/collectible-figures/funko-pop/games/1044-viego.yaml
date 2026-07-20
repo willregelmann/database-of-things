@@ -2,7 +2,8 @@ id: 9a1e1763-8f33-4606-9db0-6117f1667426
 name: Viego
 type: figure
 date: "2024"
-tags: [07ae4c45-b25a-4ecc-8c03-3d30304009eb]
+tags:
+  - 07ae4c45-b25a-4ecc-8c03-3d30304009eb
 attributes:
   number: "1044"
   manufacturer: Funko, LLC

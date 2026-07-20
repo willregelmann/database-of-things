@@ -2,7 +2,8 @@ id: 0b50739d-666c-4d05-abc3-75fddd7494c3
 name: Blacklight Foxy
 type: figure
 date: "2018"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "380"
   manufacturer: Funko, LLC

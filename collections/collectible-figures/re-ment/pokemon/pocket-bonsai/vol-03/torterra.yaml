@@ -3,6 +3,7 @@ name: Torterra
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Torterra]
+  pokemon:
+    - Torterra
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/631133408.jpg

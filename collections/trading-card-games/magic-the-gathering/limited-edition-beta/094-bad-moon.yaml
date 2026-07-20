@@ -1,13 +1,15 @@
 id: 4b5fdb0d-9998-4efb-b9bd-15d9284034fc
-name: "Bad Moon"
+name: Bad Moon
 type: card
 date: "1993-10-04"
 attributes:
   number: "94/302"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{1}{B}"
-  card_type: "Enchantment"
-  illustrator: "Jesper Myrfors"
+  card_type: Enchantment
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/b/f/bf812f48-633c-46ab-b0c3-4819ab1b4e49.jpg?1783948636
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/f/bf812f48-633c-46ab-b0c3-4819ab1b4e49.jpg?1783948636

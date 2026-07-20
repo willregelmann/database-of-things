@@ -1,13 +1,15 @@
 id: f6fd451e-2306-443d-bc22-fd061312b18a
-name: "Word of Command"
+name: Word of Command
 type: card
 date: "1993-10-04"
 attributes:
   number: "137/302"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}{B}"
-  card_type: "Instant"
-  illustrator: "Jesper Myrfors"
+  card_type: Instant
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/7/d/7d37b529-8a41-4177-abef-614f363e69d1.jpg?1783948627
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/d/7d37b529-8a41-4177-abef-614f363e69d1.jpg?1783948627

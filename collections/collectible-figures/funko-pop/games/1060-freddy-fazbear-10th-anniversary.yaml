@@ -2,7 +2,8 @@ id: c375169d-e1a6-43b7-bfe3-4b0887baee80
 name: Freddy Fazbear (10th Anniversary)
 type: figure
 date: "2024"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "1060"
   manufacturer: Funko, LLC

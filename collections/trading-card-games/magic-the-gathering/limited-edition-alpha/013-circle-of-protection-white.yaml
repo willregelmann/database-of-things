@@ -5,9 +5,11 @@ date: "1993-08-05"
 attributes:
   number: "13/295"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{1}{W}"
-  card_type: "Enchantment"
-  illustrator: "Douglas Shuler"
+  card_type: Enchantment
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/9/2/92df19c9-e127-42d9-8dd2-7fa5a7095428.jpg?1783948715
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/2/92df19c9-e127-42d9-8dd2-7fa5a7095428.jpg?1783948715

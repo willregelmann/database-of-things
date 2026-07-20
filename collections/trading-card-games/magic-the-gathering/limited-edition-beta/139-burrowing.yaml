@@ -1,13 +1,15 @@
 id: 3f93dfde-0f84-4cf4-aa1b-58288ff8ce89
-name: "Burrowing"
+name: Burrowing
 type: card
 date: "1993-10-04"
 attributes:
   number: "139/302"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Mark Poole"
+  card_type: Enchantment — Aura
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/8/7/8795bab7-ced2-4a1d-8c57-636bc4c0a977.jpg?1783948627
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/7/8795bab7-ced2-4a1d-8c57-636bc4c0a977.jpg?1783948627

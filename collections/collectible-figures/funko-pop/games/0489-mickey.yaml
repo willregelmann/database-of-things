@@ -2,7 +2,8 @@ id: d2cabdfb-c281-4da8-b64e-b48707bd0b7f
 name: Mickey
 type: figure
 date: "2018"
-tags: [56a20698-8b61-46f7-b4da-49c2b3641f0e]
+tags:
+  - 56a20698-8b61-46f7-b4da-49c2b3641f0e
 attributes:
   number: "489"
   manufacturer: Funko, LLC

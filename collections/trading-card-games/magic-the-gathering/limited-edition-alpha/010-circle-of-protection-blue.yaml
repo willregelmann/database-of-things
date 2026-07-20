@@ -5,9 +5,11 @@ date: "1993-08-05"
 attributes:
   number: "10/295"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{1}{W}"
-  card_type: "Enchantment"
-  illustrator: "Dameon Willich"
+  card_type: Enchantment
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/8/4/848b1a7f-e8ba-40b5-92b7-af1e963a0319.jpg?1783948716
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/4/848b1a7f-e8ba-40b5-92b7-af1e963a0319.jpg?1783948716

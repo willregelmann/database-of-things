@@ -3,6 +3,7 @@ name: Bewear
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Bewear]
+  pokemon:
+    - Bewear
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/122715941.jpg

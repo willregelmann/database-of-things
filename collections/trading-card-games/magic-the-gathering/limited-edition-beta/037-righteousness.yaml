@@ -1,13 +1,15 @@
 id: 1c4b7d8c-7e1f-45f5-8fa5-fe7fc6f0cbaa
-name: "Righteousness"
+name: Righteousness
 type: card
 date: "1993-10-04"
 attributes:
   number: "37/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Instant"
-  illustrator: "Douglas Shuler"
+  card_type: Instant
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/b/8/b847a2d1-5912-4f88-a68f-06790d0795dc.jpg?1783948649
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/8/b847a2d1-5912-4f88-a68f-06790d0795dc.jpg?1783948649

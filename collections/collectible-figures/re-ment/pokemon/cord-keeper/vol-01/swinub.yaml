@@ -3,6 +3,7 @@ name: Swinub
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Swinub]
+  pokemon:
+    - Swinub
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/946819736.jpg

@@ -1,11 +1,11 @@
 id: 9b503949-702f-4ef8-8a75-ce16d26ea804
 name: Blue Zeo Jet Cycle
 type: vehicle
-date: '1996'
+date: "1996"
 attributes:
-  number: '2508'
+  number: "2508"
   category: Zeo Jet Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02508.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02508.jpg

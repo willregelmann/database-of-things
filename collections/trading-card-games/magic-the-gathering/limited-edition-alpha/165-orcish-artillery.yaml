@@ -1,13 +1,15 @@
 id: 77faeac8-3e9a-48a5-8bdf-db371eab89a6
-name: "Orcish Artillery"
+name: Orcish Artillery
 type: card
 date: "1993-08-05"
 attributes:
   number: "165/295"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{1}{R}{R}"
-  card_type: "Creature — Orc Warrior"
-  illustrator: "Anson Maddocks"
+  card_type: Creature — Orc Warrior
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/a/9/a97208b1-a91b-4129-8a00-2f97b418accc.jpg?1783948683
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/9/a97208b1-a91b-4129-8a00-2f97b418accc.jpg?1783948683

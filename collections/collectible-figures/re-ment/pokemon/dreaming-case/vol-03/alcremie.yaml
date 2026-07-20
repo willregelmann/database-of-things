@@ -3,6 +3,7 @@ name: Alcremie
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Alcremie]
+  pokemon:
+    - Alcremie
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/185166043.jpg

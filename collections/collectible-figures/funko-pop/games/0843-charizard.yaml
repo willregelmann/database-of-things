@@ -1,8 +1,9 @@
 id: 215e6e8e-5c56-4d11-b2c2-2b3c591045fa
 name: Charizard
 type: figure
-date: "2021-06"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+date: 2021-06
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "843"
   manufacturer: Funko, LLC

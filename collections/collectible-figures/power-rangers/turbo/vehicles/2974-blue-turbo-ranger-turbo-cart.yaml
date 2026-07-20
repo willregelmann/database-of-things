@@ -1,11 +1,11 @@
 id: 1a7777b8-a013-4fa6-a5e2-a60b333b8ca1
 name: Blue Turbo Ranger Turbo Cart
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '2974'
+  number: "2974"
   category: Turbo Carts & 4″ Turbo Rangers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02974.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02974.jpg

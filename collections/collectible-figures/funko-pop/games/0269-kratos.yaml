@@ -2,7 +2,8 @@ id: 3fee3eff-b72b-4d3e-a89d-e6484f15e8f0
 name: Kratos
 type: figure
 date: "2018"
-tags: [6178064f-7105-485a-88b2-442c89a16f56]
+tags:
+  - 6178064f-7105-485a-88b2-442c89a16f56
 attributes:
   number: "269"
   manufacturer: Funko, LLC

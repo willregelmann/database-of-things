@@ -1,13 +1,15 @@
 id: 424ceea3-38e7-4ffc-8012-7e78a9bce25a
-name: "Giant Growth"
+name: Giant Growth
 type: card
 date: "1993-10-04"
 attributes:
   number: "198/302"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Instant"
-  illustrator: "Sandra Everingham"
+  card_type: Instant
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/7/5/755a45bd-8fe6-4e4d-8065-024a2836751b.jpg?1783948615
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/5/755a45bd-8fe6-4e4d-8065-024a2836751b.jpg?1783948615

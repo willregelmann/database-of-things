@@ -1,13 +1,15 @@
 id: 81832d39-f0e3-4452-be94-7e7d3fc5dac1
-name: "Natural Selection"
+name: Natural Selection
 type: card
 date: "1993-10-04"
 attributes:
   number: "213/302"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Instant"
-  illustrator: "Mark Poole"
+  card_type: Instant
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/a/5/a594299e-fc3a-4d46-bd58-1a9cf7ddbdd7.jpg?1783948612
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/5/a594299e-fc3a-4d46-bd58-1a9cf7ddbdd7.jpg?1783948612

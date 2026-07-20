@@ -1,13 +1,15 @@
 id: 94eff7e1-2b21-4141-a96d-fe64685746ae
-name: "Clone"
+name: Clone
 type: card
 date: "1993-08-05"
 attributes:
   number: "51/295"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{3}{U}"
-  card_type: "Creature — Shapeshifter"
-  illustrator: "Julie Baroh"
+  card_type: Creature — Shapeshifter
+  illustrator: Julie Baroh
 image:
-  source_url: https://cards.scryfall.io/large/front/f/0/f00d33dd-4eb2-4446-9813-1923d8e2d2f3.jpg?1783948707
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/0/f00d33dd-4eb2-4446-9813-1923d8e2d2f3.jpg?1783948707

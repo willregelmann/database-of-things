@@ -3,6 +3,7 @@ name: Hisuian Growlithe
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Hisuian Growlithe]
+  pokemon:
+    - Hisuian Growlithe
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1955744796.jpg

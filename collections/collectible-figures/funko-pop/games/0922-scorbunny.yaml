@@ -2,7 +2,8 @@ id: cad1d242-29d1-48c2-adca-630afbc7603a
 name: Scorbunny
 type: figure
 date: "2023-06-04"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "922"
   manufacturer: Funko, LLC

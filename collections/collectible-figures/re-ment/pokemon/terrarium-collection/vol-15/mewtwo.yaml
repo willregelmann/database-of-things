@@ -3,6 +3,7 @@ name: Mewtwo
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Mewtwo]
+  pokemon:
+    - Mewtwo
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/358031939.jpg

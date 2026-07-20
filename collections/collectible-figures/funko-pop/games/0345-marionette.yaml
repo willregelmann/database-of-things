@@ -2,7 +2,8 @@ id: 77a9f9cc-9fe0-43ff-a462-20edbdfe2f40
 name: Marionette
 type: figure
 date: "2018"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "345"
   manufacturer: Funko, LLC

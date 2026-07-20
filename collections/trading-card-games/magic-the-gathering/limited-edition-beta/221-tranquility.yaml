@@ -1,13 +1,15 @@
 id: fab62d55-a376-4861-b194-4b1f5b64dcdd
-name: "Tranquility"
+name: Tranquility
 type: card
 date: "1993-10-04"
 attributes:
   number: "221/302"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{2}{G}"
-  card_type: "Sorcery"
-  illustrator: "Douglas Shuler"
+  card_type: Sorcery
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/e/e/ee21b620-4dfa-4e06-872e-8d8ffce12f76.jpg?1783948610
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/e/ee21b620-4dfa-4e06-872e-8d8ffce12f76.jpg?1783948610

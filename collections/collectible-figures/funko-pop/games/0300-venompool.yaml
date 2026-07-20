@@ -2,7 +2,8 @@ id: 14e3f5d8-0c15-419d-9424-bf9ff0c0d66e
 name: Venompool
 type: figure
 date: "2018"
-tags: [a3fe433e-45f9-405b-aeff-5293804f66be]
+tags:
+  - a3fe433e-45f9-405b-aeff-5293804f66be
 attributes:
   number: "300"
   manufacturer: Funko, LLC

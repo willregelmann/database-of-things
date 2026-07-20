@@ -2,7 +2,8 @@ id: 75887865-e51a-49bd-992a-16dcb176e8a7
 name: Classic Sonic
 type: figure
 date: "2021"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "632"
   manufacturer: Funko, LLC

@@ -1,13 +1,15 @@
 id: 6e7c93d0-3069-4d00-9515-34b31276a0e5
-name: "Serra Angel"
+name: Serra Angel
 type: card
 date: "1993-10-04"
 attributes:
   number: "40/302"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{3}{W}{W}"
-  card_type: "Creature — Angel"
-  illustrator: "Douglas Shuler"
+  card_type: Creature — Angel
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/5/6/5669f9c8-2e94-47e2-a551-7efff317fb34.jpg?1783948647
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/6/5669f9c8-2e94-47e2-a551-7efff317fb34.jpg?1783948647

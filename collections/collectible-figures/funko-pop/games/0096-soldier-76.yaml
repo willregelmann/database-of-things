@@ -2,7 +2,8 @@ id: 384a6543-5a4a-4eae-ab31-1f72b76d7dd0
 name: "Soldier: 76"
 type: figure
 date: "2016"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "96"
   manufacturer: Funko, LLC

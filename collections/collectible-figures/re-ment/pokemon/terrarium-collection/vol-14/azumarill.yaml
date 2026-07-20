@@ -3,6 +3,7 @@ name: Azumarill
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Azumarill]
+  pokemon:
+    - Azumarill
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/328882142.jpg

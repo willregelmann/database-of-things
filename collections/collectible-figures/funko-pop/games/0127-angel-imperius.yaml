@@ -2,7 +2,8 @@ id: 6c09ae80-7cd8-4c8e-9347-c8b1d61553e2
 name: Angel Imperius
 type: figure
 date: "2025"
-tags: [390fce6f-68dd-430e-9a7d-222d76d791da]
+tags:
+  - 390fce6f-68dd-430e-9a7d-222d76d791da
 attributes:
   number: "127"
   manufacturer: Funko, LLC

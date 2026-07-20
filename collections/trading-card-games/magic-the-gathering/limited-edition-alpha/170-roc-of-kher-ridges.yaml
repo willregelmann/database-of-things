@@ -1,13 +1,15 @@
 id: f0bc78e1-d54f-444b-93f3-4452c15e92e5
-name: "Roc of Kher Ridges"
+name: Roc of Kher Ridges
 type: card
 date: "1993-08-05"
 attributes:
   number: "170/295"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{3}{R}"
-  card_type: "Creature — Bird"
-  illustrator: "Andi Rusu"
+  card_type: Creature — Bird
+  illustrator: Andi Rusu
 image:
-  source_url: https://cards.scryfall.io/large/front/7/3/731a4b86-c213-4d8e-bf01-0a0e8cff0ff1.jpg?1783948682
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/3/731a4b86-c213-4d8e-bf01-0a0e8cff0ff1.jpg?1783948682

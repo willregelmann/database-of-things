@@ -2,7 +2,8 @@ id: 01bb5a1f-d845-4cf6-bbb0-68df4a695086
 name: Mileena
 type: figure
 date: "2020"
-tags: [d86d8e5d-1d70-478d-b595-9c454d3c7073]
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
 attributes:
   number: "642"
   manufacturer: Funko, LLC

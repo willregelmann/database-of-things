@@ -3,6 +3,7 @@ name: Articuno
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Articuno]
+  pokemon:
+    - Articuno
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/950649745.jpg

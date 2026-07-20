@@ -2,7 +2,8 @@ id: 7b8a5b19-4482-43d2-9ec4-6f2d2347b810
 name: King Groot
 type: figure
 date: "2018"
-tags: [a3fe433e-45f9-405b-aeff-5293804f66be]
+tags:
+  - a3fe433e-45f9-405b-aeff-5293804f66be
 attributes:
   number: "297"
   manufacturer: Funko, LLC

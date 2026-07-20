@@ -1,12 +1,13 @@
 id: dffc8329-8866-41b9-81ed-055ddfcf88b5
-name: "Glasses of Urza"
+name: Glasses of Urza
 type: card
 date: "1993-08-05"
 attributes:
   number: "245/295"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Douglas Shuler"
+  card_type: Artifact
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/c/a/cafc2350-5d64-4379-9198-79a114654d45.jpg?1783948667
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/a/cafc2350-5d64-4379-9198-79a114654d45.jpg?1783948667

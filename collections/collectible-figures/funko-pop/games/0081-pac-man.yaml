@@ -2,7 +2,8 @@ id: 4b0f0a67-5fab-4e9a-91d4-1ac9eff6f803
 name: Pac-Man
 type: figure
 date: "2016"
-tags: [b7e65c93-47fc-4159-85e8-482c8ad2a7f6]
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
 attributes:
   number: "81"
   manufacturer: Funko, LLC

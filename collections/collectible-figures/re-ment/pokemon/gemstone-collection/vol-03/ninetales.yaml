@@ -3,6 +3,7 @@ name: Ninetales
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Ninetales]
+  pokemon:
+    - Ninetales
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/554648548.jpg

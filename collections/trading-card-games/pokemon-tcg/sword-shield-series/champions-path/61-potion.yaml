@@ -3,7 +3,7 @@ name: Potion
 type: card
 date: "2020-09-25"
 attributes:
-  number: 61/73
+  number: "61/73"
   rarity: Common
   illustrator: Ryo Ueda
 image:

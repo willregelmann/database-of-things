@@ -2,7 +2,8 @@ id: 1f41e489-a756-4e8f-9afb-e718919d3285
 name: Invincible
 type: figure
 date: "2025"
-tags: [c489b3c3-e35c-4f7d-8673-df5cc1658436]
+tags:
+  - c489b3c3-e35c-4f7d-8673-df5cc1658436
 attributes:
   number: "1098"
   manufacturer: Funko, LLC

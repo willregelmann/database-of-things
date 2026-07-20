@@ -2,7 +2,8 @@ id: db78edc2-247c-4aa9-adac-c63b863d8f56
 name: Super Mutant
 type: figure
 date: "2015"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "51"
   manufacturer: Funko, LLC

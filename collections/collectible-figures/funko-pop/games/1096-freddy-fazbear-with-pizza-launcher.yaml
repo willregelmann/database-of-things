@@ -2,7 +2,8 @@ id: e538eda5-51f5-4464-8bbb-6e96475baf91
 name: Freddy Fazbear with Pizza Launcher
 type: figure
 date: "2025"
-tags: [c489b3c3-e35c-4f7d-8673-df5cc1658436]
+tags:
+  - c489b3c3-e35c-4f7d-8673-df5cc1658436
 attributes:
   number: "1096"
   manufacturer: Funko, LLC

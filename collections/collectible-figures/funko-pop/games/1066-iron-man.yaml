@@ -2,7 +2,8 @@ id: 6dd27025-b006-49c4-84d2-044c6da00e56
 name: Iron Man
 type: figure
 date: "2025"
-tags: [cb97b4e5-77b0-48e8-93c5-42ec5828a72a]
+tags:
+  - cb97b4e5-77b0-48e8-93c5-42ec5828a72a
 attributes:
   number: "1066"
   manufacturer: Funko, LLC

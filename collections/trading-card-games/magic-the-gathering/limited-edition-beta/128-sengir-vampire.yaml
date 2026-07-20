@@ -1,13 +1,15 @@
 id: fdc3a329-8c39-4b58-9438-aec66e8c7595
-name: "Sengir Vampire"
+name: Sengir Vampire
 type: card
 date: "1993-10-04"
 attributes:
   number: "128/302"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{3}{B}{B}"
-  card_type: "Creature — Vampire"
-  illustrator: "Anson Maddocks"
+  card_type: Creature — Vampire
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/5/f/5fbd5fbb-f689-4ff0-8f23-17e4cb0925a2.jpg?1783948630
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/f/5fbd5fbb-f689-4ff0-8f23-17e4cb0925a2.jpg?1783948630

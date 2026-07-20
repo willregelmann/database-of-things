@@ -2,7 +2,8 @@ id: 4a479adb-9668-4330-9708-796a5bfa8328
 name: Asmodeus
 type: figure
 date: "2020"
-tags: [a9a0a918-baa3-4e5c-bf67-8c0bca87edea]
+tags:
+  - a9a0a918-baa3-4e5c-bf67-8c0bca87edea
 attributes:
   number: "575"
   manufacturer: Funko, LLC

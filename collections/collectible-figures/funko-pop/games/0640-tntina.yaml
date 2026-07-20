@@ -2,7 +2,8 @@ id: aa22e01f-b2a5-462e-ab5a-5263140ba8e2
 name: TNTina
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "640"
   manufacturer: Funko, LLC

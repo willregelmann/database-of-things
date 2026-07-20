@@ -2,7 +2,8 @@ id: 2d639608-8922-4900-856c-3fc79cb05248
 name: Withered Golden Freddy
 type: figure
 date: "2024"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "1033"
   manufacturer: Funko, LLC

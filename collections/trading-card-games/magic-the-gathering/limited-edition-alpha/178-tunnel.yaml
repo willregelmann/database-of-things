@@ -1,13 +1,15 @@
 id: 3faf9f3f-68f2-4ad9-8bc8-ab9791933684
-name: "Tunnel"
+name: Tunnel
 type: card
 date: "1993-08-05"
 attributes:
   number: "178/295"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}"
-  card_type: "Instant"
-  illustrator: "Dan Frazier"
+  card_type: Instant
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/b/2/b21ebc9f-a93e-4d18-b3e8-8459e3abbf31.jpg?1783948680
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/2/b21ebc9f-a93e-4d18-b3e8-8459e3abbf31.jpg?1783948680

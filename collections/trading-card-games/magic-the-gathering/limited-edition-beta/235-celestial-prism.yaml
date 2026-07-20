@@ -1,12 +1,13 @@
 id: 67c727f5-e609-4479-82c8-96b6879188f7
-name: "Celestial Prism"
+name: Celestial Prism
 type: card
 date: "1993-10-04"
 attributes:
   number: "235/302"
   rarity: Uncommon
   mana_cost: "{3}"
-  card_type: "Artifact"
-  illustrator: "Amy Weber"
+  card_type: Artifact
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/2/4/243c5460-8d4c-47a7-8a9c-ab626daa520a.jpg?1783948608
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/4/243c5460-8d4c-47a7-8a9c-ab626daa520a.jpg?1783948608

@@ -2,7 +2,8 @@ id: fcece477-5086-42ea-bb48-aa076a5eae57
 name: Nuka-Girl
 type: figure
 date: "2019"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "517"
   manufacturer: Funko, LLC

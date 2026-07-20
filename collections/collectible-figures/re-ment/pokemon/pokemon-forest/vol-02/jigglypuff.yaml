@@ -3,6 +3,8 @@ name: Jigglypuff
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Jigglypuff]
+  pokemon:
+    - Jigglypuff
 image:
-  source_url: https://pokevault.com/image/cache/catalog/201707/1543638322_pokemonforest2-4-500x500.jpg
+  source_url: >-
+    https://pokevault.com/image/cache/catalog/201707/1543638322_pokemonforest2-4-500x500.jpg

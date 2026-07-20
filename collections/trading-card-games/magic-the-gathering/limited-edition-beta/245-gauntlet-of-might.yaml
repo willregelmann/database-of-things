@@ -1,12 +1,13 @@
 id: 8ff9f123-5f77-488a-8f18-0e19fe824991
-name: "Gauntlet of Might"
+name: Gauntlet of Might
 type: card
 date: "1993-10-04"
 attributes:
   number: "245/302"
   rarity: Rare
   mana_cost: "{4}"
-  card_type: "Artifact"
-  illustrator: "Christopher Rush"
+  card_type: Artifact
+  illustrator: Christopher Rush
 image:
-  source_url: https://cards.scryfall.io/large/front/6/3/63c0e240-07b0-45fb-90af-f4fce18c604e.jpg?1783948605
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/3/63c0e240-07b0-45fb-90af-f4fce18c604e.jpg?1783948605

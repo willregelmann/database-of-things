@@ -1,13 +1,15 @@
 id: 1ecfc5fc-4930-41e9-bb5e-dd3cfb68bb52
-name: "Cursed Land"
+name: Cursed Land
 type: card
 date: "1993-08-05"
 attributes:
   number: "97/295"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{2}{B}{B}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Jesper Myrfors"
+  card_type: Enchantment — Aura
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/c/f/cf5f3c61-1e54-4eea-bf82-311cfa988e6a.jpg?1783948697
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/f/cf5f3c61-1e54-4eea-bf82-311cfa988e6a.jpg?1783948697

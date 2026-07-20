@@ -3,8 +3,7 @@ name: Funism
 type: collection
 description: >
   A designer-toy brand owned by ELSKA (a global trend-toy and IP-derivatives
-  company founded 2016) producing blind-box figures and premium statues
-  across licensed franchises (Pokémon, My Little Pony, Care Bears, Naruto,
-  Neon Genesis Evangelion) and original IP (Butterbear, Maltese, MOMO Bunny,
-  Luo Xiaohei, Alexander the Fat Tiger). Each franchise/IP is its own nested
-  collection.
+  company founded 2016) producing blind-box figures and premium statues across
+  licensed franchises (Pokémon, My Little Pony, Care Bears, Naruto, Neon Genesis
+  Evangelion) and original IP (Butterbear, Maltese, MOMO Bunny, Luo Xiaohei,
+  Alexander the Fat Tiger). Each franchise/IP is its own nested collection.

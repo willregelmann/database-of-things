@@ -1,12 +1,13 @@
 id: 96584d0b-88ab-4430-8611-b0c51464ee6a
-name: "Kormus Bell"
+name: Kormus Bell
 type: card
 date: "1993-08-05"
 attributes:
   number: "256/295"
   rarity: Rare
   mana_cost: "{4}"
-  card_type: "Artifact"
-  illustrator: "Christopher Rush"
+  card_type: Artifact
+  illustrator: Christopher Rush
 image:
-  source_url: https://cards.scryfall.io/large/front/3/f/3f4ef7a1-148d-44ac-89ed-0ef379cca0c6.jpg?1783948664
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/f/3f4ef7a1-148d-44ac-89ed-0ef379cca0c6.jpg?1783948664

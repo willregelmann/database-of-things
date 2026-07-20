@@ -1,13 +1,15 @@
 id: bd75d8c8-a696-4846-a538-58927be02e24
-name: "Black Knight"
+name: Black Knight
 type: card
 date: "1993-10-04"
 attributes:
   number: "95/302"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}{B}"
-  card_type: "Creature — Human Knight"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Human Knight
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/1/e/1eced352-d49c-4e91-a368-52904d77a69d.jpg?1783948636
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/e/1eced352-d49c-4e91-a368-52904d77a69d.jpg?1783948636

@@ -2,7 +2,8 @@ id: fcd5bd43-20bd-499a-b1a4-0f99fd55c4cf
 name: Lolth the Spider Queen
 type: figure
 date: "2025"
-tags: [a9a0a918-baa3-4e5c-bf67-8c0bca87edea]
+tags:
+  - a9a0a918-baa3-4e5c-bf67-8c0bca87edea
 attributes:
   number: "1170"
   manufacturer: Funko, LLC

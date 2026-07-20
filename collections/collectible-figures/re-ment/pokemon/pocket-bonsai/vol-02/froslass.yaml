@@ -3,6 +3,7 @@ name: Froslass
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Froslass]
+  pokemon:
+    - Froslass
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/983853810.jpg

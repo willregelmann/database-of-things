@@ -1,11 +1,12 @@
 id: 031813d1-ddfb-411e-aacc-93e5390e1f7b
-name: "Tropical Island"
+name: Tropical Island
 type: card
 date: "1993-10-04"
 attributes:
   number: "284/302"
   rarity: Rare
-  card_type: "Land — Forest Island"
-  illustrator: "Jesper Myrfors"
+  card_type: Land — Forest Island
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/a/c/ac19c5a1-ca13-4443-920b-83b567167ed4.jpg?1783948597
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/c/ac19c5a1-ca13-4443-920b-83b567167ed4.jpg?1783948597

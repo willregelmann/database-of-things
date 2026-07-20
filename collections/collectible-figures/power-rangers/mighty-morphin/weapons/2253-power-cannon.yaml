@@ -1,11 +1,11 @@
 id: cb138967-ae42-4f9d-aeb1-279ae6a65380
 name: Power Cannon
 type: weapon
-date: '1994'
+date: "1994"
 attributes:
-  number: '2253'
+  number: "2253"
   category: Power Cannon
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02253.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02253.jpg

@@ -3,7 +3,7 @@ name: Great Ball
 type: card
 date: "2020-09-25"
 attributes:
-  number: 52/73
+  number: "52/73"
   rarity: Uncommon
   illustrator: Toyste Beach
 image:

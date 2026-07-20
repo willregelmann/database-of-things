@@ -3,8 +3,8 @@ name: Swablu
 type: card
 date: "2020-09-25"
 attributes:
-  number: 48/73
+  number: "48/73"
   rarity: Common
-  illustrator: '0313'
+  illustrator: "0313"
 image:
   source_url: https://images.pokemontcg.io/swsh35/48_hires.png

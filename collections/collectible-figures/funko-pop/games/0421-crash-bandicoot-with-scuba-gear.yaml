@@ -2,7 +2,8 @@ id: ba2da686-b62c-4841-a2ae-e0144fe4ac8c
 name: Crash Bandicoot (with Scuba Gear)
 type: figure
 date: "2018"
-tags: [7fdf3938-0b8c-44d4-a207-ee878eca11bf]
+tags:
+  - 7fdf3938-0b8c-44d4-a207-ee878eca11bf
 attributes:
   number: "421"
   manufacturer: Funko, LLC

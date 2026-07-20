@@ -1,13 +1,15 @@
 id: 3bf07376-3e0c-45e6-b7de-ab59f3ca5647
-name: "Twiddle"
+name: Twiddle
 type: card
 date: "1993-08-05"
 attributes:
   number: "85/295"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Instant"
-  illustrator: "Rob Alexander"
+  card_type: Instant
+  illustrator: Rob Alexander
 image:
-  source_url: https://cards.scryfall.io/large/front/5/7/576e811f-26a3-4a7c-bd13-3b1cc3e184eb.jpg?1783948699
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/7/576e811f-26a3-4a7c-bd13-3b1cc3e184eb.jpg?1783948699

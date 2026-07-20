@@ -2,7 +2,8 @@ id: 4c8a497e-6177-4fc2-a1a2-2f6232c1a593
 name: Devil Jin
 type: figure
 date: "2017"
-tags: [f23b93de-3d95-441b-8a48-49eccd86b4dd]
+tags:
+  - f23b93de-3d95-441b-8a48-49eccd86b4dd
 attributes:
   number: "176"
   manufacturer: Funko, LLC

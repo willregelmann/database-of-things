@@ -1,9 +1,9 @@
 id: 2ce530d9-0f99-41b6-a46e-d8e3cf5c683b
 name: Oddish
 type: card
-date: '2008-08-20'
+date: "2008-08-20"
 attributes:
-  number: 112/146
+  number: "112/146"
   rarity: Common
   illustrator: Ken Sugimori
 image:

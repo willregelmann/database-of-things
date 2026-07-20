@@ -2,9 +2,10 @@ id: aced7886-dea0-49f4-9e88-18cca609445b
 name: Chloe
 type: figure
 attributes:
-  pack_name: "Chloe & Octopus"
-  pack_type: "Story Starter"
+  pack_name: Chloe & Octopus
+  pack_type: Story Starter
   accessory: Octopus
   manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://www.maziply.com/cdn/shop/files/bluey-chloe-and-octopus-story-starter-figure-series-7-main.jpg
+  source_url: >-
+    https://www.maziply.com/cdn/shop/files/bluey-chloe-and-octopus-story-starter-figure-series-7-main.jpg

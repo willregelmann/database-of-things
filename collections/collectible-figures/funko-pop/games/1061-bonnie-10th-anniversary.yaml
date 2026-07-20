@@ -2,7 +2,8 @@ id: f74171bc-e8a7-4fde-916a-31348105cff0
 name: Bonnie (10th Anniversary)
 type: figure
 date: "2024"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "1061"
   manufacturer: Funko, LLC

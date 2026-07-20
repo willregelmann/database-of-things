@@ -2,7 +2,8 @@ id: f0687c7b-9f1f-4954-bccb-c86a7e5da6d9
 name: Fishstick
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "568"
   manufacturer: Funko, LLC

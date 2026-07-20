@@ -2,7 +2,8 @@ id: db79086d-902e-42f3-b06d-40a950ace391
 name: The Devil
 type: figure
 date: "2018"
-tags: [95af9989-f592-4224-96e4-9a028d595012]
+tags:
+  - 95af9989-f592-4224-96e4-9a028d595012
 attributes:
   number: "312"
   manufacturer: Funko, LLC

@@ -1,13 +1,15 @@
 id: f5649608-2175-46e7-bc73-2fb9a3b08863
-name: "Magical Hack"
+name: Magical Hack
 type: card
 date: "1993-10-04"
 attributes:
   number: "64/302"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Instant"
-  illustrator: "Julie Baroh"
+  card_type: Instant
+  illustrator: Julie Baroh
 image:
-  source_url: https://cards.scryfall.io/large/front/0/a/0aa81390-4e0b-484b-a5be-a9449cd41860.jpg?1783948643
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/a/0aa81390-4e0b-484b-a5be-a9449cd41860.jpg?1783948643

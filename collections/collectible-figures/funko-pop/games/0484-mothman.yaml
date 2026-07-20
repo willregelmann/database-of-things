@@ -2,7 +2,8 @@ id: d84c85e3-f9c0-4817-9138-93a9a6517a22
 name: Mothman
 type: figure
 date: "2019"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "484"
   manufacturer: Funko, LLC

@@ -6,4 +6,4 @@ attributes:
   number: "123/131"
   rarity: Common
 image:
-  source_url: "https://images.pokemontcg.io/sv8pt5/123_hires.png"
+  source_url: https://images.pokemontcg.io/sv8pt5/123_hires.png

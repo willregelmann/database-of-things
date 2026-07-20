@@ -2,7 +2,8 @@ id: d0684b28-eb26-4423-a29a-9b8bf5807d14
 name: Liberty Prime (Battle, 6 inch)
 type: figure
 date: "2016"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "170"
   manufacturer: Funko, LLC

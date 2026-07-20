@@ -2,7 +2,8 @@ id: 6ef64c0c-6b4d-4736-9296-48c72e296a31
 name: Knuckles (Flocked)
 type: figure
 date: "2022"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "854"
   manufacturer: Funko, LLC

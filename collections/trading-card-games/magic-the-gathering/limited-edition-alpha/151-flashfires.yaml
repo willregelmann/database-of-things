@@ -1,13 +1,15 @@
 id: 59e67de1-aa4f-4614-869c-b78595e58203
-name: "Flashfires"
+name: Flashfires
 type: card
 date: "1993-08-05"
 attributes:
   number: "151/295"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{3}{R}"
-  card_type: "Sorcery"
-  illustrator: "Dameon Willich"
+  card_type: Sorcery
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/e/e/ee8a05a4-0ce3-4abe-bb60-08af53cf08e5.jpg?1783948686
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/e/ee8a05a4-0ce3-4abe-bb60-08af53cf08e5.jpg?1783948686

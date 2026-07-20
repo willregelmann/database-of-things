@@ -3,6 +3,7 @@ name: Moltres
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Moltres]
+  pokemon:
+    - Moltres
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1428163980.jpg

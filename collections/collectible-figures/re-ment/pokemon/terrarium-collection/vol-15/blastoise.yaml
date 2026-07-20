@@ -3,6 +3,7 @@ name: Blastoise
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Blastoise]
+  pokemon:
+    - Blastoise
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1581290659.jpg

@@ -2,7 +2,8 @@ id: b77a3660-971d-4ace-8f13-24385847f968
 name: Gamora
 type: figure
 date: "2017"
-tags: [43633246-c847-4e52-b3f8-dfeaf225e2e9]
+tags:
+  - 43633246-c847-4e52-b3f8-dfeaf225e2e9
 attributes:
   number: "277"
   manufacturer: Funko, LLC

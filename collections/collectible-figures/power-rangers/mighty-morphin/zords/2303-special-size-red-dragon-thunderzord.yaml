@@ -2,10 +2,10 @@ id: ab4e3dcc-0fd2-4a5b-ac4b-ea268af96000
 name: Special Size Red Dragon Thunderzord
 type: zord
 attributes:
-  number: '2303'
+  number: "2303"
   category: Toys "R" Us-Exclusive Power Pack
   manufacturer: Bandai America
   variant: Store Exclusive
   exclusive_to: Toys "R" Us
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02303.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02303.jpg

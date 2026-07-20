@@ -2,7 +2,8 @@ id: 85a5f639-549d-4d5e-ab96-0e773ac535cb
 name: Juggernaut
 type: figure
 date: "2016"
-tags: [bff4f001-c12c-4ffe-aa1d-a28466253d6f]
+tags:
+  - bff4f001-c12c-4ffe-aa1d-a28466253d6f
 attributes:
   number: "145"
   manufacturer: Funko, LLC

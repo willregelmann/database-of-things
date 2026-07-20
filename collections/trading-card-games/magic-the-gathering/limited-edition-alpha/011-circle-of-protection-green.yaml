@@ -5,9 +5,11 @@ date: "1993-08-05"
 attributes:
   number: "11/295"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{1}{W}"
-  card_type: "Enchantment"
-  illustrator: "Sandra Everingham"
+  card_type: Enchantment
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/1/a/1ae32d20-b438-4f43-b603-e8f706ecfb03.jpg?1783948716
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/a/1ae32d20-b438-4f43-b603-e8f706ecfb03.jpg?1783948716

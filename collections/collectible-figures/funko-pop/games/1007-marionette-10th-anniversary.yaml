@@ -2,7 +2,8 @@ id: 7d261446-5462-406b-bcc7-edb90334bf8f
 name: Marionette (10th Anniversary)
 type: figure
 date: "2024"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "1007"
   manufacturer: Funko, LLC

@@ -3,6 +3,7 @@ name: Salamence
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Salamence]
+  pokemon:
+    - Salamence
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/534288607.jpg

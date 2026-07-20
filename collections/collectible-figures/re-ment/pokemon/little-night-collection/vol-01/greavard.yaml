@@ -3,6 +3,7 @@ name: Greavard
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Greavard]
+  pokemon:
+    - Greavard
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1204539315.jpg

@@ -3,5 +3,5 @@ name: Model Kits
 type: collection
 description: >
   Build-it-yourself kits assembled from molded parts into one specific,
-  non-reconfigurable model — as opposed to a reusable construction system.
-  Each line (Gunpla, LEGO for now, ...) is its own nested collection.
+  non-reconfigurable model — as opposed to a reusable construction system. Each
+  line (Gunpla, LEGO for now, ...) is its own nested collection.

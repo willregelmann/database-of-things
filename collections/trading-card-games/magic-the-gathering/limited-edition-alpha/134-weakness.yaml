@@ -1,13 +1,15 @@
 id: ef304b6e-9c1a-46fb-81ad-4c69ea9078de
-name: "Weakness"
+name: Weakness
 type: card
 date: "1993-08-05"
 attributes:
   number: "134/295"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Douglas Shuler"
+  card_type: Enchantment — Aura
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/3/6/36ca06a1-9b9a-49a2-9c47-9b72228621bc.jpg?1783948689
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/6/36ca06a1-9b9a-49a2-9c47-9b72228621bc.jpg?1783948689

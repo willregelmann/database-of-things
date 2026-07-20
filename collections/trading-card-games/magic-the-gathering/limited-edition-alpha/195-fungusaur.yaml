@@ -1,13 +1,15 @@
 id: 88f5391c-9fdd-4576-a674-b91e9a7e3c89
-name: "Fungusaur"
+name: Fungusaur
 type: card
 date: "1993-08-05"
 attributes:
   number: "195/295"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{3}{G}"
-  card_type: "Creature — Fungus Dinosaur"
-  illustrator: "Daniel Gelon"
+  card_type: Creature — Fungus Dinosaur
+  illustrator: Daniel Gelon
 image:
-  source_url: https://cards.scryfall.io/large/front/5/a/5ad89f0d-b09b-40a0-84d6-3ee60dec7e23.jpg?1783948676
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/a/5ad89f0d-b09b-40a0-84d6-3ee60dec7e23.jpg?1783948676

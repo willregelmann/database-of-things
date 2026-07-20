@@ -1,11 +1,11 @@
 id: 337444bc-9b76-41db-823e-c5f2747f2ab4
 name: Power Blaster
 type: weapon
-date: '1995'
+date: "1995"
 attributes:
-  number: '2255'
+  number: "2255"
   category: Power Blaster
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02255.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02255.jpg

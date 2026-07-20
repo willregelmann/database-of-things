@@ -2,7 +2,8 @@ id: 51fb8bd0-3c79-4afc-9055-b76f7265c016
 name: Piplup
 type: figure
 date: "2022-07-22"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "865"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: 3d52f315-3bf1-4594-b2a0-05aaa6d65a12
 name: Rex
 type: figure
 date: "2018"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "443"
   manufacturer: Funko, LLC

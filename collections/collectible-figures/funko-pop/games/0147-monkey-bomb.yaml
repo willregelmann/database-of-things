@@ -2,7 +2,8 @@ id: 2f66bbae-3d68-4491-b7cd-7dd7bd00966e
 name: Monkey Bomb
 type: figure
 date: "2016"
-tags: [bff4f001-c12c-4ffe-aa1d-a28466253d6f]
+tags:
+  - bff4f001-c12c-4ffe-aa1d-a28466253d6f
 attributes:
   number: "147"
   manufacturer: Funko, LLC

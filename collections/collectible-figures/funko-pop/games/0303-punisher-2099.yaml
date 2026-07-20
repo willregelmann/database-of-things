@@ -2,7 +2,8 @@ id: f8a81fbe-a6d2-455a-94d3-d20d82d33c7a
 name: Punisher 2099
 type: figure
 date: "2018"
-tags: [a3fe433e-45f9-405b-aeff-5293804f66be]
+tags:
+  - a3fe433e-45f9-405b-aeff-5293804f66be
 attributes:
   number: "303"
   manufacturer: Funko, LLC

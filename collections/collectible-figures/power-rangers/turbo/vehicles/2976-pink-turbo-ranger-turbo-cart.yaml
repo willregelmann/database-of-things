@@ -1,11 +1,11 @@
 id: 26fcbf28-9c18-4340-bddb-e8f292dfa719
 name: Pink Turbo Ranger Turbo Cart
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '2976'
+  number: "2976"
   category: Turbo Carts & 4″ Turbo Rangers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02976.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02976.jpg

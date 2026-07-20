@@ -1,13 +1,15 @@
 id: 8c5e7970-cb76-4160-a445-51ac654f61fd
-name: "Bog Wraith"
+name: Bog Wraith
 type: card
 date: "1993-10-04"
 attributes:
   number: "96/302"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{3}{B}"
-  card_type: "Creature — Wraith"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Wraith
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/d/a/da26289f-e0e6-4aae-8782-ebdbabf39819.jpg?1783948636
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/a/da26289f-e0e6-4aae-8782-ebdbabf39819.jpg?1783948636

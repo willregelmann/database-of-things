@@ -1,13 +1,15 @@
 id: 803fc709-0f43-4b07-ad21-57e76d1ecd82
-name: "Gaea's Liege"
+name: Gaea's Liege
 type: card
 date: "1993-08-05"
 attributes:
   number: "196/295"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{3}{G}{G}{G}"
-  card_type: "Creature — Avatar"
-  illustrator: "Dameon Willich"
+  card_type: Creature — Avatar
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/e/2/e2b15221-c8b0-4861-9f8b-8a65834ad499.jpg?1783948677
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/2/e2b15221-c8b0-4861-9f8b-8a65834ad499.jpg?1783948677

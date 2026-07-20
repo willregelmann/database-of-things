@@ -3,6 +3,7 @@ name: Wobbuffet
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Wobbuffet]
+  pokemon:
+    - Wobbuffet
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/2031702275.jpg

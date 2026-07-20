@@ -1,11 +1,11 @@
 id: 5da74ebe-e2ab-481c-a18e-3d82b01090cf
 name: Battlizer
 type: weapon
-date: '1998'
+date: "1998"
 attributes:
-  number: '3137'
+  number: "3137"
   category: Morpher Assortment
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03137.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03137.jpg

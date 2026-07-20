@@ -3,6 +3,7 @@ name: Teddiursa
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Teddiursa]
+  pokemon:
+    - Teddiursa
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/137956207.jpg

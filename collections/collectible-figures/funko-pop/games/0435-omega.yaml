@@ -2,7 +2,8 @@ id: af270bbe-a933-486e-b552-abe67eff068c
 name: Omega
 type: figure
 date: "2018"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "435"
   manufacturer: Funko, LLC

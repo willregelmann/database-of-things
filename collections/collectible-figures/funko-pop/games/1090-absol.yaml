@@ -2,7 +2,8 @@ id: 46a2b674-9087-4267-ba63-78ecb275e151
 name: Absol
 type: figure
 date: "2025"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1090"
   manufacturer: Funko, LLC

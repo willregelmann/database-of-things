@@ -2,7 +2,8 @@ id: 6339101e-8857-4ca6-a46b-d1f5f81cfb43
 name: Zoroark
 type: figure
 date: "2026"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1156"
   manufacturer: Funko, LLC

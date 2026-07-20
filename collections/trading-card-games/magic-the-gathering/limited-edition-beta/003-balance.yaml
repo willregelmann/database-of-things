@@ -1,13 +1,15 @@
 id: 5e321e55-788d-412b-b7fb-ef28d71780d9
-name: "Balance"
+name: Balance
 type: card
 date: "1993-10-04"
 attributes:
   number: "3/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{1}{W}"
-  card_type: "Sorcery"
-  illustrator: "Mark Poole"
+  card_type: Sorcery
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/0/f/0f2c32a0-ee97-4239-94e3-aabab91dab83.jpg?1783948656
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/f/0f2c32a0-ee97-4239-94e3-aabab91dab83.jpg?1783948656

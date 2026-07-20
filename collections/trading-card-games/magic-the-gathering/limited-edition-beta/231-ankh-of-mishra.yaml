@@ -1,12 +1,13 @@
 id: 9f912717-31db-497e-bba8-1930c376b16b
-name: "Ankh of Mishra"
+name: Ankh of Mishra
 type: card
 date: "1993-10-04"
 attributes:
   number: "231/302"
   rarity: Rare
   mana_cost: "{2}"
-  card_type: "Artifact"
-  illustrator: "Amy Weber"
+  card_type: Artifact
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/a/0/a0367e54-eb07-475a-b06b-f869a046a86c.jpg?1783948609
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/0/a0367e54-eb07-475a-b06b-f869a046a86c.jpg?1783948609

@@ -2,7 +2,8 @@ id: cb958281-de31-493d-8508-19be4d38ecb3
 name: Naked Snake (Big Boss)
 type: figure
 date: "2025"
-tags: [3ecb67c9-24f8-48e0-a04c-1d0d8d38ab4e]
+tags:
+  - 3ecb67c9-24f8-48e0-a04c-1d0d8d38ab4e
 attributes:
   number: "1159"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: 311c099f-cfbc-4626-b2ea-b789528ef020
 name: Alleria Windrunner
 type: figure
 date: "2024"
-tags: [98033e9c-045f-43a4-95cd-f25620393a16]
+tags:
+  - 98033e9c-045f-43a4-95cd-f25620393a16
 attributes:
   number: "1045"
   manufacturer: Funko, LLC

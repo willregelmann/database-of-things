@@ -2,7 +2,8 @@ id: 83b05125-56bb-4454-b9a3-41401158e5af
 name: Teddiursa
 type: figure
 date: "2024-07-16"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "985"
   manufacturer: Funko, LLC

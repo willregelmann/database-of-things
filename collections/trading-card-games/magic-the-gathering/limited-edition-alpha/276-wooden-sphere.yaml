@@ -1,12 +1,13 @@
 id: 5628c033-5515-4720-989b-0b2bb06a4baf
-name: "Wooden Sphere"
+name: Wooden Sphere
 type: card
 date: "1993-08-05"
 attributes:
   number: "276/295"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Mark Tedin"
+  card_type: Artifact
+  illustrator: Mark Tedin
 image:
-  source_url: https://cards.scryfall.io/large/front/b/c/bcae01a2-171b-47cd-87be-f1e4e5314326.jpg?1783948661
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/c/bcae01a2-171b-47cd-87be-f1e4e5314326.jpg?1783948661

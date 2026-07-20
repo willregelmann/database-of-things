@@ -1,13 +1,15 @@
 id: 3c386039-fbfe-4c39-98bf-b61fa5666f98
-name: "Cockatrice"
+name: Cockatrice
 type: card
 date: "1993-10-04"
 attributes:
   number: "190/302"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{3}{G}{G}"
-  card_type: "Creature — Cockatrice"
-  illustrator: "Dan Frazier"
+  card_type: Creature — Cockatrice
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/f/c/fc71dd0f-dffe-4671-b9e3-ddec70626688.jpg?1783948616
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/c/fc71dd0f-dffe-4671-b9e3-ddec70626688.jpg?1783948616

@@ -2,7 +2,8 @@ id: 44dd968a-7934-4639-8d9e-17a211da1662
 name: Blaze the Cat
 type: figure
 date: "2025"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "1116"
   manufacturer: Funko, LLC

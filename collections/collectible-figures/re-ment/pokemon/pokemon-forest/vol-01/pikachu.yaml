@@ -3,6 +3,8 @@ name: Pikachu
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Pikachu]
+  pokemon:
+    - Pikachu
 image:
-  source_url: https://pokevault.com/image/cache/catalog/201707/1523362920_rementpokemonforest3-500x500.jpg
+  source_url: >-
+    https://pokevault.com/image/cache/catalog/201707/1523362920_rementpokemonforest3-500x500.jpg

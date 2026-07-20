@@ -1,12 +1,13 @@
 id: 89d5f346-a7e1-4905-b05d-aedfb5e54fe9
-name: "Soul Net"
+name: Soul Net
 type: card
 date: "1993-08-05"
 attributes:
   number: "270/295"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Dameon Willich"
+  card_type: Artifact
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/2/b/2b814198-814b-4619-a158-327af675f8f2.jpg?1783948661
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/b/2b814198-814b-4619-a158-327af675f8f2.jpg?1783948661

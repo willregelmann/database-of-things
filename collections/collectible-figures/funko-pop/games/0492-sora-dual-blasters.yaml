@@ -2,7 +2,8 @@ id: f322ee09-21bb-455b-b367-5e8dae6e5d76
 name: Sora (Dual Blasters)
 type: figure
 date: "2018"
-tags: [56a20698-8b61-46f7-b4da-49c2b3641f0e]
+tags:
+  - 56a20698-8b61-46f7-b4da-49c2b3641f0e
 attributes:
   number: "492"
   manufacturer: Funko, LLC

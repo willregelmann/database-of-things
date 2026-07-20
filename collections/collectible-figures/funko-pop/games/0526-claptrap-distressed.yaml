@@ -2,7 +2,8 @@ id: 52415ae5-a05a-4ccb-bc4d-b07296a9f57e
 name: Claptrap (Distressed)
 type: figure
 date: "2019"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "526"
   manufacturer: Funko, LLC

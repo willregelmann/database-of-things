@@ -1,13 +1,15 @@
 id: 0cd5bcb0-0c5c-4b51-8547-502ba6d53efc
-name: "Drain Power"
+name: Drain Power
 type: card
 date: "1993-08-05"
 attributes:
   number: "56/295"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}{U}"
-  card_type: "Sorcery"
-  illustrator: "Douglas Shuler"
+  card_type: Sorcery
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/e/a/ea3830c5-cc66-453e-9e53-0636e00ee0ee.jpg?1783948706
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/a/ea3830c5-cc66-453e-9e53-0636e00ee0ee.jpg?1783948706
