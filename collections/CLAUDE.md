@@ -71,6 +71,31 @@ directly under `collections/`, e.g. `trading-card-games/`, `comics/`) don't
 get a `date` — they're DBoT's own organizational buckets for grouping
 related categories, not things that were themselves released.
 
+## Descriptions
+
+Some entities — in practice almost always `_collection.yaml` records, not leaf
+items — carry an optional top-level `description`: a short summary of what the
+collection, series, or set is. Two rules govern it, and they exist to keep the
+whole catalog cleanly redistributable under CC0 (see the repo's
+[`LICENSE-DATA`](../LICENSE-DATA)).
+
+- **Write original prose — never paste or lightly reword source text.** State
+  facts freely (release dates, mechanics, notable items, who produced it), but
+  the *wording* must be your own synthesis. Copying a description from
+  Bulbapedia, a Fandom/wiki page, a manufacturer's marketing copy, or a
+  retailer listing imports that source's copyright and license — e.g.
+  Bulbapedia is CC BY-NC-SA, whose non-commercial + share-alike terms are
+  incompatible with this project's CC0 data license. Facts carry no such
+  license; original expression over those facts is the project's own and can be
+  released under CC0. Descriptions written by an AI curator satisfy this as long
+  as they're genuine synthesis, not regurgitated source prose.
+- **Keep it factual and brief — a few sentences.** A description orients a
+  reader on what the grouping is and why it's distinct; it isn't a place for
+  exhaustive detail (that's what `source_url` links and per-item data are for)
+  or for promotional/editorializing tone. When there's nothing non-obvious to
+  say beyond what the name and hierarchy already convey, leave `description`
+  off rather than padding it.
+
 ## Tags
 
 The optional top-level `tags` field is a flat array of **ids**, each
