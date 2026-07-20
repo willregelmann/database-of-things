@@ -22,7 +22,7 @@ figures-only scope as the rest of `collectible-figures/` — see
 **This is not the same exception as Power Rangers.** Power Rangers curates
 its whole toy line in one place because the manufacturer releases and
 numbers figures/Zords/vehicles/playsets together as one inseparable product
-line (see [`../../power-rangers/CLAUDE.md`](../../power-rangers/CLAUDE.md)). Bluey
+line (see [`../../bandai/power-rangers/CLAUDE.md`](../../bandai/power-rangers/CLAUDE.md)). Bluey
 is the opposite: Moose Toys sells each product family under its own distinct
 name, format, and (where present) numbering, with no shared catalog — closer
 to Funko's many independent Pop! formats than to Power Rangers' one line.

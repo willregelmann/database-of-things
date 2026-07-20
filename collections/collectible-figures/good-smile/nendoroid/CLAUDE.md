@@ -3,7 +3,7 @@
 ## Directory structure
 
 ```
-nendoroids/
+nendoroid/
   CLAUDE.md
   template.schema.json
   _collection.yaml               # the whole "Nendoroid" line
@@ -18,8 +18,9 @@ to insert. Don't invent one.
 **Spin-off lines are siblings, not nested items.** Nendoroid Doll, Nendoroid
 More, and Nendoroid Petit are separate Good Smile product lines with their
 own numbering — they don't belong in this directory. If curating one, add it
-as its own collection under `collectible-figures/`, a sibling of
-`nendoroids/`, not folded into this numbering.
+as its own collection under `../` (the Good Smile Company umbrella), a sibling
+of `nendoroid/` (e.g. `good-smile/nendoroid-doll/`), not folded into this
+numbering.
 
 ## Collection records
 

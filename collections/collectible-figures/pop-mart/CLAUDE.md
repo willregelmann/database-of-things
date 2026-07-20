@@ -46,7 +46,7 @@ rest of [`../CLAUDE.md`](../CLAUDE.md)):
   numbering/format. A distinct sibling collection if curated (e.g.
   `collectible-figures/pop-mart-mega/`), the same relationship as Funko Pop
   Rides/Town to plain Funko Pop (see
-  [`../funko-pop/CLAUDE.md`](../funko-pop/CLAUDE.md)).
+  [`../funko/pop/CLAUDE.md`](../funko/pop/CLAUDE.md)).
 - **Pure plush** (soft-only, no vinyl parts) — a `plush/` concern if
   curated, not here.
 - **Keychains, pendants, and other accessories** — not standalone figures.
