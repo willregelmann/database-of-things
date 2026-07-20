@@ -1,5 +1,9 @@
 # Tags — curation hints
 
+> **License:** tag entities here are released into the public domain under
+> CC0 1.0 alongside the rest of the catalog data — see
+> [`../LICENSE-DATA`](../LICENSE-DATA) and [`../DISCLAIMER.md`](../DISCLAIMER.md).
+
 `tags/` is a sibling of `collections/`, not a part of it — a tag is a
 cross-cutting label that can apply to entities anywhere across the whole
 catalog, so it doesn't belong inside any one domain family or category. See

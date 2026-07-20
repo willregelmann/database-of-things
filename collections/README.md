@@ -3,6 +3,11 @@
 This directory is the canonical, file-based source of truth for DBoT's
 collectibles data. See `docs/dbot-target-architecture.md` for the full design.
 
+> **License:** the data in this directory is released into the public domain
+> under CC0 1.0 — see [`../LICENSE-DATA`](../LICENSE-DATA). Third-party
+> trademarks and the images referenced by `image.source_url` are *not* covered;
+> see [`../DISCLAIMER.md`](../DISCLAIMER.md).
+
 ## Layout
 
 ```

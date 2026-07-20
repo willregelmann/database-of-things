@@ -68,4 +68,20 @@ requests:
 
 ## License
 
-MIT License — see [LICENSE](LICENSE).
+DBoT is dual-licensed to reflect the two different kinds of content in this
+repository:
+
+- **Code** — the validator, MCP server, scripts, skills, and JSON schemas — is
+  licensed under the **MIT License** ([LICENSE](LICENSE)).
+- **Catalog data** — everything under [`collections/`](collections/) and
+  [`tags/`](tags/), including collection-level `description` text — is released
+  into the public domain under **CC0 1.0** ([LICENSE-DATA](LICENSE-DATA)). It's
+  factual metadata plus original descriptions written for this project; take it
+  and use it freely.
+
+The data is factual and the descriptions are original to this project, so CC0
+is a clean fit. Two things it does not cover: third-party **trademarks** (the
+product and brand names cataloged here belong to their owners) and the
+**images** referenced by `image.source_url` (hosted by third parties, not
+redistributed here — the repo only stores URLs). See [DISCLAIMER.md](DISCLAIMER.md)
+for details.
