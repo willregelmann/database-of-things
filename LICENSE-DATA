@@ -1,31 +1,3 @@
-Data license — Database of Things
-=================================
-
-This license covers the *catalog data* in this repository: everything under
-`collections/` and `tags/` (the YAML entity files, including collection-level
-`description` text, plus the tag entities). It does NOT cover the software in
-this repository (validator, MCP server, scripts, skills, schemas), which is
-licensed separately under the MIT License — see `LICENSE`.
-
-The catalog data is released under the Creative Commons CC0 1.0 Universal
-public-domain dedication. It consists of factual metadata about collectibles
-(names, dates, catalog/collector numbers, illustrators, and similar facts) and
-original descriptive summaries written for this project. To the extent any of
-it is protected by copyright or database rights, those rights are waived as
-set out below.
-
-Two things this dedication does NOT and CANNOT do (see section 4(a) and 4(c)):
-
-  - It does not grant any rights in third-party trademarks, product names, or
-    brands referenced in the data. Those remain the property of their owners;
-    they appear here only to identify the real-world items being cataloged.
-    See `DISCLAIMER.md`.
-  - It does not grant any rights in the images referenced by `image.source_url`
-    fields. Those images are hosted by third parties and are not part of this
-    repository; each remains subject to its own owner's rights and terms.
-
-------------------------------------------------------------------------------
-
 Creative Commons Legal Code
 
 CC0 1.0 Universal
