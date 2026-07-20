@@ -1,9 +1,10 @@
 id: 867a79ce-be73-428a-8b9e-a03a29212a36
 name: Milotic ex
 type: card
-date: "2024-11-08"
+date: '2024-11-08'
 attributes:
-  number: "42/191"
+  number: 42/191
   rarity: Double Rare
+  illustrator: hncl
 image:
   source_url: https://images.pokemontcg.io/sv8/42_hires.png
