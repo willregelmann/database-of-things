@@ -9,3 +9,9 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02578.jpg'
+components:
+  - 1060d639-4224-40a6-a977-1da8ef6b7636   # Zeo Zord I
+  - 92a48d7b-7abd-4ccb-b2e4-95583197e167   # Zeo Zord II
+  - d7e5986f-a419-4638-99bf-a1b4956da171   # Zeo Zord III
+  - 8486b89e-4020-4929-8fc4-76447856addd   # Zeo Zord IV
+  - 02218fa3-3055-4c29-842d-cde2a39f9981   # Zeo Zord V

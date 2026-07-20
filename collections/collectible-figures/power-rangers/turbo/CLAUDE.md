@@ -7,7 +7,10 @@ to [Zeo](../zeo/CLAUDE.md).
 ## Directory structure
 
 Same shape as `mighty-morphin/` and `zeo/` — five type-based subdirectories
-(`figures/`, `zords/`, `vehicles/`, `weapons/`, `playsets/`), flat within
+(`figures/`, `zords/`, `vehicles/`, `weapons/`, `playsets/`), plus a
+`_zords/` components bucket for the individual Turbozords/Rescue Zords
+bundled inside a `zords/` Megazord — see [`../CLAUDE.md`](../CLAUDE.md),
+"Zords as components." Flat within
 each. No `template.schema.json` of its own; inherits the shared
 `power-rangers/template.schema.json`.
 

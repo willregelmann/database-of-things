@@ -9,3 +9,9 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03047.jpg'
+components:
+  - d68b6896-4cab-4b85-8b10-614fc9a0fd2b   # Lightning Fire Tamer
+  - 51c49d6f-48c6-4f55-a628-deeffa02975f   # Siren Blaster
+  - cd7ed543-49f6-46eb-8c4f-ab7f434b79f8   # Thunder Loader
+  - 70ae23ce-56e5-4210-a319-e72f165da989   # Star Racer
+  - 8f2e5bb1-eff9-4328-8184-f435087bb534   # Wind Rescue

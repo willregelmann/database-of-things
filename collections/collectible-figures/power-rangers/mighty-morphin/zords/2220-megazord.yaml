@@ -9,3 +9,9 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02220.jpg'
+components:
+  - adc6b83e-1bc1-4c71-a9ad-5841940bd77b   # Tyrannosaurus Dinozord
+  - ab96101d-a320-40fa-b009-ec0fe6569411   # Mastodon Dinozord
+  - da864483-16bf-4f71-9d8d-24ab233fa6ec   # Triceratops Dinozord
+  - 79b9e5b0-4526-4b34-84df-8bc17ac3667c   # Sabre-Toothed Tiger Dinozord
+  - b64544e7-5e16-4726-8658-60b8df4cb834   # Pterodactyl Dinozord

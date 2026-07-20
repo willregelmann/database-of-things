@@ -9,3 +9,9 @@ attributes:
   variant: Movie Edition
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02491_1.jpg'
+components:
+  - 23a9df92-d74b-417b-a348-905b0d09171c   # Ape Ninjazord
+  - cec58e77-797e-4853-8ec7-d66188454215   # Bear Ninjazord
+  - dd52e750-4b3b-4f67-a93e-1f71081fea80   # Frog Ninjazord
+  - 96d205f0-74e8-4bad-861e-55ecfca0de0c   # Crane Ninjazord
+  - d7322536-0f3b-4988-960e-69d97090c4bf   # Wolf Ninjazord
