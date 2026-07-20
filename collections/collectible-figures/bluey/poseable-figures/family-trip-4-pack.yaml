@@ -1,0 +1,14 @@
+id: 8f8e3350-d865-4b97-afb7-c0bb7868ba04
+name: Bluey Figure 4-Pack - Family Trip
+type: pack
+date: "2024"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S11"
+image:
+  source_url: https://www.toyworld.com.au/cdn/shop/files/BLUEY_20S11_20HOLIDAY_20FIGURE_204_20PACK_20-_20FAMILY_20TRIP2_675ae71c-628c-42e4-9dba-0dbcf1631af8.jpg?v=1732670418&width=2048
+components:
+  - 6b4359db-18f8-4eaf-8406-216e52cd3ea1   # Bandit
+  - a5313abe-5cc4-418c-9be9-f119eefcc23d   # Bingo
+  - 0d48573d-f3c9-4cf4-846b-68155d3339cb   # Bluey
+  - 67b0415e-da4c-4d3b-9352-6a3be6dcb89c   # Chilli

@@ -1,0 +1,12 @@
+id: 115e5c84-94d5-4e3a-abda-b896d28a6ec2
+name: Bluey Figure 2-Pack - Baby Race
+type: pack
+date: "2023-12"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S10"
+image:
+  source_url: https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/1280x1280/products/461980/718903/630996176160__75646.1702143423.jpg?c=2
+components:
+  - 6fc8a3a0-22b5-4f13-b03c-1938f3193cf8   # Baby Bluey
+  - d17c93ef-d783-4164-92a2-32254e0afdad   # Chilli

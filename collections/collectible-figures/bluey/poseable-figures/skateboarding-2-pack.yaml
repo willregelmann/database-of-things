@@ -1,0 +1,11 @@
+id: 349047e3-166a-4d62-bcdd-52ac4cf864e3
+name: Bluey Figure 2-Pack - Skateboarding
+type: pack
+date: "2020"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://tools.toywiz.com/_images/_webp/_products/lg/blueyskateboard.webp
+components:
+  - 8dbf4cee-440a-472b-a9d4-c19a7650e106   # Bandit
+  - 750ef4a6-9145-4774-812e-73c39649cafb   # Bluey

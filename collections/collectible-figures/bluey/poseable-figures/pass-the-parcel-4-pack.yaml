@@ -1,0 +1,13 @@
+id: ce32552e-44c5-4cc8-8935-aebcfa0e78f6
+name: Bluey Figure 4-Pack - Pass the Parcel
+type: pack
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S9"
+image:
+  source_url: https://www.maziply.com/cdn/shop/files/bluey-series-9-pass-the-parcel-figure-4-pack-main.png?v=1762452130
+components:
+  - 9510a90d-9961-44c1-898a-976010a5d50e   # Bingo
+  - 1ce5e223-3039-4325-bbbd-a426948a7c3b   # Bluey
+  - 352292c4-097f-4261-bc8f-4d95194cc1e4   # Lila
+  - ba0b8d71-972d-47f1-8a42-471152b45f1b   # Lucky's Dad

@@ -1,0 +1,11 @@
+id: ff07dea2-1bbd-4599-a2c4-8f3b5cd59bb6
+name: Bluey Figure 2-Pack - Fairytale
+type: pack
+date: "2024"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt7e8d6b76dd3200aa/672c271862bafa7ea26c8d2e/17975_17974_BLUEY_S12_FIG_2PK_F.png?format=webp&crop=1%3A1&width=500
+components:
+  - 05f7f8d7-b238-45d9-bb96-c5d94ee1614f   # Young Bandit
+  - 9e8f8167-990a-4686-a967-bed215090cb1   # Young Chilli

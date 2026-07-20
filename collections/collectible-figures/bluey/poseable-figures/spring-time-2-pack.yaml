@@ -1,0 +1,12 @@
+id: 8869f31c-adcb-4d03-a4d2-67e64a4f1424
+name: Bluey Figure 2-Pack - Spring Time
+type: pack
+date: "2025"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S13"
+image:
+  source_url: https://cdn11.bigcommerce.com/s-jsa4yj6q7j/products/64228/images/90095/series_13_figure_2_pack_spring_time_bluey_muffin_6___88478.1752548786.500.750.jpg?c=2
+components:
+  - 978f6321-4b10-4d2c-9d32-b5ec9aeacb8e   # Bluey
+  - 8be27870-7a40-4d85-84a7-7eb33439920a   # Muffin

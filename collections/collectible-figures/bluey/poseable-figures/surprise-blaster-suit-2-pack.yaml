@@ -1,0 +1,11 @@
+id: aee708a3-229e-4cb1-be8a-b6a73338bdd3
+name: Bluey Figure 2-Pack - Surprise Blaster Suit
+type: pack
+date: "2024"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://cdn11.bigcommerce.com/s-0kvv9/products/521797/images/798207/630996176528__02756.1737486480.500.750.jpg?c=2
+components:
+  - 8323b068-e8da-45a7-855a-4e5385f92f78   # Bluey
+  - 030568b2-afe4-4375-8c86-56f2228ab817   # Chucky

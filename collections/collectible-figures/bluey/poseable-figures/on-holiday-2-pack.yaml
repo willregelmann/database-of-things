@@ -1,0 +1,11 @@
+id: 888b9f36-af39-4548-87c0-a37ce6238dd3
+name: Bluey Figure 2-Pack - On Holiday
+type: pack
+date: "2024"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blta56200661123aed9/6662888f491b819028503c39/17651_BLUEY_S11_FIG_2PK_ON_HOL_F.png?format=webp&crop=1%3A1&width=500
+components:
+  - 444c0bfd-6c1f-4da0-9d3d-f3af3ab32989   # Bingo
+  - 718b5c14-aa5e-4922-8afb-b7938a02c666   # Bluey

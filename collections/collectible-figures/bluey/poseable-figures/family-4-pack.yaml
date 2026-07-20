@@ -1,0 +1,13 @@
+id: f174d70c-da21-4949-a88d-25c6e3a113ec
+name: Bluey & Family Figure 4-Pack
+type: pack
+date: "2020-08"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/1280x1280/products/335687/490212/apingvp9r__93591.1617720292.jpg?c=2
+components:
+  - 30a54eb8-989d-4231-b970-6afd034dd392   # Bandit
+  - 6d6349a8-53d4-46d7-832b-ade16e0ff1c2   # Bingo
+  - 97bfec25-822a-49e4-a6bb-bc79e3999517   # Bluey
+  - 5fc75240-15b4-4fe6-9a44-ed42953de3ec   # Chilli

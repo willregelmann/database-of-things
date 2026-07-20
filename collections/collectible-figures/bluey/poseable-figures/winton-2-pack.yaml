@@ -1,0 +1,12 @@
+id: 8f593a04-fe66-4bd1-8912-fc0da26cefac
+name: Bluey School Friends Bluey & Winton 2-Pack
+type: pack
+date: "2021"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S7"
+image:
+  source_url: https://tools.toywiz.com/_images/_webp/_products/lg/630996173428.webp
+components:
+  - 77574597-f59c-48be-b0b6-b3576970a502   # Bluey
+  - 9f4fae0f-f818-4432-b8e6-e049b1d69338   # Winton
