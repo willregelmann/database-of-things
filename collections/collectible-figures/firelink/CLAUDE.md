@@ -25,7 +25,7 @@ only one series.
 
 "FireLink" is a Bandai Namco–licensed brand, not one company's in-house
 line. Different series are produced by different manufacturers under the
-same FireLink branding (e.g. one Dark Souls III series is attributed to a
+same FireLink branding (e.g. one Dark Souls series is attributed to a
 different manufacturer than the others). Always verify `attributes.manufacturer`
 per series rather than assuming it matches an earlier one.
 
