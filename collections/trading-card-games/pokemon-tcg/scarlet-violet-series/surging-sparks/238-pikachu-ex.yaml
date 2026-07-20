@@ -1,9 +1,10 @@
 id: 90212112-3997-48c7-90ee-8c998121f6fb
 name: Pikachu ex
 type: card
-date: "2024-11-08"
+date: '2024-11-08'
 attributes:
-  number: "238/191"
+  number: 238/191
   rarity: Special Illustration Rare
+  illustrator: GIDORA
 image:
   source_url: https://images.pokemontcg.io/sv8/238_hires.png
