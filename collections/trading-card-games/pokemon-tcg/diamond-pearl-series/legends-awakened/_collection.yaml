@@ -4,10 +4,10 @@ type: collection
 category: Trading Card Games
 description: >
   The sixth expansion in the Diamond & Pearl Series, released by The Pokémon
-  Company International on August 1, 2008. Spans 146 cards and features
-  Rare Holo LV.X cards for legendary Pokémon including Uxie, Mesprit, Azelf,
-  and Mewtwo.
-date: "2008-08-01"
+  Company International on August 20, 2008. Spans 146 cards and features Rare
+  Holo LV.X cards for legendary Pokémon including Uxie, Mesprit, Azelf, and
+  Mewtwo.
+date: '2008-08-20'
 total_cards: 146
 image:
   source_url: https://images.pokemontcg.io/dp6/logo.png
