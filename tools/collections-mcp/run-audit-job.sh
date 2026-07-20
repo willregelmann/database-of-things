@@ -5,6 +5,9 @@
 # Write/Read access at all in its own session, so it cannot touch
 # collections/** except through the collections-mcp MCP tools. Submission
 # itself happens here, after the session ends, not inside it.
+#
+# Must run from a checkout dedicated to this job (see the sync step below
+# for why) -- never point cron at the primary interactive checkout.
 set -euo pipefail
 
 # cron runs with a minimal PATH that doesn't include nvm's node or a
@@ -28,10 +31,20 @@ MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__
   # drifts behind origin/main as PRs merge -- including PRs that change
   # tools/collections-validate/validate.mjs itself. A stale local validator
   # can pass writes here that a fresh one (what CI actually runs on the PR)
-  # rejects. --ff-only: fail loudly on real divergence rather than merge
-  # over it.
+  # rejects.
+  #
+  # Detached checkout, not `git pull --ff-only`: this checkout must be
+  # unconditionally resettable to origin/main's tip regardless of what
+  # branch it was left on. `submit.mjs` always returns here to a real
+  # branch name after a run, but a session that dies before submit.mjs
+  # runs (or a leftover branch from manual testing) can leave HEAD
+  # somewhere else with no upstream tracking -- `git pull` has no ref to
+  # merge into and dies, which took the whole job down on 2026-07-20 when
+  # this checkout was left on a stray feature branch. Detached HEAD never
+  # "claims" a branch, so it can always resync from any prior state.
   echo "--- syncing checkout with origin/main ---"
-  git pull --ff-only
+  git fetch origin main
+  git checkout --detach origin/main
 
   set +e
   claude -p "/collections-audit-fix" \

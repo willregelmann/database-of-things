@@ -17,6 +17,19 @@ function git(args) {
   return execFileSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
 }
 
+// `--abbrev-ref HEAD` prints the literal string "HEAD" when detached
+// (which the dedicated audit checkout always is between ticks). Checking
+// that string back out later would just re-resolve to whatever HEAD
+// happens to point to *at that moment* -- not the commit we started from,
+// since by then HEAD has moved to the tip of the throwaway branch below.
+// Capture the concrete SHA whenever detached so the `finally` restore is a
+// real snapshot; stay branch-based when on a real branch (manual/CLI use)
+// so that case still lands back on the branch itself, not a detached SHA.
+function currentRef() {
+  const ref = git(['rev-parse', '--abbrev-ref', 'HEAD']);
+  return ref === 'HEAD' ? git(['rev-parse', 'HEAD']) : ref;
+}
+
 function diffFields(before, after) {
   const changed = [];
   const keys = new Set([...Object.keys(before || {}), ...Object.keys(after || {})]);
@@ -128,7 +141,7 @@ if (changes.length > 0) {
   const paths = [...new Set(changes.flatMap(entryPaths))];
   const { title, body } = buildPr(changes);
   const branch = `audit/${crypto.randomUUID().slice(0, 8)}`;
-  const originalBranch = git(['rev-parse', '--abbrev-ref', 'HEAD']);
+  const originalBranch = currentRef();
 
   console.log(`\n--- ${DRY_RUN ? 'DRY RUN — would run' : 'submitting PR'} ---`);
   console.log(`branch: ${branch}`);
