@@ -29,17 +29,15 @@ Rangers is a franchise directory under a manufacturer at all — is documented
 in the Bandai umbrella [`../CLAUDE.md`](../CLAUDE.md) and the category
 [`../../CLAUDE.md`](../../CLAUDE.md).
 
-## Full toy line, not figures-only
+## Curated as a full toy line
 
-Unlike every other line in `collectible-figures/`, a Power Rangers toy line
-is curated in full — figures alongside its companion Zords/Megazords,
-vehicles, playsets, and weapons/role-play accessories — because the
-manufacturer releases and numbers all of these together as one product
-line; splitting them across categories would fragment a single collector's
-checklist. This is a documented exception to the parent category's default
-figures-only scope — see [`../../CLAUDE.md`](../../CLAUDE.md). Each item's coarse
-`type` (`figure`, `zord`, `vehicle`, `weapon`, `playset`) determines which
-subdirectory it lives in within its line.
+A Power Rangers line is curated whole — figures alongside its companion
+Zords/Megazords, vehicles, playsets, and weapons/role-play pieces — because
+Bandai releases and numbers all of these together as one product line. That's
+just the `figures/` family default (curate the whole toy line; don't slice it by
+object type — see [`../../CLAUDE.md`](../../CLAUDE.md)), not a special
+exception. Each item's coarse `type` (`figure`, `zord`, `vehicle`, `weapon`,
+`playset`) determines which subdirectory it lives in within its line.
 
 ## Zords as components
 

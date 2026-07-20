@@ -6,7 +6,7 @@ Re-Ment's blind-box **character figure/diorama** lines only. Re-Ment also
 sells a huge catalog of non-figure novelty items under the same licenses
 (erasers, magnets, mini towels, kitchen playsets, miniature food/snacks,
 stationery) — those aren't standalone character figures and don't belong in
-`collectible-figures` at all. When scoping a new product for curation, check
+`figures` at all. When scoping a new product for curation, check
 it's actually a posed character figure/diorama, not merchandise that merely
 features a Pokémon on it.
 

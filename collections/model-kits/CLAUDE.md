@@ -9,6 +9,12 @@ yet curated). The defining trait is single-use assembly: parts are
 cut/glued/snap-fit following one fixed instruction path into one model, not
 a reusable general-purpose building system.
 
+**A scale-model-style piece that ships as part of a character figure line
+belongs with that line, not here.** A buildable vehicle or mecha released
+inside a figure line is curated in [`../figures/`](../figures/CLAUDE.md) with
+its line — membership follows the product line, not the object's kit-like
+form. This family is for stand-alone model-kit *lines*.
+
 **Not construction toys — `lego/` is parked here temporarily.** LEGO is a
 reusable, general-purpose brick system (the same piece goes into any set, or
 a builder's own creation), which is a genuinely different kind of

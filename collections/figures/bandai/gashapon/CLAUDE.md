@@ -13,7 +13,7 @@ something as gashapon:
   no character depicted — same carve-out as
   [`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md). A capsule toy that merely
   features a franchise's logo or a non-character object isn't a standalone
-  character figure and doesn't belong in `collectible-figures` at all.
+  character figure and doesn't belong in `figures` at all.
 - **Not other companies' capsule toys.** "Gachapon"/"capsule toy" is a
   generic category with many manufacturers — Kitan Club, Takara Tomy A.R.T.S.,
   T-ARTS, Yell, and others all sell visually similar capsule figures, often

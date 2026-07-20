@@ -44,7 +44,7 @@ rest of [`../CLAUDE.md`](../CLAUDE.md)):
 - **MEGA-scale figures** (100%/400% oversized releases, e.g. MEGA SPACE
   MOLLY) — sold individually, not as blind boxes, with their own separate
   numbering/format. A distinct sibling collection if curated (e.g.
-  `collectible-figures/pop-mart-mega/`), the same relationship as Funko Pop
+  `figures/pop-mart-mega/`), the same relationship as Funko Pop
   Rides/Town to plain Funko Pop (see
   [`../funko/pop/CLAUDE.md`](../funko/pop/CLAUDE.md)).
 - **Pure plush** (soft-only, no vinyl parts) — a `plush/` concern if

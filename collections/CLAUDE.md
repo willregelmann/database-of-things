@@ -129,7 +129,7 @@ validator also enforces that every id resolves to a real `tags/` entity.
 categories.** Funko Pop, for instance, resets its box-printed "line"
 independent of franchise, so nearly every figure carries a franchise tag
 (see
-[`collectible-figures/funko/pop/CLAUDE.md`](collectible-figures/funko/pop/CLAUDE.md))
+[`figures/funko/pop/CLAUDE.md`](figures/funko/pop/CLAUDE.md))
 — not just the cross-category crossover cases. Keeping franchise in one
 place means a search for "everything Pokémon" never has to also check a
 per-category attribute that might hold the same information.

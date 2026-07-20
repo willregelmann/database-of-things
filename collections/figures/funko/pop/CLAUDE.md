@@ -33,7 +33,7 @@ field; the directory captures the line only.
 category name (e.g. `movies`, `animation`, `marvel`, `star-wars`, `disney`,
 `television`, `rocks`).
 
-**Sub-formats are separate sibling lines under `collectible-figures/`, not
+**Sub-formats are separate sibling lines under `figures/`, not
 nested here.** Pop! Rides (vehicle + figure), Pop! Town (figure + buildable
 diorama piece), Pop! Moments (multi-figure scene), and Pop! Albums (figure +
 album-cover box art) are distinct Funko product formats with their own
@@ -41,7 +41,7 @@ separate numbering and box conventions — same relationship as Nendoroid
 Doll/More/Petit to plain Nendoroid (see
 [`../../good-smile/nendoroid/CLAUDE.md`](../../good-smile/nendoroid/CLAUDE.md)).
 If curating one, add it as its own sibling line under `funko/` (e.g.
-`collectible-figures/funko/pop-rides/`), not folded into this directory's
+`figures/funko/pop-rides/`), not folded into this directory's
 numbering.
 
 ## Collection records

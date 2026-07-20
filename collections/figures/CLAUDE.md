@@ -1,28 +1,41 @@
-# Collectible Figures — curation hints
+# Figures — curation hints
 
 ## What belongs here
 
-Standalone character figures — poseable chibi figures (Nendoroid), poseable
-action figures (figma), static scale figures, and similar product lines sold
-as individually numbered or titled collectibles. Not one-off statues/props
-with no product line behind them.
+Character figure **lines**, curated whole. Figures are the anchor — action
+figures, chibi (Nendoroid), scale, vinyl (Funko Pop), blind-box designer
+(Pop Mart), diorama (Re-Ment) — but if an item shipped as part of the line,
+it's in whatever kind of object it is: the figures plus their companion
+**vehicles**, **playsets and locations**, and **role-play pieces** (weapons,
+morphers, and the like). Membership is about being part of the line, not about
+what category of object the item is — **don't slice a single line by object
+type.**
 
-**Exception: inseparable toy lines.** A small number of toy lines bundle
-character figures together with companion vehicles, combining robots,
-playsets, and role-play weapons/accessories under one numbered product line
-and one packaging identity — splitting the figures out into this category
-while routing vehicles/zords/playsets elsewhere would fragment a single
-collector's checklist across unrelated parts of the tree. When a line's own
-identity is inseparable from its full toy range (e.g. Power Rangers — see
-[`bandai/power-rangers/CLAUDE.md`](bandai/power-rangers/CLAUDE.md)), curate
-the whole numbered line rather than only the poseable figures. This is a
-judgment call made per-line, not a general loosening of the figures-only rule
-— document the reasoning in that line's own `CLAUDE.md`.
+This deliberately pulls in companion pieces that on their own would look like
+another family's concern. A vehicle, or a **scale-model-style build**, released
+as part of a figure line belongs here with its line — don't route it to
+[`../model-kits/`](../model-kits/CLAUDE.md) just because it's a vehicle or a
+kit-like object. The product line is the unit, not the object.
+
+What's out isn't an object category; it's things that aren't the figure line:
+
+- **Separate non-figure merchandise** — apparel, stationery, homeware, food
+  and other consumables. A franchise's t-shirts or erasers are a different
+  product line, not its figure line (see [`re-ment/CLAUDE.md`](re-ment/CLAUDE.md)
+  and [`funism/CLAUDE.md`](funism/CLAUDE.md) for the same carve-out).
+- **Standalone plush lines** — their own top-level family,
+  [`plush/`](../plush/CLAUDE.md).
+- **One-off items with no product line behind them** — a single promotional
+  statue or prop that isn't part of a released line.
+
+`figures/` is a sibling of the other collecting-domain families (`plush/`,
+`model-kits/`, `trading-card-games/`, ...). The boundary with them is which
+product line an item belongs to, not what the item physically is.
 
 ## How the tree is organized: manufacturer/brand first, franchise via tags
 
-The directory tree under `collectible-figures/` encodes **one** axis: the
-manufacturer/brand that makes the figure. Franchise/IP is **not** a directory
+The directory tree under `figures/` encodes **one** axis: the
+manufacturer/brand that makes the item. Franchise/IP is **not** a directory
 axis — it's carried by `tags/franchises/` entities (see
 [`../CLAUDE.md`](../CLAUDE.md#tags)). Keeping the two separate is what makes
 every directory level mean the same thing.
@@ -33,7 +46,7 @@ necessarily the deepest legal manufacturer. A brand's individual product
 lines nest beneath it:
 
 ```
-collectible-figures/
+figures/
   good-smile/                    # customer-facing brand (Good Smile Company)
     nendoroid/                    # one of its lines
     figma/                        # another (Max Factory, sold under Good Smile)
@@ -82,9 +95,9 @@ product-line brand:
 ## Adding a new product line
 
 1. Identify the customer-facing brand and place the line under it:
-   `collectible-figures/<brand>/<line>/`. Create the `<brand>/` umbrella
-   (`_collection.yaml` + `CLAUDE.md`) if it doesn't exist yet. A line that is
-   its own top-level brand goes directly at `collectible-figures/<line>/`.
+   `figures/<brand>/<line>/`. Create the `<brand>/` umbrella (`_collection.yaml`
+   + `CLAUDE.md`) if it doesn't exist yet. A line that is its own top-level
+   brand goes directly at `figures/<line>/`.
 2. Write the line's `CLAUDE.md` — identification scheme, naming convention,
    known pitfalls (variant/re-release numbering is common in this domain —
    check for it explicitly rather than assuming a line is flatly numbered).
