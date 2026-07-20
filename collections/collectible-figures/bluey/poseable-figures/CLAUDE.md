@@ -18,25 +18,57 @@ Record which via `attributes.pack_type`.
 
 ## Directory shape
 
-A multi-pack is a small collection in its own right (its box is the
-collectible unit, several figures inside) — give it its own directory with
-a `_collection.yaml` and one entity file per figure, the same pattern as a
-Re-Ment volume (see [`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md)).
-A Story Starter pack contains exactly one figure — file it directly as a
-single entity (named for the pack, e.g. `bandit-unicorse.yaml`) rather than
-creating a one-item collection directory for it, per the root
-[`collections/CLAUDE.md`](../../../CLAUDE.md) collection-shape guidance.
+A multi-pack's box is the collectible unit — it's an **item** (`type:
+pack`), not a collection, even though several figures ship inside it:
+owning every figure from a pack loose doesn't mean owning the pack. Each
+figure inside is a **component** (see root
+[`collections/CLAUDE.md`](../../../CLAUDE.md), "Components"), filed in the
+`_figures/` bucket sitting alongside the pack items, and referenced from the
+pack's own `components` field:
+
+```
+poseable-figures/
+  CLAUDE.md
+  template.schema.json
+  _collection.yaml
+  _figures/                       # components bucket — no _collection.yaml
+    template.schema.json           # figure-specific attributes (accessory)
+    family-4-pack-bluey.yaml
+    family-4-pack-bingo.yaml
+    ...
+  family-4-pack.yaml               # type: pack, components: [...]
+  bandit-unicorse.yaml             # Story Starter — still a plain item
+```
+
+Fields that describe the pack as a whole (`attributes.manufacturer`,
+`attributes.series`) live on the pack item; fields that vary per figure
+(`attributes.accessory` — a costume/prop specific to that sculpt) live on
+the figure component. Don't duplicate `attributes.pack_name`/`pack_type`
+onto components — the pack item's own `name` and `type: pack` already say
+that; `image` isn't duplicated onto components either unless a figure
+genuinely has its own distinguishing photo (rare — most releases only have
+one photo, of the whole pack).
+
+A Story Starter pack contains exactly one figure — the pack *is* the
+figure, so it stays a single plain item (`type: figure`, named for the
+character, e.g. `bandit-unicorse.yaml`) rather than being split into a
+pack item plus a one-entry `_figures/` component. Don't retrofit this
+split onto Story Starters.
 
 ## No printed catalog number
 
 Neither pack type prints a collector/catalog number — identify by the
-pack's own marketed name (`attributes.pack_name`, e.g. `"Bluey & Family
-Figure 4-Pack"`, `"Bandit & Unicorse"`) plus the character(s) depicted.
-Retailer SKUs (Amazon/Target item numbers) are not Moose Toys catalog
-numbers — don't record them as `attributes.number`.
+pack's own marketed name (the pack item's `name`, e.g. `"Bluey & Family
+Figure 4-Pack"`, or `attributes.pack_name` for a Story Starter, e.g.
+`"Bandit & Unicorse"`) plus the character(s) depicted. Retailer SKUs
+(Amazon/Target item numbers) are not Moose Toys catalog numbers — don't
+record them as `attributes.number`.
 
 ## Naming files
 
-Multi-pack directory: slugified pack name (e.g. `family-4-pack/`), with each
-figure inside named for its character (`bluey.yaml`, `bingo.yaml`). Story
-Starter: slugified pack name directly (`bandit-unicorse.yaml`).
+Multi-pack: slugified pack name directly under `poseable-figures/` (e.g.
+`family-4-pack.yaml`), with each figure inside filed at
+`_figures/<pack-slug>-<character-slug>.yaml` (e.g.
+`_figures/family-4-pack-bluey.yaml`) — the pack-slug prefix disambiguates
+the same character recurring across many packs' buckets. Story Starter:
+slugified pack name directly (`bandit-unicorse.yaml`).

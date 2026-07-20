@@ -1,0 +1,12 @@
+id: 5123b2ca-24d7-4511-8153-5a0138ea9622
+name: Bluey Figure 2-Pack - Ice Blocks
+type: pack
+date: "2025"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S13"
+image:
+  source_url: https://www.toysmith.com/cdn/shop/files/20841_b001_bluey_s13_lets_play_chef_figure_2pk.jpg?v=1762540523&width=1946
+components:
+  - d9cb7d17-9e24-4147-986c-f38350b7a56b   # Bingo
+  - f6594f9a-4dbc-4699-a311-fbb85013f43e   # Socks

@@ -1,0 +1,11 @@
+id: 4438dfe4-595e-45bf-97eb-843de3e11bb3
+name: Bluey Sleepytime 2-Pack
+type: pack
+date: "2022"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/1280x1280/products/407064/628871/630996171592__23528.1661456606.jpg?c=2
+components:
+  - 115cfabf-1864-466c-8b74-6e682b5bec14   # Bingo
+  - 8581ed3a-c196-42ba-85f9-33537a9e19b9   # Chilli

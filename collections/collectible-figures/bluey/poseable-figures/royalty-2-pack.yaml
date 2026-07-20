@@ -1,0 +1,11 @@
+id: 8fc99919-c47a-4c06-a64c-4ae93a5fb740
+name: Bluey Figure 2-Pack - Queens
+type: pack
+date: "2021"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+image:
+  source_url: https://shop.thirdeyecomics.com/cdn/shop/files/moose-toys-toys-action-figures-animation-moose-toys-bluey-queens-bingo-bluey-630996130841-17341-8-39463521616124_1000x.jpg?v=1762409650
+components:
+  - 00035c31-d289-43c9-bda5-d67128db516a   # Bingo
+  - 4de03c96-680e-4361-a17d-44806a39abd7   # Bluey

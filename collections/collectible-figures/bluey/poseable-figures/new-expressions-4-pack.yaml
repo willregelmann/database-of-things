@@ -1,0 +1,14 @@
+id: f2fc25c6-67d2-41b1-8a13-cee3f133b8e8
+name: Bluey Figure 4-Pack - New Expressions
+type: pack
+date: "2021"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S5"
+image:
+  source_url: https://m.media-amazon.com/images/I/81PBblzpsHL._AC_US1000_.jpg
+components:
+  - afd441f7-2542-40f1-943c-a1037501c17f   # Bandit
+  - 1b9dce71-ffd1-4429-8e63-a895b3713780   # Bingo
+  - 1592a6c2-7ac5-4349-80c9-a9bc7f49d543   # Bluey
+  - 9b04ebe1-4215-453d-8bd1-cd0f744d8bf3   # Chilli

@@ -1,0 +1,12 @@
+id: 3a0d08e7-effb-435f-9294-4fac9d1de5bc
+name: Bluey School Friends Lila & Bingo 2-Pack
+type: pack
+date: "2021"
+attributes:
+  manufacturer: "Moose Toys Pty Ltd"
+  series: "S7"
+image:
+  source_url: https://tools.toywiz.com/_images/_webp/_products/lg/630996173435.webp
+components:
+  - db25a5b2-af70-4cf4-b8be-62d5410468fb   # Bingo
+  - 96ada897-d7dd-49de-8118-4ff754709f29   # Lila
