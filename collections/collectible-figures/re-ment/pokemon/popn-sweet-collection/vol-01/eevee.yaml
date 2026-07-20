@@ -3,6 +3,7 @@ name: Eevee
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Eevee]
+  pokemon:
+    - Eevee
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/686025614.jpg

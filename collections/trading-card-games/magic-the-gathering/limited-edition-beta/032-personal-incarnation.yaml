@@ -1,13 +1,15 @@
 id: b0b59c3a-6964-4bfd-9bbe-c0a93b01c4c6
-name: "Personal Incarnation"
+name: Personal Incarnation
 type: card
 date: "1993-10-04"
 attributes:
   number: "32/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{3}{W}{W}{W}"
-  card_type: "Creature — Avatar Incarnation"
-  illustrator: "Kev Brockschmidt"
+  card_type: Creature — Avatar Incarnation
+  illustrator: Kev Brockschmidt
 image:
-  source_url: https://cards.scryfall.io/large/front/f/7/f7bb9f31-0818-4422-8533-99a4e6845a02.jpg?1783948649
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/7/f7bb9f31-0818-4422-8533-99a4e6845a02.jpg?1783948649

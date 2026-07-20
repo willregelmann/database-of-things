@@ -1,13 +1,15 @@
 id: 2b397f19-37c9-4bed-8fd8-2211e99e465f
-name: "Feedback"
+name: Feedback
 type: card
 date: "1993-10-04"
 attributes:
   number: "58/302"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{2}{U}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Quinton Hoover"
+  card_type: Enchantment — Aura
+  illustrator: Quinton Hoover
 image:
-  source_url: https://cards.scryfall.io/large/front/6/4/644288e8-e0b1-418f-b105-01a557a3e497.jpg?1783948644
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/4/644288e8-e0b1-418f-b105-01a557a3e497.jpg?1783948644

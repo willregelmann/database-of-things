@@ -3,6 +3,7 @@ name: Ampharos
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Ampharos]
+  pokemon:
+    - Ampharos
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1562338467.jpg

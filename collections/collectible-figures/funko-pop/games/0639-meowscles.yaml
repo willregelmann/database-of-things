@@ -2,7 +2,8 @@ id: f86df852-d78a-4b27-aec0-2ed664fb894d
 name: Meowscles
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "639"
   manufacturer: Funko, LLC

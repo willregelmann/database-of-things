@@ -2,7 +2,8 @@ id: 107846e7-652e-414f-9d5b-2ed1802079e5
 name: Leviathan
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "514"
   manufacturer: Funko, LLC

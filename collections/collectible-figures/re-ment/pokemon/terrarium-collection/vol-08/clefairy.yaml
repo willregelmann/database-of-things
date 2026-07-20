@@ -3,6 +3,7 @@ name: Clefairy
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Clefairy]
+  pokemon:
+    - Clefairy
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/164701303.jpg

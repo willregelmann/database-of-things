@@ -2,7 +2,8 @@ id: 995d4f74-9c7b-4c55-b76b-d684c1f1548d
 name: Reaper
 type: figure
 date: "2023"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "902"
   manufacturer: Funko, LLC

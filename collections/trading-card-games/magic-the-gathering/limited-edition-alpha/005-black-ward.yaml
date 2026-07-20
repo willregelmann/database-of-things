@@ -1,13 +1,15 @@
 id: ec19c710-b6bd-4c81-a4bd-91e19d782e6c
-name: "Black Ward"
+name: Black Ward
 type: card
 date: "1993-08-05"
 attributes:
   number: "5/295"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment — Aura
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/1/5/15967a39-303f-457d-bcde-51837c8d63e1.jpg?1783948717
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/5/15967a39-303f-457d-bcde-51837c8d63e1.jpg?1783948717

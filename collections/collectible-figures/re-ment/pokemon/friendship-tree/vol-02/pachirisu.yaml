@@ -3,6 +3,7 @@ name: Pachirisu
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Pachirisu]
+  pokemon:
+    - Pachirisu
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/610800036.jpg

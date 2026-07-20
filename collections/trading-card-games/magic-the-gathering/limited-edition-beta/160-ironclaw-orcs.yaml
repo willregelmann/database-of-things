@@ -1,13 +1,15 @@
 id: 26e8e94c-52f8-4613-89c3-98d5027890a9
-name: "Ironclaw Orcs"
+name: Ironclaw Orcs
 type: card
 date: "1993-10-04"
 attributes:
   number: "160/302"
   rarity: Common
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{1}{R}"
-  card_type: "Creature — Orc"
-  illustrator: "Anson Maddocks"
+  card_type: Creature — Orc
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/a/7/a7be8a25-a744-426e-8e66-7fdff2789af4.jpg?1783948623
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/7/a7be8a25-a744-426e-8e66-7fdff2789af4.jpg?1783948623

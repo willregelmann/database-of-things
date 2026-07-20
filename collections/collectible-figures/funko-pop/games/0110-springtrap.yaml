@@ -2,7 +2,8 @@ id: 94950655-e613-4edc-82a0-3327fb300e9a
 name: Springtrap
 type: figure
 date: "2016"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "110"
   manufacturer: Funko, LLC

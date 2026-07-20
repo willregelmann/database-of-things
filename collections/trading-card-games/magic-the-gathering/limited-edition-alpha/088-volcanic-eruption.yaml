@@ -1,13 +1,15 @@
 id: 92a14981-895c-434b-8c02-7a8a3628e5cd
-name: "Volcanic Eruption"
+name: Volcanic Eruption
 type: card
 date: "1993-08-05"
 attributes:
   number: "88/295"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{X}{U}{U}{U}"
-  card_type: "Sorcery"
-  illustrator: "Douglas Shuler"
+  card_type: Sorcery
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/a/8/a80582b1-09db-45f8-b362-0e5207a5a8e6.jpg?1783948698
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/8/a80582b1-09db-45f8-b362-0e5207a5a8e6.jpg?1783948698

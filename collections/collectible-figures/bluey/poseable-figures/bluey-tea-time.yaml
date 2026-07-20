@@ -2,9 +2,10 @@ id: fab6bf61-dde8-4abe-8138-1420fb79afd9
 name: Bluey
 type: figure
 attributes:
-  pack_name: "Bluey & Tea Time"
-  pack_type: "Story Starter"
+  pack_name: Bluey & Tea Time
+  pack_type: Story Starter
   accessory: Teapot
   manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-bluey-and-tea-time-3-inch-figure-main.jpg
+  source_url: >-
+    https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-bluey-and-tea-time-3-inch-figure-main.jpg

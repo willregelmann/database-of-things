@@ -3,6 +3,7 @@ name: Ho-Oh
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Ho-Oh]
+  pokemon:
+    - Ho-Oh
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1413115313.jpg

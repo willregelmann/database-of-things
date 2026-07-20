@@ -2,7 +2,8 @@ id: fea7ec2a-1b7d-4a1f-ab9f-c908d7f68866
 name: Vault Boy
 type: figure
 date: "2015"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "53"
   manufacturer: Funko, LLC

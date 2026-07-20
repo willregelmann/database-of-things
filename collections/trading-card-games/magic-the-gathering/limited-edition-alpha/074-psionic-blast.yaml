@@ -1,13 +1,15 @@
 id: e289a840-73d2-488b-97d5-24bb0a924f06
-name: "Psionic Blast"
+name: Psionic Blast
 type: card
 date: "1993-08-05"
 attributes:
   number: "74/295"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{2}{U}"
-  card_type: "Instant"
-  illustrator: "Douglas Shuler"
+  card_type: Instant
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/a/6/a6a86e6e-bfff-46af-9d36-c912901fea92.jpg?1783948702
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/6/a6a86e6e-bfff-46af-9d36-c912901fea92.jpg?1783948702

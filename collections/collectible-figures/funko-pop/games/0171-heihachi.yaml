@@ -2,7 +2,8 @@ id: 092e1115-9da0-4d70-b1b0-e3f787dff66a
 name: Heihachi
 type: figure
 date: "2017"
-tags: [f23b93de-3d95-441b-8a48-49eccd86b4dd]
+tags:
+  - f23b93de-3d95-441b-8a48-49eccd86b4dd
 attributes:
   number: "171"
   manufacturer: Funko, LLC

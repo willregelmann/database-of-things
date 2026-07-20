@@ -1,11 +1,11 @@
 id: 4fd81061-581d-427c-8a90-36eeb32d34a0
 name: Turbo Morpher
 type: weapon
-date: '1997'
+date: "1997"
 attributes:
-  number: '2958'
+  number: "2958"
   category: Turbo Morpher
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02958.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02958.jpg

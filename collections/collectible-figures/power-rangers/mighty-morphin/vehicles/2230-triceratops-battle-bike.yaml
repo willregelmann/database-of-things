@@ -1,11 +1,11 @@
 id: a6f9990a-e844-40f7-9963-bd1b0188e891
 name: Triceratops Battle Bike
 type: vehicle
-date: '1993'
+date: "1993"
 attributes:
-  number: '2230'
+  number: "2230"
   category: Battle Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02230_3.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02230_3.jpg

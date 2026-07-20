@@ -1,12 +1,13 @@
 id: b6b97c6c-5548-45ba-af5b-a475514a139c
-name: "Icy Manipulator"
+name: Icy Manipulator
 type: card
 date: "1993-08-05"
 attributes:
   number: "248/295"
   rarity: Uncommon
   mana_cost: "{4}"
-  card_type: "Artifact"
-  illustrator: "Douglas Shuler"
+  card_type: Artifact
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/2/9/29dc1596-a2e7-4d60-9f99-89babaef8a06.jpg?1783948666
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/9/29dc1596-a2e7-4d60-9f99-89babaef8a06.jpg?1783948666

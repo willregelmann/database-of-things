@@ -1,12 +1,13 @@
 id: c10db60c-b249-411e-a5b0-36c9b71d18a9
-name: "Juggernaut"
+name: Juggernaut
 type: card
 date: "1993-10-04"
 attributes:
   number: "256/302"
   rarity: Uncommon
   mana_cost: "{4}"
-  card_type: "Artifact Creature — Juggernaut"
-  illustrator: "Dan Frazier"
+  card_type: Artifact Creature — Juggernaut
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/8/7/870eb49c-f62d-4986-b492-601feb68a307.jpg?1783948604
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/7/870eb49c-f62d-4986-b492-601feb68a307.jpg?1783948604

@@ -2,7 +2,8 @@ id: ccaf7c45-c1f5-43d1-bb22-e536eb4c23a2
 name: Assaultron
 type: figure
 date: "2018"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "374"
   manufacturer: Funko, LLC

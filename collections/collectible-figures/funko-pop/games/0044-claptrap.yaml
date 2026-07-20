@@ -2,7 +2,8 @@ id: 3024b759-0eb7-4004-82c0-e6abbb368719
 name: Claptrap
 type: figure
 date: "2015"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "44"
   manufacturer: Funko, LLC

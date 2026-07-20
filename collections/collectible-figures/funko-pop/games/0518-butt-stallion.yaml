@@ -2,7 +2,8 @@ id: b80d64df-c6e3-45fd-b468-4d22ee9d4c31
 name: Butt Stallion
 type: figure
 date: "2019"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "518"
   manufacturer: Funko, LLC

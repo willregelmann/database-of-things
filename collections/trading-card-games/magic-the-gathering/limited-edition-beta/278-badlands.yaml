@@ -1,11 +1,12 @@
 id: 0111db7f-3915-4bb3-94d1-021bb9078846
-name: "Badlands"
+name: Badlands
 type: card
 date: "1993-10-04"
 attributes:
   number: "278/302"
   rarity: Rare
-  card_type: "Land — Swamp Mountain"
-  illustrator: "Rob Alexander"
+  card_type: Land — Swamp Mountain
+  illustrator: Rob Alexander
 image:
-  source_url: https://cards.scryfall.io/large/front/a/3/a3393436-3426-4903-8f41-7abcbf6c18c2.jpg?1783948597
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/3/a3393436-3426-4903-8f41-7abcbf6c18c2.jpg?1783948597

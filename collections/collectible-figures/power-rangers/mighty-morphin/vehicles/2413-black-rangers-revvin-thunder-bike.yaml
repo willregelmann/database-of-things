@@ -1,11 +1,11 @@
 id: 84df24f7-3c4c-486d-86c2-b42fe478462c
 name: Black Ranger's Revvin' Thunder Bike
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2413'
+  number: "2413"
   category: Revvin' Thunder Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02413.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02413.jpg

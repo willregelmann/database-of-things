@@ -2,7 +2,8 @@ id: c0c947d1-4e18-43e7-8b7a-4a559068896f
 name: Pharah (Anubis)
 type: figure
 date: "2019"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "497"
   manufacturer: Funko, LLC

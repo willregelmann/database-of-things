@@ -3,6 +3,7 @@ name: Pumpkaboo
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Pumpkaboo]
+  pokemon:
+    - Pumpkaboo
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1194128301.jpg

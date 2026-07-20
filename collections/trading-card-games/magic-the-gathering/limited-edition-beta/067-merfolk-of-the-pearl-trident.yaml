@@ -1,13 +1,15 @@
 id: cd57957e-83a7-4abb-8add-97e509079bd5
-name: "Merfolk of the Pearl Trident"
+name: Merfolk of the Pearl Trident
 type: card
 date: "1993-10-04"
 attributes:
   number: "67/302"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Creature — Merfolk"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Merfolk
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/c/c/cca142de-906d-4143-8f77-4acea1f1e6b1.jpg?1783948642
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/c/cca142de-906d-4143-8f77-4acea1f1e6b1.jpg?1783948642

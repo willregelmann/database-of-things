@@ -1,11 +1,11 @@
 id: 10dc7b8d-1a73-49dd-ba51-c5e8ea3f2cc0
 name: White Tigerzord
 type: zord
-date: '1994'
+date: "1994"
 attributes:
-  number: '2271'
+  number: "2271"
   category: Tigerzord & White Ranger
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02271.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02271.jpg

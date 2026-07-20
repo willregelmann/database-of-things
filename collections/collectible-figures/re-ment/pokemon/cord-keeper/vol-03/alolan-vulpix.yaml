@@ -3,6 +3,7 @@ name: Alolan Vulpix
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Alolan Vulpix]
+  pokemon:
+    - Alolan Vulpix
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1807493105.jpg

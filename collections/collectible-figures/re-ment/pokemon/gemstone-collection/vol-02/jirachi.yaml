@@ -3,6 +3,7 @@ name: Jirachi
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Jirachi]
+  pokemon:
+    - Jirachi
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1412053518.jpg

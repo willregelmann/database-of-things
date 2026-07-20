@@ -5,9 +5,11 @@ date: "1993-10-04"
 attributes:
   number: "10/302"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{1}{W}"
-  card_type: "Enchantment"
-  illustrator: "Jesper Myrfors"
+  card_type: Enchantment
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/f/a/fa47b4cd-8da4-4544-b011-ba92b7009203.jpg?1783948654
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/a/fa47b4cd-8da4-4544-b011-ba92b7009203.jpg?1783948654

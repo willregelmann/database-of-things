@@ -3,6 +3,7 @@ name: Piplup
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Piplup]
+  pokemon:
+    - Piplup
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/622415696.jpg

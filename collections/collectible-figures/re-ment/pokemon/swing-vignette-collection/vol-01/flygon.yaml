@@ -3,6 +3,7 @@ name: Flygon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Flygon]
+  pokemon:
+    - Flygon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1840514542.jpg

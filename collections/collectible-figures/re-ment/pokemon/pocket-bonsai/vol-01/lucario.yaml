@@ -3,6 +3,7 @@ name: Lucario
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Lucario]
+  pokemon:
+    - Lucario
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/788694315.jpg

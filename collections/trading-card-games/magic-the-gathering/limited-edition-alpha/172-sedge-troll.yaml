@@ -1,13 +1,15 @@
 id: ea7a508a-72ec-4ab9-85ec-6266661d81fd
-name: "Sedge Troll"
+name: Sedge Troll
 type: card
 date: "1993-08-05"
 attributes:
   number: "172/295"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{2}{R}"
-  card_type: "Creature — Troll"
-  illustrator: "Dan Frazier"
+  card_type: Creature — Troll
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/b/1/b13bf496-f3c0-4c13-8282-e7abfab6a198.jpg?1783948681
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/1/b13bf496-f3c0-4c13-8282-e7abfab6a198.jpg?1783948681

@@ -1,11 +1,11 @@
 id: 48f40d44-bb93-4a35-9993-3d9a11386909
 name: Deluxe Silver Galactic Rover
 type: vehicle
-date: '1998'
+date: "1998"
 attributes:
-  number: '3278'
+  number: "3278"
   category: Deluxe Galactic Rovers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03278.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03278.jpg

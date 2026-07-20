@@ -2,9 +2,10 @@ id: 05513aaa-2ff4-4c7b-87c3-6abea7804c9e
 name: Honey
 type: figure
 attributes:
-  pack_name: "Honey & Book"
-  pack_type: "Story Starter"
+  pack_name: Honey & Book
+  pack_type: Story Starter
   accessory: Book
   manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-honey-and-book-3-inch-figure-main.jpg
+  source_url: >-
+    https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-honey-and-book-3-inch-figure-main.jpg

@@ -1,13 +1,15 @@
 id: b3fe933f-d542-482c-92df-bd13f2943942
-name: "Conversion"
+name: Conversion
 type: card
 date: "1993-10-04"
 attributes:
   number: "16/302"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{2}{W}{W}"
-  card_type: "Enchantment"
-  illustrator: "Jesper Myrfors"
+  card_type: Enchantment
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/4/d/4d9a5bb5-23cd-4f9a-8c8e-d009fb7bdf59.jpg?1783948653
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/d/4d9a5bb5-23cd-4f9a-8c8e-d009fb7bdf59.jpg?1783948653

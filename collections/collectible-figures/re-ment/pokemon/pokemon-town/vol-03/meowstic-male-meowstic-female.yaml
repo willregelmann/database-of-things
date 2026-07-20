@@ -3,6 +3,7 @@ name: Meowstic (Male) & Meowstic (Female)
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Meowstic]
+  pokemon:
+    - Meowstic
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/197682616.jpg

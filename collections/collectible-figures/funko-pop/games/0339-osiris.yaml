@@ -2,7 +2,8 @@ id: 1429029d-d786-4938-bc51-3b0f92107cfd
 name: Osiris
 type: figure
 date: "2018"
-tags: [6be6ad77-25d7-4997-99bd-9f7f3933f838]
+tags:
+  - 6be6ad77-25d7-4997-99bd-9f7f3933f838
 attributes:
   number: "339"
   manufacturer: Funko, LLC

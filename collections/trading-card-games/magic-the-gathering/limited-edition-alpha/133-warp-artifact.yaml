@@ -1,13 +1,15 @@
 id: 786f6652-62b0-4a75-bf18-b795e8bcde71
-name: "Warp Artifact"
+name: Warp Artifact
 type: card
 date: "1993-08-05"
 attributes:
   number: "133/295"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}{B}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Amy Weber"
+  card_type: Enchantment — Aura
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/9/e/9e5e07a2-fbdf-4c4c-996a-fce40bab5de5.jpg?1783948689
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/e/9e5e07a2-fbdf-4c4c-996a-fce40bab5de5.jpg?1783948689

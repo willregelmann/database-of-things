@@ -3,6 +3,7 @@ name: Dragonite
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Dragonite]
+  pokemon:
+    - Dragonite
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/22759488.jpg

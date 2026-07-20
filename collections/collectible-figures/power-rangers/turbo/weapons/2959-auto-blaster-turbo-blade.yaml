@@ -1,11 +1,11 @@
 id: da879266-7900-41f2-a146-3daec6d0cde2
 name: Auto Blaster & Turbo Blade
 type: weapon
-date: '1997'
+date: "1997"
 attributes:
-  number: '2959'
+  number: "2959"
   category: Auto Blaster and Turbo Blade
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02959.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02959.jpg

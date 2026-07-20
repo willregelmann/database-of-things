@@ -1,13 +1,15 @@
 id: 3ccc5c2d-4edc-4bf9-9424-2bd105221247
-name: "Purelace"
+name: Purelace
 type: card
 date: "1993-10-04"
 attributes:
   number: "33/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Instant"
-  illustrator: "Sandra Everingham"
+  card_type: Instant
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/a/f/af11986e-42bd-4f54-8624-7b34b1783a40.jpg?1783948649
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/f/af11986e-42bd-4f54-8624-7b34b1783a40.jpg?1783948649

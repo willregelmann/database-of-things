@@ -3,6 +3,7 @@ name: Vaporeon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Vaporeon]
+  pokemon:
+    - Vaporeon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/912877341.jpg

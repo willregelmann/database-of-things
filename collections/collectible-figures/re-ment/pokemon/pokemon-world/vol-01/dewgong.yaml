@@ -3,6 +3,7 @@ name: Dewgong
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Dewgong]
+  pokemon:
+    - Dewgong
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1509663097.jpg

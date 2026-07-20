@@ -1,11 +1,11 @@
 id: 95ec8abf-eaa5-48a8-b318-06e54cf0268a
 name: Super Silverizer
 type: weapon
-date: '1998'
+date: "1998"
 attributes:
-  number: '3272'
+  number: "3272"
   category: Super Silverizer
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03272.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03272.jpg

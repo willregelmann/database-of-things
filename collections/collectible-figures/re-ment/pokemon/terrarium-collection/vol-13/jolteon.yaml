@@ -3,6 +3,7 @@ name: Jolteon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Jolteon]
+  pokemon:
+    - Jolteon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/581523007.jpg

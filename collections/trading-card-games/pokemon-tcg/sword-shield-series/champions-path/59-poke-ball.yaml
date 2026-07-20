@@ -3,7 +3,7 @@ name: Poké Ball
 type: card
 date: "2020-09-25"
 attributes:
-  number: 59/73
+  number: "59/73"
   rarity: Common
   illustrator: Studio Bora Inc.
 image:

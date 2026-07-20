@@ -3,6 +3,7 @@ name: Sudowoodo
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Sudowoodo]
+  pokemon:
+    - Sudowoodo
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1071681893.jpg

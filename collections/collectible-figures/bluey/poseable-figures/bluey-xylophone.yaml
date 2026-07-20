@@ -2,9 +2,10 @@ id: d1427f1f-0b18-4353-a706-871e6fe7bdd1
 name: Bluey
 type: figure
 attributes:
-  pack_name: "Bluey & Xylophone"
-  pack_type: "Story Starter"
+  pack_name: Bluey & Xylophone
+  pack_type: Story Starter
   accessory: Xylophone
   manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt35f7a55cf968fdfb/683ce40e64e28654b2bc3d37/19223_19224_BLUEY_S5_STRY_STRTR_PK_BLUEY_XYLO_O_FEP.png
+  source_url: >-
+    https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt35f7a55cf968fdfb/683ce40e64e28654b2bc3d37/19223_19224_BLUEY_S5_STRY_STRTR_PK_BLUEY_XYLO_O_FEP.png

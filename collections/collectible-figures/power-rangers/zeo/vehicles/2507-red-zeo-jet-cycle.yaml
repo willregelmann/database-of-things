@@ -1,11 +1,11 @@
 id: 03e01dde-958e-4dff-a0e8-ce3dbba12f4a
 name: Red Zeo Jet Cycle
 type: vehicle
-date: '1996'
+date: "1996"
 attributes:
-  number: '2507'
+  number: "2507"
   category: Zeo Jet Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02507.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02507.jpg

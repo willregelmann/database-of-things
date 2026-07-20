@@ -1,13 +1,15 @@
 id: 8937c610-5863-4722-bbcc-5abd4636036b
-name: "Plague Rats"
+name: Plague Rats
 type: card
 date: "1993-08-05"
 attributes:
   number: "121/295"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{2}{B}"
-  card_type: "Creature — Rat"
-  illustrator: "Anson Maddocks"
+  card_type: Creature — Rat
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/b/3/b3724e40-0622-4aee-9334-6c9fff88bcd5.jpg?1783948692
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/3/b3724e40-0622-4aee-9334-6c9fff88bcd5.jpg?1783948692

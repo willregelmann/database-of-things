@@ -2,7 +2,8 @@ id: 51e66337-ab9b-46a5-a706-bbabc4382c4a
 name: Liu Kang
 type: figure
 date: "2015"
-tags: [d86d8e5d-1d70-478d-b595-9c454d3c7073]
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
 attributes:
   number: "252"
   manufacturer: Funko, LLC

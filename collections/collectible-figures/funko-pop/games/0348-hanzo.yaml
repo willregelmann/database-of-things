@@ -2,7 +2,8 @@ id: ef40164c-eeae-423c-bc43-f4063fc550c2
 name: Hanzo
 type: figure
 date: "2018"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "348"
   manufacturer: Funko, LLC

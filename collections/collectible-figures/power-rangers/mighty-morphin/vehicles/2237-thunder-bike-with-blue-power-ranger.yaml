@@ -1,11 +1,11 @@
 id: 70baa80c-38f9-458a-b23d-462aa23e025b
 name: Thunder Bike with Blue Power Ranger
 type: vehicle
-date: '1994'
+date: "1994"
 attributes:
-  number: '2237'
+  number: "2237"
   category: Thunder Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02237.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02237.jpg

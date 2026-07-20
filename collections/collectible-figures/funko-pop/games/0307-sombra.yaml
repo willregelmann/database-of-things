@@ -2,7 +2,8 @@ id: a26f97ab-6ed0-4fc9-8b75-191edd71ac37
 name: Sombra
 type: figure
 date: "2017"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "307"
   manufacturer: Funko, LLC

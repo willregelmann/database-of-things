@@ -2,7 +2,8 @@ id: 6aacf8cd-9a05-43f6-8ef5-7c30c17a8ce3
 name: Crash Bandicoot (in Mask Armor)
 type: figure
 date: "2021"
-tags: [7fdf3938-0b8c-44d4-a207-ee878eca11bf]
+tags:
+  - 7fdf3938-0b8c-44d4-a207-ee878eca11bf
 attributes:
   number: "841"
   manufacturer: Funko, LLC

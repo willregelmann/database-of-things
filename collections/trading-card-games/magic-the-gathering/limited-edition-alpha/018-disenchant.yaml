@@ -1,13 +1,15 @@
 id: 1177f86a-fe93-49d3-b5ac-12c328688720
-name: "Disenchant"
+name: Disenchant
 type: card
 date: "1993-08-05"
 attributes:
   number: "18/295"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{1}{W}"
-  card_type: "Instant"
-  illustrator: "Amy Weber"
+  card_type: Instant
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/2/7/2722d7e2-61c6-4934-9c21-875ee78fd06c.jpg?1783948713
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/7/2722d7e2-61c6-4934-9c21-875ee78fd06c.jpg?1783948713

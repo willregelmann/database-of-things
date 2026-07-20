@@ -2,7 +2,8 @@ id: c3f090ec-830c-42db-9527-4a04207ddf5a
 name: Piper
 type: figure
 date: "2018"
-tags: [37de5442-2c3f-4fea-9694-3dd64e20ede2]
+tags:
+  - 37de5442-2c3f-4fea-9694-3dd64e20ede2
 attributes:
   number: "389"
   manufacturer: Funko, LLC

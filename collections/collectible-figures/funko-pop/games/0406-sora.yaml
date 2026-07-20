@@ -2,7 +2,8 @@ id: b7b48f21-eb24-43d1-8a27-20a84b4fe79f
 name: Sora
 type: figure
 date: "2018"
-tags: [56a20698-8b61-46f7-b4da-49c2b3641f0e]
+tags:
+  - 56a20698-8b61-46f7-b4da-49c2b3641f0e
 attributes:
   number: "406"
   manufacturer: Funko, LLC

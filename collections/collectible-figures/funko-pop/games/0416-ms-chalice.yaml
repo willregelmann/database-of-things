@@ -2,7 +2,8 @@ id: f59a8e55-0942-4ac7-88af-673839feb777
 name: Ms. Chalice
 type: figure
 date: "2018"
-tags: [95af9989-f592-4224-96e4-9a028d595012]
+tags:
+  - 95af9989-f592-4224-96e4-9a028d595012
 attributes:
   number: "416"
   manufacturer: Funko, LLC

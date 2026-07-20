@@ -2,7 +2,8 @@ id: d368e176-2cd6-420a-937f-925eb6217967
 name: Nina Williams
 type: figure
 date: "2017"
-tags: [f23b93de-3d95-441b-8a48-49eccd86b4dd]
+tags:
+  - f23b93de-3d95-441b-8a48-49eccd86b4dd
 attributes:
   number: "174"
   manufacturer: Funko, LLC

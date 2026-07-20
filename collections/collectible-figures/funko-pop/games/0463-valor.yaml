@@ -2,7 +2,8 @@ id: 8ef31485-6058-4971-acc4-598d1122519a
 name: Valor
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "463"
   manufacturer: Funko, LLC

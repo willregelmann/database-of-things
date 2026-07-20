@@ -1,13 +1,15 @@
 id: e4261230-3ffc-4bdc-91af-7bc14775eadd
-name: "White Knight"
+name: White Knight
 type: card
 date: "1993-10-04"
 attributes:
   number: "44/302"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}{W}"
-  card_type: "Creature — Human Knight"
-  illustrator: "Daniel Gelon"
+  card_type: Creature — Human Knight
+  illustrator: Daniel Gelon
 image:
-  source_url: https://cards.scryfall.io/large/front/a/2/a231e0b8-b3e3-4f4a-8baa-c56626b01685.jpg?1783948647
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/2/a231e0b8-b3e3-4f4a-8baa-c56626b01685.jpg?1783948647

@@ -2,7 +2,8 @@ id: 9a7b4082-c4b4-4b5b-a282-26e63761cab7
 name: Lux
 type: figure
 date: "2025"
-tags: [07ae4c45-b25a-4ecc-8c03-3d30304009eb]
+tags:
+  - 07ae4c45-b25a-4ecc-8c03-3d30304009eb
 attributes:
   number: "1137"
   manufacturer: Funko, LLC

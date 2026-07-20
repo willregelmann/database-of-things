@@ -3,6 +3,7 @@ name: Altaria
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Altaria]
+  pokemon:
+    - Altaria
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/256928266.jpg

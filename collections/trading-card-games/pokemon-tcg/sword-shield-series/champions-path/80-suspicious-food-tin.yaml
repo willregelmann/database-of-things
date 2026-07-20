@@ -3,7 +3,7 @@ name: Suspicious Food Tin
 type: card
 date: "2020-09-25"
 attributes:
-  number: 80/73
+  number: "80/73"
   rarity: Secret Rare
   illustrator: Ryo Ueda
 image:

@@ -2,7 +2,8 @@ id: 8007a82e-634e-439c-b83d-7677ef9e21a5
 name: Echo
 type: figure
 date: "2023"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "903"
   manufacturer: Funko, LLC

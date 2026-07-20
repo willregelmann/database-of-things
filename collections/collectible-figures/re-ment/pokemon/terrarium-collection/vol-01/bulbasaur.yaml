@@ -3,6 +3,7 @@ name: Bulbasaur
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Bulbasaur]
+  pokemon:
+    - Bulbasaur
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/841211961.jpg

@@ -1,13 +1,15 @@
 id: e9c8d970-a521-4da3-8d34-41836f4123eb
-name: "Scavenging Ghoul"
+name: Scavenging Ghoul
 type: card
 date: "1993-08-05"
 attributes:
   number: "126/295"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{3}{B}"
-  card_type: "Creature — Zombie"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Zombie
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/4/2/426984e0-88e1-4a2d-9a1c-798b95864df3.jpg?1783948691
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/2/426984e0-88e1-4a2d-9a1c-798b95864df3.jpg?1783948691

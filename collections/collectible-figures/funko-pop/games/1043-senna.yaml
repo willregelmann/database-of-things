@@ -2,7 +2,8 @@ id: 89317d46-fc73-4256-83d7-9dfca3a72e93
 name: Senna
 type: figure
 date: "2024"
-tags: [07ae4c45-b25a-4ecc-8c03-3d30304009eb]
+tags:
+  - 07ae4c45-b25a-4ecc-8c03-3d30304009eb
 attributes:
   number: "1043"
   manufacturer: Funko, LLC

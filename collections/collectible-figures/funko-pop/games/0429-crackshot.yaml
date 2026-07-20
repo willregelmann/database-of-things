@@ -2,7 +2,8 @@ id: 11cf2dd6-d3ca-4833-b94b-47d1e5ff513e
 name: Crackshot
 type: figure
 date: "2018"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "429"
   manufacturer: Funko, LLC

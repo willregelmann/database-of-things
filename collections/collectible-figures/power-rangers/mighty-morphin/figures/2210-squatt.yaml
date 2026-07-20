@@ -1,11 +1,11 @@
 id: 1a17fb9a-7be7-4734-abc7-d745a33e0675
 name: Squatt
 type: figure
-date: '1993'
+date: "1993"
 attributes:
-  number: '2210'
+  number: "2210"
   category: Evil Space Aliens
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02210_1.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02210_1.jpg

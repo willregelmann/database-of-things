@@ -2,7 +2,8 @@ id: 1fee9533-ffa9-4913-a9e4-8c751e2daa83
 name: Sweet Tooth
 type: figure
 date: "2016"
-tags: [fed8a217-1215-41b0-a25b-e78e6edd8c84]
+tags:
+  - fed8a217-1215-41b0-a25b-e78e6edd8c84
 attributes:
   number: "161"
   manufacturer: Funko, LLC

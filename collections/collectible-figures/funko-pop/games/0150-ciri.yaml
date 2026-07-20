@@ -2,7 +2,8 @@ id: bb885cab-f4c6-48f1-88a4-88dbaa8c8ec6
 name: Ciri
 type: figure
 date: "2016"
-tags: [18e5ea98-f784-409c-9495-c0126cb92650]
+tags:
+  - 18e5ea98-f784-409c-9495-c0126cb92650
 attributes:
   number: "150"
   manufacturer: Funko, LLC

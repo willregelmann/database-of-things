@@ -1,11 +1,11 @@
 id: bba3e17c-ab78-4b71-a4d8-5d6eb1d38504
 name: Billy Blue Ranger
 type: figure
-date: '1993'
+date: "1993"
 attributes:
-  number: '2200'
+  number: "2200"
   category: Mighty Morphin Power Rangers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02200_5.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02200_5.jpg

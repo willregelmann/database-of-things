@@ -2,7 +2,8 @@ id: 96131880-89a0-4ee4-92d8-8360f1efab0b
 name: Tekken King
 type: figure
 date: "2017"
-tags: [f23b93de-3d95-441b-8a48-49eccd86b4dd]
+tags:
+  - f23b93de-3d95-441b-8a48-49eccd86b4dd
 attributes:
   number: "172"
   manufacturer: Funko, LLC

@@ -1,13 +1,15 @@
 id: 44d75a9b-4999-408d-bf63-df938c8069f3
-name: "Wall of Air"
+name: Wall of Air
 type: card
 date: "1993-08-05"
 attributes:
   number: "89/295"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{1}{U}{U}"
-  card_type: "Creature — Wall"
-  illustrator: "Richard Thomas"
+  card_type: Creature — Wall
+  illustrator: Richard Thomas
 image:
-  source_url: https://cards.scryfall.io/large/front/d/a/da56fdf3-6a8f-4833-a5c3-197650cc4889.jpg?1783948699
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/a/da56fdf3-6a8f-4833-a5c3-197650cc4889.jpg?1783948699

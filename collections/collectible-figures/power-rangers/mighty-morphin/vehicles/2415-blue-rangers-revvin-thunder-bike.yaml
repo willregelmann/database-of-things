@@ -1,11 +1,11 @@
 id: 9a4b9562-8e6e-49f3-8a45-de7a6b25a796
 name: Blue Ranger's Revvin' Thunder Bike
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2415'
+  number: "2415"
   category: Revvin' Thunder Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02415.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02415.jpg

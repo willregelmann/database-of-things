@@ -1,13 +1,15 @@
 id: af6024b7-1ebc-4e81-ad7f-1f3a6b6befdb
-name: "Llanowar Elves"
+name: Llanowar Elves
 type: card
 date: "1993-10-04"
 attributes:
   number: "211/302"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Creature — Elf Druid"
-  illustrator: "Anson Maddocks"
+  card_type: Creature — Elf Druid
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/a/b/abd80204-e9ba-483f-9b75-a69712545ba9.jpg?1783948612
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/b/abd80204-e9ba-483f-9b75-a69712545ba9.jpg?1783948612

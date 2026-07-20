@@ -1,12 +1,13 @@
 id: c699a434-8de5-48eb-b40d-7731d16633a0
-name: "Mox Sapphire"
+name: Mox Sapphire
 type: card
 date: "1993-08-05"
 attributes:
   number: "265/295"
   rarity: Rare
   mana_cost: "{0}"
-  card_type: "Artifact"
-  illustrator: "Dan Frazier"
+  card_type: Artifact
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/8/2/82da0972-b17b-4600-9efd-e9430a0db04b.jpg?1783948662
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/2/82da0972-b17b-4600-9efd-e9430a0db04b.jpg?1783948662

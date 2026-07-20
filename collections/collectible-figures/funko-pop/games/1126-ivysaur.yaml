@@ -2,7 +2,8 @@ id: 555b0f28-febd-4560-a3bf-d3e3e2c94086
 name: Ivysaur
 type: figure
 date: "2026"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1126"
   manufacturer: Funko, LLC

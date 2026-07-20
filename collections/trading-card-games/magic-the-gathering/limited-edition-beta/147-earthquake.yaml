@@ -1,13 +1,15 @@
 id: 49971d39-6413-4574-be62-4718f65b7bea
-name: "Earthquake"
+name: Earthquake
 type: card
 date: "1993-10-04"
 attributes:
   number: "147/302"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{X}{R}"
-  card_type: "Sorcery"
-  illustrator: "Dan Frazier"
+  card_type: Sorcery
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/8/6/86435875-ac92-4348-b41e-19570cf62a1c.jpg?1783948625
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/6/86435875-ac92-4348-b41e-19570cf62a1c.jpg?1783948625

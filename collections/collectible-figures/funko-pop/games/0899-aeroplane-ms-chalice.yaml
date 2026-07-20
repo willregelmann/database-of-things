@@ -2,7 +2,8 @@ id: b4cc5b9c-cc14-4c1a-931e-f92bf87f0516
 name: Aeroplane Ms. Chalice
 type: figure
 date: "2022"
-tags: [95af9989-f592-4224-96e4-9a028d595012]
+tags:
+  - 95af9989-f592-4224-96e4-9a028d595012
 attributes:
   number: "899"
   manufacturer: Funko, LLC

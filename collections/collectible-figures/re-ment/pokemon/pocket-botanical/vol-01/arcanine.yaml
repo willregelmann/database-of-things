@@ -3,6 +3,7 @@ name: Arcanine
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Arcanine]
+  pokemon:
+    - Arcanine
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/538528993.jpg

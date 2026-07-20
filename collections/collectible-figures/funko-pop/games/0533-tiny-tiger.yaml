@@ -2,7 +2,8 @@ id: c0165a06-5745-4e4f-b41c-bc81025a710d
 name: Tiny Tiger
 type: figure
 date: "2019"
-tags: [7fdf3938-0b8c-44d4-a207-ee878eca11bf]
+tags:
+  - 7fdf3938-0b8c-44d4-a207-ee878eca11bf
 attributes:
   number: "533"
   manufacturer: Funko, LLC

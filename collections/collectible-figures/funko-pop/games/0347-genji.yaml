@@ -2,7 +2,8 @@ id: 7e25a5d8-f59c-4f32-8507-3d550b179ffb
 name: Genji
 type: figure
 date: "2018"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "347"
   manufacturer: Funko, LLC

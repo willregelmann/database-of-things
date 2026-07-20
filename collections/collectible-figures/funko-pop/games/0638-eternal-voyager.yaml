@@ -2,7 +2,8 @@ id: a518396c-449b-4ff3-8ed4-40465490c6f9
 name: Eternal Voyager
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "638"
   manufacturer: Funko, LLC

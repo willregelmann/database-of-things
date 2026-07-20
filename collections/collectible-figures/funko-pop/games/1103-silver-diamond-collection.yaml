@@ -2,7 +2,8 @@ id: 5f9874be-0eac-4532-ba3b-7fe0156ec91d
 name: Silver (Diamond Collection)
 type: figure
 date: "2025"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "1103"
   manufacturer: Funko, LLC

@@ -1,13 +1,15 @@
 id: 96e12b87-8c77-48dd-b73a-3186b01ea828
-name: "Orcish Oriflamme"
+name: Orcish Oriflamme
 type: card
 date: "1993-10-04"
 attributes:
   number: "167/302"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{3}{R}"
-  card_type: "Enchantment"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/f/2/f2752cf2-9a48-49a8-98ff-2e32a9121d78.jpg?1783948621
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/2/f2752cf2-9a48-49a8-98ff-2e32a9121d78.jpg?1783948621

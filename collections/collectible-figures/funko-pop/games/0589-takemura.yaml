@@ -2,7 +2,8 @@ id: 35f8e4d5-1deb-42d9-95d1-50ed393ebc59
 name: Takemura
 type: figure
 date: "2020"
-tags: [72ec8f94-4d5b-450f-93e8-45d6f97bbbc8]
+tags:
+  - 72ec8f94-4d5b-450f-93e8-45d6f97bbbc8
 attributes:
   number: "589"
   manufacturer: Funko, LLC

@@ -3,6 +3,7 @@ name: Tepig
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Tepig]
+  pokemon:
+    - Tepig
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/417104072.jpg

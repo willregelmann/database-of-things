@@ -2,7 +2,8 @@ id: 73107c39-b222-4c4b-a22a-210bb78f4ea4
 name: Charmeleon
 type: figure
 date: "2026"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1157"
   manufacturer: Funko, LLC

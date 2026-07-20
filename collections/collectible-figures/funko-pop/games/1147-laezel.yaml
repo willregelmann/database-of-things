@@ -2,7 +2,8 @@ id: 3206d8a3-3816-40e6-9f72-df99137e06f3
 name: Lae'zel
 type: figure
 date: "2025"
-tags: [95817d52-78a5-4f61-b7c4-4abd7e42111d]
+tags:
+  - 95817d52-78a5-4f61-b7c4-4abd7e42111d
 attributes:
   number: "1147"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: 7447a95e-8f3b-4a81-ab4d-824746126cac
 name: Geralt (Igni, Glow)
 type: figure
 date: "2019"
-tags: [18e5ea98-f784-409c-9495-c0126cb92650]
+tags:
+  - 18e5ea98-f784-409c-9495-c0126cb92650
 attributes:
   number: "554"
   manufacturer: Funko, LLC

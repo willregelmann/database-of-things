@@ -1,13 +1,15 @@
 id: f6042897-52aa-4e49-aec6-366bf0b474aa
-name: "Wild Growth"
+name: Wild Growth
 type: card
 date: "1993-08-05"
 attributes:
   number: "229/295"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Mark Poole"
+  card_type: Enchantment — Aura
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/f/d/fd896dfa-66c0-4327-8e5b-489bbe350c95.jpg?1783948670
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/d/fd896dfa-66c0-4327-8e5b-489bbe350c95.jpg?1783948670

@@ -1,13 +1,15 @@
 id: 3610361a-07f8-49ea-8bc1-5255f38eb278
-name: "Lance"
+name: Lance
 type: card
 date: "1993-08-05"
 attributes:
   number: "27/295"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Rob Alexander"
+  card_type: Enchantment — Aura
+  illustrator: Rob Alexander
 image:
-  source_url: https://cards.scryfall.io/large/front/d/d/ddb633f5-cc4d-4157-8217-def90cb15e24.jpg?1783948712
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/d/ddb633f5-cc4d-4157-8217-def90cb15e24.jpg?1783948712

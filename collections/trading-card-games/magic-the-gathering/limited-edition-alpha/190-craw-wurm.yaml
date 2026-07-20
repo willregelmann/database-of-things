@@ -1,13 +1,15 @@
 id: 791cce8b-f862-46fd-be64-45e61a037368
-name: "Craw Wurm"
+name: Craw Wurm
 type: card
 date: "1993-08-05"
 attributes:
   number: "190/295"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{4}{G}{G}"
-  card_type: "Creature — Wurm"
-  illustrator: "Daniel Gelon"
+  card_type: Creature — Wurm
+  illustrator: Daniel Gelon
 image:
-  source_url: https://cards.scryfall.io/large/front/b/f/bfed1a95-bd67-4e16-a781-81866028af2f.jpg?1783948678
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/f/bfed1a95-bd67-4e16-a781-81866028af2f.jpg?1783948678

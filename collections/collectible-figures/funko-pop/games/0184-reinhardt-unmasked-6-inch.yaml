@@ -2,7 +2,8 @@ id: 86fa79e8-4a6a-4acc-bf37-ec0793c9d447
 name: Reinhardt (Unmasked, 6 inch)
 type: figure
 date: "2017"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "184"
   manufacturer: Funko, LLC

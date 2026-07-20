@@ -2,7 +2,8 @@ id: ac36d491-7a2d-475b-995e-a5915de8c5d2
 name: Bulbasaur
 type: figure
 date: "2019-02-27"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "453"
   manufacturer: Funko, LLC

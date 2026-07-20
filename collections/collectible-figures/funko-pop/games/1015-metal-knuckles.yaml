@@ -2,7 +2,8 @@ id: 8bdec0e8-f8c3-405d-bd30-d5e2dd8fb1bd
 name: Metal Knuckles
 type: figure
 date: "2024"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "1015"
   manufacturer: Funko, LLC

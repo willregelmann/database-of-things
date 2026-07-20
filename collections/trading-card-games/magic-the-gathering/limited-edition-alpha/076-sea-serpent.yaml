@@ -1,13 +1,15 @@
 id: c3a09fd1-9c4b-4cd4-a1ac-b9a4414b7386
-name: "Sea Serpent"
+name: Sea Serpent
 type: card
 date: "1993-08-05"
 attributes:
   number: "76/295"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{5}{U}"
-  card_type: "Creature — Serpent"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Serpent
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/d/0/d0b333b7-db4d-4439-b0de-60414cbf8d7b.jpg?1783948702
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/0/d0b333b7-db4d-4439-b0de-60414cbf8d7b.jpg?1783948702

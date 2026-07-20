@@ -2,7 +2,8 @@ id: 6aa5cfed-95a2-442f-b6ed-e5c9e7812a78
 name: Lucio (Amphibeat)
 type: figure
 date: "2019"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "549"
   manufacturer: Funko, LLC

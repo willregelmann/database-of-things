@@ -2,7 +2,8 @@ id: ed6c39c2-a77b-460b-a07d-03b646d06671
 name: Psycho
 type: figure
 date: "2015"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "45"
   manufacturer: Funko, LLC

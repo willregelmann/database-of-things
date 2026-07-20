@@ -2,9 +2,10 @@ id: 62acd67b-cbb2-4457-952f-6282c63d925a
 name: Muffin
 type: figure
 attributes:
-  pack_name: "Muffin & Crown"
-  pack_type: "Story Starter"
+  pack_name: Muffin & Crown
+  pack_type: Story Starter
   accessory: Crown
   manufacturer: Moose Toys Pty Ltd
 image:
-  source_url: https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt6f740156c21bfb3b/696ec29d7602632153d2fe37/19192_BLUEY_S14_STORY_STARTER_PK_MUFFIN_&_CROWN_O03_PNG_1-1_1080x1080.png
+  source_url: >-
+    https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt6f740156c21bfb3b/696ec29d7602632153d2fe37/19192_BLUEY_S14_STORY_STARTER_PK_MUFFIN_&_CROWN_O03_PNG_1-1_1080x1080.png

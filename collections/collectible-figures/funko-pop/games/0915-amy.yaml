@@ -2,7 +2,8 @@ id: d9d2516c-a2e9-454b-b7c9-1eea2fca94a1
 name: Amy
 type: figure
 date: "2023"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "915"
   manufacturer: Funko, LLC

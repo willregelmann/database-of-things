@@ -2,7 +2,8 @@ id: e8022150-c181-4270-853f-43d7107dc095
 name: B.O.B. (6 inch)
 type: figure
 date: "2019"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "558"
   manufacturer: Funko, LLC

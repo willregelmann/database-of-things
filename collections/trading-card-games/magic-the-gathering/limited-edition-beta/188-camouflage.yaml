@@ -1,13 +1,15 @@
 id: a0795dfb-0801-4c96-abca-d8b0006b5b14
-name: "Camouflage"
+name: Camouflage
 type: card
 date: "1993-10-04"
 attributes:
   number: "188/302"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Instant"
-  illustrator: "Jesper Myrfors"
+  card_type: Instant
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/2/f/2f55ff95-32a3-43ba-82e5-a5a3bc2cc9e5.jpg?1783948617
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/f/2f55ff95-32a3-43ba-82e5-a5a3bc2cc9e5.jpg?1783948617

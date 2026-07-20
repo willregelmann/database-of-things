@@ -1,11 +1,11 @@
 id: fb9fe004-c89f-4091-bfb1-cf06c0c73daa
 name: Real Metal Lightning Cruiser
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '3077'
+  number: "3077"
   category: Real Metal Turbo Vehicles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03077.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03077.jpg

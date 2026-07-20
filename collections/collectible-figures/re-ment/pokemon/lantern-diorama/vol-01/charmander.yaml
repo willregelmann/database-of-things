@@ -3,6 +3,7 @@ name: Charmander
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Charmander]
+  pokemon:
+    - Charmander
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/192493460.jpg

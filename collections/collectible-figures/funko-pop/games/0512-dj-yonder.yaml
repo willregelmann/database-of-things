@@ -2,7 +2,8 @@ id: 0ffe7c4d-f965-46c4-bd54-4bed7523b74e
 name: DJ Yonder
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "512"
   manufacturer: Funko, LLC

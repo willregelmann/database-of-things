@@ -2,7 +2,8 @@ id: c6a7d10a-14fc-4559-93e4-5a20833f4751
 name: Super Sonic (AAA Anime)
 type: figure
 date: "2023"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "923"
   manufacturer: Funko, LLC

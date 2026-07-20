@@ -2,7 +2,8 @@ id: 7426ce16-5a19-48f0-8466-2d3dd903f6bf
 name: Tyrael
 type: figure
 date: "2013"
-tags: [390fce6f-68dd-430e-9a7d-222d76d791da]
+tags:
+  - 390fce6f-68dd-430e-9a7d-222d76d791da
 attributes:
   number: "17"
   manufacturer: Funko, LLC

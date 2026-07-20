@@ -2,7 +2,8 @@ id: 53a76040-1e08-46fe-b9b5-505838f550e5
 name: Inky
 type: figure
 date: "2016"
-tags: [b7e65c93-47fc-4159-85e8-482c8ad2a7f6]
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
 attributes:
   number: "84"
   manufacturer: Funko, LLC

@@ -1,13 +1,15 @@
 id: 3a779084-b342-494f-9c81-4b9784d45a9b
-name: "Uthden Troll"
+name: Uthden Troll
 type: card
 date: "1993-10-04"
 attributes:
   number: "181/302"
   rarity: Uncommon
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{2}{R}"
-  card_type: "Creature — Troll"
-  illustrator: "Douglas Shuler"
+  card_type: Creature — Troll
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/9/1/91f46e9a-6075-4fa5-8f60-f81e2024b13d.jpg?1783948619
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/1/91f46e9a-6075-4fa5-8f60-f81e2024b13d.jpg?1783948619

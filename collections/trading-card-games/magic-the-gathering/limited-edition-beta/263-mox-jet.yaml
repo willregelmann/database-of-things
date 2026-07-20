@@ -1,12 +1,13 @@
 id: cb2b32e8-69d7-420e-a6f3-84378f57d4a5
-name: "Mox Jet"
+name: Mox Jet
 type: card
 date: "1993-10-04"
 attributes:
   number: "263/302"
   rarity: Rare
   mana_cost: "{0}"
-  card_type: "Artifact"
-  illustrator: "Dan Frazier"
+  card_type: Artifact
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/1/3/133204e4-fef8-4851-aa50-c96ffa35b802.jpg?1783948601
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/3/133204e4-fef8-4851-aa50-c96ffa35b802.jpg?1783948601

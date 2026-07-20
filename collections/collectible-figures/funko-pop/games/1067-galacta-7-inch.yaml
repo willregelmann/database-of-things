@@ -2,7 +2,8 @@ id: 4a9f9d00-e7c1-4ce0-b8ed-e9deefca1aea
 name: Galacta (7 inch)
 type: figure
 date: "2025"
-tags: [cb97b4e5-77b0-48e8-93c5-42ec5828a72a]
+tags:
+  - cb97b4e5-77b0-48e8-93c5-42ec5828a72a
 attributes:
   number: "1067"
   manufacturer: Funko, LLC

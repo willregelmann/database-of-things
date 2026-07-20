@@ -3,6 +3,7 @@ name: Mega Charizard X
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Mega Charizard X]
+  pokemon:
+    - Mega Charizard X
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1485822718.jpg

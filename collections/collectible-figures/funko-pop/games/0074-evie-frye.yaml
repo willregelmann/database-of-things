@@ -2,7 +2,8 @@ id: b2170be5-de04-4467-ae5f-d8779e04bd39
 name: Evie Frye
 type: figure
 date: "2015"
-tags: [19e1abba-db34-42e0-8a2e-381e4e36193c]
+tags:
+  - 19e1abba-db34-42e0-8a2e-381e4e36193c
 attributes:
   number: "74"
   manufacturer: Funko, LLC

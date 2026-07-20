@@ -2,7 +2,8 @@ id: 226772e4-e4b8-4346-95d5-721b4ad706fc
 name: Atheon
 type: figure
 date: "2017"
-tags: [6be6ad77-25d7-4997-99bd-9f7f3933f838]
+tags:
+  - 6be6ad77-25d7-4997-99bd-9f7f3933f838
 attributes:
   number: "240"
   manufacturer: Funko, LLC

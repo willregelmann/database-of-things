@@ -2,7 +2,8 @@ id: fab1f000-bfee-453d-aec1-01e5a0745f5d
 name: Howard the Duck (6 inch)
 type: figure
 date: "2018"
-tags: [a3fe433e-45f9-405b-aeff-5293804f66be]
+tags:
+  - a3fe433e-45f9-405b-aeff-5293804f66be
 attributes:
   number: "301"
   manufacturer: Funko, LLC

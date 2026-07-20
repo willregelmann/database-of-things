@@ -1,13 +1,15 @@
 id: b8850b81-943e-48f2-8270-2063f4eb8552
-name: "Ironroot Treefolk"
+name: Ironroot Treefolk
 type: card
 date: "1993-10-04"
 attributes:
   number: "204/302"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{4}{G}"
-  card_type: "Creature — Treefolk"
-  illustrator: "Jesper Myrfors"
+  card_type: Creature — Treefolk
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/1/d/1d9479ae-2b42-4137-9e62-ef4d7fd17d0c.jpg?1783948613
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/d/1d9479ae-2b42-4137-9e62-ef4d7fd17d0c.jpg?1783948613

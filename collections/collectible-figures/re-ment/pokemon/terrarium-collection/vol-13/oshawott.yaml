@@ -3,6 +3,7 @@ name: Oshawott
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Oshawott]
+  pokemon:
+    - Oshawott
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/813828075.jpg

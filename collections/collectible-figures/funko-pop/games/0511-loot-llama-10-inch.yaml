@@ -2,7 +2,8 @@ id: 648a6bbd-6206-463c-97f2-bf6740e75d6e
 name: Loot Llama (10 inch)
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "511"
   manufacturer: Funko, LLC

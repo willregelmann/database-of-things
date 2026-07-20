@@ -1,11 +1,11 @@
 id: 87c6ebdd-e670-4a6e-9cd4-77b8723b0393
 name: Power Morpher & Power Gun/Sword
 type: weapon
-date: '1993'
+date: "1993"
 attributes:
-  number: '2250'
+  number: "2250"
   category: Power Morpher & Power Gun/Sword
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02250.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02250.jpg

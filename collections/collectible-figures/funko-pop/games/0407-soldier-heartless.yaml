@@ -2,7 +2,8 @@ id: 00477723-46ab-453c-8b70-8b2c46f26737
 name: Soldier Heartless
 type: figure
 date: "2018"
-tags: [56a20698-8b61-46f7-b4da-49c2b3641f0e]
+tags:
+  - 56a20698-8b61-46f7-b4da-49c2b3641f0e
 attributes:
   number: "407"
   manufacturer: Funko, LLC

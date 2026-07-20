@@ -2,7 +2,8 @@ id: 37a1a54c-c7ac-4fe8-8bdf-e9417420eb62
 name: Dark Springtrap
 type: figure
 date: "2017"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "242"
   manufacturer: Funko, LLC

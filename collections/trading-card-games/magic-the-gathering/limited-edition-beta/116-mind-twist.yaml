@@ -1,13 +1,15 @@
 id: 190f2d04-1d64-49be-952b-9f5b6fe41ee4
-name: "Mind Twist"
+name: Mind Twist
 type: card
 date: "1993-10-04"
 attributes:
   number: "116/302"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{X}{B}"
-  card_type: "Sorcery"
-  illustrator: "Julie Baroh"
+  card_type: Sorcery
+  illustrator: Julie Baroh
 image:
-  source_url: https://cards.scryfall.io/large/front/0/c/0cb6cbbe-c3e9-4d14-a6b8-fb74e6a02b33.jpg?1783948632
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/c/0cb6cbbe-c3e9-4d14-a6b8-fb74e6a02b33.jpg?1783948632

@@ -3,7 +3,7 @@ name: Pokémon Center Lady
 type: card
 date: "2020-09-25"
 attributes:
-  number: 60/73
+  number: "60/73"
   rarity: Uncommon
   illustrator: kirisAki
 image:

@@ -2,7 +2,8 @@ id: 0a7fb259-c322-4b6d-bc9d-cc9ebbbd7fc0
 name: Zarya
 type: figure
 date: "2017"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "306"
   manufacturer: Funko, LLC

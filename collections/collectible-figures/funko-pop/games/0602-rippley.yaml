@@ -2,7 +2,8 @@ id: 79e43e76-fc3a-49eb-9689-0c8d76f7ac40
 name: Rippley
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "602"
   manufacturer: Funko, LLC

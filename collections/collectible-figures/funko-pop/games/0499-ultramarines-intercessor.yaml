@@ -2,7 +2,8 @@ id: eec18166-900e-4082-a3ca-f5214ab5b7db
 name: Ultramarines Intercessor
 type: figure
 date: "2019"
-tags: [54cf038a-8610-4abe-9053-7712b99ca5bb]
+tags:
+  - 54cf038a-8610-4abe-9053-7712b99ca5bb
 attributes:
   number: "499"
   manufacturer: Funko, LLC

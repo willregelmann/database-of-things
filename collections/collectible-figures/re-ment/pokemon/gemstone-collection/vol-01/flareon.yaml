@@ -3,6 +3,7 @@ name: Flareon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Flareon]
+  pokemon:
+    - Flareon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/2073893477.jpg

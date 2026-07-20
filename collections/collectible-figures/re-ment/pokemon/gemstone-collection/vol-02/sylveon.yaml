@@ -3,6 +3,7 @@ name: Sylveon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Sylveon]
+  pokemon:
+    - Sylveon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/258273571.jpg

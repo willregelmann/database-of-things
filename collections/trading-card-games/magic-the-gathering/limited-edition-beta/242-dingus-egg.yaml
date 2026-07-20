@@ -1,12 +1,13 @@
 id: 23c6af60-dead-48d0-bfde-381037a4a6bc
-name: "Dingus Egg"
+name: Dingus Egg
 type: card
 date: "1993-10-04"
 attributes:
   number: "242/302"
   rarity: Rare
   mana_cost: "{4}"
-  card_type: "Artifact"
-  illustrator: "Dan Frazier"
+  card_type: Artifact
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/f/e/fe8ecaee-0de3-45ee-8428-09dc400d63d8.jpg?1783948606
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/e/fe8ecaee-0de3-45ee-8428-09dc400d63d8.jpg?1783948606

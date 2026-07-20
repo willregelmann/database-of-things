@@ -2,7 +2,8 @@ id: 61e33c0d-c223-4cc6-b647-c608e8cad7be
 name: Ring Scatter Sonic
 type: figure
 date: "2023"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "918"
   manufacturer: Funko, LLC

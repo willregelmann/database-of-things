@@ -3,6 +3,7 @@ name: Suicune
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Suicune]
+  pokemon:
+    - Suicune
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1954903311.jpg

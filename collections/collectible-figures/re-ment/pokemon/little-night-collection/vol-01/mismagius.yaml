@@ -3,6 +3,7 @@ name: Mismagius
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Mismagius]
+  pokemon:
+    - Mismagius
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1412036162.jpg

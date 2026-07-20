@@ -2,7 +2,8 @@ id: 3dcbba65-9afa-4a1c-bdc7-fcc9540ba230
 name: Leshen (6 inch)
 type: figure
 date: "2019"
-tags: [18e5ea98-f784-409c-9495-c0126cb92650]
+tags:
+  - 18e5ea98-f784-409c-9495-c0126cb92650
 attributes:
   number: "561"
   manufacturer: Funko, LLC

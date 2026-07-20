@@ -1,13 +1,15 @@
 id: 38260504-5dff-46dd-9fc5-16bf818f297a
-name: "Stream of Life"
+name: Stream of Life
 type: card
 date: "1993-10-04"
 attributes:
   number: "218/302"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{X}{G}"
-  card_type: "Sorcery"
-  illustrator: "Mark Poole"
+  card_type: Sorcery
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/d/a/da18a2c9-850e-400d-b0b3-edd8a946e380.jpg?1783948610
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/a/da18a2c9-850e-400d-b0b3-edd8a946e380.jpg?1783948610

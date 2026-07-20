@@ -1,13 +1,15 @@
 id: 1b72a67e-7ba7-45e2-9d0e-99ed361ed992
-name: "Grizzly Bears"
+name: Grizzly Bears
 type: card
 date: "1993-10-04"
 attributes:
   number: "200/302"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{1}{G}"
-  card_type: "Creature — Bear"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Bear
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/e/7/e7aa2b93-0a84-4318-bf2d-58164f0a846f.jpg?1783948614
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/7/e7aa2b93-0a84-4318-bf2d-58164f0a846f.jpg?1783948614

@@ -2,7 +2,8 @@ id: 7d8c9e54-1478-47e3-a6e9-c8c0460ccbae
 name: Shadow Freddy
 type: figure
 date: "2016"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "126"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: 67d0e122-0f25-4bd7-9e8c-6943cfb647d6
 name: Fidough
 type: figure
 date: "2025-04-01"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1051"
   manufacturer: Funko, LLC

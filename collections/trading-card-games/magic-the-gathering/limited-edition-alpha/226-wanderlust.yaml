@@ -1,13 +1,15 @@
 id: 8eee4a8a-8d7c-47e8-88c7-e13abab7e978
-name: "Wanderlust"
+name: Wanderlust
 type: card
 date: "1993-08-05"
 attributes:
   number: "226/295"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{2}{G}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Cornelius Brudi"
+  card_type: Enchantment — Aura
+  illustrator: Cornelius Brudi
 image:
-  source_url: https://cards.scryfall.io/large/front/2/2/220a03ca-8c9b-4acb-821d-f6577fbb20fb.jpg?1783948671
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/2/220a03ca-8c9b-4acb-821d-f6577fbb20fb.jpg?1783948671

@@ -1,11 +1,12 @@
 id: e0acc097-56b9-4e29-81dd-332099302fc6
-name: "Scrubland"
+name: Scrubland
 type: card
 date: "1993-08-05"
 attributes:
   number: "281/295"
   rarity: Rare
-  card_type: "Land — Plains Swamp"
-  illustrator: "Jesper Myrfors"
+  card_type: Land — Plains Swamp
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/b/e/bebe39d4-21fb-46a4-a1ec-b97102e46c15.jpg?1783948660
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/e/bebe39d4-21fb-46a4-a1ec-b97102e46c15.jpg?1783948660

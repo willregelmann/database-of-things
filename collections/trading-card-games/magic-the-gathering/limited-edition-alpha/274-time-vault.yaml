@@ -1,12 +1,13 @@
 id: 8583f106-935e-4aa9-a846-f6ecec2952f7
-name: "Time Vault"
+name: Time Vault
 type: card
 date: "1993-08-05"
 attributes:
   number: "274/295"
   rarity: Rare
   mana_cost: "{2}"
-  card_type: "Artifact"
-  illustrator: "Mark Tedin"
+  card_type: Artifact
+  illustrator: Mark Tedin
 image:
-  source_url: https://cards.scryfall.io/large/front/9/0/902441dc-c976-4c92-b897-6376eaa0fe38.jpg?1783948660
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/0/902441dc-c976-4c92-b897-6376eaa0fe38.jpg?1783948660

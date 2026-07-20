@@ -1,13 +1,15 @@
 id: 02eea0da-2e9f-4013-91de-1db97a000c32
-name: "Channel"
+name: Channel
 type: card
 date: "1993-08-05"
 attributes:
   number: "188/295"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}{G}"
-  card_type: "Sorcery"
-  illustrator: "Richard Thomas"
+  card_type: Sorcery
+  illustrator: Richard Thomas
 image:
-  source_url: https://cards.scryfall.io/large/front/c/1/c1862c47-71cc-45a3-8805-a5ddc62e55ea.jpg?1783948678
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/1/c1862c47-71cc-45a3-8805-a5ddc62e55ea.jpg?1783948678

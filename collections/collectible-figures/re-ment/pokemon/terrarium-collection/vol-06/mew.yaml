@@ -3,6 +3,7 @@ name: Mew
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Mew]
+  pokemon:
+    - Mew
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/2096057535.jpg

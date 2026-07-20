@@ -1,12 +1,13 @@
 id: deb8deda-d45a-4084-a7aa-995723513525
-name: "Cyclopean Tomb"
+name: Cyclopean Tomb
 type: card
 date: "1993-10-04"
 attributes:
   number: "241/302"
   rarity: Rare
   mana_cost: "{4}"
-  card_type: "Artifact"
-  illustrator: "Anson Maddocks"
+  card_type: Artifact
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/0/0/00775f44-fbe6-41ee-9977-d13d1fb5b6fb.jpg?1783948606
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/0/00775f44-fbe6-41ee-9977-d13d1fb5b6fb.jpg?1783948606

@@ -1,13 +1,15 @@
 id: c653d13b-ab6b-4ac3-9ec0-2fbbccc44171
-name: "Veteran Bodyguard"
+name: Veteran Bodyguard
 type: card
 date: "1993-10-04"
 attributes:
   number: "42/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{3}{W}{W}"
-  card_type: "Creature — Human"
-  illustrator: "Douglas Shuler"
+  card_type: Creature — Human
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/d/8/d8d888b7-26e2-465d-b5ee-bb2f2af5c621.jpg?1783948647
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/8/d8d888b7-26e2-465d-b5ee-bb2f2af5c621.jpg?1783948647

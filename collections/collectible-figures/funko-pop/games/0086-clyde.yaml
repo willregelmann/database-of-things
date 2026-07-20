@@ -2,7 +2,8 @@ id: 4338da62-3bb0-4efa-8ca5-813847550d47
 name: Clyde
 type: figure
 date: "2016"
-tags: [b7e65c93-47fc-4159-85e8-482c8ad2a7f6]
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
 attributes:
   number: "86"
   manufacturer: Funko, LLC

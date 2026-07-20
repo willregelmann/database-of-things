@@ -3,6 +3,7 @@ name: Shedinja
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Shedinja]
+  pokemon:
+    - Shedinja
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1320816639.jpg

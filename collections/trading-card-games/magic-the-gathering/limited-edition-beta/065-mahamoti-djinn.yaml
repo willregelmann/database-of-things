@@ -1,13 +1,15 @@
 id: 3c7747cb-747c-415c-a5b6-4c0c2080a4b2
-name: "Mahamoti Djinn"
+name: Mahamoti Djinn
 type: card
 date: "1993-10-04"
 attributes:
   number: "65/302"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{4}{U}{U}"
-  card_type: "Creature — Djinn"
-  illustrator: "Dan Frazier"
+  card_type: Creature — Djinn
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/0/8/083f76c8-3e6d-4de5-b408-2f2394faed5c.jpg?1783948643
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/8/083f76c8-3e6d-4de5-b408-2f2394faed5c.jpg?1783948643

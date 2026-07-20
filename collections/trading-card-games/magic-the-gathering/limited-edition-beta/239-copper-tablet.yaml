@@ -1,12 +1,13 @@
 id: df2bf700-f83e-4379-aacc-9208ed9a2c36
-name: "Copper Tablet"
+name: Copper Tablet
 type: card
 date: "1993-10-04"
 attributes:
   number: "239/302"
   rarity: Uncommon
   mana_cost: "{2}"
-  card_type: "Artifact"
-  illustrator: "Amy Weber"
+  card_type: Artifact
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/9/3/93842064-a0a8-4e4d-9c8a-e8a86448d225.jpg?1783948607
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/3/93842064-a0a8-4e4d-9c8a-e8a86448d225.jpg?1783948607

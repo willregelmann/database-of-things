@@ -1,11 +1,11 @@
 id: 530c9823-1b0a-447c-aa29-3564d7bc170a
 name: Deluxe Mega Winger
 type: zord
-date: '1998'
+date: "1998"
 attributes:
-  number: '3270'
+  number: "3270"
   category: Deluxe Mega Winger
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03270.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03270.jpg

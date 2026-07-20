@@ -2,7 +2,8 @@ id: 051bc66f-d247-470f-b986-ca0310269850
 name: Legendary Chalice
 type: figure
 date: "2018"
-tags: [95af9989-f592-4224-96e4-9a028d595012]
+tags:
+  - 95af9989-f592-4224-96e4-9a028d595012
 attributes:
   number: "314"
   manufacturer: Funko, LLC

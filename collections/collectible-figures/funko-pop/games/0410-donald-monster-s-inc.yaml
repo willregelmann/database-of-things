@@ -2,7 +2,8 @@ id: 2046af6e-f44c-48c3-970f-8297be95473f
 name: Donald (Monster's Inc.)
 type: figure
 date: "2018"
-tags: [56a20698-8b61-46f7-b4da-49c2b3641f0e]
+tags:
+  - 56a20698-8b61-46f7-b4da-49c2b3641f0e
 attributes:
   number: "410"
   manufacturer: Funko, LLC

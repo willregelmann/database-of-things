@@ -1,11 +1,11 @@
 id: 347479b6-bbaa-43de-b476-11e495bd2393
 name: Deluxe Turbine Laser
 type: weapon
-date: '1997'
+date: "1997"
 attributes:
-  number: '3066'
+  number: "3066"
   category: Deluxe Turbine Laser
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03066.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03066.jpg

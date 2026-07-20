@@ -2,7 +2,8 @@ id: 2b0edac9-f3da-43d0-85e2-ca435ec1f776
 name: Dan
 type: figure
 date: "2016"
-tags: [d44eb769-000a-48ca-bc0c-40a99a28e7ca]
+tags:
+  - d44eb769-000a-48ca-bc0c-40a99a28e7ca
 attributes:
   number: "142"
   manufacturer: Funko, LLC

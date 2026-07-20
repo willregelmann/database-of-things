@@ -1,11 +1,11 @@
 id: f2fe7542-1e32-4c46-9f46-e496d51b9e51
 name: Billy
 type: figure
-date: '1995'
+date: "1995"
 attributes:
-  number: '2302'
+  number: "2302"
   category: Power Rangers Collectibles Series 2
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02302_01.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02302_01.jpg

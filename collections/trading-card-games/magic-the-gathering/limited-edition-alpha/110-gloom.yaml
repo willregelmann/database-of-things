@@ -1,13 +1,15 @@
 id: 091163c0-c777-4bbf-b901-0af727394d48
-name: "Gloom"
+name: Gloom
 type: card
 date: "1993-08-05"
 attributes:
   number: "110/295"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{2}{B}"
-  card_type: "Enchantment"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/a/8/a8d10bc7-daeb-4c0d-9e4a-8eae8d11699f.jpg?1783948696
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/8/a8d10bc7-daeb-4c0d-9e4a-8eae8d11699f.jpg?1783948696

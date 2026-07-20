@@ -2,7 +2,8 @@ id: 6cb415b3-4726-4106-9826-ebca2547fdb0
 name: Dr. Eggman
 type: figure
 date: "2018"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "286"
   manufacturer: Funko, LLC

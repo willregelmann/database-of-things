@@ -1,12 +1,13 @@
 id: 325d3b1a-0eae-43c5-93aa-f90df478a16a
-name: "Nevinyrral's Disk"
+name: Nevinyrral's Disk
 type: card
 date: "1993-08-05"
 attributes:
   number: "266/295"
   rarity: Rare
   mana_cost: "{4}"
-  card_type: "Artifact"
-  illustrator: "Mark Tedin"
+  card_type: Artifact
+  illustrator: Mark Tedin
 image:
-  source_url: https://cards.scryfall.io/large/front/1/2/12926dc8-8e6f-4a47-a12b-4d674189615a.jpg?1783948662
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/2/12926dc8-8e6f-4a47-a12b-4d674189615a.jpg?1783948662

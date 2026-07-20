@@ -2,7 +2,8 @@ id: 243f25ad-8477-4ea5-9e65-30a8387ea363
 name: Zavala
 type: figure
 date: "2017"
-tags: [6be6ad77-25d7-4997-99bd-9f7f3933f838]
+tags:
+  - 6be6ad77-25d7-4997-99bd-9f7f3933f838
 attributes:
   number: "237"
   manufacturer: Funko, LLC

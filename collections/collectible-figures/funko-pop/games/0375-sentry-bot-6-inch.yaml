@@ -2,7 +2,8 @@ id: c0218af9-125e-422b-b5d7-d8192ae6bb8b
 name: Sentry Bot (6 inch)
 type: figure
 date: "2018"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "375"
   manufacturer: Funko, LLC
