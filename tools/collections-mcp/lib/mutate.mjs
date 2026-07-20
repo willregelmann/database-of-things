@@ -10,6 +10,21 @@ const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/
 
 const VALIDATE_DIR = path.join(REPO_ROOT, 'tools', 'collections-validate');
 
+/**
+ * Serializes an entity to YAML text. `attributes.number` (a collector/
+ * catalog/issue number — see collections/CLAUDE.md's canonical example,
+ * `number: "4/102"`) is always quoted by convention even when a value like
+ * `"6/34"` doesn't strictly need it for YAML round-trip safety, since sibling
+ * values in the same collection often do (e.g. `"004"`, which would
+ * otherwise parse as a number) — quoting it unconditionally keeps every
+ * entity in a collection visually consistent.
+ */
+function dumpEntity(obj) {
+  let text = yaml.dump(obj, { sortKeys: false, quotingType: '"' });
+  text = text.replace(/^(\s{2}number: )(?!["'])(.+)$/gm, (_m, indent, value) => `${indent}"${value}"`);
+  return text;
+}
+
 /** Runs the full collections/ validator. Returns { ok, output }. */
 function runValidator() {
   try {
@@ -87,7 +102,7 @@ function upsertEntityFile(index, { targetDir, expectedOwner, item, entityLabel }
     originalRaw = fs.readFileSync(writePath, 'utf8');
     before = existing.data;
     const merged = applyPatch(existing.data, item);
-    fs.writeFileSync(writePath, yaml.dump(merged, { sortKeys: false }));
+    fs.writeFileSync(writePath, dumpEntity(merged));
     action = 'update';
     entityId = item.id;
   } else {
@@ -103,7 +118,7 @@ function upsertEntityFile(index, { targetDir, expectedOwner, item, entityLabel }
     }
     entityId = crypto.randomUUID();
     const merged = { id: entityId, ...applyPatch(null, item) };
-    fs.writeFileSync(writePath, yaml.dump(merged, { sortKeys: false }));
+    fs.writeFileSync(writePath, dumpEntity(merged));
     action = 'create';
   }
 
@@ -213,7 +228,7 @@ export function upsertCollection(index, { collectionId, collection }) {
     before = existing.data;
     const merged = applyPatch(existing.data, collection);
     merged.type = 'collection'; // always "collection", regardless of what the caller passed
-    fs.writeFileSync(writePath, yaml.dump(merged, { sortKeys: false }));
+    fs.writeFileSync(writePath, dumpEntity(merged));
     action = 'update';
     entityId = collection.id;
   } else {
@@ -234,7 +249,7 @@ export function upsertCollection(index, { collectionId, collection }) {
     const merged = { id: entityId, type: 'collection', ...patched };
     fs.mkdirSync(newDir);
     writePath = path.join(newDir, '_collection.yaml');
-    fs.writeFileSync(writePath, yaml.dump(merged, { sortKeys: false }));
+    fs.writeFileSync(writePath, dumpEntity(merged));
     action = 'create';
   }
 
