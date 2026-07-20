@@ -26,7 +26,7 @@ Bluey, Bingo, Chilli, Bandit, Muffin, Socks, and the two grandparents
 (Rita/"Granny Bingo" and Janet/"Granny Bluey"), but blind-bag waves
 frequently add costume/pose variants of the same character — disambiguate
 with a short descriptor the same way Re-Ment does (see
-[`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md)).
+[`../../../re-ment/CLAUDE.md`](../../../re-ment/CLAUDE.md)).
 
 ## Naming files
 

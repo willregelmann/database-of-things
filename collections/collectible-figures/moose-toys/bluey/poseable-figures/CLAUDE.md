@@ -22,7 +22,7 @@ A multi-pack's box is the collectible unit — it's an **item** (`type:
 pack`), not a collection, even though several figures ship inside it:
 owning every figure from a pack loose doesn't mean owning the pack. Each
 figure inside is a **component** (see root
-[`collections/CLAUDE.md`](../../../CLAUDE.md), "Components"), filed in the
+[`collections/CLAUDE.md`](../../../../CLAUDE.md), "Components"), filed in the
 `_figures/` bucket sitting alongside the pack items, and referenced from the
 pack's own `components` field:
 
