@@ -60,6 +60,32 @@ The `r<NNNNN>` in a product URL is Re-Ment's own website catalog ID, not a
 number printed on the packaging — don't treat it as a public figure/product
 number.
 
+## A vol-01 record never gets a volume number in its `name`
+
+**Re-Ment's own official title never numbers a series' first release, even
+retroactively once a numbered sequel exists** — confirmed directly against
+live listings, not inferred: Aqua Bottle Collection's release 1 is still
+titled just "AQUA BOTTLE collection" today, years after "AQUA BOTTLE
+collection2" shipped; Gemstone Collection, Pokémon Town ("ポケモンの街"),
+and Starrium Series all show the identical pattern — the *second* release
+is the first one to carry any number at all. Match that in `name`:
+
+- `vol-01/_collection.yaml`'s `name` is the bare series name, with no "Vol.
+  1"/"1" suffix — same as the series' own top-level `_collection.yaml`
+  `name`, duplicated exactly. That's not a bug; it's how Re-Ment's own
+  first release is actually titled.
+- `vol-02/`, `vol-03/`, etc. get an explicit number in `name` (rendered as
+  "Vol. N" in English, matching Re-Ment's own e.g. "collection2" /
+  "ポケモンの街2") — Re-Ment does number these from their own first
+  listing.
+- This means a `vol-01` record's `name` **never needs a retroactive
+  rename** when a later volume is added — Re-Ment itself never touches
+  release 1's title, so neither should this catalog.
+
+The `vol-01/` *directory* still always exists from the first release
+regardless (see above) — this rule is about the entity's `name` field only,
+not the directory-nesting convention.
+
 ## No printed catalog number on figures
 
 Unlike Nendoroid, individual figures carry no manufacturer number. Identify
