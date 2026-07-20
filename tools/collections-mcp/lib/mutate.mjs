@@ -6,6 +6,7 @@ import yaml from 'js-yaml';
 import { REPO_ROOT, rel, getCollection, getItem } from './repo.mjs';
 
 const FILENAME_RE = /^[a-z0-9]+(-[a-z0-9]+)*\.ya?ml$/;
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 const VALIDATE_DIR = path.join(REPO_ROOT, 'tools', 'collections-validate');
 
@@ -36,6 +37,15 @@ const NON_DATA_FIELDS = new Set(['id', 'filename', 'directory']);
  * patch a single attribute at a time.
  */
 function applyPatch(existingData, patch) {
+  if (patch.tags !== undefined) {
+    for (const ref of patch.tags) {
+      if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
+        throw new Error(
+          `invalid tag id ${JSON.stringify(ref)} — must be an existing tag entity's UUID (see tags/), never a slug or display name. Create the tag under tags/ first if it doesn't exist yet.`
+        );
+      }
+    }
+  }
   const result = existingData ? { ...existingData } : {};
   for (const [key, value] of Object.entries(patch)) {
     if (NON_DATA_FIELDS.has(key) || value === undefined) continue;
