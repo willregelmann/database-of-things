@@ -1,13 +1,15 @@
 id: 1998c69c-3b13-44dd-a7c1-33adf2e034ea
-name: "Mana Short"
+name: Mana Short
 type: card
 date: "1993-10-04"
 attributes:
   number: "66/302"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{2}{U}"
-  card_type: "Instant"
-  illustrator: "Dameon Willich"
+  card_type: Instant
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/4/d/4da4f9a8-024b-4707-b300-ccb11bd87cea.jpg?1783948642
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/d/4da4f9a8-024b-4707-b300-ccb11bd87cea.jpg?1783948642

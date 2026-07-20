@@ -2,7 +2,8 @@ id: 8aed5dcf-c08a-41e6-88eb-8b09b4ff2c54
 name: Goro (6 inch)
 type: figure
 date: "2015"
-tags: [d86d8e5d-1d70-478d-b595-9c454d3c7073]
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
 attributes:
   number: "256"
   manufacturer: Funko, LLC

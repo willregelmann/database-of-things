@@ -3,6 +3,7 @@ name: Scizor
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Scizor]
+  pokemon:
+    - Scizor
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/165888549.jpg

@@ -1,12 +1,13 @@
 id: e7c4c1a7-72b3-49c5-9dad-504415b3d2e7
-name: "Crystal Rod"
+name: Crystal Rod
 type: card
 date: "1993-10-04"
 attributes:
   number: "240/302"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Amy Weber"
+  card_type: Artifact
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/e/4/e44d892f-a975-4062-8a54-5777d2600504.jpg?1783948606
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/4/e44d892f-a975-4062-8a54-5777d2600504.jpg?1783948606

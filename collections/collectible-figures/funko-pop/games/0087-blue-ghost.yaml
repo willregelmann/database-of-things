@@ -2,7 +2,8 @@ id: d9af34e8-4efb-4851-9f22-3b0eaef66952
 name: Blue Ghost
 type: figure
 date: "2016"
-tags: [b7e65c93-47fc-4159-85e8-482c8ad2a7f6]
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
 attributes:
   number: "87"
   manufacturer: Funko, LLC

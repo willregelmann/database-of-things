@@ -1,13 +1,15 @@
 id: f03524cc-2b1a-4967-8937-524e00dd046a
-name: "Firebreathing"
+name: Firebreathing
 type: card
 date: "1993-08-05"
 attributes:
   number: "150/295"
   rarity: Common
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment — Aura
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/3/e/3eb27381-505d-4e47-bf66-9e7ba91a5075.jpg?1783948686
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/e/3eb27381-505d-4e47-bf66-9e7ba91a5075.jpg?1783948686

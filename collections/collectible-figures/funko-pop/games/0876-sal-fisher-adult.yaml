@@ -2,7 +2,8 @@ id: 0e34aae5-12e3-4546-b514-5376f5f8692f
 name: Sal Fisher (Adult)
 type: figure
 date: "2022"
-tags: [cb7e5eb7-6553-4b63-8d99-6ddeb1ddca49]
+tags:
+  - cb7e5eb7-6553-4b63-8d99-6ddeb1ddca49
 attributes:
   number: "876"
   manufacturer: Funko, LLC

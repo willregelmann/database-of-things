@@ -3,6 +3,7 @@ name: Duskull
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Duskull]
+  pokemon:
+    - Duskull
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1484230395.jpg

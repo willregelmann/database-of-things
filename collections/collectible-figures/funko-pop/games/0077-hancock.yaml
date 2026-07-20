@@ -2,7 +2,8 @@ id: aabd7b35-6c7f-41b1-b1f2-6d86ddadc73e
 name: Hancock
 type: figure
 date: "2016"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "77"
   manufacturer: Funko, LLC

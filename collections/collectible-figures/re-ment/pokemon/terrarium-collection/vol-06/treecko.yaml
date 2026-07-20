@@ -3,6 +3,7 @@ name: Treecko
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Treecko]
+  pokemon:
+    - Treecko
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1045453578.jpg

@@ -2,7 +2,8 @@ id: 9922225c-d0d5-4e3e-b5b4-9a2c6898595e
 name: Moonwalker
 type: figure
 date: "2018"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "434"
   manufacturer: Funko, LLC

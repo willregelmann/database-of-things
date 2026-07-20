@@ -2,7 +2,8 @@ id: 2b5bbd81-a57a-41f3-9074-fba9161c1237
 name: Fblthp
 type: figure
 date: "2024"
-tags: [6508fd45-8c05-4d18-8b93-cb8d1e6ca6f3]
+tags:
+  - 6508fd45-8c05-4d18-8b93-cb8d1e6ca6f3
 attributes:
   number: "1095"
   manufacturer: Funko, LLC

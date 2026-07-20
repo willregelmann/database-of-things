@@ -1,13 +1,15 @@
 id: 551347d1-6fc9-4d97-a4dc-dadca50edc1a
-name: "Sacrifice"
+name: Sacrifice
 type: card
 date: "1993-08-05"
 attributes:
   number: "124/295"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}"
-  card_type: "Instant"
-  illustrator: "Dan Frazier"
+  card_type: Instant
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/1/2/12164aee-6a27-4246-8d15-2d6dd20d92e9.jpg?1783948692
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/2/12164aee-6a27-4246-8d15-2d6dd20d92e9.jpg?1783948692

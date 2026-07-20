@@ -1,13 +1,15 @@
 id: 0ac0f9ad-d065-4274-98d5-b225a570a870
-name: "Swords to Plowshares"
+name: Swords to Plowshares
 type: card
 date: "1993-08-05"
 attributes:
   number: "40/295"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Instant"
-  illustrator: "Jeff A. Menges"
+  card_type: Instant
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/3/8/386ea9eb-abc1-4862-aa2d-8fb808d79490.jpg?1783948709
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/8/386ea9eb-abc1-4862-aa2d-8fb808d79490.jpg?1783948709

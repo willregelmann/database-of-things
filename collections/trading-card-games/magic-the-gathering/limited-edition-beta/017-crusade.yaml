@@ -1,13 +1,15 @@
 id: 0d9490c7-adf4-41fd-87c2-6094ee43b53a
-name: "Crusade"
+name: Crusade
 type: card
 date: "1993-10-04"
 attributes:
   number: "17/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}{W}"
-  card_type: "Enchantment"
-  illustrator: "Mark Poole"
+  card_type: Enchantment
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/2/d/2d5fbd9d-48bf-4600-8ca4-2ce2ca48128e.jpg?1783948653
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/d/2d5fbd9d-48bf-4600-8ca4-2ce2ca48128e.jpg?1783948653

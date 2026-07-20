@@ -1,13 +1,15 @@
 id: b9edf8ec-9b9a-4584-9483-fd0f7c77038e
-name: "Copy Artifact"
+name: Copy Artifact
 type: card
 date: "1993-08-05"
 attributes:
   number: "53/295"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{1}{U}"
-  card_type: "Enchantment"
-  illustrator: "Amy Weber"
+  card_type: Enchantment
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/f/d/fd5ed955-1193-4e6a-a3e2-f54c1f9bf063.jpg?1783948707
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/d/fd5ed955-1193-4e6a-a3e2-f54c1f9bf063.jpg?1783948707

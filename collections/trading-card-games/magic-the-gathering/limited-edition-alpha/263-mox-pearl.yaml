@@ -1,12 +1,13 @@
 id: ba35c8d0-e4aa-4637-b233-e67bf60c0f0f
-name: "Mox Pearl"
+name: Mox Pearl
 type: card
 date: "1993-08-05"
 attributes:
   number: "263/295"
   rarity: Rare
   mana_cost: "{0}"
-  card_type: "Artifact"
-  illustrator: "Dan Frazier"
+  card_type: Artifact
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/8/e/8ebe4be7-e12a-4596-a899-fbd5b152e879.jpg?1783948663
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/e/8ebe4be7-e12a-4596-a899-fbd5b152e879.jpg?1783948663

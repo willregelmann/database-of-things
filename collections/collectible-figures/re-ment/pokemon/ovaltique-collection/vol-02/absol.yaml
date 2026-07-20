@@ -3,6 +3,7 @@ name: Absol
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Absol]
+  pokemon:
+    - Absol
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1716881118.jpg

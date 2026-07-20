@@ -1,13 +1,15 @@
 id: fb33947e-256b-4c71-a24b-1295ecb9bf29
-name: "Power Sink"
+name: Power Sink
 type: card
 date: "1993-10-04"
 attributes:
   number: "73/302"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{X}{U}"
-  card_type: "Instant"
-  illustrator: "Richard Thomas"
+  card_type: Instant
+  illustrator: Richard Thomas
 image:
-  source_url: https://cards.scryfall.io/large/front/9/5/954b04e3-861a-45c9-8897-9cb4a99f04c3.jpg?1783948641
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/5/954b04e3-861a-45c9-8897-9cb4a99f04c3.jpg?1783948641

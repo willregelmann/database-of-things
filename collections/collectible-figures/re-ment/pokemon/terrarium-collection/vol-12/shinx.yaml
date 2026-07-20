@@ -3,6 +3,7 @@ name: Shinx
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Shinx]
+  pokemon:
+    - Shinx
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1906048813.jpg

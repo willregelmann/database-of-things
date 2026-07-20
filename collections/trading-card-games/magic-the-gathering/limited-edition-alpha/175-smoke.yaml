@@ -1,13 +1,15 @@
 id: 7992bbcf-41b8-4aa7-afd6-6d93cbc73e5e
-name: "Smoke"
+name: Smoke
 type: card
 date: "1993-08-05"
 attributes:
   number: "175/295"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}{R}"
-  card_type: "Enchantment"
-  illustrator: "Jesper Myrfors"
+  card_type: Enchantment
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/7/c/7c67788e-d713-47c3-ab9f-b8a6212ae24f.jpg?1783948681
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/c/7c67788e-d713-47c3-ab9f-b8a6212ae24f.jpg?1783948681

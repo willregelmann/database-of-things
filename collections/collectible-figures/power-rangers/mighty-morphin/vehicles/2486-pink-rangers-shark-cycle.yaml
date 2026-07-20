@@ -1,11 +1,11 @@
 id: 39eb0cd5-a699-4067-a03d-0587d66a874d
 name: Pink Ranger's Shark Cycle
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2486'
+  number: "2486"
   category: Shark Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02486.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02486.jpg

@@ -1,11 +1,11 @@
 id: f61782a5-6849-47a6-93b6-1cb0b4baee5d
 name: Yellow Ranger's Revvin' Thunder Bike
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2414'
+  number: "2414"
   category: Revvin' Thunder Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02414.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02414.jpg

@@ -2,7 +2,8 @@ id: 6479a251-0946-4d12-9b4d-4635c0f86801
 name: V-Female
 type: figure
 date: "2020"
-tags: [72ec8f94-4d5b-450f-93e8-45d6f97bbbc8]
+tags:
+  - 72ec8f94-4d5b-450f-93e8-45d6f97bbbc8
 attributes:
   number: "591"
   manufacturer: Funko, LLC

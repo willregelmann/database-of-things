@@ -1,13 +1,15 @@
 id: 6bd2e070-6f7e-41ac-9159-803f74ed8a25
-name: "Web"
+name: Web
 type: card
 date: "1993-10-04"
 attributes:
   number: "229/302"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Rob Alexander"
+  card_type: Enchantment — Aura
+  illustrator: Rob Alexander
 image:
-  source_url: https://cards.scryfall.io/large/front/f/7/f7f84dc2-5a29-447d-97ab-a10afd9ee538.jpg?1783948609
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/7/f7f84dc2-5a29-447d-97ab-a10afd9ee538.jpg?1783948609

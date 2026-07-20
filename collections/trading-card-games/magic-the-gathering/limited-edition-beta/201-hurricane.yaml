@@ -1,13 +1,15 @@
 id: eaf612a6-7e80-4756-b067-e1187e00b3b6
-name: "Hurricane"
+name: Hurricane
 type: card
 date: "1993-10-04"
 attributes:
   number: "201/302"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{X}{G}"
-  card_type: "Sorcery"
-  illustrator: "Dameon Willich"
+  card_type: Sorcery
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/b/3/b3939f72-1ec6-4b2c-b37e-b1ebb024bb8f.jpg?1783948614
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/3/b3939f72-1ec6-4b2c-b37e-b1ebb024bb8f.jpg?1783948614

@@ -1,11 +1,11 @@
 id: 1d0f03f9-3d87-4d1c-9258-840ba48ebe83
 name: White Ranger's Deluxe Falconzord
 type: zord
-date: '1995'
+date: "1995"
 attributes:
-  number: '2492'
+  number: "2492"
   category: Deluxe Falconzord
   manufacturer: Bandai America
   variant: Movie Edition
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02492_1.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02492_1.jpg

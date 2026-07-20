@@ -1,11 +1,13 @@
 id: 863287c2-05e8-4e83-8fb1-11b1eba0cf71
 name: Pikachu (Grumpy)
 type: figure
-date: "2020-06"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+date: 2020-06
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "598"
   manufacturer: Funko, LLC
   variant: Common
 image:
-  source_url: https://archives.bulbagarden.net/media/upload/e/e7/Funko_Pop_Pikachu_Grumpy.png
+  source_url: >-
+    https://archives.bulbagarden.net/media/upload/e/e7/Funko_Pop_Pikachu_Grumpy.png

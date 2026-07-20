@@ -2,7 +2,8 @@ id: f591ce9b-9f25-4c9f-b82c-a1a1292952c0
 name: He-Man
 type: figure
 date: "2024"
-tags: [c489b3c3-e35c-4f7d-8673-df5cc1658436]
+tags:
+  - c489b3c3-e35c-4f7d-8673-df5cc1658436
 attributes:
   number: "1006"
   manufacturer: Funko, LLC

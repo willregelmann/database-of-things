@@ -1,13 +1,15 @@
 id: 27b68aea-6a3c-4cff-a6ae-498a8ef71b55
-name: "Unsummon"
+name: Unsummon
 type: card
 date: "1993-10-04"
 attributes:
   number: "87/302"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Instant"
-  illustrator: "Douglas Shuler"
+  card_type: Instant
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/6/8/686843c8-8c8a-4af6-bca8-e7f7583cc886.jpg?1783948638
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/8/686843c8-8c8a-4af6-bca8-e7f7583cc886.jpg?1783948638

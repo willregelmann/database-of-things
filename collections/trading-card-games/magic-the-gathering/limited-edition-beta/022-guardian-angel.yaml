@@ -1,13 +1,15 @@
 id: b043d805-b55a-47dd-9259-df7fbbb10749
-name: "Guardian Angel"
+name: Guardian Angel
 type: card
 date: "1993-10-04"
 attributes:
   number: "22/302"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{X}{W}"
-  card_type: "Instant"
-  illustrator: "Anson Maddocks"
+  card_type: Instant
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/9/c/9c4e8259-b369-4b59-85fa-fe9edb1887c5.jpg?1783948652
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/c/9c4e8259-b369-4b59-85fa-fe9edb1887c5.jpg?1783948652

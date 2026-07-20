@@ -1,11 +1,11 @@
 id: e3d920bd-26e6-4616-ae2c-aab4f7f39110
 name: Red Turbo Ranger Turbo Cart
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '2972'
+  number: "2972"
   category: Turbo Carts & 4″ Turbo Rangers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02972.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02972.jpg

@@ -2,7 +2,8 @@ id: e8d3faaa-b4ae-4d78-af21-a77e2ec8c7e6
 name: Deckard Cain
 type: figure
 date: "2024"
-tags: [390fce6f-68dd-430e-9a7d-222d76d791da]
+tags:
+  - 390fce6f-68dd-430e-9a7d-222d76d791da
 attributes:
   number: "1047"
   manufacturer: Funko, LLC

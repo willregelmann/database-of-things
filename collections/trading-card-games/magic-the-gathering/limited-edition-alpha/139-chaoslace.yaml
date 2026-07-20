@@ -1,13 +1,15 @@
 id: ceb3bd24-fbf8-4828-8a5d-82a925993e01
-name: "Chaoslace"
+name: Chaoslace
 type: card
 date: "1993-08-05"
 attributes:
   number: "139/295"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}"
-  card_type: "Instant"
-  illustrator: "Dameon Willich"
+  card_type: Instant
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/7/2/72ea2048-57bc-43d5-8987-33ca727f1a97.jpg?1783948689
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/2/72ea2048-57bc-43d5-8987-33ca727f1a97.jpg?1783948689

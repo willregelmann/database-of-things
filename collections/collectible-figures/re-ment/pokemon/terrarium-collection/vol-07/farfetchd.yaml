@@ -3,6 +3,7 @@ name: Farfetchd
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Farfetchd]
+  pokemon:
+    - Farfetchd
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/611405759.jpg

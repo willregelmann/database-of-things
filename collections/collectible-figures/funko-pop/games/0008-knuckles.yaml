@@ -2,7 +2,8 @@ id: db95d01d-89de-4167-9003-22f7e66d281e
 name: Knuckles
 type: figure
 date: "2013"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "8"
   manufacturer: Funko, LLC

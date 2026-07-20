@@ -2,7 +2,8 @@ id: b434ebe4-c274-44ef-85c9-7203e1b310df
 name: Bastion (6 inch)
 type: figure
 date: "2019"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "489"
   manufacturer: Funko, LLC

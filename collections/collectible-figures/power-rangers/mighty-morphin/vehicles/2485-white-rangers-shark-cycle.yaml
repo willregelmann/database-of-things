@@ -1,11 +1,11 @@
 id: 0432cc62-d111-48dc-aec4-8aca26245722
 name: White Ranger's Shark Cycle
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2485'
+  number: "2485"
   category: Shark Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02485.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02485.jpg

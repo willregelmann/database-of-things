@@ -3,6 +3,7 @@ name: Zigzagoon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Zigzagoon]
+  pokemon:
+    - Zigzagoon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1191193644.jpg

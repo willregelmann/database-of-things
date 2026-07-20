@@ -1,11 +1,11 @@
 id: 25c646d8-dafb-4f65-a46a-45fd88c0111d
 name: Real Metal Red Lightning
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '3074'
+  number: "3074"
   category: Real Metal Turbo Vehicles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03074.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03074.jpg

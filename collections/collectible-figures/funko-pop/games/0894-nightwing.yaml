@@ -2,7 +2,8 @@ id: b3681d94-24c0-427f-9b50-5249b79e1a4a
 name: Nightwing
 type: figure
 date: "2022"
-tags: [a989dbca-0d40-4526-aa68-91240bc2f0b8]
+tags:
+  - a989dbca-0d40-4526-aa68-91240bc2f0b8
 attributes:
   number: "894"
   manufacturer: Funko, LLC

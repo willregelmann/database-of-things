@@ -2,7 +2,8 @@ id: c768c75e-db43-4390-963d-f0ad2f6751d2
 name: Super Sonic
 type: figure
 date: "2018"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "287"
   manufacturer: Funko, LLC

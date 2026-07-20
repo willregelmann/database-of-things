@@ -1,13 +1,15 @@
 id: cee24746-5fae-4bd8-a7a1-8281d72fef0c
-name: "Wall of Wood"
+name: Wall of Wood
 type: card
 date: "1993-08-05"
 attributes:
   number: "225/295"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Creature — Wall"
-  illustrator: "Mark Tedin"
+  card_type: Creature — Wall
+  illustrator: Mark Tedin
 image:
-  source_url: https://cards.scryfall.io/large/front/8/d/8df80424-3bd9-4982-ad79-e55d9ba3b43d.jpg?1783948670
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/d/8df80424-3bd9-4982-ad79-e55d9ba3b43d.jpg?1783948670

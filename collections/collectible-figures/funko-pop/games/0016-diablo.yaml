@@ -2,7 +2,8 @@ id: 4122707e-cb6e-48bb-b00a-c38713139b49
 name: Diablo
 type: figure
 date: "2013"
-tags: [390fce6f-68dd-430e-9a7d-222d76d791da]
+tags:
+  - 390fce6f-68dd-430e-9a7d-222d76d791da
 attributes:
   number: "16"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: c0f5a1d2-bc23-4f02-83c3-38c2b485d752
 name: Miles Morales (Bodega Cat Suit)
 type: figure
 date: "2020"
-tags: [c70449f2-4081-4f2a-8778-aa315172358e]
+tags:
+  - c70449f2-4081-4f2a-8778-aa315172358e
 attributes:
   number: "767"
   manufacturer: Funko, LLC

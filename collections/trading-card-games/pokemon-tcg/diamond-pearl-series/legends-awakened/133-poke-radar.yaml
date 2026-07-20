@@ -1,9 +1,9 @@
 id: 6f71bc88-3e5b-4cb2-abbd-b40bd271dde2
 name: Poké Radar
 type: card
-date: '2008-08-20'
+date: "2008-08-20"
 attributes:
-  number: 133/146
+  number: "133/146"
   rarity: Uncommon
   illustrator: Kazuaki Aihara
 image:

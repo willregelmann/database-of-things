@@ -2,7 +2,8 @@ id: daa7e32d-03fb-4ce0-a570-583da2a2378b
 name: Loot Llama
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "510"
   manufacturer: Funko, LLC

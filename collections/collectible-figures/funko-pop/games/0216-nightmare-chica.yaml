@@ -2,7 +2,8 @@ id: e89486a9-8d2a-4faf-b1a2-3edc56d460e4
 name: Nightmare Chica
 type: figure
 date: "2017"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "216"
   manufacturer: Funko, LLC

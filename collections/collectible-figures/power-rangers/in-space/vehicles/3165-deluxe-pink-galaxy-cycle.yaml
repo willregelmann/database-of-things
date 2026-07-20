@@ -1,11 +1,11 @@
 id: 66502e2a-4fb6-4de3-82b4-c5dfde4f1171
 name: Deluxe Pink Galaxy Cycle
 type: vehicle
-date: '1998'
+date: "1998"
 attributes:
-  number: '3165'
+  number: "3165"
   category: Deluxe Galaxy Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03165.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03165.jpg

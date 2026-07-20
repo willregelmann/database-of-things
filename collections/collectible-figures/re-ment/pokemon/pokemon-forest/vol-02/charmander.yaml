@@ -3,4 +3,5 @@ name: Charmander
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Charmander]
+  pokemon:
+    - Charmander

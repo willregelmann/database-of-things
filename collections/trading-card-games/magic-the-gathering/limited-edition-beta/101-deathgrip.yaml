@@ -1,13 +1,15 @@
 id: 3b4621b6-d90d-41f4-bad4-439240bc98e6
-name: "Deathgrip"
+name: Deathgrip
 type: card
 date: "1993-10-04"
 attributes:
   number: "101/302"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}{B}"
-  card_type: "Enchantment"
-  illustrator: "Anson Maddocks"
+  card_type: Enchantment
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/c/9/c942a9af-e449-4f10-916c-6eb9e944de6a.jpg?1783948635
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/9/c942a9af-e449-4f10-916c-6eb9e944de6a.jpg?1783948635

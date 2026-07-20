@@ -3,6 +3,7 @@ name: Misdreavus
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Misdreavus]
+  pokemon:
+    - Misdreavus
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/433581946.jpg

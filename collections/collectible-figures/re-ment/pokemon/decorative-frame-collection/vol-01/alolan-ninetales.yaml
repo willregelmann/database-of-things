@@ -3,6 +3,7 @@ name: Alolan Ninetales
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Alolan Ninetales]
+  pokemon:
+    - Alolan Ninetales
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/989870999.jpg

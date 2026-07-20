@@ -2,7 +2,8 @@ id: da29b4ef-4b5e-49cd-a64d-e3e53312581f
 name: Bon Bon
 type: figure
 date: "2017"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "230"
   manufacturer: Funko, LLC

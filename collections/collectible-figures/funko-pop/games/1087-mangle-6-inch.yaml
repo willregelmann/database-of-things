@@ -2,7 +2,8 @@ id: f57cefc3-a8c0-4503-9582-7ea413f6d5ea
 name: Mangle (6 inch)
 type: figure
 date: "2025"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "1087"
   manufacturer: Funko, LLC

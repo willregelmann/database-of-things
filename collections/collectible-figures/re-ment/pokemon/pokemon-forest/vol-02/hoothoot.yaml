@@ -3,6 +3,8 @@ name: Hoothoot
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Hoothoot]
+  pokemon:
+    - Hoothoot
 image:
-  source_url: https://pokevault.com/image/cache/catalog/201707/1543638494_pokemonforest2-6-500x500.jpg
+  source_url: >-
+    https://pokevault.com/image/cache/catalog/201707/1543638494_pokemonforest2-6-500x500.jpg

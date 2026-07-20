@@ -1,11 +1,11 @@
 id: 7f23c2f0-11bf-48b0-8c20-a57bdb2aa1d7
 name: Astro Megaship
 type: zord
-date: '1998'
+date: "1998"
 attributes:
-  number: '3252'
+  number: "3252"
   category: Zord Assortment
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03252.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03252.jpg

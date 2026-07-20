@@ -1,13 +1,15 @@
 id: bcff22f0-ae41-412a-b963-3e08aa4d3ff5
-name: "Resurrection"
+name: Resurrection
 type: card
 date: "1993-10-04"
 attributes:
   number: "35/302"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{2}{W}{W}"
-  card_type: "Sorcery"
-  illustrator: "Dan Frazier"
+  card_type: Sorcery
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/5/0/50e3c741-5095-48a6-bd93-b9c4db265004.jpg?1783948649
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/0/50e3c741-5095-48a6-bd93-b9c4db265004.jpg?1783948649

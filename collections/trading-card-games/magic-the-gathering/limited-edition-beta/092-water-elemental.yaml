@@ -1,13 +1,15 @@
 id: 6d3f4d70-552b-4c20-80eb-67deefd78add
-name: "Water Elemental"
+name: Water Elemental
 type: card
 date: "1993-10-04"
 attributes:
   number: "92/302"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{3}{U}{U}"
-  card_type: "Creature — Elemental"
-  illustrator: "Jeff A. Menges"
+  card_type: Creature — Elemental
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/6/6/66f729e2-565b-4cdb-8b6f-0a14babe5680.jpg?1783948637
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/6/66f729e2-565b-4cdb-8b6f-0a14babe5680.jpg?1783948637

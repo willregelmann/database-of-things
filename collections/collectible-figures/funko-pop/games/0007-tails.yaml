@@ -2,7 +2,8 @@ id: e20f01d3-d0b9-42b5-b5a8-eaf018437aa3
 name: Tails
 type: figure
 date: "2013"
-tags: [a3df8908-f774-4125-9819-c7f735ac642a]
+tags:
+  - a3df8908-f774-4125-9819-c7f735ac642a
 attributes:
   number: "7"
   manufacturer: Funko, LLC

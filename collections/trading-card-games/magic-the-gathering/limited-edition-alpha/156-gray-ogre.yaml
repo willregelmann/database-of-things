@@ -1,13 +1,15 @@
 id: 3cb0ad31-eab6-4fcd-ad8c-93679bfc35c5
-name: "Gray Ogre"
+name: Gray Ogre
 type: card
 date: "1993-08-05"
 attributes:
   number: "156/295"
   rarity: Common
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{2}{R}"
-  card_type: "Creature — Ogre"
-  illustrator: "Dan Frazier"
+  card_type: Creature — Ogre
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/7/3/73ae5276-b607-4f23-a9d2-e8cc7b8e3693.jpg?1783948685
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/3/73ae5276-b607-4f23-a9d2-e8cc7b8e3693.jpg?1783948685

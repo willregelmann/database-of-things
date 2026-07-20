@@ -1,13 +1,15 @@
 id: adf9f5eb-32fb-4be3-a288-11f08078b08e
-name: "Thoughtlace"
+name: Thoughtlace
 type: card
 date: "1993-08-05"
 attributes:
   number: "82/295"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Instant"
-  illustrator: "Mark Poole"
+  card_type: Instant
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/2/3/23749375-1416-47a4-9251-52f41fe2fae9.jpg?1783948700
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/3/23749375-1416-47a4-9251-52f41fe2fae9.jpg?1783948700

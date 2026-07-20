@@ -1,13 +1,15 @@
 id: 85f4375c-62dd-4a95-b097-aa96da1f2a29
-name: "Fireball"
+name: Fireball
 type: card
 date: "1993-08-05"
 attributes:
   number: "149/295"
   rarity: Common
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{X}{R}"
-  card_type: "Sorcery"
-  illustrator: "Mark Tedin"
+  card_type: Sorcery
+  illustrator: Mark Tedin
 image:
-  source_url: https://cards.scryfall.io/large/front/b/7/b7623c00-144b-4a8f-9c6c-f5e9e4f65ece.jpg?1783948686
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/7/b7623c00-144b-4a8f-9c6c-f5e9e4f65ece.jpg?1783948686

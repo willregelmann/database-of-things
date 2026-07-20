@@ -1,13 +1,15 @@
 id: b2bc9400-aaa2-4c42-95a0-be3ae3bc19fb
-name: "Phantasmal Forces"
+name: Phantasmal Forces
 type: card
 date: "1993-08-05"
 attributes:
   number: "67/295"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{3}{U}"
-  card_type: "Creature — Illusion"
-  illustrator: "Mark Poole"
+  card_type: Creature — Illusion
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/0/6/0631c7c8-9aa5-4333-8e20-20247fc47033.jpg?1783948703
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/6/0631c7c8-9aa5-4333-8e20-20247fc47033.jpg?1783948703

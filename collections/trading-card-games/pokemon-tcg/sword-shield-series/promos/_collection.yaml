@@ -3,12 +3,11 @@ name: SWSH Black Star Promos
 type: collection
 category: Trading Card Games
 description: >
-  Promotional cards distributed alongside the Sword & Shield Series
-  (2019-2023) through Pokémon League events, theme decks, and other
-  promotions, marked with a black star and an "SWSH" number prefix. Numbered
-  SWSH001-SWSH307 with no printed denominator; 304 cards catalogued here
-  (SWSH299-SWSH301 are known real cards missing from the primary data
-  source -- see category CLAUDE.md).
+  Promotional cards distributed alongside the Sword & Shield Series (2019-2023)
+  through Pokémon League events, theme decks, and other promotions, marked with
+  a black star and an "SWSH" number prefix. Numbered SWSH001-SWSH307 with no
+  printed denominator; 304 cards catalogued here (SWSH299-SWSH301 are known real
+  cards missing from the primary data source -- see category CLAUDE.md).
 date: "2019"
 total_cards: 304
 image:

@@ -2,7 +2,8 @@ id: 5818c21c-8dff-41e2-b431-58ac05df3aba
 name: Emperor Claptrap
 type: figure
 date: "2017"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "208"
   manufacturer: Funko, LLC

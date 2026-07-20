@@ -2,7 +2,8 @@ id: b71b45a3-6234-4d0a-ad0f-0274180abd54
 name: Gumbo
 type: figure
 date: "2023"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "887"
   manufacturer: Funko, LLC

@@ -3,6 +3,7 @@ name: Growlithe
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Growlithe]
+  pokemon:
+    - Growlithe
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/868835555.jpg

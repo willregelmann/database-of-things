@@ -3,6 +3,8 @@ name: Rowlet
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Rowlet]
+  pokemon:
+    - Rowlet
 image:
-  source_url: https://pokevault.com/image/cache/catalog/201707/1523364274_rementpokemonforest1-500x500.jpg
+  source_url: >-
+    https://pokevault.com/image/cache/catalog/201707/1523364274_rementpokemonforest1-500x500.jpg

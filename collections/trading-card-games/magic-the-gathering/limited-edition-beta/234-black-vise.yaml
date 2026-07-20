@@ -1,12 +1,13 @@
 id: e54dc579-aef9-4129-9e52-4ae7c544b3e1
-name: "Black Vise"
+name: Black Vise
 type: card
 date: "1993-10-04"
 attributes:
   number: "234/302"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Richard Thomas"
+  card_type: Artifact
+  illustrator: Richard Thomas
 image:
-  source_url: https://cards.scryfall.io/large/front/d/2/d234f3d7-2f15-4fbf-92db-16c3433d644b.jpg?1783948607
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/2/d234f3d7-2f15-4fbf-92db-16c3433d644b.jpg?1783948607

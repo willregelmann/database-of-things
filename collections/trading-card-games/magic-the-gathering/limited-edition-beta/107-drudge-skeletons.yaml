@@ -1,13 +1,15 @@
 id: 0cb89248-50ae-427f-8065-73c4edfc24f6
-name: "Drudge Skeletons"
+name: Drudge Skeletons
 type: card
 date: "1993-10-04"
 attributes:
   number: "107/302"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{1}{B}"
-  card_type: "Creature — Skeleton"
-  illustrator: "Sandra Everingham"
+  card_type: Creature — Skeleton
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/b/1/b1f3a1b9-d192-49d9-87bb-ca50e99edbd1.jpg?1783948633
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/1/b1f3a1b9-d192-49d9-87bb-ca50e99edbd1.jpg?1783948633

@@ -1,11 +1,11 @@
 id: cbb6f199-7ec6-4b87-b6a9-79a746a71b13
 name: Dragonzord
 type: zord
-date: '1993'
+date: "1993"
 attributes:
-  number: '2270'
+  number: "2270"
   category: Dragonzord with Green Ranger
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02270.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02270.jpg

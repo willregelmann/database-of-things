@@ -3,6 +3,7 @@ name: Squirtle
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Squirtle]
+  pokemon:
+    - Squirtle
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/2070789396.jpg

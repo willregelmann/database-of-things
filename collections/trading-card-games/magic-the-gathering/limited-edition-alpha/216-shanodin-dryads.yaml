@@ -1,13 +1,15 @@
 id: cb8fbd53-0a6a-4fbe-bf6d-b1636235deb6
-name: "Shanodin Dryads"
+name: Shanodin Dryads
 type: card
 date: "1993-08-05"
 attributes:
   number: "216/295"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Creature — Nymph Dryad"
-  illustrator: "Anson Maddocks"
+  card_type: Creature — Nymph Dryad
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/8/1/814cf35c-f1ad-4bf4-8c10-a5592c3b1be8.jpg?1783948673
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/1/814cf35c-f1ad-4bf4-8c10-a5592c3b1be8.jpg?1783948673

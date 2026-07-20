@@ -1,11 +1,11 @@
 id: 6a1f8ce2-5c7b-46fb-93b2-87e4d39131d6
 name: Astro Morpher
 type: weapon
-date: '1998'
+date: "1998"
 attributes:
-  number: '3136'
+  number: "3136"
   category: Morpher Assortment
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03136.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03136.jpg

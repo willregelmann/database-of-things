@@ -2,7 +2,8 @@ id: 1dc91240-3d27-41cd-b27f-be6c496afec7
 name: Geralt
 type: figure
 date: "2016"
-tags: [18e5ea98-f784-409c-9495-c0126cb92650]
+tags:
+  - 18e5ea98-f784-409c-9495-c0126cb92650
 attributes:
   number: "149"
   manufacturer: Funko, LLC

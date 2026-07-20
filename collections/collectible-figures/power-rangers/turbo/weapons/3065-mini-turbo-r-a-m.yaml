@@ -1,11 +1,11 @@
 id: 3f048639-08e9-4886-9458-4168142bb981
 name: Mini Turbo R.A.M.
 type: weapon
-date: '1997'
+date: "1997"
 attributes:
-  number: '3065'
+  number: "3065"
   category: Mini Turbo R.A.M.
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03065.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03065.jpg

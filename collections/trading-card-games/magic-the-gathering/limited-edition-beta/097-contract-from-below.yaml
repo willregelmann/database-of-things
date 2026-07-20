@@ -1,13 +1,15 @@
 id: 83757eb9-5ecb-48b0-bf53-11adc34b50c0
-name: "Contract from Below"
+name: Contract from Below
 type: card
 date: "1993-10-04"
 attributes:
   number: "97/302"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{B}"
-  card_type: "Sorcery"
-  illustrator: "Douglas Shuler"
+  card_type: Sorcery
+  illustrator: Douglas Shuler
 image:
-  source_url: https://cards.scryfall.io/large/front/6/2/62f96e43-aebd-4de2-969a-37cd1d62f127.jpg?1783948636
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/2/62f96e43-aebd-4de2-969a-37cd1d62f127.jpg?1783948636

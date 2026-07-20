@@ -2,7 +2,8 @@ id: 01510458-9d8e-4587-b9e3-4cda611a3ddc
 name: Harry Osborn (Black Suit)
 type: figure
 date: "2023"
-tags: [c70449f2-4081-4f2a-8778-aa315172358e]
+tags:
+  - c70449f2-4081-4f2a-8778-aa315172358e
 attributes:
   number: "1027"
   manufacturer: Funko, LLC

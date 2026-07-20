@@ -3,6 +3,7 @@ name: Espeon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Espeon]
+  pokemon:
+    - Espeon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1749933728.jpg

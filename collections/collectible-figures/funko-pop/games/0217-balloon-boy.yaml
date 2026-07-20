@@ -2,7 +2,8 @@ id: 43967b34-9b3a-4673-88ad-7e367e2ab654
 name: Balloon Boy
 type: figure
 date: "2017"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "217"
   manufacturer: Funko, LLC

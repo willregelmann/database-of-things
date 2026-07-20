@@ -2,7 +2,8 @@ id: 1a8df4fd-02ae-4569-9e34-8f22cdf1feb1
 name: Higgs Monaghan
 type: figure
 date: "2020"
-tags: [005f6147-cd84-4f67-aaae-eabe0dffe6a3]
+tags:
+  - 005f6147-cd84-4f67-aaae-eabe0dffe6a3
 attributes:
   number: "636"
   manufacturer: Funko, LLC

@@ -3,6 +3,7 @@ name: Butterfree
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Butterfree]
+  pokemon:
+    - Butterfree
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/628578692.jpg

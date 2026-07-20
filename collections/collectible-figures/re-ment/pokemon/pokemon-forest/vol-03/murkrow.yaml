@@ -3,6 +3,7 @@ name: Murkrow
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Murkrow]
+  pokemon:
+    - Murkrow
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/888000178.jpg

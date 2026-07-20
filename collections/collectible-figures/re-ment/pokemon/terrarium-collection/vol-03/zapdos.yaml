@@ -3,6 +3,7 @@ name: Zapdos
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Zapdos]
+  pokemon:
+    - Zapdos
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1524369877.jpg

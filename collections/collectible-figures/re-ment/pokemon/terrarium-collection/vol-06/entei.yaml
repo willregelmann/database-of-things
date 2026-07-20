@@ -3,6 +3,7 @@ name: Entei
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Entei]
+  pokemon:
+    - Entei
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/437936896.jpg

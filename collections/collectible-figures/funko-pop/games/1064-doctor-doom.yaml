@@ -2,7 +2,8 @@ id: 827900b7-c47a-4ef1-8eb8-32fdd94700a9
 name: Doctor Doom
 type: figure
 date: "2025"
-tags: [cb97b4e5-77b0-48e8-93c5-42ec5828a72a]
+tags:
+  - cb97b4e5-77b0-48e8-93c5-42ec5828a72a
 attributes:
   number: "1064"
   manufacturer: Funko, LLC

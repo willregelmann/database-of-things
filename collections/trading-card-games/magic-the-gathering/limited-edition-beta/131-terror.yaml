@@ -1,13 +1,15 @@
 id: 4b0b1842-0a7a-432d-88a3-f32ba3849af2
-name: "Terror"
+name: Terror
 type: card
 date: "1993-10-04"
 attributes:
   number: "131/302"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{1}{B}"
-  card_type: "Instant"
-  illustrator: "Ron Spencer"
+  card_type: Instant
+  illustrator: Ron Spencer
 image:
-  source_url: https://cards.scryfall.io/large/front/5/8/58d8598b-35e5-414f-aee0-52137236f642.jpg?1783948629
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/8/58d8598b-35e5-414f-aee0-52137236f642.jpg?1783948629

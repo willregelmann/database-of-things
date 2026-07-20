@@ -2,7 +2,8 @@ id: 6a8b6337-e285-4078-8ff7-fa6fdf600187
 name: Treasure Goblin
 type: figure
 date: "2023"
-tags: [390fce6f-68dd-430e-9a7d-222d76d791da]
+tags:
+  - 390fce6f-68dd-430e-9a7d-222d76d791da
 attributes:
   number: "953"
   manufacturer: Funko, LLC

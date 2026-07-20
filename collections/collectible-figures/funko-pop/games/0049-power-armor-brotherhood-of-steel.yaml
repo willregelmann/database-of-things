@@ -2,7 +2,8 @@ id: f132d56d-26e5-459d-933c-e3b5c1e943a1
 name: Power Armor (Brotherhood of Steel)
 type: figure
 date: "2015"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "49"
   manufacturer: Funko, LLC

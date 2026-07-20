@@ -3,6 +3,7 @@ name: Snivy
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Snivy]
+  pokemon:
+    - Snivy
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1745479842.jpg

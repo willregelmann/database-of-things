@@ -1,13 +1,15 @@
 id: 5fb0eef3-4076-411d-8c2a-27cedd7fc737
-name: "Pestilence"
+name: Pestilence
 type: card
 date: "1993-08-05"
 attributes:
   number: "120/295"
   rarity: Common
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{2}{B}{B}"
-  card_type: "Enchantment"
-  illustrator: "Jesper Myrfors"
+  card_type: Enchantment
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/d/4/d42a6350-b16b-4e10-a273-e6cbb55dcb7a.jpg?1783948692
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/4/d42a6350-b16b-4e10-a273-e6cbb55dcb7a.jpg?1783948692

@@ -1,13 +1,15 @@
 id: 4a67667d-8ba9-44ca-8962-8b0c998e7385
-name: "Simulacrum"
+name: Simulacrum
 type: card
 date: "1993-08-05"
 attributes:
   number: "128/295"
   rarity: Uncommon
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{1}{B}"
-  card_type: "Instant"
-  illustrator: "Mark Poole"
+  card_type: Instant
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/3/5/35c3a78d-cc79-4187-929a-8aa1d1469990.jpg?1783948691
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/5/35c3a78d-cc79-4187-929a-8aa1d1469990.jpg?1783948691

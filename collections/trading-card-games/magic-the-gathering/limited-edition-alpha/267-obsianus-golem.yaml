@@ -1,12 +1,13 @@
 id: 1e5cd101-01b6-4c95-9c8c-bdfe470fdd81
-name: "Obsianus Golem"
+name: Obsianus Golem
 type: card
 date: "1993-08-05"
 attributes:
   number: "267/295"
   rarity: Uncommon
   mana_cost: "{6}"
-  card_type: "Artifact Creature — Golem"
-  illustrator: "Jesper Myrfors"
+  card_type: Artifact Creature — Golem
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/4/c/4c8e9f5c-deba-4443-bf9d-fb2be75c5418.jpg?1783948662
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/c/4c8e9f5c-deba-4443-bf9d-fb2be75c5418.jpg?1783948662

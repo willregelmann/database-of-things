@@ -1,13 +1,15 @@
 id: 2c9f384a-7372-4640-8114-7dc46b409169
-name: "Animate Wall"
+name: Animate Wall
 type: card
 date: "1993-08-05"
 attributes:
   number: "1/295"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment — Aura
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/d/5/d5c83259-9b90-47c2-b48e-c7d78519e792.jpg?1783948717
+  source_url: >-
+    https://cards.scryfall.io/large/front/d/5/d5c83259-9b90-47c2-b48e-c7d78519e792.jpg?1783948717

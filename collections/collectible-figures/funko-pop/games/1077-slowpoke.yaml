@@ -2,7 +2,8 @@ id: 64e359bb-92eb-49ef-801e-600f0935682d
 name: Slowpoke
 type: figure
 date: "2025"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "1077"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: 67da476d-3c62-4d57-a5b1-95bdb1616323
 name: Eclipse Cultist
 type: figure
 date: "2017"
-tags: [269d7687-10b0-450a-bae5-4653f8ceeaa7]
+tags:
+  - 269d7687-10b0-450a-bae5-4653f8ceeaa7
 attributes:
   number: "259"
   manufacturer: Funko, LLC

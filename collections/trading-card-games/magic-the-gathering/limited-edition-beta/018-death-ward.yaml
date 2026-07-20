@@ -1,13 +1,15 @@
 id: 3771464d-1a6c-47fd-a3ba-927dc3067ff1
-name: "Death Ward"
+name: Death Ward
 type: card
 date: "1993-10-04"
 attributes:
   number: "18/302"
   rarity: Common
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Instant"
-  illustrator: "Mark Poole"
+  card_type: Instant
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/b/1/b119edd8-7801-475e-943a-6cbf10f2d303.jpg?1783948653
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/1/b119edd8-7801-475e-943a-6cbf10f2d303.jpg?1783948653

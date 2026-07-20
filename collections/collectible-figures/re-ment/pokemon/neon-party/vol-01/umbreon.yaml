@@ -3,6 +3,7 @@ name: Umbreon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Umbreon]
+  pokemon:
+    - Umbreon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1736393010.jpg

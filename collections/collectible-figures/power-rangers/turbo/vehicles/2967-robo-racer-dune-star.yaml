@@ -1,11 +1,11 @@
 id: ccc5f37d-4c66-40a5-ba0c-25f96e3d7bf2
 name: Robo Racer & Dune Star
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '2967'
+  number: "2967"
   category: Turbo Charged Turbo Zords
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02967.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02967.jpg

@@ -1,11 +1,11 @@
 id: 1e116432-d2d6-4703-ad54-3394808c0fa6
 name: Turbo Navigator
 type: weapon
-date: '1997'
+date: "1997"
 attributes:
-  number: '3040'
+  number: "3040"
   category: Navigator
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03040.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03040.jpg

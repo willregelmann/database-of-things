@@ -2,7 +2,8 @@ id: 5512de1f-ad73-43c6-84cf-ad9f4165e550
 name: Symmetra
 type: figure
 date: "2017"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "181"
   manufacturer: Funko, LLC

@@ -2,7 +2,8 @@ id: 08d1ba69-646a-498e-8cb5-7f709c18f230
 name: The Scientist
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "618"
   manufacturer: Funko, LLC

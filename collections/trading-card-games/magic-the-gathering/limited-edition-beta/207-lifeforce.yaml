@@ -1,13 +1,15 @@
 id: 3eeca859-ae3f-4609-babb-d30ee5a3b55f
-name: "Lifeforce"
+name: Lifeforce
 type: card
 date: "1993-10-04"
 attributes:
   number: "207/302"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}{G}"
-  card_type: "Enchantment"
-  illustrator: "Dameon Willich"
+  card_type: Enchantment
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/3/7/3715abe2-5a8e-4bf4-ac02-6c755d86bb4c.jpg?1783948613
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/7/3715abe2-5a8e-4bf4-ac02-6c755d86bb4c.jpg?1783948613

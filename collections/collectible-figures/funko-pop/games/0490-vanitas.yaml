@@ -2,7 +2,8 @@ id: 3e626d9e-4d6e-4e27-ac30-a98087691857
 name: Vanitas
 type: figure
 date: "2018"
-tags: [56a20698-8b61-46f7-b4da-49c2b3641f0e]
+tags:
+  - 56a20698-8b61-46f7-b4da-49c2b3641f0e
 attributes:
   number: "490"
   manufacturer: Funko, LLC

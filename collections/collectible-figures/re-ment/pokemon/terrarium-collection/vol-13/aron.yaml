@@ -3,6 +3,7 @@ name: Aron
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Aron]
+  pokemon:
+    - Aron
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/2127973097.jpg

@@ -2,7 +2,8 @@ id: 0053ab7d-1561-40ea-bfb2-e9f5e7bd4b60
 name: Midas (Shadow)
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "637"
   manufacturer: Funko, LLC

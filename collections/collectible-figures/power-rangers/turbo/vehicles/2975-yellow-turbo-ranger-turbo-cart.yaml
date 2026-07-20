@@ -1,11 +1,11 @@
 id: aeb293c2-1143-4a1e-95ca-f9aeba3ee588
 name: Yellow Turbo Ranger Turbo Cart
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '2975'
+  number: "2975"
   category: Turbo Carts & 4″ Turbo Rangers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02975.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02975.jpg

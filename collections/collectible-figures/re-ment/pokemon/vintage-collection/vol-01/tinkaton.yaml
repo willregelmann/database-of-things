@@ -3,6 +3,7 @@ name: Tinkaton
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Tinkaton]
+  pokemon:
+    - Tinkaton
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/38201075.jpg

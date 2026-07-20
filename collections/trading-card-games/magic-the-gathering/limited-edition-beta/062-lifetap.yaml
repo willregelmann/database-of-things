@@ -1,13 +1,15 @@
 id: 7ebf4aea-60be-428a-8d85-64816218e88e
-name: "Lifetap"
+name: Lifetap
 type: card
 date: "1993-10-04"
 attributes:
   number: "62/302"
   rarity: Uncommon
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}{U}"
-  card_type: "Enchantment"
-  illustrator: "Anson Maddocks"
+  card_type: Enchantment
+  illustrator: Anson Maddocks
 image:
-  source_url: https://cards.scryfall.io/large/front/7/4/74e7775b-b03b-4fc0-bcd9-3681cce5e70c.jpg?1783948644
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/4/74e7775b-b03b-4fc0-bcd9-3681cce5e70c.jpg?1783948644

@@ -1,13 +1,15 @@
 id: f6f6309f-f745-481e-82c3-e9863af69be1
-name: "Sleight of Mind"
+name: Sleight of Mind
 type: card
 date: "1993-10-04"
 attributes:
   number: "79/302"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}"
-  card_type: "Instant"
-  illustrator: "Mark Poole"
+  card_type: Instant
+  illustrator: Mark Poole
 image:
-  source_url: https://cards.scryfall.io/large/front/f/b/fb4da609-6c08-4a18-b7d9-fb2f9b11bab2.jpg?1783948639
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/b/fb4da609-6c08-4a18-b7d9-fb2f9b11bab2.jpg?1783948639

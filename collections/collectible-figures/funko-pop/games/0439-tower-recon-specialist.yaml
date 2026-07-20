@@ -2,7 +2,8 @@ id: a485e851-1e5c-4291-a287-0999853435a2
 name: Tower Recon Specialist
 type: figure
 date: "2018"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "439"
   manufacturer: Funko, LLC

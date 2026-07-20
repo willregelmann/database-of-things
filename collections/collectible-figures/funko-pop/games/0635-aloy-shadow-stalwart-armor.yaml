@@ -2,7 +2,8 @@ id: 053dd7a9-2ca0-4acd-9bdb-045bc8650f0e
 name: Aloy (Shadow Stalwart Armor)
 type: figure
 date: "2020"
-tags: [269d7687-10b0-450a-bae5-4653f8ceeaa7]
+tags:
+  - 269d7687-10b0-450a-bae5-4653f8ceeaa7
 attributes:
   number: "635"
   manufacturer: Funko, LLC

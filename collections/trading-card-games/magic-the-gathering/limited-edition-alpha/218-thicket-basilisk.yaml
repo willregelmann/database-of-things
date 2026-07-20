@@ -1,13 +1,15 @@
 id: 967f4843-df81-4f58-92ea-38e6e3aaccf6
-name: "Thicket Basilisk"
+name: Thicket Basilisk
 type: card
 date: "1993-08-05"
 attributes:
   number: "218/295"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{3}{G}{G}"
-  card_type: "Creature — Basilisk"
-  illustrator: "Dan Frazier"
+  card_type: Creature — Basilisk
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/e/9/e92cce01-b3bd-4307-aae5-9a7c8fa386ab.jpg?1783948672
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/9/e92cce01-b3bd-4307-aae5-9a7c8fa386ab.jpg?1783948672

@@ -2,7 +2,8 @@ id: da40cc63-820d-4af3-9eda-4c6079c841f0
 name: Tracer
 type: figure
 date: "2019"
-tags: [45f85294-a0ed-4c3d-9701-2c2eb61c93c3]
+tags:
+  - 45f85294-a0ed-4c3d-9701-2c2eb61c93c3
 attributes:
   number: "550"
   manufacturer: Funko, LLC

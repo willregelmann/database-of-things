@@ -3,6 +3,7 @@ name: Lapras
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Lapras]
+  pokemon:
+    - Lapras
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1683242072.jpg

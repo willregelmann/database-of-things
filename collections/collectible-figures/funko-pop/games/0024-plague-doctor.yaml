@@ -2,7 +2,8 @@ id: 29e6b837-d046-4155-b81e-2a0c5a6e896d
 name: Plague Doctor
 type: figure
 date: "2014"
-tags: [19e1abba-db34-42e0-8a2e-381e4e36193c]
+tags:
+  - 19e1abba-db34-42e0-8a2e-381e4e36193c
 attributes:
   number: "24"
   manufacturer: Funko, LLC

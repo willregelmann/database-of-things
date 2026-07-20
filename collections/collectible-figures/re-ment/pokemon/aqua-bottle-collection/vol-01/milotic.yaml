@@ -3,6 +3,7 @@ name: Milotic
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Milotic]
+  pokemon:
+    - Milotic
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1487750593.jpg

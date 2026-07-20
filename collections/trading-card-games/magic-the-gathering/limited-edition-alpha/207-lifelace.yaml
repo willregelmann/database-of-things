@@ -1,13 +1,15 @@
 id: 29b18be9-9c0a-4dc4-8693-53ee76d6fe0e
-name: "Lifelace"
+name: Lifelace
 type: card
 date: "1993-08-05"
 attributes:
   number: "207/295"
   rarity: Rare
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Instant"
-  illustrator: "Amy Weber"
+  card_type: Instant
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/3/8/38cb601b-a35c-412e-b386-e77dad3daa54.jpg?1783948675
+  source_url: >-
+    https://cards.scryfall.io/large/front/3/8/38cb601b-a35c-412e-b386-e77dad3daa54.jpg?1783948675

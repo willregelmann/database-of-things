@@ -1,13 +1,15 @@
 id: 2693ac5a-a0d4-4f0d-a7ef-b59d88e0e9a0
-name: "Time Walk"
+name: Time Walk
 type: card
 date: "1993-10-04"
 attributes:
   number: "84/302"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{1}{U}"
-  card_type: "Sorcery"
-  illustrator: "Amy Weber"
+  card_type: Sorcery
+  illustrator: Amy Weber
 image:
-  source_url: https://cards.scryfall.io/large/front/5/4/54992fda-45a9-4ed1-b380-34d167feec90.jpg?1783948639
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/4/54992fda-45a9-4ed1-b380-34d167feec90.jpg?1783948639

@@ -2,7 +2,8 @@ id: 93a0c6a8-eb1e-4c01-8cbb-2e11b3e7f321
 name: Espeon
 type: figure
 date: "2023-01-31"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "884"
   manufacturer: Funko, LLC

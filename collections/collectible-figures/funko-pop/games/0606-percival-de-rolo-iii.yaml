@@ -2,7 +2,8 @@ id: c5087a70-4c65-4298-8828-97674221a621
 name: Percival de Rolo III
 type: figure
 date: "2020"
-tags: [ccc586a6-51de-4a50-8a40-a163fcb68839]
+tags:
+  - ccc586a6-51de-4a50-8a40-a163fcb68839
 attributes:
   number: "606"
   manufacturer: Funko, LLC

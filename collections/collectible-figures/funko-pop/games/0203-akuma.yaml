@@ -2,7 +2,8 @@ id: cdeb300d-812a-42ed-acf8-ebf3071063c3
 name: Akuma
 type: figure
 date: "2017"
-tags: [d44eb769-000a-48ca-bc0c-40a99a28e7ca]
+tags:
+  - d44eb769-000a-48ca-bc0c-40a99a28e7ca
 attributes:
   number: "203"
   manufacturer: Funko, LLC

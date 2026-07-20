@@ -2,7 +2,8 @@ id: 2c939faf-765e-4ed3-88d8-d726cc7f079b
 name: Ikora
 type: figure
 date: "2017"
-tags: [6be6ad77-25d7-4997-99bd-9f7f3933f838]
+tags:
+  - 6be6ad77-25d7-4997-99bd-9f7f3933f838
 attributes:
   number: "236"
   manufacturer: Funko, LLC

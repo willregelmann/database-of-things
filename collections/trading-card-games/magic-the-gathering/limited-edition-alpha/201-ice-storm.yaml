@@ -1,13 +1,15 @@
 id: d2d326b4-fd31-470f-b459-0b4697b67dc5
-name: "Ice Storm"
+name: Ice Storm
 type: card
 date: "1993-08-05"
 attributes:
   number: "201/295"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{2}{G}"
-  card_type: "Sorcery"
-  illustrator: "Dan Frazier"
+  card_type: Sorcery
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/9/9/9914836e-2fa6-4390-94b2-431427848a54.jpg?1783948676
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/9/9914836e-2fa6-4390-94b2-431427848a54.jpg?1783948676

@@ -1,12 +1,13 @@
 id: 5912f2c2-88cf-48a4-a5ed-d14cb9e5fd77
-name: "The Hive"
+name: The Hive
 type: card
 date: "1993-10-04"
 attributes:
   number: "273/302"
   rarity: Rare
   mana_cost: "{5}"
-  card_type: "Artifact"
-  illustrator: "Sandra Everingham"
+  card_type: Artifact
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/8/4/84b83106-a10d-469a-99eb-56110ef34ba1.jpg?1783948599
+  source_url: >-
+    https://cards.scryfall.io/large/front/8/4/84b83106-a10d-469a-99eb-56110ef34ba1.jpg?1783948599

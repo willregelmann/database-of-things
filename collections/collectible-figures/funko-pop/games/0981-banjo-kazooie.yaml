@@ -2,7 +2,8 @@ id: 23f43862-0c1e-4d8b-8464-876454b4ada0
 name: Banjo & Kazooie
 type: figure
 date: "2024"
-tags: [1b8868fc-5a11-4c63-8e3a-58a8f3430d92]
+tags:
+  - 1b8868fc-5a11-4c63-8e3a-58a8f3430d92
 attributes:
   number: "981"
   manufacturer: Funko, LLC

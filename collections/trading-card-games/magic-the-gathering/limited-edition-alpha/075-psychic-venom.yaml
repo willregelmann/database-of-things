@@ -1,13 +1,15 @@
 id: e5489301-39fe-4cfc-b387-98dd71d6e952
-name: "Psychic Venom"
+name: Psychic Venom
 type: card
 date: "1993-08-05"
 attributes:
   number: "75/295"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{1}{U}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Brian Snõddy"
+  card_type: Enchantment — Aura
+  illustrator: Brian Snõddy
 image:
-  source_url: https://cards.scryfall.io/large/front/f/3/f3f5b68a-6b0e-431e-89f0-ff60f17687a5.jpg?1783948702
+  source_url: >-
+    https://cards.scryfall.io/large/front/f/3/f3f5b68a-6b0e-431e-89f0-ff60f17687a5.jpg?1783948702

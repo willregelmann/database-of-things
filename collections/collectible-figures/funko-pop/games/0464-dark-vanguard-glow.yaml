@@ -2,7 +2,8 @@ id: afe3e208-837a-488b-9d09-f10d77ec160d
 name: Dark Vanguard (Glow)
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "464"
   manufacturer: Funko, LLC

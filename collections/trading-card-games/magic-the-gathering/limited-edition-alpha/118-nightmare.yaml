@@ -1,13 +1,15 @@
 id: c9461ad7-9f26-4908-a3e9-af182b1e1e33
-name: "Nightmare"
+name: Nightmare
 type: card
 date: "1993-08-05"
 attributes:
   number: "118/295"
   rarity: Rare
-  colors: [B]
+  colors:
+    - B
   mana_cost: "{5}{B}"
-  card_type: "Creature — Nightmare Horse"
-  illustrator: "Melissa A. Benson"
+  card_type: Creature — Nightmare Horse
+  illustrator: Melissa A. Benson
 image:
-  source_url: https://cards.scryfall.io/large/front/b/8/b8cdd6a7-f772-4ccb-914f-63f52ed54d6b.jpg?1783948692
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/8/b8cdd6a7-f772-4ccb-914f-63f52ed54d6b.jpg?1783948692

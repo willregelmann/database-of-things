@@ -1,11 +1,11 @@
 id: 0e5ca40f-ec5f-433e-8eec-718d50fbc67e
 name: Blue Galaxy Glider
 type: vehicle
-date: '1998'
+date: "1998"
 attributes:
-  number: '3143'
+  number: "3143"
   category: Galaxy Gliders
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03143.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03143.jpg

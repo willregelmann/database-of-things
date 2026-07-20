@@ -1,12 +1,13 @@
 id: 3e0b9b33-5aee-40dc-a00e-448296f906a2
-name: "Iron Star"
+name: Iron Star
 type: card
 date: "1993-10-04"
 attributes:
   number: "251/302"
   rarity: Uncommon
   mana_cost: "{1}"
-  card_type: "Artifact"
-  illustrator: "Dan Frazier"
+  card_type: Artifact
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/b/0/b08fff47-c3c8-40a9-b3d3-296954aa4ed4.jpg?1783948603
+  source_url: >-
+    https://cards.scryfall.io/large/front/b/0/b08fff47-c3c8-40a9-b3d3-296954aa4ed4.jpg?1783948603

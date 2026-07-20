@@ -3,6 +3,7 @@ name: Dragapult
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Dragapult]
+  pokemon:
+    - Dragapult
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/98524954.jpg

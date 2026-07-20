@@ -1,11 +1,12 @@
 id: 33308f96-1ee6-4ab9-a4f9-a983a9c0652b
-name: "Plateau"
+name: Plateau
 type: card
 date: "1993-08-05"
 attributes:
   number: "279/295"
   rarity: Rare
-  card_type: "Land — Mountain Plains"
-  illustrator: "Drew Tucker"
+  card_type: Land — Mountain Plains
+  illustrator: Drew Tucker
 image:
-  source_url: https://cards.scryfall.io/large/front/6/e/6eafa00b-c628-40f6-86eb-88e1361fc7a0.jpg?1783948659
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/e/6eafa00b-c628-40f6-86eb-88e1361fc7a0.jpg?1783948659

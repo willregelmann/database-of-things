@@ -2,7 +2,8 @@ id: fb5441de-bc1d-48b1-bf78-32e18b38430d
 name: Mary Jane
 type: figure
 date: "2018"
-tags: [c70449f2-4081-4f2a-8778-aa315172358e]
+tags:
+  - c70449f2-4081-4f2a-8778-aa315172358e
 attributes:
   number: "396"
   manufacturer: Funko, LLC

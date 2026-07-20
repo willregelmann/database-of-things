@@ -1,11 +1,12 @@
 id: 63f8fb21-ca7a-485c-815f-c99a4bde9fc5
-name: "Volcanic Island"
+name: Volcanic Island
 type: card
 date: "1993-10-04"
 attributes:
   number: "287/302"
   rarity: Rare
-  card_type: "Land — Island Mountain"
-  illustrator: "Brian Snõddy"
+  card_type: Land — Island Mountain
+  illustrator: Brian Snõddy
 image:
-  source_url: https://cards.scryfall.io/large/front/0/3/0324641d-af55-4c53-b4dc-c8262e967da5.jpg?1783948596
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/3/0324641d-af55-4c53-b4dc-c8262e967da5.jpg?1783948596

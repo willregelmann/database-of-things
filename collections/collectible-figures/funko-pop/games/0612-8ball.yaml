@@ -2,7 +2,8 @@ id: c22bab78-b1c3-47b8-a497-3f08b2107f5a
 name: 8Ball
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "612"
   manufacturer: Funko, LLC

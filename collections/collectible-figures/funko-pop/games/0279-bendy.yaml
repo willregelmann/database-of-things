@@ -2,7 +2,8 @@ id: 363ae5e3-cbff-4646-b66c-584121d274ae
 name: Bendy
 type: figure
 date: "2018"
-tags: [37de5442-2c3f-4fea-9694-3dd64e20ede2]
+tags:
+  - 37de5442-2c3f-4fea-9694-3dd64e20ede2
 attributes:
   number: "279"
   manufacturer: Funko, LLC

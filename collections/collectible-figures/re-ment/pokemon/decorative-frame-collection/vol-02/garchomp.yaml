@@ -3,6 +3,7 @@ name: Garchomp
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Garchomp]
+  pokemon:
+    - Garchomp
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/2058531517.jpg

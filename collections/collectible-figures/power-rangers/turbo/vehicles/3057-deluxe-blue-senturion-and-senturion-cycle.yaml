@@ -1,11 +1,11 @@
 id: f6e560e0-e423-46ec-9667-482a6b9f7230
 name: Deluxe Blue Senturion and Senturion Cycle
 type: vehicle
-date: '1997'
+date: "1997"
 attributes:
-  number: '3057'
+  number: "3057"
   category: Blue Senturion & Senturion Cycle
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03057.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03057.jpg

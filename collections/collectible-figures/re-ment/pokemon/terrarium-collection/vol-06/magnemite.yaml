@@ -3,6 +3,7 @@ name: Magnemite
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Magnemite]
+  pokemon:
+    - Magnemite
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/279267512.jpg

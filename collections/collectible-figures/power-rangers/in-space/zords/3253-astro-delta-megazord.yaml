@@ -1,11 +1,11 @@
 id: 44075fbb-01b8-452c-a0e1-68ca373e83ae
 name: Astro Delta Megazord
 type: zord
-date: '1998'
+date: "1998"
 attributes:
-  number: '3253'
+  number: "3253"
   category: Zord Assortment
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03253.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03253.jpg

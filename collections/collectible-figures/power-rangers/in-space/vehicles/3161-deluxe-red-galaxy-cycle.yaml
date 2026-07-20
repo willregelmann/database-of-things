@@ -1,11 +1,11 @@
 id: 35625859-6d61-4ca0-9e67-6f567eae486a
 name: Deluxe Red Galaxy Cycle
 type: vehicle
-date: '1998'
+date: "1998"
 attributes:
-  number: '3161'
+  number: "3161"
   category: Deluxe Galaxy Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03161.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/03161.jpg

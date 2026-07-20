@@ -3,6 +3,7 @@ name: Jigglypuff
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Jigglypuff]
+  pokemon:
+    - Jigglypuff
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/286806588.jpg

@@ -2,7 +2,8 @@ id: 309e2369-52e6-48b4-994c-f463251d5180
 name: Spider-Man (White Spider)
 type: figure
 date: "2018"
-tags: [c70449f2-4081-4f2a-8778-aa315172358e]
+tags:
+  - c70449f2-4081-4f2a-8778-aa315172358e
 attributes:
   number: "334"
   manufacturer: Funko, LLC

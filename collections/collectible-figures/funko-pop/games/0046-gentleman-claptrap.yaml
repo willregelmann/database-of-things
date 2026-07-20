@@ -2,7 +2,8 @@ id: 8cdcb26d-57b1-4bdc-bc6a-20d5b67b48eb
 name: Gentleman Claptrap
 type: figure
 date: "2015"
-tags: [fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9]
+tags:
+  - fa02e0f9-5d72-4ab9-bbc8-2ebcc19e09e9
 attributes:
   number: "46"
   manufacturer: Funko, LLC

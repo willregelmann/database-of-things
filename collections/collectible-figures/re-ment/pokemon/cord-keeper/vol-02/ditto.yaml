@@ -3,6 +3,7 @@ name: Ditto
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Ditto]
+  pokemon:
+    - Ditto
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1191193644.jpg

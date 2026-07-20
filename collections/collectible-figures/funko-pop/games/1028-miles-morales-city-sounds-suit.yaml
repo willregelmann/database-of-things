@@ -2,7 +2,8 @@ id: 6405a486-dff5-4c33-a6ac-b4b5d8b7e7e4
 name: Miles Morales (City Sounds Suit)
 type: figure
 date: "2023"
-tags: [c70449f2-4081-4f2a-8778-aa315172358e]
+tags:
+  - c70449f2-4081-4f2a-8778-aa315172358e
 attributes:
   number: "1028"
   manufacturer: Funko, LLC

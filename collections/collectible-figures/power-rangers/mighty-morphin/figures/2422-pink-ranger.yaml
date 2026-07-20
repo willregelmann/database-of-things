@@ -1,11 +1,11 @@
 id: 42fed12c-2548-48f3-a4ed-bef871933a50
 name: Pink Ranger
 type: figure
-date: '1995'
+date: "1995"
 attributes:
-  number: '2422'
+  number: "2422"
   category: 5.5″ Power Rangers
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02422.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02422.jpg

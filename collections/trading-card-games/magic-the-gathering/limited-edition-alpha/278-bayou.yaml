@@ -1,11 +1,12 @@
 id: 456ad8e1-dfe1-4510-8fde-0fb7eb1b694a
-name: "Bayou"
+name: Bayou
 type: card
 date: "1993-08-05"
 attributes:
   number: "278/295"
   rarity: Rare
-  card_type: "Land — Swamp Forest"
-  illustrator: "Jesper Myrfors"
+  card_type: Land — Swamp Forest
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/4/1/412ceddd-2b9a-4551-a6bf-ae2830a2010a.jpg?1783948660
+  source_url: >-
+    https://cards.scryfall.io/large/front/4/1/412ceddd-2b9a-4551-a6bf-ae2830a2010a.jpg?1783948660

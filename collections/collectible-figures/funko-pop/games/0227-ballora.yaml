@@ -2,7 +2,8 @@ id: 0ed5a723-9b11-4eb4-b6a1-d4bc9b9d563a
 name: Ballora
 type: figure
 date: "2017"
-tags: [f1ae12fe-9750-4c97-87f5-1cc7ed582f65]
+tags:
+  - f1ae12fe-9750-4c97-87f5-1cc7ed582f65
 attributes:
   number: "227"
   manufacturer: Funko, LLC

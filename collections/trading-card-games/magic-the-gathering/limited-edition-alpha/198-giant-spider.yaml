@@ -1,13 +1,15 @@
 id: d91afda2-1f65-41bf-94f8-09b7c08d5397
-name: "Giant Spider"
+name: Giant Spider
 type: card
 date: "1993-08-05"
 attributes:
   number: "198/295"
   rarity: Common
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{3}{G}"
-  card_type: "Creature — Spider"
-  illustrator: "Sandra Everingham"
+  card_type: Creature — Spider
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/7/7/77636b4c-faea-4bf5-b88c-dd5bb88dc930.jpg?1783948677
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/7/77636b4c-faea-4bf5-b88c-dd5bb88dc930.jpg?1783948677

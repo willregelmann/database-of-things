@@ -2,7 +2,8 @@ id: 86e2ad93-de2e-42d2-ad3a-b410067e7358
 name: Ragnarok
 type: figure
 date: "2019"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "465"
   manufacturer: Funko, LLC

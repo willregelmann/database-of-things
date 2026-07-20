@@ -3,6 +3,7 @@ name: Rayquaza
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Rayquaza]
+  pokemon:
+    - Rayquaza
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1869273879.jpg

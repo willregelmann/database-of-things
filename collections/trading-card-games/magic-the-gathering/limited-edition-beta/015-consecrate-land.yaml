@@ -1,13 +1,15 @@
 id: 4ca72244-e75b-421d-a9c4-0438e30c64c2
-name: "Consecrate Land"
+name: Consecrate Land
 type: card
 date: "1993-10-04"
 attributes:
   number: "15/302"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Jeff A. Menges"
+  card_type: Enchantment — Aura
+  illustrator: Jeff A. Menges
 image:
-  source_url: https://cards.scryfall.io/large/front/0/7/077cf242-f866-497f-a23c-70e1b04a748e.jpg?1783948654
+  source_url: >-
+    https://cards.scryfall.io/large/front/0/7/077cf242-f866-497f-a23c-70e1b04a748e.jpg?1783948654

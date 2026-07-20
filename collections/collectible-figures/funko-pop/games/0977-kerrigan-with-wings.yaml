@@ -2,7 +2,8 @@ id: 9d7e2ba6-217b-4963-b669-a89fcdfbefa8
 name: Kerrigan with Wings
 type: figure
 date: "2024"
-tags: [323eef74-1825-42f0-853d-1d853da25a00]
+tags:
+  - 323eef74-1825-42f0-853d-1d853da25a00
 attributes:
   number: "977"
   manufacturer: Funko, LLC

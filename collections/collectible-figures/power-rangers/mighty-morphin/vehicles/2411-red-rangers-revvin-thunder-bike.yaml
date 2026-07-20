@@ -1,11 +1,11 @@
 id: fef0d445-7791-4093-8135-baeac4c87c24
 name: Red Ranger's Revvin' Thunder Bike
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2411'
+  number: "2411"
   category: Revvin' Thunder Bikes
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02411.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02411.jpg

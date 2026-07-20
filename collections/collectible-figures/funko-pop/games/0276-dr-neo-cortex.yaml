@@ -2,7 +2,8 @@ id: 7f99e608-ebde-461b-a0c1-fc026aec302d
 name: Dr. Neo Cortex
 type: figure
 date: "2018"
-tags: [7fdf3938-0b8c-44d4-a207-ee878eca11bf]
+tags:
+  - 7fdf3938-0b8c-44d4-a207-ee878eca11bf
 attributes:
   number: "276"
   manufacturer: Funko, LLC

@@ -3,7 +3,9 @@ name: Pokémon TCG
 type: collection
 category: Trading Card Games
 description: >
-  The Pokémon Trading Card Game, spanning every expansion since the 1999 Base Set.
+  The Pokémon Trading Card Game, spanning every expansion since the 1999 Base
+  Set.
 date: "1999-01-09"
 image:
-  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg
+  source_url: >-
+    https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg

@@ -2,7 +2,8 @@ id: 7e847d87-ac1f-4be3-b54f-1822434d4e03
 name: Jeff the Land Shark
 type: figure
 date: "2025"
-tags: [cb97b4e5-77b0-48e8-93c5-42ec5828a72a]
+tags:
+  - cb97b4e5-77b0-48e8-93c5-42ec5828a72a
 attributes:
   number: "1140"
   manufacturer: Funko, LLC

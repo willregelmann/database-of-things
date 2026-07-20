@@ -3,6 +3,7 @@ name: Latias
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Latias]
+  pokemon:
+    - Latias
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1692326711.jpg

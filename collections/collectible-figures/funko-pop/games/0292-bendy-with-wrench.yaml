@@ -2,7 +2,8 @@ id: e2fe962d-f12c-408a-96e3-d59b2dc1fca5
 name: Bendy with Wrench
 type: figure
 date: "2018"
-tags: [37de5442-2c3f-4fea-9694-3dd64e20ede2]
+tags:
+  - 37de5442-2c3f-4fea-9694-3dd64e20ede2
 attributes:
   number: "292"
   manufacturer: Funko, LLC

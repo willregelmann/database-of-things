@@ -1,11 +1,13 @@
 id: 69a90c17-d385-4365-b7ca-e3862dd193f4
 name: Pikachu (Sitting)
 type: figure
-date: "2021-06"
-tags: [175817b0-ba6b-49ca-90a9-f0777b4149e4]
+date: 2021-06
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
 attributes:
   number: "842"
   manufacturer: Funko, LLC
   variant: Common
 image:
-  source_url: https://archives.bulbagarden.net/media/upload/c/c9/Funko_Pop_Pikachu_Sitting.png
+  source_url: >-
+    https://archives.bulbagarden.net/media/upload/c/c9/Funko_Pop_Pikachu_Sitting.png

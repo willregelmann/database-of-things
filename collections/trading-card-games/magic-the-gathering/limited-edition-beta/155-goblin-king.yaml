@@ -1,13 +1,15 @@
 id: 7fff8eaa-2168-4df5-ac10-cddf5f53d6b8
-name: "Goblin King"
+name: Goblin King
 type: card
 date: "1993-10-04"
 attributes:
   number: "155/302"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{1}{R}{R}"
-  card_type: "Creature — Goblin"
-  illustrator: "Jesper Myrfors"
+  card_type: Creature — Goblin
+  illustrator: Jesper Myrfors
 image:
-  source_url: https://cards.scryfall.io/large/front/6/5/65705a8d-6bb1-4289-b8b0-8546ccc478dc.jpg?1783948624
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/5/65705a8d-6bb1-4289-b8b0-8546ccc478dc.jpg?1783948624

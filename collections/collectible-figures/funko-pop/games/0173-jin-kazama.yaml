@@ -2,7 +2,8 @@ id: 0bff41e3-8867-4760-a2ad-1e3282572a04
 name: Jin Kazama
 type: figure
 date: "2017"
-tags: [f23b93de-3d95-441b-8a48-49eccd86b4dd]
+tags:
+  - f23b93de-3d95-441b-8a48-49eccd86b4dd
 attributes:
   number: "173"
   manufacturer: Funko, LLC

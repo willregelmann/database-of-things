@@ -1,11 +1,11 @@
 id: 8e0a05e2-b218-4586-bde4-6a1b0ad42ce6
 name: The Gold Ranger's Zeonizer
 type: weapon
-date: '1996'
+date: "1996"
 attributes:
-  number: '2577'
+  number: "2577"
   category: Zeonizer
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02577_2.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02577_2.jpg

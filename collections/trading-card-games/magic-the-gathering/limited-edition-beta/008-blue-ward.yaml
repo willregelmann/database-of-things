@@ -1,13 +1,15 @@
 id: e7f5e428-8f78-4b3b-b493-36b4447ca034
-name: "Blue Ward"
+name: Blue Ward
 type: card
 date: "1993-10-04"
 attributes:
   number: "8/302"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{W}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Dan Frazier"
+  card_type: Enchantment — Aura
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/a/a/aafae6f4-0880-4532-9224-44545bfa5eb4.jpg?1783948654
+  source_url: >-
+    https://cards.scryfall.io/large/front/a/a/aafae6f4-0880-4532-9224-44545bfa5eb4.jpg?1783948654

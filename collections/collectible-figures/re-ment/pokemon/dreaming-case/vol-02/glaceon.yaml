@@ -3,6 +3,7 @@ name: Glaceon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Glaceon]
+  pokemon:
+    - Glaceon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1055367330.jpg

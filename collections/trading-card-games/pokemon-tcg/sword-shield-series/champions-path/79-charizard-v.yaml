@@ -3,7 +3,7 @@ name: Charizard V
 type: card
 date: "2020-09-25"
 attributes:
-  number: 79/73
+  number: "79/73"
   rarity: Secret Rare
   illustrator: 5ban Graphics
 image:

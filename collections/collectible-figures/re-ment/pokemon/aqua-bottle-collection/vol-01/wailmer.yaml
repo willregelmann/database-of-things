@@ -3,6 +3,7 @@ name: Wailmer
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Wailmer]
+  pokemon:
+    - Wailmer
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/661032498.jpg

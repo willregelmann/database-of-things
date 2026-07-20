@@ -2,7 +2,8 @@ id: fe7a6fe1-0f21-4259-bf8f-4387cc1763ab
 name: Piper
 type: figure
 date: "2016"
-tags: [fdf90ae3-de42-4c20-993f-bf0a7c4f7428]
+tags:
+  - fdf90ae3-de42-4c20-993f-bf0a7c4f7428
 attributes:
   number: "164"
   manufacturer: Funko, LLC

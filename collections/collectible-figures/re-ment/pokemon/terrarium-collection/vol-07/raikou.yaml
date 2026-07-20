@@ -3,6 +3,7 @@ name: Raikou
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Raikou]
+  pokemon:
+    - Raikou
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/407884862.jpg

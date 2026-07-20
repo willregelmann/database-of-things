@@ -1,12 +1,13 @@
 id: 5c8bf9d2-4c4e-4278-b9c0-d267a752a051
-name: "Sunglasses of Urza"
+name: Sunglasses of Urza
 type: card
 date: "1993-08-05"
 attributes:
   number: "271/295"
   rarity: Rare
   mana_cost: "{3}"
-  card_type: "Artifact"
-  illustrator: "Dan Frazier"
+  card_type: Artifact
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/c/0/c0d433a4-76c0-4f27-836d-4c0c13a511fb.jpg?1783948661
+  source_url: >-
+    https://cards.scryfall.io/large/front/c/0/c0d433a4-76c0-4f27-836d-4c0c13a511fb.jpg?1783948661

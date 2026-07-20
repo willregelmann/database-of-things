@@ -1,13 +1,15 @@
 id: 96c83a4f-1fe3-4eb5-a5c0-24a68cff3fab
-name: "Wrath of God"
+name: Wrath of God
 type: card
 date: "1993-10-04"
 attributes:
   number: "46/302"
   rarity: Rare
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{2}{W}{W}"
-  card_type: "Sorcery"
-  illustrator: "Quinton Hoover"
+  card_type: Sorcery
+  illustrator: Quinton Hoover
 image:
-  source_url: https://cards.scryfall.io/large/front/9/6/96dd2d61-a43d-4582-b730-71d4fac0fa23.jpg?1783948646
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/6/96dd2d61-a43d-4582-b730-71d4fac0fa23.jpg?1783948646

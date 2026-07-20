@@ -1,13 +1,15 @@
 id: cdf05fc6-39ab-42fb-bd69-e94763090a14
-name: "Berserk"
+name: Berserk
 type: card
 date: "1993-08-05"
 attributes:
   number: "185/295"
   rarity: Uncommon
-  colors: [G]
+  colors:
+    - G
   mana_cost: "{G}"
-  card_type: "Instant"
-  illustrator: "Dan Frazier"
+  card_type: Instant
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/e/1/e173c8ce-2352-405e-ad00-e3bb94ced1ad.jpg?1783948679
+  source_url: >-
+    https://cards.scryfall.io/large/front/e/1/e173c8ce-2352-405e-ad00-e3bb94ced1ad.jpg?1783948679

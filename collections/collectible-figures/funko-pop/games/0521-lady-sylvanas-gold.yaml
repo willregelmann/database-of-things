@@ -2,7 +2,8 @@ id: fff58e34-94e3-4aea-9f26-5b2fa8222342
 name: Lady Sylvanas (Gold)
 type: figure
 date: "2019"
-tags: [98033e9c-045f-43a4-95cd-f25620393a16]
+tags:
+  - 98033e9c-045f-43a4-95cd-f25620393a16
 attributes:
   number: "521"
   manufacturer: Funko, LLC

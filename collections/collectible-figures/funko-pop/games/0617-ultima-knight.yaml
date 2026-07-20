@@ -2,7 +2,8 @@ id: 8d01d362-06c7-47c3-ae2b-a0f945f5a36b
 name: Ultima Knight
 type: figure
 date: "2020"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "617"
   manufacturer: Funko, LLC

@@ -1,11 +1,12 @@
 id: a5e4d884-10cb-4646-b93e-ff73fd577e09
-name: "Swamp"
+name: Swamp
 type: card
 date: "1993-10-04"
 attributes:
   number: "295/302"
   rarity: Common
-  card_type: "Basic Land — Swamp"
-  illustrator: "Dan Frazier"
+  card_type: Basic Land — Swamp
+  illustrator: Dan Frazier
 image:
-  source_url: https://cards.scryfall.io/large/front/2/5/25ad2444-9985-423c-ad36-387218866409.jpg?1783948594
+  source_url: >-
+    https://cards.scryfall.io/large/front/2/5/25ad2444-9985-423c-ad36-387218866409.jpg?1783948594

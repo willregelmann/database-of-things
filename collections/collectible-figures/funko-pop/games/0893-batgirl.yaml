@@ -2,7 +2,8 @@ id: 81bc5ac6-ad1c-4b1d-ab8e-8ae9c121318a
 name: Batgirl
 type: figure
 date: "2022"
-tags: [a989dbca-0d40-4526-aa68-91240bc2f0b8]
+tags:
+  - a989dbca-0d40-4526-aa68-91240bc2f0b8
 attributes:
   number: "893"
   manufacturer: Funko, LLC

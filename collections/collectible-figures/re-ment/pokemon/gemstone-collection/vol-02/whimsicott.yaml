@@ -3,6 +3,7 @@ name: Whimsicott
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Whimsicott]
+  pokemon:
+    - Whimsicott
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/5300766.jpg

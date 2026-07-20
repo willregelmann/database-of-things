@@ -1,13 +1,15 @@
 id: ab163dce-37ee-4048-9e29-91fc83d58034
-name: "Phantasmal Terrain"
+name: Phantasmal Terrain
 type: card
 date: "1993-08-05"
 attributes:
   number: "68/295"
   rarity: Common
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{U}{U}"
-  card_type: "Enchantment — Aura"
-  illustrator: "Dameon Willich"
+  card_type: Enchantment — Aura
+  illustrator: Dameon Willich
 image:
-  source_url: https://cards.scryfall.io/large/front/1/c/1c371aa1-1619-41e3-8364-7bc9b8cf5d14.jpg?1783948703
+  source_url: >-
+    https://cards.scryfall.io/large/front/1/c/1c371aa1-1619-41e3-8364-7bc9b8cf5d14.jpg?1783948703

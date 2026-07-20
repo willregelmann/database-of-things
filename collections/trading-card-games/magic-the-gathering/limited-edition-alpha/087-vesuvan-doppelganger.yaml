@@ -1,13 +1,15 @@
 id: 42752a64-dda1-4226-bbee-d925e0916be5
-name: "Vesuvan Doppelganger"
+name: Vesuvan Doppelganger
 type: card
 date: "1993-08-05"
 attributes:
   number: "87/295"
   rarity: Rare
-  colors: [U]
+  colors:
+    - U
   mana_cost: "{3}{U}{U}"
-  card_type: "Creature — Shapeshifter"
-  illustrator: "Quinton Hoover"
+  card_type: Creature — Shapeshifter
+  illustrator: Quinton Hoover
 image:
-  source_url: https://cards.scryfall.io/large/front/7/6/768f3a05-bd06-4a23-b9f2-94f6e618fd9f.jpg?1783948699
+  source_url: >-
+    https://cards.scryfall.io/large/front/7/6/768f3a05-bd06-4a23-b9f2-94f6e618fd9f.jpg?1783948699

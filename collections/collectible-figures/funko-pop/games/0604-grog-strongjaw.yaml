@@ -2,7 +2,8 @@ id: 5a059149-f1e4-4d91-828d-c3a181e61968
 name: Grog Strongjaw
 type: figure
 date: "2020"
-tags: [ccc586a6-51de-4a50-8a40-a163fcb68839]
+tags:
+  - ccc586a6-51de-4a50-8a40-a163fcb68839
 attributes:
   number: "604"
   manufacturer: Funko, LLC

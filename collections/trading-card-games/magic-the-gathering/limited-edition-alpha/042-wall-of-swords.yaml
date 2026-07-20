@@ -1,13 +1,15 @@
 id: a72632ca-268e-4e2d-9fbe-19295914d29d
-name: "Wall of Swords"
+name: Wall of Swords
 type: card
 date: "1993-08-05"
 attributes:
   number: "42/295"
   rarity: Uncommon
-  colors: [W]
+  colors:
+    - W
   mana_cost: "{3}{W}"
-  card_type: "Creature — Wall"
-  illustrator: "Mark Tedin"
+  card_type: Creature — Wall
+  illustrator: Mark Tedin
 image:
-  source_url: https://cards.scryfall.io/large/front/9/9/99ec4723-b36c-4015-b361-736a6523e8f5.jpg?1783948708
+  source_url: >-
+    https://cards.scryfall.io/large/front/9/9/99ec4723-b36c-4015-b361-736a6523e8f5.jpg?1783948708

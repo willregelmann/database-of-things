@@ -3,6 +3,7 @@ name: Leafeon
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Leafeon]
+  pokemon:
+    - Leafeon
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/786821775.jpg

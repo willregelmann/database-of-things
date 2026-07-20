@@ -1,11 +1,12 @@
 id: 7d8486aa-348b-4b29-b600-c5cf7ae795a4
-name: "Taiga"
+name: Taiga
 type: card
 date: "1993-08-05"
 attributes:
   number: "282/295"
   rarity: Rare
-  card_type: "Land — Mountain Forest"
-  illustrator: "Rob Alexander"
+  card_type: Land — Mountain Forest
+  illustrator: Rob Alexander
 image:
-  source_url: https://cards.scryfall.io/large/front/6/0/60df6592-0b3b-4b87-aeb2-8fa94b4fb7be.jpg?1783948659
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/0/60df6592-0b3b-4b87-aeb2-8fa94b4fb7be.jpg?1783948659

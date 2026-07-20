@@ -2,7 +2,8 @@ id: 9eebfd35-c172-4cef-a6f1-39703b13630d
 name: Brutus
 type: figure
 date: "2015"
-tags: [bff4f001-c12c-4ffe-aa1d-a28466253d6f]
+tags:
+  - bff4f001-c12c-4ffe-aa1d-a28466253d6f
 attributes:
   number: "71"
   manufacturer: Funko, LLC

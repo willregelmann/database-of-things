@@ -1,13 +1,15 @@
 id: eb82693b-c98a-4f2e-8cbf-885b1307d7f8
-name: "Shivan Dragon"
+name: Shivan Dragon
 type: card
 date: "1993-10-04"
 attributes:
   number: "175/302"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{4}{R}{R}"
-  card_type: "Creature — Dragon"
-  illustrator: "Melissa A. Benson"
+  card_type: Creature — Dragon
+  illustrator: Melissa A. Benson
 image:
-  source_url: https://cards.scryfall.io/large/front/5/e/5e64822a-6817-4e1e-8155-3e95f8e3763f.jpg?1783948619
+  source_url: >-
+    https://cards.scryfall.io/large/front/5/e/5e64822a-6817-4e1e-8155-3e95f8e3763f.jpg?1783948619

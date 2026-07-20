@@ -2,7 +2,8 @@ id: 58a191bb-f809-4a37-9898-9750fb04baf1
 name: Highrise Assault Trooper
 type: figure
 date: "2018"
-tags: [949ac07c-0c48-467a-8966-05c77f4eafac]
+tags:
+  - 949ac07c-0c48-467a-8966-05c77f4eafac
 attributes:
   number: "431"
   manufacturer: Funko, LLC

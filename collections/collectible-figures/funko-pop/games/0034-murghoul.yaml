@@ -2,7 +2,8 @@ id: 29366c9d-2c2b-441c-a789-2863e1e1ad98
 name: Mur'ghoul
 type: figure
 date: "2014"
-tags: [98033e9c-045f-43a4-95cd-f25620393a16]
+tags:
+  - 98033e9c-045f-43a4-95cd-f25620393a16
 attributes:
   number: "34"
   manufacturer: Funko, LLC

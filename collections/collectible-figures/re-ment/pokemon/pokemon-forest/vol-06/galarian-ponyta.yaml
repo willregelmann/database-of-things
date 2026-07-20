@@ -3,6 +3,7 @@ name: Galarian Ponyta
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Galarian Ponyta]
+  pokemon:
+    - Galarian Ponyta
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/339089809.jpg

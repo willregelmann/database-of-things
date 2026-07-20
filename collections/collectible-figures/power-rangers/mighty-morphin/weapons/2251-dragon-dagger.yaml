@@ -1,11 +1,11 @@
 id: cf50c05c-293b-4837-9f9b-12e6834851fb
 name: Dragon Dagger
 type: weapon
-date: '1994'
+date: "1994"
 attributes:
-  number: '2251'
+  number: "2251"
   category: Dragon Dagger
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02251.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02251.jpg

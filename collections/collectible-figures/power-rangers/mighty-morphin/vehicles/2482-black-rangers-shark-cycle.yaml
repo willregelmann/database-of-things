@@ -1,11 +1,11 @@
 id: 81f1f96d-93db-4e2b-a8cf-4dc45d9e185c
 name: Black Ranger's Shark Cycle
 type: vehicle
-date: '1995'
+date: "1995"
 attributes:
-  number: '2482'
+  number: "2482"
   category: Shark Cycles
   manufacturer: Bandai America
   variant: Standard
 image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02482.jpg'
+  source_url: https://www.grnrngr.com/toys/pictures/bandai/02482.jpg

@@ -3,6 +3,7 @@ name: Greninja
 type: figure
 attributes:
   manufacturer: Re-Ment
-  pokemon: [Greninja]
+  pokemon:
+    - Greninja
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1250944307.jpg

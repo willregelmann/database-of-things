@@ -1,13 +1,15 @@
 id: 55f5d548-88ef-448b-97be-f78fc7d6ed23
-name: "Raging River"
+name: Raging River
 type: card
 date: "1993-08-05"
 attributes:
   number: "168/295"
   rarity: Rare
-  colors: [R]
+  colors:
+    - R
   mana_cost: "{R}{R}"
-  card_type: "Enchantment"
-  illustrator: "Sandra Everingham"
+  card_type: Enchantment
+  illustrator: Sandra Everingham
 image:
-  source_url: https://cards.scryfall.io/large/front/6/1/61e4f56d-1f4f-49f2-8534-0d09196a3327.jpg?1783948682
+  source_url: >-
+    https://cards.scryfall.io/large/front/6/1/61e4f56d-1f4f-49f2-8534-0d09196a3327.jpg?1783948682
