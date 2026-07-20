@@ -24,6 +24,15 @@ MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__
 {
   echo "=== collections-audit-fix run: $(date -u +%Y-%m-%dT%H:%M:%SZ) ==="
 
+  # This checkout is never touched between ticks otherwise, so it silently
+  # drifts behind origin/main as PRs merge -- including PRs that change
+  # tools/collections-validate/validate.mjs itself. A stale local validator
+  # can pass writes here that a fresh one (what CI actually runs on the PR)
+  # rejects. --ff-only: fail loudly on real divergence rather than merge
+  # over it.
+  echo "--- syncing checkout with origin/main ---"
+  git pull --ff-only
+
   set +e
   claude -p "/collections-audit-fix" \
     --model claude-sonnet-5 \

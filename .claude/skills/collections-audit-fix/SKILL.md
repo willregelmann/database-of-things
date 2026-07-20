@@ -58,6 +58,18 @@ dimensions, just without the fix step.
   name), so the "fix" would have broken correct data. Verify a rename
   target the same way you'd verify any other fact before calling
   `rename_item`.
+- **Never invent a tag id, and never let a missing tag block a write.**
+  Tags are strictly curated (see `tags/CLAUDE.md`) — you can *reference* an
+  existing tag's UUID, but you can't create one, the same way you can't
+  author a new `CLAUDE.md` or components bucket. `upsert_item`/
+  `upsert_collection` reject any `tags` entry that isn't an existing tag's
+  UUID, so don't guess a slug or display name. If a fix or new item
+  genuinely needs a tag that doesn't exist yet, write the item/collection
+  without that tag reference — the rest of the fix still lands normally —
+  and call `flag_finding` to request the tag, naming it, its namespace
+  (e.g. `franchises/`), and which items/collections should reference it
+  once a curator adds it. A missing tag is never a reason to hold back an
+  otherwise-good batch.
 
 ## Steps
 
@@ -101,10 +113,10 @@ dimensions, just without the fix step.
      appropriate.
    - **Not fixable within the tool surface** (moving an item between
      collections, restructuring a whole collection directory, bootstrapping
-     a brand-new components bucket, a missing sibling collection outside
-     this one's scope, or genuine human judgment): call `flag_finding` with
-     a specific title and a body that includes your source(s) and why the
-     other tools can't handle it.
+     a brand-new components bucket, a missing tag that doesn't exist yet, a
+     missing sibling collection outside this one's scope, or genuine human
+     judgment): call `flag_finding` with a specific title and a body that
+     includes your source(s) and why the other tools can't handle it.
      Only flag things you're confident are real and well-sourced — same
      discipline as a fix, just a different outcome.
    - Anything you can't confirm one way or the other: leave it alone

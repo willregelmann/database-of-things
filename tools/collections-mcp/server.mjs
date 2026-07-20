@@ -6,6 +6,11 @@ import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
 import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const tagIdField = z
+  .string()
+  .regex(UUID_RE, 'tag id must be a UUID (see tags/) — a slug or display name is never valid here, only an existing tag entity\'s id');
+
 // Rebuilt after every successful write so reads in the same session see it.
 let index = buildIndex();
 
@@ -160,7 +165,7 @@ const itemFieldsShape = {
   date: z.string().optional(),
   attributes: z.record(z.any()).optional().describe('Merged key-by-key into any existing attributes on update.'),
   image: z.object({ source_url: z.string() }).optional(),
-  tags: z.array(z.string()).optional(),
+  tags: z.array(tagIdField).optional(),
   components: z
     .array(z.string())
     .optional()
@@ -225,7 +230,7 @@ const collectionFieldsShape = {
   description: z.string().optional(),
   category: z.string().optional(),
   image: z.object({ source_url: z.string() }).optional(),
-  tags: z.array(z.string()).optional(),
+  tags: z.array(tagIdField).optional(),
   directory: z
     .string()
     .optional()
