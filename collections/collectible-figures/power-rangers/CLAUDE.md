@@ -10,7 +10,7 @@ power-rangers/
   mighty-morphin/
     CLAUDE.md                    # this line's own numbering/pitfalls
     _collection.yaml
-    figures/                     # + zords/, vehicles/, weapons/, playsets/
+    figures/                     # + zords/, _zords/, vehicles/, weapons/, playsets/
       _collection.yaml
       <number>-<slugified-name>.yaml
 ```
@@ -32,6 +32,50 @@ checklist. This is a documented exception to the parent category's default
 figures-only scope — see [`../CLAUDE.md`](../CLAUDE.md). Each item's coarse
 `type` (`figure`, `zord`, `vehicle`, `weapon`, `playset`) determines which
 subdirectory it lives in within its line.
+
+## Zords as components
+
+Some Megazords are physically molded from multiple individually-named Zords
+packaged together in one box — Bandai/Hasbro never sold these individual
+pieces separately, so cataloguing them as their own items in `zords/` would
+misrepresent something a collector could complete on its own. These are
+**components** (see [`../../CLAUDE.md`](../../CLAUDE.md), "Components") of
+the combined product, catalogued in a `_zords/` bucket nested inside each
+line, alongside that line's own `zords/`:
+
+```
+mighty-morphin/
+  zords/                     # standalone/combining Zord products, each its own SKU
+    2220-megazord.yaml
+  _zords/                    # pieces bundled inside one of the above, never sold alone
+    tyrannosaurus-dinozord.yaml
+```
+
+- **Per-line, not per-brand** — matching `zords/` itself already being
+  scoped to one era rather than shared across the whole `power-rangers/`
+  brand.
+- **No catalog `number` unless the source documents one of its own.**
+  Unlike LEGO minifigures (which always carry a BrickLink/Brickset number —
+  see [`../../model-kits/lego/CLAUDE.md`](../../model-kits/lego/CLAUDE.md)),
+  Bandai generally never assigned these bundled-only pieces a catalog
+  number — leave `attributes.number` off rather than inventing one or
+  reusing the parent Megazord's number. Record one only if a source
+  genuinely documents a distinct number for the piece.
+- **Naming files**: `<slugified-name>.yaml` — no number prefix, absent a
+  real number to sort by.
+- **Only add where actually verified.** Don't retrofit `components` onto
+  every Megazord that might combine from parts — populate it where a
+  curator has confirmed the specific pieces via a reliable source, and
+  leave items without confirmed sub-zords alone. A single Zord that doesn't
+  combine from separately-named pieces (Titanus, Dragonzord, Tor) has
+  nothing to put here.
+- A Megazord references its pieces via the top-level `components` field,
+  same as any other component:
+  ```yaml
+  components:
+    - <id of tyrannosaurus-dinozord>
+    - <id of mastodon-dinozord>
+  ```
 
 ## Manufacturer varies by era
 

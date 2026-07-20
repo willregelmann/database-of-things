@@ -6,8 +6,10 @@ the direct successor to [Turbo](../turbo/CLAUDE.md).
 ## Directory structure
 
 Same shape as the other eras — five type-based subdirectories (`figures/`,
-`zords/`, `vehicles/`, `weapons/`, `playsets/`), flat within each. No
-`template.schema.json` of its own; inherits the shared
+`zords/`, `vehicles/`, `weapons/`, `playsets/`), plus a `_zords/`
+components bucket for individual pieces bundled inside a `zords/` Megazord
+— see [`../CLAUDE.md`](../CLAUDE.md), "Zords as components." Flat within
+each. No `template.schema.json` of its own; inherits the shared
 `power-rangers/template.schema.json`.
 
 ## Source
@@ -55,6 +57,15 @@ unreleased), just without a sourced image yet. Filed without
 `image.source_url` rather than link the placeholder graphic; add the real
 photo later if one turns up. `3215` (Pink) has a real photo and is filed
 normally.
+
+## Known gap: Astro Delta Megazord box contents unconfirmed
+
+`3253-astro-delta-megazord.yaml` — its box photo reads as a single
+pre-posed figure like its non-combining siblings, but a secondary
+toy-identification database categorizes it as a "Combiner" and lists an
+included instructions sheet, which doesn't fit that reading. No `_zords`
+components were added for it pending a clearer source (box-back photo,
+instruction sheet, or review) confirming which is correct.
 
 ## Heroes Of Space sub-line released outside the nominal 1998 season
 

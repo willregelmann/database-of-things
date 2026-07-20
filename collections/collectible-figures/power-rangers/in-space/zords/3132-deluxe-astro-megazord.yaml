@@ -9,3 +9,5 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03132.jpg'
+components:
+  - f5040903-dd8d-4c84-a935-c8e3e7c3085a   # Astro Shuttle

@@ -9,3 +9,9 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02263.jpg'
+components:
+  - 6d2ab3d0-298b-4d9c-ba46-8adb98807dc1   # Unicorn Thunderzord
+  - 897777d3-1467-4b40-8e80-c7090b349c10   # Firebird Thunderzord
+  - d80dc944-df71-4fd5-bfcb-5c0d6858000c   # Lion Thunderzord
+  - 04b2c8d6-dae7-4762-9e7a-f79c7b12af6b   # Griffin Thunderzord
+  - 361fc904-a17c-48fb-a62b-5bf2dea4cf41   # Red Dragon Thunderzord

@@ -11,10 +11,14 @@ mighty-morphin/
   _collection.yaml
   figures/      # poseable Rangers, villains, dolls, talking figures, mini blind-assortment figures
   zords/        # Megazords, Thunderzords, Dragonzord, Titanus, Tor, Falconzord, Serpentera, ...
+  _zords/       # individual Dinozords/Thunderzords/Shogunzords/Ninjazords bundled inside a zords/ Megazord
   vehicles/     # Battle Bikes, Thunder Bikes, Shark Cycles
   weapons/      # Power Morpher, Dragon Dagger, Power Cannon, Saba, Power Blaster
   playsets/     # Power Dome, Micro Morphin Playsets, Girls Carrying Case Playset
 ```
+
+See [`../CLAUDE.md`](../CLAUDE.md), "Zords as components," for the `_zords/`
+bucket convention.
 
 Five type-based subdirectories, flat within each — matching an item's `type`
 (`figure`/`zord`/`vehicle`/`weapon`/`playset`) to its directory. Unlike
@@ -104,3 +108,13 @@ the source site, not distinct products — filed once each here, under
 separately under its own "8″ Evil Space Aliens" category since it doesn't
 share this overlap. Revisit if a more authoritative source clarifies
 otherwise.
+
+## Known gap: two Toys "R" Us "Special Size Power Pack" box contents unconfirmed
+
+`2305-special-size-mega-tigerzord.yaml` and `2308-special-size-thunder-megazord.yaml`
+are both "Power Pack" boxes that visually bundle two toy windows, and by
+name plausibly bundle two already-catalogued Special Size Zords each (2305:
+White Tigerzord + Falconzord; 2308: Thunder Megazord + Tor) — but no source
+turned up so far explicitly captions box contents by name for either, so
+neither has a `components` field yet. Add one only once a clearer box-back
+photo or instruction sheet confirms the exact contents.

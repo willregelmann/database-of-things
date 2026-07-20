@@ -9,3 +9,9 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02963.jpg'
+components:
+  - ebd14901-04fe-47c2-8261-1a574ef682ae   # Red Lightning
+  - 0aba3712-c39d-4d1f-9104-6d2050a715af   # Mountain Blaster
+  - aafb38c9-ec66-4942-a575-58669ecd2c36   # Desert Thunder
+  - cfca8dfe-2f05-407f-bbe3-f4397152b757   # Dune Star
+  - 360fb6c3-2f5b-4f8e-b078-55bbd7b0505b   # Wind Chaser

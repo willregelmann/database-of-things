@@ -9,3 +9,9 @@ attributes:
   variant: Standard
 image:
   source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03186.jpg'
+components:
+  - ef3db84f-46b9-46e9-9272-e03c5ee6276a   # Mega V1
+  - 2e96214c-0acf-4fa1-83be-db1b4b84b13e   # Mega V2
+  - 2a2209de-f22c-4c17-982b-8feb9aac13fd   # Mega V3
+  - ff6a677a-adcd-4908-9dfc-2dbe9d87f067   # Mega V4
+  - c6c7832e-048c-48d9-bde8-672cdbcf62ff   # Mega V5
