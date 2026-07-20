@@ -26,7 +26,7 @@ published outside the physical/PDF guide itself** — don't invent or guess a
 1-80 number for a figure. Only record `attributes.number` when you can
 confirm it directly against the official Collector's Guide (or an equally
 authoritative source); otherwise leave it off rather than guessing, per the
-root [`collections/CLAUDE.md`](../../../CLAUDE.md) approach to unconfirmed
+root [`collections/CLAUDE.md`](../../../../CLAUDE.md) approach to unconfirmed
 precision.
 
 ## Naming and identifying figures
@@ -34,6 +34,6 @@ precision.
 Identify by character name plus, where applicable, the episode/pack theme
 that distinguishes a repeated character across releases (same disambiguation
 approach as Re-Ment — see
-[`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md) for the pattern). File
+[`../../../re-ment/CLAUDE.md`](../../../re-ment/CLAUDE.md) for the pattern). File
 name is the slugified character (+ theme where needed), e.g. `bluey.yaml`,
 `bluey-the-beach.yaml`.

@@ -10,7 +10,7 @@ a specific product says otherwise.
 Moose Toys sells Bluey across many product families, but only some are
 standalone character figures. **Excluded from this category** (same
 figures-only scope as the rest of `collectible-figures/` — see
-[`../CLAUDE.md`](../CLAUDE.md)):
+[`../../CLAUDE.md`](../../CLAUDE.md)):
 
 - Plush (a `plush/` concern if curated, not here)
 - Playsets (Family Home, Supermarket, Heeler House, Cruise Ship, ...)
@@ -22,7 +22,7 @@ figures-only scope as the rest of `collectible-figures/` — see
 **This is not the same exception as Power Rangers.** Power Rangers curates
 its whole toy line in one place because the manufacturer releases and
 numbers figures/Zords/vehicles/playsets together as one inseparable product
-line (see [`../power-rangers/CLAUDE.md`](../power-rangers/CLAUDE.md)). Bluey
+line (see [`../../power-rangers/CLAUDE.md`](../../power-rangers/CLAUDE.md)). Bluey
 is the opposite: Moose Toys sells each product family under its own distinct
 name, format, and (where present) numbering, with no shared catalog — closer
 to Funko's many independent Pop! formats than to Power Rangers' one line.
@@ -51,7 +51,7 @@ bluey/
 ```
 
 Each sub-line is its own top-level collection here, the same reasoning as
-Nendoroid vs Figma vs Funko Pop under [`../CLAUDE.md`](../CLAUDE.md) — Fuzzies,
+Nendoroid vs Figma vs Funko Pop under [`../../CLAUDE.md`](../../CLAUDE.md) — Fuzzies,
 Mini Figures, and (Standard) Poseable Figures are different products with
 different scale, material, and packaging, not variants of one line.
 
