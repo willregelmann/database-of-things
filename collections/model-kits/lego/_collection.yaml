@@ -4,3 +4,5 @@ type: collection
 description: >
   Officially released LEGO building sets, organized by theme and (where one
   exists) subtheme. Each theme is its own nested collection.
+image:
+  source_url: https://assets.lego.com/logos/v8.5.0/brand-lego.svg
