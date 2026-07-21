@@ -2,10 +2,7 @@ id: d7f18c67-d0c5-43fe-b6c8-30a163e15f8d
 name: Jack
 type: figure
 attributes:
-  pack_name: Jack & Army Hat
-  pack_type: Story Starter
-  accessory: Army Hat
-  manufacturer: Moose Toys Pty Ltd
+  variant: Army Hat
+  manufacturer: "Moose Toys Pty Ltd"
 image:
-  source_url: >-
-    https://www.maziply.com/cdn/shop/files/jack-army-hat-story-starter-figure.jpg
+  source_url: https://www.maziply.com/cdn/shop/files/jack-army-hat-story-starter-figure.jpg
