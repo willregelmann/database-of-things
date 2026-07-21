@@ -11,9 +11,9 @@ something as gashapon:
 - **Not Bandai's non-figure capsule products.** Bandai's gashapon lineup also
   includes food miniatures, animal replicas, stationery, and accessories with
   no character depicted — same carve-out as
-  [`../re-ment/CLAUDE.md`](../re-ment/CLAUDE.md). A capsule toy that merely
+  [`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md). A capsule toy that merely
   features a franchise's logo or a non-character object isn't a standalone
-  character figure and doesn't belong in `collectible-figures` at all.
+  character figure and doesn't belong in `figures` at all.
 - **Not other companies' capsule toys.** "Gachapon"/"capsule toy" is a
   generic category with many manufacturers — Kitan Club, Takara Tomy A.R.T.S.,
   T-ARTS, Yell, and others all sell visually similar capsule figures, often
@@ -41,7 +41,7 @@ gashapon/
       <slugified-character-name(s)>.yaml
 ```
 
-Same three-tier shape as [`../re-ment/CLAUDE.md`](../re-ment/CLAUDE.md):
+Same three-tier shape as [`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md):
 Bandai runs many independently-named gashapon series per franchise, and a
 popular series routinely continues across multiple volumes/waves — nest a
 `vol-<NN>/` (or the series' own official wave/part naming, if it differs)
@@ -82,7 +82,7 @@ date — the same bar as Re-Ment.
   individual gashapon figures generally carry no printed figure number —
   identify a figure by the character(s)/subject it depicts within its
   series directory, matching
-  [`../re-ment/CLAUDE.md`](../re-ment/CLAUDE.md)'s approach. Some series do
+  [`../../re-ment/CLAUDE.md`](../../re-ment/CLAUDE.md)'s approach. Some series do
   print a position number on the base or in official photos (e.g. "1 of 6")
   — record it as `attributes.number` when a specific release confirms one,
   but don't assume every series has it.
@@ -116,7 +116,7 @@ capsule toy with no further sub-brand.
 Attach `image.source_url` pointing at Bandai's own official gashapon.jp (or
 us.gashapon.jp) product photography once you've confirmed which photo
 matches which figure, per the root
-[`collections/CLAUDE.md`](../../CLAUDE.md) image guidance. Fall back to a
+[`collections/CLAUDE.md`](../../../CLAUDE.md) image guidance. Fall back to a
 retailer/marketplace photo per the project's general image-sourcing policy
 only if no official photo is available.
 
@@ -126,4 +126,4 @@ For a series' own `_collection.yaml`, use its first release date as listed
 on Bandai's own product page. If the true original release date isn't
 independently confirmable (e.g. an older set no longer listed and only
 known via a reissue), leave `date` off rather than guessing — see the root
-[`collections/CLAUDE.md`](../../CLAUDE.md).
+[`collections/CLAUDE.md`](../../../CLAUDE.md).

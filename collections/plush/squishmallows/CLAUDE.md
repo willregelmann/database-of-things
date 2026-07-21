@@ -14,7 +14,7 @@ Flat — one level, no series/set nesting. Squishmallows are released under a
 single continuous **Collector Number** sequence spanning every species and
 every licensed collab (Pokémon, Disney, Marvel, Harry Potter, Sanrio, and
 more), the same way Nendoroid uses one continuous number across franchises —
-see [`../../collectible-figures/nendoroids/CLAUDE.md`](../../collectible-figures/nendoroids/CLAUDE.md)
+see [`../../figures/good-smile/nendoroid/CLAUDE.md`](../../figures/good-smile/nendoroid/CLAUDE.md)
 for the analogous shape. Record the licensed franchise via the top-level
 `tags` field, referencing a `tags/franchises/` entity by id (e.g. Pokémon)
 — see [`../../CLAUDE.md`](../../CLAUDE.md#tags) — not as a directory split
@@ -29,8 +29,8 @@ minis) are also distinct sub-brands with their own scale and packaging, not
 just a size variant of the standard line. If curating one of these, add it
 as its own collection under `plush/` (e.g. `plush/squishmallows-fuzz-a-mallows/`),
 the same way Funko Pop Rides/Town/Moments/Albums are siblings of
-`funko-pop/` rather than folded into it — see
-[`../../collectible-figures/funko-pop/CLAUDE.md`](../../collectible-figures/funko-pop/CLAUDE.md).
+`funko/pop/` rather than folded into it — see
+[`../../figures/funko/pop/CLAUDE.md`](../../figures/funko/pop/CLAUDE.md).
 
 Squishmallows' own "Rarity Scale" (Rare, Ultra Rare, Special Edition, Select
 Series, Check-In Series, Founders Edition) is a tag-color/distribution

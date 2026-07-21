@@ -48,7 +48,7 @@ Items are identified by Bandai's own catalog/assortment number, e.g. `2200`.
 one number to an entire blind-packed assortment (e.g. `2200` covers all
 five original Rangers; `2300` covers 12 different mini figures). Treat a
 shared number the same way Funko Pop's shared numbers are treated (see
-[`../funko-pop/CLAUDE.md`](../funko-pop/CLAUDE.md)): file each
+[`../../../funko/pop/CLAUDE.md`](../../../funko/pop/CLAUDE.md)): file each
 character/release as its own entity sharing that number, disambiguated by a
 name/variant slug in the filename — don't invent a fake per-character
 number that Bandai never printed.

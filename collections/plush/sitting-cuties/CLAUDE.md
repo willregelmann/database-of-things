@@ -58,7 +58,7 @@ position alone.
 
 Unlike Squishmallows, individual Sitting Cuties plush carry no collector
 number on their hangtag — identify by the Pokémon depicted, the same way
-[`../../collectible-figures/re-ment/pokemon/`](../../collectible-figures/re-ment/CLAUDE.md)
+[`../../figures/re-ment/pokemon/`](../../figures/re-ment/CLAUDE.md)
 does for the same franchise. File as `<slugified-pokemon-name>.yaml`, no
 numeric prefix (per the root [`CLAUDE.md`](../../../CLAUDE.md) naming rule
 for un-numbered collections).

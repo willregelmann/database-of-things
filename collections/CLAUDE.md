@@ -129,7 +129,7 @@ validator also enforces that every id resolves to a real `tags/` entity.
 categories.** Funko Pop, for instance, resets its box-printed "line"
 independent of franchise, so nearly every figure carries a franchise tag
 (see
-[`collectible-figures/funko-pop/CLAUDE.md`](collectible-figures/funko-pop/CLAUDE.md))
+[`figures/funko/pop/CLAUDE.md`](figures/funko/pop/CLAUDE.md))
 — not just the cross-category crossover cases. Keeping franchise in one
 place means a search for "everything Pokémon" never has to also check a
 per-category attribute that might hold the same information.
@@ -138,9 +138,24 @@ per-category attribute that might hold the same information.
 A tag only earns its place if it captures a grouping that's genuinely useful
 and isn't already available some other way:
 
-- **Don't restate the hierarchy.** A card in `pokemon-tcg/` doesn't need
-  the Pokémon tag — its category already says that. Tags exist for
-  groupings the *directory position doesn't* express, not to duplicate it.
+- **Don't restate the hierarchy — but franchise is the deliberate
+  exception.** In general a tag shouldn't duplicate what directory position
+  already expresses. Franchise is the one axis that must stay tag-derivable
+  regardless, because the directory tree *deliberately* doesn't carry it
+  (the figure families organize by manufacturer, not franchise — see
+  [`figures/CLAUDE.md`](figures/CLAUDE.md)). So a franchise search should
+  resolve from tags alone, never from also scanning the tree. Record
+  franchise **at the highest level where it's uniformly true**:
+  - When a whole collection is one franchise, tag that collection's
+    `_collection.yaml` — e.g. `figures/bandai/power-rangers/_collection.yaml`,
+    or `trading-card-games/pokemon-tcg/` — **not** every item inside it. A
+    franchise search resolves an item by walking up to its nearest
+    franchise-tagged ancestor collection.
+  - When a collection mixes franchises, tag the individual **items** — e.g.
+    a lone Power Rangers Funko Pop among many franchises in
+    `figures/funko/pop/television/`.
+  - Don't tag *both* an item and an ancestor collection that already carries
+    the same franchise — that duplicate *is* the restatement to avoid.
 - **Don't duplicate a tag into a structured `attributes` field**, and vice
   versa — pick one home for a given piece of information and search it there.
 - **Don't invent tags for hypothetical future searches.** Add a tag when it

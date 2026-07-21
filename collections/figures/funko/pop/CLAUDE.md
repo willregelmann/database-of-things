@@ -3,7 +3,7 @@
 ## Directory structure
 
 ```
-funko-pop/
+pop/
   CLAUDE.md
   template.schema.json
   _collection.yaml               # the whole "Funko Pop!" product line
@@ -26,22 +26,22 @@ box, not the character's source franchise — a figure's *franchise* (e.g.
 "Television"), and one line spans many unrelated franchises. Record the
 franchise separately via the top-level `tags` field, referencing a
 `tags/franchises/` entity by id (e.g. "The Office") — see
-[`collections/CLAUDE.md`](../../CLAUDE.md#tags) — not as an `attributes`
+[`collections/CLAUDE.md`](../../../CLAUDE.md#tags) — not as an `attributes`
 field; the directory captures the line only.
 
 **Naming line directories**: lowercase, hyphenated, matching the printed
 category name (e.g. `movies`, `animation`, `marvel`, `star-wars`, `disney`,
 `television`, `rocks`).
 
-**Sub-formats are separate sibling lines under `collectible-figures/`, not
+**Sub-formats are separate sibling lines under `figures/`, not
 nested here.** Pop! Rides (vehicle + figure), Pop! Town (figure + buildable
 diorama piece), Pop! Moments (multi-figure scene), and Pop! Albums (figure +
 album-cover box art) are distinct Funko product formats with their own
 separate numbering and box conventions — same relationship as Nendoroid
 Doll/More/Petit to plain Nendoroid (see
-[`../nendoroids/CLAUDE.md`](../nendoroids/CLAUDE.md)). If curating one, add
-it as its own collection under `collectible-figures/` (e.g.
-`collectible-figures/funko-pop-rides/`), not folded into this directory's
+[`../../good-smile/nendoroid/CLAUDE.md`](../../good-smile/nendoroid/CLAUDE.md)).
+If curating one, add it as its own sibling line under `funko/` (e.g.
+`figures/funko/pop-rides/`), not folded into this directory's
 numbering.
 
 ## Collection records

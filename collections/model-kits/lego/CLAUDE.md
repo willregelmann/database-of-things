@@ -12,9 +12,9 @@ adding other non-kit product types here.
 **LEGO Minifigures (the "Collectible Minifigures" blind-bag line) — an open
 judgment call, not yet decided.** This standalone numbered series (one
 random figure per bag, no set/box identity) is arguably closer to
-`collectible-figures/` than to a themed building set — the same kind of call
+`figures/` than to a themed building set — the same kind of call
 already made for Power Rangers (see
-[`../../collectible-figures/power-rangers/CLAUDE.md`](../../collectible-figures/power-rangers/CLAUDE.md)),
+[`../../figures/bandai/power-rangers/CLAUDE.md`](../../figures/bandai/power-rangers/CLAUDE.md)),
 just in the opposite direction. Don't default to filing it under `lego/`
 just because it's LEGO-branded — decide explicitly (and document the
 reasoning here) when that line actually gets curated. Nothing for it exists
