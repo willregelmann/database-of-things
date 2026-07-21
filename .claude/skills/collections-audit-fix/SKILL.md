@@ -94,16 +94,19 @@ dimensions, just without the fix step.
    - **Content completeness/accuracy** — are this collection's *direct*
      children (via `list_items`/`list_collections`, drilling into
      `get_item_details` as needed) complete and correct per an authoritative
-     source? Spot-check rather than exhaustively re-verify *existing*
-     items in a large collection — but if you find a genuine, well-sourced
-     **completeness** gap (missing items, not just a wrong field), populate
-     the whole gap, not just one token entry. A PR is reviewed before it
-     merges either way, so a large well-sourced batch costs the same as a
-     small one if you're right, and is just as cheap to reject if you're
-     not — restraint here isn't protecting anything. Every individual item
-     in the batch still needs the same per-item sourcing rigor as a
-     one-off fix; "there are many of them" is never a reason to skip
-     verifying one.
+     source? Check every direct child, not a sample — "one collection per
+     run" is what keeps this bounded (see "One level only" below), not
+     "a few items within it." A bug that repeats identically across every
+     sibling item (e.g. a whole expansion sharing one wrong release date)
+     is exactly the kind of thing a partial pass would miss entirely. If
+     you find a genuine, well-sourced **completeness** gap (missing items,
+     not just a wrong field), populate the whole gap, not just one token
+     entry. A PR is reviewed before it merges either way, so a large
+     well-sourced batch costs the same as a small one if you're right, and
+     is just as cheap to reject if you're not — restraint here isn't
+     protecting anything. Every individual item in the batch still needs
+     the same per-item sourcing rigor as a one-off fix; "there are many of
+     them" is never a reason to skip verifying one.
 5. For each finding that's well-sourced:
    - **Fixable within the tool surface** (a wrong/missing field value, a
      missing item, a missing component in an existing bucket, a missing
