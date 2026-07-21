@@ -2,10 +2,7 @@ id: 9d635616-64ce-4347-bcd1-f233d4bd170b
 name: Indy
 type: figure
 attributes:
-  pack_name: Indy & Salad
-  pack_type: Story Starter
-  accessory: Salad
-  manufacturer: Moose Toys Pty Ltd
+  variant: Salad
+  manufacturer: "Moose Toys Pty Ltd"
 image:
-  source_url: >-
-    https://www.ilovecharacters.com/cdn/shop/products/11f28590-b770-57b7-8a1d-cf54884b8cc6_1800x1800.png
+  source_url: https://www.ilovecharacters.com/cdn/shop/products/11f28590-b770-57b7-8a1d-cf54884b8cc6_1800x1800.png

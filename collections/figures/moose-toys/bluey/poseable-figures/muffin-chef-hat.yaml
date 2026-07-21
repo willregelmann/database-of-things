@@ -2,10 +2,7 @@ id: f6334a50-1353-49b6-987a-f8fc51b3fcf8
 name: Muffin
 type: figure
 attributes:
-  pack_name: Muffin & Chef Hat
-  pack_type: Story Starter
-  accessory: Chef Hat
-  manufacturer: Moose Toys Pty Ltd
+  variant: Chef Hat
+  manufacturer: "Moose Toys Pty Ltd"
 image:
-  source_url: >-
-    https://www.maziply.com/cdn/shop/files/bluey-muffin-and-chef-hat-story-starter-figure-series-7-main.jpg
+  source_url: https://www.maziply.com/cdn/shop/files/bluey-muffin-and-chef-hat-story-starter-figure-series-7-main.jpg

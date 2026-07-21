@@ -3,21 +3,9 @@
   "title": "Bluey Poseable Figures attributes",
   "type": "object",
   "properties": {
-    "pack_name": {
+    "variant": {
       "type": "string",
-      "description": "The pack's own marketed name, e.g. \"Bluey & Family Figure 4-Pack\" or \"Bandit & Unicorse\"."
-    },
-    "pack_type": {
-      "type": "string",
-      "enum": ["Multi-Pack", "Story Starter"]
-    },
-    "accessory": {
-      "type": "string",
-      "description": "Included accessory, for Story Starter packs (e.g. \"Unicorse\", \"Crown\")."
-    },
-    "series": {
-      "type": "string",
-      "description": "Moose Toys release-wave label, e.g. \"S11\" — not every pack is labeled."
+      "description": "What distinguishes this sculpt from the character's plain poseable figure — a costume, a held/worn prop, or a distinct sculpted expression, e.g. \"Vampire Costume\", \"Fishing Hat\", \"Silly Expression\". Omit entirely for the character's plain/default sculpt."
     },
     "manufacturer": { "type": "string" }
   },

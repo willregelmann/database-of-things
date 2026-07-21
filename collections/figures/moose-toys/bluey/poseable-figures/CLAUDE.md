@@ -4,71 +4,71 @@
 
 Fully articulated (moving arms and torso) figures, roughly 2.5-3" tall —
 larger and more detailed than the hard-plastic Mini Figures (see
-[`../mini-figures/CLAUDE.md`](../mini-figures/CLAUDE.md)). Sold in two kinds
-of pack, both using the same figure scale:
+[`../mini-figures/CLAUDE.md`](../mini-figures/CLAUDE.md)).
 
-- **Multi-packs** — several named figures together, e.g. the "Bluey &
-  Family Figure 4-Pack" (Bluey, Bingo, Bandit, Chilli) or themed 2-Packs
-  ("Pool Time", "Grannies").
-- **Story Starter packs** — a single figure plus one episode-themed
-  accessory (e.g. "Bandit & Unicorse", "Muffin & Crown") and a mini postcard
-  from the show.
+## The figure is the collectible, not the retail pack
 
-Record which via `attributes.pack_type`.
+Moose Toys sells these figures bundled — named multi-packs ("Bluey & Family
+Figure 4-Pack") and single-figure "Story Starter" packs (a figure plus one
+episode-themed prop and a mini postcard) — but **the pack box is retail
+packaging, not a collectible in its own right**: owning every figure from a
+multi-pack loose is the same as owning the multi-pack. Don't catalog the
+pack as a `type: pack` item with the figures filed as its `components`.
+Instead, catalog each figure directly as its own plain `type: figure` item
+sitting flat in this directory — the same way Pokémon TCG catalogs
+individual cards, not sealed booster boxes.
 
-## Directory shape
+**One collectible per visually distinct sculpt, not per pack appearance.**
+A character reappears across many multi-packs wearing its plain everyday
+look — that's one figure, filed once, regardless of how many different
+packs happened to include it. A character with a costume, a held/worn prop
+that's part of the sculpted pose, or a distinctly different sculpted
+expression is a *different* collectible and gets its own entry — record
+what makes it different in `attributes.variant`
+(e.g. `"Vampire Costume"`, `"Fishing Hat"`, `"Silly Expression"`). Leave
+`attributes.variant` off entirely for a character's plain/default sculpt.
 
-A multi-pack's box is the collectible unit — it's an **item** (`type:
-pack`), not a collection, even though several figures ship inside it:
-owning every figure from a pack loose doesn't mean owning the pack. Each
-figure inside is a **component** (see root
-[`collections/CLAUDE.md`](../../../../CLAUDE.md), "Components"), filed in the
-`_figures/` bucket sitting alongside the pack items, and referenced from the
-pack's own `components` field:
+**A loose, unattached accessory sitting in its own blister-tray cavity does
+not make a figure distinct** — only a costume/prop actually worn or held by
+the sculpt itself counts. E.g. Bluey & Bingo's Pool Time 2-Pack includes two
+loose swim-goggle pairs neither figure is shown wearing — both figures stay
+their plain sculpt, no `variant`. Check the pack's own product photo before
+deciding; don't infer a costume from a pack's marketing name alone (a pack
+themed "Doctor Checkup" turned out to bundle unworn props with two
+plain-sculpt figures, not costumed ones).
 
-```
-poseable-figures/
-  CLAUDE.md
-  template.schema.json
-  _collection.yaml
-  _figures/                       # components bucket — no _collection.yaml
-    template.schema.json           # figure-specific attributes (accessory)
-    family-4-pack-bluey.yaml
-    family-4-pack-bingo.yaml
-    ...
-  family-4-pack.yaml               # type: pack, components: [...]
-  bandit-unicorse.yaml             # Story Starter — still a plain item
-```
-
-Fields that describe the pack as a whole (`attributes.manufacturer`,
-`attributes.series`) live on the pack item; fields that vary per figure
-(`attributes.accessory` — a costume/prop specific to that sculpt) live on
-the figure component. Don't duplicate `attributes.pack_name`/`pack_type`
-onto components — the pack item's own `name` and `type: pack` already say
-that; `image` isn't duplicated onto components either unless a figure
-genuinely has its own distinguishing photo (rare — most releases only have
-one photo, of the whole pack).
-
-A Story Starter pack contains exactly one figure — the pack *is* the
-figure, so it stays a single plain item (`type: figure`, named for the
-character, e.g. `bandit-unicorse.yaml`) rather than being split into a
-pack item plus a one-entry `_figures/` component. Don't retrofit this
-split onto Story Starters.
-
-## No printed catalog number
-
-Neither pack type prints a collector/catalog number — identify by the
-pack's own marketed name (the pack item's `name`, e.g. `"Bluey & Family
-Figure 4-Pack"`, or `attributes.pack_name` for a Story Starter, e.g.
-`"Bandit & Unicorse"`) plus the character(s) depicted. Retailer SKUs
-(Amazon/Target item numbers) are not Moose Toys catalog numbers — don't
-record them as `attributes.number`.
+Story Starters are simpler to judge — the single included prop (a plush toy,
+a crown, a hay bale) is always what the figure is shown holding/using, so
+it's always worth its own `variant` entry, even for a character that
+otherwise has no other costumed variants.
 
 ## Naming files
 
-Multi-pack: slugified pack name directly under `poseable-figures/` (e.g.
-`family-4-pack.yaml`), with each figure inside filed at
-`_figures/<pack-slug>-<character-slug>.yaml` (e.g.
-`_figures/family-4-pack-bluey.yaml`) — the pack-slug prefix disambiguates
-the same character recurring across many packs' buckets. Story Starter:
-slugified pack name directly (`bandit-unicorse.yaml`).
+`<character-slug>.yaml` for a character's plain sculpt (e.g. `bluey.yaml`).
+`<character-slug>-<variant-slug>.yaml` for a distinct variant (e.g.
+`bluey-vampire-costume.yaml`, `bluey-hay-bale.yaml`). Don't file the same
+character+variant combination twice even if it recurs across multiple packs
+— treat a recurring sculpt as one entry, not one per pack it shipped in.
+
+A few named characters (`Baby Bluey`, `Young Bandit`, `Young Chilli`) are
+distinct enough in the source material that they get their own `name`
+rather than being modeled as a "variant" of the adult character — keep
+following that precedent rather than retrofitting them under
+`attributes.variant`.
+
+## No printed catalog number
+
+Neither pack type prints a collector/catalog number — identify a figure by
+character name plus its `attributes.variant` description. Retailer SKUs
+(Amazon/Target item numbers) are not Moose Toys catalog numbers — don't
+record them as `attributes.number`.
+
+## Images
+
+Many figures — especially plain sculpts and multi-figure variants — have no
+photo of themselves alone; the only available source is the shared pack
+product photo. That's fine per the retailer/marketplace-photo fallback
+documented in [`docs/primitives/ITEM.md`](../../../../../docs/primitives/ITEM.md)
+as long as the photo genuinely shows that figure's own appearance clearly —
+don't use a pack photo where the figure in question isn't identifiable
+within it.
