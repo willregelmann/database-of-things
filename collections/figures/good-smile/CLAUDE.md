@@ -7,8 +7,9 @@ per product line. Curated so far:
 
 - [`nendoroid/`](nendoroid/CLAUDE.md) — poseable chibi-style figures, one
   continuous catalog number since 2006.
-- `figma/` — poseable action figures (Max Factory, a Good Smile subsidiary
-  listed under the Good Smile Company storefront). Not yet curated.
+- [`figma/`](figma/CLAUDE.md) — highly articulated action figures (Max
+  Factory, a Good Smile subsidiary listed under the Good Smile Company
+  storefront), one continuous number since 2008.
 
 figma is placed here rather than under its manufacturing subsidiary Max
 Factory because Good Smile Company is the customer-facing brand that presents
