@@ -1,10 +1,10 @@
 id: f54b8a96-c1a6-4351-ab83-7aa77371c7ef
-name: Mimikyu & Pumpkaboo
+name: Mimikyu & Phantump
 type: figure
 attributes:
   manufacturer: Re-Ment
   pokemon:
     - Mimikyu
-    - Pumpkaboo
+    - Phantump
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1439269027.jpg
