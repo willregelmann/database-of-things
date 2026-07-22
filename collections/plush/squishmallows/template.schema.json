@@ -9,7 +9,7 @@
     "manufacturer": { "type": "string" },
     "rarity": {
       "type": "string",
-      "enum": ["Rare", "Ultra Rare", "Special Edition", "Select Series", "Founders Edition"]
+      "enum": ["Rare", "Ultra Rare", "Special Edition", "Select Series", "Founders Edition", "Check-In Series"]
     },
     "exclusive_to": { "type": "string" },
     "squishdate": { "type": "string" }
