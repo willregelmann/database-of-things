@@ -1,7 +1,7 @@
 id: 33bdb90e-534a-43b6-b240-5cbe2d050d0d
-name: Batman #3
+name: "Batman #3"
 type: issue
-date: "1940-09"
+date: 1940-09
 attributes:
   number: "3"
   writer: Bill Finger
