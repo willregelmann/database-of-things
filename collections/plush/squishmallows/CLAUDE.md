@@ -35,12 +35,29 @@ the same way Funko Pop Rides/Town/Moments/Albums are siblings of
 Squishmallows' own "Rarity Scale" (Rare, Ultra Rare, Special Edition, Select
 Series, Check-In Series, Founders Edition) is a tag-color/distribution
 classification, not a numbering restart by itself — record it via
-`attributes.rarity`, not a directory split. **Except**: some sources describe
-Check-In Series as also restarting its own Collector Number sequence, which
-would make it a numbering sub-line like Fuzz-A-Mallows rather than a plain
-rarity tag. This wasn't independently confirmed — verify against the hangtag
-or a fan database before filing a Check-In Series item, and treat it as its
-own collection (not this directory) if it does turn out to restart numbering.
+`attributes.rarity`, not a directory split.
+
+**Check-In Series is a mixed bag — verified against ~46 characters across
+every venue squad (Canada's Wonderland, Carowinds, Cedar Point, Kings
+Island, SDCC) via the Fandom wiki's own character infoboxes.** Most
+Check-In-tagged characters carry perfectly ordinary numbers in this
+directory's own continuous sequence (Joe #2881, Toro #2671, Odion #1705,
+Aaron #2608, Stacy #299, etc.) — file these here with `attributes.rarity:
+Check-In Series`, same as any other rarity tag, no restart involved. A
+secondary source (squishlovers.com) claims the whole line restarts its own
+numbering, but that only holds for a real, distinct minority: a handful of
+characters carry a genuinely separate `SCI #N`-style number instead of (or
+alongside) their normal one — Connor's SDCC 2022 variant (`SCI #10`),
+Behemoth (`SCI #23`), Leviathan (`SCI #24`), and three using an
+inconsistent `SCI12 #N` variant of the format (Yukon Striker `#25`,
+Guardian `#28`, The Fly `#29`). No confirmed starting point (`SCI #1`) or
+complete list exists for this subset, and most Cedar Point/Kings Island
+characters have no documented number at all yet — too thin to scaffold a
+sibling collection on. **Don't file an item under a bare `SCI #N` number in
+this directory** (it isn't part of this sequence) — if you find one, note
+it and hold off rather than guessing where it belongs; this is a real but
+still-open sourcing gap, not a settled sub-line the way Fuzz-A-Mallows and
+Squish-Doos are.
 
 ## Manufacturer
 
@@ -63,9 +80,10 @@ way Funko's variant suffix does.
 
 **Collector Number is not globally unique across all of Squishmallows** —
 only within this directory's scope (the standard line + licensed collabs).
-Fuzz-A-Mallows, Squish-Doos, and possibly Check-In Series each restart their
-own sequence (see above) — always confirm which sub-line a number belongs to
-before treating it as this directory's own.
+Fuzz-A-Mallows and Squish-Doos each restart their own sequence, and a
+minority of Check-In Series items carry a separate `SCI #N`-style number
+too (see above) — always confirm which sub-line a number belongs to before
+treating it as this directory's own.
 
 Licensed characters (Pokémon, Disney, Sanrio, etc.) don't get a
 **Squishdate** (the MM.DD.YYYY design-finalization date Kellytoy/Jazwares
