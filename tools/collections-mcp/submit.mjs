@@ -11,7 +11,7 @@ import { readAll, clear } from './lib/changelog.mjs';
 // of entries always produces the same output.
 
 const DRY_RUN = process.argv.includes('--dry-run');
-const FLAG_LABEL = 'audit-finding';
+const AUDIT_LABEL = 'audit-finding';
 
 function git(args) {
   return execFileSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
@@ -155,7 +155,7 @@ if (changes.length > 0) {
       git(['add', ...paths]);
       git(['commit', '-m', `${title}\n\n${body}`]);
       git(['push', '-u', 'origin', branch]);
-      const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch], {
+      const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch, '--label', AUDIT_LABEL], {
         cwd: REPO_ROOT,
         encoding: 'utf8',
       }).trim();
@@ -178,7 +178,7 @@ for (const flag of flags) {
   if (!DRY_RUN) {
     const issueUrl = execFileSync(
       'gh',
-      ['issue', 'create', '--title', title, '--body', body, '--label', FLAG_LABEL],
+      ['issue', 'create', '--title', title, '--body', body, '--label', AUDIT_LABEL],
       { cwd: REPO_ROOT, encoding: 'utf8' }
     ).trim();
     console.log(`opened: ${issueUrl}`);
