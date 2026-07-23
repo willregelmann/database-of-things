@@ -552,15 +552,17 @@ every single card in the live API — the same total-set gap pattern as
 Prismatic Evolutions, just recurring across two full sets in the same
 series.** Omit the illustrator field throughout both, per precedent.
 
-**No Mega Evolution-era promo line exists yet — don't fabricate a
-partial one.** Bulbapedia's Rarity page prose references an "MEP Black
-Star Promos" line with named examples (`Mega Charizard X ex`, `Mega
-Lucario ex`), but neither the Pokémon TCG API (no `mep`-style set id in
-`/v2/sets`) nor Bulbapedia itself (the checklist page doesn't exist yet)
-have a usable card list. This is different from the SWSH/SVP promo gaps
-— those had a *partial* real dataset to catalogue faithfully; this has
-*no* dataset at all yet. Left unfiled as a documented future task rather
-than reconstructed from a couple of named examples.
+**The Mega Evolution-era promo line (`mega-evolution-series/promos/`,
+"MEP Black Star Promos") is catalogued, sourced from Bulbapedia's own
+checklist page rather than the API** (`MEP_Black_Star_Promos_(TCG)`,
+plus individual card pages) since the Pokémon TCG API has no `mep`-style
+set id. Numbered `001`-`110` with no printed denominator (three-digit
+zero-padded, e.g. `mep030-mega-charizard-y-ex.yaml`), plus one unnumbered
+jumbo promo ("Pikachu at the Museum", filed without a number prefix or
+`attributes.number` at all). An ongoing, still-active line, not a closed
+checklist — like other promo lines in this category, cards stay at
+year-only `date` precision until each gets its own individually-sourced
+date.
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
