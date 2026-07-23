@@ -60,9 +60,12 @@ Mighty Morphin's `2222`/`2301`/`2307` gift/collector sets were handled.
   unconfirmed there ("????"). Excluded per the same policy as Mighty
   Morphin's unreleased items.
 
-## Known gap
+## Zord Morphin Zeo Rangers — only three ever released
 
-The "Zord Morphin Zeo Rangers" assortment (`2703`) only turned up 3 items
-(Zeo Rangers III/IV/V) against a case count of 12 — Zeo Ranger I, II, and
-possibly a Gold Ranger version likely exist but weren't found in the
-sourcing pass that populated this line. Revisit and fill in if found.
+The "Zord Morphin Zeo Rangers" assortment (`2703`) case count of 12 reflects
+multiple units of the same 3 SKUs, not 12 distinct figures — confirmed via
+grnrngr.com, thetoycollectorsguide.com, and multiple independent
+retailer/collector listings: only Zeo Rangers III, IV, and V (`2704`-`2706`,
+already filed here) were ever released as Zord Morphin figures. No Zeo
+Ranger I, II, or Gold Ranger version exists in this assortment — this line
+is already complete for it, don't go looking for more.
