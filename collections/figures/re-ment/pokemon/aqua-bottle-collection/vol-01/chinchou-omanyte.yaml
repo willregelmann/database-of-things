@@ -1,10 +1,10 @@
 id: 127d58d1-e915-41fa-883f-c60e1d295484
-name: Chinchou & Omastar
+name: Chinchou & Omanyte
 type: figure
 attributes:
   manufacturer: Re-Ment
   pokemon:
     - Chinchou
-    - Omastar
+    - Omanyte
 image:
   source_url: https://www.re-ment.co.jp/data/photo/product/t/1003551389.jpg
