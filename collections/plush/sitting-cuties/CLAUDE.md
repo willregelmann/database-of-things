@@ -23,6 +23,7 @@ releases. Known series so far:
 | 5      | Sinnoh  | IV         | 121   | 2021-11-19    | Burmy/Wormadam ×3 cloaks each, Shellos/Gastrodon ×2, Cherrim ×2, Rotom ×6, Giratina ×2, Shaymin ×2 (107 species + 14) |
 | 6      | Unova   | V          | 174   | 2023-01-14    | Basculin/Darmanitan/Meloetta/Keldeo ×2 each, Deerling/Sawsbuck ×4 seasons each, Kyurem ×3, gender pairs (Unfezant/Frillish/Jellicent), Incarnate/Therian ×2 (Tornadus/Thundurus/Landorus) (156 species + 18) |
 | 7      | Kalos   | VI         | 107   | 2024-06-15    | Vivillon ×20 patterns, Furfrou ×10 trims, Pyroar/Meowstic gender pairs, Aegislash ×2, Zygarde ×4, Hoopa ×2 (72 species + 35) |
+| 8      | Alola   | VII        | 116   | 2025-05-08    | Alolan forms for 18 Kanto species, Oricorio ×4 styles, Lycanroc ×3 forms, Wishiwashi ×2 forms, Type: Null/Silvally, Minior (Meteor + one core color), Mimikyu ×2 forms, Necrozma ×4 forms (base/Dusk Mane/Dawn Wings/Ultra), Marshadow ×2 (base/Zenith) |
 
 Every series above has been fully filed and cross-checked against at least
 two independent sources (Bulbapedia's `Sitting_Cuties/<Region>` subpage plus
