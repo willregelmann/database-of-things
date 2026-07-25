@@ -5,18 +5,26 @@ description: Add or edit entities/collections in the new file-based collections/
 
 # Collections Curate
 
-Maintains `collections/` — the file-based source of truth described in
-`docs/dbot-target-architecture.md`. This is the tooling a curator (human or AI)
-uses to add or edit entries, not a way to write to the live Supabase database
-directly (there's no sync job yet — see Phase 2 in that doc).
+Maintains `collections/` — the file-based source of truth. Its format and the
+primitives it's built from are documented in
+[`collections/README.md`](../../../collections/README.md) and
+[`docs/primitives/`](../../../docs/primitives/) (`COLLECTION.md`, `ITEM.md`,
+`COMPONENT.md`, `TAG.md`). This is the tooling a curator (human or AI) uses to
+add or edit entries.
+
+There is no database behind this repo. An earlier design kept the catalog in
+Supabase with the files as an export target; that was retired, and the files
+are now the only source of truth — curation *is* opening a pull request.
 
 ## Hard rules
 
-- **Never write to Supabase from this skill.** Output is files under `collections/`
-  only.
+- **Output is files under `collections/` and `tags/`, nothing else.** No live
+  service, no database, no external write of any kind.
 - **Never push or open a PR without the user confirming first.** This repo has
   not been granted git autonomy — always ask before `git push` or
-  `gh pr create`.
+  `gh pr create`. (The one scoped exception is the `collections-audit-review`
+  skill, which may merge the audit job's own `audit-finding` PRs; it does not
+  extend to this skill.)
 - **Always run the validator before considering a change done.**
 
 ## Workflow: add an entity to an existing collection
@@ -85,5 +93,5 @@ violations in `attributes`.
 - [ ] Read the applicable `CLAUDE.md` before naming/structuring anything
 - [ ] Generated a fresh UUID for any new entity — never reused or hand-picked
 - [ ] Ran the validator and it passed
-- [ ] Did not write to Supabase or any live service
+- [ ] Wrote only files under `collections/`/`tags/` — no live service
 - [ ] Did not push or open a PR without asking the user first
