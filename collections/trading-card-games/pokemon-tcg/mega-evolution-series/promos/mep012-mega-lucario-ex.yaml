@@ -5,5 +5,7 @@ date: "2025"
 attributes:
   number: "012"
   rarity: Promo
+  illustrator: 5ban Graphics
 image:
-  source_url: https://images.pokemontcg.io/me1/77_hires.png
+  source_url: >-
+    https://archives.bulbagarden.net/wiki/Special:FilePath/MegaLucarioexMEPPromo12.jpg
