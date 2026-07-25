@@ -15,6 +15,7 @@ const ajv = new Ajv({ allErrors: true, strict: false });
 const seenIds = new Map(); // id -> { filePath, type }
 const componentRefs = []; // { filePath, id }
 const tagRefs = []; // { filePath, id }
+const entities = []; // { filePath, dir, isCollection, tags } — for the cross-cutting tag pass
 const errors = [];
 
 function rel(p) {
@@ -128,6 +129,15 @@ function walk(dir, inherited) {
     const data = yaml.load(fs.readFileSync(filePath, 'utf8'));
     validateEntityStructure(filePath, data);
 
+    entities.push({
+      filePath,
+      dir,
+      isCollection: f === '_collection.yaml',
+      tags: Array.isArray(data && data.tags)
+        ? data.tags.filter((t) => typeof t === 'string').map((t) => t.toLowerCase())
+        : [],
+    });
+
     if (f === '_collection.yaml') {
       if (data && data.type !== 'collection') {
         errors.push(`${rel(filePath)}: _collection.yaml must have type: collection`);
@@ -170,6 +180,98 @@ for (const { filePath, id } of tagRefs) {
   } else if (entity.type !== 'tag') {
     errors.push(`${rel(filePath)}: "tags" entry ${id} resolves to a ${entity.type}, not a tag (${rel(entity.filePath)})`);
   }
+}
+
+// ---------------------------------------------------------------------------
+// Cross-cutting tag invariants.
+//
+// Referential integrity (above) was never the part that rotted. What rotted
+// was *coverage*: the tag namespace was populated during one line's curation
+// pass and never applied anywhere else, so for months a franchise search
+// resolved ~22,000 Pokémon items down to the 76 that happened to be Funko
+// Pops. Nothing here failed, because nothing here was checked.
+// ---------------------------------------------------------------------------
+
+const collectionTags = new Map(); // dir -> lowercased tag ids on its _collection.yaml
+for (const e of entities) {
+  if (e.isCollection) collectionTags.set(e.dir, e.tags);
+}
+
+/** Walks from `start` up to the repo root, yielding each collection directory. */
+function* ancestryFrom(start) {
+  let cur = start;
+  while (cur.startsWith(COLLECTIONS_ROOT) || cur.startsWith(TAGS_ROOT)) {
+    yield cur;
+    cur = path.dirname(cur);
+  }
+}
+
+// A tag an ancestor collection already carries is a restatement of the
+// hierarchy, not new information — see collections/CLAUDE.md ("Tags"):
+// "Don't tag both an item and an ancestor collection that already carries
+// the same franchise — that duplicate *is* the restatement to avoid."
+for (const e of entities) {
+  if (e.tags.length === 0) continue;
+  // An item's own directory is its parent collection; a collection's own
+  // record obviously doesn't duplicate itself, so start one level up.
+  const start = e.isCollection ? path.dirname(e.dir) : e.dir;
+  for (const dir of ancestryFrom(start)) {
+    const owned = collectionTags.get(dir);
+    if (!owned) continue;
+    for (const t of e.tags) {
+      if (owned.includes(t)) {
+        errors.push(
+          `${rel(e.filePath)}: tag ${t} is already carried by the ancestor collection ${rel(path.join(dir, '_collection.yaml'))} — remove the duplicate (see collections/CLAUDE.md, "Tags")`
+        );
+      }
+    }
+  }
+}
+
+// A tag entity nothing references is dead weight, and more usefully it's the
+// signature of the failure above: the tag got created but never applied.
+const referencedTagIds = new Set(tagRefs.map((r) => r.id));
+for (const [id, info] of seenIds) {
+  if (info.type === 'tag' && !referencedTagIds.has(id)) {
+    errors.push(
+      `${rel(info.filePath)}: tag entity is referenced by nothing — apply it where it belongs, or drop it. Tags are created at first use, not ahead of it (see collections/CLAUDE.md, "Tags").`
+    );
+  }
+}
+
+// Franchise coverage is *reported, not enforced*. Some lines genuinely have
+// no franchise — original-IP plush, a designer brand's own characters — so a
+// hard floor would be wrong here. Printing it on every run is what makes a
+// regression visible in CI output instead of silent.
+const itemEntities = entities.filter((e) => !e.isCollection && e.filePath.startsWith(COLLECTIONS_ROOT));
+const gaps = new Map(); // collection dir -> untagged item count
+let resolvedCount = 0;
+for (const e of itemEntities) {
+  let resolved = e.tags.length > 0;
+  if (!resolved) {
+    for (const dir of ancestryFrom(e.dir)) {
+      const owned = collectionTags.get(dir);
+      if (owned && owned.length > 0) {
+        resolved = true;
+        break;
+      }
+    }
+  }
+  if (resolved) resolvedCount++;
+  else gaps.set(e.dir, (gaps.get(e.dir) || 0) + 1);
+}
+
+if (itemEntities.length > 0) {
+  const pct = ((100 * resolvedCount) / itemEntities.length).toFixed(1);
+  console.log(`tag coverage: ${resolvedCount}/${itemEntities.length} items (${pct}%) resolve a tag from themselves or an ancestor collection`);
+  if (gaps.size > 0) {
+    const sorted = [...gaps.entries()].sort((a, b) => b[1] - a[1]);
+    console.log(`  ${gaps.size} collection(s) hold items with no tag anywhere in their ancestry:`);
+    for (const [dir, n] of sorted.slice(0, 15)) console.log(`    ${n.toString().padStart(5)}  ${rel(dir)}`);
+    if (sorted.length > 15) console.log(`    ... and ${sorted.length - 15} more`);
+    console.log('  (not an error — a line with no franchise is legitimate; check that yours is one)');
+  }
+  console.log('');
 }
 
 if (errors.length > 0) {
