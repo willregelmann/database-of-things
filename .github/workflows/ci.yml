@@ -3,8 +3,12 @@ name: CI
 on:
   push:
     branches: [main]
+  # No `branches:` filter here on purpose. Filtering to [main] meant a stacked
+  # PR — one whose base is another feature branch — got no checks at all, and
+  # GitHub reported it as clean rather than unverified, so it read as passing
+  # when nothing had run. PR #213 reached main that way. Validate every PR
+  # regardless of what it targets; the run is ~30s.
   pull_request:
-    branches: [main]
 
 jobs:
   collections-validate:
