@@ -5,6 +5,7 @@ import { z } from 'zod';
 import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
 import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
+import { append as appendLedger } from './lib/ledger.mjs';
 
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const tagIdField = z
@@ -36,6 +37,15 @@ server.registerTool(
     try {
       if (index.collectionIds.length === 0) throw new Error('no collections found under collections/');
       const collection_id = index.collectionIds[Math.floor(Math.random() * index.collectionIds.length)];
+      // Observational only — see lib/ledger.mjs. The returned value is
+      // unchanged, and nothing downstream reads this.
+      appendLedger({
+        event: 'pick',
+        source: 'mcp',
+        collection_id,
+        path: rel(getCollection(index, collection_id).dir),
+        pool_size: index.collectionIds.length,
+      });
       return text({ collection_id });
     } catch (err) {
       return errorText(err);
