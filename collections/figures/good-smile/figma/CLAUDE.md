@@ -43,10 +43,23 @@ Identify a figure by its **figma number** plus the version, since popular
 characters get multiple figma across re-releases and alternate outfits (each
 version is its own figma number — don't merge them). Record the source work
 in `attributes.origin` (e.g. `The Melancholy of Haruhi Suzumiya`), the same
-way Nendoroid does. Franchise, where it's a genuinely cross-cutting grouping
-with an existing `tags/franchises/` entity, goes in top-level `tags` per the
-family rule (see [`../../CLAUDE.md`](../../CLAUDE.md)) — not in `attributes`;
-most figma need no franchise tag, exactly as Nendoroid items don't.
+way Nendoroid does — that's the **specific work**, and it stays in
+`attributes`.
+
+**Franchise is a separate, coarser axis and always goes in top-level `tags`,
+never in `attributes`** (see [`../../CLAUDE.md`](../../CLAUDE.md)). **Every
+figma gets a franchise tag** — create the `tags/franchises/` entity if one
+doesn't exist yet rather than leaving the figure unsearchable by franchise. A
+franchise that so far appears only here still earns its tag; don't wait for it
+to turn up in a second collection.
+
+The two fields coexist deliberately and often differ: figma 003 is
+`origin: Fate/stay night` under the `Fate` tag, and figma 001/002 are
+`origin: The Melancholy of Haruhi Suzumiya` under the `Haruhi Suzumiya` tag —
+`origin` is what distinguishes works *within* a franchise, the tag is what a
+catalog-wide franchise search resolves against. Where a franchise has only one
+work the two read the same (`Death Note`, `Tsukihime`); that's expected, not a
+duplication to collapse.
 
 Look up the number and metadata rather than guessing — Good Smile's own
 listing (`goodsmile.info`) and [MyFigureCollection](https://myfigurecollection.net/)

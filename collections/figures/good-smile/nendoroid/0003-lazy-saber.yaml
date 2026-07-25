@@ -2,6 +2,8 @@ id: f1e6a10d-cb64-489b-90d7-7b4c6e455cb6
 name: Lazy Saber
 type: figure
 date: "2006"
+tags:
+  - bb15b092-68d0-44e1-b14e-9fe990c35d84   # tags/franchises/fate.yaml
 attributes:
   number: "003"
   origin: Fate/stay night

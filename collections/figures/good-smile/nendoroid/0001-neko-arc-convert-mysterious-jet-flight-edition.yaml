@@ -2,6 +2,8 @@ id: 9a29ac23-4de8-43e0-892f-8201efe0e6b8
 name: "Neko Arc: Convert! Mysterious Jet Flight Edition"
 type: figure
 date: "2006"
+tags:
+  - 6635c7a9-8bac-411b-a080-4b0f8d7764b6   # tags/franchises/tsukihime.yaml
 attributes:
   number: "001"
   origin: Tsukihime

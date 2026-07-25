@@ -2,6 +2,8 @@ id: f98b32da-d217-4455-8e6f-7f3029798df0
 name: Ouka-chan (Complete Offensive Weapons Ver.)
 type: figure
 date: "2007"
+tags:
+  - 70a666c8-e0d6-46ca-8ee9-1427092e6103   # tags/franchises/nitro-wars.yaml
 attributes:
   number: "008"
   origin: Nitro Wars

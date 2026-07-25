@@ -2,6 +2,8 @@ id: 2448c9e6-64a8-4b08-8a60-48564f1caba5
 name: Mesousa
 type: figure
 date: "2006"
+tags:
+  - 443e7f18-510b-4563-87a0-ab33b6f8fc3f   # tags/franchises/pani-poni-dash.yaml
 attributes:
   number: "004"
   origin: Pani Poni Dash!

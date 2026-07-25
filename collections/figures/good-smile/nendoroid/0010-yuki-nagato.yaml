@@ -2,6 +2,8 @@ id: e549a09c-9c28-40bf-9d70-c25acab9b944
 name: Yuki Nagato
 type: figure
 date: "2008"
+tags:
+  - f86c33b3-d3a4-4f1b-a77c-9e08a6b5da9e   # tags/franchises/haruhi-suzumiya.yaml
 attributes:
   number: "010"
   origin: The Melancholy of Haruhi Suzumiya
