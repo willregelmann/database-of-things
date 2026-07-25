@@ -5,3 +5,5 @@ description: >
   Moose Toys' official character figure lines for the Bluey animated series,
   spanning Bluey Fuzzies, Mini Figures, and Poseable Figures. Each is its own
   nested collection with its own format and identification scheme.
+tags:
+  - 997c5b46-a585-4694-87e1-93b315996d30   # tags/franchises/bluey.yaml

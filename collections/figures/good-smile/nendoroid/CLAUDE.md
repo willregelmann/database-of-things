@@ -38,6 +38,24 @@ exactly as Good Smile printed it, don't normalize it away. Prefer the number
 over name matching — many characters get multiple Nendoroids across different
 versions/re-releases, and the number is the reliable disambiguator.
 
+**Source work vs. franchise — two fields, not one.** Record the specific work
+a figure comes from in `attributes.origin` (e.g.
+`origin: The Melancholy of Haruhi Suzumiya`). Record its **franchise** in
+top-level `tags`, never in `attributes` (see
+[`../../../CLAUDE.md`](../../../CLAUDE.md)). **Every Nendoroid gets a franchise
+tag** — since this line is one flat sequence spanning every franchise Good
+Smile has ever licensed, the tag is the *only* thing that makes a figure
+findable by franchise; nothing about its directory position or catalog number
+carries that. Create the `tags/franchises/` entity if one doesn't exist yet
+rather than leaving the figure untagged, even when the franchise appears
+nowhere else in the catalog yet.
+
+The two fields legitimately differ where a franchise spans several works —
+Nendoroids 002/003/005 are `origin: Fate/stay night` under the `Fate` tag,
+009/010 are `origin: The Melancholy of Haruhi Suzumiya` under the
+`Haruhi Suzumiya` tag. Where a franchise has only one work they read the same
+(`Death Note`, `Nitro Wars`); that's expected, not a duplication to collapse.
+
 Look up the number and metadata rather than guessing — Good Smile's own
 listing pages (`goodsmile.info/en/nendoroid<range>`) and
 [MyFigureCollection](https://myfigurecollection.net/) are the authoritative

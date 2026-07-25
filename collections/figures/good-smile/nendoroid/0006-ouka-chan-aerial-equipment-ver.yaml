@@ -2,6 +2,8 @@ id: 21493280-1293-4ccb-a83c-43646a6edafb
 name: Ouka-chan (Aerial Equipment Ver.)
 type: figure
 date: "2007"
+tags:
+  - 70a666c8-e0d6-46ca-8ee9-1427092e6103   # tags/franchises/nitro-wars.yaml
 attributes:
   number: "006"
   origin: Nitro Wars

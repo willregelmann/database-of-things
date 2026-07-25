@@ -2,6 +2,8 @@ id: 968f3c8e-57f5-433c-9b2e-1cc1c0f7857a
 name: "Saber: Armor ver."
 type: figure
 date: "2008"
+tags:
+  - bb15b092-68d0-44e1-b14e-9fe990c35d84   # tags/franchises/fate.yaml
 attributes:
   number: "003"
   origin: Fate/stay night

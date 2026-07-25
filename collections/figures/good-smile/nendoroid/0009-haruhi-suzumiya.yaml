@@ -2,6 +2,8 @@ id: 6f6c6eea-a971-4063-8a73-65087b8c6070
 name: Haruhi Suzumiya
 type: figure
 date: "2007"
+tags:
+  - f86c33b3-d3a4-4f1b-a77c-9e08a6b5da9e   # tags/franchises/haruhi-suzumiya.yaml
 attributes:
   number: "009"
   origin: The Melancholy of Haruhi Suzumiya

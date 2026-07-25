@@ -2,6 +2,8 @@ id: fe51a6f1-dca3-4b2f-be67-15a8b94e03d4
 name: Star Wars
 type: collection
 date: "1999-02-22"
+tags:
+  - 1f8376a1-a0c8-4c8e-b620-bcfef4a07503   # tags/franchises/star-wars.yaml
 description: >
   LEGO's Star Wars theme — officially licensed sets based on the Star Wars film
   and TV franchise, running continuously since 1999.

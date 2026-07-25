@@ -82,10 +82,14 @@ product-line brand:
   manufacturer.** Power Rangers toys were made by Bandai (1993–early 2000s)
   and Hasbro (2019 on), each under its own name. They split into
   `bandai/power-rangers/` and `hasbro/power-rangers/`, reunified by a shared
-  `power-rangers` franchise tag. While only one manufacturer's toys are
-  curated, the tag isn't added yet — the directory already expresses the
-  franchise; the tag earns its place once the second manufacturer's
-  directory exists and the franchise genuinely spans both.
+  `power-rangers` franchise tag. **Tag the franchise from the first
+  manufacturer's directory onward — don't wait for the second one to
+  exist.** The directory does express the franchise, but only to someone
+  already browsing that directory; a franchise search resolves from tags
+  alone (see [`../CLAUDE.md`](../CLAUDE.md#tags)), so an untagged
+  single-manufacturer line is simply invisible to it. Waiting also means the
+  tag has to be retrofitted at exactly the moment the tree is being
+  restructured, which is the worst time to remember it.
 - **Its own unifying brand → stays top-level under that brand.**
   [`firelink/`](firelink/CLAUDE.md) is a licensed label whose products carry
   the "FireLink" brand even though different manufacturers produce different

@@ -158,9 +158,19 @@ and isn't already available some other way:
     the same franchise — that duplicate *is* the restatement to avoid.
 - **Don't duplicate a tag into a structured `attributes` field**, and vice
   versa — pick one home for a given piece of information and search it there.
-- **Don't invent tags for hypothetical future searches.** Add a tag when it
-  reflects a grouping that's real and useful today, not because it might be
-  handy if someone eventually wants to filter by it.
+- **Don't invent tags for hypothetical future searches — except franchise.**
+  For every other kind of tag, add it when it reflects a grouping that's real
+  and useful today, not because it might be handy if someone eventually wants
+  to filter by it. A **franchise** tag is different: create it the first time
+  that franchise appears in the catalog, even when it currently resolves to a
+  single collection or a single item. Gating a franchise tag on whether it
+  already spans two collections makes coverage depend on curation order, and
+  that's not hypothetical — the catalog ran for months with ~22,000 Pokémon
+  items of which only 76 were franchise-searchable, because the tag had only
+  ever been applied in the one line where someone happened to notice it
+  crossing categories. A franchise tag resolving to one collection today
+  isn't speculative; it's the same franchise anyone would search for,
+  recorded once now instead of retrofitted across thousands of files later.
 - **Keep the list short — rarely more than 5 tags on a single entity.** A
   couple of high-value tags beats an exhaustive set of loosely-related
   keywords; if nothing crosses the hierarchy in a useful way, leave `tags`

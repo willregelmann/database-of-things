@@ -2,6 +2,8 @@ id: 1e521988-e976-4ee9-8a13-f5764a490827
 name: Hetare Saber (Limited Ver.)
 type: figure
 date: "2006"
+tags:
+  - bb15b092-68d0-44e1-b14e-9fe990c35d84   # tags/franchises/fate.yaml
 attributes:
   number: "002"
   origin: Fate/stay night
