@@ -5,12 +5,27 @@
   "properties": {
     "format": {
       "type": "string",
-      "enum": ["Vinyl Figure", "Vinyl Plush"]
+      "enum": [
+        "Vinyl Figure",
+        "Vinyl Plush"
+      ]
     },
-    "secret": { "type": "boolean" },
-    "secret_odds": { "type": "string" },
-    "manufacturer": { "type": "string" },
-    "exclusive_to": { "type": "string" }
+    "secret": {
+      "type": "boolean"
+    },
+    "secret_odds": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "exclusive_to": {
+      "type": "string"
+    }
   },
-  "additionalProperties": true
+  "required": [
+    "format",
+    "manufacturer"
+  ],
+  "additionalProperties": false
 }

@@ -8,6 +8,8 @@
       "description": "BrickLink/Brickset minifig catalog number, e.g. \"sw0028\"."
     }
   },
-  "required": ["number"],
-  "additionalProperties": true
+  "required": [
+    "number"
+  ],
+  "additionalProperties": false
 }

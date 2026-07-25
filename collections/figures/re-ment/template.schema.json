@@ -3,11 +3,18 @@
   "title": "Re-Ment attributes",
   "type": "object",
   "properties": {
-    "manufacturer": { "type": "string" },
+    "manufacturer": {
+      "type": "string"
+    },
     "pokemon": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     }
   },
-  "additionalProperties": true
+  "required": [
+    "manufacturer"
+  ],
+  "additionalProperties": false
 }
