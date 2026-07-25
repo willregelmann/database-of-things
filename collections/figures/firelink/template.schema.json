@@ -3,7 +3,12 @@
   "title": "FireLink attributes",
   "type": "object",
   "properties": {
-    "manufacturer": { "type": "string" }
+    "manufacturer": {
+      "type": "string"
+    }
   },
-  "additionalProperties": true
+  "required": [
+    "manufacturer"
+  ],
+  "additionalProperties": false
 }

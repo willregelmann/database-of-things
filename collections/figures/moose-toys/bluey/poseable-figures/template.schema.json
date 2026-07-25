@@ -5,9 +5,14 @@
   "properties": {
     "variant": {
       "type": "string",
-      "description": "What distinguishes this sculpt from the character's plain poseable figure — a costume, a held/worn prop, or a distinct sculpted expression, e.g. \"Vampire Costume\", \"Fishing Hat\", \"Silly Expression\". Omit entirely for the character's plain/default sculpt."
+      "description": "What distinguishes this sculpt from the character's plain poseable figure \u2014 a costume, a held/worn prop, or a distinct sculpted expression, e.g. \"Vampire Costume\", \"Fishing Hat\", \"Silly Expression\". Omit entirely for the character's plain/default sculpt."
     },
-    "manufacturer": { "type": "string" }
+    "manufacturer": {
+      "type": "string"
+    }
   },
-  "additionalProperties": true
+  "required": [
+    "manufacturer"
+  ],
+  "additionalProperties": false
 }

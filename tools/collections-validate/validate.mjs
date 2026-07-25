@@ -146,7 +146,18 @@ function walk(dir, inherited) {
       const valid = schema(data.attributes);
       if (!valid) {
         for (const err of schema.errors) {
-          errors.push(`${rel(filePath)}: attributes${err.instancePath} ${err.message}`);
+          // Ajv's raw text for these two is unactionable at this scale — it
+          // says "must NOT have additional properties" without naming which
+          // one. Name it, and point at the file that decides.
+          let detail;
+          if (err.keyword === 'additionalProperties') {
+            detail = `attributes has undeclared key "${err.params.additionalProperty}" — fix the typo, or declare it in the governing template.schema.json if it genuinely belongs`;
+          } else if (err.keyword === 'required') {
+            detail = `attributes is missing required key "${err.params.missingProperty}"`;
+          } else {
+            detail = `attributes${err.instancePath} ${err.message}`;
+          }
+          errors.push(`${rel(filePath)}: ${detail}`);
         }
       }
     }

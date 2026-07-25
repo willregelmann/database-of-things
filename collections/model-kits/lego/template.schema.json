@@ -16,5 +16,5 @@
       "description": "Number of minifigures included, if any."
     }
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }
