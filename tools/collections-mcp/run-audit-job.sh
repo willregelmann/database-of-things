@@ -42,9 +42,17 @@ MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__
   # merge into and dies, which took the whole job down on 2026-07-20 when
   # this checkout was left on a stray feature branch. Detached HEAD never
   # "claims" a branch, so it can always resync from any prior state.
+  #
+  # `--force` because a plain checkout also aborts when an untracked file here
+  # collides with one that main has since started tracking -- and it aborts
+  # even when the contents are byte-identical. `.mcp.json` hit exactly this:
+  # it lived untracked in this checkout until it was committed upstream, which
+  # would have failed every tick from then on. --force overwrites only the
+  # colliding path; unrelated untracked/ignored files (.changelog.json,
+  # audit-ledger.jsonl) are left alone, which is what this step wants anyway.
   echo "--- syncing checkout with origin/main ---"
   git fetch origin main
-  git checkout --detach origin/main
+  git checkout --detach --force origin/main
 
   set +e
   claude -p "/collections-audit-fix" \

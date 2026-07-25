@@ -52,7 +52,16 @@ Thumbs.db
 
 docs/plans/
 
-.mcp.json
+# .mcp.json is deliberately NOT ignored. It declares the collections-mcp server
+# that `tools/collections-mcp/run-audit-job.sh` passes to `claude -p
+# --strict-mcp-config`, so it defines the entire tool surface the autonomous
+# audit job is allowed to touch collections/ through. Ignoring it meant a fresh
+# clone couldn't run the job at all, and that the file governing an agent's
+# write access wasn't versioned or reviewable.
+#
+# It contains no credentials today and must stay that way: if an MCP server
+# added here ever needs a token, pass it via the environment rather than
+# inlining it, or this file goes back to being unsafe to commit.
 
 *.env
 
