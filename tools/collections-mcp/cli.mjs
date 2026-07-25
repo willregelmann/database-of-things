@@ -7,6 +7,7 @@
 import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
 import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
+import { append as appendLedger } from './lib/ledger.mjs';
 import fs from 'node:fs';
 
 const [, , cmd, ...rest] = process.argv;
@@ -27,6 +28,15 @@ try {
     case 'choose-random-collection': {
       if (index.collectionIds.length === 0) throw new Error('no collections found');
       const collection_id = index.collectionIds[Math.floor(Math.random() * index.collectionIds.length)];
+      // Instrumented here too — otherwise CLI-driven runs are invisible in the
+      // ledger and the sampling stats silently under-count.
+      appendLedger({
+        event: 'pick',
+        source: 'cli',
+        collection_id,
+        path: rel(getCollection(index, collection_id).dir),
+        pool_size: index.collectionIds.length,
+      });
       out({ collection_id });
       break;
     }

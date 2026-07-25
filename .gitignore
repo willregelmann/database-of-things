@@ -58,3 +58,9 @@ docs/plans/
 
 # collections-mcp per-run changelog (read by submit.mjs, never committed)
 tools/collections-mcp/.changelog.json
+
+# collections-mcp audit ledger — observational record of what the audit loop
+# picked and what came of it. Local to whichever checkout runs the job; see
+# lib/ledger.mjs for why it isn't committed (a file rewritten every run would
+# conflict between concurrent audit PRs and jam the review cron).
+tools/collections-mcp/audit-ledger.jsonl

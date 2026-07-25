@@ -4,6 +4,22 @@ import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { REPO_ROOT, COLLECTIONS_ROOT, buildIndex, getCollection } from './lib/repo.mjs';
 import { readAll, clear } from './lib/changelog.mjs';
+import { append as appendLedger, lastPick } from './lib/ledger.mjs';
+
+// Attributes this run's outcome to whichever collection the session picked.
+// Observational only — see lib/ledger.mjs. Never allowed to change control
+// flow: every call site is fire-and-forget, and append() itself can't throw.
+function recordOutcome(result, extra = {}) {
+  const pick = lastPick();
+  appendLedger({
+    event: 'outcome',
+    result, // 'pr' | 'issue' | 'both' | 'none'
+    collection_id: pick ? pick.collection_id : null,
+    path: pick ? pick.path : null,
+    dry_run: DRY_RUN,
+    ...extra,
+  });
+}
 
 // Deterministic post-session pipeline: no LLM judgment involved past this
 // point. The PR title/body (for upserts) and issue title/body (for flagged
@@ -120,6 +136,9 @@ const entries = readAll();
 const rawChanges = entries.filter((e) => e.kind === 'item' || e.kind === 'component' || e.kind === 'collection' || e.kind === 'rename');
 const flags = entries.filter((e) => e.kind === 'flag');
 
+let prUrl = null;
+const issueUrls = [];
+
 const changes = rawChanges.filter((e) => fs.existsSync(path.join(REPO_ROOT, survivingPath(e))));
 const stale = rawChanges.filter((e) => !fs.existsSync(path.join(REPO_ROOT, survivingPath(e))));
 for (const e of stale) {
@@ -128,6 +147,9 @@ for (const e of stale) {
 
 if (entries.length === 0) {
   console.log('no changelog entries — nothing to submit');
+  // The single most important case to record: ~2/3 of runs end here, and
+  // until now they left no trace of which collection was even looked at.
+  recordOutcome('none');
   process.exit(0);
 }
 
@@ -155,7 +177,7 @@ if (changes.length > 0) {
       git(['add', ...paths]);
       git(['commit', '-m', `${title}\n\n${body}`]);
       git(['push', '-u', 'origin', branch]);
-      const prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch, '--label', AUDIT_LABEL], {
+      prUrl = execFileSync('gh', ['pr', 'create', '--title', title, '--body', body, '--head', branch, '--label', AUDIT_LABEL], {
         cwd: REPO_ROOT,
         encoding: 'utf8',
       }).trim();
@@ -181,9 +203,21 @@ for (const flag of flags) {
       ['issue', 'create', '--title', title, '--body', body, '--label', AUDIT_LABEL],
       { cwd: REPO_ROOT, encoding: 'utf8' }
     ).trim();
+    issueUrls.push(issueUrl);
     console.log(`opened: ${issueUrl}`);
   }
 }
+
+recordOutcome(changes.length > 0 ? (flags.length > 0 ? 'both' : 'pr') : 'issue', {
+  changes: changes.length,
+  created: changes.filter((e) => e.action === 'create').length,
+  updated: changes.filter((e) => e.action === 'update').length,
+  renamed: changes.filter((e) => e.kind === 'rename').length,
+  stale_skipped: stale.length,
+  flags: flags.length,
+  pr: prUrl,
+  issues: issueUrls,
+});
 
 if (!DRY_RUN) {
   clear();
