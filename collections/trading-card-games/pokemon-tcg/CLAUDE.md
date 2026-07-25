@@ -484,9 +484,11 @@ textually distinct from the older title-case `Rare Ace`), `Shiny Rare`
 and `Shiny Ultra Rare` (Paldean Fates' Shiny Vault subset only, hollow
 gold star / two hollow gold stars), and `Black White Rare` (monochrome
 foil, verified via web search rather than the Rarity page itself since
-it's new enough not to be documented there yet — exactly 2 cards exist
-across the whole series: Zekrom ex in Black Bolt and Reshiram ex in
-White Flare).
+it's new enough not to be documented there yet — at least 4 cards exist
+across the whole series so far: Zekrom ex in Black Bolt, Reshiram ex in
+White Flare, and a Victini secret promo in each set (#171 in Black Bolt,
+#172 in White Flare) — don't assume this count is exhaustive, it's grown
+before).
 
 **SV era needs no sub-checklist folding at all — a real simplification
 vs. SWSH.** Every mainline set's card numbers are plain `<n>/<printed
