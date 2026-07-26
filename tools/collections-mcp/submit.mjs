@@ -113,6 +113,34 @@ function buildPr(changes) {
   return { title, body };
 }
 
+/**
+ * Open `audit-finding` issues, keyed by the collection id `buildIssue` already
+ * embeds in every body. Returns [] on any failure — losing a finding is worse
+ * than filing a duplicate, so this never blocks issue creation.
+ */
+function openIssuesByCollection() {
+  const byCollection = new Map();
+  let list;
+  try {
+    list = JSON.parse(
+      execFileSync('gh', ['issue', 'list', '--label', AUDIT_LABEL, '--state', 'open', '--limit', '200', '--json', 'number,title,body'], {
+        cwd: REPO_ROOT,
+        encoding: 'utf8',
+      })
+    );
+  } catch (err) {
+    console.log(`could not list open issues for dedup (${err.message.split('\n')[0]}) — filing without it`);
+    return byCollection;
+  }
+  for (const issue of list) {
+    const m = (issue.body || '').match(/\(id `([0-9a-f-]{36})`\)/i);
+    if (!m) continue; // not one of ours, or hand-written — leave it alone
+    const key = m[1].toLowerCase();
+    if (!byCollection.has(key)) byCollection.set(key, issue);
+  }
+  return byCollection;
+}
+
 function buildIssue(flag) {
   const body = [
     flag.body,
@@ -191,11 +219,41 @@ if (changes.length > 0) {
   }
 }
 
+// Only pay for the `gh issue list` round-trip when there's something to file.
+const openIssues = flags.length > 0 ? openIssuesByCollection() : new Map();
+
 for (const flag of flags) {
   const { title, body } = buildIssue(flag);
   console.log(`\n--- ${DRY_RUN ? 'DRY RUN — would file issue' : 'filing issue'} ---`);
   console.log(`title: ${title}`);
   console.log(`body:\n${body}`);
+
+  // One open issue per collection at a time. Sampling revisits collections, so
+  // without this every revisit that re-finds an unfixed gap files another
+  // issue -- #181/#240, #195/#232 and #169/#235 were three such pairs, filed
+  // three days apart, before this existed. Re-observation still gets recorded,
+  // as a comment on the existing thread, so a curator sees everything about a
+  // collection in one place and nothing is lost. Once that issue is closed a
+  // later finding opens a fresh one, which is the intended behaviour: closed
+  // means handled, and a gap that reappears after that is genuinely news.
+  const existing = openIssues.get((flag.collectionId || '').toLowerCase());
+  if (existing) {
+    console.log(`skipping — #${existing.number} is already open for this collection`);
+    if (!DRY_RUN) {
+      try {
+        execFileSync(
+          'gh',
+          ['issue', 'comment', String(existing.number), '--body',
+            [`_Re-observed by a later collections-audit-fix pass._`, '', `**${title}**`, '', body].join('\n')],
+          { cwd: REPO_ROOT, encoding: 'utf8' }
+        );
+        console.log(`  recorded as a comment on #${existing.number}`);
+      } catch (err) {
+        console.log(`  could not comment on #${existing.number}: ${err.message.split('\n')[0]}`);
+      }
+    }
+    continue;
+  }
 
   if (!DRY_RUN) {
     const issueUrl = execFileSync(
@@ -205,6 +263,12 @@ for (const flag of flags) {
     ).trim();
     issueUrls.push(issueUrl);
     console.log(`opened: ${issueUrl}`);
+    // So a second flag in this same run doesn't re-open for the same collection.
+    openIssues.set((flag.collectionId || '').toLowerCase(), {
+      number: Number(issueUrl.split('/').pop()),
+      title,
+      body,
+    });
   }
 }
 
