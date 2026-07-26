@@ -46,6 +46,20 @@ qualifier to the slug if needed once that situation actually arises.
 - Don't conflate developer and publisher — many Game Boy titles were
   developed by one studio and published by another (or a different
   publisher per region).
+- **Never pair a region's release `date` with another region's publisher.**
+  The `date` and `publisher` on one record must describe the *same* release.
+  A batch of 141 additions was rejected for exactly this (PR #193): *Harvest
+  Moon GB* was filed with the Japanese date (Dec 1997) next to
+  `publisher: Natsume Inc.`, who published only the North American release
+  eight months later, so the record asserted something that never happened.
+  Pick one release, and let its region determine both fields.
+- **A shared title is not evidence of a shared game.** Western Game Boy
+  releases were routinely built by relicensing or reskinning an unrelated
+  Japanese cart, so an earlier JP entry with "the same" name is often a
+  different product — not an earlier release of this one. Same PR conflated
+  two that way (*Double Dragon II*, *F1 Pole Position*). Confirm the two are
+  actually the same game before treating the earlier date as this record's
+  first release.
 - Compilation carts (multiple games on one cartridge) and multiplayer/
   peripheral-bundled releases (e.g. requiring a Game Link Cable accessory)
   need a curation decision before filing — check whether an existing
