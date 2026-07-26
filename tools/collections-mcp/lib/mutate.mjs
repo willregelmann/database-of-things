@@ -21,7 +21,31 @@ const VALIDATE_DIR = path.join(REPO_ROOT, 'tools', 'collections-validate');
  */
 function dumpEntity(obj) {
   let text = yaml.dump(obj, { sortKeys: false, quotingType: '"' });
-  text = text.replace(/^(\s{2}number: )(?!["'])(.+)$/gm, (_m, indent, value) => `${indent}"${value}"`);
+  // js-yaml only quotes what YAML strictly *requires* quoting, which isn't the
+  // same as what this format requires by convention. Two fields are always
+  // quoted here regardless, so re-quote whatever js-yaml left bare:
+  //
+  //   number — see the `"4/102"` example in collections/CLAUDE.md. A value like
+  //     "6/34" round-trips fine unquoted, but siblings like "004" would parse as
+  //     numbers, so quoting is unconditional to keep a collection consistent.
+  //
+  //   date — collections/CLAUDE.md: "always a quoted string, since an unquoted
+  //     YYYY-MM-DD gets parsed as a YAML timestamp instead of a string".
+  //     js-yaml quotes "1999" and "1999-06-30" on its own, but NOT year-month
+  //     values like "1940-09" or "2016-07" — those aren't valid YAML timestamps
+  //     so it sees no ambiguity and emits them bare. They do reparse as strings,
+  //     so nothing is corrupted, but the file then violates the documented
+  //     convention. That silently poisoned five separate audit PRs (#156, #157,
+  //     #170, #180, #194): each carried real, independently-verified fixes that
+  //     the review job then correctly refused to merge, because the same write
+  //     had unquoted a date it merely happened to touch.
+  //
+  // The negative lookahead skips values js-yaml already quoted, and block
+  // scalars (`>`/`|`), which must not gain quotes.
+  text = text.replace(
+    /^(\s*(?:number|date): )(?!["'|>])(.+)$/gm,
+    (_m, prefix, value) => `${prefix}"${value}"`
+  );
   return text;
 }
 

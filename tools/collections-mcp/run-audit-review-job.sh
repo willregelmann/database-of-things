@@ -43,9 +43,14 @@ ALLOWED_TOOLS="Read Write Edit WebSearch WebFetch Bash(git *) Bash(gh *) Bash(np
   # prior tick left it on -- `git pull` has no ref to merge into if HEAD
   # is stray, which is a real failure mode this same fix already
   # addressed for the audit-fix job.
+  #
+  # `--force` for the same reason as run-audit-job.sh: a plain checkout also
+  # aborts when an untracked file here collides with one main has since
+  # started tracking, even byte-identical (`.mcp.json` did exactly this). It
+  # overwrites only the colliding path, not unrelated untracked files.
   echo "--- syncing checkout with origin/main ---"
   git fetch origin main
-  git checkout --detach origin/main
+  git checkout --detach --force origin/main
   # A crashed prior tick can leave uncommitted edits or a dirty working
   # tree (mid-fix, before that item's own commit) -- by design, anything
   # worth keeping should already be on its own pushed branch before this
@@ -73,7 +78,7 @@ ALLOWED_TOOLS="Read Write Edit WebSearch WebFetch Bash(git *) Bash(gh *) Bash(np
   # tick never inherits a dirty or stray-branch working tree.
   echo "--- final re-sync ---"
   git fetch origin main
-  git checkout --detach origin/main
+  git checkout --detach --force origin/main
   git reset --hard origin/main
   git clean -fd
 

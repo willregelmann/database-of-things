@@ -126,8 +126,23 @@ function walk(dir, inherited) {
 
   for (const f of entityFiles) {
     const filePath = path.join(dir, f);
-    const data = yaml.load(fs.readFileSync(filePath, 'utf8'));
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const data = yaml.load(raw);
     validateEntityStructure(filePath, data);
+
+    // `date` must be quoted in the file, not merely parse as a string.
+    // validateEntityStructure only sees the parsed value, and a bare
+    // `date: 1994-03` parses as a string just fine — so year-month dates
+    // silently violated the documented convention while passing validation.
+    // 68 files reached main that way before this check existed, via a
+    // dumpEntity() gap (fixed in the same PR as this). A bare YYYY-MM-DD
+    // would be worse still: that one parses as a Date object.
+    const bareDate = raw.match(/^date: (?!["'])(\S.*)$/m);
+    if (bareDate) {
+      errors.push(
+        `${rel(filePath)}: "date" must be quoted — found \`date: ${bareDate[1]}\`, write \`date: "${bareDate[1]}"\` (see collections/CLAUDE.md, "Dates")`
+      );
+    }
 
     entities.push({
       filePath,

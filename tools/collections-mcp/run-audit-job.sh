@@ -42,9 +42,38 @@ MCP_TOOLS="mcp__collections-mcp__choose_random_collection mcp__collections-mcp__
   # merge into and dies, which took the whole job down on 2026-07-20 when
   # this checkout was left on a stray feature branch. Detached HEAD never
   # "claims" a branch, so it can always resync from any prior state.
+  #
+  # `--force` because a plain checkout also aborts when an untracked file here
+  # collides with one that main has since started tracking -- and it aborts
+  # even when the contents are byte-identical. `.mcp.json` hit exactly this:
+  # it lived untracked in this checkout until it was committed upstream, which
+  # would have failed every tick from then on. --force overwrites only the
+  # colliding path; unrelated untracked/ignored files (.changelog.json,
+  # audit-ledger.jsonl) are left alone, which is what this step wants anyway.
   echo "--- syncing checkout with origin/main ---"
   git fetch origin main
-  git checkout --detach origin/main
+  git checkout --detach --force origin/main
+
+  # Clear any changelog left behind by a previous tick, AFTER the sync above.
+  #
+  # submit.mjs only calls clear() once it has finished successfully, so a tick
+  # where submit.mjs itself dies partway (gh rate-limited, push rejected,
+  # network gone) leaves entries on disk. .changelog.json is gitignored, so the
+  # sync above wipes the working-tree *file changes* those entries describe
+  # while leaving the *entries* untouched. The next tick then commits a diff
+  # that doesn't match its own PR body -- an entry claiming a change the branch
+  # doesn't contain. PR #196 is exactly that: it advertised seven changes and
+  # carried six, and the review job caught the seventh had never happened.
+  # PR #157 bundled stale Batman entries from an unrelated earlier run the same
+  # way.
+  #
+  # The existing note further down covers the *other* half of this failure --
+  # a session dying before submit.mjs runs, which strands good entries. That
+  # one is handled by always running submit.mjs. This is the inverse, and the
+  # only safe moment to clear is here: after the reset, before the session
+  # starts writing entries this tick actually owns.
+  echo "--- clearing any stale changelog from a prior tick ---"
+  rm -f tools/collections-mcp/.changelog.json
 
   set +e
   claude -p "/collections-audit-fix" \

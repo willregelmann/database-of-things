@@ -62,9 +62,17 @@ requests:
 
 1. Read the target category's `CLAUDE.md` before naming or structuring
    anything.
-2. Run the validator; it must pass before review.
-3. Open a PR against `main`. It won't be merged automatically — expect
-   review.
+2. Run the validator; it must pass before review. CI runs it on every PR.
+3. Open a PR against `main` and expect human review — outside contributions
+   are never merged automatically.
+
+One narrow exception, so the behaviour isn't surprising: this repo runs an
+hourly autonomous curation job that audits a randomly chosen collection and
+opens its own PRs, labelled `audit-finding`. A second scheduled job reviews
+*those* — re-verifying every claim against an independently-run search — and
+may merge them once CI is green. That authority is scoped to machine-generated
+`audit-finding` PRs from a matching `audit/<hash>` branch, and to nothing else.
+See [`.claude/skills/collections-audit-review/`](.claude/skills/collections-audit-review/).
 
 ## License
 
