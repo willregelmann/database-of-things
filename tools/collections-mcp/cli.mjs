@@ -4,7 +4,7 @@
 // (re)connect a newly-registered project MCP server mid-session. Same
 // operations, same validation/rollback, just invoked via Bash instead of
 // the MCP protocol.
-import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
+import { buildIndex, getCollection, getItem, rel, pageItems } from './lib/repo.mjs';
 import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 import { append as appendLedger } from './lib/ledger.mjs';
@@ -55,7 +55,13 @@ try {
       break;
     }
     case 'list-items': {
-      out(getCollection(index, rest[0]).childItems);
+      // Same pagination as the MCP tool — a CLI-driven run must not get a
+      // different (unbounded) shape than the MCP one.
+      const [collectionId, offset, limit] = rest;
+      out(pageItems(getCollection(index, collectionId).childItems, {
+        offset: offset === undefined ? undefined : Number(offset),
+        limit: limit === undefined ? undefined : Number(limit),
+      }));
       break;
     }
     case 'list-components': {
@@ -113,7 +119,7 @@ try {
     }
     default:
       throw new Error(
-        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id>, list-components <collection_id> <bucket>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-component <collection_id> <bucket> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>, rename-item <item_id> <new_filename>`
+        `unknown command "${cmd}" — expected one of: choose-random-collection, get-collection-context <id>, get-collection-details <id>, list-items <id> [offset] [limit], list-components <collection_id> <bucket>, list-collections <id>, get-item-details <id>, upsert-item <collection_id> <json>, upsert-component <collection_id> <bucket> <json>, upsert-collection <collection_id> <json>, flag-finding <collection_id> <title> <body>, rename-item <item_id> <new_filename>`
       );
   }
 } catch (err) {

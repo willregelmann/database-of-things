@@ -2,7 +2,15 @@ import fs from 'node:fs';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
-import { buildIndex, getCollection, getItem, rel } from './lib/repo.mjs';
+import {
+  buildIndex,
+  getCollection,
+  getItem,
+  rel,
+  pageItems,
+  LIST_ITEMS_DEFAULT_LIMIT,
+  LIST_ITEMS_MAX_LIMIT,
+} from './lib/repo.mjs';
 import { upsertItem, upsertComponent, upsertCollection, renameItem } from './lib/mutate.mjs';
 import { appendEntry } from './lib/changelog.mjs';
 import { append as appendLedger } from './lib/ledger.mjs';
@@ -98,13 +106,24 @@ server.registerTool(
   'list_items',
   {
     title: 'List a collection\'s direct items',
-    description: 'Lists the leaf item entities (not nested collections) directly inside this collection, as {id, name, type}.',
-    inputSchema: { collection_id: z.string() },
+    description:
+      'Lists the leaf item entities (not nested collections) directly inside this collection. Paginated: returns {total, offset, returned, has_more, item_type, items:[{id, name}]}. `total` is the collection\'s full item count regardless of the page, so check it before assuming you have seen everything — the largest collections run to thousands and listing one whole would consume most of a session. `item_type` is the type shared by every item in the collection, reported once instead of on every row.',
+    inputSchema: {
+      collection_id: z.string(),
+      offset: z.number().int().min(0).optional().describe(`Index of the first item to return. Default 0.`),
+      limit: z
+        .number()
+        .int()
+        .min(1)
+        .max(LIST_ITEMS_MAX_LIMIT)
+        .optional()
+        .describe(`How many items to return. Default ${LIST_ITEMS_DEFAULT_LIMIT}, max ${LIST_ITEMS_MAX_LIMIT}.`),
+    },
   },
-  async ({ collection_id }) => {
+  async ({ collection_id, offset, limit }) => {
     try {
       const node = getCollection(index, collection_id);
-      return text(node.childItems);
+      return text(pageItems(node.childItems, { offset, limit }));
     } catch (err) {
       return errorText(err);
     }

@@ -80,9 +80,14 @@ dimensions, just without the fix step.
 3. `get_collection_details(collection_id)` and, depending on what this
    collection actually contains, `list_items(collection_id)` and/or
    `list_collections(collection_id)` → orient on what's here.
+   `list_items` is **paginated** — it returns one page plus the collection's
+   full `total`, so read `total` before assuming the first page is the whole
+   collection, and pass `offset`/`limit` to walk the rest. It also reports
+   the shared `item_type` once instead of on every row.
    `get_collection_details`'s `componentBuckets` field lists any components
    buckets this collection has (e.g. `["minifigs"]`) — use
-   `list_components(collection_id, bucket)` to see what's in one.
+   `list_components(collection_id, bucket)` to see what's in one
+   (unpaginated; buckets are small).
 4. Audit the same three dimensions `collections-audit` does, using these
    tools for reads instead of raw files, and web search for verification:
    - **Conformance** — does this collection follow the CLAUDE.md chain from
@@ -94,12 +99,32 @@ dimensions, just without the fix step.
    - **Content completeness/accuracy** — are this collection's *direct*
      children (via `list_items`/`list_collections`, drilling into
      `get_item_details` as needed) complete and correct per an authoritative
-     source? Check every direct child, not a sample — "one collection per
-     run" is what keeps this bounded (see "One level only" below), not
-     "a few items within it." A bug that repeats identically across every
-     sibling item (e.g. a whole expansion sharing one wrong release date)
-     is exactly the kind of thing a partial pass would miss entirely. If
-     you find a genuine, well-sourced **completeness** gap (missing items,
+     source? **Check every direct child when the collection is small enough
+     to hold whole — "one collection per run" is what keeps this bounded
+     (see "One level only" below), not "a few items within it."** A bug that
+     repeats identically across every sibling item (e.g. a whole expansion
+     sharing one wrong release date) is exactly the kind of thing a partial
+     pass would miss entirely.
+
+     **Above 200 items, sample and disclose it.** `list_items` reports the
+     collection's full `total` on every page; when that exceeds 200, verify a
+     random sample of at least 200 items or 20% of the total (whichever is
+     bigger), spread across the collection rather than taken from the first
+     page — page through with `offset` so the sample isn't biased toward
+     whatever sorts first. Say what you sampled in your final report, in the
+     same shape `collections-audit-review` uses for large PRs: "verified 200
+     of 2,321 items (a random sample across all pages), all held up."
+
+     This is not a licence to do less on a collection you *could* hold whole
+     — it exists because some genuinely can't be. Squishmallows is 2,321
+     items in one directory, which is legitimate (its source numbering is one
+     continuous sequence with no natural split) and which no session can
+     verify item-by-item. Before this rule the instruction above was simply
+     impossible there, so a run either died or quietly did far less than it
+     claimed. A disclosed sample is honest; a silent one is the failure being
+     fixed.
+
+     If you find a genuine, well-sourced **completeness** gap (missing items,
      not just a wrong field), populate the whole gap, not just one token
      entry. A PR is reviewed before it merges either way, so a large
      well-sourced batch costs the same as a small one if you're right, and

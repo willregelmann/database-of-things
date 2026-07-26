@@ -136,3 +136,40 @@ export function getItem(index, id) {
   }
   return node;
 }
+
+export const LIST_ITEMS_DEFAULT_LIMIT = 200;
+export const LIST_ITEMS_MAX_LIMIT = 1000;
+
+/**
+ * Shapes a collection's `childItems` into one page.
+ *
+ * Two savings, and they are not the same size. Hoisting `type` out of every
+ * row is exact rather than lossy — it is uniform across all 287 collections
+ * that currently hold items, so reporting it once loses nothing — but it only
+ * trims about 18% of the payload. The bulk is the 36-character UUID on every
+ * row, which is why the page window is what actually makes a large collection
+ * readable: Squishmallows' 2,321 items serialize to ~66k tokens whole, more
+ * than an audit session can spend on merely *listing* a collection before it
+ * has verified anything (see issue #178).
+ *
+ * `total` is always the full count, so a caller can tell a page from the whole
+ * collection without a second call — and a sampling caller knows what it is
+ * sampling from.
+ */
+export function pageItems(childItems, { offset = 0, limit = LIST_ITEMS_DEFAULT_LIMIT } = {}) {
+  const total = childItems.length;
+  const start = Math.max(0, Math.min(offset, total));
+  const size = Math.max(1, Math.min(limit, LIST_ITEMS_MAX_LIMIT));
+  const page = childItems.slice(start, start + size);
+  const types = new Set(childItems.map((i) => i.type));
+  return {
+    total,
+    offset: start,
+    returned: page.length,
+    has_more: start + page.length < total,
+    // Uniform in every collection today; if that ever stops being true the
+    // per-item `type` comes back rather than this reporting a half-truth.
+    item_type: types.size === 1 ? [...types][0] : null,
+    items: types.size === 1 ? page.map(({ id, name }) => ({ id, name })) : page,
+  };
+}
