@@ -11,6 +11,7 @@
       "type": "string",
       "enum": [
         "Common",
+        "Common Holo",
         "Uncommon",
         "Rare",
         "Rare Holo",
