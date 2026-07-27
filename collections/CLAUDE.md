@@ -7,6 +7,74 @@ family- and category-specific `CLAUDE.md` files (e.g.
 [`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md))
 add game/category-specific detail on top of this — they don't replace it.
 
+## Tree shape
+
+Every path through `collections/` has the same shape:
+
+```
+<category>/<brand>[/<line>[/<subline>…]]/<item>
+```
+
+- **category** — the domain family directly under `collections/`
+  (`trading-cards/`, `figures-and-models/`, `plush/`, `comics-and-manga/`,
+  `video-games/`). DBoT's own grouping, not a thing that was released — which
+  is why a category gets no `date` (see Dates below).
+- **brand** — required. **What counts as a brand differs by category, and
+  that's deliberate**: the manufacturer in `figures-and-models/` (`bandai`,
+  `funko`), the publisher in `comics-and-manga/` (`dark-horse`, `viz-media`),
+  the game in `trading-cards/` (`pokemon-tcg`), the plush brand itself in
+  `plush/` (`squishmallows`). Each category's own `CLAUDE.md` states which,
+  and generally means the *customer-facing* brand rather than the deepest
+  legal parent — figma is `good-smile/figma/`, not filed under Max Factory.
+- **line** — optional. A named product line within the brand
+  (`good-smile/nendoroid/`, `bandai/gunpla/`).
+- **subline** — optional, and **may repeat** (`bandai/gunpla/mg/`,
+  `pokemon-tcg/mega-evolution-series/<set>/`).
+- **item** — the leaf entity file. It sits at whatever depth its collection
+  is; items directly under a brand are normal when that brand has no line
+  tier.
+
+Two rules govern the optional tiers.
+
+**A tier must be named by the brand or standard in the collecting community
+— never invented by DBoT to make a category look symmetrical.** Pokémon TCG
+has a real series tier above its sets, so its sets sit at
+`pokemon-tcg/<series>/<set>/`; Magic has no equivalent, so its sets sit
+directly at `magic-the-gathering/<set>/`. That asymmetry is correct. Don't
+manufacture a tier for tidiness, and don't collapse one that genuinely
+exists.
+
+Depth follows from that test rather than from a fixed limit.
+`figures-and-models/bandai/power-rangers/in-space/figures/` runs four tiers
+deep under its category and every one of them earns it: Bandai the brand,
+Power Rangers the line it sold under its own name, In Space the season, and
+the figure/zord/weapon/vehicle split the way that line is conventionally
+divided. Components buckets (`_zords/`) sit outside this shape entirely —
+they aren't browsable tiers (see Components below).
+
+**Don't split a brand across sibling directories.** Everything a brand sells
+belongs under its one directory, subdivided by line. Sibling directories
+sharing a brand-name prefix — `squishmallows-squish-a-longs/` next to
+`squishmallows/` — are the shape to avoid: that's hierarchy encoded in a
+filename instead of in the tree, and it scatters one brand across a
+category's top level.
+
+**This holds even when a line isn't the same kind of object as its brand.**
+Squishmallows' Squish-A-Longs are 1" squeezable *plastic* figures, not plush
+at all, and they still belong at `plush/squishmallows/squish-a-longs/`.
+Filing them by material would mean a Squishmallows collector has to know
+which category each sub-brand got sorted into — exactly the knowledge a
+catalog should be saving them. The same principle runs the other way in
+[`figures-and-models/CLAUDE.md`](figures-and-models/CLAUDE.md): "a line is
+curated whole — don't slice one line by object type," which is why a Power
+Rangers Zord or role-play morpher stays with its figure line. **The unit is
+the brand, not the material.**
+
+The limit: this keeps *one brand* together, it doesn't pull in neighbours. An
+unrelated line from the same manufacturer isn't covered — Jazwares makes
+plenty that has nothing to do with Squishmallows — and a brand whose whole
+identity belongs to another category goes there instead.
+
 ## Collection shape
 
 **A collection should usually contain either nested collections or items,
