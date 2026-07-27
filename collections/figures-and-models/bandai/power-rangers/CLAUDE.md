@@ -34,7 +34,7 @@ in the Bandai umbrella [`../CLAUDE.md`](../CLAUDE.md) and the category
 A Power Rangers line is curated whole — figures alongside its companion
 Zords/Megazords, vehicles, playsets, and weapons/role-play pieces — because
 Bandai releases and numbers all of these together as one product line. That's
-just the `figures/` family default (curate the whole toy line; don't slice it by
+just the `figures-and-models/` family default (curate the whole toy line; don't slice it by
 object type — see [`../../CLAUDE.md`](../../CLAUDE.md)), not a special
 exception. Each item's coarse `type` (`figure`, `zord`, `vehicle`, `weapon`,
 `playset`) determines which subdirectory it lives in within its line.
@@ -62,7 +62,7 @@ mighty-morphin/
   brand.
 - **No catalog `number` unless the source documents one of its own.**
   Unlike LEGO minifigures (which always carry a BrickLink/Brickset number —
-  see [`../../../model-kits/lego/CLAUDE.md`](../../../model-kits/lego/CLAUDE.md)),
+  see [`../../../figures-and-models/lego/CLAUDE.md`](../../../figures-and-models/lego/CLAUDE.md)),
   Bandai generally never assigned these bundled-only pieces a catalog
   number — leave `attributes.number` off rather than inventing one or
   reusing the parent Megazord's number. Record one only if a source

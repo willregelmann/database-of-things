@@ -6,7 +6,7 @@ direct successor to [Mighty Morphin](../mighty-morphin/CLAUDE.md).
 ## Directory structure
 
 Same shape as `mighty-morphin/` — five type-based subdirectories
-(`figures/`, `zords/`, `vehicles/`, `weapons/`, `playsets/`), flat within
+(`figures-and-models/`, `zords/`, `vehicles/`, `weapons/`, `playsets/`), flat within
 each, plus a `_zords/` components bucket for the individual Zeo Zords/Super
 Zeo Zords bundled inside a `zords/` Megazord — see
 [`../CLAUDE.md`](../CLAUDE.md), "Zords as components." No
@@ -37,7 +37,7 @@ only ever feeds `attributes.category`'s *name*, never an item's own
 Two items in the "5.5″ Action Feature Evil Space Aliens" assortment —
 `2340` "Rapid Sword Swinging Goldar" and `2462` "Air-Pumping Cannon Rito
 Revolto" — reuse catalog numbers already assigned to Mighty Morphin figures
-(`../mighty-morphin/figures/2340-sword-slashing-goldar.yaml` and
+(`../mighty-morphin/figures-and-models/2340-sword-slashing-goldar.yaml` and
 `2462-air-pump-cannon-rito-revolto.yaml`). Same sculpt/tooling, reissued
 under Zeo-branded box art (source site's own `_2`-suffixed photos confirm
 alternate packaging) — filed here as their own Zeo-line entities under

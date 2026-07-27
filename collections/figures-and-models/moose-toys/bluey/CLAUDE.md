@@ -7,7 +7,7 @@ has held the global master toy license since 2019 — verify
 `attributes.manufacturer` as **Moose Toys Pty Ltd** unless a specific product
 says otherwise.
 
-Curate each Bluey toy line whole, per the `figures/` family rule (see
+Curate each Bluey toy line whole, per the `figures-and-models/` family rule (see
 [`../../CLAUDE.md`](../../CLAUDE.md)): a line's figures **and** its companion
 vehicles, playsets, and accessories all belong — a Bluey 4WD or the Heeler
 House is in scope, not excluded for being a vehicle or a playset. The
@@ -15,7 +15,7 @@ sub-lines below are Bluey's distinct figure *formats*; when a format ships
 vehicles/playsets/locations, curate them alongside its figures rather than
 dropping them.
 
-Out of scope, same as anywhere in `figures/`:
+Out of scope, same as anywhere in `figures-and-models/`:
 
 - **Plush** — curated in the [`plush/`](../../../plush/CLAUDE.md) family, not
   here.

@@ -5,7 +5,7 @@ the direct successor to [Turbo](../turbo/CLAUDE.md).
 
 ## Directory structure
 
-Same shape as the other eras — five type-based subdirectories (`figures/`,
+Same shape as the other eras — five type-based subdirectories (`figures-and-models/`,
 `zords/`, `vehicles/`, `weapons/`, `playsets/`), plus a `_zords/`
 components bucket for individual pieces bundled inside a `zords/` Megazord
 — see [`../CLAUDE.md`](../CLAUDE.md), "Zords as components." Flat within

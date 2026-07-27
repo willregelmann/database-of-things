@@ -4,22 +4,26 @@
 
 Officially released LEGO building sets — bricks packaged under one official
 set number, sold under a **theme** (and often a more specific **subtheme**).
-Parked under `model-kits/` for now even though LEGO is a reusable
-construction system rather than a single-use kit — see the family's own
-[`../CLAUDE.md`](../CLAUDE.md) for why, and don't take that as precedent for
-adding other non-kit product types here.
 
-**LEGO Minifigures (the "Collectible Minifigures" blind-bag line) — an open
-judgment call, not yet decided.** This standalone numbered series (one
-random figure per bag, no set/box identity) is arguably closer to
-`figures/` than to a themed building set — the same kind of call
-already made for Power Rangers (see
-[`../../figures/bandai/power-rangers/CLAUDE.md`](../../figures/bandai/power-rangers/CLAUDE.md)),
-just in the opposite direction. Don't default to filing it under `lego/`
-just because it's LEGO-branded — decide explicitly (and document the
-reasoning here) when that line actually gets curated. Nothing for it exists
-yet. **Not to be confused with the minifigures bundled inside ordinary
-sets** — those are components of the set they ship in, see below.
+LEGO sits at the top level of [`../CLAUDE.md`](../CLAUDE.md) as its own
+customer-facing brand, the same as `funko/` or `bandai/`. It used to be
+parked under a `model-kits/` family that explicitly didn't describe it — a
+reusable brick system isn't a single-use kit — and that caveat is now moot:
+the family this line lives in covers figures, kits, and construction sets
+alike, and treats assembly as a property of the line rather than a boundary
+between families.
+
+**LEGO Minifigures (the "Collectible Minifigures" blind-bag line) belongs
+under `lego/`** — as `lego/minifigures/`, a sibling of the theme
+directories. This used to be an open question, because a standalone numbered
+series of figures (one random figure per bag, no set/box identity) looked
+more like a `figures/` line than a building set, and those were different
+families. They aren't anymore, so the question is just the ordinary
+brand-first one: LEGO makes it, LEGO sells it, it goes under `lego/`.
+Nothing for it exists yet; when it's curated, give it its own `CLAUDE.md`
+covering the blind-bag numbering. **Not to be confused with the minifigures
+bundled inside ordinary sets** — those are components of the set they ship
+in, see below.
 
 ## Themes and subthemes
 

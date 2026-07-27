@@ -103,8 +103,8 @@ those three (`2528` Hornitor, `2529` Scorpitan) are also cross-listed under
 `2521` "New Deluxe Evil Space Aliens" with "Deluxe"-prefixed names. These
 look like the same physical releases indexed under two category headers on
 the source site, not distinct products — filed once each here, under
-`2521`'s "Deluxe" naming (`figures/2528-deluxe-hornitor.yaml`,
-`figures/2529-deluxe-scorpitan.yaml`), with `2527` Ivan Ooze filed
+`2521`'s "Deluxe" naming (`figures-and-models/2528-deluxe-hornitor.yaml`,
+`figures-and-models/2529-deluxe-scorpitan.yaml`), with `2527` Ivan Ooze filed
 separately under its own "8″ Evil Space Aliens" category since it doesn't
 share this overlap. Revisit if a more authoritative source clarifies
 otherwise.

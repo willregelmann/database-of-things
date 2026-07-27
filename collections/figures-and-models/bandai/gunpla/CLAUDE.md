@@ -7,6 +7,13 @@ mobile suits and related vehicles from the Gundam franchise, sold under a
 small set of official **grades** that fix scale, engineering complexity, and
 price tier.
 
+This is one of Bandai's own branded lines, filed at `bandai/gunpla/` like
+any other (see [`../CLAUDE.md`](../CLAUDE.md)). Being an assemble-it-
+yourself kit doesn't put it anywhere different — it shapes how kits are
+identified, which is what the grades below are for. A buildable Gundam that
+ships as part of some *other* line stays with that line rather than being
+re-filed here.
+
 ## Grades
 
 Bandai's grades, oldest-to-current (verify against
@@ -47,7 +54,7 @@ timelines folded into the "HG All Gundam Project"), and several more. A
 kit's number is only unique *within* its own sub-line (e.g. HGUC #191 and
 HGCE #191 are unrelated kits) — nest `hg/<sub-line>/` the same way Pokémon
 TCG nests `<series>/<expansion>/` (see
-[`../../trading-cards/pokemon-tcg/CLAUDE.md`](../../trading-cards/pokemon-tcg/CLAUDE.md)),
+[`../../../trading-cards/pokemon-tcg/CLAUDE.md`](../../../trading-cards/pokemon-tcg/CLAUDE.md)),
 and confirm which sub-line a kit belongs to (Gunpla Wiki or the kit's own
 box art, which prints the sub-line tag) before filing it.
 
@@ -77,7 +84,7 @@ Pokémon card's `attributes.number` is scoped to its set. Record it as
 digit width so far (3 digits covers every sub-line confirmed to date, e.g.
 `191-rx-93-nu-gundam.yaml`) — widen if a sub-line's kit count ever exceeds
 999, same rule as any other numbered collection (see the root
-[`collections/CLAUDE.md`](../../CLAUDE.md)).
+[`collections/CLAUDE.md`](../../../CLAUDE.md)).
 
 ## Attributes
 
