@@ -9,5 +9,6 @@ description: >
   ("Pokémon C").
 date: "2009-08-19"
 ongoing: false
-total_cards: 147
+attributes:
+  total_cards: 147
 image: https://images.pokemontcg.io/pl3/logo.png

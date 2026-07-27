@@ -10,5 +10,6 @@ description: >
   and Sapphire video games.
 date: "2003-06-18"
 ongoing: false
-total_cards: 109
+attributes:
+  total_cards: 109
 image: https://images.pokemontcg.io/ex1/logo.png

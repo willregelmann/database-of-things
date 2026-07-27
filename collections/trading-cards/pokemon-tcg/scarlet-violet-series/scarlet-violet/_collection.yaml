@@ -10,5 +10,6 @@ description: >
   bringing the print run to 258.
 date: "2023-03-31"
 ongoing: false
-total_cards: 198
+attributes:
+  total_cards: 198
 image: https://images.pokemontcg.io/sv1/logo.png

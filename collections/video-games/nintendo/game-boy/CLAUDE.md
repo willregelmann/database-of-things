@@ -14,7 +14,7 @@ here.
 ```
 game-boy/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole "Game Boy" platform
   <slugified-name>.yaml
 ```

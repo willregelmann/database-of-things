@@ -11,5 +11,6 @@ description: >
   rare Rocket's Raikou ex.
 date: "2005-02-14"
 ongoing: false
-total_cards: 107
+attributes:
+  total_cards: 107
 image: https://images.pokemontcg.io/ex8/logo.png

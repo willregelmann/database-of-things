@@ -9,5 +9,6 @@ description: >
   powerful, one-per-deck ACE SPEC card type.
 date: "2024-03-22"
 ongoing: false
-total_cards: 162
+attributes:
+  total_cards: 162
 image: https://images.pokemontcg.io/sv5/logo.png

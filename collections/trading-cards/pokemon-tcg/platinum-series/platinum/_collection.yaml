@@ -9,5 +9,6 @@ description: >
   cards continuing the numbering line from Stormfront.
 date: "2009-02-11"
 ongoing: false
-total_cards: 127
+attributes:
+  total_cards: 127
 image: https://images.pokemontcg.io/pl1/logo.png

@@ -8,5 +8,6 @@ description: >
   spans 94 printed cards plus secret rares for a total of 130.
 date: "2025-11-14"
 ongoing: false
-total_cards: 94
+attributes:
+  total_cards: 94
 image: https://images.pokemontcg.io/me2/logo.png

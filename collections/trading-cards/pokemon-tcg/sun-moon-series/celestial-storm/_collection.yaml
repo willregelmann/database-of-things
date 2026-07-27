@@ -9,5 +9,6 @@ description: >
   the main checklist.
 date: "2018-08-03"
 ongoing: false
-total_cards: 168
+attributes:
+  total_cards: 168
 image: https://images.pokemontcg.io/sm7/logo.png

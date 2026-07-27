@@ -10,5 +10,6 @@ description: >
   Shiny-form Pokémon and Pokémon-GX reprinted with embossed holofoil treatment.
 date: "2019-08-23"
 ongoing: false
-total_cards: 68
+attributes:
+  total_cards: 68
 image: https://images.pokemontcg.io/sm115/logo.png

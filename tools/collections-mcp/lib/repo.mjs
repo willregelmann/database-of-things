@@ -18,10 +18,11 @@ export function rel(p) {
  * down to that directory (inclusive), not just the nearest one — callers
  * that want "the nearest applicable CLAUDE.md" can just take the last
  * element. `schemaChain` works the same way, and for the same reason: a
- * directory's own schema.json layers attributes on top of what it
- * inherited rather than replacing it (see validate.mjs's
- * mergeAttributesSchema), so a caller that only read the nearest schema.json
- * would miss attributes recommended at a family/category level.
+ * directory's own item-attributes.schema.json layers attributes on top of
+ * what it inherited rather than replacing it (see validate.mjs's
+ * mergeAttributesSchema), so a caller that only read the nearest
+ * item-attributes.schema.json would miss attributes recommended at a
+ * family/category level.
  */
 export function buildIndex() {
   const byId = new Map();
@@ -42,8 +43,8 @@ export function buildIndex() {
       chain = [...claudeChain, path.join(dir, 'CLAUDE.md')];
     }
     let schema = schemaChain;
-    if (files.includes('schema.json')) {
-      schema = [...schemaChain, path.join(dir, 'schema.json')];
+    if (files.includes('item-attributes.schema.json')) {
+      schema = [...schemaChain, path.join(dir, 'item-attributes.schema.json')];
     }
 
     let selfNode = null;

@@ -21,13 +21,14 @@ function ok(label, cond) {
 fs.rmSync(SCRATCH_DIR, { recursive: true, force: true });
 fs.mkdirSync(SCRATCH_DIR);
 fs.copyFileSync(path.join(REPO_ROOT, 'collections', 'plush', 'CLAUDE.md'), path.join(SCRATCH_DIR, 'CLAUDE.md'));
-// Written inline rather than copied from a real category's schema.json —
-// this scratch fixture only ever writes `attributes: {}`, so it just needs
-// something permissive to exist; depending on a specific real template's
-// file (as this used to, on collections/plush/schema.json) breaks the
-// moment that category's own schema changes for unrelated reasons.
+// Written inline rather than copied from a real category's
+// item-attributes.schema.json — this scratch fixture only ever writes
+// `attributes: {}`, so it just needs something permissive to exist;
+// depending on a specific real template's file (as this used to, on
+// collections/plush/item-attributes.schema.json) breaks the moment that
+// category's own schema changes for unrelated reasons.
 fs.writeFileSync(
-  path.join(SCRATCH_DIR, 'schema.json'),
+  path.join(SCRATCH_DIR, 'item-attributes.schema.json'),
   JSON.stringify({ $schema: 'http://json-schema.org/draft-07/schema#', title: 'Smoke test scratch attributes', type: 'object' }, null, 2)
 );
 const SCRATCH_ITEM_ID = 'aaaaaaaa-1111-1111-1111-111111111111';

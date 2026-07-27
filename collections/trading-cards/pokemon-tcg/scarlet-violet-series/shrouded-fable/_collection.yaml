@@ -9,5 +9,6 @@ description: >
   alongside a wave of Illustration Rare and ACE SPEC Rare cards.
 date: "2024-08-02"
 ongoing: false
-total_cards: 64
+attributes:
+  total_cards: 64
 image: https://images.pokemontcg.io/sv6pt5/logo.png

@@ -9,5 +9,6 @@ description: >
   Spans 160 numbered cards plus 4 secret rares.
 date: "2015-02-04"
 ongoing: false
-total_cards: 160
+attributes:
+  total_cards: 160
 image: https://images.pokemontcg.io/xy5/logo.png

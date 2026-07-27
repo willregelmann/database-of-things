@@ -9,5 +9,6 @@ description: >
   ex Kyogre-EX and Groudon-EX.
 date: "2015-03-25"
 ongoing: false
-total_cards: 34
+attributes:
+  total_cards: 34
 image: https://images.pokemontcg.io/dc1/logo.png

@@ -29,7 +29,7 @@ something as gashapon:
 ```
 gashapon/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # Gashapon itself
   <franchise>/                   # licensed IP depicted, or the line's own
                                   # name for a wholly original (unlicensed)
@@ -103,7 +103,7 @@ actually different, don't reach for a fixed vocabulary.
 
 ## Attributes
 
-See `schema.json`. `attributes.brand_line` records Bandai's own
+See `item-attributes.schema.json`. `attributes.brand_line` records Bandai's own
 capsule-toy sub-brand for the release (e.g. "Ringcolle!", "HGIF",
 "Cap-Chara", "ChibiMasters") when the listing is marketed under one — this
 is a real, verifiable Bandai product distinction that directory position

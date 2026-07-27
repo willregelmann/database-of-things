@@ -12,7 +12,7 @@ per product line. Curated so far:
   storefront), one continuous number since 2008.
 
 Scaffolded, no items yet — each needs its own `CLAUDE.md` and
-`../../../schema.json` before its first figure is filed (see
+`../../../item-attributes.schema.json` before its first figure is filed (see
 [`../../CLAUDE.md`](../../CLAUDE.md#scaffolding-a-new-collection)):
 
 - `pop-up-parade/` — affordable non-articulated static figures, since 2019.
@@ -38,7 +38,7 @@ good-smile/
   _collection.yaml               # Good Smile Company itself
   <line>/                         # e.g. "nendoroid", "figma"
     CLAUDE.md                     # phase 2 — before the line's first item
-    schema.json          # phase 2 — same
+    item-attributes.schema.json  # phase 2 — same
     _collection.yaml              # phase 1 — the scaffold
     ...                          # the line's own internal structure
 ```

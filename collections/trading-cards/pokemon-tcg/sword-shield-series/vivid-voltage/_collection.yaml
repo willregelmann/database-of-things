@@ -10,5 +10,6 @@ description: >
   numbered beyond the 185-card base checklist.
 date: "2020-11-13"
 ongoing: false
-total_cards: 185
+attributes:
+  total_cards: 185
 image: https://images.pokemontcg.io/swsh4/logo.png

@@ -13,13 +13,13 @@ separate concern from cataloging the games.
 ```
 video-games/
   CLAUDE.md
-  schema.json          # generic fallback; each platform overrides it
+  item-attributes.schema.json  # generic fallback; each platform overrides it
   _collection.yaml
   <manufacturer>/
     _collection.yaml
     <platform>/
       CLAUDE.md                  # platform-specific conventions — required
-      schema.json       # platform-specific attributes — required
+      item-attributes.schema.json  # platform-specific attributes — required
       _collection.yaml
       <game>.yaml
 ```
@@ -45,7 +45,7 @@ example.
    uniformly, and check whether it varies by region), naming convention,
    known pitfalls (region-locked releases, re-releases/reprints, compilation
    or multi-cart titles).
-3. Write `schema.json` — don't reuse another platform's attributes
+3. Write `item-attributes.schema.json` — don't reuse another platform's attributes
    as-is; verify against the actual platform rather than assuming they
    match.
 4. Write `_collection.yaml`.

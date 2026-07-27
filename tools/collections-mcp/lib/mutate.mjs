@@ -234,7 +234,7 @@ export function renameItem(index, { itemId, newFilename }) {
  * Create (no `collection.id`) or update (`collection.id` present) a
  * collection record. Creating nests a new directory + `_collection.yaml`
  * under `collectionId` (the parent) and inherits its CLAUDE.md/schema —
- * it never authors a new CLAUDE.md/schema.json, so bootstrapping
+ * it never authors a new CLAUDE.md/item-attributes.schema.json, so bootstrapping
  * a genuinely new category is out of scope for this tool.
  */
 export function upsertCollection(index, { collectionId, collection }) {

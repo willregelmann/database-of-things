@@ -9,5 +9,6 @@ description: >
   and Rainbow Rare cards beyond its 214-card printed checklist.
 date: "2019-05-03"
 ongoing: false
-total_cards: 214
+attributes:
+  total_cards: 214
 image: https://images.pokemontcg.io/sm10/logo.png

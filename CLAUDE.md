@@ -21,7 +21,7 @@ curation *is* opening a pull request.
 - Minimal metadata by design — focus on coverage over exhaustive detail
 - Source attribution via `image`, an authoritative link for each item's photo/logo
 - Curation guidance travels with the data: each category carries its own
-  `CLAUDE.md` and `schema.json` right next to its entity files
+  `CLAUDE.md` and `item-attributes.schema.json` right next to its entity files
 
 **Not optimizing for**:
 - Exhaustive metadata (that's what source links are for)
@@ -43,7 +43,7 @@ collections/                  # the data — see collections/README.md
   trading-cards/
     pokemon-tcg/
       CLAUDE.md               # naming conventions, verification, pitfalls
-      schema.json    # JSON Schema for item attributes, enforced by CI
+      item-attributes.schema.json  # JSON Schema for item attributes, enforced by CI
       original-series/
         base-set/
           004-charizard.yaml
@@ -75,7 +75,7 @@ attributes:
 image: https://images.pokemontcg.io/base1/4_hires.png
 ```
 
-- `attributes` is validated against the collection's `schema.json`;
+- `attributes` is validated against the collection's `item-attributes.schema.json`;
   top-level fields (`id`, `name`, `type`) are structural and validated the
   same way everywhere.
 - **No `collection:`/`parent_collection:` field.** An entity's parent is
@@ -83,7 +83,7 @@ image: https://images.pokemontcg.io/base1/4_hires.png
   them.
 - Every collection directory (top-level or nested) needs its own
   `_collection.yaml` — the entity record for the collection/set itself.
-- `CLAUDE.md` and `schema.json` are only required where a directory's
+- `CLAUDE.md` and `item-attributes.schema.json` are only required where a directory's
   conventions differ from its parent's — a nested set normally inherits both
   from its category.
 

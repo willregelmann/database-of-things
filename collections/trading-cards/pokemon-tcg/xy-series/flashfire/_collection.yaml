@@ -9,5 +9,6 @@ description: >
   several secret rare cards beyond the standard numbering.
 date: "2014-05-07"
 ongoing: false
-total_cards: 106
+attributes:
+  total_cards: 106
 image: https://images.pokemontcg.io/xy2/logo.png

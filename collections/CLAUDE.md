@@ -205,7 +205,7 @@ shared rule behind them.
 
 - **Phase 1 — scaffold.** Create the directory and its `_collection.yaml`,
   nothing else. It inherits the nearest ancestor's `CLAUDE.md` and
-  `../schema.json`, which is all the validator requires — it checks for
+  `../item-attributes.schema.json`, which is all the validator requires — it checks for
   them "own or inherited," walking up the tree. **An itemless
   `_collection.yaml` is a legitimate, useful record**: it says "this line
   exists and hasn't been curated yet," which is strictly better than the
@@ -214,7 +214,7 @@ shared rule behind them.
   scheme yet, and don't gate the scaffold on shipping items alongside it.
 - **Phase 2 — author its conventions.** Before the **first item** is filed
   under it, the line needs its own `CLAUDE.md` (identification scheme, naming
-  convention, known pitfalls) and `../schema.json`. The one exception
+  convention, known pitfalls) and `../item-attributes.schema.json`. The one exception
   is a tier whose parent `CLAUDE.md` already documents its conventions
   explicitly — POP MART's IP directories inherit
   [`figures-and-models/pop-mart/CLAUDE.md`](figures-and-models/pop-mart/CLAUDE.md)
@@ -225,7 +225,7 @@ correctly while holding real product data than in the abstract — authored
 speculatively, it tends to be contradicted by the first ten items that
 actually arrive. The reverse order also has a track record here:
 `bandai/gunpla/` and `bandai/gashapon/` both received fully-authored
-`CLAUDE.md` and `../schema.json` up front and still contain **zero
+`CLAUDE.md` and `../item-attributes.schema.json` up front and still contain **zero
 items**, while `re-ment/pokemon/` (462 items), `pop-mart/skullpanda/` (263),
 and `dark-horse/hellboy/` have run correctly on inherited conventions for
 their whole existence. Requiring the authoring step up front mostly succeeded
@@ -453,7 +453,7 @@ components:
   directory name means a components bucket doesn't need an entity record
   of its own just to satisfy the validator, since nothing ever references
   the bucket itself; components are referenced individually, by their own
-  `id`. It still needs `CLAUDE.md`/`../schema.json` (own or
+  `id`. It still needs `CLAUDE.md`/`../item-attributes.schema.json` (own or
   inherited) like any directory holding entity files. See the category's
   own `CLAUDE.md` for the actual directory convention (e.g.
   [`figures-and-models/lego/CLAUDE.md`](figures-and-models/lego/CLAUDE.md) for LEGO

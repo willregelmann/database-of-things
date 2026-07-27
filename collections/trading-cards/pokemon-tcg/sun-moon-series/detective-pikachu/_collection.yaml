@@ -9,5 +9,6 @@ description: >
   traditional card illustrators.
 date: "2019-03-29"
 ongoing: false
-total_cards: 18
+attributes:
+  total_cards: 18
 image: https://images.pokemontcg.io/det1/logo.png

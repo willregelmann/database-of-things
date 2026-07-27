@@ -9,5 +9,6 @@ description: >
   Pokémon.
 date: "2025-05-30"
 ongoing: false
-total_cards: 182
+attributes:
+  total_cards: 182
 image: https://images.pokemontcg.io/sv10/logo.png

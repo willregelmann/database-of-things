@@ -7,5 +7,6 @@ description: >
   further Johto-region Pokémon.
 date: "2001-06-01"
 ongoing: false
-total_cards: 75
+attributes:
+  total_cards: 75
 image: https://images.pokemontcg.io/neo2/logo.png

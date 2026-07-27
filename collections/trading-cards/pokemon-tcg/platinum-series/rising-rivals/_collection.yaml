@@ -8,5 +8,6 @@ description: >
   alongside their trainer, plus rare Rotom and Pikachu secret cards.
 date: "2009-05-16"
 ongoing: false
-total_cards: 111
+attributes:
+  total_cards: 111
 image: https://images.pokemontcg.io/pl2/logo.png

@@ -29,11 +29,16 @@ type: tag
   nit (a bare `: ` inside an unquoted scalar reads as a second mapping
   key).
 
+This shape — `id`/`name`/`type`/`description`/`image`, nothing else — is
+enforced by [`schemas/tag.schema.json`](../../schemas/tag.schema.json);
+everything else in this file is the prose walkthrough of what that schema
+allows and why.
+
 ## Namespaces
 
 A namespace directory (`tags/franchises/`) is structurally the same kind
 of node a domain family or category under `collections/` is — its own
-`_collection.yaml`, inherited `CLAUDE.md`/`../../schema.json`. Only one
+`_collection.yaml`, inherited `CLAUDE.md`/`../../item-attributes.schema.json`. Only one
 namespace exists so far (`franchises/`); a new one is added only when a
 genuinely different kind of cross-cutting grouping shows up, not
 speculatively.

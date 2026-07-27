@@ -9,5 +9,6 @@ description: >
   cards.
 date: "2025-01-17"
 ongoing: false
-total_cards: 131
+attributes:
+  total_cards: 131
 image: https://images.pokemontcg.io/sv8pt5/logo.png

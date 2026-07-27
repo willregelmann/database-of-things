@@ -8,5 +8,6 @@ description: >
   per Bulbapedia's official expansion list.
 date: "2012-10-05"
 ongoing: false
-total_cards: 20
+attributes:
+  total_cards: 20
 image: https://images.pokemontcg.io/dv1/logo.png

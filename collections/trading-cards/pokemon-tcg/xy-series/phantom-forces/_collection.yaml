@@ -9,5 +9,6 @@ description: >
   theme through its Hyper Gear Tool cards and character Supporters.
 date: "2014-11-05"
 ongoing: false
-total_cards: 119
+attributes:
+  total_cards: 119
 image: https://images.pokemontcg.io/xy4/logo.png

@@ -8,7 +8,7 @@ A playable trading card game, published by Konami. This directory covers the
 ```
 yu-gi-oh/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole Yu-Gi-Oh! TCG
   <slugified-set-name>/           # one set, e.g. legend-of-blue-eyes-white-dragon
     _collection.yaml
@@ -146,8 +146,8 @@ directory for its **region**, not its prefix — `north-american/`, not
 `lob/`. Non-English printings (German, French, Italian, Spanish, Portuguese)
 are out of scope per Scope above.
 
-**`total_cards` belongs wherever the cards actually are** — on the set
-record when filed flat (as Legend of Blue Eyes is now), on each printing
+**`attributes.total_cards` belongs wherever the cards actually are** — on the
+set record when filed flat (as Legend of Blue Eyes is now), on each printing
 record when a set has genuinely distinct printings nested underneath it.
 
 ### Editions

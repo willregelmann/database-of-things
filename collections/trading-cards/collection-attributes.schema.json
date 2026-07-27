@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Trading Cards collection attributes",
+  "type": "object",
+  "properties": {
+    "total_cards": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The set's official total card count, per the publisher — not necessarily the number of items filed so far."
+    }
+  },
+  "additionalProperties": false
+}

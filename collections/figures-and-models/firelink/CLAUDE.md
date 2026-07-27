@@ -5,7 +5,7 @@
 ```
 firelink/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole "FireLink" brand
   <game>/
     _collection.yaml             # e.g. "Elden Ring"

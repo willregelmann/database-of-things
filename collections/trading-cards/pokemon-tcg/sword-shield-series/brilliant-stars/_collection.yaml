@@ -11,5 +11,6 @@ description: >
   Rainbow and secret rares.
 date: "2022-02-25"
 ongoing: false
-total_cards: 172
+attributes:
+  total_cards: 172
 image: https://images.pokemontcg.io/swsh9/logo.png

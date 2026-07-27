@@ -10,5 +10,6 @@ description: >
   of secret rares.
 date: "2020-05-01"
 ongoing: false
-total_cards: 192
+attributes:
+  total_cards: 192
 image: https://images.pokemontcg.io/swsh2/logo.png

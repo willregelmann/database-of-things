@@ -9,4 +9,5 @@ description: >
   here by the collector number assigned by Scryfall/the wider hobby, since none
   was printed on the card itself.
 date: "1993-08-05"
-total_cards: 295
+attributes:
+  total_cards: 295

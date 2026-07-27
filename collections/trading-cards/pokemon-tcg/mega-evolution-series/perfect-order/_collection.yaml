@@ -9,5 +9,6 @@ description: >
   Mega Clefable ex, and Mega Skarmory ex.
 date: "2026-03-27"
 ongoing: false
-total_cards: 88
+attributes:
+  total_cards: 88
 image: https://images.scrydex.com/pokemon/me3-logo/logo

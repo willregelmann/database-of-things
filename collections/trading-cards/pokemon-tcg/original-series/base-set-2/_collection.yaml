@@ -8,5 +8,6 @@ description: >
   circulation as original stock ran low.
 date: "2000-02-24"
 ongoing: false
-total_cards: 130
+attributes:
+  total_cards: 130
 image: https://images.pokemontcg.io/base4/logo.png

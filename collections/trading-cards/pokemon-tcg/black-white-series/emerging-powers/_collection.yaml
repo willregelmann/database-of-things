@@ -8,5 +8,6 @@ description: >
   full-art Rare Ultra printings of Tornadus and Thundurus.
 date: "2011-08-31"
 ongoing: false
-total_cards: 98
+attributes:
+  total_cards: 98
 image: https://images.pokemontcg.io/bw2/logo.png

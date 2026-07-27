@@ -8,5 +8,6 @@ description: >
   TCG.
 date: "1999-06-16"
 ongoing: false
-total_cards: 64
+attributes:
+  total_cards: 64
 image: https://images.pokemontcg.io/base2/logo.png

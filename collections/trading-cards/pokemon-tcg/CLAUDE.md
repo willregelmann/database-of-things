@@ -5,7 +5,7 @@
 ```
 pokemon-tcg/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml              # the whole "Pokémon TCG" collection
   <series>/
     _collection.yaml            # the series, e.g. "Base Series"
@@ -337,12 +337,12 @@ unique.
 
 ## Rarity
 
-`attributes.rarity` is enum-validated in `schema.json`. The enum
+`attributes.rarity` is enum-validated in `item-attributes.schema.json`. The enum
 starts small (`Common`, `Uncommon`, `Rare`, `Rare Holo`, `Rare Holo ex`) and is
 expected to grow — it is not meant to gate curation. If a card's real rarity
 tier isn't in the enum yet, add it as part of the same PR: confirm the exact
 label against an authoritative source (Bulbapedia, Pokémon TCG API, or
-Serebii), then add that label to the `enum` array in `schema.json`
+Serebii), then add that label to the `enum` array in `item-attributes.schema.json`
 alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
 GX` card as `Rare Holo ex`).

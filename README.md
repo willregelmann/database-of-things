@@ -16,7 +16,7 @@ Each category carries its own curation guidance right next to its data:
 
 - **`CLAUDE.md`** — naming conventions, how to identify items, how to verify a
   collection is complete, common pitfalls specific to that category.
-- **`schema.json`** — a JSON Schema for that category's item
+- **`item-attributes.schema.json`** — a JSON Schema for that category's item
   attributes, enforced by CI on every PR.
 
 ## Repository structure
@@ -26,7 +26,7 @@ collections/                  # the data — see collections/README.md
   trading-cards/
     pokemon-tcg/
       CLAUDE.md
-      schema.json
+      item-attributes.schema.json
       original-series/
         base-set/
           004-charizard.yaml

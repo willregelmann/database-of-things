@@ -9,5 +9,6 @@ description: >
   Scizor-EX.
 date: "2016-02-03"
 ongoing: false
-total_cards: 122
+attributes:
+  total_cards: 122
 image: https://images.pokemontcg.io/xy9/logo.png

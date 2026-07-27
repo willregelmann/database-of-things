@@ -9,5 +9,6 @@ description: >
   Lugia BREAK and Umbreon-EX.
 date: "2016-05-02"
 ongoing: false
-total_cards: 124
+attributes:
+  total_cards: 124
 image: https://images.pokemontcg.io/xy10/logo.png

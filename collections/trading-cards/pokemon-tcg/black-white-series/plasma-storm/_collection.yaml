@@ -9,5 +9,6 @@ description: >
   Lugia-EX, alongside a trio of secret rare cards beyond the 135-card main set.
 date: "2013-02-06"
 ongoing: false
-total_cards: 135
+attributes:
+  total_cards: 135
 image: https://images.pokemontcg.io/bw8/logo.png

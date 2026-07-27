@@ -8,5 +8,6 @@ description: >
   alongside the Fairy-type Basic Energy card supporting the new Fairy type.
 date: "2014-02-05"
 ongoing: false
-total_cards: 146
+attributes:
+  total_cards: 146
 image: https://images.pokemontcg.io/xy1/logo.png

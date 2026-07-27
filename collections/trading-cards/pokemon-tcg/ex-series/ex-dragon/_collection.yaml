@@ -10,5 +10,6 @@ description: >
   notably a secret rare Charizard.
 date: "2003-11-24"
 ongoing: false
-total_cards: 97
+attributes:
+  total_cards: 97
 image: https://images.pokemontcg.io/ex3/logo.png

@@ -9,5 +9,6 @@ description: >
   with a run of secret rares extending the checklist beyond the printed total.
 date: "2017-05-05"
 ongoing: false
-total_cards: 145
+attributes:
+  total_cards: 145
 image: https://images.pokemontcg.io/sm2/logo.png

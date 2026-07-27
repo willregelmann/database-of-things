@@ -10,5 +10,6 @@ description: >
   Desert Ruins, and Island Cave.
 date: "2004-06-14"
 ongoing: false
-total_cards: 101
+attributes:
+  total_cards: 101
 image: https://images.pokemontcg.io/ex5/logo.png

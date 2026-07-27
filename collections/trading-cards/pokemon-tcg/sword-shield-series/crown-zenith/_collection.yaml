@@ -10,5 +10,6 @@ description: >
   Pokémon and Trainers from across the era.
 date: "2023-01-20"
 ongoing: false
-total_cards: 159
+attributes:
+  total_cards: 159
 image: https://images.pokemontcg.io/swsh12pt5/logo.png

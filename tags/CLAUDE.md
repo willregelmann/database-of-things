@@ -16,7 +16,7 @@ reference, and [`collections/CLAUDE.md`](../collections/CLAUDE.md)'s
 ```
 tags/
   CLAUDE.md
-  schema.json          # standard schema, shared by every namespace
+  item-attributes.schema.json  # standard schema, shared by every namespace
   <namespace>/                  # e.g. franchises/
     _collection.yaml            # the namespace's own record
     <slug>.yaml                 # one tag entity per file
@@ -24,7 +24,7 @@ tags/
 
 Structurally, `tags/` mirrors `collections/`: a namespace directory is the
 same kind of node a domain family or category is (its own `_collection.yaml`,
-inherited `CLAUDE.md`/`schema.json`), and an individual tag is a
+inherited `CLAUDE.md`/`item-attributes.schema.json`), and an individual tag is a
 leaf entity the same way a card or a set is. The validator applies the same
 rules to both trees.
 

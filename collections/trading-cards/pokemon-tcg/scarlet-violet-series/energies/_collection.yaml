@@ -8,5 +8,6 @@ description: >
   Scarlet & Violet, Stellar Crown, and Black Bolt & White Flare.
 date: "2023"
 ongoing: false
-total_cards: 16
+attributes:
+  total_cards: 16
 image: https://images.pokemontcg.io/sve/logo.png

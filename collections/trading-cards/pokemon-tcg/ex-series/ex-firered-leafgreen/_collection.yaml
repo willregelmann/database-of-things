@@ -9,5 +9,6 @@ description: >
   evolutions plus four secret rares numbered beyond the printed total.
 date: "2004-08-30"
 ongoing: false
-total_cards: 112
+attributes:
+  total_cards: 112
 image: https://images.pokemontcg.io/ex6/logo.png

@@ -9,5 +9,6 @@ description: >
   plus Rainbow Rare and secret rare cards numbered beyond it.
 date: "2021-03-19"
 ongoing: false
-total_cards: 163
+attributes:
+  total_cards: 163
 image: https://images.pokemontcg.io/swsh5/logo.png

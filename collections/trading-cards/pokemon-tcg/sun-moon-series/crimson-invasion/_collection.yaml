@@ -9,5 +9,6 @@ description: >
   plus a run of secret rares reaching 124.
 date: "2017-11-03"
 ongoing: false
-total_cards: 111
+attributes:
+  total_cards: 111
 image: https://images.pokemontcg.io/sm4/logo.png

@@ -10,5 +10,6 @@ description: >
   secret rare Mew numbered beyond the printed 110-card set.
 date: "2006-05-03"
 ongoing: false
-total_cards: 110
+attributes:
+  total_cards: 110
 image: https://images.pokemontcg.io/ex13/logo.png

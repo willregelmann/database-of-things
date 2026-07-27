@@ -12,5 +12,6 @@ description: >
   checklist beyond the printed total.
 date: "2017-02-03"
 ongoing: false
-total_cards: 149
+attributes:
+  total_cards: 149
 image: https://images.pokemontcg.io/sm1/logo.png

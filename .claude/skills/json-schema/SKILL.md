@@ -1,11 +1,11 @@
 ---
 name: json-schema
-description: Author, change, or debug the per-collection schema.json files that validate item attributes. Covers JSON Schema draft-07 as this repo actually runs it (Ajv 8, strict off, attributes-only, merge inheritance) plus the traps that make a constraint silently do nothing. Use when adding a template for a new collection, tightening or loosening an existing one, or diagnosing a schema error from the validator. For the separate envelope-shape schemas (id/name/date/image/tags — not attributes), see /schemas/{item,collection,tag}.schema.json instead; this skill doesn't cover those.
+description: Author, change, or debug the per-collection item-attributes.schema.json files that validate item attributes, and the sibling collection-attributes.schema.json files that validate a collection's own attributes. Covers JSON Schema draft-07 as this repo actually runs it (Ajv 8, strict off, attributes-only, merge inheritance) plus the traps that make a constraint silently do nothing. Use when adding a template for a new collection, tightening or loosening an existing one, or diagnosing a schema error from the validator. For the separate envelope-shape schemas (id/name/date/image/tags — not attributes), see /schemas/{item,collection,tag}.schema.json instead; this skill doesn't cover those.
 ---
 
 # JSON Schema in this repo
 
-Every `../../../schema.json` is a [JSON Schema draft-07](https://json-schema.org/specification-links#draft-7)
+Every `../../../item-attributes.schema.json` is a [JSON Schema draft-07](https://json-schema.org/specification-links#draft-7)
 document, compiled by [Ajv 8](https://ajv.js.org/) in
 [`tools/collections-validate/validate.mjs`](../../../tools/collections-validate/validate.mjs)
 and run in CI on every PR touching `collections/**`.
@@ -22,24 +22,36 @@ calls `schema(data.attributes)` — the top-level `id`/`name`/`type`/`date`/
 `tags`/`components` fields are validated separately, by the envelope schemas
 under `/schemas/` (`item.schema.json`, `collection.schema.json`,
 `tag.schema.json`) plus a little hand-written JS, not by a category's own
-`schema.json`. Declaring `name` or `date` in a category template does
-nothing useful; it constrains `attributes.name`, a different field.
-Conversely, a file with no `attributes:` key at all skips this validation
-entirely — including `_collection.yaml`, which never has `attributes` and so
-never goes through this mechanism (it's checked against
-`schemas/collection.schema.json` instead, a different, non-attributes
-schema).
+`item-attributes.schema.json`. Declaring `name` or `date` in a category
+template does nothing useful; it constrains `attributes.name`, a different
+field. Conversely, a file with no `attributes:` key at all skips this
+validation entirely.
+
+**`_collection.yaml` has its own, separate `attributes` mechanism.** A
+collection's `attributes` (e.g. a trading-card set's `total_cards`) is
+governed by `collection-attributes.schema.json` — a same-directory-or-ancestor
+file, resolved and merged exactly like `item-attributes.schema.json`, but a
+distinct file that never governs an item's `attributes` and vice versa. The
+two exist side by side because an item's attribute shape (a card's
+`number`/`rarity`) and its own collection record's attribute shape
+(`total_cards`) are different data about different entities in the same
+directory — see
+`collections/trading-cards/collection-attributes.schema.json` for the worked
+example. Most directories have no `collection-attributes.schema.json` at
+all, which is fine as long as no `_collection.yaml` under them sets
+`attributes`.
 
 **2. Nearest-ancestor resolution is merge, not replace.** `validate.mjs`
 walks down the tree carrying the merged schema *object* (not just a compiled
-function), and layers a directory's own `schema.json` on top whenever one
-exists — `properties` merge shallowly (a child's definition for a shared key
-wins), `required` unions (a child can add a requirement, never drop an
-inherited one), and `additionalProperties` takes the nearest declared value,
-evaluated against the already-merged `properties`. This is what lets a
-family-level template *recommend* an attribute (declare it, don't require
-it) and have that recommendation reach items in every nested collection —
-e.g. `comics-and-manga/schema.json` recommends `writer`/`artist`, and a
+function), and layers a directory's own `item-attributes.schema.json` on top
+whenever one exists — `properties` merge shallowly (a child's definition for
+a shared key wins), `required` unions (a child can add a requirement, never
+drop an inherited one), and `additionalProperties` takes the nearest
+declared value, evaluated against the already-merged `properties`. This is
+what lets a family-level template *recommend* an attribute (declare it,
+don't require it) and have that recommendation reach items in every nested
+collection — e.g. `comics-and-manga/item-attributes.schema.json` recommends
+`writer`/`artist`, and a
 series several levels down with its own `additionalProperties: false`
 template still accepts them, because by the time that check runs they're
 already part of its merged `properties`. `collections-mcp`'s
@@ -52,7 +64,8 @@ and applied to the same Ajv instance every category template compiles
 against, so `"format": "uuid"` and `"format": "uri"` are genuinely
 enforced if you use them — but house style (below) reaches for `pattern`
 instead for anything attribute-shaped, so you won't see `format` in most
-templates. (Don't be fooled by `figures-and-models/pop-mart/schema.json`:
+templates. (Don't be fooled by
+`figures-and-models/pop-mart/item-attributes.schema.json`:
 its `format` is an *attribute named* `format`, with an enum of its own — a
 property name, not the keyword.)
 
@@ -76,7 +89,7 @@ Two more worth knowing:
   stack trace naming nothing useful. If `npm run validate` blows up rather than
   listing errors, suspect the template you just edited.
 - There's no attributes-level root fallback anymore — a directory with no
-  `schema.json` anywhere in its ancestry simply has nothing to merge, which
+  `item-attributes.schema.json` anywhere in its ancestry simply has nothing to merge, which
   is fine as long as nothing under it ever sets `attributes` (true of e.g. a
   domain-family directory that holds only nested collections, or a
   `tags/` namespace, whose entities never have `attributes` at all). The
@@ -87,7 +100,10 @@ Two more worth knowing:
 ## Tooling
 
 `scripts/schema-scope.mjs` answers the three questions worth answering before
-editing. Runs from anywhere in the repo (it needs
+editing — **for `item-attributes.schema.json`/item `attributes` only; it
+doesn't yet know about `collection-attributes.schema.json`** (still reports
+every `_collection.yaml` as "NOT schema-checked," which is no longer true
+wherever one governs). Runs from anywhere in the repo (it needs
 `tools/collections-validate/node_modules` — `npm install` there once):
 
 ```bash
@@ -105,7 +121,8 @@ node .claude/skills/json-schema/scripts/schema-scope.mjs keys <path> [--max=N]
 #   (small distinct-value count = an `enum` candidate)
 ```
 
-`<path>` may be a directory, an item `.yaml`, or a `../../../schema.json`.
+`<path>` may be a directory, an item `.yaml`, or a
+`../../../item-attributes.schema.json`.
 
 ## Changing an existing template
 

@@ -9,5 +9,6 @@ description: >
   one per deck.
 date: "2013-08-14"
 ongoing: false
-total_cards: 101
+attributes:
+  total_cards: 101
 image: https://images.pokemontcg.io/bw10/logo.png

@@ -9,5 +9,6 @@ description: >
   Korrina Supporter card.
 date: "2014-08-13"
 ongoing: false
-total_cards: 111
+attributes:
+  total_cards: 111
 image: https://images.pokemontcg.io/xy3/logo.png

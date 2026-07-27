@@ -10,6 +10,7 @@ description: >-
   line — 111 cards catalogued here so far, not a closed checklist.
 date: "2025"
 ongoing: true
-total_cards: 111
+attributes:
+  total_cards: 111
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/SetSymbolMEP_Black_Star_Promos.png

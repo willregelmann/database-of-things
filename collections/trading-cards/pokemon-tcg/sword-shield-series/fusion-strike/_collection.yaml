@@ -10,5 +10,6 @@ description: >
   English-language Pokémon TCG set released up to that point.
 date: "2021-11-12"
 ongoing: false
-total_cards: 264
+attributes:
+  total_cards: 264
 image: https://images.pokemontcg.io/swsh8/logo.png

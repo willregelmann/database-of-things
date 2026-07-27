@@ -8,5 +8,6 @@ description: >
   with no printed denominator.
 date: "2011"
 ongoing: false
-total_cards: 101
+attributes:
+  total_cards: 101
 image: https://images.pokemontcg.io/bwp/logo.png

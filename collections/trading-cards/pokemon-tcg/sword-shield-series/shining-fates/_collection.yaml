@@ -10,5 +10,6 @@ description: >
   Charizard VMAX.
 date: "2021-02-19"
 ongoing: false
-total_cards: 72
+attributes:
+  total_cards: 72
 image: https://images.pokemontcg.io/swsh45/logo.png
