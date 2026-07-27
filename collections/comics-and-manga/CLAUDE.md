@@ -71,11 +71,42 @@ edition being catalogued. The original Japanese publisher belongs in the
 series' `_collection.yaml` description, not in the directory tree.
 
 A license can move between English publishers over the life of a series (a
-relicense, a new omnibus edition from someone else). When that happens,
-file the series under the publisher of the edition being catalogued and say
-so in the series' own `CLAUDE.md` — the same way Western series that change
-imprints are handled. Don't split one series across two publisher
-directories without a maintainer's sign-off.
+relicense, a new omnibus edition from someone else). **When that happens, each
+publisher's edition is its own collection under that publisher, and a shared
+`tags/franchises/` tag reunifies them.**
+
+This is the same answer
+[`../figures-and-models/CLAUDE.md`](../figures-and-models/CLAUDE.md) gives for
+a franchise that changes *manufacturer* — Power Rangers splits into
+`bandai/power-rangers/` and `hasbro/power-rangers/`, reunified by a
+`power-rangers` tag. A publisher change over time is the same problem, so it
+gets the same shape rather than a comics-specific rule.
+
+It also follows from [`../CLAUDE.md`](../CLAUDE.md#collectibles-not-products):
+editions differ in translation, format, trim and ISBN, so they're physically
+distinct objects, and the catalog deduplicates on physical uniqueness. A
+colorized US-format edition and an original-monochrome one are not the same
+collectible.
+
+**Akira is the worked example.** It has had three English publishers — Epic
+Comics from 1988 (colorized, cut into US-format issues), Dark Horse from 2000
+(oversized monochrome), Kodansha Comics since 2009. No "pick the edition being
+catalogued" rule survives that: choosing one silently discards two real
+editions, and the out-of-print one is often the more collected. Ghost in the
+Shell splits the same way between Dark Horse (1995) and Kodansha (2009 on).
+
+Two things this does *not* license:
+
+- **A reprint or new printing by the same publisher isn't a new collection** —
+  Dark Horse's own deluxe hardcover reissue of a series it already published
+  belongs to that same collection.
+- **Don't scaffold a publisher's edition you can't source.** An edition
+  earns a directory when someone actually catalogues it, not because the
+  series once passed through that publisher. The franchise tag is what keeps
+  the parts findable in the meantime.
+
+Say which edition a collection covers in its `description`, and in the series'
+own `CLAUDE.md` once it has one.
 
 ## Adding a new series
 
