@@ -50,7 +50,7 @@ tree").
    the directory that sits directly under a domain-family directory (or
    directly under `collections/`, if the category has no family). That
    directory is the category root for this lineage — e.g. for
-   `trading-card-games/pokemon-tcg/original-series/base-set/`, the category
+   `trading-cards/pokemon-tcg/original-series/base-set/`, the category
    root is `pokemon-tcg/`.
 
 ## Step 1: Gather the applicable CLAUDE.md chain, then check conformance

@@ -102,5 +102,5 @@ LEGO Star Wars: `lego/star-wars/_minifigs/sw0028-astromech-droid-r2-d2.yaml`
 is a component (a minifig), referenced from
 `lego/star-wars/episode-iv/7140-x-wing-fighter.yaml`'s `components` field.
 See
-[`collections/model-kits/lego/CLAUDE.md`](../../collections/model-kits/lego/CLAUDE.md)
+[`collections/figures-and-models/lego/CLAUDE.md`](../../collections/figures-and-models/lego/CLAUDE.md)
 for the full LEGO-specific convention.

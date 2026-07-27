@@ -51,10 +51,12 @@ description: >
 - **`tags`** — ids referencing [tag](TAG.md) entities for cross-cutting
   groupings a collection's directory position doesn't already express
   (see `collections/CLAUDE.md`, "Tags").
-- Category-specific fields some categories add on top of this baseline
-  (e.g. Pokémon TCG's `category: Trading Card Games` on every
-  `_collection.yaml` in that category) — see the category's own
-  `CLAUDE.md`.
+- Category-specific fields some categories add on top of this baseline —
+  see the category's own `CLAUDE.md`. A category-specific field has to
+  carry information the hierarchy doesn't: Pokémon TCG once stamped
+  `category: Trading Card Games` onto every `_collection.yaml` in the
+  category, which said nothing directory position didn't already, and it
+  has since been removed.
 
 ## Parent membership
 

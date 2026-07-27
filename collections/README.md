@@ -16,7 +16,7 @@ data model it's built from — [`COLLECTION.md`](../docs/primitives/COLLECTION.m
 
 ```
 collections/
-  <domain-family>/             # broad grouping, e.g. trading-card-games
+  <domain-family>/             # broad grouping, e.g. trading-cards
     CLAUDE.md                  # what belongs in this family, shared hints
     template.schema.json       # generic fallback; categories override it
     _collection.yaml           # this family's own entity record
@@ -31,10 +31,10 @@ collections/
 ```
 
 Domain families exist to keep `collections/` itself from growing one entry
-per specific collection — group related categories (all trading card games,
-all coins, etc.) under one family directory. A category that doesn't fit any
+per specific collection — group related categories (all trading cards, all
+coins, etc.) under one family directory. A category that doesn't fit any
 existing family yet can sit directly under `collections/`, or start a new
-family — see [`trading-card-games/CLAUDE.md`](trading-card-games/CLAUDE.md)
+family — see [`trading-cards/CLAUDE.md`](trading-cards/CLAUDE.md)
 for a worked example of a family.
 
 - Every directory that represents a collection (domain family, category, or

@@ -3,8 +3,8 @@
 Cross-cutting guidance for curating anything under `collections/` — domain
 family, category, or nested set alike. This applies everywhere in the tree;
 family- and category-specific `CLAUDE.md` files (e.g.
-[`trading-card-games/CLAUDE.md`](trading-card-games/CLAUDE.md),
-[`trading-card-games/pokemon-tcg/CLAUDE.md`](trading-card-games/pokemon-tcg/CLAUDE.md))
+[`trading-cards/CLAUDE.md`](trading-cards/CLAUDE.md),
+[`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md))
 add game/category-specific detail on top of this — they don't replace it.
 
 ## Collection shape
@@ -67,9 +67,10 @@ product lines), leave `date` off rather than guessing; that's a gap to
 close later, not something to fabricate now.
 
 **Exception: domain-family directories** (the broad top-level groupings
-directly under `collections/`, e.g. `trading-card-games/`, `comics/`) don't
-get a `date` — they're DBoT's own organizational buckets for grouping
-related categories, not things that were themselves released.
+directly under `collections/`, e.g. `trading-cards/`,
+`comics-and-manga/`) don't get a `date` — they're DBoT's own organizational
+buckets for grouping related categories, not things that were themselves
+released.
 
 ## Descriptions
 
@@ -129,7 +130,7 @@ validator also enforces that every id resolves to a real `tags/` entity.
 categories.** Funko Pop, for instance, resets its box-printed "line"
 independent of franchise, so nearly every figure carries a franchise tag
 (see
-[`figures/funko/pop/CLAUDE.md`](figures/funko/pop/CLAUDE.md))
+[`figures-and-models/funko/pop/CLAUDE.md`](figures-and-models/funko/pop/CLAUDE.md))
 — not just the cross-category crossover cases. Keeping franchise in one
 place means a search for "everything Pokémon" never has to also check a
 per-category attribute that might hold the same information.
@@ -143,17 +144,17 @@ and isn't already available some other way:
   already expresses. Franchise is the one axis that must stay tag-derivable
   regardless, because the directory tree *deliberately* doesn't carry it
   (the figure families organize by manufacturer, not franchise — see
-  [`figures/CLAUDE.md`](figures/CLAUDE.md)). So a franchise search should
+  [`figures-and-models/CLAUDE.md`](figures-and-models/CLAUDE.md)). So a franchise search should
   resolve from tags alone, never from also scanning the tree. Record
   franchise **at the highest level where it's uniformly true**:
   - When a whole collection is one franchise, tag that collection's
-    `_collection.yaml` — e.g. `figures/bandai/power-rangers/_collection.yaml`,
-    or `trading-card-games/pokemon-tcg/` — **not** every item inside it. A
+    `_collection.yaml` — e.g. `figures-and-models/bandai/power-rangers/_collection.yaml`,
+    or `trading-cards/pokemon-tcg/` — **not** every item inside it. A
     franchise search resolves an item by walking up to its nearest
     franchise-tagged ancestor collection.
   - When a collection mixes franchises, tag the individual **items** — e.g.
     a lone Power Rangers Funko Pop among many franchises in
-    `figures/funko/pop/television/`.
+    `figures-and-models/funko/pop/television/`.
   - Don't tag *both* an item and an ancestor collection that already carries
     the same franchise — that duplicate *is* the restatement to avoid.
 - **Don't duplicate a tag into a structured `attributes` field**, and vice
@@ -189,7 +190,7 @@ When adding or editing a collection's own `_collection.yaml` — at any level,
 not just expansion/set records — check whether it has a real official logo
 or brand mark, and if so add `image.source_url` pointing to it, the same way
 set-level records already do (see
-[`trading-card-games/pokemon-tcg/CLAUDE.md`](trading-card-games/pokemon-tcg/CLAUDE.md)
+[`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md)
 for the worked example). Take the URL from an authoritative source (the
 rights-holder's own assets, or a well-maintained reference like Wikimedia
 Commons) rather than guessing or hand-constructing one, and verify it
@@ -259,7 +260,7 @@ components:
   `id`. It still needs `CLAUDE.md`/`template.schema.json` (own or
   inherited) like any directory holding entity files. See the category's
   own `CLAUDE.md` for the actual directory convention (e.g.
-  [`model-kits/lego/CLAUDE.md`](model-kits/lego/CLAUDE.md) for LEGO
+  [`figures-and-models/lego/CLAUDE.md`](figures-and-models/lego/CLAUDE.md) for LEGO
   minifigures).
 - Don't retrofit `components` onto every item that happens to include
   extra parts — add it where a curator has actually catalogued the specific

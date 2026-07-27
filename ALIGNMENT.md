@@ -33,7 +33,7 @@ every category's conventions are hand-written.
 
 | # | Criterion | Verdict | Evidence |
 |---|-----------|---------|----------|
-| 1 | Breadth over concentration | Unmet — attempted, not reached | Trading card games 20,678 of 26,119 items (79%); plush 3,258; figures 2,090; comics 76; manga 12; model kits 5; video games 0. Work is going elsewhere — PR #193 adds 141 Game Boy items — but three orders of magnitude separate top from bottom |
+| 1 | Breadth over concentration | Unmet — attempted, not reached | Trading cards 20,678 of 26,119 items (79%); plush 3,258; figures & models 2,095; comics & manga 88; video games 0. Work is going elsewhere — PR #193 adds 141 Game Boy items — but three orders of magnitude separate top from bottom |
 | 2 | Agent can open a new category | Unmet — structurally blocked | `upsertCollection` never authors `CLAUDE.md`/`template.schema.json` (`lib/mutate.mjs:234-238`); `upsertComponent` the same for buckets. The blocker is deliberate, not incidental |
 | 3 | Agent changes independently re-verified | Contested — see below | 53 merged `audit-finding` PRs. 22 carry no review evidence, all merged 2026-07-19 → 07-22. The review job landed 07-22. 31 of 31 merges after that date carry it |
 | 4 | Every entity resolves | Met | Validator clean: 26,579 entities, no duplicate identifiers, no dangling tag or component references, no collection directory missing its record. Tag coverage 23,510/26,119 (90%) — informational, not an error |

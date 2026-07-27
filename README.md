@@ -23,7 +23,7 @@ Each category carries its own curation guidance right next to its data:
 
 ```
 collections/                  # the data — see collections/README.md
-  trading-card-games/
+  trading-cards/
     pokemon-tcg/
       CLAUDE.md
       template.schema.json
@@ -43,7 +43,7 @@ Use the `collections-curate` skill if you're working with Claude Code — it
 resolves the right template and `CLAUDE.md`, generates a UUID, writes the file
 in the right place, and validates before you open a PR. See
 [`collections/README.md`](collections/README.md) for the file format and
-[`collections/trading-card-games/pokemon-tcg/CLAUDE.md`](collections/trading-card-games/pokemon-tcg/CLAUDE.md) for an
+[`collections/trading-cards/pokemon-tcg/CLAUDE.md`](collections/trading-cards/pokemon-tcg/CLAUDE.md) for an
 example of category-specific curation hints.
 
 Otherwise: add or edit YAML files by hand, following the conventions in the
