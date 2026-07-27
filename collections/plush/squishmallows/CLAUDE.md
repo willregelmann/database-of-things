@@ -26,7 +26,12 @@ distinct product formats that each keep their *own* Collector Number
 sequence starting back at 1 — confirmed examples are **Fuzz-A-Mallows** and
 **Squish-Doos**. Squishville (~2" minis) and Micromallows (~2.5" blind-bag
 minis) are also distinct sub-brands with their own scale and packaging, not
-just a size variant of the standard line. If curating one of these, add it
+just a size variant of the standard line. **Squish-A-Longs** (1" Mini-Squish,
+numbered by its own Series) is scaffolded at
+[`../squishmallows-squish-a-longs/`](../squishmallows-squish-a-longs/) —
+note it's squeezable *plastic*, not plush, and stays in `plush/` anyway
+because the line is curated whole (see [`../CLAUDE.md`](../CLAUDE.md)).
+If curating one of these, add it
 as its own collection under `plush/` (e.g. `plush/squishmallows-fuzz-a-mallows/`),
 the same way Funko Pop Rides/Town/Moments/Albums are siblings of
 `funko/pop/` rather than folded into it — see
