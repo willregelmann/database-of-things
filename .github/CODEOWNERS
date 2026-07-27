@@ -1,0 +1,24 @@
+# Code owners for Database of Things.
+#
+# Listing a path here makes GitHub request a review from its owner on any PR
+# that touches it. Ownership means someone has taken responsibility for a
+# collection's conventions and accuracy — not that others can't contribute to
+# it. Contributions to an owned collection are welcome; they just get reviewed
+# by the person who knows its pitfalls.
+#
+# Later patterns win, so put broad rules first and specific ones after.
+#
+# One caveat before enabling branch protection: turning on "Require review
+# from Code Owners" means a PR touching an owned path needs approval from
+# someone *other than* its author. On a repo with a single owner that blocks
+# the owner's own PRs, and it would also block the scheduled audit-review job
+# from merging `audit-finding` PRs that touch an owned collection (see
+# CONTRIBUTING.md, "How PRs get merged"). CODEOWNERS on its own — without that
+# branch-protection setting — just requests the review, which is the intended
+# behaviour here.
+
+# Trading cards
+/collections/trading-cards/pokemon-tcg/     @willregelmann
+
+# Add further owned collections below, e.g.
+# /collections/figures-and-models/lego/     @someone

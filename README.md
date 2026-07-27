@@ -58,13 +58,20 @@ npm run validate
 ## Contributing
 
 This is a curator-reviewed project — contributions are welcome as pull
-requests:
+requests. **See [CONTRIBUTING.md](CONTRIBUTING.md)** for the full guide,
+including sourcing standards, where a file goes, and the CC0 rule on writing
+descriptions. The short version:
 
 1. Read the target category's `CLAUDE.md` before naming or structuring
    anything.
 2. Run the validator; it must pass before review. CI runs it on every PR.
 3. Open a PR against `main` and expect human review — outside contributions
    are never merged automatically.
+
+Some collections have a maintainer listed in
+[`.github/CODEOWNERS`](.github/CODEOWNERS) who is asked to review PRs touching
+them. That signals who knows a collection's pitfalls, not that it's closed to
+contributions.
 
 One narrow exception, so the behaviour isn't surprising: this repo runs an
 hourly autonomous curation job that audits a randomly chosen collection and
