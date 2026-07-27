@@ -4,13 +4,24 @@
 
 ```
 squishmallows/
-  CLAUDE.md
+  CLAUDE.md                      # applies to every line below
   template.schema.json
-  _collection.yaml               # the whole "Squishmallows" line
-  <number>-<slugified-name>.yaml
+  _collection.yaml               # the Squishmallows *brand*
+  original-squishmallows/         # the standard line
+    _collection.yaml
+    <number>-<slugified-name>.yaml
+  squish-a-longs/                 # a sub-line, its own numbering
+    _collection.yaml
 ```
 
-Flat — one level, no series/set nesting. Squishmallows are released under a
+**This directory is the brand tier; items live in a line below it, never
+here.** Jazwares' own name for the standard line is *Original Squishmallows*,
+which is what `original-squishmallows/` holds — everything carrying an
+ordinary Collector Number. Everything below about identification, naming and
+sourcing describes that line; the brand tier itself holds no items.
+
+Within `original-squishmallows/` the shape is flat — no series/set nesting.
+Squishmallows are released under a
 single continuous **Collector Number** sequence spanning every species and
 every licensed collab (Pokémon, Disney, Marvel, Harry Potter, Sanrio, and
 more), the same way Nendoroid uses one continuous number across franchises —
@@ -20,28 +31,24 @@ for the analogous shape. Record the licensed franchise via the top-level
 — see [`../../CLAUDE.md`](../../CLAUDE.md#tags) — not as a directory split
 or an `attributes` field.
 
-**Sub-formats with their own restarting numbering are their own nested
-collections in this directory, not extra numbers in the sequence above.**
-Squishmallows has several distinct product formats that each keep their
-*own* Collector Number sequence starting back at 1 — confirmed examples are
-**Fuzz-A-Mallows** and **Squish-Doos**. Squishville (~2" minis) and
-Micromallows (~2.5" blind-bag minis) are also distinct sub-brands with their
-own scale and packaging, not just a size variant of the standard line.
-**Squish-A-Longs** (1" Mini-Squish, numbered by its own Series) is scaffolded
-at [`squish-a-longs/`](squish-a-longs/) — note it's squeezable *plastic*, not
+**Sub-formats with their own restarting numbering are sibling lines beside
+`original-squishmallows/`, not extra numbers in its sequence.** Squishmallows
+has several distinct product formats that each keep their *own* Collector
+Number sequence starting back at 1 — confirmed examples are **Fuzz-A-Mallows**
+and **Squish-Doos**. Squishville (~2" minis) and Micromallows (~2.5"
+blind-bag minis) are also distinct sub-brands with their own scale and
+packaging, not just a size variant of the standard line. **Squish-A-Longs**
+(1" Mini-Squish, numbered by its own Series) is scaffolded at
+[`squish-a-longs/`](squish-a-longs/) — note it's squeezable *plastic*, not
 plush, and stays under this brand anyway, because a brand is curated whole
 (see [`../../CLAUDE.md`](../../CLAUDE.md#tree-shape)).
 
 If curating one of these, add it as `squishmallows/<sub-line>/` — **not** a
 hyphenated sibling under `plush/`, which would split the Squishmallows brand
-across the category's top level. The restarting numbering is why it's a
-separate collection; it isn't a reason to file it away from its brand.
-
-That means this directory holds both items and a nested collection at once,
-which [`../../CLAUDE.md`](../../CLAUDE.md) treats as the exception needing a
-reason rather than the default shape. The reason is keeping the brand
-together. If the standard line ever needs a tier of its own, Jazwares' own
-name for it is **Original Squishmallows**.
+across the category's top level, and **not** nested inside
+`original-squishmallows/`, which is a peer line rather than a parent. The
+restarting numbering is why it's a separate collection; it isn't a reason to
+file it away from its brand.
 
 Squishmallows' own "Rarity Scale" (Rare, Ultra Rare, Special Edition, Select
 Series, Check-In Series, Founders Edition) is a tag-color/distribution

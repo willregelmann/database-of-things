@@ -28,8 +28,8 @@ releases. Known series so far:
 Every series above has been fully filed and cross-checked against at least
 two independent sources (Bulbapedia's `Sitting_Cuties/<Region>` subpage plus
 an official Pokémon Co. Japan announcement, Pokemon.com news post, or
-equivalent) — see `collections/plush/sitting-cuties/<region>/` for the
-actual entries. Two corrections worth noting for anyone re-deriving this
+equivalent) — see `collections/plush/pokemon-center/sitting-cuties/<region>/`
+for the actual entries. Two corrections worth noting for anyone re-deriving this
 table: series 6's date was previously guessed as "2022+" but is actually
 2023-01-14 (Japan launch; US Pokémon Center availability didn't follow until
 April 2023), and series 7's date is 2024-06-15 (original Japan release), not
@@ -38,15 +38,16 @@ April 2023), and series 7's date is 2024-06-15 (original Japan release), not
 ## Directory structure
 
 ```
-sitting-cuties/
-  CLAUDE.md
-  template.schema.json
-  _collection.yaml               # the whole line
-  kanto/                          # one directory per region/generation,
-    _collection.yaml              # spanning every series released for it
-    <slugified-pokemon-name>.yaml
-  johto/
-    ...
+pokemon-center/                 # the brand — Pokémon Center's own retail line-up
+  sitting-cuties/               # this line
+    CLAUDE.md
+    template.schema.json
+    _collection.yaml            # the whole line
+    kanto/                      # one directory per region/generation,
+      _collection.yaml          # spanning every series released for it
+      <slugified-pokemon-name>.yaml
+    johto/
+      ...
 ```
 
 One directory per **region** (matching Bulbapedia's own subpage split), not
