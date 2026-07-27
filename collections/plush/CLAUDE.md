@@ -7,54 +7,52 @@ their own identification scheme, naming, or series/squad identity
 (Squishmallows, Beanie Babies, Jellycat, etc.). Not a one-off promotional
 plush with no product line behind it.
 
-**A plush line is curated whole — a sub-brand doesn't leave the family for
-being made of something else.** Squishmallows' own Squish-A-Longs are 1"
-squeezable *plastic* figures, not plush at all, and they still belong here:
-they carry the Squishmallows name, use its characters, and are collected by
-the same people tracking the plush line. Splitting them into
-`figures-and-models/` on a materials test would mean a Squishmallows
-collector has to know which family each sub-brand was sorted into, which is
-precisely the knowledge a catalog should be saving them.
+**A brand here is curated whole, and a sub-line doesn't leave the category
+for being made of something else** — see
+[`../CLAUDE.md`](../CLAUDE.md#tree-shape) for the general rule and its
+limits. The worked case is Squishmallows' own **Squish-A-Longs**: 1"
+squeezable *plastic* figures, not plush at all, filed at
+[`squishmallows/squish-a-longs/`](squishmallows/squish-a-longs/) rather than
+moved to `figures-and-models/`. They carry the Squishmallows name, use its
+characters, and are collected by the same people tracking the plush line;
+sorting them by material would just make a collector guess where each
+sub-brand went.
 
-This mirrors the rule
-[`../figures-and-models/CLAUDE.md`](../figures-and-models/CLAUDE.md) already
-applies in the other direction — "a line is curated whole, don't slice one
-line by object type," which is why a Power Rangers Zord or role-play morpher
-stays with its figure line. **The unit is the product line, not the
-material.**
-
-Two limits keep this from swallowing the boundary:
-
-- **It only extends a line already curated here.** A sub-brand of
-  Squishmallows qualifies; an unrelated plastic toy line from the same
-  manufacturer does not — Jazwares also makes plenty that has nothing to do
-  with a plush line, and that isn't a `plush/` concern.
-- **A line whose *whole* identity is non-plush belongs to whichever family
-  fits it**, however squishy it is. This is about not fragmenting one line,
-  not about claiming new ones.
+The limit that matters most in this category: this keeps *one brand*
+together. Jazwares, Kellytoy and the rest make plenty of plastic toys with no
+plush line behind them, and those aren't a `plush/` concern.
 
 ## Directory structure
 
 ```
 plush/
   CLAUDE.md
-  template.schema.json          # generic fallback; each product line overrides it
+  template.schema.json          # generic fallback; each brand overrides it
   _collection.yaml               # this domain family's own entity record
-  <line>/
-    CLAUDE.md                    # line-specific conventions — required
-    template.schema.json         # line-specific attributes — required
+  <brand>/                        # e.g. "squishmallows" — the plush brand
+    CLAUDE.md                    # brand-specific conventions — required
+    template.schema.json         # brand-specific attributes — required
     _collection.yaml
-    ...                          # line's own internal structure
+    ...                          # the brand's own items, and/or:
+    <line>/                       # a named sub-line, e.g. "squish-a-longs"
+      _collection.yaml
 ```
 
-Each product line (Squishmallows, etc.) is a full top-level collection in its
-own right — identification schemes, manufacturers, and attributes differ by
-line. Follow the shape of
+**In this category the `<brand>` tier is the plush brand itself, not its
+manufacturer** — `squishmallows/`, not `jazwares/squishmallows/`. That's the
+customer-facing-brand rule from [`../CLAUDE.md`](../CLAUDE.md#tree-shape):
+Squishmallows is what a collector buys and names, while its maker has changed
+hands (Kellytoy → Jazwares) without the brand changing. Contrast
+`figures-and-models/`, where the same rule lands on the manufacturer instead.
+
+Each brand (Squishmallows, etc.) is a full top-level collection in its own
+right — identification schemes, manufacturers, and attributes differ by
+brand. Follow the shape of
 [`squishmallows/CLAUDE.md`](squishmallows/CLAUDE.md) as a worked example, and
 see the root [`collections/README.md`](../README.md) for how directory
 position determines parentage.
 
-## Adding a new product line
+## Adding a new brand or sub-line
 
 A line arrives in **two phases — scaffold it first, author its conventions
 when it actually has items.** See
@@ -64,15 +62,17 @@ why it works this way; the phases below are this family's version of it.
 **Phase 1 — scaffold.** No new conventions needed; anyone (or any automated
 curation pass) can do this.
 
-1. Confirm the line belongs here at all before scaffolding it — but judge it
-   by **which line it extends, not what it's made of** (see "What belongs
-   here" above). A non-plush sub-brand of a line already curated here stays
-   here; an unrelated line from the same manufacturer doesn't.
-2. Create `plush/<line>/`. A sub-brand of an existing line is a **sibling**,
-   not a nested directory — `plush/squishmallows-squish-a-longs/`, not
-   `plush/squishmallows/squish-a-longs/` — since each keeps its own
-   restarting numbering (see
-   [`squishmallows/CLAUDE.md`](squishmallows/CLAUDE.md)).
+1. Confirm it belongs here at all — judged by **which brand it extends, not
+   what it's made of** (see "What belongs here" above). A non-plush sub-line
+   of a brand already curated here stays here; an unrelated line from the
+   same manufacturer doesn't.
+2. Place it. A new brand is `plush/<brand>/`. A sub-line of an existing brand
+   **nests under that brand** — `plush/squishmallows/squish-a-longs/`, never
+   a hyphenated sibling like `plush/squishmallows-squish-a-longs/`, which
+   would split the brand across the category's top level (see
+   [`../CLAUDE.md`](../CLAUDE.md#tree-shape)). A sub-line nests even though it
+   restarts its own numbering — the restart is why it's a separate
+   *collection*, not a reason to move it out from under its brand.
 3. Write its `_collection.yaml` (`type: collection`, plus a `description`).
    The line inherits this family's `CLAUDE.md` and `template.schema.json` for
    now.
