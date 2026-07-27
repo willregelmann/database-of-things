@@ -52,15 +52,6 @@
         "10000 Secret Rare",
         "20th Secret Rare"
       ]
-    },
-    "edition": {
-      "description": "Edition marking printed on the card. Unlimited Edition carries no marking. Not applicable to Japanese/Chinese OCG cards, which have no edition concept.",
-      "type": "string",
-      "enum": [
-        "1st Edition",
-        "Unlimited Edition",
-        "Limited Edition"
-      ]
     }
   },
   "required": [

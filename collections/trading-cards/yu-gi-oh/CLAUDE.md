@@ -12,12 +12,16 @@ yu-gi-oh/
   _collection.yaml               # the whole Yu-Gi-Oh! TCG
   <slugified-set-name>/           # one set, e.g. legend-of-blue-eyes-white-dragon
     _collection.yaml
-    <number>-<slugified-card-name>.yaml
+    <printing>/                   # one printing, e.g. north-american
+      _collection.yaml
+      <number>-<slugified-card-name>.yaml
 ```
 
-**Flat set → card, with no intermediate tier — the same shape as
-[`../magic-the-gathering/`](../magic-the-gathering/), not Pokémon's
-series → expansion → card.** Yu-Gi-Oh! does use the word "Series," but it
+**No series tier above the set — sets sit directly under the game, as in
+[`../magic-the-gathering/`](../magic-the-gathering/), rather than under
+Pokémon's series → expansion → card.** (The tier *below* the set is the
+printing, which is a different thing — see Printings are separate entities.)
+Yu-Gi-Oh! does use the word "Series," but it
 means something else: an **OCG card-layout era** (Series 1, 2, 3 …), a design
 period defined by how cards were printed, not a Konami grouping of TCG set
 releases. There is no marketing tier above the set the way Pokémon has
@@ -86,25 +90,62 @@ Special-position codes exist too — `-ENSP1` for Sneak Preview and `-ENSE1`
 for Special Edition cards — so the position segment isn't always three
 digits. The schema pattern is deliberately permissive about this.
 
-### Open question: are regional printings separate entities?
+### Printings are separate entities
 
-**Undecided — settle it before bulk-filing any set.** Legend of Blue Eyes
-exists as a North American printing (`LOB-001`), a later English one
-(`LOB-EN001`), German, French, Italian, Spanish, Portuguese and Asian-English
-runs — Yugipedia keeps a separate card list per region. Two defensible
-models:
+**Each printing of a set is its own nested collection, and its cards are their
+own entities.** This follows directly from
+[`../../CLAUDE.md`](../../CLAUDE.md#collectibles-not-products): the printed
+card number differs between printings, so the objects are physically distinct,
+and the catalog deduplicates on physical uniqueness rather than on product
+identity.
 
-- **One entity per card per set**, catalogued from one reference region
-  (English), with other regions treated as printings of the same collectible.
-  Keeps a set at its nominal size — 126 files for Legend of Blue Eyes.
-- **One entity per regional printing**, since the printed card number differs
-  and collectors do treat them separately. Multiplies every set by its region
-  count.
+Legend of Blue Eyes is the worked example — four English printings, filed
+separately:
 
-This is a different question from a *reprint in a later set*, which is
-unambiguously a separate entity (see Common pitfalls). Whichever way it goes,
-decide first — retrofitting it across a filed set means renumbering every
-file in it.
+| directory | prefix | released | cards |
+|---|---|---|---|
+| `north-american/` | `LOB-` | 2002-03-08 | 126 |
+| `european/` | `LOB-E` | 2002-12 | **103** |
+| `oceanic/` | `LOB-A` | 2003-09 | 126 |
+| `worldwide-english/` | `LOB-EN` | 2004-12-01 | 126 |
+
+The European printing being **103 cards rather than 126** is the clearest
+demonstration that these aren't relabelled copies of one another — it's a
+materially different set. Printed names differ too: the North American
+printing has "Trial of Hell" and "Red-eyes B. Dragon" where the Worldwide
+English one has "Trial of Nightmare" and "Red-Eyes B. Dragon".
+
+Name a printing directory for its **region**, not its prefix —
+`north-american/`, not `lob/`. Non-English printings (German, French, Italian,
+Spanish, Portuguese) are out of scope per Scope above; when a set has only one
+English printing it still gets a printing directory, so the shape stays
+uniform.
+
+**`total_cards` belongs on the printing, not the set** — printings
+legitimately differ in size, so a single figure at set level would be wrong
+for at least one of them.
+
+### Editions
+
+**An edition is a printing axis too, not a card attribute.** A 1st Edition
+card and an Unlimited card are physically distinguishable, so by the same rule
+they're separate entities, filed as sibling printing collections
+(`north-american-1st-edition/`, `north-american-unlimited/`) rather than one
+card carrying an `edition` field.
+
+**Not yet applied, because the data isn't there.** Yugipedia's set lists carry
+only `number; name; rarity`, and its card pages carry no per-printing edition
+data either. Watch out for one false friend: a card page's `Unlimited` value
+sits in `tcg_speed_duel_status`, which is **banlist** status — how many copies
+may be played — not print edition. Don't wire that up by mistake. Edition
+appears only in prose on set pages.
+
+The printings filed so far are therefore edition-agnostic. Splitting them
+needs a source documenting which editions each regional printing actually had
+— a collector database or Konami print-run record. Until one is found, don't
+guess, and **don't add an `edition` attribute as a stand-in**: that would
+encode the axis in the wrong place and have to be unpicked across every filed
+card later.
 
 ## Naming files
 
@@ -146,15 +187,14 @@ variants) — they don't appear on TCG cards.
 
 ## Edition
 
-`attributes.edition` records the edition marking printed on the card: **1st
-Edition**, **Unlimited Edition** (no marking), or **Limited Edition**. This is
-a real collectible distinction in this game rather than a printing footnote —
-1st Edition and Unlimited copies of the same card number are separately
-collected and valued.
+There is **no `edition` attribute** — see Editions above. 1st Edition,
+Unlimited and Limited Edition are printing-level distinctions, so they belong
+as sibling printing collections once the data exists to split them, not as a
+field on a card.
 
-Note this is a TCG/Korean-OCG concept: Japanese, Japanese-Asian and Chinese
-OCG cards carry no edition marking at all. Another reason the OCG needs its
-own conventions if it's ever curated.
+Note edition is a TCG/Korean-OCG concept in the first place: Japanese,
+Japanese-Asian and Chinese OCG cards carry no edition marking at all. Another
+reason the OCG needs its own conventions if it's ever curated.
 
 ## Sourcing
 
