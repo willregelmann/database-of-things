@@ -6,5 +6,4 @@ attributes:
   number: "16/116"
   rarity: Rare Holo
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/bw9/16_hires.png
+image: https://images.pokemontcg.io/bw9/16_hires.png

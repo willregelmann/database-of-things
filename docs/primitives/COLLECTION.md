@@ -44,7 +44,7 @@ description: >
   at all — they're organizational buckets, not things that were released.
 - **`description`** — prose context: release history, scope, what the
   collection spans.
-- **`image.source_url`** — the collection's own official logo/brand mark,
+- **`image`** — URL of the collection's own official logo/brand mark,
   from an authoritative source, only when one genuinely exists and
   belongs to the entity itself, not a franchise it's merely licensed
   from.
@@ -89,7 +89,7 @@ does *not* constitute owning that item.
 
 ## Inheritance
 
-`CLAUDE.md` and `template.schema.json` are resolved by walking up from a
+`CLAUDE.md` and `../../schema.json` are resolved by walking up from a
 collection's own directory to the nearest ancestor that has one — a nested
 set normally inherits both from its category rather than repeating them.
 

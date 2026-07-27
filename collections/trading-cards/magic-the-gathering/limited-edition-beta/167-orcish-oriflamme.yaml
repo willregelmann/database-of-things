@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{3}{R}"
   card_type: Enchantment
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/f/2/f2752cf2-9a48-49a8-98ff-2e32a9121d78.jpg?1783948621
+image: >-
+  https://cards.scryfall.io/large/front/f/2/f2752cf2-9a48-49a8-98ff-2e32a9121d78.jpg?1783948621

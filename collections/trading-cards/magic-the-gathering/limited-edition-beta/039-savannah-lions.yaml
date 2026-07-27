@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - W
-  mana_cost: "{W}"
-  card_type: Creature — Cat
+  card_type: Creature
   illustrator: Daniel Gelon
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/7/67d1945d-d228-4dc3-a593-859408b2016b.jpg?1783948648
+image: >-
+  https://cards.scryfall.io/large/front/6/7/67d1945d-d228-4dc3-a593-859408b2016b.jpg?1783948648

@@ -8,6 +8,6 @@ description: >
   themed around the Frontier Brains ("Pokémon FB") and Champion Cynthia
   ("Pokémon C").
 date: "2009-08-19"
+ongoing: false
 total_cards: 147
-image:
-  source_url: https://images.pokemontcg.io/pl3/logo.png
+image: https://images.pokemontcg.io/pl3/logo.png

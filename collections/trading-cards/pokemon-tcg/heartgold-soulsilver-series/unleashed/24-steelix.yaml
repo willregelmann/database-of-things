@@ -6,5 +6,4 @@ attributes:
   number: "24/95"
   rarity: Rare
   illustrator: Masakazu Fukuda
-image:
-  source_url: https://images.pokemontcg.io/hgss2/24_hires.png
+image: https://images.pokemontcg.io/hgss2/24_hires.png

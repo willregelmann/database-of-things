@@ -8,6 +8,6 @@ description: >
   two Pokémon together, including Mewtwo & Mew-GX, Garchomp & Giratina-GX, and
   Umbreon & Darkrai-GX.
 date: "2019-08-02"
+ongoing: false
 total_cards: 236
-image:
-  source_url: https://images.pokemontcg.io/sm11/logo.png
+image: https://images.pokemontcg.io/sm11/logo.png

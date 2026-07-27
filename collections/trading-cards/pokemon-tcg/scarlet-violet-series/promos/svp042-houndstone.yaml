@@ -6,5 +6,4 @@ attributes:
   number: "042"
   rarity: Promo
   illustrator: Pani Kobayashi
-image:
-  source_url: https://images.pokemontcg.io/svp/42_hires.png
+image: https://images.pokemontcg.io/svp/42_hires.png

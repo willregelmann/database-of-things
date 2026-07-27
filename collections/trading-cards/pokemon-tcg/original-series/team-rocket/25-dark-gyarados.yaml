@@ -6,5 +6,4 @@ attributes:
   number: "25/82"
   rarity: Rare
   illustrator: Kagemaru Himeno
-image:
-  source_url: https://images.pokemontcg.io/base5/25_hires.png
+image: https://images.pokemontcg.io/base5/25_hires.png

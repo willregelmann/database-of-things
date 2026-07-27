@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - B
-  mana_cost: "{1}{B}"
   card_type: Instant
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/b/5bcda143-55f8-4d02-918f-975d9090d03f.jpg?1783948629
+image: >-
+  https://cards.scryfall.io/large/front/5/b/5bcda143-55f8-4d02-918f-975d9090d03f.jpg?1783948629

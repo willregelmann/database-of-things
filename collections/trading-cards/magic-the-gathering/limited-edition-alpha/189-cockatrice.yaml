@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - G
-  mana_cost: "{3}{G}{G}"
-  card_type: Creature — Cockatrice
+  card_type: Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/c/9cd91814-6177-4a3d-a1c1-a3be7d7c7957.jpg?1783948678
+image: >-
+  https://cards.scryfall.io/large/front/9/c/9cd91814-6177-4a3d-a1c1-a3be7d7c7957.jpg?1783948678

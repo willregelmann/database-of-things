@@ -6,5 +6,4 @@ attributes:
   pokemon:
     - Pikachu
     - Growlithe
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/812449403.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/812449403.jpg

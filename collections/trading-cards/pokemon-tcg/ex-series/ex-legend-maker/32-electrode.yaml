@@ -6,5 +6,4 @@ attributes:
   number: "32/92"
   rarity: Uncommon
   illustrator: Midori Harada
-image:
-  source_url: https://images.pokemontcg.io/ex12/32_hires.png
+image: https://images.pokemontcg.io/ex12/32_hires.png

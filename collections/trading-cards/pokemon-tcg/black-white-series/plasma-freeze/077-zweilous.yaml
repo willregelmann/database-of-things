@@ -6,5 +6,4 @@ attributes:
   number: "77/116"
   rarity: Uncommon
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/bw9/77_hires.png
+image: https://images.pokemontcg.io/bw9/77_hires.png

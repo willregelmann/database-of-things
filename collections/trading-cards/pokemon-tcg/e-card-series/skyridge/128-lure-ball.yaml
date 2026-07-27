@@ -6,5 +6,4 @@ attributes:
   number: "128/144"
   rarity: Uncommon
   illustrator: Katsura Tabata
-image:
-  source_url: https://images.pokemontcg.io/ecard3/128_hires.png
+image: https://images.pokemontcg.io/ecard3/128_hires.png

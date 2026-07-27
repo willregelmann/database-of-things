@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Crown Zenith number override — plain numbering plus the GG-prefixed Galarian Gallery subset",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^([0-9]+/[0-9]+|GG[0-9]+/GG[0-9]+)$"
+    }
+  }
+}

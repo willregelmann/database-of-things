@@ -8,6 +8,6 @@ description: >
   classic cards alongside new Mega Evolution Pokémon-EX and Pokémon-BREAK built
   around the same Kanto Pokémon.
 date: "2016-11-02"
+ongoing: false
 total_cards: 108
-image:
-  source_url: https://images.pokemontcg.io/xy12/logo.png
+image: https://images.pokemontcg.io/xy12/logo.png

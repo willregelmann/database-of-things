@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - G
-  mana_cost: "{G}"
   card_type: Instant
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/2/f/2f55ff95-32a3-43ba-82e5-a5a3bc2cc9e5.jpg?1783948617
+image: >-
+  https://cards.scryfall.io/large/front/2/f/2f55ff95-32a3-43ba-82e5-a5a3bc2cc9e5.jpg?1783948617

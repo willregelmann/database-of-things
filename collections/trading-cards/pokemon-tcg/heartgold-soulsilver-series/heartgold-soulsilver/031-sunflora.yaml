@@ -6,5 +6,4 @@ attributes:
   number: "31/123"
   rarity: Rare
   illustrator: Yuka Morii
-image:
-  source_url: https://images.pokemontcg.io/hgss1/31_hires.png
+image: https://images.pokemontcg.io/hgss1/31_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "92/111"
   rarity: Uncommon
   illustrator: Eske Yoshinob
-image:
-  source_url: https://images.pokemontcg.io/sm4/92_hires.png
+image: https://images.pokemontcg.io/sm4/92_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "DP53"
   rarity: Promo
   illustrator: Shizurow
-image:
-  source_url: https://images.pokemontcg.io/dpp/DP53_hires.png
+image: https://images.pokemontcg.io/dpp/DP53_hires.png

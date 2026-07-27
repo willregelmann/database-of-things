@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - U
-  mana_cost: "{1}{U}{U}"
-  card_type: Creature — Wall
+  card_type: Creature
   illustrator: Richard Thomas
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/a/da56fdf3-6a8f-4833-a5c3-197650cc4889.jpg?1783948699
+image: >-
+  https://cards.scryfall.io/large/front/d/a/da56fdf3-6a8f-4833-a5c3-197650cc4889.jpg?1783948699

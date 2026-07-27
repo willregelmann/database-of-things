@@ -6,5 +6,4 @@ attributes:
   number: "205/193"
   rarity: Illustration Rare
   illustrator: Nelnal
-image:
-  source_url: https://images.pokemontcg.io/sv2/205_hires.png
+image: https://images.pokemontcg.io/sv2/205_hires.png

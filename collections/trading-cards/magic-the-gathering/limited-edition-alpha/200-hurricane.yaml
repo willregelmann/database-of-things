@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - G
-  mana_cost: "{X}{G}"
   card_type: Sorcery
   illustrator: Dameon Willich
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/2/52f5a19f-16e4-4d35-89e1-969ac8202f88.jpg?1783948676
+image: >-
+  https://cards.scryfall.io/large/front/5/2/52f5a19f-16e4-4d35-89e1-969ac8202f88.jpg?1783948676

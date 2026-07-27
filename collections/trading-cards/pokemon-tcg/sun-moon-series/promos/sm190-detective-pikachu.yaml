@@ -6,5 +6,4 @@ attributes:
   number: "SM190"
   rarity: Promo
   illustrator: Framestore
-image:
-  source_url: https://images.pokemontcg.io/smp/SM190_hires.png
+image: https://images.pokemontcg.io/smp/SM190_hires.png

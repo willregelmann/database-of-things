@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - R
-  mana_cost: "{R}"
   card_type: Instant
   illustrator: Christopher Rush
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/5/b5d3dcab-2260-479d-9ef6-dfb92d4f6061.jpg?1783948623
+image: >-
+  https://cards.scryfall.io/large/front/b/5/b5d3dcab-2260-479d-9ef6-dfb92d4f6061.jpg?1783948623

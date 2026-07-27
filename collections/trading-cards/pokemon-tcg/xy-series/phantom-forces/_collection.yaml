@@ -8,6 +8,6 @@ description: >
   Mega Evolve without ending the player's turn, and carries a light Team Flare
   theme through its Hyper Gear Tool cards and character Supporters.
 date: "2014-11-05"
+ongoing: false
 total_cards: 119
-image:
-  source_url: https://images.pokemontcg.io/xy4/logo.png
+image: https://images.pokemontcg.io/xy4/logo.png

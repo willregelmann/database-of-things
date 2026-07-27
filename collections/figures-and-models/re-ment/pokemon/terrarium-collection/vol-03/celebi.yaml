@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Celebi
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/661451399.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/661451399.jpg

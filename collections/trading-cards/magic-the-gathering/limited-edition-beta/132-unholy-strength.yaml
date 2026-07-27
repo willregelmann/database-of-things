@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - B
-  mana_cost: "{B}"
-  card_type: Enchantment — Aura
+  card_type: Enchantment
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/c/1c1c781d-1f27-40e3-9d79-0ebb6677e835.jpg?1783948628
+image: >-
+  https://cards.scryfall.io/large/front/1/c/1c1c781d-1f27-40e3-9d79-0ebb6677e835.jpg?1783948628

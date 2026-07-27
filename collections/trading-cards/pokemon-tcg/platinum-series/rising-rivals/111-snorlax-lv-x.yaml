@@ -6,5 +6,4 @@ attributes:
   number: "111/111"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
-image:
-  source_url: https://images.pokemontcg.io/pl2/111_hires.png
+image: https://images.pokemontcg.io/pl2/111_hires.png

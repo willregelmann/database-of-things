@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - R
-  mana_cost: "{R}"
   card_type: Instant
   illustrator: Richard Thomas
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/7/7/776ad9be-3309-4f1d-9f27-6219d9477662.jpg?1783948682
+image: >-
+  https://cards.scryfall.io/large/front/7/7/776ad9be-3309-4f1d-9f27-6219d9477662.jpg?1783948682

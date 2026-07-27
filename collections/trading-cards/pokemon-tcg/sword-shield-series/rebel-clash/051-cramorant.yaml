@@ -6,5 +6,4 @@ attributes:
   number: "51/192"
   rarity: Rare
   illustrator: Mitsuhiro Arita
-image:
-  source_url: https://images.pokemontcg.io/swsh2/51_hires.png
+image: https://images.pokemontcg.io/swsh2/51_hires.png

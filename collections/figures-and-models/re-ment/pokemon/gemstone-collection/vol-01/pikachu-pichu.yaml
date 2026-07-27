@@ -6,5 +6,4 @@ attributes:
   pokemon:
     - Pikachu
     - Pichu
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/1840812011.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/1840812011.jpg

@@ -6,5 +6,4 @@ attributes:
   number: "20/72"
   rarity: Common
   illustrator: Taira Akitsu
-image:
-  source_url: https://images.pokemontcg.io/swsh45/20_hires.png
+image: https://images.pokemontcg.io/swsh45/20_hires.png

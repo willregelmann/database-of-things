@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Arcanine
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/538528993.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/538528993.jpg

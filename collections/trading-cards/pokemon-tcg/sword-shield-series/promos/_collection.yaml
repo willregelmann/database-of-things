@@ -8,6 +8,6 @@ description: >
   printed denominator; 304 cards catalogued here (SWSH299-SWSH301 are known real
   cards missing from the primary data source -- see category CLAUDE.md).
 date: "2019"
+ongoing: false
 total_cards: 304
-image:
-  source_url: https://images.pokemontcg.io/swshp/logo.png
+image: https://images.pokemontcg.io/swshp/logo.png

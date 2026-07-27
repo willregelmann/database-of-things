@@ -24,17 +24,17 @@ component deck belongs with the product it ships in, not here.
 ```
 trading-cards/
   CLAUDE.md
-  template.schema.json          # generic fallback; each line overrides it
+  schema.json          # generic fallback; each line overrides it
   _collection.yaml               # this domain family's own entity record
   <line>/
     CLAUDE.md                    # line-specific conventions — required
-    template.schema.json         # line-specific attributes — required
+    schema.json         # line-specific attributes — required
     _collection.yaml
     ...                          # line's own internal structure
 ```
 
 Each line is a full top-level collection in its own right, not a thin
-subdirectory — it needs its own `CLAUDE.md` and `template.schema.json` since
+subdirectory — it needs its own `CLAUDE.md` and `schema.json` since
 card attributes, numbering, and pitfalls vary by line. See the root
 [`collections/README.md`](../README.md) for how directory position
 determines parentage.
@@ -61,7 +61,7 @@ curation pass) can do this.
 
 1. Create `trading-cards/<line>/`.
 2. Write its `_collection.yaml` (`type: collection`, plus a `description`).
-   The line inherits this family's `CLAUDE.md` and `template.schema.json` for
+   The line inherits this family's `CLAUDE.md` and `schema.json` for
    now.
 3. Run the validator before opening a PR.
 
@@ -72,9 +72,9 @@ under the line.
    completeness-checking approach, known pitfalls. Say whether the line is a
    playable game or a non-game set, and what its intermediate grouping
    levels (if any) are.
-5. Write its `template.schema.json`. **Don't inherit this family's
-   `template.schema.json` as-is** — write attributes specific to the line
-   (see `pokemon-tcg/template.schema.json`).
+5. Write its `schema.json`. **Don't inherit this family's
+   `schema.json` as-is** — write attributes specific to the line
+   (see `pokemon-tcg/schema.json`).
 6. Run the validator before opening a PR.
 
 **Phase 2 is not deferrable far in this family.** A card game's set codes,

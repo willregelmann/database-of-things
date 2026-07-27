@@ -6,5 +6,4 @@ attributes:
   number: "85/192"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
-image:
-  source_url: https://images.pokemontcg.io/swsh2/85_hires.png
+image: https://images.pokemontcg.io/swsh2/85_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - U
-  mana_cost: "{U}"
   card_type: Instant
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/8/5/8512f2c1-6361-4b79-843f-80b6bceeeb99.jpg?1783948699
+image: >-
+  https://cards.scryfall.io/large/front/8/5/8512f2c1-6361-4b79-843f-80b6bceeeb99.jpg?1783948699

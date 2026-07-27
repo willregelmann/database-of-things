@@ -6,5 +6,4 @@ attributes:
   number: "92/182"
   rarity: Uncommon
   illustrator: GOSSAN
-image:
-  source_url: https://images.pokemontcg.io/sv4/92_hires.png
+image: https://images.pokemontcg.io/sv4/92_hires.png

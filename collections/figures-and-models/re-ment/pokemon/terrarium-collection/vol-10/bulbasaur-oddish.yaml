@@ -6,5 +6,4 @@ attributes:
   pokemon:
     - Bulbasaur
     - Oddish
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/750881116.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/750881116.jpg

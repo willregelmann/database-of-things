@@ -6,5 +6,4 @@ attributes:
   number: "125/86"
   rarity: Illustration Rare
   illustrator: Terada Tera
-image:
-  source_url: https://images.pokemontcg.io/rsv10pt5/125_hires.png
+image: https://images.pokemontcg.io/rsv10pt5/125_hires.png

@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EX Unseen Forces number override — plain numbering plus the 28-card Unown alphabet subset (A-Z, !, ?)",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^([0-9]+/[0-9]+|[A-Z]/[0-9]+|[!?]/[0-9]+)$"
+    }
+  }
+}

@@ -18,7 +18,7 @@ directory axis.** A built Nendoroid, an unbuilt Gunpla runner, and a LEGO
 set are all molded-plastic objects sold in numbered product lines; splitting
 them into separate families only forced every line near the boundary to be
 argued about twice. Record assembly in the line's own `CLAUDE.md` and
-`template.schema.json` where it affects how items are identified (grades,
+`schema.json` where it affects how items are identified (grades,
 part counts, instruction numbering) — not by filing the line somewhere else.
 
 **A line is curated whole — don't slice one line by object type.** If an
@@ -132,7 +132,7 @@ curation pass) can do this.
    its own top-level brand goes directly at `figures-and-models/<line>/`.
 2. Write its `_collection.yaml` (`type: collection`, plus a `description`).
    The line inherits the nearest ancestor's `CLAUDE.md` and
-   `template.schema.json` for now.
+   `schema.json` for now.
 3. Run the validator before opening a PR.
 
 **Phase 2 — author its conventions.** Required before the first item is filed
@@ -145,7 +145,7 @@ this tier (as `pop-mart/CLAUDE.md` does for its IP directories).
    For a kit or construction line, cover how assembly shapes identification
    (grades, scales, set numbering) here rather than treating it as a reason
    to file the line elsewhere.
-5. Write its `template.schema.json` — don't reuse another line's attributes
+5. Write its `schema.json` — don't reuse another line's attributes
    as-is; verify against manufacturer listings or a fan database (e.g.
    MyFigureCollection, Gunpla Wiki, Brickset) rather than guessing.
 6. Run the validator before opening a PR.

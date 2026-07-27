@@ -6,5 +6,4 @@ attributes:
   number: "13/181"
   rarity: Uncommon
   illustrator: Ayaka Yoshida
-image:
-  source_url: https://images.pokemontcg.io/sm9/13_hires.png
+image: https://images.pokemontcg.io/sm9/13_hires.png

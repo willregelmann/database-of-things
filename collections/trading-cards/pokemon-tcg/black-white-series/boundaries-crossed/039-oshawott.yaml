@@ -6,5 +6,4 @@ attributes:
   number: "39/149"
   rarity: Common
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/bw7/39_hires.png
+image: https://images.pokemontcg.io/bw7/39_hires.png

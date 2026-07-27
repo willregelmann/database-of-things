@@ -6,5 +6,4 @@ attributes:
   number: "24/182"
   rarity: Common
   illustrator: Toshinao Aoki
-image:
-  source_url: https://images.pokemontcg.io/sv10/24_hires.png
+image: https://images.pokemontcg.io/sv10/24_hires.png

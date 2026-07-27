@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - W
-  mana_cost: "{2}{W}{W}"
   card_type: Sorcery
   illustrator: Quinton Hoover
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/6/96dd2d61-a43d-4582-b730-71d4fac0fa23.jpg?1783948646
+image: >-
+  https://cards.scryfall.io/large/front/9/6/96dd2d61-a43d-4582-b730-71d4fac0fa23.jpg?1783948646

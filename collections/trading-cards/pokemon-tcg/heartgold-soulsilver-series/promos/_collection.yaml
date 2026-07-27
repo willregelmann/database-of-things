@@ -7,6 +7,6 @@ description: >
   marked with a black star and an "HGSS" number prefix. Spans 25 cards, numbered
   HGSS01-HGSS25 with no printed denominator.
 date: "2010"
+ongoing: false
 total_cards: 25
-image:
-  source_url: https://images.pokemontcg.io/hsp/logo.png
+image: https://images.pokemontcg.io/hsp/logo.png

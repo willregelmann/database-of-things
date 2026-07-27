@@ -6,5 +6,4 @@ attributes:
   number: "99/160"
   rarity: Uncommon
   illustrator: Kanako Eo
-image:
-  source_url: https://images.pokemontcg.io/xy5/99_hires.png
+image: https://images.pokemontcg.io/xy5/99_hires.png

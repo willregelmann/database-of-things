@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Alcremie
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/185166043.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/185166043.jpg

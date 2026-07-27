@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{4}{U}"
-  card_type: Creature — Human Pirate
+  card_type: Creature
   illustrator: Tom Wänerstrand
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/2/925ce0a7-ae09-4220-9e67-314dbc231c94.jpg?1783948641
+image: >-
+  https://cards.scryfall.io/large/front/9/2/925ce0a7-ae09-4220-9e67-314dbc231c94.jpg?1783948641

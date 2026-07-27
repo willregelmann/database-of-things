@@ -6,5 +6,4 @@ attributes:
   number: "39/95"
   rarity: Rare
   illustrator: Wataru Kawahara
-image:
-  source_url: https://images.pokemontcg.io/col1/39_hires.png
+image: https://images.pokemontcg.io/col1/39_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "29/197"
   rarity: Uncommon
   illustrator: Yoshioka
-image:
-  source_url: https://images.pokemontcg.io/sv3/29_hires.png
+image: https://images.pokemontcg.io/sv3/29_hires.png

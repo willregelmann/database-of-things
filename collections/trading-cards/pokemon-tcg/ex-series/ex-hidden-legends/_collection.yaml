@@ -9,6 +9,6 @@ description: >
   building an ancient-ruins theme through Trainer cards like Ancient Tomb,
   Desert Ruins, and Island Cave.
 date: "2004-06-14"
+ongoing: false
 total_cards: 101
-image:
-  source_url: https://images.pokemontcg.io/ex5/logo.png
+image: https://images.pokemontcg.io/ex5/logo.png

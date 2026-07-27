@@ -6,5 +6,4 @@ attributes:
   number: "94/123"
   rarity: Uncommon
   illustrator: Noriko Hotta
-image:
-  source_url: https://images.pokemontcg.io/hgss1/94_hires.png
+image: https://images.pokemontcg.io/hgss1/94_hires.png

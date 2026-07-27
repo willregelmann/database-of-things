@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{4}{G}"
-  card_type: Creature — Treefolk
+  card_type: Creature
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/d/1d9479ae-2b42-4137-9e62-ef4d7fd17d0c.jpg?1783948613
+image: >-
+  https://cards.scryfall.io/large/front/1/d/1d9479ae-2b42-4137-9e62-ef4d7fd17d0c.jpg?1783948613

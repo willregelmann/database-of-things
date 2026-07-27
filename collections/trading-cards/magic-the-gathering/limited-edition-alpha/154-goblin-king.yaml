@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{1}{R}{R}"
-  card_type: Creature — Goblin
+  card_type: Creature
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/8/5873672d-37ea-4c0f-97f3-12b74fde112d.jpg?1783948685
+image: >-
+  https://cards.scryfall.io/large/front/5/8/5873672d-37ea-4c0f-97f3-12b74fde112d.jpg?1783948685

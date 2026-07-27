@@ -6,5 +6,4 @@ attributes:
   number: "26/195"
   rarity: Uncommon
   illustrator: Ligton
-image:
-  source_url: https://images.pokemontcg.io/swsh12/26_hires.png
+image: https://images.pokemontcg.io/swsh12/26_hires.png

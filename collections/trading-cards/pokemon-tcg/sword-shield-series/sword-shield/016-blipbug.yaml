@@ -6,5 +6,4 @@ attributes:
   number: "16/202"
   rarity: Common
   illustrator: nagimiso
-image:
-  source_url: https://images.pokemontcg.io/swsh1/16_hires.png
+image: https://images.pokemontcg.io/swsh1/16_hires.png

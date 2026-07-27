@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - R
-  mana_cost: "{X}{R}"
   card_type: Sorcery
   illustrator: Mark Tedin
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/a/2/a285ab2e-836e-45b0-894e-574f733cf3db.jpg?1783948625
+image: >-
+  https://cards.scryfall.io/large/front/a/2/a285ab2e-836e-45b0-894e-574f733cf3db.jpg?1783948625

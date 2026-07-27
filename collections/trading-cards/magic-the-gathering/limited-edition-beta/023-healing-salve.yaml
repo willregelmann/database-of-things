@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{W}"
   card_type: Instant
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/c/9c9f2eeb-fea5-4b33-9723-8be3c1914f63.jpg?1783948651
+image: >-
+  https://cards.scryfall.io/large/front/9/c/9c9f2eeb-fea5-4b33-9723-8be3c1914f63.jpg?1783948651

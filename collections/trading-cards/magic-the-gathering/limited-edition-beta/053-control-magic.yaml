@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - U
-  mana_cost: "{2}{U}{U}"
-  card_type: Enchantment — Aura
+  card_type: Enchantment
   illustrator: Dameon Willich
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/3/133315bd-3c46-4eff-938e-4dba63631c1b.jpg?1783948645
+image: >-
+  https://cards.scryfall.io/large/front/1/3/133315bd-3c46-4eff-938e-4dba63631c1b.jpg?1783948645

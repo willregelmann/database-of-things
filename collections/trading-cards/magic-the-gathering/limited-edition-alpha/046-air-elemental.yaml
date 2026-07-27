@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - U
-  mana_cost: "{3}{U}{U}"
-  card_type: Creature — Elemental
+  card_type: Creature
   illustrator: Richard Thomas
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/9/69c3b2a3-0daa-4d42-832d-fcdfda6555ea.jpg?1783948708
+image: >-
+  https://cards.scryfall.io/large/front/6/9/69c3b2a3-0daa-4d42-832d-fcdfda6555ea.jpg?1783948708

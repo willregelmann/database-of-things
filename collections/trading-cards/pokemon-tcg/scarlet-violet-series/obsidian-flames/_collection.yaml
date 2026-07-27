@@ -8,6 +8,6 @@ description: >
   which appears across multiple rarity treatments including a Special
   Illustration Rare and a Hyper Rare secret card.
 date: "2023-08-11"
+ongoing: false
 total_cards: 197
-image:
-  source_url: https://images.pokemontcg.io/sv3/logo.png
+image: https://images.pokemontcg.io/sv3/logo.png

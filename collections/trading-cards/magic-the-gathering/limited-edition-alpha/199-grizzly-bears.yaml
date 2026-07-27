@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{1}{G}"
-  card_type: Creature — Bear
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/c/e/ce2d603a-3231-4a8c-bf39-1617586ea870.jpg?1783948676
+image: >-
+  https://cards.scryfall.io/large/front/c/e/ce2d603a-3231-4a8c-bf39-1617586ea870.jpg?1783948676

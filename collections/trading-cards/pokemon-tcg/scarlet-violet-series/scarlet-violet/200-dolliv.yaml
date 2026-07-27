@@ -6,5 +6,4 @@ attributes:
   number: "200/198"
   rarity: Illustration Rare
   illustrator: Oswaldo KATO
-image:
-  source_url: https://images.pokemontcg.io/sv1/200_hires.png
+image: https://images.pokemontcg.io/sv1/200_hires.png

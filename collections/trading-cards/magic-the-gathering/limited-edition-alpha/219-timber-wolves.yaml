@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - G
-  mana_cost: "{G}"
-  card_type: Creature — Wolf
+  card_type: Creature
   illustrator: Melissa A. Benson
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/c/bc2570a4-eef9-430d-b6c2-cd51d29b9d01.jpg?1783948672
+image: >-
+  https://cards.scryfall.io/large/front/b/c/bc2570a4-eef9-430d-b6c2-cd51d29b9d01.jpg?1783948672

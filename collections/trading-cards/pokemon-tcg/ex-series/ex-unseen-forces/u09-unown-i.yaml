@@ -6,5 +6,4 @@ attributes:
   number: "I/28"
   rarity: Rare Holo
   illustrator: Nakaoka
-image:
-  source_url: https://images.pokemontcg.io/ex10/I_hires.png
+image: https://images.pokemontcg.io/ex10/I_hires.png

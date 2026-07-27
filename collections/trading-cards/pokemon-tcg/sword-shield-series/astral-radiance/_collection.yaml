@@ -8,6 +8,6 @@ description: >
   plus a 30-card Trainer Gallery secondary subset featuring alternate-art
   Trainer and Pokémon V/VMAX illustrations.
 date: "2022-05-27"
+ongoing: false
 total_cards: 189
-image:
-  source_url: https://images.pokemontcg.io/swsh10/logo.png
+image: https://images.pokemontcg.io/swsh10/logo.png

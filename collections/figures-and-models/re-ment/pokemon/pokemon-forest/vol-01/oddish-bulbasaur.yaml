@@ -6,6 +6,5 @@ attributes:
   pokemon:
     - Oddish
     - Bulbasaur
-image:
-  source_url: >-
-    https://pokevault.com/image/cache/catalog/201707/1523364351_rementpokemonforest4-500x500.jpg
+image: >-
+  https://pokevault.com/image/cache/catalog/201707/1523364351_rementpokemonforest4-500x500.jpg

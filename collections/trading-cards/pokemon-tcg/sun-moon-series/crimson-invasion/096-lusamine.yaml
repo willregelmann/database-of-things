@@ -6,5 +6,4 @@ attributes:
   number: "96/111"
   rarity: Uncommon
   illustrator: take
-image:
-  source_url: https://images.pokemontcg.io/sm4/96_hires.png
+image: https://images.pokemontcg.io/sm4/96_hires.png

@@ -7,8 +7,7 @@ attributes:
   category: Thunderzord Assault Team
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02262.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/02262.jpg
 components:
   - d80dc944-df71-4fd5-bfcb-5c0d6858000c   # Black Lion Thunderzord
   - 6d2ab3d0-298b-4d9c-ba46-8adb98807dc1   # Unicorn Thunderzord

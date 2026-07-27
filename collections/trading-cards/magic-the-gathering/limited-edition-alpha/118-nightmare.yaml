@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{5}{B}"
-  card_type: Creature — Nightmare Horse
+  card_type: Creature
   illustrator: Melissa A. Benson
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/8/b8cdd6a7-f772-4ccb-914f-63f52ed54d6b.jpg?1783948692
+image: >-
+  https://cards.scryfall.io/large/front/b/8/b8cdd6a7-f772-4ccb-914f-63f52ed54d6b.jpg?1783948692

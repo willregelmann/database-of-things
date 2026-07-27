@@ -6,5 +6,4 @@ attributes:
   number: "48/53"
   rarity: Promo
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/basep/48_hires.png
+image: https://images.pokemontcg.io/basep/48_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "15/99"
   rarity: Common
   illustrator: James Turner
-image:
-  source_url: https://images.pokemontcg.io/bw4/15_hires.png
+image: https://images.pokemontcg.io/bw4/15_hires.png

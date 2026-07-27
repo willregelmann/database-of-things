@@ -6,5 +6,4 @@ attributes:
   number: "65/97"
   rarity: Common
   illustrator: Hironobu Yoshida
-image:
-  source_url: https://images.pokemontcg.io/ex3/65_hires.png
+image: https://images.pokemontcg.io/ex3/65_hires.png

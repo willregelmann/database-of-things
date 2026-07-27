@@ -6,5 +6,4 @@ attributes:
   number: "11/172"
   rarity: Rare
   illustrator: Akira Komayama
-image:
-  source_url: https://images.pokemontcg.io/swsh9/11_hires.png
+image: https://images.pokemontcg.io/swsh9/11_hires.png

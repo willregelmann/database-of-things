@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{2}{R}{R}"
-  card_type: Creature — Human Barbarian
+  card_type: Creature
   illustrator: Kev Brockschmidt
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/0/b07deb9b-5b88-4658-8ae8-041568992019.jpg?1783948623
+image: >-
+  https://cards.scryfall.io/large/front/b/0/b07deb9b-5b88-4658-8ae8-041568992019.jpg?1783948623

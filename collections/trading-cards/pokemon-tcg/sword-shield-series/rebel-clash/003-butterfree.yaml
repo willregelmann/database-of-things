@@ -6,5 +6,4 @@ attributes:
   number: "3/192"
   rarity: Rare
   illustrator: Taira Akitsu
-image:
-  source_url: https://images.pokemontcg.io/swsh2/3_hires.png
+image: https://images.pokemontcg.io/swsh2/3_hires.png

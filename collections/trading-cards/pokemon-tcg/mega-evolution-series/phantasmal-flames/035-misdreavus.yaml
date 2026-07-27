@@ -6,5 +6,4 @@ attributes:
   number: "35/94"
   rarity: Common
   illustrator: Mousho
-image:
-  source_url: https://images.pokemontcg.io/me2/35_hires.png
+image: https://images.pokemontcg.io/me2/35_hires.png

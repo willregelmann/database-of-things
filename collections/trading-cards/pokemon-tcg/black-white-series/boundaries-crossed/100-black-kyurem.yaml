@@ -6,5 +6,4 @@ attributes:
   number: "100/149"
   rarity: Rare
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/bw7/100_hires.png
+image: https://images.pokemontcg.io/bw7/100_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{U}"
   card_type: Instant
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/4/d427790c-e322-446e-8d7d-a6b48ad41a42.jpg?1783948701
+image: >-
+  https://cards.scryfall.io/large/front/d/4/d427790c-e322-446e-8d7d-a6b48ad41a42.jpg?1783948701

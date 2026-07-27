@@ -9,6 +9,6 @@ description: >
   entirely to Shiny Pokémon in special embossed holofoil, headlined by Shiny
   Charizard VMAX.
 date: "2021-02-19"
+ongoing: false
 total_cards: 72
-image:
-  source_url: https://images.pokemontcg.io/swsh45/logo.png
+image: https://images.pokemontcg.io/swsh45/logo.png

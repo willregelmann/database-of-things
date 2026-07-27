@@ -6,5 +6,4 @@ attributes:
   number: "221/91"
   rarity: Shiny Ultra Rare
   illustrator: takuyoa
-image:
-  source_url: https://images.pokemontcg.io/sv4pt5/221_hires.png
+image: https://images.pokemontcg.io/sv4pt5/221_hires.png

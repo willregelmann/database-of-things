@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{R}{R}"
   card_type: Instant
   illustrator: Amy Weber
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/e/6/e6b43916-fe2d-417a-a550-d7c795023297.jpg?1783948686
+image: >-
+  https://cards.scryfall.io/large/front/e/6/e6b43916-fe2d-417a-a550-d7c795023297.jpg?1783948686

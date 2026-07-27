@@ -9,8 +9,8 @@ Same shape as the other eras — five type-based subdirectories (`figures-and-mo
 `zords/`, `vehicles/`, `weapons/`, `playsets/`), plus a `_zords/`
 components bucket for individual pieces bundled inside a `zords/` Megazord
 — see [`../CLAUDE.md`](../CLAUDE.md), "Zords as components." Flat within
-each. No `template.schema.json` of its own; inherits the shared
-`power-rangers/template.schema.json`.
+each. No `../../../../../schema.json` of its own; inherits the shared
+`power-rangers/schema.json`.
 
 ## Source
 
@@ -54,7 +54,7 @@ Four of the five "5″ Astro Power Rangers" figures (`3211`-`3214`) show a
 site-side "Photo Needed" crowdsourcing placeholder instead of real product
 photography — these are confirmed released items with real UPCs (not
 unreleased), just without a sourced image yet. Filed without
-`image.source_url` rather than link the placeholder graphic; add the real
+`image` rather than link the placeholder graphic; add the real
 photo later if one turns up. `3215` (Pink) has a real photo and is filed
 normally.
 

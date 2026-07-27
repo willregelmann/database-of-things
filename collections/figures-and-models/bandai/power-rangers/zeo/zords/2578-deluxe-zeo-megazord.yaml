@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Zeo Megazord
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02578.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/02578.jpg
 components:
   - 1060d639-4224-40a6-a977-1da8ef6b7636   # Zeo Zord I
   - 92a48d7b-7abd-4ccb-b2e4-95583197e167   # Zeo Zord II

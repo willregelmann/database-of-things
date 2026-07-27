@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{1}{U}"
   card_type: Enchantment
   illustrator: Fay Jones
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/6/b6cef408-5b4b-49f6-9531-be544815b93f.jpg?1783948701
+image: >-
+  https://cards.scryfall.io/large/front/b/6/b6cef408-5b4b-49f6-9531-be544815b93f.jpg?1783948701

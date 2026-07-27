@@ -6,5 +6,4 @@ attributes:
   number: "1/53"
   rarity: Promo
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/basep/1_hires.png
+image: https://images.pokemontcg.io/basep/1_hires.png

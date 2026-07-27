@@ -6,5 +6,4 @@ attributes:
   number: "80/100"
   rarity: Common
   illustrator: Ken Sugimori
-image:
-  source_url: https://images.pokemontcg.io/ex2/80_hires.png
+image: https://images.pokemontcg.io/ex2/80_hires.png

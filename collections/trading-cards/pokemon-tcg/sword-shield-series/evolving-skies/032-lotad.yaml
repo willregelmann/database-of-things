@@ -6,5 +6,4 @@ attributes:
   number: "32/203"
   rarity: Common
   illustrator: Teeziro
-image:
-  source_url: https://images.pokemontcg.io/swsh7/32_hires.png
+image: https://images.pokemontcg.io/swsh7/32_hires.png

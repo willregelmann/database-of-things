@@ -8,6 +8,6 @@ description: >
   featuring special foil coating, alongside gold-bordered Full Art cards and a
   wave of Pokémon-EX from the Generation V era.
 date: "2013-11-06"
+ongoing: false
 total_cards: 113
-image:
-  source_url: https://images.pokemontcg.io/bw11/logo.png
+image: https://images.pokemontcg.io/bw11/logo.png

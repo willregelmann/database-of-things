@@ -6,5 +6,4 @@ attributes:
   number: "70/95"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
-image:
-  source_url: https://images.pokemontcg.io/col1/70_hires.png
+image: https://images.pokemontcg.io/col1/70_hires.png

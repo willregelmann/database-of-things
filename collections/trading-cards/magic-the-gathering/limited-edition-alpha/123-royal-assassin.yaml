@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{1}{B}{B}"
-  card_type: Creature — Human Assassin
+  card_type: Creature
   illustrator: Tom Wänerstrand
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/9/59590768-fa96-4869-8763-9d5ab6ac22ad.jpg?1783948692
+image: >-
+  https://cards.scryfall.io/large/front/5/9/59590768-fa96-4869-8763-9d5ab6ac22ad.jpg?1783948692

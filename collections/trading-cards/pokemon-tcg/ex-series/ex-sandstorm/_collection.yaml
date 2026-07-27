@@ -9,6 +9,6 @@ description: >
   the Prerelease event format used for subsequent releases. Spans 100 cards,
   including seven Pokémon-ex cards.
 date: "2003-09-18"
+ongoing: false
 total_cards: 100
-image:
-  source_url: https://images.pokemontcg.io/ex2/logo.png
+image: https://images.pokemontcg.io/ex2/logo.png

@@ -6,5 +6,4 @@ attributes:
   number: "65/78"
   rarity: Uncommon
   illustrator: Ryuta Fuse
-image:
-  source_url: https://images.pokemontcg.io/pgo/65_hires.png
+image: https://images.pokemontcg.io/pgo/65_hires.png

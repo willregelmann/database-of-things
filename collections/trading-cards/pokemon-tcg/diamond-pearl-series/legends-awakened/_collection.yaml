@@ -7,6 +7,6 @@ description: >
   Holo LV.X cards for legendary Pokémon including Uxie, Mesprit, Azelf, and
   Mewtwo.
 date: "2008-08-20"
+ongoing: false
 total_cards: 146
-image:
-  source_url: https://images.pokemontcg.io/dp6/logo.png
+image: https://images.pokemontcg.io/dp6/logo.png

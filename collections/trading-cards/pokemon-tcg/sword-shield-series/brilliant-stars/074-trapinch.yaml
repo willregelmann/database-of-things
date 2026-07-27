@@ -6,5 +6,4 @@ attributes:
   number: "74/172"
   rarity: Common
   illustrator: zig
-image:
-  source_url: https://images.pokemontcg.io/swsh9/74_hires.png
+image: https://images.pokemontcg.io/swsh9/74_hires.png

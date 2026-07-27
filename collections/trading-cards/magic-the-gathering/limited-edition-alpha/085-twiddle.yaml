@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - U
-  mana_cost: "{U}"
   card_type: Instant
   illustrator: Rob Alexander
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/7/576e811f-26a3-4a7c-bd13-3b1cc3e184eb.jpg?1783948699
+image: >-
+  https://cards.scryfall.io/large/front/5/7/576e811f-26a3-4a7c-bd13-3b1cc3e184eb.jpg?1783948699

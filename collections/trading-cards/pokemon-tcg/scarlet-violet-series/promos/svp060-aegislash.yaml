@@ -6,5 +6,4 @@ attributes:
   number: "060"
   rarity: Promo
   illustrator: Takeshi Nakamura
-image:
-  source_url: https://images.pokemontcg.io/svp/60_hires.png
+image: https://images.pokemontcg.io/svp/60_hires.png

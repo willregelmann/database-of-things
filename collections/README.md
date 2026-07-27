@@ -9,7 +9,7 @@ data model it's built from — [`COLLECTION.md`](../docs/primitives/COLLECTION.m
 
 > **License:** the data in this directory is released into the public domain
 > under CC0 1.0 — see [`../LICENSE-DATA`](../LICENSE-DATA). Third-party
-> trademarks and the images referenced by `image.source_url` are *not* covered;
+> trademarks and the images referenced by the `image` field are *not* covered;
 > see [`../DISCLAIMER.md`](../DISCLAIMER.md).
 
 ## Layout
@@ -18,11 +18,11 @@ data model it's built from — [`COLLECTION.md`](../docs/primitives/COLLECTION.m
 collections/
   <domain-family>/             # broad grouping, e.g. trading-cards
     CLAUDE.md                  # what belongs in this family, shared hints
-    template.schema.json       # generic fallback; categories override it
+    schema.json       # generic fallback; categories override it
     _collection.yaml           # this family's own entity record
     <category>/
       CLAUDE.md                 # curation hints for this category
-      template.schema.json      # JSON Schema for item `attributes`
+      schema.json      # JSON Schema for item `attributes`
       _collection.yaml          # this collection's own entity record
       <set>/
         _collection.yaml        # nested collection; inherits CLAUDE.md + template
@@ -39,7 +39,7 @@ for a worked example of a family.
 
 - Every directory that represents a collection (domain family, category, or
   nested set) needs a `_collection.yaml`.
-- `CLAUDE.md` and `template.schema.json` are only required where a directory's
+- `CLAUDE.md` and `../schema.json` are only required where a directory's
   conventions differ from its parent's — a nested set normally inherits both from
   its category.
 - Every entity file (`_collection.yaml` included) needs `id` (a UUID, generated

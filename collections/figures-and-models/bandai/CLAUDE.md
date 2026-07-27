@@ -33,7 +33,7 @@ bandai/
   _collection.yaml               # Bandai itself
   <line>/                         # e.g. "gashapon", "gunpla", "power-rangers"
     CLAUDE.md
-    template.schema.json
+    schema.json
     _collection.yaml
     ...
 ```

@@ -5,9 +5,7 @@ date: "1993-08-05"
 attributes:
   number: "267/295"
   rarity: Uncommon
-  mana_cost: "{6}"
-  card_type: Artifact Creature — Golem
+  card_type: Artifact Creature
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/4/c/4c8e9f5c-deba-4443-bf9d-fb2be75c5418.jpg?1783948662
+image: >-
+  https://cards.scryfall.io/large/front/4/c/4c8e9f5c-deba-4443-bf9d-fb2be75c5418.jpg?1783948662

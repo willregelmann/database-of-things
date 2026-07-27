@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - G
-  mana_cost: "{3}{G}{G}{G}"
-  card_type: Creature — Avatar
+  card_type: Creature
   illustrator: Dameon Willich
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/5/554362d7-97b3-4a55-9292-15e90435088d.jpg?1783948615
+image: >-
+  https://cards.scryfall.io/large/front/5/5/554362d7-97b3-4a55-9292-15e90435088d.jpg?1783948615

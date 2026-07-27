@@ -6,5 +6,4 @@ attributes:
   number: "010"
   rarity: Promo
   illustrator: Sanosuke Sakuma
-image:
-  source_url: https://images.pokemontcg.io/svp/10_hires.png
+image: https://images.pokemontcg.io/svp/10_hires.png

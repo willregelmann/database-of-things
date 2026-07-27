@@ -6,5 +6,4 @@ attributes:
   pokemon:
     - Pikachu
     - Wingull
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/129840123.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/129840123.jpg

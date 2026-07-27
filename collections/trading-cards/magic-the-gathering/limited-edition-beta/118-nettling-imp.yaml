@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - B
-  mana_cost: "{2}{B}"
-  card_type: Creature — Imp
+  card_type: Creature
   illustrator: Quinton Hoover
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/7/576220c3-1e6b-43f3-a47e-5e8246ee7d46.jpg?1783948631
+image: >-
+  https://cards.scryfall.io/large/front/5/7/576220c3-1e6b-43f3-a47e-5e8246ee7d46.jpg?1783948631

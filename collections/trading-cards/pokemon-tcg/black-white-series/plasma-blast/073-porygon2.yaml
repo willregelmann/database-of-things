@@ -6,5 +6,4 @@ attributes:
   number: "73/101"
   rarity: Uncommon
   illustrator: HiRON
-image:
-  source_url: https://images.pokemontcg.io/bw10/73_hires.png
+image: https://images.pokemontcg.io/bw10/73_hires.png

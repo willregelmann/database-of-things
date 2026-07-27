@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{3}{G}"
-  card_type: Creature — Elephant
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/f/9f67175d-ac5c-4947-b243-d5206b552bdc.jpg?1783948608
+image: >-
+  https://cards.scryfall.io/large/front/9/f/9f67175d-ac5c-4947-b243-d5206b552bdc.jpg?1783948608

@@ -6,5 +6,4 @@ attributes:
   number: "2/159"
   rarity: Common
   illustrator: OKUBO
-image:
-  source_url: https://images.pokemontcg.io/sv9/2_hires.png
+image: https://images.pokemontcg.io/sv9/2_hires.png

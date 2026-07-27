@@ -6,5 +6,4 @@ attributes:
   number: "45/146"
   rarity: Uncommon
   illustrator: Shigenori Negishi
-image:
-  source_url: https://images.pokemontcg.io/xy1/45_hires.png
+image: https://images.pokemontcg.io/xy1/45_hires.png

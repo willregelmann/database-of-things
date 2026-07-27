@@ -6,5 +6,4 @@ attributes:
   number: "101/131"
   rarity: Rare
   illustrator: You Iribi
-image:
-  source_url: https://images.pokemontcg.io/sm6/101_hires.png
+image: https://images.pokemontcg.io/sm6/101_hires.png

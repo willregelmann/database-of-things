@@ -9,6 +9,6 @@ description: >
   like the Mythical Pokémon Collection rather than standard booster boxes. A
   32-card secret "Radiant Collection" subset (RC1-RC32) rounds out the set.
 date: "2016-02-22"
+ongoing: false
 total_cards: 83
-image:
-  source_url: https://images.pokemontcg.io/g1/logo.png
+image: https://images.pokemontcg.io/g1/logo.png

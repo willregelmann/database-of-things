@@ -6,5 +6,4 @@ attributes:
   number: "101/214"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
-image:
-  source_url: https://images.pokemontcg.io/sm10/101_hires.png
+image: https://images.pokemontcg.io/sm10/101_hires.png

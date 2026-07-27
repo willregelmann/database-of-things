@@ -6,5 +6,4 @@ attributes:
   number: "TG05/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: AKIRA EGAWA
-image:
-  source_url: https://images.pokemontcg.io/swsh12tg/TG05_hires.png
+image: https://images.pokemontcg.io/swsh12tg/TG05_hires.png

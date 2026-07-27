@@ -6,5 +6,4 @@ attributes:
   number: "42/132"
   rarity: Rare
   illustrator: Kagemaru Himeno
-image:
-  source_url: https://images.pokemontcg.io/dp3/42_hires.png
+image: https://images.pokemontcg.io/dp3/42_hires.png

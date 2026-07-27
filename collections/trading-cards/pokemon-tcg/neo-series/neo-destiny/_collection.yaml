@@ -9,6 +9,6 @@ description: >
   (106/105-113/105): Celebi, Charizard, Kabutops, Mewtwo, Noctowl, Raichu,
   Steelix, and Tyranitar.
 date: "2002-02-28"
+ongoing: false
 total_cards: 105
-image:
-  source_url: https://images.pokemontcg.io/neo4/logo.png
+image: https://images.pokemontcg.io/neo4/logo.png

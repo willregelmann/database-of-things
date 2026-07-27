@@ -23,14 +23,14 @@ rights in third-party trademarks.
 ## Images
 
 This repository does **not** host or redistribute any product images. Entity
-files reference images only by URL, in the `image.source_url` field. Each such
+files reference images only by URL, in the `image` field. Each such
 image is hosted by a third party and remains subject to its owner's copyright
 and terms of use.
 
 Anyone who consumes this data and displays those images is responsible for
 doing so lawfully — including honoring the source's terms of service, rate
 limits, and hotlinking policies (for example, the terms of an API such as
-pokemontcg.io). A `source_url` records where a fact or image came from for
+pokemontcg.io). The `image` field records where an image came from, for
 provenance; it is **not** a grant of any license to the linked content.
 
 ## Data accuracy

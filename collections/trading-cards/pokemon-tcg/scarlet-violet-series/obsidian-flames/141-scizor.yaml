@@ -6,5 +6,4 @@ attributes:
   number: "141/197"
   rarity: Rare
   illustrator: otumami
-image:
-  source_url: https://images.pokemontcg.io/sv3/141_hires.png
+image: https://images.pokemontcg.io/sv3/141_hires.png

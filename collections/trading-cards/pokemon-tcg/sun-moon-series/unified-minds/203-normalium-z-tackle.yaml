@@ -6,5 +6,4 @@ attributes:
   number: "203/236"
   rarity: Uncommon
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/sm11/203_hires.png
+image: https://images.pokemontcg.io/sm11/203_hires.png

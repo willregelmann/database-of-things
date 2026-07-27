@@ -6,5 +6,4 @@ attributes:
   number: "70/101"
   rarity: Uncommon
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/bw3/70_hires.png
+image: https://images.pokemontcg.io/bw3/70_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{1}{W}"
-  card_type: Creature — Human Cleric
+  card_type: Creature
   illustrator: Tom Wänerstrand
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/e/f/efba235e-04e5-449c-906c-0ac33f6d7929.jpg?1783948710
+image: >-
+  https://cards.scryfall.io/large/front/e/f/efba235e-04e5-449c-906c-0ac33f6d7929.jpg?1783948710

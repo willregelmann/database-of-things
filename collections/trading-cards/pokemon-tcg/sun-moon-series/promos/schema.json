@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sun & Moon era promos number override — SM-prefixed, no total",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^SM[0-9]+$"
+    }
+  }
+}

@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Jolteon
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/581523007.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/581523007.jpg

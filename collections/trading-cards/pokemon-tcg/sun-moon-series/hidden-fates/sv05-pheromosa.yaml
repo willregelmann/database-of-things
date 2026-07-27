@@ -6,5 +6,4 @@ attributes:
   number: "SV5/SV94"
   rarity: Rare Shiny
   illustrator: Mizue
-image:
-  source_url: https://images.pokemontcg.io/sma/SV5_hires.png
+image: https://images.pokemontcg.io/sma/SV5_hires.png

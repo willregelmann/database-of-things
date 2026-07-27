@@ -6,5 +6,4 @@ attributes:
   number: "92/100"
   rarity: Common
   illustrator: Ryo Ueda
-image:
-  source_url: https://images.pokemontcg.io/ex2/92_hires.png
+image: https://images.pokemontcg.io/ex2/92_hires.png

@@ -8,6 +8,6 @@ description: >
   Guzma and other Alolan trainers, and spans 147 numbered cards plus a further
   run of Rainbow Rare and secret rare cards.
 date: "2017-08-05"
+ongoing: false
 total_cards: 147
-image:
-  source_url: https://images.pokemontcg.io/sm3/logo.png
+image: https://images.pokemontcg.io/sm3/logo.png

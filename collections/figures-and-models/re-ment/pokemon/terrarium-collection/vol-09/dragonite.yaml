@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Dragonite
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/2077887705.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/2077887705.jpg

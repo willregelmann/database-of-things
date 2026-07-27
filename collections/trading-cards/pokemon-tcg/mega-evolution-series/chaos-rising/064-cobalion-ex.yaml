@@ -6,5 +6,4 @@ attributes:
   number: "64/86"
   rarity: Double Rare
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.scrydex.com/pokemon/me4-64/large
+image: https://images.scrydex.com/pokemon/me4-64/large

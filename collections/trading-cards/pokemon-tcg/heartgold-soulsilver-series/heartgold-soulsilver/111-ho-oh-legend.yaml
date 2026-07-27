@@ -6,5 +6,4 @@ attributes:
   number: "111/123"
   rarity: Rare Holo LEGEND
   illustrator: Shinji Higuchi
-image:
-  source_url: https://images.pokemontcg.io/hgss1/111_hires.png
+image: https://images.pokemontcg.io/hgss1/111_hires.png

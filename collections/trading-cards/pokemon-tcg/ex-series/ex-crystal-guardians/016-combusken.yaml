@@ -6,5 +6,4 @@ attributes:
   number: "16/100"
   rarity: Rare
   illustrator: Suwama Chiaki
-image:
-  source_url: https://images.pokemontcg.io/ex14/16_hires.png
+image: https://images.pokemontcg.io/ex14/16_hires.png

@@ -8,6 +8,6 @@ description: >
   Reshiram & Charizard-GX, and is notable for an unusually deep run of secret
   and Rainbow Rare cards beyond its 214-card printed checklist.
 date: "2019-05-03"
+ongoing: false
 total_cards: 214
-image:
-  source_url: https://images.pokemontcg.io/sm10/logo.png
+image: https://images.pokemontcg.io/sm10/logo.png

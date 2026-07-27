@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{X}{R}{R}"
-  card_type: Creature — Hydra
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/c/1/c17a982d-466d-4fec-b85a-a44161e5dad5.jpg?1783948620
+image: >-
+  https://cards.scryfall.io/large/front/c/1/c17a982d-466d-4fec-b85a-a44161e5dad5.jpg?1783948620

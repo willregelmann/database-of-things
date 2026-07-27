@@ -6,5 +6,4 @@ attributes:
   number: "44/236"
   rarity: Rare
   illustrator: MAHOU
-image:
-  source_url: https://images.pokemontcg.io/sm12/44_hires.png
+image: https://images.pokemontcg.io/sm12/44_hires.png

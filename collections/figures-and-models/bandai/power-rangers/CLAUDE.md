@@ -5,7 +5,7 @@
 ```
 power-rangers/
   CLAUDE.md
-  template.schema.json          # shared attributes across every PR toy line
+  schema.json          # shared attributes across every PR toy line
   _collection.yaml               # Bandai's Power Rangers toy line
   mighty-morphin/
     CLAUDE.md                    # this line's own numbering/pitfalls

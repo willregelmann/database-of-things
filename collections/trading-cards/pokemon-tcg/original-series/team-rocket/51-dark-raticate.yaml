@@ -6,5 +6,4 @@ attributes:
   number: "51/82"
   rarity: Common
   illustrator: Shin-ichi Yoshida
-image:
-  source_url: https://images.pokemontcg.io/base5/51_hires.png
+image: https://images.pokemontcg.io/base5/51_hires.png

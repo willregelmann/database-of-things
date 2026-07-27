@@ -6,5 +6,4 @@ attributes:
   number: "75/182"
   rarity: Common
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/sv4/75_hires.png
+image: https://images.pokemontcg.io/sv4/75_hires.png

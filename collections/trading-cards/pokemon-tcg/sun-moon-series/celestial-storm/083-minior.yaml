@@ -6,5 +6,4 @@ attributes:
   number: "83/168"
   rarity: Uncommon
   illustrator: sui
-image:
-  source_url: https://images.pokemontcg.io/sm7/83_hires.png
+image: https://images.pokemontcg.io/sm7/83_hires.png

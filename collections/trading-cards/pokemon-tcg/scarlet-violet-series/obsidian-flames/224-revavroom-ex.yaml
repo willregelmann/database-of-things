@@ -6,5 +6,4 @@ attributes:
   number: "224/197"
   rarity: Special Illustration Rare
   illustrator: Souichirou Gunjima
-image:
-  source_url: https://images.pokemontcg.io/sv3/224_hires.png
+image: https://images.pokemontcg.io/sv3/224_hires.png

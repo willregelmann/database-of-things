@@ -6,5 +6,4 @@ attributes:
   number: "SWSH138"
   rarity: Promo
   illustrator: kawayoo
-image:
-  source_url: https://images.pokemontcg.io/swshp/SWSH138_hires.png
+image: https://images.pokemontcg.io/swshp/SWSH138_hires.png

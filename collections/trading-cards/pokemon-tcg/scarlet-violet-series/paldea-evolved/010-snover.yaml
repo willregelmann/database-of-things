@@ -6,5 +6,4 @@ attributes:
   number: "10/193"
   rarity: Common
   illustrator: Taira Akitsu
-image:
-  source_url: https://images.pokemontcg.io/sv2/10_hires.png
+image: https://images.pokemontcg.io/sv2/10_hires.png

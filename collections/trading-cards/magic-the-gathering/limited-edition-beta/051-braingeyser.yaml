@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{X}{U}{U}"
   card_type: Sorcery
   illustrator: Mark Tedin
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/a/5/a5dd8dbb-9538-4786-b20c-0ea2f446f323.jpg?1783948645
+image: >-
+  https://cards.scryfall.io/large/front/a/5/a5dd8dbb-9538-4786-b20c-0ea2f446f323.jpg?1783948645

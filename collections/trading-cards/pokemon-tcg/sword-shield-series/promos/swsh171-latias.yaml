@@ -6,5 +6,4 @@ attributes:
   number: "SWSH171"
   rarity: Promo
   illustrator: takuyoa
-image:
-  source_url: https://images.pokemontcg.io/swshp/SWSH171_hires.png
+image: https://images.pokemontcg.io/swshp/SWSH171_hires.png

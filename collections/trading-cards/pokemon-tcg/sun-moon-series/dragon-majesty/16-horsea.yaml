@@ -6,5 +6,4 @@ attributes:
   number: "16/70"
   rarity: Common
   illustrator: Mizue
-image:
-  source_url: https://images.pokemontcg.io/sm75/16_hires.png
+image: https://images.pokemontcg.io/sm75/16_hires.png

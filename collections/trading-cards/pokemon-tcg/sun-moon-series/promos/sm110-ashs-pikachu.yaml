@@ -6,5 +6,4 @@ attributes:
   number: "SM110"
   rarity: Promo
   illustrator: 2017 Pikachu Project
-image:
-  source_url: https://images.pokemontcg.io/smp/SM110_hires.png
+image: https://images.pokemontcg.io/smp/SM110_hires.png

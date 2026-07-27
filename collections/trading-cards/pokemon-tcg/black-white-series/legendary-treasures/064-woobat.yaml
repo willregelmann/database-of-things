@@ -6,5 +6,4 @@ attributes:
   number: "64/113"
   rarity: Common
   illustrator: Mizue
-image:
-  source_url: https://images.pokemontcg.io/bw11/64_hires.png
+image: https://images.pokemontcg.io/bw11/64_hires.png

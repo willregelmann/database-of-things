@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{1}{W}"
-  card_type: Creature — Pegasus
+  card_type: Creature
   illustrator: Melissa A. Benson
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/5/55bff46a-6725-4918-9bdf-38efaaf50236.jpg?1783948650
+image: >-
+  https://cards.scryfall.io/large/front/5/5/55bff46a-6725-4918-9bdf-38efaaf50236.jpg?1783948650

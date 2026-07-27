@@ -6,5 +6,4 @@ attributes:
   number: "32/124"
   rarity: Common
   illustrator: Kagemaru Himeno
-image:
-  source_url: https://images.pokemontcg.io/xy10/32_hires.png
+image: https://images.pokemontcg.io/xy10/32_hires.png

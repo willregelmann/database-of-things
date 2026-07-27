@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{1}{U}"
   card_type: Sorcery
   illustrator: Amy Weber
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/4/54992fda-45a9-4ed1-b380-34d167feec90.jpg?1783948639
+image: >-
+  https://cards.scryfall.io/large/front/5/4/54992fda-45a9-4ed1-b380-34d167feec90.jpg?1783948639

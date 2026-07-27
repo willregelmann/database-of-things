@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - B
-  mana_cost: "{B}"
   card_type: Sorcery
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/0/0066c7a6-7775-43ba-81cd-35fbc5621bc3.jpg?1783948630
+image: >-
+  https://cards.scryfall.io/large/front/0/0/0066c7a6-7775-43ba-81cd-35fbc5621bc3.jpg?1783948630

@@ -60,7 +60,7 @@ place, and validates.
 **By hand:**
 
 1. Find the target directory and read its `CLAUDE.md` chain.
-2. Read the nearest `template.schema.json` — it defines what `attributes` are
+2. Read the nearest `schema.json` — it defines what `attributes` are
    allowed, and the validator enforces it.
 3. Generate a fresh id with `uuidgen`. **Never reuse or hand-pick one.**
 4. Write the file per [`collections/README.md`](collections/README.md) and the
@@ -73,12 +73,12 @@ New lines arrive in **two phases** — see
 [`collections/CLAUDE.md`](collections/CLAUDE.md#scaffolding-a-new-collection):
 
 - **Phase 1 — scaffold.** Create the directory and its `_collection.yaml`,
-  inheriting the parent's `CLAUDE.md` and `template.schema.json`. **An itemless
+  inheriting the parent's `CLAUDE.md` and `schema.json`. **An itemless
   `_collection.yaml` is a legitimate contribution** — it records that something
   exists and hasn't been curated yet, which beats the catalog silently implying
   it doesn't exist.
 - **Phase 2 — author its conventions.** Its own `CLAUDE.md` and
-  `template.schema.json`, required *before its first item* is filed.
+  `schema.json`, required *before its first item* is filed.
 
 The order is deliberate: an identification scheme is far easier to get right
 while holding real product data than in the abstract.
@@ -131,7 +131,7 @@ npm run validate
 It checks required fields, UUID format and uniqueness, `attributes` against the
 resolved schema, referential integrity of `tags` and `components`, presence of
 `_collection.yaml`, and that a directory holding entity files has a `CLAUDE.md`
-and `template.schema.json` — own **or inherited**.
+and `schema.json` — own **or inherited**.
 
 ## How PRs get merged
 
@@ -162,7 +162,7 @@ Worth knowing before investing effort in a large addition:
 **In scope** — collectibles sold as identifiable product lines, with enough
 public documentation to catalogue accurately.
 
-**Not optimising for** — exhaustive metadata (that's what `source_url` links
+**Not optimising for** — exhaustive metadata (that's what `image` links
 are for), or real-time market data. This is a catalog, not a marketplace, and
 minimal metadata is a deliberate design choice rather than an unfinished
 state. Prefer coverage over depth.

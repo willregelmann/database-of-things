@@ -33,7 +33,7 @@ type: tag
 
 A namespace directory (`tags/franchises/`) is structurally the same kind
 of node a domain family or category under `collections/` is — its own
-`_collection.yaml`, inherited `CLAUDE.md`/`template.schema.json`. Only one
+`_collection.yaml`, inherited `CLAUDE.md`/`../../schema.json`. Only one
 namespace exists so far (`franchises/`); a new one is added only when a
 genuinely different kind of cross-cutting grouping shows up, not
 speculatively.

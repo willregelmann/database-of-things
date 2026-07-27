@@ -6,5 +6,4 @@ attributes:
   number: "10/147"
   rarity: Rare
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/ecard2/10_hires.png
+image: https://images.pokemontcg.io/ecard2/10_hires.png

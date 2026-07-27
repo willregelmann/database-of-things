@@ -6,5 +6,4 @@ attributes:
   number: "26/100"
   rarity: Rare
   illustrator: Kouki Saitou
-image:
-  source_url: https://images.pokemontcg.io/dp7/26_hires.png
+image: https://images.pokemontcg.io/dp7/26_hires.png

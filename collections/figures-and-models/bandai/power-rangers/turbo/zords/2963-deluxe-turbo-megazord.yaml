@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Turbo Megazord
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02963.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/02963.jpg
 components:
   - ebd14901-04fe-47c2-8261-1a574ef682ae   # Red Lightning
   - 0aba3712-c39d-4d1f-9104-6d2050a715af   # Mountain Blaster

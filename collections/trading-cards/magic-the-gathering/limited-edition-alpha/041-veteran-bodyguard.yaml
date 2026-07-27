@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - W
-  mana_cost: "{3}{W}{W}"
-  card_type: Creature — Human
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/c/b/cbd9ab01-a833-4fa4-8dee-151bd9800835.jpg?1783948709
+image: >-
+  https://cards.scryfall.io/large/front/c/b/cbd9ab01-a833-4fa4-8dee-151bd9800835.jpg?1783948709

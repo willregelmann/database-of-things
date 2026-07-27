@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{B}{B}"
   card_type: Instant
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/7/d/7d37b529-8a41-4177-abef-614f363e69d1.jpg?1783948627
+image: >-
+  https://cards.scryfall.io/large/front/7/d/7d37b529-8a41-4177-abef-614f363e69d1.jpg?1783948627

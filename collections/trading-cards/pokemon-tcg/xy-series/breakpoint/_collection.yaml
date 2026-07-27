@@ -8,6 +8,6 @@ description: >
   Evolution and Pokémon-EX mechanics with cards like Mega Gyarados-EX and Mega
   Scizor-EX.
 date: "2016-02-03"
+ongoing: false
 total_cards: 122
-image:
-  source_url: https://images.pokemontcg.io/xy9/logo.png
+image: https://images.pokemontcg.io/xy9/logo.png

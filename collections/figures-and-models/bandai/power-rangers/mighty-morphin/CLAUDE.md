@@ -26,7 +26,7 @@ Nendoroid's single continuous catalog, Bandai's numbering here isn't
 type-segregated (a figure and a Zord can have adjacent numbers), so the
 subdirectory is an editorial grouping for browsability, not a reflection of
 a printed catalog section. Attributes/schema are shared with the rest of the
-`power-rangers/` brand — this line has no `template.schema.json` of its own.
+`power-rangers/` brand — this line has no `../../../../../schema.json` of its own.
 
 ## Source
 
@@ -37,7 +37,7 @@ every item, including unreleased/solicited-only prototypes. It's the
 authoritative source available for this line in the absence of a still-
 active Bandai storefront (this line has been discontinued for decades). Its
 image URLs (`grnrngr.com/toys/pictures/bandai/<code>.jpg`) are fine to use
-for `image.source_url` — a fan/reference-site photo is an acceptable
+for `image` — a fan/reference-site photo is an acceptable
 fallback when no manufacturer-hosted image exists (see root
 `collections/CLAUDE.md` image guidance).
 

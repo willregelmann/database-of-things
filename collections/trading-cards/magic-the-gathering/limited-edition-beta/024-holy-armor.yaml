@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{W}"
-  card_type: Enchantment — Aura
+  card_type: Enchantment
   illustrator: Melissa A. Benson
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/a/6ab1d885-989c-4d71-8139-9e35d2f16d03.jpg?1783948652
+image: >-
+  https://cards.scryfall.io/large/front/6/a/6ab1d885-989c-4d71-8139-9e35d2f16d03.jpg?1783948652

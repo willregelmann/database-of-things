@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - G
-  mana_cost: "{1}{G}{G}"
-  card_type: Enchantment — Aura
+  card_type: Enchantment
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/c/e/ced83afa-9718-4b8a-961b-394f8595c480.jpg?1783948613
+image: >-
+  https://cards.scryfall.io/large/front/c/e/ced83afa-9718-4b8a-961b-394f8595c480.jpg?1783948613

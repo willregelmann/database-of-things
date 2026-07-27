@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{G}"
-  card_type: Creature — Wall
+  card_type: Creature
   illustrator: Mark Tedin
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/8/d/8df80424-3bd9-4982-ad79-e55d9ba3b43d.jpg?1783948670
+image: >-
+  https://cards.scryfall.io/large/front/8/d/8df80424-3bd9-4982-ad79-e55d9ba3b43d.jpg?1783948670

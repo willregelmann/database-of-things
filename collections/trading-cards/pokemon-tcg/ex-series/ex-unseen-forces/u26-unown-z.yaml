@@ -6,5 +6,4 @@ attributes:
   number: "Z/28"
   rarity: Rare Holo
   illustrator: Kyoko Koizumi
-image:
-  source_url: https://images.pokemontcg.io/ex10/Z_hires.png
+image: https://images.pokemontcg.io/ex10/Z_hires.png

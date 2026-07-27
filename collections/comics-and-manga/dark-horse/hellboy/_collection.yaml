@@ -9,5 +9,4 @@ description: >
 date: "1994-03"
 tags:
   - 2db2c2f1-ae2b-4226-b602-937bbe714b46   # tags/franchises/hellboy.yaml
-image:
-  source_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Hellboy-comic-logo.svg
+image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Hellboy-comic-logo.svg

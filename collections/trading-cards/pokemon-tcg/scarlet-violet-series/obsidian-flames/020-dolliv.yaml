@@ -6,5 +6,4 @@ attributes:
   number: "20/197"
   rarity: Common
   illustrator: Mizue
-image:
-  source_url: https://images.pokemontcg.io/sv3/20_hires.png
+image: https://images.pokemontcg.io/sv3/20_hires.png

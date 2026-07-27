@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - U
-  mana_cost: "{3}{U}"
-  card_type: Creature — Illusion
+  card_type: Creature
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/0/b0782e90-383b-4aed-8fa0-99c8cf8b2cec.jpg?1783948641
+image: >-
+  https://cards.scryfall.io/large/front/b/0/b0782e90-383b-4aed-8fa0-99c8cf8b2cec.jpg?1783948641

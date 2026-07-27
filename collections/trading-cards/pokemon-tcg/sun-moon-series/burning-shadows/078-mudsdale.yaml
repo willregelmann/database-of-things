@@ -6,5 +6,4 @@ attributes:
   number: "78/147"
   rarity: Rare
   illustrator: TOKIYA
-image:
-  source_url: https://images.pokemontcg.io/sm3/78_hires.png
+image: https://images.pokemontcg.io/sm3/78_hires.png

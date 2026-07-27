@@ -6,5 +6,4 @@ attributes:
   number: "54/196"
   rarity: Common
   illustrator: otumami
-image:
-  source_url: https://images.pokemontcg.io/swsh11/54_hires.png
+image: https://images.pokemontcg.io/swsh11/54_hires.png

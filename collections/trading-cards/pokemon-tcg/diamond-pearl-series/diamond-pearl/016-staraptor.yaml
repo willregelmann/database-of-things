@@ -6,5 +6,4 @@ attributes:
   number: "16/130"
   rarity: Rare Holo
   illustrator: Masahiko Ishii
-image:
-  source_url: https://images.pokemontcg.io/dp1/16_hires.png
+image: https://images.pokemontcg.io/dp1/16_hires.png

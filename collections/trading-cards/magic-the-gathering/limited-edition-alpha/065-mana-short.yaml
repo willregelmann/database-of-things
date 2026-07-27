@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{2}{U}"
   card_type: Instant
   illustrator: Dameon Willich
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/7/3/73e3e0b3-5284-464f-8c62-0f7801c966f5.jpg?1783948704
+image: >-
+  https://cards.scryfall.io/large/front/7/3/73e3e0b3-5284-464f-8c62-0f7801c966f5.jpg?1783948704

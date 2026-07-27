@@ -6,5 +6,4 @@ attributes:
   number: "29/78"
   rarity: Rare Holo
   illustrator: Yuya Oka
-image:
-  source_url: https://images.pokemontcg.io/pgo/29_hires.png
+image: https://images.pokemontcg.io/pgo/29_hires.png

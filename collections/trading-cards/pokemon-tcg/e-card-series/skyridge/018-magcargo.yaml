@@ -6,5 +6,4 @@ attributes:
   number: "18/144"
   rarity: Rare
   illustrator: Mitsuhiro Arita
-image:
-  source_url: https://images.pokemontcg.io/ecard3/18_hires.png
+image: https://images.pokemontcg.io/ecard3/18_hires.png

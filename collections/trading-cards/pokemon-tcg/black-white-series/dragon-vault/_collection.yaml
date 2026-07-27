@@ -7,6 +7,6 @@ description: >
   a mainline expansion but treated as a full member of the Black & White Series
   per Bulbapedia's official expansion list.
 date: "2012-10-05"
+ongoing: false
 total_cards: 20
-image:
-  source_url: https://images.pokemontcg.io/dv1/logo.png
+image: https://images.pokemontcg.io/dv1/logo.png

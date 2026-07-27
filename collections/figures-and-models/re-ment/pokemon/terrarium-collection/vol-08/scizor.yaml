@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Scizor
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/133711929.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/133711929.jpg

@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - G
-  mana_cost: "{2}{G}"
   card_type: Sorcery
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/7/c/7c439c5a-b4a5-411b-9e68-fb8438ccdfb0.jpg?1783948614
+image: >-
+  https://cards.scryfall.io/large/front/7/c/7c439c5a-b4a5-411b-9e68-fb8438ccdfb0.jpg?1783948614

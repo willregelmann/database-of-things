@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Thunder Megazord
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02263.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/02263.jpg
 components:
   - 6d2ab3d0-298b-4d9c-ba46-8adb98807dc1   # Unicorn Thunderzord
   - 897777d3-1467-4b40-8e80-c7090b349c10   # Firebird Thunderzord

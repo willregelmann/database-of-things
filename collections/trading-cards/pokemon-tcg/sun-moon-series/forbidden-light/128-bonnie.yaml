@@ -6,5 +6,4 @@ attributes:
   number: "128/131"
   rarity: Rare Ultra
   illustrator: Hideki Ishikawa
-image:
-  source_url: https://images.pokemontcg.io/sm6/128_hires.png
+image: https://images.pokemontcg.io/sm6/128_hires.png

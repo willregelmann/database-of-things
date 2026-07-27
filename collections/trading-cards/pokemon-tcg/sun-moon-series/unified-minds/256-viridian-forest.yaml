@@ -6,5 +6,4 @@ attributes:
   number: "256/236"
   rarity: Rare Secret
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/sm11/256_hires.png
+image: https://images.pokemontcg.io/sm11/256_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "31/193"
   rarity: Common
   illustrator: Yuu Nishida
-image:
-  source_url: https://images.pokemontcg.io/sv2/31_hires.png
+image: https://images.pokemontcg.io/sv2/31_hires.png

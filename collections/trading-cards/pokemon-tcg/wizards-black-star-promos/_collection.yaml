@@ -10,6 +10,6 @@ description: >
   Series eras without resetting per series, so unlike later promo lines it isn't
   scoped to any one series.
 date: "1999"
+ongoing: false
 total_cards: 53
-image:
-  source_url: https://images.pokemontcg.io/basep/logo.png
+image: https://images.pokemontcg.io/basep/logo.png

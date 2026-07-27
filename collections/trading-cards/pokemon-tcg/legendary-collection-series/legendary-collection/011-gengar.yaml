@@ -6,5 +6,4 @@ attributes:
   number: "11/110"
   rarity: Rare Holo
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/base6/11_hires.png
+image: https://images.pokemontcg.io/base6/11_hires.png

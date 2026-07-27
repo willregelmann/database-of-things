@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{X}{B}"
   card_type: Sorcery
   illustrator: Julie Baroh
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/e/e/eee9e106-a248-49d2-b8c8-6bbcd56ce739.jpg?1783948693
+image: >-
+  https://cards.scryfall.io/large/front/e/e/eee9e106-a248-49d2-b8c8-6bbcd56ce739.jpg?1783948693

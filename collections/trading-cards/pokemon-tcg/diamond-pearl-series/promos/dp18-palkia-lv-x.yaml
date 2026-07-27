@@ -6,5 +6,4 @@ attributes:
   number: "DP18"
   rarity: Promo
   illustrator: Ryo Ueda
-image:
-  source_url: https://images.pokemontcg.io/dpp/DP18_hires.png
+image: https://images.pokemontcg.io/dpp/DP18_hires.png

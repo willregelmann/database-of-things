@@ -9,6 +9,6 @@ description: >
   VMAX and Dragapult VMAX. The 192-card set is rounded out to 209 cards by a run
   of secret rares.
 date: "2020-05-01"
+ongoing: false
 total_cards: 192
-image:
-  source_url: https://images.pokemontcg.io/swsh2/logo.png
+image: https://images.pokemontcg.io/swsh2/logo.png

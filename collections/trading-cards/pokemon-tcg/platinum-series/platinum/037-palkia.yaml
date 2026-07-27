@@ -6,5 +6,4 @@ attributes:
   number: "37/127"
   rarity: Rare
   illustrator: Kent Kanetsuna
-image:
-  source_url: https://images.pokemontcg.io/pl1/37_hires.png
+image: https://images.pokemontcg.io/pl1/37_hires.png

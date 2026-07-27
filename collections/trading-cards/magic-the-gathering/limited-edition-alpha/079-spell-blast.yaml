@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - U
-  mana_cost: "{X}{U}"
   card_type: Instant
   illustrator: Brian Snõddy
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/8/4/845734da-ab03-4dbc-bb5f-96481d3b8e88.jpg?1783948701
+image: >-
+  https://cards.scryfall.io/large/front/8/4/845734da-ab03-4dbc-bb5f-96481d3b8e88.jpg?1783948701

@@ -29,10 +29,10 @@ type: card
 - **`date`** — the item's own release date, same format/precision rules
   as a collection's (see [COLLECTION.md](COLLECTION.md)).
 - **`attributes`** — category-specific structured data, validated against
-  the nearest `template.schema.json` (piece count, rarity, illustrator,
+  the nearest `../../schema.json` (piece count, rarity, illustrator,
   ...). This is where domain-specific detail lives; everything else in an
   item's top-level shape is cross-cutting and format-wide.
-- **`image.source_url`** — the item's own image, from an authoritative
+- **`image`** — URL of the item's own image, from an authoritative
   source (or a retailer/marketplace photo, as a documented fallback when
   no authoritative source exists).
 - **`tags`** — ids referencing [tag](TAG.md) entities for cross-cutting

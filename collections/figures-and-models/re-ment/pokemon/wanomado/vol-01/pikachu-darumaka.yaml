@@ -6,5 +6,4 @@ attributes:
   pokemon:
     - Pikachu
     - Darumaka
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/1311026704.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/1311026704.jpg

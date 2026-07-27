@@ -6,5 +6,4 @@ attributes:
   number: "7/111"
   rarity: Rare Holo
   illustrator: Kenkichi Toyama
-image:
-  source_url: https://images.pokemontcg.io/pl2/7_hires.png
+image: https://images.pokemontcg.io/pl2/7_hires.png

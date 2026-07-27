@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{R}"
   card_type: Instant
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/c/c/cc738025-a771-4186-b08c-7b37c0e9713b.jpg?1783948619
+image: >-
+  https://cards.scryfall.io/large/front/c/c/cc738025-a771-4186-b08c-7b37c0e9713b.jpg?1783948619

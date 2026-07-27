@@ -6,5 +6,4 @@ attributes:
   number: "30/84"
   rarity: Uncommon
   illustrator: CHORISO
-image:
-  source_url: https://images.scrydex.com/pokemon/me5-30/large
+image: https://images.scrydex.com/pokemon/me5-30/large

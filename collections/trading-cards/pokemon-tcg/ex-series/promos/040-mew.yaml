@@ -6,5 +6,4 @@ attributes:
   number: "040"
   rarity: Promo
   illustrator: Masakazu Fukuda
-image:
-  source_url: https://images.pokemontcg.io/np/40_hires.png
+image: https://images.pokemontcg.io/np/40_hires.png

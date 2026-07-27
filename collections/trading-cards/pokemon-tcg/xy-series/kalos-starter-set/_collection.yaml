@@ -8,6 +8,6 @@ description: >
   their evolutions to new and returning players, and unlike standard expansions
   carries no rarity symbols on any of its cards.
 date: "2013-11-08"
+ongoing: false
 total_cards: 39
-image:
-  source_url: https://images.pokemontcg.io/xy0/logo.png
+image: https://images.pokemontcg.io/xy0/logo.png

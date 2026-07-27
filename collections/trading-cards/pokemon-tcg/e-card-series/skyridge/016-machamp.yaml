@@ -6,5 +6,4 @@ attributes:
   number: "16/144"
   rarity: Rare
   illustrator: Naoyo Kimura
-image:
-  source_url: https://images.pokemontcg.io/ecard3/16_hires.png
+image: https://images.pokemontcg.io/ecard3/16_hires.png

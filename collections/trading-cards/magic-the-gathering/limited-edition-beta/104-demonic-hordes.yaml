@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{3}{B}{B}{B}"
-  card_type: Creature — Demon
+  card_type: Creature
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/c/dc20c19b-7216-4f23-a3bb-70d4dcd3865e.jpg?1783948634
+image: >-
+  https://cards.scryfall.io/large/front/d/c/dc20c19b-7216-4f23-a3bb-70d4dcd3865e.jpg?1783948634

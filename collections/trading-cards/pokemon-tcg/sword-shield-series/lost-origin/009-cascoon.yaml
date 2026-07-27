@@ -6,5 +6,4 @@ attributes:
   number: "9/196"
   rarity: Uncommon
   illustrator: GOSSAN
-image:
-  source_url: https://images.pokemontcg.io/swsh11/9_hires.png
+image: https://images.pokemontcg.io/swsh11/9_hires.png

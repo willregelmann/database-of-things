@@ -6,5 +6,4 @@ attributes:
   number: "16/124"
   rarity: Uncommon
   illustrator: sui
-image:
-  source_url: https://images.pokemontcg.io/bw6/16_hires.png
+image: https://images.pokemontcg.io/bw6/16_hires.png

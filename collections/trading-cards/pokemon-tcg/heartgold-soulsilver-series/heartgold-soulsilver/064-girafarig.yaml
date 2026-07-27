@@ -6,5 +6,4 @@ attributes:
   number: "64/123"
   rarity: Common
   illustrator: Miki Tanaka
-image:
-  source_url: https://images.pokemontcg.io/hgss1/64_hires.png
+image: https://images.pokemontcg.io/hgss1/64_hires.png

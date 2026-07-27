@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{1}{W}"
   card_type: Instant
   illustrator: Amy Weber
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/d/9d61d0a5-7e92-4413-9121-925e1876b64d.jpg?1783948652
+image: >-
+  https://cards.scryfall.io/large/front/9/d/9d61d0a5-7e92-4413-9121-925e1876b64d.jpg?1783948652

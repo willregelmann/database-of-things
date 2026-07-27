@@ -6,5 +6,4 @@ attributes:
   number: "42/98"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
-image:
-  source_url: https://images.pokemontcg.io/xy7/42_hires.png
+image: https://images.pokemontcg.io/xy7/42_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{B}{B}{B}"
   card_type: Sorcery
   illustrator: Quinton Hoover
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/9/09b12bcb-a935-48be-a5e8-abbb890e91ca.jpg?1783948635
+image: >-
+  https://cards.scryfall.io/large/front/0/9/09b12bcb-a935-48be-a5e8-abbb890e91ca.jpg?1783948635

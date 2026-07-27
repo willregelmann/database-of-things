@@ -5,9 +5,7 @@ date: "1993-10-04"
 attributes:
   number: "257/302"
   rarity: Rare
-  mana_cost: "{4}"
   card_type: Artifact
   illustrator: Christopher Rush
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/c/0cd2a4f9-8f80-4ee3-8068-73e686d6eeb9.jpg?1783948602
+image: >-
+  https://cards.scryfall.io/large/front/0/c/0cd2a4f9-8f80-4ee3-8068-73e686d6eeb9.jpg?1783948602

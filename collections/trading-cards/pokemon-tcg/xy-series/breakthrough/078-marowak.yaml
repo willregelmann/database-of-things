@@ -6,5 +6,4 @@ attributes:
   number: "78/162"
   rarity: Rare
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/xy8/78_hires.png
+image: https://images.pokemontcg.io/xy8/78_hires.png

@@ -10,6 +10,6 @@ description: >
   boxes, instead bundled exclusively into special collection products like Elite
   Trainer Boxes and Pin Collections.
 date: "2017-10-06"
+ongoing: false
 total_cards: 73
-image:
-  source_url: https://images.pokemontcg.io/sm35/logo.png
+image: https://images.pokemontcg.io/sm35/logo.png

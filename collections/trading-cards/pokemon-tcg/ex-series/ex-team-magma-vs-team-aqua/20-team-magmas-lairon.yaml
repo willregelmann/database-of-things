@@ -6,5 +6,4 @@ attributes:
   number: "20/95"
   rarity: Rare
   illustrator: Hiromichi Sugiyama
-image:
-  source_url: https://images.pokemontcg.io/ex4/20_hires.png
+image: https://images.pokemontcg.io/ex4/20_hires.png

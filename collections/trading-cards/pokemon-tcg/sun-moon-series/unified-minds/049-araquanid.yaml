@@ -6,5 +6,4 @@ attributes:
   number: "49/236"
   rarity: Rare
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/sm11/49_hires.png
+image: https://images.pokemontcg.io/sm11/49_hires.png

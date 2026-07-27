@@ -6,5 +6,4 @@ attributes:
   number: "101/112"
   rarity: Common
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/ex6/101_hires.png
+image: https://images.pokemontcg.io/ex6/101_hires.png

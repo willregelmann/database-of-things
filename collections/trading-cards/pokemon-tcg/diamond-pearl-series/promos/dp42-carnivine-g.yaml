@@ -6,5 +6,4 @@ attributes:
   number: "DP42"
   rarity: Promo
   illustrator: Makoto Imai
-image:
-  source_url: https://images.pokemontcg.io/dpp/DP42_hires.png
+image: https://images.pokemontcg.io/dpp/DP42_hires.png

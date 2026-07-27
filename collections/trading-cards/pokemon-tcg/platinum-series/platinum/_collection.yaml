@@ -8,6 +8,6 @@ description: >
   cards, and spans 127 cards with additional secret rares and Shiny Pokémon
   cards continuing the numbering line from Stormfront.
 date: "2009-02-11"
+ongoing: false
 total_cards: 127
-image:
-  source_url: https://images.pokemontcg.io/pl1/logo.png
+image: https://images.pokemontcg.io/pl1/logo.png

@@ -8,6 +8,6 @@ description: >
   including a Rainbow Rare Charizard VMAX and secret rare Charizard V, and for
   packaging cards alongside a collectible Pin Collection box.
 date: "2020-09-25"
+ongoing: false
 total_cards: 73
-image:
-  source_url: https://images.pokemontcg.io/swsh35/logo.png
+image: https://images.pokemontcg.io/swsh35/logo.png

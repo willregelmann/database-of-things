@@ -6,5 +6,4 @@ attributes:
   number: "15/20"
   rarity: Rare Holo
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/dv1/15_hires.png
+image: https://images.pokemontcg.io/dv1/15_hires.png

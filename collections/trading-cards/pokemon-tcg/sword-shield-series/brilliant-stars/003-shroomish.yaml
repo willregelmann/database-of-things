@@ -6,5 +6,4 @@ attributes:
   number: "3/172"
   rarity: Common
   illustrator: Shigenori Negishi
-image:
-  source_url: https://images.pokemontcg.io/swsh9/3_hires.png
+image: https://images.pokemontcg.io/swsh9/3_hires.png

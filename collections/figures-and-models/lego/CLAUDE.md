@@ -41,7 +41,7 @@ theme directory.
 ```
 lego/
   CLAUDE.md
-  template.schema.json
+  schema.json
   _collection.yaml               # the whole "LEGO" collection
   <theme>/                       # star-wars/, city/, technic/, ninjago/, ...
     _collection.yaml
@@ -70,7 +70,7 @@ LEGO assigned it.
 
 ## Attributes
 
-See `template.schema.json`. `attributes.pieceCount` and
+See `schema.json`. `attributes.pieceCount` and
 `attributes.minifigCount` come from the set's own official packaging/manual
 or a reliable source like Brickset — don't estimate.
 
@@ -90,7 +90,7 @@ lego/
   star-wars/
     _collection.yaml
     _minifigs/                       # this theme's minifig components
-      template.schema.json
+      schema.json
       sw0028-astromech-droid-r2-d2.yaml
     episode-iv/                      # subtheme, sets only
       _collection.yaml
@@ -105,7 +105,7 @@ nothing enforcing that they match. The leading underscore marks it as a
 components bucket, not a collection (see root `collections/CLAUDE.md`,
 "Components") — it doesn't get its own `_collection.yaml`; the theme's real
 description/logo live once, on the theme's own `_collection.yaml`. It still
-needs a `template.schema.json` (own or inherited), same as any directory
+needs a `schema.json` (own or inherited), same as any directory
 holding entity files.
 
 If a single theme's minifig count ever approaches the 1000-item guideline

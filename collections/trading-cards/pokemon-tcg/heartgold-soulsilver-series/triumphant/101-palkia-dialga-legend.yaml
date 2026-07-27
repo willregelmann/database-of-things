@@ -6,5 +6,4 @@ attributes:
   number: "101/102"
   rarity: Rare Holo LEGEND
   illustrator: Shinji Higuchi + Sachiko Eba
-image:
-  source_url: https://images.pokemontcg.io/hgss4/101_hires.png
+image: https://images.pokemontcg.io/hgss4/101_hires.png

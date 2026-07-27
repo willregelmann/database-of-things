@@ -6,5 +6,4 @@ attributes:
   number: "100/101"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
-image:
-  source_url: https://images.pokemontcg.io/ex15/100_hires.png
+image: https://images.pokemontcg.io/ex15/100_hires.png

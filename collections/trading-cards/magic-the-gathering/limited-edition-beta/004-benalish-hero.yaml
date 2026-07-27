@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{W}"
-  card_type: Creature — Human Soldier
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/f/6/f62c68d0-9b1e-4abe-991d-a645effeb676.jpg?1783948655
+image: >-
+  https://cards.scryfall.io/large/front/f/6/f62c68d0-9b1e-4abe-991d-a645effeb676.jpg?1783948655

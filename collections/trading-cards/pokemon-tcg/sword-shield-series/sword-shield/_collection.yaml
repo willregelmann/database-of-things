@@ -8,6 +8,6 @@ description: >
   VMAX card mechanics to the TCG. Spans 202 cards in the main checklist plus 14
   secret rares numbered beyond the printed total.
 date: "2020-02-07"
+ongoing: false
 total_cards: 202
-image:
-  source_url: https://images.pokemontcg.io/swsh1/logo.png
+image: https://images.pokemontcg.io/swsh1/logo.png

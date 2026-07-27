@@ -6,5 +6,4 @@ attributes:
   number: "52/182"
   rarity: Common
   illustrator: kamonabe
-image:
-  source_url: https://images.pokemontcg.io/sv10/52_hires.png
+image: https://images.pokemontcg.io/sv10/52_hires.png

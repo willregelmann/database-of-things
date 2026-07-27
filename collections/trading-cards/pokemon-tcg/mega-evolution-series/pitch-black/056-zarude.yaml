@@ -6,5 +6,4 @@ attributes:
   number: "56/84"
   rarity: Rare
   illustrator: matazo
-image:
-  source_url: https://images.scrydex.com/pokemon/me5-56/large
+image: https://images.scrydex.com/pokemon/me5-56/large

@@ -6,5 +6,4 @@ attributes:
   number: "16/94"
   rarity: Uncommon
   illustrator: Uta
-image:
-  source_url: https://images.pokemontcg.io/me2/16_hires.png
+image: https://images.pokemontcg.io/me2/16_hires.png

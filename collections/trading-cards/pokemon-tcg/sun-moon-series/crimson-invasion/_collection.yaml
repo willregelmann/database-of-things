@@ -8,6 +8,6 @@ description: >
   alongside GX cards for Silvally and Alolan Exeggutor. Spans 111 numbered cards
   plus a run of secret rares reaching 124.
 date: "2017-11-03"
+ongoing: false
 total_cards: 111
-image:
-  source_url: https://images.pokemontcg.io/sm4/logo.png
+image: https://images.pokemontcg.io/sm4/logo.png

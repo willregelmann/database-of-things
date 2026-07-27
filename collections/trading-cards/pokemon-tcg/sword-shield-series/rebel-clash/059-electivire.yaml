@@ -6,5 +6,4 @@ attributes:
   number: "59/192"
   rarity: Rare
   illustrator: tetsuya koizumi
-image:
-  source_url: https://images.pokemontcg.io/swsh2/59_hires.png
+image: https://images.pokemontcg.io/swsh2/59_hires.png

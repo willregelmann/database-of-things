@@ -7,6 +7,6 @@ description: >
   a black star and a "BW" number prefix. Spans 101 cards, numbered BW01-BW101
   with no printed denominator.
 date: "2011"
+ongoing: false
 total_cards: 101
-image:
-  source_url: https://images.pokemontcg.io/bwp/logo.png
+image: https://images.pokemontcg.io/bwp/logo.png

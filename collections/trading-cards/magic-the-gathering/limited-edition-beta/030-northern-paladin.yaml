@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - W
-  mana_cost: "{2}{W}{W}"
-  card_type: Creature — Human Knight
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/4/b/4ba8493c-ae69-48d1-a050-a887ae27c83f.jpg?1783948650
+image: >-
+  https://cards.scryfall.io/large/front/4/b/4ba8493c-ae69-48d1-a050-a887ae27c83f.jpg?1783948650

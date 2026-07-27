@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{1}{W}"
   card_type: Enchantment
   illustrator: Dameon Willich
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/7/07a86eb1-f6a0-4a4e-bd59-e19e22ec487d.jpg?1783948654
+image: >-
+  https://cards.scryfall.io/large/front/0/7/07a86eb1-f6a0-4a4e-bd59-e19e22ec487d.jpg?1783948654

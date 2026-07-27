@@ -6,5 +6,4 @@ attributes:
   number: "65/105"
   rarity: Common
   illustrator: Aya Kusube
-image:
-  source_url: https://images.pokemontcg.io/neo4/65_hires.png
+image: https://images.pokemontcg.io/neo4/65_hires.png

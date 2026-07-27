@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Piplup
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/81579035.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/81579035.jpg

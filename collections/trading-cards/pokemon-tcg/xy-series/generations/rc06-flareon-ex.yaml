@@ -6,5 +6,4 @@ attributes:
   number: "RC6/RC32"
   rarity: Rare Holo ex
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/g1/RC6_hires.png
+image: https://images.pokemontcg.io/g1/RC6_hires.png

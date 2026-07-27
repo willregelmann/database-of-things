@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{2}{R}"
-  card_type: Creature — Gargoyle
+  card_type: Creature
   illustrator: Christopher Rush
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/f/1/f15bf2b2-6848-4fbd-b89a-8d8da8ae1cdc.jpg?1783948685
+image: >-
+  https://cards.scryfall.io/large/front/f/1/f15bf2b2-6848-4fbd-b89a-8d8da8ae1cdc.jpg?1783948685

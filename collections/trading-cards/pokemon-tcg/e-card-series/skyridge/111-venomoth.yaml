@@ -6,5 +6,4 @@ attributes:
   number: "111/144"
   rarity: Common
   illustrator: Yukiko Baba
-image:
-  source_url: https://images.pokemontcg.io/ecard3/111_hires.png
+image: https://images.pokemontcg.io/ecard3/111_hires.png

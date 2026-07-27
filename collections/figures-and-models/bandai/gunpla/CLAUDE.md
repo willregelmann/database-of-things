@@ -34,7 +34,7 @@ don't infer it from box size or price alone):
 ```
 gunpla/
   CLAUDE.md
-  template.schema.json
+  schema.json
   _collection.yaml               # the whole "Gunpla" collection
   <grade>/                       # pg/, mg/, rg/, hg/, sd/, eg/
     _collection.yaml
@@ -95,7 +95,7 @@ MG in principle but isn't fully recoverable from public sources.
 
 ## Attributes
 
-See `template.schema.json`. `attributes.scale` should match the grade's
+See `schema.json`. `attributes.scale` should match the grade's
 standard scale (e.g. `1/144` for HG/RG, `1/100` for MG, `1/60` for PG) except
 for genuinely non-scale grades (SD, and some EG releases) — verify per kit
 rather than assuming the grade's typical scale always applies, since a small

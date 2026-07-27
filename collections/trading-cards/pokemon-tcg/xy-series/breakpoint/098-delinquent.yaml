@@ -6,5 +6,4 @@ attributes:
   number: "98/122"
   rarity: Uncommon
   illustrator: Yusuke Ohmura
-image:
-  source_url: https://images.pokemontcg.io/xy9/98_hires.png
+image: https://images.pokemontcg.io/xy9/98_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "10/102"
   rarity: Rare Holo
   illustrator: Shizurow
-image:
-  source_url: https://images.pokemontcg.io/hgss4/10_hires.png
+image: https://images.pokemontcg.io/hgss4/10_hires.png

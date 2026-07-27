@@ -6,5 +6,4 @@ attributes:
   number: "2/101"
   rarity: Uncommon
   illustrator: Midori Harada
-image:
-  source_url: https://images.pokemontcg.io/bw3/2_hires.png
+image: https://images.pokemontcg.io/bw3/2_hires.png

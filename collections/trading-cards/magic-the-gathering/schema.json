@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Magic: The Gathering card attributes",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^[0-9]+/[0-9]+$"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Mythic",
+        "Special",
+        "Bonus",
+        "Land"
+      ]
+    },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "W",
+          "U",
+          "B",
+          "R",
+          "G"
+        ]
+      }
+    },
+    "card_type": {
+      "type": "string",
+      "enum": [
+        "Artifact",
+        "Artifact Creature",
+        "Basic Land",
+        "Creature",
+        "Enchantment",
+        "Instant",
+        "Land",
+        "Sorcery"
+      ]
+    },
+    "illustrator": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "number",
+    "rarity",
+    "card_type"
+  ]
+}

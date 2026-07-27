@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "/schemas/item.schema.json",
+  "title": "Item",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Stable identity, generated once and never reused. Nothing in the catalog references an item by path."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name of the item."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+      "description": "First release date, at whatever precision the source supports: YYYY, YYYY-MM, or YYYY-MM-DD. Don't pad in fabricated precision."
+    },
+    "description": {
+      "type": "string",
+      "description": "Prose context. Original synthesis only, never pasted or lightly reworded source text."
+    },
+    "image": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the item's own image, from an authoritative source (or a retailer/marketplace photo, as a documented fallback when no authoritative source exists)."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "format": "uuid" },
+      "description": "Ids referencing tag entities under tags/, for cross-cutting groupings (e.g. franchise) that directory position doesn't already express."
+    },
+    "attributes": {
+      "type": "object",
+      "description": "Category-specific structured data, validated against the nearest schema.json in this item's own governing directory."
+    },
+    "variants": {
+      "type": "array",
+      "description": "Physically distinct variants of this item (e.g. a print/colorway difference), each its own sub-entity with its own required id and name; other fields are optional and may be treated as inherited from this item when omitted. A variant cannot itself have variants — nesting is capped at one level.",
+      "items": {
+        "allOf": [{ "$ref": "#" }],
+        "properties": { "variants": false }
+      }
+    }
+  },
+  "required": ["id", "name"]
+}

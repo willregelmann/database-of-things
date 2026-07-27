@@ -8,6 +8,6 @@ description: >
   renders, created by visual effects studios MPC Film and Framestore rather than
   traditional card illustrators.
 date: "2019-03-29"
+ongoing: false
 total_cards: 18
-image:
-  source_url: https://images.pokemontcg.io/det1/logo.png
+image: https://images.pokemontcg.io/det1/logo.png

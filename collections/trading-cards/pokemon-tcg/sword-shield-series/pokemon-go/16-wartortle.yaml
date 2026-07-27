@@ -6,5 +6,4 @@ attributes:
   number: "16/78"
   rarity: Uncommon
   illustrator: kurumitsu
-image:
-  source_url: https://images.pokemontcg.io/pgo/16_hires.png
+image: https://images.pokemontcg.io/pgo/16_hires.png

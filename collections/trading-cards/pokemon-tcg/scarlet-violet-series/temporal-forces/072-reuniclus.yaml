@@ -6,5 +6,4 @@ attributes:
   number: "72/162"
   rarity: Uncommon
   illustrator: Gemi
-image:
-  source_url: https://images.pokemontcg.io/sv5/72_hires.png
+image: https://images.pokemontcg.io/sv5/72_hires.png

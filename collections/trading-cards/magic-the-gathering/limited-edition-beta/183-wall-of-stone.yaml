@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{1}{R}{R}"
-  card_type: Creature — Wall
+  card_type: Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/3/2/329ba196-a107-41ac-b02a-5f8b10ecd130.jpg?1783948618
+image: >-
+  https://cards.scryfall.io/large/front/3/2/329ba196-a107-41ac-b02a-5f8b10ecd130.jpg?1783948618

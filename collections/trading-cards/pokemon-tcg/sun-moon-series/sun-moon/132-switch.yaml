@@ -6,5 +6,4 @@ attributes:
   number: "132/149"
   rarity: Uncommon
   illustrator: Ryo Ueda
-image:
-  source_url: https://images.pokemontcg.io/sm1/132_hires.png
+image: https://images.pokemontcg.io/sm1/132_hires.png

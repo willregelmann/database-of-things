@@ -6,5 +6,4 @@ attributes:
   number: "1/132"
   rarity: Rare Holo
   illustrator: Kouki Saitou
-image:
-  source_url: https://images.pokemontcg.io/dp3/1_hires.png
+image: https://images.pokemontcg.io/dp3/1_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "4/99"
   rarity: Uncommon
   illustrator: Naoyo Kimura
-image:
-  source_url: https://images.pokemontcg.io/bw4/4_hires.png
+image: https://images.pokemontcg.io/bw4/4_hires.png

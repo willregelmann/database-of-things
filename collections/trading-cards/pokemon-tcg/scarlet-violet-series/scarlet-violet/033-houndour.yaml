@@ -6,5 +6,4 @@ attributes:
   number: "33/198"
   rarity: Common
   illustrator: nagimiso
-image:
-  source_url: https://images.pokemontcg.io/sv1/33_hires.png
+image: https://images.pokemontcg.io/sv1/33_hires.png

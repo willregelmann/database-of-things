@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Lucario
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/788694315.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/788694315.jpg

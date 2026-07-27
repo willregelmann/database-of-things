@@ -6,5 +6,4 @@ attributes:
   number: "95/195"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
-image:
-  source_url: https://images.pokemontcg.io/swsh12/95_hires.png
+image: https://images.pokemontcg.io/swsh12/95_hires.png

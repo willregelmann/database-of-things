@@ -6,5 +6,4 @@ attributes:
   number: "10/91"
   rarity: Rare
   illustrator: Hasuno
-image:
-  source_url: https://images.pokemontcg.io/sv4pt5/10_hires.png
+image: https://images.pokemontcg.io/sv4pt5/10_hires.png

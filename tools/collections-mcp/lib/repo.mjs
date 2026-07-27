@@ -17,7 +17,11 @@ export function rel(p) {
  * Each collection node's `claudeChain` is every CLAUDE.md from collections/
  * down to that directory (inclusive), not just the nearest one — callers
  * that want "the nearest applicable CLAUDE.md" can just take the last
- * element.
+ * element. `schemaChain` works the same way, and for the same reason: a
+ * directory's own schema.json layers attributes on top of what it
+ * inherited rather than replacing it (see validate.mjs's
+ * mergeAttributesSchema), so a caller that only read the nearest schema.json
+ * would miss attributes recommended at a family/category level.
  */
 export function buildIndex() {
   const byId = new Map();
@@ -28,7 +32,7 @@ export function buildIndex() {
   // collections/CLAUDE.md, "Components"). Such a directory never has its own
   // `_collection.yaml`/id; its items belong to the nearest ancestor
   // collection's named bucket instead of that ancestor's own `childItems`.
-  function walk(dir, claudeChain, schemaPath, componentOwner) {
+  function walk(dir, claudeChain, schemaChain, componentOwner) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     const files = entries.filter((e) => e.isFile()).map((e) => e.name);
     const dirs = entries.filter((e) => e.isDirectory()).map((e) => e.name);
@@ -37,9 +41,9 @@ export function buildIndex() {
     if (files.includes('CLAUDE.md')) {
       chain = [...claudeChain, path.join(dir, 'CLAUDE.md')];
     }
-    let schema = schemaPath;
-    if (files.includes('template.schema.json')) {
-      schema = path.join(dir, 'template.schema.json');
+    let schema = schemaChain;
+    if (files.includes('schema.json')) {
+      schema = [...schemaChain, path.join(dir, 'schema.json')];
     }
 
     let selfNode = null;
@@ -58,7 +62,7 @@ export function buildIndex() {
         path: p,
         data,
         claudeChain: chain,
-        schemaPath: schema,
+        schemaChain: schema,
         childItems: [],
         childCollections: [],
         componentBuckets: {},
@@ -87,7 +91,7 @@ export function buildIndex() {
         collectionId: componentOwner ? componentOwner.collectionId : selfNode ? selfNode.id : null,
         bucket: componentOwner ? componentOwner.bucket : null,
         claudeChain: chain,
-        schemaPath: schema,
+        schemaChain: schema,
       };
       byId.set(data.id, node);
       if (componentOwner) {
@@ -117,7 +121,7 @@ export function buildIndex() {
     return selfNode ? selfNode.id : null;
   }
 
-  walk(COLLECTIONS_ROOT, [], null, null);
+  walk(COLLECTIONS_ROOT, [], [], null);
   return { byId, collectionIds };
 }
 

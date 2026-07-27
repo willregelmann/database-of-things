@@ -6,5 +6,4 @@ attributes:
   number: "SWSH081"
   rarity: Promo
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/swshp/SWSH081_hires.png
+image: https://images.pokemontcg.io/swshp/SWSH081_hires.png

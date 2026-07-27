@@ -7,6 +7,6 @@ description: >
   Kanto's "good" Gym Leaders — Brock, Misty, Lt. Surge, and Erika — introducing
   Pokémon owned by a Trainer as a card mechanic.
 date: "2000-08-14"
+ongoing: false
 total_cards: 132
-image:
-  source_url: https://images.pokemontcg.io/gym1/logo.png
+image: https://images.pokemontcg.io/gym1/logo.png

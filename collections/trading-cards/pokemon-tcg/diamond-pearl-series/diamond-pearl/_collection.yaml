@@ -9,6 +9,6 @@ description: >
   card layout and separated Trainer/Supporter/Stadium card types. Spans 130
   cards.
 date: "2007-05-23"
+ongoing: false
 total_cards: 130
-image:
-  source_url: https://images.pokemontcg.io/dp1/logo.png
+image: https://images.pokemontcg.io/dp1/logo.png

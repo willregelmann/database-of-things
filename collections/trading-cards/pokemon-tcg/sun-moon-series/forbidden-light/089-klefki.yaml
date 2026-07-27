@@ -6,5 +6,4 @@ attributes:
   number: "89/131"
   rarity: Uncommon
   illustrator: otumami
-image:
-  source_url: https://images.pokemontcg.io/sm6/89_hires.png
+image: https://images.pokemontcg.io/sm6/89_hires.png

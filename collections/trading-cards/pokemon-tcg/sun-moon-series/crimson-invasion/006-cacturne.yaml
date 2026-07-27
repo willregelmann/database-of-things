@@ -6,5 +6,4 @@ attributes:
   number: "6/111"
   rarity: Rare
   illustrator: Mina Nakai
-image:
-  source_url: https://images.pokemontcg.io/sm4/6_hires.png
+image: https://images.pokemontcg.io/sm4/6_hires.png

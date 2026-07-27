@@ -6,5 +6,4 @@ attributes:
   number: "7/18"
   rarity: Common Holo
   illustrator: Framestore
-image:
-  source_url: https://images.pokemontcg.io/det1/7_hires.png
+image: https://images.pokemontcg.io/det1/7_hires.png

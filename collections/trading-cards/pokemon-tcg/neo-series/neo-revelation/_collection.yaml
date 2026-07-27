@@ -7,6 +7,6 @@ description: >
   Magikarp (66/64) — the TCG's first "Shining Pokémon," alternately colored
   cards numbered beyond the set's printed total.
 date: "2001-09-21"
+ongoing: false
 total_cards: 64
-image:
-  source_url: https://images.pokemontcg.io/neo3/logo.png
+image: https://images.pokemontcg.io/neo3/logo.png

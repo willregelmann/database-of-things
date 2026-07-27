@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Teddiursa
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/137956207.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/137956207.jpg

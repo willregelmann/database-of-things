@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Sobble
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/1331264040.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/1331264040.jpg

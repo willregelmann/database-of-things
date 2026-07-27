@@ -6,5 +6,4 @@ attributes:
   number: "107/110"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/base6/107_hires.png
+image: https://images.pokemontcg.io/base6/107_hires.png

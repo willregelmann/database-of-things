@@ -6,5 +6,4 @@ attributes:
   number: "26/53"
   rarity: Promo
   illustrator: Gakuji Nomoto
-image:
-  source_url: https://images.pokemontcg.io/basep/26_hires.png
+image: https://images.pokemontcg.io/basep/26_hires.png

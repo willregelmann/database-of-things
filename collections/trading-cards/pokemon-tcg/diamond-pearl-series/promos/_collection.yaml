@@ -7,6 +7,6 @@ description: >
   a black star and a "DP" number prefix. Spans 56 cards, numbered DP01-DP56 with
   no printed denominator.
 date: "2007"
+ongoing: false
 total_cards: 56
-image:
-  source_url: https://images.pokemontcg.io/dpp/logo.png
+image: https://images.pokemontcg.io/dpp/logo.png

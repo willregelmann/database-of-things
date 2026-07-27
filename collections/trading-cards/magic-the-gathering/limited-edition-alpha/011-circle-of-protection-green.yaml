@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{1}{W}"
   card_type: Enchantment
   illustrator: Sandra Everingham
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/a/1ae32d20-b438-4f43-b603-e8f706ecfb03.jpg?1783948716
+image: >-
+  https://cards.scryfall.io/large/front/1/a/1ae32d20-b438-4f43-b603-e8f706ecfb03.jpg?1783948716

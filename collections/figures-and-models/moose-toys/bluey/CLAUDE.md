@@ -30,19 +30,19 @@ Out of scope, same as anywhere in `figures-and-models/`:
 ```
 bluey/
   CLAUDE.md
-  template.schema.json          # generic fallback; each sub-line overrides it
+  schema.json          # generic fallback; each sub-line overrides it
   _collection.yaml               # the whole Bluey figures collection
   fuzzies/                       # soft flocked mini figures, blind-bag
     CLAUDE.md
-    template.schema.json
+    schema.json
     _collection.yaml
   mini-figures/                  # hard plastic ~1" figures, blind-bag
     CLAUDE.md
-    template.schema.json
+    schema.json
     _collection.yaml
   poseable-figures/               # 2.5-3" articulated figures, multi-pack/single-pack
     CLAUDE.md
-    template.schema.json
+    schema.json
     _collection.yaml
 ```
 

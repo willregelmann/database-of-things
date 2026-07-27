@@ -6,5 +6,4 @@ attributes:
   number: "007"
   rarity: Promo
   illustrator: Yuya Oka
-image:
-  source_url: https://images.pokemontcg.io/svp/7_hires.png
+image: https://images.pokemontcg.io/svp/7_hires.png

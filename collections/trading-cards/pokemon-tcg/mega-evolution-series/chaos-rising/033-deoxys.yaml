@@ -6,5 +6,4 @@ attributes:
   number: "33/86"
   rarity: Uncommon
   illustrator: GOSSAN
-image:
-  source_url: https://images.scrydex.com/pokemon/me4-33/large
+image: https://images.scrydex.com/pokemon/me4-33/large

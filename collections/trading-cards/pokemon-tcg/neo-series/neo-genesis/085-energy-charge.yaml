@@ -6,5 +6,4 @@ attributes:
   number: "85/111"
   rarity: Rare
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/neo1/85_hires.png
+image: https://images.pokemontcg.io/neo1/85_hires.png

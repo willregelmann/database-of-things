@@ -6,5 +6,4 @@ attributes:
   number: "5/149"
   rarity: Common
   illustrator: MAHOU
-image:
-  source_url: https://images.pokemontcg.io/bw7/5_hires.png
+image: https://images.pokemontcg.io/bw7/5_hires.png

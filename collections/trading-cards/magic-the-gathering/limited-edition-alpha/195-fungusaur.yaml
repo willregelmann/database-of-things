@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - G
-  mana_cost: "{3}{G}"
-  card_type: Creature — Fungus Dinosaur
+  card_type: Creature
   illustrator: Daniel Gelon
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/a/5ad89f0d-b09b-40a0-84d6-3ee60dec7e23.jpg?1783948676
+image: >-
+  https://cards.scryfall.io/large/front/5/a/5ad89f0d-b09b-40a0-84d6-3ee60dec7e23.jpg?1783948676

@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Lapras
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/1206523939.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/1206523939.jpg

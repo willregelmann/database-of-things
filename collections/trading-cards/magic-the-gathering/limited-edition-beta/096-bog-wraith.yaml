@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - B
-  mana_cost: "{3}{B}"
-  card_type: Creature — Wraith
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/a/da26289f-e0e6-4aae-8782-ebdbabf39819.jpg?1783948636
+image: >-
+  https://cards.scryfall.io/large/front/d/a/da26289f-e0e6-4aae-8782-ebdbabf39819.jpg?1783948636

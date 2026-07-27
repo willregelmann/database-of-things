@@ -6,5 +6,4 @@ attributes:
   number: "16/108"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/xy12/16_hires.png
+image: https://images.pokemontcg.io/xy12/16_hires.png

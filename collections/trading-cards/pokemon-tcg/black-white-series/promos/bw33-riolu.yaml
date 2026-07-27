@@ -6,5 +6,4 @@ attributes:
   number: "BW33"
   rarity: Promo
   illustrator: sui
-image:
-  source_url: https://images.pokemontcg.io/bwp/BW33_hires.png
+image: https://images.pokemontcg.io/bwp/BW33_hires.png

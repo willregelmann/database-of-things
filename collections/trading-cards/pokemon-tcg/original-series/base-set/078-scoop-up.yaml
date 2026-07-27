@@ -6,5 +6,4 @@ attributes:
   number: "78/102"
   rarity: Rare
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/base1/78_hires.png
+image: https://images.pokemontcg.io/base1/78_hires.png

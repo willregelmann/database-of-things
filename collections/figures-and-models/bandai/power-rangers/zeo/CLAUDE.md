@@ -10,8 +10,8 @@ Same shape as `mighty-morphin/` — five type-based subdirectories
 each, plus a `_zords/` components bucket for the individual Zeo Zords/Super
 Zeo Zords bundled inside a `zords/` Megazord — see
 [`../CLAUDE.md`](../CLAUDE.md), "Zords as components." No
-`template.schema.json` of its own; inherits the shared
-`power-rangers/template.schema.json`.
+`../../../../../schema.json` of its own; inherits the shared
+`power-rangers/schema.json`.
 
 ## Source
 

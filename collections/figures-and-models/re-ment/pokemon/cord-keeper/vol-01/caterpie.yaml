@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Caterpie
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/946819736.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/946819736.jpg

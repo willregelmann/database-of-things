@@ -8,6 +8,6 @@ description: >
   (AR1-AR9) each depicting a different type, plus a small run of Shiny secret
   rares continuing the numbering line started in earlier Platinum Series sets.
 date: "2009-11-04"
+ongoing: false
 total_cards: 99
-image:
-  source_url: https://images.pokemontcg.io/pl4/logo.png
+image: https://images.pokemontcg.io/pl4/logo.png

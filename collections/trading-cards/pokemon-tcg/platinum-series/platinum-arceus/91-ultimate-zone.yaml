@@ -6,5 +6,4 @@ attributes:
   number: "91/99"
   rarity: Uncommon
   illustrator: Yusuke Ishikawa
-image:
-  source_url: https://images.pokemontcg.io/pl4/91_hires.png
+image: https://images.pokemontcg.io/pl4/91_hires.png

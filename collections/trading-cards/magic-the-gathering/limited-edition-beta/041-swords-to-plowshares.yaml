@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - W
-  mana_cost: "{W}"
   card_type: Instant
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/2/5/255099be-c64e-4f6a-8463-4fc058d6908d.jpg?1783948648
+image: >-
+  https://cards.scryfall.io/large/front/2/5/255099be-c64e-4f6a-8463-4fc058d6908d.jpg?1783948648

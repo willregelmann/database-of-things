@@ -7,6 +7,6 @@ description: >
   "Shiny" reprints of past Legendaries numbered on their own SL1-SL11 checklist
   with no printed denominator.
 date: "2011-02-09"
+ongoing: false
 total_cards: 95
-image:
-  source_url: https://images.pokemontcg.io/col1/logo.png
+image: https://images.pokemontcg.io/col1/logo.png

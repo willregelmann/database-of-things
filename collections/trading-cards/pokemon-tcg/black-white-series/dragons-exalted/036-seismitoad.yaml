@@ -6,5 +6,4 @@ attributes:
   number: "36/124"
   rarity: Rare
   illustrator: kawayoo
-image:
-  source_url: https://images.pokemontcg.io/bw6/36_hires.png
+image: https://images.pokemontcg.io/bw6/36_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - B
-  mana_cost: "{3}{B}{B}"
-  card_type: Creature — Vampire
+  card_type: Creature
   illustrator: Anson Maddocks
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/1/510840f4-7c0e-4b47-8ebf-23c20cac4bd9.jpg?1783948692
+image: >-
+  https://cards.scryfall.io/large/front/5/1/510840f4-7c0e-4b47-8ebf-23c20cac4bd9.jpg?1783948692

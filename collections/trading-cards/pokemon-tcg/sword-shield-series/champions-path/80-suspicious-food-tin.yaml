@@ -6,5 +6,4 @@ attributes:
   number: "80/73"
   rarity: Rare Secret
   illustrator: Ryo Ueda
-image:
-  source_url: https://images.pokemontcg.io/swsh35/80_hires.png
+image: https://images.pokemontcg.io/swsh35/80_hires.png

@@ -43,8 +43,8 @@ try {
     case 'get-collection-context': {
       const node = getCollection(index, rest[0]);
       const parts = node.claudeChain.map((p) => `### ${rel(p)} ###\n\n${fs.readFileSync(p, 'utf8')}`);
-      if (node.schemaPath) {
-        parts.push(`### ${rel(node.schemaPath)} (attributes schema) ###\n\n${fs.readFileSync(node.schemaPath, 'utf8')}`);
+      for (const p of node.schemaChain) {
+        parts.push(`### ${rel(p)} (attributes schema — layers onto any earlier one in this list) ###\n\n${fs.readFileSync(p, 'utf8')}`);
       }
       out(parts.join('\n\n---\n\n'));
       break;

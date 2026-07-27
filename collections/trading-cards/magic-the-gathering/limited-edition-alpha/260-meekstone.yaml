@@ -5,9 +5,7 @@ date: "1993-08-05"
 attributes:
   number: "260/295"
   rarity: Rare
-  mana_cost: "{1}"
   card_type: Artifact
   illustrator: Quinton Hoover
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/3/13a68a17-22ee-47c9-870a-83e911862b94.jpg?1783948664
+image: >-
+  https://cards.scryfall.io/large/front/1/3/13a68a17-22ee-47c9-870a-83e911862b94.jpg?1783948664

@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - G
-  mana_cost: "{2}{G}"
-  card_type: Creature — Human Druid
+  card_type: Creature
   illustrator: Sandra Everingham
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/5/b58867ec-0b1a-4804-bc2e-1c88d338c29e.jpg?1783948613
+image: >-
+  https://cards.scryfall.io/large/front/b/5/b58867ec-0b1a-4804-bc2e-1c88d338c29e.jpg?1783948613

@@ -6,5 +6,4 @@ attributes:
   number: "110/114"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/xy11/110_hires.png
+image: https://images.pokemontcg.io/xy11/110_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "10/108"
   rarity: Common
   illustrator: Shigenori Negishi
-image:
-  source_url: https://images.pokemontcg.io/bw5/10_hires.png
+image: https://images.pokemontcg.io/bw5/10_hires.png

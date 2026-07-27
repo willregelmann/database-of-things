@@ -6,5 +6,4 @@ attributes:
   number: "BW88"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
-image:
-  source_url: https://images.pokemontcg.io/bwp/BW88_hires.png
+image: https://images.pokemontcg.io/bwp/BW88_hires.png

@@ -8,13 +8,14 @@ A playable trading card game, published by Konami. This directory covers the
 ```
 yu-gi-oh/
   CLAUDE.md
-  template.schema.json
+  schema.json
   _collection.yaml               # the whole Yu-Gi-Oh! TCG
   <slugified-set-name>/           # one set, e.g. legend-of-blue-eyes-white-dragon
     _collection.yaml
-    <printing>/                   # one printing, e.g. north-american
-      _collection.yaml
-      <number>-<slugified-card-name>.yaml
+    <number>-<slugified-card-name>.yaml   # flat, when only one printing is maintained
+    <printing>/                   # only when a set has genuinely distinct
+      _collection.yaml            # printings actually being maintained —
+      <number>-<slugified-card-name>.yaml # see Printings are separate entities
 ```
 
 **No series tier above the set — sets sit directly under the game, as in
@@ -99,39 +100,64 @@ card number differs between printings, so the objects are physically distinct,
 and the catalog deduplicates on physical uniqueness rather than on product
 identity.
 
-Legend of Blue Eyes is the worked example — four English printings, filed
-separately:
+**Only one printing per set is currently maintained — Worldwide English
+(`LOB-EN` prefix) for Legend of Blue Eyes, filed flat directly under the set
+directory, no printing-level subdirectory.** This is a deliberate scope
+decision, not an oversight: Legend of Blue Eyes was issued in four distinct
+English printings (North American, European, Oceanic, Worldwide English),
+but that regional split is essentially unique to this one transitional-era
+set — once Konami settled into the unified `-EN` convention Worldwide
+English represents, virtually every other Yu-Gi-Oh set only ever had a
+single English printing. Maintaining just Worldwide English, flat, keeps
+this one already-curated set consistent with how the ~338 other uncurated
+sets will naturally be filed, rather than carrying a four-way split that's a
+special case of exactly one set.
 
-| directory | prefix | released | cards |
+**A printing-level subdirectory is for when a set has multiple printings
+genuinely being maintained side by side — not a mandatory tier.** Earlier
+guidance here said every set gets one "so the shape stays uniform," even
+with only one printing; that's been reversed. Go flat (cards directly under
+the set directory) by default, and only introduce `<printing>/`
+subdirectories if a set's other printings are actually filed alongside each
+other.
+
+The other three printings of Legend of Blue Eyes (North American, European,
+Oceanic) were curated and then removed to enact this scope decision —
+recoverable from git history, not the live catalog. Their data is worth
+recording here in case a future Yu-Gi-Oh-focused curation pass wants to
+reinstate them alongside Worldwide English (at which point all four would
+move under printing subdirectories together, including Worldwide English):
+
+| printing | prefix | released | cards |
 |---|---|---|---|
-| `north-american/` | `LOB-` | 2002-03-08 | 126 |
-| `european/` | `LOB-E` | 2002-12 | **103** |
-| `oceanic/` | `LOB-A` | 2003-09 | 126 |
-| `worldwide-english/` | `LOB-EN` | 2004-12-01 | 126 |
+| North American (removed) | `LOB-` | 2002-03-08 | 126 |
+| European (removed) | `LOB-E` | 2002-12 | **103** |
+| Oceanic (removed) | `LOB-A` | 2003-09 | 126 |
+| Worldwide English (maintained, flat) | `LOB-EN` | 2004-12-01 | 126 |
 
-The European printing being **103 cards rather than 126** is the clearest
-demonstration that these aren't relabelled copies of one another — it's a
-materially different set. Printed names differ too: the North American
-printing has "Trial of Hell" and "Red-eyes B. Dragon" where the Worldwide
-English one has "Trial of Nightmare" and "Red-Eyes B. Dragon".
+The European printing being **103 cards rather than 126** was the clearest
+demonstration that these aren't relabelled copies of one another — it was a
+materially different set. Printed names differed too: the North American
+printing had "Trial of Hell" and "Red-eyes B. Dragon" where Worldwide English
+has "Trial of Nightmare" and "Red-Eyes B. Dragon".
 
-Name a printing directory for its **region**, not its prefix —
-`north-american/`, not `lob/`. Non-English printings (German, French, Italian,
-Spanish, Portuguese) are out of scope per Scope above; when a set has only one
-English printing it still gets a printing directory, so the shape stays
-uniform.
+If printings beyond Worldwide English are ever reinstated: name a printing
+directory for its **region**, not its prefix — `north-american/`, not
+`lob/`. Non-English printings (German, French, Italian, Spanish, Portuguese)
+are out of scope per Scope above.
 
-**`total_cards` belongs on the printing, not the set** — printings
-legitimately differ in size, so a single figure at set level would be wrong
-for at least one of them.
+**`total_cards` belongs wherever the cards actually are** — on the set
+record when filed flat (as Legend of Blue Eyes is now), on each printing
+record when a set has genuinely distinct printings nested underneath it.
 
 ### Editions
 
 **An edition is a printing axis too, not a card attribute.** A 1st Edition
 card and an Unlimited card are physically distinguishable, so by the same rule
-they're separate entities, filed as sibling printing collections
-(`north-american-1st-edition/`, `north-american-unlimited/`) rather than one
-card carrying an `edition` field.
+they're separate entities. Splitting an edition means introducing printing
+subdirectories under the set even for a currently-flat one — e.g.
+`worldwide-english-1st-edition/`, `worldwide-english-unlimited/` — rather
+than one card carrying an `edition` field.
 
 **Not yet applied, because the data isn't there.** Yugipedia's set lists carry
 only `number; name; rarity`, and its card pages carry no per-printing edition

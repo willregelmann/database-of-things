@@ -20,7 +20,7 @@ homeware) is out of scope, same reasoning as Re-Ment.
 ```
 funism/
   CLAUDE.md
-  template.schema.json          # manufacturer + character attributes, inherited by everything below
+  schema.json          # manufacturer + character attributes, inherited by everything below
   _collection.yaml               # Funism itself
   <franchise>/                   # e.g. "pokemon", "my-little-pony", "care-bears", "butterbear"
     _collection.yaml

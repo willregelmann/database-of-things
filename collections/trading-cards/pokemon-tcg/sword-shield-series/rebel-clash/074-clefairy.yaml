@@ -6,5 +6,4 @@ attributes:
   number: "74/192"
   rarity: Common
   illustrator: sowsow
-image:
-  source_url: https://images.pokemontcg.io/swsh2/74_hires.png
+image: https://images.pokemontcg.io/swsh2/74_hires.png

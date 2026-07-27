@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Eevee
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/1343054554.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/1343054554.jpg

@@ -6,5 +6,4 @@ attributes:
   number: "35/78"
   rarity: Rare Holo
   illustrator: Atsushi Furusawa
-image:
-  source_url: https://images.pokemontcg.io/pgo/35_hires.png
+image: https://images.pokemontcg.io/pgo/35_hires.png

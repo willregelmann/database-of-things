@@ -6,5 +6,4 @@ attributes:
   number: "45/147"
   rarity: Uncommon
   illustrator: OOYAMA
-image:
-  source_url: https://images.pokemontcg.io/sm3/45_hires.png
+image: https://images.pokemontcg.io/sm3/45_hires.png

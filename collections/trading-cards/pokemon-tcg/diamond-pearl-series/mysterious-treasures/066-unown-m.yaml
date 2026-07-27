@@ -6,5 +6,4 @@ attributes:
   number: "66/123"
   rarity: Uncommon
   illustrator: Kazuyuki Kano
-image:
-  source_url: https://images.pokemontcg.io/dp2/66_hires.png
+image: https://images.pokemontcg.io/dp2/66_hires.png

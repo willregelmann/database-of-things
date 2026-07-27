@@ -8,6 +8,6 @@ description: >
   Kyurem-EX and Genesect-EX alongside powerful ACE SPEC Trainer cards limited to
   one per deck.
 date: "2013-08-14"
+ongoing: false
 total_cards: 101
-image:
-  source_url: https://images.pokemontcg.io/bw10/logo.png
+image: https://images.pokemontcg.io/bw10/logo.png

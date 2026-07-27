@@ -6,5 +6,4 @@ attributes:
   number: "XY160"
   rarity: Promo
   illustrator: kawayoo
-image:
-  source_url: https://images.pokemontcg.io/xyp/XY160_hires.png
+image: https://images.pokemontcg.io/xyp/XY160_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "80/214"
   rarity: Rare
   illustrator: Saya Tsuruta
-image:
-  source_url: https://images.pokemontcg.io/sm10/80_hires.png
+image: https://images.pokemontcg.io/sm10/80_hires.png

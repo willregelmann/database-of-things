@@ -6,5 +6,4 @@ attributes:
   number: "205/197"
   rarity: Illustration Rare
   illustrator: Oku
-image:
-  source_url: https://images.pokemontcg.io/sv3/205_hires.png
+image: https://images.pokemontcg.io/sv3/205_hires.png

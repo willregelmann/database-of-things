@@ -4,5 +4,4 @@ type: minifig
 date: "1999"
 attributes:
   number: "sw0009"
-image:
-  source_url: https://img.bricklink.com/ItemImage/MN/0/sw0009.png
+image: https://img.bricklink.com/ItemImage/MN/0/sw0009.png

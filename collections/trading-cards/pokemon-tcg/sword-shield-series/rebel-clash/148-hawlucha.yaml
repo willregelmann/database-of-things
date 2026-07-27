@@ -6,5 +6,4 @@ attributes:
   number: "148/192"
   rarity: Uncommon
   illustrator: tetsuya koizumi
-image:
-  source_url: https://images.pokemontcg.io/swsh2/148_hires.png
+image: https://images.pokemontcg.io/swsh2/148_hires.png

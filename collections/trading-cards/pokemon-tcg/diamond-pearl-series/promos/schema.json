@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Diamond & Pearl era promos number override — DP-prefixed, no total",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^DP[0-9]+$"
+    }
+  }
+}

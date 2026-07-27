@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{4}{G}{G}"
-  card_type: Creature — Wurm
+  card_type: Creature
   illustrator: Daniel Gelon
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/f/bfed1a95-bd67-4e16-a781-81866028af2f.jpg?1783948678
+image: >-
+  https://cards.scryfall.io/large/front/b/f/bfed1a95-bd67-4e16-a781-81866028af2f.jpg?1783948678

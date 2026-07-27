@@ -6,5 +6,4 @@ attributes:
   number: "99/113"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/ex11/99_hires.png
+image: https://images.pokemontcg.io/ex11/99_hires.png

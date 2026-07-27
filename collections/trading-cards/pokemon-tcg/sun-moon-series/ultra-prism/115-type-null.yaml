@@ -6,5 +6,4 @@ attributes:
   number: "115/156"
   rarity: Rare
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/sm5/115_hires.png
+image: https://images.pokemontcg.io/sm5/115_hires.png

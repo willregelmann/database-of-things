@@ -9,6 +9,6 @@ description: >
   "Galarian Gallery" subset of 70 alternate-art cards highlighting fan-favorite
   Pokémon and Trainers from across the era.
 date: "2023-01-20"
+ongoing: false
 total_cards: 159
-image:
-  source_url: https://images.pokemontcg.io/swsh12pt5/logo.png
+image: https://images.pokemontcg.io/swsh12pt5/logo.png

@@ -6,5 +6,4 @@ attributes:
   number: "5/113"
   rarity: Uncommon
   illustrator: HiRON
-image:
-  source_url: https://images.pokemontcg.io/bw11/5_hires.png
+image: https://images.pokemontcg.io/bw11/5_hires.png

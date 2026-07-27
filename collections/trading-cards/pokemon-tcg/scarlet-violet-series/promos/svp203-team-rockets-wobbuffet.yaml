@@ -6,5 +6,4 @@ attributes:
   number: "203"
   rarity: Promo
   illustrator: Saboteri
-image:
-  source_url: https://images.pokemontcg.io/svp/203_hires.png
+image: https://images.pokemontcg.io/svp/203_hires.png

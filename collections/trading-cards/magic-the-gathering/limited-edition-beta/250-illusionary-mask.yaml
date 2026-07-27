@@ -5,9 +5,7 @@ date: "1993-10-04"
 attributes:
   number: "250/302"
   rarity: Rare
-  mana_cost: "{2}"
   card_type: Artifact
   illustrator: Amy Weber
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/1/61ea96b1-4428-4951-88d4-f79338955981.jpg?1783948603
+image: >-
+  https://cards.scryfall.io/large/front/6/1/61ea96b1-4428-4951-88d4-f79338955981.jpg?1783948603

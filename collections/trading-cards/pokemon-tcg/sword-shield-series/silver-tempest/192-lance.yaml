@@ -6,5 +6,4 @@ attributes:
   number: "192/195"
   rarity: Rare Ultra
   illustrator: Ryuta Fuse
-image:
-  source_url: https://images.pokemontcg.io/swsh12/192_hires.png
+image: https://images.pokemontcg.io/swsh12/192_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "24/236"
   rarity: Uncommon
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/sm12/24_hires.png
+image: https://images.pokemontcg.io/sm12/24_hires.png

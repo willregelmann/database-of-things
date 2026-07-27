@@ -6,5 +6,4 @@ attributes:
   number: "53/145"
   rarity: Uncommon
   illustrator: kawayoo
-image:
-  source_url: https://images.pokemontcg.io/sm2/53_hires.png
+image: https://images.pokemontcg.io/sm2/53_hires.png

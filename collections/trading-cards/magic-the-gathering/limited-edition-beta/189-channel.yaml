@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - G
-  mana_cost: "{G}{G}"
   card_type: Sorcery
   illustrator: Richard Thomas
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/f/6fa6468a-335a-467d-aef6-e537af9d5c1c.jpg?1783948616
+image: >-
+  https://cards.scryfall.io/large/front/6/f/6fa6468a-335a-467d-aef6-e537af9d5c1c.jpg?1783948616

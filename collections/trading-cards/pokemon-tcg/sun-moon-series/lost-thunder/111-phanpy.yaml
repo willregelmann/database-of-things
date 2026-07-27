@@ -6,5 +6,4 @@ attributes:
   number: "111/214"
   rarity: Common
   illustrator: Asako Ito
-image:
-  source_url: https://images.pokemontcg.io/sm8/111_hires.png
+image: https://images.pokemontcg.io/sm8/111_hires.png

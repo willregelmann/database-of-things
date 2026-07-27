@@ -6,5 +6,4 @@ attributes:
   number: "43/193"
   rarity: Rare
   illustrator: Yuya Oka
-image:
-  source_url: https://images.pokemontcg.io/sv2/43_hires.png
+image: https://images.pokemontcg.io/sv2/43_hires.png

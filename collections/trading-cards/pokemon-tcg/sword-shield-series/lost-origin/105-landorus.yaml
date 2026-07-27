@@ -6,5 +6,4 @@ attributes:
   number: "105/196"
   rarity: Rare
   illustrator: KEIICHIRO ITO
-image:
-  source_url: https://images.pokemontcg.io/swsh11/105_hires.png
+image: https://images.pokemontcg.io/swsh11/105_hires.png

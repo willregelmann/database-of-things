@@ -6,5 +6,4 @@ attributes:
   number: "12/185"
   rarity: Rare
   illustrator: Uta
-image:
-  source_url: https://images.pokemontcg.io/swsh4/12_hires.png
+image: https://images.pokemontcg.io/swsh4/12_hires.png

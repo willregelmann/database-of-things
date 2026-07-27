@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Snubbull
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/19694110.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/19694110.jpg

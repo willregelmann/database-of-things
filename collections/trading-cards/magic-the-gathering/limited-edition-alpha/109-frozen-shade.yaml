@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - B
-  mana_cost: "{2}{B}"
-  card_type: Creature — Shade
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/0/d0bd76c8-4cff-4c15-9686-7a299b589814.jpg?1783948695
+image: >-
+  https://cards.scryfall.io/large/front/d/0/d0bd76c8-4cff-4c15-9686-7a299b589814.jpg?1783948695

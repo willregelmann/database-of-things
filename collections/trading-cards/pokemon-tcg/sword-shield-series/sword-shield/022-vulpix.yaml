@@ -6,5 +6,4 @@ attributes:
   number: "22/202"
   rarity: Common
   illustrator: Taira Akitsu
-image:
-  source_url: https://images.pokemontcg.io/swsh1/22_hires.png
+image: https://images.pokemontcg.io/swsh1/22_hires.png

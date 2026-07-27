@@ -6,5 +6,4 @@ attributes:
   number: "43/119"
   rarity: Rare Holo
   illustrator: PLANETA
-image:
-  source_url: https://images.pokemontcg.io/xy4/43_hires.png
+image: https://images.pokemontcg.io/xy4/43_hires.png

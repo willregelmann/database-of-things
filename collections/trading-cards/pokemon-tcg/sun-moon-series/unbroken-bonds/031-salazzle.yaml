@@ -6,5 +6,4 @@ attributes:
   number: "31/214"
   rarity: Rare
   illustrator: hatachu
-image:
-  source_url: https://images.pokemontcg.io/sm10/31_hires.png
+image: https://images.pokemontcg.io/sm10/31_hires.png

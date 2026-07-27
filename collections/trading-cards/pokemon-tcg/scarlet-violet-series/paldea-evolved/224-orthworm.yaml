@@ -6,5 +6,4 @@ attributes:
   number: "224/193"
   rarity: Illustration Rare
   illustrator: OKACHEKE
-image:
-  source_url: https://images.pokemontcg.io/sv2/224_hires.png
+image: https://images.pokemontcg.io/sv2/224_hires.png

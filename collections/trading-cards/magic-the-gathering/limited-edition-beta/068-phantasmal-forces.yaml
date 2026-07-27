@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - U
-  mana_cost: "{3}{U}"
-  card_type: Creature — Illusion
+  card_type: Creature
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/0/b0c6d792-0abb-474e-8c05-c4e843242ef0.jpg?1783948643
+image: >-
+  https://cards.scryfall.io/large/front/b/0/b0c6d792-0abb-474e-8c05-c4e843242ef0.jpg?1783948643

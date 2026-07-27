@@ -9,6 +9,6 @@ description: >
   the Legendary Pokémon Kyurem, Terrakion, Landorus, and Cobalion, plus a
   notable Meowth secret rare.
 date: "2011-11-16"
+ongoing: false
 total_cards: 101
-image:
-  source_url: https://images.pokemontcg.io/bw3/logo.png
+image: https://images.pokemontcg.io/bw3/logo.png

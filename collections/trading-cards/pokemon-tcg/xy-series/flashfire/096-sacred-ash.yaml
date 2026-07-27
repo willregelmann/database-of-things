@@ -6,5 +6,4 @@ attributes:
   number: "96/106"
   rarity: Uncommon
   illustrator: PLANETA
-image:
-  source_url: https://images.pokemontcg.io/xy2/96_hires.png
+image: https://images.pokemontcg.io/xy2/96_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{B}"
   card_type: Instant
   illustrator: Sandra Everingham
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/e/1/e16fc59a-17da-462a-86ea-31f8a9ac18a1.jpg?1783948635
+image: >-
+  https://cards.scryfall.io/large/front/e/1/e16fc59a-17da-462a-86ea-31f8a9ac18a1.jpg?1783948635

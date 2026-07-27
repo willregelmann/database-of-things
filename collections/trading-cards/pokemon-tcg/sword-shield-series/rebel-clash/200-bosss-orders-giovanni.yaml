@@ -6,5 +6,4 @@ attributes:
   number: "200/192"
   rarity: Rare Rainbow
   illustrator: nagimiso
-image:
-  source_url: https://images.pokemontcg.io/swsh2/200_hires.png
+image: https://images.pokemontcg.io/swsh2/200_hires.png

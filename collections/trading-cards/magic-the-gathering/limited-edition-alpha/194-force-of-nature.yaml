@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - G
-  mana_cost: "{2}{G}{G}{G}{G}"
-  card_type: Creature — Elemental
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/2/1/21551cb6-3a53-42dd-9bbd-4bc56304d6d3.jpg?1783948677
+image: >-
+  https://cards.scryfall.io/large/front/2/1/21551cb6-3a53-42dd-9bbd-4bc56304d6d3.jpg?1783948677

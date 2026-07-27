@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - W
-  mana_cost: "{1}{W}"
   card_type: Sorcery
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/f/6f9ea46a-411f-40ce-a873-a905180093f4.jpg?1783948717
+image: >-
+  https://cards.scryfall.io/large/front/6/f/6f9ea46a-411f-40ce-a873-a905180093f4.jpg?1783948717

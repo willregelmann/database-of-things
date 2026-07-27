@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{U}{U}"
-  card_type: Creature — Merfolk
+  card_type: Creature
   illustrator: Melissa A. Benson
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/2/1/210c4a90-fc7a-4c76-aeaa-20a005e45386.jpg?1783948705
+image: >-
+  https://cards.scryfall.io/large/front/2/1/210c4a90-fc7a-4c76-aeaa-20a005e45386.jpg?1783948705

@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{2}{R}{R}"
-  card_type: Creature — Giant
+  card_type: Creature
   illustrator: Dameon Willich
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/a/2/a2b5f545-a87d-4292-880f-5cd2f6755748.jpg?1783948619
+image: >-
+  https://cards.scryfall.io/large/front/a/2/a2b5f545-a87d-4292-880f-5cd2f6755748.jpg?1783948619

@@ -6,5 +6,4 @@ attributes:
   number: "SM65"
   rarity: Promo
   illustrator: 5ban Graphics
-image:
-  source_url: https://images.pokemontcg.io/smp/SM65_hires.png
+image: https://images.pokemontcg.io/smp/SM65_hires.png

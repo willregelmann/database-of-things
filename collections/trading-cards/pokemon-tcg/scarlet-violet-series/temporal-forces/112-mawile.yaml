@@ -6,5 +6,4 @@ attributes:
   number: "112/162"
   rarity: Common
   illustrator: aspara
-image:
-  source_url: https://images.pokemontcg.io/sv5/112_hires.png
+image: https://images.pokemontcg.io/sv5/112_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - R
-  mana_cost: "{2}{R}"
-  card_type: Creature — Ogre
+  card_type: Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/7/3/73ae5276-b607-4f23-a9d2-e8cc7b8e3693.jpg?1783948685
+image: >-
+  https://cards.scryfall.io/large/front/7/3/73ae5276-b607-4f23-a9d2-e8cc7b8e3693.jpg?1783948685

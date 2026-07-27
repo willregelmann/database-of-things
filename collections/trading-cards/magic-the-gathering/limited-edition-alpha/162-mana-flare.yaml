@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{2}{R}"
   card_type: Enchantment
   illustrator: Christopher Rush
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/7/f/7fb99a26-beeb-4aca-bb02-b2d2ce0595f9.jpg?1783948683
+image: >-
+  https://cards.scryfall.io/large/front/7/f/7fb99a26-beeb-4aca-bb02-b2d2ce0595f9.jpg?1783948683

@@ -6,5 +6,4 @@ attributes:
   number: "RC8/RC25"
   rarity: Common
   illustrator: Mizue
-image:
-  source_url: https://images.pokemontcg.io/bw11/RC8_hires.png
+image: https://images.pokemontcg.io/bw11/RC8_hires.png

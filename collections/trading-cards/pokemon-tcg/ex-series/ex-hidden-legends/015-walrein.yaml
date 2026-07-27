@@ -6,5 +6,4 @@ attributes:
   number: "15/101"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/ex5/15_hires.png
+image: https://images.pokemontcg.io/ex5/15_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "139"
   rarity: Promo
   illustrator: hncl
-image:
-  source_url: https://images.pokemontcg.io/svp/139_hires.png
+image: https://images.pokemontcg.io/svp/139_hires.png

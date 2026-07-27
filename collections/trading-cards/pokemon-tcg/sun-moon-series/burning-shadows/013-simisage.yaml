@@ -6,5 +6,4 @@ attributes:
   number: "13/147"
   rarity: Uncommon
   illustrator: tetsuya koizumi
-image:
-  source_url: https://images.pokemontcg.io/sm3/13_hires.png
+image: https://images.pokemontcg.io/sm3/13_hires.png

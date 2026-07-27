@@ -6,5 +6,4 @@ attributes:
   number: "SV065/SV122"
   rarity: Rare Shiny
   illustrator: sowsow
-image:
-  source_url: https://images.pokemontcg.io/swsh45sv/SV065_hires.png
+image: https://images.pokemontcg.io/swsh45sv/SV065_hires.png

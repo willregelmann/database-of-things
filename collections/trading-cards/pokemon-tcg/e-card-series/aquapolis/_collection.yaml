@@ -7,6 +7,6 @@ description: >
   select Rares numbered on their own H1/H32 checklist, and the secret Crystal
   Kingdra, Crystal Lugia, and Crystal Nidoking (148/147-150/147).
 date: "2003-01-15"
+ongoing: false
 total_cards: 147
-image:
-  source_url: https://images.pokemontcg.io/ecard2/logo.png
+image: https://images.pokemontcg.io/ecard2/logo.png

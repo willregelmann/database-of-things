@@ -4,5 +4,5 @@ type: figure
 attributes:
   variant: Book
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-honey-and-book-3-inch-figure-main.jpg
+image: >-
+  https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-honey-and-book-3-inch-figure-main.jpg

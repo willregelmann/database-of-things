@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{1}{B}{B}"
   card_type: Sorcery
   illustrator: Daniel Gelon
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/f/d/fd891fc6-d9d6-494e-ae65-8bea8f44b575.jpg?1783948696
+image: >-
+  https://cards.scryfall.io/large/front/f/d/fd891fc6-d9d6-494e-ae65-8bea8f44b575.jpg?1783948696

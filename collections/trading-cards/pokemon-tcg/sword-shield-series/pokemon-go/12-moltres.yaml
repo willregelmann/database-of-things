@@ -6,5 +6,4 @@ attributes:
   number: "12/78"
   rarity: Rare Holo
   illustrator: Pani Kobayashi
-image:
-  source_url: https://images.pokemontcg.io/pgo/12_hires.png
+image: https://images.pokemontcg.io/pgo/12_hires.png

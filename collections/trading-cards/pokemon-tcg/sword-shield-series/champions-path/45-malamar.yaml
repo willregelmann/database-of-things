@@ -6,5 +6,4 @@ attributes:
   number: "45/73"
   rarity: Uncommon
   illustrator: kawayoo
-image:
-  source_url: https://images.pokemontcg.io/swsh35/45_hires.png
+image: https://images.pokemontcg.io/swsh35/45_hires.png

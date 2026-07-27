@@ -4,5 +4,5 @@ type: figure
 attributes:
   variant: Ice Cream
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://target.scene7.com/is/image/Target/GUEST_dd5352d7-b3bf-4c63-b14e-c0334b13b235?wid=300&hei=300&fmt=pjpeg
+image: >-
+  https://target.scene7.com/is/image/Target/GUEST_dd5352d7-b3bf-4c63-b14e-c0334b13b235?wid=300&hei=300&fmt=pjpeg

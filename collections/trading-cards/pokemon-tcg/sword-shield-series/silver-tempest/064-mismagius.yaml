@@ -6,5 +6,4 @@ attributes:
   number: "64/195"
   rarity: Rare
   illustrator: kawayoo
-image:
-  source_url: https://images.pokemontcg.io/swsh12/64_hires.png
+image: https://images.pokemontcg.io/swsh12/64_hires.png

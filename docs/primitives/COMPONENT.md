@@ -19,7 +19,7 @@ component is a distinct primitive rather than just another item.
 
 A component is catalogued exactly like any other entity — its own YAML
 file, `id`/`name`/`type`, the same optional fields (`date`, `attributes`,
-`image.source_url`, [`tags`](TAG.md)) as an item. Nothing about a
+`image`, [`tags`](TAG.md)) as an item. Nothing about a
 component's own file marks it as a component; what makes it one is that
 some item's
 top-level `components` field points at it.
@@ -39,11 +39,11 @@ sync with the sets side, with nothing enforcing that they match.
   The validator doesn't require one; nothing ever references the bucket
   directory itself, since components are referenced individually, by
   their own `id`.
-- It still needs a `CLAUDE.md`/`template.schema.json` (own or inherited)
+- It still needs a `CLAUDE.md`/`../../schema.json` (own or inherited)
   like any directory holding entity files — a category whose components
   have genuinely different attributes from its items (a minifig's
   BrickLink number vs. a set's own numbering) writes its own
-  `template.schema.json` for the bucket rather than reusing the parent's.
+  `../../schema.json` for the bucket rather than reusing the parent's.
 - Bootstrapping a brand-new bucket (and its schema, if distinct from its
   parent's) is a human/PR-level change — the `collections-mcp` tool
   surface only populates an already-scaffolded bucket, the same way

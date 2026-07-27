@@ -6,5 +6,4 @@ attributes:
   number: "XY130"
   rarity: Promo
   illustrator: Satoshi Shirai
-image:
-  source_url: https://images.pokemontcg.io/xyp/XY130_hires.png
+image: https://images.pokemontcg.io/xyp/XY130_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "140/236"
   rarity: Uncommon
   illustrator: kodama
-image:
-  source_url: https://images.pokemontcg.io/sm12/140_hires.png
+image: https://images.pokemontcg.io/sm12/140_hires.png

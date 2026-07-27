@@ -5,9 +5,7 @@ date: "1993-10-04"
 attributes:
   number: "249/302"
   rarity: Uncommon
-  mana_cost: "{4}"
   card_type: Artifact
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/2/d27608e7-6539-4813-95b6-d8847cdc6a12.jpg?1783948604
+image: >-
+  https://cards.scryfall.io/large/front/d/2/d27608e7-6539-4813-95b6-d8847cdc6a12.jpg?1783948604

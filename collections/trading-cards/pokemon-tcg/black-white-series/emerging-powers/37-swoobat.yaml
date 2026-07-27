@@ -6,5 +6,4 @@ attributes:
   number: "37/98"
   rarity: Rare
   illustrator: Shigenori Negishi
-image:
-  source_url: https://images.pokemontcg.io/bw2/37_hires.png
+image: https://images.pokemontcg.io/bw2/37_hires.png

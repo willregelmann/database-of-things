@@ -6,5 +6,4 @@ attributes:
   number: "10/203"
   rarity: Rare
   illustrator: Kagemaru Himeno
-image:
-  source_url: https://images.pokemontcg.io/swsh7/10_hires.png
+image: https://images.pokemontcg.io/swsh7/10_hires.png

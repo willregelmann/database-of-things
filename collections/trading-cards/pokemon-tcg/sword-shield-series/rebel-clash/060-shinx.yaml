@@ -6,5 +6,4 @@ attributes:
   number: "60/192"
   rarity: Common
   illustrator: Uta
-image:
-  source_url: https://images.pokemontcg.io/swsh2/60_hires.png
+image: https://images.pokemontcg.io/swsh2/60_hires.png

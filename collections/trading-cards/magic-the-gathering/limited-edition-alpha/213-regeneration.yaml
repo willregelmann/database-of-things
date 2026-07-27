@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{1}{G}"
-  card_type: Enchantment — Aura
+  card_type: Enchantment
   illustrator: Quinton Hoover
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/7/b7b7aa34-b4f8-41b4-82ce-ab2e204c3bf4.jpg?1783948673
+image: >-
+  https://cards.scryfall.io/large/front/b/7/b7b7aa34-b4f8-41b4-82ce-ab2e204c3bf4.jpg?1783948673

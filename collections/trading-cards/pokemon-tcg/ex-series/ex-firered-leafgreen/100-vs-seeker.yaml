@@ -6,5 +6,4 @@ attributes:
   number: "100/112"
   rarity: Uncommon
   illustrator: K. Utsunomiya
-image:
-  source_url: https://images.pokemontcg.io/ex6/100_hires.png
+image: https://images.pokemontcg.io/ex6/100_hires.png

@@ -8,6 +8,6 @@ description: >
   pair characters like Cynthia, Ethan, Misty, and Arven with their partner
   Pokémon.
 date: "2025-05-30"
+ongoing: false
 total_cards: 182
-image:
-  source_url: https://images.pokemontcg.io/sv10/logo.png
+image: https://images.pokemontcg.io/sv10/logo.png

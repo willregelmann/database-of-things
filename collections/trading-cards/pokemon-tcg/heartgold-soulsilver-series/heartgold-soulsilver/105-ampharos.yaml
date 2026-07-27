@@ -6,5 +6,4 @@ attributes:
   number: "105/123"
   rarity: Rare Holo Prime
   illustrator: Kent Kanetsuna
-image:
-  source_url: https://images.pokemontcg.io/hgss1/105_hires.png
+image: https://images.pokemontcg.io/hgss1/105_hires.png

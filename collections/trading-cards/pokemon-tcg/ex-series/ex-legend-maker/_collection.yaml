@@ -8,6 +8,6 @@ description: >
   introducing three Gold Star (☆) cards — Regice, Regirock, and Registeel —
   alongside Pokémon-ex like Mew ex, Flygon ex, and Walrein ex.
 date: "2006-02-13"
+ongoing: false
 total_cards: 93
-image:
-  source_url: https://images.pokemontcg.io/ex12/logo.png
+image: https://images.pokemontcg.io/ex12/logo.png

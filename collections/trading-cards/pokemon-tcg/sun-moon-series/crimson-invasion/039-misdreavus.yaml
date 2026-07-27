@@ -6,5 +6,4 @@ attributes:
   number: "39/111"
   rarity: Common
   illustrator: so-taro
-image:
-  source_url: https://images.pokemontcg.io/sm4/39_hires.png
+image: https://images.pokemontcg.io/sm4/39_hires.png

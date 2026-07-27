@@ -6,5 +6,4 @@ attributes:
   number: "82/198"
   rarity: Common
   illustrator: SATOSHI NAKAI
-image:
-  source_url: https://images.pokemontcg.io/swsh6/82_hires.png
+image: https://images.pokemontcg.io/swsh6/82_hires.png

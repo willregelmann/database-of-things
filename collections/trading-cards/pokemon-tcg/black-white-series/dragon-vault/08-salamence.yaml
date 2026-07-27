@@ -6,5 +6,4 @@ attributes:
   number: "8/20"
   rarity: Rare Holo
   illustrator: BERUBURI
-image:
-  source_url: https://images.pokemontcg.io/dv1/8_hires.png
+image: https://images.pokemontcg.io/dv1/8_hires.png

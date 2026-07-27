@@ -6,5 +6,4 @@ attributes:
   number: "17/18"
   rarity: Rare Holo
   illustrator: MPC Film
-image:
-  source_url: https://images.pokemontcg.io/det1/17_hires.png
+image: https://images.pokemontcg.io/det1/17_hires.png

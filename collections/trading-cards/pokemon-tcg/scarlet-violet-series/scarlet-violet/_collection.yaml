@@ -9,6 +9,6 @@ description: >
   art treatments. The base set spans 198 cards, with additional secret rares
   bringing the print run to 258.
 date: "2023-03-31"
+ongoing: false
 total_cards: 198
-image:
-  source_url: https://images.pokemontcg.io/sv1/logo.png
+image: https://images.pokemontcg.io/sv1/logo.png

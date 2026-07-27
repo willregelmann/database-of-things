@@ -6,5 +6,4 @@ attributes:
   number: "32/84"
   rarity: Common
   illustrator: Yoshimoto Yoshimon
-image:
-  source_url: https://images.scrydex.com/pokemon/me5-32/large
+image: https://images.scrydex.com/pokemon/me5-32/large

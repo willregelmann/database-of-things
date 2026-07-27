@@ -6,5 +6,4 @@ attributes:
   number: "18/100"
   rarity: Rare
   illustrator: Hajime Kusajima
-image:
-  source_url: https://images.pokemontcg.io/dp7/18_hires.png
+image: https://images.pokemontcg.io/dp7/18_hires.png

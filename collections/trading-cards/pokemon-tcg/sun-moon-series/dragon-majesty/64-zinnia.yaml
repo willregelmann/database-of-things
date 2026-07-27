@@ -6,5 +6,4 @@ attributes:
   number: "64/70"
   rarity: Uncommon
   illustrator: Megumi Mizutani
-image:
-  source_url: https://images.pokemontcg.io/sm75/64_hires.png
+image: https://images.pokemontcg.io/sm75/64_hires.png

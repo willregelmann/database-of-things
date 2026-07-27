@@ -6,5 +6,4 @@ attributes:
   number: "81/114"
   rarity: Common
   illustrator: sui
-image:
-  source_url: https://images.pokemontcg.io/bw1/81_hires.png
+image: https://images.pokemontcg.io/bw1/81_hires.png

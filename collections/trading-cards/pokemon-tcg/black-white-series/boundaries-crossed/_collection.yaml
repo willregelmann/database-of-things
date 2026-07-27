@@ -9,6 +9,6 @@ description: >
   per deck — and closed out its 149-card printed set with 4 secret rares in
   golden holofoil.
 date: "2012-11-07"
+ongoing: false
 total_cards: 149
-image:
-  source_url: https://images.pokemontcg.io/bw7/logo.png
+image: https://images.pokemontcg.io/bw7/logo.png

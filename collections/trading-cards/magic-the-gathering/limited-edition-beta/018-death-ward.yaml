@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{W}"
   card_type: Instant
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/1/b119edd8-7801-475e-943a-6cbf10f2d303.jpg?1783948653
+image: >-
+  https://cards.scryfall.io/large/front/b/1/b119edd8-7801-475e-943a-6cbf10f2d303.jpg?1783948653

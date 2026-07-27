@@ -6,5 +6,4 @@ attributes:
   number: "SWSH125"
   rarity: Promo
   illustrator: KEIICHIRO ITO
-image:
-  source_url: https://images.pokemontcg.io/swshp/SWSH125_hires.png
+image: https://images.pokemontcg.io/swshp/SWSH125_hires.png

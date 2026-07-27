@@ -6,5 +6,4 @@ attributes:
   number: "200/162"
   rarity: Ultra Rare
   illustrator: Hideki Ishikawa
-image:
-  source_url: https://images.pokemontcg.io/sv5/200_hires.png
+image: https://images.pokemontcg.io/sv5/200_hires.png

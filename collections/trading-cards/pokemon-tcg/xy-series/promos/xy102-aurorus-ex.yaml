@@ -6,5 +6,4 @@ attributes:
   number: "XY102"
   rarity: Promo
   illustrator: Toyste Beach
-image:
-  source_url: https://images.pokemontcg.io/xyp/XY102_hires.png
+image: https://images.pokemontcg.io/xyp/XY102_hires.png

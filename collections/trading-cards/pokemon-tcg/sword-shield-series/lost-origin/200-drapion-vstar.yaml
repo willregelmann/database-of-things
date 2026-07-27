@@ -6,5 +6,4 @@ attributes:
   number: "200/196"
   rarity: Rare Rainbow
   illustrator: PLANETA Mochizuki
-image:
-  source_url: https://images.pokemontcg.io/swsh11/200_hires.png
+image: https://images.pokemontcg.io/swsh11/200_hires.png

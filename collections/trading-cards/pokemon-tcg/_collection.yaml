@@ -5,8 +5,8 @@ description: >
   The Pokémon Trading Card Game, spanning every expansion since the 1999 Base
   Set.
 date: "1999-01-09"
+ongoing: true
 tags:
   - 175817b0-ba6b-49ca-90a9-f0777b4149e4   # tags/franchises/pokemon.yaml
-image:
-  source_url: >-
-    https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg
+image: >-
+  https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg

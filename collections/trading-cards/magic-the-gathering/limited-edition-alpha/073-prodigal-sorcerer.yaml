@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - U
-  mana_cost: "{2}{U}"
-  card_type: Creature — Human Wizard Sorcerer
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/e/4/e4dc1103-7bf1-47f6-9006-d3ed9ccd7a6a.jpg?1783948702
+image: >-
+  https://cards.scryfall.io/large/front/e/4/e4dc1103-7bf1-47f6-9006-d3ed9ccd7a6a.jpg?1783948702

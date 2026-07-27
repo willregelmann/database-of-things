@@ -6,5 +6,4 @@ attributes:
   number: "48/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/gym1/48_hires.png
+image: https://images.pokemontcg.io/gym1/48_hires.png

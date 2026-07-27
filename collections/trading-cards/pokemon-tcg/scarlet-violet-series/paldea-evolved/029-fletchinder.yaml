@@ -6,5 +6,4 @@ attributes:
   number: "29/193"
   rarity: Uncommon
   illustrator: kurumitsu
-image:
-  source_url: https://images.pokemontcg.io/sv2/29_hires.png
+image: https://images.pokemontcg.io/sv2/29_hires.png

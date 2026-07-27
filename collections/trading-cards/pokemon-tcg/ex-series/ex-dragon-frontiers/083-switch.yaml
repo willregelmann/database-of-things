@@ -6,5 +6,4 @@ attributes:
   number: "83/101"
   rarity: Common
   illustrator: Hiromichi Sugiyama
-image:
-  source_url: https://images.pokemontcg.io/ex15/83_hires.png
+image: https://images.pokemontcg.io/ex15/83_hires.png

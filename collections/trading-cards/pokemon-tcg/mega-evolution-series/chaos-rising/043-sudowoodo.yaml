@@ -6,5 +6,4 @@ attributes:
   number: "43/86"
   rarity: Uncommon
   illustrator: GOTO minori
-image:
-  source_url: https://images.scrydex.com/pokemon/me4-43/large
+image: https://images.scrydex.com/pokemon/me4-43/large

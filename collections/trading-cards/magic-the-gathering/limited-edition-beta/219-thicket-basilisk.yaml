@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - G
-  mana_cost: "{3}{G}{G}"
-  card_type: Creature — Basilisk
+  card_type: Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/3/6321e16b-0b4b-4d36-ab94-97bf5816acf4.jpg?1783948610
+image: >-
+  https://cards.scryfall.io/large/front/6/3/6321e16b-0b4b-4d36-ab94-97bf5816acf4.jpg?1783948610

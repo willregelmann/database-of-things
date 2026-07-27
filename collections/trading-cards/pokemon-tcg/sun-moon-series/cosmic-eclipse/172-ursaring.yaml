@@ -6,5 +6,4 @@ attributes:
   number: "172/236"
   rarity: Rare
   illustrator: Hiroki Asanuma
-image:
-  source_url: https://images.pokemontcg.io/sm12/172_hires.png
+image: https://images.pokemontcg.io/sm12/172_hires.png

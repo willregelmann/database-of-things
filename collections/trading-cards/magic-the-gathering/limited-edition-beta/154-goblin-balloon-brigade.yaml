@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{R}"
-  card_type: Creature — Goblin Warrior
+  card_type: Creature
   illustrator: Andi Rusu
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/3/f/3fdb52dd-4fc5-4594-b53b-ea169325be0b.jpg?1783948624
+image: >-
+  https://cards.scryfall.io/large/front/3/f/3fdb52dd-4fc5-4594-b53b-ea169325be0b.jpg?1783948624

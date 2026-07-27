@@ -6,5 +6,4 @@ attributes:
   number: "SWSH234"
   rarity: Promo
   illustrator: Ryota Murayama
-image:
-  source_url: https://images.pokemontcg.io/swshp/SWSH234_hires.png
+image: https://images.pokemontcg.io/swshp/SWSH234_hires.png

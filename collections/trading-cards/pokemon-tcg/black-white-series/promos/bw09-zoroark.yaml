@@ -6,5 +6,4 @@ attributes:
   number: "BW09"
   rarity: Promo
   illustrator: Naoki Saito
-image:
-  source_url: https://images.pokemontcg.io/bwp/BW09_hires.png
+image: https://images.pokemontcg.io/bwp/BW09_hires.png

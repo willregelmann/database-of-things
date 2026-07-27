@@ -6,5 +6,4 @@ attributes:
   number: "123/203"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Mochizuki
-image:
-  source_url: https://images.pokemontcg.io/swsh7/123_hires.png
+image: https://images.pokemontcg.io/swsh7/123_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{2}{R}"
-  card_type: Creature — Troll
+  card_type: Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/2/02ec317b-52a6-4490-80e5-a56826b06771.jpg?1783948620
+image: >-
+  https://cards.scryfall.io/large/front/0/2/02ec317b-52a6-4490-80e5-a56826b06771.jpg?1783948620

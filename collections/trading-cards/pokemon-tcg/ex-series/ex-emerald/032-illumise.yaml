@@ -6,5 +6,4 @@ attributes:
   number: "32/106"
   rarity: Uncommon
   illustrator: Kouki Saitou
-image:
-  source_url: https://images.pokemontcg.io/ex9/32_hires.png
+image: https://images.pokemontcg.io/ex9/32_hires.png

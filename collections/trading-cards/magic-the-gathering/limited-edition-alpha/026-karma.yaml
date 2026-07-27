@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - W
-  mana_cost: "{2}{W}{W}"
   card_type: Enchantment
   illustrator: Richard Thomas
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/f/6f30ad61-fcb7-4d55-ba86-94de1bf545e4.jpg?1783948713
+image: >-
+  https://cards.scryfall.io/large/front/6/f/6f30ad61-fcb7-4d55-ba86-94de1bf545e4.jpg?1783948713

@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{2}{R}"
-  card_type: Creature — Dwarf
+  card_type: Creature
   illustrator: Kev Brockschmidt
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/3/03482c9c-1f25-4d73-9243-17462ea37ac4.jpg?1783948688
+image: >-
+  https://cards.scryfall.io/large/front/0/3/03482c9c-1f25-4d73-9243-17462ea37ac4.jpg?1783948688

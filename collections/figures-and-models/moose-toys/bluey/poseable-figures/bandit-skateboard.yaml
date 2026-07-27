@@ -5,5 +5,4 @@ date: "2020"
 attributes:
   variant: Skateboard
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://tools.toywiz.com/_images/_webp/_products/lg/blueyskateboard.webp
+image: https://tools.toywiz.com/_images/_webp/_products/lg/blueyskateboard.webp

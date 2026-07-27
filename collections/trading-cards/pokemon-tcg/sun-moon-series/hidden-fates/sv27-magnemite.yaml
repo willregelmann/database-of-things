@@ -6,5 +6,4 @@ attributes:
   number: "SV27/SV94"
   rarity: Rare Shiny
   illustrator: SATOSHI NAKAI
-image:
-  source_url: https://images.pokemontcg.io/sma/SV27_hires.png
+image: https://images.pokemontcg.io/sma/SV27_hires.png

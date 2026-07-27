@@ -6,5 +6,4 @@ attributes:
   number: "16/95"
   rarity: Rare
   illustrator: T. Honda
-image:
-  source_url: https://images.pokemontcg.io/ex4/16_hires.png
+image: https://images.pokemontcg.io/ex4/16_hires.png

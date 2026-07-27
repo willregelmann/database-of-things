@@ -5,9 +5,7 @@ date: "1993-08-05"
 attributes:
   number: "258/295"
   rarity: Uncommon
-  mana_cost: "{4}"
-  card_type: Artifact Creature — Wall
+  card_type: Artifact Creature
   illustrator: Anson Maddocks
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/4/a/4a98ada6-923a-44a5-bdef-ea6a160b481e.jpg?1783948664
+image: >-
+  https://cards.scryfall.io/large/front/4/a/4a98ada6-923a-44a5-bdef-ea6a160b481e.jpg?1783948664

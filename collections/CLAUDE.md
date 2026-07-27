@@ -165,7 +165,7 @@ shared rule behind them.
 
 - **Phase 1 — scaffold.** Create the directory and its `_collection.yaml`,
   nothing else. It inherits the nearest ancestor's `CLAUDE.md` and
-  `template.schema.json`, which is all the validator requires — it checks for
+  `../schema.json`, which is all the validator requires — it checks for
   them "own or inherited," walking up the tree. **An itemless
   `_collection.yaml` is a legitimate, useful record**: it says "this line
   exists and hasn't been curated yet," which is strictly better than the
@@ -174,7 +174,7 @@ shared rule behind them.
   scheme yet, and don't gate the scaffold on shipping items alongside it.
 - **Phase 2 — author its conventions.** Before the **first item** is filed
   under it, the line needs its own `CLAUDE.md` (identification scheme, naming
-  convention, known pitfalls) and `template.schema.json`. The one exception
+  convention, known pitfalls) and `../schema.json`. The one exception
   is a tier whose parent `CLAUDE.md` already documents its conventions
   explicitly — POP MART's IP directories inherit
   [`figures-and-models/pop-mart/CLAUDE.md`](figures-and-models/pop-mart/CLAUDE.md)
@@ -185,7 +185,7 @@ correctly while holding real product data than in the abstract — authored
 speculatively, it tends to be contradicted by the first ten items that
 actually arrive. The reverse order also has a track record here:
 `bandai/gunpla/` and `bandai/gashapon/` both received fully-authored
-`CLAUDE.md` and `template.schema.json` up front and still contain **zero
+`CLAUDE.md` and `../schema.json` up front and still contain **zero
 items**, while `re-ment/pokemon/` (462 items), `pop-mart/skullpanda/` (263),
 and `dark-horse/hellboy/` have run correctly on inherited conventions for
 their whole existence. Requiring the authoring step up front mostly succeeded
@@ -248,7 +248,7 @@ whole catalog cleanly redistributable under CC0 (see the repo's
   as they're genuine synthesis, not regurgitated source prose.
 - **Keep it factual and brief — a few sentences.** A description orients a
   reader on what the grouping is and why it's distinct; it isn't a place for
-  exhaustive detail (that's what `source_url` links and per-item data are for)
+  exhaustive detail (that's what `image` links and per-item data are for)
   or for promotional/editorializing tone. When there's nothing non-obvious to
   say beyond what the name and hierarchy already convey, leave `description`
   off rather than padding it.
@@ -344,7 +344,7 @@ See [`tags/CLAUDE.md`](../tags/CLAUDE.md) for how to add a new tag entity
 
 When adding or editing a collection's own `_collection.yaml` — at any level,
 not just expansion/set records — check whether it has a real official logo
-or brand mark, and if so add `image.source_url` pointing to it, the same way
+or brand mark, and if so add `image` pointing to it, the same way
 set-level records already do (see
 [`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md)
 for the worked example). Take the URL from an authoritative source (the
@@ -413,7 +413,7 @@ components:
   directory name means a components bucket doesn't need an entity record
   of its own just to satisfy the validator, since nothing ever references
   the bucket itself; components are referenced individually, by their own
-  `id`. It still needs `CLAUDE.md`/`template.schema.json` (own or
+  `id`. It still needs `CLAUDE.md`/`../schema.json` (own or
   inherited) like any directory holding entity files. See the category's
   own `CLAUDE.md` for the actual directory convention (e.g.
   [`figures-and-models/lego/CLAUDE.md`](figures-and-models/lego/CLAUDE.md) for LEGO

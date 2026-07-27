@@ -6,5 +6,4 @@ attributes:
   number: "32/86"
   rarity: Uncommon
   illustrator: nagimiso
-image:
-  source_url: https://images.scrydex.com/pokemon/me4-32/large
+image: https://images.scrydex.com/pokemon/me4-32/large

@@ -5,9 +5,7 @@ date: "1993-08-05"
 attributes:
   number: "262/295"
   rarity: Rare
-  mana_cost: "{0}"
   card_type: Artifact
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/2/92bcd1ce-19b1-4d78-8b09-95242ca08d76.jpg?1783948663
+image: >-
+  https://cards.scryfall.io/large/front/9/2/92bcd1ce-19b1-4d78-8b09-95242ca08d76.jpg?1783948663

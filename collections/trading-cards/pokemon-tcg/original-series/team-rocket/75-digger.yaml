@@ -6,5 +6,4 @@ attributes:
   number: "75/82"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
-image:
-  source_url: https://images.pokemontcg.io/base5/75_hires.png
+image: https://images.pokemontcg.io/base5/75_hires.png

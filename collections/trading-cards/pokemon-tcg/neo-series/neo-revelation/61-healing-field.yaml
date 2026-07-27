@@ -6,5 +6,4 @@ attributes:
   number: "61/64"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
-image:
-  source_url: https://images.pokemontcg.io/neo3/61_hires.png
+image: https://images.pokemontcg.io/neo3/61_hires.png

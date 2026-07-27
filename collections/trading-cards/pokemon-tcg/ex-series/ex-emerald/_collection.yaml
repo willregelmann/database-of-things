@@ -8,6 +8,6 @@ description: >
   Holofoil Basic Energy cards, closing out its set list with six of them
   followed by a secret rare Farfetch'd.
 date: "2005-05-09"
+ongoing: false
 total_cards: 106
-image:
-  source_url: https://images.pokemontcg.io/ex9/logo.png
+image: https://images.pokemontcg.io/ex9/logo.png

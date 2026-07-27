@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - U
-  mana_cost: "{5}{U}"
-  card_type: Creature — Serpent
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/0/d0b333b7-db4d-4439-b0de-60414cbf8d7b.jpg?1783948702
+image: >-
+  https://cards.scryfall.io/large/front/d/0/d0b333b7-db4d-4439-b0de-60414cbf8d7b.jpg?1783948702

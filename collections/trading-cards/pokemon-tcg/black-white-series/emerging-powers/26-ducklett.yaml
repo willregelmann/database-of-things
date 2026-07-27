@@ -6,5 +6,4 @@ attributes:
   number: "26/98"
   rarity: Common
   illustrator: MAHOU
-image:
-  source_url: https://images.pokemontcg.io/bw2/26_hires.png
+image: https://images.pokemontcg.io/bw2/26_hires.png

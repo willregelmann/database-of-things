@@ -6,5 +6,4 @@ attributes:
   number: "13/124"
   rarity: Common
   illustrator: Shin Nagasawa
-image:
-  source_url: https://images.pokemontcg.io/bw6/13_hires.png
+image: https://images.pokemontcg.io/bw6/13_hires.png

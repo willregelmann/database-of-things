@@ -6,5 +6,4 @@ attributes:
   number: "145/165"
   rarity: Uncommon
   illustrator: Ken Sugimori
-image:
-  source_url: https://images.pokemontcg.io/ecard1/145_hires.png
+image: https://images.pokemontcg.io/ecard1/145_hires.png

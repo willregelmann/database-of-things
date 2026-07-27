@@ -6,5 +6,4 @@ attributes:
   number: "33/78"
   rarity: Uncommon
   illustrator: Hataya
-image:
-  source_url: https://images.pokemontcg.io/pgo/33_hires.png
+image: https://images.pokemontcg.io/pgo/33_hires.png

@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - R
-  mana_cost: "{2}{R}"
-  card_type: Creature — Dwarf Warrior
+  card_type: Creature
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/2/d/2d4d87a3-5f8b-4152-9a8b-538ab49d62e8.jpg?1783948688
+image: >-
+  https://cards.scryfall.io/large/front/2/d/2d4d87a3-5f8b-4152-9a8b-538ab49d62e8.jpg?1783948688

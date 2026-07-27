@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - R
-  mana_cost: "{3}{R}"
-  card_type: Creature — Bird
+  card_type: Creature
   illustrator: Andi Rusu
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/f/1/f1b9e3ae-c7e9-455f-abfe-220262719beb.jpg?1783948621
+image: >-
+  https://cards.scryfall.io/large/front/f/1/f1b9e3ae-c7e9-455f-abfe-220262719beb.jpg?1783948621

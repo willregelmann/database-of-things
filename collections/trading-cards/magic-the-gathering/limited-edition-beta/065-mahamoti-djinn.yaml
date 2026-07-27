@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{4}{U}{U}"
-  card_type: Creature — Djinn
+  card_type: Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/0/8/083f76c8-3e6d-4de5-b408-2f2394faed5c.jpg?1783948643
+image: >-
+  https://cards.scryfall.io/large/front/0/8/083f76c8-3e6d-4de5-b408-2f2394faed5c.jpg?1783948643

@@ -6,5 +6,4 @@ attributes:
   number: "SV10/SV94"
   rarity: Rare Shiny
   illustrator: Saya Tsuruta
-image:
-  source_url: https://images.pokemontcg.io/sma/SV10_hires.png
+image: https://images.pokemontcg.io/sma/SV10_hires.png

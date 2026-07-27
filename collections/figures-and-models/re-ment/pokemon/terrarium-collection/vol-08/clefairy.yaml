@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Clefairy
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/164701303.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/164701303.jpg

@@ -6,5 +6,4 @@ attributes:
   number: "43/115"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
-image:
-  source_url: https://images.pokemontcg.io/ex10/43_hires.png
+image: https://images.pokemontcg.io/ex10/43_hires.png

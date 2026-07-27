@@ -6,5 +6,4 @@ attributes:
   number: "33/64"
   rarity: Uncommon
   illustrator: Shin-ichi Yoshida
-image:
-  source_url: https://images.pokemontcg.io/neo3/33_hires.png
+image: https://images.pokemontcg.io/neo3/33_hires.png

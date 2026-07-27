@@ -6,5 +6,4 @@ attributes:
   number: "092"
   rarity: Promo
   illustrator: akagi
-image:
-  source_url: https://images.pokemontcg.io/svp/92_hires.png
+image: https://images.pokemontcg.io/svp/92_hires.png

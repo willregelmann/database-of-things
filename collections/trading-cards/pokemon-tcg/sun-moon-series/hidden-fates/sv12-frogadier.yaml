@@ -6,5 +6,4 @@ attributes:
   number: "SV12/SV94"
   rarity: Rare Shiny
   illustrator: Anesaki Dynamic
-image:
-  source_url: https://images.pokemontcg.io/sma/SV12_hires.png
+image: https://images.pokemontcg.io/sma/SV12_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "30/113"
   rarity: Rare
   illustrator: Midori Harada
-image:
-  source_url: https://images.pokemontcg.io/ex11/30_hires.png
+image: https://images.pokemontcg.io/ex11/30_hires.png

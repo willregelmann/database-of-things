@@ -6,5 +6,4 @@ attributes:
   number: "019"
   rarity: Promo
   illustrator: Oswaldo KATO
-image:
-  source_url: https://images.pokemontcg.io/svp/19_hires.png
+image: https://images.pokemontcg.io/svp/19_hires.png

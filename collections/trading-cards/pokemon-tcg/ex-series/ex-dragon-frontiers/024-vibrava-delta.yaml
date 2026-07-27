@@ -6,5 +6,4 @@ attributes:
   number: "24/101"
   rarity: Rare
   illustrator: Tomokazu Komiya
-image:
-  source_url: https://images.pokemontcg.io/ex15/24_hires.png
+image: https://images.pokemontcg.io/ex15/24_hires.png

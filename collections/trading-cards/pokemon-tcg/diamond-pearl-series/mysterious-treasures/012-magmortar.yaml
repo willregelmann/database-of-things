@@ -6,5 +6,4 @@ attributes:
   number: "12/123"
   rarity: Rare Holo
   illustrator: Hiroaki Ito
-image:
-  source_url: https://images.pokemontcg.io/dp2/12_hires.png
+image: https://images.pokemontcg.io/dp2/12_hires.png

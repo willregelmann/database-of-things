@@ -6,5 +6,4 @@ attributes:
   number: "4/105"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/neo4/4_hires.png
+image: https://images.pokemontcg.io/neo4/4_hires.png

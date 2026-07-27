@@ -6,5 +6,4 @@ attributes:
   number: "50/197"
   rarity: Common
   illustrator: OKUBO
-image:
-  source_url: https://images.pokemontcg.io/sv3/50_hires.png
+image: https://images.pokemontcg.io/sv3/50_hires.png

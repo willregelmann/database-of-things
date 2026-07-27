@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - G
-  mana_cost: "{X}{G}"
   card_type: Sorcery
   illustrator: Mark Poole
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/a/a/aa1c4d4b-2645-4cd9-823e-3c9bb2eb48f9.jpg?1783948672
+image: >-
+  https://cards.scryfall.io/large/front/a/a/aa1c4d4b-2645-4cd9-823e-3c9bb2eb48f9.jpg?1783948672

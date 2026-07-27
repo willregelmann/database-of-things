@@ -5,5 +5,4 @@ date: "2020-05-01"
 attributes:
   number: "172/192"
   rarity: Uncommon
-image:
-  source_url: https://images.pokemontcg.io/swsh2/172_hires.png
+image: https://images.pokemontcg.io/swsh2/172_hires.png

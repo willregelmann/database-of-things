@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - B
-  mana_cost: "{1}{B}"
-  card_type: Creature — Skeleton
+  card_type: Creature
   illustrator: Sandra Everingham
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/b/1/b1f3a1b9-d192-49d9-87bb-ca50e99edbd1.jpg?1783948633
+image: >-
+  https://cards.scryfall.io/large/front/b/1/b1f3a1b9-d192-49d9-87bb-ca50e99edbd1.jpg?1783948633

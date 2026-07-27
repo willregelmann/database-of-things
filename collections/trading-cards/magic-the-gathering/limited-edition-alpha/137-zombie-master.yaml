@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{1}{B}{B}"
-  card_type: Creature — Zombie
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/3/d/3d4255a0-d445-4c00-b936-bbf07851e1c8.jpg?1783948688
+image: >-
+  https://cards.scryfall.io/large/front/3/d/3d4255a0-d445-4c00-b936-bbf07851e1c8.jpg?1783948688

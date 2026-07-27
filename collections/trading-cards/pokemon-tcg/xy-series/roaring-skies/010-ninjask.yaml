@@ -6,5 +6,4 @@ attributes:
   number: "10/108"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
-image:
-  source_url: https://images.pokemontcg.io/xy6/10_hires.png
+image: https://images.pokemontcg.io/xy6/10_hires.png

@@ -8,6 +8,6 @@ description: >
   Aqua, featuring cards like N's Zoroark ex, Iono's Bellibolt ex, Lillie's
   Clefairy ex, and Hop's Zacian ex.
 date: "2025-03-28"
+ongoing: false
 total_cards: 159
-image:
-  source_url: https://images.pokemontcg.io/sv9/logo.png
+image: https://images.pokemontcg.io/sv9/logo.png

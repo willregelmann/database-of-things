@@ -9,6 +9,6 @@ description: >
   SVP176, SVP190-SVP192, and SVP204-SVP205 are known real cards missing from the
   primary data source -- see category CLAUDE.md).
 date: "2023"
+ongoing: false
 total_cards: 200
-image:
-  source_url: https://images.pokemontcg.io/svp/logo.png
+image: https://images.pokemontcg.io/svp/logo.png

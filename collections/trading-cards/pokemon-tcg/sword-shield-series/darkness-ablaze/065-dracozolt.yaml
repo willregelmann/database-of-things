@@ -6,5 +6,4 @@ attributes:
   number: "65/189"
   rarity: Rare
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/swsh3/65_hires.png
+image: https://images.pokemontcg.io/swsh3/65_hires.png

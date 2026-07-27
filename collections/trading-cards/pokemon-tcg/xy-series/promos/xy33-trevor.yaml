@@ -6,5 +6,4 @@ attributes:
   number: "XY33"
   rarity: Promo
   illustrator: Ken Sugimori
-image:
-  source_url: https://images.pokemontcg.io/xyp/XY33_hires.png
+image: https://images.pokemontcg.io/xyp/XY33_hires.png

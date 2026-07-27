@@ -6,5 +6,4 @@ attributes:
   number: "100/182"
   rarity: Uncommon
   illustrator: Whisker
-image:
-  source_url: https://images.pokemontcg.io/sv10/100_hires.png
+image: https://images.pokemontcg.io/sv10/100_hires.png

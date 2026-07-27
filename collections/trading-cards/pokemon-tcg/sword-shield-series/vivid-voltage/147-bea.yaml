@@ -6,5 +6,4 @@ attributes:
   number: "147/185"
   rarity: Uncommon
   illustrator: take
-image:
-  source_url: https://images.pokemontcg.io/swsh4/147_hires.png
+image: https://images.pokemontcg.io/swsh4/147_hires.png

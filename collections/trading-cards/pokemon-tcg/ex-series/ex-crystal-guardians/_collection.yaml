@@ -8,6 +8,6 @@ description: >
   dual-typed Delta Species (δ) mechanic alongside Pokémon-ex, and introducing
   the ultra-rare Gold Star (☆) Alakazam and Celebi.
 date: "2006-08-30"
+ongoing: false
 total_cards: 100
-image:
-  source_url: https://images.pokemontcg.io/ex14/logo.png
+image: https://images.pokemontcg.io/ex14/logo.png

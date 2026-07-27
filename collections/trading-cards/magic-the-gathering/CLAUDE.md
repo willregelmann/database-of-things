@@ -12,7 +12,7 @@ than trusting it blindly.
 ```
 magic-the-gathering/
   CLAUDE.md
-  template.schema.json
+  schema.json
   _collection.yaml                # the whole "Magic: The Gathering" collection
   <block>/                        # only for sets released as part of an official block
     _collection.yaml              # the block, e.g. "Ravnica Block"
@@ -66,7 +66,7 @@ card database) when Scryfall looks inconsistent, the same way Pokémon TCG
 curation falls back to Bulbapedia when the Pokémon TCG API looks wrong —
 Scryfall is a convenient bulk source, not infallible.
 
-**Always take `image.source_url` directly from the API response's own
+**Always take `image` directly from the API response's own
 image field** (Scryfall's `image_uris.large` or, for double-faced cards,
 each face's own `image_uris`) — never hand-construct the URL from a
 pattern, same rule as Pokémon TCG.
@@ -101,7 +101,7 @@ which is already unique.
 
 ## Rarity
 
-`attributes.rarity` is enum-validated in `template.schema.json`. The enum
+`attributes.rarity` is enum-validated in `schema.json`. The enum
 starts small (`Common`, `Uncommon`, `Rare`, `Mythic`, `Special`, `Bonus`,
 `Land`) and is expected to grow the same way Pokémon TCG's did — it's not
 meant to gate curation. Values are title-cased from Scryfall's own
@@ -118,7 +118,7 @@ remove it from the enum if no set ever turns out to need it**, don't treat
 its presence as confirmation it's a real value.
 
 If a real rarity value isn't in the enum yet, add it to
-`template.schema.json` in the same PR that adds the card needing it,
+`schema.json` in the same PR that adds the card needing it,
 confirmed against Scryfall or Gatherer first — don't invent a label or
 force a near-miss existing value to avoid the schema edit. `Mythic` did
 not exist until 2008 (Shards of Alara) — don't expect it before then.

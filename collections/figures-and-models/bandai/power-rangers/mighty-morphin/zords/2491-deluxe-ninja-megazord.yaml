@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Ninja Megazord
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02491_2.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/02491_2.jpg
 components:
   - 23a9df92-d74b-417b-a348-905b0d09171c   # Ape Ninjazord
   - cec58e77-797e-4853-8ec7-d66188454215   # Bear Ninjazord

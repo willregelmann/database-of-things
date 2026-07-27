@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{B}{B}"
-  card_type: Creature — Spirit
+  card_type: Creature
   illustrator: Christopher Rush
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/3/8/38396ae3-a48f-44c7-96bf-ea41b5aaeebc.jpg?1783948632
+image: >-
+  https://cards.scryfall.io/large/front/3/8/38396ae3-a48f-44c7-96bf-ea41b5aaeebc.jpg?1783948632

@@ -6,5 +6,4 @@ attributes:
   number: "SM150"
   rarity: Promo
   illustrator: nagimiso
-image:
-  source_url: https://images.pokemontcg.io/smp/SM150_hires.png
+image: https://images.pokemontcg.io/smp/SM150_hires.png

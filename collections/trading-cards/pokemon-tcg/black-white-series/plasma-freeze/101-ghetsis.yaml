@@ -6,5 +6,4 @@ attributes:
   number: "101/116"
   rarity: Rare Holo
   illustrator: Yusuke Ohmura
-image:
-  source_url: https://images.pokemontcg.io/bw9/101_hires.png
+image: https://images.pokemontcg.io/bw9/101_hires.png

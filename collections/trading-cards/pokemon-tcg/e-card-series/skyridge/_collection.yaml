@@ -9,6 +9,6 @@ description: >
   Crystal Pokémon (145/144-150/144): Celebi, Charizard, Crobat, Golem, Ho-oh,
   and Kabutops.
 date: "2003-05-12"
+ongoing: false
 total_cards: 144
-image:
-  source_url: https://images.pokemontcg.io/ecard3/logo.png
+image: https://images.pokemontcg.io/ecard3/logo.png

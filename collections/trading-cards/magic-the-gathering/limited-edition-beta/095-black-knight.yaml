@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - B
-  mana_cost: "{B}{B}"
-  card_type: Creature — Human Knight
+  card_type: Creature
   illustrator: Jeff A. Menges
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/e/1eced352-d49c-4e91-a368-52904d77a69d.jpg?1783948636
+image: >-
+  https://cards.scryfall.io/large/front/1/e/1eced352-d49c-4e91-a368-52904d77a69d.jpg?1783948636

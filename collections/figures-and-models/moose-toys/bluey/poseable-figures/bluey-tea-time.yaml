@@ -4,5 +4,5 @@ type: figure
 attributes:
   variant: Teapot
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-bluey-and-tea-time-3-inch-figure-main.jpg
+image: >-
+  https://www.maziply.com/cdn/shop/files/bluey-story-starter-pack-bluey-and-tea-time-3-inch-figure-main.jpg

@@ -6,5 +6,4 @@ attributes:
   number: "102/162"
   rarity: Common
   illustrator: Fujimoto Gold
-image:
-  source_url: https://images.pokemontcg.io/sv5/102_hires.png
+image: https://images.pokemontcg.io/sv5/102_hires.png

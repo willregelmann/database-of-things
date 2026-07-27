@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Shogun Megazord
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/02490.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/02490.jpg
 components:
   - 51db2b81-26f5-4758-a83c-ff4a1ce08a30   # Red Shogunzord
   - 2ab329d4-a3d8-4ce2-a92b-b87b1cf20430   # Pink Shogunzord

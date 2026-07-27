@@ -8,6 +8,6 @@ description: >
   Rapid Strike Urshifu V and VMAX cards. Spans 163 cards in the main checklist
   plus Rainbow Rare and secret rare cards numbered beyond it.
 date: "2021-03-19"
+ongoing: false
 total_cards: 163
-image:
-  source_url: https://images.pokemontcg.io/swsh5/logo.png
+image: https://images.pokemontcg.io/swsh5/logo.png

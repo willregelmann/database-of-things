@@ -6,5 +6,4 @@ attributes:
   number: "73/83"
   rarity: Uncommon
   illustrator: Yusuke Ohmura
-image:
-  source_url: https://images.pokemontcg.io/g1/73_hires.png
+image: https://images.pokemontcg.io/g1/73_hires.png

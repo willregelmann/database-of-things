@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Mega Voyager
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03186.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/03186.jpg
 components:
   - ef3db84f-46b9-46e9-9272-e03c5ee6276a   # Mega V1
   - 2e96214c-0acf-4fa1-83be-db1b4b84b13e   # Mega V2

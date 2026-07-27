@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - U
-  mana_cost: "{3}{U}{U}"
-  card_type: Creature — Shapeshifter
+  card_type: Creature
   illustrator: Quinton Hoover
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/1/d18e952b-ab4d-4f90-bf5e-4db490e4e203.jpg?1783948637
+image: >-
+  https://cards.scryfall.io/large/front/d/1/d18e952b-ab4d-4f90-bf5e-4db490e4e203.jpg?1783948637

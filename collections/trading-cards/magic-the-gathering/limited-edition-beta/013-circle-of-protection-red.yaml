@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{1}{W}"
   card_type: Enchantment
   illustrator: Mark Tedin
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/d/5de9dc85-d566-4cb0-a2e3-1ed4e5fe2f14.jpg?1783948654
+image: >-
+  https://cards.scryfall.io/large/front/5/d/5de9dc85-d566-4cb0-a2e3-1ed4e5fe2f14.jpg?1783948654

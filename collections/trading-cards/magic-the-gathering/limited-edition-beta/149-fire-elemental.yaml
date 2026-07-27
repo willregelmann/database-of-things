@@ -7,9 +7,7 @@ attributes:
   rarity: Uncommon
   colors:
     - R
-  mana_cost: "{3}{R}{R}"
-  card_type: Creature — Elemental
+  card_type: Creature
   illustrator: Melissa A. Benson
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/3/7/376cb9e5-89fb-4091-8a20-140bb6de0ef6.jpg?1783948625
+image: >-
+  https://cards.scryfall.io/large/front/3/7/376cb9e5-89fb-4091-8a20-140bb6de0ef6.jpg?1783948625

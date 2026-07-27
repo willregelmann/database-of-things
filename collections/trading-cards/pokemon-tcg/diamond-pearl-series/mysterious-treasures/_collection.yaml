@@ -8,6 +8,6 @@ description: >
   the lake guardians Uxie, Mesprit, and Azelf. Its 123-card checklist is capped
   by a single secret rare, Time-Space Distortion, numbered 124/123.
 date: "2007-08-22"
+ongoing: false
 total_cards: 123
-image:
-  source_url: https://images.pokemontcg.io/dp2/logo.png
+image: https://images.pokemontcg.io/dp2/logo.png

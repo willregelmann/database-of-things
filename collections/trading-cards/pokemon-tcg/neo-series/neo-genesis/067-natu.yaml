@@ -6,5 +6,4 @@ attributes:
   number: "67/111"
   rarity: Common
   illustrator: Ken Sugimori
-image:
-  source_url: https://images.pokemontcg.io/neo1/67_hires.png
+image: https://images.pokemontcg.io/neo1/67_hires.png

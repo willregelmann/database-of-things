@@ -6,5 +6,4 @@ attributes:
   number: "37/214"
   rarity: Rare Holo
   illustrator: Satoshi Shirai
-image:
-  source_url: https://images.pokemontcg.io/sm8/37_hires.png
+image: https://images.pokemontcg.io/sm8/37_hires.png

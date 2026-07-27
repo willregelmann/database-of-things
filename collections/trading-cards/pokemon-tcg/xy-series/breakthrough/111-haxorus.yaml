@@ -6,5 +6,4 @@ attributes:
   number: "111/162"
   rarity: Rare Holo
   illustrator: hatachu
-image:
-  source_url: https://images.pokemontcg.io/xy8/111_hires.png
+image: https://images.pokemontcg.io/xy8/111_hires.png

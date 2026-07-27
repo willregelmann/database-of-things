@@ -15,7 +15,7 @@ features a Pokémon on it.
 ```
 re-ment/
   CLAUDE.md
-  template.schema.json          # manufacturer + pokemon attributes, inherited by everything below
+  schema.json          # manufacturer + pokemon attributes, inherited by everything below
   _collection.yaml               # Re-Ment itself
   <franchise>/                   # e.g. "pokemon" — only Pokémon is curated so far
     _collection.yaml
@@ -142,7 +142,7 @@ pose/scene.
 
 ## Images
 
-Attach `image.source_url` pointing directly at the verified Re-Ment gallery
+Attach `image` pointing directly at the verified Re-Ment gallery
 photo (`https://www.re-ment.co.jp/data/photo/product/t/<id>.jpg`) once
 you've confirmed which photo matches which figure — these are Re-Ment's own
 official product photography, an authoritative source per the root
@@ -152,7 +152,7 @@ official product photography, an authoritative source per the root
 page for that product has only a single box-art photo instead of a "N/6"
 gallery (confirmed by checking the Wayback Machine's earliest snapshot, not
 just the current live page). When that's genuinely the case: use that one
-official box-art photo as `image.source_url` for every figure in the volume
+official box-art photo as `image` for every figure in the volume
 (still authoritative Re-Ment photography, just shared rather than 1:1) rather
 than inventing per-figure crops, or fall back to a retailer/marketplace photo
 per the project's general image-sourcing policy if even that's unavailable —

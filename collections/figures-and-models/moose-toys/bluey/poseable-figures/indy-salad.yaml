@@ -4,5 +4,5 @@ type: figure
 attributes:
   variant: Salad
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://www.ilovecharacters.com/cdn/shop/products/11f28590-b770-57b7-8a1d-cf54884b8cc6_1800x1800.png
+image: >-
+  https://www.ilovecharacters.com/cdn/shop/products/11f28590-b770-57b7-8a1d-cf54884b8cc6_1800x1800.png

@@ -6,5 +6,4 @@ attributes:
   number: "99/86"
   rarity: Illustration Rare
   illustrator: GOTO minori
-image:
-  source_url: https://images.pokemontcg.io/rsv10pt5/99_hires.png
+image: https://images.pokemontcg.io/rsv10pt5/99_hires.png

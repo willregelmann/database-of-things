@@ -7,8 +7,7 @@ attributes:
   category: Deluxe Rescue Megazord
   manufacturer: Bandai America
   variant: Standard
-image:
-  source_url: 'https://www.grnrngr.com/toys/pictures/bandai/03047.jpg'
+image: https://www.grnrngr.com/toys/pictures/bandai/03047.jpg
 components:
   - d68b6896-4cab-4b85-8b10-614fc9a0fd2b   # Lightning Fire Tamer
   - 51c49d6f-48c6-4f55-a628-deeffa02975f   # Siren Blaster

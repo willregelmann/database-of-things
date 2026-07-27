@@ -7,6 +7,6 @@ description: >
   forest-dwelling Pokémon, including the first Eevee evolutions printed in the
   TCG.
 date: "1999-06-16"
+ongoing: false
 total_cards: 64
-image:
-  source_url: https://images.pokemontcg.io/base2/logo.png
+image: https://images.pokemontcg.io/base2/logo.png

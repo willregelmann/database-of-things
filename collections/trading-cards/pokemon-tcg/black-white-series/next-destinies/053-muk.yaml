@@ -6,5 +6,4 @@ attributes:
   number: "53/99"
   rarity: Rare
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/bw4/53_hires.png
+image: https://images.pokemontcg.io/bw4/53_hires.png

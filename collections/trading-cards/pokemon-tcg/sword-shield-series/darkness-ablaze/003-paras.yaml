@@ -6,5 +6,4 @@ attributes:
   number: "3/189"
   rarity: Common
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/swsh3/3_hires.png
+image: https://images.pokemontcg.io/swsh3/3_hires.png

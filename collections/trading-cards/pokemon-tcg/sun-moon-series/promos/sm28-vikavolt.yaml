@@ -6,5 +6,4 @@ attributes:
   number: "SM28"
   rarity: Promo
   illustrator: Shin Nagasawa
-image:
-  source_url: https://images.pokemontcg.io/smp/SM28_hires.png
+image: https://images.pokemontcg.io/smp/SM28_hires.png

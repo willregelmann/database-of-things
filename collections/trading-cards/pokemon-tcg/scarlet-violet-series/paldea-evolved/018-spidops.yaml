@@ -6,5 +6,4 @@ attributes:
   number: "18/193"
   rarity: Uncommon
   illustrator: Oswaldo KATO
-image:
-  source_url: https://images.pokemontcg.io/sv2/18_hires.png
+image: https://images.pokemontcg.io/sv2/18_hires.png

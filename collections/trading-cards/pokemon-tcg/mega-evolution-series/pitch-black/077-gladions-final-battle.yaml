@@ -6,5 +6,4 @@ attributes:
   number: "77/84"
   rarity: Uncommon
   illustrator: akagi
-image:
-  source_url: https://images.scrydex.com/pokemon/me5-77/large
+image: https://images.scrydex.com/pokemon/me5-77/large

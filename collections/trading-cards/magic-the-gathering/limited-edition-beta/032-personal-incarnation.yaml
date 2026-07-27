@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - W
-  mana_cost: "{3}{W}{W}{W}"
-  card_type: Creature — Avatar Incarnation
+  card_type: Creature
   illustrator: Kev Brockschmidt
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/f/7/f7bb9f31-0818-4422-8533-99a4e6845a02.jpg?1783948649
+image: >-
+  https://cards.scryfall.io/large/front/f/7/f7bb9f31-0818-4422-8533-99a4e6845a02.jpg?1783948649

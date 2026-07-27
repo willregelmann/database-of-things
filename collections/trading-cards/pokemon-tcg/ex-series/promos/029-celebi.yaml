@@ -6,5 +6,4 @@ attributes:
   number: "029"
   rarity: Promo
   illustrator: Hajime Kusajima
-image:
-  source_url: https://images.pokemontcg.io/np/29_hires.png
+image: https://images.pokemontcg.io/np/29_hires.png

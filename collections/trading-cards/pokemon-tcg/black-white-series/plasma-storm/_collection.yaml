@@ -8,6 +8,6 @@ description: >
   special energy card and Pokémon-EX like Black Kyurem-EX, White Kyurem-EX, and
   Lugia-EX, alongside a trio of secret rare cards beyond the 135-card main set.
 date: "2013-02-06"
+ongoing: false
 total_cards: 135
-image:
-  source_url: https://images.pokemontcg.io/bw8/logo.png
+image: https://images.pokemontcg.io/bw8/logo.png

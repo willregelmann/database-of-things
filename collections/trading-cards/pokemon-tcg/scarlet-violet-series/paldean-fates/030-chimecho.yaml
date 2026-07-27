@@ -6,5 +6,4 @@ attributes:
   number: "30/91"
   rarity: Common
   illustrator: sui
-image:
-  source_url: https://images.pokemontcg.io/sv4pt5/30_hires.png
+image: https://images.pokemontcg.io/sv4pt5/30_hires.png

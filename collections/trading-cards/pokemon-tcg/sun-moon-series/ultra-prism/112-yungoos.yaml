@@ -6,5 +6,4 @@ attributes:
   number: "112/156"
   rarity: Common
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/sm5/112_hires.png
+image: https://images.pokemontcg.io/sm5/112_hires.png

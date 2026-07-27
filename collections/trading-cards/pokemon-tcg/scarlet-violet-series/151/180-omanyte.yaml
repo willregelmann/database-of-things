@@ -6,5 +6,4 @@ attributes:
   number: "180/165"
   rarity: Illustration Rare
   illustrator: Yano Keiji
-image:
-  source_url: https://images.pokemontcg.io/sv3pt5/180_hires.png
+image: https://images.pokemontcg.io/sv3pt5/180_hires.png

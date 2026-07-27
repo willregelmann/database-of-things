@@ -6,5 +6,4 @@ attributes:
   number: "5"
   writer: Stan Lee
   artist: Steve Ditko
-image:
-  source_url: https://media.mycomicshop.com/n_iv/600/674091.jpg
+image: https://media.mycomicshop.com/n_iv/600/674091.jpg

@@ -6,5 +6,4 @@ attributes:
   number: "RC21/RC32"
   rarity: Rare Holo ex
   illustrator: sui
-image:
-  source_url: https://images.pokemontcg.io/g1/RC21_hires.png
+image: https://images.pokemontcg.io/g1/RC21_hires.png

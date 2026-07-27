@@ -5,5 +5,4 @@ date: "2023"
 attributes:
   number: "007"
   rarity: Common
-image:
-  source_url: https://images.pokemontcg.io/sve/7_hires.png
+image: https://images.pokemontcg.io/sve/7_hires.png

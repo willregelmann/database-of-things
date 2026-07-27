@@ -9,6 +9,6 @@ description: >
   which a Legendary Pokémon is split across two numbered cards played together
   as one.
 date: "2010-05-12"
+ongoing: false
 total_cards: 95
-image:
-  source_url: https://images.pokemontcg.io/hgss2/logo.png
+image: https://images.pokemontcg.io/hgss2/logo.png

@@ -6,5 +6,4 @@ attributes:
   number: "38/75"
   rarity: Uncommon
   illustrator: Aya Kusube
-image:
-  source_url: https://images.pokemontcg.io/neo2/38_hires.png
+image: https://images.pokemontcg.io/neo2/38_hires.png

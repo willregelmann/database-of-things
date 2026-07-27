@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - B
-  mana_cost: "{1}{B}"
   card_type: Instant
   illustrator: Ron Spencer
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/5/8/58d8598b-35e5-414f-aee0-52137236f642.jpg?1783948629
+image: >-
+  https://cards.scryfall.io/large/front/5/8/58d8598b-35e5-414f-aee0-52137236f642.jpg?1783948629

@@ -6,5 +6,4 @@ attributes:
   number: "27/197"
   rarity: Uncommon
   illustrator: Ryota Murayama
-image:
-  source_url: https://images.pokemontcg.io/sv3/27_hires.png
+image: https://images.pokemontcg.io/sv3/27_hires.png

@@ -5,7 +5,7 @@
 ```
 pokemon-tcg/
   CLAUDE.md
-  template.schema.json
+  schema.json
   _collection.yaml              # the whole "Pokémon TCG" collection
   <series>/
     _collection.yaml            # the series, e.g. "Base Series"
@@ -46,13 +46,13 @@ value at every level. That field has been removed everywhere — it restated
 what directory position already says, which is the same reason
 `collection:`/`parent_collection:` don't exist. Don't reintroduce it.
 
-Expansions also carry `image.source_url` pointing at the set's official
+Expansions also carry `image` pointing at the set's official
 logo/box art (e.g. the Pokémon TCG API's `images.logo` for that set) when one
 exists. Series records usually don't get one — most series (e.g. "Original
 Series") are retroactive groupings with no single official logo to point to;
 don't invent one.
 
-**Always take `image.source_url` (both card- and set-level) directly from
+**Always take `image` (both card- and set-level) directly from
 the API response's own `images` field — never hand-construct the URL from
 a pattern.** The API's image CDN is mid-migration: older sets serve from
 `images.pokemontcg.io/<setId>/<n>_hires.png` (and `<setId>/logo.png` for
@@ -65,7 +65,7 @@ returning a 404. Two whole expansions' worth of card files (246 cards)
 had to be repaired after generation because a workflow agent
 reconstructed the legacy URL pattern instead of reading the fetched
 JSON's actual `images.large`/`images.logo` field — verify every
-`source_url` actually resolves (e.g. `curl -o /dev/null -w '%{http_code}'`)
+`image` actually resolves (e.g. `curl -o /dev/null -w '%{http_code}'`)
 before considering a set's generation complete, don't assume the pattern
 that worked for one set works for the next.
 
@@ -104,7 +104,7 @@ off, verify it against Bulbapedia's infobox before trusting it, same as any
 other API field in this category.
 
 **Map an expansion directory to its API set id via an existing card's
-`image.source_url`, not by matching set names.** The id embedded in every
+`image`, not by matching set names.** The id embedded in every
 card's image URL is unambiguous — `images.pokemontcg.io/<setId>/<n>_hires.png`
 for the legacy CDN, `images.scrydex.com/pokemon/<setId>-<n>/large` for the
 newer one (see the image-sourcing note above) — where display names can
@@ -337,12 +337,12 @@ unique.
 
 ## Rarity
 
-`attributes.rarity` is enum-validated in `template.schema.json`. The enum
+`attributes.rarity` is enum-validated in `schema.json`. The enum
 starts small (`Common`, `Uncommon`, `Rare`, `Rare Holo`, `Rare Holo ex`) and is
 expected to grow — it is not meant to gate curation. If a card's real rarity
 tier isn't in the enum yet, add it as part of the same PR: confirm the exact
 label against an authoritative source (Bulbapedia, Pokémon TCG API, or
-Serebii), then add that label to the `enum` array in `template.schema.json`
+Serebii), then add that label to the `enum` array in `schema.json`
 alongside the card file(s) that need it. Don't invent a label, and don't
 reuse a near-miss enum value to dodge a schema edit (e.g. filing a `Rare Holo
 GX` card as `Rare Holo ex`).

@@ -6,5 +6,4 @@ attributes:
   number: "143/193"
   rarity: Uncommon
   illustrator: Souichirou Gunjima
-image:
-  source_url: https://images.pokemontcg.io/sv2/143_hires.png
+image: https://images.pokemontcg.io/sv2/143_hires.png

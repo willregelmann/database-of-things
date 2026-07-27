@@ -6,5 +6,4 @@ attributes:
   number: "99/165"
   rarity: Common
   illustrator: Miki Tanaka
-image:
-  source_url: https://images.pokemontcg.io/ecard1/99_hires.png
+image: https://images.pokemontcg.io/ecard1/99_hires.png

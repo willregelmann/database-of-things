@@ -16,7 +16,7 @@ Each category carries its own curation guidance right next to its data:
 
 - **`CLAUDE.md`** — naming conventions, how to identify items, how to verify a
   collection is complete, common pitfalls specific to that category.
-- **`template.schema.json`** — a JSON Schema for that category's item
+- **`schema.json`** — a JSON Schema for that category's item
   attributes, enforced by CI on every PR.
 
 ## Repository structure
@@ -26,7 +26,7 @@ collections/                  # the data — see collections/README.md
   trading-cards/
     pokemon-tcg/
       CLAUDE.md
-      template.schema.json
+      schema.json
       original-series/
         base-set/
           004-charizard.yaml
@@ -97,6 +97,6 @@ repository:
 The data is factual and the descriptions are original to this project, so CC0
 is a clean fit. Two things it does not cover: third-party **trademarks** (the
 product and brand names cataloged here belong to their owners) and the
-**images** referenced by `image.source_url` (hosted by third parties, not
+**images** referenced by the `image` field (hosted by third parties, not
 redistributed here — the repo only stores URLs). See [DISCLAIMER.md](DISCLAIMER.md)
 for details.

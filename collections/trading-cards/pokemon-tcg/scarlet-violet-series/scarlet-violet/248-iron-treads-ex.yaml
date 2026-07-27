@@ -6,5 +6,4 @@ attributes:
   number: "248/198"
   rarity: Special Illustration Rare
   illustrator: KEIICHIRO ITO
-image:
-  source_url: https://images.pokemontcg.io/sv1/248_hires.png
+image: https://images.pokemontcg.io/sv1/248_hires.png

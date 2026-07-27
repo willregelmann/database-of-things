@@ -5,7 +5,7 @@
 ```
 figma/
   CLAUDE.md
-  template.schema.json
+  schema.json
   _collection.yaml               # the whole "figma" line
   <number>-<slugified-name>.yaml
 ```
@@ -75,7 +75,7 @@ release against the actual credit rather than assuming Max Factory.
 
 ## `release_type`
 
-`attributes.release_type` is enum-validated in `template.schema.json`. The
+`attributes.release_type` is enum-validated in `schema.json`. The
 enum starts small (`Standard`, `Exclusive`, `Limited`) and is expected to
 grow — it is not meant to gate curation. If a figure's real classification
 isn't in the enum yet, add it as part of the same PR after confirming the

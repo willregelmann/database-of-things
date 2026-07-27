@@ -6,5 +6,4 @@ attributes:
   number: "32/72"
   rarity: Uncommon
   illustrator: NC Empire
-image:
-  source_url: https://images.pokemontcg.io/swsh45/32_hires.png
+image: https://images.pokemontcg.io/swsh45/32_hires.png

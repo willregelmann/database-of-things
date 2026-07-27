@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 import Ajv from 'ajv';
+import addFormats from 'ajv-formats';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
@@ -12,6 +13,21 @@ const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/
 const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
+addFormats(ajv);
+
+// The three entity-envelope shapes are global — unlike a per-category
+// `schema.json`, none of them vary by directory, so all three are compiled
+// once up front rather than during the walk. Applied by kind: a
+// `_collection.yaml` (under either root) gets collection.schema.json; a
+// tag entity (under tags/) gets tag.schema.json; anything else under
+// collections/ gets item.schema.json.
+function loadSchema(name) {
+  return JSON.parse(fs.readFileSync(path.join(REPO_ROOT, 'schemas', name), 'utf8'));
+}
+const validateItemShape = ajv.compile(loadSchema('item.schema.json'));
+const validateCollectionShape = ajv.compile(loadSchema('collection.schema.json'));
+const validateTagShape = ajv.compile(loadSchema('tag.schema.json'));
+
 const seenIds = new Map(); // id -> { filePath, type }
 const componentRefs = []; // { filePath, id }
 const tagRefs = []; // { filePath, id }
@@ -20,6 +36,94 @@ const errors = [];
 
 function rel(p) {
   return path.relative(REPO_ROOT, p);
+}
+
+function reportEntitySchemaErrors(filePath, validateFn, data) {
+  if (validateFn(data)) return;
+  for (const err of validateFn.errors) {
+    const where = err.instancePath === '' ? '(root)' : err.instancePath;
+    const detail =
+      err.keyword === 'additionalProperties'
+        ? `${where} has undeclared key "${err.params.additionalProperty}"`
+        : `${where} ${err.message}`;
+    errors.push(`${rel(filePath)}: ${detail}`);
+  }
+}
+
+// Shared by a top-level entity and each of its `variants[]` — the id/tags/
+// components/date bookkeeping is identical for both; only what's *required*
+// differs (a variant only strictly needs `id`, checked separately by
+// item.schema.json — see validateVariants below), so that part stays out of
+// this helper.
+function validateIdTagsComponentsDate(filePath, data, context) {
+  const prefix = context ? `${context}: ` : '';
+  if (data.date !== undefined) {
+    if (typeof data.date !== 'string' || !DATE_RE.test(data.date)) {
+      errors.push(
+        `${rel(filePath)}: ${prefix}"date" must be a quoted string in YYYY, YYYY-MM, or YYYY-MM-DD format: ${JSON.stringify(data.date)}`
+      );
+    }
+  }
+  if (data.tags !== undefined) {
+    if (!Array.isArray(data.tags)) {
+      errors.push(`${rel(filePath)}: ${prefix}"tags" must be an array of ids`);
+    } else {
+      const seenTagIds = new Set();
+      for (const ref of data.tags) {
+        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
+          errors.push(`${rel(filePath)}: ${prefix}invalid tag id ${JSON.stringify(ref)} — must be a UUID (see tags/)`);
+        } else {
+          const key = ref.toLowerCase();
+          if (seenTagIds.has(key)) {
+            errors.push(`${rel(filePath)}: ${prefix}duplicate tag id ${ref}`);
+          } else {
+            seenTagIds.add(key);
+          }
+          tagRefs.push({ filePath, id: key });
+        }
+      }
+    }
+  }
+  if (data.components !== undefined) {
+    if (!Array.isArray(data.components)) {
+      errors.push(`${rel(filePath)}: ${prefix}"components" must be an array of ids`);
+    } else {
+      for (const ref of data.components) {
+        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
+          errors.push(`${rel(filePath)}: ${prefix}invalid component id ${JSON.stringify(ref)} — must be a UUID`);
+        } else {
+          componentRefs.push({ filePath, id: ref.toLowerCase() });
+        }
+      }
+    }
+  }
+  if (data.id) {
+    if (!UUID_RE.test(data.id)) {
+      errors.push(`${rel(filePath)}: ${prefix}"id" is not a valid UUID: ${data.id}`);
+    } else {
+      const key = data.id.toLowerCase();
+      const existing = seenIds.get(key);
+      if (existing) {
+        errors.push(`${rel(filePath)}: ${prefix}duplicate id ${data.id} (also used by ${rel(existing.filePath)})`);
+      } else {
+        seenIds.set(key, { filePath, type: data.type });
+      }
+    }
+  }
+}
+
+// A variant's own required id/name (and the "capped at one level" rule) is
+// already checked by item.schema.json via reportEntitySchemaErrors — this
+// only needs to register each variant's id/tags/components into the same
+// catalog-wide bookkeeping a top-level entity gets, so other entities can
+// validly reference a variant by id and duplicate ids across the whole
+// catalog (not just within one file) get caught.
+function validateVariants(filePath, data) {
+  if (!Array.isArray(data.variants)) return;
+  data.variants.forEach((variant, i) => {
+    if (!variant || typeof variant !== 'object') return; // reported by item.schema.json already
+    validateIdTagsComponentsDate(filePath, variant, `variants[${i}]`);
+  });
 }
 
 function validateEntityStructure(filePath, data) {
@@ -39,59 +143,67 @@ function validateEntityStructure(filePath, data) {
       );
     }
   }
-  if (data.date !== undefined) {
-    if (typeof data.date !== 'string' || !DATE_RE.test(data.date)) {
-      errors.push(
-        `${rel(filePath)}: "date" must be a quoted string in YYYY, YYYY-MM, or YYYY-MM-DD format: ${JSON.stringify(data.date)}`
-      );
-    }
+  validateIdTagsComponentsDate(filePath, data, '');
+  validateVariants(filePath, data);
+}
+
+// A directory's own schema.json layers on top of what it inherited rather
+// than replacing it — a family-level schema.json can recommend an attribute
+// (declared but not required) and have that recommendation actually reach
+// items in every nested collection, not just ones with no schema.json of
+// their own. `properties` merge shallowly (child wins a same-named key) —
+// EXCEPT when both parent and child declare an `enum` for the same key, in
+// which case the two enums union instead of the child replacing the
+// parent's outright. That's what lets e.g. a series-specific rarity sit
+// alongside the universal ones inherited from the category, rather than a
+// series template having to restate every universal value just to add its
+// own. `required` unions (a child can add a requirement, not remove an
+// inherited one), and `additionalProperties` takes the child's own value
+// when it declares one — which is what makes a "real" series template's
+// `additionalProperties: false` still correctly allow an inherited
+// recommended key: by the time it's evaluated, that key is already merged
+// into `properties`.
+function mergeProperty(parentProp, childProp) {
+  if (!parentProp) return childProp;
+  if (!childProp) return parentProp;
+  if (Array.isArray(parentProp.enum) && Array.isArray(childProp.enum)) {
+    return { ...parentProp, ...childProp, enum: [...new Set([...parentProp.enum, ...childProp.enum])] };
   }
-  if (data.tags !== undefined) {
-    if (!Array.isArray(data.tags)) {
-      errors.push(`${rel(filePath)}: "tags" must be an array of ids`);
-    } else {
-      const seenTagIds = new Set();
-      for (const ref of data.tags) {
-        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
-          errors.push(`${rel(filePath)}: invalid tag id ${JSON.stringify(ref)} — must be a UUID (see tags/)`);
-        } else {
-          const key = ref.toLowerCase();
-          if (seenTagIds.has(key)) {
-            errors.push(`${rel(filePath)}: duplicate tag id ${ref}`);
-          } else {
-            seenTagIds.add(key);
-          }
-          tagRefs.push({ filePath, id: key });
-        }
-      }
-    }
+  // Array-of-enum properties (e.g. "type": {type: array, items: {enum: [...]}})
+  // carry their enum inside `items`, not on the property itself — same
+  // union logic, one level deeper.
+  if (
+    parentProp.type === 'array' &&
+    childProp.type === 'array' &&
+    Array.isArray(parentProp.items && parentProp.items.enum) &&
+    Array.isArray(childProp.items && childProp.items.enum)
+  ) {
+    return {
+      ...parentProp,
+      ...childProp,
+      items: {
+        ...parentProp.items,
+        ...childProp.items,
+        enum: [...new Set([...parentProp.items.enum, ...childProp.items.enum])],
+      },
+    };
   }
-  if (data.components !== undefined) {
-    if (!Array.isArray(data.components)) {
-      errors.push(`${rel(filePath)}: "components" must be an array of ids`);
-    } else {
-      for (const ref of data.components) {
-        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
-          errors.push(`${rel(filePath)}: invalid component id ${JSON.stringify(ref)} — must be a UUID`);
-        } else {
-          componentRefs.push({ filePath, id: ref.toLowerCase() });
-        }
-      }
-    }
+  return childProp;
+}
+
+function mergeAttributesSchema(parent, child) {
+  if (!parent) return child;
+  if (!child) return parent;
+  const properties = { ...(parent.properties || {}) };
+  for (const [key, childProp] of Object.entries(child.properties || {})) {
+    properties[key] = mergeProperty(properties[key], childProp);
   }
-  if (data.id) {
-    if (!UUID_RE.test(data.id)) {
-      errors.push(`${rel(filePath)}: "id" is not a valid UUID: ${data.id}`);
-    } else {
-      const key = data.id.toLowerCase();
-      const existing = seenIds.get(key);
-      if (existing) {
-        errors.push(`${rel(filePath)}: duplicate id ${data.id} (also used by ${rel(existing.filePath)})`);
-      } else {
-        seenIds.set(key, { filePath, type: data.type });
-      }
-    }
-  }
+  return {
+    type: 'object',
+    properties,
+    required: [...new Set([...(parent.required || []), ...(child.required || [])])],
+    additionalProperties: child.additionalProperties !== undefined ? child.additionalProperties : parent.additionalProperties,
+  };
 }
 
 function walk(dir, inherited) {
@@ -99,14 +211,15 @@ function walk(dir, inherited) {
   const files = entries.filter((e) => e.isFile()).map((e) => e.name);
   const dirs = entries.filter((e) => e.isDirectory()).map((e) => e.name);
 
-  let { claudeMdPath, schema } = inherited;
+  let { claudeMdPath, schema, schemaJson } = inherited;
 
   if (files.includes('CLAUDE.md')) {
     claudeMdPath = path.join(dir, 'CLAUDE.md');
   }
-  if (files.includes('template.schema.json')) {
-    const schemaPath = path.join(dir, 'template.schema.json');
-    const schemaJson = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
+  if (files.includes('schema.json')) {
+    const schemaPath = path.join(dir, 'schema.json');
+    const ownSchemaJson = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
+    schemaJson = mergeAttributesSchema(schemaJson, ownSchemaJson);
     schema = ajv.compile(schemaJson);
   }
 
@@ -115,9 +228,13 @@ function walk(dir, inherited) {
   if (entityFiles.length > 0 && !claudeMdPath) {
     errors.push(`${rel(dir)}: contains entity files but has no CLAUDE.md (own or inherited)`);
   }
-  if (entityFiles.length > 0 && !schema) {
-    errors.push(`${rel(dir)}: contains entity files but has no template.schema.json (own or inherited)`);
-  }
+  // No blanket "must have a schema.json" gate here — a `_collection.yaml` is
+  // never checked against one (see below), and a directory that will only
+  // ever hold collection records (a family, a publisher-only directory, a
+  // tag namespace whose entities never carry `attributes`) genuinely has
+  // nothing for one to govern. The real invariant — an item's `attributes`
+  // never silently goes unvalidated — is enforced per-file below instead,
+  // where it's actually known whether `attributes` is present.
   const isComponentsDir = path.basename(dir).startsWith('_');
   const isRoot = dir === COLLECTIONS_ROOT || dir === TAGS_ROOT;
   if (!isRoot && !isComponentsDir && !files.includes('_collection.yaml')) {
@@ -136,11 +253,12 @@ function walk(dir, inherited) {
     // silently violated the documented convention while passing validation.
     // 68 files reached main that way before this check existed, via a
     // dumpEntity() gap (fixed in the same PR as this). A bare YYYY-MM-DD
-    // would be worse still: that one parses as a Date object.
-    const bareDate = raw.match(/^date: (?!["'])(\S.*)$/m);
-    if (bareDate) {
+    // would be worse still: that one parses as a Date object. Matches any
+    // indentation, not just column 0, so a bare date nested under a
+    // `variants[]` entry is caught too.
+    for (const m of raw.matchAll(/^[ \t]*date: (?!["'])(\S.*)$/gm)) {
       errors.push(
-        `${rel(filePath)}: "date" must be quoted — found \`date: ${bareDate[1]}\`, write \`date: "${bareDate[1]}"\` (see collections/CLAUDE.md, "Dates")`
+        `${rel(filePath)}: "date" must be quoted — found \`date: ${m[1]}\`, write \`date: "${m[1]}"\` (see collections/CLAUDE.md, "Dates")`
       );
     }
 
@@ -157,29 +275,47 @@ function walk(dir, inherited) {
       if (data && data.type !== 'collection') {
         errors.push(`${rel(filePath)}: _collection.yaml must have type: collection`);
       }
-    } else if (schema && data && data.attributes !== undefined) {
-      const valid = schema(data.attributes);
-      if (!valid) {
-        for (const err of schema.errors) {
-          // Ajv's raw text for these two is unactionable at this scale — it
-          // says "must NOT have additional properties" without naming which
-          // one. Name it, and point at the file that decides.
-          let detail;
-          if (err.keyword === 'additionalProperties') {
-            detail = `attributes has undeclared key "${err.params.additionalProperty}" — fix the typo, or declare it in the governing template.schema.json if it genuinely belongs`;
-          } else if (err.keyword === 'required') {
-            detail = `attributes is missing required key "${err.params.missingProperty}"`;
-          } else {
-            detail = `attributes${err.instancePath} ${err.message}`;
+      if (data && typeof data === 'object') {
+        reportEntitySchemaErrors(filePath, validateCollectionShape, data);
+      }
+    } else {
+      if (data && typeof data === 'object') {
+        // Whole-entity shape: id/name required, image/date/tags typed
+        // correctly. A tag entity (under tags/) gets tag.schema.json;
+        // everything else under collections/ is an item and gets
+        // item.schema.json — attributes/variants, including each variant's
+        // own id requirement and the one-level nesting cap.
+        const isTag = dir === TAGS_ROOT || dir.startsWith(TAGS_ROOT + path.sep);
+        reportEntitySchemaErrors(filePath, isTag ? validateTagShape : validateItemShape, data);
+      }
+      if (data && data.attributes !== undefined && !schema) {
+        errors.push(
+          `${rel(filePath)}: has "attributes" but no schema.json (own or inherited) exists to validate them against`
+        );
+      } else if (schema && data && data.attributes !== undefined) {
+        const valid = schema(data.attributes);
+        if (!valid) {
+          for (const err of schema.errors) {
+            // Ajv's raw text for these two is unactionable at this scale — it
+            // says "must NOT have additional properties" without naming which
+            // one. Name it, and point at the file that decides.
+            let detail;
+            if (err.keyword === 'additionalProperties') {
+              detail = `attributes has undeclared key "${err.params.additionalProperty}" — fix the typo, or declare it in the governing schema.json if it genuinely belongs`;
+            } else if (err.keyword === 'required') {
+              detail = `attributes is missing required key "${err.params.missingProperty}"`;
+            } else {
+              detail = `attributes${err.instancePath} ${err.message}`;
+            }
+            errors.push(`${rel(filePath)}: ${detail}`);
           }
-          errors.push(`${rel(filePath)}: ${detail}`);
         }
       }
     }
   }
 
   for (const d of dirs) {
-    walk(path.join(dir, d), { claudeMdPath, schema });
+    walk(path.join(dir, d), { claudeMdPath, schema, schemaJson });
   }
 }
 
@@ -190,8 +326,8 @@ for (const root of [COLLECTIONS_ROOT, TAGS_ROOT]) {
   }
 }
 
-walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null });
-walk(TAGS_ROOT, { claudeMdPath: null, schema: null });
+walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null });
+walk(TAGS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null });
 
 for (const { filePath, id } of componentRefs) {
   if (!seenIds.has(id)) {

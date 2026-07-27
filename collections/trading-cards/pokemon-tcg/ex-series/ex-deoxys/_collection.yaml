@@ -10,6 +10,6 @@ description: >
   Latias ☆, Latios ☆, and Rayquaza ☆. Spans 107 numbered cards plus a secret
   rare Rocket's Raikou ex.
 date: "2005-02-14"
+ongoing: false
 total_cards: 107
-image:
-  source_url: https://images.pokemontcg.io/ex8/logo.png
+image: https://images.pokemontcg.io/ex8/logo.png

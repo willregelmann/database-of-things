@@ -6,5 +6,4 @@ attributes:
   number: "30/75"
   rarity: Rare
   illustrator: Hironobu Yoshida
-image:
-  source_url: https://images.pokemontcg.io/neo2/30_hires.png
+image: https://images.pokemontcg.io/neo2/30_hires.png

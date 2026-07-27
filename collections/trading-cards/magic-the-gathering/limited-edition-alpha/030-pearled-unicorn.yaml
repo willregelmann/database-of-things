@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - W
-  mana_cost: "{2}{W}"
-  card_type: Creature — Unicorn
+  card_type: Creature
   illustrator: Cornelius Brudi
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/6/d/6daf1aab-1e58-4a5a-bc66-cb3f7c86e0e8.jpg?1783948711
+image: >-
+  https://cards.scryfall.io/large/front/6/d/6daf1aab-1e58-4a5a-bc66-cb3f7c86e0e8.jpg?1783948711

@@ -6,5 +6,4 @@ attributes:
   number: "100/114"
   rarity: Common
   illustrator: Ayaka Yoshida
-image:
-  source_url: https://images.pokemontcg.io/bw1/100_hires.png
+image: https://images.pokemontcg.io/bw1/100_hires.png

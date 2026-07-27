@@ -6,5 +6,4 @@ attributes:
   number: "64/100"
   rarity: Common
   illustrator: Daisuke Ito
-image:
-  source_url: https://images.pokemontcg.io/dp5/64_hires.png
+image: https://images.pokemontcg.io/dp5/64_hires.png

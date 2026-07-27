@@ -6,5 +6,4 @@ attributes:
   number: "101/114"
   rarity: Uncommon
   illustrator: Ken Sugimori
-image:
-  source_url: https://images.pokemontcg.io/bw1/101_hires.png
+image: https://images.pokemontcg.io/bw1/101_hires.png

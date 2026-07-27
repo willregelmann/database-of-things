@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HeartGold & SoulSilver era promos number override — HGSS-prefixed, no total",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "pattern": "^HGSS[0-9]+$"
+    }
+  }
+}

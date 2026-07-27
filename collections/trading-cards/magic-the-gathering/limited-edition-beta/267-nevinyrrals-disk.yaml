@@ -5,9 +5,7 @@ date: "1993-10-04"
 attributes:
   number: "267/302"
   rarity: Rare
-  mana_cost: "{4}"
   card_type: Artifact
   illustrator: Mark Tedin
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/b/dbb21f21-668a-4d57-8d05-8db11fb82d99.jpg?1783948601
+image: >-
+  https://cards.scryfall.io/large/front/d/b/dbb21f21-668a-4d57-8d05-8db11fb82d99.jpg?1783948601

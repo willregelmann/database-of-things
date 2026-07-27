@@ -6,5 +6,4 @@ attributes:
   number: "45/70"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
-image:
-  source_url: https://images.pokemontcg.io/sm75/45_hires.png
+image: https://images.pokemontcg.io/sm75/45_hires.png

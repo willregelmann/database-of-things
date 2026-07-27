@@ -16,7 +16,7 @@ moose-toys/
   _collection.yaml               # Moose Toys itself
   <franchise>/                    # e.g. "bluey", "shopkins"
     CLAUDE.md                     # phase 2 — before the franchise's first item
-    template.schema.json          # phase 2 — same
+    schema.json          # phase 2 — same
     _collection.yaml              # phase 1 — the scaffold
     ...
 ```

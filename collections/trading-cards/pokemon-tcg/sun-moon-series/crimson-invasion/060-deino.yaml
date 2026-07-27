@@ -6,5 +6,4 @@ attributes:
   number: "60/111"
   rarity: Common
   illustrator: miki kudo
-image:
-  source_url: https://images.pokemontcg.io/sm4/60_hires.png
+image: https://images.pokemontcg.io/sm4/60_hires.png

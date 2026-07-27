@@ -6,5 +6,4 @@ attributes:
   number: "82/124"
   rarity: Rare
   illustrator: match
-image:
-  source_url: https://images.pokemontcg.io/bw6/82_hires.png
+image: https://images.pokemontcg.io/bw6/82_hires.png

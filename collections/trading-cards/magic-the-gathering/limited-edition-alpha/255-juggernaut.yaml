@@ -5,9 +5,7 @@ date: "1993-08-05"
 attributes:
   number: "255/295"
   rarity: Uncommon
-  mana_cost: "{4}"
-  card_type: Artifact Creature — Juggernaut
+  card_type: Artifact Creature
   illustrator: Dan Frazier
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/d/c/dcd6a291-5282-4f49-8203-d9b416083c48.jpg?1783948664
+image: >-
+  https://cards.scryfall.io/large/front/d/c/dcd6a291-5282-4f49-8203-d9b416083c48.jpg?1783948664

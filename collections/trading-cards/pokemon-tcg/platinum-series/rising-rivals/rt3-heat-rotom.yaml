@@ -6,5 +6,4 @@ attributes:
   number: "RT3"
   rarity: Rare Holo
   illustrator: Lee HyunJung
-image:
-  source_url: https://images.pokemontcg.io/pl2/RT3_hires.png
+image: https://images.pokemontcg.io/pl2/RT3_hires.png

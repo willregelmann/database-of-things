@@ -7,6 +7,6 @@ description: >
   cards drawn from the Johto region and introduced Lugia and Baby Pokémon to the
   TCG.
 date: "2000-12-16"
+ongoing: false
 total_cards: 111
-image:
-  source_url: https://images.pokemontcg.io/neo1/logo.png
+image: https://images.pokemontcg.io/neo1/logo.png

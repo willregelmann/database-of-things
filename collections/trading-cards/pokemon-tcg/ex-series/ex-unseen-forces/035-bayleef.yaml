@@ -6,5 +6,4 @@ attributes:
   number: "35/115"
   rarity: Uncommon
   illustrator: Atsuko Nishida
-image:
-  source_url: https://images.pokemontcg.io/ex10/35_hires.png
+image: https://images.pokemontcg.io/ex10/35_hires.png

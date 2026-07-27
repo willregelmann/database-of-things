@@ -6,5 +6,4 @@ attributes:
   number: "45/84"
   rarity: Double Rare
   illustrator: hncl
-image:
-  source_url: https://images.scrydex.com/pokemon/me5-45/large
+image: https://images.scrydex.com/pokemon/me5-45/large

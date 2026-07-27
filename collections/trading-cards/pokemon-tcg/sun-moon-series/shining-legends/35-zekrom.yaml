@@ -6,5 +6,4 @@ attributes:
   number: "35/73"
   rarity: Rare Holo
   illustrator: nagimiso
-image:
-  source_url: https://images.pokemontcg.io/sm35/35_hires.png
+image: https://images.pokemontcg.io/sm35/35_hires.png

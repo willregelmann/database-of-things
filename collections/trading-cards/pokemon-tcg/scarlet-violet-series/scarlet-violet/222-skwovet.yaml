@@ -6,5 +6,4 @@ attributes:
   number: "222/198"
   rarity: Illustration Rare
   illustrator: Teeziro
-image:
-  source_url: https://images.pokemontcg.io/sv1/222_hires.png
+image: https://images.pokemontcg.io/sv1/222_hires.png

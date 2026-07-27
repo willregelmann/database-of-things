@@ -4,5 +4,5 @@ type: figure
 attributes:
   variant: Glasses
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt1b97903dc87288fe/683ce45e7f9f73d31d7dd1f7/19223_BLUEY_S5_STRY_STRTR_PK_BLUEY_GRANNY_O_FEP.png
+image: >-
+  https://images.contentstack.io/v3/assets/bltfeaff5a870b24479/blt1b97903dc87288fe/683ce45e7f9f73d31d7dd1f7/19223_BLUEY_S5_STRY_STRTR_PK_BLUEY_GRANNY_O_FEP.png

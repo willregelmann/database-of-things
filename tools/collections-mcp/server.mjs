@@ -66,7 +66,7 @@ server.registerTool(
   {
     title: 'Get a collection\'s applicable curation guidance',
     description:
-      'Returns every CLAUDE.md that applies to this collection, concatenated from the root collections/CLAUDE.md down through domain family, category, any intermediate overrides, to the collection\'s own (if it has one), plus its resolved template.schema.json. Read this before auditing or upserting anything in the collection.',
+      'Returns every CLAUDE.md that applies to this collection, concatenated from the root collections/CLAUDE.md down through domain family, category, any intermediate overrides, to the collection\'s own (if it has one), plus every schema.json in that same chain — each layers attributes on top of the ones before it (a later one can add or override a key; it doesn\'t replace what came before). Read this before auditing or upserting anything in the collection.',
     inputSchema: { collection_id: z.string().describe('The collection id, e.g. from choose_random_collection') },
   },
   async ({ collection_id }) => {
@@ -75,8 +75,8 @@ server.registerTool(
       const parts = node.claudeChain.map(
         (p) => `### ${rel(p)} ###\n\n${fs.readFileSync(p, 'utf8')}`
       );
-      if (node.schemaPath) {
-        parts.push(`### ${rel(node.schemaPath)} (attributes schema) ###\n\n${fs.readFileSync(node.schemaPath, 'utf8')}`);
+      for (const p of node.schemaChain) {
+        parts.push(`### ${rel(p)} (attributes schema — layers onto any earlier one in this list) ###\n\n${fs.readFileSync(p, 'utf8')}`);
       }
       return text(parts.join('\n\n---\n\n'));
     } catch (err) {
@@ -193,7 +193,7 @@ const itemFieldsShape = {
   type: z.string().optional(),
   date: z.string().optional(),
   attributes: z.record(z.any()).optional().describe('Merged key-by-key into any existing attributes on update.'),
-  image: z.object({ source_url: z.string() }).optional(),
+  image: z.string().optional(),
   tags: z.array(tagIdField).optional(),
   components: z
     .array(z.string())
@@ -258,7 +258,7 @@ const collectionFieldsShape = {
   date: z.string().optional(),
   description: z.string().optional(),
   category: z.string().optional(),
-  image: z.object({ source_url: z.string() }).optional(),
+  image: z.string().optional(),
   tags: z.array(tagIdField).optional(),
   directory: z
     .string()

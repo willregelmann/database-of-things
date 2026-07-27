@@ -7,6 +7,6 @@ description: >
   original 151 Pokémon and introduced iconic cards like Charizard to players
   outside Japan.
 date: "1999-01-09"
+ongoing: false
 total_cards: 102
-image:
-  source_url: https://images.pokemontcg.io/base1/logo.png
+image: https://images.pokemontcg.io/base1/logo.png

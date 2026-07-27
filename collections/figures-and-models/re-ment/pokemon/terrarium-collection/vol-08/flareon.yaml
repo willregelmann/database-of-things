@@ -5,5 +5,4 @@ attributes:
   manufacturer: Re-Ment
   pokemon:
     - Flareon
-image:
-  source_url: https://www.re-ment.co.jp/data/photo/product/t/334866830.jpg
+image: https://www.re-ment.co.jp/data/photo/product/t/334866830.jpg

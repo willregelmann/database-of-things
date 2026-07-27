@@ -6,5 +6,4 @@ attributes:
   number: "4/124"
   rarity: Rare
   illustrator: MAHOU
-image:
-  source_url: https://images.pokemontcg.io/xy10/4_hires.png
+image: https://images.pokemontcg.io/xy10/4_hires.png

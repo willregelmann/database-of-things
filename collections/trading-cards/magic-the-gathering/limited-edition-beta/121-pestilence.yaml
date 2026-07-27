@@ -7,9 +7,7 @@ attributes:
   rarity: Common
   colors:
     - B
-  mana_cost: "{2}{B}{B}"
   card_type: Enchantment
   illustrator: Jesper Myrfors
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/1/3/1313b7e6-4acb-435a-bde5-1def5e5350ac.jpg?1783948631
+image: >-
+  https://cards.scryfall.io/large/front/1/3/1313b7e6-4acb-435a-bde5-1def5e5350ac.jpg?1783948631

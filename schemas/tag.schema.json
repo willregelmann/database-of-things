@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "/schemas/tag.schema.json",
+  "title": "Tag",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Stable identity, generated once and never reused. Nothing in the catalog references a tag by name — tags lists point at this id instead."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name of the tag."
+    },
+    "description": {
+      "type": "string",
+      "description": "Prose context. Original synthesis only, never pasted or lightly reworded source text."
+    },
+    "image": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the tag's own logo (if applicable)"
+    }
+  },
+  "required": ["id", "name"]
+}

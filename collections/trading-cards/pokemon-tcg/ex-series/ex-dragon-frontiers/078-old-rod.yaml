@@ -6,5 +6,4 @@ attributes:
   number: "78/101"
   rarity: Uncommon
   illustrator: Shizurow
-image:
-  source_url: https://images.pokemontcg.io/ex15/78_hires.png
+image: https://images.pokemontcg.io/ex15/78_hires.png

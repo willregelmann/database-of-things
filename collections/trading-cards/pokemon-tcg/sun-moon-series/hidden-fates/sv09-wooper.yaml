@@ -6,5 +6,4 @@ attributes:
   number: "SV9/SV94"
   rarity: Rare Shiny
   illustrator: Misa Tsutsui
-image:
-  source_url: https://images.pokemontcg.io/sma/SV9_hires.png
+image: https://images.pokemontcg.io/sma/SV9_hires.png

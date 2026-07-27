@@ -6,5 +6,4 @@ attributes:
   number: "13/123"
   rarity: Rare Holo
   illustrator: Yuka Morii
-image:
-  source_url: https://images.pokemontcg.io/hgss1/13_hires.png
+image: https://images.pokemontcg.io/hgss1/13_hires.png

@@ -6,5 +6,4 @@ attributes:
   number: "002"
   rarity: Promo
   illustrator: Kazuo Yazawa
-image:
-  source_url: https://images.pokemontcg.io/np/2_hires.png
+image: https://images.pokemontcg.io/np/2_hires.png

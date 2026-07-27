@@ -9,6 +9,6 @@ description: >
   ex, and Mew ex, and was sold in dedicated 151-branded products rather than
   standard booster boxes.
 date: "2023-09-22"
+ongoing: false
 total_cards: 165
-image:
-  source_url: https://images.pokemontcg.io/sv3pt5/logo.png
+image: https://images.pokemontcg.io/sv3pt5/logo.png

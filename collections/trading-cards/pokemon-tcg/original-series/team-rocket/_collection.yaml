@@ -7,6 +7,6 @@ description: >
   Rocket's "Dark" Pokémon, plus the secret Dark Raichu (83/82) — the first
   secret rare in the TCG's history, numbered beyond the set's printed total.
 date: "2000-04-24"
+ongoing: false
 total_cards: 82
-image:
-  source_url: https://images.pokemontcg.io/base5/logo.png
+image: https://images.pokemontcg.io/base5/logo.png

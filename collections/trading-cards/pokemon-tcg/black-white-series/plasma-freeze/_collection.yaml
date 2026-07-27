@@ -10,6 +10,6 @@ description: >
   full-art Ultra Rare reprints and ACE SPEC cards, and closing out its 116-card
   printed set with 6 secret rares.
 date: "2013-05-08"
+ongoing: false
 total_cards: 116
-image:
-  source_url: https://images.pokemontcg.io/bw9/logo.png
+image: https://images.pokemontcg.io/bw9/logo.png

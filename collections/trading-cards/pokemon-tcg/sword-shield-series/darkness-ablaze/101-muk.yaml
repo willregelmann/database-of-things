@@ -6,5 +6,4 @@ attributes:
   number: "101/189"
   rarity: Rare
   illustrator: Eri Yamaki
-image:
-  source_url: https://images.pokemontcg.io/swsh3/101_hires.png
+image: https://images.pokemontcg.io/swsh3/101_hires.png

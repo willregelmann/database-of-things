@@ -7,9 +7,7 @@ attributes:
   rarity: Rare
   colors:
     - B
-  mana_cost: "{B}"
   card_type: Sorcery
   illustrator: Douglas Shuler
-image:
-  source_url: >-
-    https://cards.scryfall.io/large/front/9/8/9853b0ce-4763-4877-9741-f9145a3659c6.jpg?1783948698
+image: >-
+  https://cards.scryfall.io/large/front/9/8/9853b0ce-4763-4877-9741-f9145a3659c6.jpg?1783948698

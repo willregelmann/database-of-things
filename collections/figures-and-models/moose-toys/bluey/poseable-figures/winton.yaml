@@ -4,5 +4,4 @@ type: figure
 date: "2021"
 attributes:
   manufacturer: "Moose Toys Pty Ltd"
-image:
-  source_url: https://tools.toywiz.com/_images/_webp/_products/lg/630996173428.webp
+image: https://tools.toywiz.com/_images/_webp/_products/lg/630996173428.webp

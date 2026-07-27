@@ -20,7 +20,7 @@ funko/
   _collection.yaml               # Funko itself
   <line>/                         # e.g. "pop"
     CLAUDE.md
-    template.schema.json
+    schema.json
     _collection.yaml
     ...
 ```

@@ -6,5 +6,4 @@ attributes:
   number: "123/124"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
-image:
-  source_url: https://images.pokemontcg.io/xy10/123_hires.png
+image: https://images.pokemontcg.io/xy10/123_hires.png

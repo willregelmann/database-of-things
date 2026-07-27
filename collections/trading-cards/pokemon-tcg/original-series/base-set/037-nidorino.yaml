@@ -6,5 +6,4 @@ attributes:
   number: "37/102"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
-image:
-  source_url: https://images.pokemontcg.io/base1/37_hires.png
+image: https://images.pokemontcg.io/base1/37_hires.png
