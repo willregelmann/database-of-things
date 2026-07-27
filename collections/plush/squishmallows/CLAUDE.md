@@ -20,22 +20,28 @@ for the analogous shape. Record the licensed franchise via the top-level
 — see [`../../CLAUDE.md`](../../CLAUDE.md#tags) — not as a directory split
 or an `attributes` field.
 
-**Sub-formats with their own restarting numbering are separate sibling
-collections under `plush/`, not nested here.** Squishmallows has several
-distinct product formats that each keep their *own* Collector Number
-sequence starting back at 1 — confirmed examples are **Fuzz-A-Mallows** and
-**Squish-Doos**. Squishville (~2" minis) and Micromallows (~2.5" blind-bag
-minis) are also distinct sub-brands with their own scale and packaging, not
-just a size variant of the standard line. **Squish-A-Longs** (1" Mini-Squish,
-numbered by its own Series) is scaffolded at
-[`../squishmallows-squish-a-longs/`](../squishmallows-squish-a-longs/) —
-note it's squeezable *plastic*, not plush, and stays in `plush/` anyway
-because the line is curated whole (see [`../CLAUDE.md`](../CLAUDE.md)).
-If curating one of these, add it
-as its own collection under `plush/` (e.g. `plush/squishmallows-fuzz-a-mallows/`),
-the same way Funko Pop Rides/Town/Moments/Albums are siblings of
-`funko/pop/` rather than folded into it — see
-[`../../figures-and-models/funko/pop/CLAUDE.md`](../../figures-and-models/funko/pop/CLAUDE.md).
+**Sub-formats with their own restarting numbering are their own nested
+collections in this directory, not extra numbers in the sequence above.**
+Squishmallows has several distinct product formats that each keep their
+*own* Collector Number sequence starting back at 1 — confirmed examples are
+**Fuzz-A-Mallows** and **Squish-Doos**. Squishville (~2" minis) and
+Micromallows (~2.5" blind-bag minis) are also distinct sub-brands with their
+own scale and packaging, not just a size variant of the standard line.
+**Squish-A-Longs** (1" Mini-Squish, numbered by its own Series) is scaffolded
+at [`squish-a-longs/`](squish-a-longs/) — note it's squeezable *plastic*, not
+plush, and stays under this brand anyway, because a brand is curated whole
+(see [`../../CLAUDE.md`](../../CLAUDE.md#tree-shape)).
+
+If curating one of these, add it as `squishmallows/<sub-line>/` — **not** a
+hyphenated sibling under `plush/`, which would split the Squishmallows brand
+across the category's top level. The restarting numbering is why it's a
+separate collection; it isn't a reason to file it away from its brand.
+
+That means this directory holds both items and a nested collection at once,
+which [`../../CLAUDE.md`](../../CLAUDE.md) treats as the exception needing a
+reason rather than the default shape. The reason is keeping the brand
+together. If the standard line ever needs a tier of its own, Jazwares' own
+name for it is **Original Squishmallows**.
 
 Squishmallows' own "Rarity Scale" (Rare, Ultra Rare, Special Edition, Select
 Series, Check-In Series, Founders Edition) is a tag-color/distribution
