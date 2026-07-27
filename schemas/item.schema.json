@@ -46,5 +46,6 @@
       }
     }
   },
-  "required": ["id", "name"]
+  "required": ["id", "name"],
+  "additionalProperties": false
 }

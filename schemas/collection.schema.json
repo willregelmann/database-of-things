@@ -38,5 +38,6 @@
       "description": "Ids referencing tag entities under tags/, for cross-cutting groupings (e.g. franchise) that directory position doesn't already express."
     }
   },
-  "required": ["id", "name"]
+  "required": ["id", "name"],
+  "additionalProperties": false
 }

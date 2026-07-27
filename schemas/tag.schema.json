@@ -24,5 +24,6 @@
       "description": "URL of the tag's own logo (if applicable)"
     }
   },
-  "required": ["id", "name"]
+  "required": ["id", "name"],
+  "additionalProperties": false
 }
