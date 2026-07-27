@@ -21,8 +21,9 @@ English-language licensor: Viz Media — no relicense has occurred, unlike
 series that get picked up by a new publisher on reprint.
 
 **Only the English Viz volumes are modeled here**, matching this family's
-en/US-market convention (see [`manga/CLAUDE.md`](../CLAUDE.md)) — Japanese
-volumes/ISBNs aren't cataloged as separate entities.
+en/US-market convention (see
+[`comics-and-manga/CLAUDE.md`](../../CLAUDE.md)) — Japanese volumes/ISBNs
+aren't cataloged as separate entities.
 
 ## Known pitfall: this was originally released as single comic-book issues
 
@@ -36,11 +37,11 @@ US at the time (over 1 million copies).
 
 **Those individual issues are not modeled as separate entities.** This
 family's chosen primary collectible unit is the tankōbon/paperback volume
-(see [`manga/CLAUDE.md`](../CLAUDE.md)), and each paperback volume's title
-already matches one of the four issue-runs it collects — so don't add
-issue-level entities alongside the volumes, and don't confuse the 1998–2000
-single-issue release dates with each volume's own (later) paperback release
-date below.
+(see [`comics-and-manga/CLAUDE.md`](../../CLAUDE.md)), and each paperback
+volume's title already matches one of the four issue-runs it collects — so
+don't add issue-level entities alongside the volumes, and don't confuse the
+1998–2000 single-issue release dates with each volume's own (later)
+paperback release date below.
 
 ## Identifying items
 

@@ -17,7 +17,7 @@ mini-series/one-shot (Wake the Devil, The Chained Coffin and Others, The
 Right Hand of Doom, etc.) restarts its own numbering, so each one gets its
 own sibling directory under [`hellboy/`](../_collection.yaml) rather than
 being mixed into this one's 1–4 sequence. See
-[`comics/CLAUDE.md`](../../../CLAUDE.md) for the general publisher/series
+[`comics-and-manga/CLAUDE.md`](../../../CLAUDE.md) for the general publisher/series
 shape this deviates from, and follow this directory as the worked example
 for other Hellboy mini-series.
 

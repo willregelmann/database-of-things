@@ -20,7 +20,8 @@ English release found) and *Elden Ring: Distant Tales Between* (a newer
 NPC-focused anthology series, English release from Yen Press starting
 September 2026). **Neither is part of this series' numbering, and neither
 is modeled here yet** — don't fold their volumes into this directory if
-adding them later; give each its own sibling directory under `manga/`.
+adding them later; give each its own directory under whichever publisher
+holds its English license (`yen-press/` for *Distant Tales Between*).
 
 ## Publisher / licensor
 
@@ -31,7 +32,8 @@ hasn't been relicensed, but it's ongoing — re-check this note if that ever
 changes).
 
 **Only the English Yen Press volumes are modeled here**, per this family's
-en/US-market convention (see [`manga/CLAUDE.md`](../CLAUDE.md)). As of this
+en/US-market convention (see
+[`comics-and-manga/CLAUDE.md`](../../CLAUDE.md)). As of this
 writing the Japanese release is ahead of the English one — don't assume
 they're in lockstep; confirm each volume's English release has actually
 happened (not just been solicited/announced) before adding it. Volume 9

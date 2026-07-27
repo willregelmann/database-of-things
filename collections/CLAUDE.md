@@ -67,9 +67,10 @@ product lines), leave `date` off rather than guessing; that's a gap to
 close later, not something to fabricate now.
 
 **Exception: domain-family directories** (the broad top-level groupings
-directly under `collections/`, e.g. `trading-card-games/`, `comics/`) don't
-get a `date` — they're DBoT's own organizational buckets for grouping
-related categories, not things that were themselves released.
+directly under `collections/`, e.g. `trading-card-games/`,
+`comics-and-manga/`) don't get a `date` — they're DBoT's own organizational
+buckets for grouping related categories, not things that were themselves
+released.
 
 ## Descriptions
 

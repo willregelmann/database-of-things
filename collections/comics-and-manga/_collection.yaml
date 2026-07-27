@@ -1,0 +1,8 @@
+id: 7a9ed734-838f-4d1e-8a14-c83c7c9bc1ed
+name: Comics & Manga
+type: collection
+description: >
+  Periodical comics and manga, organized by publisher. Western comics are
+  collected as single issues; manga is collected by tankōbon volume, following
+  the English-language edition. Each publisher is a nested collection holding
+  its own series.
