@@ -30,6 +30,20 @@ never appears as a standalone entry. File Labubu-headlined series under
 IP-level page) before creating a new IP directory, rather than assuming a
 popular character's own name is the IP name.
 
+**The harder version: a character name that IS used as a series prefix but
+still isn't the IP.** Labubu is easy because POP MART never markets a series
+as "LABUBU …". Yoyo Yeung's `kenneth-and-yoki/` is the case where the two
+signals genuinely conflict — POP MART's own product pages read "YOKI The
+Moment Series" and "YOKI My Little Planets Series," yet its IP/Artist Zone
+lists the artist's characters as one combined entry covering both Kenneth (a
+fox) and Yoki (a bat). **The IP/Artist Zone wins for the directory name; the
+marketed name still wins for each series inside it.** Filing `yoki/` on the
+strength of the series prefix looks right and quietly leaves Kenneth's own
+series (The Kenneth Fox, Kenneth Circus, Kenneth Zodiac) with nowhere to go —
+which is how this one was actually caught. When one artist has several
+characters at POP MART, check the IP/Artist Zone for whether they're grouped
+before creating a directory per character.
+
 **Naming series directories**: lowercase, hyphenated, matching the series'
 own marketed name (e.g. `have-a-seat`, `exciting-macaron`, `big-into-
 energy`).
