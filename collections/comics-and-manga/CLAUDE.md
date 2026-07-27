@@ -79,17 +79,36 @@ directories without a maintainer's sign-off.
 
 ## Adding a new series
 
+A series arrives in **two phases — scaffold it first, author its conventions
+when it actually has issues filed.** See
+[`../CLAUDE.md`](../CLAUDE.md#scaffolding-a-new-collection) for the rule and
+why it works this way; the phases below are this family's version of it.
+
+**Phase 1 — scaffold.** No new conventions needed; anyone (or any automated
+curation pass) can do this.
+
 1. Create `<publisher>/<series>/` (create `<publisher>/` too if it doesn't
    exist yet — it only needs a `_collection.yaml`, no `CLAUDE.md`/schema of
    its own unless it has series that need different conventions).
-2. Write the series' `CLAUDE.md` — numbering scheme (confirm whether it's
+2. Write `_collection.yaml`. The series inherits this family's `CLAUDE.md`
+   and `template.schema.json` for now — `dark-horse/hellboy/` has run that
+   way since it was created.
+3. Run the validator before opening a PR.
+
+**Phase 2 — author its conventions.** Required before the first issue is
+filed under the series.
+
+4. Write the series' `CLAUDE.md` — numbering scheme (confirm whether it's
    continuous or resets, and check for spin-offs/miniseries with separate
    numbering before assuming a flat structure), identification approach,
    known pitfalls. For manga, also cover how the
    Japanese-publisher-vs-English-licensor distinction plays out for that
    series, including any relicense or omnibus re-release.
-3. Write `template.schema.json` — don't reuse another series' attributes
+5. Write `template.schema.json` — don't reuse another series' attributes
    as-is; verify against the actual series (credits, format) rather than
    assuming they match.
-4. Write `_collection.yaml`.
-5. Run the validator before opening a PR.
+6. Run the validator before opening a PR.
+
+Comics is the family where phase 2 matters most — numbering resets, volume
+restarts, and relicensed reprints differ so much series to series that an
+inherited schema rarely survives contact with a real run for long.

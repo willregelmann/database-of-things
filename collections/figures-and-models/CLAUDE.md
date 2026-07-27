@@ -118,18 +118,39 @@ product-line brand:
 
 ## Adding a new product line
 
+A line arrives in **two phases — scaffold it first, author its conventions
+when it actually has items.** See
+[`../CLAUDE.md`](../CLAUDE.md#scaffolding-a-new-collection) for the rule and
+why it works this way; the phases below are this family's version of it.
+
+**Phase 1 — scaffold.** No new conventions needed; anyone (or any automated
+curation pass) can do this.
+
 1. Identify the customer-facing brand and place the line under it:
    `figures-and-models/<brand>/<line>/`. Create the `<brand>/` umbrella
    (`_collection.yaml` + `CLAUDE.md`) if it doesn't exist yet. A line that is
    its own top-level brand goes directly at `figures-and-models/<line>/`.
-2. Write the line's `CLAUDE.md` — identification scheme, naming convention,
+2. Write its `_collection.yaml` (`type: collection`, plus a `description`).
+   The line inherits the nearest ancestor's `CLAUDE.md` and
+   `template.schema.json` for now.
+3. Run the validator before opening a PR.
+
+**Phase 2 — author its conventions.** Required before the first item is filed
+under the line, unless the parent brand's own `CLAUDE.md` already documents
+this tier (as `pop-mart/CLAUDE.md` does for its IP directories).
+
+4. Write the line's `CLAUDE.md` — identification scheme, naming convention,
    known pitfalls (variant/re-release numbering is common in this domain —
    check for it explicitly rather than assuming a line is flatly numbered).
    For a kit or construction line, cover how assembly shapes identification
    (grades, scales, set numbering) here rather than treating it as a reason
    to file the line elsewhere.
-3. Write its `template.schema.json` — don't reuse another line's attributes
+5. Write its `template.schema.json` — don't reuse another line's attributes
    as-is; verify against manufacturer listings or a fan database (e.g.
    MyFigureCollection, Gunpla Wiki, Brickset) rather than guessing.
-4. Write its `_collection.yaml` (`type: collection`, plus a `description`).
-5. Run the validator before opening a PR.
+6. Run the validator before opening a PR.
+
+Deferring phase 2 is not a licence to skip it — it's that a line's
+identification scheme is far easier to get right while holding real product
+data than in the abstract, and a speculative schema tends to be contradicted
+by the first ten items that arrive.

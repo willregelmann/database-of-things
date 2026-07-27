@@ -48,7 +48,10 @@ are now the only source of truth — curation *is* opening a pull request.
 
 1. Decide what kind of collection this is:
    - **A new category** (a specific collectible line, e.g. a new card game or
-     coin series) — needs its own `CLAUDE.md` + `template.schema.json`.
+     coin series) — eventually needs its own `CLAUDE.md` +
+     `template.schema.json`, but **not before it has items**: see
+     `collections/CLAUDE.md`, "Scaffolding a new collection," for the
+     two-phase rule.
    - **A set nested under an existing category** (e.g. a new expansion) —
      usually just needs its own `_collection.yaml` and inherits the rest.
    - **A new domain family** (a broad grouping like `trading-cards` that
@@ -57,12 +60,16 @@ are now the only source of truth — curation *is* opening a pull request.
      warranted.
 2. For a new category: decide whether it belongs inside an existing domain
    family (e.g. `collections/trading-cards/<line>/`) or directly under
-   `collections/`. Create the directory, write `CLAUDE.md` (curation hints —
-   identification scheme, completeness-checking approach, naming convention,
-   known pitfalls — follow the shape of
-   `collections/trading-cards/pokemon-tcg/CLAUDE.md`), write
-   `template.schema.json` (JSON Schema for `attributes`), and `_collection.yaml`
-   (`type: collection`, plus a `description`).
+   `collections/`. Create the directory and write its `_collection.yaml`
+   (`type: collection`, plus a `description`) — that alone is a complete,
+   valid phase-1 scaffold, inheriting the parent's `CLAUDE.md` and
+   `template.schema.json`. **Before filing the category's first item**, write
+   its own `CLAUDE.md` (curation hints — identification scheme,
+   completeness-checking approach, naming convention, known pitfalls — follow
+   the shape of `collections/trading-cards/pokemon-tcg/CLAUDE.md`) and
+   `template.schema.json` (JSON Schema for `attributes`). Doing both at once
+   is fine when you already have the sourcing in hand; the point is that a
+   missing line can be recorded immediately rather than waiting on them.
 3. For a nested set: create the directory (inside its parent category/set
    directory — that placement *is* the parent relationship, don't add a
    `parent_collection` field) and its `_collection.yaml` only (`type: collection`,

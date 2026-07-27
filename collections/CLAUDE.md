@@ -39,6 +39,45 @@ shouldn't be artificially split just to dodge this guideline. Treat 1000/100
 as a prompt to look for a real missing grouping level, not a hard ceiling to
 engineer around when no natural one exists.
 
+## Scaffolding a new collection
+
+**A new line, series, or game arrives in two phases: scaffold it first,
+author its own conventions when it actually has items.** Each family's
+`CLAUDE.md` spells this out in its own "Adding a new …" section; this is the
+shared rule behind them.
+
+- **Phase 1 — scaffold.** Create the directory and its `_collection.yaml`,
+  nothing else. It inherits the nearest ancestor's `CLAUDE.md` and
+  `template.schema.json`, which is all the validator requires — it checks for
+  them "own or inherited," walking up the tree. **An itemless
+  `_collection.yaml` is a legitimate, useful record**: it says "this line
+  exists and hasn't been curated yet," which is strictly better than the
+  catalog silently implying it doesn't exist. Don't hold a known-missing
+  line out of the tree because nobody has worked out its identification
+  scheme yet, and don't gate the scaffold on shipping items alongside it.
+- **Phase 2 — author its conventions.** Before the **first item** is filed
+  under it, the line needs its own `CLAUDE.md` (identification scheme, naming
+  convention, known pitfalls) and `template.schema.json`. The one exception
+  is a tier whose parent `CLAUDE.md` already documents its conventions
+  explicitly — POP MART's IP directories inherit
+  [`figures-and-models/pop-mart/CLAUDE.md`](figures-and-models/pop-mart/CLAUDE.md)
+  by design and never need their own.
+
+**Why this order.** A line's identification scheme is much easier to write
+correctly while holding real product data than in the abstract — authored
+speculatively, it tends to be contradicted by the first ten items that
+actually arrive. The reverse order also has a track record here:
+`bandai/gunpla/` and `bandai/gashapon/` both received fully-authored
+`CLAUDE.md` and `template.schema.json` up front and still contain **zero
+items**, while `re-ment/pokemon/` (462 items), `pop-mart/skullpanda/` (263),
+and `dark-horse/hellboy/` have run correctly on inherited conventions for
+their whole existence. Requiring the authoring step up front mostly succeeded
+at keeping real data out.
+
+Phase 2 is deferred, not optional — a line accumulating items under inherited
+conventions it has outgrown is a real defect, just a later one than an empty
+directory.
+
 ## Dates
 
 The optional top-level `date` field records when an entity was **first**

@@ -21,6 +21,18 @@ leave it there, that's easy to miss and gets forgotten. `flag_finding`
 becomes a real GitHub issue after your session ends; text you only say in
 your final report doesn't durably go anywhere.
 
+**Scaffolding a missing line/series/game with `upsert_collection` is in
+scope — don't flag it as out of reach.** Not being able to author a
+`CLAUDE.md`/`template.schema.json` is not a reason to decline: per
+collections/CLAUDE.md ("Scaffolding a new collection"), a new collection is
+supposed to land as an `_collection.yaml` on **inherited** conventions
+first, with its own conventions authored later, before its first item. An
+itemless scaffold recording a known-missing line is a legitimate fix, not a
+placeholder you need permission for. What still warrants `flag_finding` is
+the *item-level* curation that follows it (which needs the authored
+conventions), or a genuine prior question about whether the collection
+belongs in that family at all.
+
 This exists for the scheduled hourly job. For a manual, read-only audit
 (no writes, for when a human wants a report to review before touching
 anything), use the `collections-audit` skill instead — same three audit
