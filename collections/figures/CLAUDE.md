@@ -29,7 +29,7 @@ What's out isn't an object category; it's things that aren't the figure line:
   statue or prop that isn't part of a released line.
 
 `figures/` is a sibling of the other collecting-domain families (`plush/`,
-`model-kits/`, `trading-card-games/`, ...). The boundary with them is which
+`model-kits/`, `trading-cards/`, ...). The boundary with them is which
 product line an item belongs to, not what the item physically is.
 
 ## How the tree is organized: manufacturer/brand first, franchise via tags

@@ -47,7 +47,7 @@ timelines folded into the "HG All Gundam Project"), and several more. A
 kit's number is only unique *within* its own sub-line (e.g. HGUC #191 and
 HGCE #191 are unrelated kits) — nest `hg/<sub-line>/` the same way Pokémon
 TCG nests `<series>/<expansion>/` (see
-[`../../trading-card-games/pokemon-tcg/CLAUDE.md`](../../trading-card-games/pokemon-tcg/CLAUDE.md)),
+[`../../trading-cards/pokemon-tcg/CLAUDE.md`](../../trading-cards/pokemon-tcg/CLAUDE.md)),
 and confirm which sub-line a kit belongs to (Gunpla Wiki or the kit's own
 box art, which prints the sub-line tag) before filing it.
 

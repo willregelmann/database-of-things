@@ -3,8 +3,8 @@
 Cross-cutting guidance for curating anything under `collections/` — domain
 family, category, or nested set alike. This applies everywhere in the tree;
 family- and category-specific `CLAUDE.md` files (e.g.
-[`trading-card-games/CLAUDE.md`](trading-card-games/CLAUDE.md),
-[`trading-card-games/pokemon-tcg/CLAUDE.md`](trading-card-games/pokemon-tcg/CLAUDE.md))
+[`trading-cards/CLAUDE.md`](trading-cards/CLAUDE.md),
+[`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md))
 add game/category-specific detail on top of this — they don't replace it.
 
 ## Collection shape
@@ -67,7 +67,7 @@ product lines), leave `date` off rather than guessing; that's a gap to
 close later, not something to fabricate now.
 
 **Exception: domain-family directories** (the broad top-level groupings
-directly under `collections/`, e.g. `trading-card-games/`,
+directly under `collections/`, e.g. `trading-cards/`,
 `comics-and-manga/`) don't get a `date` — they're DBoT's own organizational
 buckets for grouping related categories, not things that were themselves
 released.
@@ -149,7 +149,7 @@ and isn't already available some other way:
   franchise **at the highest level where it's uniformly true**:
   - When a whole collection is one franchise, tag that collection's
     `_collection.yaml` — e.g. `figures/bandai/power-rangers/_collection.yaml`,
-    or `trading-card-games/pokemon-tcg/` — **not** every item inside it. A
+    or `trading-cards/pokemon-tcg/` — **not** every item inside it. A
     franchise search resolves an item by walking up to its nearest
     franchise-tagged ancestor collection.
   - When a collection mixes franchises, tag the individual **items** — e.g.
@@ -190,7 +190,7 @@ When adding or editing a collection's own `_collection.yaml` — at any level,
 not just expansion/set records — check whether it has a real official logo
 or brand mark, and if so add `image.source_url` pointing to it, the same way
 set-level records already do (see
-[`trading-card-games/pokemon-tcg/CLAUDE.md`](trading-card-games/pokemon-tcg/CLAUDE.md)
+[`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md)
 for the worked example). Take the URL from an authoritative source (the
 rights-holder's own assets, or a well-maintained reference like Wikimedia
 Commons) rather than guessing or hand-constructing one, and verify it

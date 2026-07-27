@@ -47,7 +47,7 @@ oddity.
   not a figure/zord/vehicle/weapon/playset, so it falls outside this
   category's scope entirely (not just this line's `variant: Standard`
   scope). If Power Rangers trading cards are ever worth curating, that's a
-  `trading-card-games/` category of its own, not a `power-rangers/turbo/`
+  `trading-cards/` category of its own, not a `power-rangers/turbo/`
   entity.
 - **Two unreleased 8″ villain figures**, Maligore (`2988`) and Terrorsaur
   (`2989`) — flagged unreleased on the source site, and unlike every other

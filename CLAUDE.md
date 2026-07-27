@@ -36,7 +36,7 @@ through a human driving every addition. Two skills carry this:
 
 ```
 collections/                  # the data — see collections/README.md
-  trading-card-games/
+  trading-cards/
     pokemon-tcg/
       CLAUDE.md               # naming conventions, verification, pitfalls
       template.schema.json    # JSON Schema for item attributes, enforced by CI
@@ -85,7 +85,7 @@ image:
   from its category.
 
 See [`collections/README.md`](collections/README.md) for the full format and
-[`collections/trading-card-games/pokemon-tcg/CLAUDE.md`](collections/trading-card-games/pokemon-tcg/CLAUDE.md) for a
+[`collections/trading-cards/pokemon-tcg/CLAUDE.md`](collections/trading-cards/pokemon-tcg/CLAUDE.md) for a
 worked example.
 
 ## Naming files
@@ -101,7 +101,7 @@ alphabetical order. Collections without canonical numbering just use
 
 The category `CLAUDE.md` documents the specifics (which field is canonical,
 how to slugify, disambiguation rules) — see
-[`collections/trading-card-games/pokemon-tcg/CLAUDE.md`](collections/trading-card-games/pokemon-tcg/CLAUDE.md) for a
+[`collections/trading-cards/pokemon-tcg/CLAUDE.md`](collections/trading-cards/pokemon-tcg/CLAUDE.md) for a
 worked example.
 
 ## Adding or editing an entry

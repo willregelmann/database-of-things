@@ -1,0 +1,13 @@
+id: 09c31c67-7260-4447-9b9e-5e464ec1e937
+name: "Magic: The Gathering"
+type: collection
+description: >
+  The Magic: The Gathering trading card game, published by Wizards of the Coast
+  since 1993. Spans every expansion, from Limited Edition (Alpha) through the
+  present.
+date: "1993-08-05"
+tags:
+  - 6508fd45-8c05-4d18-8b93-cb8d1e6ca6f3   # tags/franchises/magic-the-gathering.yaml
+image:
+  source_url: >-
+    https://upload.wikimedia.org/wikipedia/commons/a/ad/Magic_the_Gathering_2017.svg

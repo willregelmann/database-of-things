@@ -28,7 +28,7 @@ distinction is recorded in the data, not in directory position.
 For anything published in Japanese first, **catalog the English-language
 edition, not the original Japanese one** — same convention as Pokémon TCG
 cataloging English/US card sets rather than their Japanese originals (see
-[`trading-card-games/pokemon-tcg/CLAUDE.md`](../trading-card-games/pokemon-tcg/CLAUDE.md)).
+[`trading-cards/pokemon-tcg/CLAUDE.md`](../trading-cards/pokemon-tcg/CLAUDE.md)).
 Volume numbers, titles, and dates all follow the English release; note the
 original Japanese publisher and serialization in the series'
 `_collection.yaml` description for context, but don't create separate

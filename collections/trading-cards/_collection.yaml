@@ -1,0 +1,7 @@
+id: 1a0b043a-268b-4f9e-acd1-ff00ca63a706
+name: Trading Cards
+type: collection
+description: >
+  Collectible cards sold in sets — trading card games with a structured
+  ruleset (Pokémon TCG, Magic: The Gathering), sports cards, and non-sport
+  card sets alike. Each line is its own nested collection.
