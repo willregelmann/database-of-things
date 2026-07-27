@@ -32,7 +32,24 @@ popular character's own name is the IP name.
 
 **Naming series directories**: lowercase, hyphenated, matching the series'
 own marketed name (e.g. `have-a-seat`, `exciting-macaron`, `big-into-
-energy`).
+energy`). Collab series take their name from POP MART's own collab title,
+which already includes the IP (e.g. `my-little-pony/` →
+`Skullpanda × My Little Pony Series`) — the directory slug drops the
+`Skullpanda × ` prefix since the parent IP directory already supplies it.
+
+**When a collab has no series title, group it anyway rather than filing
+loose items.** POP MART sometimes ships a collab as two or three
+individually-named SKUs released the same day with no umbrella series name
+anywhere in its own marketing (e.g. `SKULLPANDA × KUROMI Plush` and
+`SKULLPANDA × MY MELODY Plush`, both 2025-12-25). Keep the IP → series →
+design shape: create one grouping collection covering the release, name it
+descriptively from the designs it contains (`Skullpanda × My Melody &
+Kuromi`), and **drop the trailing "Series"** — that word is reserved for
+releases POP MART actually marketed as one. Say so in the collection's
+`description` so the name isn't later mistaken for an official title. Don't
+stretch this to a franchise-wide directory (a bare `sanrio/`) — a later
+collab with a different character from the same franchise is a separate
+release, not an addition to this one.
 
 ## What belongs here
 
