@@ -29,21 +29,31 @@ plush/
   CLAUDE.md
   template.schema.json          # generic fallback; each brand overrides it
   _collection.yaml               # this domain family's own entity record
-  <brand>/                        # e.g. "squishmallows" — the plush brand
+  <brand>/                        # e.g. "squishmallows", "pokemon-center"
     CLAUDE.md                    # brand-specific conventions — required
     template.schema.json         # brand-specific attributes — required
-    _collection.yaml
-    ...                          # the brand's own items, and/or:
-    <line>/                       # a named sub-line, e.g. "squish-a-longs"
+    _collection.yaml             # the brand record — no items beside it
+    <line>/                       # e.g. "original-squishmallows"
       _collection.yaml
+      ...                        # the line's items, or further sublines
 ```
+
+**Items live in a line, never at the brand tier.** Even a brand with one
+format gets a named line under it — Squishmallows' standard line is
+`squishmallows/original-squishmallows/`, using Jazwares' own name for it, so
+that adding Squish-A-Longs beside it doesn't leave 2,321 loose items mixed in
+with a nested collection (see [`../CLAUDE.md`](../CLAUDE.md), "Collection
+shape").
 
 **In this category the `<brand>` tier is the plush brand itself, not its
 manufacturer** — `squishmallows/`, not `jazwares/squishmallows/`. That's the
 customer-facing-brand rule from [`../CLAUDE.md`](../CLAUDE.md#tree-shape):
 Squishmallows is what a collector buys and names, while its maker has changed
-hands (Kellytoy → Jazwares) without the brand changing. Contrast
-`figures-and-models/`, where the same rule lands on the manufacturer instead.
+hands (Kellytoy → Jazwares) without the brand changing. `pokemon-center/` is
+the same rule with a different answer — The Pokémon Company sells Sitting
+Cuties under its own retail brand rather than through a third-party
+manufacturer. Contrast `figures-and-models/`, where the rule lands on the
+manufacturer instead.
 
 Each brand (Squishmallows, etc.) is a full top-level collection in its own
 right — identification schemes, manufacturers, and attributes differ by

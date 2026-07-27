@@ -1,0 +1,10 @@
+id: b772e8cb-e147-4f4b-b67c-6f105250fa2c
+name: Pokémon Center
+type: collection
+date: "2018-07-13"
+description: >
+  The Pokémon Company's own retail brand, whose stores and online shop carry
+  plush lines sold under the Pokémon Center name rather than through a
+  third-party toy manufacturer. Each line is its own nested collection.
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
