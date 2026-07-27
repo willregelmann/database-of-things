@@ -231,8 +231,16 @@ silently filing it under its modern name.
 
 ## Logo
 
-`_collection.yaml` carries no `image`. The game has its own distinct
-"Yu-Gi-Oh! TRADING CARD GAME" mark, but Wikimedia Commons holds only the
-manga/anime franchise logos, which per
-[`../../CLAUDE.md`](../../CLAUDE.md) don't count as this entity's own. A
-clean standalone TCG logo asset would close this gap.
+`_collection.yaml` uses the English **Yu-Gi-Oh!** wordmark — the red-brushstroke
+lockup carried on TCG packaging — from Wikimedia Commons.
+
+This is the [`../../CLAUDE.md`](../../CLAUDE.md) carve-out, not a violation of
+it. That file bars pointing a *merchandise line* at the logo of a franchise
+it's merely licensed from, and contrasts it with "the Pokémon TCG collection,
+whose logo is correct precisely because that collection *is* the Pokémon TCG,
+not a product based on it." Yu-Gi-Oh! is the same case: the card game isn't a
+product spun off from the brand, it's what the brand denotes. A general
+Yu-Gi-Oh! wordmark is this entity's own mark.
+
+Use the English wordmark rather than the Japanese 遊戯王 manga logo, which is
+the manga's, not the game's.
