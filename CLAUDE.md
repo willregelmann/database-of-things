@@ -14,6 +14,10 @@ organized into directories by category. There's no database to write to;
 curation *is* opening a pull request.
 
 **Core philosophy**:
+- **Collectibles, not products** — the entity is the individual thing someone
+  owns (a card, a figure, an issue), deduplicated on physical uniqueness
+  rather than on UPC or packaging. See
+  [`collections/CLAUDE.md`](collections/CLAUDE.md#collectibles-not-products)
 - Minimal metadata by design — focus on coverage over exhaustive detail
 - Source attribution via `source_url` for data provenance
 - Curation guidance travels with the data: each category carries its own

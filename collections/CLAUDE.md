@@ -7,6 +7,55 @@ family- and category-specific `CLAUDE.md` files (e.g.
 [`trading-cards/pokemon-tcg/CLAUDE.md`](trading-cards/pokemon-tcg/CLAUDE.md))
 add game/category-specific detail on top of this — they don't replace it.
 
+## Collectibles, not products
+
+**The entity is the collectible — the individual physical thing someone owns
+and points at. One card, one figure, one issue. Not the product it was sold
+as.** A product is a commercial unit: a sealed booster pack, a three-figure
+multipack, a boxed starter set, a regional SKU. The catalog is a record of
+what collectors collect, and nobody collects a UPC.
+
+The operative test: **deduplicate on physical uniqueness, not on product
+identity.**
+
+- **Two entries are the same entity when the objects are physically
+  indistinguishable** — however many products they shipped in, and however
+  many barcodes those products carried. A figure sold both single-boxed and
+  in a gift set is one entity, not two. The same card pulled from a booster
+  pack or a tin is one card.
+- **Two entries are different entities when the objects themselves differ**
+  in a way a collector distinguishes — a different paint application, foil
+  treatment, colorway, or printed number. This holds even when the product
+  and its barcode are unchanged, which is exactly why Squishmallows records a
+  dash-suffixed colorway and Funko records a variant suffix.
+
+What follows from it:
+
+- **Packaging is never a directory tier.** How something was distributed
+  isn't a property of the thing. Yu-Gi-Oh!'s sets group cleanly by "Booster
+  Pack / Structure Deck / Starter Deck" and the catalog deliberately doesn't
+  use that split, because it describes the sealed package rather than the
+  card — see
+  [`trading-cards/yu-gi-oh/CLAUDE.md`](trading-cards/yu-gi-oh/CLAUDE.md).
+- **A retail bundle isn't a collectible, and isn't `components` either.**
+  When a multipack contains figures that are themselves the collectibles,
+  file the figures — the bundle is a purchase, not a thing to own. Contrast a
+  LEGO set, where the set *is* the collectible and its minifigures are
+  genuine components (see Components below). The test is the one stated
+  there: owning every component doesn't amount to owning the item. Owning
+  every figure from a multipack does amount to owning what the multipack
+  offered, which is how you know it was only packaging.
+- **A container gets its own entity only when the container is itself
+  collected.** A boxed set with its own identity qualifies; a blister card
+  doesn't.
+
+**Where the line falls between "a variant" and "the same thing" is a
+per-category call**, and it's what a category's `CLAUDE.md` exists to settle
+— a print-run difference that matters enormously in one line is noise in
+another. This principle says which question to ask, not what the answer is.
+Answer it in the category's own `CLAUDE.md` before filing at scale, because
+changing it later means re-cutting every file in the collection.
+
 ## Tree shape
 
 Every path through `collections/` has the same shape:
