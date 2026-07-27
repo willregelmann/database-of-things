@@ -1,0 +1,10 @@
+id: af325205-8c1a-4cab-9d8f-49eccc57323c
+name: Meowth
+type: card
+date: "2003"
+attributes:
+  number: "013"
+  rarity: Promo
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/np/13_hires.png

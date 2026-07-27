@@ -1,0 +1,10 @@
+id: f97d33d2-3818-4931-a12b-1b7d226e51fb
+name: Pikachu
+type: card
+date: "2003"
+attributes:
+  number: "012"
+  rarity: Promo
+  illustrator: Kouki Saitou
+image:
+  source_url: https://images.pokemontcg.io/np/12_hires.png
