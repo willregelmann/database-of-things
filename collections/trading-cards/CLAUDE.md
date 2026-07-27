@@ -51,12 +51,34 @@ real one.
 
 ## Adding a new line
 
+A line arrives in **two phases — scaffold it first, author its conventions
+when it actually has cards filed.** See
+[`../CLAUDE.md`](../CLAUDE.md#scaffolding-a-new-collection) for the rule and
+why it works this way; the phases below are this family's version of it.
+
+**Phase 1 — scaffold.** No new conventions needed; anyone (or any automated
+curation pass) can do this.
+
 1. Create `trading-cards/<line>/`.
-2. Write its `CLAUDE.md` — identification scheme, naming convention,
+2. Write its `_collection.yaml` (`type: collection`, plus a `description`).
+   The line inherits this family's `CLAUDE.md` and `template.schema.json` for
+   now.
+3. Run the validator before opening a PR.
+
+**Phase 2 — author its conventions.** Required before the first card is filed
+under the line.
+
+4. Write its `CLAUDE.md` — identification scheme, naming convention,
    completeness-checking approach, known pitfalls. Say whether the line is a
    playable game or a non-game set, and what its intermediate grouping
-   levels (if any) are. Don't inherit this family's `template.schema.json`
-   as-is; write attributes specific to the line (see
-   `pokemon-tcg/template.schema.json`).
-3. Write its `_collection.yaml` (`type: collection`, plus a `description`).
-4. Run the validator before opening a PR.
+   levels (if any) are.
+5. Write its `template.schema.json`. **Don't inherit this family's
+   `template.schema.json` as-is** — write attributes specific to the line
+   (see `pokemon-tcg/template.schema.json`).
+6. Run the validator before opening a PR.
+
+**Phase 2 is not deferrable far in this family.** A card game's set codes,
+collector numbering, and rarity ladder are game-specific enough that the
+family schema is a placeholder for the scaffold only, never something a real
+card should be filed against — expect to author conventions as soon as
+curation of the line genuinely starts.
