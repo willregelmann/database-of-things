@@ -41,7 +41,7 @@ April 2023), and series 7's date is 2024-06-15 (original Japan release), not
 pokemon-center/                 # the brand — Pokémon Center's own retail line-up
   sitting-cuties/               # this line
     CLAUDE.md
-    schema.json
+    item-attributes.schema.json
     _collection.yaml            # the whole line
     kanto/                      # one directory per region/generation,
       _collection.yaml          # spanning every series released for it

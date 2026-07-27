@@ -9,5 +9,6 @@ description: >
   reintroducing the tournament staple Pokémon Catcher.
 date: "2012-05-09"
 ongoing: false
-total_cards: 108
+attributes:
+  total_cards: 108
 image: https://images.pokemontcg.io/bw5/logo.png

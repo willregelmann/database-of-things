@@ -9,5 +9,6 @@ description: >
   secret rares.
 date: "2025-09-26"
 ongoing: false
-total_cards: 132
+attributes:
+  total_cards: 132
 image: https://images.pokemontcg.io/me1/logo.png

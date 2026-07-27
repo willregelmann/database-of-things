@@ -10,5 +10,6 @@ description: >
   Steelix, and Tyranitar.
 date: "2002-02-28"
 ongoing: false
-total_cards: 105
+attributes:
+  total_cards: 105
 image: https://images.pokemontcg.io/neo4/logo.png

@@ -9,5 +9,6 @@ description: >
   Rainbow Rare GX cards, including Ultra Necrozma-GX.
 date: "2018-09-07"
 ongoing: false
-total_cards: 70
+attributes:
+  total_cards: 70
 image: https://images.pokemontcg.io/sm75/logo.png

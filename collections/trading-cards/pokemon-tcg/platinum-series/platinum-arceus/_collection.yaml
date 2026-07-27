@@ -9,5 +9,6 @@ description: >
   rares continuing the numbering line started in earlier Platinum Series sets.
 date: "2009-11-04"
 ongoing: false
-total_cards: 99
+attributes:
+  total_cards: 99
 image: https://images.pokemontcg.io/pl4/logo.png

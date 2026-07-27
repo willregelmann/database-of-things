@@ -10,5 +10,6 @@ description: >
   printings. Spans 99 numbered cards plus 4 Shiny Pokémon secret rares.
 date: "2012-02-08"
 ongoing: false
-total_cards: 99
+attributes:
+  total_cards: 99
 image: https://images.pokemontcg.io/bw4/logo.png

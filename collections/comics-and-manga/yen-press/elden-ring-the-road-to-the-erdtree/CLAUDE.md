@@ -5,7 +5,7 @@
 ```
 elden-ring-the-road-to-the-erdtree/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole ongoing series
   <number>-elden-ring-the-road-to-the-erdtree-vol-<number>.yaml
 ```

@@ -9,5 +9,6 @@ description: >
   Flareon ☆, Jolteon ☆, and Vaporeon ☆.
 date: "2007-02-14"
 ongoing: false
-total_cards: 108
+attributes:
+  total_cards: 108
 image: https://images.pokemontcg.io/ex16/logo.png

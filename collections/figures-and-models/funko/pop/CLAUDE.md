@@ -5,7 +5,7 @@
 ```
 pop/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole "Funko Pop!" product line
   <pop-line>/
     _collection.yaml             # the Pop! line, e.g. "Movies", "Marvel", "Star Wars"
@@ -90,7 +90,7 @@ release, `0421-eleven-chase.yaml` for its chase variant).
 
 ## `variant`
 
-`attributes.variant` is enum-validated in `schema.json`. The enum
+`attributes.variant` is enum-validated in `item-attributes.schema.json`. The enum
 starts small (`Common`, `Chase`, `Flocked`, `Glow in the Dark`, `Metallic`,
 `Diamond Collection`) and is expected to grow — it is not meant to gate
 curation. If a figure's real variant type isn't in the enum yet, add it as

@@ -24,12 +24,17 @@ type: card
   `plush`, `minifig`, ...), not a fixed enum. A category introduces
   whatever value fits its own collectibles.
 
+This shape — every field below included — is enforced by
+[`schemas/item.schema.json`](../../schemas/item.schema.json); everything
+else in this file is the prose walkthrough of what that schema allows and
+why.
+
 ## Optional fields
 
 - **`date`** — the item's own release date, same format/precision rules
   as a collection's (see [COLLECTION.md](COLLECTION.md)).
 - **`attributes`** — category-specific structured data, validated against
-  the nearest `../../schema.json` (piece count, rarity, illustrator,
+  the nearest `../../item-attributes.schema.json` (piece count, rarity, illustrator,
   ...). This is where domain-specific detail lives; everything else in an
   item's top-level shape is cross-cutting and format-wide.
 - **`image`** — URL of the item's own image, from an authoritative

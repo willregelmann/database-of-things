@@ -8,5 +8,6 @@ description: >
   and Fezandipiti), and includes ACE SPEC Rare cards.
 date: "2024-05-24"
 ongoing: false
-total_cards: 167
+attributes:
+  total_cards: 167
 image: https://images.pokemontcg.io/sv6/logo.png

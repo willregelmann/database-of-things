@@ -26,7 +26,7 @@ Nendoroid's single continuous catalog, Bandai's numbering here isn't
 type-segregated (a figure and a Zord can have adjacent numbers), so the
 subdirectory is an editorial grouping for browsability, not a reflection of
 a printed catalog section. Attributes/schema are shared with the rest of the
-`power-rangers/` brand — this line has no `../../../../../schema.json` of its own.
+`power-rangers/` brand — this line has no `../../../../../item-attributes.schema.json` of its own.
 
 ## Source
 

@@ -5,7 +5,7 @@
 ```
 nendoroid/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole "Nendoroid" line
   <number>-<slugified-name>.yaml
 ```
@@ -74,7 +74,7 @@ volume (catalog is past #3000 as of 2026), not a canonical width.
 
 ## `release_type`
 
-`attributes.release_type` is enum-validated in `schema.json`. The
+`attributes.release_type` is enum-validated in `item-attributes.schema.json`. The
 enum starts small (`Standard`, `Exclusive`, `Limited`) and is expected to
 grow — it is not meant to gate curation. If a figure's real release
 classification isn't in the enum yet (e.g. a specific convention-exclusive

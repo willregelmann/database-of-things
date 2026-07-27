@@ -39,11 +39,11 @@ sync with the sets side, with nothing enforcing that they match.
   The validator doesn't require one; nothing ever references the bucket
   directory itself, since components are referenced individually, by
   their own `id`.
-- It still needs a `CLAUDE.md`/`../../schema.json` (own or inherited)
+- It still needs a `CLAUDE.md`/`../../item-attributes.schema.json` (own or inherited)
   like any directory holding entity files — a category whose components
   have genuinely different attributes from its items (a minifig's
   BrickLink number vs. a set's own numbering) writes its own
-  `../../schema.json` for the bucket rather than reusing the parent's.
+  `../../item-attributes.schema.json` for the bucket rather than reusing the parent's.
 - Bootstrapping a brand-new bucket (and its schema, if distinct from its
   parent's) is a human/PR-level change — the `collections-mcp` tool
   surface only populates an already-scaffolded bucket, the same way

@@ -11,5 +11,6 @@ description: >
   scoped to any one series.
 date: "1999"
 ongoing: false
-total_cards: 53
+attributes:
+  total_cards: 53
 image: https://images.pokemontcg.io/basep/logo.png

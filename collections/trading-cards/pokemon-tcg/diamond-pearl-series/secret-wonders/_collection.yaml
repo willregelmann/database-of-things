@@ -9,5 +9,6 @@ description: >
   Powerhouse.
 date: "2007-11-01"
 ongoing: false
-total_cards: 132
+attributes:
+  total_cards: 132
 image: https://images.pokemontcg.io/dp3/logo.png

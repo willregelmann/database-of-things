@@ -9,5 +9,6 @@ description: >
   two-card LEGEND Pokémon.
 date: "2010-02-10"
 ongoing: false
-total_cards: 123
+attributes:
+  total_cards: 123
 image: https://images.pokemontcg.io/hgss1/logo.png

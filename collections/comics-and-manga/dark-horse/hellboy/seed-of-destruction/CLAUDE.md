@@ -5,7 +5,7 @@
 ```
 seed-of-destruction/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # this mini-series
   <number>-hellboy-seed-of-destruction-<number>.yaml
 ```

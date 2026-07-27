@@ -11,5 +11,6 @@ description: >
   printed set with 6 secret rares.
 date: "2013-05-08"
 ongoing: false
-total_cards: 116
+attributes:
+  total_cards: 116
 image: https://images.pokemontcg.io/bw9/logo.png

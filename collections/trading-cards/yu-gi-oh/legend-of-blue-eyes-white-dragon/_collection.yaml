@@ -11,4 +11,5 @@ description: >
   2004-12-01) is currently catalogued, deliberately scoped down until further
   Yu-Gi-Oh curation resumes — see this directory's CLAUDE.md.
 date: "2004-12-01"
-total_cards: 126
+attributes:
+  total_cards: 126

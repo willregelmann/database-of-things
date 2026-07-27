@@ -9,5 +9,6 @@ description: >
   packaging cards alongside a collectible Pin Collection box.
 date: "2020-09-25"
 ongoing: false
-total_cards: 73
+attributes:
+  total_cards: 73
 image: https://images.pokemontcg.io/swsh35/logo.png

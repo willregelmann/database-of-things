@@ -9,5 +9,6 @@ description: >
   with a set of Dragon-type secret rares led by Rayquaza.
 date: "2012-08-15"
 ongoing: false
-total_cards: 124
+attributes:
+  total_cards: 124
 image: https://images.pokemontcg.io/bw6/logo.png

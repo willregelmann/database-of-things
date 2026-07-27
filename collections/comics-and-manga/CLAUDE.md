@@ -43,13 +43,13 @@ before deviating from this.
 ```
 comics-and-manga/
   CLAUDE.md
-  schema.json          # generic fallback; each series overrides it
+  item-attributes.schema.json  # generic fallback; each series overrides it
   _collection.yaml
   <publisher>/
     _collection.yaml
     <series>/
       CLAUDE.md                  # series-specific conventions — required
-      schema.json       # series-specific attributes — required
+      item-attributes.schema.json  # series-specific attributes — required
       _collection.yaml
       <issue-or-volume>.yaml
 ```
@@ -122,7 +122,7 @@ curation pass) can do this.
    exist yet — it only needs a `_collection.yaml`, no `CLAUDE.md`/schema of
    its own unless it has series that need different conventions).
 2. Write `_collection.yaml`. The series inherits this family's `CLAUDE.md`
-   and `schema.json` for now — `dark-horse/hellboy/` has run that
+   and `item-attributes.schema.json` for now — `dark-horse/hellboy/` has run that
    way since it was created.
 3. Run the validator before opening a PR.
 
@@ -135,7 +135,7 @@ filed under the series.
    known pitfalls. For manga, also cover how the
    Japanese-publisher-vs-English-licensor distinction plays out for that
    series, including any relicense or omnibus re-release.
-5. Write `schema.json` — don't reuse another series' attributes
+5. Write `item-attributes.schema.json` — don't reuse another series' attributes
    as-is; verify against the actual series (credits, format) rather than
    assuming they match.
 6. Run the validator before opening a PR.

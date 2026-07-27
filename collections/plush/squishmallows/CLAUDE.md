@@ -5,7 +5,7 @@
 ```
 squishmallows/
   CLAUDE.md                      # applies to every line below
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the Squishmallows *brand*
   original-squishmallows/         # the standard line
     _collection.yaml
@@ -185,7 +185,7 @@ fact (e.g. a retailer-exclusive size, like a 24" Costco-only release).
 
 ## `rarity`
 
-`attributes.rarity` is enum-validated in `schema.json`. The enum
+`attributes.rarity` is enum-validated in `item-attributes.schema.json`. The enum
 starts with Jazwares' own published tiers (`Rare`, `Ultra Rare`, `Special
 Edition`, `Select Series`, `Founders Edition`) and is expected to grow — it
 is not meant to gate curation, and a standard common release simply omits

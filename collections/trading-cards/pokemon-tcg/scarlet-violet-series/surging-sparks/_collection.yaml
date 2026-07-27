@@ -9,5 +9,6 @@ description: >
   Stellar Tera Alolan Exeggutor ex and a roster of Dragon-type Pokemon.
 date: "2024-11-08"
 ongoing: false
-total_cards: 191
+attributes:
+  total_cards: 191
 image: https://images.pokemontcg.io/sv8/logo.png

@@ -5,7 +5,7 @@
 ```
 pop-mart/
   CLAUDE.md
-  schema.json          # generic fallback; every IP shares this shape
+  item-attributes.schema.json  # generic fallback; every IP shares this shape
   _collection.yaml               # the whole "POP MART" figures line
   <ip>/
     _collection.yaml             # the IP, e.g. "The Monsters", "Molly", "Dimoo"

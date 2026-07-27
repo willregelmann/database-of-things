@@ -8,5 +8,6 @@ description: >
   Mewtwo.
 date: "2008-08-20"
 ongoing: false
-total_cards: 146
+attributes:
+  total_cards: 146
 image: https://images.pokemontcg.io/dp6/logo.png

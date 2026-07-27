@@ -9,5 +9,6 @@ description: >
   Sun & Moon era ahead of the Sword & Shield Series.
 date: "2019-11-01"
 ongoing: false
-total_cards: 236
+attributes:
+  total_cards: 236
 image: https://images.pokemontcg.io/sm12/logo.png

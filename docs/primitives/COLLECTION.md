@@ -33,6 +33,11 @@ description: >
   bucket (see [COMPONENT.md](COMPONENT.md)) and doesn't get a
   `_collection.yaml` of its own.
 
+This shape — every field below included — is enforced by
+[`schemas/collection.schema.json`](../../schemas/collection.schema.json);
+everything else in this file is the prose walkthrough of what that schema
+allows and why.
+
 ## Optional fields
 
 - **`date`** — when the collection was *first* released, at whatever
@@ -51,12 +56,17 @@ description: >
 - **`tags`** — ids referencing [tag](TAG.md) entities for cross-cutting
   groupings a collection's directory position doesn't already express
   (see `collections/CLAUDE.md`, "Tags").
-- Category-specific fields some categories add on top of this baseline —
-  see the category's own `CLAUDE.md`. A category-specific field has to
-  carry information the hierarchy doesn't: Pokémon TCG once stamped
-  `category: Trading Card Games` onto every `_collection.yaml` in the
-  category, which said nothing directory position didn't already, and it
-  has since been removed.
+- **`attributes`** — category-specific structured data about the
+  collection record itself, validated against the nearest
+  `../../collection-attributes.schema.json` (own or inherited) — e.g. a
+  trading-card set's `total_cards` (see
+  [`collections/trading-cards/collection-attributes.schema.json`](../../collections/trading-cards/collection-attributes.schema.json)).
+  This is where a category-specific field belongs now, not loose at the
+  top level. It still has to carry information the hierarchy doesn't:
+  Pokémon TCG once stamped `category: Trading Card Games` onto every
+  `_collection.yaml` in the category, which said nothing directory
+  position didn't already, and it has since been removed rather than
+  moved into `attributes`.
 
 ## Parent membership
 
@@ -89,9 +99,13 @@ does *not* constitute owning that item.
 
 ## Inheritance
 
-`CLAUDE.md` and `../../schema.json` are resolved by walking up from a
-collection's own directory to the nearest ancestor that has one — a nested
-set normally inherits both from its category rather than repeating them.
+`CLAUDE.md` and `../../item-attributes.schema.json` are resolved by walking
+up from a collection's own directory to the nearest ancestor that has one —
+a nested set normally inherits both from its category rather than repeating
+them. `../../collection-attributes.schema.json` (governing this collection's
+own `attributes`, see above) resolves the same way, but independently — a
+directory can inherit one without the other, since an item's attribute
+shape and a collection record's attribute shape are unrelated data.
 
 ## Tooling
 

@@ -9,5 +9,6 @@ description: >
   by a single secret rare, Time-Space Distortion, numbered 124/123.
 date: "2007-08-22"
 ongoing: false
-total_cards: 123
+attributes:
+  total_cards: 123
 image: https://images.pokemontcg.io/dp2/logo.png

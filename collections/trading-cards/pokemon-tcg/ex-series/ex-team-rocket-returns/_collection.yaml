@@ -9,5 +9,6 @@ description: >
   Spans 109 numbered cards plus 2 secret rares.
 date: "2004-11-08"
 ongoing: false
-total_cards: 109
+attributes:
+  total_cards: 109
 image: https://images.pokemontcg.io/ex7/logo.png

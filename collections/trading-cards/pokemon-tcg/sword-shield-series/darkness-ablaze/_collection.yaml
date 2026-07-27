@@ -8,5 +8,6 @@ description: >
   Pokémon V and VMAX cards.
 date: "2020-08-14"
 ongoing: false
-total_cards: 189
+attributes:
+  total_cards: 189
 image: https://images.pokemontcg.io/swsh3/logo.png

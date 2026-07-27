@@ -10,5 +10,6 @@ description: >
   products rather than standard booster boxes.
 date: "2022-07-01"
 ongoing: false
-total_cards: 78
+attributes:
+  total_cards: 78
 image: https://images.pokemontcg.io/pgo/logo.png

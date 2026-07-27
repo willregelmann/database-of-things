@@ -66,7 +66,7 @@ server.registerTool(
   {
     title: 'Get a collection\'s applicable curation guidance',
     description:
-      'Returns every CLAUDE.md that applies to this collection, concatenated from the root collections/CLAUDE.md down through domain family, category, any intermediate overrides, to the collection\'s own (if it has one), plus every schema.json in that same chain — each layers attributes on top of the ones before it (a later one can add or override a key; it doesn\'t replace what came before). Read this before auditing or upserting anything in the collection.',
+      'Returns every CLAUDE.md that applies to this collection, concatenated from the root collections/CLAUDE.md down through domain family, category, any intermediate overrides, to the collection\'s own (if it has one), plus every item-attributes.schema.json in that same chain — each layers attributes on top of the ones before it (a later one can add or override a key; it doesn\'t replace what came before). Read this before auditing or upserting anything in the collection.',
     inputSchema: { collection_id: z.string().describe('The collection id, e.g. from choose_random_collection') },
   },
   async ({ collection_id }) => {

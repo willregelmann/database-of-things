@@ -9,5 +9,6 @@ description: >
   carries no rarity symbols on any of its cards.
 date: "2013-11-08"
 ongoing: false
-total_cards: 39
+attributes:
+  total_cards: 39
 image: https://images.pokemontcg.io/xy0/logo.png

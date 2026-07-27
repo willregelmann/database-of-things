@@ -10,4 +10,5 @@ description: >
   value of the original black-bordered print runs. Like Alpha and Beta, cards
   carry no expansion symbol and are identified here by the collector number
   assigned by Scryfall/the wider hobby.
-total_cards: 302
+attributes:
+  total_cards: 302

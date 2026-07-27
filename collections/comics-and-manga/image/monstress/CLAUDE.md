@@ -5,7 +5,7 @@
 ```
 monstress/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole "Monstress" series
   <number>-monstress-<number>.yaml
 ```

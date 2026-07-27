@@ -10,5 +10,6 @@ description: >
   card 236.
 date: "2018-11-02"
 ongoing: false
-total_cards: 214
+attributes:
+  total_cards: 214
 image: https://images.pokemontcg.io/sm8/logo.png

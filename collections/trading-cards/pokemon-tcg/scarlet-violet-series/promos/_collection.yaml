@@ -10,5 +10,6 @@ description: >
   primary data source -- see category CLAUDE.md).
 date: "2023"
 ongoing: false
-total_cards: 200
+attributes:
+  total_cards: 200
 image: https://images.pokemontcg.io/svp/logo.png

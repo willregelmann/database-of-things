@@ -9,5 +9,6 @@ description: >
   run of Rainbow Rare and secret rare cards.
 date: "2017-08-05"
 ongoing: false
-total_cards: 147
+attributes:
+  total_cards: 147
 image: https://images.pokemontcg.io/sm3/logo.png

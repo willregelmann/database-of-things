@@ -9,5 +9,6 @@ description: >
   sought-after chase cards.
 date: "2015-05-06"
 ongoing: false
-total_cards: 108
+attributes:
+  total_cards: 108
 image: https://images.pokemontcg.io/xy6/logo.png

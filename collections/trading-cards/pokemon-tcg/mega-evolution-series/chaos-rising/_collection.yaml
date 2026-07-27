@@ -10,5 +10,6 @@ description: >
   Floette ex, Mega Dragalge ex, and Mega Gallade ex.
 date: "2026-05-22"
 ongoing: false
-total_cards: 86
+attributes:
+  total_cards: 86
 image: https://images.scrydex.com/pokemon/me4-logo/logo

@@ -9,5 +9,6 @@ description: >
   Clefairy ex, and Hop's Zacian ex.
 date: "2025-03-28"
 ongoing: false
-total_cards: 159
+attributes:
+  total_cards: 159
 image: https://images.pokemontcg.io/sv9/logo.png

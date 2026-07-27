@@ -9,5 +9,6 @@ description: >
   received an Art Rare or better secret rare variant.
 date: "2025-07-18"
 ongoing: false
-total_cards: 86
+attributes:
+  total_cards: 86
 image: https://images.pokemontcg.io/rsv10pt5/logo.png

@@ -9,5 +9,6 @@ description: >
   wave of Pokémon-EX from the Generation V era.
 date: "2013-11-06"
 ongoing: false
-total_cards: 113
+attributes:
+  total_cards: 113
 image: https://images.pokemontcg.io/bw11/logo.png

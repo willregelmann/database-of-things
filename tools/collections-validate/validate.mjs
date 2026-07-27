@@ -16,7 +16,7 @@ const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
 
 // The three entity-envelope shapes are global — unlike a per-category
-// `schema.json`, none of them vary by directory, so all three are compiled
+// `item-attributes.schema.json`, none of them vary by directory, so all three are compiled
 // once up front rather than during the walk. Applied by kind: a
 // `_collection.yaml` (under either root) gets collection.schema.json; a
 // tag entity (under tags/) gets tag.schema.json; anything else under
@@ -147,11 +147,12 @@ function validateEntityStructure(filePath, data) {
   validateVariants(filePath, data);
 }
 
-// A directory's own schema.json layers on top of what it inherited rather
-// than replacing it — a family-level schema.json can recommend an attribute
-// (declared but not required) and have that recommendation actually reach
-// items in every nested collection, not just ones with no schema.json of
-// their own. `properties` merge shallowly (child wins a same-named key) —
+// A directory's own item-attributes.schema.json (or collection-attributes.schema.json —
+// same merge function, either governing file) layers on top of what it
+// inherited rather than replacing it — a family-level template can recommend
+// an attribute (declared but not required) and have that recommendation
+// actually reach items in every nested collection, not just ones with no
+// template of their own. `properties` merge shallowly (child wins a same-named key) —
 // EXCEPT when both parent and child declare an `enum` for the same key, in
 // which case the two enums union instead of the child replacing the
 // parent's outright. That's what lets e.g. a series-specific rarity sit
@@ -206,21 +207,59 @@ function mergeAttributesSchema(parent, child) {
   };
 }
 
+// Shared by an item's `attributes` (governed by `item-attributes.schema.json`)
+// and a collection's `attributes` (governed by
+// `collection-attributes.schema.json`) — same "undeclared/missing key"
+// reporting either way, just against a different inherited schema and a
+// different governing filename in the message.
+function checkAttributes(filePath, data, schema, governingFileName) {
+  if (data.attributes === undefined) return;
+  if (!schema) {
+    errors.push(
+      `${rel(filePath)}: has "attributes" but no ${governingFileName} (own or inherited) exists to validate them against`
+    );
+    return;
+  }
+  const valid = schema(data.attributes);
+  if (!valid) {
+    for (const err of schema.errors) {
+      // Ajv's raw text for these two is unactionable at this scale — it says
+      // "must NOT have additional properties" without naming which one. Name
+      // it, and point at the file that decides.
+      let detail;
+      if (err.keyword === 'additionalProperties') {
+        detail = `attributes has undeclared key "${err.params.additionalProperty}" — fix the typo, or declare it in the governing ${governingFileName} if it genuinely belongs`;
+      } else if (err.keyword === 'required') {
+        detail = `attributes is missing required key "${err.params.missingProperty}"`;
+      } else {
+        detail = `attributes${err.instancePath} ${err.message}`;
+      }
+      errors.push(`${rel(filePath)}: ${detail}`);
+    }
+  }
+}
+
 function walk(dir, inherited) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const files = entries.filter((e) => e.isFile()).map((e) => e.name);
   const dirs = entries.filter((e) => e.isDirectory()).map((e) => e.name);
 
-  let { claudeMdPath, schema, schemaJson } = inherited;
+  let { claudeMdPath, schema, schemaJson, collectionSchema, collectionSchemaJson } = inherited;
 
   if (files.includes('CLAUDE.md')) {
     claudeMdPath = path.join(dir, 'CLAUDE.md');
   }
-  if (files.includes('schema.json')) {
-    const schemaPath = path.join(dir, 'schema.json');
+  if (files.includes('item-attributes.schema.json')) {
+    const schemaPath = path.join(dir, 'item-attributes.schema.json');
     const ownSchemaJson = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
     schemaJson = mergeAttributesSchema(schemaJson, ownSchemaJson);
     schema = ajv.compile(schemaJson);
+  }
+  if (files.includes('collection-attributes.schema.json')) {
+    const collectionSchemaPath = path.join(dir, 'collection-attributes.schema.json');
+    const ownCollectionSchemaJson = JSON.parse(fs.readFileSync(collectionSchemaPath, 'utf8'));
+    collectionSchemaJson = mergeAttributesSchema(collectionSchemaJson, ownCollectionSchemaJson);
+    collectionSchema = ajv.compile(collectionSchemaJson);
   }
 
   const entityFiles = files.filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'));
@@ -228,13 +267,14 @@ function walk(dir, inherited) {
   if (entityFiles.length > 0 && !claudeMdPath) {
     errors.push(`${rel(dir)}: contains entity files but has no CLAUDE.md (own or inherited)`);
   }
-  // No blanket "must have a schema.json" gate here — a `_collection.yaml` is
-  // never checked against one (see below), and a directory that will only
-  // ever hold collection records (a family, a publisher-only directory, a
-  // tag namespace whose entities never carry `attributes`) genuinely has
-  // nothing for one to govern. The real invariant — an item's `attributes`
-  // never silently goes unvalidated — is enforced per-file below instead,
-  // where it's actually known whether `attributes` is present.
+  // No blanket "must have an item-attributes.schema.json" gate here — a
+  // `_collection.yaml` is never checked against one (see below), and a
+  // directory that will only ever hold collection records (a family, a
+  // publisher-only directory, a tag namespace whose entities never carry
+  // `attributes`) genuinely has nothing for one to govern. The real
+  // invariant — an item's `attributes` never silently goes unvalidated — is
+  // enforced per-file below instead, where it's actually known whether
+  // `attributes` is present.
   const isComponentsDir = path.basename(dir).startsWith('_');
   const isRoot = dir === COLLECTIONS_ROOT || dir === TAGS_ROOT;
   if (!isRoot && !isComponentsDir && !files.includes('_collection.yaml')) {
@@ -277,6 +317,7 @@ function walk(dir, inherited) {
       }
       if (data && typeof data === 'object') {
         reportEntitySchemaErrors(filePath, validateCollectionShape, data);
+        checkAttributes(filePath, data, collectionSchema, 'collection-attributes.schema.json');
       }
     } else {
       if (data && typeof data === 'object') {
@@ -287,35 +328,13 @@ function walk(dir, inherited) {
         // own id requirement and the one-level nesting cap.
         const isTag = dir === TAGS_ROOT || dir.startsWith(TAGS_ROOT + path.sep);
         reportEntitySchemaErrors(filePath, isTag ? validateTagShape : validateItemShape, data);
-      }
-      if (data && data.attributes !== undefined && !schema) {
-        errors.push(
-          `${rel(filePath)}: has "attributes" but no schema.json (own or inherited) exists to validate them against`
-        );
-      } else if (schema && data && data.attributes !== undefined) {
-        const valid = schema(data.attributes);
-        if (!valid) {
-          for (const err of schema.errors) {
-            // Ajv's raw text for these two is unactionable at this scale — it
-            // says "must NOT have additional properties" without naming which
-            // one. Name it, and point at the file that decides.
-            let detail;
-            if (err.keyword === 'additionalProperties') {
-              detail = `attributes has undeclared key "${err.params.additionalProperty}" — fix the typo, or declare it in the governing schema.json if it genuinely belongs`;
-            } else if (err.keyword === 'required') {
-              detail = `attributes is missing required key "${err.params.missingProperty}"`;
-            } else {
-              detail = `attributes${err.instancePath} ${err.message}`;
-            }
-            errors.push(`${rel(filePath)}: ${detail}`);
-          }
-        }
+        checkAttributes(filePath, data, schema, 'item-attributes.schema.json');
       }
     }
   }
 
   for (const d of dirs) {
-    walk(path.join(dir, d), { claudeMdPath, schema, schemaJson });
+    walk(path.join(dir, d), { claudeMdPath, schema, schemaJson, collectionSchema, collectionSchemaJson });
   }
 }
 
@@ -326,8 +345,8 @@ for (const root of [COLLECTIONS_ROOT, TAGS_ROOT]) {
   }
 }
 
-walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null });
-walk(TAGS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null });
+walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null, collectionSchema: null, collectionSchemaJson: null });
+walk(TAGS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null, collectionSchema: null, collectionSchemaJson: null });
 
 for (const { filePath, id } of componentRefs) {
   if (!seenIds.has(id)) {

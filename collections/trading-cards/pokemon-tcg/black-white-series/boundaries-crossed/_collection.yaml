@@ -10,5 +10,6 @@ description: >
   golden holofoil.
 date: "2012-11-07"
 ongoing: false
-total_cards: 149
+attributes:
+  total_cards: 149
 image: https://images.pokemontcg.io/bw7/logo.png

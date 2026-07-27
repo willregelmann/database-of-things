@@ -27,11 +27,11 @@ plush line behind them, and those aren't a `plush/` concern.
 ```
 plush/
   CLAUDE.md
-  schema.json          # generic fallback; each brand overrides it
+  item-attributes.schema.json  # generic fallback; each brand overrides it
   _collection.yaml               # this domain family's own entity record
   <brand>/                        # e.g. "squishmallows", "pokemon-center"
     CLAUDE.md                    # brand-specific conventions — required
-    schema.json         # brand-specific attributes — required
+    item-attributes.schema.json  # brand-specific attributes — required
     _collection.yaml             # the brand record — no items beside it
     <line>/                       # e.g. "original-squishmallows"
       _collection.yaml
@@ -84,7 +84,7 @@ curation pass) can do this.
    restarts its own numbering — the restart is why it's a separate
    *collection*, not a reason to move it out from under its brand.
 3. Write its `_collection.yaml` (`type: collection`, plus a `description`).
-   The line inherits this family's `CLAUDE.md` and `schema.json` for
+   The line inherits this family's `CLAUDE.md` and `item-attributes.schema.json` for
    now.
 4. Run the validator before opening a PR.
 
@@ -95,7 +95,7 @@ under the line.
    pitfalls (many plush lines mix a global catalog number with sub-lines that
    restart their own numbering — check for this explicitly rather than
    assuming a line is flatly numbered).
-6. Write its `schema.json` — don't reuse another line's attributes
+6. Write its `item-attributes.schema.json` — don't reuse another line's attributes
    as-is; verify against manufacturer listings or a well-maintained fan
    database rather than guessing.
 7. Run the validator before opening a PR.

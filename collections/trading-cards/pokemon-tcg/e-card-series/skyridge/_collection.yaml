@@ -10,5 +10,6 @@ description: >
   and Kabutops.
 date: "2003-05-12"
 ongoing: false
-total_cards: 144
+attributes:
+  total_cards: 144
 image: https://images.pokemontcg.io/ecard3/logo.png

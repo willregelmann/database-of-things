@@ -9,5 +9,6 @@ description: >
   cards missing from the primary data source -- see category CLAUDE.md).
 date: "2019"
 ongoing: false
-total_cards: 304
+attributes:
+  total_cards: 304
 image: https://images.pokemontcg.io/swshp/logo.png

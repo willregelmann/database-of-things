@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * schema-scope — answers the three questions you need answered before touching
- * a schema.json in this repo:
+ * an item-attributes.schema.json in this repo:
  *
  *   which <path>     Which template(s) govern this file/directory, and what's
  *                    the effective merged schema?
@@ -12,8 +12,8 @@
  *                    against the data instead of against a guess).
  *
  * Resolution mirrors tools/collections-validate/validate.mjs exactly: walk down
- * from collections/ and tags/, and a directory's own schema.json *layers onto*
- * the inherited one for that subtree (`properties` merge, `required` unions,
+ * from collections/ and tags/, and a directory's own item-attributes.schema.json
+ * *layers onto* the inherited one for that subtree (`properties` merge, `required` unions,
  * `additionalProperties` takes the nearest declared value) rather than
  * replacing it — see the json-schema skill's fact 2.
  */
@@ -112,8 +112,8 @@ function index() {
     const files = entries.filter((e) => e.isFile()).map((e) => e.name);
 
     let { schemaChain, schemaJson, claudeMdPath } = inherited;
-    if (files.includes('schema.json')) {
-      const p = path.join(dir, 'schema.json');
+    if (files.includes('item-attributes.schema.json')) {
+      const p = path.join(dir, 'item-attributes.schema.json');
       const own = JSON.parse(fs.readFileSync(p, 'utf8'));
       schemaChain = [...schemaChain, p];
       schemaJson = mergeAttributesSchema(schemaJson, own);
@@ -186,12 +186,12 @@ function governedFiles(dirs, schemaPath) {
 
 function resolveSchemaPath(dirs, argPath) {
   const abs = resolvePath(argPath);
-  if (!fs.statSync(abs).isDirectory() && abs.endsWith('schema.json')) {
+  if (!fs.statSync(abs).isDirectory() && abs.endsWith('item-attributes.schema.json')) {
     return abs;
   }
   const ctx = dirs.get(targetDir(argPath));
   if (!ctx || ctx.schemaChain.length === 0) {
-    console.error(`No schema.json governs ${argPath}.`);
+    console.error(`No item-attributes.schema.json governs ${argPath}.`);
     process.exit(1);
   }
   return ctx.schemaChain[ctx.schemaChain.length - 1];
@@ -297,7 +297,7 @@ switch (cmd) {
   node schema-scope.mjs scope <path>            which entity files that template governs
   node schema-scope.mjs keys  <path> [--max=N]  attribute keys + value distribution of the real data
 
-<path> may be a directory, an entity .yaml, or a schema.json.
+<path> may be a directory, an entity .yaml, or an item-attributes.schema.json.
 Paths are relative to the repo root or to cwd.`);
     process.exit(cmd ? 1 : 0);
 }

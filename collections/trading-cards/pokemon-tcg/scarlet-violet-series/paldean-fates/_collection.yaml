@@ -9,5 +9,6 @@ description: >
   Rare, Special Illustration Rare, and Hyper Rare chase cards.
 date: "2024-01-26"
 ongoing: false
-total_cards: 91
+attributes:
+  total_cards: 91
 image: https://images.pokemontcg.io/sv4pt5/logo.png

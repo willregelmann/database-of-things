@@ -11,5 +11,6 @@ description: >
   subset.
 date: "2022-11-11"
 ongoing: false
-total_cards: 195
+attributes:
+  total_cards: 195
 image: https://images.pokemontcg.io/swsh12/logo.png

@@ -10,5 +10,6 @@ description: >
   oversized attack callout.
 date: "2026-01-30"
 ongoing: false
-total_cards: 217
+attributes:
+  total_cards: 217
 image: https://images.scrydex.com/pokemon/me2pt5-logo/logo

@@ -9,5 +9,6 @@ description: >
   deliberate homage rather than new Celebrations-specific numbering.
 date: "2021-10-08"
 ongoing: false
-total_cards: 25
+attributes:
+  total_cards: 25
 image: https://images.pokemontcg.io/cel25/logo.png

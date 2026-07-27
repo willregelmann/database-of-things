@@ -10,5 +10,6 @@ description: >
   notable Meowth secret rare.
 date: "2011-11-16"
 ongoing: false
-total_cards: 101
+attributes:
+  total_cards: 101
 image: https://images.pokemontcg.io/bw3/logo.png

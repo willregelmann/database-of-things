@@ -9,5 +9,6 @@ description: >
   illustrations.
 date: "2022-09-09"
 ongoing: false
-total_cards: 196
+attributes:
+  total_cards: 196
 image: https://images.pokemontcg.io/swsh11/logo.png

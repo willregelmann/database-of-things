@@ -9,5 +9,6 @@ description: >
   Rare VMAX and gold Secret Rare cards.
 date: "2021-06-18"
 ongoing: false
-total_cards: 198
+attributes:
+  total_cards: 198
 image: https://images.pokemontcg.io/swsh6/logo.png

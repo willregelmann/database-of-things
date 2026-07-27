@@ -5,7 +5,7 @@
 ```
 amazing-spider-man/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # Vol. 1 as a whole
   <number>-the-amazing-spider-man-<number>.yaml
 ```

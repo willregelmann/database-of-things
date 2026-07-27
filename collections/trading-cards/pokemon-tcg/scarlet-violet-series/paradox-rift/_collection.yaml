@@ -9,5 +9,6 @@ description: >
   Technical Machine Pokémon Tool cards.
 date: "2023-11-03"
 ongoing: false
-total_cards: 182
+attributes:
+  total_cards: 182
 image: https://images.pokemontcg.io/sv4/logo.png

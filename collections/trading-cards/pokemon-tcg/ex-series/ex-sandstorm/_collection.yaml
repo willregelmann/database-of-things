@@ -10,5 +10,6 @@ description: >
   including seven Pokémon-ex cards.
 date: "2003-09-18"
 ongoing: false
-total_cards: 100
+attributes:
+  total_cards: 100
 image: https://images.pokemontcg.io/ex2/logo.png

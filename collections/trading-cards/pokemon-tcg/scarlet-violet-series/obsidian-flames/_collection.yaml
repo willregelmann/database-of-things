@@ -9,5 +9,6 @@ description: >
   Illustration Rare and a Hyper Rare secret card.
 date: "2023-08-11"
 ongoing: false
-total_cards: 197
+attributes:
+  total_cards: 197
 image: https://images.pokemontcg.io/sv3/logo.png

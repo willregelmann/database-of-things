@@ -10,5 +10,6 @@ description: >
   cards" collection, not this promo line.
 date: "2013"
 ongoing: false
-total_cards: 211
+attributes:
+  total_cards: 211
 image: https://images.pokemontcg.io/xyp/logo.png

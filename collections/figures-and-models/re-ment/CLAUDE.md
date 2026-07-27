@@ -15,7 +15,7 @@ features a Pokémon on it.
 ```
 re-ment/
   CLAUDE.md
-  schema.json          # manufacturer + pokemon attributes, inherited by everything below
+  item-attributes.schema.json  # manufacturer + pokemon attributes, inherited by everything below
   _collection.yaml               # Re-Ment itself
   <franchise>/                   # e.g. "pokemon" — only Pokémon is curated so far
     _collection.yaml

@@ -9,5 +9,6 @@ description: >-
   like Mew ex, Flygon ex, and Walrein ex.
 date: "2006-02-13"
 ongoing: false
-total_cards: 93
+attributes:
+  total_cards: 93
 image: https://images.pokemontcg.io/ex12/logo.png

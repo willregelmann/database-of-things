@@ -9,5 +9,6 @@ description: >
   secret rares numbered beyond the printed total.
 date: "2020-02-07"
 ongoing: false
-total_cards: 202
+attributes:
+  total_cards: 202
 image: https://images.pokemontcg.io/swsh1/logo.png

@@ -9,5 +9,6 @@ description: >
   final evolutions.
 date: "2004-03-15"
 ongoing: false
-total_cards: 95
+attributes:
+  total_cards: 95
 image: https://images.pokemontcg.io/ex4/logo.png

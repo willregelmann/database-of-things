@@ -10,5 +10,6 @@ description: >
   the last as the set's sole Mega Hyper Rare and headline chase card.
 date: "2026-07-17"
 ongoing: false
-total_cards: 84
+attributes:
+  total_cards: 84
 image: https://images.scrydex.com/pokemon/me5-logo/logo

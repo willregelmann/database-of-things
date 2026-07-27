@@ -9,5 +9,6 @@ description: >
   Ultra Rare reprints of its Tag Team GX Pokémon.
 date: "2019-02-01"
 ongoing: false
-total_cards: 181
+attributes:
+  total_cards: 181
 image: https://images.pokemontcg.io/sm9/logo.png

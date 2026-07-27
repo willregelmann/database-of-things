@@ -5,7 +5,7 @@
 ```
 the-electric-tale-of-pikachu/
   CLAUDE.md
-  schema.json
+  item-attributes.schema.json
   _collection.yaml               # the whole 4-volume series
   <number>-<slugified-title>.yaml
 ```

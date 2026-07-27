@@ -9,5 +9,6 @@ description: >
   Pokémon secret rares.
 date: "2008-11-01"
 ongoing: false
-total_cards: 100
+attributes:
+  total_cards: 100
 image: https://images.pokemontcg.io/dp7/logo.png

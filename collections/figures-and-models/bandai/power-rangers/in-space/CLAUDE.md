@@ -9,8 +9,8 @@ Same shape as the other eras — five type-based subdirectories (`figures-and-mo
 `zords/`, `vehicles/`, `weapons/`, `playsets/`), plus a `_zords/`
 components bucket for individual pieces bundled inside a `zords/` Megazord
 — see [`../CLAUDE.md`](../CLAUDE.md), "Zords as components." Flat within
-each. No `../../../../../schema.json` of its own; inherits the shared
-`power-rangers/schema.json`.
+each. No `../../../../../item-attributes.schema.json` of its own; inherits the shared
+`power-rangers/item-attributes.schema.json`.
 
 ## Source
 

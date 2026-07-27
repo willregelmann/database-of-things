@@ -14,6 +14,11 @@
       "minLength": 1,
       "description": "Display name of the item."
     },
+    "type": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Whatever noun accurately names the thing (card, set, plush, minifig, ...) — not a fixed enum. A category introduces whatever value fits its own collectibles."
+    },
     "date": {
       "type": "string",
       "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
@@ -33,9 +38,14 @@
       "items": { "type": "string", "format": "uuid" },
       "description": "Ids referencing tag entities under tags/, for cross-cutting groupings (e.g. franchise) that directory position doesn't already express."
     },
+    "components": {
+      "type": "array",
+      "items": { "type": "string", "format": "uuid" },
+      "description": "Ids of the entities this item is physically made up of. Not every item has this — a category may track a components summary count instead (e.g. LEGO's attributes.minifigCount) until specific components are catalogued."
+    },
     "attributes": {
       "type": "object",
-      "description": "Category-specific structured data, validated against the nearest schema.json in this item's own governing directory."
+      "description": "Category-specific structured data, validated against the nearest item-attributes.schema.json in this item's own governing directory."
     },
     "variants": {
       "type": "array",
