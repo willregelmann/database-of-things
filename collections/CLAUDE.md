@@ -83,6 +83,46 @@ Every path through `collections/` has the same shape:
   is; items directly under a brand are normal when that brand has no line
   tier.
 
+### Sanity check on the brand tier
+
+**A brand directory is always a name someone owns and puts on the product —
+never a descriptive grouping.** Every brand directory in the catalog satisfies
+this today, across three different kinds of mark, all legitimate:
+
+- a **corporate name** — `bandai/`, `nintendo/`, `marvel/`, `viz-media/`
+- a **product or retail brand** — `squishmallows/`, `pokemon-center/`,
+  `firelink/`
+- a **title mark** — `magic-the-gathering/`, `pokemon-tcg/`, `yu-gi-oh/`
+
+Use it as a diagnostic when a new brand directory is proposed: **if the name
+isn't something an owner puts on the product, it's a category, not a brand.**
+Either it belongs one level up as a domain family, or the tier is invented and
+shouldn't exist — the same failure the "brand-defined or community-standard"
+rule below catches from the other direction.
+
+The test is ownership and appearance on the product, **not trademark
+registration.** Registration is evidence, not the requirement: it varies by
+jurisdiction, lapses, and would wrongly exclude an individual artist selling a
+line under their own name, a doujinshi circle, or a defunct line whose mark
+has expired. All of those are legitimate brand directories.
+
+**Worked example — the same franchise across three positions.** "Pokémon"
+appears at the brand tier twice and the line tier once:
+`trading-cards/pokemon-tcg/`, `plush/pokemon-center/`, and
+`figures-and-models/re-ment/pokemon/`. All three are correct, because they're
+three *different* marks — a game, a retail brand, and Re-Ment's own line name
+— while the franchise itself is carried by a `tags/franchises/` tag and lives
+nowhere in the tree.
+
+Note the third one is at the **line** tier, not the brand tier, and that's the
+distinction to hold on to: a franchise name is fine as a line under a
+manufacturer (`re-ment/pokemon/`, `bandai/power-rangers/`) where it names that
+maker's own product line — see
+[`figures-and-models/CLAUDE.md`](figures-and-models/CLAUDE.md). A bare
+franchise name at the **brand** tier is the misplacement, because the franchise
+isn't what the seller's name on the box is. Cross-cutting franchise discovery
+comes from the tag either way.
+
 Two rules govern the optional tiers.
 
 **A tier must be named by the brand or standard in the collecting community
