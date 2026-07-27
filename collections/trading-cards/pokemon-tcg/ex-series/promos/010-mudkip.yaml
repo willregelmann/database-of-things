@@ -1,0 +1,10 @@
+id: e5a5e3a2-10ca-4b31-b435-69029395aa20
+name: Mudkip
+type: card
+date: "2003"
+attributes:
+  number: "010"
+  rarity: Promo
+  illustrator: Atsuko Nishida
+image:
+  source_url: https://images.pokemontcg.io/np/10_hires.png

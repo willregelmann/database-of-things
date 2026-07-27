@@ -1,0 +1,10 @@
+id: fd45da06-b66c-4c69-b389-6c36358874e4
+name: Mudkip
+type: card
+date: "2004"
+attributes:
+  number: "005"
+  rarity: Promo
+  illustrator: Ken Sugimori
+image:
+  source_url: https://images.pokemontcg.io/np/5_hires.png
