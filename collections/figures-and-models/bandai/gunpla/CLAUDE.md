@@ -86,6 +86,13 @@ digit width so far (3 digits covers every sub-line confirmed to date, e.g.
 999, same rule as any other numbered collection (see the root
 [`collections/CLAUDE.md`](../../../CLAUDE.md)).
 
+**MG is the documented exception** — only about half its kits have a
+sourceable lineup number, so it names files `<slugified-name>.yaml` and keeps
+the number in `attributes.number` where known. See
+[`mg/CLAUDE.md`](mg/CLAUDE.md) before applying the rule above to a grade whose
+numbering you haven't checked; "one continuous numbering per grade" holds for
+MG in principle but isn't fully recoverable from public sources.
+
 ## Attributes
 
 See `template.schema.json`. `attributes.scale` should match the grade's
