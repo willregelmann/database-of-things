@@ -6,4 +6,6 @@ attributes:
   number: "47/110"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/47_hires.png

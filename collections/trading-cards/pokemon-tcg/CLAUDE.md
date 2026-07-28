@@ -567,6 +567,64 @@ checklist — like other promo lines in this category, cards stay at
 year-only `date` precision until each gets its own individually-sourced
 date.
 
+## Variants
+
+`attributes.variants` records which distinct physical print treatments exist
+for a card's specific collector number — a different concept from
+`attributes.rarity`, which describes the card's slot/mechanic, not its print
+run. Enum-validated like `rarity`; expected to grow the same way (confirm the
+label, add it to `item-attributes.schema.json` alongside the card(s) that need
+it, don't invent one).
+
+**The enum splits into two families with genuinely different sourcing rules —
+don't use one family's method for the other.**
+
+- **`Reverse Holo`**: reliably sourceable from the Pokémon TCG API's
+  `tcgplayer.prices` object. A card whose response includes a
+  `reverseHolofoil` key (alongside `normal`/`holofoil`) has a confirmed
+  reverse holo print — TCGplayer bulk-prices reverse holos even for
+  otherwise-worthless commons, so the key's presence is a trustworthy
+  per-card signal, not just a chase-card one. Introduced with Legendary
+  Collection (May 24, 2002) — the first set to give every card in its
+  checklist a parallel reverse-holo print (see that set's own
+  `_collection.yaml`) — and standard for effectively every set since,
+  though not every card in every later set gets one (some full-art/secret
+  rares don't) — check each card's own `tcgplayer.prices` keys, don't
+  assume a blanket rule holds past Legendary Collection.
+
+  **Legendary Collection itself has a small confirmed gap in this signal —
+  don't let it override the set's own documented rule.** Its live API data
+  is missing the `reverseHolofoil` price key for exactly 2 of 110 cards
+  (`88/110` Psyduck, `93/110` Slowpoke), even though third-party listings
+  (GoCollect, PriceCharting, PSA pop reports) confirm reverse holo prints
+  of both exist — a TCGplayer pricing gap for these two specific commons,
+  not a real printing absence. Since Legendary Collection's own rule is
+  "every card in the checklist gets a reverse holo parallel, no
+  exceptions" (see its `_collection.yaml` description), this set is filed
+  as `Reverse Holo` on all 110 cards uniformly rather than per-card API
+  lookup — unlike later sets, where the per-card check is the rule, not
+  the exception.
+- **`1st Edition` / `Shadowless` / `Unlimited`**: WOTC-era (1999–2003)
+  print-run distinction. **Do NOT use the API's `tcgplayer.prices` keys for
+  these** — unlike `reverseHolofoil`, TCGplayer doesn't separately
+  price-track `1stEditionNormal`/`1stEditionHolofoil` for most low-value
+  vintage commons even though the physical variant exists, so absence of
+  the key means "not priced," not "doesn't exist." Source this trio from
+  set-level collecting history (Bulbapedia's set article, or a dedicated
+  vintage-collecting reference) instead, and expect it to apply uniformly
+  across a whole set's checklist rather than needing a per-card lookup.
+
+**Base Set's Machamp (`008-machamp.yaml`, `8/102`) is the one confirmed
+exception to "every Base Set card got all three treatments."** It was
+commercially printed ONLY as 1st Edition (holofoil) in the regular booster
+set — no Shadowless or Unlimited print exists outside of it. The sole
+non-1st-edition Machamp is a non-holo print exclusive to the separate
+"Trainer Deck A" 2-Player Starter Set product (red-bordered, pre-release
+League exclusive) — a different product entirely, not part of this
+checklist — confirmed via Bulbapedia. `attributes.variants` for this one
+card is `["1st Edition"]` only; every other Base Set card is `["1st
+Edition", "Shadowless", "Unlimited"]`.
+
 ## Third-party data sources can disagree — verify glyphs, not just facts
 
 The Pokémon TCG API (`api.pokemontcg.io`) is a convenient bulk source for

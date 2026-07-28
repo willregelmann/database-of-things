@@ -6,4 +6,6 @@ attributes:
   number: "29/110"
   rarity: Rare
   illustrator: Christopher Rush
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/29_hires.png

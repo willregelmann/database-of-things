@@ -6,4 +6,6 @@ attributes:
   number: "83/110"
   rarity: Common
   illustrator: Ken Sugimori
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/83_hires.png

@@ -55,6 +55,18 @@
     "illustrator": {
       "type": "string"
     },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "1st Edition",
+          "Shadowless",
+          "Unlimited",
+          "Reverse Holo"
+        ]
+      }
+    },
     "type": {
       "type": "array",
       "items": {

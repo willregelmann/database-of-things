@@ -6,4 +6,6 @@ attributes:
   number: "8/102"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  variants:
+    - 1st Edition
 image: https://images.pokemontcg.io/base1/8_hires.png

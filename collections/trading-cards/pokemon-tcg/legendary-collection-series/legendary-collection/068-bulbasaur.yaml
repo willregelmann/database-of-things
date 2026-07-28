@@ -6,4 +6,6 @@ attributes:
   number: "68/110"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "100/110"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/100_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/110"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/109_hires.png

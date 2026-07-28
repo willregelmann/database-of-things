@@ -6,4 +6,6 @@ attributes:
   number: "33/110"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/33_hires.png

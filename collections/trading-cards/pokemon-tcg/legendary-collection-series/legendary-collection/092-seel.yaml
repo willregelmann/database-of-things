@@ -6,4 +6,6 @@ attributes:
   number: "92/110"
   rarity: Common
   illustrator: Ken Sugimori
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/92_hires.png

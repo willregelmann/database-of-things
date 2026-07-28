@@ -6,4 +6,6 @@ attributes:
   number: "6/110"
   rarity: Rare Holo
   illustrator: Shin-ichi Yoshida
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/6_hires.png

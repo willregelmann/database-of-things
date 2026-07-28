@@ -6,4 +6,6 @@ attributes:
   number: "52/110"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/52_hires.png

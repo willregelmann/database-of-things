@@ -6,4 +6,6 @@ attributes:
   number: "55/110"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/55_hires.png

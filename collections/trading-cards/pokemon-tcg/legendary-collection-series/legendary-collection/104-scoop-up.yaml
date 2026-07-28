@@ -6,4 +6,6 @@ attributes:
   number: "104/110"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/104_hires.png

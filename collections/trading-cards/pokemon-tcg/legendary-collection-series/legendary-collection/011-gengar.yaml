@@ -6,4 +6,6 @@ attributes:
   number: "11/110"
   rarity: Rare Holo
   illustrator: Keiji Kinebuchi
+  variants:
+    - Reverse Holo
 image: https://images.pokemontcg.io/base6/11_hires.png

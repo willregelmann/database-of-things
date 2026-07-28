@@ -6,4 +6,8 @@ attributes:
   number: "69/102"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  variants:
+    - 1st Edition
+    - Shadowless
+    - Unlimited
 image: https://images.pokemontcg.io/base1/69_hires.png
