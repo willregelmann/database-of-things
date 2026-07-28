@@ -7,3 +7,6 @@ attributes:
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
 image: https://images.pokemontcg.io/base6/5_hires.png
+variants:
+  - id: c630e008-2693-455c-81da-d40731ae0dae
+    name: Reverse Holo

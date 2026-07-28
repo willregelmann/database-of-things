@@ -7,3 +7,10 @@ attributes:
   rarity: Common
   illustrator: Ken Sugimori
 image: https://images.pokemontcg.io/base1/62_hires.png
+variants:
+  - id: 83a3cad1-1b54-4778-bfdb-9b9627f4e1f6
+    name: 1st Edition
+  - id: 3ff62282-fb8b-4fd7-9d73-ba855fa7bb08
+    name: Shadowless
+  - id: 07395654-1a68-4747-b495-10eea413db61
+    name: Unlimited

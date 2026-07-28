@@ -7,3 +7,6 @@ attributes:
   rarity: Rare
   illustrator: Ken Sugimori
 image: https://images.pokemontcg.io/base6/34_hires.png
+variants:
+  - id: 7827076d-0873-4345-85a0-42d9e604af3a
+    name: Reverse Holo

@@ -7,3 +7,6 @@ attributes:
   rarity: Rare Holo
   illustrator: Ken Sugimori
 image: https://images.pokemontcg.io/base1/8_hires.png
+variants:
+  - id: c6f4ec21-4736-4a4d-9c11-edfede067ab9
+    name: 1st Edition

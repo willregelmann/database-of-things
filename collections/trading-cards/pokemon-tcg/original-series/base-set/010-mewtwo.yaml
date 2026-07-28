@@ -7,3 +7,10 @@ attributes:
   rarity: Rare Holo
   illustrator: Ken Sugimori
 image: https://images.pokemontcg.io/base1/10_hires.png
+variants:
+  - id: 91f9e9d9-4b29-431e-a3f5-327d3496802e
+    name: 1st Edition
+  - id: 3d675b3c-dbcb-4fcf-af4e-7f8362e195bf
+    name: Shadowless
+  - id: 4ac945c5-2d9e-471c-ad76-f789573f785f
+    name: Unlimited

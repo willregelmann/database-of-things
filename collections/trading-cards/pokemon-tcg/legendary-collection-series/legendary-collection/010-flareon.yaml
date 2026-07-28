@@ -7,3 +7,6 @@ attributes:
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
 image: https://images.pokemontcg.io/base6/10_hires.png
+variants:
+  - id: d04bc10d-41fd-495d-9216-af2a594f05fc
+    name: Reverse Holo

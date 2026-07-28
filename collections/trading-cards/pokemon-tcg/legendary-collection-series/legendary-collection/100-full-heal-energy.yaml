@@ -7,3 +7,6 @@ attributes:
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
 image: https://images.pokemontcg.io/base6/100_hires.png
+variants:
+  - id: ab17a9ce-a89b-4bff-bfd1-96d723d2f8f7
+    name: Reverse Holo
