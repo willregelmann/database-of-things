@@ -20,6 +20,9 @@ name: Pokémon
 type: tag
 ```
 
+- **`id`** — a UUID, generated once, never reused. Nothing in the catalog
+  references a tag by name — a `tags` list points at this id instead (see
+  "Referencing a tag," below).
 - **`name` is the tag's proper display form** — `Pokémon`, not `pokemon`;
   `Assassin's Creed`, not `assassins-creed`. This is the only place that
   display form is recorded at all; the filename is just a slug for human
@@ -28,11 +31,19 @@ type: tag
   — `name: Magic: The Gathering` is a genuine parse error, not a style
   nit (a bare `: ` inside an unquoted scalar reads as a second mapping
   key).
+- **`type`** — always `tag`, every tag entity's entity-kind marker.
 
-This shape — `id`/`name`/`type`/`description`/`image`, nothing else — is
-enforced by [`schemas/tag.schema.json`](../../schemas/tag.schema.json);
-everything else in this file is the prose walkthrough of what that schema
-allows and why.
+This shape — every field below included — is enforced by
+[`schemas/tag.schema.json`](../../schemas/tag.schema.json); everything
+else in this file is the prose walkthrough of what that schema allows and
+why.
+
+## Optional fields
+
+- **`description`** — prose context. Original synthesis only, never
+  pasted or lightly reworded source text.
+- **`image`** — URL of the tag's own logo, from an authoritative source,
+  if one applies.
 
 ## Namespaces
 
@@ -56,12 +67,9 @@ tags:
 - **By `id`, always** — there is no freeform ad hoc string tagging.
   Reusing an existing tag is as cheap as it's always been (look up its
   `id`); adding a genuinely new one means creating its entity file first.
-- **Duplicate ids in one `tags` list are an error** — unlike
-  [`components`](COMPONENT.md), where a duplicate is meaningful (owning
-  more than one of the same part), tagging the same thing twice never is.
-- The validator enforces referential integrity on `tags` the same way it
-  does on `components`, plus one additional check `components` doesn't
-  have: every referenced id must resolve to an entity with `type: tag`
+- **Duplicate ids in one `tags` list are an error** —  tagging the same
+  thing twice never is.
+- Every referenced id must resolve to an entity with `type: tag`
   specifically, not just any entity — catching a tag reference that
   accidentally points at a collection or item id.
 - Don't over-tag: a tag only earns its place if it captures a grouping

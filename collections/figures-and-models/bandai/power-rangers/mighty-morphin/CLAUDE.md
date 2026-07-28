@@ -11,14 +11,14 @@ mighty-morphin/
   _collection.yaml
   figures/      # poseable Rangers, villains, dolls, talking figures, mini blind-assortment figures
   zords/        # Megazords, Thunderzords, Dragonzord, Titanus, Tor, Falconzord, Serpentera, ...
-  _zords/       # individual Dinozords/Thunderzords/Shogunzords/Ninjazords bundled inside a zords/ Megazord
   vehicles/     # Battle Bikes, Thunder Bikes, Shark Cycles
   weapons/      # Power Morpher, Dragon Dagger, Power Cannon, Saba, Power Blaster
   playsets/     # Power Dome, Micro Morphin Playsets, Girls Carrying Case Playset
 ```
 
-See [`../CLAUDE.md`](../CLAUDE.md), "Zords as components," for the `_zords/`
-bucket convention.
+See [`../CLAUDE.md`](../CLAUDE.md), "Zords a Megazord combines from," for
+how a Megazord's individually-named, never-sold-separately Dinozords/
+Thunderzords/Shogunzords/Ninjazords are recorded.
 
 Five type-based subdirectories, flat within each — matching an item's `type`
 (`figure`/`zord`/`vehicle`/`weapon`/`playset`) to its directory. Unlike
@@ -116,5 +116,5 @@ are both "Power Pack" boxes that visually bundle two toy windows, and by
 name plausibly bundle two already-catalogued Special Size Zords each (2305:
 White Tigerzord + Falconzord; 2308: Thunder Megazord + Tor) — but no source
 turned up so far explicitly captions box contents by name for either, so
-neither has a `components` field yet. Add one only once a clearer box-back
-photo or instruction sheet confirms the exact contents.
+neither has an `attributes.zordComponents` list yet. Add one only once a
+clearer box-back photo or instruction sheet confirms the exact contents.

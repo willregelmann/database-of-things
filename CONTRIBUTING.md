@@ -129,7 +129,7 @@ npm run validate
 ```
 
 It checks required fields, UUID format and uniqueness, `attributes` against the
-resolved schema, referential integrity of `tags` and `components`, presence of
+resolved schema, referential integrity of `tags`, presence of
 `_collection.yaml`, and that a directory holding entity files has a `CLAUDE.md`
 and `item-attributes.schema.json` — own **or inherited**.
 
@@ -172,6 +172,6 @@ state. Prefer coverage over depth.
 - [`collections/README.md`](collections/README.md) — the file format
 - [`collections/CLAUDE.md`](collections/CLAUDE.md) — cross-cutting curation rules
 - [`docs/primitives/`](docs/primitives/) — the data model (`COLLECTION`, `ITEM`,
-  `COMPONENT`, `TAG`)
+  `TAG`)
 - [`tags/CLAUDE.md`](tags/CLAUDE.md) — adding a franchise tag
 - [`LICENSE`](LICENSE) (code, MIT) and [`LICENSE-DATA`](LICENSE-DATA) (data, CC0)

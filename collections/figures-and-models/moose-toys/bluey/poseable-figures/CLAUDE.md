@@ -13,10 +13,9 @@ Figure 4-Pack") and single-figure "Story Starter" packs (a figure plus one
 episode-themed prop and a mini postcard) — but **the pack box is retail
 packaging, not a collectible in its own right**: owning every figure from a
 multi-pack loose is the same as owning the multi-pack. Don't catalog the
-pack as a `type: pack` item with the figures filed as its `components`.
-Instead, catalog each figure directly as its own plain `type: figure` item
-sitting flat in this directory — the same way Pokémon TCG catalogs
-individual cards, not sealed booster boxes.
+pack itself as a `type: pack` item. Instead, catalog each figure directly
+as its own plain `type: figure` item sitting flat in this directory — the
+same way Pokémon TCG catalogs individual cards, not sealed booster boxes.
 
 **One collectible per visually distinct sculpt, not per pack appearance.**
 A character reappears across many multi-packs wearing its plain everyday

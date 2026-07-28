@@ -1,11 +1,9 @@
 # Collection
 
 A **collection** is a directory that groups other entities — nested
-collections, items, or (for a subset of collections) a components bucket.
-Every domain family, category, series, and set under `collections/` is a
-collection. This is the "container" primitive; see [ITEM.md](ITEM.md) for
-the "member" primitive and [COMPONENT.md](COMPONENT.md) for a third,
-non-owned primitive.
+collections or items. Every domain family, category, series, and set
+under `collections/` is a collection. This is the "container" primitive;
+see [ITEM.md](ITEM.md) for the "member" primitive.
 
 ## Identity
 
@@ -28,10 +26,9 @@ description: >
   from directory position (see "Parent membership," below), and the only
   thing that addresses a collection at all is the `collections-mcp` tool
   surface, which does so exclusively by `id`.
-- **A directory whose name is prefixed with `_`** (other than
-  `_collection.yaml` itself) is not a collection — it's a components
-  bucket (see [COMPONENT.md](COMPONENT.md)) and doesn't get a
-  `_collection.yaml` of its own.
+- **`name`** — display name of the collection.
+- **`type`** — always `collection`, every `_collection.yaml`'s entity-kind
+  marker.
 
 This shape — every field below included — is enforced by
 [`schemas/collection.schema.json`](../../schemas/collection.schema.json);
@@ -47,6 +44,11 @@ allows and why.
   re-deriving it independently. Domain-family directories (the broad
   top-level groupings directly under `collections/`) don't get a `date`
   at all — they're organizational buckets, not things that were released.
+- **`ongoing`** — whether new items are still being produced for the
+  collection. Most collections are closed (a finished set, a discontinued
+  line) and omit or set this `false`; a currently-releasing series (e.g.
+  Pokémon TCG as a whole, or its still-expanding Mega Evolution series)
+  sets it `true`.
 - **`description`** — prose context: release history, scope, what the
   collection spans.
 - **`image`** — URL of the collection's own official logo/brand mark,
@@ -89,14 +91,6 @@ past that, look for a natural subdivision already present in the source
 material (a series, era, or product-line boundary) rather than piling
 everything into one directory.
 
-## Ownership semantics
-
-**Owning every item in a collection constitutes owning the collection.**
-This is the defining trait that distinguishes a collection's items from a
-component (see [COMPONENT.md](COMPONENT.md)): a component is part of an
-item, not a member of a collection, and owning every component of an item
-does *not* constitute owning that item.
-
 ## Inheritance
 
 `CLAUDE.md` and `../../item-attributes.schema.json` are resolved by walking
@@ -106,10 +100,3 @@ them. `../../collection-attributes.schema.json` (governing this collection's
 own `attributes`, see above) resolves the same way, but independently — a
 directory can inherit one without the other, since an item's attribute
 shape and a collection record's attribute shape are unrelated data.
-
-## Tooling
-
-The `collections-mcp` tools address collections exclusively by `id`:
-`choose_random_collection`, `get_collection_context`, `get_collection_details`
-(includes `componentBuckets`, the names of any components buckets this
-collection owns), `list_items`, `list_collections`, `upsert_collection`.

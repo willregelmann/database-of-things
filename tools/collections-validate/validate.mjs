@@ -29,7 +29,6 @@ const validateCollectionShape = ajv.compile(loadSchema('collection.schema.json')
 const validateTagShape = ajv.compile(loadSchema('tag.schema.json'));
 
 const seenIds = new Map(); // id -> { filePath, type }
-const componentRefs = []; // { filePath, id }
 const tagRefs = []; // { filePath, id }
 const entities = []; // { filePath, dir, isCollection, tags } — for the cross-cutting tag pass
 const errors = [];
@@ -51,11 +50,10 @@ function reportEntitySchemaErrors(filePath, validateFn, data) {
 }
 
 // Shared by a top-level entity and each of its `variants[]` — the id/tags/
-// components/date bookkeeping is identical for both; only what's *required*
-// differs (a variant only strictly needs `id`, checked separately by
-// item.schema.json — see validateVariants below), so that part stays out of
-// this helper.
-function validateIdTagsComponentsDate(filePath, data, context) {
+// date bookkeeping is identical for both; only what's *required* differs (a
+// variant only strictly needs `id`, checked separately by item.schema.json
+// — see validateVariants below), so that part stays out of this helper.
+function validateIdTagsDate(filePath, data, context) {
   const prefix = context ? `${context}: ` : '';
   if (data.date !== undefined) {
     if (typeof data.date !== 'string' || !DATE_RE.test(data.date)) {
@@ -84,19 +82,6 @@ function validateIdTagsComponentsDate(filePath, data, context) {
       }
     }
   }
-  if (data.components !== undefined) {
-    if (!Array.isArray(data.components)) {
-      errors.push(`${rel(filePath)}: ${prefix}"components" must be an array of ids`);
-    } else {
-      for (const ref of data.components) {
-        if (typeof ref !== 'string' || !UUID_RE.test(ref)) {
-          errors.push(`${rel(filePath)}: ${prefix}invalid component id ${JSON.stringify(ref)} — must be a UUID`);
-        } else {
-          componentRefs.push({ filePath, id: ref.toLowerCase() });
-        }
-      }
-    }
-  }
   if (data.id) {
     if (!UUID_RE.test(data.id)) {
       errors.push(`${rel(filePath)}: ${prefix}"id" is not a valid UUID: ${data.id}`);
@@ -114,15 +99,15 @@ function validateIdTagsComponentsDate(filePath, data, context) {
 
 // A variant's own required id/name (and the "capped at one level" rule) is
 // already checked by item.schema.json via reportEntitySchemaErrors — this
-// only needs to register each variant's id/tags/components into the same
-// catalog-wide bookkeeping a top-level entity gets, so other entities can
-// validly reference a variant by id and duplicate ids across the whole
-// catalog (not just within one file) get caught.
+// only needs to register each variant's id/tags into the same catalog-wide
+// bookkeeping a top-level entity gets, so other entities can validly
+// reference a variant by id and duplicate ids across the whole catalog (not
+// just within one file) get caught.
 function validateVariants(filePath, data) {
   if (!Array.isArray(data.variants)) return;
   data.variants.forEach((variant, i) => {
     if (!variant || typeof variant !== 'object') return; // reported by item.schema.json already
-    validateIdTagsComponentsDate(filePath, variant, `variants[${i}]`);
+    validateIdTagsDate(filePath, variant, `variants[${i}]`);
   });
 }
 
@@ -143,7 +128,7 @@ function validateEntityStructure(filePath, data) {
       );
     }
   }
-  validateIdTagsComponentsDate(filePath, data, '');
+  validateIdTagsDate(filePath, data, '');
   validateVariants(filePath, data);
 }
 
@@ -275,9 +260,8 @@ function walk(dir, inherited) {
   // invariant — an item's `attributes` never silently goes unvalidated — is
   // enforced per-file below instead, where it's actually known whether
   // `attributes` is present.
-  const isComponentsDir = path.basename(dir).startsWith('_');
   const isRoot = dir === COLLECTIONS_ROOT || dir === TAGS_ROOT;
-  if (!isRoot && !isComponentsDir && !files.includes('_collection.yaml')) {
+  if (!isRoot && !files.includes('_collection.yaml')) {
     errors.push(`${rel(dir)}: missing _collection.yaml`);
   }
 
@@ -347,12 +331,6 @@ for (const root of [COLLECTIONS_ROOT, TAGS_ROOT]) {
 
 walk(COLLECTIONS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null, collectionSchema: null, collectionSchemaJson: null });
 walk(TAGS_ROOT, { claudeMdPath: null, schema: null, schemaJson: null, collectionSchema: null, collectionSchemaJson: null });
-
-for (const { filePath, id } of componentRefs) {
-  if (!seenIds.has(id)) {
-    errors.push(`${rel(filePath)}: "components" references unknown id ${id}`);
-  }
-}
 
 for (const { filePath, id } of tagRefs) {
   const entity = seenIds.get(id);

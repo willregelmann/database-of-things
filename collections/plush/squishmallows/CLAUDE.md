@@ -91,10 +91,14 @@ later releases credit Jazwares. Don't assume; check the actual credit.
 Figures are identified by their **Collector Number**, printed on the hangtag
 alongside a size code, e.g. a tag reading `S5 #1366-2` is size 5", Collector
 Number 1366, second released version/colorway of that number. Use the bare
-Collector Number (without the size prefix) as `attributes.number`; record any
-dash-suffixed version as part of the filename (see Naming files below) since
-it disambiguates a re-release/colorway of the same base character, the same
-way Funko's variant suffix does.
+Collector Number (without the size prefix) as `attributes.number`. A
+dash-suffixed version (`-2`, `-3`, ...) is the *same* base character and
+Collector Number, just a different print/colorway — file it as a `variants`
+sub-entity on that item (`id`/`name` only — name it by the actual colorway if
+known, otherwise `2nd Version`/`3rd Version`) rather than a second top-level
+file — see
+[`../../../docs/primitives/ITEM.md`](../../../docs/primitives/ITEM.md),
+"Variants."
 
 **Collector Number is not globally unique across all of Squishmallows** —
 only within this directory's scope (the standard line + licensed collabs).
@@ -167,10 +171,9 @@ growing faster than Funko Pop or Nendoroid did at a comparable age) — not a
 canonical width, since this is a continuously growing line with no fixed
 endpoint. Use the full printed name for the slug (e.g. `hans-the-hedgehog`,
 not just `hans`) — Squishmallow names routinely repeat the first name across
-unrelated species (see Common pitfalls). When a version suffix is present on
-the tag (e.g. the `-2` in `S5 #1366-2`), append a short suffix to keep the
-filename unique, e.g. `01366-hans-the-hedgehog.yaml` for the first version,
-`01366-hans-the-hedgehog-v2.yaml` for the second.
+unrelated species (see Common pitfalls). A version suffix on the tag (e.g.
+the `-2` in `S5 #1366-2`) doesn't get its own file — see "Identifying
+items" above.
 
 ## Sizes
 
