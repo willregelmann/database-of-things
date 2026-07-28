@@ -6,8 +6,11 @@ attributes:
   number: "101/102"
   rarity: Common
   illustrator: Keiji Kinebuchi
-  variants:
-    - 1st Edition
-    - Shadowless
-    - Unlimited
 image: https://images.pokemontcg.io/base1/101_hires.png
+variants:
+  - id: 2ad6336d-7249-44ab-97da-d10669311ab4
+    name: 1st Edition
+  - id: a67a2ecd-f3ec-4ef7-80da-72fcc2fa6500
+    name: Shadowless
+  - id: 3ad330f1-1cf3-44aa-bd3f-e9c6ea747f60
+    name: Unlimited

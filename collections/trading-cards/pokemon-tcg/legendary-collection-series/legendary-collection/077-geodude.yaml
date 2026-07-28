@@ -6,6 +6,7 @@ attributes:
   number: "77/110"
   rarity: Common
   illustrator: Kagemaru Himeno
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/77_hires.png
+variants:
+  - id: 53656ef1-53f8-4cdb-82bb-0775c678b0aa
+    name: Reverse Holo

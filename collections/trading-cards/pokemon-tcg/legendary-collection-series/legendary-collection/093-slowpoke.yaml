@@ -6,6 +6,7 @@ attributes:
   number: "93/110"
   rarity: Common
   illustrator: Miki Tanaka
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/93_hires.png
+variants:
+  - id: aa9319df-73eb-419a-b69b-cec0198b22cc
+    name: Reverse Holo

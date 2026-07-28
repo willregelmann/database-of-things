@@ -6,8 +6,11 @@ attributes:
   number: "6/102"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
-  variants:
-    - 1st Edition
-    - Shadowless
-    - Unlimited
 image: https://images.pokemontcg.io/base1/6_hires.png
+variants:
+  - id: 8766afef-5af8-48ac-9070-87448192239b
+    name: 1st Edition
+  - id: 067b401e-744b-4a0c-9927-1c9d1980fb76
+    name: Shadowless
+  - id: 6dd6d8ce-986e-4cfb-aa3a-eb7f0683da37
+    name: Unlimited

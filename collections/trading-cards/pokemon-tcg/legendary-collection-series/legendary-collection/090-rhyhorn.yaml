@@ -6,6 +6,7 @@ attributes:
   number: "90/110"
   rarity: Common
   illustrator: Mitsuhiro Arita
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/90_hires.png
+variants:
+  - id: c1de522e-7d52-4501-8e50-df4c3c45507f
+    name: Reverse Holo

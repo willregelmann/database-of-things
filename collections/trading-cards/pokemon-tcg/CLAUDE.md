@@ -569,15 +569,33 @@ date.
 
 ## Variants
 
-`attributes.variants` records which distinct physical print treatments exist
-for a card's specific collector number — a different concept from
-`attributes.rarity`, which describes the card's slot/mechanic, not its print
-run. Enum-validated like `rarity`; expected to grow the same way (confirm the
-label, add it to `item-attributes.schema.json` alongside the card(s) that need
-it, don't invent one).
+A card's distinct physical print treatments (1st Edition, Shadowless,
+Unlimited, Reverse Holo) are recorded as top-level `variants` sub-entities
+(see `/schemas/item.schema.json`), not as an `attributes` field — each
+treatment is its own physically distinct printing of the card, which is
+exactly what the `variants` primitive models. Give each one just `id` and
+`name`; every other field (`number`, `rarity`, `illustrator`, `image`, …) is
+inherited from the parent card and shouldn't be repeated. This is a different
+concept from `attributes.rarity`, which describes the card's slot/mechanic,
+not its print run.
 
-**The enum splits into two families with genuinely different sourcing rules —
-don't use one family's method for the other.**
+```yaml
+variants:
+  - id: <generated-uuid>
+    name: 1st Edition
+  - id: <generated-uuid>
+    name: Shadowless
+  - id: <generated-uuid>
+    name: Unlimited
+```
+
+There's no schema enum enforcing the label set (a `variants[].name` is a free
+string, unlike `attributes.rarity`) — treat the four names below as the
+convention regardless, and confirm against a source before introducing a new
+one rather than inventing one.
+
+**The four names split into two families with genuinely different sourcing
+rules — don't use one family's method for the other.**
 
 - **`Reverse Holo`**: reliably sourceable from the Pokémon TCG API's
   `tcgplayer.prices` object. A card whose response includes a
@@ -621,9 +639,9 @@ set — no Shadowless or Unlimited print exists outside of it. The sole
 non-1st-edition Machamp is a non-holo print exclusive to the separate
 "Trainer Deck A" 2-Player Starter Set product (red-bordered, pre-release
 League exclusive) — a different product entirely, not part of this
-checklist — confirmed via Bulbapedia. `attributes.variants` for this one
-card is `["1st Edition"]` only; every other Base Set card is `["1st
-Edition", "Shadowless", "Unlimited"]`.
+checklist — confirmed via Bulbapedia. `variants` for this one card is a
+single `1st Edition` entry only; every other Base Set card gets all three
+(`1st Edition`, `Shadowless`, `Unlimited`).
 
 ## Third-party data sources can disagree — verify glyphs, not just facts
 

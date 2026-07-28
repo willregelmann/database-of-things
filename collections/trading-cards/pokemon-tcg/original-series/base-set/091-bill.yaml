@@ -6,8 +6,11 @@ attributes:
   number: "91/102"
   rarity: Common
   illustrator: Ken Sugimori
-  variants:
-    - 1st Edition
-    - Shadowless
-    - Unlimited
 image: https://images.pokemontcg.io/base1/91_hires.png
+variants:
+  - id: 4de633ea-9930-49d3-a113-ca2b6dac5200
+    name: 1st Edition
+  - id: 6ff2a63a-dba6-421c-b190-b72cc57d84aa
+    name: Shadowless
+  - id: f06afe87-5159-45a3-865e-310072ab54ba
+    name: Unlimited

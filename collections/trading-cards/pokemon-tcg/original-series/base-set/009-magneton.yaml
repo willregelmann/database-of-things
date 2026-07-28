@@ -6,8 +6,11 @@ attributes:
   number: "9/102"
   rarity: Rare Holo
   illustrator: Keiji Kinebuchi
-  variants:
-    - 1st Edition
-    - Shadowless
-    - Unlimited
 image: https://images.pokemontcg.io/base1/9_hires.png
+variants:
+  - id: 78628a5f-9f15-4e5c-a1ff-43fe2be31959
+    name: 1st Edition
+  - id: 02ab9793-282a-45c1-894d-6ed289ee7c60
+    name: Shadowless
+  - id: 05353086-5d6a-48bc-9212-4bd091d2e796
+    name: Unlimited

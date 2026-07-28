@@ -6,6 +6,7 @@ attributes:
   number: "43/110"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/43_hires.png
+variants:
+  - id: 85578ecd-cf72-4059-900a-f25a5a3ca948
+    name: Reverse Holo

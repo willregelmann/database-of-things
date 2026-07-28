@@ -6,8 +6,11 @@ attributes:
   number: "70/102"
   rarity: Rare
   illustrator: Keiji Kinebuchi
-  variants:
-    - 1st Edition
-    - Shadowless
-    - Unlimited
 image: https://images.pokemontcg.io/base1/70_hires.png
+variants:
+  - id: d50526d3-84c3-4274-9a5e-6e1e0f4c2c9e
+    name: 1st Edition
+  - id: e2fb2bbd-fff9-4250-a154-5b55f71dfbfc
+    name: Shadowless
+  - id: e8341cb4-83e8-424c-8ab2-7a8fcc5cd125
+    name: Unlimited

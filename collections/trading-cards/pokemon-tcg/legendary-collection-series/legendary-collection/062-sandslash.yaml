@@ -6,6 +6,7 @@ attributes:
   number: "62/110"
   rarity: Uncommon
   illustrator: Ken Sugimori
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/62_hires.png
+variants:
+  - id: 6d754d07-053a-4ad0-8654-4d5b11f428c6
+    name: Reverse Holo

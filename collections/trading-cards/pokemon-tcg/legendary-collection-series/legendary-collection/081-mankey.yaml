@@ -6,6 +6,7 @@ attributes:
   number: "81/110"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/81_hires.png
+variants:
+  - id: 8892c026-b8ac-4588-837c-4134935cdd33
+    name: Reverse Holo

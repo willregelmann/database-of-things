@@ -6,8 +6,11 @@ attributes:
   number: "39/102"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
-  variants:
-    - 1st Edition
-    - Shadowless
-    - Unlimited
 image: https://images.pokemontcg.io/base1/39_hires.png
+variants:
+  - id: 930a80c8-a953-4c22-8d62-790e3b082ade
+    name: 1st Edition
+  - id: 045498fa-a8cb-46c9-8755-8ca95bd9a6e1
+    name: Shadowless
+  - id: 38a995b2-b055-43c9-972f-a1c7c6e152f0
+    name: Unlimited

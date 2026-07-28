@@ -6,6 +6,7 @@ attributes:
   number: "98/110"
   rarity: Common
   illustrator: Ken Sugimori
-  variants:
-    - Reverse Holo
 image: https://images.pokemontcg.io/base6/98_hires.png
+variants:
+  - id: 0b6c1943-3a43-4eaa-adc3-ab5188be8d78
+    name: Reverse Holo
