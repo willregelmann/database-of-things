@@ -53,12 +53,6 @@ finds it.
 
 ## Adding an entry
 
-**With Claude Code**, use the `collections-curate` skill — it resolves the
-right template and `CLAUDE.md`, generates a UUID, writes the file in the right
-place, and validates.
-
-**By hand:**
-
 1. Find the target directory and read its `CLAUDE.md` chain.
 2. Read the nearest `item-attributes.schema.json` — it defines what `attributes` are
    allowed, and the validator enforces it.
@@ -137,14 +131,6 @@ and `item-attributes.schema.json` — own **or inherited**.
 
 Open against `main` and expect human review. **Outside contributions are never
 merged automatically.**
-
-One narrow exception, documented so it isn't surprising: an hourly autonomous
-job audits a randomly chosen collection and opens its own PRs labelled
-`audit-finding`. A second scheduled job reviews *those*, re-verifying every
-claim against an independently run search, and may merge them once CI is
-green. That authority is scoped to machine-generated `audit-finding` PRs from a
-matching `audit/<hash>` branch and to nothing else — see
-[`.claude/skills/collections-audit-review/`](.claude/skills/collections-audit-review/).
 
 ## Owned collections
 

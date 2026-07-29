@@ -33,21 +33,18 @@ collections/                  # the data — see collections/README.md
           ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
-.claude/skills/collections-curate/  # agent tooling for adding/editing entries
 docs/                          # design docs
 ```
 
 ## Adding or editing an entry
 
-Use the `collections-curate` skill if you're working with Claude Code — it
-resolves the right template and `CLAUDE.md`, generates a UUID, writes the file
-in the right place, and validates before you open a PR. See
-[`collections/README.md`](collections/README.md) for the file format and
-[`collections/trading-cards/pokemon-tcg/CLAUDE.md`](collections/trading-cards/pokemon-tcg/CLAUDE.md) for an
-example of category-specific curation hints.
+Add or edit YAML files by hand, following the conventions in the category's
+`CLAUDE.md`. See [`collections/README.md`](collections/README.md) for the
+file format and
+[`collections/trading-cards/pokemon-tcg/CLAUDE.md`](collections/trading-cards/pokemon-tcg/CLAUDE.md)
+for an example of category-specific curation hints.
 
-Otherwise: add or edit YAML files by hand, following the conventions in the
-category's `CLAUDE.md`, and validate before opening a PR:
+Validate before opening a PR:
 
 ```bash
 cd tools/collections-validate
@@ -72,14 +69,6 @@ Some collections have a maintainer listed in
 [`.github/CODEOWNERS`](.github/CODEOWNERS) who is asked to review PRs touching
 them. That signals who knows a collection's pitfalls, not that it's closed to
 contributions.
-
-One narrow exception, so the behaviour isn't surprising: this repo runs an
-hourly autonomous curation job that audits a randomly chosen collection and
-opens its own PRs, labelled `audit-finding`. A second scheduled job reviews
-*those* — re-verifying every claim against an independently-run search — and
-may merge them once CI is green. That authority is scoped to machine-generated
-`audit-finding` PRs from a matching `audit/<hash>` branch, and to nothing else.
-See [`.claude/skills/collections-audit-review/`](.claude/skills/collections-audit-review/).
 
 ## License
 
