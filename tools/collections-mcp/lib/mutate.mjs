@@ -98,13 +98,11 @@ function applyPatch(existingData, patch) {
 }
 
 /**
- * Shared core for upsert_item/upsert_component: create (no `item.id`) or
- * update (`item.id` present) an entity file in `targetDir`. `expectedOwner`
- * (`{ collectionId, bucket }`) guards that an update targets the entity the
- * caller thinks it does — `bucket: null` for a plain item, a bucket name for
- * a component. Every mutation is validated with the full validator after
- * writing; on failure the write is rolled back and an error is thrown with
- * the validator output.
+ * Shared core for upsert_item: create (no `item.id`) or update (`item.id`
+ * present) an entity file in `targetDir`. `expectedOwner` (`{ collectionId }`)
+ * guards that an update targets the entity the caller thinks it does. Every
+ * mutation is validated with the full validator after writing; on failure
+ * the write is rolled back and an error is thrown with the validator output.
  */
 function upsertEntityFile(index, { targetDir, expectedOwner, item, entityLabel }) {
   let writePath;
@@ -115,11 +113,9 @@ function upsertEntityFile(index, { targetDir, expectedOwner, item, entityLabel }
 
   if (item.id) {
     const existing = getItem(index, item.id);
-    if (existing.collectionId !== expectedOwner.collectionId || (existing.bucket || null) !== expectedOwner.bucket) {
+    if (existing.collectionId !== expectedOwner.collectionId) {
       throw new Error(
-        expectedOwner.bucket
-          ? `${entityLabel} ${item.id} is not in collection ${expectedOwner.collectionId}'s "_${expectedOwner.bucket}" bucket`
-          : `${entityLabel} ${item.id} belongs to collection ${existing.collectionId}, not ${expectedOwner.collectionId} — upsert_item never moves items between collections`
+        `${entityLabel} ${item.id} belongs to collection ${existing.collectionId}, not ${expectedOwner.collectionId} — upsert_item never moves items between collections`
       );
     }
     writePath = existing.path;
@@ -168,32 +164,9 @@ export function upsertItem(index, { collectionId, item }) {
   const collection = getCollection(index, collectionId);
   return upsertEntityFile(index, {
     targetDir: collection.dir,
-    expectedOwner: { collectionId, bucket: null },
+    expectedOwner: { collectionId },
     item,
     entityLabel: 'item',
-  });
-}
-
-/**
- * Create (no `item.id`) or update (`item.id` present) a component within
- * `collectionId`'s named components bucket (e.g. "minifigs" for a
- * `lego/<theme>/_minifigs/` directory — see collections/CLAUDE.md,
- * "Components"). The bucket directory must already exist; bootstrapping a
- * brand-new bucket (and its schema, if it needs one distinct from its
- * parent's) is a human/PR-level change, same as upsert_collection already
- * refuses to author new curation conventions for a brand-new category.
- */
-export function upsertComponent(index, { collectionId, bucket, item }) {
-  const collection = getCollection(index, collectionId);
-  const bucketNode = collection.componentBuckets[bucket];
-  if (!bucketNode) {
-    throw new Error(`collection ${collectionId} has no "_${bucket}" components bucket`);
-  }
-  return upsertEntityFile(index, {
-    targetDir: bucketNode.dir,
-    expectedOwner: { collectionId, bucket },
-    item,
-    entityLabel: 'component',
   });
 }
 

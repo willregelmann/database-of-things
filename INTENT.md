@@ -29,7 +29,7 @@ reviewed, rejected, and traced.
    re-verified before merge, whoever proposed it.
 3. A person can claim review authority over any single collection without
    altering how the rest of the catalog operates.
-4. Every entity resolves: no duplicate identifiers, no dangling tag or component
+4. Every entity resolves: no duplicate identifiers, no dangling tag
    reference, no collection directory missing its own record.
 
 ## Non-Goals

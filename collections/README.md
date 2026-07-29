@@ -3,8 +3,7 @@
 This directory is the canonical, file-based source of truth for DBoT's
 collectibles data. See [`../docs/primitives/`](../docs/primitives/) for the
 data model it's built from — [`COLLECTION.md`](../docs/primitives/COLLECTION.md),
-[`ITEM.md`](../docs/primitives/ITEM.md),
-[`COMPONENT.md`](../docs/primitives/COMPONENT.md), and
+[`ITEM.md`](../docs/primitives/ITEM.md), and
 [`TAG.md`](../docs/primitives/TAG.md).
 
 > **License:** the data in this directory is released into the public domain

@@ -23,6 +23,11 @@
     },
     "exclusive_to": {
       "type": "string"
+    },
+    "zordComponents": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Names of the individual Zords a Megazord physically combines from, when Bandai never sold them as separate products. Record only where a source specifically documents the exact pieces."
     }
   },
   "required": [

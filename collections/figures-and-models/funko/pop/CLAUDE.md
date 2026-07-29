@@ -63,8 +63,12 @@ blacklight, etc.) usually share the exact same Pop! No. as the common
 release they vary from** — Funko distinguishes them with a sticker/label on
 the box, not a different number. Unlike Nendoroid, the number alone is NOT a
 reliable uniqueness key — always check whether a release is a variant of an
-already-filed number before assuming a number is unclaimed, and disambiguate
-via the variant descriptor (see Naming files below).
+already-filed number before assuming a number is unclaimed. When it is,
+file it as a `variants` sub-entity on the common release's item (see
+[`../../../../docs/primitives/ITEM.md`](../../../../docs/primitives/ITEM.md),
+"Variants") rather than a second top-level file, giving the variant its own
+`attributes.variant` (see below) since that's the field actually differing
+from the parent.
 
 **Retailer- and convention-exclusive releases (SDCC, NYCC, Hot Topic,
 GameStop, Target, Walmart, Funko Shop, etc.) may reuse an existing common
@@ -83,10 +87,9 @@ links to it may redirect.
 
 `<number>-<slugified-name>.yaml`, number zero-padded to 4 digits (e.g.
 `0421`), inside its line's directory. Since numbers reset per line, this
-only needs to be unique within the line, not across the whole collection.
-When a variant shares its base release's number, append a short variant
-slug to keep the filename unique (e.g. `0421-eleven.yaml` for the common
-release, `0421-eleven-chase.yaml` for its chase variant).
+only needs to be unique within the line, not across the whole collection. A
+variant sharing its base release's number lives inside that same file's
+`variants` array, not a filename of its own.
 
 ## `variant`
 
@@ -106,8 +109,9 @@ need it.
 - Don't treat a Pop! No. as globally unique across lines — always check
   which line before filing (see Identifying items above).
 - Don't assume a chase/variant gets its own number — verify each case, and
-  don't overwrite an existing common release's file when adding its chase
-  counterpart; they're two separate entity files sharing one number.
+  don't create a second top-level file for one that shares its common
+  release's number; add it as a `variants` entry on the existing file
+  instead (see Identifying items above).
 - `manufacturer` is generally "Funko, LLC", but check for co-branded or
   licensed sub-lines that credit differently.
 - This line (like Nendoroid) has no fixed endpoint per line — completeness
