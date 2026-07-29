@@ -29,12 +29,10 @@ curation *is* opening a pull request.
 
 **Curation model**: the catalog is meant to grow and self-correct primarily
 through AI agents web-searching for collectible data and opening PRs, not
-through a human driving every addition. Two skills carry this:
-- `collections-curate` — human- or agent-directed: add or edit specific
-  entries
-- `collections-audit-fix` — fully autonomous: picks a collection, web-searches
-  to verify and fill gaps, opens a PR if anything changed; this is what the
-  scheduled hourly job runs
+through a human driving every addition. Curation currently happens by
+directly editing entity files and validating by hand (see "Adding or
+editing an entry" below) — no dedicated curation/audit tooling is wired up
+at the moment.
 
 ## Repository structure
 
@@ -55,7 +53,6 @@ tags/                          # cross-cutting tag entities — see
     ...
 tools/collections-validate/   # CI validator: schema conformance, UUID
                                # uniqueness, required-file presence
-.claude/skills/collections-curate/  # agent tooling for adding/editing entries
 docs/                          # design docs
 ```
 
@@ -109,11 +106,8 @@ worked example.
 
 ## Adding or editing an entry
 
-Use the `collections-curate` skill if you're working with Claude Code — it
-resolves the right template and `CLAUDE.md`, generates a UUID, writes the file
-in the right place, and validates before opening a PR.
-
-Otherwise, validate by hand before opening a PR:
+Add or edit entity files directly (see "Entity file format" and "Naming
+files" above), then validate before opening a PR:
 
 ```bash
 cd tools/collections-validate

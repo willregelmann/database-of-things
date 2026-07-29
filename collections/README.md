@@ -61,6 +61,7 @@ CI runs this on every PR that touches `collections/**`.
 
 ## Adding entries
 
-Use the `collections-curate` skill (`.claude/skills/collections-curate/`) — it
-resolves the right template/`CLAUDE.md`, generates a UUID, writes the file in the
-right place, and runs the validator before you open a PR.
+Read the target directory's `CLAUDE.md` chain and nearest
+`item-attributes.schema.json`, generate a fresh id with `uuidgen` (never reuse
+or hand-pick one), write the file per the layout above, then run the
+validator before you open a PR.
