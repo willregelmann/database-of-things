@@ -11,3 +11,5 @@ description: >
   Species-era mechanics, and distributed through channels like Nintendo Power
   magazine, tournament prizes, DVD releases, and retail value packs. Spans 40
   cards, numbered 001 through 040.
+attributes:
+  total_cards: 40

@@ -518,11 +518,48 @@ page. Same policy as the SWSH gap: catalogue what the API actually
 returns, document the specific missing numbers as a future task, don't
 fabricate entries from secondary sources.
 
-**Prismatic Evolutions (`sv8pt5`) has null `artist` on all 180 cards in
-the live API — not a scattered gap, the entire set.** Omit the
-illustrator field for all of them per the existing null-illustrator
-precedent, rather than hand-researching 180 credits from Bulbapedia
-one at a time.
+**Prismatic Evolutions (`sv8pt5`), Shrouded Fable (`sv6pt5`), Stellar
+Crown (`sv7`), Surging Sparks (`sv8`), and `sve` (Scarlet & Violet
+Energies) all have null `artist` on every card in the live Pokémon TCG
+API — but that's a gap in that one API, not a real data gap. Don't stop
+at the API and default to omitting the field.** Fan card databases carry
+these credits independently of `api.pokemontcg.io`: pkmncards.com's
+per-card pages (`https://pkmncards.com/card/<slug>/`) print an
+`illus. <a href=".../artist/...">NAME</a>` block sourced from the
+physical card, and spot-checks against Limitless
+(`limitlesstcg.com/cards/<code>/<n>`) agreed on every card checked.
+Bulk-sourced illustrator this way for all five sets/subsets — every
+`/set/<slug>/` listing page links every card in the set, so the whole
+checklist is fetchable without per-card guessing. 100% coverage on four
+of them; Surging Sparks has one genuine remaining gap (see below).
+
+**pkmncards.com sometimes prints the literal string `n/a` in the
+illustrator slot instead of omitting the block — treat that as "not
+credited," never write it into `attributes.illustrator` as if it were a
+real name.** Hit this on a handful of Trainer/Energy cards across the sets
+above (confirmed: 2 cards in Shrouded Fable, 2 in Surging Sparks, all of
+`sve`'s live listing) plus 3 cards in Perfect Order (see below) — omit
+`illustrator` for these, same as any other genuinely uncredited card.
+
+**When a card comes up genuinely uncredited on every web source checked,
+read the card's own image before giving up.** Surging Sparks' `246/252`
+("Lisia's Appeal") had no illustrator on pokemontcg.io *or* pkmncards.com
+— but every physically-printed non-Energy card carries its own credit as
+small `Illus. <name>` text near the bottom border, above the copyright
+line, independent of any third-party database. Fetching the card's own
+`image` URL and reading that line directly gave `Illus.
+Nobusawa/Mochipuyo` — a two-artist collaborative credit, matching the
+`/`-joined format already used elsewhere in this category (e.g. `Ken
+Sugimori/Yusuke Ohmura`). This is a fallback for the rare single-card
+gap that survives multiple bulk sources, not a routine step — Energy
+cards in particular often don't print an individual credit line at all,
+so don't expect it to close the Energy-card gaps documented above.
+
+Surging Sparks also has 7 cards whose illustrator was already
+hand-sourced before pkmncards was used as a bulk source — the parallel
+"ex" prints of Milotic ex (Double Rare, Ultra Rare, Special Illustration
+Rare) and Pikachu ex (those three plus Hyper Rare). pkmncards
+independently agrees with all 7 existing credits.
 
 **Mega Evolution Series (2025 onward) mostly continues the Scarlet &
 Violet star-tier system — `Common` through `Special Illustration Rare`
@@ -551,9 +588,13 @@ the true ceiling. When a page-2 fetch returns cards you already have
 missing range rather than accepting a truncated merge.
 
 **`me1` (Mega Evolution) and `me3` (Perfect Order) have null `artist` on
-every single card in the live API — the same total-set gap pattern as
-Prismatic Evolutions, just recurring across two full sets in the same
-series.** Omit the illustrator field throughout both, per precedent.
+every single card in the live API — the same API-only gap as the Scarlet
+& Violet Series sets above, not a real data gap.** Sourced from
+pkmncards.com the same way: 188/188 for Mega Evolution, 121/124 for
+Perfect Order. Perfect Order's three exceptions — `86/88`, `87/88`,
+`88/88` (its Grass/Fighting/Psychic-type Basic Energy reprints) — come
+back `n/a` on pkmncards too and are genuinely uncredited; leave
+`illustrator` omitted for just those three.
 
 **The Mega Evolution-era promo line (`mega-evolution-series/promos/`,
 "MEP Black Star Promos") is catalogued, sourced from Bulbapedia's own
