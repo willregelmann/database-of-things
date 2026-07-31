@@ -6,4 +6,6 @@ attributes:
   number: "142/202"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/142_hires.png

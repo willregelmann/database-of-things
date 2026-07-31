@@ -6,4 +6,6 @@ attributes:
   number: "69/142"
   rarity: Common
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/69_hires.png

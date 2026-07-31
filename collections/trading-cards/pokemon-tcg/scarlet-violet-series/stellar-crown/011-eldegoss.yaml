@@ -6,4 +6,6 @@ attributes:
   number: "11/142"
   rarity: Uncommon
   illustrator: Yuka Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/11_hires.png

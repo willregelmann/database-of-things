@@ -6,4 +6,6 @@ attributes:
   number: "83/202"
   rarity: Common
   illustrator: Taira Akitsu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh1/83_hires.png

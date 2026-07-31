@@ -6,4 +6,6 @@ attributes:
   number: "78/202"
   rarity: Rare
   illustrator: Megumi Mizutani
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/78_hires.png

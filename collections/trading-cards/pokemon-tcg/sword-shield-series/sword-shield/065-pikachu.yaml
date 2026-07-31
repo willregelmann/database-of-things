@@ -6,4 +6,6 @@ attributes:
   number: "65/202"
   rarity: Common
   illustrator: Ryuta Fuse
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/65_hires.png

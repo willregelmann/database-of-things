@@ -6,4 +6,6 @@ attributes:
   number: "111/142"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv7/111_hires.png

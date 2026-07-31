@@ -6,6 +6,8 @@ attributes:
   number: "57/102"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base1/57_hires.png
 variants:
   - id: 75f0ee48-6c3d-48b2-8a54-10c00fbff46a

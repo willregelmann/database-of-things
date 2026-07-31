@@ -608,6 +608,53 @@ checklist — like other promo lines in this category, cards stay at
 year-only `date` precision until each gets its own individually-sourced
 date.
 
+## Pokémon type
+
+`attributes.type` (the Pokémon's energy type — `Fire`, `Water`, etc.) only
+applies to Pokémon-supertype cards; Trainer, Supporter, Item, Stadium, and
+Energy cards never get one, and that's correct, not a gap. Source it from
+the same live Pokémon TCG API already used for `number`/`rarity`/`date` —
+its `types` field maps directly onto this schema's 11-value enum with no
+translation needed (unlike `rarity`'s messy era-specific casing/wording
+history), and it's a `supertype: "Pokémon"` check away from correctly
+skipping every non-Pokémon card. Piloted on four sets spanning 1999-2024
+(Base Set, Neo Revelation, Sword & Shield, Stellar Crown — 456 Pokémon
+cards) with zero null `types` and zero cards needing more than one value.
+
+**Format**: a block sequence, indented 2 spaces deeper than the `type:`
+key itself (matching this repo's convention for any other array-valued
+attribute, e.g. `attributes.zordComponents` elsewhere in the catalog) —
+`yaml.safe_dump` does NOT produce this indentation by default, it aligns
+list items with their parent key, so don't trust a naive dump without
+checking the output:
+
+```yaml
+attributes:
+  number: "4/102"
+  rarity: Rare Holo
+  illustrator: Mitsuhiro Arita
+  type:
+    - Fire
+```
+
+**Historical "Dragon" Pokémon are typed by their base element, not
+`Dragon`, and the API is right about it — confirmed against the physical
+card, not just trusted blindly.** Dragon wasn't an energy type with its
+own icon until Scarlet & Violet Series' Dragon Vault-style usage; Neo
+Revelation-era "Dragon" Pokémon (e.g. Kingdra, `19/64`) print a single
+ordinary type icon on the physical card (Kingdra's is Water), matching the
+API's `types: ["Water"]` exactly — verified by fetching the card's own
+`image` and inspecting the printed icon directly, not assumed. Don't
+second-guess the API on this without similarly checking a physical card
+first.
+
+**Not yet run past the pilot's four sets** — same phased-rollout status as
+[[project_pokemon_tcg_variants]]: rest of the catalog (~16,000 more
+Pokémon cards across ~136 more expansion/promo directories) still needs
+the same bulk per-set fetch. Reuse this category's already-documented API
+gaps (SWSH/SVP promo completeness, `me2pt5` pagination bug, sets with no
+`api.pokemontcg.io` id at all) rather than re-discovering them for `type`.
+
 ## Variants
 
 A card's distinct physical print treatments (1st Edition, Shadowless,

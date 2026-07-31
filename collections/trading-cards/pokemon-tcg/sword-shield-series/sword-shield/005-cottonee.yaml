@@ -6,4 +6,6 @@ attributes:
   number: "5/202"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/5_hires.png

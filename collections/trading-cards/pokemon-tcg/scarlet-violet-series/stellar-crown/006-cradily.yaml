@@ -6,4 +6,6 @@ attributes:
   number: "6/142"
   rarity: Rare
   illustrator: miki kudo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/6_hires.png

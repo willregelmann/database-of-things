@@ -6,6 +6,8 @@ attributes:
   number: "27/102"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base1/27_hires.png
 variants:
   - id: 6af66afc-4b92-4d6c-8812-6c1e16bde327

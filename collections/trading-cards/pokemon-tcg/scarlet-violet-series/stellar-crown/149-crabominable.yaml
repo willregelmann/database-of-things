@@ -6,4 +6,6 @@ attributes:
   number: "149/142"
   rarity: Illustration Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/149_hires.png

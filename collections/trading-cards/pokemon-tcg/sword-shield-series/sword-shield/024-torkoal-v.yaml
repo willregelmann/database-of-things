@@ -6,4 +6,6 @@ attributes:
   number: "24/202"
   rarity: Rare Holo V
   illustrator: Ayaka Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/24_hires.png

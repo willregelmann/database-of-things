@@ -6,4 +6,6 @@ attributes:
   number: "169/142"
   rarity: Special Illustration Rare
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/169_hires.png

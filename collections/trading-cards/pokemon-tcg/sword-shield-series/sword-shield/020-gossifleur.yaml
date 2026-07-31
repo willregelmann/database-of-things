@@ -6,4 +6,6 @@ attributes:
   number: "20/202"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/20_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "17/64"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo3/17_hires.png

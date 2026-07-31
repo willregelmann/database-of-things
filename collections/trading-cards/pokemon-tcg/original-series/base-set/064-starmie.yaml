@@ -6,6 +6,8 @@ attributes:
   number: "64/102"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Water
 image: https://images.pokemontcg.io/base1/64_hires.png
 variants:
   - id: 47bd7ac0-a1ab-46e5-aa9b-2d8520540747

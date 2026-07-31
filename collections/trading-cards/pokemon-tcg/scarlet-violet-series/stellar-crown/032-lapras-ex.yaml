@@ -6,4 +6,6 @@ attributes:
   number: "32/142"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/32_hires.png

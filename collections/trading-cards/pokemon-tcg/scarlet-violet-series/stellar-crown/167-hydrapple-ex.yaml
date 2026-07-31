@@ -6,4 +6,6 @@ attributes:
   number: "167/142"
   rarity: Special Illustration Rare
   illustrator: Teeziro
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/167_hires.png

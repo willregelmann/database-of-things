@@ -6,6 +6,8 @@ attributes:
   number: "11/102"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base1/11_hires.png
 variants:
   - id: ae625753-5a28-42a7-b2c1-78b3ef732c7d

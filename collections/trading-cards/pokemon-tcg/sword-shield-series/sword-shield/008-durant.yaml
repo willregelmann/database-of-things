@@ -6,4 +6,6 @@ attributes:
   number: "8/202"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/8_hires.png

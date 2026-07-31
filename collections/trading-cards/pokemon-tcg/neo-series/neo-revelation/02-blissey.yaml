@@ -6,4 +6,6 @@ attributes:
   number: "2/64"
   rarity: Rare Holo
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo3/2_hires.png

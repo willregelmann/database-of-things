@@ -6,4 +6,6 @@ attributes:
   number: "106/142"
   rarity: Common
   illustrator: Takeshi Nakamura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/106_hires.png

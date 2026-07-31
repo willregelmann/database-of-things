@@ -6,4 +6,6 @@ attributes:
   number: "20/142"
   rarity: Uncommon
   illustrator: danciao
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv7/20_hires.png

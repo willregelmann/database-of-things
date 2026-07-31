@@ -6,4 +6,6 @@ attributes:
   number: "54/202"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/54_hires.png

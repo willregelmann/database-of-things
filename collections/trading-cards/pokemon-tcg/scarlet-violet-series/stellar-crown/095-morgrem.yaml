@@ -6,4 +6,6 @@ attributes:
   number: "95/142"
   rarity: Common
   illustrator: Mékayu
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv7/95_hires.png

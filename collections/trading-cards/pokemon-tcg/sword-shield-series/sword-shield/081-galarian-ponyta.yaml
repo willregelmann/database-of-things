@@ -6,4 +6,6 @@ attributes:
   number: "81/202"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh1/81_hires.png

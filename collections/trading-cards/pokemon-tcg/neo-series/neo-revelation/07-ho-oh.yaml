@@ -6,4 +6,6 @@ attributes:
   number: "7/64"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo3/7_hires.png

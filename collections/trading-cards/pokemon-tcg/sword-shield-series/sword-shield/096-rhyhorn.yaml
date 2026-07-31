@@ -6,4 +6,6 @@ attributes:
   number: "96/202"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/96_hires.png

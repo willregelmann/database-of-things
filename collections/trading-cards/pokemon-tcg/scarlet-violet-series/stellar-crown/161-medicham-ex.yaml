@@ -6,4 +6,6 @@ attributes:
   number: "161/142"
   rarity: Ultra Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/161_hires.png

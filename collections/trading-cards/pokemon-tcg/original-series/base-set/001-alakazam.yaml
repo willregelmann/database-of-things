@@ -6,6 +6,8 @@ attributes:
   number: "1/102"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base1/1_hires.png
 variants:
   - id: 438102ed-e724-4ee9-9df4-07638a2f3dad

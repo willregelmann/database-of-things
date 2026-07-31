@@ -6,4 +6,6 @@ attributes:
   number: "30/142"
   rarity: Double Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/30_hires.png

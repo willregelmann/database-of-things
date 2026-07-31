@@ -6,4 +6,6 @@ attributes:
   number: "10/142"
   rarity: Common
   illustrator: Heisuke Kitazawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/10_hires.png

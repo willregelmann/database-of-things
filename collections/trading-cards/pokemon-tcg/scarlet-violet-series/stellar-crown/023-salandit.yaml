@@ -6,4 +6,6 @@ attributes:
   number: "23/142"
   rarity: Common
   illustrator: Felicia Chen
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv7/23_hires.png

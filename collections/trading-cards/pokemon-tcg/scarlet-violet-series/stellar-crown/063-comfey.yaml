@@ -6,4 +6,6 @@ attributes:
   number: "63/142"
   rarity: Common
   illustrator: saino misaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/63_hires.png

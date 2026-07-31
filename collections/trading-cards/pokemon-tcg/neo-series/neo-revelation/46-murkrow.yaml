@@ -6,4 +6,6 @@ attributes:
   number: "46/64"
   rarity: Common
   illustrator: Hironobu Yoshida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/neo3/46_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "55/102"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base1/55_hires.png
 variants:
   - id: 76b09af2-f5f5-4564-bf52-6753367a38fb

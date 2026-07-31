@@ -6,4 +6,6 @@ attributes:
   number: "45/142"
   rarity: Uncommon
   illustrator: GOTO minori
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/45_hires.png

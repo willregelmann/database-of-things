@@ -6,4 +6,6 @@ attributes:
   number: "66/142"
   rarity: Common
   illustrator: Narumi Sato
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/66_hires.png

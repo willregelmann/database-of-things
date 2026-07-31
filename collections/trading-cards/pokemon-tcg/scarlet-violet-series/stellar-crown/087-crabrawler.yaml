@@ -6,4 +6,6 @@ attributes:
   number: "87/142"
   rarity: Common
   illustrator: Scav
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/87_hires.png

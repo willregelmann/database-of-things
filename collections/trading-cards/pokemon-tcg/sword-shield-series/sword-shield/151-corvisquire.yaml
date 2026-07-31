@@ -6,4 +6,6 @@ attributes:
   number: "151/202"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/151_hires.png

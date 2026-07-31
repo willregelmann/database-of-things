@@ -6,4 +6,6 @@ attributes:
   number: "64/142"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/64_hires.png

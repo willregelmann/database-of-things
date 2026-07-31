@@ -6,4 +6,6 @@ attributes:
   number: "130/202"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh1/130_hires.png

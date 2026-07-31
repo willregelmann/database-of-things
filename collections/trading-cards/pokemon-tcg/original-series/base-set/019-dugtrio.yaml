@@ -6,6 +6,8 @@ attributes:
   number: "19/102"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base1/19_hires.png
 variants:
   - id: 2350a98a-f197-488c-a043-30a3d7208789

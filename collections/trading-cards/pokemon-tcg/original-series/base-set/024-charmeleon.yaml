@@ -6,6 +6,8 @@ attributes:
   number: "24/102"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base1/24_hires.png
 variants:
   - id: 82b9252d-aa6b-4407-ae4b-57ebdf3c1120

@@ -6,4 +6,6 @@ attributes:
   number: "71/202"
   rarity: Uncommon
   illustrator: otumami
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/71_hires.png

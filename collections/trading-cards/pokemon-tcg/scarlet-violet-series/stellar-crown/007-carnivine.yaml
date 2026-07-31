@@ -6,4 +6,6 @@ attributes:
   number: "7/142"
   rarity: Common
   illustrator: Mousho
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/7_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "7/102"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base1/7_hires.png
 variants:
   - id: 5e8a4b36-cf83-4b19-b2a4-5ec7551fae02

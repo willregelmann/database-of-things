@@ -6,4 +6,6 @@ attributes:
   number: "116/202"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/116_hires.png

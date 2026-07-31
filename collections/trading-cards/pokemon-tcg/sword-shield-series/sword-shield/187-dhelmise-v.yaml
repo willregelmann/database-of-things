@@ -6,4 +6,6 @@ attributes:
   number: "187/202"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/187_hires.png

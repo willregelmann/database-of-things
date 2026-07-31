@@ -6,4 +6,6 @@ attributes:
   number: "3/64"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo3/3_hires.png

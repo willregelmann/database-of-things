@@ -6,4 +6,6 @@ attributes:
   number: "85/202"
   rarity: Rare Holo
   illustrator: Eri Yamaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh1/85_hires.png

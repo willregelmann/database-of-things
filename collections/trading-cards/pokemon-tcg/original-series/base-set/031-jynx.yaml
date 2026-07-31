@@ -6,6 +6,8 @@ attributes:
   number: "31/102"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base1/31_hires.png
 variants:
   - id: 1d84f775-4358-4e00-bee1-7ac50f8a01a8

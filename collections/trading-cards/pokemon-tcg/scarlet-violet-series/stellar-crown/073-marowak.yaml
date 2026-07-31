@@ -6,4 +6,6 @@ attributes:
   number: "73/142"
   rarity: Uncommon
   illustrator: cochi8i
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/73_hires.png

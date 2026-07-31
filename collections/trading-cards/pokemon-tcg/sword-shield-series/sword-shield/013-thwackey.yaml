@@ -6,4 +6,6 @@ attributes:
   number: "13/202"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/13_hires.png

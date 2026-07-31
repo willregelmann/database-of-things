@@ -6,4 +6,6 @@ attributes:
   number: "145/202"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/145_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "25/142"
   rarity: Common
   illustrator: AKIRA EGAWA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv7/25_hires.png

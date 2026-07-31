@@ -6,6 +6,8 @@ attributes:
   number: "25/102"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/base1/25_hires.png
 variants:
   - id: ee6e5b43-3091-4afc-a5e9-2c13beedb604

@@ -6,4 +6,6 @@ attributes:
   number: "125/142"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/125_hires.png

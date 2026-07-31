@@ -6,4 +6,6 @@ attributes:
   number: "66/202"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/66_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "39/102"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base1/39_hires.png
 variants:
   - id: 930a80c8-a953-4c22-8d62-790e3b082ade

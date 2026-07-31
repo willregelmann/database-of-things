@@ -6,4 +6,6 @@ attributes:
   number: "105/142"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/105_hires.png

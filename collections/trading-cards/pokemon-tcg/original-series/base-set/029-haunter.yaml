@@ -6,6 +6,8 @@ attributes:
   number: "29/102"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base1/29_hires.png
 variants:
   - id: 2dcde35f-ec34-4810-8e61-92dc5b056a3c

@@ -6,4 +6,6 @@ attributes:
   number: "50/142"
   rarity: Common
   illustrator: Nisota Niso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv7/50_hires.png

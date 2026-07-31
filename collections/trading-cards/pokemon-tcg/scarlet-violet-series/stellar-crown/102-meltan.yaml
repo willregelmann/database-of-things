@@ -6,4 +6,6 @@ attributes:
   number: "102/142"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/102_hires.png

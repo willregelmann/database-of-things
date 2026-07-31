@@ -6,4 +6,6 @@ attributes:
   number: "76/202"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/76_hires.png

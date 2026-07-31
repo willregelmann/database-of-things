@@ -6,4 +6,6 @@ attributes:
   number: "106/202"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/106_hires.png

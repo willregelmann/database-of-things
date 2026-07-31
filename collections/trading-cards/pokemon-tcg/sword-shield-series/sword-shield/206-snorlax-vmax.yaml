@@ -6,4 +6,6 @@ attributes:
   number: "206/202"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/206_hires.png

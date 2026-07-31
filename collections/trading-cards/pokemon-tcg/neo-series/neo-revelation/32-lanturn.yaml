@@ -6,4 +6,6 @@ attributes:
   number: "32/64"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo3/32_hires.png

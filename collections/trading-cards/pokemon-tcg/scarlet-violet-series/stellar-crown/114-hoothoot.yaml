@@ -6,4 +6,6 @@ attributes:
   number: "114/142"
   rarity: Common
   illustrator: Yukihiro Tada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/114_hires.png

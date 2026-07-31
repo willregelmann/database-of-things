@@ -6,4 +6,6 @@ attributes:
   number: "110/202"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/110_hires.png

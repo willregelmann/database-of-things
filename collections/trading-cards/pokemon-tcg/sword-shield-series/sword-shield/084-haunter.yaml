@@ -6,4 +6,6 @@ attributes:
   number: "84/202"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh1/84_hires.png

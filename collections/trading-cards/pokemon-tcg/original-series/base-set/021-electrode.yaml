@@ -6,6 +6,8 @@ attributes:
   number: "21/102"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base1/21_hires.png
 variants:
   - id: 1da4e017-519e-4a48-868f-5eccf868aeb5

@@ -6,4 +6,6 @@ attributes:
   number: "39/64"
   rarity: Uncommon
   illustrator: CR CG gangs
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo3/39_hires.png

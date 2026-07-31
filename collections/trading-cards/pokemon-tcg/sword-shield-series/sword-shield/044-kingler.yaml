@@ -6,4 +6,6 @@ attributes:
   number: "44/202"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "38/64"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo3/38_hires.png

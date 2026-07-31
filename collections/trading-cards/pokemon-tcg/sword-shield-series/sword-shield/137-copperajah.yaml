@@ -6,4 +6,6 @@ attributes:
   number: "137/202"
   rarity: Rare Holo
   illustrator: Hitoshi Ariga
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh1/137_hires.png

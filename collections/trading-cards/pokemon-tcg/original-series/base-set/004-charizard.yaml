@@ -6,6 +6,8 @@ attributes:
   number: "4/102"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base1/4_hires.png
 variants:
   - id: 6341e5c7-c4dc-4907-8bed-8a866482f213

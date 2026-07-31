@@ -6,4 +6,6 @@ attributes:
   number: "27/142"
   rarity: Common
   illustrator: aspara
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv7/27_hires.png

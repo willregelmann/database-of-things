@@ -6,4 +6,6 @@ attributes:
   number: "105/202"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/105_hires.png

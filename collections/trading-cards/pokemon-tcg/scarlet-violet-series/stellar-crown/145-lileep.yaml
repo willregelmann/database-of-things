@@ -6,4 +6,6 @@ attributes:
   number: "145/142"
   rarity: Illustration Rare
   illustrator: Mori Yuu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/145_hires.png

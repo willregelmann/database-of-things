@@ -6,4 +6,6 @@ attributes:
   number: "28/142"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv7/28_hires.png

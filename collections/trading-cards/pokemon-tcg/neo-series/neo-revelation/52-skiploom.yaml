@@ -6,4 +6,6 @@ attributes:
   number: "52/64"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo3/52_hires.png

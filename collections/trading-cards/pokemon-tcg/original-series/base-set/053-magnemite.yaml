@@ -6,6 +6,8 @@ attributes:
   number: "53/102"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base1/53_hires.png
 variants:
   - id: 7fcd5657-16b1-406a-a003-06dd775ae703

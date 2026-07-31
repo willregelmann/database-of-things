@@ -6,4 +6,6 @@ attributes:
   number: "37/202"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "212/202"
   rarity: Rare Secret
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh1/212_hires.png

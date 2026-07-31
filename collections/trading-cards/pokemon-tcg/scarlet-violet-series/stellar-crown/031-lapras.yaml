@@ -6,4 +6,6 @@ attributes:
   number: "31/142"
   rarity: Uncommon
   illustrator: rika
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/31_hires.png

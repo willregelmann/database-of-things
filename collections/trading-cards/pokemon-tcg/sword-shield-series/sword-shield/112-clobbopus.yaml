@@ -6,4 +6,6 @@ attributes:
   number: "112/202"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/112_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "54/142"
   rarity: Uncommon
   illustrator: Rianti Hidayat
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv7/54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "88/202"
   rarity: Rare
   illustrator: MAHOU
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh1/88_hires.png

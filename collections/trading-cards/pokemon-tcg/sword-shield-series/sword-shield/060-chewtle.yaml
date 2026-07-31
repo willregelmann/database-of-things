@@ -6,4 +6,6 @@ attributes:
   number: "60/202"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/60_hires.png

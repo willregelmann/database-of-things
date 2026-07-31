@@ -6,4 +6,6 @@ attributes:
   number: "160/142"
   rarity: Ultra Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/160_hires.png

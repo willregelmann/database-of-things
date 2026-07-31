@@ -6,4 +6,6 @@ attributes:
   number: "20/64"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo3/20_hires.png

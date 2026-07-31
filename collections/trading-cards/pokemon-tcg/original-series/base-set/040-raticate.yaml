@@ -6,6 +6,8 @@ attributes:
   number: "40/102"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base1/40_hires.png
 variants:
   - id: e639421f-015d-4e4a-baca-75a90825ab83
