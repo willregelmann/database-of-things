@@ -6,4 +6,6 @@ attributes:
   number: "186/167"
   rarity: Illustration Rare
   illustrator: osare
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/186_hires.png

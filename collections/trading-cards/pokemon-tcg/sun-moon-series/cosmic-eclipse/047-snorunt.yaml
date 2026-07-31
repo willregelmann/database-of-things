@@ -6,4 +6,6 @@ attributes:
   number: "47/236"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/47_hires.png

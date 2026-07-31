@@ -6,4 +6,6 @@ attributes:
   number: "SWSH171"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swshp/SWSH171_hires.png

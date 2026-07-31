@@ -6,4 +6,6 @@ attributes:
   number: "34/84"
   rarity: Uncommon
   illustrator: Mugi Hamada
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-34/large

@@ -6,4 +6,6 @@ attributes:
   number: "224/236"
   rarity: Rare Ultra
   illustrator: ConceptLab
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm11/224_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "104/147"
   rarity: Common
   illustrator: Keiko Fukuyama
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard2/104_hires.png

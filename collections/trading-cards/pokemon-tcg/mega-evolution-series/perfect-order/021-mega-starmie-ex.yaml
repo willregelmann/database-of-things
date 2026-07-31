@@ -6,4 +6,6 @@ attributes:
   number: "21/88"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me3-21/large

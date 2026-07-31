@@ -6,4 +6,6 @@ attributes:
   number: "SV19/SV94"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sma/SV19_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "60/132"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp3/60_hires.png

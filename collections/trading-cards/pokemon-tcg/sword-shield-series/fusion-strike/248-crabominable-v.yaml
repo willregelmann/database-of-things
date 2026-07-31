@@ -6,4 +6,6 @@ attributes:
   number: "248/264"
   rarity: Rare Ultra
   illustrator: MUGENUP
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/248_hires.png

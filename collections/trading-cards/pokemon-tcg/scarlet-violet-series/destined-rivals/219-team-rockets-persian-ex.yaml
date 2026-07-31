@@ -6,4 +6,6 @@ attributes:
   number: "219/182"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/219_hires.png

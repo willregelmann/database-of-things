@@ -6,4 +6,6 @@ attributes:
   number: "SV001/SV122"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV001_hires.png

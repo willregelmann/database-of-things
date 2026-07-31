@@ -6,4 +6,6 @@ attributes:
   number: "33/101"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw3/33_hires.png

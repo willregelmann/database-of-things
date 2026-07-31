@@ -6,4 +6,6 @@ attributes:
   number: "26/189"
   rarity: Rare Holo VMAX
   illustrator: N-DESIGN Inc
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/26_hires.png

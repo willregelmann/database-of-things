@@ -6,6 +6,8 @@ attributes:
   number: "70/110"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base6/70_hires.png
 variants:
   - id: e4d0043e-3bea-49b5-9c3b-cb7058a137be

@@ -6,4 +6,6 @@ attributes:
   number: "107/91"
   rarity: Shiny Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4pt5/107_hires.png

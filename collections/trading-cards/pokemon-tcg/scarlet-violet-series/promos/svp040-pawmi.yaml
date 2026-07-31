@@ -6,4 +6,6 @@ attributes:
   number: "040"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/40_hires.png

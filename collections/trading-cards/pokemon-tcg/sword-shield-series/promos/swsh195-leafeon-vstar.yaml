@@ -6,4 +6,6 @@ attributes:
   number: "SWSH195"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH195_hires.png

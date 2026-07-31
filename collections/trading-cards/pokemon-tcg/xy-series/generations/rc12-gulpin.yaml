@@ -6,4 +6,6 @@ attributes:
   number: "RC12/RC32"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/RC12_hires.png

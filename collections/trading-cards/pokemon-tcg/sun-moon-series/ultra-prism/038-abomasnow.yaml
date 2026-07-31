@@ -6,4 +6,6 @@ attributes:
   number: "38/156"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm5/38_hires.png

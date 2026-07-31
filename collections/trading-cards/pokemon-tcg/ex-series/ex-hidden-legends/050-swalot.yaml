@@ -6,4 +6,6 @@ attributes:
   number: "50/101"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex5/50_hires.png

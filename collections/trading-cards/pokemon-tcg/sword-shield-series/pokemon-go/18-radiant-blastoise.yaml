@@ -6,4 +6,6 @@ attributes:
   number: "18/78"
   rarity: Radiant Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/pgo/18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "83/106"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp4/83_hires.png

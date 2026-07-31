@@ -6,4 +6,6 @@ attributes:
   number: "81/156"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm5/81_hires.png

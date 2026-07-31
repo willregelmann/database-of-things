@@ -6,4 +6,6 @@ attributes:
   number: "42/123"
   rarity: Uncommon
   illustrator: Emi Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp2/42_hires.png

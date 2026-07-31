@@ -6,4 +6,6 @@ attributes:
   number: "26/100"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex2/26_hires.png

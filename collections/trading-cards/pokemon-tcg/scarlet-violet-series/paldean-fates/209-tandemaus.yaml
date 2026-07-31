@@ -6,4 +6,6 @@ attributes:
   number: "209/91"
   rarity: Shiny Rare
   illustrator: Lee HyunJung
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/209_hires.png

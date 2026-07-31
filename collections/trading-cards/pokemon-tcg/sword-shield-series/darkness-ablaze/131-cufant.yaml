@@ -6,4 +6,6 @@ attributes:
   number: "131/189"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/131_hires.png

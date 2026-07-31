@@ -6,4 +6,6 @@ attributes:
   number: "126/167"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/126_hires.png

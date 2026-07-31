@@ -6,4 +6,6 @@ attributes:
   number: "95/102"
   rarity: Rare Holo Prime
   illustrator: Shizurow
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss4/95_hires.png

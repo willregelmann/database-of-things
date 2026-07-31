@@ -6,4 +6,6 @@ attributes:
   number: "16/84"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me5-16/large

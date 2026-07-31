@@ -6,4 +6,6 @@ attributes:
   number: "152/149"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw7/152_hires.png

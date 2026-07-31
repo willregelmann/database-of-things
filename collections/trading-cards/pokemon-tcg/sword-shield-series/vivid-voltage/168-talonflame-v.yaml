@@ -6,4 +6,6 @@ attributes:
   number: "168/185"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh4/168_hires.png

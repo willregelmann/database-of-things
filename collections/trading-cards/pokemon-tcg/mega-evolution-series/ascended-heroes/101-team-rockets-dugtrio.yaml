@@ -6,4 +6,6 @@ attributes:
   number: "101/217"
   rarity: Uncommon
   illustrator: KEIICHIRO ITO
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-101/large

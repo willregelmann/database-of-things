@@ -6,4 +6,6 @@ attributes:
   number: "246/193"
   rarity: Ultra Rare
   illustrator: Eske Yoshinob
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv2/246_hires.png

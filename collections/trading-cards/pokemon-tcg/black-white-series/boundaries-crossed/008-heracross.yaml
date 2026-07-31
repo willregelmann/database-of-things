@@ -6,4 +6,6 @@ attributes:
   number: "8/149"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw7/8_hires.png

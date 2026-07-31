@@ -6,4 +6,6 @@ attributes:
   number: "108/264"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh8/108_hires.png

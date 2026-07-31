@@ -6,4 +6,6 @@ attributes:
   number: "9/193"
   rarity: Uncommon
   illustrator: Megumi Higuchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/9_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "116/214"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm8/116_hires.png

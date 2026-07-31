@@ -6,4 +6,6 @@ attributes:
   number: "72/149"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm1/72_hires.png

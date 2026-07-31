@@ -6,4 +6,6 @@ attributes:
   number: "194/193"
   rarity: Illustration Rare
   illustrator: Kurata So
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/194_hires.png

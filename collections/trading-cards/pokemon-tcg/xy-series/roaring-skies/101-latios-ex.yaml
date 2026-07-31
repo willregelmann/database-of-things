@@ -6,4 +6,6 @@ attributes:
   number: "101/108"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/101_hires.png

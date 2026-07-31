@@ -6,4 +6,6 @@ attributes:
   number: "SV017/SV122"
   rarity: Rare Shiny
   illustrator: Hitoshi Ariga
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45sv/SV017_hires.png

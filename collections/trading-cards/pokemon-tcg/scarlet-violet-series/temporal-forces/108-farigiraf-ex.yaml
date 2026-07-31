@@ -6,4 +6,6 @@ attributes:
   number: "108/162"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv5/108_hires.png

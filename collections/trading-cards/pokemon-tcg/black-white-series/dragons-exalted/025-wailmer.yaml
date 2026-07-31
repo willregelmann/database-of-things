@@ -6,4 +6,6 @@ attributes:
   number: "25/124"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw6/25_hires.png

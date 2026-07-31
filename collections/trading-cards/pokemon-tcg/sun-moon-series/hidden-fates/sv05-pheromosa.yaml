@@ -6,4 +6,6 @@ attributes:
   number: "SV5/SV94"
   rarity: Rare Shiny
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sma/SV5_hires.png

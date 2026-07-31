@@ -6,4 +6,6 @@ attributes:
   number: "75/131"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/75_hires.png

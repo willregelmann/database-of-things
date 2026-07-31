@@ -6,4 +6,6 @@ attributes:
   number: "146/192"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/146_hires.png

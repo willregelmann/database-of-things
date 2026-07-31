@@ -6,4 +6,6 @@ attributes:
   number: "29/88"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me3-29/large

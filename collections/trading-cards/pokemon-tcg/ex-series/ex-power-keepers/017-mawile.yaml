@@ -6,4 +6,6 @@ attributes:
   number: "17/108"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex16/17_hires.png

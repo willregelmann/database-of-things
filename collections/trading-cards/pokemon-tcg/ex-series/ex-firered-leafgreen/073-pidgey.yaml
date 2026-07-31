@@ -6,4 +6,6 @@ attributes:
   number: "73/112"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex6/73_hires.png

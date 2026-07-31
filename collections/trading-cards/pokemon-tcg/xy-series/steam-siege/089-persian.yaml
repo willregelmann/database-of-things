@@ -6,4 +6,6 @@ attributes:
   number: "89/114"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy11/89_hires.png

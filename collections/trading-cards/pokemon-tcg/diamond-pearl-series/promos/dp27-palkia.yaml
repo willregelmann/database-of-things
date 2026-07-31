@@ -6,4 +6,6 @@ attributes:
   number: "DP27"
   rarity: Promo
   illustrator: Daisuke Ito
+  type:
+    - Water
 image: https://images.pokemontcg.io/dpp/DP27_hires.png

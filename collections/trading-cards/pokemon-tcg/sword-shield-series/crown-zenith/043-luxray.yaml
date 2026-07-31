@@ -6,4 +6,6 @@ attributes:
   number: "43/159"
   rarity: Rare
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12pt5/43_hires.png

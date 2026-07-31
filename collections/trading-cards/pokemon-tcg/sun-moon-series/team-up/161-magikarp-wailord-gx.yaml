@@ -6,4 +6,6 @@ attributes:
   number: "161/181"
   rarity: Rare Ultra
   illustrator: OOYAMA
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm9/161_hires.png

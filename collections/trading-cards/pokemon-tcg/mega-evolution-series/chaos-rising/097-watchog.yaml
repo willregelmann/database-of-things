@@ -6,4 +6,6 @@ attributes:
   number: "97/86"
   rarity: Illustration Rare
   illustrator: MARINA Chikazawa
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me4-97/large

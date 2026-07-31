@@ -6,4 +6,6 @@ attributes:
   number: "90/86"
   rarity: Illustration Rare
   illustrator: Yuka Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/zsv10pt5/90_hires.png

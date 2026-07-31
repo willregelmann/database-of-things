@@ -6,4 +6,6 @@ attributes:
   number: "RC17/RC25"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/RC17_hires.png

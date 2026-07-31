@@ -6,4 +6,6 @@ attributes:
   number: "34/189"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/34_hires.png

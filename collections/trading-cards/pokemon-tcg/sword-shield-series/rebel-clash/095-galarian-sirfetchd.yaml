@@ -6,4 +6,6 @@ attributes:
   number: "95/192"
   rarity: Rare Holo
   illustrator: You Iribi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/95_hires.png

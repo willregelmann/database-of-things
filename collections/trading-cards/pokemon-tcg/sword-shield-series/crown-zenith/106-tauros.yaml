@@ -6,4 +6,6 @@ attributes:
   number: "106/159"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/106_hires.png

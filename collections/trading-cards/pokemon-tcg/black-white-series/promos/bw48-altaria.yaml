@@ -6,4 +6,6 @@ attributes:
   number: "BW48"
   rarity: Promo
   illustrator: HiRON
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bwp/BW48_hires.png

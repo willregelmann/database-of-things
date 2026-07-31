@@ -6,4 +6,6 @@ attributes:
   number: "5/34"
   rarity: Rare Holo
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/dc1/5_hires.png

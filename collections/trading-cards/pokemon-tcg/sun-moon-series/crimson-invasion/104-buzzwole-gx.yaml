@@ -6,4 +6,6 @@ attributes:
   number: "104/111"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm4/104_hires.png

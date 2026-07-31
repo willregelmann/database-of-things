@@ -6,4 +6,6 @@ attributes:
   number: "5/98"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw2/5_hires.png

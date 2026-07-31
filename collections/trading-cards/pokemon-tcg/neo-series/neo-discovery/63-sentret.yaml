@@ -6,4 +6,6 @@ attributes:
   number: "63/75"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo2/63_hires.png

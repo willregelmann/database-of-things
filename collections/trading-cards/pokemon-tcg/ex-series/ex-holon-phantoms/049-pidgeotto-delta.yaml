@@ -6,4 +6,6 @@ attributes:
   number: "49/110"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex13/49_hires.png

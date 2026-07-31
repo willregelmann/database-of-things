@@ -6,4 +6,6 @@ attributes:
   number: "65/147"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/65_hires.png

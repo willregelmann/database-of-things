@@ -6,4 +6,6 @@ attributes:
   number: "56/75"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo2/56_hires.png

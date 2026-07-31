@@ -6,4 +6,6 @@ attributes:
   number: "214/198"
   rarity: Illustration Rare
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/214_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/198"
   rarity: Rare
   illustrator: AKIRA EGAWA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv1/41_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/100"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex2/41_hires.png

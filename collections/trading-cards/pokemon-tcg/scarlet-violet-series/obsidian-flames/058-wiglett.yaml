@@ -6,4 +6,6 @@ attributes:
   number: "58/197"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3/58_hires.png

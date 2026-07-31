@@ -6,4 +6,6 @@ attributes:
   number: "52/114"
   rarity: Common
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy11/52_hires.png

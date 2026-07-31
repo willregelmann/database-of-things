@@ -6,4 +6,6 @@ attributes:
   number: "180/189"
   rarity: Rare Ultra
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/180_hires.png

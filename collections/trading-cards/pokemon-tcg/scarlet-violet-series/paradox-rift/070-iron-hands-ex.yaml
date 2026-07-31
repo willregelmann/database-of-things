@@ -6,4 +6,6 @@ attributes:
   number: "70/182"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/70_hires.png

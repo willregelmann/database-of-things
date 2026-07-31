@@ -6,4 +6,6 @@ attributes:
   number: "103/84"
   rarity: Ultra Rare
   illustrator: Keisuke Azuma
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me5-103/large

@@ -6,4 +6,6 @@ attributes:
   number: "54/105"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/54_hires.png

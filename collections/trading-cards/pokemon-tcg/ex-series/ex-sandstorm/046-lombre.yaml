@@ -6,4 +6,6 @@ attributes:
   number: "46/100"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex2/46_hires.png

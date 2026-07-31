@@ -6,4 +6,6 @@ attributes:
   number: "10/264"
   rarity: Uncommon
   illustrator: "0313"
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh8/10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "TG09/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: GOSSAN
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh10tg/TG09_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "84/131"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/84_hires.png

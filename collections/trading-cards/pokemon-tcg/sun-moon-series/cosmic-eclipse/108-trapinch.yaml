@@ -6,4 +6,6 @@ attributes:
   number: "108/236"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/108_hires.png

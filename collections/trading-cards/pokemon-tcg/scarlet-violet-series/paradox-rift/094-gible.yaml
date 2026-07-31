@@ -6,4 +6,6 @@ attributes:
   number: "94/182"
   rarity: Common
   illustrator: saino misaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/94_hires.png

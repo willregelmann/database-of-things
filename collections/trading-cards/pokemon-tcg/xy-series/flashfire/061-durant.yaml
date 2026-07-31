@@ -6,4 +6,6 @@ attributes:
   number: "61/106"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy2/61_hires.png

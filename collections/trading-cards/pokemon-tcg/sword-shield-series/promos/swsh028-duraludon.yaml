@@ -6,4 +6,6 @@ attributes:
   number: "SWSH028"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH028_hires.png

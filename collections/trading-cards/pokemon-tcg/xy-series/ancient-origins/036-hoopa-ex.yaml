@@ -6,4 +6,6 @@ attributes:
   number: "36/98"
   rarity: Rare Holo ex
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy7/36_hires.png

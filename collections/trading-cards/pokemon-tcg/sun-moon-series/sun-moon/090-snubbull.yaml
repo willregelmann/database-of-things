@@ -6,4 +6,6 @@ attributes:
   number: "90/149"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm1/90_hires.png

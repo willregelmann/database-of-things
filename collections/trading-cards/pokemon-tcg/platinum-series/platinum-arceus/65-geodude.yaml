@@ -6,4 +6,6 @@ attributes:
   number: "65/99"
   rarity: Common
   illustrator: Motofumi Fujiwara
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl4/65_hires.png

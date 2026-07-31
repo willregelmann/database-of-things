@@ -6,4 +6,6 @@ attributes:
   number: "42/131"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm6/42_hires.png

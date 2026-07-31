@@ -6,4 +6,6 @@ attributes:
   number: "SV15/SV94"
   rarity: Rare Shiny
   illustrator: SATOSHI NAKAI
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sma/SV15_hires.png

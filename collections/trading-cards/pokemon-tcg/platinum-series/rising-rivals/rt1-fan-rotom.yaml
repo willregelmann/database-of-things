@@ -6,4 +6,6 @@ attributes:
   number: "RT1"
   rarity: Rare Holo
   illustrator: Motofumi Fujiwara
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/RT1_hires.png

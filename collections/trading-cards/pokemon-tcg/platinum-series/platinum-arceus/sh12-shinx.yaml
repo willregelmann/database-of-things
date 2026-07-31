@@ -6,4 +6,6 @@ attributes:
   number: "SH12"
   rarity: Rare Holo
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl4/SH12_hires.png

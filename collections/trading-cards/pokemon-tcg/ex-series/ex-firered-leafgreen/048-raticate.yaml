@@ -6,4 +6,6 @@ attributes:
   number: "48/112"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex6/48_hires.png

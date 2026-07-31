@@ -6,4 +6,6 @@ attributes:
   number: "50/108"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/50_hires.png

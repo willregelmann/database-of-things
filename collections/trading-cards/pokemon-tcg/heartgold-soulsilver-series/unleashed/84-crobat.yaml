@@ -6,4 +6,6 @@ attributes:
   number: "84/95"
   rarity: Rare Holo Prime
   illustrator: Hideaki Hakozaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/84_hires.png

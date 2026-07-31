@@ -6,4 +6,6 @@ attributes:
   number: "8/114"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/8_hires.png

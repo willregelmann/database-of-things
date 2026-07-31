@@ -6,4 +6,6 @@ attributes:
   number: "144/214"
   rarity: Rare Prism Star
   illustrator: Shin Nagasawa
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/144_hires.png

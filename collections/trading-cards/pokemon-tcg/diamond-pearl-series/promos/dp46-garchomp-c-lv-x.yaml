@@ -6,4 +6,6 @@ attributes:
   number: "DP46"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dpp/DP46_hires.png

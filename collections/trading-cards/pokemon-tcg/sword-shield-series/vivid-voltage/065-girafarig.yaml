@@ -6,4 +6,6 @@ attributes:
   number: "65/185"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/65_hires.png

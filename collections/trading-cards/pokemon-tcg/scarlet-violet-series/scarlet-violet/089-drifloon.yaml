@@ -6,4 +6,6 @@ attributes:
   number: "89/198"
   rarity: Common
   illustrator: Taira Akitsu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/89_hires.png

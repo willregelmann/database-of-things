@@ -6,4 +6,6 @@ attributes:
   number: "34/214"
   rarity: Uncommon
   illustrator: Hiroki Asanuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm10/34_hires.png

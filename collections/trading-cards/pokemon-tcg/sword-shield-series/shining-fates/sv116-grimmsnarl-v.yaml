@@ -6,4 +6,6 @@ attributes:
   number: "SV116/SV122"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45sv/SV116_hires.png

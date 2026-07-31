@@ -6,4 +6,6 @@ attributes:
   number: "19/146"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp6/19_hires.png

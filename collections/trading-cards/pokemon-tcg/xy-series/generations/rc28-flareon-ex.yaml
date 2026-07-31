@@ -6,4 +6,6 @@ attributes:
   number: "RC28/RC32"
   rarity: Rare Ultra
   illustrator: kirisAki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/g1/RC28_hires.png

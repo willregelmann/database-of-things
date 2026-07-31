@@ -6,4 +6,6 @@ attributes:
   number: "59/131"
   rarity: Rare
   illustrator: matazo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv8pt5/59_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "DP38"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dpp/DP38_hires.png

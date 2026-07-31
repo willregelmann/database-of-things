@@ -6,4 +6,6 @@ attributes:
   number: "28/119"
   rarity: Common
   illustrator: HiRON
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy4/28_hires.png

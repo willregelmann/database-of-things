@@ -6,4 +6,6 @@ attributes:
   number: "91/135"
   rarity: Uncommon
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw8/91_hires.png

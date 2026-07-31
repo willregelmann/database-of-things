@@ -6,4 +6,6 @@ attributes:
   number: "19/101"
   rarity: Uncommon
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw10/19_hires.png

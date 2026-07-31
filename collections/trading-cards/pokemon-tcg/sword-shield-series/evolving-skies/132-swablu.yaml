@@ -6,4 +6,6 @@ attributes:
   number: "132/203"
   rarity: Common
   illustrator: Lee HyunJung
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/132_hires.png

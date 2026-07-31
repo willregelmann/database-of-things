@@ -6,4 +6,6 @@ attributes:
   number: "SV018/SV122"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45sv/SV018_hires.png

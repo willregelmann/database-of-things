@@ -6,4 +6,6 @@ attributes:
   number: "SWSH247"
   rarity: Promo
   illustrator: GOSSAN
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH247_hires.png

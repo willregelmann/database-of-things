@@ -6,4 +6,6 @@ attributes:
   number: "166/236"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/166_hires.png

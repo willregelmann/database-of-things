@@ -6,4 +6,6 @@ attributes:
   number: "134/182"
   rarity: Common
   illustrator: KEIICHIRO ITO
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/134_hires.png

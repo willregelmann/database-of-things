@@ -6,4 +6,6 @@ attributes:
   number: "49/132"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp3/49_hires.png

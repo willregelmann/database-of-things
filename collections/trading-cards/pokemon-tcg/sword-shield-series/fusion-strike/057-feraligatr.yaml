@@ -6,4 +6,6 @@ attributes:
   number: "57/264"
   rarity: Rare Holo
   illustrator: Anesaki Dynamic
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/57_hires.png

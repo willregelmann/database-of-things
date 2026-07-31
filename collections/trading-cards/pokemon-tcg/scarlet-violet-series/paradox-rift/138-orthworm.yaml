@@ -6,4 +6,6 @@ attributes:
   number: "138/182"
   rarity: Uncommon
   illustrator: Pani Kobayashi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/138_hires.png

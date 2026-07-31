@@ -6,4 +6,6 @@ attributes:
   number: "112/217"
   rarity: Common
   illustrator: hncl
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-112/large

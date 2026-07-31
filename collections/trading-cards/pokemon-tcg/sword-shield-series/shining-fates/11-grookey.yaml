@@ -6,4 +6,6 @@ attributes:
   number: "11/72"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45/11_hires.png

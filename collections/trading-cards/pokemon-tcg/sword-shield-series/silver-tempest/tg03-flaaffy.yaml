@@ -6,4 +6,6 @@ attributes:
   number: "TG03/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: saino misaki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12tg/TG03_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "37/101"
   rarity: Uncommon
   illustrator: Hisao Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex15/37_hires.png

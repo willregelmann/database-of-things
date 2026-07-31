@@ -6,4 +6,6 @@ attributes:
   number: "12/106"
   rarity: Rare Holo ex
   illustrator: PLANETA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy2/12_hires.png

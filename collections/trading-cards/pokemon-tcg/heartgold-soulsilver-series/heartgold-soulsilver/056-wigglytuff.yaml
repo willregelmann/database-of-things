@@ -6,4 +6,6 @@ attributes:
   number: "56/123"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/56_hires.png

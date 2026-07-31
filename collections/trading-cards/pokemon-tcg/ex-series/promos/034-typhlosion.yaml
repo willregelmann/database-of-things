@@ -6,4 +6,6 @@ attributes:
   number: "034"
   rarity: Promo
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/np/34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV028/SV122"
   rarity: Rare Shiny
   illustrator: otumami
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV028_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "73/197"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3/73_hires.png

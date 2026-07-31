@@ -6,4 +6,6 @@ attributes:
   number: "24/106"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex9/24_hires.png

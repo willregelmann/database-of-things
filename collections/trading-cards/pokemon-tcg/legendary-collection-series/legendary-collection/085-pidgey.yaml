@@ -6,6 +6,8 @@ attributes:
   number: "85/110"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base6/85_hires.png
 variants:
   - id: 8cffbfdc-dcb9-45a3-8cce-33a6c326c31b

@@ -617,9 +617,18 @@ the same live Pokémon TCG API already used for `number`/`rarity`/`date` —
 its `types` field maps directly onto this schema's 11-value enum with no
 translation needed (unlike `rarity`'s messy era-specific casing/wording
 history), and it's a `supertype: "Pokémon"` check away from correctly
-skipping every non-Pokémon card. Piloted on four sets spanning 1999-2024
-(Base Set, Neo Revelation, Sword & Shield, Stellar Crown — 456 Pokémon
-cards) with zero null `types` and zero cards needing more than one value.
+skipping every non-Pokémon card.
+
+**Backfilled catalog-wide: 16,873 of 20,121 cards carry it.** The
+remaining 3,248 are almost all genuinely non-Pokémon (Trainers, Energies)
+— the only two real, still-open gaps are the Mega Evolution-era promo
+line (111 cards, no API set id — see below) and Celebrations' Classic
+Collection (25 cards, deliberately excluded — see below). Sourced via a
+bulk per-directory fetch (`/v2/cards?q=set.id:<id>&pageSize=250`,
+paginated past 250), not a per-card lookup — cheaper than the illustrator
+backfill by roughly two orders of magnitude in request count. Zero cards
+found with more than one value in `types`, despite the schema modeling it
+as an array.
 
 **Format**: a block sequence, indented 2 spaces deeper than the `type:`
 key itself (matching this repo's convention for any other array-valued
@@ -648,12 +657,60 @@ API's `types: ["Water"]` exactly — verified by fetching the card's own
 second-guess the API on this without similarly checking a physical card
 first.
 
-**Not yet run past the pilot's four sets** — same phased-rollout status as
-[[project_pokemon_tcg_variants]]: rest of the catalog (~16,000 more
-Pokémon cards across ~136 more expansion/promo directories) still needs
-the same bulk per-set fetch. Reuse this category's already-documented API
-gaps (SWSH/SVP promo completeness, `me2pt5` pagination bug, sets with no
-`api.pokemontcg.io` id at all) rather than re-discovering them for `type`.
+**A set's own directory can fold in a sub-checklist that lives under a
+SEPARATE API set id — fetching only the main checklist's id silently
+misses it entirely, with no error to signal the gap.** Trainer Gallery
+(Brilliant Stars `swsh9tg`, Astral Radiance `swsh10tg`, Lost Origin
+`swsh11tg`, Silver Tempest `swsh12tg`), Galarian Gallery (Crown Zenith
+`swsh12pt5gg`), and the Shiny Vault subsets (Shining Fates `swsh45sv`,
+Hidden Fates `sma` — this one doesn't even follow the `<parent>sv` naming
+pattern the others do, don't guess it) each need their own `set.id:`
+query merged into the same directory's card pool before matching by
+number. Discover an unmapped sub-checklist's id the same way this file
+already documents for mapping a directory to its main set id: from one of
+its own card's `image` URL.
+
+**The live API can return two different cards with the same `number`
+value within one set — a genuine upstream data bug, not a sourcing
+mistake on this repo's part.** Confirmed on Black Bolt (`zsv10pt5`):
+`zsv10pt5-80` ("Antique Cover Fossil", a Trainer card, correctly filed
+here as `80/86`) comes back from the API with `number: "60"` instead of
+`"80"`, colliding with the real `zsv10pt5-60` ("Escavalier", a Pokémon).
+A naive last-write-wins number→card lookup can silently drop the real
+Pokémon's data (if the non-Pokémon entry overwrites it) with no error
+raised. When two API cards collide on the same number: if exactly one is
+`supertype: "Pokémon"`, keep that one — the other one(s) didn't need
+`type` written anyway, so nothing is lost. If two or more colliding
+entries are BOTH Pokémon, there is no safe automatic resolution — exclude
+that number from the lookup and leave it for manual sourcing rather than
+guessing which one owns the data. (This backfill hit exactly one such
+collision across the entire catalog, resolved via the single-Pokémon
+rule; zero cases needed manual exclusion.)
+
+**Celebrations' Classic Collection (`cc-*.yaml` files) must be
+hard-excluded from any number-based lookup — this isn't a numbering
+format quirk like the ones above, it's numbers borrowed wholesale from
+OTHER, unrelated expansions** (see the Numbering section's note on this
+subset). `cc-04-charizard.yaml`'s `4/102` is Base Set's own numbering,
+reused as homage — not card 4 of Celebrations' own 25-card checklist. A
+first attempt at this backfill matched these files by numerator against
+Celebrations' own API data (`cel25`) anyway and wrote real, wrong data:
+Charizard came back typed `Water`, Blastoise came back `Fire`, and four
+unrelated cards (Claydol, a Trainer card, Rocket's Zapdos, Venusaur — all
+coincidentally sitting at position `15` in their own original sets) all
+received the identical `Psychic` value from one bad match. Caught by a
+numerator-collision audit run across the *entire* catalog after the fact
+(the only collisions found anywhere were these 25 files), reverted to a
+byte-identical pre-touch state, and now excluded by filename prefix
+rather than trusted to number-matching logic. These 25 cards' `type`
+remains unsourced — a separate future task, not in scope for this
+backfill.
+
+**The Mega Evolution-era promo line (`mega-evolution-series/promos/`) is
+deferred entirely — it has no `api.pokemontcg.io` set id at all**, same
+reason its other fields are Bulbapedia-sourced (see the Numbering
+section). Its 111 cards' `type` needs the same per-card Bulbapedia
+approach, not this bulk API method.
 
 ## Variants
 

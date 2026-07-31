@@ -6,4 +6,6 @@ attributes:
   number: "016"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/np/16_hires.png

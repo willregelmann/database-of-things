@@ -6,4 +6,6 @@ attributes:
   number: "74/162"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy8/74_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "91/182"
   rarity: Common
   illustrator: GOTO minori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/91_hires.png

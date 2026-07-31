@@ -6,4 +6,6 @@ attributes:
   number: "65/70"
   rarity: Rare Ultra
   illustrator: PLANETA Igarashi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/65_hires.png

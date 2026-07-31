@@ -6,4 +6,6 @@ attributes:
   number: "SWSH210"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH210_hires.png

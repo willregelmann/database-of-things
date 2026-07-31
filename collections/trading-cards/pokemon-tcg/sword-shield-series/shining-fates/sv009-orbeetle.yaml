@@ -6,4 +6,6 @@ attributes:
   number: "SV009/SV122"
   rarity: Rare Shiny
   illustrator: SATOSHI NAKAI
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV009_hires.png

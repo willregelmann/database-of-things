@@ -6,4 +6,6 @@ attributes:
   number: "93/113"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw11/93_hires.png

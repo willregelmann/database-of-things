@@ -6,4 +6,6 @@ attributes:
   number: "55/99"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw4/55_hires.png

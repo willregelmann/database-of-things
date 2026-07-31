@@ -6,4 +6,6 @@ attributes:
   number: "90/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl3/90_hires.png

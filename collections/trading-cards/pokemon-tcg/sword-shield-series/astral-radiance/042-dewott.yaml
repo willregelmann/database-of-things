@@ -6,4 +6,6 @@ attributes:
   number: "42/189"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/42_hires.png

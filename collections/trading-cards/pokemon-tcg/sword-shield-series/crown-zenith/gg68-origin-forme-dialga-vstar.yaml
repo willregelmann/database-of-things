@@ -6,4 +6,6 @@ attributes:
   number: "GG68/GG70"
   rarity: Rare Secret
   illustrator: AKIRA EGAWA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5gg/GG68_hires.png

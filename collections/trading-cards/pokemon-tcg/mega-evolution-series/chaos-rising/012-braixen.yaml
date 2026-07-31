@@ -6,4 +6,6 @@ attributes:
   number: "12/86"
   rarity: Common
   illustrator: Taiga Kasai
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me4-12/large

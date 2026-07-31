@@ -6,4 +6,6 @@ attributes:
   number: "113/112"
   rarity: Rare Secret
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex6/113_hires.png

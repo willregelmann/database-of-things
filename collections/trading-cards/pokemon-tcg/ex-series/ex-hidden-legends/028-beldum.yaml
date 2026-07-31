@@ -6,4 +6,6 @@ attributes:
   number: "28/101"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex5/28_hires.png

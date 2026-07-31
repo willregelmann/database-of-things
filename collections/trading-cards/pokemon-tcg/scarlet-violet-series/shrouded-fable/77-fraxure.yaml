@@ -6,4 +6,6 @@ attributes:
   number: "77/64"
   rarity: Illustration Rare
   illustrator: MINAMINAMI Take
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6pt5/77_hires.png

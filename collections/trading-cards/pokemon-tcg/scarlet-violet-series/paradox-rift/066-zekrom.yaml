@@ -6,4 +6,6 @@ attributes:
   number: "66/182"
   rarity: Rare
   illustrator: Shiburingaru
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/66_hires.png

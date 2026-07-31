@@ -6,4 +6,6 @@ attributes:
   number: "161/172"
   rarity: Rare Ultra
   illustrator: PLANETA Mochizuki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/161_hires.png

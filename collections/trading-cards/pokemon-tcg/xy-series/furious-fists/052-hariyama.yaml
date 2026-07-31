@@ -6,4 +6,6 @@ attributes:
   number: "52/111"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy3/52_hires.png

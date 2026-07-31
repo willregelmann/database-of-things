@@ -6,4 +6,6 @@ attributes:
   number: "55/132"
   rarity: Uncommon
   illustrator: Saboteri
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me1/55_hires.png

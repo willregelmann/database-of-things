@@ -6,4 +6,6 @@ attributes:
   number: "117/86"
   rarity: Special Illustration Rare
   illustrator: Teeziro
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me4-117/large

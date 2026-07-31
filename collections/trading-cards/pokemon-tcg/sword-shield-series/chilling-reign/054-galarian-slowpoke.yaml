@@ -6,4 +6,6 @@ attributes:
   number: "54/198"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/54_hires.png

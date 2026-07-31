@@ -6,4 +6,6 @@ attributes:
   number: "29/163"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/29_hires.png

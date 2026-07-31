@@ -6,4 +6,6 @@ attributes:
   number: "69/106"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp4/69_hires.png

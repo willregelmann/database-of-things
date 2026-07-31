@@ -6,4 +6,6 @@ attributes:
   number: "54/197"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3/54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "108/192"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/108_hires.png

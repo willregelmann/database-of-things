@@ -6,4 +6,6 @@ attributes:
   number: "BW82"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bwp/BW82_hires.png

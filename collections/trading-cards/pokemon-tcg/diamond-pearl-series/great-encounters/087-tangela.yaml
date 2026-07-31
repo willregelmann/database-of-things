@@ -6,4 +6,6 @@ attributes:
   number: "87/106"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/87_hires.png

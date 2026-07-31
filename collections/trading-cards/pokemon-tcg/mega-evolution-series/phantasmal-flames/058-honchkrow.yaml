@@ -6,4 +6,6 @@ attributes:
   number: "58/94"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "25/160"
   rarity: Common
   illustrator: sui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy5/25_hires.png

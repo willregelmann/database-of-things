@@ -6,4 +6,6 @@ attributes:
   number: "30/91"
   rarity: Common
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/30_hires.png

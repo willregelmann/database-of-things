@@ -6,4 +6,6 @@ attributes:
   number: "GG23/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Kurata So
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG23_hires.png

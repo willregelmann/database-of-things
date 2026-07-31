@@ -6,4 +6,6 @@ attributes:
   number: "106/112"
   rarity: Rare Holo ex
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex6/106_hires.png

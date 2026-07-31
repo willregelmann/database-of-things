@@ -6,4 +6,6 @@ attributes:
   number: "58/124"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy10/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "91/192"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/91_hires.png

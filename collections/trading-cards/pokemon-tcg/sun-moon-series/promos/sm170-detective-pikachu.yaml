@@ -5,4 +5,6 @@ date: "2019"
 attributes:
   number: "SM170"
   rarity: Promo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM170_hires.png

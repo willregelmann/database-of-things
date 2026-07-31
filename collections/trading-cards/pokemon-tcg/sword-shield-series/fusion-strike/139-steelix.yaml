@@ -6,4 +6,6 @@ attributes:
   number: "139/264"
   rarity: Rare Holo
   illustrator: Ryuta Fuse
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/139_hires.png

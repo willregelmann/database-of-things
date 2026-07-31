@@ -6,4 +6,6 @@ attributes:
   number: "253/182"
   rarity: Special Illustration Rare
   illustrator: Jiro Sasumo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4/253_hires.png

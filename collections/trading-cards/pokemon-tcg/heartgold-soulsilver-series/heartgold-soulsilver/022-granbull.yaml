@@ -6,4 +6,6 @@ attributes:
   number: "22/123"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/22_hires.png

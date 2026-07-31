@@ -6,4 +6,6 @@ attributes:
   number: "160/189"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/160_hires.png

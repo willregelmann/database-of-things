@@ -6,4 +6,6 @@ attributes:
   number: "45/192"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh2/45_hires.png

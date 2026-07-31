@@ -6,4 +6,6 @@ attributes:
   number: "108/108"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw5/108_hires.png

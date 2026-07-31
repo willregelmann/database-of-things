@@ -6,4 +6,6 @@ attributes:
   number: "29/108"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy6/29_hires.png

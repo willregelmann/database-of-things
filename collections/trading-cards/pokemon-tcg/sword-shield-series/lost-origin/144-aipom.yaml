@@ -6,4 +6,6 @@ attributes:
   number: "144/196"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/144_hires.png

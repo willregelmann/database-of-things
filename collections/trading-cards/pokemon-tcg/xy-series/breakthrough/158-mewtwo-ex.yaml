@@ -6,4 +6,6 @@ attributes:
   number: "158/162"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy8/158_hires.png

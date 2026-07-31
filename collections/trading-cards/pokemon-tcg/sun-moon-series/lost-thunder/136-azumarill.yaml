@@ -6,4 +6,6 @@ attributes:
   number: "136/214"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/136_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "169/236"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/169_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "27/160"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy5/27_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "9/101"
   rarity: Common
   illustrator: match
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw3/9_hires.png

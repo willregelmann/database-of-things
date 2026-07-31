@@ -6,4 +6,6 @@ attributes:
   number: "101/185"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/101_hires.png

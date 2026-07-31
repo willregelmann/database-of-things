@@ -6,4 +6,6 @@ attributes:
   number: "77/111"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl2/77_hires.png

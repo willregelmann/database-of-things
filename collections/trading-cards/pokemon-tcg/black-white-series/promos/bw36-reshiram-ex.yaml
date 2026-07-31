@@ -6,4 +6,6 @@ attributes:
   number: "BW36"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW36_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "73/195"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/73_hires.png

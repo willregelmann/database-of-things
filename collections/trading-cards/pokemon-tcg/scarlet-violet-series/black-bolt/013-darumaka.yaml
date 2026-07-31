@@ -6,4 +6,6 @@ attributes:
   number: "13/86"
   rarity: Common
   illustrator: svlt
+  type:
+    - Fire
 image: https://images.pokemontcg.io/zsv10pt5/13_hires.png

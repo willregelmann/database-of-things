@@ -6,4 +6,6 @@ attributes:
   number: "63/192"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/63_hires.png

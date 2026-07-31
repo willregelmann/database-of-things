@@ -6,4 +6,6 @@ attributes:
   number: "083"
   rarity: Promo
   illustrator: Atsushi Furusawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/83_hires.png

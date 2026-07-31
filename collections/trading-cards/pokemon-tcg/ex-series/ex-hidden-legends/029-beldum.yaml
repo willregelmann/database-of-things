@@ -6,4 +6,6 @@ attributes:
   number: "29/101"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex5/29_hires.png

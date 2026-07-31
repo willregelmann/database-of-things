@@ -6,4 +6,6 @@ attributes:
   number: "55/111"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo1/55_hires.png

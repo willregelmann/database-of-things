@@ -6,4 +6,6 @@ attributes:
   number: "22/105"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/22_hires.png

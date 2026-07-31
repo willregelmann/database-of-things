@@ -6,4 +6,6 @@ attributes:
   number: "19/162"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy8/19_hires.png

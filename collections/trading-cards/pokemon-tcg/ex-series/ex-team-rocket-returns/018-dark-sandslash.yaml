@@ -6,4 +6,7 @@ attributes:
   number: "18/109"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
+    - Darkness
 image: https://images.pokemontcg.io/ex7/18_hires.png

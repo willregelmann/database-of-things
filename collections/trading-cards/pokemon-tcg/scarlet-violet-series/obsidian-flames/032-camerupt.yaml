@@ -6,4 +6,6 @@ attributes:
   number: "32/197"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3/32_hires.png

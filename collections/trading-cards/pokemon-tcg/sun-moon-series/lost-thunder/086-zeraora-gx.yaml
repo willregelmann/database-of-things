@@ -6,4 +6,6 @@ attributes:
   number: "86/214"
   rarity: Rare Holo GX
   illustrator: PLANETA Otani
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/86_hires.png

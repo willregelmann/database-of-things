@@ -6,4 +6,6 @@ attributes:
   number: "DP13"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/dpp/DP13_hires.png

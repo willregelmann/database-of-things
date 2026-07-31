@@ -6,4 +6,6 @@ attributes:
   number: "XY49"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY49_hires.png

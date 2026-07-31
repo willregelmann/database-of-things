@@ -6,4 +6,6 @@ attributes:
   number: "XY53"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY53_hires.png

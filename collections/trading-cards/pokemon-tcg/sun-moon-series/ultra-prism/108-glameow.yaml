@@ -6,4 +6,6 @@ attributes:
   number: "108/156"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm5/108_hires.png

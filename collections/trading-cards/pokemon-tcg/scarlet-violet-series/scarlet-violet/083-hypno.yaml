@@ -6,4 +6,6 @@ attributes:
   number: "83/198"
   rarity: Uncommon
   illustrator: Toshinao Aoki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/83_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "71/114"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy11/71_hires.png

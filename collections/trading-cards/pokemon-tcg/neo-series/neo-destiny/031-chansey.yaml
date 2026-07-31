@@ -6,4 +6,6 @@ attributes:
   number: "31/105"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/31_hires.png

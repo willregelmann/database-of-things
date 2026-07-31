@@ -6,4 +6,6 @@ attributes:
   number: "120/130"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp1/120_hires.png

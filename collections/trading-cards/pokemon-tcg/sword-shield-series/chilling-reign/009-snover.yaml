@@ -6,4 +6,6 @@ attributes:
   number: "9/198"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh6/9_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/159"
   rarity: Common
   illustrator: GOTO minori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/58_hires.png

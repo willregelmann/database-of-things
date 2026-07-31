@@ -6,4 +6,6 @@ attributes:
   number: "058"
   rarity: Promo
   illustrator: Lee HyunJung
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/58_hires.png

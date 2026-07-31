@@ -6,4 +6,6 @@ attributes:
   number: "112/196"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh11/112_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "106/162"
   rarity: Common
   illustrator: akagi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv5/106_hires.png

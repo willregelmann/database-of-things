@@ -6,4 +6,6 @@ attributes:
   number: "H14/H32"
   rarity: Rare Holo
   illustrator: Hikaru Koike
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/H14_hires.png

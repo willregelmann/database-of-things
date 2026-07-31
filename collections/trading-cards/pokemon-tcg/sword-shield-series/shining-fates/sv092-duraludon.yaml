@@ -6,4 +6,6 @@ attributes:
   number: "SV092/SV122"
   rarity: Rare Shiny
   illustrator: Souichirou Gunjima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45sv/SV092_hires.png

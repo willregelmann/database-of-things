@@ -6,4 +6,6 @@ attributes:
   number: "54/102"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/54_hires.png

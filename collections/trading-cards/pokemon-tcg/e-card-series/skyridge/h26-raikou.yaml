@@ -6,4 +6,6 @@ attributes:
   number: "H26/H32"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard3/H26_hires.png

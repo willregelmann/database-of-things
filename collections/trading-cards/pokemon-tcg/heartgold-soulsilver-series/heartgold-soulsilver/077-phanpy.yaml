@@ -6,4 +6,6 @@ attributes:
   number: "77/123"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss1/77_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/123"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/58_hires.png

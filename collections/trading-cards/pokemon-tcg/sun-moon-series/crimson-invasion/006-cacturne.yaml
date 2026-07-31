@@ -6,4 +6,6 @@ attributes:
   number: "6/111"
   rarity: Rare
   illustrator: Mina Nakai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm4/6_hires.png

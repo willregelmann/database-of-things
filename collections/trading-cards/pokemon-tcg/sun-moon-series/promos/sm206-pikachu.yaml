@@ -6,4 +6,6 @@ attributes:
   number: "SM206"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM206_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "61/172"
   rarity: Uncommon
   illustrator: miki kudo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/61_hires.png

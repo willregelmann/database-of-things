@@ -6,4 +6,6 @@ attributes:
   number: "44/131"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/44_hires.png

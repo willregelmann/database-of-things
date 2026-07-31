@@ -6,4 +6,6 @@ attributes:
   number: "35/122"
   rarity: Rare
   illustrator: Kanako Eo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/35_hires.png

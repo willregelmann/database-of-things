@@ -6,4 +6,6 @@ attributes:
   number: "130/236"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/130_hires.png

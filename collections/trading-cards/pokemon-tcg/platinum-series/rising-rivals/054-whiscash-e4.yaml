@@ -6,4 +6,6 @@ attributes:
   number: "54/111"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl2/54_hires.png

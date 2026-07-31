@@ -6,4 +6,6 @@ attributes:
   number: "88/146"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy1/88_hires.png

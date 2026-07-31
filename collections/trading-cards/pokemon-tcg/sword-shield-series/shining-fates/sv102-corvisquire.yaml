@@ -6,4 +6,6 @@ attributes:
   number: "SV102/SV122"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV102_hires.png

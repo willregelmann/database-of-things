@@ -6,4 +6,6 @@ attributes:
   number: "51/167"
   rarity: Common
   illustrator: Mékayu
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/51_hires.png

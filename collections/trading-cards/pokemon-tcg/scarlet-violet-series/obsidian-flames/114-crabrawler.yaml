@@ -6,4 +6,6 @@ attributes:
   number: "114/197"
   rarity: Common
   illustrator: Nagomi Nijo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3/114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY114"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG46/GG70"
   rarity: Rare Holo VSTAR
   illustrator: DOM
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG46_hires.png

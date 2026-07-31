@@ -6,4 +6,6 @@ attributes:
   number: "61/135"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw8/61_hires.png

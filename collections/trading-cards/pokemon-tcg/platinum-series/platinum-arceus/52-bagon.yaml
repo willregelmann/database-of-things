@@ -6,4 +6,6 @@ attributes:
   number: "52/99"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl4/52_hires.png

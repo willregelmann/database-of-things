@@ -6,4 +6,6 @@ attributes:
   number: "XY121"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY121_hires.png

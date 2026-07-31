@@ -6,4 +6,6 @@ attributes:
   number: "107/144"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/107_hires.png

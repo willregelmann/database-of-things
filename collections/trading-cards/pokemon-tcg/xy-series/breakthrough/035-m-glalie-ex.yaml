@@ -6,4 +6,6 @@ attributes:
   number: "35/162"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/35_hires.png

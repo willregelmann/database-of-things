@@ -6,4 +6,6 @@ attributes:
   number: "69/92"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex12/69_hires.png

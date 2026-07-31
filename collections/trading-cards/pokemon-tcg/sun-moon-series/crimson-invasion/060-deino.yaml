@@ -6,4 +6,6 @@ attributes:
   number: "60/111"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm4/60_hires.png

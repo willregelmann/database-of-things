@@ -6,4 +6,6 @@ attributes:
   number: "74/123"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp2/74_hires.png

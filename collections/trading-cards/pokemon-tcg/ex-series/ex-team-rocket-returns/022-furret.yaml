@@ -6,4 +6,6 @@ attributes:
   number: "22/109"
   rarity: Rare
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex7/22_hires.png

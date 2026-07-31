@@ -6,4 +6,6 @@ attributes:
   number: "21/160"
   rarity: Rare
   illustrator: Kanako Eo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy5/21_hires.png

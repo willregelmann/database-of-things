@@ -6,4 +6,6 @@ attributes:
   number: "9/108"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy12/9_hires.png

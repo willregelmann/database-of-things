@@ -6,4 +6,6 @@ attributes:
   number: "H3/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/H3_hires.png

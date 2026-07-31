@@ -6,4 +6,6 @@ attributes:
   number: "43/68"
   rarity: Rare
   illustrator: Hideki Ishikawa
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm115/43_hires.png

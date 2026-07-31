@@ -6,4 +6,6 @@ attributes:
   number: "111/124"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw6/111_hires.png

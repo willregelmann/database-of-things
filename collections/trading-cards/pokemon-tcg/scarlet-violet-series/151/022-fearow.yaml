@@ -6,4 +6,6 @@ attributes:
   number: "22/165"
   rarity: Uncommon
   illustrator: Gemi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/22_hires.png

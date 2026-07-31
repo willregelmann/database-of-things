@@ -6,4 +6,6 @@ attributes:
   number: "29/182"
   rarity: Rare
   illustrator: Oswaldo KATO
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4/29_hires.png

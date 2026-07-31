@@ -6,4 +6,6 @@ attributes:
   number: "58/108"
   rarity: Rare Holo ex
   illustrator: Ayaka Yoshida
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/58_hires.png

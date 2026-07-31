@@ -6,4 +6,6 @@ attributes:
   number: "87/165"
   rarity: Uncommon
   illustrator: Yuichi Sawayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard1/87_hires.png

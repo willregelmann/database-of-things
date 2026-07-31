@@ -6,4 +6,6 @@ attributes:
   number: "198/264"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh8/198_hires.png

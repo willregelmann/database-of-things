@@ -6,4 +6,6 @@ attributes:
   number: "SWSH208"
   rarity: Promo
   illustrator: zig
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH208_hires.png

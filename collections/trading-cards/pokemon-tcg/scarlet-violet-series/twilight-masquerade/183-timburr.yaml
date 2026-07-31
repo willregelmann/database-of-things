@@ -6,4 +6,6 @@ attributes:
   number: "183/167"
   rarity: Illustration Rare
   illustrator: Yuriko Akase
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6/183_hires.png

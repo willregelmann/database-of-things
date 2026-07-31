@@ -6,4 +6,6 @@ attributes:
   number: "57/98"
   rarity: Rare Holo ex
   illustrator: PLANETA
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy7/57_hires.png

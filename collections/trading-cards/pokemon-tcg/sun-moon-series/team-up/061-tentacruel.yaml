@@ -6,4 +6,6 @@ attributes:
   number: "61/181"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/61_hires.png

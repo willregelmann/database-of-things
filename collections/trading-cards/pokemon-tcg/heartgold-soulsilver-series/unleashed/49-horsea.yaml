@@ -6,4 +6,6 @@ attributes:
   number: "49/95"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/49_hires.png

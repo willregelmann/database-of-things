@@ -6,4 +6,6 @@ attributes:
   number: "51/108"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw5/51_hires.png

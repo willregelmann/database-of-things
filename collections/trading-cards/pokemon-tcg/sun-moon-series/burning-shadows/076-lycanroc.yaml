@@ -6,4 +6,6 @@ attributes:
   number: "76/147"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm3/76_hires.png

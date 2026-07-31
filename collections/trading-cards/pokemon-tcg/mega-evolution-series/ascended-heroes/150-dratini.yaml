@@ -6,4 +6,6 @@ attributes:
   number: "150/217"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-150/large

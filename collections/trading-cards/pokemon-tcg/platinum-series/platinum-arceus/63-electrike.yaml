@@ -6,4 +6,6 @@ attributes:
   number: "63/99"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl4/63_hires.png

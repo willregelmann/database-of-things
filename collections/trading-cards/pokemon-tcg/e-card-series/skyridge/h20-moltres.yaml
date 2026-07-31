@@ -6,4 +6,6 @@ attributes:
   number: "H20/H32"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard3/H20_hires.png

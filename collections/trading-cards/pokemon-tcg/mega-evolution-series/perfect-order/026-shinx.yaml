@@ -6,4 +6,6 @@ attributes:
   number: "26/88"
   rarity: Common
   illustrator: Saboteri
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me3-26/large

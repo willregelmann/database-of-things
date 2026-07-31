@@ -6,4 +6,6 @@ attributes:
   number: "36/95"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/col1/36_hires.png

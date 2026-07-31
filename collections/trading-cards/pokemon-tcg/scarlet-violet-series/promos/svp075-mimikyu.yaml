@@ -6,4 +6,6 @@ attributes:
   number: "075"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/75_hires.png

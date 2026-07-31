@@ -6,4 +6,6 @@ attributes:
   number: "91/159"
   rarity: Common
   illustrator: Yuya Oka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5/91_hires.png

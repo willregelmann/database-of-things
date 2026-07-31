@@ -6,4 +6,6 @@ attributes:
   number: "33/167"
   rarity: Rare
   illustrator: Takumi Wada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/33_hires.png

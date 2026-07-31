@@ -6,4 +6,6 @@ attributes:
   number: "145/160"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy5/145_hires.png

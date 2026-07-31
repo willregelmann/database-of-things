@@ -6,4 +6,6 @@ attributes:
   number: "38/97"
   rarity: Uncommon
   illustrator: Toshinao Aoki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex3/38_hires.png

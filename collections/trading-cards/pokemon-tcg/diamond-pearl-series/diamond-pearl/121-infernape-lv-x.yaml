@@ -6,4 +6,6 @@ attributes:
   number: "121/130"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp1/121_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM174"
   rarity: Promo
   illustrator: PLANETA Otani
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM174_hires.png

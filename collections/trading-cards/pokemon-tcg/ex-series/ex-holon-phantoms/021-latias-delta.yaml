@@ -6,4 +6,6 @@ attributes:
   number: "21/110"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex13/21_hires.png

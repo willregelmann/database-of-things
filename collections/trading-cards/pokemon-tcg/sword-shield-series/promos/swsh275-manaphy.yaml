@@ -6,4 +6,6 @@ attributes:
   number: "SWSH275"
   rarity: Promo
   illustrator: NC Empire
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH275_hires.png

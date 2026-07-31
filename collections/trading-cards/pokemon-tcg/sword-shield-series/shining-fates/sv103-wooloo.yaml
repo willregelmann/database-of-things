@@ -6,4 +6,6 @@ attributes:
   number: "SV103/SV122"
   rarity: Rare Shiny
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV103_hires.png

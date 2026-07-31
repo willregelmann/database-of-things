@@ -6,4 +6,6 @@ attributes:
   number: "44/182"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/44_hires.png

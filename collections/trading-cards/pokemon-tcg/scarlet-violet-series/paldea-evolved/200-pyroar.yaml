@@ -6,4 +6,6 @@ attributes:
   number: "200/193"
   rarity: Illustration Rare
   illustrator: Po-Suzuki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv2/200_hires.png

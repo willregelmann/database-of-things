@@ -6,4 +6,6 @@ attributes:
   number: "13/147"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm3/13_hires.png

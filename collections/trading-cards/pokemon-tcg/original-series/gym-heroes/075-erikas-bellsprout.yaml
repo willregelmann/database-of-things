@@ -6,4 +6,6 @@ attributes:
   number: "75/132"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/gym1/75_hires.png

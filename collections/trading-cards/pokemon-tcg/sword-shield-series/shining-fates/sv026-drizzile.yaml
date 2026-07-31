@@ -6,4 +6,6 @@ attributes:
   number: "SV026/SV122"
   rarity: Rare Shiny
   illustrator: Ryuta Fuse
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV026_hires.png

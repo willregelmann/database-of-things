@@ -6,4 +6,6 @@ attributes:
   number: "130/197"
   rarity: Uncommon
   illustrator: rika
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3/130_hires.png

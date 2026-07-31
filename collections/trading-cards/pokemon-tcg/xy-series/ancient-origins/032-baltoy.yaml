@@ -6,4 +6,6 @@ attributes:
   number: "32/98"
   rarity: Common
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy7/32_hires.png

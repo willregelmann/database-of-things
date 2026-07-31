@@ -6,4 +6,6 @@ attributes:
   number: "61/123"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss1/61_hires.png

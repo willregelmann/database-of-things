@@ -6,4 +6,6 @@ attributes:
   number: "109/147"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm3/109_hires.png

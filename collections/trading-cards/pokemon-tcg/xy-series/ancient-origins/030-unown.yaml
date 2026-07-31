@@ -6,4 +6,6 @@ attributes:
   number: "30/98"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy7/30_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "3/106"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex9/3_hires.png

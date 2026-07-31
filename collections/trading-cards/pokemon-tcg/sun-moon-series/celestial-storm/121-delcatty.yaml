@@ -6,4 +6,6 @@ attributes:
   number: "121/168"
   rarity: Rare Holo
   illustrator: Sekio
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm7/121_hires.png

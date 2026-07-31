@@ -6,4 +6,7 @@ attributes:
   number: "7/95"
   rarity: Rare Holo
   illustrator: Hiromichi Sugiyama
+  type:
+    - Fighting
+    - Darkness
 image: https://images.pokemontcg.io/ex4/7_hires.png

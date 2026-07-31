@@ -6,4 +6,6 @@ attributes:
   number: "103/214"
   rarity: Rare Holo
   illustrator: so-taro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/103_hires.png

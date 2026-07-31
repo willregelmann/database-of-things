@@ -6,4 +6,6 @@ attributes:
   number: "27/264"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh8/27_hires.png

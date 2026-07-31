@@ -6,4 +6,6 @@ attributes:
   number: "38/82"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base5/38_hires.png

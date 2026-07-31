@@ -6,4 +6,6 @@ attributes:
   number: "RC11/RC32"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/RC11_hires.png

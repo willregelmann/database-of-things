@@ -6,4 +6,6 @@ attributes:
   number: "122/119"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy4/122_hires.png

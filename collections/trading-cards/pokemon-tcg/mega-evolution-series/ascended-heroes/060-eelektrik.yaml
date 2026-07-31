@@ -6,4 +6,6 @@ attributes:
   number: "60/217"
   rarity: Uncommon
   illustrator: Jerky
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-60/large

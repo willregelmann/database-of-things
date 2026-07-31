@@ -6,4 +6,6 @@ attributes:
   number: "69/198"
   rarity: Common
   illustrator: Nisota Niso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv1/69_hires.png

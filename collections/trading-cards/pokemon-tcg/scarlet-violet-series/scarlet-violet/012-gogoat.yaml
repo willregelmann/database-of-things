@@ -6,4 +6,6 @@ attributes:
   number: "12/198"
   rarity: Common
   illustrator: Gemi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/12_hires.png

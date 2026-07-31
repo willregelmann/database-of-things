@@ -6,4 +6,6 @@ attributes:
   number: "SM248"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM248_hires.png

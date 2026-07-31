@@ -6,4 +6,6 @@ attributes:
   number: "49/147"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/49_hires.png

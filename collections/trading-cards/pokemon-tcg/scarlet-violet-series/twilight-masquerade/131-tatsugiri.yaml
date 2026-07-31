@@ -6,4 +6,6 @@ attributes:
   number: "131/167"
   rarity: Uncommon
   illustrator: Jerky
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/131_hires.png

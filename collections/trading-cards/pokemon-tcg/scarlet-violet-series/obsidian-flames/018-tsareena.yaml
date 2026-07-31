@@ -6,4 +6,6 @@ attributes:
   number: "18/197"
   rarity: Uncommon
   illustrator: Atsushi Furusawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3/18_hires.png

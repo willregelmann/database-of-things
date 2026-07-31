@@ -6,4 +6,6 @@ attributes:
   number: "22/75"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo2/22_hires.png

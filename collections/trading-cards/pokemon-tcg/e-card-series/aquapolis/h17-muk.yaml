@@ -6,4 +6,6 @@ attributes:
   number: "H17/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/H17_hires.png

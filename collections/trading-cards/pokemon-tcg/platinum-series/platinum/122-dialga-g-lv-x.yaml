@@ -6,4 +6,6 @@ attributes:
   number: "122/127"
   rarity: Rare Holo LV.X
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl1/122_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "55/124"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw6/55_hires.png

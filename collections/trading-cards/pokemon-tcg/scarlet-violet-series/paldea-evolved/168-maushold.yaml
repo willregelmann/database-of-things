@@ -6,4 +6,6 @@ attributes:
   number: "168/193"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/168_hires.png

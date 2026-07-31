@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "5/39"
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy0/5_hires.png

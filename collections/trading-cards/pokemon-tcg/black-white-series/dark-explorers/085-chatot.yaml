@@ -6,4 +6,6 @@ attributes:
   number: "85/108"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw5/85_hires.png

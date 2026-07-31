@@ -6,4 +6,6 @@ attributes:
   number: "87/122"
   rarity: Common
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy9/87_hires.png

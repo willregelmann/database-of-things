@@ -6,4 +6,6 @@ attributes:
   number: "139/214"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/139_hires.png

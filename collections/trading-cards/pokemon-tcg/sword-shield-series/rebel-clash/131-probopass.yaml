@@ -6,4 +6,6 @@ attributes:
   number: "131/192"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/131_hires.png

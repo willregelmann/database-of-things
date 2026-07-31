@@ -6,4 +6,6 @@ attributes:
   number: "239/236"
   rarity: Rare Rainbow
   illustrator: ConceptLab
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm11/239_hires.png

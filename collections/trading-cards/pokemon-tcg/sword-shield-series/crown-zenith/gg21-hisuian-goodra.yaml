@@ -6,4 +6,6 @@ attributes:
   number: "GG21/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: You Iribi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12pt5gg/GG21_hires.png

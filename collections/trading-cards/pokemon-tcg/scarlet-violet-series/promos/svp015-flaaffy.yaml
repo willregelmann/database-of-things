@@ -6,4 +6,6 @@ attributes:
   number: "015"
   rarity: Promo
   illustrator: "0313"
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/15_hires.png

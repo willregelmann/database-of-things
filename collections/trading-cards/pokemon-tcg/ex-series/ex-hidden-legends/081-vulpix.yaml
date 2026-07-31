@@ -6,4 +6,6 @@ attributes:
   number: "81/101"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex5/81_hires.png

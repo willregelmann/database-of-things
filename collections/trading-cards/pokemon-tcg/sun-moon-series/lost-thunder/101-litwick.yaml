@@ -6,4 +6,6 @@ attributes:
   number: "101/214"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/101_hires.png

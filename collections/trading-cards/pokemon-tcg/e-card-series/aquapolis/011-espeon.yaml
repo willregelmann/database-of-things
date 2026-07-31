@@ -6,4 +6,6 @@ attributes:
   number: "11/147"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard2/11_hires.png

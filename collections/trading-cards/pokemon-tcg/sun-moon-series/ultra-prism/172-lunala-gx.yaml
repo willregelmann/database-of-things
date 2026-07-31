@@ -6,4 +6,6 @@ attributes:
   number: "172/156"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/172_hires.png

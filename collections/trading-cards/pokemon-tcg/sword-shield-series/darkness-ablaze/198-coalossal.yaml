@@ -6,4 +6,6 @@ attributes:
   number: "198/189"
   rarity: Rare Secret
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/198_hires.png

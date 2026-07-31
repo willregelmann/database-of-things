@@ -6,4 +6,6 @@ attributes:
   number: "93/100"
   rarity: Rare Holo ex
   illustrator: Takabon
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex14/93_hires.png

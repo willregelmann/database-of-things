@@ -6,4 +6,6 @@ attributes:
   number: "87/198"
   rarity: Common
   illustrator: Jerky
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/87_hires.png

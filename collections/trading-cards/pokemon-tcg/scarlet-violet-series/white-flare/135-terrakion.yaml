@@ -6,4 +6,6 @@ attributes:
   number: "135/86"
   rarity: Illustration Rare
   illustrator: Shiburingaru
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/135_hires.png

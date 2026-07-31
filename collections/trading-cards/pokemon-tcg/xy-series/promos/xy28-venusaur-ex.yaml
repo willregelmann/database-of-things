@@ -6,4 +6,6 @@ attributes:
   number: "XY28"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY28_hires.png

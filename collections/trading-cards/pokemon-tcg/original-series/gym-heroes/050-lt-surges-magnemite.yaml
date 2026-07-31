@@ -6,4 +6,6 @@ attributes:
   number: "50/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/gym1/50_hires.png

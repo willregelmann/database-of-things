@@ -6,4 +6,6 @@ attributes:
   number: "H15/H32"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard3/H15_hires.png

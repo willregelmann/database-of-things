@@ -6,4 +6,6 @@ attributes:
   number: "79/203"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/79_hires.png

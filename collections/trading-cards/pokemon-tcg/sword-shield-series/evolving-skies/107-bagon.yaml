@@ -6,4 +6,6 @@ attributes:
   number: "107/203"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/107_hires.png

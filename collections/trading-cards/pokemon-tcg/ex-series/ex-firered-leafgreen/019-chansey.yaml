@@ -6,4 +6,6 @@ attributes:
   number: "19/112"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex6/19_hires.png

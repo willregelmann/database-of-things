@@ -6,4 +6,6 @@ attributes:
   number: "79/145"
   rarity: Rare
   illustrator: Hideki Ishikawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm2/79_hires.png

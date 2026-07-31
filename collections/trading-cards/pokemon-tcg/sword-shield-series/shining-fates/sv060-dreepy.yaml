@@ -6,4 +6,6 @@ attributes:
   number: "SV060/SV122"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV060_hires.png

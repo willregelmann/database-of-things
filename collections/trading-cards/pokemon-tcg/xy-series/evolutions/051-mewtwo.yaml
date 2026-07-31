@@ -6,4 +6,6 @@ attributes:
   number: "51/108"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy12/51_hires.png

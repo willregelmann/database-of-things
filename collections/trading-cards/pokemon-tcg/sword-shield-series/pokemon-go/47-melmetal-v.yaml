@@ -6,4 +6,6 @@ attributes:
   number: "47/78"
   rarity: Rare Holo V
   illustrator: sadaji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pgo/47_hires.png

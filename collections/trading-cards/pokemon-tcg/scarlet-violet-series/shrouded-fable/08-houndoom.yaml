@@ -6,4 +6,6 @@ attributes:
   number: "8/64"
   rarity: Common
   illustrator: burari
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6pt5/8_hires.png

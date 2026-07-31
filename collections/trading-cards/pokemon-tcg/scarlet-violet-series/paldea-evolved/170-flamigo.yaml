@@ -6,4 +6,6 @@ attributes:
   number: "170/193"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/170_hires.png

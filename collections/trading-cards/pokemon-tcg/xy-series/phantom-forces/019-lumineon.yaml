@@ -6,4 +6,6 @@ attributes:
   number: "19/119"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy4/19_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "080"
   rarity: Promo
   illustrator: Hideki Ishikawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/80_hires.png

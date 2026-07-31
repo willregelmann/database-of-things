@@ -6,4 +6,6 @@ attributes:
   number: "82/167"
   rarity: Rare
   illustrator: Masako Tomii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/82_hires.png

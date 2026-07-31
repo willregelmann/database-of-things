@@ -6,4 +6,6 @@ attributes:
   number: "46/196"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/46_hires.png

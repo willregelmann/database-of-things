@@ -6,4 +6,6 @@ attributes:
   number: "SM138"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM138_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "66/264"
   rarity: Rare
   illustrator: otumami
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/66_hires.png

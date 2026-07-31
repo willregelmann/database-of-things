@@ -6,4 +6,6 @@ attributes:
   number: "H28/H32"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ecard2/H28_hires.png

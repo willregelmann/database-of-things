@@ -6,4 +6,6 @@ attributes:
   number: "24/198"
   rarity: Rare
   illustrator: Mika Pikazo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/24_hires.png

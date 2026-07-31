@@ -6,4 +6,6 @@ attributes:
   number: "XY52"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY52_hires.png

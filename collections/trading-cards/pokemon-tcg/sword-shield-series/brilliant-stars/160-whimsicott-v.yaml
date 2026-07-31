@@ -6,4 +6,6 @@ attributes:
   number: "160/172"
   rarity: Rare Ultra
   illustrator: Saki Hayashiro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/160_hires.png

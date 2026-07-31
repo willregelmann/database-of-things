@@ -6,4 +6,6 @@ attributes:
   number: "28/217"
   rarity: Uncommon
   illustrator: Minahamu
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me2pt5-28/large

@@ -6,4 +6,6 @@ attributes:
   number: "129/159"
   rarity: Common
   illustrator: Natsumi Yoshida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/129_hires.png

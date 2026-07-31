@@ -6,4 +6,6 @@ attributes:
   number: "XY71"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY71_hires.png

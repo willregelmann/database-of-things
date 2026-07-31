@@ -6,4 +6,6 @@ attributes:
   number: "16/106"
   rarity: Rare
   illustrator: Daisuke Ito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp4/16_hires.png

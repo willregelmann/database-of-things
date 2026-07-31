@@ -6,4 +6,6 @@ attributes:
   number: "242/193"
   rarity: Ultra Rare
   illustrator: PLANETA Hiiragi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/242_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "68/162"
   rarity: Common
   illustrator: Kedamahadaitai Yawarakai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/68_hires.png

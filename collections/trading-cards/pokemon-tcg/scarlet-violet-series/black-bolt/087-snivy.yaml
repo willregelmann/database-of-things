@@ -6,4 +6,6 @@ attributes:
   number: "87/86"
   rarity: Illustration Rare
   illustrator: Yoshimi Miyoshi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/zsv10pt5/87_hires.png

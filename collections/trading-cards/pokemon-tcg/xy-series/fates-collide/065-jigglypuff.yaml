@@ -6,4 +6,6 @@ attributes:
   number: "65/124"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy10/65_hires.png

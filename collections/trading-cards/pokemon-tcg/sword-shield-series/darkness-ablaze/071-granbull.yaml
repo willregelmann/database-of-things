@@ -6,4 +6,6 @@ attributes:
   number: "71/189"
   rarity: Rare
   illustrator: SATOSHI NAKAI
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/71_hires.png

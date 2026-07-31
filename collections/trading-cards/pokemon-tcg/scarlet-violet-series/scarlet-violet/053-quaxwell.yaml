@@ -6,4 +6,6 @@ attributes:
   number: "53/198"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv1/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "153/264"
   rarity: Uncommon
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/153_hires.png

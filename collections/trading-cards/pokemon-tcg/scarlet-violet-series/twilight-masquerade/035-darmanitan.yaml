@@ -6,4 +6,6 @@ attributes:
   number: "35/167"
   rarity: Uncommon
   illustrator: OKUBO
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/35_hires.png

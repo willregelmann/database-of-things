@@ -6,4 +6,6 @@ attributes:
   number: "52/101"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex5/52_hires.png

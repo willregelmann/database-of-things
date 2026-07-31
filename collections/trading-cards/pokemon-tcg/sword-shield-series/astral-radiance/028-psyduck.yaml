@@ -6,4 +6,6 @@ attributes:
   number: "28/189"
   rarity: Common
   illustrator: GOSSAN
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/28_hires.png

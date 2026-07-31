@@ -6,4 +6,6 @@ attributes:
   number: "164/198"
   rarity: Rare
   illustrator: Ryota Murayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/164_hires.png

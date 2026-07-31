@@ -6,4 +6,6 @@ attributes:
   number: "12/132"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/12_hires.png

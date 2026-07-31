@@ -6,4 +6,6 @@ attributes:
   number: "22/73"
   rarity: Rare Holo V
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh35/22_hires.png

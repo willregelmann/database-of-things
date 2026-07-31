@@ -6,4 +6,6 @@ attributes:
   number: "143/156"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/143_hires.png

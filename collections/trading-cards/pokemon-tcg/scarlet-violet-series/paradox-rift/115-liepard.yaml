@@ -6,4 +6,6 @@ attributes:
   number: "115/182"
   rarity: Common
   illustrator: Yoshioka
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/115_hires.png

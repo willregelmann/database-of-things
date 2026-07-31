@@ -6,4 +6,6 @@ attributes:
   number: "10/147"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm3/10_hires.png

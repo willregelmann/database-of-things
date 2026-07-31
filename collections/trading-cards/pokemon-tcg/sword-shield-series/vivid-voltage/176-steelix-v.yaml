@@ -6,4 +6,6 @@ attributes:
   number: "176/185"
   rarity: Rare Ultra
   illustrator: Satoshi Shirai
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/176_hires.png

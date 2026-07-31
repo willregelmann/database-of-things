@@ -6,4 +6,6 @@ attributes:
   number: "226/91"
   rarity: Illustration Rare
   illustrator: REND
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/226_hires.png

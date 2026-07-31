@@ -6,4 +6,6 @@ attributes:
   number: "78/196"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/78_hires.png

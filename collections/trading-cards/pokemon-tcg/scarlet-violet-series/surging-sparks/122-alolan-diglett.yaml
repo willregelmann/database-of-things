@@ -6,4 +6,6 @@ attributes:
   number: "122/191"
   rarity: Common
   illustrator: Akino Fukuji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/122_hires.png

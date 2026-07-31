@@ -6,4 +6,6 @@ attributes:
   number: "119/203"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/119_hires.png

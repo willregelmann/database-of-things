@@ -6,4 +6,6 @@ attributes:
   number: "107/159"
   rarity: Rare Holo
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/107_hires.png

@@ -5,4 +5,6 @@ date: "2026-07-17"
 attributes:
   number: "42/84"
   rarity: Common
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me5-42/large

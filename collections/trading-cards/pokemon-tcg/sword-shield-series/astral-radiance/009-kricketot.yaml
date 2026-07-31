@@ -6,4 +6,6 @@ attributes:
   number: "9/189"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/9_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "42/100"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp7/42_hires.png

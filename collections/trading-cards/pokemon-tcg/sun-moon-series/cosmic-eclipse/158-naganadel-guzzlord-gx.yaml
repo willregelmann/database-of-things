@@ -6,4 +6,6 @@ attributes:
   number: "158/236"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm12/158_hires.png

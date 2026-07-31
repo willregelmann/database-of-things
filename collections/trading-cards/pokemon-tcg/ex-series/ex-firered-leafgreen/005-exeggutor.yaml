@@ -6,4 +6,6 @@ attributes:
   number: "5/112"
   rarity: Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex6/5_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "112/172"
   rarity: Rare
   illustrator: Uta
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh9/112_hires.png

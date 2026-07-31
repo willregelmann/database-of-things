@@ -6,4 +6,6 @@ attributes:
   number: "61/97"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex3/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SH9"
   rarity: Rare Holo
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/SH9_hires.png

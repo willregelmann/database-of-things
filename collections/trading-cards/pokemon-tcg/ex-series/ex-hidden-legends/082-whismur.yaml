@@ -6,4 +6,6 @@ attributes:
   number: "82/101"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex5/82_hires.png

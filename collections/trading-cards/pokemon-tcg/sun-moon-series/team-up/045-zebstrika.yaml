@@ -6,4 +6,6 @@ attributes:
   number: "45/181"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm9/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "159/193"
   rarity: Uncommon
   illustrator: Shinya Komatsu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/159_hires.png

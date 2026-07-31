@@ -6,4 +6,6 @@ attributes:
   number: "41/197"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3/41_hires.png

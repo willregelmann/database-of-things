@@ -6,4 +6,6 @@ attributes:
   number: "212/182"
   rarity: Illustration Rare
   illustrator: NC Empire
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/212_hires.png

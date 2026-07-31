@@ -6,4 +6,6 @@ attributes:
   number: "148/197"
   rarity: Common
   illustrator: Hitoshi Ariga
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/148_hires.png

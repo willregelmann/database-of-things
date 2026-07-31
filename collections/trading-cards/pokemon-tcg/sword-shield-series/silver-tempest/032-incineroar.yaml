@@ -6,4 +6,6 @@ attributes:
   number: "32/195"
   rarity: Rare
   illustrator: Hideki Ishikawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12/32_hires.png

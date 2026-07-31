@@ -6,4 +6,6 @@ attributes:
   number: "44/163"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh5/44_hires.png

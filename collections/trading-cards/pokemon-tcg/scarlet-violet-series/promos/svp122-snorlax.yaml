@@ -6,4 +6,6 @@ attributes:
   number: "122"
   rarity: Promo
   illustrator: Po-Suzuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/122_hires.png

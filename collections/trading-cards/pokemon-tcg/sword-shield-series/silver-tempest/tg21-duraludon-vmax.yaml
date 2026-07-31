@@ -6,4 +6,6 @@ attributes:
   number: "TG21/TG30"
   rarity: Rare Holo VMAX
   illustrator: AKIRA EGAWA
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12tg/TG21_hires.png

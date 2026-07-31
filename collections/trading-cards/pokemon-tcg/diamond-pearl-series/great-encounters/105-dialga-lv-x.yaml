@@ -6,4 +6,6 @@ attributes:
   number: "105/106"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp4/105_hires.png

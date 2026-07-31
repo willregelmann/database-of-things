@@ -6,4 +6,6 @@ attributes:
   number: "161/236"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm12/161_hires.png

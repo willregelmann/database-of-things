@@ -6,4 +6,6 @@ attributes:
   number: "52/107"
   rarity: Common
   illustrator: Takao Unno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/52_hires.png

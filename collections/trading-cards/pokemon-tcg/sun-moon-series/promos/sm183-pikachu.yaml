@@ -6,4 +6,6 @@ attributes:
   number: "SM183"
   rarity: Promo
   illustrator: Aya Kusube
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM183_hires.png

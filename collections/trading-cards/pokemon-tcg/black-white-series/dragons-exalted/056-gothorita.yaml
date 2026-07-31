@@ -6,4 +6,6 @@ attributes:
   number: "56/124"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw6/56_hires.png

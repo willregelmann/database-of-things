@@ -6,4 +6,6 @@ attributes:
   number: "XY160"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY160_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "21/114"
   rarity: Common
   illustrator: match
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw1/21_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/147"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/109_hires.png

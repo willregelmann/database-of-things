@@ -6,4 +6,6 @@ attributes:
   number: "73/102"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/73_hires.png

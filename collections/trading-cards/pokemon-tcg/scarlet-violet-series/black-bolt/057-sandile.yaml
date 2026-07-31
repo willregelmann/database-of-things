@@ -6,4 +6,6 @@ attributes:
   number: "57/86"
   rarity: Common
   illustrator: Gapao
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/zsv10pt5/57_hires.png

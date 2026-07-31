@@ -6,4 +6,6 @@ attributes:
   number: "62/124"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy10/62_hires.png

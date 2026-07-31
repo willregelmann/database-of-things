@@ -6,4 +6,6 @@ attributes:
   number: "241/191"
   rarity: Special Illustration Rare
   illustrator: Shinya Mizuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/241_hires.png

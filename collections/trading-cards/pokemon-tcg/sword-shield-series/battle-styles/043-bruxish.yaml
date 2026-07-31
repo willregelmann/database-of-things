@@ -6,4 +6,6 @@ attributes:
   number: "43/163"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/43_hires.png

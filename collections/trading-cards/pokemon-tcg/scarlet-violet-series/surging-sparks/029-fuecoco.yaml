@@ -6,4 +6,6 @@ attributes:
   number: "29/191"
   rarity: Common
   illustrator: Tomomi Ozaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/29_hires.png

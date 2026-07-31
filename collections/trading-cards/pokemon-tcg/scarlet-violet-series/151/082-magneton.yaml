@@ -6,4 +6,6 @@ attributes:
   number: "82/165"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3pt5/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "123/165"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard1/123_hires.png

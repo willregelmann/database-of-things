@@ -6,4 +6,6 @@ attributes:
   number: "7/53"
   rarity: Promo
   illustrator: Keiji Kinebuchi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/7_hires.png

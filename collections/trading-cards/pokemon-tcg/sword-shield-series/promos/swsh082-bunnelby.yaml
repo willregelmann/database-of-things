@@ -6,4 +6,6 @@ attributes:
   number: "SWSH082"
   rarity: Promo
   illustrator: sowsow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH082_hires.png

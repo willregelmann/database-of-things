@@ -6,4 +6,6 @@ attributes:
   number: "96/195"
   rarity: Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/96_hires.png

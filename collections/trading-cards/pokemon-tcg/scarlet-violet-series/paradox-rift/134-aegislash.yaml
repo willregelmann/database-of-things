@@ -6,4 +6,6 @@ attributes:
   number: "134/182"
   rarity: Rare
   illustrator: Jiro Sasumo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/134_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "59/147"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/59_hires.png

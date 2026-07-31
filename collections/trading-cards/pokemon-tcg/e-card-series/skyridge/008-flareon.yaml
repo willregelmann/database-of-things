@@ -6,4 +6,6 @@ attributes:
   number: "8/144"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard3/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV101/SV122"
   rarity: Rare Shiny
   illustrator: Lee HyunJung
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV101_hires.png

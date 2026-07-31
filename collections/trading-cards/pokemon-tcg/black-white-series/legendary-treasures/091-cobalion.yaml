@@ -6,4 +6,6 @@ attributes:
   number: "91/113"
   rarity: Rare Holo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw11/91_hires.png

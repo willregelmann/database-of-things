@@ -6,4 +6,6 @@ attributes:
   number: "89/132"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me1/89_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "105/192"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/105_hires.png

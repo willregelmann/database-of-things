@@ -6,4 +6,6 @@ attributes:
   number: "207/162"
   rarity: Special Illustration Rare
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/207_hires.png

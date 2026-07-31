@@ -6,4 +6,6 @@ attributes:
   number: "103/181"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm9/103_hires.png

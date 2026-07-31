@@ -6,4 +6,6 @@ attributes:
   number: "55/195"
   rarity: Common
   illustrator: Shinji Kanda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12/55_hires.png

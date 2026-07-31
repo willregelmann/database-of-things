@@ -6,4 +6,6 @@ attributes:
   number: "XY142"
   rarity: Promo
   illustrator: chibi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY142_hires.png

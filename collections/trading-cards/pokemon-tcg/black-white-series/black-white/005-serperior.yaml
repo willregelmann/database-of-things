@@ -6,4 +6,6 @@ attributes:
   number: "5/114"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/5_hires.png

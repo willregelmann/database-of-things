@@ -6,4 +6,6 @@ attributes:
   number: "SV115/SV122"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV115_hires.png

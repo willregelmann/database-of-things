@@ -6,4 +6,6 @@ attributes:
   number: "211/203"
   rarity: Rare Rainbow
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/211_hires.png

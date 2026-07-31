@@ -6,4 +6,6 @@ attributes:
   number: "96/146"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp6/96_hires.png

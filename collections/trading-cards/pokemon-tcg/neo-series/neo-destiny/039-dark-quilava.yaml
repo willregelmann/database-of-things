@@ -6,4 +6,6 @@ attributes:
   number: "39/105"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo4/39_hires.png

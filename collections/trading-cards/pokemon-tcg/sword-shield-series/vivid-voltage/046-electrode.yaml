@@ -6,4 +6,6 @@ attributes:
   number: "46/185"
   rarity: Rare Holo
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/46_hires.png

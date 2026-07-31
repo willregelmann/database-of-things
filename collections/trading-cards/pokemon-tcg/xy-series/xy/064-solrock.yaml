@@ -6,4 +6,6 @@ attributes:
   number: "64/146"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy1/64_hires.png

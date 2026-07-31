@@ -6,4 +6,7 @@ attributes:
   number: "29/109"
   rarity: Uncommon
   illustrator: Nakaoka
+  type:
+    - Grass
+    - Darkness
 image: https://images.pokemontcg.io/ex7/29_hires.png

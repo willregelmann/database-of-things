@@ -6,4 +6,6 @@ attributes:
   number: "121/165"
   rarity: Common
   illustrator: Hironobu Yoshida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard1/121_hires.png

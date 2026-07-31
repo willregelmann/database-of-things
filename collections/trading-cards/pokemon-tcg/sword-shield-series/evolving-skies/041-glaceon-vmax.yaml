@@ -6,4 +6,6 @@ attributes:
   number: "41/203"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Tsuji
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/41_hires.png

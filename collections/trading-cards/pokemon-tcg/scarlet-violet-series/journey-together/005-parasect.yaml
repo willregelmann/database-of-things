@@ -6,4 +6,6 @@ attributes:
   number: "5/159"
   rarity: Common
   illustrator: Tetsu Kayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/5_hires.png

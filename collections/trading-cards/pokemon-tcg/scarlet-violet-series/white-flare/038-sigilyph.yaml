@@ -6,4 +6,6 @@ attributes:
   number: "38/86"
   rarity: Uncommon
   illustrator: Krgc
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/38_hires.png

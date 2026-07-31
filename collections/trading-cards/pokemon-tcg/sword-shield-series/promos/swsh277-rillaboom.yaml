@@ -6,4 +6,6 @@ attributes:
   number: "SWSH277"
   rarity: Promo
   illustrator: DOM
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH277_hires.png

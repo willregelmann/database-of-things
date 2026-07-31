@@ -6,4 +6,6 @@ attributes:
   number: "88/145"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm2/88_hires.png

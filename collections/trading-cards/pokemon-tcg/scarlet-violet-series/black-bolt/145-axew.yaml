@@ -6,4 +6,6 @@ attributes:
   number: "145/86"
   rarity: Illustration Rare
   illustrator: Ayako Ozaki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/zsv10pt5/145_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/167"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/22_hires.png

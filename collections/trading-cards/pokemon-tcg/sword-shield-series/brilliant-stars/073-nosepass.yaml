@@ -6,4 +6,6 @@ attributes:
   number: "73/172"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/73_hires.png

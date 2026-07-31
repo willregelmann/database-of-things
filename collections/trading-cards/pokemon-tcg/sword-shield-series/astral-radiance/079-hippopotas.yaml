@@ -6,4 +6,6 @@ attributes:
   number: "79/189"
   rarity: Common
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/79_hires.png

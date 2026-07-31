@@ -6,4 +6,6 @@ attributes:
   number: "RC13/RC32"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/RC13_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "DP45"
   rarity: Promo
   illustrator: Wataru Kawahara
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dpp/DP45_hires.png

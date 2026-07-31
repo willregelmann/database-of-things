@@ -6,4 +6,6 @@ attributes:
   number: "22/185"
   rarity: Rare Holo V
   illustrator: PLANETA Igarashi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh4/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "21/114"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy11/21_hires.png

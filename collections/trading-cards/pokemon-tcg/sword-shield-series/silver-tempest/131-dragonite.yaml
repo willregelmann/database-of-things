@@ -6,4 +6,6 @@ attributes:
   number: "131/195"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12/131_hires.png

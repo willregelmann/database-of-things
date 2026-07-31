@@ -6,4 +6,6 @@ attributes:
   number: "52/182"
   rarity: Common
   illustrator: kamonabe
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/52_hires.png

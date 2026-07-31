@@ -6,4 +6,6 @@ attributes:
   number: "5/123"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/5_hires.png

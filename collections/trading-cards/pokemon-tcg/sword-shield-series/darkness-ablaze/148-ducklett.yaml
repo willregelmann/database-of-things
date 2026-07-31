@@ -6,4 +6,6 @@ attributes:
   number: "148/189"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/148_hires.png

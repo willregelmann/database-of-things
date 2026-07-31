@@ -6,4 +6,6 @@ attributes:
   number: "151/165"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3pt5/151_hires.png

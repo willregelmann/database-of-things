@@ -6,4 +6,6 @@ attributes:
   number: "11/75"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo2/11_hires.png

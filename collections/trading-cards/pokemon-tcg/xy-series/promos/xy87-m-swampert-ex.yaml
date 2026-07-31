@@ -6,4 +6,6 @@ attributes:
   number: "XY87"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY87_hires.png

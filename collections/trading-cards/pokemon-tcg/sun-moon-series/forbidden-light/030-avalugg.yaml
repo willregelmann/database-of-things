@@ -6,4 +6,6 @@ attributes:
   number: "30/131"
   rarity: Rare
   illustrator: sowsow
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm6/30_hires.png

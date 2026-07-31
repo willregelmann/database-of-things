@@ -6,4 +6,6 @@ attributes:
   number: "36/162"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/36_hires.png

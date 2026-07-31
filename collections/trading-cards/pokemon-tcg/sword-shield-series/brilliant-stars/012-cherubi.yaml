@@ -6,4 +6,6 @@ attributes:
   number: "12/172"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh9/12_hires.png

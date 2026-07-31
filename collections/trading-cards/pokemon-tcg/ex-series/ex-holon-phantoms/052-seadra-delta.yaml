@@ -6,4 +6,6 @@ attributes:
   number: "52/110"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex13/52_hires.png

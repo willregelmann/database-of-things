@@ -6,4 +6,6 @@ attributes:
   number: "XY141"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY141_hires.png

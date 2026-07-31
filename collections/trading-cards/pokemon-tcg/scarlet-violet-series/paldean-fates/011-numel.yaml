@@ -6,4 +6,6 @@ attributes:
   number: "11/91"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/11_hires.png

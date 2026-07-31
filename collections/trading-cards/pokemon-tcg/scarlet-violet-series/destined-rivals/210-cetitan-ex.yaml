@@ -6,4 +6,6 @@ attributes:
   number: "210/182"
   rarity: Ultra Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/210_hires.png

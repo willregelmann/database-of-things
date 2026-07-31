@@ -6,4 +6,6 @@ attributes:
   number: "24/91"
   rarity: Rare
   illustrator: Yoriyuki Ikegami
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/24_hires.png

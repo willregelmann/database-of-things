@@ -6,4 +6,6 @@ attributes:
   number: "56/105"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/113"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex11/33_hires.png

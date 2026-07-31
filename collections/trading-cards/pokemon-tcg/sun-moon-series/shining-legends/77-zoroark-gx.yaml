@@ -6,4 +6,6 @@ attributes:
   number: "77/73"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm35/77_hires.png

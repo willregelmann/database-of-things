@@ -6,4 +6,6 @@ attributes:
   number: "SWSH175"
   rarity: Promo
   illustrator: Tika Matsuno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH175_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "121/189"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/121_hires.png

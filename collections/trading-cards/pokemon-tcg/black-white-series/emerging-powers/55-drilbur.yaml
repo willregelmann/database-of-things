@@ -6,4 +6,6 @@ attributes:
   number: "55/98"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw2/55_hires.png

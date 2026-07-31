@@ -6,4 +6,6 @@ attributes:
   number: "SM153"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM153_hires.png

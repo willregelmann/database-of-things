@@ -6,4 +6,6 @@ attributes:
   number: "SV097/SV122"
   rarity: Rare Shiny
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV097_hires.png

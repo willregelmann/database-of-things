@@ -6,4 +6,6 @@ attributes:
   number: "60/111"
   rarity: Common
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy3/60_hires.png

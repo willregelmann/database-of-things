@@ -6,4 +6,6 @@ attributes:
   number: "85/132"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me1/85_hires.png

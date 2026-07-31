@@ -6,6 +6,8 @@ attributes:
   number: "97/110"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base6/97_hires.png
 variants:
   - id: 3b7b3a92-2f1f-4b5c-8ede-bed352349d6d

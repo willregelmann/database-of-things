@@ -6,4 +6,6 @@ attributes:
   number: "53/99"
   rarity: Rare
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw4/53_hires.png

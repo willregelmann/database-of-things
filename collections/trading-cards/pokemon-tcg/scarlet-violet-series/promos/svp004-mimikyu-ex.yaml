@@ -6,4 +6,6 @@ attributes:
   number: "004"
   rarity: Promo
   illustrator: PLANETA Yamashita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/4_hires.png

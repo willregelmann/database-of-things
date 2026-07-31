@@ -6,4 +6,6 @@ attributes:
   number: "146/86"
   rarity: Illustration Rare
   illustrator: Yuya Oka
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/zsv10pt5/146_hires.png

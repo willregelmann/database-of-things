@@ -6,4 +6,6 @@ attributes:
   number: "96/146"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy1/96_hires.png

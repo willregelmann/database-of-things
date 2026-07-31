@@ -6,4 +6,6 @@ attributes:
   number: "SWSH022"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH022_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "28/113"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw11/28_hires.png

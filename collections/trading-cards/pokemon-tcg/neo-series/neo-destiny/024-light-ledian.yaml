@@ -6,4 +6,6 @@ attributes:
   number: "24/105"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/24_hires.png

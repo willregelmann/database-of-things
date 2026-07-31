@@ -6,4 +6,6 @@ attributes:
   number: "SM03"
   rarity: Promo
   illustrator: match
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM03_hires.png

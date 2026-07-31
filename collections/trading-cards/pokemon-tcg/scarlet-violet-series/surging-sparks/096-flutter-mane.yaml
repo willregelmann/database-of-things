@@ -6,4 +6,6 @@ attributes:
   number: "96/191"
   rarity: Uncommon
   illustrator: Ebila
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/96_hires.png

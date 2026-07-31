@@ -6,4 +6,6 @@ attributes:
   number: "34/111"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo1/34_hires.png

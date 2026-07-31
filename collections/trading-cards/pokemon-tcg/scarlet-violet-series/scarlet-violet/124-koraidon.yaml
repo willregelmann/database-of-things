@@ -6,4 +6,6 @@ attributes:
   number: "124/198"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/124_hires.png

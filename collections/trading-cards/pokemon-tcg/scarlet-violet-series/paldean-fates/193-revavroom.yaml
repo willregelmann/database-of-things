@@ -6,4 +6,6 @@ attributes:
   number: "193/91"
   rarity: Shiny Rare
   illustrator: GOSSAN
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4pt5/193_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/214"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm8/109_hires.png

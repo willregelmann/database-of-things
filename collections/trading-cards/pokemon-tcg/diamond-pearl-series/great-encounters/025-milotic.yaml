@@ -6,4 +6,6 @@ attributes:
   number: "25/106"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/25_hires.png

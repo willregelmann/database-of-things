@@ -6,4 +6,6 @@ attributes:
   number: "81/182"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "32/123"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp2/32_hires.png

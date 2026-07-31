@@ -6,4 +6,6 @@ attributes:
   number: "111/116"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw9/111_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH293"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH293_hires.png

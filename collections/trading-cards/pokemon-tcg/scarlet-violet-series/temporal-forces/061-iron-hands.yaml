@@ -6,4 +6,6 @@ attributes:
   number: "61/162"
   rarity: Uncommon
   illustrator: Souichirou Gunjima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/61_hires.png

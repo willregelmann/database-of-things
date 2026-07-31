@@ -6,4 +6,6 @@ attributes:
   number: "XY157"
   rarity: Promo
   illustrator: hatachu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY157_hires.png

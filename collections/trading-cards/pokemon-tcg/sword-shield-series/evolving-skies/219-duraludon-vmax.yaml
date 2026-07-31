@@ -6,4 +6,6 @@ attributes:
   number: "219/203"
   rarity: Rare Rainbow
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/219_hires.png

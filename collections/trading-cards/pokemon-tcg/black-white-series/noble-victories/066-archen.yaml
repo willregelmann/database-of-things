@@ -6,4 +6,6 @@ attributes:
   number: "66/101"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw3/66_hires.png

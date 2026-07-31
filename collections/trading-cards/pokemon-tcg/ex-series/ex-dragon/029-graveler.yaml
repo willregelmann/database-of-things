@@ -6,4 +6,6 @@ attributes:
   number: "29/97"
   rarity: Uncommon
   illustrator: Hisao Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex3/29_hires.png

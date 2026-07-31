@@ -6,4 +6,6 @@ attributes:
   number: "6/115"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex10/6_hires.png

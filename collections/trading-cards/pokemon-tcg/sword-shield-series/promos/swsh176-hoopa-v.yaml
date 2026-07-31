@@ -6,4 +6,6 @@ attributes:
   number: "SWSH176"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH176_hires.png

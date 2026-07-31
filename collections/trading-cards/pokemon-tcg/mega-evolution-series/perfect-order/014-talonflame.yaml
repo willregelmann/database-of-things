@@ -6,4 +6,6 @@ attributes:
   number: "14/88"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me3-14/large

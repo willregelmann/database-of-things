@@ -6,4 +6,6 @@ attributes:
   number: "88/122"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy9/88_hires.png

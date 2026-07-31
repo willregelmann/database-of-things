@@ -6,4 +6,6 @@ attributes:
   number: "40/264"
   rarity: Rare Holo VMAX
   illustrator: AKIRA EGAWA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/40_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "130/165"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard1/130_hires.png

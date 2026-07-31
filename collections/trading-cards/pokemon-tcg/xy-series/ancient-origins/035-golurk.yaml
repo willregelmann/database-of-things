@@ -6,4 +6,6 @@ attributes:
   number: "35/98"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy7/35_hires.png

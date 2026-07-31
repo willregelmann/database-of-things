@@ -6,4 +6,6 @@ attributes:
   number: "23/95"
   rarity: Rare
   illustrator: Zu-Ka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex4/23_hires.png

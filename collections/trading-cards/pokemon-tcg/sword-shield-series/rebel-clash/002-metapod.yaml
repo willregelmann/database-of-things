@@ -6,4 +6,6 @@ attributes:
   number: "2/192"
   rarity: Uncommon
   illustrator: Asako Ito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh2/2_hires.png

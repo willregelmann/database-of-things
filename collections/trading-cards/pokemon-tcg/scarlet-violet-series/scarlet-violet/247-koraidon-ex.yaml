@@ -6,4 +6,6 @@ attributes:
   number: "247/198"
   rarity: Special Illustration Rare
   illustrator: Ryota Murayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/247_hires.png

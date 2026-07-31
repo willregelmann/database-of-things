@@ -6,4 +6,6 @@ attributes:
   number: "130/196"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/130_hires.png

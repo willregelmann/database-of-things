@@ -6,4 +6,6 @@ attributes:
   number: "247/193"
   rarity: Ultra Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/247_hires.png

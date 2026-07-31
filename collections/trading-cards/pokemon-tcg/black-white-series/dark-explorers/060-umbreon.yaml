@@ -6,4 +6,6 @@ attributes:
   number: "60/108"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw5/60_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "46/165"
   rarity: Rare
   illustrator: Hiromichi Sugiyama
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/46_hires.png

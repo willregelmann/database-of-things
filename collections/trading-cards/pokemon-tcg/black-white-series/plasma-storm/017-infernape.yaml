@@ -6,4 +6,6 @@ attributes:
   number: "17/135"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw8/17_hires.png

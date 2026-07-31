@@ -6,4 +6,6 @@ attributes:
   number: "SM196"
   rarity: Promo
   illustrator: MPC Film
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM196_hires.png

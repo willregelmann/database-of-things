@@ -6,4 +6,6 @@ attributes:
   number: "48/95"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/col1/48_hires.png

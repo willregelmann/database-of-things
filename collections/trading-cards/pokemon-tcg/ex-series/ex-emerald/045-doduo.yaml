@@ -6,4 +6,6 @@ attributes:
   number: "45/106"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex9/45_hires.png

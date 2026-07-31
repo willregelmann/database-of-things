@@ -6,4 +6,6 @@ attributes:
   number: "22/182"
   rarity: Common
   illustrator: Felicia Chen
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/22_hires.png

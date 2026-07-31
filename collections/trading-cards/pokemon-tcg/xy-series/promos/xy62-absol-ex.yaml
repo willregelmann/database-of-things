@@ -6,4 +6,6 @@ attributes:
   number: "XY62"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY62_hires.png

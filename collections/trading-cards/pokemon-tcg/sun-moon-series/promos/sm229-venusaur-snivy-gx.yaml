@@ -6,4 +6,6 @@ attributes:
   number: "SM229"
   rarity: Promo
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM229_hires.png

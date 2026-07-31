@@ -6,4 +6,6 @@ attributes:
   number: "74/86"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/rsv10pt5/74_hires.png

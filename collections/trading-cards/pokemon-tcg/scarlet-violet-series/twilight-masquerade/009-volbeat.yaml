@@ -6,4 +6,6 @@ attributes:
   number: "9/167"
   rarity: Common
   illustrator: Orca
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/9_hires.png

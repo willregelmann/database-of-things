@@ -6,4 +6,6 @@ attributes:
   number: "33/98"
   rarity: Rare
   illustrator: Satoshi Shirai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy7/33_hires.png

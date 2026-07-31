@@ -6,4 +6,6 @@ attributes:
   number: "92/147"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard2/92_hires.png

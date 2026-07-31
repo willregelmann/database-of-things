@@ -6,4 +6,6 @@ attributes:
   number: "42/123"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss1/42_hires.png

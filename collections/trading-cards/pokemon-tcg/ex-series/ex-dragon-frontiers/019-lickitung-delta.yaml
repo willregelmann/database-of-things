@@ -6,4 +6,6 @@ attributes:
   number: "19/101"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex15/19_hires.png

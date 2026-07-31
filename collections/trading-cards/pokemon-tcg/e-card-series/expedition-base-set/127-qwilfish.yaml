@@ -6,4 +6,6 @@ attributes:
   number: "127/165"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/127_hires.png

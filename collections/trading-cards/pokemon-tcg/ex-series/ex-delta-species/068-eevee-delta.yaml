@@ -6,4 +6,6 @@ attributes:
   number: "68/113"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex11/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "69/131"
   rarity: Common
   illustrator: Takeshi Nakamura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8pt5/69_hires.png

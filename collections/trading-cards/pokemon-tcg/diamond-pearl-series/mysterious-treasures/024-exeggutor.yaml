@@ -6,4 +6,6 @@ attributes:
   number: "24/123"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp2/24_hires.png

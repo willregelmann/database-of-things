@@ -6,4 +6,6 @@ attributes:
   number: "BW01"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bwp/BW01_hires.png

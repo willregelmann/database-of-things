@@ -6,4 +6,6 @@ attributes:
   number: "231/182"
   rarity: Special Illustration Rare
   illustrator: Iwamoto05
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/231_hires.png

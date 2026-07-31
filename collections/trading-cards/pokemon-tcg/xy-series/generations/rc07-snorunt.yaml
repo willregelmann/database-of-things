@@ -6,4 +6,6 @@ attributes:
   number: "RC7/RC32"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/g1/RC7_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "20/182"
   rarity: Rare
   illustrator: Taiga Kasai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/20_hires.png

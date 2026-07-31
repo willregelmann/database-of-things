@@ -6,4 +6,6 @@ attributes:
   number: "70/124"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy10/70_hires.png

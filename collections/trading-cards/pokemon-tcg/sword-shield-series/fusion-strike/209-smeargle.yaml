@@ -6,4 +6,6 @@ attributes:
   number: "209/264"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/209_hires.png

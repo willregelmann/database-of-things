@@ -6,4 +6,6 @@ attributes:
   number: "SV059/SV122"
   rarity: Rare Shiny
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV059_hires.png

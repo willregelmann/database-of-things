@@ -6,4 +6,6 @@ attributes:
   number: "137/167"
   rarity: Common
   illustrator: Mugi Hamada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/137_hires.png

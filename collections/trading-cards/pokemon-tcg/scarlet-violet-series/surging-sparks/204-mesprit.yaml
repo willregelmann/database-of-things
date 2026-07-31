@@ -6,4 +6,6 @@ attributes:
   number: "204/191"
   rarity: Illustration Rare
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/204_hires.png

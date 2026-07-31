@@ -6,4 +6,6 @@ attributes:
   number: "42/130"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/42_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "147/198"
   rarity: Uncommon
   illustrator: aoki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/147_hires.png

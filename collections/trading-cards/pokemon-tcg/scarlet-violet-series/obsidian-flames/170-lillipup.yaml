@@ -6,4 +6,6 @@ attributes:
   number: "170/197"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/170_hires.png

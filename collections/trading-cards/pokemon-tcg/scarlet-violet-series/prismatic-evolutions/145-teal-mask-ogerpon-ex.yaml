@@ -6,4 +6,6 @@ attributes:
   number: "145/131"
   rarity: Special Illustration Rare
   illustrator: Yukihiro Tada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8pt5/145_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH252"
   rarity: Promo
   illustrator: Ayaka Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH252_hires.png

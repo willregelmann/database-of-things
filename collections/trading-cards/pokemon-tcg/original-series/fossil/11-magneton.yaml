@@ -6,4 +6,6 @@ attributes:
   number: "11/62"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base3/11_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "43/105"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/neo4/43_hires.png

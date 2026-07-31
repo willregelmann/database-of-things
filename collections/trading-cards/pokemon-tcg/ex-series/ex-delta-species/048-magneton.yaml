@@ -6,4 +6,6 @@ attributes:
   number: "48/113"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex11/48_hires.png

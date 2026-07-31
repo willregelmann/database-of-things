@@ -6,4 +6,6 @@ attributes:
   number: "189/165"
   rarity: Ultra Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3pt5/189_hires.png

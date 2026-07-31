@@ -6,4 +6,6 @@ attributes:
   number: "56/113"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/56_hires.png

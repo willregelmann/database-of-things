@@ -6,4 +6,6 @@ attributes:
   number: "41/181"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm9/41_hires.png

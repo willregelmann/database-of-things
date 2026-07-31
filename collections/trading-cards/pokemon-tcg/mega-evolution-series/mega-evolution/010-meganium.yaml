@@ -6,4 +6,6 @@ attributes:
   number: "10/132"
   rarity: Rare
   illustrator: Yoriyuki Ikegami
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV110/SV122"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV110_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "2/75"
   rarity: Rare Holo
   illustrator: CR CG gangs
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo2/2_hires.png

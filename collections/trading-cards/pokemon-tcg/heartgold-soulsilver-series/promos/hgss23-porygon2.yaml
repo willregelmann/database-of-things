@@ -6,4 +6,6 @@ attributes:
   number: "HGSS23"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hsp/HGSS23_hires.png

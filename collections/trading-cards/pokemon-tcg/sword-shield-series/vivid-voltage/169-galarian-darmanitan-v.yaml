@@ -6,4 +6,6 @@ attributes:
   number: "169/185"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh4/169_hires.png

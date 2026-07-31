@@ -6,4 +6,6 @@ attributes:
   number: "115/91"
   rarity: Shiny Rare
   illustrator: Atsushi Furusawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/115_hires.png

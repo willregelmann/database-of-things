@@ -6,4 +6,6 @@ attributes:
   number: "15/86"
   rarity: Double Rare
   illustrator: Keisuke Azuma
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me4-15/large

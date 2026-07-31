@@ -6,4 +6,6 @@ attributes:
   number: "114/144"
   rarity: Common
   illustrator: Keiko Fukuyama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/114_hires.png

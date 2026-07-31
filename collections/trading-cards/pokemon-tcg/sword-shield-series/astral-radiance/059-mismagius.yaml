@@ -6,4 +6,6 @@ attributes:
   number: "59/189"
   rarity: Rare
   illustrator: Ligton
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/59_hires.png

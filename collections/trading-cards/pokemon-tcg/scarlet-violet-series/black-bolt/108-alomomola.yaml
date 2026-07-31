@@ -6,4 +6,6 @@ attributes:
   number: "108/86"
   rarity: Illustration Rare
   illustrator: Rond
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/108_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "27/114"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw1/27_hires.png

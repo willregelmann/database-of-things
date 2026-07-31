@@ -6,4 +6,6 @@ attributes:
   number: "4/92"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex12/4_hires.png

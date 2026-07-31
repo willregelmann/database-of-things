@@ -6,4 +6,6 @@ attributes:
   number: "162/159"
   rarity: Illustration Rare
   illustrator: Katsunori Sato
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv9/162_hires.png

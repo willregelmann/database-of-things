@@ -6,4 +6,6 @@ attributes:
   number: "XY197"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY197_hires.png

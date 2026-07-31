@@ -6,4 +6,6 @@ attributes:
   number: "65/123"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss1/65_hires.png

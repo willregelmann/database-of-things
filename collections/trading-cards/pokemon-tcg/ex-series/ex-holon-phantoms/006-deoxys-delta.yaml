@@ -6,4 +6,6 @@ attributes:
   number: "6/110"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex13/6_hires.png

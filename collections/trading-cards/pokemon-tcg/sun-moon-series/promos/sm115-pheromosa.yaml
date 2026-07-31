@@ -6,4 +6,6 @@ attributes:
   number: "SM115"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM115_hires.png

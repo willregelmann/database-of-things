@@ -6,4 +6,6 @@ attributes:
   number: "22/156"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm5/22_hires.png

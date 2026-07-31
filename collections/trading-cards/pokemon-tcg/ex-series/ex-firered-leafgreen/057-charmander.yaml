@@ -6,4 +6,6 @@ attributes:
   number: "57/112"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex6/57_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "114/162"
   rarity: Common
   illustrator: Nobuhiro Imagawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv5/114_hires.png

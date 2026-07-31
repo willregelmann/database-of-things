@@ -6,4 +6,6 @@ attributes:
   number: "17/100"
   rarity: Rare
   illustrator: Tomoaki Imakuni
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/17_hires.png

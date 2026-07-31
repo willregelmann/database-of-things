@@ -6,4 +6,6 @@ attributes:
   number: "49/100"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex14/49_hires.png

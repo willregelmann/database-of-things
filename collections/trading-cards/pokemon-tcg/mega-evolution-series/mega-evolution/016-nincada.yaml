@@ -6,4 +6,6 @@ attributes:
   number: "16/132"
   rarity: Common
   illustrator: Kuroimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/16_hires.png

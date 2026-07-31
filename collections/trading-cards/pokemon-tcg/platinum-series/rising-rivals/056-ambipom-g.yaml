@@ -6,4 +6,6 @@ attributes:
   number: "56/111"
   rarity: Common
   illustrator: Makoto Imai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl2/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/191"
   rarity: Common
   illustrator: Wintr Wandr
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/22_hires.png

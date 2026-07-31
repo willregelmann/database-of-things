@@ -6,4 +6,6 @@ attributes:
   number: "106/109"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex7/106_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "103/198"
   rarity: Rare
   illustrator: Shibuzoh.
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh6/103_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "84/132"
   rarity: Uncommon
   illustrator: danciao
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/84_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "201/182"
   rarity: Illustration Rare
   illustrator: Takumi Wada
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv10/201_hires.png

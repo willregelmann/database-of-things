@@ -6,4 +6,6 @@ attributes:
   number: "69/111"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm4/69_hires.png

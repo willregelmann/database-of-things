@@ -6,4 +6,6 @@ attributes:
   number: "9/34"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dc1/9_hires.png

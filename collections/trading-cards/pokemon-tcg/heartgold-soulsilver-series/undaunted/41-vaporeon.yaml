@@ -6,4 +6,6 @@ attributes:
   number: "41/90"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss3/41_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "55/160"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/55_hires.png

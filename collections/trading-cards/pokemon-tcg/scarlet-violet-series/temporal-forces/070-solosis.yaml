@@ -6,4 +6,6 @@ attributes:
   number: "70/162"
   rarity: Common
   illustrator: Cona Nitanda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/70_hires.png

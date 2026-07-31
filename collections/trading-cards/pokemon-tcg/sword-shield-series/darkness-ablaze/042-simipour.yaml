@@ -6,4 +6,6 @@ attributes:
   number: "42/189"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh3/42_hires.png

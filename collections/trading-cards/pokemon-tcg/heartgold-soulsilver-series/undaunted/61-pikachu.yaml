@@ -6,4 +6,6 @@ attributes:
   number: "61/90"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss3/61_hires.png

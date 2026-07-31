@@ -6,4 +6,6 @@ attributes:
   number: "52/113"
   rarity: Rare Holo ex
   illustrator: Shizurow
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw11/52_hires.png

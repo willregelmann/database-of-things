@@ -6,4 +6,6 @@ attributes:
   number: "XY153"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY153_hires.png

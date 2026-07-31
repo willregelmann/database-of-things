@@ -6,4 +6,6 @@ attributes:
   number: "7/111"
   rarity: Common
   illustrator: OOYAMA
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm4/7_hires.png

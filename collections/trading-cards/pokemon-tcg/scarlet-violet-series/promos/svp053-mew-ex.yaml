@@ -6,4 +6,6 @@ attributes:
   number: "053"
   rarity: Promo
   illustrator: Natsumi Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG20/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Teeziro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12pt5gg/GG20_hires.png

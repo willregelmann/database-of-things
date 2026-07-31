@@ -6,4 +6,6 @@ attributes:
   number: "17/100"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex2/17_hires.png

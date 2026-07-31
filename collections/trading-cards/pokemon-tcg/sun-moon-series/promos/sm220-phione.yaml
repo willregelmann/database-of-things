@@ -6,4 +6,6 @@ attributes:
   number: "SM220"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM220_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "42/108"
   rarity: Rare Holo
   illustrator: Sanosuke Sakuma
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy6/42_hires.png

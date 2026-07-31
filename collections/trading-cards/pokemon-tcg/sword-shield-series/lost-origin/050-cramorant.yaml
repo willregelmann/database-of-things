@@ -6,4 +6,6 @@ attributes:
   number: "50/196"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/50_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "008"
   rarity: Promo
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/np/8_hires.png

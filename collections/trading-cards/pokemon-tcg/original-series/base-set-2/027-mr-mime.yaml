@@ -6,4 +6,6 @@ attributes:
   number: "27/130"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base4/27_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "245/193"
   rarity: Ultra Rare
   illustrator: Eske Yoshinob
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv2/245_hires.png

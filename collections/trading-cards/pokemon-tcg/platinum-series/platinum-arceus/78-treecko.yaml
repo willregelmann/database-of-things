@@ -6,4 +6,6 @@ attributes:
   number: "78/99"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl4/78_hires.png

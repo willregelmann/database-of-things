@@ -6,4 +6,6 @@ attributes:
   number: "XY119"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY119_hires.png

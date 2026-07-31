@@ -6,4 +6,6 @@ attributes:
   number: "185"
   rarity: Promo
   illustrator: Dsuke
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/185_hires.png

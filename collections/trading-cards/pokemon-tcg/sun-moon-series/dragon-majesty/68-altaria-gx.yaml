@@ -6,4 +6,6 @@ attributes:
   number: "68/70"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/68_hires.png

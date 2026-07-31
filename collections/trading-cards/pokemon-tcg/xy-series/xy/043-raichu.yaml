@@ -6,4 +6,6 @@ attributes:
   number: "43/146"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy1/43_hires.png

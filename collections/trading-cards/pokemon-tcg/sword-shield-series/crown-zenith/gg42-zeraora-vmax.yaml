@@ -6,4 +6,6 @@ attributes:
   number: "GG42/GG70"
   rarity: Rare Holo VMAX
   illustrator: aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12pt5gg/GG42_hires.png

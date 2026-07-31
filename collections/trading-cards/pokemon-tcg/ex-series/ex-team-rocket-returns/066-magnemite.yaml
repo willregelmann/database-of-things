@@ -6,4 +6,6 @@ attributes:
   number: "66/109"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex7/66_hires.png

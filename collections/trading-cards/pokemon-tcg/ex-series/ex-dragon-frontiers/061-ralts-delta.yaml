@@ -6,4 +6,6 @@ attributes:
   number: "61/101"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex15/61_hires.png

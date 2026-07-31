@@ -6,4 +6,6 @@ attributes:
   number: "27/90"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss3/27_hires.png

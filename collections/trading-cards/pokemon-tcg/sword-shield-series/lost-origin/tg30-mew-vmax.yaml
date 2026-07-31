@@ -6,4 +6,6 @@ attributes:
   number: "TG30/TG30"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11tg/TG30_hires.png

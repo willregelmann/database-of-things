@@ -6,4 +6,6 @@ attributes:
   number: "51/106"
   rarity: Common
   illustrator: match
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy2/51_hires.png

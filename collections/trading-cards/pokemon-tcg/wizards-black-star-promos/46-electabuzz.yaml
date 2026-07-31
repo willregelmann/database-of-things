@@ -6,4 +6,6 @@ attributes:
   number: "46/53"
   rarity: Promo
   illustrator: Miki Tanaka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/basep/46_hires.png

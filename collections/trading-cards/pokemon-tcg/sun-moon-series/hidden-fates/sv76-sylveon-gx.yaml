@@ -6,4 +6,6 @@ attributes:
   number: "SV76/SV94"
   rarity: Rare Shiny GX
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sma/SV76_hires.png

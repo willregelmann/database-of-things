@@ -6,4 +6,6 @@ attributes:
   number: "134/192"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/134_hires.png

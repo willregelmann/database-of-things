@@ -6,4 +6,6 @@ attributes:
   number: "161/189"
   rarity: Rare Ultra
   illustrator: Narumi Sato
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/161_hires.png

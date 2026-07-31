@@ -6,4 +6,6 @@ attributes:
   number: "17/78"
   rarity: Rare Holo
   illustrator: NC Empire
+  type:
+    - Water
 image: https://images.pokemontcg.io/pgo/17_hires.png

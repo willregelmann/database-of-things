@@ -6,4 +6,6 @@ attributes:
   number: "75/78"
   rarity: Rare Ultra
   illustrator: sadaji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pgo/75_hires.png

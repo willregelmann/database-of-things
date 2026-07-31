@@ -6,4 +6,6 @@ attributes:
   number: "82/162"
   rarity: Common
   illustrator: Natsumi Miyanose
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/82_hires.png

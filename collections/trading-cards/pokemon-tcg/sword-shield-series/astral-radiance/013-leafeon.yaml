@@ -6,4 +6,6 @@ attributes:
   number: "13/189"
   rarity: Rare
   illustrator: Atsushi Furusawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/13_hires.png

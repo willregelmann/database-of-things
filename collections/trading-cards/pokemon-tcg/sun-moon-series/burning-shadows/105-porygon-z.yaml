@@ -6,4 +6,6 @@ attributes:
   number: "105/147"
   rarity: Rare Holo
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm3/105_hires.png

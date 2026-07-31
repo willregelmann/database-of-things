@@ -6,4 +6,6 @@ attributes:
   number: "51/189"
   rarity: Rare
   illustrator: Shiburingaru
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh10/51_hires.png

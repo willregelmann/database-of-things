@@ -6,4 +6,6 @@ attributes:
   number: "BW96"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW96_hires.png

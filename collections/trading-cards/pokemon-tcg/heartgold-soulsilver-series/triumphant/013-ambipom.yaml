@@ -6,4 +6,6 @@ attributes:
   number: "13/102"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/13_hires.png

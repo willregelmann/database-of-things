@@ -6,4 +6,6 @@ attributes:
   number: "106/135"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw8/106_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "105/88"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me3-105/large

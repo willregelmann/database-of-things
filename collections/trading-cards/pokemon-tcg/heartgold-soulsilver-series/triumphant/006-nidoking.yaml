@@ -6,4 +6,6 @@ attributes:
   number: "6/102"
   rarity: Rare Holo
   illustrator: match
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss4/6_hires.png

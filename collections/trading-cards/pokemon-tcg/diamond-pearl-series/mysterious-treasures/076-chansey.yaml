@@ -6,4 +6,6 @@ attributes:
   number: "76/123"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/76_hires.png

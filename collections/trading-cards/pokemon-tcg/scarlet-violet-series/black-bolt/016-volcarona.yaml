@@ -6,4 +6,6 @@ attributes:
   number: "16/86"
   rarity: Rare
   illustrator: mashu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/zsv10pt5/16_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "63/145"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/63_hires.png

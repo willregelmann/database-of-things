@@ -6,4 +6,6 @@ attributes:
   number: "217/264"
   rarity: Rare Holo V
   illustrator: PLANETA Yamashita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/217_hires.png

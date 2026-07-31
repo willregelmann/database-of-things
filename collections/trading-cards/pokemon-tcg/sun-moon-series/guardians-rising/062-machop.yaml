@@ -6,4 +6,6 @@ attributes:
   number: "62/145"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/62_hires.png

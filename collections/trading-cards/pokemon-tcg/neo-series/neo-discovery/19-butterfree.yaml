@@ -6,4 +6,6 @@ attributes:
   number: "19/75"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo2/19_hires.png

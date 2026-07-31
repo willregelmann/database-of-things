@@ -6,4 +6,6 @@ attributes:
   number: "88/86"
   rarity: Illustration Rare
   illustrator: Jiro Sasumo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/zsv10pt5/88_hires.png

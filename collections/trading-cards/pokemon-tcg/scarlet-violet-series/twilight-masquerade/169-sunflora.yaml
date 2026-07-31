@@ -6,4 +6,6 @@ attributes:
   number: "169/167"
   rarity: Illustration Rare
   illustrator: Shinya Komatsu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/169_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "46/114"
   rarity: Common
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy11/46_hires.png

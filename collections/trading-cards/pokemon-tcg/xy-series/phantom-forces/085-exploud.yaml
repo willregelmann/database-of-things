@@ -6,4 +6,6 @@ attributes:
   number: "85/119"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy4/85_hires.png

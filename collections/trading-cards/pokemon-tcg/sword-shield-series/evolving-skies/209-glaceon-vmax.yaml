@@ -6,4 +6,6 @@ attributes:
   number: "209/203"
   rarity: Rare Rainbow
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/209_hires.png

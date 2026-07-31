@@ -6,4 +6,6 @@ attributes:
   number: "19/172"
   rarity: Common
   illustrator: Shinji Kanda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh9/19_hires.png

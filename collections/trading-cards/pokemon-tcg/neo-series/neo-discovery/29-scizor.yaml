@@ -6,4 +6,6 @@ attributes:
   number: "29/75"
   rarity: Rare
   illustrator: Kimiya Masago
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo2/29_hires.png

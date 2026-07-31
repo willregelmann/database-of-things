@@ -6,4 +6,6 @@ attributes:
   number: "XY72"
   rarity: Promo
   illustrator: Ayaka Yoshida
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY72_hires.png

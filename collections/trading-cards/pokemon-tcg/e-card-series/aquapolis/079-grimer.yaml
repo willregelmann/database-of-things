@@ -6,4 +6,6 @@ attributes:
   number: "79/147"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/79_hires.png

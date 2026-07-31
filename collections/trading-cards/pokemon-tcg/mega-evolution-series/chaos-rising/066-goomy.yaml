@@ -6,4 +6,6 @@ attributes:
   number: "66/86"
   rarity: Common
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me4-66/large

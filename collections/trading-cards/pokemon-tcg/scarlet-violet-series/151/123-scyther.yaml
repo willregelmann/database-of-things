@@ -6,4 +6,6 @@ attributes:
   number: "123/165"
   rarity: Uncommon
   illustrator: Hideki Ishikawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3pt5/123_hires.png

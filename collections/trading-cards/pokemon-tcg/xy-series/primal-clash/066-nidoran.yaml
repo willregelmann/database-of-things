@@ -6,4 +6,6 @@ attributes:
   number: "66/160"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy5/66_hires.png

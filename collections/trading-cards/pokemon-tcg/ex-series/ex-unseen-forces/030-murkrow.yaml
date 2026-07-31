@@ -6,4 +6,6 @@ attributes:
   number: "30/115"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex10/30_hires.png

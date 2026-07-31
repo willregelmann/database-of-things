@@ -6,4 +6,6 @@ attributes:
   number: "57/198"
   rarity: Uncommon
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv1/57_hires.png

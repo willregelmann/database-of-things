@@ -6,4 +6,6 @@ attributes:
   number: "88/86"
   rarity: Illustration Rare
   illustrator: Susumu Maeya
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me4-88/large

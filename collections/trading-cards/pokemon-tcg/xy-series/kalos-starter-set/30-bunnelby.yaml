@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "30/39"
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy0/30_hires.png

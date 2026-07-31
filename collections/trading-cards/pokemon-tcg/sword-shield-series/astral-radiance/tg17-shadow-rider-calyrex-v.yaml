@@ -6,4 +6,6 @@ attributes:
   number: "TG17/TG30"
   rarity: Rare Holo V
   illustrator: Oswaldo KATO
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10tg/TG17_hires.png

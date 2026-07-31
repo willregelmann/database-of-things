@@ -6,4 +6,6 @@ attributes:
   number: "72/108"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw5/72_hires.png

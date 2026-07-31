@@ -6,4 +6,6 @@ attributes:
   number: "16/198"
   rarity: Common
   illustrator: kodama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh6/16_hires.png

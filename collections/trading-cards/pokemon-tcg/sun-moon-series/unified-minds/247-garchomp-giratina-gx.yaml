@@ -6,4 +6,6 @@ attributes:
   number: "247/236"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/247_hires.png

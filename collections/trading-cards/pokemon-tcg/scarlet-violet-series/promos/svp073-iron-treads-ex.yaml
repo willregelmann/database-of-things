@@ -6,4 +6,6 @@ attributes:
   number: "073"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/73_hires.png

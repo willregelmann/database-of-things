@@ -6,4 +6,6 @@ attributes:
   number: "SM18"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM18_hires.png

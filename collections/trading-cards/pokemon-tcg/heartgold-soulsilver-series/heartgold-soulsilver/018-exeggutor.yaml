@@ -6,4 +6,6 @@ attributes:
   number: "18/123"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss1/18_hires.png

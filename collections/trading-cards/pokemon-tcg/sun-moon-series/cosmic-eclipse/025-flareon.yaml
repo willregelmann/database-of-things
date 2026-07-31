@@ -6,4 +6,6 @@ attributes:
   number: "25/236"
   rarity: Uncommon
   illustrator: AKIRA EGAWA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm12/25_hires.png

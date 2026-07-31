@@ -6,4 +6,6 @@ attributes:
   number: "4/18"
   rarity: Common Holo
   illustrator: MPC Film
+  type:
+    - Fire
 image: https://images.pokemontcg.io/det1/4_hires.png

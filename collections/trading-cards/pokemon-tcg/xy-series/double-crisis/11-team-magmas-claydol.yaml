@@ -6,4 +6,6 @@ attributes:
   number: "11/34"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dc1/11_hires.png

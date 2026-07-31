@@ -6,4 +6,6 @@ attributes:
   number: "GG31/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12pt5gg/GG31_hires.png

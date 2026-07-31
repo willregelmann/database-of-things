@@ -6,4 +6,6 @@ attributes:
   number: "92/127"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/92_hires.png

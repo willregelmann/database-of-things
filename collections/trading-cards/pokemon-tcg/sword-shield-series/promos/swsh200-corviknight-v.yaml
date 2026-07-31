@@ -6,4 +6,6 @@ attributes:
   number: "SWSH200"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH200_hires.png

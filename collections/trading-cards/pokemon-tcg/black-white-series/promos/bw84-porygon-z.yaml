@@ -6,4 +6,6 @@ attributes:
   number: "BW84"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW84_hires.png

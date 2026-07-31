@@ -6,4 +6,6 @@ attributes:
   number: "SWSH015"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH015_hires.png

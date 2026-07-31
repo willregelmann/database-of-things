@@ -6,4 +6,6 @@ attributes:
   number: "61/127"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/61_hires.png

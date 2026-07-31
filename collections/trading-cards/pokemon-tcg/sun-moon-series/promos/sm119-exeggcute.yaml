@@ -6,4 +6,6 @@ attributes:
   number: "SM119"
   rarity: Promo
   illustrator: OOYAMA
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM119_hires.png

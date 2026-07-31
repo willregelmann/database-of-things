@@ -6,4 +6,6 @@ attributes:
   number: "80/130"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/80_hires.png

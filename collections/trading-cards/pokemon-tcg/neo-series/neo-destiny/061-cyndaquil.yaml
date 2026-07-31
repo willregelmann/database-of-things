@@ -6,4 +6,6 @@ attributes:
   number: "61/105"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo4/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY37"
   rarity: Promo
   illustrator: sui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY37_hires.png

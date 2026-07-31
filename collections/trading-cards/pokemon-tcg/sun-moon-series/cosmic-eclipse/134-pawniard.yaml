@@ -6,4 +6,6 @@ attributes:
   number: "134/236"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm12/134_hires.png

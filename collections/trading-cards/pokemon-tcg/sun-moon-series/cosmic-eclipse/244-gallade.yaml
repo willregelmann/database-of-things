@@ -6,4 +6,6 @@ attributes:
   number: "244/236"
   rarity: Rare Secret
   illustrator: Huang Tzu En
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/244_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "70/122"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy9/70_hires.png

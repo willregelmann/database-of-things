@@ -6,4 +6,6 @@ attributes:
   number: "91/97"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex3/91_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "108/159"
   rarity: Uncommon
   illustrator: GIDORA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv9/108_hires.png

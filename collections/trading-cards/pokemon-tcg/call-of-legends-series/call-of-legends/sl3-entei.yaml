@@ -6,4 +6,6 @@ attributes:
   number: "SL3"
   rarity: Rare Holo
   illustrator: Yuri Umemura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/col1/SL3_hires.png

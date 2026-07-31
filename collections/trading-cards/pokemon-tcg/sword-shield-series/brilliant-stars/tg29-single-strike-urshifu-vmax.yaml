@@ -6,4 +6,6 @@ attributes:
   number: "TG29/TG30"
   rarity: Rare Secret
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9tg/TG29_hires.png

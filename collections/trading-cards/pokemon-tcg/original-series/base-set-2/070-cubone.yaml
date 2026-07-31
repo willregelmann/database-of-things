@@ -6,4 +6,6 @@ attributes:
   number: "70/130"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base4/70_hires.png

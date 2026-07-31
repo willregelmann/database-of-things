@@ -6,4 +6,6 @@ attributes:
   number: "SM19"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM19_hires.png

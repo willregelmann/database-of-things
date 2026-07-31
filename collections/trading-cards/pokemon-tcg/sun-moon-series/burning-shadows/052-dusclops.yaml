@@ -6,4 +6,6 @@ attributes:
   number: "52/147"
   rarity: Uncommon
   illustrator: SATOSHI NAKAI
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm3/52_hires.png

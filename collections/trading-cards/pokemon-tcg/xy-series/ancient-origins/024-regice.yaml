@@ -6,4 +6,6 @@ attributes:
   number: "24/98"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy7/24_hires.png

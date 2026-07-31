@@ -6,4 +6,6 @@ attributes:
   number: "BW45"
   rarity: Promo
   illustrator: Toyste Beach
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bwp/BW45_hires.png

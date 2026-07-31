@@ -6,4 +6,6 @@ attributes:
   number: "35/189"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/35_hires.png

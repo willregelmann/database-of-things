@@ -6,4 +6,6 @@ attributes:
   number: "41/106"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp4/41_hires.png

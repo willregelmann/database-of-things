@@ -6,4 +6,6 @@ attributes:
   number: "SV031/SV122"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV031_hires.png

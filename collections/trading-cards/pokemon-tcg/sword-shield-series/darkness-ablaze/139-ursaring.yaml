@@ -6,4 +6,6 @@ attributes:
   number: "139/189"
   rarity: Uncommon
   illustrator: Uta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/139_hires.png

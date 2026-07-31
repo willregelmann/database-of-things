@@ -6,4 +6,6 @@ attributes:
   number: "20/72"
   rarity: Common
   illustrator: Taira Akitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45/20_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY106"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY106_hires.png

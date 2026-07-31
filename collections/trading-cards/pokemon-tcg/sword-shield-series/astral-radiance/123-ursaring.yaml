@@ -6,4 +6,6 @@ attributes:
   number: "123/189"
   rarity: Uncommon
   illustrator: Teeziro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/123_hires.png

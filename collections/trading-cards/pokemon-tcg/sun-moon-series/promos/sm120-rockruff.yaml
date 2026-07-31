@@ -6,4 +6,6 @@ attributes:
   number: "SM120"
   rarity: Promo
   illustrator: Hideki Ishikawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM120_hires.png

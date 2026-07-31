@@ -6,4 +6,6 @@ attributes:
   number: "49/90"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss3/49_hires.png

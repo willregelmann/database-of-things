@@ -6,4 +6,6 @@ attributes:
   number: "82/130"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/82_hires.png

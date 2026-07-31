@@ -6,4 +6,6 @@ attributes:
   number: "82/203"
   rarity: Rare Holo
   illustrator: kodama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/82_hires.png

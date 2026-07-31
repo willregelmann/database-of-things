@@ -6,4 +6,6 @@ attributes:
   number: "100/149"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw7/100_hires.png

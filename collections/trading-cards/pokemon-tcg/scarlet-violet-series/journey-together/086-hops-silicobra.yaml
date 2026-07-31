@@ -6,4 +6,6 @@ attributes:
   number: "86/159"
   rarity: Common
   illustrator: aspara
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/86_hires.png

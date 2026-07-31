@@ -6,4 +6,6 @@ attributes:
   number: "18/100"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex2/18_hires.png

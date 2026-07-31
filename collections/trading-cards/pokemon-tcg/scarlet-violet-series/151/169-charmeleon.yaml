@@ -6,4 +6,6 @@ attributes:
   number: "169/165"
   rarity: Illustration Rare
   illustrator: miki kudo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3pt5/169_hires.png

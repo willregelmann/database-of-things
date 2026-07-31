@@ -6,4 +6,6 @@ attributes:
   number: "115/198"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/115_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "73/116"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw9/73_hires.png

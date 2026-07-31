@@ -6,4 +6,6 @@ attributes:
   number: "60/86"
   rarity: Uncommon
   illustrator: DOM
+  type:
+    - Metal
 image: https://images.pokemontcg.io/zsv10pt5/60_hires.png

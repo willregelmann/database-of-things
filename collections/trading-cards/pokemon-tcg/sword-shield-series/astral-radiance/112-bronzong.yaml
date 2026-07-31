@@ -6,4 +6,6 @@ attributes:
   number: "112/189"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/112_hires.png

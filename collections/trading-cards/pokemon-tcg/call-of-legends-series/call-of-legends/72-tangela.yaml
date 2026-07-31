@@ -6,4 +6,6 @@ attributes:
   number: "72/95"
   rarity: Common
   illustrator: Hideaki Hakozaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/col1/72_hires.png

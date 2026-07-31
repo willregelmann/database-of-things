@@ -6,4 +6,6 @@ attributes:
   number: "43/196"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/43_hires.png

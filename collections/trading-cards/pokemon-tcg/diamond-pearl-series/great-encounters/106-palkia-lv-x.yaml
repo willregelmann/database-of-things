@@ -6,4 +6,6 @@ attributes:
   number: "106/106"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/106_hires.png

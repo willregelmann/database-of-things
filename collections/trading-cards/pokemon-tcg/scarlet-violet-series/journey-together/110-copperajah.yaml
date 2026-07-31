@@ -6,4 +6,6 @@ attributes:
   number: "110/159"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv9/110_hires.png

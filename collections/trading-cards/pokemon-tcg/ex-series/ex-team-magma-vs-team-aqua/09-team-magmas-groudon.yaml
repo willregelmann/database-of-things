@@ -6,4 +6,7 @@ attributes:
   number: "9/95"
   rarity: Rare Holo
   illustrator: Kazuo Yazawa
+  type:
+    - Fighting
+    - Darkness
 image: https://images.pokemontcg.io/ex4/9_hires.png

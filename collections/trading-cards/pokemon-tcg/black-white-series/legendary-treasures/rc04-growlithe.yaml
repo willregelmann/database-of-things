@@ -6,4 +6,6 @@ attributes:
   number: "RC4/RC25"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw11/RC4_hires.png

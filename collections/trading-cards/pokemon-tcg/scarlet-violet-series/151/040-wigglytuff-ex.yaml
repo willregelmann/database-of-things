@@ -6,4 +6,6 @@ attributes:
   number: "40/165"
   rarity: Double Rare
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/40_hires.png

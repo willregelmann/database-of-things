@@ -6,4 +6,6 @@ attributes:
   number: "154/217"
   rarity: Rare
   illustrator: rika
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-154/large

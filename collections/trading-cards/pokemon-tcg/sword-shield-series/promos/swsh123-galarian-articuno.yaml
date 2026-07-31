@@ -6,4 +6,6 @@ attributes:
   number: "SWSH123"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH123_hires.png

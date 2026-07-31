@@ -6,4 +6,6 @@ attributes:
   number: "55/156"
   rarity: Rare
   illustrator: Studio Bora Inc.
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/55_hires.png

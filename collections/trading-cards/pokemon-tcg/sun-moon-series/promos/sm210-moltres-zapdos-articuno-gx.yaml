@@ -6,4 +6,6 @@ attributes:
   number: "SM210"
   rarity: Promo
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM210_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "4/156"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm5/4_hires.png

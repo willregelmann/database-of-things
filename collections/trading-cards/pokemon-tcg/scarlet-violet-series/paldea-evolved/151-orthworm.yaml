@@ -6,4 +6,6 @@ attributes:
   number: "151/193"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv2/151_hires.png

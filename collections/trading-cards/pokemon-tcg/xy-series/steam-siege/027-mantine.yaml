@@ -6,4 +6,6 @@ attributes:
   number: "27/114"
   rarity: Common
   illustrator: DemizuPosuka
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy11/27_hires.png

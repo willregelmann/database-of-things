@@ -6,4 +6,6 @@ attributes:
   number: "107/94"
   rarity: Illustration Rare
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me2/107_hires.png

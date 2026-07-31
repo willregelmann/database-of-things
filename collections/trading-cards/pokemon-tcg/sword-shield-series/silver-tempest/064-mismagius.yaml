@@ -6,4 +6,6 @@ attributes:
   number: "64/195"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/64_hires.png

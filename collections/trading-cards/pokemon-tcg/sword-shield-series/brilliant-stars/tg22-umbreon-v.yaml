@@ -6,4 +6,6 @@ attributes:
   number: "TG22/TG30"
   rarity: Rare Holo V
   illustrator: Ligton
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9tg/TG22_hires.png

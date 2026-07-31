@@ -6,4 +6,6 @@ attributes:
   number: "SM227"
   rarity: Promo
   illustrator: 2019 Pikachu Project
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM227_hires.png

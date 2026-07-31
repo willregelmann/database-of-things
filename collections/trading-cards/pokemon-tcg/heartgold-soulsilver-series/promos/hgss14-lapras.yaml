@@ -6,4 +6,6 @@ attributes:
   number: "HGSS14"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/hsp/HGSS14_hires.png

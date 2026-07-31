@@ -6,4 +6,6 @@ attributes:
   number: "7/105"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo4/7_hires.png

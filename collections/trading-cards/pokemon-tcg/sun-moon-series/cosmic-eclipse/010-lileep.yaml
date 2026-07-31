@@ -6,4 +6,6 @@ attributes:
   number: "10/236"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm12/10_hires.png

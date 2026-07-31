@@ -6,4 +6,6 @@ attributes:
   number: "7/78"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pgo/7_hires.png

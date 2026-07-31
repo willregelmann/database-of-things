@@ -6,4 +6,6 @@ attributes:
   number: "HGSS20"
   rarity: Promo
   illustrator: Yuri Umemura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hsp/HGSS20_hires.png

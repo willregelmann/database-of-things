@@ -6,4 +6,6 @@ attributes:
   number: "101/86"
   rarity: Illustration Rare
   illustrator: Hoshino KURO
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/101_hires.png

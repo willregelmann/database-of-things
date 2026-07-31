@@ -6,4 +6,6 @@ attributes:
   number: "37/135"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw8/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "DP21"
   rarity: Promo
   illustrator: Daisuke Ito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dpp/DP21_hires.png

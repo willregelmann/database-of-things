@@ -6,4 +6,6 @@ attributes:
   number: "206/162"
   rarity: Special Illustration Rare
   illustrator: nagimiso
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/206_hires.png

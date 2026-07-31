@@ -6,4 +6,6 @@ attributes:
   number: "22/113"
   rarity: Rare
   illustrator: Katsura Tabata
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex11/22_hires.png

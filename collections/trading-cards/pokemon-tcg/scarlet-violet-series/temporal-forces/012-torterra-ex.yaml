@@ -6,4 +6,6 @@ attributes:
   number: "12/162"
   rarity: Double Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/12_hires.png

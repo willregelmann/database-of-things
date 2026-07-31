@@ -6,4 +6,6 @@ attributes:
   number: "159/131"
   rarity: Special Illustration Rare
   illustrator: Tetsu Kayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8pt5/159_hires.png

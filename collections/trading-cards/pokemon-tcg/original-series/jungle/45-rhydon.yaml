@@ -6,4 +6,6 @@ attributes:
   number: "45/64"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base2/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "200"
   rarity: Promo
   illustrator: Kariya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/200_hires.png

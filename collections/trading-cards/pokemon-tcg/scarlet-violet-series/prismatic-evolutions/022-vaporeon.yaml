@@ -6,4 +6,6 @@ attributes:
   number: "22/131"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8pt5/22_hires.png

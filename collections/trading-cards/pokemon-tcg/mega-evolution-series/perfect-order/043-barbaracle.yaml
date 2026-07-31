@@ -6,4 +6,6 @@ attributes:
   number: "43/88"
   rarity: Uncommon
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-43/large

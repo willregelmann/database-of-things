@@ -6,4 +6,6 @@ attributes:
   number: "39/88"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-39/large

@@ -6,4 +6,6 @@ attributes:
   number: "43/114"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy11/43_hires.png

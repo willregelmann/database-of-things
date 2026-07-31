@@ -6,4 +6,6 @@ attributes:
   number: "12/113"
   rarity: Rare Holo
   illustrator: match
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/12_hires.png

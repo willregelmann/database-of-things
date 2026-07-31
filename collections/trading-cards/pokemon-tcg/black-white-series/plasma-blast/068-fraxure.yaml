@@ -6,4 +6,6 @@ attributes:
   number: "68/101"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw10/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "146/86"
   rarity: Illustration Rare
   illustrator: Teeziro
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/rsv10pt5/146_hires.png

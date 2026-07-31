@@ -6,4 +6,6 @@ attributes:
   number: "56/112"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex6/56_hires.png

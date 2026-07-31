@@ -6,4 +6,6 @@ attributes:
   number: "114/159"
   rarity: Double Rare
   illustrator: toriyufu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "77/108"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw5/77_hires.png

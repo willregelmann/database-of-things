@@ -6,4 +6,6 @@ attributes:
   number: "192/189"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/192_hires.png

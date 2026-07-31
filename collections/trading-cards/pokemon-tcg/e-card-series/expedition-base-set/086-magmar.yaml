@@ -6,4 +6,6 @@ attributes:
   number: "86/165"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/86_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "145/196"
   rarity: Uncommon
   illustrator: Atsushi Furusawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/145_hires.png

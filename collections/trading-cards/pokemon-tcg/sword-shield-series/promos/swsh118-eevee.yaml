@@ -6,4 +6,6 @@ attributes:
   number: "SWSH118"
   rarity: Promo
   illustrator: Yuu Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH118_hires.png

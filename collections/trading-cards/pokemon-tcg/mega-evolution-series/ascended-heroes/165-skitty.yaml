@@ -6,4 +6,6 @@ attributes:
   number: "165/217"
   rarity: Common
   illustrator: Yoko Hishida
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-165/large

@@ -6,4 +6,6 @@ attributes:
   number: "108/147"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard2/108_hires.png

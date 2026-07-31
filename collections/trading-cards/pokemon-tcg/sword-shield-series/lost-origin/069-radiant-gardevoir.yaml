@@ -6,4 +6,6 @@ attributes:
   number: "69/196"
   rarity: Radiant Rare
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/69_hires.png

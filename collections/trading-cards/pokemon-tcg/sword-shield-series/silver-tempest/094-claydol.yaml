@@ -6,4 +6,6 @@ attributes:
   number: "94/195"
   rarity: Uncommon
   illustrator: Nisota Niso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/94_hires.png

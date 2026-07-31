@@ -6,4 +6,6 @@ attributes:
   number: "84/146"
   rarity: Uncommon
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy1/84_hires.png

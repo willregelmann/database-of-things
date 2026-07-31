@@ -6,4 +6,6 @@ attributes:
   number: "190/185"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/190_hires.png

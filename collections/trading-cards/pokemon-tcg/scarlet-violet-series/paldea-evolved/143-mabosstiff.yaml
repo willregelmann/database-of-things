@@ -6,4 +6,6 @@ attributes:
   number: "143/193"
   rarity: Uncommon
   illustrator: Souichirou Gunjima
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv2/143_hires.png

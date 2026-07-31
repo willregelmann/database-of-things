@@ -6,4 +6,6 @@ attributes:
   number: "60/123"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp2/60_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "61/189"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/61_hires.png

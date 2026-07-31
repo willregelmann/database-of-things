@@ -6,4 +6,6 @@ attributes:
   number: "184"
   rarity: Promo
   illustrator: OKACHEKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/184_hires.png

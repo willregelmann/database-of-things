@@ -6,4 +6,6 @@ attributes:
   number: "72/264"
   rarity: Uncommon
   illustrator: SATOSHI NAKAI
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/72_hires.png

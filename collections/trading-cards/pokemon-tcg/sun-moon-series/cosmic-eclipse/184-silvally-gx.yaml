@@ -6,4 +6,6 @@ attributes:
   number: "184/236"
   rarity: Rare Holo GX
   illustrator: Megumi Mizutani
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/184_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "69/145"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/69_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "14/101"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex15/14_hires.png

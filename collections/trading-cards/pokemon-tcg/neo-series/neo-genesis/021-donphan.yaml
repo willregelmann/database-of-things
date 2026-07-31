@@ -6,4 +6,6 @@ attributes:
   number: "21/111"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo1/21_hires.png

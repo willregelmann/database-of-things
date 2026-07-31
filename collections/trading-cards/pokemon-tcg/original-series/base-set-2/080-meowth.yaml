@@ -6,4 +6,6 @@ attributes:
   number: "80/130"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base4/80_hires.png

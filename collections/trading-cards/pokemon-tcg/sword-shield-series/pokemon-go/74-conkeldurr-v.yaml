@@ -6,4 +6,6 @@ attributes:
   number: "74/78"
   rarity: Rare Ultra
   illustrator: N-DESIGN Inc.
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pgo/74_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "024"
   rarity: Promo
   illustrator: Uta
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/24_hires.png

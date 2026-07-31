@@ -6,4 +6,6 @@ attributes:
   number: "77/101"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw3/77_hires.png

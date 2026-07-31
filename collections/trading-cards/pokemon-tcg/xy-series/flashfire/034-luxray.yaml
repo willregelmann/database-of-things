@@ -6,4 +6,6 @@ attributes:
   number: "34/106"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy2/34_hires.png

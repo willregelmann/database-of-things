@@ -6,4 +6,6 @@ attributes:
   number: "87/203"
   rarity: Uncommon
   illustrator: otumami
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/87_hires.png

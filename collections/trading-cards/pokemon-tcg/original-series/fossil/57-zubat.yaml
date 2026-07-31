@@ -6,4 +6,6 @@ attributes:
   number: "57/62"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base3/57_hires.png

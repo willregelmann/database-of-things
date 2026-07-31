@@ -6,4 +6,6 @@ attributes:
   number: "68/110"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex13/68_hires.png

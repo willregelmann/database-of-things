@@ -6,4 +6,6 @@ attributes:
   number: "222/236"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/222_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "56/108"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/56_hires.png

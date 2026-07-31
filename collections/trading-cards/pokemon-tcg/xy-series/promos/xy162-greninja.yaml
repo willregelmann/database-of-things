@@ -6,4 +6,6 @@ attributes:
   number: "XY162"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY162_hires.png

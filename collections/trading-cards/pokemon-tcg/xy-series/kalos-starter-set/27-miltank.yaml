@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "27/39"
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy0/27_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "40/122"
   rarity: Rare
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/40_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "44/95"
   rarity: Common
   illustrator: Wataru Kawahara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/44_hires.png

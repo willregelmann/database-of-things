@@ -6,4 +6,6 @@ attributes:
   number: "171/163"
   rarity: Rare Rainbow
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/171_hires.png

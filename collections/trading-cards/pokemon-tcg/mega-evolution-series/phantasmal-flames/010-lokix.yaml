@@ -6,4 +6,6 @@ attributes:
   number: "10/94"
   rarity: Uncommon
   illustrator: Taiga Kasai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me2/10_hires.png

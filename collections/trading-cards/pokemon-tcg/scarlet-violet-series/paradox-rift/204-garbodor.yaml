@@ -6,4 +6,6 @@ attributes:
   number: "204/182"
   rarity: Illustration Rare
   illustrator: Shinya Komatsu
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/204_hires.png

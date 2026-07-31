@@ -6,4 +6,6 @@ attributes:
   number: "82/149"
   rarity: Rare Holo
   illustrator: Yumi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm1/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "191/182"
   rarity: Illustration Rare
   illustrator: Oku
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/191_hires.png

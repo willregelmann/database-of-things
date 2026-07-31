@@ -6,4 +6,6 @@ attributes:
   number: "17/86"
   rarity: Common
   illustrator: matazo
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me4-17/large

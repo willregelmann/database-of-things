@@ -6,4 +6,7 @@ attributes:
   number: "48/110"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Darkness
+    - Metal
 image: https://images.pokemontcg.io/ex13/48_hires.png

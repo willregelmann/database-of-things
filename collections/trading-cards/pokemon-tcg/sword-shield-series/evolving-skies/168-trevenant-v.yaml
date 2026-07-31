@@ -6,4 +6,6 @@ attributes:
   number: "168/203"
   rarity: Rare Ultra
   illustrator: MUGENUP
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/168_hires.png

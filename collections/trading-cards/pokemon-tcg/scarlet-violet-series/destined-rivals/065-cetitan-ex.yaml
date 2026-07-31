@@ -6,4 +6,6 @@ attributes:
   number: "65/182"
   rarity: Double Rare
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/65_hires.png

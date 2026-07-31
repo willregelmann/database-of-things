@@ -6,4 +6,6 @@ attributes:
   number: "153/192"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/153_hires.png

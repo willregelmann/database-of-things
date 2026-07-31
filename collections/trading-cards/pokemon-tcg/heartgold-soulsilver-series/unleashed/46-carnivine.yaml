@@ -6,4 +6,6 @@ attributes:
   number: "46/95"
   rarity: Common
   illustrator: Wataru Kawahara
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss2/46_hires.png

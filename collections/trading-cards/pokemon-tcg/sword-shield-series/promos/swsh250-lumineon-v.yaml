@@ -6,4 +6,6 @@ attributes:
   number: "SWSH250"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH250_hires.png

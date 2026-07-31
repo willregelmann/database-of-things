@@ -6,4 +6,6 @@ attributes:
   number: "23/114"
   rarity: Rare
   illustrator: Yumi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy11/23_hires.png

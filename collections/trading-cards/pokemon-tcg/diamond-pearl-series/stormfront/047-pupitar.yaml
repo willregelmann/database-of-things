@@ -6,4 +6,6 @@ attributes:
   number: "47/100"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp7/47_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "166/91"
   rarity: Shiny Rare
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/166_hires.png

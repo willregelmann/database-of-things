@@ -6,4 +6,6 @@ attributes:
   number: "73/119"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy4/73_hires.png

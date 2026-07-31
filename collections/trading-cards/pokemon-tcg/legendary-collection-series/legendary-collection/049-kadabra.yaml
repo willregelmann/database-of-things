@@ -6,6 +6,8 @@ attributes:
   number: "49/110"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base6/49_hires.png
 variants:
   - id: da99081b-2bf9-492d-8688-68fbfc04785f

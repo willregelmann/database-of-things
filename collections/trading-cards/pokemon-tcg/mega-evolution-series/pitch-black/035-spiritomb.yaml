@@ -6,4 +6,6 @@ attributes:
   number: "35/84"
   rarity: Rare
   illustrator: danciao
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-35/large

@@ -6,4 +6,6 @@ attributes:
   number: "XY78"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY78_hires.png

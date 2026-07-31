@@ -6,4 +6,6 @@ attributes:
   number: "40/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/gym2/40_hires.png

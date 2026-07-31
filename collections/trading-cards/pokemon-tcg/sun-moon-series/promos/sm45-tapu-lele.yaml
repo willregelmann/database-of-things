@@ -6,4 +6,6 @@ attributes:
   number: "SM45"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM45_hires.png

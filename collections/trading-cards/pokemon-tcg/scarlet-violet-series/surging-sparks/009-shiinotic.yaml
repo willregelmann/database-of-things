@@ -6,4 +6,6 @@ attributes:
   number: "9/191"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/9_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "24/185"
   rarity: Uncommon
   illustrator: SATOSHI NAKAI
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh4/24_hires.png

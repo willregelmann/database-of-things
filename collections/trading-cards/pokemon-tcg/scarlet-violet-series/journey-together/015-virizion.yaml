@@ -6,4 +6,6 @@ attributes:
   number: "15/159"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/15_hires.png

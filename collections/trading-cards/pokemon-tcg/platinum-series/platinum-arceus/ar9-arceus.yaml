@@ -6,4 +6,6 @@ attributes:
   number: "AR9"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl4/AR9_hires.png

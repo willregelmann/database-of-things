@@ -6,4 +6,6 @@ attributes:
   number: "213/196"
   rarity: Rare Secret
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/213_hires.png

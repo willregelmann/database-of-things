@@ -6,4 +6,6 @@ attributes:
   number: "SWSH206"
   rarity: Promo
   illustrator: Eri Yamaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH206_hires.png

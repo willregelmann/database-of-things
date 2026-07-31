@@ -6,4 +6,6 @@ attributes:
   number: "109/162"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy8/109_hires.png

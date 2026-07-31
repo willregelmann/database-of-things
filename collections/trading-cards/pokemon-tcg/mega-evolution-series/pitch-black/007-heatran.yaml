@@ -6,4 +6,6 @@ attributes:
   number: "7/84"
   rarity: Uncommon
   illustrator: Takeshi Nakamura
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me5-7/large

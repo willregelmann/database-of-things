@@ -6,4 +6,6 @@ attributes:
   number: "XY187"
   rarity: Promo
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY187_hires.png

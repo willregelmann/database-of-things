@@ -6,4 +6,6 @@ attributes:
   number: "71/156"
   rarity: Common
   illustrator: match
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm5/71_hires.png

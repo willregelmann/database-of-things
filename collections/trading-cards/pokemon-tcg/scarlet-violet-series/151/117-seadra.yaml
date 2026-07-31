@@ -6,4 +6,6 @@ attributes:
   number: "117/165"
   rarity: Uncommon
   illustrator: aspara
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/117_hires.png

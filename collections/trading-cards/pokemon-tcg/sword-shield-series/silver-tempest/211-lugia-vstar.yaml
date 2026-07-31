@@ -6,4 +6,6 @@ attributes:
   number: "211/195"
   rarity: Rare Secret
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/211_hires.png

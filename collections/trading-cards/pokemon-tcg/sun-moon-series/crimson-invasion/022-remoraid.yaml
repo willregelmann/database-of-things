@@ -6,4 +6,6 @@ attributes:
   number: "22/111"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm4/22_hires.png

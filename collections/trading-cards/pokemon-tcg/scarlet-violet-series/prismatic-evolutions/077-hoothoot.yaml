@@ -6,4 +6,6 @@ attributes:
   number: "77/131"
   rarity: Common
   illustrator: Nakamura Ippan
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/77_hires.png

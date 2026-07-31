@@ -6,4 +6,6 @@ attributes:
   number: "58/110"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex13/58_hires.png

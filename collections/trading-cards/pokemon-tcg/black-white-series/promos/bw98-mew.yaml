@@ -6,4 +6,6 @@ attributes:
   number: "BW98"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bwp/BW98_hires.png

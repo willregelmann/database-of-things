@@ -6,4 +6,6 @@ attributes:
   number: "71/98"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw2/71_hires.png

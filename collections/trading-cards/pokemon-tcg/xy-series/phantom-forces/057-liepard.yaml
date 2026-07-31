@@ -6,4 +6,6 @@ attributes:
   number: "57/119"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy4/57_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "110/149"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm1/110_hires.png

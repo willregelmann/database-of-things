@@ -6,4 +6,6 @@ attributes:
   number: "68/195"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/68_hires.png

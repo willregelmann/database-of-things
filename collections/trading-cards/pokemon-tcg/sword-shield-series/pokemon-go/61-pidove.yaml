@@ -6,4 +6,6 @@ attributes:
   number: "61/78"
   rarity: Common
   illustrator: N-DESIGN Inc.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/61_hires.png

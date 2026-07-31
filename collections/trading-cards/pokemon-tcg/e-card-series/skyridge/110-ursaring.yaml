@@ -6,4 +6,6 @@ attributes:
   number: "110/144"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/110_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV16/SV94"
   rarity: Rare Shiny
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sma/SV16_hires.png

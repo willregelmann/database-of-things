@@ -6,4 +6,6 @@ attributes:
   number: "46/70"
   rarity: Rare Holo
   illustrator: Hasuno
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/46_hires.png

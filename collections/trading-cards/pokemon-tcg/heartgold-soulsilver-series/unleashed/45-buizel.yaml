@@ -6,4 +6,6 @@ attributes:
   number: "45/95"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/45_hires.png

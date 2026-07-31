@@ -6,4 +6,6 @@ attributes:
   number: "78/217"
   rarity: Rare
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-78/large

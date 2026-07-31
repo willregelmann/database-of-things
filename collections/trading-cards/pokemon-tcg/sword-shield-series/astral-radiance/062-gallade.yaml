@@ -6,4 +6,6 @@ attributes:
   number: "62/189"
   rarity: Rare Holo
   illustrator: Atsushi Furusawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/62_hires.png

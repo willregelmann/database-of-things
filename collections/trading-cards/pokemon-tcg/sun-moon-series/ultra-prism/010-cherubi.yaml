@@ -6,4 +6,6 @@ attributes:
   number: "10/156"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm5/10_hires.png

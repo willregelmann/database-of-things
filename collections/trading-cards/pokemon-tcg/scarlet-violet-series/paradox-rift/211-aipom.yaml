@@ -6,4 +6,6 @@ attributes:
   number: "211/182"
   rarity: Illustration Rare
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/211_hires.png

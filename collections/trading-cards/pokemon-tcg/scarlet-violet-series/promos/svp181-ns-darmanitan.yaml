@@ -6,4 +6,6 @@ attributes:
   number: "181"
   rarity: Promo
   illustrator: Takeshi Nakamura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/181_hires.png

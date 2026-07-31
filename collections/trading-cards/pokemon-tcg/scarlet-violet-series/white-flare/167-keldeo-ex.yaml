@@ -6,4 +6,6 @@ attributes:
   number: "167/86"
   rarity: Special Illustration Rare
   illustrator: Yuu Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/167_hires.png

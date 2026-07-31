@@ -6,4 +6,6 @@ attributes:
   number: "96/147"
   rarity: Uncommon
   illustrator: Megumi Mizutani
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm3/96_hires.png

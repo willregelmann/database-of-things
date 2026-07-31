@@ -6,4 +6,6 @@ attributes:
   number: "31/106"
   rarity: Uncommon
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy2/31_hires.png

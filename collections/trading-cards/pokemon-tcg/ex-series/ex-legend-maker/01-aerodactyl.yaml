@@ -6,4 +6,6 @@ attributes:
   number: "1/92"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex12/1_hires.png

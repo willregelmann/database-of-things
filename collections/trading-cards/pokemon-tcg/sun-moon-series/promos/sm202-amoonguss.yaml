@@ -6,4 +6,6 @@ attributes:
   number: "SM202"
   rarity: Promo
   illustrator: MAHOU
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM202_hires.png

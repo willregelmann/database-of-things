@@ -6,4 +6,6 @@ attributes:
   number: "SWSH119"
   rarity: Promo
   illustrator: Yuya Oka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH119_hires.png

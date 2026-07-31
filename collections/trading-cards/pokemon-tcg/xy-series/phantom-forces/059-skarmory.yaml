@@ -6,4 +6,6 @@ attributes:
   number: "59/119"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy4/59_hires.png

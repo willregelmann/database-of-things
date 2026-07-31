@@ -6,4 +6,6 @@ attributes:
   number: "189/167"
   rarity: Ultra Rare
   illustrator: aky CG Works
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/189_hires.png

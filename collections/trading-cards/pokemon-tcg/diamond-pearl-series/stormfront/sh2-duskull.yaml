@@ -6,4 +6,6 @@ attributes:
   number: "SH2"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/SH2_hires.png

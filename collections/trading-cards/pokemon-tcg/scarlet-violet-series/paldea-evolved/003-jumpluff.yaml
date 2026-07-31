@@ -6,4 +6,6 @@ attributes:
   number: "3/193"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/3_hires.png

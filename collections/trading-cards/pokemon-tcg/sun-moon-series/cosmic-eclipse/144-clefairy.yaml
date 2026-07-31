@@ -6,4 +6,6 @@ attributes:
   number: "144/236"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm12/144_hires.png

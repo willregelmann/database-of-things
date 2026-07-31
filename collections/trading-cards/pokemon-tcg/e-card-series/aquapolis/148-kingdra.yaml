@@ -6,4 +6,6 @@ attributes:
   number: "148/147"
   rarity: Rare Secret
   illustrator: Mikio Menjo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard2/148_hires.png

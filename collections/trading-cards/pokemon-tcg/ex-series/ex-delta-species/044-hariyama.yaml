@@ -6,4 +6,6 @@ attributes:
   number: "44/113"
   rarity: Uncommon
   illustrator: Hisao Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex11/44_hires.png

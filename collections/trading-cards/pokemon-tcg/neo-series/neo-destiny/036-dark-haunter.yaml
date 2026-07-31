@@ -6,4 +6,6 @@ attributes:
   number: "36/105"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo4/36_hires.png

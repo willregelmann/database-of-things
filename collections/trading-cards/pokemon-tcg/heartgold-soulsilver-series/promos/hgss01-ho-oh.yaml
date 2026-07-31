@@ -6,4 +6,6 @@ attributes:
   number: "HGSS01"
   rarity: Promo
   illustrator: Takashi Yamaguchi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hsp/HGSS01_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "137/86"
   rarity: Illustration Rare
   illustrator: Uninori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/zsv10pt5/137_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/78"
   rarity: Uncommon
   illustrator: ryoma uratsuka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/51_hires.png

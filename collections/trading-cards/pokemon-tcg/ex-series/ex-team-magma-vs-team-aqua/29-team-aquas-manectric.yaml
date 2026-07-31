@@ -6,4 +6,6 @@ attributes:
   number: "29/95"
   rarity: Uncommon
   illustrator: K. Utsunomiya
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex4/29_hires.png

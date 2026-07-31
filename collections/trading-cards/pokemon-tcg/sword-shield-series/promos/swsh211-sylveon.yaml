@@ -6,4 +6,6 @@ attributes:
   number: "SWSH211"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH211_hires.png

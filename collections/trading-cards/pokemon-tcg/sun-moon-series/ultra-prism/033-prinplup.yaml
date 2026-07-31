@@ -6,4 +6,6 @@ attributes:
   number: "33/156"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm5/33_hires.png

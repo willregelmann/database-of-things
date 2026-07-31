@@ -6,4 +6,6 @@ attributes:
   number: "180/189"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh3/180_hires.png

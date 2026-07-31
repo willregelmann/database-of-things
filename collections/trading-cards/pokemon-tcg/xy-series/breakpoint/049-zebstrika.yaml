@@ -6,4 +6,6 @@ attributes:
   number: "49/122"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy9/49_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "85/191"
   rarity: Uncommon
   illustrator: Yoriyuki Ikegami
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/85_hires.png

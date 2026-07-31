@@ -6,4 +6,6 @@ attributes:
   number: "TG18/TG30"
   rarity: Rare Holo V
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12tg/TG18_hires.png

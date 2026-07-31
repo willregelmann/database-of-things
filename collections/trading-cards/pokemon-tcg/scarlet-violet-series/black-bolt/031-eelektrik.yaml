@@ -6,4 +6,6 @@ attributes:
   number: "31/86"
   rarity: Uncommon
   illustrator: Jerky
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/zsv10pt5/31_hires.png

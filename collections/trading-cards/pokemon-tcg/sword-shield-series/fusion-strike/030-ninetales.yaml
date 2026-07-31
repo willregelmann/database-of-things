@@ -6,4 +6,6 @@ attributes:
   number: "30/264"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/30_hires.png

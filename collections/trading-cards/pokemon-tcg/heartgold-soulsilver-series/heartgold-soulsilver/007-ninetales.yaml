@@ -6,4 +6,6 @@ attributes:
   number: "7/123"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss1/7_hires.png

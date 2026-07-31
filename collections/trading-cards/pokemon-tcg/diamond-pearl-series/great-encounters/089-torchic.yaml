@@ -6,4 +6,6 @@ attributes:
   number: "89/106"
   rarity: Common
   illustrator: Hiroki Fuchino
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp4/89_hires.png

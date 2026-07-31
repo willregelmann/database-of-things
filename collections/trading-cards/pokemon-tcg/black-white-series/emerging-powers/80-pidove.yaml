@@ -6,4 +6,6 @@ attributes:
   number: "80/98"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw2/80_hires.png

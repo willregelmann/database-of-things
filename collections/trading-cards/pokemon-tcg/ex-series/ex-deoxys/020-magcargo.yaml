@@ -6,4 +6,6 @@ attributes:
   number: "20/107"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex8/20_hires.png

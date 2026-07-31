@@ -6,4 +6,6 @@ attributes:
   number: "11/132"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/gym1/11_hires.png

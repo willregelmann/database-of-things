@@ -6,4 +6,6 @@ attributes:
   number: "20/191"
   rarity: Common
   illustrator: osare
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/20_hires.png

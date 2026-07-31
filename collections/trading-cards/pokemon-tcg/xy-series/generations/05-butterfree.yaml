@@ -6,4 +6,6 @@ attributes:
   number: "5/83"
   rarity: Rare Holo
   illustrator: miki kudo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/g1/5_hires.png

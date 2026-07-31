@@ -6,4 +6,6 @@ attributes:
   number: "133/189"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/133_hires.png

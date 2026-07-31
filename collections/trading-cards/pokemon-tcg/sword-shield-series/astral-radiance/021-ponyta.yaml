@@ -6,4 +6,6 @@ attributes:
   number: "21/189"
   rarity: Common
   illustrator: Jiro Sasumo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/21_hires.png

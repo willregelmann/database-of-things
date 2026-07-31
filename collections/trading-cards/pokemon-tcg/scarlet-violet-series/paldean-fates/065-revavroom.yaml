@@ -6,4 +6,6 @@ attributes:
   number: "65/91"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4pt5/65_hires.png

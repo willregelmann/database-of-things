@@ -6,4 +6,6 @@ attributes:
   number: "83/111"
   rarity: Rare Holo
   illustrator: PLANETA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy3/83_hires.png

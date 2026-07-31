@@ -6,4 +6,6 @@ attributes:
   number: "56/101"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex5/56_hires.png

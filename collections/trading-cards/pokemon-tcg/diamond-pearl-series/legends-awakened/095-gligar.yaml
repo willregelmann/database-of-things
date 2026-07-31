@@ -6,4 +6,6 @@ attributes:
   number: "95/146"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp6/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "84/159"
   rarity: Common
   illustrator: Yoshimi Miyoshi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/84_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "40/70"
   rarity: Rare Holo
   illustrator: Kyoko Umemoto
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/40_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/113"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex11/41_hires.png

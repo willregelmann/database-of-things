@@ -6,6 +6,8 @@ attributes:
   number: "7/110"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base6/7_hires.png
 variants:
   - id: b31f50ae-deff-4198-9192-1a20926b6540

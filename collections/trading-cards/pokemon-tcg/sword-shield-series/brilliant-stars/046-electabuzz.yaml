@@ -6,4 +6,6 @@ attributes:
   number: "46/172"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh9/46_hires.png

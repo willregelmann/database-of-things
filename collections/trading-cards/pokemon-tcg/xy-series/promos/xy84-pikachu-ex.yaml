@@ -6,4 +6,6 @@ attributes:
   number: "XY84"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY84_hires.png

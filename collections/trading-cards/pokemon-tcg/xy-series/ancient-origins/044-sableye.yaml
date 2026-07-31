@@ -6,4 +6,6 @@ attributes:
   number: "44/98"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy7/44_hires.png

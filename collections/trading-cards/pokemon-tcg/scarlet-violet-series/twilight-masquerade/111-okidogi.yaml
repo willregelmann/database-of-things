@@ -6,4 +6,6 @@ attributes:
   number: "111/167"
   rarity: Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6/111_hires.png

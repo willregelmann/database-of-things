@@ -6,4 +6,6 @@ attributes:
   number: "56/159"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12pt5/56_hires.png

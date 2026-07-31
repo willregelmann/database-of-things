@@ -6,4 +6,6 @@ attributes:
   number: "28/100"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp7/28_hires.png

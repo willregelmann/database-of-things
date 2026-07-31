@@ -6,4 +6,6 @@ attributes:
   number: "134/165"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/134_hires.png

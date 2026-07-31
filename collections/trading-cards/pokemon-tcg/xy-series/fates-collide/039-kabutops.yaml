@@ -6,4 +6,6 @@ attributes:
   number: "39/124"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/39_hires.png

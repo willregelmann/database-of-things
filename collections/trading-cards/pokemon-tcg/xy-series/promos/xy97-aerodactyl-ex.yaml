@@ -6,4 +6,6 @@ attributes:
   number: "XY97"
   rarity: Promo
   illustrator: Ayaka Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY97_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "137/236"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm12/137_hires.png

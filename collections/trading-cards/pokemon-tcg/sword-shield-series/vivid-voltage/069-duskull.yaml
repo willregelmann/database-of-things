@@ -6,4 +6,6 @@ attributes:
   number: "69/185"
   rarity: Common
   illustrator: nagimiso
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/69_hires.png

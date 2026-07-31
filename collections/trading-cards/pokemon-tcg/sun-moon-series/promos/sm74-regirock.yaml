@@ -6,4 +6,6 @@ attributes:
   number: "SM74"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM74_hires.png

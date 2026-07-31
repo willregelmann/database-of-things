@@ -6,4 +6,6 @@ attributes:
   number: "097"
   rarity: Promo
   illustrator: Takumi Wada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/97_hires.png

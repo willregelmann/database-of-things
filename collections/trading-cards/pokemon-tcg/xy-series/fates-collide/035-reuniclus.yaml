@@ -6,4 +6,6 @@ attributes:
   number: "35/124"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy10/35_hires.png

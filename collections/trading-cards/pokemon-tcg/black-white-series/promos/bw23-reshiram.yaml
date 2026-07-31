@@ -6,4 +6,6 @@ attributes:
   number: "BW23"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW23_hires.png

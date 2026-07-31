@@ -6,4 +6,6 @@ attributes:
   number: "154/191"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/154_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/114"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw1/51_hires.png

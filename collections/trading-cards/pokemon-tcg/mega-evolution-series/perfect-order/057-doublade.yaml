@@ -6,4 +6,6 @@ attributes:
   number: "57/88"
   rarity: Common
   illustrator: Kamome Shirahama
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me3-57/large

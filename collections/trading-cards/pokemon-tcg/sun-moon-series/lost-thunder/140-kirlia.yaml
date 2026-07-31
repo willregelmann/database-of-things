@@ -6,4 +6,6 @@ attributes:
   number: "140/214"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/140_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "89/203"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/89_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/114"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy11/58_hires.png

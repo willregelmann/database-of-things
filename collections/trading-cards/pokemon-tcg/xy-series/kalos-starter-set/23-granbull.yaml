@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "23/39"
   illustrator: Masakazu Fukuda
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy0/23_hires.png

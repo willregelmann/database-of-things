@@ -6,4 +6,6 @@ attributes:
   number: "52/198"
   rarity: Rare Holo
   illustrator: Souichirou Gunjima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh6/52_hires.png

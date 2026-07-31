@@ -6,4 +6,6 @@ attributes:
   number: "10/162"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy8/10_hires.png

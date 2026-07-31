@@ -6,4 +6,6 @@ attributes:
   number: "95/185"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/95_hires.png

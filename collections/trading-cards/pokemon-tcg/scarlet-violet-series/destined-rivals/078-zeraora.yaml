@@ -6,4 +6,6 @@ attributes:
   number: "78/182"
   rarity: Rare
   illustrator: Ryuta Fuse
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/78_hires.png

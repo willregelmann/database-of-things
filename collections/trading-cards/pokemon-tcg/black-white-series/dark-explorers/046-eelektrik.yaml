@@ -6,4 +6,6 @@ attributes:
   number: "46/108"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw5/46_hires.png

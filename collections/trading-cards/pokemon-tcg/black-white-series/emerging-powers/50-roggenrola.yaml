@@ -6,4 +6,6 @@ attributes:
   number: "50/98"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw2/50_hires.png

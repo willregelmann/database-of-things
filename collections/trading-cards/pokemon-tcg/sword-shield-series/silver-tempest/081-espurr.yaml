@@ -6,4 +6,6 @@ attributes:
   number: "81/195"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/81_hires.png

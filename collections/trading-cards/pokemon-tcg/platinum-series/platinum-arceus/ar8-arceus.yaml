@@ -6,4 +6,6 @@ attributes:
   number: "AR8"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl4/AR8_hires.png

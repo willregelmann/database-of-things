@@ -6,4 +6,6 @@ attributes:
   number: "132/86"
   rarity: Illustration Rare
   illustrator: Apios
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/zsv10pt5/132_hires.png

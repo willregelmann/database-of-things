@@ -6,4 +6,6 @@ attributes:
   number: "156/214"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/156_hires.png

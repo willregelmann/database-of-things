@@ -6,4 +6,6 @@ attributes:
   number: "113/162"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy8/113_hires.png

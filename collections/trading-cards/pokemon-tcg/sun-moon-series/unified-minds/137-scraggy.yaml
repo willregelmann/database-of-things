@@ -6,4 +6,6 @@ attributes:
   number: "137/236"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/137_hires.png

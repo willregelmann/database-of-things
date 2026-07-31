@@ -6,4 +6,6 @@ attributes:
   number: "SL10"
   rarity: Rare Holo
   illustrator: Noriko Hotta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/col1/SL10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "21/192"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh2/21_hires.png

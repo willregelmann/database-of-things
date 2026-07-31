@@ -6,4 +6,6 @@ attributes:
   number: "26/108"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex16/26_hires.png

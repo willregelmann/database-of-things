@@ -6,4 +6,6 @@ attributes:
   number: "81/110"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex13/81_hires.png

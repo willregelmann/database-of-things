@@ -6,4 +6,6 @@ attributes:
   number: "002"
   rarity: Promo
   illustrator: Kazuo Yazawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/np/2_hires.png

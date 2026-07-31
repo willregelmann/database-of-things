@@ -6,4 +6,6 @@ attributes:
   number: "SV12/SV94"
   rarity: Rare Shiny
   illustrator: Anesaki Dynamic
+  type:
+    - Water
 image: https://images.pokemontcg.io/sma/SV12_hires.png

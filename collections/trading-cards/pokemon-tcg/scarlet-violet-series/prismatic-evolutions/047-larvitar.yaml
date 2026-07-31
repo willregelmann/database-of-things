@@ -6,4 +6,6 @@ attributes:
   number: "47/131"
   rarity: Common
   illustrator: Shimaris Yukichi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8pt5/47_hires.png

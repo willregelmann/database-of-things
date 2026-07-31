@@ -6,4 +6,6 @@ attributes:
   number: "9/124"
   rarity: Rare
   illustrator: OOYAMA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy10/9_hires.png

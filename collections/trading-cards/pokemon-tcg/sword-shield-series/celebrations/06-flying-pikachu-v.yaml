@@ -6,4 +6,6 @@ attributes:
   number: "6/25"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/cel25/6_hires.png

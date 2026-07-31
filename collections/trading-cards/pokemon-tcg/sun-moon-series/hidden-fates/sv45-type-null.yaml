@@ -6,4 +6,6 @@ attributes:
   number: "SV45/SV94"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sma/SV45_hires.png

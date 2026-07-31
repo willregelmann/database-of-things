@@ -6,4 +6,6 @@ attributes:
   number: "5/115"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/5_hires.png

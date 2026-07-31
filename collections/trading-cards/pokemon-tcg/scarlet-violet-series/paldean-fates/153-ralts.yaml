@@ -6,4 +6,6 @@ attributes:
   number: "153/91"
   rarity: Shiny Rare
   illustrator: yuu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/153_hires.png

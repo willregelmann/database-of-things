@@ -6,4 +6,6 @@ attributes:
   number: "119/217"
   rarity: Common
   illustrator: Apios
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-119/large

@@ -6,4 +6,6 @@ attributes:
   number: "207/214"
   rarity: Rare Ultra
   illustrator: PLANETA Igarashi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/207_hires.png

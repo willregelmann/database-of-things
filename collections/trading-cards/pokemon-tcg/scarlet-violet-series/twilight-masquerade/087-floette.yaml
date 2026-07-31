@@ -6,4 +6,6 @@ attributes:
   number: "87/167"
   rarity: Common
   illustrator: mingo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/87_hires.png

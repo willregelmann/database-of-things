@@ -6,4 +6,6 @@ attributes:
   number: "36/146"
   rarity: Rare
   illustrator: Kazuaki Aihara
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp6/36_hires.png

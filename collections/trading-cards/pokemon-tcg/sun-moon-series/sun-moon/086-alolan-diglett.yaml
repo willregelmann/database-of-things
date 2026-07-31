@@ -6,4 +6,6 @@ attributes:
   number: "86/149"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm1/86_hires.png

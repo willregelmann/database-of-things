@@ -6,4 +6,6 @@ attributes:
   number: "98/217"
   rarity: Rare
   illustrator: Taiga Kasai
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-98/large

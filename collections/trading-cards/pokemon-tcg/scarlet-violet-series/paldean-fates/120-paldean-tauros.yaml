@@ -6,4 +6,6 @@ attributes:
   number: "120/91"
   rarity: Shiny Rare
   illustrator: GOSSAN
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4pt5/120_hires.png

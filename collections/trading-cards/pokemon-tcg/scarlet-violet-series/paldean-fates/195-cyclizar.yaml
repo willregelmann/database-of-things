@@ -6,4 +6,6 @@ attributes:
   number: "195/91"
   rarity: Shiny Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4pt5/195_hires.png

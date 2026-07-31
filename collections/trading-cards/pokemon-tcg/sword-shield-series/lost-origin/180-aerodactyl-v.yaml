@@ -6,4 +6,6 @@ attributes:
   number: "180/196"
   rarity: Rare Ultra
   illustrator: Nurikabe
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/180_hires.png

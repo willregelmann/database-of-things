@@ -6,4 +6,6 @@ attributes:
   number: "51/123"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/51_hires.png

@@ -6,4 +6,7 @@ attributes:
   number: "36/109"
   rarity: Uncommon
   illustrator: Nakaoka
+  type:
+    - Water
+    - Darkness
 image: https://images.pokemontcg.io/ex7/36_hires.png

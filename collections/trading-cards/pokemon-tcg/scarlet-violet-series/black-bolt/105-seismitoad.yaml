@@ -6,4 +6,6 @@ attributes:
   number: "105/86"
   rarity: Illustration Rare
   illustrator: Shinji Kanda
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/105_hires.png

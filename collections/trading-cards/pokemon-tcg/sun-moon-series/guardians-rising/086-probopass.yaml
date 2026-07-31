@@ -6,4 +6,6 @@ attributes:
   number: "86/145"
   rarity: Rare
   illustrator: Yoshinobu Saito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm2/86_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "032"
   rarity: Promo
   illustrator: Nakaoka
+  type:
+    - Water
 image: https://images.pokemontcg.io/np/32_hires.png

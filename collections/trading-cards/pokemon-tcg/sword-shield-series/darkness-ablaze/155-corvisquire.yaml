@@ -6,4 +6,6 @@ attributes:
   number: "155/189"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/155_hires.png

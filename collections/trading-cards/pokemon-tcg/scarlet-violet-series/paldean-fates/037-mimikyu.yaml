@@ -6,4 +6,6 @@ attributes:
   number: "37/91"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/37_hires.png

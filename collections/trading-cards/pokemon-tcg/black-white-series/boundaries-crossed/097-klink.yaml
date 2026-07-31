@@ -6,4 +6,6 @@ attributes:
   number: "97/149"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw7/97_hires.png

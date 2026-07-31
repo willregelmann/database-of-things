@@ -6,4 +6,6 @@ attributes:
   number: "17/99"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw4/17_hires.png

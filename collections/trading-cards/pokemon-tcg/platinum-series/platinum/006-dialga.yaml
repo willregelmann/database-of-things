@@ -6,4 +6,6 @@ attributes:
   number: "6/127"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl1/6_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "53/95"
   rarity: Common
   illustrator: M. Akiyama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex4/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "28/115"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex10/28_hires.png

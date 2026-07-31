@@ -6,4 +6,6 @@ attributes:
   number: "83/122"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy9/83_hires.png

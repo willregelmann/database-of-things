@@ -6,4 +6,6 @@ attributes:
   number: "106/144"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/106_hires.png

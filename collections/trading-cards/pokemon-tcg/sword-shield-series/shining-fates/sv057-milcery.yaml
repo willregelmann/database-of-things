@@ -6,4 +6,6 @@ attributes:
   number: "SV057/SV122"
   rarity: Rare Shiny
   illustrator: Motofumi Fujiwara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV057_hires.png

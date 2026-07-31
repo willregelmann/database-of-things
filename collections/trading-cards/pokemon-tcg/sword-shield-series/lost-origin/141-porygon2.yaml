@@ -6,4 +6,6 @@ attributes:
   number: "141/196"
   rarity: Uncommon
   illustrator: OKACHEKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/141_hires.png

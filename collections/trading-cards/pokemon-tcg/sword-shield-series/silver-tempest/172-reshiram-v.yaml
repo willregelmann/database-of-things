@@ -6,4 +6,6 @@ attributes:
   number: "172/195"
   rarity: Rare Ultra
   illustrator: N-DESIGN Inc.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12/172_hires.png

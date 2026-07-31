@@ -6,4 +6,6 @@ attributes:
   number: "100/159"
   rarity: Uncommon
   illustrator: AKIRA EGAWA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv9/100_hires.png

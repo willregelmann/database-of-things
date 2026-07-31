@@ -6,4 +6,6 @@ attributes:
   number: "77/101"
   rarity: Common
   illustrator: Hisao Nakamura
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex5/77_hires.png

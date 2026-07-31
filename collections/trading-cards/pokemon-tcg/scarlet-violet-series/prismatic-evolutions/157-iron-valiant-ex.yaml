@@ -6,4 +6,6 @@ attributes:
   number: "157/131"
   rarity: Special Illustration Rare
   illustrator: danciao
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/157_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "133/162"
   rarity: Common
   illustrator: Mékayu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/133_hires.png

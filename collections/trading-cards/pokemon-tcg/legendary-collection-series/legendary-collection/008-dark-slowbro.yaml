@@ -6,6 +6,8 @@ attributes:
   number: "8/110"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base6/8_hires.png
 variants:
   - id: aa76d54a-2462-4b69-95ac-790c5b64384b

@@ -6,4 +6,6 @@ attributes:
   number: "61/156"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "178/163"
   rarity: Rare Secret
   illustrator: PLANETA Mochizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/178_hires.png

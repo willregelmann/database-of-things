@@ -6,4 +6,6 @@ attributes:
   number: "BW83"
   rarity: Promo
   illustrator: Toyste Beach
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW83_hires.png

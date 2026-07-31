@@ -6,4 +6,6 @@ attributes:
   number: "XY108"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY108_hires.png

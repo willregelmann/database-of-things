@@ -6,4 +6,6 @@ attributes:
   number: "19/203"
   rarity: Rare Holo
   illustrator: NC Empire
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh7/19_hires.png

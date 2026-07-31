@@ -6,4 +6,6 @@ attributes:
   number: "74/102"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss4/74_hires.png

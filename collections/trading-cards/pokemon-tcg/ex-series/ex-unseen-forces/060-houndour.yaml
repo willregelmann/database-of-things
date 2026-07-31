@@ -6,4 +6,6 @@ attributes:
   number: "60/115"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/60_hires.png

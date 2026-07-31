@@ -6,4 +6,6 @@ attributes:
   number: "127/146"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp6/127_hires.png

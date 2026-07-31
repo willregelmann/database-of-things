@@ -6,4 +6,6 @@ attributes:
   number: "150/182"
   rarity: Uncommon
   illustrator: LINNE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/150_hires.png

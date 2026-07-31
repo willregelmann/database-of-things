@@ -6,4 +6,6 @@ attributes:
   number: "52/124"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw6/52_hires.png

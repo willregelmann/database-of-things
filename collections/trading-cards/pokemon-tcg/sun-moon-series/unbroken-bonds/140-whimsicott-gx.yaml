@@ -6,4 +6,6 @@ attributes:
   number: "140/214"
   rarity: Rare Holo GX
   illustrator: PLANETA Igarashi
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm10/140_hires.png

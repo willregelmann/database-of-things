@@ -6,4 +6,6 @@ attributes:
   number: "55/73"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm35/55_hires.png

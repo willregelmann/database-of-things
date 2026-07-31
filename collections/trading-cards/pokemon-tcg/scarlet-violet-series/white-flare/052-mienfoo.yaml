@@ -6,4 +6,6 @@ attributes:
   number: "52/86"
   rarity: Common
   illustrator: Keisin
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/52_hires.png

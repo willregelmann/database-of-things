@@ -6,4 +6,6 @@ attributes:
   number: "107/113"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/107_hires.png

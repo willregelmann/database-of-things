@@ -6,4 +6,6 @@ attributes:
   number: "113/94"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/113_hires.png

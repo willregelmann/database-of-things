@@ -6,4 +6,6 @@ attributes:
   number: "12/122"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy9/12_hires.png

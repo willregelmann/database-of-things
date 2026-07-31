@@ -6,4 +6,6 @@ attributes:
   number: "19/86"
   rarity: Common
   illustrator: Yukihiro Tada
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/19_hires.png

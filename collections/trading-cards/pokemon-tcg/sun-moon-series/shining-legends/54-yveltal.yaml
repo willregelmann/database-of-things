@@ -6,4 +6,6 @@ attributes:
   number: "54/73"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm35/54_hires.png

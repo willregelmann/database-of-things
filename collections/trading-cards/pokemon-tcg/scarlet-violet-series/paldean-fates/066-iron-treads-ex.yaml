@@ -6,4 +6,6 @@ attributes:
   number: "66/91"
   rarity: Double Rare
   illustrator: toriyufu
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4pt5/66_hires.png

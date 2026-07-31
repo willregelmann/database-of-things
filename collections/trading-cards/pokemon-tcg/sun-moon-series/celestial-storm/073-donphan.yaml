@@ -6,4 +6,6 @@ attributes:
   number: "73/168"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm7/73_hires.png

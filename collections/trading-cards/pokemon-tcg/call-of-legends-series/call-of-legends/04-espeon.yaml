@@ -6,4 +6,6 @@ attributes:
   number: "4/95"
   rarity: Rare Holo
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/4_hires.png

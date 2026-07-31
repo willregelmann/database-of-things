@@ -6,4 +6,6 @@ attributes:
   number: "31/168"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm7/31_hires.png

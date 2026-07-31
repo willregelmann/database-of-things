@@ -6,4 +6,6 @@ attributes:
   number: "37/264"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/37_hires.png

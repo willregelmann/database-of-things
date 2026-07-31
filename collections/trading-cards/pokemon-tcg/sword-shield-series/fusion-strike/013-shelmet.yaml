@@ -6,4 +6,6 @@ attributes:
   number: "13/264"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh8/13_hires.png

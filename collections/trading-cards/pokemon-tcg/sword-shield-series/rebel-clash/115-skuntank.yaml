@@ -6,4 +6,6 @@ attributes:
   number: "115/192"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh2/115_hires.png

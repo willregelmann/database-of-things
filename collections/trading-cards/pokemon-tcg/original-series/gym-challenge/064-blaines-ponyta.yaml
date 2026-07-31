@@ -6,4 +6,6 @@ attributes:
   number: "64/132"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/gym2/64_hires.png

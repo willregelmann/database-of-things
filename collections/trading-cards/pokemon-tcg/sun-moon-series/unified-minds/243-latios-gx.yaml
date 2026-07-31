@@ -6,4 +6,6 @@ attributes:
   number: "243/236"
   rarity: Rare Rainbow
   illustrator: ConceptLab
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/243_hires.png

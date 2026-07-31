@@ -6,4 +6,6 @@ attributes:
   number: "12/123"
   rarity: Rare Holo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss1/12_hires.png

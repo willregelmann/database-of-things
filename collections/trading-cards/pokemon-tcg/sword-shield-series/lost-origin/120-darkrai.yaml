@@ -6,4 +6,6 @@ attributes:
   number: "120/196"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh11/120_hires.png

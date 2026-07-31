@@ -6,4 +6,6 @@ attributes:
   number: "19/131"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm6/19_hires.png

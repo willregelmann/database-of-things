@@ -6,4 +6,6 @@ attributes:
   number: "SWSH064"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH064_hires.png

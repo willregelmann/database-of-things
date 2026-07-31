@@ -6,4 +6,6 @@ attributes:
   number: "201/91"
   rarity: Shiny Rare
   illustrator: "0313"
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/201_hires.png

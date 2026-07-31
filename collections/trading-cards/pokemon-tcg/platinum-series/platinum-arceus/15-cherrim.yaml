@@ -6,4 +6,6 @@ attributes:
   number: "15/99"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl4/15_hires.png

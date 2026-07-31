@@ -6,4 +6,6 @@ attributes:
   number: "8/203"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Tsuji
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/8_hires.png

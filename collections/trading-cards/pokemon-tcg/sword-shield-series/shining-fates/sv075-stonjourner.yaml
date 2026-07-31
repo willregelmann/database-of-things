@@ -6,4 +6,6 @@ attributes:
   number: "SV075/SV122"
   rarity: Rare Shiny
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV075_hires.png

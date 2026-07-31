@@ -6,4 +6,6 @@ attributes:
   number: "RC15/RC32"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/RC15_hires.png

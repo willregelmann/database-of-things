@@ -6,4 +6,6 @@ attributes:
   number: "149/189"
   rarity: Rare
   illustrator: Taira Akitsu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/149_hires.png

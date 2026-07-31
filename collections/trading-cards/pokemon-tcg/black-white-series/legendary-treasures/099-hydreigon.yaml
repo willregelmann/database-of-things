@@ -6,4 +6,6 @@ attributes:
   number: "99/113"
   rarity: Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw11/99_hires.png

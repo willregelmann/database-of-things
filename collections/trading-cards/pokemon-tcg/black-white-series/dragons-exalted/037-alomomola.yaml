@@ -6,4 +6,6 @@ attributes:
   number: "37/124"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw6/37_hires.png

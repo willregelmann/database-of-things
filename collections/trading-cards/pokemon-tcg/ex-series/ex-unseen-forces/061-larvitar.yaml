@@ -6,4 +6,6 @@ attributes:
   number: "61/115"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex10/61_hires.png

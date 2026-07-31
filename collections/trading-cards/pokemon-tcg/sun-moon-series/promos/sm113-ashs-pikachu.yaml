@@ -6,4 +6,6 @@ attributes:
   number: "SM113"
   rarity: Promo
   illustrator: 2017 Pikachu Project
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM113_hires.png

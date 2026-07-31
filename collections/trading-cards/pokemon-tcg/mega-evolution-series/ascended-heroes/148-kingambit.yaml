@@ -6,4 +6,6 @@ attributes:
   number: "148/217"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me2pt5-148/large

@@ -6,4 +6,6 @@ attributes:
   number: "SM118"
   rarity: Promo
   illustrator: sui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM118_hires.png

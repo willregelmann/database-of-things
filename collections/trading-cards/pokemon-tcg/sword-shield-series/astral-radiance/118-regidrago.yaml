@@ -6,4 +6,6 @@ attributes:
   number: "118/189"
   rarity: Rare
   illustrator: DOM
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh10/118_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "39/217"
   rarity: Common
   illustrator: Jiro Sasumo
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me2pt5-39/large

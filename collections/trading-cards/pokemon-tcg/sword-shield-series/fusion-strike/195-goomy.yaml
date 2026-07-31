@@ -6,4 +6,6 @@ attributes:
   number: "195/264"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh8/195_hires.png

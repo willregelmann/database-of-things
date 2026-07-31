@@ -6,4 +6,6 @@ attributes:
   number: "RC2/RC32"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/g1/RC2_hires.png

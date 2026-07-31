@@ -6,4 +6,6 @@ attributes:
   number: "127/167"
   rarity: Uncommon
   illustrator: OKACHEKE
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/127_hires.png

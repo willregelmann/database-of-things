@@ -6,4 +6,6 @@ attributes:
   number: "54/100"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp7/54_hires.png

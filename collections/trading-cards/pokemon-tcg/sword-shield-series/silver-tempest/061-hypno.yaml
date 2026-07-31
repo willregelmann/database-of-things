@@ -6,4 +6,6 @@ attributes:
   number: "61/195"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/61_hires.png

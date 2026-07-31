@@ -6,4 +6,6 @@ attributes:
   number: "SM06"
   rarity: Promo
   illustrator: match
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM06_hires.png

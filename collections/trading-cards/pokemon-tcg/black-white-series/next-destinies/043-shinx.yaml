@@ -6,4 +6,6 @@ attributes:
   number: "43/99"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw4/43_hires.png

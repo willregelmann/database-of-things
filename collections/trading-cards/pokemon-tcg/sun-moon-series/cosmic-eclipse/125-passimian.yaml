@@ -6,4 +6,6 @@ attributes:
   number: "125/236"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/125_hires.png

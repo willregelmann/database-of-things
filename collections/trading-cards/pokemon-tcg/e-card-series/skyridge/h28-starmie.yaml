@@ -6,4 +6,6 @@ attributes:
   number: "H28/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/H28_hires.png

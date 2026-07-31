@@ -6,4 +6,6 @@ attributes:
   number: "79/123"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss1/79_hires.png

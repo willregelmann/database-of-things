@@ -6,4 +6,6 @@ attributes:
   number: "XY195"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY195_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "126/264"
   rarity: Rare
   illustrator: Shibuzoh.
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/126_hires.png

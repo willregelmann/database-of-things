@@ -6,4 +6,6 @@ attributes:
   number: "SV091/SV122"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45sv/SV091_hires.png

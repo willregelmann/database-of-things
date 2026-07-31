@@ -6,4 +6,6 @@ attributes:
   number: "SWSH018"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH018_hires.png

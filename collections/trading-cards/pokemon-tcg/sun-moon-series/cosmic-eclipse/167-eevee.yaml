@@ -6,4 +6,6 @@ attributes:
   number: "167/236"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/167_hires.png

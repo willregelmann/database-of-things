@@ -6,4 +6,6 @@ attributes:
   number: "74/111"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo1/74_hires.png

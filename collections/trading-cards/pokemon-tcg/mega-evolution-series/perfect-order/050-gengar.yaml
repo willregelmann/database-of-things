@@ -6,4 +6,6 @@ attributes:
   number: "50/88"
   rarity: Rare
   illustrator: Masako Tomii
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me3-50/large

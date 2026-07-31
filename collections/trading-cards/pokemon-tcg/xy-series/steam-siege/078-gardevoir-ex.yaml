@@ -6,4 +6,6 @@ attributes:
   number: "78/114"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy11/78_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "40/64"
   rarity: Uncommon
   illustrator: Kazumasa Yasukuni
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6pt5/40_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/193"
   rarity: Uncommon
   illustrator: Souichirou Gunjima
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/51_hires.png

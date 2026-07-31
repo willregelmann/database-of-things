@@ -6,4 +6,6 @@ attributes:
   number: "24/62"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base3/24_hires.png

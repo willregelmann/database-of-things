@@ -6,4 +6,6 @@ attributes:
   number: "93/167"
   rarity: Rare
   illustrator: DOM
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/93_hires.png

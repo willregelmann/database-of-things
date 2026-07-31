@@ -6,4 +6,6 @@ attributes:
   number: "109"
   rarity: Promo
   illustrator: GIDORA
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/109_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "148/86"
   rarity: Illustration Rare
   illustrator: Nurikabe
+  type:
+    - Metal
 image: https://images.pokemontcg.io/rsv10pt5/148_hires.png

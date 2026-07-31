@@ -6,4 +6,6 @@ attributes:
   number: "70/193"
   rarity: Uncommon
   illustrator: Narumi Sato
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/70_hires.png

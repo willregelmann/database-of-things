@@ -6,4 +6,6 @@ attributes:
   number: "117/147"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/117_hires.png

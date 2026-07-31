@@ -6,4 +6,6 @@ attributes:
   number: "10/123"
   rarity: Rare Holo
   illustrator: match
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss1/10_hires.png

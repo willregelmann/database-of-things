@@ -6,4 +6,6 @@ attributes:
   number: "24/181"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm9/24_hires.png

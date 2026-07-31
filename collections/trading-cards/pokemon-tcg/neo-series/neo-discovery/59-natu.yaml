@@ -6,4 +6,6 @@ attributes:
   number: "59/75"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/59_hires.png

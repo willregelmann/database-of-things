@@ -6,4 +6,6 @@ attributes:
   number: "13/18"
   rarity: Rare Holo
   illustrator: MPC Film
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/det1/13_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/189"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/109_hires.png

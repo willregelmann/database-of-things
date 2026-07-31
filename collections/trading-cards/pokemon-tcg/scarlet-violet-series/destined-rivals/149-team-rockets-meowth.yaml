@@ -6,4 +6,6 @@ attributes:
   number: "149/182"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/149_hires.png

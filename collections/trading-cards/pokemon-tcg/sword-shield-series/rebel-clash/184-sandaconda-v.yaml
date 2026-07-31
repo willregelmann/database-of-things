@@ -6,4 +6,6 @@ attributes:
   number: "184/192"
   rarity: Rare Ultra
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/184_hires.png

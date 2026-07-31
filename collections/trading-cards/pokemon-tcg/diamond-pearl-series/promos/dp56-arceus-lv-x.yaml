@@ -6,4 +6,6 @@ attributes:
   number: "DP56"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dpp/DP56_hires.png

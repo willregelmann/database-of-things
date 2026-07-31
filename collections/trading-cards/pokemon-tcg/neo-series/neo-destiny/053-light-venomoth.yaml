@@ -6,4 +6,6 @@ attributes:
   number: "53/105"
   rarity: Uncommon
   illustrator: Masako Yamashita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/53_hires.png

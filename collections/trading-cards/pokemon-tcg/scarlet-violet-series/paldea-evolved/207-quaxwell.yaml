@@ -6,4 +6,6 @@ attributes:
   number: "207/193"
   rarity: Illustration Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/207_hires.png

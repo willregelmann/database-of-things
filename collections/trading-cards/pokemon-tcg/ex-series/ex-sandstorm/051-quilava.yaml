@@ -6,4 +6,6 @@ attributes:
   number: "51/100"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex2/51_hires.png

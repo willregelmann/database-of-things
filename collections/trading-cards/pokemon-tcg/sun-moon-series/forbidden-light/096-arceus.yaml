@@ -6,4 +6,6 @@ attributes:
   number: "96/131"
   rarity: Rare Prism Star
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm6/96_hires.png

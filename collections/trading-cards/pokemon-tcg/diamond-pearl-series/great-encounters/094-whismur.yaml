@@ -6,4 +6,6 @@ attributes:
   number: "94/106"
   rarity: Common
   illustrator: Takao Unno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/94_hires.png

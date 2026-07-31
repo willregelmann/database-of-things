@@ -6,4 +6,6 @@ attributes:
   number: "054"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/54_hires.png

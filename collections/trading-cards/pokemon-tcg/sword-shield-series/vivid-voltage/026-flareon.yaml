@@ -6,4 +6,6 @@ attributes:
   number: "26/185"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh4/26_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "6/73"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm35/6_hires.png

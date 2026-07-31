@@ -6,4 +6,6 @@ attributes:
   number: "92/131"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm6/92_hires.png

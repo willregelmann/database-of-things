@@ -6,4 +6,6 @@ attributes:
   number: "77/113"
   rarity: Common
   illustrator: Hiroki Fuchino
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex11/77_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH051"
   rarity: Promo
   illustrator: Megumi Higuchi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH051_hires.png

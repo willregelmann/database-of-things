@@ -6,4 +6,6 @@ attributes:
   number: "221/191"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/221_hires.png

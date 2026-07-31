@@ -6,4 +6,6 @@ attributes:
   number: "100/130"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp1/100_hires.png

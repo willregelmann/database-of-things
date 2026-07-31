@@ -6,4 +6,6 @@ attributes:
   number: "52/92"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex12/52_hires.png

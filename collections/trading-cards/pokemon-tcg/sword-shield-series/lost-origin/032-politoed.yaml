@@ -6,4 +6,6 @@ attributes:
   number: "32/196"
   rarity: Rare
   illustrator: ryoma uratsuka
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/32_hires.png

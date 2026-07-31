@@ -6,4 +6,6 @@ attributes:
   number: "66/236"
   rarity: Rare Holo
   illustrator: Shigenori Negishi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/66_hires.png

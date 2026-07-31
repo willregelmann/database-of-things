@@ -6,4 +6,6 @@ attributes:
   number: "207/191"
   rarity: Illustration Rare
   illustrator: USGMEN
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/207_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "149/195"
   rarity: Rare
   illustrator: Jiro Sasumo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/149_hires.png

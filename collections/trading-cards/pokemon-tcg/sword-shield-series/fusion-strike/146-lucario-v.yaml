@@ -6,4 +6,6 @@ attributes:
   number: "146/264"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/146_hires.png

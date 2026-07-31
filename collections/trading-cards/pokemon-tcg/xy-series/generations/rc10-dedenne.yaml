@@ -6,4 +6,6 @@ attributes:
   number: "RC10/RC32"
   rarity: Uncommon
   illustrator: kanahei
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/g1/RC10_hires.png

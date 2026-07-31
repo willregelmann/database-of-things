@@ -6,4 +6,6 @@ attributes:
   number: "101/109"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex7/101_hires.png

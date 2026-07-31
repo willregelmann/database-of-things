@@ -6,4 +6,6 @@ attributes:
   number: "42/105"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo4/42_hires.png

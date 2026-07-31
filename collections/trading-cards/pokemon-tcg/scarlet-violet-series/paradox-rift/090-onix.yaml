@@ -6,4 +6,6 @@ attributes:
   number: "90/182"
   rarity: Common
   illustrator: Shiburingaru
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/90_hires.png

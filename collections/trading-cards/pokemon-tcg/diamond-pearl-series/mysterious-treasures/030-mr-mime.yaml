@@ -6,4 +6,6 @@ attributes:
   number: "30/123"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp2/30_hires.png

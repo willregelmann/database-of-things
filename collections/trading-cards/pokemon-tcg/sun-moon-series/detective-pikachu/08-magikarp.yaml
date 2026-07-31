@@ -6,4 +6,6 @@ attributes:
   number: "8/18"
   rarity: Common Holo
   illustrator: Framestore
+  type:
+    - Water
 image: https://images.pokemontcg.io/det1/8_hires.png

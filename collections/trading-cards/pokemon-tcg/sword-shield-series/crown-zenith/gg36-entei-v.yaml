@@ -6,4 +6,6 @@ attributes:
   number: "GG36/GG70"
   rarity: Rare Holo V
   illustrator: Shigenori Negishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5gg/GG36_hires.png

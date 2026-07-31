@@ -6,4 +6,6 @@ attributes:
   number: "66/124"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy10/66_hires.png

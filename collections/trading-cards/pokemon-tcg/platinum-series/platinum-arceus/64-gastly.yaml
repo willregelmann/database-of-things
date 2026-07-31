@@ -6,4 +6,6 @@ attributes:
   number: "64/99"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl4/64_hires.png

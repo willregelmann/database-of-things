@@ -6,4 +6,6 @@ attributes:
   number: "40/131"
   rarity: Rare
   illustrator: MINAMINAMI Take
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/40_hires.png

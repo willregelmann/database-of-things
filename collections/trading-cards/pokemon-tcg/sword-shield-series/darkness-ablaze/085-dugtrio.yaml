@@ -6,4 +6,6 @@ attributes:
   number: "85/189"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/85_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "94/95"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/94_hires.png

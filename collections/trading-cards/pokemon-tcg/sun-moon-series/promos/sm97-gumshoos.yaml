@@ -6,4 +6,6 @@ attributes:
   number: "SM97"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM97_hires.png

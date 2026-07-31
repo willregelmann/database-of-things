@@ -6,4 +6,6 @@ attributes:
   number: "70/86"
   rarity: Rare
   illustrator: Taiga Kasai
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/zsv10pt5/70_hires.png

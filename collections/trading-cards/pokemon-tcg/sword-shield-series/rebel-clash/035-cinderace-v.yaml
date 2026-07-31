@@ -6,4 +6,6 @@ attributes:
   number: "35/192"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/35_hires.png

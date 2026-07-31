@@ -6,4 +6,6 @@ attributes:
   number: "172/167"
   rarity: Illustration Rare
   illustrator: Masa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/172_hires.png

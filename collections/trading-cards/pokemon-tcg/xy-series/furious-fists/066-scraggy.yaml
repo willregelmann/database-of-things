@@ -6,4 +6,6 @@ attributes:
   number: "66/111"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy3/66_hires.png

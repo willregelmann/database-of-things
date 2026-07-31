@@ -6,4 +6,6 @@ attributes:
   number: "82/192"
   rarity: Uncommon
   illustrator: Hasuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/82_hires.png

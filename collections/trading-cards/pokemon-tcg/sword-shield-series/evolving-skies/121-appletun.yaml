@@ -6,4 +6,6 @@ attributes:
   number: "121/203"
   rarity: Rare
   illustrator: Yuya Oka
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/121_hires.png

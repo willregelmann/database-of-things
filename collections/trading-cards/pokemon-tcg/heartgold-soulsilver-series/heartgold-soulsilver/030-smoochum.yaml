@@ -6,4 +6,6 @@ attributes:
   number: "30/123"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss1/30_hires.png

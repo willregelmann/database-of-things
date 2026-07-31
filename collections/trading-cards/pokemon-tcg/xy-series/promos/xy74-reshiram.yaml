@@ -6,4 +6,6 @@ attributes:
   number: "XY74"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY74_hires.png

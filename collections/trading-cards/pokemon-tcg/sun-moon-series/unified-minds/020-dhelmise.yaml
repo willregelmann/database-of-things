@@ -6,4 +6,6 @@ attributes:
   number: "20/236"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm11/20_hires.png

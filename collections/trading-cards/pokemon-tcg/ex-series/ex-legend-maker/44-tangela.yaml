@@ -6,4 +6,6 @@ attributes:
   number: "44/92"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex12/44_hires.png

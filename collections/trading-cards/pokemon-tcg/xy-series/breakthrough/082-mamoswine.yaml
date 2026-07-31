@@ -6,4 +6,6 @@ attributes:
   number: "82/162"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy8/82_hires.png

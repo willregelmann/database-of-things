@@ -6,4 +6,6 @@ attributes:
   number: "113/185"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/113_hires.png

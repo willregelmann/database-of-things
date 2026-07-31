@@ -6,4 +6,6 @@ attributes:
   number: "111/191"
   rarity: Uncommon
   illustrator: Teeziro
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/111_hires.png

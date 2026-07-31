@@ -6,4 +6,6 @@ attributes:
   number: "9/106"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/9_hires.png

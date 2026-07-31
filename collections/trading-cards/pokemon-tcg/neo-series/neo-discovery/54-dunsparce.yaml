@@ -6,4 +6,6 @@ attributes:
   number: "54/75"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo2/54_hires.png

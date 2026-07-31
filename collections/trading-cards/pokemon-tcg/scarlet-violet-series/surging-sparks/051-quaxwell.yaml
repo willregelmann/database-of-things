@@ -6,4 +6,6 @@ attributes:
   number: "51/191"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8/51_hires.png

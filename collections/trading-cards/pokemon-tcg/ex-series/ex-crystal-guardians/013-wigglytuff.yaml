@@ -6,4 +6,6 @@ attributes:
   number: "13/100"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex14/13_hires.png

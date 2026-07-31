@@ -6,4 +6,6 @@ attributes:
   number: "10/113"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/10_hires.png

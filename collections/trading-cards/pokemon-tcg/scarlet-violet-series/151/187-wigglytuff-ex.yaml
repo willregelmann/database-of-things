@@ -6,4 +6,6 @@ attributes:
   number: "187/165"
   rarity: Ultra Rare
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/187_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV012/SV122"
   rarity: Rare Shiny
   illustrator: otumami
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV012_hires.png

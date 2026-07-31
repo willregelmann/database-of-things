@@ -6,4 +6,6 @@ attributes:
   number: "195/182"
   rarity: Illustration Rare
   illustrator: matazo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/195_hires.png

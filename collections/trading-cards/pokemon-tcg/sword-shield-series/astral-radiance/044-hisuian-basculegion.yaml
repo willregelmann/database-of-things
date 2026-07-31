@@ -6,4 +6,6 @@ attributes:
   number: "44/189"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/44_hires.png

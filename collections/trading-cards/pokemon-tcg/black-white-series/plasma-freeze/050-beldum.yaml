@@ -6,4 +6,6 @@ attributes:
   number: "50/116"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw9/50_hires.png

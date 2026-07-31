@@ -6,4 +6,6 @@ attributes:
   number: "83/159"
   rarity: Common
   illustrator: Yuriko Akase
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/83_hires.png

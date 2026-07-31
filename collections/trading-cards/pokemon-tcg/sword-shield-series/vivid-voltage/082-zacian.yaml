@@ -6,4 +6,6 @@ attributes:
   number: "82/185"
   rarity: Amazing Rare
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/82_hires.png

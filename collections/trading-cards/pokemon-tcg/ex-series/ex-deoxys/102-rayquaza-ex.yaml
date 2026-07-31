@@ -6,4 +6,6 @@ attributes:
   number: "102/107"
   rarity: Rare Holo ex
   illustrator: Shin-ichi Yoshikawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/102_hires.png

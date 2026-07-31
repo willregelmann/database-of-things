@@ -6,4 +6,6 @@ attributes:
   number: "205/91"
   rarity: Shiny Rare
   illustrator: Sanosuke Sakuma
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/205_hires.png

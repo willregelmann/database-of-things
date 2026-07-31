@@ -6,4 +6,6 @@ attributes:
   number: "95/196"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/163"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Mochizuki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/22_hires.png

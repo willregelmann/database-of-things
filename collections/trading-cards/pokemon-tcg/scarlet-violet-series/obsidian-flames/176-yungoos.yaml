@@ -6,4 +6,6 @@ attributes:
   number: "176/197"
   rarity: Common
   illustrator: saino misaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/176_hires.png

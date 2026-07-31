@@ -6,4 +6,6 @@ attributes:
   number: "085"
   rarity: Promo
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/85_hires.png

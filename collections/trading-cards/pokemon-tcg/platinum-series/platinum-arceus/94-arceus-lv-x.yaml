@@ -6,4 +6,6 @@ attributes:
   number: "94/99"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl4/94_hires.png

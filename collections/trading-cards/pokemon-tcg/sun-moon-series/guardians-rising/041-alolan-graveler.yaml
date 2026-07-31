@@ -6,4 +6,6 @@ attributes:
   number: "41/145"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm2/41_hires.png

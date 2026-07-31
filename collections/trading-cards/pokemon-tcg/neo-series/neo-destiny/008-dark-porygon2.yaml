@@ -6,4 +6,6 @@ attributes:
   number: "8/105"
   rarity: Rare Holo
   illustrator: Shin-ichi Yoshikawa, CR CG gangs
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/8_hires.png

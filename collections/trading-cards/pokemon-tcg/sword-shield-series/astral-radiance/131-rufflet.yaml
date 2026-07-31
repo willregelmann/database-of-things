@@ -6,4 +6,6 @@ attributes:
   number: "131/189"
   rarity: Common
   illustrator: Eri Yamaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/131_hires.png

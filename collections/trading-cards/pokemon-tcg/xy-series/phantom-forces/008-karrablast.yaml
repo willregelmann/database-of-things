@@ -6,4 +6,6 @@ attributes:
   number: "8/119"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy4/8_hires.png

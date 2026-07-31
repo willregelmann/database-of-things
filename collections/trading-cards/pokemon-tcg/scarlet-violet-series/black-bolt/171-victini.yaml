@@ -6,4 +6,6 @@ attributes:
   number: "171/86"
   rarity: Black White Rare
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/zsv10pt5/171_hires.png

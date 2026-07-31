@@ -6,4 +6,6 @@ attributes:
   number: "149/91"
   rarity: Shiny Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/149_hires.png

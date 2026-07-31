@@ -6,4 +6,6 @@ attributes:
   number: "TG30/TG30"
   rarity: Rare Secret
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12tg/TG30_hires.png

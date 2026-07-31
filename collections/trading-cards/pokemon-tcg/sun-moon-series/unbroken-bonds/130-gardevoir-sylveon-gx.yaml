@@ -6,4 +6,6 @@ attributes:
   number: "130/214"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm10/130_hires.png

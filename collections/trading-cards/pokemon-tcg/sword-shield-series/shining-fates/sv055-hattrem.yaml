@@ -6,4 +6,6 @@ attributes:
   number: "SV055/SV122"
   rarity: Rare Shiny
   illustrator: Lee HyunJung
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV055_hires.png

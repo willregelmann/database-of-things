@@ -6,4 +6,6 @@ attributes:
   number: "51/189"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh3/51_hires.png

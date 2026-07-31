@@ -6,4 +6,6 @@ attributes:
   number: "31/145"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm2/31_hires.png

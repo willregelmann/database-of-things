@@ -6,4 +6,6 @@ attributes:
   number: "128/167"
   rarity: Common
   illustrator: Scav
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/128_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "104/193"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv2/104_hires.png

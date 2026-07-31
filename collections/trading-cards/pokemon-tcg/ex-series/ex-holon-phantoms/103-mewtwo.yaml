@@ -6,4 +6,6 @@ attributes:
   number: "103/110"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex13/103_hires.png

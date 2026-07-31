@@ -6,4 +6,6 @@ attributes:
   number: "139/192"
   rarity: Rare
   illustrator: Hideki Ishikawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/139_hires.png

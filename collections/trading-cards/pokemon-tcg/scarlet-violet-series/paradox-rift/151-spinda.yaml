@@ -6,4 +6,6 @@ attributes:
   number: "151/182"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/151_hires.png

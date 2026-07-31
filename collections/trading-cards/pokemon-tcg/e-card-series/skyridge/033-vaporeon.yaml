@@ -6,4 +6,6 @@ attributes:
   number: "33/144"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/33_hires.png

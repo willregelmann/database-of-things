@@ -5,4 +5,6 @@ date: "2021"
 attributes:
   number: "SWSH141"
   rarity: Promo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH141_hires.png

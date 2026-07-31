@@ -6,4 +6,6 @@ attributes:
   number: "GG44/GG70"
   rarity: Rare Holo VSTAR
   illustrator: GOSSAN
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG44_hires.png

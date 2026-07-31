@@ -6,4 +6,6 @@ attributes:
   number: "24/130"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base4/24_hires.png

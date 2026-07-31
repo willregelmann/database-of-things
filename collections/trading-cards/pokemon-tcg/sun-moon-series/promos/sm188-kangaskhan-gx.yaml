@@ -6,4 +6,6 @@ attributes:
   number: "SM188"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM188_hires.png

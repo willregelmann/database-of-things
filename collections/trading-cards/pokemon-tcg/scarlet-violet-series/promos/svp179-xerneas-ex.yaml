@@ -6,4 +6,6 @@ attributes:
   number: "179"
   rarity: Promo
   illustrator: PLANETA Igarashi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/179_hires.png

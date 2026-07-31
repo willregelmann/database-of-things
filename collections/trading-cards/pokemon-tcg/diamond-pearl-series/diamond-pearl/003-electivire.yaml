@@ -6,4 +6,6 @@ attributes:
   number: "3/130"
   rarity: Rare Holo
   illustrator: Nakaoka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp1/3_hires.png

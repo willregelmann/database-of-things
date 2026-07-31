@@ -6,4 +6,6 @@ attributes:
   number: "106/113"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/106_hires.png

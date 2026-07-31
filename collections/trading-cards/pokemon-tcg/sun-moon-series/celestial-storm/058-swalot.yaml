@@ -6,4 +6,6 @@ attributes:
   number: "58/168"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm7/58_hires.png

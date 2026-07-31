@@ -6,4 +6,6 @@ attributes:
   number: "179/189"
   rarity: Rare Ultra
   illustrator: Toyste Beach
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/179_hires.png

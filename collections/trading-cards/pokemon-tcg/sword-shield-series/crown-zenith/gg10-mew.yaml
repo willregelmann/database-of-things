@@ -6,4 +6,6 @@ attributes:
   number: "GG10/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG10_hires.png

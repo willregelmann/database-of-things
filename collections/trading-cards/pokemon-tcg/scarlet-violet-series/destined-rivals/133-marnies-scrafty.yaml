@@ -6,4 +6,6 @@ attributes:
   number: "133/182"
   rarity: Uncommon
   illustrator: Kazumasa Yasukuni
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/133_hires.png

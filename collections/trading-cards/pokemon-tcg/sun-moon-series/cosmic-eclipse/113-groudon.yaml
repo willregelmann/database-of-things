@@ -6,4 +6,6 @@ attributes:
   number: "113/236"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/113_hires.png

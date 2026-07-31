@@ -6,4 +6,6 @@ attributes:
   number: "13/100"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex2/13_hires.png

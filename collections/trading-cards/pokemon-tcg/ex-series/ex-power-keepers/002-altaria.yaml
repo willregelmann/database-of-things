@@ -6,4 +6,6 @@ attributes:
   number: "2/108"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex16/2_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "23/97"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/23_hires.png

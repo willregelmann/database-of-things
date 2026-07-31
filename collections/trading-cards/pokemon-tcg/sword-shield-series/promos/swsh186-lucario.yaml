@@ -6,4 +6,6 @@ attributes:
   number: "SWSH186"
   rarity: Promo
   illustrator: NC Empire
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH186_hires.png

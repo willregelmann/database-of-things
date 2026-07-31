@@ -6,4 +6,6 @@ attributes:
   number: "63/109"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex1/63_hires.png

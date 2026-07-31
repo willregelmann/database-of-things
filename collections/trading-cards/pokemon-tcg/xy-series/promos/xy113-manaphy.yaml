@@ -6,4 +6,6 @@ attributes:
   number: "XY113"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY113_hires.png

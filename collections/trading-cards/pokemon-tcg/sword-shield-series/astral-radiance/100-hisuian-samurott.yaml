@@ -6,4 +6,6 @@ attributes:
   number: "100/189"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh10/100_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "50/144"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard3/50_hires.png

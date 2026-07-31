@@ -6,4 +6,6 @@ attributes:
   number: "206/198"
   rarity: Illustration Rare
   illustrator: You Iribi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv1/206_hires.png

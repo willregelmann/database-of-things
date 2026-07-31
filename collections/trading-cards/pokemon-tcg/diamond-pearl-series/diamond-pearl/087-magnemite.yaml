@@ -6,4 +6,6 @@ attributes:
   number: "87/130"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp1/87_hires.png

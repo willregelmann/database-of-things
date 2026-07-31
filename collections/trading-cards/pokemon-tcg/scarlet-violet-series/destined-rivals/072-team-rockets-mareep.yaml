@@ -6,4 +6,6 @@ attributes:
   number: "72/182"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/72_hires.png

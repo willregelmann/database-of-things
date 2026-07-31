@@ -6,4 +6,6 @@ attributes:
   number: "68/168"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm7/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "131/165"
   rarity: Uncommon
   illustrator: LINNE
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/131_hires.png

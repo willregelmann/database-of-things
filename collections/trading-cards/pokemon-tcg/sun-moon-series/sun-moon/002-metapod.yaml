@@ -6,4 +6,6 @@ attributes:
   number: "2/149"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm1/2_hires.png

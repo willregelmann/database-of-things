@@ -6,4 +6,6 @@ attributes:
   number: "197/192"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/197_hires.png

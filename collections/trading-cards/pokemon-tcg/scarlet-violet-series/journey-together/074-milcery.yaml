@@ -6,4 +6,6 @@ attributes:
   number: "74/159"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/74_hires.png

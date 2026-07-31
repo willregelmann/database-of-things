@@ -6,4 +6,6 @@ attributes:
   number: "XY133"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY133_hires.png

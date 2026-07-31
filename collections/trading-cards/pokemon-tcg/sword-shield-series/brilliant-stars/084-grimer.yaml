@@ -6,4 +6,6 @@ attributes:
   number: "84/172"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/84_hires.png

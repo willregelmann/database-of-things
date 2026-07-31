@@ -6,4 +6,6 @@ attributes:
   number: "241/236"
   rarity: Rare Secret
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm12/241_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY35"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY35_hires.png

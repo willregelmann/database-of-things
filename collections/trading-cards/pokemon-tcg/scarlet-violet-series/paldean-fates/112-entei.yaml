@@ -6,4 +6,6 @@ attributes:
   number: "112/91"
   rarity: Shiny Rare
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/112_hires.png

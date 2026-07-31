@@ -6,4 +6,6 @@ attributes:
   number: "16/102"
   rarity: Rare
   illustrator: Ryo Ueda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/16_hires.png

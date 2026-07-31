@@ -6,4 +6,6 @@ attributes:
   number: "186/264"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/186_hires.png

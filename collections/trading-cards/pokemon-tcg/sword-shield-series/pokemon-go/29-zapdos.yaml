@@ -6,4 +6,6 @@ attributes:
   number: "29/78"
   rarity: Rare Holo
   illustrator: Yuya Oka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pgo/29_hires.png

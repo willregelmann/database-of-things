@@ -6,4 +6,6 @@ attributes:
   number: "123/86"
   rarity: Illustration Rare
   illustrator: Shinya Mizuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/zsv10pt5/123_hires.png

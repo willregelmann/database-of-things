@@ -6,4 +6,6 @@ attributes:
   number: "169"
   rarity: Promo
   illustrator: Nisota Niso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/169_hires.png

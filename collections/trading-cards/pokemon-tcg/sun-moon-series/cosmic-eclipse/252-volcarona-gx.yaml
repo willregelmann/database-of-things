@@ -6,4 +6,6 @@ attributes:
   number: "252/236"
   rarity: Rare Rainbow
   illustrator: PLANETA Tsuji
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm12/252_hires.png

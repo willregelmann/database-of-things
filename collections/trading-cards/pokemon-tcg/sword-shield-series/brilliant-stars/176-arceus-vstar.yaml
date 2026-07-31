@@ -6,4 +6,6 @@ attributes:
   number: "176/172"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh9/176_hires.png

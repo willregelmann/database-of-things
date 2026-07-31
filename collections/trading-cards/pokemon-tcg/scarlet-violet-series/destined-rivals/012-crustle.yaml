@@ -6,4 +6,6 @@ attributes:
   number: "12/182"
   rarity: Rare
   illustrator: Po-Suzuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/12_hires.png

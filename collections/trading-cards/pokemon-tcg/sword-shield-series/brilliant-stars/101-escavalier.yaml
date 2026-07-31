@@ -6,4 +6,6 @@ attributes:
   number: "101/172"
   rarity: Rare
   illustrator: Nurikabe
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh9/101_hires.png

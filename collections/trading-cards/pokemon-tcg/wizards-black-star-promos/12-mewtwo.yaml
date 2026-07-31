@@ -6,4 +6,6 @@ attributes:
   number: "12/53"
   rarity: Promo
   illustrator: Christopher Rush
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/basep/12_hires.png

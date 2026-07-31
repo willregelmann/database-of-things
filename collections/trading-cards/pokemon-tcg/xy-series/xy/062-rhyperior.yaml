@@ -6,4 +6,6 @@ attributes:
   number: "62/146"
   rarity: Rare Holo
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy1/62_hires.png

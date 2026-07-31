@@ -6,4 +6,6 @@ attributes:
   number: "24/100"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp7/24_hires.png

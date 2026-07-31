@@ -6,4 +6,6 @@ attributes:
   number: "11/90"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss3/11_hires.png

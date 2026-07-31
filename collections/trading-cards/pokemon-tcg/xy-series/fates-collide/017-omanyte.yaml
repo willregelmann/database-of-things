@@ -6,4 +6,6 @@ attributes:
   number: "17/124"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy10/17_hires.png

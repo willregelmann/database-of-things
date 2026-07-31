@@ -6,4 +6,6 @@ attributes:
   number: "125/162"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy8/125_hires.png

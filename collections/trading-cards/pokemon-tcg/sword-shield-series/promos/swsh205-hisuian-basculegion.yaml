@@ -6,4 +6,6 @@ attributes:
   number: "SWSH205"
   rarity: Promo
   illustrator: Pani Kobayashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH205_hires.png

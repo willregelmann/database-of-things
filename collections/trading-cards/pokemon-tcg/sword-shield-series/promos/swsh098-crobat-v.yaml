@@ -6,4 +6,6 @@ attributes:
   number: "SWSH098"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH098_hires.png

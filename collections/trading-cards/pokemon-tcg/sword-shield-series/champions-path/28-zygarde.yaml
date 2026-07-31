@@ -6,4 +6,6 @@ attributes:
   number: "28/73"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh35/28_hires.png

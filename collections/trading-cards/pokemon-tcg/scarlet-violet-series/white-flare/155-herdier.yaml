@@ -6,4 +6,6 @@ attributes:
   number: "155/86"
   rarity: Illustration Rare
   illustrator: Makura Tami
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/rsv10pt5/155_hires.png

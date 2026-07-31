@@ -6,4 +6,6 @@ attributes:
   number: "95/132"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/gym1/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "70/84"
   rarity: Rare
   illustrator: Takumi Wada
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me5-70/large

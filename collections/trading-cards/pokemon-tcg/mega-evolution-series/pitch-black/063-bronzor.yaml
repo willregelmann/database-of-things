@@ -6,4 +6,6 @@ attributes:
   number: "63/84"
   rarity: Common
   illustrator: Saboteri
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me5-63/large

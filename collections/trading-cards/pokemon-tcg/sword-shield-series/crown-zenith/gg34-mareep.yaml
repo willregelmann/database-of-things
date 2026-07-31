@@ -6,4 +6,6 @@ attributes:
   number: "GG34/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12pt5gg/GG34_hires.png

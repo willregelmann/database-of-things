@@ -6,4 +6,6 @@ attributes:
   number: "84/182"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/84_hires.png

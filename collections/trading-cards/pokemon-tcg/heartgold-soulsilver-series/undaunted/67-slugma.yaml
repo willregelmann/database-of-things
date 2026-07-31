@@ -6,4 +6,6 @@ attributes:
   number: "67/90"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss3/67_hires.png

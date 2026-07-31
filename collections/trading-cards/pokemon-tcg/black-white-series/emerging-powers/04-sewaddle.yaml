@@ -6,4 +6,6 @@ attributes:
   number: "4/98"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw2/4_hires.png

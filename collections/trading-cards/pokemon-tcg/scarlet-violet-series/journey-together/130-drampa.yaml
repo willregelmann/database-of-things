@@ -6,4 +6,6 @@ attributes:
   number: "130/159"
   rarity: Common
   illustrator: Tetsu Kayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/130_hires.png

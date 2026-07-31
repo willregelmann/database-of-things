@@ -6,6 +6,8 @@ attributes:
   number: "57/110"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/base6/57_hires.png
 variants:
   - id: ecedcda3-4af9-4ed8-b7c9-d05e79ebb510

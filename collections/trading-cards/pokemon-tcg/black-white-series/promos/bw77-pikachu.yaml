@@ -6,4 +6,6 @@ attributes:
   number: "BW77"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bwp/BW77_hires.png

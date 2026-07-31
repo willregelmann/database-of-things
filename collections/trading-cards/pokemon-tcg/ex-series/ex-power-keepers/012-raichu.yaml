@@ -6,4 +6,6 @@ attributes:
   number: "12/108"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex16/12_hires.png

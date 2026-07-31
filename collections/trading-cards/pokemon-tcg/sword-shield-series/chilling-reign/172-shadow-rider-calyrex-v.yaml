@@ -6,4 +6,6 @@ attributes:
   number: "172/198"
   rarity: Rare Ultra
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/172_hires.png

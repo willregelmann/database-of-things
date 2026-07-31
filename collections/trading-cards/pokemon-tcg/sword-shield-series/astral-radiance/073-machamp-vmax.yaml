@@ -6,4 +6,6 @@ attributes:
   number: "73/189"
   rarity: Rare Holo VMAX
   illustrator: N-DESIGN Inc
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/73_hires.png

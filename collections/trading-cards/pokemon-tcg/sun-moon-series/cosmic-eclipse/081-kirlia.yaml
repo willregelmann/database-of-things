@@ -6,4 +6,6 @@ attributes:
   number: "81/236"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/81_hires.png

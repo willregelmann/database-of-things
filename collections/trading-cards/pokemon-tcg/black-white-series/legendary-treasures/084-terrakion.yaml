@@ -6,4 +6,6 @@ attributes:
   number: "84/113"
   rarity: Rare Holo
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw11/84_hires.png

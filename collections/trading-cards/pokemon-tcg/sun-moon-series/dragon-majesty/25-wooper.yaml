@@ -6,4 +6,6 @@ attributes:
   number: "25/70"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/25_hires.png

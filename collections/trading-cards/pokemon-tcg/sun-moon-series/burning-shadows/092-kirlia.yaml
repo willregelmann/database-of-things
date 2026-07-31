@@ -6,4 +6,6 @@ attributes:
   number: "92/147"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm3/92_hires.png

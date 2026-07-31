@@ -6,4 +6,6 @@ attributes:
   number: "100/172"
   rarity: Rare
   illustrator: Yuya Oka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh9/100_hires.png

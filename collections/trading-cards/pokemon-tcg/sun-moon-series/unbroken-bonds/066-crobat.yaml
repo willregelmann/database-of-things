@@ -6,4 +6,6 @@ attributes:
   number: "66/214"
   rarity: Rare Holo
   illustrator: Anesaki Dynamic
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm10/66_hires.png

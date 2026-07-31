@@ -6,4 +6,6 @@ attributes:
   number: "GG04/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5gg/GG04_hires.png

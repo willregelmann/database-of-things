@@ -6,4 +6,6 @@ attributes:
   number: "38/162"
   rarity: Rare Holo
   illustrator: Satoshi Shirai
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/38_hires.png

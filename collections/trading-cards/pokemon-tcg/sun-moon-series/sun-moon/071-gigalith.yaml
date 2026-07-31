@@ -6,4 +6,6 @@ attributes:
   number: "71/149"
   rarity: Rare Holo
   illustrator: Eske Yoshinob
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm1/71_hires.png

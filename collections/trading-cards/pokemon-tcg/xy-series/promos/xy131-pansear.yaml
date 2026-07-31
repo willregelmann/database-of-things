@@ -6,4 +6,6 @@ attributes:
   number: "XY131"
   rarity: Promo
   illustrator: sui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY131_hires.png

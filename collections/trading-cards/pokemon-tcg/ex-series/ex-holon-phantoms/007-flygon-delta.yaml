@@ -6,4 +6,7 @@ attributes:
   number: "7/110"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
+    - Metal
 image: https://images.pokemontcg.io/ex13/7_hires.png

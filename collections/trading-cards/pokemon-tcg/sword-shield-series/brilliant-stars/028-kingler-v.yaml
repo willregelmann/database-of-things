@@ -6,4 +6,6 @@ attributes:
   number: "28/172"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh9/28_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "101/132"
   rarity: Uncommon
   illustrator: Uninori
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/me1/101_hires.png

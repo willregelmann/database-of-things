@@ -6,4 +6,6 @@ attributes:
   number: "SWSH179"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH179_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/115"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex10/109_hires.png

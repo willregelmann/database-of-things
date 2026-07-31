@@ -6,4 +6,6 @@ attributes:
   number: "62/172"
   rarity: Rare Holo
   illustrator: otumami
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/62_hires.png

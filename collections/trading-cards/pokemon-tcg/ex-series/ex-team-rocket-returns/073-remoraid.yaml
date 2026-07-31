@@ -6,4 +6,6 @@ attributes:
   number: "73/109"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex7/73_hires.png

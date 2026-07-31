@@ -6,4 +6,6 @@ attributes:
   number: "76/98"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw2/76_hires.png

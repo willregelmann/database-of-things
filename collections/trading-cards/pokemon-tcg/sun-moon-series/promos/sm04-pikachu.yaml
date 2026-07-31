@@ -6,4 +6,6 @@ attributes:
   number: "SM04"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM04_hires.png

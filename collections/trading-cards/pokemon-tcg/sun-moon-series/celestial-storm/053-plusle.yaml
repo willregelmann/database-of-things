@@ -6,4 +6,6 @@ attributes:
   number: "53/168"
   rarity: Uncommon
   illustrator: Kanako Eo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm7/53_hires.png

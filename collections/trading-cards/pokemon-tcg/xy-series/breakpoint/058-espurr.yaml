@@ -6,4 +6,6 @@ attributes:
   number: "58/122"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy9/58_hires.png

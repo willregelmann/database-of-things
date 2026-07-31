@@ -6,4 +6,6 @@ attributes:
   number: "76/189"
   rarity: Common
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/76_hires.png

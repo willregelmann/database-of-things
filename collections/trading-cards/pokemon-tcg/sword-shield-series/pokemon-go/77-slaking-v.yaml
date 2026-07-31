@@ -6,4 +6,6 @@ attributes:
   number: "77/78"
   rarity: Rare Ultra
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/77_hires.png

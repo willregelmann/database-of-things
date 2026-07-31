@@ -6,4 +6,6 @@ attributes:
   number: "199/195"
   rarity: Rare Rainbow
   illustrator: PLANETA Mochizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/199_hires.png

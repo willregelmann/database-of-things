@@ -6,4 +6,6 @@ attributes:
   number: "SWSH062"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH062_hires.png

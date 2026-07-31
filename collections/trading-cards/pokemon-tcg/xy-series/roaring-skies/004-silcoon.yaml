@@ -6,4 +6,6 @@ attributes:
   number: "4/108"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy6/4_hires.png

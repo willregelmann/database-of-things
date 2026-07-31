@@ -6,4 +6,6 @@ attributes:
   number: "38/214"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm10/38_hires.png

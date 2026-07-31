@@ -6,4 +6,6 @@ attributes:
   number: "144/86"
   rarity: Illustration Rare
   illustrator: hncl
+  type:
+    - Metal
 image: https://images.pokemontcg.io/zsv10pt5/144_hires.png

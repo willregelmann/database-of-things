@@ -6,4 +6,6 @@ attributes:
   number: "92/185"
   rarity: Rare
   illustrator: NC Empire
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/92_hires.png

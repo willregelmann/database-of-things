@@ -6,4 +6,6 @@ attributes:
   number: "188/167"
   rarity: Illustration Rare
   illustrator: Narumi Sato
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/188_hires.png

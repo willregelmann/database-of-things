@@ -6,4 +6,6 @@ attributes:
   number: "184/159"
   rarity: Special Illustration Rare
   illustrator: Susumu Maeya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/184_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "61/122"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy9/61_hires.png

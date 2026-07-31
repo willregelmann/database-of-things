@@ -6,4 +6,6 @@ attributes:
   number: "24/86"
   rarity: Uncommon
   illustrator: Tika Matsuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/24_hires.png

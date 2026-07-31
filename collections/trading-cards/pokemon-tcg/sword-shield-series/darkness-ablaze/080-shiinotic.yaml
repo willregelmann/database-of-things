@@ -6,4 +6,6 @@ attributes:
   number: "80/189"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/80_hires.png

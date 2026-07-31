@@ -6,4 +6,6 @@ attributes:
   number: "205/214"
   rarity: Rare Ultra
   illustrator: Atsuko Nishida
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm10/205_hires.png

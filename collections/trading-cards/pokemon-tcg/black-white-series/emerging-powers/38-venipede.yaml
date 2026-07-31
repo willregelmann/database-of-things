@@ -6,4 +6,6 @@ attributes:
   number: "38/98"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw2/38_hires.png

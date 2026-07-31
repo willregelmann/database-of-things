@@ -6,4 +6,6 @@ attributes:
   number: "181/189"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/181_hires.png

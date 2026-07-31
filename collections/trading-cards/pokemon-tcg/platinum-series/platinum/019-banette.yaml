@@ -6,4 +6,6 @@ attributes:
   number: "19/127"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/19_hires.png

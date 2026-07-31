@@ -6,4 +6,6 @@ attributes:
   number: "157/163"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh5/157_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "133/185"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh4/133_hires.png

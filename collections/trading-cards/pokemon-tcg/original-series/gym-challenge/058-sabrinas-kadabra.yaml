@@ -6,4 +6,6 @@ attributes:
   number: "58/132"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/gym2/58_hires.png

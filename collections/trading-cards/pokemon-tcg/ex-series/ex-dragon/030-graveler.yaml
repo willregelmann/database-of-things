@@ -6,4 +6,6 @@ attributes:
   number: "30/97"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex3/30_hires.png

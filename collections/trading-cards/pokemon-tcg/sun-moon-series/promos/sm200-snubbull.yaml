@@ -6,4 +6,6 @@ attributes:
   number: "SM200"
   rarity: Promo
   illustrator: Framestore
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/smp/SM200_hires.png

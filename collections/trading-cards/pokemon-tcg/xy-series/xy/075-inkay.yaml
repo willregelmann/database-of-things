@@ -6,4 +6,6 @@ attributes:
   number: "75/146"
   rarity: Common
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy1/75_hires.png

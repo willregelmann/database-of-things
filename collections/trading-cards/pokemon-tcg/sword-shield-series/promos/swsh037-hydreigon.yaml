@@ -6,4 +6,6 @@ attributes:
   number: "SWSH037"
   rarity: Promo
   illustrator: Taira Akitsu
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH037_hires.png

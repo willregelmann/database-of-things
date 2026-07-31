@@ -6,4 +6,6 @@ attributes:
   number: "152/192"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/152_hires.png

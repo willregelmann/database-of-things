@@ -6,4 +6,6 @@ attributes:
   number: "40/214"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm10/40_hires.png

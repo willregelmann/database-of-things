@@ -6,4 +6,6 @@ attributes:
   number: "108/189"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh3/108_hires.png

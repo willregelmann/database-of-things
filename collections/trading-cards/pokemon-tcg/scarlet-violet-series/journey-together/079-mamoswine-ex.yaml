@@ -6,4 +6,6 @@ attributes:
   number: "79/159"
   rarity: Double Rare
   illustrator: Nisota Niso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/79_hires.png

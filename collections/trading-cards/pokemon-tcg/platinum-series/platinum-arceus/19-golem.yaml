@@ -6,4 +6,6 @@ attributes:
   number: "19/99"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl4/19_hires.png

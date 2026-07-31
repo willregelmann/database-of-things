@@ -6,4 +6,6 @@ attributes:
   number: "207/203"
   rarity: Rare Rainbow
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/207_hires.png

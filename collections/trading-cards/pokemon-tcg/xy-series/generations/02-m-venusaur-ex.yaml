@@ -6,4 +6,6 @@ attributes:
   number: "2/83"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/g1/2_hires.png

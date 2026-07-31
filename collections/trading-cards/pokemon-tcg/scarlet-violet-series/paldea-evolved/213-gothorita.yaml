@@ -6,4 +6,6 @@ attributes:
   number: "213/193"
   rarity: Illustration Rare
   illustrator: SIE NANAHARA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv2/213_hires.png

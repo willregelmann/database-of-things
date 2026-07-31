@@ -6,4 +6,6 @@ attributes:
   number: "155/193"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/155_hires.png

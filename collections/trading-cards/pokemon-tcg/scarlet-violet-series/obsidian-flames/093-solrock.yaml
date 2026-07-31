@@ -6,4 +6,6 @@ attributes:
   number: "93/197"
   rarity: Uncommon
   illustrator: Tetsu Kayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3/93_hires.png

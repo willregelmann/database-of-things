@@ -6,4 +6,6 @@ attributes:
   number: "87/185"
   rarity: Rare
   illustrator: Hasegawa Saki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/87_hires.png

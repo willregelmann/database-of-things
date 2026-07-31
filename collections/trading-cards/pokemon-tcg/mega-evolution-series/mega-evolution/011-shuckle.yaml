@@ -6,4 +6,6 @@ attributes:
   number: "11/132"
   rarity: Uncommon
   illustrator: Shinya Komatsu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/11_hires.png

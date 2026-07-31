@@ -6,4 +6,6 @@ attributes:
   number: "49/73"
   rarity: Rare Holo
   illustrator: Taira Akitsu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh35/49_hires.png

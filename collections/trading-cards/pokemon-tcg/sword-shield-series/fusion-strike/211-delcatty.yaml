@@ -6,4 +6,6 @@ attributes:
   number: "211/264"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/211_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "74/100"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex2/74_hires.png

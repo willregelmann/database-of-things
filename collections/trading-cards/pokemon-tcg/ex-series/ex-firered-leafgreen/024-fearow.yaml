@@ -6,4 +6,6 @@ attributes:
   number: "24/112"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex6/24_hires.png

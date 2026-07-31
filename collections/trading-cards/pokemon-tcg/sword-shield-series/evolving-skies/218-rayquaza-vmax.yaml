@@ -6,4 +6,6 @@ attributes:
   number: "218/203"
   rarity: Rare Rainbow
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/218_hires.png

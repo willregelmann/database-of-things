@@ -6,4 +6,6 @@ attributes:
   number: "78/123"
   rarity: Common
   illustrator: match
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss1/78_hires.png

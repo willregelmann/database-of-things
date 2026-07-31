@@ -6,4 +6,6 @@ attributes:
   number: "133/198"
   rarity: Common
   illustrator: Hideki Ishikawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/133_hires.png

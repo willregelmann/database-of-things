@@ -6,4 +6,6 @@ attributes:
   number: "106/111"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl2/106_hires.png

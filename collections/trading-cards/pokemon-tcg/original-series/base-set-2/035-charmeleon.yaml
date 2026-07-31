@@ -6,4 +6,6 @@ attributes:
   number: "35/130"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base4/35_hires.png

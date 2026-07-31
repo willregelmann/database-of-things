@@ -6,4 +6,6 @@ attributes:
   number: "14/95"
   rarity: Rare Holo
   illustrator: Takashi Yamaguchi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/col1/14_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "25/145"
   rarity: Rare Holo
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm2/25_hires.png

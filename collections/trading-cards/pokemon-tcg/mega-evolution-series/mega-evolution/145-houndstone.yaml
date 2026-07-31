@@ -6,4 +6,6 @@ attributes:
   number: "145/132"
   rarity: Illustration Rare
   illustrator: Arai Kiriko
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me1/145_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "69/114"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy11/69_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "30/198"
   rarity: Common
   illustrator: NC Empire
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/30_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "81/217"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-81/large

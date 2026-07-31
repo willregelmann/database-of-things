@@ -6,4 +6,6 @@ attributes:
   number: "17/130"
   rarity: Rare Holo
   illustrator: Masahiko Ishii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp1/17_hires.png

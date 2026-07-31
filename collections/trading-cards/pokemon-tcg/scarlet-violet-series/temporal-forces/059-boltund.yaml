@@ -6,4 +6,6 @@ attributes:
   number: "59/162"
   rarity: Uncommon
   illustrator: Oswaldo KATO
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/59_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "29/109"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex1/29_hires.png

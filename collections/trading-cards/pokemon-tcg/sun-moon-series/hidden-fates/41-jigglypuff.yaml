@@ -6,4 +6,6 @@ attributes:
   number: "41/68"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm115/41_hires.png

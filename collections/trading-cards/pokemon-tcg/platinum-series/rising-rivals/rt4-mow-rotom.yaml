@@ -6,4 +6,6 @@ attributes:
   number: "RT4"
   rarity: Rare Holo
   illustrator: Yusuke Ohmura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/RT4_hires.png

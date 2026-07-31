@@ -6,4 +6,6 @@ attributes:
   number: "89/84"
   rarity: Illustration Rare
   illustrator: HICO KIM
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me5-89/large

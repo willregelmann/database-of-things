@@ -6,4 +6,6 @@ attributes:
   number: "51/94"
   rarity: Common
   illustrator: Uta
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me2/51_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/109"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex7/109_hires.png

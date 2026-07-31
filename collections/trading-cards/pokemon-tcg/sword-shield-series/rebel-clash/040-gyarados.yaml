@@ -6,4 +6,6 @@ attributes:
   number: "40/192"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh2/40_hires.png

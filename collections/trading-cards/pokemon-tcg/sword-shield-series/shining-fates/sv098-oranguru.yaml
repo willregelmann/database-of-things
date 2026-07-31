@@ -6,4 +6,6 @@ attributes:
   number: "SV098/SV122"
   rarity: Rare Shiny
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV098_hires.png

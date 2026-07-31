@@ -6,4 +6,6 @@ attributes:
   number: "106/107"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/106_hires.png

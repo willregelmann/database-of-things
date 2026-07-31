@@ -6,4 +6,6 @@ attributes:
   number: "214/203"
   rarity: Rare Rainbow
   illustrator: AKIRA EGAWA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh7/214_hires.png

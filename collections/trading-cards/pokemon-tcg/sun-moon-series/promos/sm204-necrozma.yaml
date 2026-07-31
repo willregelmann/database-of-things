@@ -6,4 +6,6 @@ attributes:
   number: "SM204"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM204_hires.png

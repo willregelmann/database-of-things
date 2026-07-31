@@ -6,4 +6,6 @@ attributes:
   number: "55/101"
   rarity: Common
   illustrator: Shin-ichi Yoshikawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex5/55_hires.png

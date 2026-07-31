@@ -6,4 +6,6 @@ attributes:
   number: "40/95"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/40_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM88"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM88_hires.png

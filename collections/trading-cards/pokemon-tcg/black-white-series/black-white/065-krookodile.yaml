@@ -6,4 +6,6 @@ attributes:
   number: "65/114"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw1/65_hires.png

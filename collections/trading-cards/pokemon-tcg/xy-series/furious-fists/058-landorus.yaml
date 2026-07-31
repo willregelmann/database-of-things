@@ -6,4 +6,6 @@ attributes:
   number: "58/111"
   rarity: Rare Holo
   illustrator: PLANETA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy3/58_hires.png

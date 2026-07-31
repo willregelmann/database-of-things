@@ -6,4 +6,6 @@ attributes:
   number: "SM237"
   rarity: Promo
   illustrator: chibi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM237_hires.png

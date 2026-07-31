@@ -6,4 +6,6 @@ attributes:
   number: "30/214"
   rarity: Common
   illustrator: Yusuke Ohmura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm10/30_hires.png

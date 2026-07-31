@@ -6,4 +6,6 @@ attributes:
   number: "9/132"
   rarity: Rare Holo
   illustrator: Kazuyuki Kano
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp3/9_hires.png

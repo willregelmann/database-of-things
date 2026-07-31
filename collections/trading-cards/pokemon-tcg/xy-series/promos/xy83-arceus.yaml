@@ -6,4 +6,6 @@ attributes:
   number: "XY83"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY83_hires.png

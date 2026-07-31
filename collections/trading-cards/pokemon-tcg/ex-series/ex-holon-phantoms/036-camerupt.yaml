@@ -6,4 +6,6 @@ attributes:
   number: "36/110"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex13/36_hires.png

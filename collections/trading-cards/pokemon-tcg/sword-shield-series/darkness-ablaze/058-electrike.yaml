@@ -6,4 +6,6 @@ attributes:
   number: "58/189"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh3/58_hires.png

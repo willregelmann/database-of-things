@@ -6,4 +6,6 @@ attributes:
   number: "122/124"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy10/122_hires.png

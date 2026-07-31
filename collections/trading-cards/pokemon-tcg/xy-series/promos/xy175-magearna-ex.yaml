@@ -6,4 +6,6 @@ attributes:
   number: "XY175"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY175_hires.png

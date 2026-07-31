@@ -6,4 +6,6 @@ attributes:
   number: "70/101"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex15/70_hires.png

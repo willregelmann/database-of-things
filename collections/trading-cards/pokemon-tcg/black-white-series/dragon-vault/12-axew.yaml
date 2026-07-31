@@ -6,4 +6,6 @@ attributes:
   number: "12/20"
   rarity: Rare Holo
   illustrator: Mizue
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/12_hires.png

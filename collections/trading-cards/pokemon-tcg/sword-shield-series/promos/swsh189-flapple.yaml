@@ -6,4 +6,6 @@ attributes:
   number: "SWSH189"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swshp/SWSH189_hires.png

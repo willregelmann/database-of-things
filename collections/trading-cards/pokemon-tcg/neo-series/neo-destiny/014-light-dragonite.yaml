@@ -6,4 +6,6 @@ attributes:
   number: "14/105"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/14_hires.png

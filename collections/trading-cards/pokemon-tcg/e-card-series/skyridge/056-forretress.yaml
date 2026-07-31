@@ -6,4 +6,6 @@ attributes:
   number: "56/144"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/56_hires.png

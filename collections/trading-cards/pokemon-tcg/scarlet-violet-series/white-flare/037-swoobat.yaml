@@ -6,4 +6,6 @@ attributes:
   number: "37/86"
   rarity: Uncommon
   illustrator: Wintr Wandr
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/37_hires.png

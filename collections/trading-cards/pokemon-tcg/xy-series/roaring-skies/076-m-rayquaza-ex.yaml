@@ -6,4 +6,6 @@ attributes:
   number: "76/108"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy6/76_hires.png

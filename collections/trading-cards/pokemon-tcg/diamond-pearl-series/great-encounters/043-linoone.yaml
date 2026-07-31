@@ -6,4 +6,6 @@ attributes:
   number: "43/106"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/43_hires.png

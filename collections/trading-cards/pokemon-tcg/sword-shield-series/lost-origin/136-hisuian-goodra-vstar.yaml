@@ -6,4 +6,6 @@ attributes:
   number: "136/196"
   rarity: Rare Holo VSTAR
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/136_hires.png

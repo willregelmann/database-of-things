@@ -6,4 +6,6 @@ attributes:
   number: "25/105"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo4/25_hires.png

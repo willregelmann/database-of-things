@@ -6,4 +6,6 @@ attributes:
   number: "40/100"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex14/40_hires.png

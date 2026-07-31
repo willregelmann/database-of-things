@@ -6,4 +6,6 @@ attributes:
   number: "12/131"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm6/12_hires.png

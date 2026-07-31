@@ -6,4 +6,6 @@ attributes:
   number: "71/217"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-71/large

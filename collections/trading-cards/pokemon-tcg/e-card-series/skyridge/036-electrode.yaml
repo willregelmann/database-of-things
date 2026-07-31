@@ -6,4 +6,6 @@ attributes:
   number: "36/144"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard3/36_hires.png

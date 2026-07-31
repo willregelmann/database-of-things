@@ -6,4 +6,6 @@ attributes:
   number: "170/168"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm7/170_hires.png

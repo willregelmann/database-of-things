@@ -6,4 +6,6 @@ attributes:
   number: "13/95"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/13_hires.png

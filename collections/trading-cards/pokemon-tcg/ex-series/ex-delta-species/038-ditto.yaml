@@ -6,4 +6,6 @@ attributes:
   number: "38/113"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex11/38_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "147/144"
   rarity: Rare Secret
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/147_hires.png

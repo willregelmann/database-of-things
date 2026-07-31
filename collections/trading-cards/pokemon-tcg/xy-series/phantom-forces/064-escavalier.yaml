@@ -6,4 +6,6 @@ attributes:
   number: "64/119"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy4/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "28/264"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/28_hires.png

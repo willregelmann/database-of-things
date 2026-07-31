@@ -6,4 +6,6 @@ attributes:
   number: "SV37/SV94"
   rarity: Rare Shiny
   illustrator: kirisAki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sma/SV37_hires.png

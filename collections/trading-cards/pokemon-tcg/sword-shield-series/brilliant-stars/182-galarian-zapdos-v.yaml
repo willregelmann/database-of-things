@@ -6,4 +6,6 @@ attributes:
   number: "182/172"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/182_hires.png

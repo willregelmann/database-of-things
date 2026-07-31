@@ -6,4 +6,6 @@ attributes:
   number: "97/165"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/97_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "92/97"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex3/92_hires.png

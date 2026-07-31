@@ -6,4 +6,6 @@ attributes:
   number: "88/214"
   rarity: Uncommon
   illustrator: Ayaka Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/88_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "81/119"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy4/81_hires.png

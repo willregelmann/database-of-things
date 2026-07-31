@@ -6,4 +6,6 @@ attributes:
   number: "273/193"
   rarity: Hyper Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/273_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "156/86"
   rarity: Illustration Rare
   illustrator: Eri Kamei
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/rsv10pt5/156_hires.png

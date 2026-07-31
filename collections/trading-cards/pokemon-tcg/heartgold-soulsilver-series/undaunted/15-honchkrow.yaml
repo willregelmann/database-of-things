@@ -6,4 +6,6 @@ attributes:
   number: "15/90"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/hgss3/15_hires.png

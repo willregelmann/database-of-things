@@ -6,4 +6,6 @@ attributes:
   number: "73/192"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/73_hires.png

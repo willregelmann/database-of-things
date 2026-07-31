@@ -6,4 +6,6 @@ attributes:
   number: "29/147"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/pl3/29_hires.png

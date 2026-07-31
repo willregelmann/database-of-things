@@ -6,4 +6,6 @@ attributes:
   number: "11/84"
   rarity: Common
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me5-11/large

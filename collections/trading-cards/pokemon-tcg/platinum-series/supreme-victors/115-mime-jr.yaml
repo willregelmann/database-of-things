@@ -6,4 +6,6 @@ attributes:
   number: "115/147"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl3/115_hires.png

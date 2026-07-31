@@ -6,4 +6,6 @@ attributes:
   number: "45/124"
   rarity: Common
   illustrator: You Iribi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/45_hires.png

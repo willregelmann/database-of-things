@@ -6,4 +6,6 @@ attributes:
   number: "GG18/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Shinya Komatsu
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5gg/GG18_hires.png

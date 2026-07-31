@@ -6,4 +6,6 @@ attributes:
   number: "134/159"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/134_hires.png

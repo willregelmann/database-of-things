@@ -6,4 +6,6 @@ attributes:
   number: "32/182"
   rarity: Common
   illustrator: Susumu Maeya
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/32_hires.png

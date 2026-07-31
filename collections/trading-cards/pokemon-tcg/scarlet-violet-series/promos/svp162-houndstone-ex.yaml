@@ -5,4 +5,6 @@ date: "2024"
 attributes:
   number: "162"
   rarity: Promo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/162_hires.png

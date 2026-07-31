@@ -6,4 +6,6 @@ attributes:
   number: "175/165"
   rarity: Illustration Rare
   illustrator: Whisker
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/175_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "82/90"
   rarity: Rare Holo Prime
   illustrator: Hideaki Hakozaki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/hgss3/82_hires.png

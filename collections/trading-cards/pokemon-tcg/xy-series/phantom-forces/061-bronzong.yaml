@@ -6,4 +6,6 @@ attributes:
   number: "61/119"
   rarity: Rare
   illustrator: match
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy4/61_hires.png

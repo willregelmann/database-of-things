@@ -6,4 +6,6 @@ attributes:
   number: "200/198"
   rarity: Illustration Rare
   illustrator: Oswaldo KATO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/200_hires.png

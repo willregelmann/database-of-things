@@ -6,4 +6,6 @@ attributes:
   number: "125/203"
   rarity: Common
   illustrator: Atsushi Furusawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/125_hires.png

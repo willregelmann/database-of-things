@@ -6,4 +6,6 @@ attributes:
   number: "91/146"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy1/91_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "17/203"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/17_hires.png

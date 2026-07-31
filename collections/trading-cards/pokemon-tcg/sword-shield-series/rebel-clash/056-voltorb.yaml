@@ -6,4 +6,6 @@ attributes:
   number: "56/192"
   rarity: Common
   illustrator: Hasegawa Saki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/56_hires.png

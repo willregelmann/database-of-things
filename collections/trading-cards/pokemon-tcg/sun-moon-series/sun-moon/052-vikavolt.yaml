@@ -6,4 +6,6 @@ attributes:
   number: "52/149"
   rarity: Rare Holo
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm1/52_hires.png

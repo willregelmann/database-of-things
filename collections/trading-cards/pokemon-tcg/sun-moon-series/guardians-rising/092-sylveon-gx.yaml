@@ -6,4 +6,6 @@ attributes:
   number: "92/145"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm2/92_hires.png

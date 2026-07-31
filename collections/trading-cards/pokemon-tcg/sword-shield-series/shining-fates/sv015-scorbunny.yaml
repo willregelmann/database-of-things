@@ -6,4 +6,6 @@ attributes:
   number: "SV015/SV122"
   rarity: Rare Shiny
   illustrator: MAHOU
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45sv/SV015_hires.png

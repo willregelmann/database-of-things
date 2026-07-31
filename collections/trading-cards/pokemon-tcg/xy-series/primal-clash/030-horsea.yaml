@@ -6,4 +6,6 @@ attributes:
   number: "30/160"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/30_hires.png

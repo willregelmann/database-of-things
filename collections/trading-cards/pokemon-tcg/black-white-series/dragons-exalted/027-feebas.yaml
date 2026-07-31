@@ -6,4 +6,6 @@ attributes:
   number: "27/124"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw6/27_hires.png

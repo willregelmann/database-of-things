@@ -6,4 +6,6 @@ attributes:
   number: "66/130"
   rarity: Uncommon
   illustrator: Nakaoka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/66_hires.png

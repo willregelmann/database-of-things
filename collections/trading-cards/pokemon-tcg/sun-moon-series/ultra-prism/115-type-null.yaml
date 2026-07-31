@@ -6,4 +6,6 @@ attributes:
   number: "115/156"
   rarity: Rare
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm5/115_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "147/197"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/147_hires.png

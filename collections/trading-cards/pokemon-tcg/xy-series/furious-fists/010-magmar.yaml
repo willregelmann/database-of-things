@@ -6,4 +6,6 @@ attributes:
   number: "10/111"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy3/10_hires.png

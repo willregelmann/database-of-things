@@ -6,4 +6,6 @@ attributes:
   number: "2/107"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex8/2_hires.png

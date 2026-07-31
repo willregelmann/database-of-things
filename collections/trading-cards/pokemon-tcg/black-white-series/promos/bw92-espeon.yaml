@@ -6,4 +6,6 @@ attributes:
   number: "BW92"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bwp/BW92_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "26/64"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6pt5/26_hires.png

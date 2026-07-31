@@ -6,4 +6,6 @@ attributes:
   number: "87/114"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy11/87_hires.png

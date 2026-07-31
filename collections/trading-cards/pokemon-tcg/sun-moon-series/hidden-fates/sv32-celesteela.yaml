@@ -6,4 +6,6 @@ attributes:
   number: "SV32/SV94"
   rarity: Rare Shiny
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV32_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "11/198"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/11_hires.png

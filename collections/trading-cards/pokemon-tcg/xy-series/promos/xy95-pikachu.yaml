@@ -6,4 +6,6 @@ attributes:
   number: "XY95"
   rarity: Promo
   illustrator: Kanako Eo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY95_hires.png

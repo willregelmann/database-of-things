@@ -6,4 +6,6 @@ attributes:
   number: "52/132"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me1/52_hires.png

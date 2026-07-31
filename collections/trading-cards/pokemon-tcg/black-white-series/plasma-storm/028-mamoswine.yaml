@@ -6,4 +6,6 @@ attributes:
   number: "28/135"
   rarity: Rare
   illustrator: match
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw8/28_hires.png

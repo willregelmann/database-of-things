@@ -6,4 +6,6 @@ attributes:
   number: "6/106"
   rarity: Rare Holo
   illustrator: Kent Kanetsuna
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/6_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "8/160"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy5/8_hires.png

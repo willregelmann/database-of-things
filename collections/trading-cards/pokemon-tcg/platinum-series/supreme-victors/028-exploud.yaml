@@ -6,4 +6,6 @@ attributes:
   number: "28/147"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/28_hires.png

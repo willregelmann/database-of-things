@@ -6,4 +6,6 @@ attributes:
   number: "52/131"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8pt5/52_hires.png

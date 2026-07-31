@@ -6,4 +6,6 @@ attributes:
   number: "49/70"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/49_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "107/189"
   rarity: Rare Holo
   illustrator: GOSSAN
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/107_hires.png

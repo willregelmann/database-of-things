@@ -6,4 +6,6 @@ attributes:
   number: "241/193"
   rarity: Ultra Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/241_hires.png

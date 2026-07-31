@@ -6,4 +6,6 @@ attributes:
   number: "7/64"
   rarity: Common
   illustrator: REND
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6pt5/7_hires.png

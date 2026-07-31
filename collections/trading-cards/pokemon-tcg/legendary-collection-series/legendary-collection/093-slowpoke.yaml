@@ -6,6 +6,8 @@ attributes:
   number: "93/110"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base6/93_hires.png
 variants:
   - id: aa9319df-73eb-419a-b69b-cec0198b22cc

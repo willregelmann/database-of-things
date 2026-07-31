@@ -6,4 +6,6 @@ attributes:
   number: "15/83"
   rarity: Rare
   illustrator: DemizuPosuka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/g1/15_hires.png

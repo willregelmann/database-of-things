@@ -6,4 +6,6 @@ attributes:
   number: "183/196"
   rarity: Rare Ultra
   illustrator: PLANETA Yamashita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh11/183_hires.png

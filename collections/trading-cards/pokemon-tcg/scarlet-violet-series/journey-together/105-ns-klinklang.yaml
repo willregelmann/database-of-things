@@ -6,4 +6,6 @@ attributes:
   number: "105/159"
   rarity: Uncommon
   illustrator: matazo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv9/105_hires.png

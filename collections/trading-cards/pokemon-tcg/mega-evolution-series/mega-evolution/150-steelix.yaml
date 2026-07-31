@@ -6,4 +6,6 @@ attributes:
   number: "150/132"
   rarity: Illustration Rare
   illustrator: Tonji Matsuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/me1/150_hires.png

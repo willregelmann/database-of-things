@@ -6,4 +6,6 @@ attributes:
   number: "102/182"
   rarity: Common
   illustrator: Tomomi Ozaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/102_hires.png

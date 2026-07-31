@@ -6,4 +6,6 @@ attributes:
   number: "218/214"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm8/218_hires.png

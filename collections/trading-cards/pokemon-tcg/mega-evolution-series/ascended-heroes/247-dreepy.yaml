@@ -6,4 +6,6 @@ attributes:
   number: "247/217"
   rarity: Illustration Rare
   illustrator: Jerky
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-247/large

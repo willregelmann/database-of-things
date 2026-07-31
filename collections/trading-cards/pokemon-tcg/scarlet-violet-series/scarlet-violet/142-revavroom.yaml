@@ -6,4 +6,6 @@ attributes:
   number: "142/198"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv1/142_hires.png

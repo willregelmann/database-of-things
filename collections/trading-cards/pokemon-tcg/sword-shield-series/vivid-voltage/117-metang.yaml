@@ -6,4 +6,6 @@ attributes:
   number: "117/185"
   rarity: Uncommon
   illustrator: Kazuma Koda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/117_hires.png

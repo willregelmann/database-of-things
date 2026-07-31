@@ -6,4 +6,6 @@ attributes:
   number: "62/165"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/62_hires.png

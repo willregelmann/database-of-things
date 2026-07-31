@@ -6,4 +6,6 @@ attributes:
   number: "57/145"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm2/57_hires.png

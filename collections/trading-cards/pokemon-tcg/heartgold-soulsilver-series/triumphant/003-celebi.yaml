@@ -6,4 +6,6 @@ attributes:
   number: "3/102"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/3_hires.png

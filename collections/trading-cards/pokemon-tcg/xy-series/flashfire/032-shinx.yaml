@@ -6,4 +6,6 @@ attributes:
   number: "32/106"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy2/32_hires.png

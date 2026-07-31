@@ -6,4 +6,6 @@ attributes:
   number: "4/197"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3/4_hires.png

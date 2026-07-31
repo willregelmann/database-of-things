@@ -6,4 +6,6 @@ attributes:
   number: "85/90"
   rarity: Rare Holo Prime
   illustrator: Noriko Hotta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss3/85_hires.png

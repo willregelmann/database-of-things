@@ -6,4 +6,6 @@ attributes:
   number: "35/165"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3pt5/35_hires.png

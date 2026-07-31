@@ -6,4 +6,6 @@ attributes:
   number: "31/195"
   rarity: Uncommon
   illustrator: GIDORA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12/31_hires.png

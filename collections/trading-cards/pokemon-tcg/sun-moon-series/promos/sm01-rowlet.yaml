@@ -6,4 +6,6 @@ attributes:
   number: "SM01"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM01_hires.png

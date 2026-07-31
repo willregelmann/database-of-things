@@ -6,4 +6,6 @@ attributes:
   number: "84/98"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw2/84_hires.png

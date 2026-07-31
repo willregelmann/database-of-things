@@ -6,4 +6,6 @@ attributes:
   number: "129/193"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv2/129_hires.png

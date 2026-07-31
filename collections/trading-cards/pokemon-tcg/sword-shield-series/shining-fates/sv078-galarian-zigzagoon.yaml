@@ -6,4 +6,6 @@ attributes:
   number: "SV078/SV122"
   rarity: Rare Shiny
   illustrator: Misa Tsutsui
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45sv/SV078_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/198"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv1/31_hires.png

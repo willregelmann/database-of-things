@@ -6,4 +6,6 @@ attributes:
   number: "180/264"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/180_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "23/132"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/gym1/23_hires.png

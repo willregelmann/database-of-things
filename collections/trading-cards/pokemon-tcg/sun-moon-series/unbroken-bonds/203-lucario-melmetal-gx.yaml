@@ -6,4 +6,6 @@ attributes:
   number: "203/214"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm10/203_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "110/160"
   rarity: Rare Holo
   illustrator: kirisAki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy5/110_hires.png

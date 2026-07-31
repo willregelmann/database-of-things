@@ -6,4 +6,6 @@ attributes:
   number: "43/119"
   rarity: Rare Holo
   illustrator: PLANETA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy4/43_hires.png

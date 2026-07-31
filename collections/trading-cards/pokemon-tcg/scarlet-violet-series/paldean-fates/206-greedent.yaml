@@ -6,4 +6,6 @@ attributes:
   number: "206/91"
   rarity: Shiny Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/206_hires.png

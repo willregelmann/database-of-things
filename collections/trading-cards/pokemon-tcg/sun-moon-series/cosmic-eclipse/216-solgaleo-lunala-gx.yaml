@@ -6,4 +6,6 @@ attributes:
   number: "216/236"
   rarity: Rare Ultra
   illustrator: Hideki Ishikawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/216_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "128/86"
   rarity: Illustration Rare
   illustrator: GOSSAN
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/zsv10pt5/128_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "39/83"
   rarity: Rare
   illustrator: Toyste Beach
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/g1/39_hires.png

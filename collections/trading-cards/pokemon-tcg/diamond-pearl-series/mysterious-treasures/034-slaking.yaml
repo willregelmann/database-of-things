@@ -6,4 +6,6 @@ attributes:
   number: "34/123"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/34_hires.png

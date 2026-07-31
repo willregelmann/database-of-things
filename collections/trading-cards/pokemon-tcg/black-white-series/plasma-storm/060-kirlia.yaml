@@ -6,4 +6,6 @@ attributes:
   number: "60/135"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw8/60_hires.png

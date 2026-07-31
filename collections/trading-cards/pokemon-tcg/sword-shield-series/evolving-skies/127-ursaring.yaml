@@ -6,4 +6,6 @@ attributes:
   number: "127/203"
   rarity: Uncommon
   illustrator: Hasegawa Saki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/127_hires.png

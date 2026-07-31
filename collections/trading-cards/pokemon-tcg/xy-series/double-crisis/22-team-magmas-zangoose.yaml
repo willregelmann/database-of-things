@@ -6,4 +6,6 @@ attributes:
   number: "22/34"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dc1/22_hires.png

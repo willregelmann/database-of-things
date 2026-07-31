@@ -6,4 +6,6 @@ attributes:
   number: "38/86"
   rarity: Common
   illustrator: Taiga Kasai
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me4-38/large

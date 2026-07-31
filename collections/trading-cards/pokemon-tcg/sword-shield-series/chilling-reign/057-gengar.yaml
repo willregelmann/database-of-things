@@ -6,4 +6,6 @@ attributes:
   number: "57/198"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/57_hires.png

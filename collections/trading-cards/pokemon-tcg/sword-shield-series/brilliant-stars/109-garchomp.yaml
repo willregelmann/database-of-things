@@ -6,4 +6,6 @@ attributes:
   number: "109/172"
   rarity: Rare Holo
   illustrator: Nurikabe
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh9/109_hires.png

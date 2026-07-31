@@ -6,4 +6,6 @@ attributes:
   number: "150/147"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm3/150_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "178/236"
   rarity: Rare
   illustrator: chibi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/178_hires.png

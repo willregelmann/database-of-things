@@ -6,4 +6,6 @@ attributes:
   number: "49/82"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base5/49_hires.png

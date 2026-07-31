@@ -6,4 +6,6 @@ attributes:
   number: "29/145"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm2/29_hires.png

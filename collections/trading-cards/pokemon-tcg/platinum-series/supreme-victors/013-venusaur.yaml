@@ -6,4 +6,6 @@ attributes:
   number: "13/147"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/13_hires.png

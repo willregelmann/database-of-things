@@ -6,4 +6,6 @@ attributes:
   number: "23/75"
   rarity: Rare
   illustrator: Shin-ichi Yoshida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/neo2/23_hires.png

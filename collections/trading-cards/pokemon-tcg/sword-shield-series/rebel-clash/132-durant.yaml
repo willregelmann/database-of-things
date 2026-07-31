@@ -6,4 +6,6 @@ attributes:
   number: "132/192"
   rarity: Uncommon
   illustrator: Hideki Ishikawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/132_hires.png

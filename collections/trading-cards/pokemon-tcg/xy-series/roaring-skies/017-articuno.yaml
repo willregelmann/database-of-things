@@ -6,4 +6,6 @@ attributes:
   number: "17/108"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy6/17_hires.png

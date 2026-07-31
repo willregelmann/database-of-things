@@ -6,4 +6,6 @@ attributes:
   number: "XY68"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY68_hires.png

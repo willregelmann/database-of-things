@@ -6,4 +6,6 @@ attributes:
   number: "19/108"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy6/19_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "2/144"
   rarity: Rare
   illustrator: Kimiya Masago
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/2_hires.png

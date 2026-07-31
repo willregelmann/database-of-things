@@ -6,4 +6,6 @@ attributes:
   number: "SM95"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM95_hires.png

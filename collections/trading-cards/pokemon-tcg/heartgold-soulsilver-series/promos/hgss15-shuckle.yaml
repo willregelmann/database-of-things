@@ -6,4 +6,6 @@ attributes:
   number: "HGSS15"
   rarity: Promo
   illustrator: match
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hsp/HGSS15_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "204/197"
   rarity: Illustration Rare
   illustrator: KYUPIYAMA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3/204_hires.png

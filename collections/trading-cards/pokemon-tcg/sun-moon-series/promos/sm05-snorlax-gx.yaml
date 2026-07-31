@@ -6,4 +6,6 @@ attributes:
   number: "SM05"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM05_hires.png

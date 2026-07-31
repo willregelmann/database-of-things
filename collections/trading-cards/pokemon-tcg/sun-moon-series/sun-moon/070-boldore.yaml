@@ -6,4 +6,6 @@ attributes:
   number: "70/149"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm1/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "TG19/TG30"
   rarity: Rare Holo V
   illustrator: kirisAki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10tg/TG19_hires.png

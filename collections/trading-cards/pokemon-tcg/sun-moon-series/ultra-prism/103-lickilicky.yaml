@@ -6,4 +6,6 @@ attributes:
   number: "103/156"
   rarity: Rare
   illustrator: Yumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm5/103_hires.png

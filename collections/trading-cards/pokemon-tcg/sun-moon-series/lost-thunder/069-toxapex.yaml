@@ -6,4 +6,6 @@ attributes:
   number: "69/214"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm8/69_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "65/127"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl1/65_hires.png

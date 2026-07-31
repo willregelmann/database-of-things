@@ -6,4 +6,6 @@ attributes:
   number: "18/105"
   rarity: Rare
   illustrator: Toshinao Aoki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo4/18_hires.png

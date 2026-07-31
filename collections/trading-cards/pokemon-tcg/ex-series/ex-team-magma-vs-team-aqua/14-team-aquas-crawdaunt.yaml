@@ -6,4 +6,6 @@ attributes:
   number: "14/95"
   rarity: Rare
   illustrator: Nakaoka
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/14_hires.png

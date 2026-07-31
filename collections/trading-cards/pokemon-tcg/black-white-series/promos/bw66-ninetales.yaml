@@ -6,4 +6,6 @@ attributes:
   number: "BW66"
   rarity: Promo
   illustrator: Hideaki Hakozaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW66_hires.png

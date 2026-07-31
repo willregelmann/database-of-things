@@ -6,4 +6,6 @@ attributes:
   number: "90/113"
   rarity: Rare Holo
   illustrator: match
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw11/90_hires.png

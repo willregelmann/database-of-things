@@ -6,4 +6,6 @@ attributes:
   number: "67/124"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw6/67_hires.png

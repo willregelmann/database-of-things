@@ -6,4 +6,6 @@ attributes:
   number: "33/108"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy6/33_hires.png

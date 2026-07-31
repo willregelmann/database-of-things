@@ -6,4 +6,6 @@ attributes:
   number: "174/165"
   rarity: Illustration Rare
   illustrator: Misaki Hashimoto
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3pt5/174_hires.png

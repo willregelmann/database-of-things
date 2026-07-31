@@ -6,4 +6,6 @@ attributes:
   number: "79/102"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss4/79_hires.png

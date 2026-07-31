@@ -6,4 +6,6 @@ attributes:
   number: "96/88"
   rarity: Illustration Rare
   illustrator: Kinu Nishimura
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-96/large

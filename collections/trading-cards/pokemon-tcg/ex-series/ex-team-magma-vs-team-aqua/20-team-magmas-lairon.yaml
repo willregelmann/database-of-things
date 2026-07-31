@@ -6,4 +6,6 @@ attributes:
   number: "20/95"
   rarity: Rare
   illustrator: Hiromichi Sugiyama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex4/20_hires.png

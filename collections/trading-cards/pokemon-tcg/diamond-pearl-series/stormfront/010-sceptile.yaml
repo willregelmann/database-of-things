@@ -6,4 +6,6 @@ attributes:
   number: "10/100"
   rarity: Rare Holo
   illustrator: Suwama Chiaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp7/10_hires.png

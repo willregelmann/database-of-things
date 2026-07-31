@@ -6,4 +6,6 @@ attributes:
   number: "46/116"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw9/46_hires.png

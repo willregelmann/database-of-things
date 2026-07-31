@@ -6,4 +6,6 @@ attributes:
   number: "77/195"
   rarity: Uncommon
   illustrator: Pani Kobayashi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/77_hires.png

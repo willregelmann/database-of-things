@@ -6,4 +6,6 @@ attributes:
   number: "21/92"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex12/21_hires.png

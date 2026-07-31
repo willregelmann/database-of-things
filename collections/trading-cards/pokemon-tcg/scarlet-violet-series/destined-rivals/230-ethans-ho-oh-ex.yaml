@@ -6,4 +6,6 @@ attributes:
   number: "230/182"
   rarity: Special Illustration Rare
   illustrator: Atsushi Furusawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/230_hires.png

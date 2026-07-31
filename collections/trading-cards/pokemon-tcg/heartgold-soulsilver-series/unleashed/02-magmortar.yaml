@@ -6,4 +6,6 @@ attributes:
   number: "2/95"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss2/2_hires.png

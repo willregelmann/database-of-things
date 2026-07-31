@@ -6,4 +6,6 @@ attributes:
   number: "45/94"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/45_hires.png

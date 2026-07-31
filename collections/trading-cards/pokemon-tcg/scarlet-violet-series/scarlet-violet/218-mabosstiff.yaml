@@ -6,4 +6,6 @@ attributes:
   number: "218/198"
   rarity: Illustration Rare
   illustrator: OKACHEKE
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/218_hires.png

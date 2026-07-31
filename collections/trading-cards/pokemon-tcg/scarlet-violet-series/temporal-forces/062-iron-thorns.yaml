@@ -6,4 +6,6 @@ attributes:
   number: "62/162"
   rarity: Rare
   illustrator: Takeshi Nakamura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/62_hires.png

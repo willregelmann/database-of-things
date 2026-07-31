@@ -6,4 +6,6 @@ attributes:
   number: "62/132"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/gym1/62_hires.png

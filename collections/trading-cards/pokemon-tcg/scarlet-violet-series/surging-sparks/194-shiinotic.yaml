@@ -6,4 +6,6 @@ attributes:
   number: "194/191"
   rarity: Illustration Rare
   illustrator: matazo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/194_hires.png

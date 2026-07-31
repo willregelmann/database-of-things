@@ -6,4 +6,6 @@ attributes:
   number: "11/100"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex2/11_hires.png

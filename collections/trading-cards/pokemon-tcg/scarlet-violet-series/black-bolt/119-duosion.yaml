@@ -6,4 +6,6 @@ attributes:
   number: "119/86"
   rarity: Illustration Rare
   illustrator: Kedamahadaitai Yawarakai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/zsv10pt5/119_hires.png

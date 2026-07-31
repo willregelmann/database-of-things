@@ -6,4 +6,6 @@ attributes:
   number: "18/72"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45/18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "162/131"
   rarity: Special Illustration Rare
   illustrator: Shinji Kanda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv8pt5/162_hires.png

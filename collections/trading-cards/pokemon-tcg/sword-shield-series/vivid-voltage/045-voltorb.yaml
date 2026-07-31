@@ -6,4 +6,6 @@ attributes:
   number: "45/185"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/45_hires.png

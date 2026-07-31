@@ -6,4 +6,6 @@ attributes:
   number: "20/163"
   rarity: Rare Holo
   illustrator: kodama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/20_hires.png

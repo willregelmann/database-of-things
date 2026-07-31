@@ -6,4 +6,6 @@ attributes:
   number: "95/86"
   rarity: Illustration Rare
   illustrator: kodama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/rsv10pt5/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/185"
   rarity: Common
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh4/41_hires.png

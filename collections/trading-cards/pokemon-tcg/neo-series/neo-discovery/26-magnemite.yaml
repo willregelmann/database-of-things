@@ -6,4 +6,6 @@ attributes:
   number: "26/75"
   rarity: Rare
   illustrator: K. Hoshiba, CR CG gangs
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo2/26_hires.png

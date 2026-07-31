@@ -6,4 +6,6 @@ attributes:
   number: "SWSH012"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH012_hires.png

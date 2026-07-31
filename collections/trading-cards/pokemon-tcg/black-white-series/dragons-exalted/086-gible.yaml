@@ -6,4 +6,6 @@ attributes:
   number: "86/124"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw6/86_hires.png

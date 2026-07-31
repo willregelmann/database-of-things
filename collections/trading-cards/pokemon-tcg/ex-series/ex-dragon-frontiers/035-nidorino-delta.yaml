@@ -6,4 +6,6 @@ attributes:
   number: "35/101"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex15/35_hires.png

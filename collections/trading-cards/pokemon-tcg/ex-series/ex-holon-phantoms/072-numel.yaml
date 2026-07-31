@@ -6,4 +6,6 @@ attributes:
   number: "72/110"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex13/72_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "019"
   rarity: Promo
   illustrator: Oswaldo KATO
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/19_hires.png

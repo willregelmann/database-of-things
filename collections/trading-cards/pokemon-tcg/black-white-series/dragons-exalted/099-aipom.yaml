@@ -6,4 +6,6 @@ attributes:
   number: "99/124"
   rarity: Common
   illustrator: sui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw6/99_hires.png

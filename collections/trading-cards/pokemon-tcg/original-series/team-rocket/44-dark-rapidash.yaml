@@ -6,4 +6,6 @@ attributes:
   number: "44/82"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base5/44_hires.png

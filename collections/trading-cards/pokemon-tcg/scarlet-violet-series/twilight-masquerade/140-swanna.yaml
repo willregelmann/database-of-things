@@ -6,4 +6,6 @@ attributes:
   number: "140/167"
   rarity: Uncommon
   illustrator: Susumu Maeya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/140_hires.png

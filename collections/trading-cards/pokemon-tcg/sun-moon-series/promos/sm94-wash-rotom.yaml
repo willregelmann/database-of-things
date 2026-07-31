@@ -6,4 +6,6 @@ attributes:
   number: "SM94"
   rarity: Promo
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM94_hires.png

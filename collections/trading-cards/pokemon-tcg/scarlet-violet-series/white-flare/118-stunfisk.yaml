@@ -6,4 +6,6 @@ attributes:
   number: "118/86"
   rarity: Illustration Rare
   illustrator: Toshinao Aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/118_hires.png

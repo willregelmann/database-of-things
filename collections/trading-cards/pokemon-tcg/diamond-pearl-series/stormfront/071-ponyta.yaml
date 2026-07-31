@@ -6,4 +6,6 @@ attributes:
   number: "71/100"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp7/71_hires.png

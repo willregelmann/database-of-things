@@ -6,4 +6,6 @@ attributes:
   number: "76/105"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo4/76_hires.png

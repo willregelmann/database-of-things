@@ -6,4 +6,6 @@ attributes:
   number: "53/100"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex2/53_hires.png

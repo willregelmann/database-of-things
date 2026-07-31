@@ -6,4 +6,6 @@ attributes:
   number: "55/82"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base5/55_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "101/165"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard1/101_hires.png

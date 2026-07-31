@@ -6,4 +6,6 @@ attributes:
   number: "82/111"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy3/82_hires.png

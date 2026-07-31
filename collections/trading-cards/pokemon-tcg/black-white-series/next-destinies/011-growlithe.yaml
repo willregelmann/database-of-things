@@ -6,4 +6,6 @@ attributes:
   number: "11/99"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw4/11_hires.png

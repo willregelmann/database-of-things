@@ -6,4 +6,6 @@ attributes:
   number: "47/106"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/47_hires.png

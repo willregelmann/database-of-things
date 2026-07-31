@@ -6,4 +6,6 @@ attributes:
   number: "160/197"
   rarity: Uncommon
   illustrator: kurumitsu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv3/160_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "184/182"
   rarity: Illustration Rare
   illustrator: rika
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/184_hires.png

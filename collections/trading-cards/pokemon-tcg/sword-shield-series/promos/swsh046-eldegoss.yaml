@@ -6,4 +6,6 @@ attributes:
   number: "SWSH046"
   rarity: Promo
   illustrator: Mina Nakai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH046_hires.png

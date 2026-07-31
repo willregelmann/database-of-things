@@ -6,4 +6,6 @@ attributes:
   number: "84/165"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard1/84_hires.png

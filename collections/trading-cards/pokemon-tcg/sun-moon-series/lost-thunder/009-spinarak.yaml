@@ -6,4 +6,6 @@ attributes:
   number: "9/214"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/9_hires.png

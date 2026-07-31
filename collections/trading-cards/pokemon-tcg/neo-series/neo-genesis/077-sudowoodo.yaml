@@ -6,4 +6,6 @@ attributes:
   number: "77/111"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo1/77_hires.png

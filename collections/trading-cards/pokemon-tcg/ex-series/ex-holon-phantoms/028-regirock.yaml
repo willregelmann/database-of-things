@@ -6,4 +6,6 @@ attributes:
   number: "28/110"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex13/28_hires.png

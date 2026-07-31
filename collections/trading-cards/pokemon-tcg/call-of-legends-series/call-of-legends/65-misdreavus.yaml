@@ -6,4 +6,6 @@ attributes:
   number: "65/95"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/65_hires.png

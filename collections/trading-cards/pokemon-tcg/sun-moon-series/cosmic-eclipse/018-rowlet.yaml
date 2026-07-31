@@ -6,4 +6,6 @@ attributes:
   number: "18/236"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm12/18_hires.png

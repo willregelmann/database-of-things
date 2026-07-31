@@ -6,4 +6,6 @@ attributes:
   number: "SV086/SV122"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45sv/SV086_hires.png

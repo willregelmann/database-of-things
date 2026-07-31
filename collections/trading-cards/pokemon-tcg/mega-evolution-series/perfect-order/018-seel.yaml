@@ -6,4 +6,6 @@ attributes:
   number: "18/88"
   rarity: Common
   illustrator: Kanami Ogata
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me3-18/large

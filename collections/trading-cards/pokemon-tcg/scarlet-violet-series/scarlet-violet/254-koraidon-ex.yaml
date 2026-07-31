@@ -6,4 +6,6 @@ attributes:
   number: "254/198"
   rarity: Hyper Rare
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/254_hires.png

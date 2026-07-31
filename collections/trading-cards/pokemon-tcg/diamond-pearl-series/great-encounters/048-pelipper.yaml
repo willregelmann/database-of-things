@@ -6,4 +6,6 @@ attributes:
   number: "48/106"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/48_hires.png

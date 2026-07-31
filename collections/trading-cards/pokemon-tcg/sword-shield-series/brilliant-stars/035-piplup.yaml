@@ -6,4 +6,6 @@ attributes:
   number: "35/172"
   rarity: Common
   illustrator: Atsushi Furusawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh9/35_hires.png

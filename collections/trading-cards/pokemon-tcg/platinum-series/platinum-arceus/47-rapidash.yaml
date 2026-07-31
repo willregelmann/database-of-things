@@ -6,4 +6,6 @@ attributes:
   number: "47/99"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/47_hires.png

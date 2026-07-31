@@ -6,4 +6,6 @@ attributes:
   number: "205/191"
   rarity: Illustration Rare
   illustrator: Saboteri
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/205_hires.png

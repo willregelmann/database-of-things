@@ -6,4 +6,6 @@ attributes:
   number: "67/163"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/67_hires.png

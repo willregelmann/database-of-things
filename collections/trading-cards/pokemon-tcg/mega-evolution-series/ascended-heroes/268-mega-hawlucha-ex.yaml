@@ -6,4 +6,6 @@ attributes:
   number: "268/217"
   rarity: Mega Attack Rare
   illustrator: Taiga Kasai
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-268/large

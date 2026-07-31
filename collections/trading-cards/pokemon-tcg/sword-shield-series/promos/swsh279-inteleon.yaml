@@ -6,4 +6,6 @@ attributes:
   number: "SWSH279"
   rarity: Promo
   illustrator: GOSSAN
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH279_hires.png

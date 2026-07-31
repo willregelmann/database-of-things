@@ -6,4 +6,6 @@ attributes:
   number: "TG20/TG30"
   rarity: Rare Holo VMAX
   illustrator: Hideki Ishikawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12tg/TG20_hires.png

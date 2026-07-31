@@ -6,4 +6,6 @@ attributes:
   number: "SWSH125"
   rarity: Promo
   illustrator: KEIICHIRO ITO
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH125_hires.png

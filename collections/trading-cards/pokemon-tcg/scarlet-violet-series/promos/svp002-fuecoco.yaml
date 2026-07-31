@@ -6,4 +6,6 @@ attributes:
   number: "002"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/2_hires.png

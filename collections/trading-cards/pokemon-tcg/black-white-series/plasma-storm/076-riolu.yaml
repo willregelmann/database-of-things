@@ -6,4 +6,6 @@ attributes:
   number: "76/135"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw8/76_hires.png

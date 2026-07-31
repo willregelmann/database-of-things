@@ -6,4 +6,6 @@ attributes:
   number: "SM209"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM209_hires.png

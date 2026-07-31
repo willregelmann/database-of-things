@@ -6,4 +6,6 @@ attributes:
   number: "65/168"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm7/65_hires.png

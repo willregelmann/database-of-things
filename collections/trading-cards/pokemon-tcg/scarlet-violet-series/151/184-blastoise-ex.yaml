@@ -6,4 +6,6 @@ attributes:
   number: "184/165"
   rarity: Ultra Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/184_hires.png

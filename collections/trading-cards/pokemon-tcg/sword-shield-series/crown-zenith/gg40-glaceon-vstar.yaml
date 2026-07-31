@@ -6,4 +6,6 @@ attributes:
   number: "GG40/GG70"
   rarity: Rare Holo VSTAR
   illustrator: Gemi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12pt5gg/GG40_hires.png

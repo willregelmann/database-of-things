@@ -6,4 +6,6 @@ attributes:
   number: "22/159"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5/22_hires.png

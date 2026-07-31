@@ -6,4 +6,6 @@ attributes:
   number: "32/86"
   rarity: Uncommon
   illustrator: Mugi Hamada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/32_hires.png

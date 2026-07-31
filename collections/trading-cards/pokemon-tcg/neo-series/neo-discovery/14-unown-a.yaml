@@ -6,4 +6,6 @@ attributes:
   number: "14/75"
   rarity: Rare Holo
   illustrator: CR CG gangs
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/14_hires.png

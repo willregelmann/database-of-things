@@ -6,4 +6,6 @@ attributes:
   number: "12/99"
   rarity: Rare Holo
   illustrator: Ryota Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl4/12_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH187"
   rarity: Promo
   illustrator: saino misaki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH187_hires.png

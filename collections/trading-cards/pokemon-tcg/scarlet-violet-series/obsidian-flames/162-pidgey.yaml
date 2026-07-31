@@ -6,4 +6,6 @@ attributes:
   number: "162/197"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/162_hires.png

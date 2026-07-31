@@ -6,4 +6,6 @@ attributes:
   number: "SWSH027"
   rarity: Promo
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH027_hires.png

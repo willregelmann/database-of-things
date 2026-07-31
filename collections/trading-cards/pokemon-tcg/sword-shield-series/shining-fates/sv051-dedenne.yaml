@@ -6,4 +6,6 @@ attributes:
   number: "SV051/SV122"
   rarity: Rare Shiny
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV051_hires.png

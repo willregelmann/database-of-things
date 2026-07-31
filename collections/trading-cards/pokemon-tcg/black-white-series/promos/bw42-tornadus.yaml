@@ -6,4 +6,6 @@ attributes:
   number: "BW42"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW42_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "47/185"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/47_hires.png

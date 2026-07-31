@@ -6,4 +6,6 @@ attributes:
   number: "27/75"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo2/27_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "176/189"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh10/176_hires.png

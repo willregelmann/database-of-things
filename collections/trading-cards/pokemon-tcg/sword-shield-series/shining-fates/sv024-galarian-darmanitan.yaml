@@ -6,4 +6,6 @@ attributes:
   number: "SV024/SV122"
   rarity: Rare Shiny
   illustrator: nagimiso
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV024_hires.png

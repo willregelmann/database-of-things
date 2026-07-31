@@ -6,4 +6,6 @@ attributes:
   number: "102/145"
   rarity: Rare Holo
   illustrator: Hideki Ishikawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm2/102_hires.png

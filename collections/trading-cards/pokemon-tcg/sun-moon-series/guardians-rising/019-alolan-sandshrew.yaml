@@ -6,4 +6,6 @@ attributes:
   number: "19/145"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm2/19_hires.png

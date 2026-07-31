@@ -6,4 +6,6 @@ attributes:
   number: "SWSH043"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH043_hires.png

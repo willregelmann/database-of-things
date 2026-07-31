@@ -6,4 +6,6 @@ attributes:
   number: "54/185"
   rarity: Uncommon
   illustrator: "0313"
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/54_hires.png

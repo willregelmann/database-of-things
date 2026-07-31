@@ -6,4 +6,6 @@ attributes:
   number: "54/149"
   rarity: Common
   illustrator: Satoshi Shirai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm1/54_hires.png

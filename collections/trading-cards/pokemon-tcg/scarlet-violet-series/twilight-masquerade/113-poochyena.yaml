@@ -6,4 +6,6 @@ attributes:
   number: "113/167"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6/113_hires.png

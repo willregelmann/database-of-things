@@ -6,4 +6,6 @@ attributes:
   number: "30/100"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex2/30_hires.png

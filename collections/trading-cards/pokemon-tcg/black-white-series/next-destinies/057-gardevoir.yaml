@@ -6,4 +6,6 @@ attributes:
   number: "57/99"
   rarity: Rare Holo
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw4/57_hires.png

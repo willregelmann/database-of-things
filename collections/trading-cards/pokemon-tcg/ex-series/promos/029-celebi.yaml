@@ -6,4 +6,6 @@ attributes:
   number: "029"
   rarity: Promo
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/np/29_hires.png

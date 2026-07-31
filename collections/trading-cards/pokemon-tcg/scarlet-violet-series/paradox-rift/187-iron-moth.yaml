@@ -6,4 +6,6 @@ attributes:
   number: "187/182"
   rarity: Illustration Rare
   illustrator: Takeshi Nakamura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4/187_hires.png

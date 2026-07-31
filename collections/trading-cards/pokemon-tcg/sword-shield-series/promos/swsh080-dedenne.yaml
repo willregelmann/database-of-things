@@ -6,4 +6,6 @@ attributes:
   number: "SWSH080"
   rarity: Promo
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH080_hires.png

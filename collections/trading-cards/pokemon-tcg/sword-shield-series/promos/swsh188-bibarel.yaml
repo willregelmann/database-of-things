@@ -6,4 +6,6 @@ attributes:
   number: "SWSH188"
   rarity: Promo
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH188_hires.png

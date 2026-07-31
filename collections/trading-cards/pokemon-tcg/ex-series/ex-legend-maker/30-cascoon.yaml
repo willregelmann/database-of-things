@@ -6,4 +6,6 @@ attributes:
   number: "30/92"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex12/30_hires.png

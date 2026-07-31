@@ -6,4 +6,6 @@ attributes:
   number: "57/107"
   rarity: Common
   illustrator: Takao Unno
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex8/57_hires.png

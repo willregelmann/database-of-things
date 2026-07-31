@@ -6,4 +6,6 @@ attributes:
   number: "3/25"
   rarity: Rare
   illustrator: Ryuta Fuse
+  type:
+    - Water
 image: https://images.pokemontcg.io/cel25/3_hires.png

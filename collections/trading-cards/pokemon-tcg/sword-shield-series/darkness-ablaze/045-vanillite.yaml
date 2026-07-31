@@ -6,4 +6,6 @@ attributes:
   number: "45/189"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh3/45_hires.png

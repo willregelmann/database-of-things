@@ -6,4 +6,6 @@ attributes:
   number: "31/108"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex16/31_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "34/122"
   rarity: Uncommon
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/34_hires.png

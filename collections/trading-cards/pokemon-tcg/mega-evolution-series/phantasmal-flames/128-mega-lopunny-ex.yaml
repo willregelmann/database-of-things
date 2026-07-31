@@ -6,4 +6,6 @@ attributes:
   number: "128/94"
   rarity: Special Illustration Rare
   illustrator: Kinu Nishimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me2/128_hires.png

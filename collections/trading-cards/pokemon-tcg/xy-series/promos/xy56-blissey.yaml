@@ -6,4 +6,6 @@ attributes:
   number: "XY56"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY56_hires.png

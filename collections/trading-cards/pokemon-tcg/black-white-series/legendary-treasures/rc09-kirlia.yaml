@@ -6,4 +6,6 @@ attributes:
   number: "RC9/RC25"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/RC9_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "106/86"
   rarity: Illustration Rare
   illustrator: Taira Akitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/106_hires.png

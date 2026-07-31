@@ -6,4 +6,6 @@ attributes:
   number: "118/217"
   rarity: Common
   illustrator: Kurata So
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-118/large

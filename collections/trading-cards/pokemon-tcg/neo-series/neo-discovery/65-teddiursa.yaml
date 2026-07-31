@@ -6,4 +6,6 @@ attributes:
   number: "65/75"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo2/65_hires.png

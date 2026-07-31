@@ -6,4 +6,6 @@ attributes:
   number: "131/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/131_hires.png

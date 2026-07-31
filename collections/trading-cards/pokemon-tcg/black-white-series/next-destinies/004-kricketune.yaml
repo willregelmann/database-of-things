@@ -6,4 +6,6 @@ attributes:
   number: "4/99"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw4/4_hires.png

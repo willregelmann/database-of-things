@@ -6,4 +6,6 @@ attributes:
   number: "72/102"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss4/72_hires.png

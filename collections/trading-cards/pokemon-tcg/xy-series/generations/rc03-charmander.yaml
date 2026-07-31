@@ -6,4 +6,6 @@ attributes:
   number: "RC3/RC32"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/g1/RC3_hires.png

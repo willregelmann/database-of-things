@@ -6,4 +6,6 @@ attributes:
   number: "199/197"
   rarity: Illustration Rare
   illustrator: SIE NANAHARA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3/199_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "10/203"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/10_hires.png

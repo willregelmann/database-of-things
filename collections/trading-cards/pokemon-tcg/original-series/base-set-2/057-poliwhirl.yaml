@@ -6,4 +6,6 @@ attributes:
   number: "57/130"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/base4/57_hires.png

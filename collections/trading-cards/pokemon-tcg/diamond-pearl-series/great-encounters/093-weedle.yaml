@@ -6,4 +6,6 @@ attributes:
   number: "93/106"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/93_hires.png

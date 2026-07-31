@@ -6,4 +6,6 @@ attributes:
   number: "3/144"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard3/3_hires.png

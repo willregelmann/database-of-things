@@ -6,4 +6,6 @@ attributes:
   number: "51/130"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base4/51_hires.png

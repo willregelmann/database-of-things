@@ -6,4 +6,6 @@ attributes:
   number: "101/146"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp6/101_hires.png

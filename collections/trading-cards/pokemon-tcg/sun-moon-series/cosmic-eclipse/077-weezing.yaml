@@ -6,4 +6,6 @@ attributes:
   number: "77/236"
   rarity: Rare
   illustrator: Motofumi Fujiwara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/77_hires.png

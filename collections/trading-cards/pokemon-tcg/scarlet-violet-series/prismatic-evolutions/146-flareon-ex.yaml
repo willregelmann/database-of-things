@@ -6,4 +6,6 @@ attributes:
   number: "146/131"
   rarity: Special Illustration Rare
   illustrator: Nurikabe
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8pt5/146_hires.png

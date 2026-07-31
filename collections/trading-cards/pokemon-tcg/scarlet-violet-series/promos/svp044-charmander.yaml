@@ -6,4 +6,6 @@ attributes:
   number: "044"
   rarity: Promo
   illustrator: MINAMINAMI Take
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/44_hires.png

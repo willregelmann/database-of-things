@@ -6,4 +6,6 @@ attributes:
   number: "52/106"
   rarity: Common
   illustrator: Nakaoka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex9/52_hires.png

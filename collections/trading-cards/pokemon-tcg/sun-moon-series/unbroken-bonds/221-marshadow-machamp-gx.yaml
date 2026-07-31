@@ -6,4 +6,6 @@ attributes:
   number: "221/214"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/221_hires.png

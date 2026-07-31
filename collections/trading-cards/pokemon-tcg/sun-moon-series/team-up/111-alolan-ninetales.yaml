@@ -6,4 +6,6 @@ attributes:
   number: "111/181"
   rarity: Rare Holo
   illustrator: Misa Tsutsui
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm9/111_hires.png

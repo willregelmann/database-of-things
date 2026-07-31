@@ -6,4 +6,6 @@ attributes:
   number: "TG01/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10tg/TG01_hires.png

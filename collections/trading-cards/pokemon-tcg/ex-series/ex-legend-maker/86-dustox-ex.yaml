@@ -6,4 +6,6 @@ attributes:
   number: "86/92"
   rarity: Rare Holo ex
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex12/86_hires.png

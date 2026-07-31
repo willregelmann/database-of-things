@@ -6,4 +6,6 @@ attributes:
   number: "SM176"
   rarity: Promo
   illustrator: PLANETA Otani
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM176_hires.png

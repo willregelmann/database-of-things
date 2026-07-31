@@ -6,4 +6,6 @@ attributes:
   number: "9/102"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss4/9_hires.png

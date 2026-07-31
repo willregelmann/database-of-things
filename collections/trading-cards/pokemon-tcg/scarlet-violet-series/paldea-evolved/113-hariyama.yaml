@@ -6,4 +6,6 @@ attributes:
   number: "113/193"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/113_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV25/SV94"
   rarity: Rare Shiny
   illustrator: Saya Tsuruta
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sma/SV25_hires.png

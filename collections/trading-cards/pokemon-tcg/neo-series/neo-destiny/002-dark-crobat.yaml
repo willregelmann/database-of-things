@@ -6,4 +6,6 @@ attributes:
   number: "2/105"
   rarity: Rare Holo
   illustrator: Shin-ichi Yoshikawa, CR CG gangs
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/2_hires.png

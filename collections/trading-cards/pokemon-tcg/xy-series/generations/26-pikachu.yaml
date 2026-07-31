@@ -6,4 +6,6 @@ attributes:
   number: "26/83"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/g1/26_hires.png

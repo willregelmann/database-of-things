@@ -6,4 +6,6 @@ attributes:
   number: "SL2"
   rarity: Rare Holo
   illustrator: Ayaka Yoshida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/col1/SL2_hires.png

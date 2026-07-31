@@ -6,4 +6,6 @@ attributes:
   number: "RC22/RC32"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC22_hires.png

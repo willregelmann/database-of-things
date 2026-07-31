@@ -6,4 +6,6 @@ attributes:
   number: "119/88"
   rarity: Special Illustration Rare
   illustrator: Cona Nitanda
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me3-119/large

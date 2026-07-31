@@ -6,4 +6,6 @@ attributes:
   number: "50/156"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm5/50_hires.png

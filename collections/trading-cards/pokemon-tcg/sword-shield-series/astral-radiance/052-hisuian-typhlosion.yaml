@@ -6,4 +6,6 @@ attributes:
   number: "52/189"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/52_hires.png

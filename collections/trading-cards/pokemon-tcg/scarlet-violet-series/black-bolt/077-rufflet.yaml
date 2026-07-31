@@ -6,4 +6,6 @@ attributes:
   number: "77/86"
   rarity: Common
   illustrator: Kedamahadaitai Yawarakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/zsv10pt5/77_hires.png

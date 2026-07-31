@@ -6,4 +6,6 @@ attributes:
   number: "27/91"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/27_hires.png

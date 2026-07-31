@@ -6,4 +6,6 @@ attributes:
   number: "72/73"
   rarity: Rare Ultra
   illustrator: PLANETA Igarashi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh35/72_hires.png

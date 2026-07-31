@@ -6,4 +6,6 @@ attributes:
   number: "30/197"
   rarity: Rare
   illustrator: toriyufu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3/30_hires.png

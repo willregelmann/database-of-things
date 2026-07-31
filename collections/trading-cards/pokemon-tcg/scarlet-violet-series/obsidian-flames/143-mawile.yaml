@@ -6,4 +6,6 @@ attributes:
   number: "143/197"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/143_hires.png

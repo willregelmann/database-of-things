@@ -6,4 +6,6 @@ attributes:
   number: "H16/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard3/H16_hires.png

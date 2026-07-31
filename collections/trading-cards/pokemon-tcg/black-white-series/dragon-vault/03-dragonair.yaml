@@ -6,4 +6,6 @@ attributes:
   number: "3/20"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/3_hires.png

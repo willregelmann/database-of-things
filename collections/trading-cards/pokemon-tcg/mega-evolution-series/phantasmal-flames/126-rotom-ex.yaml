@@ -6,4 +6,6 @@ attributes:
   number: "126/94"
   rarity: Special Illustration Rare
   illustrator: Yoshimi Miyoshi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me2/126_hires.png

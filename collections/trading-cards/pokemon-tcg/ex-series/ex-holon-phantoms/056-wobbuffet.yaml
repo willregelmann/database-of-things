@@ -6,4 +6,6 @@ attributes:
   number: "56/110"
   rarity: Uncommon
   illustrator: Katsura Tabata
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex13/56_hires.png

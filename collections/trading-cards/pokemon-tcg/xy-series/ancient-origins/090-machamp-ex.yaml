@@ -6,4 +6,6 @@ attributes:
   number: "90/98"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy7/90_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "137/135"
   rarity: Rare Secret
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw8/137_hires.png

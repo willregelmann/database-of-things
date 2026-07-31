@@ -6,4 +6,6 @@ attributes:
   number: "73/145"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/73_hires.png

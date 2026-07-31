@@ -6,4 +6,6 @@ attributes:
   number: "73/111"
   rarity: Rare Holo
   illustrator: sui
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm4/73_hires.png

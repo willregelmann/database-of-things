@@ -6,4 +6,6 @@ attributes:
   number: "196/182"
   rarity: Illustration Rare
   illustrator: Nakamura Ippan
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/196_hires.png

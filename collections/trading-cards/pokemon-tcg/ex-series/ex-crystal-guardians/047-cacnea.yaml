@@ -6,4 +6,6 @@ attributes:
   number: "47/100"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex14/47_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "198/165"
   rarity: Special Illustration Rare
   illustrator: Yoriyuki Ikegami
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3pt5/198_hires.png

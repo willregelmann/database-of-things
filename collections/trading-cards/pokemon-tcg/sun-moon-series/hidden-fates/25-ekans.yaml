@@ -6,4 +6,6 @@ attributes:
   number: "25/68"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm115/25_hires.png

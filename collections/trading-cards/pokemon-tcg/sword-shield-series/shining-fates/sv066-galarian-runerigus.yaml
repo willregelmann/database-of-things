@@ -6,4 +6,6 @@ attributes:
   number: "SV066/SV122"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV066_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "68/191"
   rarity: Double Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/68_hires.png

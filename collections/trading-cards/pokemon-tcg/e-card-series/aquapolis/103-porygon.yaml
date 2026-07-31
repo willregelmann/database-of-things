@@ -6,4 +6,6 @@ attributes:
   number: "103/147"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard2/103_hires.png

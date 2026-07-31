@@ -6,4 +6,6 @@ attributes:
   number: "37/101"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw3/37_hires.png

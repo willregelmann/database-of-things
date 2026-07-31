@@ -6,4 +6,6 @@ attributes:
   number: "47/115"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex10/47_hires.png

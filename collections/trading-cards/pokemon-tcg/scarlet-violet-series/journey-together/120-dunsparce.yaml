@@ -6,4 +6,6 @@ attributes:
   number: "120/159"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/120_hires.png

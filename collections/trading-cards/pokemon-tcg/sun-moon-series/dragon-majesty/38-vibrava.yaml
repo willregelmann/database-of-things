@@ -6,4 +6,6 @@ attributes:
   number: "38/70"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/38_hires.png

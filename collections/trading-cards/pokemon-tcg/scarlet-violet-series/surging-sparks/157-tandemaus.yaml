@@ -6,4 +6,6 @@ attributes:
   number: "157/191"
   rarity: Common
   illustrator: USGMEN
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/157_hires.png

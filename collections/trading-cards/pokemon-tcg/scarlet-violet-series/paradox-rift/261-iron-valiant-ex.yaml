@@ -6,4 +6,6 @@ attributes:
   number: "261/182"
   rarity: Hyper Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/261_hires.png

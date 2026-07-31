@@ -6,4 +6,6 @@ attributes:
   number: "GG24/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Yuu Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG24_hires.png

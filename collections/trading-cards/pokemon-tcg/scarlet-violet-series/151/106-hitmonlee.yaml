@@ -6,4 +6,6 @@ attributes:
   number: "106/165"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3pt5/106_hires.png

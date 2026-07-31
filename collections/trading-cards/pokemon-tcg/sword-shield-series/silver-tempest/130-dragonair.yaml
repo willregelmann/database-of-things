@@ -6,4 +6,6 @@ attributes:
   number: "130/195"
   rarity: Uncommon
   illustrator: Shinya Komatsu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12/130_hires.png

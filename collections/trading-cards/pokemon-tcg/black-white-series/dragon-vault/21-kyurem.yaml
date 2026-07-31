@@ -6,4 +6,6 @@ attributes:
   number: "21/20"
   rarity: Rare Secret
   illustrator: Ryo Ueda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/21_hires.png

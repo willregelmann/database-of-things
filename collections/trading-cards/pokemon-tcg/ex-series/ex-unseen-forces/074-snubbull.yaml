@@ -6,4 +6,6 @@ attributes:
   number: "74/115"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex10/74_hires.png

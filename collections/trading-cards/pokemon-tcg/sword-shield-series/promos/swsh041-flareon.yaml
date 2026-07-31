@@ -6,4 +6,6 @@ attributes:
   number: "SWSH041"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH041_hires.png

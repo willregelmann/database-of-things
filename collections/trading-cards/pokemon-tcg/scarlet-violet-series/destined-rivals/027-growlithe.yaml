@@ -6,4 +6,6 @@ attributes:
   number: "27/182"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/27_hires.png

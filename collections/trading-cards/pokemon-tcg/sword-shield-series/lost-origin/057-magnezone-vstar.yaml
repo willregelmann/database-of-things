@@ -6,4 +6,6 @@ attributes:
   number: "57/196"
   rarity: Rare Holo VSTAR
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh11/57_hires.png

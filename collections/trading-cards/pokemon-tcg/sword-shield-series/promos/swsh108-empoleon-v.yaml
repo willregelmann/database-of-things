@@ -6,4 +6,6 @@ attributes:
   number: "SWSH108"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH108_hires.png

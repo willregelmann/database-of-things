@@ -6,4 +6,7 @@ attributes:
   number: "8/113"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Lightning
+    - Metal
 image: https://images.pokemontcg.io/ex11/8_hires.png

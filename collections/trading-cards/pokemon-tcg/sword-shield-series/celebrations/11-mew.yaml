@@ -6,4 +6,6 @@ attributes:
   number: "11/25"
   rarity: Rare Holo
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/cel25/11_hires.png

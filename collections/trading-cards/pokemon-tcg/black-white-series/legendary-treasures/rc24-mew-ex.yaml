@@ -6,4 +6,6 @@ attributes:
   number: "RC24/RC25"
   rarity: Rare Ultra
   illustrator: MAHOU
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/RC24_hires.png

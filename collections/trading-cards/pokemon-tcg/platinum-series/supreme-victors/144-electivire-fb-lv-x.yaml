@@ -6,4 +6,6 @@ attributes:
   number: "144/147"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/144_hires.png

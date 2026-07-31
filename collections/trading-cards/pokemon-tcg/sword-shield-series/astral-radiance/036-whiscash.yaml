@@ -6,4 +6,6 @@ attributes:
   number: "36/189"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/36_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG03/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Saya Tsuruta
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5gg/GG03_hires.png

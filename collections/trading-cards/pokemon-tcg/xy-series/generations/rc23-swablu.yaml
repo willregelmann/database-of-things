@@ -6,4 +6,6 @@ attributes:
   number: "RC23/RC32"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/g1/RC23_hires.png

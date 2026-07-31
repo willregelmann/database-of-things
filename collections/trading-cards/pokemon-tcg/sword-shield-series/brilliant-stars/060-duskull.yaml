@@ -6,4 +6,6 @@ attributes:
   number: "60/172"
   rarity: Common
   illustrator: SATOSHI NAKAI
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/60_hires.png

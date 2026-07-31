@@ -6,4 +6,6 @@ attributes:
   number: "104/162"
   rarity: Double Rare
   illustrator: Nisota Niso
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv5/104_hires.png

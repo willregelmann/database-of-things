@@ -6,4 +6,6 @@ attributes:
   number: "RC21/RC32"
   rarity: Rare Holo ex
   illustrator: sui
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC21_hires.png

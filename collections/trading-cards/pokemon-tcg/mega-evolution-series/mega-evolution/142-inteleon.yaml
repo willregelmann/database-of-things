@@ -6,4 +6,6 @@ attributes:
   number: "142/132"
   rarity: Illustration Rare
   illustrator: Ligton
+  type:
+    - Water
 image: https://images.pokemontcg.io/me1/142_hires.png

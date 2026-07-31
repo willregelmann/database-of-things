@@ -6,4 +6,6 @@ attributes:
   number: "123/203"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/123_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "70/97"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex3/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "19/144"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard3/19_hires.png

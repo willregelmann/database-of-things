@@ -6,4 +6,6 @@ attributes:
   number: "152/191"
   rarity: Common
   illustrator: Nakamura Ippan
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/152_hires.png

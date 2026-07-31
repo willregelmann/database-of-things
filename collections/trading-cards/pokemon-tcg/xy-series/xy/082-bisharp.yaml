@@ -6,4 +6,6 @@ attributes:
   number: "82/146"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy1/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "220/203"
   rarity: Rare Rainbow
   illustrator: Saki Hayashiro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/220_hires.png

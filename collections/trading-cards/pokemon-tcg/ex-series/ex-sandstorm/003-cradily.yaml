@@ -6,4 +6,6 @@ attributes:
   number: "3/100"
   rarity: Rare Holo
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex2/3_hires.png

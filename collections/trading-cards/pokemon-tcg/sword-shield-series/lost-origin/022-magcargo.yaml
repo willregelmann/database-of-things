@@ -6,4 +6,6 @@ attributes:
   number: "22/196"
   rarity: Rare
   illustrator: Pani Kobayashi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh11/22_hires.png

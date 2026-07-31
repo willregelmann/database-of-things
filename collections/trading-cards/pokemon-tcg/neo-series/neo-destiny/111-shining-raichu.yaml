@@ -6,4 +6,6 @@ attributes:
   number: "111/105"
   rarity: Shining Holofoil
   illustrator: Hironobu Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo4/111_hires.png

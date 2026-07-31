@@ -6,4 +6,6 @@ attributes:
   number: "45/182"
   rarity: Uncommon
   illustrator: Yuu Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "10/160"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy5/10_hires.png

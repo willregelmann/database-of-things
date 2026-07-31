@@ -6,4 +6,6 @@ attributes:
   number: "66/146"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy1/66_hires.png

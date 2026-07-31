@@ -6,4 +6,6 @@ attributes:
   number: "DP18"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/dpp/DP18_hires.png

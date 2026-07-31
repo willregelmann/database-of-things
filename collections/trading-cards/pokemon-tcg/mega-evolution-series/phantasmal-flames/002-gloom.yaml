@@ -6,4 +6,6 @@ attributes:
   number: "2/94"
   rarity: Common
   illustrator: Yoriyuki Ikegami
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me2/2_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "49/98"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw2/49_hires.png

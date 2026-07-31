@@ -6,4 +6,6 @@ attributes:
   number: "SV016/SV122"
   rarity: Rare Shiny
   illustrator: Lee HyunJung
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45sv/SV016_hires.png

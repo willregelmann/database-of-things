@@ -6,4 +6,6 @@ attributes:
   number: "244/91"
   rarity: Hyper Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4pt5/244_hires.png

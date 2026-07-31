@@ -6,4 +6,6 @@ attributes:
   number: "81/122"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy9/81_hires.png

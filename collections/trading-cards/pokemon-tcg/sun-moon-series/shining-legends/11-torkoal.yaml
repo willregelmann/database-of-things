@@ -6,4 +6,6 @@ attributes:
   number: "11/73"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm35/11_hires.png

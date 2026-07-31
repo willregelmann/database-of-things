@@ -6,4 +6,6 @@ attributes:
   number: "161/193"
   rarity: Uncommon
   illustrator: GIDORA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/161_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "27/95"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss2/27_hires.png

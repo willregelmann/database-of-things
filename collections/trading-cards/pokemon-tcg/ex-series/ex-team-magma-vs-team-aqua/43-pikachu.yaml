@@ -6,4 +6,6 @@ attributes:
   number: "43/95"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex4/43_hires.png

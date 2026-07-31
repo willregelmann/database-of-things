@@ -6,4 +6,6 @@ attributes:
   number: "056"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/svp/56_hires.png

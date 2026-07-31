@@ -6,4 +6,6 @@ attributes:
   number: "SM208"
   rarity: Promo
   illustrator: Misa Tsutsui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM208_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "36/98"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw2/36_hires.png

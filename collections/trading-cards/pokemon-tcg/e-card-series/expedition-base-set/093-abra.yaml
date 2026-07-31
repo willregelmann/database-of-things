@@ -6,4 +6,6 @@ attributes:
   number: "93/165"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard1/93_hires.png

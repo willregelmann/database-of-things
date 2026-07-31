@@ -6,4 +6,6 @@ attributes:
   number: "BW52"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW52_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "43/53"
   rarity: Promo
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/basep/43_hires.png

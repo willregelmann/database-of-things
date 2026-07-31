@@ -6,4 +6,6 @@ attributes:
   number: "13/122"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy9/13_hires.png

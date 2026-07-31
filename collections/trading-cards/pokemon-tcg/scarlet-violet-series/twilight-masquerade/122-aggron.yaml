@@ -6,4 +6,6 @@ attributes:
   number: "122/167"
   rarity: Uncommon
   illustrator: Dsuke
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6/122_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "35/159"
   rarity: Common
   illustrator: Ayako Ozaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv9/35_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "105/147"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/105_hires.png

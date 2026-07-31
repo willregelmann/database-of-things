@@ -6,4 +6,6 @@ attributes:
   number: "4/203"
   rarity: Rare Holo
   illustrator: Tika Matsuno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/4_hires.png

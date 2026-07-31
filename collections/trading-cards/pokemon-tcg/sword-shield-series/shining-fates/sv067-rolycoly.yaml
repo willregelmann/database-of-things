@@ -6,4 +6,6 @@ attributes:
   number: "SV067/SV122"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV067_hires.png

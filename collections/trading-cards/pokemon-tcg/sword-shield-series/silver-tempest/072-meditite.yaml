@@ -6,4 +6,6 @@ attributes:
   number: "72/195"
   rarity: Common
   illustrator: Jiro Sasumo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/72_hires.png

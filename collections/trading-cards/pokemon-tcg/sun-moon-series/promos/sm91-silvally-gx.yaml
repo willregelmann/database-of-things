@@ -6,4 +6,6 @@ attributes:
   number: "SM91"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM91_hires.png

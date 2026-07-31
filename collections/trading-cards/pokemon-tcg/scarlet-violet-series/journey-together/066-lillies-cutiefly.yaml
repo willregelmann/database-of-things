@@ -6,4 +6,6 @@ attributes:
   number: "66/159"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/66_hires.png

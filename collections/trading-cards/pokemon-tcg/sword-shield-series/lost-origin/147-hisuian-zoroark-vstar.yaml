@@ -6,4 +6,6 @@ attributes:
   number: "147/196"
   rarity: Rare Holo VSTAR
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/147_hires.png

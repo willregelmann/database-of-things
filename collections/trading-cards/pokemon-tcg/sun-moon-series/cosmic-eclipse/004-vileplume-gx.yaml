@@ -6,4 +6,6 @@ attributes:
   number: "4/236"
   rarity: Rare Holo GX
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm12/4_hires.png

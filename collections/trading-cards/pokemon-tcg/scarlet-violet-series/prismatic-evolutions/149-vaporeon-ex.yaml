@@ -6,4 +6,6 @@ attributes:
   number: "149/131"
   rarity: Special Illustration Rare
   illustrator: Narano
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8pt5/149_hires.png

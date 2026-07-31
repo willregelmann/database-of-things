@@ -6,4 +6,6 @@ attributes:
   number: "45/73"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh35/45_hires.png

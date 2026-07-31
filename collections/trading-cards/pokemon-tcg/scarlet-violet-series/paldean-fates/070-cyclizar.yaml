@@ -6,4 +6,6 @@ attributes:
   number: "70/91"
   rarity: Rare
   illustrator: GIDORA
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4pt5/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "117/192"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh2/117_hires.png

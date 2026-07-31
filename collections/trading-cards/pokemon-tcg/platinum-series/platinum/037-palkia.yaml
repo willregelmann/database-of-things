@@ -6,4 +6,6 @@ attributes:
   number: "37/127"
   rarity: Rare
   illustrator: Kent Kanetsuna
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl1/37_hires.png

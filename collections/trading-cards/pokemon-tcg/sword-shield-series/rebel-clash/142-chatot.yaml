@@ -6,4 +6,6 @@ attributes:
   number: "142/192"
   rarity: Uncommon
   illustrator: ryoma uratsuka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/142_hires.png

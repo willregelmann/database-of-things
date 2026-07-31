@@ -6,4 +6,6 @@ attributes:
   number: "104/163"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/104_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY77"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY77_hires.png

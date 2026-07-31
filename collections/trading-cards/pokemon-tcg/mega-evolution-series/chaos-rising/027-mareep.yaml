@@ -6,4 +6,6 @@ attributes:
   number: "27/86"
   rarity: Common
   illustrator: UKUMO viti
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me4-27/large

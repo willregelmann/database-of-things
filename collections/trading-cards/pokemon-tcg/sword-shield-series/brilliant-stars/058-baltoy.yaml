@@ -6,4 +6,6 @@ attributes:
   number: "58/172"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/58_hires.png

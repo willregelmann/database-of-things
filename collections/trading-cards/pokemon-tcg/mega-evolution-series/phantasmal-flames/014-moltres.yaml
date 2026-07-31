@@ -6,4 +6,6 @@ attributes:
   number: "14/94"
   rarity: Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/14_hires.png

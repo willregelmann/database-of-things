@@ -6,4 +6,6 @@ attributes:
   number: "SWSH109"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH109_hires.png

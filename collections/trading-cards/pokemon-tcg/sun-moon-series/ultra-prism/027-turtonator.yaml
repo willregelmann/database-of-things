@@ -6,4 +6,6 @@ attributes:
   number: "27/156"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm5/27_hires.png

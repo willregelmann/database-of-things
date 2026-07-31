@@ -6,4 +6,6 @@ attributes:
   number: "50/64"
   rarity: Common
   illustrator: Susumu Maeya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6pt5/50_hires.png

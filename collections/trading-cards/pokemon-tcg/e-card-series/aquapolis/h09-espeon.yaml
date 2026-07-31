@@ -6,4 +6,6 @@ attributes:
   number: "H9/H32"
   rarity: Rare Holo
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard2/H9_hires.png

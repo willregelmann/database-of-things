@@ -6,4 +6,6 @@ attributes:
   number: "14/182"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/14_hires.png

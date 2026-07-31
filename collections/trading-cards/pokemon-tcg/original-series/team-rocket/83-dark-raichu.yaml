@@ -6,4 +6,6 @@ attributes:
   number: "83/82"
   rarity: Rare Secret
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base5/83_hires.png

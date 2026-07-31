@@ -6,4 +6,6 @@ attributes:
   number: "61/86"
   rarity: Common
   illustrator: Amelicart
+  type:
+    - Metal
 image: https://images.pokemontcg.io/zsv10pt5/61_hires.png

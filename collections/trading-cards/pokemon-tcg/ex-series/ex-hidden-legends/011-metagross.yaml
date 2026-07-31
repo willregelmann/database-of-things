@@ -6,4 +6,7 @@ attributes:
   number: "11/101"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
+    - Metal
 image: https://images.pokemontcg.io/ex5/11_hires.png

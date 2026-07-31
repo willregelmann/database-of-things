@@ -6,4 +6,6 @@ attributes:
   number: "10/18"
   rarity: Rare Holo
   illustrator: MPC Film
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/det1/10_hires.png

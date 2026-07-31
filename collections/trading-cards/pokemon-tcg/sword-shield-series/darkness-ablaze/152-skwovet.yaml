@@ -6,4 +6,6 @@ attributes:
   number: "152/189"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/152_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "B/28"
   rarity: Rare Holo
   illustrator: Shin-ichi Yoshikawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex10/B_hires.png

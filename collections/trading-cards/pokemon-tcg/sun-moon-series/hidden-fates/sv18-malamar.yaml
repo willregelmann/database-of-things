@@ -6,4 +6,6 @@ attributes:
   number: "SV18/SV94"
   rarity: Rare Shiny
   illustrator: Hideki Ishikawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sma/SV18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "TG08/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10tg/TG08_hires.png

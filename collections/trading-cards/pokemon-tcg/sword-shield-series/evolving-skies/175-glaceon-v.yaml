@@ -6,4 +6,6 @@ attributes:
   number: "175/203"
   rarity: Rare Ultra
   illustrator: Narumi Sato
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/175_hires.png

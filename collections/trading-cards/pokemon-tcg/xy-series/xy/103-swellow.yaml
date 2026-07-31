@@ -6,4 +6,6 @@ attributes:
   number: "103/146"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy1/103_hires.png

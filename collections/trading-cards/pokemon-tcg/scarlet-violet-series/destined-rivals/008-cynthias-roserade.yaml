@@ -6,4 +6,6 @@ attributes:
   number: "8/182"
   rarity: Rare
   illustrator: En Morikura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/8_hires.png

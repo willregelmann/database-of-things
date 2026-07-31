@@ -6,4 +6,6 @@ attributes:
   number: "SV1/SV94"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sma/SV1_hires.png

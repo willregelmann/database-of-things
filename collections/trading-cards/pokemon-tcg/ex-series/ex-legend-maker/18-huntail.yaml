@@ -6,4 +6,6 @@ attributes:
   number: "18/92"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex12/18_hires.png

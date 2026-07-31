@@ -6,4 +6,6 @@ attributes:
   number: "258/193"
   rarity: Special Illustration Rare
   illustrator: kantaro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv2/258_hires.png

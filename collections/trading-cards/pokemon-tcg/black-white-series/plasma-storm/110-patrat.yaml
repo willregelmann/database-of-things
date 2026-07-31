@@ -6,4 +6,6 @@ attributes:
   number: "110/135"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw8/110_hires.png

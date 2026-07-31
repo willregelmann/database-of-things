@@ -6,4 +6,6 @@ attributes:
   number: "SM100"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM100_hires.png

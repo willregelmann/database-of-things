@@ -6,4 +6,6 @@ attributes:
   number: "SV063/SV122"
   rarity: Rare Shiny
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV063_hires.png

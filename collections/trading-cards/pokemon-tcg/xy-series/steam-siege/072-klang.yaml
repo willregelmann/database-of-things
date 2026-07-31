@@ -6,4 +6,6 @@ attributes:
   number: "72/114"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy11/72_hires.png

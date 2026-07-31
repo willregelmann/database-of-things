@@ -6,4 +6,6 @@ attributes:
   number: "23/72"
   rarity: Uncommon
   illustrator: AKIRA EGAWA
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45/23_hires.png

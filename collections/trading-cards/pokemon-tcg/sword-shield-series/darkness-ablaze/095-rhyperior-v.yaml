@@ -6,4 +6,6 @@ attributes:
   number: "95/189"
   rarity: Rare Holo V
   illustrator: Eske Yoshinob
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/95_hires.png

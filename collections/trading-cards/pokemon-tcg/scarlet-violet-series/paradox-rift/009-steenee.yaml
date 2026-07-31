@@ -6,4 +6,6 @@ attributes:
   number: "9/182"
   rarity: Uncommon
   illustrator: Kariya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/9_hires.png

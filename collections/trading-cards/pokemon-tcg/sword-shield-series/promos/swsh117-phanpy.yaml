@@ -6,4 +6,6 @@ attributes:
   number: "SWSH117"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH117_hires.png

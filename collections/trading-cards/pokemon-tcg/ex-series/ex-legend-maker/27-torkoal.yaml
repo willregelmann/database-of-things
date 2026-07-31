@@ -6,4 +6,6 @@ attributes:
   number: "27/92"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex12/27_hires.png

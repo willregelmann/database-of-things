@@ -6,4 +6,6 @@ attributes:
   number: "36/75"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo2/36_hires.png

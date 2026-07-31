@@ -6,4 +6,6 @@ attributes:
   number: "132"
   rarity: Promo
   illustrator: SIE NANAHARA
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/132_hires.png

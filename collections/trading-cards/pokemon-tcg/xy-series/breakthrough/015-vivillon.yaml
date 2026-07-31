@@ -6,4 +6,6 @@ attributes:
   number: "15/162"
   rarity: Rare Holo
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy8/15_hires.png

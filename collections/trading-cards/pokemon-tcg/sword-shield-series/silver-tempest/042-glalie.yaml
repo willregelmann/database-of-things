@@ -6,4 +6,6 @@ attributes:
   number: "42/195"
   rarity: Uncommon
   illustrator: Scav
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12/42_hires.png

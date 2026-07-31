@@ -6,4 +6,6 @@ attributes:
   number: "36/146"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy1/36_hires.png

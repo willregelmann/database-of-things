@@ -6,4 +6,6 @@ attributes:
   number: "50/78"
   rarity: Rare Holo VSTAR
   illustrator: PLANETA Tsuji
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/pgo/50_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "73/214"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/73_hires.png

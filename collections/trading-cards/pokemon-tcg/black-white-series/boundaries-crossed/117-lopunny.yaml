@@ -6,4 +6,6 @@ attributes:
   number: "117/149"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw7/117_hires.png

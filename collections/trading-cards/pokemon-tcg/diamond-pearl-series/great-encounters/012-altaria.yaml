@@ -6,4 +6,6 @@ attributes:
   number: "12/106"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/12_hires.png

@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "18/39"
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy0/18_hires.png

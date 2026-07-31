@@ -6,4 +6,6 @@ attributes:
   number: "23/122"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/23_hires.png

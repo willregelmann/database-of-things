@@ -6,4 +6,6 @@ attributes:
   number: "107/132"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/107_hires.png

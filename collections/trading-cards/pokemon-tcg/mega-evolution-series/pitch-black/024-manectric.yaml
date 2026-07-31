@@ -6,4 +6,6 @@ attributes:
   number: "24/84"
   rarity: Uncommon
   illustrator: Uninori
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me5-24/large

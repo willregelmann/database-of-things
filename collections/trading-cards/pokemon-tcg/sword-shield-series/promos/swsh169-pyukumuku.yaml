@@ -6,4 +6,6 @@ attributes:
   number: "SWSH169"
   rarity: Promo
   illustrator: Narumi Sato
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH169_hires.png

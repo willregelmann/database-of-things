@@ -6,4 +6,6 @@ attributes:
   number: "10/68"
   rarity: Uncommon
   illustrator: Satoshi Shirai
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm115/10_hires.png

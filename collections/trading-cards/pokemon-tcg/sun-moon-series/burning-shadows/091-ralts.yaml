@@ -6,4 +6,6 @@ attributes:
   number: "91/147"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm3/91_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "183/236"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/183_hires.png

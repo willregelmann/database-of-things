@@ -6,4 +6,6 @@ attributes:
   number: "187/195"
   rarity: Rare Ultra
   illustrator: N-DESIGN Inc.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/187_hires.png

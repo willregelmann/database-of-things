@@ -6,4 +6,6 @@ attributes:
   number: "69/156"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm5/69_hires.png

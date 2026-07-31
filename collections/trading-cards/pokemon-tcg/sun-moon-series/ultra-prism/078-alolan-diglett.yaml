@@ -6,4 +6,6 @@ attributes:
   number: "78/156"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm5/78_hires.png

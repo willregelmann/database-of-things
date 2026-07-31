@@ -6,4 +6,6 @@ attributes:
   number: "93/102"
   rarity: Rare Holo Prime
   illustrator: Hideaki Hakozaki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss4/93_hires.png

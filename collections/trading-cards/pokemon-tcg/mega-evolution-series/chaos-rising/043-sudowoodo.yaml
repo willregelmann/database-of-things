@@ -6,4 +6,6 @@ attributes:
   number: "43/86"
   rarity: Uncommon
   illustrator: GOTO minori
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me4-43/large

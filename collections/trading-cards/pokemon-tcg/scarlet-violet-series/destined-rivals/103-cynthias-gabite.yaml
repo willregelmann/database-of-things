@@ -6,4 +6,6 @@ attributes:
   number: "103/182"
   rarity: Common
   illustrator: Taira Akitsu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/103_hires.png

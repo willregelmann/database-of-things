@@ -6,4 +6,6 @@ attributes:
   number: "207/182"
   rarity: Ultra Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/207_hires.png

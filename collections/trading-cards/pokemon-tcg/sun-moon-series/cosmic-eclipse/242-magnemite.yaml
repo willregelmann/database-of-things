@@ -6,4 +6,6 @@ attributes:
   number: "242/236"
   rarity: Rare Secret
   illustrator: Fumie Kittaka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm12/242_hires.png

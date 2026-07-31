@@ -6,4 +6,6 @@ attributes:
   number: "71/119"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy4/71_hires.png

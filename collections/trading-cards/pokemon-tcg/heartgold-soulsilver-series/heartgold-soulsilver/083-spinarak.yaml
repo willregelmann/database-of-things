@@ -6,4 +6,6 @@ attributes:
   number: "83/123"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/83_hires.png

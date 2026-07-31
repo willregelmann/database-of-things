@@ -6,4 +6,6 @@ attributes:
   number: "15/53"
   rarity: Promo
   illustrator: Hiromichi Sugiyama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/15_hires.png

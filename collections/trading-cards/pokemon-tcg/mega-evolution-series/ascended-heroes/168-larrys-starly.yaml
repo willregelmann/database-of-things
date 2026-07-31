@@ -6,4 +6,6 @@ attributes:
   number: "168/217"
   rarity: Common
   illustrator: Natsumi Miyanose
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-168/large

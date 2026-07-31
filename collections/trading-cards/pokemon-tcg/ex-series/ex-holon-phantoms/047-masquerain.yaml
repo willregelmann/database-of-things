@@ -6,4 +6,6 @@ attributes:
   number: "47/110"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex13/47_hires.png

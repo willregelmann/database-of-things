@@ -6,4 +6,6 @@ attributes:
   number: "146/163"
   rarity: Rare Ultra
   illustrator: chibi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/146_hires.png

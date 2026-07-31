@@ -6,4 +6,6 @@ attributes:
   number: "XY102"
   rarity: Promo
   illustrator: Toyste Beach
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY102_hires.png

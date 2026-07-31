@@ -6,4 +6,6 @@ attributes:
   number: "204/91"
   rarity: Shiny Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/204_hires.png

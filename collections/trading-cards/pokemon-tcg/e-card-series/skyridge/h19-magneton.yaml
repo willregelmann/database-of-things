@@ -6,4 +6,6 @@ attributes:
   number: "H19/H32"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard3/H19_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "245/182"
   rarity: Special Illustration Rare
   illustrator: Oswaldo KATO
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/245_hires.png

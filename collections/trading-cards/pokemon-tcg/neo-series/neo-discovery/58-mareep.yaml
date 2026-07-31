@@ -6,4 +6,6 @@ attributes:
   number: "58/75"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo2/58_hires.png

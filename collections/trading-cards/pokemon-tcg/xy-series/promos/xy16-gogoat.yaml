@@ -6,4 +6,6 @@ attributes:
   number: "XY16"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY16_hires.png

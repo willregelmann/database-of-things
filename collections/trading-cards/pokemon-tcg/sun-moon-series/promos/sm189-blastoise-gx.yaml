@@ -6,4 +6,6 @@ attributes:
   number: "SM189"
   rarity: Promo
   illustrator: sadaji
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM189_hires.png

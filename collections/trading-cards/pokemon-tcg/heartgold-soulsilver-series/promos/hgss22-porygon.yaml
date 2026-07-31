@@ -6,4 +6,6 @@ attributes:
   number: "HGSS22"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hsp/HGSS22_hires.png

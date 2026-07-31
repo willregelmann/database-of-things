@@ -6,4 +6,6 @@ attributes:
   number: "AR1"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/pl4/AR1_hires.png

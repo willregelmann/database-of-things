@@ -6,4 +6,6 @@ attributes:
   number: "86/167"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/86_hires.png

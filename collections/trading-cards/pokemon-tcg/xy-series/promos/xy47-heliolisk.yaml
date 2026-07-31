@@ -6,4 +6,6 @@ attributes:
   number: "XY47"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY47_hires.png

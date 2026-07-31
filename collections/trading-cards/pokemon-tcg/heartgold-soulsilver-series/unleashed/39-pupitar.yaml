@@ -6,4 +6,6 @@ attributes:
   number: "39/95"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss2/39_hires.png

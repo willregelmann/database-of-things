@@ -6,4 +6,6 @@ attributes:
   number: "XY178"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY178_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "114/182"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/114_hires.png

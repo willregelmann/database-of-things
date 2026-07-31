@@ -6,4 +6,6 @@ attributes:
   number: "SWSH058"
   rarity: Promo
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH058_hires.png

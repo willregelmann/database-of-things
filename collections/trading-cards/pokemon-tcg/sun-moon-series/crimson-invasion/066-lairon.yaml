@@ -6,4 +6,6 @@ attributes:
   number: "66/111"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm4/66_hires.png

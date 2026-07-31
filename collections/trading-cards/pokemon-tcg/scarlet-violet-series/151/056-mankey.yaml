@@ -6,4 +6,6 @@ attributes:
   number: "56/165"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3pt5/56_hires.png

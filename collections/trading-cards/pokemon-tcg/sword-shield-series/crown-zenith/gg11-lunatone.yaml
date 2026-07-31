@@ -6,4 +6,6 @@ attributes:
   number: "GG11/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG11_hires.png

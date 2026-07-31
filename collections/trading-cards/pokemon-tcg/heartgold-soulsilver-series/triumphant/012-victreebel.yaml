@@ -6,4 +6,6 @@ attributes:
   number: "12/102"
   rarity: Rare Holo
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/12_hires.png

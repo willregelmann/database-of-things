@@ -6,4 +6,6 @@ attributes:
   number: "69/106"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy2/69_hires.png

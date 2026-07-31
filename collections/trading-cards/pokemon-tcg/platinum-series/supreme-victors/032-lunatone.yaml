@@ -6,4 +6,6 @@ attributes:
   number: "32/147"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl3/32_hires.png

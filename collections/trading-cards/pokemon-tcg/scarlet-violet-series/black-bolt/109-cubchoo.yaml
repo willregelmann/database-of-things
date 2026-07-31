@@ -6,4 +6,6 @@ attributes:
   number: "109/86"
   rarity: Illustration Rare
   illustrator: osare
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/109_hires.png

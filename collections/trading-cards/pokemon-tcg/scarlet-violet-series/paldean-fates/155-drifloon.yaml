@@ -6,4 +6,6 @@ attributes:
   number: "155/91"
   rarity: Shiny Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/155_hires.png

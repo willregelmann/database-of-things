@@ -6,4 +6,6 @@ attributes:
   number: "53/72"
   rarity: Rare Holo V
   illustrator: PLANETA Igarashi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45/53_hires.png

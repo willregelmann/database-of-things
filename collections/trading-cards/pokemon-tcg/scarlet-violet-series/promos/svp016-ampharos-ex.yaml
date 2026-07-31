@@ -6,4 +6,6 @@ attributes:
   number: "016"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/16_hires.png

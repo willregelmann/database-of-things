@@ -6,4 +6,6 @@ attributes:
   number: "35/160"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/35_hires.png

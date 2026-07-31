@@ -6,4 +6,6 @@ attributes:
   number: "171/189"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/171_hires.png

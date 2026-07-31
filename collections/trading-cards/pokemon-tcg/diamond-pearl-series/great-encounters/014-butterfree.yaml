@@ -6,4 +6,6 @@ attributes:
   number: "14/106"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/14_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH143"
   rarity: Promo
   illustrator: HYOGONOSUKE
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH143_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "74/236"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/74_hires.png

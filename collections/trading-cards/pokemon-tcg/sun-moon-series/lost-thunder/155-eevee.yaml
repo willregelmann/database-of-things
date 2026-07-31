@@ -6,4 +6,6 @@ attributes:
   number: "155/214"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/155_hires.png

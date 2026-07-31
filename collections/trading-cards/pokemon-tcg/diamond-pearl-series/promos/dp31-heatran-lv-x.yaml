@@ -6,4 +6,6 @@ attributes:
   number: "DP31"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dpp/DP31_hires.png

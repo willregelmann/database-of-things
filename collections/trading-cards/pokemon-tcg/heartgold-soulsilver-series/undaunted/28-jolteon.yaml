@@ -6,4 +6,6 @@ attributes:
   number: "28/90"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss3/28_hires.png

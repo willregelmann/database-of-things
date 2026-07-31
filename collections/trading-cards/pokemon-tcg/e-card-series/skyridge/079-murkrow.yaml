@@ -6,4 +6,6 @@ attributes:
   number: "79/144"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ecard3/79_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "71/198"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/71_hires.png

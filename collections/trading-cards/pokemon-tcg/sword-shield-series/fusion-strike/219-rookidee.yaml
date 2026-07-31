@@ -6,4 +6,6 @@ attributes:
   number: "219/264"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/219_hires.png

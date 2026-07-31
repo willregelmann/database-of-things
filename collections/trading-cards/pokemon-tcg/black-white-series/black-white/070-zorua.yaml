@@ -6,4 +6,6 @@ attributes:
   number: "70/114"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw1/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "36/132"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp3/36_hires.png

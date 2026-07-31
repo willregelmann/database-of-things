@@ -6,4 +6,6 @@ attributes:
   number: "113/172"
   rarity: Rare
   illustrator: Ryo Ueda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh9/113_hires.png

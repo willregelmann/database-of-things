@@ -6,4 +6,6 @@ attributes:
   number: "53/236"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "8/124"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw6/8_hires.png

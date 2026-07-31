@@ -6,4 +6,6 @@ attributes:
   number: "45/191"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8/45_hires.png

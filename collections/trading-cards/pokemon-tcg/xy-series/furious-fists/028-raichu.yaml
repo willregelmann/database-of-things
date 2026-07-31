@@ -6,4 +6,6 @@ attributes:
   number: "28/111"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy3/28_hires.png

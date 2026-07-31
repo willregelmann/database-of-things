@@ -6,4 +6,6 @@ attributes:
   number: "BW87"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bwp/BW87_hires.png

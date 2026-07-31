@@ -6,4 +6,6 @@ attributes:
   number: "45/159"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv9/45_hires.png

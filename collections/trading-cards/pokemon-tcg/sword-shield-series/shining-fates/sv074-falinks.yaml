@@ -6,4 +6,6 @@ attributes:
   number: "SV074/SV122"
   rarity: Rare Shiny
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV074_hires.png

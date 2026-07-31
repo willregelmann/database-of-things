@@ -6,4 +6,6 @@ attributes:
   number: "SV8/SV94"
   rarity: Rare Shiny
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/sma/SV8_hires.png

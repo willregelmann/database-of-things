@@ -6,4 +6,6 @@ attributes:
   number: "57/91"
   rarity: Uncommon
   illustrator: Nelnal
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4pt5/57_hires.png

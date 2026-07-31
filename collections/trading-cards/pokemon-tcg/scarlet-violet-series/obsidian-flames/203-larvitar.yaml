@@ -6,4 +6,6 @@ attributes:
   number: "203/197"
   rarity: Illustration Rare
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3/203_hires.png

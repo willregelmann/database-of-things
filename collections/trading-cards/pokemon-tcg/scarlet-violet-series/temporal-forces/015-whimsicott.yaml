@@ -6,4 +6,6 @@ attributes:
   number: "15/162"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/15_hires.png

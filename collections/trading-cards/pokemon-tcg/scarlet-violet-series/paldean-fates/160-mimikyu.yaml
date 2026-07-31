@@ -6,4 +6,6 @@ attributes:
   number: "160/91"
   rarity: Shiny Rare
   illustrator: Nelnal
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/160_hires.png

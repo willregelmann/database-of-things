@@ -6,4 +6,6 @@ attributes:
   number: "186/165"
   rarity: Ultra Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3pt5/186_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "54/106"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/54_hires.png

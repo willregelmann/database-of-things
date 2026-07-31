@@ -6,4 +6,6 @@ attributes:
   number: "64/130"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp1/64_hires.png

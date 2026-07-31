@@ -6,4 +6,6 @@ attributes:
   number: "12/70"
   rarity: Common
   illustrator: Ryota Murayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/12_hires.png

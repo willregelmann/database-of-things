@@ -6,4 +6,6 @@ attributes:
   number: "7/114"
   rarity: Common
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/7_hires.png

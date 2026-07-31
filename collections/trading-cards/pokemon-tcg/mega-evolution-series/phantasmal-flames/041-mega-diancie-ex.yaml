@@ -6,4 +6,6 @@ attributes:
   number: "41/94"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/41_hires.png

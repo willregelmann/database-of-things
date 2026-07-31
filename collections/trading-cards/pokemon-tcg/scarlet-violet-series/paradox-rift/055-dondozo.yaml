@@ -6,4 +6,6 @@ attributes:
   number: "55/182"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/55_hires.png

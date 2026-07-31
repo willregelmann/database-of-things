@@ -6,4 +6,6 @@ attributes:
   number: "54/97"
   rarity: Common
   illustrator: Hisao Nakamura
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex3/54_hires.png

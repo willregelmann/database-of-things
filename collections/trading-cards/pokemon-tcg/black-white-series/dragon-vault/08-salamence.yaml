@@ -6,4 +6,6 @@ attributes:
   number: "8/20"
   rarity: Rare Holo
   illustrator: BERUBURI
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/8_hires.png

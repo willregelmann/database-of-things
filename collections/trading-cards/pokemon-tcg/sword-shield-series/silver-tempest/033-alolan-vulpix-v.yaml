@@ -6,4 +6,6 @@ attributes:
   number: "33/195"
   rarity: Rare Holo V
   illustrator: Ryota Murayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12/33_hires.png

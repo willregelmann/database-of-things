@@ -6,4 +6,6 @@ attributes:
   number: "XY181"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY181_hires.png

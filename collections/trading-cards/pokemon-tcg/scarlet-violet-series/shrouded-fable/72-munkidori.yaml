@@ -6,4 +6,6 @@ attributes:
   number: "72/64"
   rarity: Illustration Rare
   illustrator: Teeziro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6pt5/72_hires.png

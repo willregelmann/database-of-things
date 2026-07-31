@@ -6,4 +6,6 @@ attributes:
   number: "15/98"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy7/15_hires.png

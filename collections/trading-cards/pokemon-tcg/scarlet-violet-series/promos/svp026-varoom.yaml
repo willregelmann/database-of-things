@@ -6,4 +6,6 @@ attributes:
   number: "026"
   rarity: Promo
   illustrator: Mina Nakai
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/26_hires.png

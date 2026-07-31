@@ -6,4 +6,6 @@ attributes:
   number: "20/88"
   rarity: Common
   illustrator: Takeshi Nakamura
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me3-20/large

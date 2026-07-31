@@ -6,4 +6,6 @@ attributes:
   number: "29/147"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard2/29_hires.png

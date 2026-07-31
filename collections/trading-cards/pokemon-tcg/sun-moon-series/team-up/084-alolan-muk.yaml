@@ -6,4 +6,6 @@ attributes:
   number: "84/181"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm9/84_hires.png

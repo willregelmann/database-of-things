@@ -6,4 +6,6 @@ attributes:
   number: "45/131"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/45_hires.png

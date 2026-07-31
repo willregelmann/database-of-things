@@ -6,4 +6,6 @@ attributes:
   number: "68/102"
   rarity: Common
   illustrator: Noriko Hotta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss4/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "197/182"
   rarity: Illustration Rare
   illustrator: Taiga Kayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/197_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "17/122"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/17_hires.png

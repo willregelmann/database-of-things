@@ -6,4 +6,6 @@ attributes:
   number: "24/197"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3/24_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "263/193"
   rarity: Special Illustration Rare
   illustrator: KEIICHIRO ITO
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/263_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "11/83"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Fire
 image: https://images.pokemontcg.io/g1/11_hires.png

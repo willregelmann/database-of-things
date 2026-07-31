@@ -6,4 +6,6 @@ attributes:
   number: "89/156"
   rarity: Rare Prism Star
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm5/89_hires.png

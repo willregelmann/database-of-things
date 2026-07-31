@@ -6,4 +6,6 @@ attributes:
   number: "46/68"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm115/46_hires.png

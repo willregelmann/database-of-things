@@ -6,4 +6,6 @@ attributes:
   number: "30/145"
   rarity: Rare
   illustrator: OOYAMA
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm2/30_hires.png

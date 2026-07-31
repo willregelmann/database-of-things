@@ -6,4 +6,6 @@ attributes:
   number: "41/84"
   rarity: Uncommon
   illustrator: Haru Akasaka
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-41/large

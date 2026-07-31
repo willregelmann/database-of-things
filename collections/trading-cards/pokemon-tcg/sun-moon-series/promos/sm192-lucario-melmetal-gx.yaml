@@ -6,4 +6,6 @@ attributes:
   number: "SM192"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM192_hires.png

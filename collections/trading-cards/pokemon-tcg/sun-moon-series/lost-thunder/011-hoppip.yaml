@@ -6,4 +6,6 @@ attributes:
   number: "11/214"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/11_hires.png

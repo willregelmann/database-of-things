@@ -6,4 +6,7 @@ attributes:
   number: "79/114"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Fairy
+    - Psychic
 image: https://images.pokemontcg.io/xy11/79_hires.png

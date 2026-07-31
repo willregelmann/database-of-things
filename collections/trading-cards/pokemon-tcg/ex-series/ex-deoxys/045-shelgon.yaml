@@ -6,4 +6,6 @@ attributes:
   number: "45/107"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/45_hires.png

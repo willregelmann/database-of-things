@@ -6,4 +6,6 @@ attributes:
   number: "105/236"
   rarity: Common
   illustrator: otumami
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/105_hires.png

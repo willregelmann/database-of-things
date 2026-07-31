@@ -6,4 +6,6 @@ attributes:
   number: "114/264"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/114_hires.png

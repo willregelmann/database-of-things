@@ -6,4 +6,6 @@ attributes:
   number: "12/181"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm9/12_hires.png

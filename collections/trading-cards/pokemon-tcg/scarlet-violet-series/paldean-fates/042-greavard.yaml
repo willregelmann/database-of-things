@@ -6,4 +6,6 @@ attributes:
   number: "42/91"
   rarity: Common
   illustrator: yuu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/42_hires.png

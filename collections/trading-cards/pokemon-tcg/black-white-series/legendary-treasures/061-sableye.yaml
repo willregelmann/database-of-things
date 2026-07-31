@@ -6,4 +6,6 @@ attributes:
   number: "61/113"
   rarity: Uncommon
   illustrator: Hiroki Asanuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/61_hires.png

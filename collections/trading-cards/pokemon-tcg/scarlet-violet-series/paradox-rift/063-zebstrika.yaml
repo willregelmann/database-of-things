@@ -6,4 +6,6 @@ attributes:
   number: "63/182"
   rarity: Uncommon
   illustrator: GOSSAN
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/63_hires.png

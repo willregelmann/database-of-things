@@ -6,4 +6,6 @@ attributes:
   number: "125/86"
   rarity: Illustration Rare
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/zsv10pt5/125_hires.png

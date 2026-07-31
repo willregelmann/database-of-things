@@ -6,4 +6,6 @@ attributes:
   number: "SV34/SV94"
   rarity: Rare Shiny
   illustrator: Kyoko Umemoto
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sma/SV34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "72/99"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/72_hires.png

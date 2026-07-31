@@ -6,4 +6,6 @@ attributes:
   number: "SWSH223"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH223_hires.png

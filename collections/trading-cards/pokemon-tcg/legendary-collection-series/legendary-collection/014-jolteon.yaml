@@ -6,6 +6,8 @@ attributes:
   number: "14/110"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base6/14_hires.png
 variants:
   - id: c0d0d437-9e70-4aee-aab3-b9c10a9701fa

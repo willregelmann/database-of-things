@@ -6,4 +6,6 @@ attributes:
   number: "182/165"
   rarity: Ultra Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3pt5/182_hires.png

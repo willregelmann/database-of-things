@@ -6,4 +6,6 @@ attributes:
   number: "101/195"
   rarity: Uncommon
   illustrator: Hataya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/101_hires.png

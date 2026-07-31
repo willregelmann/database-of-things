@@ -6,4 +6,6 @@ attributes:
   number: "33/147"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl3/33_hires.png

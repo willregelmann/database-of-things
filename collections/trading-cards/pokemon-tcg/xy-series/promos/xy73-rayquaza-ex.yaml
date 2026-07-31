@@ -6,4 +6,6 @@ attributes:
   number: "XY73"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY73_hires.png

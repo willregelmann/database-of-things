@@ -6,4 +6,6 @@ attributes:
   number: "57/193"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/57_hires.png

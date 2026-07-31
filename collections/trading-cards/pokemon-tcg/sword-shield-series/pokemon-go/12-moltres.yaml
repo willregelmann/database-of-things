@@ -6,4 +6,6 @@ attributes:
   number: "12/78"
   rarity: Rare Holo
   illustrator: Pani Kobayashi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pgo/12_hires.png

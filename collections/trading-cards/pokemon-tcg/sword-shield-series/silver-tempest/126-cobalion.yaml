@@ -6,4 +6,6 @@ attributes:
   number: "126/195"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12/126_hires.png

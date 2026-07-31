@@ -6,4 +6,6 @@ attributes:
   number: "95/149"
   rarity: Uncommon
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm1/95_hires.png

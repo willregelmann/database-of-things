@@ -6,4 +6,6 @@ attributes:
   number: "139/86"
   rarity: Illustration Rare
   illustrator: Nobuhiro Imagawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/zsv10pt5/139_hires.png

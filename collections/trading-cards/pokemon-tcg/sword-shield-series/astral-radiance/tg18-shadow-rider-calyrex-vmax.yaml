@@ -6,4 +6,6 @@ attributes:
   number: "TG18/TG30"
   rarity: Rare Holo VMAX
   illustrator: chibi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10tg/TG18_hires.png

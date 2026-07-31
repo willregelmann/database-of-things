@@ -6,4 +6,6 @@ attributes:
   number: "SM181"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM181_hires.png

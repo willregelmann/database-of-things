@@ -6,4 +6,6 @@ attributes:
   number: "020"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/np/20_hires.png

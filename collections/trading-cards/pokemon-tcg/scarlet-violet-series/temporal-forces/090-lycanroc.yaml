@@ -6,4 +6,6 @@ attributes:
   number: "90/162"
   rarity: Uncommon
   illustrator: Yoshioka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/90_hires.png

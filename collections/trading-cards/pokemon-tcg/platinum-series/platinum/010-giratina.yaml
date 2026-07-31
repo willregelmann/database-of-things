@@ -6,4 +6,6 @@ attributes:
   number: "10/127"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/10_hires.png

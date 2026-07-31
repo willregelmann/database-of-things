@@ -6,4 +6,6 @@ attributes:
   number: "98/236"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/98_hires.png

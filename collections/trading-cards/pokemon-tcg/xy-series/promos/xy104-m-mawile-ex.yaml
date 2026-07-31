@@ -6,4 +6,6 @@ attributes:
   number: "XY104"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xyp/XY104_hires.png

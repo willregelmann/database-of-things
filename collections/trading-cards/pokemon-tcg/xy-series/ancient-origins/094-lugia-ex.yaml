@@ -6,4 +6,6 @@ attributes:
   number: "94/98"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy7/94_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "90/165"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard1/90_hires.png

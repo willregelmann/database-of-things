@@ -6,4 +6,6 @@ attributes:
   number: "16/149"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw7/16_hires.png

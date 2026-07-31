@@ -6,4 +6,6 @@ attributes:
   number: "200/91"
   rarity: Shiny Rare
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/200_hires.png

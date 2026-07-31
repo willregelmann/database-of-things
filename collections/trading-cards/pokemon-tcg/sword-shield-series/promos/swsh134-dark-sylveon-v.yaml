@@ -6,4 +6,6 @@ attributes:
   number: "SWSH134"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH134_hires.png

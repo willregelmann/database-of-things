@@ -6,4 +6,6 @@ attributes:
   number: "31/146"
   rarity: Rare
   illustrator: Satoshi Ohta
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp6/31_hires.png

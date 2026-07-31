@@ -6,4 +6,6 @@ attributes:
   number: "76/203"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/76_hires.png

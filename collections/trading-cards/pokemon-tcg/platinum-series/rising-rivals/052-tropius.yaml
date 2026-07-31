@@ -6,4 +6,6 @@ attributes:
   number: "52/111"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl2/52_hires.png

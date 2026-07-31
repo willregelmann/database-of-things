@@ -6,4 +6,6 @@ attributes:
   number: "SWSH193"
   rarity: Promo
   illustrator: Megumi Higuchi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH193_hires.png

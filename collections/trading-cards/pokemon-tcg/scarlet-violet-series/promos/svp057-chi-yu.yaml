@@ -6,4 +6,6 @@ attributes:
   number: "057"
   rarity: Promo
   illustrator: Dsuke
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/57_hires.png

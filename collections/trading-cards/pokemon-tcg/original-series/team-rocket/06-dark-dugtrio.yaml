@@ -6,4 +6,6 @@ attributes:
   number: "6/82"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base5/6_hires.png

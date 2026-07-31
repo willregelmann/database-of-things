@@ -6,4 +6,6 @@ attributes:
   number: "198/196"
   rarity: Rare Rainbow
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh11/198_hires.png

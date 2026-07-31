@@ -6,4 +6,6 @@ attributes:
   number: "73/191"
   rarity: Common
   illustrator: Shimaris Yukichi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/73_hires.png

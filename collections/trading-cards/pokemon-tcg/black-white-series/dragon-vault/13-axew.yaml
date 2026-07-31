@@ -6,4 +6,6 @@ attributes:
   number: "13/20"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/13_hires.png

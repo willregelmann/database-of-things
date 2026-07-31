@@ -6,4 +6,6 @@ attributes:
   number: "99/159"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv9/99_hires.png

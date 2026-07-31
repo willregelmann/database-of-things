@@ -6,4 +6,6 @@ attributes:
   number: "82/172"
   rarity: Common
   illustrator: Eske Yoshinob
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/82_hires.png

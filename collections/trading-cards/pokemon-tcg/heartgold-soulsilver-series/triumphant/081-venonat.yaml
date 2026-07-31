@@ -6,4 +6,6 @@ attributes:
   number: "81/102"
   rarity: Common
   illustrator: Hideaki Hakozaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "166/217"
   rarity: Uncommon
   illustrator: buchi
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-166/large

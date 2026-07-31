@@ -6,4 +6,6 @@ attributes:
   number: "XY103"
   rarity: Promo
   illustrator: Ayaka Yoshida
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xyp/XY103_hires.png

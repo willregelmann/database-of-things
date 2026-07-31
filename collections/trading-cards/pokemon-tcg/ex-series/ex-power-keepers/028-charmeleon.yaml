@@ -6,4 +6,6 @@ attributes:
   number: "28/108"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex16/28_hires.png

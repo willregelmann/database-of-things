@@ -6,4 +6,6 @@ attributes:
   number: "56/106"
   rarity: Uncommon
   illustrator: Daisuke Ito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "223/198"
   rarity: Ultra Rare
   illustrator: takuyoa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/223_hires.png

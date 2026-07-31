@@ -6,4 +6,6 @@ attributes:
   number: "34/112"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex6/34_hires.png

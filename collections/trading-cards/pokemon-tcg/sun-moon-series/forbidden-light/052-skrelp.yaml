@@ -6,4 +6,6 @@ attributes:
   number: "52/131"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm6/52_hires.png

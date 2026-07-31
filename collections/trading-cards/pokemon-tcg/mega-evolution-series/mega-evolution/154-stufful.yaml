@@ -6,4 +6,6 @@ attributes:
   number: "154/132"
   rarity: Illustration Rare
   illustrator: OKACHEKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/154_hires.png

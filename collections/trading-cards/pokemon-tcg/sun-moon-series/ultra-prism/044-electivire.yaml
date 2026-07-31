@@ -6,4 +6,6 @@ attributes:
   number: "44/156"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm5/44_hires.png

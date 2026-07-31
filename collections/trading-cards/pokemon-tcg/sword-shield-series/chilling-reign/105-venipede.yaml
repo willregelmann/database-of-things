@@ -6,4 +6,6 @@ attributes:
   number: "105/198"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh6/105_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "H17/H32"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard3/H17_hires.png

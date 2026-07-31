@@ -6,4 +6,6 @@ attributes:
   number: "43/185"
   rarity: Rare Holo V
   illustrator: Saki Hayashiro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/43_hires.png

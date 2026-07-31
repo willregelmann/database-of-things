@@ -6,4 +6,6 @@ attributes:
   number: "28/106"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/28_hires.png

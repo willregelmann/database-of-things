@@ -6,4 +6,6 @@ attributes:
   number: "15/132"
   rarity: Uncommon
   illustrator: Uninori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/15_hires.png

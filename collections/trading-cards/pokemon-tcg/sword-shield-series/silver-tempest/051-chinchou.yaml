@@ -6,4 +6,6 @@ attributes:
   number: "51/195"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12/51_hires.png

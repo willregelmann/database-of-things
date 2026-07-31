@@ -6,4 +6,6 @@ attributes:
   number: "XY38"
   rarity: Promo
   illustrator: Aya Kusube
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY38_hires.png

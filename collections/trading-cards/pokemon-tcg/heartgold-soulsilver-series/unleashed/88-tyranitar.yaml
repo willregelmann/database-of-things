@@ -6,4 +6,6 @@ attributes:
   number: "88/95"
   rarity: Rare Holo Prime
   illustrator: Wataru Kawahara
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/hgss2/88_hires.png

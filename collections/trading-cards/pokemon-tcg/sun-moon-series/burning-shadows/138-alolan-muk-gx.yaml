@@ -6,4 +6,6 @@ attributes:
   number: "138/147"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm3/138_hires.png

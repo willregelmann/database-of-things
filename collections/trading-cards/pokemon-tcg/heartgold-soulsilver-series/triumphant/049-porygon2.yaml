@@ -6,4 +6,6 @@ attributes:
   number: "49/102"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/49_hires.png

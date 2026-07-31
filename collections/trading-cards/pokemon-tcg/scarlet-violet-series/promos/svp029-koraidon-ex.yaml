@@ -6,4 +6,6 @@ attributes:
   number: "029"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/svp/29_hires.png

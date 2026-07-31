@@ -6,4 +6,6 @@ attributes:
   number: "148/236"
   rarity: Rare
   illustrator: Yumi
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm12/148_hires.png

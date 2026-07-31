@@ -6,4 +6,6 @@ attributes:
   number: "GG02/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Nurikabe
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12pt5gg/GG02_hires.png

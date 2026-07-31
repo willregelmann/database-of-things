@@ -6,4 +6,6 @@ attributes:
   number: "99/100"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp7/99_hires.png

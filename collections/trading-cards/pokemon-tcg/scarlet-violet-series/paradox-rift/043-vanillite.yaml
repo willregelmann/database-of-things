@@ -6,4 +6,6 @@ attributes:
   number: "43/182"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/43_hires.png

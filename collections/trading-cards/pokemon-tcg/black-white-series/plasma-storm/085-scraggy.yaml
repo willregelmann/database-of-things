@@ -6,4 +6,6 @@ attributes:
   number: "85/135"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw8/85_hires.png

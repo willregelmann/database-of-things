@@ -6,4 +6,6 @@ attributes:
   number: "102/195"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/102_hires.png

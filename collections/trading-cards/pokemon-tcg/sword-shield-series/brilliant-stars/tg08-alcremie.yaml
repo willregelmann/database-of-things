@@ -6,4 +6,6 @@ attributes:
   number: "TG08/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: OKACHEKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9tg/TG08_hires.png

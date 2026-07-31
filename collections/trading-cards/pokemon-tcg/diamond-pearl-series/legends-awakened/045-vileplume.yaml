@@ -6,4 +6,6 @@ attributes:
   number: "45/146"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp6/45_hires.png

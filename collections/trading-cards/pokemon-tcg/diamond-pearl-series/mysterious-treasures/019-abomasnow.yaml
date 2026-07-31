@@ -6,4 +6,6 @@ attributes:
   number: "19/123"
   rarity: Rare
   illustrator: Kazuyuki Kano
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp2/19_hires.png

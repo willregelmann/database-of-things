@@ -6,4 +6,6 @@ attributes:
   number: "79/107"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/79_hires.png

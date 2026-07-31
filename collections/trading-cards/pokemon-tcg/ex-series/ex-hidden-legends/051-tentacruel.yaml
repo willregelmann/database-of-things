@@ -6,4 +6,6 @@ attributes:
   number: "51/101"
   rarity: Uncommon
   illustrator: Hisao Nakamura
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex5/51_hires.png

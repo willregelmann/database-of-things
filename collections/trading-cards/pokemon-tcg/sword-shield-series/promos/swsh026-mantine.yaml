@@ -6,4 +6,6 @@ attributes:
   number: "SWSH026"
   rarity: Promo
   illustrator: "0313"
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH026_hires.png

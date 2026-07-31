@@ -6,4 +6,6 @@ attributes:
   number: "RC12/RC25"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw11/RC12_hires.png

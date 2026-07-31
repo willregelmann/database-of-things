@@ -6,4 +6,6 @@ attributes:
   number: "8/135"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw8/8_hires.png

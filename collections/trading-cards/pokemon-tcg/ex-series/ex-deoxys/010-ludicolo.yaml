@@ -6,4 +6,6 @@ attributes:
   number: "10/107"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex8/10_hires.png

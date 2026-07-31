@@ -6,4 +6,6 @@ attributes:
   number: "SV21/SV94"
   rarity: Rare Shiny
   illustrator: Misa Tsutsui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sma/SV21_hires.png

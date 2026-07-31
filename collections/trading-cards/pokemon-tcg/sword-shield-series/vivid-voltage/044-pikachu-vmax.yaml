@@ -6,4 +6,6 @@ attributes:
   number: "44/185"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/44_hires.png

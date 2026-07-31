@@ -6,4 +6,6 @@ attributes:
   number: "RC31/RC32"
   rarity: Rare Ultra
   illustrator: Megumi Mizutani
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC31_hires.png

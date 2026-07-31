@@ -6,4 +6,6 @@ attributes:
   number: "15/198"
   rarity: Rare
   illustrator: Yuu Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh6/15_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM164"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM164_hires.png

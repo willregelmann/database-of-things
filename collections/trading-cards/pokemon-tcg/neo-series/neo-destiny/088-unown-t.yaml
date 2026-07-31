@@ -6,4 +6,6 @@ attributes:
   number: "88/105"
   rarity: Common
   illustrator: CR CG gangs
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo4/88_hires.png

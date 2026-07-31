@@ -6,4 +6,6 @@ attributes:
   number: "128/203"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/128_hires.png

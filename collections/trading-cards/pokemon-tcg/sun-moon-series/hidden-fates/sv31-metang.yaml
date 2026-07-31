@@ -6,4 +6,6 @@ attributes:
   number: "SV31/SV94"
   rarity: Rare Shiny
   illustrator: Saya Tsuruta
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV31_hires.png

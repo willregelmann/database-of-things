@@ -6,4 +6,6 @@ attributes:
   number: "SV119/SV122"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Tsuji
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV119_hires.png

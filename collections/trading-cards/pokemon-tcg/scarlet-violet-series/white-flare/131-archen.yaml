@@ -6,4 +6,6 @@ attributes:
   number: "131/86"
   rarity: Uncommon
   illustrator: Ounishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/131_hires.png

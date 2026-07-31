@@ -6,4 +6,6 @@ attributes:
   number: "104/198"
   rarity: Rare Holo V
   illustrator: Ayaka Yoshida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh6/104_hires.png

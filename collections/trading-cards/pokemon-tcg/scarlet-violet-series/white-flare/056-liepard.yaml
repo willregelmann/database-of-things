@@ -6,4 +6,6 @@ attributes:
   number: "56/86"
   rarity: Uncommon
   illustrator: Yuu Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/rsv10pt5/56_hires.png

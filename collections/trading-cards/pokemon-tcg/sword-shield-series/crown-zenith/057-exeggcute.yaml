@@ -6,4 +6,6 @@ attributes:
   number: "57/159"
   rarity: Common
   illustrator: zig
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5/57_hires.png

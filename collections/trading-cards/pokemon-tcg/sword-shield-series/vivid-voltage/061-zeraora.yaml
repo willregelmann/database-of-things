@@ -6,4 +6,6 @@ attributes:
   number: "61/185"
   rarity: Rare Holo
   illustrator: so-taro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/61_hires.png

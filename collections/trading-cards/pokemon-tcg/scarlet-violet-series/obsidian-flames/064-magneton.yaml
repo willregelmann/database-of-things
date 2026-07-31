@@ -6,4 +6,6 @@ attributes:
   number: "64/197"
   rarity: Common
   illustrator: kurumitsu
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3/64_hires.png

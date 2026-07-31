@@ -6,4 +6,6 @@ attributes:
   number: "94/132"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/me1/94_hires.png

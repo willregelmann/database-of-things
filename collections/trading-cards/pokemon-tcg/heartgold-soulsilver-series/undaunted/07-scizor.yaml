@@ -6,4 +6,6 @@ attributes:
   number: "7/90"
   rarity: Rare Holo
   illustrator: Kent Kanetsuna/Direc. Shinji Higuchi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss3/7_hires.png

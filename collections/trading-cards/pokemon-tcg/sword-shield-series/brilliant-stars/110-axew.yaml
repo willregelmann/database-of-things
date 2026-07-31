@@ -6,4 +6,6 @@ attributes:
   number: "110/172"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh9/110_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY80"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY80_hires.png

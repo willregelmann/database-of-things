@@ -6,4 +6,6 @@ attributes:
   number: "80/108"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy6/80_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "74/196"
   rarity: Rare Holo
   illustrator: saino misaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/74_hires.png

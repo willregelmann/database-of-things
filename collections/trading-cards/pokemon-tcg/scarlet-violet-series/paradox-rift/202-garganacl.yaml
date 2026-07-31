@@ -6,4 +6,6 @@ attributes:
   number: "202/182"
   rarity: Illustration Rare
   illustrator: kodama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/202_hires.png

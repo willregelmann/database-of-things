@@ -6,4 +6,6 @@ attributes:
   number: "57/165"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/57_hires.png

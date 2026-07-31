@@ -6,4 +6,6 @@ attributes:
   number: "136/182"
   rarity: Rare
   illustrator: Tonji Matsuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/136_hires.png

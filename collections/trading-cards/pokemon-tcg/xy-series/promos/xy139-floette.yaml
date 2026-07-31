@@ -6,4 +6,6 @@ attributes:
   number: "XY139"
   rarity: Promo
   illustrator: Midori Harada
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xyp/XY139_hires.png

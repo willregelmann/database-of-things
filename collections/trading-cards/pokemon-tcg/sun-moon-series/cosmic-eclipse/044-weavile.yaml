@@ -6,4 +6,6 @@ attributes:
   number: "44/236"
   rarity: Rare
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/44_hires.png

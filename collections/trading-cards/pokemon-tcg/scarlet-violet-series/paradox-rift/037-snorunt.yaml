@@ -6,4 +6,6 @@ attributes:
   number: "37/182"
   rarity: Common
   illustrator: satoma
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/37_hires.png

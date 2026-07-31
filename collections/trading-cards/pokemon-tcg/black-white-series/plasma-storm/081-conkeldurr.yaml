@@ -6,4 +6,6 @@ attributes:
   number: "81/135"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw8/81_hires.png

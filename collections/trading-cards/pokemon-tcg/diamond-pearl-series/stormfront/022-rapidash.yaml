@@ -6,4 +6,6 @@ attributes:
   number: "22/100"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp7/22_hires.png

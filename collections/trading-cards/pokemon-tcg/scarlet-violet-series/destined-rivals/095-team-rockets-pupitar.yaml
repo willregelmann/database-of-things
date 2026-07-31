@@ -6,4 +6,6 @@ attributes:
   number: "95/182"
   rarity: Common
   illustrator: Izucch
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/95_hires.png

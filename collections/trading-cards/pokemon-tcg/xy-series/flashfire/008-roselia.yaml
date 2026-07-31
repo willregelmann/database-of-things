@@ -6,4 +6,6 @@ attributes:
   number: "8/106"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy2/8_hires.png

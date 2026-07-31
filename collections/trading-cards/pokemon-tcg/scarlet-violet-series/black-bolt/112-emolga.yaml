@@ -6,4 +6,6 @@ attributes:
   number: "112/86"
   rarity: Illustration Rare
   illustrator: Tomomi Ozaki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/zsv10pt5/112_hires.png

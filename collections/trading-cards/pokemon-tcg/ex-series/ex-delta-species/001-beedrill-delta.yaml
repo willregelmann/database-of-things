@@ -6,4 +6,7 @@ attributes:
   number: "1/113"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
+    - Metal
 image: https://images.pokemontcg.io/ex11/1_hires.png

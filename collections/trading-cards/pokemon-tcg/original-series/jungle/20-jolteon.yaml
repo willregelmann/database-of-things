@@ -6,4 +6,6 @@ attributes:
   number: "20/64"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base2/20_hires.png

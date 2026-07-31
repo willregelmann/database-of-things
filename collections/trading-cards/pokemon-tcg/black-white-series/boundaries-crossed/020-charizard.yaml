@@ -6,4 +6,6 @@ attributes:
   number: "20/149"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw7/20_hires.png

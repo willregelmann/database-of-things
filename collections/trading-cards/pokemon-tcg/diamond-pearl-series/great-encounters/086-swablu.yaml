@@ -6,4 +6,6 @@ attributes:
   number: "86/106"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/86_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "11/147"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm3/11_hires.png

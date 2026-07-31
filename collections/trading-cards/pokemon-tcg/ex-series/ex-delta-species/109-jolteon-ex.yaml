@@ -6,4 +6,6 @@ attributes:
   number: "109/113"
   rarity: Rare Holo ex
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex11/109_hires.png

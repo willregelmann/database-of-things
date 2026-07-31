@@ -6,4 +6,6 @@ attributes:
   number: "58/101"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex5/58_hires.png

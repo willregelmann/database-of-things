@@ -6,4 +6,6 @@ attributes:
   number: "7/182"
   rarity: Common
   illustrator: nisimono
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/7_hires.png

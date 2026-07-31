@@ -6,4 +6,6 @@ attributes:
   number: "81/189"
   rarity: Radiant Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/81_hires.png

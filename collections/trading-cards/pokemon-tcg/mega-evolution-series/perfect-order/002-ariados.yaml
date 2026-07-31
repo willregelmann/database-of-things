@@ -6,4 +6,6 @@ attributes:
   number: "2/88"
   rarity: Common
   illustrator: svlt
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-2/large

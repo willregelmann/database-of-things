@@ -6,4 +6,6 @@ attributes:
   number: "77/100"
   rarity: Common
   illustrator: Daisuke Ito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp5/77_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "DP42"
   rarity: Promo
   illustrator: Makoto Imai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dpp/DP42_hires.png

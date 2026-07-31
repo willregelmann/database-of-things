@@ -6,4 +6,6 @@ attributes:
   number: "116/195"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12/116_hires.png

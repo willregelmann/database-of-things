@@ -6,4 +6,6 @@ attributes:
   number: "SWSH258"
   rarity: Promo
   illustrator: Ryota Murayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH258_hires.png

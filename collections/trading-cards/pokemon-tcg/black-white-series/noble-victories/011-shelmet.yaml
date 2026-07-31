@@ -6,4 +6,6 @@ attributes:
   number: "11/101"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw3/11_hires.png

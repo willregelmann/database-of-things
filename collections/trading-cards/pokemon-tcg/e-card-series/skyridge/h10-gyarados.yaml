@@ -6,4 +6,6 @@ attributes:
   number: "H10/H32"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/H10_hires.png

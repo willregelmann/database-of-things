@@ -6,4 +6,6 @@ attributes:
   number: "SM116"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM116_hires.png

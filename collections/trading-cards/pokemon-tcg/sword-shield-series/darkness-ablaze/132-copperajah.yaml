@@ -6,4 +6,6 @@ attributes:
   number: "132/189"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/132_hires.png

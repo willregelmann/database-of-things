@@ -6,4 +6,6 @@ attributes:
   number: "SM152"
   rarity: Promo
   illustrator: HYOGONOSUKE
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/smp/SM152_hires.png

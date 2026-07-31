@@ -6,4 +6,6 @@ attributes:
   number: "81/236"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/81_hires.png

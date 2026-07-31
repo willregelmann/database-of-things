@@ -6,4 +6,6 @@ attributes:
   number: "115/159"
   rarity: Common
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/115_hires.png

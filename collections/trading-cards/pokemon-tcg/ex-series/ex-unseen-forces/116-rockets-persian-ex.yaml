@@ -6,4 +6,6 @@ attributes:
   number: "116/115"
   rarity: Rare Secret
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex10/116_hires.png

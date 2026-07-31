@@ -6,4 +6,6 @@ attributes:
   number: "111/192"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/111_hires.png

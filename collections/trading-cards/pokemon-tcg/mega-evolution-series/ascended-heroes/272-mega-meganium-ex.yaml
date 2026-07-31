@@ -6,4 +6,6 @@ attributes:
   number: "272/217"
   rarity: Special Illustration Rare
   illustrator: Tika Matsuno
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me2pt5-272/large

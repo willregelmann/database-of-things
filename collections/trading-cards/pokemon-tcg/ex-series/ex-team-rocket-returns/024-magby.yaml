@@ -6,4 +6,6 @@ attributes:
   number: "24/109"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex7/24_hires.png

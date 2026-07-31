@@ -6,4 +6,6 @@ attributes:
   number: "112/162"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy8/112_hires.png

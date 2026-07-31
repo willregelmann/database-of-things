@@ -6,4 +6,6 @@ attributes:
   number: "16/159"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/16_hires.png

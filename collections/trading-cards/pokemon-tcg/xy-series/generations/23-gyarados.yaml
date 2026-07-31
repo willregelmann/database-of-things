@@ -6,4 +6,6 @@ attributes:
   number: "23/83"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/g1/23_hires.png

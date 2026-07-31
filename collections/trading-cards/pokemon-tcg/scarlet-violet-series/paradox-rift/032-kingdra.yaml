@@ -6,4 +6,6 @@ attributes:
   number: "32/182"
   rarity: Rare
   illustrator: Tonji Matsuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/32_hires.png

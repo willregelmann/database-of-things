@@ -6,4 +6,6 @@ attributes:
   number: "108/189"
   rarity: Rare
   illustrator: hatachu
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/108_hires.png

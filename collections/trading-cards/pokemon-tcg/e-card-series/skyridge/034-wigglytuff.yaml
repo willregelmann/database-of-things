@@ -6,4 +6,6 @@ attributes:
   number: "34/144"
   rarity: Rare
   illustrator: Hizuki Misono
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/34_hires.png

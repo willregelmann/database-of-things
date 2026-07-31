@@ -6,4 +6,6 @@ attributes:
   number: "44/86"
   rarity: Common
   illustrator: MARINA Chikazawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/44_hires.png

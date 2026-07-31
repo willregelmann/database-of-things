@@ -6,4 +6,6 @@ attributes:
   number: "27/130"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/27_hires.png

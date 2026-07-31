@@ -6,4 +6,6 @@ attributes:
   number: "188/132"
   rarity: Mega Hyper Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/188_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM232"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM232_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "29/101"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw10/29_hires.png

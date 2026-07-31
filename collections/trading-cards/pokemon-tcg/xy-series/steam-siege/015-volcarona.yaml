@@ -6,4 +6,7 @@ attributes:
   number: "15/114"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fire
+    - Grass
 image: https://images.pokemontcg.io/xy11/15_hires.png

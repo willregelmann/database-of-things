@@ -6,4 +6,6 @@ attributes:
   number: "SWSH242"
   rarity: Promo
   illustrator: Teeziro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH242_hires.png

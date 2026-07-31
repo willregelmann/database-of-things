@@ -6,4 +6,6 @@ attributes:
   number: "113/111"
   rarity: Rare Secret
   illustrator: Toshinao Aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/113_hires.png

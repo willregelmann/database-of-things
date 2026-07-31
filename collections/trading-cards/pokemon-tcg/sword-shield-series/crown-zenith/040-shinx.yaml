@@ -6,4 +6,6 @@ attributes:
   number: "40/159"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12pt5/40_hires.png

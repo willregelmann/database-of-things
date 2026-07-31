@@ -6,4 +6,6 @@ attributes:
   number: "84/192"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/84_hires.png

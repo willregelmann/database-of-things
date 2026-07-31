@@ -6,4 +6,6 @@ attributes:
   number: "60/109"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex7/60_hires.png

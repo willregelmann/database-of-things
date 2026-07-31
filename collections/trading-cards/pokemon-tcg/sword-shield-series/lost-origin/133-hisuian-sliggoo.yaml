@@ -6,4 +6,6 @@ attributes:
   number: "133/196"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/133_hires.png

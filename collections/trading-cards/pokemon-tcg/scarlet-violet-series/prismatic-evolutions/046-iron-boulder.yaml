@@ -6,4 +6,6 @@ attributes:
   number: "46/131"
   rarity: Rare
   illustrator: GIDORA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/46_hires.png

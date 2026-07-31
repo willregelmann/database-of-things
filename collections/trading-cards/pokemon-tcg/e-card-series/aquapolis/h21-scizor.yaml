@@ -6,4 +6,6 @@ attributes:
   number: "H21/H32"
   rarity: Rare Holo
   illustrator: Hisao Nakamura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard2/H21_hires.png

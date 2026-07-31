@@ -6,4 +6,6 @@ attributes:
   number: "SM180"
   rarity: Promo
   illustrator: Hiroki Asanuma
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM180_hires.png

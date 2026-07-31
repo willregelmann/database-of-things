@@ -6,4 +6,6 @@ attributes:
   number: "97/114"
   rarity: Uncommon
   illustrator: miki kudo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy11/97_hires.png

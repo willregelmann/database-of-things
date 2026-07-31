@@ -6,4 +6,6 @@ attributes:
   number: "SV038/SV122"
   rarity: Rare Shiny
   illustrator: kirisAki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45sv/SV038_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "47/182"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/47_hires.png

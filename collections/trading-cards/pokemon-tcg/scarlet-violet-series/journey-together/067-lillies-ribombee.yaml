@@ -6,4 +6,6 @@ attributes:
   number: "67/159"
   rarity: Rare
   illustrator: mashu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/67_hires.png

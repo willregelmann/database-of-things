@@ -6,4 +6,6 @@ attributes:
   number: "94/189"
   rarity: Rare
   illustrator: KEIICHIRO ITO
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/94_hires.png

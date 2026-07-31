@@ -6,4 +6,6 @@ attributes:
   number: "64/132"
   rarity: Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me1/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "93/86"
   rarity: Illustration Rare
   illustrator: Mékayu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/rsv10pt5/93_hires.png

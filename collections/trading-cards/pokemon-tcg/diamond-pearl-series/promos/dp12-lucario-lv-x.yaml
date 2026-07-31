@@ -6,4 +6,6 @@ attributes:
   number: "DP12"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dpp/DP12_hires.png

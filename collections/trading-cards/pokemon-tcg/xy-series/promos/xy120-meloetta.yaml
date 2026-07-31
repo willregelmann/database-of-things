@@ -6,4 +6,6 @@ attributes:
   number: "XY120"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY120_hires.png

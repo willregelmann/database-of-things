@@ -6,4 +6,6 @@ attributes:
   number: "70/101"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw10/70_hires.png

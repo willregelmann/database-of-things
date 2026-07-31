@@ -6,4 +6,6 @@ attributes:
   number: "SM30"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM30_hires.png

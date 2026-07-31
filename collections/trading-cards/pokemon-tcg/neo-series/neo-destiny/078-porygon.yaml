@@ -6,4 +6,6 @@ attributes:
   number: "78/105"
   rarity: Common
   illustrator: Hiromichi Sugiyama, CR CG gangs
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/78_hires.png

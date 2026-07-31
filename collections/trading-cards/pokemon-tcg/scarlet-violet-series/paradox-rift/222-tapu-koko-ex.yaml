@@ -6,4 +6,6 @@ attributes:
   number: "222/182"
   rarity: Ultra Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/222_hires.png

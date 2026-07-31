@@ -6,4 +6,6 @@ attributes:
   number: "20/100"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp7/20_hires.png

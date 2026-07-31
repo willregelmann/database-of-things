@@ -6,4 +6,6 @@ attributes:
   number: "TG16/TG30"
   rarity: Rare Holo V
   illustrator: saino misaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9tg/TG16_hires.png

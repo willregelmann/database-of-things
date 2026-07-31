@@ -6,4 +6,6 @@ attributes:
   number: "23/159"
   rarity: Uncommon
   illustrator: Fujimoto Gold
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv9/23_hires.png

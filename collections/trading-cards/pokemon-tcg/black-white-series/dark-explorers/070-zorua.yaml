@@ -6,4 +6,6 @@ attributes:
   number: "70/108"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw5/70_hires.png

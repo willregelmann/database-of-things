@@ -6,4 +6,6 @@ attributes:
   number: "111/91"
   rarity: Shiny Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/111_hires.png

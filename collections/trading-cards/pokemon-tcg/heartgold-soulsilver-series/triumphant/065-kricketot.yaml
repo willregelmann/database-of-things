@@ -6,4 +6,6 @@ attributes:
   number: "65/102"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/65_hires.png

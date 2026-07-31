@@ -6,4 +6,6 @@ attributes:
   number: "58/156"
   rarity: Rare Prism Star
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/58_hires.png

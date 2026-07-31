@@ -6,4 +6,6 @@ attributes:
   number: "52/162"
   rarity: Common
   illustrator: cochi8i
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/52_hires.png

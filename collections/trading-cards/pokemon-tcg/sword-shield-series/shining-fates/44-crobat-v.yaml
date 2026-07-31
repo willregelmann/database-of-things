@@ -6,4 +6,6 @@ attributes:
   number: "44/72"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45/44_hires.png

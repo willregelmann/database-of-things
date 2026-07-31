@@ -6,4 +6,6 @@ attributes:
   number: "11/182"
   rarity: Common
   illustrator: Kanami Ogata
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/11_hires.png

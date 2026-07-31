@@ -6,4 +6,6 @@ attributes:
   number: "154/236"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/154_hires.png

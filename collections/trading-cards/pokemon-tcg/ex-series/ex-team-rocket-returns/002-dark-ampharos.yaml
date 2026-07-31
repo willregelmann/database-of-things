@@ -6,4 +6,7 @@ attributes:
   number: "2/109"
   rarity: Rare Holo
   illustrator: Emi Miwa
+  type:
+    - Lightning
+    - Darkness
 image: https://images.pokemontcg.io/ex7/2_hires.png

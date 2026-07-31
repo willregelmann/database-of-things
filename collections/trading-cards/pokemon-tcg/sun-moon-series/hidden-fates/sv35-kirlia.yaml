@@ -6,4 +6,6 @@ attributes:
   number: "SV35/SV94"
   rarity: Rare Shiny
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sma/SV35_hires.png

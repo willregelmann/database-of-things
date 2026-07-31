@@ -6,4 +6,6 @@ attributes:
   number: "147/163"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh5/147_hires.png

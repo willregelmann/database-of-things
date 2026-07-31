@@ -6,4 +6,6 @@ attributes:
   number: "AR2"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl4/AR2_hires.png

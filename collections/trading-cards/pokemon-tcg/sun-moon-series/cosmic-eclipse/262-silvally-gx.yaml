@@ -6,4 +6,6 @@ attributes:
   number: "262/236"
   rarity: Rare Rainbow
   illustrator: Megumi Mizutani
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/262_hires.png

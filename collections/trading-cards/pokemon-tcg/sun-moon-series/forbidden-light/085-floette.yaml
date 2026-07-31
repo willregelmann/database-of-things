@@ -6,4 +6,6 @@ attributes:
   number: "85/131"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm6/85_hires.png

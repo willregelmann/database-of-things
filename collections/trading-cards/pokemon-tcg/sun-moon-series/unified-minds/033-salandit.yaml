@@ -6,4 +6,6 @@ attributes:
   number: "33/236"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm11/33_hires.png

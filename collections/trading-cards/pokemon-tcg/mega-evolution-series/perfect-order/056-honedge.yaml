@@ -6,4 +6,6 @@ attributes:
   number: "56/88"
   rarity: Common
   illustrator: Apios
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me3-56/large

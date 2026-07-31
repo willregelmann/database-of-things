@@ -6,4 +6,6 @@ attributes:
   number: "SL5"
   rarity: Rare Holo
   illustrator: Hideaki Hakozaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/col1/SL5_hires.png

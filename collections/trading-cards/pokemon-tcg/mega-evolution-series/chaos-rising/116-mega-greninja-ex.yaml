@@ -6,4 +6,6 @@ attributes:
   number: "116/86"
   rarity: Special Illustration Rare
   illustrator: Susumu Maeya
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me4-116/large

@@ -6,4 +6,6 @@ attributes:
   number: "33/88"
   rarity: Common
   illustrator: Terada Tera
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me3-33/large

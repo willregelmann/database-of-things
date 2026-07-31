@@ -6,4 +6,6 @@ attributes:
   number: "42/107"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex8/42_hires.png

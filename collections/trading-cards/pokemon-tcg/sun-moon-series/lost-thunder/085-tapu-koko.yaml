@@ -6,4 +6,6 @@ attributes:
   number: "85/214"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/85_hires.png

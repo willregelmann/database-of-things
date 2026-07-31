@@ -6,4 +6,6 @@ attributes:
   number: "26/110"
   rarity: Rare
   illustrator: Ryo Ueda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex13/26_hires.png

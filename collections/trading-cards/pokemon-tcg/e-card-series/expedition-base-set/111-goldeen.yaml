@@ -6,4 +6,6 @@ attributes:
   number: "111/165"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/111_hires.png

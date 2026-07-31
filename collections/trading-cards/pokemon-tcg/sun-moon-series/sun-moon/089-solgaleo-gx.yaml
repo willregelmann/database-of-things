@@ -6,4 +6,6 @@ attributes:
   number: "89/149"
   rarity: Rare Holo GX
   illustrator: PLANETA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm1/89_hires.png

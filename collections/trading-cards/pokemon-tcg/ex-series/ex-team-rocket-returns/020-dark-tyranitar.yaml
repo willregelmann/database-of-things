@@ -6,4 +6,7 @@ attributes:
   number: "20/109"
   rarity: Rare
   illustrator: Kyoko Koizumi
+  type:
+    - Fighting
+    - Darkness
 image: https://images.pokemontcg.io/ex7/20_hires.png

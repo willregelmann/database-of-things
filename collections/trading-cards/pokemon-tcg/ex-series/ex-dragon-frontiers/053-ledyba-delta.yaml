@@ -6,4 +6,6 @@ attributes:
   number: "53/101"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex15/53_hires.png

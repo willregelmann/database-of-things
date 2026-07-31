@@ -6,4 +6,6 @@ attributes:
   number: "82/163"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/82_hires.png

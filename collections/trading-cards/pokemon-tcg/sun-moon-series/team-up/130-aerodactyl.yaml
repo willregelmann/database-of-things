@@ -6,4 +6,6 @@ attributes:
   number: "130/181"
   rarity: Rare
   illustrator: hatachu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm9/130_hires.png

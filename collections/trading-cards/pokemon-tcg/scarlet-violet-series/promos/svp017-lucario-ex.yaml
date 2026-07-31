@@ -6,4 +6,6 @@ attributes:
   number: "017"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/svp/17_hires.png

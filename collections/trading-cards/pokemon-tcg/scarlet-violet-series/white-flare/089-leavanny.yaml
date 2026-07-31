@@ -6,4 +6,6 @@ attributes:
   number: "89/86"
   rarity: Illustration Rare
   illustrator: mashu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/rsv10pt5/89_hires.png

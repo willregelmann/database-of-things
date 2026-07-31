@@ -6,4 +6,6 @@ attributes:
   number: "42/110"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex13/42_hires.png

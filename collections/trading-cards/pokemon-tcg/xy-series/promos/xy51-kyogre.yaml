@@ -6,4 +6,6 @@ attributes:
   number: "XY51"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY51_hires.png

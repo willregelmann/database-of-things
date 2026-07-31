@@ -6,4 +6,6 @@ attributes:
   number: "77/127"
   rarity: Common
   illustrator: Yusuke Ishikawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/pl1/77_hires.png

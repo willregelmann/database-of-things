@@ -6,4 +6,6 @@ attributes:
   number: "83/106"
   rarity: Uncommon
   illustrator: Kanako Eo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy2/83_hires.png

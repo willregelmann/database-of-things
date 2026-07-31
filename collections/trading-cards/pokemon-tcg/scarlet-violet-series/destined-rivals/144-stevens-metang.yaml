@@ -6,4 +6,6 @@ attributes:
   number: "144/182"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv10/144_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "79/162"
   rarity: Uncommon
   illustrator: takuyoa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/79_hires.png

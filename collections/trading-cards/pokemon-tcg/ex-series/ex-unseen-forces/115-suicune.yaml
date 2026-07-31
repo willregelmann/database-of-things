@@ -6,4 +6,6 @@ attributes:
   number: "115/115"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex10/115_hires.png

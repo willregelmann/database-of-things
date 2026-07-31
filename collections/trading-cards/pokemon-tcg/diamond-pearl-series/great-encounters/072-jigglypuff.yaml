@@ -6,4 +6,6 @@ attributes:
   number: "72/106"
   rarity: Common
   illustrator: Kenkichi Toyama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/72_hires.png

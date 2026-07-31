@@ -6,4 +6,6 @@ attributes:
   number: "65/111"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/pl2/65_hires.png

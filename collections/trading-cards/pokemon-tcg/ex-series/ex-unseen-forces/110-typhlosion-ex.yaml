@@ -6,4 +6,6 @@ attributes:
   number: "110/115"
   rarity: Rare Holo ex
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/110_hires.png

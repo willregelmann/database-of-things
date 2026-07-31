@@ -6,4 +6,6 @@ attributes:
   number: "BW11"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bwp/BW11_hires.png

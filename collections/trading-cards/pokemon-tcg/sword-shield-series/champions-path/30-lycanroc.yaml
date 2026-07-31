@@ -6,4 +6,6 @@ attributes:
   number: "30/73"
   rarity: Rare Holo
   illustrator: Ryuta Fuse
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh35/30_hires.png

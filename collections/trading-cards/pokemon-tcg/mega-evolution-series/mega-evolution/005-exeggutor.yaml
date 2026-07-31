@@ -6,4 +6,6 @@ attributes:
   number: "5/132"
   rarity: Uncommon
   illustrator: Kazumasa Yasukuni
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/5_hires.png

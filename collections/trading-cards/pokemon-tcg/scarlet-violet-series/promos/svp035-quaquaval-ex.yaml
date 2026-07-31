@@ -6,4 +6,6 @@ attributes:
   number: "035"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/35_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "17/70"
   rarity: Uncommon
   illustrator: Yumi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/17_hires.png

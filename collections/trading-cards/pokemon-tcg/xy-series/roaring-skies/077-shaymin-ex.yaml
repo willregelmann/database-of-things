@@ -6,4 +6,6 @@ attributes:
   number: "77/108"
   rarity: Rare Holo ex
   illustrator: Ayaka Yoshida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy6/77_hires.png

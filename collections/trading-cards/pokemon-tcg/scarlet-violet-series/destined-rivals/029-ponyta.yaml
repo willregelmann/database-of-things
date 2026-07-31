@@ -6,4 +6,6 @@ attributes:
   number: "29/182"
   rarity: Common
   illustrator: Ayako Ozaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/29_hires.png

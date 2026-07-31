@@ -6,4 +6,6 @@ attributes:
   number: "129/189"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/129_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "116/217"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-116/large

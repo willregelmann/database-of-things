@@ -6,4 +6,6 @@ attributes:
   number: "76/86"
   rarity: Uncommon
   illustrator: Ayako Ozaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/zsv10pt5/76_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "37/160"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/37_hires.png

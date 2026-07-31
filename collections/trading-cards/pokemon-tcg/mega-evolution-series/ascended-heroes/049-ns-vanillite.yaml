@@ -6,4 +6,6 @@ attributes:
   number: "49/217"
   rarity: Common
   illustrator: yuu
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me2pt5-49/large

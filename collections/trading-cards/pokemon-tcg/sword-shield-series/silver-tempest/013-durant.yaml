@@ -6,4 +6,6 @@ attributes:
   number: "13/195"
   rarity: Common
   illustrator: Yuya Oka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12/13_hires.png

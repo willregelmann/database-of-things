@@ -6,4 +6,6 @@ attributes:
   number: "42/182"
   rarity: Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/42_hires.png

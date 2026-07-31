@@ -6,4 +6,6 @@ attributes:
   number: "67/167"
   rarity: Common
   illustrator: Takumi Wada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv6/67_hires.png

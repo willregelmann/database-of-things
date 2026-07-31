@@ -6,4 +6,6 @@ attributes:
   number: "51/159"
   rarity: Double Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv9/51_hires.png

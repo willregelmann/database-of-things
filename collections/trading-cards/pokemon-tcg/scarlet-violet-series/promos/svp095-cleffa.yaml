@@ -6,4 +6,6 @@ attributes:
   number: "095"
   rarity: Promo
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/95_hires.png

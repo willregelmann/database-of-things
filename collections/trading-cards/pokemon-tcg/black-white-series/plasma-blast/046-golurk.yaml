@@ -6,4 +6,6 @@ attributes:
   number: "46/101"
   rarity: Rare Holo
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw10/46_hires.png

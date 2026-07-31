@@ -6,4 +6,6 @@ attributes:
   number: "72/165"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/72_hires.png

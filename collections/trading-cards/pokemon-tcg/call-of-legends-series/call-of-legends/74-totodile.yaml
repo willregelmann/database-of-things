@@ -6,4 +6,6 @@ attributes:
   number: "74/95"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/74_hires.png

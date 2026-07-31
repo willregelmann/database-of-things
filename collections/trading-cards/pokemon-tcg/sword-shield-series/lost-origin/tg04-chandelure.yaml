@@ -6,4 +6,6 @@ attributes:
   number: "TG04/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: chibi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh11tg/TG04_hires.png

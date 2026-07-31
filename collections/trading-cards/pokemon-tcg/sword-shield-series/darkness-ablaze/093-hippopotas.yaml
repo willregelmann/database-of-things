@@ -6,4 +6,6 @@ attributes:
   number: "93/189"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/93_hires.png

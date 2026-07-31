@@ -6,4 +6,6 @@ attributes:
   number: "32/165"
   rarity: Common
   illustrator: Shiburingaru
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3pt5/32_hires.png

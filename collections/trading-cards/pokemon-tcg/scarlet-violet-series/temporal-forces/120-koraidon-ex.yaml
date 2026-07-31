@@ -6,4 +6,6 @@ attributes:
   number: "120/162"
   rarity: Double Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv5/120_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "72/197"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3/72_hires.png

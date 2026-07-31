@@ -6,4 +6,6 @@ attributes:
   number: "83/203"
   rarity: Rare Holo V
   illustrator: Satoshi Shirai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/83_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/111"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm4/41_hires.png

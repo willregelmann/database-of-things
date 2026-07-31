@@ -6,4 +6,6 @@ attributes:
   number: "167/264"
   rarity: Uncommon
   illustrator: Megumi Mizutani
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh8/167_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "59/182"
   rarity: Common
   illustrator: aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/59_hires.png

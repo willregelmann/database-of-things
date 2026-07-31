@@ -6,4 +6,6 @@ attributes:
   number: "SWSH246"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH246_hires.png

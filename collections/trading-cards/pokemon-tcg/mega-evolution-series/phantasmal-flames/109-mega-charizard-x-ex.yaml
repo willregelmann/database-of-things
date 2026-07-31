@@ -6,4 +6,6 @@ attributes:
   number: "109/94"
   rarity: Ultra Rare
   illustrator: takuyoa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/109_hires.png

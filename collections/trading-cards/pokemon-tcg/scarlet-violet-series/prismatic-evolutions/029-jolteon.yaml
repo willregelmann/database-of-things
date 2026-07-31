@@ -6,4 +6,6 @@ attributes:
   number: "29/131"
   rarity: Rare
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8pt5/29_hires.png

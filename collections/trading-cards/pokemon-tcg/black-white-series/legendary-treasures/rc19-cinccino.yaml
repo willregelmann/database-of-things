@@ -6,4 +6,6 @@ attributes:
   number: "RC19/RC25"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/RC19_hires.png

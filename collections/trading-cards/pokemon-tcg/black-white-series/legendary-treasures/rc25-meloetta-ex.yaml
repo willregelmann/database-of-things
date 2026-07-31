@@ -6,4 +6,6 @@ attributes:
   number: "RC25/RC25"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/RC25_hires.png

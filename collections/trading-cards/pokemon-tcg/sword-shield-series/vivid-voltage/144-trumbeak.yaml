@@ -6,4 +6,6 @@ attributes:
   number: "144/185"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh4/144_hires.png

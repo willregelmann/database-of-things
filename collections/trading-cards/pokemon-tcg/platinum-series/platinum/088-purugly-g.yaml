@@ -6,4 +6,6 @@ attributes:
   number: "88/127"
   rarity: Common
   illustrator: Ryota Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl1/88_hires.png

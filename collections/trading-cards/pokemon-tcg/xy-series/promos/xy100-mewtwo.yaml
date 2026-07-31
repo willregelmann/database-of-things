@@ -6,4 +6,6 @@ attributes:
   number: "XY100"
   rarity: Promo
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY100_hires.png

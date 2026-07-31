@@ -6,4 +6,6 @@ attributes:
   number: "215/91"
   rarity: Shiny Ultra Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/215_hires.png

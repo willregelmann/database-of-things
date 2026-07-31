@@ -6,4 +6,6 @@ attributes:
   number: "84/264"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/84_hires.png

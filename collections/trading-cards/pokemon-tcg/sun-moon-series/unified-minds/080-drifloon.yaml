@@ -6,4 +6,6 @@ attributes:
   number: "80/236"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/80_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "79/111"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo1/79_hires.png

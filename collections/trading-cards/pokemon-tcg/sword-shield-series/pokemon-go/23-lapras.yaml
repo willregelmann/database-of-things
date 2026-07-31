@@ -6,4 +6,6 @@ attributes:
   number: "23/78"
   rarity: Rare Holo
   illustrator: N-DESIGN Inc.
+  type:
+    - Water
 image: https://images.pokemontcg.io/pgo/23_hires.png

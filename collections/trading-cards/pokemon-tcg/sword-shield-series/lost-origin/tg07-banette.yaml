@@ -6,4 +6,6 @@ attributes:
   number: "TG07/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Tomomi Kaneko
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11tg/TG07_hires.png

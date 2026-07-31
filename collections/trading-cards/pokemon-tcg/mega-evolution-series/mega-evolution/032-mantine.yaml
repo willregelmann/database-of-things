@@ -6,4 +6,6 @@ attributes:
   number: "32/132"
   rarity: Common
   illustrator: Shimaris Yukichi
+  type:
+    - Water
 image: https://images.pokemontcg.io/me1/32_hires.png

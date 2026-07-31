@@ -6,4 +6,6 @@ attributes:
   number: "51/113"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw11/51_hires.png

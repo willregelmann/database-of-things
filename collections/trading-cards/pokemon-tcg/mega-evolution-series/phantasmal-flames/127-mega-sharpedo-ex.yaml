@@ -6,4 +6,6 @@ attributes:
   number: "127/94"
   rarity: Special Illustration Rare
   illustrator: nagimiso
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/127_hires.png

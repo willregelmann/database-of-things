@@ -6,4 +6,6 @@ attributes:
   number: "21/122"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/21_hires.png

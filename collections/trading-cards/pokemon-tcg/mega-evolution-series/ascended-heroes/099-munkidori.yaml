@@ -6,4 +6,6 @@ attributes:
   number: "99/217"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-99/large

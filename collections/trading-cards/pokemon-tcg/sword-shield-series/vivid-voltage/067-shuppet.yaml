@@ -6,4 +6,6 @@ attributes:
   number: "67/185"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/67_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY140"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY140_hires.png

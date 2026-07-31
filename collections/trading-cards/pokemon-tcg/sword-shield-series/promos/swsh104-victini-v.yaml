@@ -6,4 +6,6 @@ attributes:
   number: "SWSH104"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH104_hires.png

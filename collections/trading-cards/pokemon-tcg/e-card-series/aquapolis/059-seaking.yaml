@@ -6,4 +6,6 @@ attributes:
   number: "59/147"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard2/59_hires.png

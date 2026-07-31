@@ -6,4 +6,6 @@ attributes:
   number: "64/191"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/64_hires.png

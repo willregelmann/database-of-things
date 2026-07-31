@@ -6,4 +6,6 @@ attributes:
   number: "RC18/RC25"
   rarity: Common
   illustrator: sui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/RC18_hires.png

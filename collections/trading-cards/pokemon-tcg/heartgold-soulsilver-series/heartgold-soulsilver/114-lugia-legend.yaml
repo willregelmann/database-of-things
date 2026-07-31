@@ -6,4 +6,6 @@ attributes:
   number: "114/123"
   rarity: Rare Holo LEGEND
   illustrator: Shinji Higuchi
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "95/84"
   rarity: Illustration Rare
   illustrator: DOM
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me5-95/large

@@ -6,4 +6,6 @@ attributes:
   number: "11/108"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw5/11_hires.png

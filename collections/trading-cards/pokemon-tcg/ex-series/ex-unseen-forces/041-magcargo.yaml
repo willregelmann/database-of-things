@@ -6,4 +6,6 @@ attributes:
   number: "41/115"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/41_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/101"
   rarity: Rare
   illustrator: Toshinao Aoki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex5/22_hires.png

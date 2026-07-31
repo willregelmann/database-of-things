@@ -6,4 +6,6 @@ attributes:
   number: "DP14"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dpp/DP14_hires.png

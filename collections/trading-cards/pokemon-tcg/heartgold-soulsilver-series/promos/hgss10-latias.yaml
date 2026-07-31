@@ -6,4 +6,6 @@ attributes:
   number: "HGSS10"
   rarity: Promo
   illustrator: Wataru Kawahara
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hsp/HGSS10_hires.png

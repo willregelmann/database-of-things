@@ -6,4 +6,6 @@ attributes:
   number: "31/108"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy12/31_hires.png

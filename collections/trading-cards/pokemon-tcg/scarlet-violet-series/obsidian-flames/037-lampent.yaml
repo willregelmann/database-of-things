@@ -6,4 +6,6 @@ attributes:
   number: "37/197"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH254"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH254_hires.png

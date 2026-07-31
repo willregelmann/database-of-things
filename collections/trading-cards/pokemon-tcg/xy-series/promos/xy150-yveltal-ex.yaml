@@ -6,4 +6,6 @@ attributes:
   number: "XY150"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY150_hires.png

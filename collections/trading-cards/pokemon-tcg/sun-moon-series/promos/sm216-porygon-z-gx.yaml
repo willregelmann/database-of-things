@@ -6,4 +6,6 @@ attributes:
   number: "SM216"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM216_hires.png

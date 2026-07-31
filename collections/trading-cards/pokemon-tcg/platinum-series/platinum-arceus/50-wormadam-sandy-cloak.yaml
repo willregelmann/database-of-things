@@ -6,4 +6,6 @@ attributes:
   number: "50/99"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl4/50_hires.png

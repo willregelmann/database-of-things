@@ -6,4 +6,6 @@ attributes:
   number: "70/185"
   rarity: Uncommon
   illustrator: Kazuma Koda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/70_hires.png

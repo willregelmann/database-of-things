@@ -6,4 +6,6 @@ attributes:
   number: "117/191"
   rarity: Common
   illustrator: YASHIRO Nanaco
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv8/117_hires.png

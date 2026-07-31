@@ -6,4 +6,6 @@ attributes:
   number: "70/100"
   rarity: Common
   illustrator: Daisuke Ito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp5/70_hires.png

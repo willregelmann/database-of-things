@@ -6,4 +6,6 @@ attributes:
   number: "40/107"
   rarity: Uncommon
   illustrator: Hisao Nakamura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex8/40_hires.png

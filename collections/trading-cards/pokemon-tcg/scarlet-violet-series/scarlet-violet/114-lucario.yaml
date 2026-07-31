@@ -6,4 +6,6 @@ attributes:
   number: "114/198"
   rarity: Uncommon
   illustrator: Nurikabe
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/114_hires.png

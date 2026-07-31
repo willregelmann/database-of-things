@@ -6,4 +6,6 @@ attributes:
   number: "BW02"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW02_hires.png

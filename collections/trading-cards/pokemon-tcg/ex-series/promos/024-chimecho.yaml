@@ -6,4 +6,6 @@ attributes:
   number: "024"
   rarity: Promo
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/np/24_hires.png

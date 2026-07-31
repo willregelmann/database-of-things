@@ -6,4 +6,6 @@ attributes:
   number: "97/113"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw11/97_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "155/162"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/155_hires.png

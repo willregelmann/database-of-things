@@ -6,4 +6,6 @@ attributes:
   number: "10/123"
   rarity: Rare Holo
   illustrator: Kazuyuki Kano
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp2/10_hires.png

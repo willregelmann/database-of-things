@@ -6,4 +6,6 @@ attributes:
   number: "10/114"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/10_hires.png

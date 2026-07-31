@@ -6,4 +6,6 @@ attributes:
   number: "50/106"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/50_hires.png

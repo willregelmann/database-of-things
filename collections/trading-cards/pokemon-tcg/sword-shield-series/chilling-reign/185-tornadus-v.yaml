@@ -6,4 +6,6 @@ attributes:
   number: "185/198"
   rarity: Rare Ultra
   illustrator: tetsuya koizumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/185_hires.png

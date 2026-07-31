@@ -6,4 +6,6 @@ attributes:
   number: "72/182"
   rarity: Rare
   illustrator: Tetsu Kayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/72_hires.png

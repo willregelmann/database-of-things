@@ -6,4 +6,6 @@ attributes:
   number: "53/94"
   rarity: Rare
   illustrator: Jerky
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me2/53_hires.png

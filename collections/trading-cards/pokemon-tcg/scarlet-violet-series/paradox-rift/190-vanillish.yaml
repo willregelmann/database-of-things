@@ -6,4 +6,6 @@ attributes:
   number: "190/182"
   rarity: Illustration Rare
   illustrator: Taiga Kayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/190_hires.png

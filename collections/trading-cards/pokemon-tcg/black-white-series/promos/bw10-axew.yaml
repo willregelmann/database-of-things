@@ -6,4 +6,6 @@ attributes:
   number: "BW10"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW10_hires.png

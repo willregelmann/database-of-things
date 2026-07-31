@@ -6,4 +6,6 @@ attributes:
   number: "183/264"
   rarity: Uncommon
   illustrator: Lee HyunJung
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/183_hires.png

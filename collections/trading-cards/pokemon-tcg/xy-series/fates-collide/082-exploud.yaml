@@ -6,4 +6,6 @@ attributes:
   number: "82/124"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy10/82_hires.png

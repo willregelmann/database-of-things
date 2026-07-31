@@ -6,4 +6,6 @@ attributes:
   number: "115/122"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/115_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "202/214"
   rarity: Rare Ultra
   illustrator: sadaji
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm10/202_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "118/159"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/118_hires.png

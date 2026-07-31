@@ -6,4 +6,6 @@ attributes:
   number: "32/144"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ecard3/32_hires.png

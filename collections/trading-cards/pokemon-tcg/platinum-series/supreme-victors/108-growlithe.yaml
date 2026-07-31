@@ -6,4 +6,6 @@ attributes:
   number: "108/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/108_hires.png

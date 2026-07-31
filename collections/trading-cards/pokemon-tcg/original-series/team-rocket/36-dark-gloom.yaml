@@ -6,4 +6,6 @@ attributes:
   number: "36/82"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base5/36_hires.png

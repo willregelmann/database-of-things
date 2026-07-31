@@ -6,4 +6,6 @@ attributes:
   number: "20/64"
   rarity: Rare
   illustrator: danciao
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6pt5/20_hires.png

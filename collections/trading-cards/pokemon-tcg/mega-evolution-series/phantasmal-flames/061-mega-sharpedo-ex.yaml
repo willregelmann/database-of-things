@@ -6,4 +6,6 @@ attributes:
   number: "61/94"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/61_hires.png

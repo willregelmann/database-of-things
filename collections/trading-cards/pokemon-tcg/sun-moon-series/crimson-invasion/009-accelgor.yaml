@@ -6,4 +6,6 @@ attributes:
   number: "9/111"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm4/9_hires.png

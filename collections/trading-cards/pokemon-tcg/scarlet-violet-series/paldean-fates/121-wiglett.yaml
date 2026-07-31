@@ -6,4 +6,6 @@ attributes:
   number: "121/91"
   rarity: Shiny Rare
   illustrator: Misa Tsutsui
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4pt5/121_hires.png

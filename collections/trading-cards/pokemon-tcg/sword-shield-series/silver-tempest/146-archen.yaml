@@ -6,4 +6,6 @@ attributes:
   number: "146/195"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/146_hires.png

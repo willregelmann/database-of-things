@@ -6,4 +6,6 @@ attributes:
   number: "XY156"
   rarity: Promo
   illustrator: Hajime Kusajima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY156_hires.png

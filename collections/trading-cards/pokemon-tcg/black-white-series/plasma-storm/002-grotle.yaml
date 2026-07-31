@@ -6,4 +6,6 @@ attributes:
   number: "2/135"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw8/2_hires.png

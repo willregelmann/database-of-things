@@ -6,4 +6,6 @@ attributes:
   number: "TG16/TG30"
   rarity: Rare Holo V
   illustrator: yuu
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12tg/TG16_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "133/159"
   rarity: Common
   illustrator: Shinya Mizuno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/133_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "181/162"
   rarity: Illustration Rare
   illustrator: Scav
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/181_hires.png

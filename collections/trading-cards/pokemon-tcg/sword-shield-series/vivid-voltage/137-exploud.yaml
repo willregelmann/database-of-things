@@ -6,4 +6,6 @@ attributes:
   number: "137/185"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh4/137_hires.png

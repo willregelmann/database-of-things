@@ -6,4 +6,6 @@ attributes:
   number: "131/91"
   rarity: Shiny Rare
   illustrator: Yuu Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/131_hires.png

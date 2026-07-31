@@ -6,4 +6,6 @@ attributes:
   number: "43/145"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm2/43_hires.png

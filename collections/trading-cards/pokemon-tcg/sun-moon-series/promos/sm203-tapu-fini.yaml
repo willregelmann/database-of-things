@@ -6,4 +6,6 @@ attributes:
   number: "SM203"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM203_hires.png

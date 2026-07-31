@@ -6,4 +6,6 @@ attributes:
   number: "112/146"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp6/112_hires.png

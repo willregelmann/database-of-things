@@ -6,4 +6,6 @@ attributes:
   number: "9/99"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw4/9_hires.png

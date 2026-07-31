@@ -6,4 +6,6 @@ attributes:
   number: "41/236"
   rarity: Common
   illustrator: otumami
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm11/41_hires.png

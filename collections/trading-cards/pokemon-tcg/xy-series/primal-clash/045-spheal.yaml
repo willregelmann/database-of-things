@@ -6,4 +6,6 @@ attributes:
   number: "45/160"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG48/GG70"
   rarity: Rare Holo V
   illustrator: Hataya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG48_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "92/192"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/92_hires.png

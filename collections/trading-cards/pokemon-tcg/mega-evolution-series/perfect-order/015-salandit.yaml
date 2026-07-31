@@ -6,4 +6,6 @@ attributes:
   number: "15/88"
   rarity: Common
   illustrator: Kazuhisa Uragami
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me3-15/large

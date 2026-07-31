@@ -6,4 +6,6 @@ attributes:
   number: "SWSH040"
   rarity: Promo
   illustrator: Misa Tsutsui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH040_hires.png

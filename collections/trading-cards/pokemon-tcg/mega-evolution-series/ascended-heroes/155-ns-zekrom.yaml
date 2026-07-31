@@ -6,4 +6,6 @@ attributes:
   number: "155/217"
   rarity: Rare
   illustrator: AKIRA EGAWA
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-155/large

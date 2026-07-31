@@ -6,4 +6,6 @@ attributes:
   number: "8/162"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy8/8_hires.png

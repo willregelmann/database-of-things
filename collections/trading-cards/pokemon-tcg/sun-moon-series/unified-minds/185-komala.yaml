@@ -6,4 +6,6 @@ attributes:
   number: "185/236"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/185_hires.png

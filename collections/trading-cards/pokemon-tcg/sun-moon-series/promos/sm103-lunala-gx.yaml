@@ -6,4 +6,6 @@ attributes:
   number: "SM103"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM103_hires.png

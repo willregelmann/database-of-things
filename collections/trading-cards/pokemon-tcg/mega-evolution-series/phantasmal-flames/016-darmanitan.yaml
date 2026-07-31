@@ -6,4 +6,6 @@ attributes:
   number: "16/94"
   rarity: Uncommon
   illustrator: Uta
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/16_hires.png

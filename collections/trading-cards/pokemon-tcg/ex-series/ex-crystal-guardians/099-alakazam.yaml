@@ -6,4 +6,6 @@ attributes:
   number: "99/100"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex14/99_hires.png

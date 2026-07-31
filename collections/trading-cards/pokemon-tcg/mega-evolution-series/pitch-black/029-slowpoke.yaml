@@ -6,4 +6,6 @@ attributes:
   number: "29/84"
   rarity: Common
   illustrator: Nelnal
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-29/large

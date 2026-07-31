@@ -6,4 +6,6 @@ attributes:
   number: "222/91"
   rarity: Shiny Ultra Rare
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/222_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "39/149"
   rarity: Common
   illustrator: match
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw7/39_hires.png

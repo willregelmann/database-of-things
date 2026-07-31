@@ -6,4 +6,6 @@ attributes:
   number: "TG13/TG30"
   rarity: Rare Holo VMAX
   illustrator: Teeziro
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh11tg/TG13_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/189"
   rarity: Rare
   illustrator: Ligton
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/22_hires.png

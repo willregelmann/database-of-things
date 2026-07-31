@@ -6,4 +6,7 @@ attributes:
   number: "4/95"
   rarity: Rare Holo
   illustrator: K. Utsunomiya
+  type:
+    - Lightning
+    - Darkness
 image: https://images.pokemontcg.io/ex4/4_hires.png

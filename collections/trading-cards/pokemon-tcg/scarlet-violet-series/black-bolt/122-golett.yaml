@@ -6,4 +6,6 @@ attributes:
   number: "122/86"
   rarity: Illustration Rare
   illustrator: Nabatame Kazutaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/zsv10pt5/122_hires.png

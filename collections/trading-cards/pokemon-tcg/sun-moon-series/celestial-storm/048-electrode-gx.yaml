@@ -6,4 +6,6 @@ attributes:
   number: "48/168"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm7/48_hires.png

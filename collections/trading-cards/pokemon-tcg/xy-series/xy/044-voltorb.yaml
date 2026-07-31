@@ -6,4 +6,6 @@ attributes:
   number: "44/146"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy1/44_hires.png

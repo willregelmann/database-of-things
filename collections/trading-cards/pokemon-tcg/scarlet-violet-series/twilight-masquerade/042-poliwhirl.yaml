@@ -6,4 +6,6 @@ attributes:
   number: "42/167"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/42_hires.png

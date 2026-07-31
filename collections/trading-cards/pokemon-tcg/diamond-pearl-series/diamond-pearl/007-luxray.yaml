@@ -6,4 +6,6 @@ attributes:
   number: "7/130"
   rarity: Rare Holo
   illustrator: Mikiko Takeda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp1/7_hires.png

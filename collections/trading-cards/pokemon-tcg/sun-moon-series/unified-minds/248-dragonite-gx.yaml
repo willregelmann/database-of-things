@@ -6,4 +6,6 @@ attributes:
   number: "248/236"
   rarity: Rare Rainbow
   illustrator: ConceptLab
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/248_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "64/163"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/64_hires.png

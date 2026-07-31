@@ -6,4 +6,6 @@ attributes:
   number: "58/113"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex11/58_hires.png

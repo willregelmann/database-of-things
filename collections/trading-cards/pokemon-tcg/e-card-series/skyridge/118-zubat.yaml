@@ -6,4 +6,6 @@ attributes:
   number: "118/144"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/118_hires.png

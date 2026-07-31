@@ -6,4 +6,6 @@ attributes:
   number: "98/127"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl1/98_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "82/196"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/82_hires.png

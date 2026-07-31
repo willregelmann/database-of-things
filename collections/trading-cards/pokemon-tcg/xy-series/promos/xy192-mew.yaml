@@ -6,4 +6,6 @@ attributes:
   number: "XY192"
   rarity: Promo
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY192_hires.png

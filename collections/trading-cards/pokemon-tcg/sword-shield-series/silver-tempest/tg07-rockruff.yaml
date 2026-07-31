@@ -6,4 +6,6 @@ attributes:
   number: "TG07/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Hideki Ishikawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12tg/TG07_hires.png

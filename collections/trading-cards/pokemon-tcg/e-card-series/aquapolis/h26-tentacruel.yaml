@@ -6,4 +6,6 @@ attributes:
   number: "H26/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard2/H26_hires.png

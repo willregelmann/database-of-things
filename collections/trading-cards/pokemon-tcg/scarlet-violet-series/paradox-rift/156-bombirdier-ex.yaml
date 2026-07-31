@@ -6,4 +6,6 @@ attributes:
   number: "156/182"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/156_hires.png

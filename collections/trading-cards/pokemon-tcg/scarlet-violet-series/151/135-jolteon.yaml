@@ -6,4 +6,6 @@ attributes:
   number: "135/165"
   rarity: Rare
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3pt5/135_hires.png

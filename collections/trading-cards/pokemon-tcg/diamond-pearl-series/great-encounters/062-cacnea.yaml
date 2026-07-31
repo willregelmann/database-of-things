@@ -6,4 +6,6 @@ attributes:
   number: "62/106"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/62_hires.png

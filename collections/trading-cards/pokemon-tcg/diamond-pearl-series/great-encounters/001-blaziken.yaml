@@ -6,4 +6,6 @@ attributes:
   number: "1/106"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp4/1_hires.png

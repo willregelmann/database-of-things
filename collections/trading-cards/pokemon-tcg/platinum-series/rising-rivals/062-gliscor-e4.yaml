@@ -6,4 +6,6 @@ attributes:
   number: "62/111"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl2/62_hires.png

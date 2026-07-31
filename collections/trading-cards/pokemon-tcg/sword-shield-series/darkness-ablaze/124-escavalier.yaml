@@ -6,4 +6,6 @@ attributes:
   number: "124/189"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/124_hires.png

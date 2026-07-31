@@ -6,4 +6,6 @@ attributes:
   number: "219/198"
   rarity: Illustration Rare
   illustrator: Shibuzoh.
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/219_hires.png

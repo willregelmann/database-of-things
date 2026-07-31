@@ -6,4 +6,6 @@ attributes:
   number: "15/106"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp4/15_hires.png

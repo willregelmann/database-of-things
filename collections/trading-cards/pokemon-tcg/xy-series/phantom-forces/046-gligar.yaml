@@ -6,4 +6,6 @@ attributes:
   number: "46/119"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy4/46_hires.png

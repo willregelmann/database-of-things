@@ -6,4 +6,6 @@ attributes:
   number: "36/191"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/36_hires.png

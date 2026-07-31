@@ -6,4 +6,6 @@ attributes:
   number: "17/64"
   rarity: Uncommon
   illustrator: Masako Tomii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6pt5/17_hires.png

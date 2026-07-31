@@ -6,4 +6,6 @@ attributes:
   number: "20/203"
   rarity: Rare Holo
   illustrator: Teeziro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh7/20_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "27/189"
   rarity: Radiant Rare
   illustrator: Shigenori Negishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/27_hires.png

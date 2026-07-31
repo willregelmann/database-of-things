@@ -6,4 +6,6 @@ attributes:
   number: "93/162"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/93_hires.png

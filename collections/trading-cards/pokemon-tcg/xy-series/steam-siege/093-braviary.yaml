@@ -6,4 +6,6 @@ attributes:
   number: "93/114"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy11/93_hires.png

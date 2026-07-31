@@ -6,4 +6,6 @@ attributes:
   number: "110/94"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/110_hires.png

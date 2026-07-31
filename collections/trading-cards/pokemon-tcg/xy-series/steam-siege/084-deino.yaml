@@ -6,4 +6,6 @@ attributes:
   number: "84/114"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy11/84_hires.png

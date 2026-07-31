@@ -6,4 +6,6 @@ attributes:
   number: "36/95"
   rarity: Uncommon
   illustrator: Hiromichi Sugiyama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex4/36_hires.png

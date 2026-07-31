@@ -6,4 +6,6 @@ attributes:
   number: "79/105"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo4/79_hires.png

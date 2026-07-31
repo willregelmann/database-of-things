@@ -6,4 +6,6 @@ attributes:
   number: "95/147"
   rarity: Common
   illustrator: Satoshi Ohta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/95_hires.png

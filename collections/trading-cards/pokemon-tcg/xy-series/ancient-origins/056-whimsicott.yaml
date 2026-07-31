@@ -6,4 +6,6 @@ attributes:
   number: "56/98"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy7/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "17/146"
   rarity: Rare Holo
   illustrator: Kent Kanetsuna
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp6/17_hires.png

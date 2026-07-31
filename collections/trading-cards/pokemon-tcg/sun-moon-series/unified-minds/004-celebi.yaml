@@ -6,4 +6,6 @@ attributes:
   number: "4/236"
   rarity: Rare Holo
   illustrator: Megumi Mizutani
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm11/4_hires.png

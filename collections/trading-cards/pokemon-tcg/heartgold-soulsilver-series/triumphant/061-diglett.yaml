@@ -6,4 +6,6 @@ attributes:
   number: "61/102"
   rarity: Common
   illustrator: Shizurow
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss4/61_hires.png

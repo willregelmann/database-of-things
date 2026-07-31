@@ -6,4 +6,6 @@ attributes:
   number: "27/100"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex14/27_hires.png

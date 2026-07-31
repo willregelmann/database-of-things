@@ -6,4 +6,6 @@ attributes:
   number: "37/123"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/37_hires.png

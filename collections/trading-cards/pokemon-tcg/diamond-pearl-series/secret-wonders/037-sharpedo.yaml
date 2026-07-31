@@ -6,4 +6,6 @@ attributes:
   number: "37/132"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp3/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "71/214"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/71_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "135/182"
   rarity: Double Rare
   illustrator: toriyufu
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/135_hires.png

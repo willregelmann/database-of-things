@@ -6,4 +6,6 @@ attributes:
   number: "43/132"
   rarity: Uncommon
   illustrator: miki kudo
+  type:
+    - Water
 image: https://images.pokemontcg.io/me1/43_hires.png

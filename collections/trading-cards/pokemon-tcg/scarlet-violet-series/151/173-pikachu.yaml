@@ -6,4 +6,6 @@ attributes:
   number: "173/165"
   rarity: Illustration Rare
   illustrator: Hiroyuki Yamamoto
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3pt5/173_hires.png

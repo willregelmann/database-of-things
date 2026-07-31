@@ -6,4 +6,6 @@ attributes:
   number: "23/99"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl4/23_hires.png

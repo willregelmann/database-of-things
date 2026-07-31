@@ -6,4 +6,6 @@ attributes:
   number: "XY90"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY90_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "14/130"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base4/14_hires.png

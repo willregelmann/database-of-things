@@ -6,4 +6,6 @@ attributes:
   number: "7/70"
   rarity: Rare Prism Star
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/7_hires.png

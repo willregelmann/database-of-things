@@ -6,4 +6,6 @@ attributes:
   number: "87/116"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw9/87_hires.png

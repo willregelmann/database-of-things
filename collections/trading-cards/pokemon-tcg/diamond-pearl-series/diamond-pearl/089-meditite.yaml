@@ -6,4 +6,6 @@ attributes:
   number: "89/130"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp1/89_hires.png

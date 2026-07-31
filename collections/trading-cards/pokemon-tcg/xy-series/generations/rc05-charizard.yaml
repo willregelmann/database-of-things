@@ -6,4 +6,6 @@ attributes:
   number: "RC5/RC32"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/g1/RC5_hires.png

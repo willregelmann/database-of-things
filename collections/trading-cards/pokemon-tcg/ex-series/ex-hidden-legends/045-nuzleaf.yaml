@@ -6,4 +6,6 @@ attributes:
   number: "45/101"
   rarity: Uncommon
   illustrator: Hisao Nakamura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex5/45_hires.png

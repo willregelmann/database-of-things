@@ -6,4 +6,6 @@ attributes:
   number: "SH1"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/SH1_hires.png

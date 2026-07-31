@@ -6,4 +6,6 @@ attributes:
   number: "83/90"
   rarity: Rare Holo Prime
   illustrator: Takashi Yamaguchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss3/83_hires.png

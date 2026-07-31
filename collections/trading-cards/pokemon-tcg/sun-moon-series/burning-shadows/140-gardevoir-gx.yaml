@@ -6,4 +6,6 @@ attributes:
   number: "140/147"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm3/140_hires.png

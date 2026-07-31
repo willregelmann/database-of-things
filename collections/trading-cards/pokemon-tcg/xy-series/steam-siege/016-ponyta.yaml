@@ -6,4 +6,6 @@ attributes:
   number: "16/114"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy11/16_hires.png

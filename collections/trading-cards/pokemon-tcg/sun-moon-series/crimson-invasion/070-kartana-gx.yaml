@@ -6,4 +6,6 @@ attributes:
   number: "70/111"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm4/70_hires.png

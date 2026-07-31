@@ -6,4 +6,6 @@ attributes:
   number: "BW64"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bwp/BW64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/144"
   rarity: Rare
   illustrator: Hikaru Koike
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard3/31_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV39/SV94"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sma/SV39_hires.png

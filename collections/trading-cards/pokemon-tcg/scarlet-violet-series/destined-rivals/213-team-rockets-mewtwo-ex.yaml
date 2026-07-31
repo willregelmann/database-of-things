@@ -6,4 +6,6 @@ attributes:
   number: "213/182"
   rarity: Ultra Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/213_hires.png

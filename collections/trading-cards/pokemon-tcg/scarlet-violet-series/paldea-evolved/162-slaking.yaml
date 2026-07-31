@@ -6,4 +6,6 @@ attributes:
   number: "162/193"
   rarity: Rare
   illustrator: Yuya Oka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/162_hires.png

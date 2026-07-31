@@ -6,4 +6,6 @@ attributes:
   number: "081"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/81_hires.png

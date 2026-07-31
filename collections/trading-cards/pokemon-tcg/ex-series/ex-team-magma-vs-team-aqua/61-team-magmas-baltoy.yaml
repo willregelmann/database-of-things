@@ -6,4 +6,6 @@ attributes:
   number: "61/95"
   rarity: Common
   illustrator: Atsuko Ujiie
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex4/61_hires.png

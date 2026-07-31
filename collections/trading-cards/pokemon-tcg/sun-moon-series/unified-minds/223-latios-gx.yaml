@@ -6,4 +6,6 @@ attributes:
   number: "223/236"
   rarity: Rare Ultra
   illustrator: ConceptLab
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/223_hires.png

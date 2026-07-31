@@ -6,4 +6,6 @@ attributes:
   number: "94/149"
   rarity: Rare Holo
   illustrator: Hiroki Asanuma
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw7/94_hires.png

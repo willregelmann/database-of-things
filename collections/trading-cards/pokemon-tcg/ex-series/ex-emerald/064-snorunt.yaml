@@ -6,4 +6,6 @@ attributes:
   number: "64/106"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex9/64_hires.png

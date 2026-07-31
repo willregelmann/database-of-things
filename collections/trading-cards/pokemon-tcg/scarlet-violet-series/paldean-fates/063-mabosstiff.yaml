@@ -6,4 +6,6 @@ attributes:
   number: "63/91"
   rarity: Rare
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4pt5/63_hires.png

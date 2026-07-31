@@ -6,4 +6,6 @@ attributes:
   number: "52/53"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/basep/52_hires.png

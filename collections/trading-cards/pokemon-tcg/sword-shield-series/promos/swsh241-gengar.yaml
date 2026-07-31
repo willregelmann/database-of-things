@@ -6,4 +6,6 @@ attributes:
   number: "SWSH241"
   rarity: Promo
   illustrator: Uta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH241_hires.png

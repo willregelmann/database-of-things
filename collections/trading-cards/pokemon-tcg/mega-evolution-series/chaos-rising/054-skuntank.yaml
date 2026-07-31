@@ -6,4 +6,6 @@ attributes:
   number: "54/86"
   rarity: Uncommon
   illustrator: Yuriko Akase
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me4-54/large

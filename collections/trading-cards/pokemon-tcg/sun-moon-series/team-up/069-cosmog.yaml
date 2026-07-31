@@ -6,4 +6,6 @@ attributes:
   number: "69/181"
   rarity: Common
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/69_hires.png

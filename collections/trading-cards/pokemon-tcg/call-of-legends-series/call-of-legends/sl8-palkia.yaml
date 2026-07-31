@@ -6,4 +6,6 @@ attributes:
   number: "SL8"
   rarity: Rare Holo
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/SL8_hires.png

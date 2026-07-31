@@ -6,4 +6,6 @@ attributes:
   number: "35/131"
   rarity: Common
   illustrator: IKEDA Saki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/35_hires.png

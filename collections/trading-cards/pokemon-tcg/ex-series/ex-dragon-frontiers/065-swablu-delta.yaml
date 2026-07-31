@@ -6,4 +6,6 @@ attributes:
   number: "65/101"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex15/65_hires.png

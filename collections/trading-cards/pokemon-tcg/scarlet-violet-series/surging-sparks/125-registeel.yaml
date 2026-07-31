@@ -6,4 +6,6 @@ attributes:
   number: "125/191"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/125_hires.png

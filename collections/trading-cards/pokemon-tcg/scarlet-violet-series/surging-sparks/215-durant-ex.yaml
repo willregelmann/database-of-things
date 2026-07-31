@@ -6,4 +6,6 @@ attributes:
   number: "215/191"
   rarity: Ultra Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/215_hires.png

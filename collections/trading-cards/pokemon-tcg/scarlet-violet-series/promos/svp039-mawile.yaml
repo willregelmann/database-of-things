@@ -6,4 +6,6 @@ attributes:
   number: "039"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/39_hires.png

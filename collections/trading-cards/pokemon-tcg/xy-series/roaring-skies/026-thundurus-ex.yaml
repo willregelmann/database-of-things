@@ -6,4 +6,6 @@ attributes:
   number: "26/108"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy6/26_hires.png

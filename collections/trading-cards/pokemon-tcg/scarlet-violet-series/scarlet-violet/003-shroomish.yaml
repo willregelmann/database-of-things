@@ -6,4 +6,6 @@ attributes:
   number: "3/198"
   rarity: Common
   illustrator: kurumitsu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/3_hires.png

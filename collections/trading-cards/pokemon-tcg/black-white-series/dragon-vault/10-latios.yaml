@@ -6,4 +6,6 @@ attributes:
   number: "10/20"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "77/99"
   rarity: Common
   illustrator: match
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw4/77_hires.png

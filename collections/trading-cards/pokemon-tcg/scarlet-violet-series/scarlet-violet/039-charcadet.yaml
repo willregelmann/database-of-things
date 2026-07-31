@@ -6,4 +6,6 @@ attributes:
   number: "39/198"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv1/39_hires.png

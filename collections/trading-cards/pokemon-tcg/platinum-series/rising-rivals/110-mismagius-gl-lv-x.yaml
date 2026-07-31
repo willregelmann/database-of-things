@@ -6,4 +6,6 @@ attributes:
   number: "110/111"
   rarity: Rare Holo LV.X
   illustrator: Kent Kanetsuna
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl2/110_hires.png

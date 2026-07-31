@@ -6,4 +6,6 @@ attributes:
   number: "24/131"
   rarity: Uncommon
   illustrator: Kuroimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8pt5/24_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "138/195"
   rarity: Rare Holo V
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/138_hires.png

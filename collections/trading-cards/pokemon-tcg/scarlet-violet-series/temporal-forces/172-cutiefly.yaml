@@ -6,4 +6,6 @@ attributes:
   number: "172/162"
   rarity: Illustration Rare
   illustrator: REND
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/172_hires.png

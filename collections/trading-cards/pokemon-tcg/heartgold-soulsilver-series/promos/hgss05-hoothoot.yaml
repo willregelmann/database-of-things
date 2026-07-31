@@ -6,4 +6,6 @@ attributes:
   number: "HGSS05"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hsp/HGSS05_hires.png

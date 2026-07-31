@@ -6,4 +6,6 @@ attributes:
   number: "20/147"
   rarity: Rare
   illustrator: Wataru Kawahara
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/20_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "57/86"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me4-57/large

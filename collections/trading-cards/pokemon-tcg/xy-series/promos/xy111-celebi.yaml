@@ -6,4 +6,6 @@ attributes:
   number: "XY111"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY111_hires.png

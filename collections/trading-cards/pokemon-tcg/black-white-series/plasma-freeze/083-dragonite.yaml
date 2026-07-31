@@ -6,4 +6,6 @@ attributes:
   number: "83/116"
   rarity: Rare Holo
   illustrator: Akira Komayama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw9/83_hires.png

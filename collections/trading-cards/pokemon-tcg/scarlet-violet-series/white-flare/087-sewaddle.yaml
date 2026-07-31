@@ -6,4 +6,6 @@ attributes:
   number: "87/86"
   rarity: Illustration Rare
   illustrator: nisimono
+  type:
+    - Grass
 image: https://images.pokemontcg.io/rsv10pt5/87_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "81/114"
   rarity: Rare Holo
   illustrator: Megumi Mizutani
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy11/81_hires.png

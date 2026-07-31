@@ -6,4 +6,6 @@ attributes:
   number: "146/191"
   rarity: Common
   illustrator: Kurata So
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/146_hires.png

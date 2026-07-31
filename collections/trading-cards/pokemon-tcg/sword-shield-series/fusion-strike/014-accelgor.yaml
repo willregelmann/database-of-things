@@ -6,4 +6,6 @@ attributes:
   number: "14/264"
   rarity: Rare
   illustrator: nagimiso
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh8/14_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "28/68"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm115/28_hires.png

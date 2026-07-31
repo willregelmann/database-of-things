@@ -6,4 +6,6 @@ attributes:
   number: "107/197"
   rarity: Common
   illustrator: Nobuhiro Imagawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3/107_hires.png

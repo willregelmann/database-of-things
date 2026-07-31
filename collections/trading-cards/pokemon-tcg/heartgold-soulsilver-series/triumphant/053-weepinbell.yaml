@@ -6,4 +6,6 @@ attributes:
   number: "53/102"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/53_hires.png

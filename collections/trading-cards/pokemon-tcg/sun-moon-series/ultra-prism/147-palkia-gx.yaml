@@ -6,4 +6,6 @@ attributes:
   number: "147/156"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm5/147_hires.png

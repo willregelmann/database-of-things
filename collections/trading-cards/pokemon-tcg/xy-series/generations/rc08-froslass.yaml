@@ -6,4 +6,6 @@ attributes:
   number: "RC8/RC32"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/g1/RC8_hires.png

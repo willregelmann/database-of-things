@@ -6,4 +6,6 @@ attributes:
   number: "171/197"
   rarity: Common
   illustrator: Kariya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/171_hires.png

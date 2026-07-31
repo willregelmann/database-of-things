@@ -6,4 +6,6 @@ attributes:
   number: "SM46"
   rarity: Promo
   illustrator: Eri Yamaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM46_hires.png

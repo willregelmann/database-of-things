@@ -6,4 +6,6 @@ attributes:
   number: "31/167"
   rarity: Common
   illustrator: Jerky
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/31_hires.png

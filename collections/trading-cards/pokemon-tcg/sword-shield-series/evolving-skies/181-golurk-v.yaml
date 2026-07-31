@@ -6,4 +6,6 @@ attributes:
   number: "181/203"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/181_hires.png

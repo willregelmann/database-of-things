@@ -6,4 +6,6 @@ attributes:
   number: "SV088/SV122"
   rarity: Rare Shiny
   illustrator: tetsuya koizumi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45sv/SV088_hires.png

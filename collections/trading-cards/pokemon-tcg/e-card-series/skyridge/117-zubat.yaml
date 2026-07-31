@@ -6,4 +6,6 @@ attributes:
   number: "117/144"
   rarity: Common
   illustrator: Hisao Nakamura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/117_hires.png

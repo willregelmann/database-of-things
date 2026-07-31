@@ -6,4 +6,6 @@ attributes:
   number: "44/106"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/44_hires.png

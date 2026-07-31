@@ -6,4 +6,6 @@ attributes:
   number: "81/99"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw4/81_hires.png

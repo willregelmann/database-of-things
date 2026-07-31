@@ -6,4 +6,6 @@ attributes:
   number: "80/182"
   rarity: Uncommon
   illustrator: Yuya Oka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/80_hires.png

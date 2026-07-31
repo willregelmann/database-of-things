@@ -6,4 +6,6 @@ attributes:
   number: "32/192"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/32_hires.png

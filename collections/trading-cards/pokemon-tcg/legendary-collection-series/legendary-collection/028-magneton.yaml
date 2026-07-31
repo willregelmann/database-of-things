@@ -6,6 +6,8 @@ attributes:
   number: "28/110"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base6/28_hires.png
 variants:
   - id: ad3e04f0-a977-4420-9661-a2bfd2c0bef6

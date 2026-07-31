@@ -6,4 +6,6 @@ attributes:
   number: "TG21/TG30"
   rarity: Rare Holo V
   illustrator: aoki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10tg/TG21_hires.png

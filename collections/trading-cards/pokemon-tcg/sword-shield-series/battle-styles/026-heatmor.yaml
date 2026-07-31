@@ -6,4 +6,6 @@ attributes:
   number: "26/163"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/26_hires.png

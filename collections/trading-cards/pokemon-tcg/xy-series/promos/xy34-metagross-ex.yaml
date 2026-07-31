@@ -6,4 +6,6 @@ attributes:
   number: "XY34"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY34_hires.png

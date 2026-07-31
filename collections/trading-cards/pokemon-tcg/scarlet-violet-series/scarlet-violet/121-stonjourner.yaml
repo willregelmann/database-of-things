@@ -6,4 +6,6 @@ attributes:
   number: "121/198"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/121_hires.png

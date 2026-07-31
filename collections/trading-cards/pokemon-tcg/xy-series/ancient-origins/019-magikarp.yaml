@@ -6,4 +6,6 @@ attributes:
   number: "19/98"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy7/19_hires.png

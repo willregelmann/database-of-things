@@ -6,4 +6,6 @@ attributes:
   number: "47/159"
   rarity: Common
   illustrator: Kazumasa Yasukuni
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv9/47_hires.png

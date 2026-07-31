@@ -6,4 +6,6 @@ attributes:
   number: "66/123"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/66_hires.png

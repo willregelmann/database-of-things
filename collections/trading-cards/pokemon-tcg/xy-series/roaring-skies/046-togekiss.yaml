@@ -6,4 +6,6 @@ attributes:
   number: "46/108"
   rarity: Rare Holo
   illustrator: PLANETA
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy6/46_hires.png

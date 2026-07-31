@@ -6,4 +6,6 @@ attributes:
   number: "83/163"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/83_hires.png

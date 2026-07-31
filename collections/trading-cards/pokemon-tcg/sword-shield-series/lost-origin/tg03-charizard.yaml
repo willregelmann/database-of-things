@@ -6,4 +6,6 @@ attributes:
   number: "TG03/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: GIDORA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh11tg/TG03_hires.png

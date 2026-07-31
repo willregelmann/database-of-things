@@ -6,4 +6,6 @@ attributes:
   number: "2/147"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm3/2_hires.png

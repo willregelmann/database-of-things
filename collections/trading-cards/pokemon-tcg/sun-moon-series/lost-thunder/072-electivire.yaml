@@ -6,4 +6,6 @@ attributes:
   number: "72/214"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/72_hires.png

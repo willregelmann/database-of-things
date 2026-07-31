@@ -6,4 +6,6 @@ attributes:
   number: "72/217"
   rarity: Rare
   illustrator: chibi
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-72/large

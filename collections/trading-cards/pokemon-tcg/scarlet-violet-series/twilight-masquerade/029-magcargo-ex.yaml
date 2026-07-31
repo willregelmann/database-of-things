@@ -6,4 +6,6 @@ attributes:
   number: "29/167"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/29_hires.png

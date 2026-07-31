@@ -6,4 +6,6 @@ attributes:
   number: "22/70"
   rarity: Common
   illustrator: Hironobu Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "34/163"
   rarity: Common
   illustrator: kodama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/34_hires.png

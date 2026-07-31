@@ -6,4 +6,6 @@ attributes:
   number: "24/189"
   rarity: Uncommon
   illustrator: Pani Kobayashi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/24_hires.png

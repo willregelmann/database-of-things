@@ -6,4 +6,6 @@ attributes:
   number: "13/108"
   rarity: Rare Holo ex
   illustrator: Shizurow
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw5/13_hires.png

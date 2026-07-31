@@ -6,4 +6,6 @@ attributes:
   number: "38/88"
   rarity: Common
   illustrator: Nurikabe
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-38/large

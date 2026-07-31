@@ -6,4 +6,6 @@ attributes:
   number: "109/108"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw5/109_hires.png

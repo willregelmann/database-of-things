@@ -6,4 +6,6 @@ attributes:
   number: "76/159"
   rarity: Common
   illustrator: Mugi Hamada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/76_hires.png

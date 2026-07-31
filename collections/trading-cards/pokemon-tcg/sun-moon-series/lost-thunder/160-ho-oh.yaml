@@ -6,4 +6,6 @@ attributes:
   number: "160/214"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/160_hires.png

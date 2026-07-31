@@ -6,4 +6,6 @@ attributes:
   number: "H7/H32"
   rarity: Rare Holo
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard3/H7_hires.png

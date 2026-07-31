@@ -6,4 +6,6 @@ attributes:
   number: "SM131"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM131_hires.png

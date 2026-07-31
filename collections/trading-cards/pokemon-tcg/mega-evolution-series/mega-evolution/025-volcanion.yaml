@@ -6,4 +6,6 @@ attributes:
   number: "25/132"
   rarity: Uncommon
   illustrator: GIDORA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me1/25_hires.png

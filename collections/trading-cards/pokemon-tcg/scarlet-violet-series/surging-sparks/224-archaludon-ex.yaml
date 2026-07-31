@@ -6,4 +6,6 @@ attributes:
   number: "224/191"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/224_hires.png

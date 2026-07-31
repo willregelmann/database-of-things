@@ -6,4 +6,6 @@ attributes:
   number: "93/182"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/93_hires.png

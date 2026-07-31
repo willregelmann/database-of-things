@@ -6,4 +6,6 @@ attributes:
   number: "212/198"
   rarity: Illustration Rare
   illustrator: Jiro Sasumo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/212_hires.png

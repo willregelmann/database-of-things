@@ -6,4 +6,6 @@ attributes:
   number: "26/98"
   rarity: Rare Holo
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy7/26_hires.png

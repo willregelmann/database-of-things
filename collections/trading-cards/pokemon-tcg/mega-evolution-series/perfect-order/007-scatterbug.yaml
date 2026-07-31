@@ -6,4 +6,6 @@ attributes:
   number: "7/88"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-7/large

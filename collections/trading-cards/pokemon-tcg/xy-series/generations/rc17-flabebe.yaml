@@ -6,4 +6,6 @@ attributes:
   number: "RC17/RC32"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC17_hires.png

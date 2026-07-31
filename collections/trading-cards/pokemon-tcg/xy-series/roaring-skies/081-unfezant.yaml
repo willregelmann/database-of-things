@@ -6,4 +6,6 @@ attributes:
   number: "81/108"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy6/81_hires.png

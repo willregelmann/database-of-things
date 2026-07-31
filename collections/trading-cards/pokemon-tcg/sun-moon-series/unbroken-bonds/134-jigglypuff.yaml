@@ -6,4 +6,6 @@ attributes:
   number: "134/214"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm10/134_hires.png

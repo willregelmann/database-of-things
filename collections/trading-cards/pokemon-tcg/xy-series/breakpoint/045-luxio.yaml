@@ -6,4 +6,6 @@ attributes:
   number: "45/122"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy9/45_hires.png

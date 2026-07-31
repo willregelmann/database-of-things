@@ -6,4 +6,6 @@ attributes:
   number: "71/95"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/col1/71_hires.png

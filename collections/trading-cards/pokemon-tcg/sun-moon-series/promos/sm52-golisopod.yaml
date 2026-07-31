@@ -6,4 +6,6 @@ attributes:
   number: "SM52"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM52_hires.png

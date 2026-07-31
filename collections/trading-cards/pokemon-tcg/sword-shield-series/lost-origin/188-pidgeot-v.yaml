@@ -6,4 +6,6 @@ attributes:
   number: "188/196"
   rarity: Rare Ultra
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/188_hires.png

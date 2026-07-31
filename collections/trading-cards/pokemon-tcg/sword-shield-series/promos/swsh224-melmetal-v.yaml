@@ -6,4 +6,6 @@ attributes:
   number: "SWSH224"
   rarity: Promo
   illustrator: sadaji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH224_hires.png

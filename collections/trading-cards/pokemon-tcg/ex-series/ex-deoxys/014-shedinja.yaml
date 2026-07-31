@@ -6,4 +6,6 @@ attributes:
   number: "14/107"
   rarity: Rare Holo
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex8/14_hires.png

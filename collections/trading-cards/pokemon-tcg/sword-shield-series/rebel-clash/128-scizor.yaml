@@ -6,4 +6,6 @@ attributes:
   number: "128/192"
   rarity: Rare
   illustrator: Ryuta Fuse
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/128_hires.png

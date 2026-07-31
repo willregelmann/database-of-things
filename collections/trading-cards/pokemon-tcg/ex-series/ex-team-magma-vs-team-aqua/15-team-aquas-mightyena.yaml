@@ -6,4 +6,6 @@ attributes:
   number: "15/95"
   rarity: Rare
   illustrator: Shin-ichi Yoshikawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex4/15_hires.png

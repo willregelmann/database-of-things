@@ -6,4 +6,6 @@ attributes:
   number: "80/159"
   rarity: Common
   illustrator: Dsuke
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/80_hires.png

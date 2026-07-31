@@ -6,4 +6,6 @@ attributes:
   number: "51/101"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex15/51_hires.png

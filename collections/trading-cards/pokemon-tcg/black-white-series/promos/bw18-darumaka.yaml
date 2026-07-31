@@ -6,4 +6,6 @@ attributes:
   number: "BW18"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW18_hires.png

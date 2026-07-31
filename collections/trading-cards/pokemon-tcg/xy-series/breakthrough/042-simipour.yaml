@@ -6,4 +6,6 @@ attributes:
   number: "42/162"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/42_hires.png

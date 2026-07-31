@@ -6,4 +6,6 @@ attributes:
   number: "181/264"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/181_hires.png

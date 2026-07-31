@@ -6,6 +6,8 @@ attributes:
   number: "24/110"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base6/24_hires.png
 variants:
   - id: 66947cb7-2fbe-44df-908e-c731657b0ae2

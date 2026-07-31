@@ -6,4 +6,6 @@ attributes:
   number: "77/163"
   rarity: Rare
   illustrator: Taira Akitsu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/77_hires.png

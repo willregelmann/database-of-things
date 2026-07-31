@@ -6,4 +6,6 @@ attributes:
   number: "44/182"
   rarity: Common
   illustrator: Lee HyunJung
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/44_hires.png

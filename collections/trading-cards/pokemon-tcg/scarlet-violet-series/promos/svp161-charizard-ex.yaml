@@ -5,4 +5,6 @@ date: "2023"
 attributes:
   number: "161"
   rarity: Promo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/161_hires.png

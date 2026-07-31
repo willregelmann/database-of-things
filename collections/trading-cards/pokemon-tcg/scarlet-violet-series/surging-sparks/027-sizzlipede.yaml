@@ -6,4 +6,6 @@ attributes:
   number: "27/191"
   rarity: Common
   illustrator: Minahamu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/27_hires.png

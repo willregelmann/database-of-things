@@ -6,4 +6,6 @@ attributes:
   number: "104/182"
   rarity: Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/104_hires.png

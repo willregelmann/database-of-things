@@ -6,4 +6,6 @@ attributes:
   number: "90/159"
   rarity: Uncommon
   illustrator: Nisota Niso
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5/90_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/109"
   rarity: Uncommon
   illustrator: Emi Miwa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex7/31_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "5/191"
   rarity: Common
   illustrator: Iori Suzuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/5_hires.png

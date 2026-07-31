@@ -6,4 +6,6 @@ attributes:
   number: "69/182"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/69_hires.png

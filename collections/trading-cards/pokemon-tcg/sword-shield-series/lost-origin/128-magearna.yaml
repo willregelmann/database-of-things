@@ -6,4 +6,6 @@ attributes:
   number: "128/196"
   rarity: Rare
   illustrator: Rianti Hidayat
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh11/128_hires.png

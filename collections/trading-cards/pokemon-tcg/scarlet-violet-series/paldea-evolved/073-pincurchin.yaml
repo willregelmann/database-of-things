@@ -6,4 +6,6 @@ attributes:
   number: "73/193"
   rarity: Uncommon
   illustrator: miki kudo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/73_hires.png

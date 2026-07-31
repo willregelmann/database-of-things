@@ -6,4 +6,6 @@ attributes:
   number: "109/91"
   rarity: Shiny Rare
   illustrator: sowsow
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/109_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM205"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM205_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "82/182"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/82_hires.png

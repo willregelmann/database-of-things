@@ -6,4 +6,6 @@ attributes:
   number: "19/105"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo4/19_hires.png

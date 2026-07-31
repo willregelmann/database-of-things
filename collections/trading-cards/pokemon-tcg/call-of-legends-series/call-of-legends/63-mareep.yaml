@@ -6,4 +6,6 @@ attributes:
   number: "63/95"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/col1/63_hires.png

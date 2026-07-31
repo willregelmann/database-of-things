@@ -6,4 +6,6 @@ attributes:
   number: "184/203"
   rarity: Rare Ultra
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/184_hires.png

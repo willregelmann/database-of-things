@@ -6,4 +6,6 @@ attributes:
   number: "159/145"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm2/159_hires.png

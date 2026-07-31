@@ -6,4 +6,6 @@ attributes:
   number: "3/62"
   rarity: Rare Holo
   illustrator: Keiji Kinebuchi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base3/3_hires.png

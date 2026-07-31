@@ -6,4 +6,6 @@ attributes:
   number: "SM198"
   rarity: Promo
   illustrator: MPC Film
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM198_hires.png

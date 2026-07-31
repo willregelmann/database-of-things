@@ -6,4 +6,6 @@ attributes:
   number: "38/64"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6pt5/38_hires.png

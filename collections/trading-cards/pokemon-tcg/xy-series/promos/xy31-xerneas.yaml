@@ -6,4 +6,6 @@ attributes:
   number: "XY31"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xyp/XY31_hires.png

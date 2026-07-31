@@ -6,4 +6,6 @@ attributes:
   number: "8/100"
   rarity: Rare Holo
   illustrator: Hisao Nakamura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex14/8_hires.png

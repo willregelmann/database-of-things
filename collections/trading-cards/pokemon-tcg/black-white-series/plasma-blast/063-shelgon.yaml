@@ -6,4 +6,6 @@ attributes:
   number: "63/101"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw10/63_hires.png

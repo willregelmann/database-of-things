@@ -6,4 +6,6 @@ attributes:
   number: "12/149"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm1/12_hires.png

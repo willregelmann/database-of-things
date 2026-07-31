@@ -6,4 +6,6 @@ attributes:
   number: "149/192"
   rarity: Common
   illustrator: so-taro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/149_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG14/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Yano Keiji
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG14_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "13/73"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh35/13_hires.png

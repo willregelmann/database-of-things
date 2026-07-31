@@ -6,4 +6,6 @@ attributes:
   number: "57/192"
   rarity: Uncommon
   illustrator: otumami
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/57_hires.png

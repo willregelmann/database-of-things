@@ -6,4 +6,6 @@ attributes:
   number: "51/172"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh9/51_hires.png

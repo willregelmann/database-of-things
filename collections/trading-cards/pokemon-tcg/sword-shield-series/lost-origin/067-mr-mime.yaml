@@ -6,4 +6,6 @@ attributes:
   number: "67/196"
   rarity: Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/67_hires.png

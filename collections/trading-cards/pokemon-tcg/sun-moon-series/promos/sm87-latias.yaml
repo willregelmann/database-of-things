@@ -6,4 +6,6 @@ attributes:
   number: "SM87"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM87_hires.png

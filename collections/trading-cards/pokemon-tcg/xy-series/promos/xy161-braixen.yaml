@@ -6,4 +6,6 @@ attributes:
   number: "XY161"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY161_hires.png

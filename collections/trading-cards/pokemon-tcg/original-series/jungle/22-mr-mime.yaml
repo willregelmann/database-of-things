@@ -6,4 +6,6 @@ attributes:
   number: "22/64"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base2/22_hires.png

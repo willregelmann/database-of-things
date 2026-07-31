@@ -6,4 +6,6 @@ attributes:
   number: "47/196"
   rarity: Uncommon
   illustrator: Sekio
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/47_hires.png

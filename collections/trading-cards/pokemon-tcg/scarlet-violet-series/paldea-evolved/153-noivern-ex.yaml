@@ -6,4 +6,6 @@ attributes:
   number: "153/193"
   rarity: Double Rare
   illustrator: Nisota Niso
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv2/153_hires.png

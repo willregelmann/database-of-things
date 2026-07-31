@@ -6,4 +6,6 @@ attributes:
   number: "90/132"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me1/90_hires.png

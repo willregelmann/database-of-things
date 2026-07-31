@@ -6,4 +6,6 @@ attributes:
   number: "256/193"
   rarity: Special Illustration Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/256_hires.png

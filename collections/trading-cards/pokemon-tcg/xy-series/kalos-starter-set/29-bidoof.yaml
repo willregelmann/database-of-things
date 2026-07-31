@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "29/39"
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy0/29_hires.png

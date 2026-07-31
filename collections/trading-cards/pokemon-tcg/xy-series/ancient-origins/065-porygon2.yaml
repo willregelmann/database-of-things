@@ -6,4 +6,6 @@ attributes:
   number: "65/98"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy7/65_hires.png

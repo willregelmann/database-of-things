@@ -6,4 +6,6 @@ attributes:
   number: "26/214"
   rarity: Rare
   illustrator: "0313"
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/26_hires.png

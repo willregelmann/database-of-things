@@ -6,4 +6,6 @@ attributes:
   number: "32/72"
   rarity: Uncommon
   illustrator: NC Empire
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45/32_hires.png

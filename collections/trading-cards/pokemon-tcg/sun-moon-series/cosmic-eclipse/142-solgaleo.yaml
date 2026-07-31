@@ -6,4 +6,6 @@ attributes:
   number: "142/236"
   rarity: Rare Holo
   illustrator: Misa Tsutsui
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm12/142_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "156/131"
   rarity: Special Illustration Rare
   illustrator: Cona Nitanda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/156_hires.png

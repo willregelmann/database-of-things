@@ -6,4 +6,6 @@ attributes:
   number: "SWSH122"
   rarity: Promo
   illustrator: Pani Kobayashi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH122_hires.png

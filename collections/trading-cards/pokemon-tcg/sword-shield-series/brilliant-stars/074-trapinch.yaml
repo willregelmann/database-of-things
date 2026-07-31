@@ -6,4 +6,6 @@ attributes:
   number: "74/172"
   rarity: Common
   illustrator: zig
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/74_hires.png

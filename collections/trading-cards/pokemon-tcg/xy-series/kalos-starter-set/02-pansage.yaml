@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "2/39"
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy0/2_hires.png

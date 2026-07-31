@@ -6,4 +6,6 @@ attributes:
   number: "198/203"
   rarity: Rare Ultra
   illustrator: Naoki Saito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/198_hires.png

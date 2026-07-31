@@ -6,4 +6,6 @@ attributes:
   number: "34/196"
   rarity: Rare
   illustrator: chibi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/34_hires.png

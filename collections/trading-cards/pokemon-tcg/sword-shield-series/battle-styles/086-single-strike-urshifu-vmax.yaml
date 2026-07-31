@@ -6,4 +6,6 @@ attributes:
   number: "86/163"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/86_hires.png

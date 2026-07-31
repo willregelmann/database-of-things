@@ -6,4 +6,6 @@ attributes:
   number: "56/119"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy4/56_hires.png

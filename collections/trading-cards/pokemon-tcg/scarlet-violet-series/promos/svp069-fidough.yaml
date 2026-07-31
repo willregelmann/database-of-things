@@ -6,4 +6,6 @@ attributes:
   number: "069"
   rarity: Promo
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/69_hires.png

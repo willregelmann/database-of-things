@@ -6,4 +6,6 @@ attributes:
   number: "2/132"
   rarity: Common
   illustrator: Takumi Wada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/2_hires.png

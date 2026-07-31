@@ -6,4 +6,6 @@ attributes:
   number: "101/144"
   rarity: Common
   illustrator: Hisao Nakamura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/101_hires.png

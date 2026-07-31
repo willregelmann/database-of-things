@@ -6,4 +6,6 @@ attributes:
   number: "91/122"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy9/91_hires.png

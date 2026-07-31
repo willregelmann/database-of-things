@@ -6,4 +6,6 @@ attributes:
   number: "34/92"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/34_hires.png

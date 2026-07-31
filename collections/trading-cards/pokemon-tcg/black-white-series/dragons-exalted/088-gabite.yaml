@@ -6,4 +6,6 @@ attributes:
   number: "88/124"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw6/88_hires.png

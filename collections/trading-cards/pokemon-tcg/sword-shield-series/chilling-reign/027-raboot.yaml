@@ -6,4 +6,6 @@ attributes:
   number: "27/198"
   rarity: Uncommon
   illustrator: Souichirou Gunjima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/27_hires.png

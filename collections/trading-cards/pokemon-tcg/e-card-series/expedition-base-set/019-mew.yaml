@@ -6,4 +6,6 @@ attributes:
   number: "19/165"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard1/19_hires.png

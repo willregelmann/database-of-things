@@ -6,4 +6,6 @@ attributes:
   number: "96/160"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy5/96_hires.png

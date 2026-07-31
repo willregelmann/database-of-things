@@ -6,4 +6,6 @@ attributes:
   number: "12/92"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex12/12_hires.png

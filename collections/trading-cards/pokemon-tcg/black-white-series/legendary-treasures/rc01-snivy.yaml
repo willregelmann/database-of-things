@@ -6,4 +6,6 @@ attributes:
   number: "RC1/RC25"
   rarity: Common
   illustrator: Eske Yoshinob
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/RC1_hires.png

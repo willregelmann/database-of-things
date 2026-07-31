@@ -6,4 +6,6 @@ attributes:
   number: "27/73"
   rarity: Rare Shining
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm35/27_hires.png

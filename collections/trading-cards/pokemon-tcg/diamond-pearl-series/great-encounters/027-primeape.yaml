@@ -6,4 +6,6 @@ attributes:
   number: "27/106"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp4/27_hires.png

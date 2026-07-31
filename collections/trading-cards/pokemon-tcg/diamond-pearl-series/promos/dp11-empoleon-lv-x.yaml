@@ -6,4 +6,6 @@ attributes:
   number: "DP11"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Water
 image: https://images.pokemontcg.io/dpp/DP11_hires.png

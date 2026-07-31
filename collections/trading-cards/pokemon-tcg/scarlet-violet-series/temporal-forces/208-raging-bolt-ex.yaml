@@ -6,4 +6,6 @@ attributes:
   number: "208/162"
   rarity: Special Illustration Rare
   illustrator: Teeziro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv5/208_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "248/236"
   rarity: Rare Secret
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/248_hires.png

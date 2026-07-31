@@ -6,4 +6,6 @@ attributes:
   number: "42/111"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo1/42_hires.png

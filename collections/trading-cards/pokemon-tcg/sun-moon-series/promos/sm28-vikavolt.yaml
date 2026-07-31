@@ -6,4 +6,6 @@ attributes:
   number: "SM28"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM28_hires.png

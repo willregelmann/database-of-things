@@ -6,4 +6,6 @@ attributes:
   number: "102/192"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/102_hires.png

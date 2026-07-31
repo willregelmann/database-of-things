@@ -6,4 +6,6 @@ attributes:
   number: "7/106"
   rarity: Rare Holo
   illustrator: Daisuke Ito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp4/7_hires.png

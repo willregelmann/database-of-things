@@ -6,4 +6,6 @@ attributes:
   number: "61/123"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp2/61_hires.png

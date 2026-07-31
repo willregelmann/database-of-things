@@ -6,4 +6,6 @@ attributes:
   number: "124/86"
   rarity: Illustration Rare
   illustrator: Koji Nakata
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/zsv10pt5/124_hires.png

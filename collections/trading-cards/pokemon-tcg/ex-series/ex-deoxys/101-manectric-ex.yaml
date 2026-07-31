@@ -6,4 +6,6 @@ attributes:
   number: "101/107"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex8/101_hires.png

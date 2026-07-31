@@ -6,4 +6,6 @@ attributes:
   number: "37/107"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex8/37_hires.png

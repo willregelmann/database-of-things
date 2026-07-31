@@ -6,4 +6,6 @@ attributes:
   number: "SL1"
   rarity: Rare Holo
   illustrator: Noriko Hotta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/SL1_hires.png

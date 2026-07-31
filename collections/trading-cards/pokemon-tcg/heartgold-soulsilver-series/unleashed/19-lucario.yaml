@@ -6,4 +6,6 @@ attributes:
   number: "19/95"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss2/19_hires.png

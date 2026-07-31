@@ -6,4 +6,6 @@ attributes:
   number: "014"
   rarity: Promo
   illustrator: Mina Nakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/svp/14_hires.png

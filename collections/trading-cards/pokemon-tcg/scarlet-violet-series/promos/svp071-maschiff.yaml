@@ -6,4 +6,6 @@ attributes:
   number: "071"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/svp/71_hires.png

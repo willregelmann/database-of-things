@@ -6,4 +6,6 @@ attributes:
   number: "16/119"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy4/16_hires.png

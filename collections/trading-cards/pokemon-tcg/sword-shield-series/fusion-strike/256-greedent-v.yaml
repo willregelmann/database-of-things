@@ -6,4 +6,6 @@ attributes:
   number: "256/264"
   rarity: Rare Ultra
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/256_hires.png

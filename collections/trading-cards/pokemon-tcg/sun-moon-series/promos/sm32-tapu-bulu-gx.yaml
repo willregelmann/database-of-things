@@ -6,4 +6,6 @@ attributes:
   number: "SM32"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM32_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "63/124"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw6/63_hires.png

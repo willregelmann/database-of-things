@@ -6,4 +6,6 @@ attributes:
   number: "SWSH184"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH184_hires.png

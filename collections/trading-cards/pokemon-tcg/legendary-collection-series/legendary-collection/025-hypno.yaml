@@ -6,6 +6,8 @@ attributes:
   number: "25/110"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base6/25_hires.png
 variants:
   - id: 243e015d-bed4-4ffd-86cc-d196c7297b8d

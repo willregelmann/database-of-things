@@ -6,4 +6,6 @@ attributes:
   number: "33/100"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/33_hires.png

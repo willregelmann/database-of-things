@@ -6,4 +6,6 @@ attributes:
   number: "121/189"
   rarity: Uncommon
   illustrator: Nisota Niso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/121_hires.png

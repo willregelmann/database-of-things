@@ -6,4 +6,6 @@ attributes:
   number: "18/112"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex6/18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "100/182"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/100_hires.png

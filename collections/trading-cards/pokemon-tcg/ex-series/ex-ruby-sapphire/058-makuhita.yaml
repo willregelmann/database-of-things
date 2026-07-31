@@ -6,4 +6,6 @@ attributes:
   number: "58/109"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex1/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "74/144"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard3/74_hires.png

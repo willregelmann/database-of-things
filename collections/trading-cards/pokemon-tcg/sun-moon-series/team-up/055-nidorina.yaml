@@ -6,4 +6,6 @@ attributes:
   number: "55/181"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/55_hires.png

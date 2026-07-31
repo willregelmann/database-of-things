@@ -6,4 +6,6 @@ attributes:
   number: "30/189"
   rarity: Rare Holo V
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/30_hires.png

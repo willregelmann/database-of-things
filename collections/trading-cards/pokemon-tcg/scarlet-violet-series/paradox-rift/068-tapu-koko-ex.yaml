@@ -6,4 +6,6 @@ attributes:
   number: "68/182"
   rarity: Double Rare
   illustrator: hncl
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/gym1/58_hires.png

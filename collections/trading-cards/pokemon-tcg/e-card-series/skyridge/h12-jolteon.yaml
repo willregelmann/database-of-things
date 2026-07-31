@@ -6,4 +6,6 @@ attributes:
   number: "H12/H32"
   rarity: Rare Holo
   illustrator: Hikaru Koike
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard3/H12_hires.png

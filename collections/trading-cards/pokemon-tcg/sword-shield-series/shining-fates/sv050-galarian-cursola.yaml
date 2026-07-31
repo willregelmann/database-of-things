@@ -6,4 +6,6 @@ attributes:
   number: "SV050/SV122"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV050_hires.png

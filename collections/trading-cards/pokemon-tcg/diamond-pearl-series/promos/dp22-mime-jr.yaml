@@ -6,4 +6,6 @@ attributes:
   number: "DP22"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dpp/DP22_hires.png

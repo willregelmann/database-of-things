@@ -6,4 +6,6 @@ attributes:
   number: "30/106"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/30_hires.png

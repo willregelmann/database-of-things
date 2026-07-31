@@ -6,4 +6,6 @@ attributes:
   number: "64/95"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/col1/64_hires.png

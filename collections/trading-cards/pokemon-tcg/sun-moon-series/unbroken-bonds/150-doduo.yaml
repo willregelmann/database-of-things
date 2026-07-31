@@ -6,4 +6,6 @@ attributes:
   number: "150/214"
   rarity: Common
   illustrator: kodama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm10/150_hires.png

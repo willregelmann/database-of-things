@@ -6,4 +6,6 @@ attributes:
   number: "93/168"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm7/93_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "H31/H32"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/H31_hires.png

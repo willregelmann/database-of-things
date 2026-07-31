@@ -6,4 +6,6 @@ attributes:
   number: "SM201"
   rarity: Promo
   illustrator: Ryota Murayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM201_hires.png

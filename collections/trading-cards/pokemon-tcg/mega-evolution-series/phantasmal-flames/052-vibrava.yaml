@@ -6,4 +6,6 @@ attributes:
   number: "52/94"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me2/52_hires.png

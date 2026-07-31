@@ -6,4 +6,6 @@ attributes:
   number: "51/95"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss2/51_hires.png

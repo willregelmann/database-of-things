@@ -6,4 +6,6 @@ attributes:
   number: "9/25"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/cel25/9_hires.png

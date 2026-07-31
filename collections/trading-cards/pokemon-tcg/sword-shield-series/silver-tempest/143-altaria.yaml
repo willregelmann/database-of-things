@@ -6,4 +6,6 @@ attributes:
   number: "143/195"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/143_hires.png

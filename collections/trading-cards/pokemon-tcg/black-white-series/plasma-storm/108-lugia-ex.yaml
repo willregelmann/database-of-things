@@ -6,4 +6,6 @@ attributes:
   number: "108/135"
   rarity: Rare Holo ex
   illustrator: Toyste Beach
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw8/108_hires.png

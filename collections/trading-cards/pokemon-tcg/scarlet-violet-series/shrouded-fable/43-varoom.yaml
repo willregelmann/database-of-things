@@ -6,4 +6,6 @@ attributes:
   number: "43/64"
   rarity: Common
   illustrator: HAGIYA Kaoru
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6pt5/43_hires.png

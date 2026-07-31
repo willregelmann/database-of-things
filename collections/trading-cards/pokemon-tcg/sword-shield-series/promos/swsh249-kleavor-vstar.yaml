@@ -6,4 +6,6 @@ attributes:
   number: "SWSH249"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH249_hires.png

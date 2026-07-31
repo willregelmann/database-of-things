@@ -6,4 +6,6 @@ attributes:
   number: "112/189"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh3/112_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "RC29/RC32"
   rarity: Rare Ultra
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/g1/RC29_hires.png

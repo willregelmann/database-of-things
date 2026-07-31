@@ -6,4 +6,6 @@ attributes:
   number: "114/181"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm9/114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "143/185"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh4/143_hires.png

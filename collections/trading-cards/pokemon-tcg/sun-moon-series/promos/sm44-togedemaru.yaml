@@ -6,4 +6,6 @@ attributes:
   number: "SM44"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM44_hires.png

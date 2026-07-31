@@ -6,4 +6,6 @@ attributes:
   number: "10/95"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/col1/10_hires.png

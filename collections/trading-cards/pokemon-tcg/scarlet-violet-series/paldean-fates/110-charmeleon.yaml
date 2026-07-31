@@ -6,4 +6,6 @@ attributes:
   number: "110/91"
   rarity: Shiny Rare
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/110_hires.png

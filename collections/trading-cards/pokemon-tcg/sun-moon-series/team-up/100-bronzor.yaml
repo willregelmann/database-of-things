@@ -6,4 +6,6 @@ attributes:
   number: "100/181"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm9/100_hires.png

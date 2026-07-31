@@ -6,4 +6,6 @@ attributes:
   number: "202/191"
   rarity: Illustration Rare
   illustrator: N-DESIGN Inc.
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/202_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "44/108"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex16/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "7/97"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex3/7_hires.png

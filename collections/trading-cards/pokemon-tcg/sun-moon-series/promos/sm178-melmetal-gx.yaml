@@ -6,4 +6,6 @@ attributes:
   number: "SM178"
   rarity: Promo
   illustrator: PLANETA Otani
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM178_hires.png

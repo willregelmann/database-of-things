@@ -6,4 +6,6 @@ attributes:
   number: "93/92"
   rarity: Rare Secret
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex12/93_hires.png

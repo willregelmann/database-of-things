@@ -6,4 +6,6 @@ attributes:
   number: "78/189"
   rarity: Uncommon
   illustrator: Shibuzoh.
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/78_hires.png

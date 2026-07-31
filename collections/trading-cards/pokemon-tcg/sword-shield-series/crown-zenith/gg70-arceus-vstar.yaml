@@ -6,4 +6,6 @@ attributes:
   number: "GG70/GG70"
   rarity: Rare Secret
   illustrator: AKIRA EGAWA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "159/181"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm9/159_hires.png

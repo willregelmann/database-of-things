@@ -6,4 +6,6 @@ attributes:
   number: "14/34"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dc1/14_hires.png

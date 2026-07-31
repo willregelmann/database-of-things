@@ -6,4 +6,6 @@ attributes:
   number: "82/236"
   rarity: Rare Holo
   illustrator: Misa Tsutsui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/82_hires.png

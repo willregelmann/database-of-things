@@ -6,4 +6,6 @@ attributes:
   number: "191/189"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/191_hires.png

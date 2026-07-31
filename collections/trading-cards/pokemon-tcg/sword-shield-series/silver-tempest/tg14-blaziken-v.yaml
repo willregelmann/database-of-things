@@ -6,4 +6,6 @@ attributes:
   number: "TG14/TG30"
   rarity: Rare Holo V
   illustrator: nagimiso
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12tg/TG14_hires.png

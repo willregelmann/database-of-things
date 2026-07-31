@@ -6,4 +6,6 @@ attributes:
   number: "35/105"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/35_hires.png

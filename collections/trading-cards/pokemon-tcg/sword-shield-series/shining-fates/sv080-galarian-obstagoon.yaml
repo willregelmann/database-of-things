@@ -6,4 +6,6 @@ attributes:
   number: "SV080/SV122"
   rarity: Rare Shiny
   illustrator: Ryuta Fuse
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45sv/SV080_hires.png

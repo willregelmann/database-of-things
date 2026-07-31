@@ -6,4 +6,6 @@ attributes:
   number: "AR7"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl4/AR7_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "25/123"
   rarity: Rare
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/25_hires.png

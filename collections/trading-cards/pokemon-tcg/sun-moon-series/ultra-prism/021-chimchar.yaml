@@ -6,4 +6,6 @@ attributes:
   number: "21/156"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm5/21_hires.png

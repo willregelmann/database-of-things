@@ -6,4 +6,6 @@ attributes:
   number: "188/264"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/188_hires.png

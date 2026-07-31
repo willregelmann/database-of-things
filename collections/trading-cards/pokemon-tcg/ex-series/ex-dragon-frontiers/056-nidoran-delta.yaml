@@ -6,4 +6,6 @@ attributes:
   number: "56/101"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex15/56_hires.png

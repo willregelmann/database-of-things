@@ -6,4 +6,6 @@ attributes:
   number: "72/131"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/72_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "115/160"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy5/115_hires.png

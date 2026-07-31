@@ -6,4 +6,6 @@ attributes:
   number: "BW90"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
+  type:
+    - Water
 image: https://images.pokemontcg.io/bwp/BW90_hires.png

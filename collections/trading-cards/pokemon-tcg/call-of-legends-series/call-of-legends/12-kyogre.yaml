@@ -6,4 +6,6 @@ attributes:
   number: "12/95"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/12_hires.png

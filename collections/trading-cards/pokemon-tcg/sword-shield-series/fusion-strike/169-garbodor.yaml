@@ -6,4 +6,6 @@ attributes:
   number: "169/264"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh8/169_hires.png

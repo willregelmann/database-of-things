@@ -6,4 +6,6 @@ attributes:
   number: "130/214"
   rarity: Rare Holo GX
   illustrator: Yoshinobu Saito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm8/130_hires.png

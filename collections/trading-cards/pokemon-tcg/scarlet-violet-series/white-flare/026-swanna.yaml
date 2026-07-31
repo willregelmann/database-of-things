@@ -6,4 +6,6 @@ attributes:
   number: "26/86"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/26_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "205/197"
   rarity: Illustration Rare
   illustrator: Oku
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/205_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "035"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/np/35_hires.png

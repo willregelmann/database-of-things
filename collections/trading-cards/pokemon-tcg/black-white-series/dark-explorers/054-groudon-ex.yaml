@@ -6,4 +6,6 @@ attributes:
   number: "54/108"
   rarity: Rare Holo ex
   illustrator: Shizurow
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw5/54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "72/109"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex7/72_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG50/GG70"
   rarity: Rare Holo VSTAR
   illustrator: Pani Kobayashi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5gg/GG50_hires.png

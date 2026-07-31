@@ -6,4 +6,6 @@ attributes:
   number: "83/264"
   rarity: Uncommon
   illustrator: Hideki Ishikawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/83_hires.png

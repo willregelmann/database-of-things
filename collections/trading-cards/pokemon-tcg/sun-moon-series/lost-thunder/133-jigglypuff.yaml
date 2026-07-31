@@ -6,4 +6,6 @@ attributes:
   number: "133/214"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/133_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "96/98"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy7/96_hires.png

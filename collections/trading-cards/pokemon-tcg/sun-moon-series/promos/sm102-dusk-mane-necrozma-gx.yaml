@@ -6,4 +6,6 @@ attributes:
   number: "SM102"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM102_hires.png

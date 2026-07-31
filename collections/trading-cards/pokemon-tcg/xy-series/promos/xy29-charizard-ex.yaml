@@ -6,4 +6,6 @@ attributes:
   number: "XY29"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY29_hires.png

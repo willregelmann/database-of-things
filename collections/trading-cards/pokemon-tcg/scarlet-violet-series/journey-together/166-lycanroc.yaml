@@ -6,4 +6,6 @@ attributes:
   number: "166/159"
   rarity: Illustration Rare
   illustrator: GIDORA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/166_hires.png

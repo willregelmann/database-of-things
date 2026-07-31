@@ -6,4 +6,6 @@ attributes:
   number: "XY170"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY170_hires.png

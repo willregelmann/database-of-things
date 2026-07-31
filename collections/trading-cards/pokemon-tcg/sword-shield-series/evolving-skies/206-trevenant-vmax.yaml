@@ -6,4 +6,6 @@ attributes:
   number: "206/203"
   rarity: Rare Rainbow
   illustrator: MUGENUP
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/206_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/165"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3pt5/33_hires.png

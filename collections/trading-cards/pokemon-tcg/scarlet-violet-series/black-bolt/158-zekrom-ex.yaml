@@ -6,4 +6,6 @@ attributes:
   number: "158/86"
   rarity: Ultra Rare
   illustrator: takuyoa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/zsv10pt5/158_hires.png

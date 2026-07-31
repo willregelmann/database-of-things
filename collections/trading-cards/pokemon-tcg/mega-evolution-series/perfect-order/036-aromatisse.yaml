@@ -6,4 +6,6 @@ attributes:
   number: "36/88"
   rarity: Uncommon
   illustrator: Mori Yuu
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me3-36/large

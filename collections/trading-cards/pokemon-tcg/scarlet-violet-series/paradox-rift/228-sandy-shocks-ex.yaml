@@ -6,4 +6,6 @@ attributes:
   number: "228/182"
   rarity: Ultra Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/228_hires.png

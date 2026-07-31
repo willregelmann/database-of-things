@@ -6,4 +6,6 @@ attributes:
   number: "82/182"
   rarity: Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/82_hires.png

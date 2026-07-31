@@ -6,4 +6,6 @@ attributes:
   number: "46/124"
   rarity: Common
   illustrator: match
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/46_hires.png

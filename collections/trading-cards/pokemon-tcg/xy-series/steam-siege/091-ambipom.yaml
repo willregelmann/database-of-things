@@ -6,4 +6,6 @@ attributes:
   number: "91/114"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy11/91_hires.png

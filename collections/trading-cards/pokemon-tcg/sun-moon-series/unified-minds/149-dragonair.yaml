@@ -6,4 +6,6 @@ attributes:
   number: "149/236"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/149_hires.png

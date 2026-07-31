@@ -6,4 +6,6 @@ attributes:
   number: "45/102"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/45_hires.png

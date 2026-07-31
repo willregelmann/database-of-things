@@ -6,4 +6,6 @@ attributes:
   number: "SV007/SV122"
   rarity: Rare Shiny
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV007_hires.png

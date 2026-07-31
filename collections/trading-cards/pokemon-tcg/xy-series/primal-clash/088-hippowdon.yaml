@@ -6,4 +6,6 @@ attributes:
   number: "88/160"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy5/88_hires.png

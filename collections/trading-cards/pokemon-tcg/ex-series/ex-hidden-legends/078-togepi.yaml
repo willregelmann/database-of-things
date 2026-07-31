@@ -6,4 +6,6 @@ attributes:
   number: "78/101"
   rarity: Common
   illustrator: Nakaoka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex5/78_hires.png

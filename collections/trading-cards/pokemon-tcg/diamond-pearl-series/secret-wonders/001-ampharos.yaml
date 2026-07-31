@@ -6,4 +6,6 @@ attributes:
   number: "1/132"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp3/1_hires.png

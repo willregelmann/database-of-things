@@ -6,4 +6,6 @@ attributes:
   number: "74/163"
   rarity: Uncommon
   illustrator: Uta
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/74_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "20/100"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex2/20_hires.png

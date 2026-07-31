@@ -6,4 +6,6 @@ attributes:
   number: "63/163"
   rarity: Rare Holo V
   illustrator: PLANETA Tsuji
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/63_hires.png

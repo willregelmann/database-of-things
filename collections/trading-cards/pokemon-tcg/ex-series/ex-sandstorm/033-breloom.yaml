@@ -6,4 +6,6 @@ attributes:
   number: "33/100"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex2/33_hires.png

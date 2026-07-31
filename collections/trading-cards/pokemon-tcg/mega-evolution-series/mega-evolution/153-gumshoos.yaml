@@ -6,4 +6,6 @@ attributes:
   number: "153/132"
   rarity: Illustration Rare
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/153_hires.png

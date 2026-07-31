@@ -6,4 +6,6 @@ attributes:
   number: "175/159"
   rarity: Ultra Rare
   illustrator: takuyoa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv9/175_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "13/70"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/13_hires.png

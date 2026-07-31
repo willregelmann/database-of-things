@@ -6,4 +6,6 @@ attributes:
   number: "SWSH219"
   rarity: Promo
   illustrator: Ayaka Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH219_hires.png

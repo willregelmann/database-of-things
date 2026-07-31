@@ -6,4 +6,6 @@ attributes:
   number: "49/86"
   rarity: Uncommon
   illustrator: Dsuke
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/49_hires.png

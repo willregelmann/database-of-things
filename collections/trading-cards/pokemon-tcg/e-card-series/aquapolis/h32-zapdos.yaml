@@ -6,4 +6,6 @@ attributes:
   number: "H32/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard2/H32_hires.png

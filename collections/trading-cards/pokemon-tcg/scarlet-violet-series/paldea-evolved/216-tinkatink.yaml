@@ -6,4 +6,6 @@ attributes:
   number: "216/193"
   rarity: Illustration Rare
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv2/216_hires.png

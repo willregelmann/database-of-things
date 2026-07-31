@@ -6,4 +6,6 @@ attributes:
   number: "SWSH280"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH280_hires.png

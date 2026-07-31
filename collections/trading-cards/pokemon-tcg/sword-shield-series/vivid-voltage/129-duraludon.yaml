@@ -6,4 +6,6 @@ attributes:
   number: "129/185"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/129_hires.png

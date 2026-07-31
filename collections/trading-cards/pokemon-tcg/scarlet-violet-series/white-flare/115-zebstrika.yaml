@@ -6,4 +6,6 @@ attributes:
   number: "115/86"
   rarity: Illustration Rare
   illustrator: REND
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/115_hires.png

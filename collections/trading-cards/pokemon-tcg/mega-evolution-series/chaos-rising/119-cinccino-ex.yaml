@@ -6,4 +6,6 @@ attributes:
   number: "119/86"
   rarity: Special Illustration Rare
   illustrator: Keisin
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me4-119/large

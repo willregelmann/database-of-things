@@ -6,4 +6,6 @@ attributes:
   number: "033"
   rarity: Promo
   illustrator: K. Hoshiba
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/np/33_hires.png

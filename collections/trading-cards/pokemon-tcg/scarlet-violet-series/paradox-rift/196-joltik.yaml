@@ -6,4 +6,6 @@ attributes:
   number: "196/182"
   rarity: Illustration Rare
   illustrator: Atsushi Furusawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/196_hires.png

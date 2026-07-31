@@ -6,4 +6,6 @@ attributes:
   number: "26/159"
   rarity: Rare Holo
   illustrator: Shiburingaru
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5/26_hires.png

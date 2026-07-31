@@ -6,4 +6,6 @@ attributes:
   number: "48/149"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm1/48_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "191/162"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/191_hires.png

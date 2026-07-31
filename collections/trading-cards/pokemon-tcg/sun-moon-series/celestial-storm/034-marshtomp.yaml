@@ -6,4 +6,6 @@ attributes:
   number: "34/168"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm7/34_hires.png

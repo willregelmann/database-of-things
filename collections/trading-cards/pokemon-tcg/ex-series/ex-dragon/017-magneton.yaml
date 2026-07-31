@@ -6,4 +6,6 @@ attributes:
   number: "17/97"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex3/17_hires.png

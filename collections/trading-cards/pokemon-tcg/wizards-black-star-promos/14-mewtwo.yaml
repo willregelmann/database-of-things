@@ -6,4 +6,6 @@ attributes:
   number: "14/53"
   rarity: Promo
   illustrator: Benimaru Itoh
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/basep/14_hires.png

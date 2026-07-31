@@ -6,4 +6,6 @@ attributes:
   number: "43/122"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy9/43_hires.png

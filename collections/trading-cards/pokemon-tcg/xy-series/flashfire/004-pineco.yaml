@@ -6,4 +6,6 @@ attributes:
   number: "4/106"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy2/4_hires.png

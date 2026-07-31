@@ -6,4 +6,6 @@ attributes:
   number: "119/160"
   rarity: Uncommon
   illustrator: Hiroki Asanuma
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy5/119_hires.png

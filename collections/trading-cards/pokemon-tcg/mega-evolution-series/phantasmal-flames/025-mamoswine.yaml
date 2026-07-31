@@ -6,4 +6,6 @@ attributes:
   number: "25/94"
   rarity: Uncommon
   illustrator: Takumi Wada
+  type:
+    - Water
 image: https://images.pokemontcg.io/me2/25_hires.png

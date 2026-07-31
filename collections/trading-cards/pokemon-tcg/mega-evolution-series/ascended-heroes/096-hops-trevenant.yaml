@@ -6,4 +6,6 @@ attributes:
   number: "96/217"
   rarity: Rare
   illustrator: matazo
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-96/large

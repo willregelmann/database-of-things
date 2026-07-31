@@ -6,4 +6,6 @@ attributes:
   number: "100/110"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex13/100_hires.png

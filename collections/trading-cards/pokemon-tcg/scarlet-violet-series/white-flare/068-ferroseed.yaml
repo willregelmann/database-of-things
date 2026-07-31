@@ -6,4 +6,6 @@ attributes:
   number: "68/86"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/rsv10pt5/68_hires.png

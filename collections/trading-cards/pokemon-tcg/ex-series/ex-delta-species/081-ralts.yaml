@@ -6,4 +6,6 @@ attributes:
   number: "81/113"
   rarity: Common
   illustrator: Kenkichi Toyama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex11/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "24/191"
   rarity: Common
   illustrator: MARINA Chikazawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/24_hires.png

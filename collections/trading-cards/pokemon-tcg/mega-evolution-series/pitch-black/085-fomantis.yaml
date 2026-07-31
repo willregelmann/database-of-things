@@ -6,4 +6,6 @@ attributes:
   number: "85/84"
   rarity: Illustration Rare
   illustrator: Jiro Sasumo
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me5-85/large

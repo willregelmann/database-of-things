@@ -6,4 +6,6 @@ attributes:
   number: "31/111"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/31_hires.png

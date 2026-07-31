@@ -6,4 +6,6 @@ attributes:
   number: "SWSH199"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH199_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "77/146"
   rarity: Uncommon
   illustrator: Kent Kanetsuna
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp6/77_hires.png

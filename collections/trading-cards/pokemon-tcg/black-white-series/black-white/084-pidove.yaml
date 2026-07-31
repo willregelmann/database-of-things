@@ -6,4 +6,6 @@ attributes:
   number: "84/114"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw1/84_hires.png

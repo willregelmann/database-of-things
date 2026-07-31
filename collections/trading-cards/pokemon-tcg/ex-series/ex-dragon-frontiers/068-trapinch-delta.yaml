@@ -6,4 +6,6 @@ attributes:
   number: "68/101"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex15/68_hires.png

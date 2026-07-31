@@ -6,4 +6,6 @@ attributes:
   number: "123/91"
   rarity: Shiny Rare
   illustrator: kurumitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4pt5/123_hires.png

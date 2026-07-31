@@ -6,4 +6,6 @@ attributes:
   number: "195/203"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/195_hires.png

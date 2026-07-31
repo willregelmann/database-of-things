@@ -6,4 +6,6 @@ attributes:
   number: "SV043/SV122"
   rarity: Rare Shiny
   illustrator: Motofumi Fujiwara
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45sv/SV043_hires.png

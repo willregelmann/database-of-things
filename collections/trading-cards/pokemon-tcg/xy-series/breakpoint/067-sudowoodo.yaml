@@ -6,4 +6,6 @@ attributes:
   number: "67/122"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy9/67_hires.png

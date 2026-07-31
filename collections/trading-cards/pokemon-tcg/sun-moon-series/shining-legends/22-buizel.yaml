@@ -6,4 +6,6 @@ attributes:
   number: "22/73"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm35/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/107"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex8/31_hires.png

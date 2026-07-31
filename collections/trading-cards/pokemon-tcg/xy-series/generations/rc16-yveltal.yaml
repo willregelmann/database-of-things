@@ -6,4 +6,6 @@ attributes:
   number: "RC16/RC32"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/g1/RC16_hires.png

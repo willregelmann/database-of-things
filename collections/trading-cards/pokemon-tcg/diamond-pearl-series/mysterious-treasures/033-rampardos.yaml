@@ -6,4 +6,6 @@ attributes:
   number: "33/123"
   rarity: Rare
   illustrator: Kazuyuki Kano
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp2/33_hires.png

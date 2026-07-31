@@ -6,4 +6,6 @@ attributes:
   number: "93/159"
   rarity: Common
   illustrator: Lee HyunJung
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv9/93_hires.png

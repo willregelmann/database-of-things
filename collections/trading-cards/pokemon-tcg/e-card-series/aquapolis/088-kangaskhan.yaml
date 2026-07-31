@@ -6,4 +6,6 @@ attributes:
   number: "88/147"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard2/88_hires.png

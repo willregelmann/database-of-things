@@ -6,4 +6,6 @@ attributes:
   number: "158/191"
   rarity: Uncommon
   illustrator: DOM
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/158_hires.png

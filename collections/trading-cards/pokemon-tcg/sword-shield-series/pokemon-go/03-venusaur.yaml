@@ -6,4 +6,6 @@ attributes:
   number: "3/78"
   rarity: Rare Holo
   illustrator: KEIICHIRO ITO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pgo/3_hires.png

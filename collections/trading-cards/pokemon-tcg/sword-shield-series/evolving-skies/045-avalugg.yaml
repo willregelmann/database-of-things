@@ -6,4 +6,6 @@ attributes:
   number: "45/203"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/45_hires.png

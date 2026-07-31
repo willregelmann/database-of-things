@@ -6,4 +6,6 @@ attributes:
   number: "78/113"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex11/78_hires.png

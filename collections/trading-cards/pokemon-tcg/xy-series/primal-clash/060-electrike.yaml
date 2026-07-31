@@ -6,4 +6,6 @@ attributes:
   number: "60/160"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy5/60_hires.png

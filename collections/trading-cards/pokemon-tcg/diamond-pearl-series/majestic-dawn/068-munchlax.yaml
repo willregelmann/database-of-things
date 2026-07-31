@@ -6,4 +6,6 @@ attributes:
   number: "68/100"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp5/68_hires.png

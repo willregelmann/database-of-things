@@ -6,4 +6,6 @@ attributes:
   number: "144/131"
   rarity: Special Illustration Rare
   illustrator: Jiro Sasumo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8pt5/144_hires.png

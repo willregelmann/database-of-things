@@ -6,4 +6,6 @@ attributes:
   number: "34/100"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex2/34_hires.png

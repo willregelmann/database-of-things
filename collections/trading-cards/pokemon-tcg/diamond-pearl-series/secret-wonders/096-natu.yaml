@@ -6,4 +6,6 @@ attributes:
   number: "96/132"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp3/96_hires.png

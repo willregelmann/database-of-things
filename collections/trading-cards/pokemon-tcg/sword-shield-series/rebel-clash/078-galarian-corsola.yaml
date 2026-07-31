@@ -6,4 +6,6 @@ attributes:
   number: "78/192"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/78_hires.png

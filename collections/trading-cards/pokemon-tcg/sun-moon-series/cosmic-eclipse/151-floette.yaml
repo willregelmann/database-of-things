@@ -6,4 +6,6 @@ attributes:
   number: "151/236"
   rarity: Uncommon
   illustrator: miki kudo
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm12/151_hires.png

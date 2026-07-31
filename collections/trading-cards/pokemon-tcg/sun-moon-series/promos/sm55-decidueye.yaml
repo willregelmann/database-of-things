@@ -6,4 +6,6 @@ attributes:
   number: "SM55"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM55_hires.png

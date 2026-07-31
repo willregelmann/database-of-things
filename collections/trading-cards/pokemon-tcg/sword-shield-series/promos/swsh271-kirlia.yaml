@@ -6,4 +6,6 @@ attributes:
   number: "SWSH271"
   rarity: Promo
   illustrator: Taira Akitsu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH271_hires.png

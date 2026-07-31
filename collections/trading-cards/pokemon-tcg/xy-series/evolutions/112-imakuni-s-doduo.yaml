@@ -6,4 +6,6 @@ attributes:
   number: "112/108"
   rarity: Rare Secret
   illustrator: Imakuni?
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy12/112_hires.png

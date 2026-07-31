@@ -6,4 +6,6 @@ attributes:
   number: "9/107"
   rarity: Rare Holo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex8/9_hires.png

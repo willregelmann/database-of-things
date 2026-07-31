@@ -6,4 +6,6 @@ attributes:
   number: "34/95"
   rarity: Uncommon
   illustrator: Ken Ikuji
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex4/34_hires.png

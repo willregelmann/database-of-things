@@ -6,4 +6,6 @@ attributes:
   number: "126/189"
   rarity: Rare Holo
   illustrator: saino misaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/126_hires.png

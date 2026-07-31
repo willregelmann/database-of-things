@@ -6,4 +6,6 @@ attributes:
   number: "46/99"
   rarity: Uncommon
   illustrator: Kanako Eo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/46_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY41"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY41_hires.png

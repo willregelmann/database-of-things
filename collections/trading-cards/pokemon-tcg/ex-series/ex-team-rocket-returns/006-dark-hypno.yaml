@@ -6,4 +6,7 @@ attributes:
   number: "6/109"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
+    - Darkness
 image: https://images.pokemontcg.io/ex7/6_hires.png

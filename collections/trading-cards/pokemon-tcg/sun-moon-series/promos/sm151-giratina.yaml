@@ -6,4 +6,6 @@ attributes:
   number: "SM151"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM151_hires.png

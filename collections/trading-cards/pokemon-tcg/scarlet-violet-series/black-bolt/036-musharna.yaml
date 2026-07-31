@@ -6,4 +6,6 @@ attributes:
   number: "36/86"
   rarity: Uncommon
   illustrator: Eri Kamei
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/zsv10pt5/36_hires.png

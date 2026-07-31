@@ -6,4 +6,6 @@ attributes:
   number: "76/123"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/76_hires.png

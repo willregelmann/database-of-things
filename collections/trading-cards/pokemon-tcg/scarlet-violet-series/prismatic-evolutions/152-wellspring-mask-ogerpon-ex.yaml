@@ -6,4 +6,6 @@ attributes:
   number: "152/131"
   rarity: Special Illustration Rare
   illustrator: Yukihiro Tada
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8pt5/152_hires.png

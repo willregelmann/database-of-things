@@ -6,4 +6,6 @@ attributes:
   number: "21/75"
   rarity: Rare
   illustrator: CR CG gangs
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo2/21_hires.png

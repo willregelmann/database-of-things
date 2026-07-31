@@ -6,4 +6,6 @@ attributes:
   number: "21/124"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy10/21_hires.png

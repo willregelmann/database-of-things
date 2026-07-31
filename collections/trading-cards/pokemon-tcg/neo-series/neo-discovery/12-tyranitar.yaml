@@ -6,4 +6,6 @@ attributes:
   number: "12/75"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/neo2/12_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "149/214"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/149_hires.png

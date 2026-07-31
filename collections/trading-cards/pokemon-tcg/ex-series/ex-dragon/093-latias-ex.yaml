@@ -6,4 +6,6 @@ attributes:
   number: "93/97"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/93_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "108/168"
   rarity: Rare Prism Star
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm7/108_hires.png

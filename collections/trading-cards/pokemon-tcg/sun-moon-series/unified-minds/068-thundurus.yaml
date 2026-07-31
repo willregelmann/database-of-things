@@ -6,4 +6,6 @@ attributes:
   number: "68/236"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/68_hires.png

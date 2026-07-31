@@ -6,4 +6,6 @@ attributes:
   number: "36/70"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/36_hires.png

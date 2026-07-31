@@ -6,4 +6,6 @@ attributes:
   number: "66/132"
   rarity: Uncommon
   illustrator: matazo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me1/66_hires.png

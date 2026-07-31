@@ -6,4 +6,6 @@ attributes:
   number: "58/88"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me3-58/large

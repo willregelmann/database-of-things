@@ -6,4 +6,6 @@ attributes:
   number: "204/192"
   rarity: Rare Secret
   illustrator: PLANETA Tsuji
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh2/204_hires.png

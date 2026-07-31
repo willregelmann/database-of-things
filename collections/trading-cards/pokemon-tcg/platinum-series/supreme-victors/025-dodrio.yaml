@@ -6,4 +6,6 @@ attributes:
   number: "25/147"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/25_hires.png

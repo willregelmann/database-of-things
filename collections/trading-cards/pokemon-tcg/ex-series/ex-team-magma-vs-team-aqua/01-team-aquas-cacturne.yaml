@@ -6,4 +6,7 @@ attributes:
   number: "1/95"
   rarity: Rare Holo
   illustrator: K. Utsunomiya
+  type:
+    - Grass
+    - Darkness
 image: https://images.pokemontcg.io/ex4/1_hires.png

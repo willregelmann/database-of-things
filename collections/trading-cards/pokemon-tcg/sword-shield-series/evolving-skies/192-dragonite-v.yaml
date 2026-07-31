@@ -6,4 +6,6 @@ attributes:
   number: "192/203"
   rarity: Rare Ultra
   illustrator: Atsushi Furusawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/192_hires.png

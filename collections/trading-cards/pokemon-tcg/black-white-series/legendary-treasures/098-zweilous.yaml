@@ -6,4 +6,6 @@ attributes:
   number: "98/113"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw11/98_hires.png

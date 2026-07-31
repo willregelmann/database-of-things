@@ -6,4 +6,6 @@ attributes:
   number: "168/198"
   rarity: Rare Ultra
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/168_hires.png

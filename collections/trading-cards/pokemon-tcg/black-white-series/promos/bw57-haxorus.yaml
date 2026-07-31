@@ -6,4 +6,6 @@ attributes:
   number: "BW57"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bwp/BW57_hires.png

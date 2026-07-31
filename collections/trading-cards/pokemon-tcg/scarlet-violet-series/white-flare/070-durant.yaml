@@ -6,4 +6,6 @@ attributes:
   number: "70/86"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/rsv10pt5/70_hires.png

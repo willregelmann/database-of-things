@@ -6,4 +6,6 @@ attributes:
   number: "39/182"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/39_hires.png

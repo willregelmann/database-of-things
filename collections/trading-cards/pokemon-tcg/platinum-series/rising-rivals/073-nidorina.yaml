@@ -6,4 +6,6 @@ attributes:
   number: "73/111"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl2/73_hires.png

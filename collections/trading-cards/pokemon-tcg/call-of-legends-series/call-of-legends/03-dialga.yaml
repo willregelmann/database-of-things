@@ -6,4 +6,6 @@ attributes:
   number: "3/95"
   rarity: Rare Holo
   illustrator: Ayaka Yoshida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/col1/3_hires.png

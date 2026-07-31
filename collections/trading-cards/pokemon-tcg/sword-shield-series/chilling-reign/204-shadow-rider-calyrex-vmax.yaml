@@ -6,4 +6,6 @@ attributes:
   number: "204/198"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/204_hires.png

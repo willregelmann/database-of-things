@@ -6,4 +6,6 @@ attributes:
   number: "41/182"
   rarity: Common
   illustrator: yuu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/41_hires.png

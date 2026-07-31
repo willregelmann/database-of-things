@@ -6,4 +6,6 @@ attributes:
   number: "XY85"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY85_hires.png

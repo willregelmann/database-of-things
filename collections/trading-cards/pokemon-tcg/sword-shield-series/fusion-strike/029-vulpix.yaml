@@ -6,4 +6,6 @@ attributes:
   number: "29/264"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/29_hires.png

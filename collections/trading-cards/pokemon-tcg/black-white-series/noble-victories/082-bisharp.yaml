@@ -6,4 +6,6 @@ attributes:
   number: "82/101"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw3/82_hires.png

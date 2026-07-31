@@ -6,4 +6,6 @@ attributes:
   number: "81/191"
   rarity: Common
   illustrator: svlt
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/81_hires.png

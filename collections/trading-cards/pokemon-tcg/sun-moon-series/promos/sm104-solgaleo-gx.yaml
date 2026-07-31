@@ -6,4 +6,6 @@ attributes:
   number: "SM104"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM104_hires.png

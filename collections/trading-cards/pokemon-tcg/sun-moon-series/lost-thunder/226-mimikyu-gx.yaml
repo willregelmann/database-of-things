@@ -6,4 +6,6 @@ attributes:
   number: "226/214"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/226_hires.png

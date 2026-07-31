@@ -6,4 +6,6 @@ attributes:
   number: "37/214"
   rarity: Rare Holo
   illustrator: Satoshi Shirai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/37_hires.png

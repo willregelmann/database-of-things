@@ -6,4 +6,6 @@ attributes:
   number: "199/198"
   rarity: Rare Rainbow
   illustrator: PLANETA Tsuji
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh6/199_hires.png

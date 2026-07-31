@@ -6,4 +6,6 @@ attributes:
   number: "SV087/SV122"
   rarity: Rare Shiny
   illustrator: Ryuta Fuse
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45sv/SV087_hires.png

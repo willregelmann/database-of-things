@@ -6,4 +6,6 @@ attributes:
   number: "SV046/SV122"
   rarity: Rare Shiny
   illustrator: nagimiso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45sv/SV046_hires.png

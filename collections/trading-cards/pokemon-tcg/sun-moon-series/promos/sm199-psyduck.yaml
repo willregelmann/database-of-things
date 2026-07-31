@@ -6,4 +6,6 @@ attributes:
   number: "SM199"
   rarity: Promo
   illustrator: Framestore
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM199_hires.png

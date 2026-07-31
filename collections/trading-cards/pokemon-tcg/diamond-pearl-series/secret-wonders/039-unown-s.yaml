@@ -6,4 +6,6 @@ attributes:
   number: "39/132"
   rarity: Rare
   illustrator: Kazuyuki Kano
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp3/39_hires.png

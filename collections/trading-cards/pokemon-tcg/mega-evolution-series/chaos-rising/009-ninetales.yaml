@@ -6,4 +6,6 @@ attributes:
   number: "9/86"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me4-9/large

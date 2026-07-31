@@ -6,4 +6,6 @@ attributes:
   number: "17/181"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm9/17_hires.png

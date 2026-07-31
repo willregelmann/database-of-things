@@ -6,4 +6,6 @@ attributes:
   number: "103/106"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/103_hires.png

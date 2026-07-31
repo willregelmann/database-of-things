@@ -6,4 +6,6 @@ attributes:
   number: "80/182"
   rarity: Common
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/80_hires.png

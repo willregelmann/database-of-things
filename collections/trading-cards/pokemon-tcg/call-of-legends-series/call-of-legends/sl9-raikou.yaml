@@ -6,4 +6,6 @@ attributes:
   number: "SL9"
   rarity: Rare Holo
   illustrator: Noriko Hotta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/col1/SL9_hires.png

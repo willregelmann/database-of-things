@@ -6,4 +6,6 @@ attributes:
   number: "104/192"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/104_hires.png

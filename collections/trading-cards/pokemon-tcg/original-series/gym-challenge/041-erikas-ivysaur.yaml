@@ -6,4 +6,6 @@ attributes:
   number: "41/132"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/gym2/41_hires.png

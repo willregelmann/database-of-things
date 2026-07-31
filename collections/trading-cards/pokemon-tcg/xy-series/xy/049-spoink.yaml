@@ -6,4 +6,6 @@ attributes:
   number: "49/146"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy1/49_hires.png

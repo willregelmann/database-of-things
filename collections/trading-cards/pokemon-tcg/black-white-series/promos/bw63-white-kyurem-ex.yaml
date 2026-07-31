@@ -6,4 +6,6 @@ attributes:
   number: "BW63"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bwp/BW63_hires.png

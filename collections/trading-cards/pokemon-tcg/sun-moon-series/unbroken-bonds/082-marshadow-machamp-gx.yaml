@@ -6,4 +6,6 @@ attributes:
   number: "82/214"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/82_hires.png

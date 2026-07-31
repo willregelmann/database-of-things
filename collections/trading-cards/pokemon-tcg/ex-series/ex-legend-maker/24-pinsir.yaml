@@ -6,4 +6,6 @@ attributes:
   number: "24/92"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex12/24_hires.png

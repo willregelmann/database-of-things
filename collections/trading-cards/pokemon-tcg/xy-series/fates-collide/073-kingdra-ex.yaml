@@ -6,4 +6,6 @@ attributes:
   number: "73/124"
   rarity: Rare Holo ex
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy10/73_hires.png

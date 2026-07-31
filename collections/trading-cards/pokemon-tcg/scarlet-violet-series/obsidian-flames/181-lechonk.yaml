@@ -6,4 +6,6 @@ attributes:
   number: "181/197"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/181_hires.png

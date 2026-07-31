@@ -6,4 +6,6 @@ attributes:
   number: "24/99"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw4/24_hires.png

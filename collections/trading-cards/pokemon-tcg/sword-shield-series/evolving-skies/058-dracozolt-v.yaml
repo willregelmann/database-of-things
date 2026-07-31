@@ -6,4 +6,6 @@ attributes:
   number: "58/203"
   rarity: Rare Holo V
   illustrator: Ryota Murayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh7/58_hires.png

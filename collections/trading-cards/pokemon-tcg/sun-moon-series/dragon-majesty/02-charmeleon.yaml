@@ -6,4 +6,6 @@ attributes:
   number: "2/70"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/2_hires.png

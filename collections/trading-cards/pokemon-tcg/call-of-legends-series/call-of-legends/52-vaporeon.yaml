@@ -6,4 +6,6 @@ attributes:
   number: "52/95"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/52_hires.png

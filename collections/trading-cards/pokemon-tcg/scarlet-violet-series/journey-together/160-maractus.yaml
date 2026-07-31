@@ -6,4 +6,6 @@ attributes:
   number: "160/159"
   rarity: Illustration Rare
   illustrator: Ounishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/160_hires.png

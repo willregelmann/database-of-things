@@ -6,4 +6,6 @@ attributes:
   number: "6/91"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4pt5/6_hires.png

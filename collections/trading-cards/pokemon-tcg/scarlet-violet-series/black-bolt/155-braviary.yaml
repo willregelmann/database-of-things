@@ -6,4 +6,6 @@ attributes:
   number: "155/86"
   rarity: Illustration Rare
   illustrator: kamonabe
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/zsv10pt5/155_hires.png

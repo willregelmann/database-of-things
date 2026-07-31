@@ -6,4 +6,6 @@ attributes:
   number: "53/107"
   rarity: Common
   illustrator: Kenkichi Toyama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex8/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "69/167"
   rarity: Common
   illustrator: Shimaris Yukichi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv6/69_hires.png

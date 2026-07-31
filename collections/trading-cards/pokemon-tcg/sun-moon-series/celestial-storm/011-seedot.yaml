@@ -6,4 +6,6 @@ attributes:
   number: "11/168"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm7/11_hires.png

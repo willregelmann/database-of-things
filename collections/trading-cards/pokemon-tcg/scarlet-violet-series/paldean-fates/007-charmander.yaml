@@ -6,4 +6,6 @@ attributes:
   number: "7/91"
   rarity: Common
   illustrator: GIDORA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/7_hires.png

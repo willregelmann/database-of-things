@@ -6,4 +6,6 @@ attributes:
   number: "16/83"
   rarity: Common
   illustrator: Hideki Ishikawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/g1/16_hires.png

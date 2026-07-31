@@ -6,4 +6,6 @@ attributes:
   number: "2/145"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm2/2_hires.png

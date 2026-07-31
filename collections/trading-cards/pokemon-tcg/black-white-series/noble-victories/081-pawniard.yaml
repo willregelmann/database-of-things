@@ -6,4 +6,6 @@ attributes:
   number: "81/101"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw3/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "188/159"
   rarity: Hyper Rare
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv9/188_hires.png

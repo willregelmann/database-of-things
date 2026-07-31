@@ -6,4 +6,6 @@ attributes:
   number: "SV4/SV94"
   rarity: Rare Shiny
   illustrator: SATOSHI NAKAI
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sma/SV4_hires.png

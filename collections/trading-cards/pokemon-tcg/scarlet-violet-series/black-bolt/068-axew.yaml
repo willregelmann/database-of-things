@@ -6,4 +6,6 @@ attributes:
   number: "68/86"
   rarity: Common
   illustrator: Taiga Kasai
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/zsv10pt5/68_hires.png

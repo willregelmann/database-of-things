@@ -6,4 +6,6 @@ attributes:
   number: "157/91"
   rarity: Shiny Rare
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/157_hires.png

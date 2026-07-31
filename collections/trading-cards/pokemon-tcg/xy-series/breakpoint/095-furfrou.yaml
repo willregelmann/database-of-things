@@ -6,4 +6,6 @@ attributes:
   number: "95/122"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy9/95_hires.png

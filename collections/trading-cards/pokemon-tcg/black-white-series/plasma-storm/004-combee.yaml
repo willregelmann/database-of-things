@@ -6,4 +6,6 @@ attributes:
   number: "4/135"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw8/4_hires.png

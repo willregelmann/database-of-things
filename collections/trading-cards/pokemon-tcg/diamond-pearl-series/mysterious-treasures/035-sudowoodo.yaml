@@ -6,4 +6,6 @@ attributes:
   number: "35/123"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp2/35_hires.png

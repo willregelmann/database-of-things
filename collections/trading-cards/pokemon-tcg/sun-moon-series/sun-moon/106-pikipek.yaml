@@ -6,4 +6,6 @@ attributes:
   number: "106/149"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm1/106_hires.png

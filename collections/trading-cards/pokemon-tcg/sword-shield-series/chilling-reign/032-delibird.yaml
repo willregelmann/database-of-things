@@ -6,4 +6,6 @@ attributes:
   number: "32/198"
   rarity: Common
   illustrator: Narumi Sato
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/32_hires.png

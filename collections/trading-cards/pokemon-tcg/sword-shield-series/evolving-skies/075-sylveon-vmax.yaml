@@ -6,4 +6,6 @@ attributes:
   number: "75/203"
   rarity: Rare Holo VMAX
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/75_hires.png

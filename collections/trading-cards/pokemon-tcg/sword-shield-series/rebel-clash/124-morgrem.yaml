@@ -6,4 +6,6 @@ attributes:
   number: "124/192"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh2/124_hires.png

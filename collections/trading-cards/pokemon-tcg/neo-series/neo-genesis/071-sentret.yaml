@@ -6,4 +6,6 @@ attributes:
   number: "71/111"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo1/71_hires.png

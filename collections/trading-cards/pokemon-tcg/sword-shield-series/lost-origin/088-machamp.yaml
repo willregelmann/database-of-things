@@ -6,4 +6,6 @@ attributes:
   number: "88/196"
   rarity: Rare Holo
   illustrator: Nisota Niso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/88_hires.png

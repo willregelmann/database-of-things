@@ -6,4 +6,6 @@ attributes:
   number: "SWSH173"
   rarity: Promo
   illustrator: Oswaldo KATO
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH173_hires.png

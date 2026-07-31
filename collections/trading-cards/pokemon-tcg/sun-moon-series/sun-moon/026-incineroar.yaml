@@ -6,4 +6,6 @@ attributes:
   number: "26/149"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm1/26_hires.png

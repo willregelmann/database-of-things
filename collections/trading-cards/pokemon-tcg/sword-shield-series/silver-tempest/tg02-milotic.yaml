@@ -6,4 +6,6 @@ attributes:
   number: "TG02/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: chibi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12tg/TG02_hires.png

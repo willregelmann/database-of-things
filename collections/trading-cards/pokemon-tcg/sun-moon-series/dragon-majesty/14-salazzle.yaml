@@ -6,4 +6,6 @@ attributes:
   number: "14/70"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/14_hires.png

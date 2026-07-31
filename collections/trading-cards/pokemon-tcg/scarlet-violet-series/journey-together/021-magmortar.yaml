@@ -6,4 +6,6 @@ attributes:
   number: "21/159"
   rarity: Rare
   illustrator: Tonji Matsuno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv9/21_hires.png

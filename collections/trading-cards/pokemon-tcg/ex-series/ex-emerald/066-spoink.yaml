@@ -6,4 +6,6 @@ attributes:
   number: "66/106"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex9/66_hires.png

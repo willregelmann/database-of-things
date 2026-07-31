@@ -6,4 +6,6 @@ attributes:
   number: "184/195"
   rarity: Rare Ultra
   illustrator: Hataya
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12/184_hires.png

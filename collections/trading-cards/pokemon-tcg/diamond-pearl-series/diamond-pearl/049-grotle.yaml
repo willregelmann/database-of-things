@@ -6,4 +6,6 @@ attributes:
   number: "49/130"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp1/49_hires.png

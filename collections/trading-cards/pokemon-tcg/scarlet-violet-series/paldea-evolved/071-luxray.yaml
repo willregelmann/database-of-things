@@ -6,4 +6,6 @@ attributes:
   number: "71/193"
   rarity: Rare
   illustrator: aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/71_hires.png

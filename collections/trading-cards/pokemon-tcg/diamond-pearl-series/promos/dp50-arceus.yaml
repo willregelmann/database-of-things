@@ -6,4 +6,6 @@ attributes:
   number: "DP50"
   rarity: Promo
   illustrator: Kunihiko Yuyama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dpp/DP50_hires.png

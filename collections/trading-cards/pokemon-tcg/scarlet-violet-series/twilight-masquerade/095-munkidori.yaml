@@ -6,4 +6,6 @@ attributes:
   number: "95/167"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/95_hires.png

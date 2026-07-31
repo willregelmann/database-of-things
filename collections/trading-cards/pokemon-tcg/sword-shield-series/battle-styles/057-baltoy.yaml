@@ -6,4 +6,6 @@ attributes:
   number: "57/163"
   rarity: Common
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/57_hires.png

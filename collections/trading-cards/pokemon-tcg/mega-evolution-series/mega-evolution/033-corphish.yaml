@@ -6,4 +6,6 @@ attributes:
   number: "33/132"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/me1/33_hires.png

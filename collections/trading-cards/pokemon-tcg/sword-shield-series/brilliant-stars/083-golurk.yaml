@@ -6,4 +6,6 @@ attributes:
   number: "83/172"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/83_hires.png

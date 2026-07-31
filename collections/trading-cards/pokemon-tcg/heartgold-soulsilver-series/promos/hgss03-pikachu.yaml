@@ -6,4 +6,6 @@ attributes:
   number: "HGSS03"
   rarity: Promo
   illustrator: Kanako Eo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hsp/HGSS03_hires.png

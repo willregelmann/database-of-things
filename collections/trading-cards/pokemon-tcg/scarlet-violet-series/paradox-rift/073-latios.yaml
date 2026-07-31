@@ -6,4 +6,6 @@ attributes:
   number: "73/182"
   rarity: Rare
   illustrator: chibi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/73_hires.png

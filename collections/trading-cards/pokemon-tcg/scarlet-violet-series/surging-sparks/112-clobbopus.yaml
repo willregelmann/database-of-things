@@ -6,4 +6,6 @@ attributes:
   number: "112/191"
   rarity: Common
   illustrator: Shimaris Yukichi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/112_hires.png

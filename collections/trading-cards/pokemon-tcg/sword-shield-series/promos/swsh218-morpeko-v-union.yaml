@@ -6,4 +6,6 @@ attributes:
   number: "SWSH218"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH218_hires.png

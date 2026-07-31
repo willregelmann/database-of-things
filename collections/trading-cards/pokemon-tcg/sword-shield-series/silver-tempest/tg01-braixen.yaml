@@ -6,4 +6,6 @@ attributes:
   number: "TG01/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Naoki Saito
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12tg/TG01_hires.png

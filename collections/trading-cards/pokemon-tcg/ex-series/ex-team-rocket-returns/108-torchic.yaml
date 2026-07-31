@@ -6,4 +6,6 @@ attributes:
   number: "108/109"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex7/108_hires.png

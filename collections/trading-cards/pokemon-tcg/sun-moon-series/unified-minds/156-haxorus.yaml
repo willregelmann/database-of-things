@@ -6,4 +6,6 @@ attributes:
   number: "156/236"
   rarity: Rare Holo
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/156_hires.png

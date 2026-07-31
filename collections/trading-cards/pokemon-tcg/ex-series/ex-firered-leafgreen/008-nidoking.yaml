@@ -6,4 +6,6 @@ attributes:
   number: "8/112"
   rarity: Rare Holo
   illustrator: Hisao Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex6/8_hires.png

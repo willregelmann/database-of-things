@@ -6,4 +6,6 @@ attributes:
   number: "68/119"
   rarity: Common
   illustrator: Satoshi Shirai
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy4/68_hires.png

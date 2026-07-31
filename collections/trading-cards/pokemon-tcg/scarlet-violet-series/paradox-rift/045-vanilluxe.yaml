@@ -6,4 +6,6 @@ attributes:
   number: "45/182"
   rarity: Uncommon
   illustrator: Nelnal
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/45_hires.png

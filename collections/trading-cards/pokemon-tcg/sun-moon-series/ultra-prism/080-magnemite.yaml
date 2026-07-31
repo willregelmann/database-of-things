@@ -6,4 +6,6 @@ attributes:
   number: "80/156"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm5/80_hires.png

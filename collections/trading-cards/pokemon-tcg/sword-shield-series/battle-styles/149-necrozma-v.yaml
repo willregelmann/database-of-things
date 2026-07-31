@@ -6,4 +6,6 @@ attributes:
   number: "149/163"
   rarity: Rare Ultra
   illustrator: PLANETA Tsuji
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/149_hires.png

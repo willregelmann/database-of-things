@@ -6,4 +6,6 @@ attributes:
   number: "25/149"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm1/25_hires.png

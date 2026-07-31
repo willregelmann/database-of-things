@@ -6,4 +6,6 @@ attributes:
   number: "61/113"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex11/61_hires.png

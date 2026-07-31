@@ -6,4 +6,6 @@ attributes:
   number: "116/198"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/116_hires.png

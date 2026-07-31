@@ -6,4 +6,6 @@ attributes:
   number: "35/64"
   rarity: Uncommon
   illustrator: SIE NANAHARA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6pt5/35_hires.png

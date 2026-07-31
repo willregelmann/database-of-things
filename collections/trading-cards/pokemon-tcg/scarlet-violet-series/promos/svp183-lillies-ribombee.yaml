@@ -6,4 +6,6 @@ attributes:
   number: "183"
   rarity: Promo
   illustrator: tono
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/183_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "70/132"
   rarity: Common
   illustrator: Uta
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "67/113"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex11/67_hires.png

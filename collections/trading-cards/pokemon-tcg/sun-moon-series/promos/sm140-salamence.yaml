@@ -6,4 +6,6 @@ attributes:
   number: "SM140"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/smp/SM140_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG49/GG70"
   rarity: Rare Holo V
   illustrator: Yuka Morii
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5gg/GG49_hires.png

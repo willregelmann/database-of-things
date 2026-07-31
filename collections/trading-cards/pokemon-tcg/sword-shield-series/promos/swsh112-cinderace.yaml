@@ -6,4 +6,6 @@ attributes:
   number: "SWSH112"
   rarity: Promo
   illustrator: Anesaki Dynamic
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH112_hires.png

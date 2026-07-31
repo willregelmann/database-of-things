@@ -6,4 +6,6 @@ attributes:
   number: "45/62"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base3/45_hires.png

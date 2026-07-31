@@ -6,4 +6,6 @@ attributes:
   number: "184/189"
   rarity: Rare Ultra
   illustrator: PLANETA Tsuji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/184_hires.png

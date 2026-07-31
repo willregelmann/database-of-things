@@ -6,4 +6,6 @@ attributes:
   number: "156/198"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/156_hires.png

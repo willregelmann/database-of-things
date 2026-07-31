@@ -6,4 +6,6 @@ attributes:
   number: "SWSH181"
   rarity: Promo
   illustrator: Tika Matsuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH181_hires.png

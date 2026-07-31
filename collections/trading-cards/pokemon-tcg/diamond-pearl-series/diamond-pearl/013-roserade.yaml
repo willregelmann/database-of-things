@@ -6,4 +6,6 @@ attributes:
   number: "13/130"
   rarity: Rare Holo
   illustrator: Nakaoka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp1/13_hires.png

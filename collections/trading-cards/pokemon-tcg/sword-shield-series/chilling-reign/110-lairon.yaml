@@ -6,4 +6,6 @@ attributes:
   number: "110/198"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh6/110_hires.png

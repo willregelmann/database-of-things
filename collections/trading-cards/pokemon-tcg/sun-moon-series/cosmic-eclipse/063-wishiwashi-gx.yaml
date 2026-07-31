@@ -6,4 +6,6 @@ attributes:
   number: "63/236"
   rarity: Rare Holo GX
   illustrator: sadaji
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/63_hires.png

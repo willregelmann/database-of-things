@@ -6,4 +6,6 @@ attributes:
   number: "3/191"
   rarity: Uncommon
   illustrator: Oswaldo KATO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/3_hires.png

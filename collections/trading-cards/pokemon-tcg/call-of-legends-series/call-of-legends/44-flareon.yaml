@@ -6,4 +6,6 @@ attributes:
   number: "44/95"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/col1/44_hires.png

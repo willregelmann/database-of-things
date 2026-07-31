@@ -6,4 +6,6 @@ attributes:
   number: "106/168"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm7/106_hires.png

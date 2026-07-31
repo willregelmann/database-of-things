@@ -6,4 +6,6 @@ attributes:
   number: "SWSH177"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH177_hires.png

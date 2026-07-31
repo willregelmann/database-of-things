@@ -6,4 +6,6 @@ attributes:
   number: "44/64"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base2/44_hires.png

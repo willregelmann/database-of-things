@@ -6,4 +6,6 @@ attributes:
   number: "15/131"
   rarity: Common
   illustrator: Whisker
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8pt5/15_hires.png

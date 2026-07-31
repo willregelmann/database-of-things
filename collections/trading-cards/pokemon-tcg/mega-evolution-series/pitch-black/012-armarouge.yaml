@@ -6,4 +6,6 @@ attributes:
   number: "12/84"
   rarity: Rare
   illustrator: Jiro Sasumo
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me5-12/large

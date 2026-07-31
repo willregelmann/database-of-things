@@ -6,4 +6,6 @@ attributes:
   number: "84/162"
   rarity: Rare
   illustrator: Mina Nakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/84_hires.png

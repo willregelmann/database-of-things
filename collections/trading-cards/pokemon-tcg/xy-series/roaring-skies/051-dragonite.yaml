@@ -6,4 +6,6 @@ attributes:
   number: "51/108"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/51_hires.png

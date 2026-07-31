@@ -6,4 +6,6 @@ attributes:
   number: "23/124"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw6/23_hires.png

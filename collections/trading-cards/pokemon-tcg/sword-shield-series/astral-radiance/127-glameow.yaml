@@ -6,4 +6,6 @@ attributes:
   number: "127/189"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/127_hires.png

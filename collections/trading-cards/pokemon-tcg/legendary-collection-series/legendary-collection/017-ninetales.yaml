@@ -6,6 +6,8 @@ attributes:
   number: "17/110"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base6/17_hires.png
 variants:
   - id: 1c75e69f-cd15-413b-bcd7-ba445f6f7b61

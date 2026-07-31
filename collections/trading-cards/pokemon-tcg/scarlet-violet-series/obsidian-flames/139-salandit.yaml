@@ -6,4 +6,6 @@ attributes:
   number: "139/197"
   rarity: Common
   illustrator: Shiburingaru
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3/139_hires.png

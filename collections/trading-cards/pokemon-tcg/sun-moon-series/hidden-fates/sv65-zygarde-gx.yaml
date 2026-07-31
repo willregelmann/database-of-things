@@ -6,4 +6,6 @@ attributes:
   number: "SV65/SV94"
   rarity: Rare Shiny GX
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sma/SV65_hires.png

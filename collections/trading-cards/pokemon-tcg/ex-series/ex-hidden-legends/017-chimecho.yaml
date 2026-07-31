@@ -6,4 +6,6 @@ attributes:
   number: "17/101"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex5/17_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "HGSS19"
   rarity: Promo
   illustrator: Noriko Hotta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hsp/HGSS19_hires.png

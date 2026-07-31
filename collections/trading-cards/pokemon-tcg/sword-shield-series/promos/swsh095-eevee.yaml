@@ -6,4 +6,6 @@ attributes:
   number: "SWSH095"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH095_hires.png

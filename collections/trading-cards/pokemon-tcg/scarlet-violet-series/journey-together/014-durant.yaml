@@ -6,4 +6,6 @@ attributes:
   number: "14/159"
   rarity: Common
   illustrator: KEIICHIRO ITO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/14_hires.png

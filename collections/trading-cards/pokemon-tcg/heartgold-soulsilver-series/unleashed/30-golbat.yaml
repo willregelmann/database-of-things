@@ -6,4 +6,6 @@ attributes:
   number: "30/95"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/30_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "71/111"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl2/71_hires.png

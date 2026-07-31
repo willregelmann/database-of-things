@@ -6,4 +6,6 @@ attributes:
   number: "133/147"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm3/133_hires.png

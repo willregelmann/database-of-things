@@ -6,4 +6,6 @@ attributes:
   number: "45/100"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp7/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "205/203"
   rarity: Rare Rainbow
   illustrator: HYOGONOSUKE
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/205_hires.png

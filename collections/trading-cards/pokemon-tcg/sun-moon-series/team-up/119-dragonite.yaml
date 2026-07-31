@@ -6,4 +6,6 @@ attributes:
   number: "119/181"
   rarity: Rare Holo
   illustrator: Megumi Mizutani
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm9/119_hires.png

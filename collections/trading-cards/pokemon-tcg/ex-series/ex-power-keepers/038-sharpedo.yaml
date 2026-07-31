@@ -6,4 +6,6 @@ attributes:
   number: "38/108"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex16/38_hires.png

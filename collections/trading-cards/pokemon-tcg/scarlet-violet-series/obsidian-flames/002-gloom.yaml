@@ -6,4 +6,6 @@ attributes:
   number: "2/197"
   rarity: Common
   illustrator: Haru Akasaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3/2_hires.png

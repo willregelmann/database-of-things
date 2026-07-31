@@ -6,4 +6,6 @@ attributes:
   number: "GG54/GG70"
   rarity: Rare Holo V
   illustrator: Haru Akasaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5gg/GG54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "54/132"
   rarity: Common
   illustrator: Orca
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me1/54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "76/191"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/76_hires.png

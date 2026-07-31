@@ -6,4 +6,6 @@ attributes:
   number: "XY39"
   rarity: Promo
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY39_hires.png

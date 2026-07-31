@@ -6,4 +6,6 @@ attributes:
   number: "64/182"
   rarity: Common
   illustrator: Kedamahadaitai Yawarakai
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/64_hires.png

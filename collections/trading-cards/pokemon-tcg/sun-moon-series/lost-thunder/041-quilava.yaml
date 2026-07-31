@@ -6,4 +6,6 @@ attributes:
   number: "41/214"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm8/41_hires.png

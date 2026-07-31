@@ -6,4 +6,6 @@ attributes:
   number: "167/159"
   rarity: Illustration Rare
   illustrator: Bun Toujo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/167_hires.png

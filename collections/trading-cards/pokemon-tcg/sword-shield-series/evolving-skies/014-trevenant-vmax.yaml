@@ -6,4 +6,6 @@ attributes:
   number: "14/203"
   rarity: Rare Holo VMAX
   illustrator: MUGENUP
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/14_hires.png

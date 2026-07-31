@@ -6,4 +6,6 @@ attributes:
   number: "76/110"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex13/76_hires.png

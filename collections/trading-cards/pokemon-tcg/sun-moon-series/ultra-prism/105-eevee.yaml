@@ -6,4 +6,6 @@ attributes:
   number: "105/156"
   rarity: Common
   illustrator: Hideki Ishikawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm5/105_hires.png

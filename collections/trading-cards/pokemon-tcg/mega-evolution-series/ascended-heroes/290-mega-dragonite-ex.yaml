@@ -6,4 +6,6 @@ attributes:
   number: "290/217"
   rarity: Special Illustration Rare
   illustrator: DOM
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-290/large

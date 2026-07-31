@@ -6,4 +6,6 @@ attributes:
   number: "TG16/TG30"
   rarity: Rare Holo V
   illustrator: Ryota Murayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh11tg/TG16_hires.png

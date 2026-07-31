@@ -6,4 +6,6 @@ attributes:
   number: "SV52/SV94"
   rarity: Rare Shiny GX
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sma/SV52_hires.png

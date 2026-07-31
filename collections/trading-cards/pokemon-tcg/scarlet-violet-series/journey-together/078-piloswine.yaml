@@ -6,4 +6,6 @@ attributes:
   number: "78/159"
   rarity: Common
   illustrator: Aliya Chen
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/78_hires.png

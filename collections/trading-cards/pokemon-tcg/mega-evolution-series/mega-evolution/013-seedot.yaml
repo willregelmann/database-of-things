@@ -6,4 +6,6 @@ attributes:
   number: "13/132"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/13_hires.png

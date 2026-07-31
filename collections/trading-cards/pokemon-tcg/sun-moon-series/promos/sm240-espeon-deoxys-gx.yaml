@@ -6,4 +6,6 @@ attributes:
   number: "SM240"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM240_hires.png

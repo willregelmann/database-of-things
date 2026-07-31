@@ -6,4 +6,6 @@ attributes:
   number: "13/123"
   rarity: Rare Holo
   illustrator: Daisuke Ito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp2/13_hires.png

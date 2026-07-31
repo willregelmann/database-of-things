@@ -6,4 +6,6 @@ attributes:
   number: "63/144"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/63_hires.png

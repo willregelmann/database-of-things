@@ -6,4 +6,6 @@ attributes:
   number: "31/94"
   rarity: Common
   illustrator: Orca
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me2/31_hires.png

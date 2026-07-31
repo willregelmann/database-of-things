@@ -6,4 +6,6 @@ attributes:
   number: "76/147"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/76_hires.png

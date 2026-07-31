@@ -6,4 +6,6 @@ attributes:
   number: "19/84"
   rarity: Common
   illustrator: MINAMINAMI Take
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me5-19/large

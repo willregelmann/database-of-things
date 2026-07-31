@@ -6,4 +6,6 @@ attributes:
   number: "25/185"
   rarity: Rare
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh4/25_hires.png

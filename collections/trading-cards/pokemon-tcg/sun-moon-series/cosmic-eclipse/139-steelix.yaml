@@ -6,4 +6,6 @@ attributes:
   number: "139/236"
   rarity: Rare Holo
   illustrator: KEIICHIRO ITO
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm12/139_hires.png

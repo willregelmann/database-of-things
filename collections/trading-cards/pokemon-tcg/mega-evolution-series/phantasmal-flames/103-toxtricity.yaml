@@ -6,4 +6,6 @@ attributes:
   number: "103/94"
   rarity: Illustration Rare
   illustrator: Terada Tera
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/103_hires.png

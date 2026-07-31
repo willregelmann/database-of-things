@@ -6,4 +6,6 @@ attributes:
   number: "5/127"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl1/5_hires.png

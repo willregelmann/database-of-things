@@ -6,4 +6,6 @@ attributes:
   number: "138/162"
   rarity: Rare
   illustrator: Toshinao Aoki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/138_hires.png

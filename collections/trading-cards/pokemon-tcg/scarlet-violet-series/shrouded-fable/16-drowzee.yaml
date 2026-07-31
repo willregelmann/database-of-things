@@ -6,4 +6,6 @@ attributes:
   number: "16/64"
   rarity: Common
   illustrator: OKUBO
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6pt5/16_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "6/73"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh35/6_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM213"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM213_hires.png

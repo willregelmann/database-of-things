@@ -6,4 +6,6 @@ attributes:
   number: "SM224"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM224_hires.png

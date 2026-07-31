@@ -6,4 +6,6 @@ attributes:
   number: "74/168"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm7/74_hires.png

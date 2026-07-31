@@ -6,4 +6,6 @@ attributes:
   number: "24/162"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy8/24_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "153/214"
   rarity: Rare
   illustrator: sui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm10/153_hires.png

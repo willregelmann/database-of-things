@@ -6,4 +6,6 @@ attributes:
   number: "28/182"
   rarity: Uncommon
   illustrator: Nisota Niso
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/28_hires.png

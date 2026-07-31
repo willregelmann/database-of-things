@@ -6,4 +6,6 @@ attributes:
   number: "TG03/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Taira Akitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10tg/TG03_hires.png

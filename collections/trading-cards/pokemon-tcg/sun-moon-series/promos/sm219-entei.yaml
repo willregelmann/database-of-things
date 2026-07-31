@@ -6,4 +6,6 @@ attributes:
   number: "SM219"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM219_hires.png

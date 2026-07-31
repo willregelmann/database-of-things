@@ -6,4 +6,6 @@ attributes:
   number: "001"
   rarity: Promo
   illustrator: Hiromichi Sugiyama
+  type:
+    - Water
 image: https://images.pokemontcg.io/np/1_hires.png

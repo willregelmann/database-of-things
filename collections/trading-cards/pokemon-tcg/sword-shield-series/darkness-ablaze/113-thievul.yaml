@@ -6,4 +6,6 @@ attributes:
   number: "113/189"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh3/113_hires.png

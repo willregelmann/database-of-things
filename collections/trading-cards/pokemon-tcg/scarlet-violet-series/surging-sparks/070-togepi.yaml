@@ -6,4 +6,6 @@ attributes:
   number: "70/191"
   rarity: Common
   illustrator: Yoko Hishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/70_hires.png

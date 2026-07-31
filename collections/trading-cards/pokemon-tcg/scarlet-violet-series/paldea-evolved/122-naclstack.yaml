@@ -6,4 +6,6 @@ attributes:
   number: "122/193"
   rarity: Uncommon
   illustrator: GIDORA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/122_hires.png

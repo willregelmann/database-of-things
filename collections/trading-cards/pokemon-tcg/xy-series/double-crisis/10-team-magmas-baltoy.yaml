@@ -6,4 +6,6 @@ attributes:
   number: "10/34"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dc1/10_hires.png

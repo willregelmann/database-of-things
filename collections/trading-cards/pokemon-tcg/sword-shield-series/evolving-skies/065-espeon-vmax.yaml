@@ -6,4 +6,6 @@ attributes:
   number: "65/203"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/65_hires.png

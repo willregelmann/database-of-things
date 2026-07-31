@@ -6,4 +6,6 @@ attributes:
   number: "144/192"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/144_hires.png

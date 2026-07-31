@@ -6,4 +6,6 @@ attributes:
   number: "H25/H32"
   rarity: Rare Holo
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard3/H25_hires.png

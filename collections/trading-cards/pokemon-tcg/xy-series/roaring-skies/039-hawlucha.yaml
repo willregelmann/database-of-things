@@ -6,4 +6,6 @@ attributes:
   number: "39/108"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy6/39_hires.png

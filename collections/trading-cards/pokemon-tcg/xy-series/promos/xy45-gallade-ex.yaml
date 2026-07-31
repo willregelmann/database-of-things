@@ -6,4 +6,6 @@ attributes:
   number: "XY45"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY45_hires.png

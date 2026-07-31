@@ -6,4 +6,6 @@ attributes:
   number: "47/111"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy3/47_hires.png

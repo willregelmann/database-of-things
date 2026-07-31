@@ -6,4 +6,6 @@ attributes:
   number: "88/165"
   rarity: Common
   illustrator: Nisota Niso
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3pt5/88_hires.png

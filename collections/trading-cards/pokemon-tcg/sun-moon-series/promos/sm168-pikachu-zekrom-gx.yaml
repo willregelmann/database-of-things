@@ -6,4 +6,6 @@ attributes:
   number: "SM168"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM168_hires.png

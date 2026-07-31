@@ -6,4 +6,6 @@ attributes:
   number: "8/108"
   rarity: Rare
   illustrator: match
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy6/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "4/124"
   rarity: Rare
   illustrator: MAHOU
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy10/4_hires.png

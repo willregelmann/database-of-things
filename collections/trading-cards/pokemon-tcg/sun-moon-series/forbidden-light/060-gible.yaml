@@ -6,4 +6,6 @@ attributes:
   number: "60/131"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/60_hires.png

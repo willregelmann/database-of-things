@@ -6,4 +6,6 @@ attributes:
   number: "18/122"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/18_hires.png

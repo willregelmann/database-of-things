@@ -6,4 +6,6 @@ attributes:
   number: "40/95"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex4/40_hires.png

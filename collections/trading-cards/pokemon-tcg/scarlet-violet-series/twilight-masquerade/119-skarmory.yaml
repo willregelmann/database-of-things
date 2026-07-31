@@ -6,4 +6,6 @@ attributes:
   number: "119/167"
   rarity: Common
   illustrator: toi8
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6/119_hires.png

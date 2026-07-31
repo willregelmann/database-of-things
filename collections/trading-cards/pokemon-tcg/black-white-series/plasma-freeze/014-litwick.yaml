@@ -6,4 +6,6 @@ attributes:
   number: "14/116"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw9/14_hires.png

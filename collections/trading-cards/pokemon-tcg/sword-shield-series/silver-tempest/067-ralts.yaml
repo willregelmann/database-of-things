@@ -6,4 +6,6 @@ attributes:
   number: "67/195"
   rarity: Common
   illustrator: Nagomi Nijo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/67_hires.png

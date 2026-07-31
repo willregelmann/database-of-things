@@ -6,4 +6,6 @@ attributes:
   number: "23/189"
   rarity: Common
   illustrator: sui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/23_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "82/119"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy4/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "38/100"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp7/38_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/189"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/15_hires.png

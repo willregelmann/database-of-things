@@ -6,4 +6,6 @@ attributes:
   number: "44/64"
   rarity: Common
   illustrator: Orca
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6pt5/44_hires.png

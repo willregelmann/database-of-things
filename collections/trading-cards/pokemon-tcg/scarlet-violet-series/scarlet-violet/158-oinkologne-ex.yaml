@@ -6,4 +6,6 @@ attributes:
   number: "158/198"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/158_hires.png

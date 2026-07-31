@@ -6,4 +6,6 @@ attributes:
   number: "SV93/SV94"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sma/SV93_hires.png

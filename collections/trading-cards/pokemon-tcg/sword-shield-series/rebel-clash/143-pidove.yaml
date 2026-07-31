@@ -6,4 +6,6 @@ attributes:
   number: "143/192"
   rarity: Common
   illustrator: Ryota Murayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/143_hires.png

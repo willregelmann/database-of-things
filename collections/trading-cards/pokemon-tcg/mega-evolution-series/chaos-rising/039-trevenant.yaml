@@ -6,4 +6,6 @@ attributes:
   number: "39/86"
   rarity: Rare
   illustrator: Uninori
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me4-39/large

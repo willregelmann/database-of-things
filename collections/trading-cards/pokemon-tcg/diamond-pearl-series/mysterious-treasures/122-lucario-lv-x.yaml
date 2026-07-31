@@ -6,4 +6,6 @@ attributes:
   number: "122/123"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp2/122_hires.png

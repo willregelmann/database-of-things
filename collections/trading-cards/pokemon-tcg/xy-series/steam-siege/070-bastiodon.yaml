@@ -6,4 +6,6 @@ attributes:
   number: "70/114"
   rarity: Rare
   illustrator: match
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy11/70_hires.png

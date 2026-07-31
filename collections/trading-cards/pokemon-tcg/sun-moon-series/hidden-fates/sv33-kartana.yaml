@@ -6,4 +6,6 @@ attributes:
   number: "SV33/SV94"
   rarity: Rare Shiny
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV33_hires.png

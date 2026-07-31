@@ -6,4 +6,6 @@ attributes:
   number: "68/132"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/gym2/68_hires.png

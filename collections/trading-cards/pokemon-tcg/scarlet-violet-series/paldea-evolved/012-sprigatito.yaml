@@ -6,4 +6,6 @@ attributes:
   number: "12/193"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/12_hires.png

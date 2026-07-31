@@ -6,4 +6,6 @@ attributes:
   number: "82/144"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/82_hires.png

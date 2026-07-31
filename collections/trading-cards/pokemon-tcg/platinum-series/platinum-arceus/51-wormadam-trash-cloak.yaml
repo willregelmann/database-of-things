@@ -6,4 +6,6 @@ attributes:
   number: "51/99"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl4/51_hires.png

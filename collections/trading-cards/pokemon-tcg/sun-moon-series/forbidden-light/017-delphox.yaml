@@ -6,4 +6,6 @@ attributes:
   number: "17/131"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm6/17_hires.png

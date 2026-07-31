@@ -6,4 +6,6 @@ attributes:
   number: "84/160"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy5/84_hires.png

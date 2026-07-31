@@ -6,4 +6,6 @@ attributes:
   number: "12/203"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/12_hires.png

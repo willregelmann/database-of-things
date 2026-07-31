@@ -6,4 +6,6 @@ attributes:
   number: "GG35/GG70"
   rarity: Rare Holo VSTAR
   illustrator: Jiro Sasumo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12pt5gg/GG35_hires.png

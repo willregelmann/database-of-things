@@ -6,4 +6,6 @@ attributes:
   number: "68/145"
   rarity: Uncommon
   illustrator: Yoshinobu Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/68_hires.png

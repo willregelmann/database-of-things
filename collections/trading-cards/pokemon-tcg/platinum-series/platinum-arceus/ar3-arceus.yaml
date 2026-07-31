@@ -6,4 +6,6 @@ attributes:
   number: "AR3"
   rarity: Rare Holo
   illustrator: Wataru Kawahara
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/AR3_hires.png

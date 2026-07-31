@@ -6,4 +6,6 @@ attributes:
   number: "RC19/RC32"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC19_hires.png

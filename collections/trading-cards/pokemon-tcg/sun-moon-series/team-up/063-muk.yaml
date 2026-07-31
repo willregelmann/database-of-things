@@ -6,4 +6,6 @@ attributes:
   number: "63/181"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/63_hires.png

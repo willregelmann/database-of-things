@@ -6,4 +6,6 @@ attributes:
   number: "128/146"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp6/128_hires.png

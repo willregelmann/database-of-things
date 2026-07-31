@@ -6,4 +6,6 @@ attributes:
   number: "120/203"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/120_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "240/236"
   rarity: Rare Secret
   illustrator: Misaki Hashimoto
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/240_hires.png

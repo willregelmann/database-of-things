@@ -6,4 +6,6 @@ attributes:
   number: "8/123"
   rarity: Rare Holo
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/8_hires.png

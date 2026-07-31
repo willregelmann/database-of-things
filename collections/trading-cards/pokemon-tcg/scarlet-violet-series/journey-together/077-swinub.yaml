@@ -6,4 +6,6 @@ attributes:
   number: "77/159"
   rarity: Common
   illustrator: REND
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/77_hires.png

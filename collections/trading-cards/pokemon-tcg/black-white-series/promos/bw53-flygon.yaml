@@ -6,4 +6,6 @@ attributes:
   number: "BW53"
   rarity: Promo
   illustrator: BERUBURI
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bwp/BW53_hires.png

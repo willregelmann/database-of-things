@@ -6,4 +6,6 @@ attributes:
   number: "93/172"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/93_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "46/147"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/46_hires.png
