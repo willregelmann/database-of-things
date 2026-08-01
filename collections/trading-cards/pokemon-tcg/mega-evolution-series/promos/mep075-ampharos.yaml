@@ -6,4 +6,6 @@ attributes:
   number: "075"
   rarity: Promo
   illustrator: Taiga Kasai
+  type:
+    - Lightning
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/AmpharosMEPPromo75.jpg

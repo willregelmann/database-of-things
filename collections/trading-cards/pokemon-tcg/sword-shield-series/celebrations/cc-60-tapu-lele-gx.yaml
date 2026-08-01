@@ -6,4 +6,6 @@ attributes:
   number: "60/145"
   rarity: Rare Classic
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/cel25c/60_A_hires.png

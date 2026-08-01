@@ -6,4 +6,6 @@ attributes:
   number: "88/92"
   rarity: Rare Classic
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/cel25c/88_A_hires.png

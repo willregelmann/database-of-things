@@ -6,5 +6,7 @@ attributes:
   number: "094"
   rarity: Promo
   illustrator: yuu
+  type:
+    - Grass
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/AlolanExeggutorMEPPromo94.jpg

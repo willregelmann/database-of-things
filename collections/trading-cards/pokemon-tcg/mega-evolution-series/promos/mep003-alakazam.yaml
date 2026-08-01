@@ -6,4 +6,6 @@ attributes:
   number: "003"
   rarity: Promo
   illustrator: cochi8i
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/AlakazamMEPPromo3.jpg

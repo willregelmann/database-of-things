@@ -6,4 +6,6 @@ attributes:
   number: "027"
   rarity: Promo
   illustrator: Arai Kiriko
+  type:
+    - Darkness
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/HaunterMEPPromo27.jpg

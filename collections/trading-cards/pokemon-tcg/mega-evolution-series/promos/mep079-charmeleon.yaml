@@ -6,5 +6,7 @@ attributes:
   number: "079"
   rarity: Promo
   illustrator: Teeziro
+  type:
+    - Fire
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/CharmeleonMEPPromo79.jpg

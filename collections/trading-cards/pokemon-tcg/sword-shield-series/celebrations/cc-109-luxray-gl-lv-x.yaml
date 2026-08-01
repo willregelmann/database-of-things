@@ -6,4 +6,6 @@ attributes:
   number: "109/111"
   rarity: Rare Classic
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/cel25c/109_A_hires.png

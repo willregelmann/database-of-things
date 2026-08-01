@@ -6,4 +6,6 @@ attributes:
   number: "016"
   rarity: Promo
   illustrator: Oswaldo KATO
+  type:
+    - Fighting
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/FlygonMEPPromo16.jpg

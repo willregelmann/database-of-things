@@ -6,4 +6,6 @@ attributes:
   number: "102"
   rarity: Promo
   illustrator: satoma
+  type:
+    - Fire
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/VictiniMEPPromo102.jpg

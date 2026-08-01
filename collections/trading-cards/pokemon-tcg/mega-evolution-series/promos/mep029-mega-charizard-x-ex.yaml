@@ -6,5 +6,7 @@ attributes:
   number: "029"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Fire
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/MegaCharizardXexMEPPromo29.jpg

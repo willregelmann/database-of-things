@@ -6,4 +6,6 @@ attributes:
   number: "069"
   rarity: Promo
   illustrator: Makura Tami
+  type:
+    - Grass
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ChikoritaMEPPromo69.jpg

@@ -6,4 +6,6 @@ attributes:
   number: "097"
   rarity: Promo
   illustrator: Taira Akitsu
+  type:
+    - Water
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ArticunoMEPPromo97.jpg

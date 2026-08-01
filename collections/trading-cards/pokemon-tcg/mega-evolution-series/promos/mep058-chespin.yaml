@@ -6,4 +6,6 @@ attributes:
   number: "058"
   rarity: Promo
   illustrator: Saboteri
+  type:
+    - Grass
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ChespinMEPPromo58.jpg

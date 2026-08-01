@@ -6,4 +6,6 @@ attributes:
   number: "088"
   rarity: Promo
   illustrator: IKEDA Saki
+  type:
+    - Darkness
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ZarudeMEPPromo88.jpg

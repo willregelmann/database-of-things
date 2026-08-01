@@ -6,4 +6,6 @@ attributes:
   number: "8/82"
   rarity: Rare Classic
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/cel25c/8_A_hires.png

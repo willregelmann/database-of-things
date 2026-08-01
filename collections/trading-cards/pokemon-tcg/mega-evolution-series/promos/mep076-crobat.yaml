@@ -6,4 +6,6 @@ attributes:
   number: "076"
   rarity: Promo
   illustrator: Apios
+  type:
+    - Darkness
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/CrobatMEPPromo76.jpg

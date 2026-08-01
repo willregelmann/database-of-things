@@ -6,4 +6,6 @@ attributes:
   number: "078"
   rarity: Promo
   illustrator: Mina Nakai
+  type:
+    - Darkness
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ToxelMEPPromo78.jpg

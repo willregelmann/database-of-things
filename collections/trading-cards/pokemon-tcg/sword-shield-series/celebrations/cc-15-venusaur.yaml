@@ -6,4 +6,6 @@ attributes:
   number: "15/102"
   rarity: Rare Classic
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/cel25c/15_A_hires.png

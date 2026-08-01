@@ -6,4 +6,6 @@ attributes:
   number: "103"
   rarity: Promo
   illustrator: HACCAN
+  type:
+    - Lightning
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ZeraoraMEPPromo103.jpg

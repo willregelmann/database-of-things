@@ -6,4 +6,6 @@ attributes:
   number: "085"
   rarity: Promo
   illustrator: Minahamu
+  type:
+    - Metal
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/BastiodonMEPPromo85.jpg

@@ -619,16 +619,17 @@ translation needed (unlike `rarity`'s messy era-specific casing/wording
 history), and it's a `supertype: "Pokémon"` check away from correctly
 skipping every non-Pokémon card.
 
-**Backfilled catalog-wide: 16,873 of 20,121 cards carry it.** The
-remaining 3,248 are almost all genuinely non-Pokémon (Trainers, Energies)
-— the only two real, still-open gaps are the Mega Evolution-era promo
-line (111 cards, no API set id — see below) and Celebrations' Classic
-Collection (25 cards, deliberately excluded — see below). Sourced via a
-bulk per-directory fetch (`/v2/cards?q=set.id:<id>&pageSize=250`,
-paginated past 250), not a per-card lookup — cheaper than the illustrator
-backfill by roughly two orders of magnitude in request count. Zero cards
-found with more than one value in `types`, despite the schema modeling it
-as an array.
+**Backfilled catalog-wide: 17,004 of 20,121 cards carry it — every
+Pokémon-supertype card in the catalog.** The remaining 3,117 are all
+genuinely non-Pokémon (Trainers, Energies). Sourced via a bulk
+per-directory fetch (`/v2/cards?q=set.id:<id>&pageSize=250`, paginated
+past 250), not a per-card lookup — cheaper than the illustrator backfill
+by roughly two orders of magnitude in request count. Zero cards found
+with more than one value in `types`, despite the schema modeling it as an
+array. The two subsets the bulk API method couldn't reach (Mega
+Evolution-era promos, Celebrations' Classic Collection — 111 + 25 cards)
+were closed out separately by reading each card's own `image` directly —
+see below.
 
 **Format**: a block sequence, indented 2 spaces deeper than the `type:`
 key itself (matching this repo's convention for any other array-valued
@@ -701,16 +702,26 @@ coincidentally sitting at position `15` in their own original sets) all
 received the identical `Psychic` value from one bad match. Caught by a
 numerator-collision audit run across the *entire* catalog after the fact
 (the only collisions found anywhere were these 25 files), reverted to a
-byte-identical pre-touch state, and now excluded by filename prefix
-rather than trusted to number-matching logic. These 25 cards' `type`
-remains unsourced — a separate future task, not in scope for this
-backfill.
+byte-identical pre-touch state. **Resolved properly afterward by reading
+each of the 22 Pokémon cards' own `image` directly, one at a time** — no
+bulk shortcut exists for this subset since each card's number doesn't
+belong to any one fetchable set. Caught a real trap doing it this way:
+`cc-93-gardevoir-ex` ("Gardevoir ex δ", a Delta Species card) is typed
+`Fire` on the actual printed card, not `Psychic` as Gardevoir's normal
+game typing would suggest — Delta Species cards deliberately carry
+off-type energy as their whole gimmick, so don't infer a Classic
+Collection card's type from the Pokémon's usual typing, always read the
+specific printing.
 
-**The Mega Evolution-era promo line (`mega-evolution-series/promos/`) is
-deferred entirely — it has no `api.pokemontcg.io` set id at all**, same
-reason its other fields are Bulbapedia-sourced (see the Numbering
-section). Its 111 cards' `type` needs the same per-card Bulbapedia
-approach, not this bulk API method.
+**The Mega Evolution-era promo line (`mega-evolution-series/promos/`) has
+no `api.pokemontcg.io` set id at all**, same reason its other fields are
+Bulbapedia-sourced (see the Numbering section). Of its 111 cards, 78 were
+covered by pkmncards.com (which indexes this line under
+`mega-evolution-promos` despite the missing official API id — same
+`class="color" title="Color"` markup pattern used for illustrator
+credits, just a different field). The remaining 32 (plus the one
+unnumbered jumbo promo) were resolved by reading each card's own `image`
+directly.
 
 ## Variants
 

@@ -6,4 +6,6 @@ attributes:
   number: "24/53"
   rarity: Rare Classic
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/cel25c/24_A_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "101"
   rarity: Promo
   illustrator: Taiga Kasai
+  type:
+    - Darkness
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/NidorinaMEPPromo101.jpg

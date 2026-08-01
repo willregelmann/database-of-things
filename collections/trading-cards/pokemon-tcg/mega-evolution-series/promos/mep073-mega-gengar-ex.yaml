@@ -6,5 +6,7 @@ attributes:
   number: "073"
   rarity: Promo
   illustrator: Ultimateinudog
+  type:
+    - Darkness
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/MegaGengarexMEPPromo73.jpg

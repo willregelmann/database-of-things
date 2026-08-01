@@ -6,4 +6,6 @@ attributes:
   number: "002"
   rarity: Promo
   illustrator: Kazumasa Yasukuni
+  type:
+    - Water
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/InteleonMEPPromo2.jpg

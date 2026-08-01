@@ -5,5 +5,7 @@ date: "2026"
 attributes:
   rarity: Promo
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/PikachuattheMuseumMEPPromo.jpg
