@@ -6,4 +6,6 @@ attributes:
   number: "082"
   rarity: Promo
   illustrator: Taira Akitsu
+  type:
+    - Lightning
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/MiraidonMEPPromo82.jpg

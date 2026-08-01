@@ -6,4 +6,6 @@ attributes:
   number: "53/111"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm4/53_hires.png

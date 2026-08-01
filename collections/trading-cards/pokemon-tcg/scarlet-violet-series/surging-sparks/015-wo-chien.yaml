@@ -6,4 +6,6 @@ attributes:
   number: "15/191"
   rarity: Uncommon
   illustrator: danciao
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/15_hires.png

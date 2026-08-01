@@ -6,4 +6,6 @@ attributes:
   number: "117/163"
   rarity: Rare Holo V
   illustrator: Eske Yoshinob
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh5/117_hires.png

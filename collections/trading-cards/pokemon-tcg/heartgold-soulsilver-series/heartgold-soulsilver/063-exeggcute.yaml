@@ -6,4 +6,6 @@ attributes:
   number: "63/123"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss1/63_hires.png

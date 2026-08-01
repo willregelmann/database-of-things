@@ -6,4 +6,6 @@ attributes:
   number: "50/202"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/50_hires.png

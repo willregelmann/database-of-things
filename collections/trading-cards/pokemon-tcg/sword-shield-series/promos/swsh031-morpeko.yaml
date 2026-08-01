@@ -6,4 +6,6 @@ attributes:
   number: "SWSH031"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH031_hires.png

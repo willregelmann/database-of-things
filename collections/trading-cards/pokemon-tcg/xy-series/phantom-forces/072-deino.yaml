@@ -6,4 +6,6 @@ attributes:
   number: "72/119"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy4/72_hires.png

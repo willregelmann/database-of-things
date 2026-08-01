@@ -6,4 +6,6 @@ attributes:
   number: "142/214"
   rarity: Rare
   illustrator: Saya Tsuruta
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm10/142_hires.png

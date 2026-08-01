@@ -6,4 +6,6 @@ attributes:
   number: "205/192"
   rarity: Rare Secret
   illustrator: PLANETA Tsuji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/205_hires.png

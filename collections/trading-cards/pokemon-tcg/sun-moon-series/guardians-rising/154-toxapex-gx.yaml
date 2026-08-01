@@ -6,4 +6,6 @@ attributes:
   number: "154/145"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm2/154_hires.png

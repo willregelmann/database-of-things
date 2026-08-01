@@ -6,4 +6,6 @@ attributes:
   number: "73/123"
   rarity: Common
   illustrator: Yusuke Ohmura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/73_hires.png

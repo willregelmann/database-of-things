@@ -6,4 +6,6 @@ attributes:
   number: "4/106"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex9/4_hires.png

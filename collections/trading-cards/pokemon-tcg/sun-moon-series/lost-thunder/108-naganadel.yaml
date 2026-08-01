@@ -6,4 +6,6 @@ attributes:
   number: "108/214"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/108_hires.png

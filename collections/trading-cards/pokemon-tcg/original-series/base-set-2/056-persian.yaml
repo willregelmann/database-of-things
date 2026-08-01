@@ -6,4 +6,6 @@ attributes:
   number: "56/130"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base4/56_hires.png

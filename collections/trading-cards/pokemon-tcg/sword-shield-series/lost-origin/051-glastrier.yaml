@@ -6,4 +6,6 @@ attributes:
   number: "51/196"
   rarity: Rare Holo
   illustrator: Jiro Sasumo
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/51_hires.png

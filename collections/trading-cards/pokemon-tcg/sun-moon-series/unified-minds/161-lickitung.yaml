@@ -6,4 +6,6 @@ attributes:
   number: "161/236"
   rarity: Common
   illustrator: tetsuya koizumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/161_hires.png

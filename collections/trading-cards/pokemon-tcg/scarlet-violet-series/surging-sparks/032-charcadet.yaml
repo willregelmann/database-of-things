@@ -6,4 +6,6 @@ attributes:
   number: "32/191"
   rarity: Common
   illustrator: Kariya
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/32_hires.png

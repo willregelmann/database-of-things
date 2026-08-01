@@ -6,4 +6,6 @@ attributes:
   number: "23/123"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss1/23_hires.png

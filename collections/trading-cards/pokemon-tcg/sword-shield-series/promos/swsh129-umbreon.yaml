@@ -6,4 +6,6 @@ attributes:
   number: "SWSH129"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH129_hires.png

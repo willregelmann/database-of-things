@@ -6,4 +6,6 @@ attributes:
   number: "SM241"
   rarity: Promo
   illustrator: so-taro
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/smp/SM241_hires.png

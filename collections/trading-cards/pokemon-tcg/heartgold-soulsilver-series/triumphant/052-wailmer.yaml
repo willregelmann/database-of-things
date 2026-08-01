@@ -6,4 +6,6 @@ attributes:
   number: "52/102"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss4/52_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "64/189"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/64_hires.png

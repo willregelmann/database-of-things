@@ -6,4 +6,6 @@ attributes:
   number: "53/131"
   rarity: Common
   illustrator: Kurata So
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8pt5/53_hires.png

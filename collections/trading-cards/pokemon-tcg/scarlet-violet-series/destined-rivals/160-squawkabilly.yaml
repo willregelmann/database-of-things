@@ -6,4 +6,6 @@ attributes:
   number: "160/182"
   rarity: Common
   illustrator: Julie Hang
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/160_hires.png

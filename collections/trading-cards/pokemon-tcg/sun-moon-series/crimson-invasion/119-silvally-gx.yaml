@@ -6,4 +6,6 @@ attributes:
   number: "119/111"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm4/119_hires.png

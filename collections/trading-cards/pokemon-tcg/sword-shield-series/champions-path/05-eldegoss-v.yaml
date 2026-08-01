@@ -6,4 +6,6 @@ attributes:
   number: "5/73"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh35/5_hires.png

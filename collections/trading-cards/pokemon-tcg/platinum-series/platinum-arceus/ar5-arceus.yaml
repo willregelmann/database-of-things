@@ -6,4 +6,6 @@ attributes:
   number: "AR5"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl4/AR5_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/86"
   rarity: Uncommon
   illustrator: Julie Hang
+  type:
+    - Fire
 image: https://images.pokemontcg.io/rsv10pt5/15_hires.png

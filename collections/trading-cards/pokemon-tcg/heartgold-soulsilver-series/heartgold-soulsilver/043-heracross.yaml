@@ -6,4 +6,6 @@ attributes:
   number: "43/123"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/43_hires.png

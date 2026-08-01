@@ -6,4 +6,6 @@ attributes:
   number: "21/149"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm1/21_hires.png

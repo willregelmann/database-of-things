@@ -6,4 +6,6 @@ attributes:
   number: "85/195"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/85_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "71/146"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp6/71_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "217/182"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/217_hires.png

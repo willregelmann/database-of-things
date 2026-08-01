@@ -6,4 +6,6 @@ attributes:
   number: "207"
   rarity: Promo
   illustrator: hncl
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/207_hires.png

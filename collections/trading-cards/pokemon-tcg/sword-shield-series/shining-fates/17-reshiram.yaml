@@ -6,4 +6,6 @@ attributes:
   number: "17/72"
   rarity: Amazing Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45/17_hires.png

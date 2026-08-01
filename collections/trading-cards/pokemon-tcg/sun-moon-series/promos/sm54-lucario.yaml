@@ -6,4 +6,6 @@ attributes:
   number: "SM54"
   rarity: Promo
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM54_hires.png

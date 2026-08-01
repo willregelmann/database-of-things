@@ -6,4 +6,6 @@ attributes:
   number: "176/91"
   rarity: Shiny Rare
   illustrator: Yuu Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4pt5/176_hires.png

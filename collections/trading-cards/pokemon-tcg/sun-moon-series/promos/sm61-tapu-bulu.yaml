@@ -6,4 +6,6 @@ attributes:
   number: "SM61"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM61_hires.png

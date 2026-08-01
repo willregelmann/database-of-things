@@ -6,4 +6,6 @@ attributes:
   number: "83/185"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/83_hires.png

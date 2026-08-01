@@ -6,4 +6,6 @@ attributes:
   number: "XY61"
   rarity: Promo
   illustrator: Toyste Beach
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY61_hires.png

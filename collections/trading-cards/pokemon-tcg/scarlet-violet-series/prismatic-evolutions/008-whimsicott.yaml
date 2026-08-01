@@ -6,4 +6,6 @@ attributes:
   number: "8/131"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8pt5/8_hires.png

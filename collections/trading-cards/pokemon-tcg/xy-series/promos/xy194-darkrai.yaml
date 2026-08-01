@@ -6,4 +6,6 @@ attributes:
   number: "XY194"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY194_hires.png

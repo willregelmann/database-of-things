@@ -6,4 +6,6 @@ attributes:
   number: "163/236"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm12/163_hires.png

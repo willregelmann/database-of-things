@@ -6,4 +6,6 @@ attributes:
   number: "XY60"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY60_hires.png

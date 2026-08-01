@@ -6,4 +6,6 @@ attributes:
   number: "30/111"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm4/30_hires.png

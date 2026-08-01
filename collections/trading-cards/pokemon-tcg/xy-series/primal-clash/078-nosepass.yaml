@@ -6,4 +6,6 @@ attributes:
   number: "78/160"
   rarity: Common
   illustrator: Satoshi Shirai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy5/78_hires.png

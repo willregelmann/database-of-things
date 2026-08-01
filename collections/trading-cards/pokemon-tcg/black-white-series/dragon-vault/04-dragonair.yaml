@@ -6,4 +6,6 @@ attributes:
   number: "4/20"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/4_hires.png

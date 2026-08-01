@@ -6,4 +6,6 @@ attributes:
   number: "34/105"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo4/34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/73"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm35/51_hires.png

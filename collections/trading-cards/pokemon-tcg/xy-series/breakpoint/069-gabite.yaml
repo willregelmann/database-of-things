@@ -6,4 +6,6 @@ attributes:
   number: "69/122"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy9/69_hires.png

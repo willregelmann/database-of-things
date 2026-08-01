@@ -6,4 +6,6 @@ attributes:
   number: "77/101"
   rarity: Uncommon
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw10/77_hires.png

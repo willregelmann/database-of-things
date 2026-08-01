@@ -6,4 +6,6 @@ attributes:
   number: "24/64"
   rarity: Common
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6pt5/24_hires.png

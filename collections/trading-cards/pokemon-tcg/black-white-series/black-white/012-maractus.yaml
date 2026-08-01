@@ -6,4 +6,6 @@ attributes:
   number: "12/114"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/12_hires.png

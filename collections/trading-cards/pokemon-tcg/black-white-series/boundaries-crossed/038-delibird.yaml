@@ -6,4 +6,6 @@ attributes:
   number: "38/149"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw7/38_hires.png

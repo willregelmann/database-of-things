@@ -6,4 +6,6 @@ attributes:
   number: "27/159"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv9/27_hires.png

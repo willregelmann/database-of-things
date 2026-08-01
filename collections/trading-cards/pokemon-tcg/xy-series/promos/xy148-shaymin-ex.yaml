@@ -6,4 +6,6 @@ attributes:
   number: "XY148"
   rarity: Promo
   illustrator: Kanako Eo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY148_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY167"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY167_hires.png

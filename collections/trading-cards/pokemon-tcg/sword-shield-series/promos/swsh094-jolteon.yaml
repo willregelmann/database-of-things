@@ -6,4 +6,6 @@ attributes:
   number: "SWSH094"
   rarity: Promo
   illustrator: Yuu Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH094_hires.png

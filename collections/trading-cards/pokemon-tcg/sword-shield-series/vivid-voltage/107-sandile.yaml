@@ -6,4 +6,6 @@ attributes:
   number: "107/185"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh4/107_hires.png

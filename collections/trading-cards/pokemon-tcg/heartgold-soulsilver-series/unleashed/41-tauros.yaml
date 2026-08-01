@@ -6,4 +6,6 @@ attributes:
   number: "41/95"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss2/41_hires.png

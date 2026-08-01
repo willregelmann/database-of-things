@@ -6,4 +6,6 @@ attributes:
   number: "136/236"
   rarity: Rare
   illustrator: sui
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/136_hires.png

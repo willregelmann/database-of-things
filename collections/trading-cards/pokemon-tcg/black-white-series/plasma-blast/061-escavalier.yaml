@@ -6,4 +6,6 @@ attributes:
   number: "61/101"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw10/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "196/203"
   rarity: Rare Ultra
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/196_hires.png

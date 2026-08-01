@@ -6,4 +6,6 @@ attributes:
   number: "170/167"
   rarity: Illustration Rare
   illustrator: Akira Komayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/170_hires.png

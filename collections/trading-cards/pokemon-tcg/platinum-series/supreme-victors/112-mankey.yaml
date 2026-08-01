@@ -6,4 +6,6 @@ attributes:
   number: "112/147"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/112_hires.png

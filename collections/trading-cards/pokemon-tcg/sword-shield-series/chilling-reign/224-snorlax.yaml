@@ -6,4 +6,6 @@ attributes:
   number: "224/198"
   rarity: Rare Secret
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/224_hires.png

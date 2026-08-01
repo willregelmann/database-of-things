@@ -6,4 +6,6 @@ attributes:
   number: "120/86"
   rarity: Illustration Rare
   illustrator: Saboteri
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/120_hires.png

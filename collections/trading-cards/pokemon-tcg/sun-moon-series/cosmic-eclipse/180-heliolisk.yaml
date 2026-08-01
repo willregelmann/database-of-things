@@ -6,4 +6,6 @@ attributes:
   number: "180/236"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/180_hires.png

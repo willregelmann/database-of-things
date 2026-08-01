@@ -6,4 +6,6 @@ attributes:
   number: "74/131"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/74_hires.png

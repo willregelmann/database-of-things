@@ -6,4 +6,6 @@ attributes:
   number: "80/124"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy10/80_hires.png

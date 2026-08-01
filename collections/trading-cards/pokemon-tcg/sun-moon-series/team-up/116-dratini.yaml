@@ -6,4 +6,6 @@ attributes:
   number: "116/181"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm9/116_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "87/191"
   rarity: Common
   illustrator: Uninori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/87_hires.png

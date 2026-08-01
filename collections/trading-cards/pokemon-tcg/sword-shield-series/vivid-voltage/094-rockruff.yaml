@@ -6,4 +6,6 @@ attributes:
   number: "94/185"
   rarity: Common
   illustrator: Eri Yamaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/94_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "238/236"
   rarity: Rare Secret
   illustrator: nagimiso
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/238_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "91/92"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/91_hires.png

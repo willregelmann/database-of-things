@@ -6,4 +6,6 @@ attributes:
   number: "19/73"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm35/19_hires.png

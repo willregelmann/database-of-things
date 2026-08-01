@@ -6,4 +6,6 @@ attributes:
   number: "53/97"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex3/53_hires.png

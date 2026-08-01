@@ -6,4 +6,6 @@ attributes:
   number: "97/84"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me5-97/large

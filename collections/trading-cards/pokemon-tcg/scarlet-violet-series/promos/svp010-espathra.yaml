@@ -6,4 +6,6 @@ attributes:
   number: "010"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "184/167"
   rarity: Illustration Rare
   illustrator: Dsuke
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6/184_hires.png

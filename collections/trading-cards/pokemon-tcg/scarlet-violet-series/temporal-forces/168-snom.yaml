@@ -6,4 +6,6 @@ attributes:
   number: "168/162"
   rarity: Illustration Rare
   illustrator: N-DESIGN Inc.
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv5/168_hires.png

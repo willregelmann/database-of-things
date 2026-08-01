@@ -6,4 +6,6 @@ attributes:
   number: "202/182"
   rarity: Illustration Rare
   illustrator: Mékayu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/202_hires.png

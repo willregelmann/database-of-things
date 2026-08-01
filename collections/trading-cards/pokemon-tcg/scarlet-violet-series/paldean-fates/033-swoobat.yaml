@@ -6,4 +6,6 @@ attributes:
   number: "33/91"
   rarity: Uncommon
   illustrator: Narumi Sato
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/33_hires.png

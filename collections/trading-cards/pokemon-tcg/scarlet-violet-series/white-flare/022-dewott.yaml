@@ -6,4 +6,6 @@ attributes:
   number: "22/86"
   rarity: Common
   illustrator: rika
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/22_hires.png

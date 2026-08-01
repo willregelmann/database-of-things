@@ -6,4 +6,6 @@ attributes:
   number: "47/106"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy2/47_hires.png

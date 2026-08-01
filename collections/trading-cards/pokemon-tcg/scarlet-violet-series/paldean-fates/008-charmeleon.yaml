@@ -6,4 +6,6 @@ attributes:
   number: "8/91"
   rarity: Uncommon
   illustrator: Tonji Matsuno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/8_hires.png

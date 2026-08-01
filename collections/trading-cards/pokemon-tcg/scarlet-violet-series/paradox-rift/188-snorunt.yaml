@@ -6,4 +6,6 @@ attributes:
   number: "188/182"
   rarity: Illustration Rare
   illustrator: Narumi Sato
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/188_hires.png

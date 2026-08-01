@@ -6,4 +6,6 @@ attributes:
   number: "19/95"
   rarity: Rare
   illustrator: Katsura Tabata
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex4/19_hires.png

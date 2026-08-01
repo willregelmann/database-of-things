@@ -6,4 +6,6 @@ attributes:
   number: "51/132"
   rarity: Common
   illustrator: tono
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me1/51_hires.png

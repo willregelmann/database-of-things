@@ -6,4 +6,6 @@ attributes:
   number: "147/214"
   rarity: Common
   illustrator: You Iribi
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/147_hires.png

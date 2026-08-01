@@ -6,4 +6,6 @@ attributes:
   number: "13/94"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/13_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "94/181"
   rarity: Rare
   illustrator: Satoshi Shirai
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm9/94_hires.png

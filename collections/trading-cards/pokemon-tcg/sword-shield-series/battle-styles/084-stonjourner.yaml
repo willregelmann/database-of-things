@@ -6,4 +6,6 @@ attributes:
   number: "84/163"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/84_hires.png

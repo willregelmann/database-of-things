@@ -6,4 +6,6 @@ attributes:
   number: "135/198"
   rarity: Common
   illustrator: kantaro
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/135_hires.png

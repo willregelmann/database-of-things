@@ -6,4 +6,6 @@ attributes:
   number: "145/165"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3pt5/145_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "160/198"
   rarity: Common
   illustrator: yuu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/160_hires.png

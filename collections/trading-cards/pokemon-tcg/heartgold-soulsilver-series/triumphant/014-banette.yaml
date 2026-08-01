@@ -6,4 +6,6 @@ attributes:
   number: "14/102"
   rarity: Rare
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/14_hires.png

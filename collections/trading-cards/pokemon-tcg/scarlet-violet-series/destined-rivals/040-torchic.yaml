@@ -6,4 +6,6 @@ attributes:
   number: "40/182"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/40_hires.png

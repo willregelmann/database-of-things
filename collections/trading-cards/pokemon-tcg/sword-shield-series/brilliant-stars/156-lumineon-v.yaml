@@ -6,4 +6,6 @@ attributes:
   number: "156/172"
   rarity: Rare Ultra
   illustrator: Ligton
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh9/156_hires.png

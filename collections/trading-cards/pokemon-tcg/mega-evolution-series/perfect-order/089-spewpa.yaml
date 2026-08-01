@@ -6,4 +6,6 @@ attributes:
   number: "89/88"
   rarity: Illustration Rare
   illustrator: kamonabe
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-89/large

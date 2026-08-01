@@ -6,4 +6,6 @@ attributes:
   number: "40/144"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/40_hires.png

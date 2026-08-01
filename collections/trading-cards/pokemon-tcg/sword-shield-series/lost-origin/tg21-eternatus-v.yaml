@@ -6,4 +6,6 @@ attributes:
   number: "TG21/TG30"
   rarity: Rare Holo V
   illustrator: kodama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh11tg/TG21_hires.png

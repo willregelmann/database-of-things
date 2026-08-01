@@ -6,4 +6,6 @@ attributes:
   number: "95/165"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard1/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "2/100"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp7/2_hires.png

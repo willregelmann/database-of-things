@@ -6,4 +6,6 @@ attributes:
   number: "7/145"
   rarity: Rare
   illustrator: Hiroyuki Yamamoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm2/7_hires.png

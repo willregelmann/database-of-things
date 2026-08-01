@@ -6,4 +6,6 @@ attributes:
   number: "127/86"
   rarity: Illustration Rare
   illustrator: Yuriko Akase
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/127_hires.png

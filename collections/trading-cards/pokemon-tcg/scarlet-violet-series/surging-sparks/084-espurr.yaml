@@ -6,4 +6,6 @@ attributes:
   number: "84/191"
   rarity: Common
   illustrator: Natsumi Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/84_hires.png

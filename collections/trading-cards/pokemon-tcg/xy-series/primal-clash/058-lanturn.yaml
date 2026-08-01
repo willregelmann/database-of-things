@@ -6,4 +6,6 @@ attributes:
   number: "58/160"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy5/58_hires.png

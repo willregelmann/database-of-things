@@ -6,4 +6,6 @@ attributes:
   number: "53/111"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl2/53_hires.png

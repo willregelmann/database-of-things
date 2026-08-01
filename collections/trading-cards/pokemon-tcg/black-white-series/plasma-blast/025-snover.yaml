@@ -6,4 +6,6 @@ attributes:
   number: "25/101"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw10/25_hires.png

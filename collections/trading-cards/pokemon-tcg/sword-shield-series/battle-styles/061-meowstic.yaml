@@ -6,4 +6,6 @@ attributes:
   number: "61/163"
   rarity: Rare Holo
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/61_hires.png

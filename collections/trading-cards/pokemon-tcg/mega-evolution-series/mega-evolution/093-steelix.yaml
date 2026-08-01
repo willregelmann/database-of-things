@@ -6,4 +6,6 @@ attributes:
   number: "93/132"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Metal
 image: https://images.pokemontcg.io/me1/93_hires.png

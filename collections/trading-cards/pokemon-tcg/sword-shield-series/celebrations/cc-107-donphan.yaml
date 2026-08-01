@@ -6,4 +6,6 @@ attributes:
   number: "107/123"
   rarity: Rare Classic
   illustrator: Kent Kanetsuna
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/cel25c/107_A_hires.png

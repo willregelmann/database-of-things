@@ -6,4 +6,6 @@ attributes:
   number: "46/64"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/base2/46_hires.png

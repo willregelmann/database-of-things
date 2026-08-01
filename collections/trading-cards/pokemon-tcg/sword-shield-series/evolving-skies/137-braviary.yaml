@@ -6,4 +6,6 @@ attributes:
   number: "137/203"
   rarity: Uncommon
   illustrator: SATOSHI NAKAI
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/137_hires.png

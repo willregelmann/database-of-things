@@ -6,4 +6,6 @@ attributes:
   number: "146/160"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy5/146_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "64/162"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy8/64_hires.png

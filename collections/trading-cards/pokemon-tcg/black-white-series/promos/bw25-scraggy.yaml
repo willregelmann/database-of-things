@@ -6,4 +6,6 @@ attributes:
   number: "BW25"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bwp/BW25_hires.png

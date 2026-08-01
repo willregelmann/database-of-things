@@ -6,4 +6,6 @@ attributes:
   number: "53/202"
   rarity: Rare Holo V
   illustrator: PLANETA Igarashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/53_hires.png

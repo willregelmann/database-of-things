@@ -6,4 +6,6 @@ attributes:
   number: "88/147"
   rarity: Rare Holo GX
   illustrator: PLANETA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm3/88_hires.png

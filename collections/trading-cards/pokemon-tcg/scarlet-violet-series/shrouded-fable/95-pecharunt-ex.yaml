@@ -6,4 +6,6 @@ attributes:
   number: "95/64"
   rarity: Hyper Rare
   illustrator: aky CG Works
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6pt5/95_hires.png

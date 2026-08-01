@@ -6,4 +6,6 @@ attributes:
   number: "76/156"
   rarity: Uncommon
   illustrator: Studio Bora Inc.
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm5/76_hires.png

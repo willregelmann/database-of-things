@@ -6,4 +6,6 @@ attributes:
   number: "72/165"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard1/72_hires.png

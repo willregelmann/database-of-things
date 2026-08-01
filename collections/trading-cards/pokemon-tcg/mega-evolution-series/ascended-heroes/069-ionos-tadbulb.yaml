@@ -6,4 +6,6 @@ attributes:
   number: "69/217"
   rarity: Common
   illustrator: kurumitsu
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-69/large

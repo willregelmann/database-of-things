@@ -6,4 +6,6 @@ attributes:
   number: "10/75"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo2/10_hires.png

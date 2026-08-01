@@ -6,4 +6,6 @@ attributes:
   number: "XY48"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY48_hires.png

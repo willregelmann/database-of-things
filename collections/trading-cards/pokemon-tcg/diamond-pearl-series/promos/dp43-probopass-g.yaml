@@ -6,4 +6,6 @@ attributes:
   number: "DP43"
   rarity: Promo
   illustrator: Ryota Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dpp/DP43_hires.png

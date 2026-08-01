@@ -6,4 +6,6 @@ attributes:
   number: "244/198"
   rarity: Special Illustration Rare
   illustrator: kantaro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv1/244_hires.png

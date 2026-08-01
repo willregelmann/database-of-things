@@ -6,4 +6,6 @@ attributes:
   number: "24/172"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh9/24_hires.png

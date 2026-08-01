@@ -6,4 +6,6 @@ attributes:
   number: "204/162"
   rarity: Special Illustration Rare
   illustrator: Teeziro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/204_hires.png

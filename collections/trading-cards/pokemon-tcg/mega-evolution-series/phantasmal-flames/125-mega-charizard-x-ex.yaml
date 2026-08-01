@@ -6,4 +6,6 @@ attributes:
   number: "125/94"
   rarity: Special Illustration Rare
   illustrator: danciao
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/125_hires.png

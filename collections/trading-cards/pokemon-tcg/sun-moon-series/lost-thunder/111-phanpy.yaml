@@ -6,4 +6,6 @@ attributes:
   number: "111/214"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm8/111_hires.png

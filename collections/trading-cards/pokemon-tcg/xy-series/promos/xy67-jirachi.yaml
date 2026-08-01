@@ -6,4 +6,6 @@ attributes:
   number: "XY67"
   rarity: Promo
   illustrator: sui
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY67_hires.png

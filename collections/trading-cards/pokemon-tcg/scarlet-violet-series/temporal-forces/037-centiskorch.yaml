@@ -6,4 +6,6 @@ attributes:
   number: "37/162"
   rarity: Uncommon
   illustrator: Krgc
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/37_hires.png

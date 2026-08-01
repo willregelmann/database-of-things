@@ -6,4 +6,6 @@ attributes:
   number: "32/101"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex15/32_hires.png

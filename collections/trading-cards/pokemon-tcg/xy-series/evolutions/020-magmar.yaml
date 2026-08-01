@@ -6,4 +6,6 @@ attributes:
   number: "20/108"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy12/20_hires.png

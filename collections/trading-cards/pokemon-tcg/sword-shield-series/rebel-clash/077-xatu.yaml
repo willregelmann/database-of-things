@@ -6,4 +6,6 @@ attributes:
   number: "77/192"
   rarity: Uncommon
   illustrator: so-taro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/77_hires.png

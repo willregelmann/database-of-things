@@ -6,4 +6,6 @@ attributes:
   number: "150/193"
   rarity: Double Rare
   illustrator: Uta
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv2/150_hires.png

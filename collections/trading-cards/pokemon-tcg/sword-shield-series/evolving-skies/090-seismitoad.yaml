@@ -6,4 +6,6 @@ attributes:
   number: "90/203"
   rarity: Rare
   illustrator: Pani Kobayashi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/90_hires.png

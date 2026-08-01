@@ -6,4 +6,6 @@ attributes:
   number: "46/203"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/46_hires.png

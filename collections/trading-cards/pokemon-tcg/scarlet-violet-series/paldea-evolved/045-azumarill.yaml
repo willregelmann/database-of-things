@@ -6,4 +6,6 @@ attributes:
   number: "45/193"
   rarity: Uncommon
   illustrator: En Morikura
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/45_hires.png

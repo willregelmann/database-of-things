@@ -6,4 +6,6 @@ attributes:
   number: "53/165"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/53_hires.png

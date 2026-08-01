@@ -6,4 +6,6 @@ attributes:
   number: "92/116"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw9/92_hires.png

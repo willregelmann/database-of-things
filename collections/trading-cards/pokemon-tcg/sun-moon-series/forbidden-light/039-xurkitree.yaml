@@ -6,4 +6,6 @@ attributes:
   number: "39/131"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm6/39_hires.png

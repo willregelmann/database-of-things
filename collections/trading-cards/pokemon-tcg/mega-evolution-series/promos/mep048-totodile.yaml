@@ -6,4 +6,6 @@ attributes:
   number: "048"
   rarity: Promo
   illustrator: Saboteri
+  type:
+    - Water
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/TotodileMEPPromo48.jpg

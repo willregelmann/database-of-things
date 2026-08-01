@@ -6,4 +6,6 @@ attributes:
   number: "144/214"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm10/144_hires.png

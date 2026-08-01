@@ -6,4 +6,6 @@ attributes:
   number: "56/197"
   rarity: Common
   illustrator: Atsuya Uki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3/56_hires.png

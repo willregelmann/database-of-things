@@ -6,4 +6,6 @@ attributes:
   number: "64/124"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw6/64_hires.png

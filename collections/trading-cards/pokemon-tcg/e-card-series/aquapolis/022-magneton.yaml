@@ -6,4 +6,6 @@ attributes:
   number: "22/147"
   rarity: Rare
   illustrator: Hikaru Koike
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard2/22_hires.png

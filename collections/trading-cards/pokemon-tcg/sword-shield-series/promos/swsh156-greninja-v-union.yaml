@@ -6,4 +6,6 @@ attributes:
   number: "SWSH156"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH156_hires.png

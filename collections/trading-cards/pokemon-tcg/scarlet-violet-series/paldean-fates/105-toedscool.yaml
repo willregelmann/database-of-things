@@ -6,4 +6,6 @@ attributes:
   number: "105/91"
   rarity: Shiny Rare
   illustrator: Ryuta Fuse
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4pt5/105_hires.png

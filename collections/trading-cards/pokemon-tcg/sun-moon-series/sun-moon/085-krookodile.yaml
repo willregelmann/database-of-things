@@ -6,4 +6,6 @@ attributes:
   number: "85/149"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm1/85_hires.png

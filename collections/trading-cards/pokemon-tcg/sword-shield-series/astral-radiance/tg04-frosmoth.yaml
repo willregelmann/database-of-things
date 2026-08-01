@@ -6,4 +6,6 @@ attributes:
   number: "TG04/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: aoki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10tg/TG04_hires.png

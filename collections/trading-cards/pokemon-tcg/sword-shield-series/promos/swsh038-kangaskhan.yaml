@@ -6,4 +6,6 @@ attributes:
   number: "SWSH038"
   rarity: Promo
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH038_hires.png

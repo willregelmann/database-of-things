@@ -6,4 +6,6 @@ attributes:
   number: "232/198"
   rarity: Ultra Rare
   illustrator: PLANETA Hiiragi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/232_hires.png

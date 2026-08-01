@@ -6,4 +6,6 @@ attributes:
   number: "45/197"
   rarity: Uncommon
   illustrator: matazo
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3/45_hires.png

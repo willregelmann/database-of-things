@@ -6,4 +6,6 @@ attributes:
   number: "150/195"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/150_hires.png

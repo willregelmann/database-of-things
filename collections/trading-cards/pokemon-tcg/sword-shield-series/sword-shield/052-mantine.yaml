@@ -6,4 +6,6 @@ attributes:
   number: "52/202"
   rarity: Uncommon
   illustrator: Jumpei Akasaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/52_hires.png

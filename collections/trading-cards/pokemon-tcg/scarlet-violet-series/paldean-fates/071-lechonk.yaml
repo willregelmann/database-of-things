@@ -6,4 +6,6 @@ attributes:
   number: "71/91"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/71_hires.png

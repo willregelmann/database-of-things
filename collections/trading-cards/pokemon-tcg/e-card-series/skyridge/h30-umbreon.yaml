@@ -6,4 +6,6 @@ attributes:
   number: "H30/H32"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ecard3/H30_hires.png

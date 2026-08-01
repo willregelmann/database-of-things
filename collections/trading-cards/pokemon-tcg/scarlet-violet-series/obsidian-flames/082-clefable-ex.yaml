@@ -6,4 +6,6 @@ attributes:
   number: "82/197"
   rarity: Double Rare
   illustrator: Satoshi Shirai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3/82_hires.png

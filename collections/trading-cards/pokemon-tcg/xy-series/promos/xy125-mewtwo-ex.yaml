@@ -6,4 +6,6 @@ attributes:
   number: "XY125"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY125_hires.png

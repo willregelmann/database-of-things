@@ -6,4 +6,6 @@ attributes:
   number: "47/95"
   rarity: Common
   illustrator: match
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss2/47_hires.png

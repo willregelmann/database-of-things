@@ -6,4 +6,6 @@ attributes:
   number: "SV29/SV94"
   rarity: Rare Shiny
   illustrator: Misa Tsutsui
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV29_hires.png

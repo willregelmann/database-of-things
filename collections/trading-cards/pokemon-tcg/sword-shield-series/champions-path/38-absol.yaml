@@ -6,4 +6,6 @@ attributes:
   number: "38/73"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh35/38_hires.png

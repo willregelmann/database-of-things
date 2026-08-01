@@ -6,4 +6,6 @@ attributes:
   number: "36/108"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy6/36_hires.png

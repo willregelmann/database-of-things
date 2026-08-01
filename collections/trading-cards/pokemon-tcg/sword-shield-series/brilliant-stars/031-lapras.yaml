@@ -6,4 +6,6 @@ attributes:
   number: "31/172"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh9/31_hires.png

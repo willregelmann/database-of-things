@@ -6,4 +6,6 @@ attributes:
   number: "51/101"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw3/51_hires.png

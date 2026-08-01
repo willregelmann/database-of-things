@@ -6,4 +6,6 @@ attributes:
   number: "RC14/RC32"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/RC14_hires.png

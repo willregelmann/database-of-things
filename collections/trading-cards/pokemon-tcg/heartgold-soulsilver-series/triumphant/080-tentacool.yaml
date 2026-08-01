@@ -6,4 +6,6 @@ attributes:
   number: "80/102"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss4/80_hires.png

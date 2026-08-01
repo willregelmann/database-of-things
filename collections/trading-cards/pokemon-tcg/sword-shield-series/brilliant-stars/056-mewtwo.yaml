@@ -6,4 +6,6 @@ attributes:
   number: "56/172"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/56_hires.png

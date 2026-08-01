@@ -6,4 +6,6 @@ attributes:
   number: "2/123"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/2_hires.png

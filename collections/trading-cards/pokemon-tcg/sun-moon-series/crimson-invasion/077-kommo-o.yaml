@@ -6,4 +6,6 @@ attributes:
   number: "77/111"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm4/77_hires.png

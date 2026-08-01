@@ -6,4 +6,6 @@ attributes:
   number: "45/196"
   rarity: Rare Holo
   illustrator: AKIRA EGAWA
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/45_hires.png

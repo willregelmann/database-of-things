@@ -6,4 +6,6 @@ attributes:
   number: "114/163"
   rarity: Rare
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh5/114_hires.png

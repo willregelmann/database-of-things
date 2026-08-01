@@ -6,4 +6,6 @@ attributes:
   number: "47/107"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex8/47_hires.png

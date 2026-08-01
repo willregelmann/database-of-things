@@ -6,4 +6,6 @@ attributes:
   number: "43/100"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp5/43_hires.png

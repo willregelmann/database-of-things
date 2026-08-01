@@ -6,4 +6,6 @@ attributes:
   number: "117/193"
   rarity: Double Rare
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/117_hires.png

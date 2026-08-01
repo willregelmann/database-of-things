@@ -6,4 +6,6 @@ attributes:
   number: "141/91"
   rarity: Shiny Rare
   illustrator: GIDORA
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/141_hires.png

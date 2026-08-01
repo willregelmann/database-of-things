@@ -6,4 +6,6 @@ attributes:
   number: "149/197"
   rarity: Common
   illustrator: GIDORA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/149_hires.png

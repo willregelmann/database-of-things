@@ -6,4 +6,6 @@ attributes:
   number: "SWSH233"
   rarity: Promo
   illustrator: kurumitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH233_hires.png

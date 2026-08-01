@@ -6,4 +6,6 @@ attributes:
   number: "30/236"
   rarity: Rare Holo
   illustrator: kirisAki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm11/30_hires.png

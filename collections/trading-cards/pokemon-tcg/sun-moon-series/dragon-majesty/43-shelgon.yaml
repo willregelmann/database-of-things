@@ -6,4 +6,6 @@ attributes:
   number: "43/70"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/43_hires.png

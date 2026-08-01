@@ -6,4 +6,6 @@ attributes:
   number: "12/64"
   rarity: Rare Holo
   illustrator: Keiji Kinebuchi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo3/12_hires.png

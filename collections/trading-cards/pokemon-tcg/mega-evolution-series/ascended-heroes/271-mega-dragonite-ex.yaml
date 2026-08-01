@@ -6,4 +6,6 @@ attributes:
   number: "271/217"
   rarity: Mega Attack Rare
   illustrator: DOM
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-271/large

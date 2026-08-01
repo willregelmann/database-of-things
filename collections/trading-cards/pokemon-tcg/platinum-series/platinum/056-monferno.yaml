@@ -6,4 +6,6 @@ attributes:
   number: "56/127"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl1/56_hires.png

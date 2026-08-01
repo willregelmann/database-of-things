@@ -6,4 +6,6 @@ attributes:
   number: "32/53"
   rarity: Promo
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/32_hires.png

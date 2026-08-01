@@ -6,4 +6,6 @@ attributes:
   number: "113/159"
   rarity: Common
   illustrator: Julie Hang
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/113_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/95"
   rarity: Uncommon
   illustrator: T. Honda
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/31_hires.png

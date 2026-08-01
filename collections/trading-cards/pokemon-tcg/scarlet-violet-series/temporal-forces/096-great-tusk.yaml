@@ -6,4 +6,6 @@ attributes:
   number: "96/162"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/96_hires.png

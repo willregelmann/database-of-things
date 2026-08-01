@@ -6,4 +6,6 @@ attributes:
   number: "121/122"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy9/121_hires.png

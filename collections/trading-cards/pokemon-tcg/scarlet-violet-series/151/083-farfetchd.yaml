@@ -6,4 +6,6 @@ attributes:
   number: "83/165"
   rarity: Common
   illustrator: KG-2000
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/83_hires.png

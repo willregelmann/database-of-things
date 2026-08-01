@@ -6,4 +6,6 @@ attributes:
   number: "24/106"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy2/24_hires.png

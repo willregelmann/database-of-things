@@ -6,4 +6,6 @@ attributes:
   number: "92/165"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/92_hires.png

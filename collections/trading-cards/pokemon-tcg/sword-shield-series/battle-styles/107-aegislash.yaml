@@ -6,4 +6,6 @@ attributes:
   number: "107/163"
   rarity: Rare Holo
   illustrator: miki kudo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/107_hires.png

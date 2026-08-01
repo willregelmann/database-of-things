@@ -6,4 +6,6 @@ attributes:
   number: "46/64"
   rarity: Rare
   illustrator: Tsuyoshi Nagano
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6pt5/46_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "222/217"
   rarity: Illustration Rare
   illustrator: Hideki Ishikawa
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me2pt5-222/large

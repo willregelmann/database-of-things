@@ -6,4 +6,6 @@ attributes:
   number: "80/165"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard1/80_hires.png

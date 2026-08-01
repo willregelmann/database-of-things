@@ -6,4 +6,6 @@ attributes:
   number: "239/191"
   rarity: Special Illustration Rare
   illustrator: OKACHEKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/239_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH005"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH005_hires.png

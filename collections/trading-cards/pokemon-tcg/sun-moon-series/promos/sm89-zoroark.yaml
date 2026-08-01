@@ -6,4 +6,6 @@ attributes:
   number: "SM89"
   rarity: Promo
   illustrator: Misa Tsutsui
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/smp/SM89_hires.png

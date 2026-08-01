@@ -6,4 +6,6 @@ attributes:
   number: "52/75"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/52_hires.png

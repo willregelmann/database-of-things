@@ -6,4 +6,6 @@ attributes:
   number: "SWSH054"
   rarity: Promo
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH054_hires.png

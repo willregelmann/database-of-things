@@ -6,4 +6,6 @@ attributes:
   number: "31/101"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex15/31_hires.png

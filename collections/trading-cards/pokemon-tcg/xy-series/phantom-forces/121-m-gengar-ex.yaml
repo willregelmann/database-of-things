@@ -6,4 +6,6 @@ attributes:
   number: "121/119"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy4/121_hires.png

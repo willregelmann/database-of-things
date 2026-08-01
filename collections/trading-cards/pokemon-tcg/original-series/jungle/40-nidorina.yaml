@@ -6,4 +6,6 @@ attributes:
   number: "40/64"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base2/40_hires.png

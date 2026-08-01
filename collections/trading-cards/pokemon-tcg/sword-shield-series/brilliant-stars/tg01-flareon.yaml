@@ -6,4 +6,6 @@ attributes:
   number: "TG01/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: You Iribi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh9tg/TG01_hires.png

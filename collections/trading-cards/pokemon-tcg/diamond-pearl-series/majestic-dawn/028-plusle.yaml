@@ -6,4 +6,6 @@ attributes:
   number: "28/100"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp5/28_hires.png

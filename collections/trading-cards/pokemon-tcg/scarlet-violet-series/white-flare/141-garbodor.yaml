@@ -6,4 +6,6 @@ attributes:
   number: "141/86"
   rarity: Illustration Rare
   illustrator: Gapao
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/rsv10pt5/141_hires.png

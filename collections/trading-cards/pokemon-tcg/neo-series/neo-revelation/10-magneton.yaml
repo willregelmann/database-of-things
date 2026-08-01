@@ -6,4 +6,6 @@ attributes:
   number: "10/64"
   rarity: Rare Holo
   illustrator: "\"Big Mama\" Tagawa, CR CG gangs"
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo3/10_hires.png

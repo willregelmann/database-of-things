@@ -6,4 +6,6 @@ attributes:
   number: "110/163"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/110_hires.png

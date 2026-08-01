@@ -6,4 +6,6 @@ attributes:
   number: "120/124"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy10/120_hires.png

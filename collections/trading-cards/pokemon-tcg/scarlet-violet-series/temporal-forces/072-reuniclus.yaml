@@ -6,4 +6,6 @@ attributes:
   number: "72/162"
   rarity: Uncommon
   illustrator: Gemi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/72_hires.png

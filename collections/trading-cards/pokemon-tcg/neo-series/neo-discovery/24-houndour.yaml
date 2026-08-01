@@ -6,4 +6,6 @@ attributes:
   number: "24/75"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo2/24_hires.png

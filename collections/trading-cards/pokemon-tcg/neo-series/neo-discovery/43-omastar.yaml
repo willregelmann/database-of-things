@@ -6,4 +6,6 @@ attributes:
   number: "43/75"
   rarity: Uncommon
   illustrator: Shin-ichi Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo2/43_hires.png

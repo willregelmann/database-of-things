@@ -6,4 +6,6 @@ attributes:
   number: "HGSS04"
   rarity: Promo
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hsp/HGSS04_hires.png

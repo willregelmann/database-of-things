@@ -6,4 +6,6 @@ attributes:
   number: "87/98"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy7/87_hires.png

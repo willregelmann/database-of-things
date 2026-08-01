@@ -6,4 +6,6 @@ attributes:
   number: "82/160"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy5/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "077"
   rarity: Promo
   illustrator: okayamatakatoshi
+  type:
+    - Dragon
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/GoodraMEPPromo77.jpg

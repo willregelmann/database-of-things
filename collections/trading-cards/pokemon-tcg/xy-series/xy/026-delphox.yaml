@@ -6,4 +6,6 @@ attributes:
   number: "26/146"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy1/26_hires.png

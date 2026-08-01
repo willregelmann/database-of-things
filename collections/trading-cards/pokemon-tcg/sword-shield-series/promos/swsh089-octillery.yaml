@@ -6,4 +6,6 @@ attributes:
   number: "SWSH089"
   rarity: Promo
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH089_hires.png

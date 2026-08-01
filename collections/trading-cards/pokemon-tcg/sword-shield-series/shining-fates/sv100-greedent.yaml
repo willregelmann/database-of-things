@@ -6,4 +6,6 @@ attributes:
   number: "SV100/SV122"
   rarity: Rare Shiny
   illustrator: Hideki Ishikawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV100_hires.png

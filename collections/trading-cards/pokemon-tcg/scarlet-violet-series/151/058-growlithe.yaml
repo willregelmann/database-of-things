@@ -6,4 +6,6 @@ attributes:
   number: "58/165"
   rarity: Common
   illustrator: Atsushi Furusawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3pt5/58_hires.png

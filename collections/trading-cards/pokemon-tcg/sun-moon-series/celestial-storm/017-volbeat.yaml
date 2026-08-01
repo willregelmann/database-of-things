@@ -6,4 +6,6 @@ attributes:
   number: "17/168"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm7/17_hires.png

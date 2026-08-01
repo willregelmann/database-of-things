@@ -6,4 +6,6 @@ attributes:
   number: "SV112/SV122"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45sv/SV112_hires.png

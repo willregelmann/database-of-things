@@ -6,4 +6,6 @@ attributes:
   number: "211/167"
   rarity: Special Illustration Rare
   illustrator: Yano Keiji
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/211_hires.png

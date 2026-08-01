@@ -6,4 +6,6 @@ attributes:
   number: "34/236"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm11/34_hires.png

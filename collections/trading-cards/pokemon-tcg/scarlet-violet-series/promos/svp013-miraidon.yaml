@@ -6,4 +6,6 @@ attributes:
   number: "013"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/13_hires.png

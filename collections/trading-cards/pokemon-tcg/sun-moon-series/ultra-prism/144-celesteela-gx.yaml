@@ -6,4 +6,6 @@ attributes:
   number: "144/156"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm5/144_hires.png

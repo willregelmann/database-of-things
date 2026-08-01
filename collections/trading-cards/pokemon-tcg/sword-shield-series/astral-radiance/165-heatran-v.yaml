@@ -6,4 +6,6 @@ attributes:
   number: "165/189"
   rarity: Rare Ultra
   illustrator: Studio Bora Inc
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh10/165_hires.png

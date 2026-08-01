@@ -6,4 +6,6 @@ attributes:
   number: "125/198"
   rarity: Rare Holo VMAX
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/125_hires.png

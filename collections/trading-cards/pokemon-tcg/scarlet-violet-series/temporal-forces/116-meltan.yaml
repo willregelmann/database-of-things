@@ -6,4 +6,6 @@ attributes:
   number: "116/162"
   rarity: Common
   illustrator: Taiga Kayama
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv5/116_hires.png

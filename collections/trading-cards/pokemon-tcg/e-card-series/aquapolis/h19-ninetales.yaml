@@ -6,4 +6,6 @@ attributes:
   number: "H19/H32"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard2/H19_hires.png

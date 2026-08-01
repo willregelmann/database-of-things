@@ -6,4 +6,6 @@ attributes:
   number: "32/217"
   rarity: Common
   illustrator: Gemi
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me2pt5-32/large

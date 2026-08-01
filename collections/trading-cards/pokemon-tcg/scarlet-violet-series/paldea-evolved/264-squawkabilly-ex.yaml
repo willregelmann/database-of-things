@@ -6,4 +6,6 @@ attributes:
   number: "264/193"
   rarity: Special Illustration Rare
   illustrator: Amelicart
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/264_hires.png

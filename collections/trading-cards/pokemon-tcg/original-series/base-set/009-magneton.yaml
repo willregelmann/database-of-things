@@ -6,6 +6,8 @@ attributes:
   number: "9/102"
   rarity: Rare Holo
   illustrator: Keiji Kinebuchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base1/9_hires.png
 variants:
   - id: 78628a5f-9f15-4e5c-a1ff-43fe2be31959

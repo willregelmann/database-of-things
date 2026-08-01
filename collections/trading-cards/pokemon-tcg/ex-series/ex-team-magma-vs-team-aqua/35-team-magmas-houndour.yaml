@@ -6,4 +6,6 @@ attributes:
   number: "35/95"
   rarity: Uncommon
   illustrator: Atsuko Ujiie
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex4/35_hires.png

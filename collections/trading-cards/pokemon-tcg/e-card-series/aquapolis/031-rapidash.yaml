@@ -6,4 +6,6 @@ attributes:
   number: "31/147"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard2/31_hires.png

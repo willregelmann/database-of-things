@@ -6,4 +6,6 @@ attributes:
   number: "152/132"
   rarity: Illustration Rare
   illustrator: Takeshi Nakamura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/152_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "65/110"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base6/65_hires.png
 variants:
   - id: 9f72008a-eb9f-49d5-859f-d1bac75c522f

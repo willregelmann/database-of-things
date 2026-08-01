@@ -6,4 +6,6 @@ attributes:
   number: "148/132"
   rarity: Illustration Rare
   illustrator: IKEDA Saki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me1/148_hires.png

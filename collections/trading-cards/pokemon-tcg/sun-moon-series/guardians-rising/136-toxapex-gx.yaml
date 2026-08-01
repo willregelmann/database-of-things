@@ -6,4 +6,6 @@ attributes:
   number: "136/145"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm2/136_hires.png

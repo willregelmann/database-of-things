@@ -6,4 +6,6 @@ attributes:
   number: "19/70"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/19_hires.png

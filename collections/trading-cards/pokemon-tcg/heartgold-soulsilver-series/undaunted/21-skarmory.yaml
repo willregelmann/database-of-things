@@ -6,4 +6,6 @@ attributes:
   number: "21/90"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss3/21_hires.png

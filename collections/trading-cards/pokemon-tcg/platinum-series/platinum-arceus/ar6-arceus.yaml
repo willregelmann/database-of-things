@@ -6,4 +6,6 @@ attributes:
   number: "AR6"
   rarity: Rare Holo
   illustrator: Wataru Kawahara
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl4/AR6_hires.png

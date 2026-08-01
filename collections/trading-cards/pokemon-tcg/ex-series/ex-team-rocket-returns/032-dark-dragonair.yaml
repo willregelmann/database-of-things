@@ -6,4 +6,6 @@ attributes:
   number: "32/109"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex7/32_hires.png

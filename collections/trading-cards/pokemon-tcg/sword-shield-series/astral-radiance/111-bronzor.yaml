@@ -6,4 +6,6 @@ attributes:
   number: "111/189"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/111_hires.png

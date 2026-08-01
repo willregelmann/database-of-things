@@ -6,4 +6,6 @@ attributes:
   number: "130/203"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/130_hires.png

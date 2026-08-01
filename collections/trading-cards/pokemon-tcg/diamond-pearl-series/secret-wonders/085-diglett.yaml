@@ -6,4 +6,6 @@ attributes:
   number: "85/132"
   rarity: Common
   illustrator: Takao Unno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp3/85_hires.png

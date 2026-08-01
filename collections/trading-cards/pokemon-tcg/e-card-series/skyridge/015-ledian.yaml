@@ -6,4 +6,6 @@ attributes:
   number: "15/144"
   rarity: Rare
   illustrator: Hikaru Koike
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/15_hires.png

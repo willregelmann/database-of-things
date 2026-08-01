@@ -6,4 +6,6 @@ attributes:
   number: "8/114"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy11/8_hires.png

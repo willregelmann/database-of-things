@@ -6,4 +6,6 @@ attributes:
   number: "BW37"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Water
 image: https://images.pokemontcg.io/bwp/BW37_hires.png

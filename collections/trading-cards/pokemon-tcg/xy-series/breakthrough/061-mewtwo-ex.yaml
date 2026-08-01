@@ -6,4 +6,6 @@ attributes:
   number: "61/162"
   rarity: Rare Holo ex
   illustrator: PLANETA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy8/61_hires.png

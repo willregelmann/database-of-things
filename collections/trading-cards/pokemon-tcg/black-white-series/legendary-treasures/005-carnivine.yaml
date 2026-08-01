@@ -6,4 +6,6 @@ attributes:
   number: "5/113"
   rarity: Uncommon
   illustrator: HiRON
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/5_hires.png

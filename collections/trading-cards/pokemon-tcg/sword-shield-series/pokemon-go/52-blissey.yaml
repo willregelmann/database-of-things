@@ -6,4 +6,6 @@ attributes:
   number: "52/78"
   rarity: Rare Holo
   illustrator: Teeziro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/52_hires.png

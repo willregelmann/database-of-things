@@ -6,4 +6,6 @@ attributes:
   number: "34/131"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm6/34_hires.png

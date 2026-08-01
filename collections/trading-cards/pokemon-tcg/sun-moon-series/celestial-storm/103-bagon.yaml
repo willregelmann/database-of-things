@@ -6,4 +6,6 @@ attributes:
   number: "103/168"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm7/103_hires.png

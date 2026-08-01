@@ -6,4 +6,6 @@ attributes:
   number: "96/145"
   rarity: Rare Holo
   illustrator: Naoki Saito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm2/96_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "37/105"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo4/37_hires.png

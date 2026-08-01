@@ -6,4 +6,6 @@ attributes:
   number: "112/203"
   rarity: Rare Holo
   illustrator: Ryuta Fuse
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/112_hires.png

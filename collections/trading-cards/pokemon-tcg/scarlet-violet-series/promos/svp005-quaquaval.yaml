@@ -6,4 +6,6 @@ attributes:
   number: "005"
   rarity: Promo
   illustrator: kodama
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/5_hires.png

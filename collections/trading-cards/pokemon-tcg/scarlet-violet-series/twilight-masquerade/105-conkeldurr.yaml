@@ -6,4 +6,6 @@ attributes:
   number: "105/167"
   rarity: Uncommon
   illustrator: Takeshi Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6/105_hires.png

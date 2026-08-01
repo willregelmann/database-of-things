@@ -6,4 +6,6 @@ attributes:
   number: "119/192"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh2/119_hires.png

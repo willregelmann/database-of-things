@@ -6,4 +6,6 @@ attributes:
   number: "96/100"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/96_hires.png

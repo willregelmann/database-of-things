@@ -6,4 +6,6 @@ attributes:
   number: "SWSH055"
   rarity: Promo
   illustrator: PLANETA Igarashi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH055_hires.png

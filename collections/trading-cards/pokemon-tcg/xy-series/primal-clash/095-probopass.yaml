@@ -6,4 +6,6 @@ attributes:
   number: "95/160"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy5/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "75/109"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex7/75_hires.png

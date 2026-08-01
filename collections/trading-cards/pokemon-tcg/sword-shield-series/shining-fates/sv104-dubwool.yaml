@@ -6,4 +6,6 @@ attributes:
   number: "SV104/SV122"
   rarity: Rare Shiny
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV104_hires.png

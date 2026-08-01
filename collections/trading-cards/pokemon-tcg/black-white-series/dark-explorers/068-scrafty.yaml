@@ -6,4 +6,6 @@ attributes:
   number: "68/108"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw5/68_hires.png

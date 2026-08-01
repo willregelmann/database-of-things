@@ -6,4 +6,6 @@ attributes:
   number: "4/106"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp4/4_hires.png

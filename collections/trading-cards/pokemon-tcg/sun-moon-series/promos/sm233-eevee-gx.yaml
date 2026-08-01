@@ -6,4 +6,6 @@ attributes:
   number: "SM233"
   rarity: Promo
   illustrator: Q-rais
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM233_hires.png

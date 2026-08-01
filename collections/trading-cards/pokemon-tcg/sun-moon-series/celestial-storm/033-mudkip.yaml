@@ -6,4 +6,6 @@ attributes:
   number: "33/168"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm7/33_hires.png

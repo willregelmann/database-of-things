@@ -6,4 +6,6 @@ attributes:
   number: "SWSH153"
   rarity: Promo
   illustrator: sowsow
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH153_hires.png

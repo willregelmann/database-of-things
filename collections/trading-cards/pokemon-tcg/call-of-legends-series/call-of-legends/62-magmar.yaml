@@ -6,4 +6,6 @@ attributes:
   number: "62/95"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/col1/62_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "147/195"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/147_hires.png

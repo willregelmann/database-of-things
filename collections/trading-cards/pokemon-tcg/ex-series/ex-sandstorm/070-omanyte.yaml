@@ -6,4 +6,6 @@ attributes:
   number: "70/100"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex2/70_hires.png

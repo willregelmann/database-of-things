@@ -6,4 +6,6 @@ attributes:
   number: "83/131"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/83_hires.png

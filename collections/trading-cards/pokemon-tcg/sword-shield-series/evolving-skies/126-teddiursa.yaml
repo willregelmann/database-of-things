@@ -6,4 +6,6 @@ attributes:
   number: "126/203"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/126_hires.png

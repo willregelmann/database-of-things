@@ -6,4 +6,6 @@ attributes:
   number: "DP20"
   rarity: Promo
   illustrator: Daisuke Ito
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dpp/DP20_hires.png

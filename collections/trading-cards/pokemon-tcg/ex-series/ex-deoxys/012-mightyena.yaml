@@ -6,4 +6,6 @@ attributes:
   number: "12/107"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex8/12_hires.png

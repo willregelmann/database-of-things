@@ -6,4 +6,6 @@ attributes:
   number: "26/162"
   rarity: Common
   illustrator: takashi shiraishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/26_hires.png

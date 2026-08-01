@@ -6,4 +6,6 @@ attributes:
   number: "72/160"
   rarity: Rare
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy5/72_hires.png

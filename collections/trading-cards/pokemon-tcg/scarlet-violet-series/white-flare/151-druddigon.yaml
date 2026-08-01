@@ -6,4 +6,6 @@ attributes:
   number: "151/86"
   rarity: Illustration Rare
   illustrator: Kamome Shirahama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/rsv10pt5/151_hires.png

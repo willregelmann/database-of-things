@@ -6,4 +6,6 @@ attributes:
   number: "RC22/RC25"
   rarity: Rare Ultra
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw11/RC22_hires.png

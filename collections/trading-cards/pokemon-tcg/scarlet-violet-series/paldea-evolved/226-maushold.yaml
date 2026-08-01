@@ -6,4 +6,6 @@ attributes:
   number: "226/193"
   rarity: Illustration Rare
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/226_hires.png

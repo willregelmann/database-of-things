@@ -6,4 +6,6 @@ attributes:
   number: "H13/H32"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard3/H13_hires.png

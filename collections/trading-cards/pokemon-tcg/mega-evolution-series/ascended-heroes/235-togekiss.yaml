@@ -6,4 +6,6 @@ attributes:
   number: "235/217"
   rarity: Illustration Rare
   illustrator: satoma
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-235/large

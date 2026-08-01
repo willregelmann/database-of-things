@@ -6,4 +6,6 @@ attributes:
   number: "SM191"
   rarity: Promo
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM191_hires.png

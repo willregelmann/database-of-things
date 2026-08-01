@@ -6,4 +6,6 @@ attributes:
   number: "23/100"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp5/23_hires.png

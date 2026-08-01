@@ -6,4 +6,6 @@ attributes:
   number: "3/106"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp4/3_hires.png

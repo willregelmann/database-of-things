@@ -6,4 +6,6 @@ attributes:
   number: "88/159"
   rarity: Common
   illustrator: osare
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/88_hires.png

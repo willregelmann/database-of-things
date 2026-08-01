@@ -6,4 +6,6 @@ attributes:
   number: "138/192"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/138_hires.png

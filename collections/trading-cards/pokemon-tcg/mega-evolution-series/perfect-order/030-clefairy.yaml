@@ -6,4 +6,6 @@ attributes:
   number: "30/88"
   rarity: Common
   illustrator: Natsumi Yoshida
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me3-30/large

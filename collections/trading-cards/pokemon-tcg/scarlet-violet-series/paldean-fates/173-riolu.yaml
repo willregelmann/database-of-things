@@ -6,4 +6,6 @@ attributes:
   number: "173/91"
   rarity: Shiny Rare
   illustrator: sowsow
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4pt5/173_hires.png

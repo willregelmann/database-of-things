@@ -6,4 +6,6 @@ attributes:
   number: "171/217"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-171/large

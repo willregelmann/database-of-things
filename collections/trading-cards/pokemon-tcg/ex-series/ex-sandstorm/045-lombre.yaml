@@ -6,4 +6,6 @@ attributes:
   number: "45/100"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex2/45_hires.png

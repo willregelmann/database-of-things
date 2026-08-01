@@ -6,4 +6,6 @@ attributes:
   number: "136/203"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh7/136_hires.png

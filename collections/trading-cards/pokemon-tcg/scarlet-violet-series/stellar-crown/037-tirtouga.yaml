@@ -6,4 +6,6 @@ attributes:
   number: "37/142"
   rarity: Common
   illustrator: takashi shiraishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/37_hires.png

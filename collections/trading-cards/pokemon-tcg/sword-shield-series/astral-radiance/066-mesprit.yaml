@@ -6,4 +6,6 @@ attributes:
   number: "66/189"
   rarity: Rare Holo
   illustrator: zig
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/66_hires.png

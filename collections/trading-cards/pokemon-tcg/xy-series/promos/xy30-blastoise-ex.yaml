@@ -6,4 +6,6 @@ attributes:
   number: "XY30"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY30_hires.png

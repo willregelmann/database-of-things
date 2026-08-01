@@ -6,4 +6,6 @@ attributes:
   number: "116"
   rarity: Promo
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/116_hires.png

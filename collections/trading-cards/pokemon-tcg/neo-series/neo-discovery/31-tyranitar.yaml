@@ -6,4 +6,6 @@ attributes:
   number: "31/75"
   rarity: Rare
   illustrator: Hironobu Yoshida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/neo2/31_hires.png

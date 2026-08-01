@@ -6,4 +6,6 @@ attributes:
   number: "10/91"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/10_hires.png

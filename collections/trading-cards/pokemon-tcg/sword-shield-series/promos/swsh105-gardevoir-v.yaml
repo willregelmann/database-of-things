@@ -6,4 +6,6 @@ attributes:
   number: "SWSH105"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH105_hires.png

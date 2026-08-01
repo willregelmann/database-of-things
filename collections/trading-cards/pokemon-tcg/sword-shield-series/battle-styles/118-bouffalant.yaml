@@ -6,4 +6,6 @@ attributes:
   number: "118/163"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh5/118_hires.png

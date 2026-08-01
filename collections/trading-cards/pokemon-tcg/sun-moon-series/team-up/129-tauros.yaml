@@ -6,4 +6,6 @@ attributes:
   number: "129/181"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm9/129_hires.png

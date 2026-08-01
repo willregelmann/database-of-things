@@ -6,4 +6,6 @@ attributes:
   number: "TG05/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10tg/TG05_hires.png

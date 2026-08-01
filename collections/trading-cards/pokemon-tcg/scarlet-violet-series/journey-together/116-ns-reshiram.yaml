@@ -6,4 +6,6 @@ attributes:
   number: "116/159"
   rarity: Rare
   illustrator: rika
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/116_hires.png

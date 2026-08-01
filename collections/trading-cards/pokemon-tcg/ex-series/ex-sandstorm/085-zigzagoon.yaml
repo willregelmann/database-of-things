@@ -6,4 +6,6 @@ attributes:
   number: "85/100"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex2/85_hires.png

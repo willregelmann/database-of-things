@@ -6,4 +6,6 @@ attributes:
   number: "69/132"
   rarity: Common
   illustrator: imoniii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/69_hires.png

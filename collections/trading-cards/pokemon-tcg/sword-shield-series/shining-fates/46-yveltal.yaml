@@ -6,4 +6,6 @@ attributes:
   number: "46/72"
   rarity: Amazing Rare
   illustrator: Hasuno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45/46_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "49/149"
   rarity: Common
   illustrator: Ayaka Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm1/49_hires.png

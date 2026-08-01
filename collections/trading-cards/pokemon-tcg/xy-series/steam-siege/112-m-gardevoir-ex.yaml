@@ -6,4 +6,7 @@ attributes:
   number: "112/114"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fairy
+    - Psychic
 image: https://images.pokemontcg.io/xy11/112_hires.png

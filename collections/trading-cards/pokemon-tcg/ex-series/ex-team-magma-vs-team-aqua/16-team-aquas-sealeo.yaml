@@ -6,4 +6,6 @@ attributes:
   number: "16/95"
   rarity: Rare
   illustrator: T. Honda
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/16_hires.png

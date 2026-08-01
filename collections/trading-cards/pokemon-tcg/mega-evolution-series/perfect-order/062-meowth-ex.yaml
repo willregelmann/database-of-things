@@ -6,4 +6,6 @@ attributes:
   number: "62/88"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me3-62/large

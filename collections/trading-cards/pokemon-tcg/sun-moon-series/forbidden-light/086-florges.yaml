@@ -6,4 +6,6 @@ attributes:
   number: "86/131"
   rarity: Rare
   illustrator: Satoshi Shirai
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm6/86_hires.png

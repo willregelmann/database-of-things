@@ -6,4 +6,6 @@ attributes:
   number: "30/64"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo3/30_hires.png

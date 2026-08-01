@@ -6,4 +6,6 @@ attributes:
   number: "194/182"
   rarity: Illustration Rare
   illustrator: OKACHEKE
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/194_hires.png

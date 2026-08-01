@@ -6,4 +6,6 @@ attributes:
   number: "42/198"
   rarity: Common
   illustrator: Narumi Sato
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv1/42_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "47/102"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base1/47_hires.png
 variants:
   - id: 76805a0c-0f52-4be5-b9e1-00e62549fe22

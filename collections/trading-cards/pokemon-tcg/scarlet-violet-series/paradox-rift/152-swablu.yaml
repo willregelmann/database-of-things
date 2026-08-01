@@ -6,4 +6,6 @@ attributes:
   number: "152/182"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/152_hires.png

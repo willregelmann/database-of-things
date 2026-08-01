@@ -6,4 +6,6 @@ attributes:
   number: "101/149"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm1/101_hires.png

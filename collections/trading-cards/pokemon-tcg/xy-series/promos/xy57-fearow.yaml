@@ -6,4 +6,6 @@ attributes:
   number: "XY57"
   rarity: Promo
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY57_hires.png

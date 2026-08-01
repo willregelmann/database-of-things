@@ -6,4 +6,6 @@ attributes:
   number: "43/100"
   rarity: Uncommon
   illustrator: Kent Kanetsuna
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp7/43_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "45/105"
   rarity: Uncommon
   illustrator: Masako Yamashita
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo4/45_hires.png

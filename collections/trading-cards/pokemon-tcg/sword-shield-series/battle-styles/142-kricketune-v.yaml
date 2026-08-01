@@ -6,4 +6,6 @@ attributes:
   number: "142/163"
   rarity: Rare Ultra
   illustrator: Satoshi Shirai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh5/142_hires.png

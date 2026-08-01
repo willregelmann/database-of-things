@@ -6,4 +6,6 @@ attributes:
   number: "95/146"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy1/95_hires.png

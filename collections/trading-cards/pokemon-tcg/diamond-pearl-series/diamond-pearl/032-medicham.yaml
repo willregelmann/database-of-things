@@ -6,4 +6,6 @@ attributes:
   number: "32/130"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp1/32_hires.png

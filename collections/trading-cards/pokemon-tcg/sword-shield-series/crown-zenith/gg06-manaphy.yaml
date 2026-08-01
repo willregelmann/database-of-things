@@ -6,4 +6,6 @@ attributes:
   number: "GG06/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Taira Akitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12pt5gg/GG06_hires.png

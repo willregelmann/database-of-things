@@ -6,4 +6,6 @@ attributes:
   number: "166/189"
   rarity: Rare Ultra
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/166_hires.png

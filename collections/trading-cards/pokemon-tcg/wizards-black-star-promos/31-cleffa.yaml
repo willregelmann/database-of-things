@@ -6,4 +6,6 @@ attributes:
   number: "31/53"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/31_hires.png

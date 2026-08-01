@@ -6,4 +6,6 @@ attributes:
   number: "56/189"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh3/56_hires.png

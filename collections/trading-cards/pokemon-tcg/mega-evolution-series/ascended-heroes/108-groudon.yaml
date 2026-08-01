@@ -6,4 +6,6 @@ attributes:
   number: "108/217"
   rarity: Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-108/large

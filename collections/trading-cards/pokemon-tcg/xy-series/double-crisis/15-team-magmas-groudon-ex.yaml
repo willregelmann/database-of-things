@@ -6,4 +6,6 @@ attributes:
   number: "15/34"
   rarity: Rare Holo ex
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dc1/15_hires.png

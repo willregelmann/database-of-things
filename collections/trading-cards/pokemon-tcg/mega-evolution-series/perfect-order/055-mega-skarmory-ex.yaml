@@ -6,4 +6,6 @@ attributes:
   number: "55/88"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me3-55/large

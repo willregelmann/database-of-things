@@ -6,4 +6,6 @@ attributes:
   number: "54/236"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/54_hires.png

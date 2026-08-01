@@ -6,4 +6,6 @@ attributes:
   number: "138/197"
   rarity: Uncommon
   illustrator: Nelnal
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3/138_hires.png

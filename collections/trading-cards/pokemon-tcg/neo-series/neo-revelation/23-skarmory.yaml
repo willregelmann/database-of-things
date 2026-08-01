@@ -6,4 +6,6 @@ attributes:
   number: "23/64"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Metal
 image: https://images.pokemontcg.io/neo3/23_hires.png

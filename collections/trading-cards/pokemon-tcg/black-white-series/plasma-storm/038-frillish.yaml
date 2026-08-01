@@ -6,4 +6,6 @@ attributes:
   number: "38/135"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw8/38_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/192"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh2/15_hires.png

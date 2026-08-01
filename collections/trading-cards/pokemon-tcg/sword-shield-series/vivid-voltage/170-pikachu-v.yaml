@@ -6,4 +6,6 @@ attributes:
   number: "170/185"
   rarity: Rare Ultra
   illustrator: Saki Hayashiro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/170_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "223/214"
   rarity: Rare Rainbow
   illustrator: sadaji
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm10/223_hires.png

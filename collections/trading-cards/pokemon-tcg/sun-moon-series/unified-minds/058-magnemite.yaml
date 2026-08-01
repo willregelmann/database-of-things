@@ -6,4 +6,6 @@ attributes:
   number: "58/236"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/58_hires.png

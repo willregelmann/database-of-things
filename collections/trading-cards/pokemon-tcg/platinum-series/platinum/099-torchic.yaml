@@ -6,4 +6,6 @@ attributes:
   number: "99/127"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl1/99_hires.png

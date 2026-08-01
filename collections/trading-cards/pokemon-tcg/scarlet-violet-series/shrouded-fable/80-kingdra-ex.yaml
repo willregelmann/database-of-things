@@ -6,4 +6,6 @@ attributes:
   number: "80/64"
   rarity: Ultra Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6pt5/80_hires.png

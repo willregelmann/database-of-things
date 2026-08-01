@@ -6,4 +6,6 @@ attributes:
   number: "91/191"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/91_hires.png

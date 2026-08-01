@@ -6,4 +6,6 @@ attributes:
   number: "35/108"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex16/35_hires.png

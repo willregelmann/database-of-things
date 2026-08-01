@@ -6,4 +6,6 @@ attributes:
   number: "70/111"
   rarity: Common
   illustrator: match
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy3/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "BW13"
   rarity: Promo
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW13_hires.png

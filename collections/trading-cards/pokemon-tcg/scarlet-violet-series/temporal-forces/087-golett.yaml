@@ -6,4 +6,6 @@ attributes:
   number: "87/162"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/87_hires.png

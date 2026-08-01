@@ -6,4 +6,6 @@ attributes:
   number: "SV10/SV94"
   rarity: Rare Shiny
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/sma/SV10_hires.png

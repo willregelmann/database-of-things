@@ -6,4 +6,6 @@ attributes:
   number: "7/202"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/7_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "6/102"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/base1/6_hires.png
 variants:
   - id: 8766afef-5af8-48ac-9070-87448192239b

@@ -6,4 +6,6 @@ attributes:
   number: "126/147"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/126_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "36/94"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/36_hires.png

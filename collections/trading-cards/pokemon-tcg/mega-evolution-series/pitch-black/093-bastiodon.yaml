@@ -6,4 +6,6 @@ attributes:
   number: "93/84"
   rarity: Illustration Rare
   illustrator: Yoriyuki Ikegami
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me5-93/large

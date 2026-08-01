@@ -6,4 +6,6 @@ attributes:
   number: "27/165"
   rarity: Common
   illustrator: kodama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3pt5/27_hires.png

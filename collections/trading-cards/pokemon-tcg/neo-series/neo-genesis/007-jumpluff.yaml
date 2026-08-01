@@ -6,4 +6,6 @@ attributes:
   number: "7/111"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo1/7_hires.png

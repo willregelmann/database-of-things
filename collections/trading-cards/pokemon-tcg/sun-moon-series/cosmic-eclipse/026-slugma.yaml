@@ -6,4 +6,6 @@ attributes:
   number: "26/236"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm12/26_hires.png

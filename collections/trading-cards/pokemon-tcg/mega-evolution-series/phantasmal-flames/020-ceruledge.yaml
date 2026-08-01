@@ -6,4 +6,6 @@ attributes:
   number: "20/94"
   rarity: Uncommon
   illustrator: Gemi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/20_hires.png

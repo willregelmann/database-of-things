@@ -6,4 +6,6 @@ attributes:
   number: "221/236"
   rarity: Rare Ultra
   illustrator: tetsuya koizumi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/221_hires.png

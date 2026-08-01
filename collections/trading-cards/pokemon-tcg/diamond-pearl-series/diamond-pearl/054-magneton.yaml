@@ -6,4 +6,6 @@ attributes:
   number: "54/130"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp1/54_hires.png

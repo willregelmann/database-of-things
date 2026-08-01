@@ -6,4 +6,6 @@ attributes:
   number: "92/88"
   rarity: Illustration Rare
   illustrator: Masa
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me3-92/large

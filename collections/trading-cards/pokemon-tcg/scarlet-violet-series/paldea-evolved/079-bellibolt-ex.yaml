@@ -6,4 +6,6 @@ attributes:
   number: "79/193"
   rarity: Double Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/79_hires.png

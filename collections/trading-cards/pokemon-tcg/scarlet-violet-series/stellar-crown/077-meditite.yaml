@@ -6,4 +6,6 @@ attributes:
   number: "77/142"
   rarity: Common
   illustrator: GOTO minori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/77_hires.png

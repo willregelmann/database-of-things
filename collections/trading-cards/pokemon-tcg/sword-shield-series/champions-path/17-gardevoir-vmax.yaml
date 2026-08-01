@@ -6,4 +6,6 @@ attributes:
   number: "17/73"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh35/17_hires.png

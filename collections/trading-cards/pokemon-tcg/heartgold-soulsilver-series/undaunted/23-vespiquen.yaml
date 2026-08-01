@@ -6,4 +6,6 @@ attributes:
   number: "23/90"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss3/23_hires.png

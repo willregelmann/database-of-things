@@ -6,4 +6,6 @@ attributes:
   number: "141/86"
   rarity: Illustration Rare
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/zsv10pt5/141_hires.png

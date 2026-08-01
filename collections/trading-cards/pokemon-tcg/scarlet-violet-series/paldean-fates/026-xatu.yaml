@@ -6,4 +6,6 @@ attributes:
   number: "26/91"
   rarity: Rare
   illustrator: DOM
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/26_hires.png

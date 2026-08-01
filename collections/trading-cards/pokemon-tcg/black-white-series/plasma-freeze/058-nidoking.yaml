@@ -6,4 +6,6 @@ attributes:
   number: "58/116"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw9/58_hires.png

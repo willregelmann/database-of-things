@@ -6,4 +6,6 @@ attributes:
   number: "SWSH160"
   rarity: Promo
   illustrator: AKIRA EGAWA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH160_hires.png

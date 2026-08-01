@@ -6,4 +6,6 @@ attributes:
   number: "80/142"
   rarity: Double Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/80_hires.png

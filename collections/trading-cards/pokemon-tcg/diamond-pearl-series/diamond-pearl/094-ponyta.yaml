@@ -6,4 +6,6 @@ attributes:
   number: "94/130"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp1/94_hires.png

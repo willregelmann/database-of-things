@@ -6,4 +6,6 @@ attributes:
   number: "104/159"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12pt5/104_hires.png

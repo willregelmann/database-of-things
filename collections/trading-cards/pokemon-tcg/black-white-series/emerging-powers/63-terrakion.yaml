@@ -6,4 +6,6 @@ attributes:
   number: "63/98"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw2/63_hires.png

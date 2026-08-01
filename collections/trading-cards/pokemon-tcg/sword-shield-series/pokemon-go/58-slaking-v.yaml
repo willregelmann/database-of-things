@@ -6,4 +6,6 @@ attributes:
   number: "58/78"
   rarity: Rare Holo V
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/58_hires.png

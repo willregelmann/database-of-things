@@ -6,4 +6,6 @@ attributes:
   number: "28/236"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm12/28_hires.png

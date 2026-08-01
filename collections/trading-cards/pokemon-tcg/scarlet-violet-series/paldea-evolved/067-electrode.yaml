@@ -6,4 +6,6 @@ attributes:
   number: "67/193"
   rarity: Uncommon
   illustrator: Scav
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/67_hires.png

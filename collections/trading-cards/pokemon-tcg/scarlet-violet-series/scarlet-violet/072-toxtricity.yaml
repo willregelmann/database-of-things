@@ -6,4 +6,6 @@ attributes:
   number: "72/198"
   rarity: Uncommon
   illustrator: Atsushi Furusawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv1/72_hires.png

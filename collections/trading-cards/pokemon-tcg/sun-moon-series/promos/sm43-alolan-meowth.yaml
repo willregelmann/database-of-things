@@ -6,4 +6,6 @@ attributes:
   number: "SM43"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/smp/SM43_hires.png

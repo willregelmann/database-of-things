@@ -6,4 +6,6 @@ attributes:
   number: "81/196"
   rarity: Rare Holo
   illustrator: Narumi Sato
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/81_hires.png

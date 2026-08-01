@@ -6,4 +6,6 @@ attributes:
   number: "170/189"
   rarity: Rare Ultra
   illustrator: N-DESIGN Inc
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/170_hires.png

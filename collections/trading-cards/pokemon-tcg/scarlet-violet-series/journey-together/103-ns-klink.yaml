@@ -6,4 +6,6 @@ attributes:
   number: "103/159"
   rarity: Common
   illustrator: Saboteri
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv9/103_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "26/102"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss4/26_hires.png

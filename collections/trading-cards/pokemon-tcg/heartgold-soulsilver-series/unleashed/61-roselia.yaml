@@ -6,4 +6,6 @@ attributes:
   number: "61/95"
   rarity: Common
   illustrator: Takashi Yamaguchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss2/61_hires.png

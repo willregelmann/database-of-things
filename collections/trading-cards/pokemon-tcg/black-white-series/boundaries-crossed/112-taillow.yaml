@@ -6,4 +6,6 @@ attributes:
   number: "112/149"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw7/112_hires.png

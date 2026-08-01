@@ -6,4 +6,6 @@ attributes:
   number: "154/214"
   rarity: Rare Prism Star
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/154_hires.png

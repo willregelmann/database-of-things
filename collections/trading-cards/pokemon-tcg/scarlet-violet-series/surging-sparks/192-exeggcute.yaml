@@ -6,4 +6,6 @@ attributes:
   number: "192/191"
   rarity: Illustration Rare
   illustrator: Yuriko Akase
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/192_hires.png

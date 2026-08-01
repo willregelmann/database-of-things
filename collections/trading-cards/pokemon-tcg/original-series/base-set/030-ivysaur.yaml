@@ -6,6 +6,8 @@ attributes:
   number: "30/102"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base1/30_hires.png
 variants:
   - id: c7edbeca-44f3-40d4-8fb6-4ce6aa4ffca9

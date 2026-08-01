@@ -6,4 +6,6 @@ attributes:
   number: "198"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/198_hires.png

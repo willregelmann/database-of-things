@@ -6,4 +6,6 @@ attributes:
   number: "H13/H32"
   rarity: Rare Holo
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/H13_hires.png

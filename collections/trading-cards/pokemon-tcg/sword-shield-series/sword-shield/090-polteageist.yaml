@@ -6,4 +6,6 @@ attributes:
   number: "90/202"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh1/90_hires.png

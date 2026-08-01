@@ -6,4 +6,6 @@ attributes:
   number: "SV38/SV94"
   rarity: Rare Shiny
   illustrator: Saya Tsuruta
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sma/SV38_hires.png

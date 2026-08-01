@@ -6,4 +6,6 @@ attributes:
   number: "SM223"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM223_hires.png

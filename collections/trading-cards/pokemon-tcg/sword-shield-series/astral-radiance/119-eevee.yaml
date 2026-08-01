@@ -6,4 +6,6 @@ attributes:
   number: "119/189"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/119_hires.png

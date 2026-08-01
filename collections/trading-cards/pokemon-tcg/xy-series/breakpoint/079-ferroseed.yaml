@@ -6,4 +6,6 @@ attributes:
   number: "79/122"
   rarity: Common
   illustrator: Satoshi Shirai
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy9/79_hires.png

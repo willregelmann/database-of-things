@@ -6,4 +6,6 @@ attributes:
   number: "37/97"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex3/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "23/168"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm7/23_hires.png

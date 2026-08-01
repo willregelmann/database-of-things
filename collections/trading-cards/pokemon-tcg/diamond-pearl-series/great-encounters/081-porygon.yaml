@@ -6,4 +6,6 @@ attributes:
   number: "81/106"
   rarity: Common
   illustrator: Kent Kanetsuna
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH165"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH165_hires.png

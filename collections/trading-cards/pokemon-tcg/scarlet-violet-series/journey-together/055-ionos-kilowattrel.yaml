@@ -6,4 +6,6 @@ attributes:
   number: "55/159"
   rarity: Rare
   illustrator: chibi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv9/55_hires.png

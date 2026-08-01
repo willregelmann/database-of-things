@@ -6,4 +6,6 @@ attributes:
   number: "023"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/np/23_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM235"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM235_hires.png

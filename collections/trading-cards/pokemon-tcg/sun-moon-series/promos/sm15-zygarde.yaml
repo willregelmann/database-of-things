@@ -6,4 +6,6 @@ attributes:
   number: "SM15"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM15_hires.png

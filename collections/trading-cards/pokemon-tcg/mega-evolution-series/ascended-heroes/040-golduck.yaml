@@ -6,4 +6,6 @@ attributes:
   number: "40/217"
   rarity: Uncommon
   illustrator: Jiro Sasumo
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me2pt5-40/large

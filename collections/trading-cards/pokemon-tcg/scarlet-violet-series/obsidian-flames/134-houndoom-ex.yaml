@@ -6,4 +6,6 @@ attributes:
   number: "134/197"
   rarity: Double Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3/134_hires.png

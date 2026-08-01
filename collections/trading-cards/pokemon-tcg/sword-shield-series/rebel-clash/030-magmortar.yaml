@@ -6,4 +6,6 @@ attributes:
   number: "30/192"
   rarity: Rare
   illustrator: Kazuma Koda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/30_hires.png

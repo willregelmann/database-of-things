@@ -6,4 +6,6 @@ attributes:
   number: "37/167"
   rarity: Common
   illustrator: Rond
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/37_hires.png

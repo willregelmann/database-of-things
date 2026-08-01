@@ -6,4 +6,6 @@ attributes:
   number: "82/109"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex7/82_hires.png

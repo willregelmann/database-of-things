@@ -6,4 +6,6 @@ attributes:
   number: "61/182"
   rarity: Common
   illustrator: Narumi Sato
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/61_hires.png

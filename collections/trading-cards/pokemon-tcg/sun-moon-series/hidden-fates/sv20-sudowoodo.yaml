@@ -6,4 +6,6 @@ attributes:
   number: "SV20/SV94"
   rarity: Rare Shiny
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sma/SV20_hires.png

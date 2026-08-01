@@ -6,4 +6,6 @@ attributes:
   number: "93/122"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy9/93_hires.png

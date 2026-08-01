@@ -6,4 +6,6 @@ attributes:
   number: "HGSS09"
   rarity: Promo
   illustrator: Wataru Kawahara
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hsp/HGSS09_hires.png

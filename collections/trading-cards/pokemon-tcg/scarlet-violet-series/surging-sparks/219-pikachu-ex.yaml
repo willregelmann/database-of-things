@@ -6,4 +6,6 @@ attributes:
   number: "219/191"
   rarity: Ultra Rare
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/219_hires.png

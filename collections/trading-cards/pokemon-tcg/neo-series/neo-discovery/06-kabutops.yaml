@@ -6,4 +6,6 @@ attributes:
   number: "6/75"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo2/6_hires.png

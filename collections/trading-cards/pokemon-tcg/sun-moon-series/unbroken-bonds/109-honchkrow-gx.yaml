@@ -6,4 +6,6 @@ attributes:
   number: "109/214"
   rarity: Rare Holo GX
   illustrator: sadaji
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm10/109_hires.png

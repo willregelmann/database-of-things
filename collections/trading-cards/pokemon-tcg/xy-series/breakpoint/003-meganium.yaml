@@ -6,4 +6,6 @@ attributes:
   number: "3/122"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy9/3_hires.png

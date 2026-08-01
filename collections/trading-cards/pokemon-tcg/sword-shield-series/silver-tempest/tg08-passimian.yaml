@@ -6,4 +6,6 @@ attributes:
   number: "TG08/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12tg/TG08_hires.png

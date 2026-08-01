@@ -6,4 +6,6 @@ attributes:
   number: "125/197"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv3/125_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV069/SV122"
   rarity: Rare Shiny
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV069_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "56/147"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/56_hires.png

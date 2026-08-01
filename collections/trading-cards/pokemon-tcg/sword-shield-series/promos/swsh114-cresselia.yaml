@@ -6,4 +6,6 @@ attributes:
   number: "SWSH114"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH114_hires.png

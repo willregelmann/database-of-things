@@ -6,4 +6,6 @@ attributes:
   number: "29/98"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy7/29_hires.png

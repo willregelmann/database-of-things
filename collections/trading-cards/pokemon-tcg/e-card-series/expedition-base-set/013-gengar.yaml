@@ -6,4 +6,6 @@ attributes:
   number: "13/165"
   rarity: Rare Holo
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard1/13_hires.png

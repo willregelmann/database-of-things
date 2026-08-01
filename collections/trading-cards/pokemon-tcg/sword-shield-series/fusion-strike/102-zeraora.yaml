@@ -6,4 +6,6 @@ attributes:
   number: "102/264"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh8/102_hires.png

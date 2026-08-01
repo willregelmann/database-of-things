@@ -6,4 +6,6 @@ attributes:
   number: "185/197"
   rarity: Uncommon
   illustrator: Hiroki Asanuma
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/185_hires.png

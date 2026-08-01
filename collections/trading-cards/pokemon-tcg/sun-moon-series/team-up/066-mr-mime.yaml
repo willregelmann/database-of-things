@@ -6,4 +6,6 @@ attributes:
   number: "66/181"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/66_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "77/203"
   rarity: Rare
   illustrator: Megumi Higuchi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/77_hires.png

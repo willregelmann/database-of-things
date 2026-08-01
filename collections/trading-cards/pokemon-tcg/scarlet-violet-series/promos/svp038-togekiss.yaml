@@ -6,4 +6,6 @@ attributes:
   number: "038"
   rarity: Promo
   illustrator: OKACHEKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/38_hires.png

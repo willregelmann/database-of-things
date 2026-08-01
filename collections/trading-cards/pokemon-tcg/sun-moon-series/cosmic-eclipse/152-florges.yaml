@@ -6,4 +6,6 @@ attributes:
   number: "152/236"
   rarity: Rare Holo
   illustrator: Akira Komayama
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm12/152_hires.png

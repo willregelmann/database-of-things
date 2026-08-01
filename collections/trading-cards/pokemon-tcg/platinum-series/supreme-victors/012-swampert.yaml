@@ -6,4 +6,6 @@ attributes:
   number: "12/147"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl3/12_hires.png

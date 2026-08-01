@@ -6,4 +6,6 @@ attributes:
   number: "4/70"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/4_hires.png

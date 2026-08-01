@@ -6,4 +6,6 @@ attributes:
   number: "161/214"
   rarity: Uncommon
   illustrator: OOYAMA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/161_hires.png

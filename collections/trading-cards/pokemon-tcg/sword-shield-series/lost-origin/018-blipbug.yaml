@@ -6,4 +6,6 @@ attributes:
   number: "18/196"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh11/18_hires.png

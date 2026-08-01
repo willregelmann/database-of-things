@@ -6,4 +6,6 @@ attributes:
   number: "70/94"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/me2/70_hires.png

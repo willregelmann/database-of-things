@@ -6,4 +6,6 @@ attributes:
   number: "142/264"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/142_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "80/162"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy8/80_hires.png

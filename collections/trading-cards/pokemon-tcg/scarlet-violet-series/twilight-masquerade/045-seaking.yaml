@@ -6,4 +6,6 @@ attributes:
   number: "45/167"
   rarity: Common
   illustrator: Gemi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/45_hires.png

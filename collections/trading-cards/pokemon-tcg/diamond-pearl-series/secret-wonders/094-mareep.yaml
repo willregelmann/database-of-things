@@ -6,4 +6,6 @@ attributes:
   number: "94/132"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp3/94_hires.png

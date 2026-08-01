@@ -6,4 +6,6 @@ attributes:
   number: "SWSH006"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH006_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "44/124"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/44_hires.png

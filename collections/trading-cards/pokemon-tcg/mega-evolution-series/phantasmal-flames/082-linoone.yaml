@@ -6,4 +6,6 @@ attributes:
   number: "82/94"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me2/82_hires.png

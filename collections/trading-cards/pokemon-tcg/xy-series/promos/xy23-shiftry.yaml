@@ -6,4 +6,6 @@ attributes:
   number: "XY23"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY23_hires.png

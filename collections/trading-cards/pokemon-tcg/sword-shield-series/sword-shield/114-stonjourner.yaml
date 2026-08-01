@@ -6,4 +6,6 @@ attributes:
   number: "114/202"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "111/182"
   rarity: Uncommon
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/111_hires.png

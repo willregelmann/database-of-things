@@ -6,4 +6,6 @@ attributes:
   number: "53/88"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me3-53/large

@@ -6,4 +6,6 @@ attributes:
   number: "37/147"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm3/37_hires.png

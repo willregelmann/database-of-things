@@ -6,4 +6,6 @@ attributes:
   number: "58/102"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss4/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "79/236"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/79_hires.png

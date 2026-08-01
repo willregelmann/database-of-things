@@ -6,4 +6,6 @@ attributes:
   number: "55/122"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy9/55_hires.png

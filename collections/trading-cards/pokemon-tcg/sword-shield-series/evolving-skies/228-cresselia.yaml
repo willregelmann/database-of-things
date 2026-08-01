@@ -6,4 +6,6 @@ attributes:
   number: "228/203"
   rarity: Rare Secret
   illustrator: Toyste Beach
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/228_hires.png

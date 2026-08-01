@@ -6,4 +6,6 @@ attributes:
   number: "10/88"
   rarity: Common
   illustrator: Atsuya Uki
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-10/large

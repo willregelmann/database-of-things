@@ -6,4 +6,6 @@ attributes:
   number: "78/131"
   rarity: Rare
   illustrator: matazo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/78_hires.png

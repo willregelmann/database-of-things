@@ -6,4 +6,6 @@ attributes:
   number: "2/106"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex9/2_hires.png

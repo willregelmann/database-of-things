@@ -6,4 +6,6 @@ attributes:
   number: "36/92"
   rarity: Uncommon
   illustrator: Takao Unno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/36_hires.png

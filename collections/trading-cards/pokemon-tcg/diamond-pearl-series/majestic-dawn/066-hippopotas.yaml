@@ -6,4 +6,6 @@ attributes:
   number: "66/100"
   rarity: Common
   illustrator: Kent Kanetsuna
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp5/66_hires.png

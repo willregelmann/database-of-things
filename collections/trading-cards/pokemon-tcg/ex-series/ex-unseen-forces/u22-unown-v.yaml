@@ -6,4 +6,6 @@ attributes:
   number: "V/28"
   rarity: Rare Holo
   illustrator: Kyoko Koizumi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex10/V_hires.png

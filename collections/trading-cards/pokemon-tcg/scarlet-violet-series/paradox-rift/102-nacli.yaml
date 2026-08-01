@@ -6,4 +6,6 @@ attributes:
   number: "102/182"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/102_hires.png

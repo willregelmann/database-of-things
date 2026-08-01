@@ -6,4 +6,6 @@ attributes:
   number: "33/95"
   rarity: Uncommon
   illustrator: Wataru Kawahara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/33_hires.png

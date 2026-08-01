@@ -6,4 +6,6 @@ attributes:
   number: "SM239"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM239_hires.png

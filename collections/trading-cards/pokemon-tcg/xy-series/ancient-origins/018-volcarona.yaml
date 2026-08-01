@@ -6,4 +6,6 @@ attributes:
   number: "18/98"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy7/18_hires.png

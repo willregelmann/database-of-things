@@ -6,4 +6,6 @@ attributes:
   number: "167/162"
   rarity: Illustration Rare
   illustrator: Makura Tami
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/167_hires.png

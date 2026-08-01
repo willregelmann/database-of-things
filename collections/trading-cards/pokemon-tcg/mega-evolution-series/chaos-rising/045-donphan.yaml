@@ -6,4 +6,6 @@ attributes:
   number: "45/86"
   rarity: Common
   illustrator: Julie Hang
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me4-45/large

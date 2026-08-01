@@ -6,4 +6,6 @@ attributes:
   number: "59/123"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/59_hires.png

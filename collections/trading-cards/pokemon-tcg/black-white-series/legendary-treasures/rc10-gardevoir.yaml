@@ -6,4 +6,6 @@ attributes:
   number: "RC10/RC25"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/RC10_hires.png

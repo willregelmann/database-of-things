@@ -6,4 +6,6 @@ attributes:
   number: "SV28/SV94"
   rarity: Rare Shiny
   illustrator: Kyoko Umemoto
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV28_hires.png

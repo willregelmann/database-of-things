@@ -6,4 +6,6 @@ attributes:
   number: "78/142"
   rarity: Common
   illustrator: Yuu Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/78_hires.png

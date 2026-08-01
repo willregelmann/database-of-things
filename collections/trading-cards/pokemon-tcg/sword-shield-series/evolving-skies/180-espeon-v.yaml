@@ -6,4 +6,6 @@ attributes:
   number: "180/203"
   rarity: Rare Ultra
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/180_hires.png

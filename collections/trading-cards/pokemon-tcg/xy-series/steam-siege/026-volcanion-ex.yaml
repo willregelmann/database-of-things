@@ -6,4 +6,7 @@ attributes:
   number: "26/114"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Fire
+    - Water
 image: https://images.pokemontcg.io/xy11/26_hires.png

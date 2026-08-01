@@ -6,4 +6,6 @@ attributes:
   number: "42/101"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw3/42_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "19/108"
   rarity: Rare
   illustrator: Tomoaki Imakuni
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex16/19_hires.png

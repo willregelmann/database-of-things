@@ -6,4 +6,6 @@ attributes:
   number: "TG11/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Souichirou Gunjima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh9tg/TG11_hires.png

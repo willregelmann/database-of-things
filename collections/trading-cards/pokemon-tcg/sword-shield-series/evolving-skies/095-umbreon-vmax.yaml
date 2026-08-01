@@ -6,4 +6,6 @@ attributes:
   number: "95/203"
   rarity: Rare Holo VMAX
   illustrator: AKIRA EGAWA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh7/95_hires.png

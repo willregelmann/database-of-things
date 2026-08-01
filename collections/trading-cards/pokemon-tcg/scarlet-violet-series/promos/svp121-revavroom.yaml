@@ -6,4 +6,6 @@ attributes:
   number: "121"
   rarity: Promo
   illustrator: Nisota Niso
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/121_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "79/94"
   rarity: Rare
   illustrator: hncl
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me2/79_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "93/181"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm9/93_hires.png

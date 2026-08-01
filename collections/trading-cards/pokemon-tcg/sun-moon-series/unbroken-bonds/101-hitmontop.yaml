@@ -6,4 +6,6 @@ attributes:
   number: "101/214"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/101_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "83/131"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm6/83_hires.png

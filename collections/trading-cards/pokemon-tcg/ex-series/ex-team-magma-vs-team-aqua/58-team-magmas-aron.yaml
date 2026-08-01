@@ -6,4 +6,6 @@ attributes:
   number: "58/95"
   rarity: Common
   illustrator: Katsura Tabata
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex4/58_hires.png

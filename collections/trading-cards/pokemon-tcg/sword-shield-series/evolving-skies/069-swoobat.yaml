@@ -6,4 +6,6 @@ attributes:
   number: "69/203"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/69_hires.png

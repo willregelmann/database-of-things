@@ -6,4 +6,6 @@ attributes:
   number: "81/123"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp2/81_hires.png

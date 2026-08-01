@@ -6,4 +6,6 @@ attributes:
   number: "14/109"
   rarity: Rare Holo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex7/14_hires.png

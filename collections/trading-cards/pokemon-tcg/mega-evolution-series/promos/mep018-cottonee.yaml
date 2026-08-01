@@ -6,4 +6,6 @@ attributes:
   number: "018"
   rarity: Promo
   illustrator: Kariya
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/CottoneeMEPPromo18.jpg

@@ -6,4 +6,6 @@ attributes:
   number: "30/185"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh4/30_hires.png

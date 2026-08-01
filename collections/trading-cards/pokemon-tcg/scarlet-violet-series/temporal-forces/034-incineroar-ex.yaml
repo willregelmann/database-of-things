@@ -6,4 +6,6 @@ attributes:
   number: "34/162"
   rarity: Double Rare
   illustrator: N-DESIGN Inc.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/34_hires.png

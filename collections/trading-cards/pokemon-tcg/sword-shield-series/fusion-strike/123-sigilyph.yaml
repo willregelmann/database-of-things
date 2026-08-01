@@ -6,4 +6,6 @@ attributes:
   number: "123/264"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/123_hires.png

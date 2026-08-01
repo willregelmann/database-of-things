@@ -6,4 +6,6 @@ attributes:
   number: "34/264"
   rarity: Common
   illustrator: otumami
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "99/86"
   rarity: Ultra Rare
   illustrator: Keisuke Azuma
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me4-99/large

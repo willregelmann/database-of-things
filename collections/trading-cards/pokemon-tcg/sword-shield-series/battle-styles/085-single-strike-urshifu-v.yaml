@@ -6,4 +6,6 @@ attributes:
   number: "85/163"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/85_hires.png

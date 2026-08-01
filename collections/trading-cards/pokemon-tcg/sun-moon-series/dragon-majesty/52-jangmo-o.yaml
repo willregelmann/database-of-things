@@ -6,4 +6,6 @@ attributes:
   number: "52/70"
   rarity: Common
   illustrator: Yusuke Ohmura
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/52_hires.png

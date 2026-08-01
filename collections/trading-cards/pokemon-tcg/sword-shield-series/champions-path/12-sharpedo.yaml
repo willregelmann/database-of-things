@@ -6,4 +6,6 @@ attributes:
   number: "12/73"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh35/12_hires.png

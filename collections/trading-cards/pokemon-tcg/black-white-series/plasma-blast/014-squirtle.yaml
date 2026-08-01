@@ -6,4 +6,6 @@ attributes:
   number: "14/101"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw10/14_hires.png

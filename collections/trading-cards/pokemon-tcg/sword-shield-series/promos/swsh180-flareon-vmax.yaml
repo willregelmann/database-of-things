@@ -6,4 +6,6 @@ attributes:
   number: "SWSH180"
   rarity: Promo
   illustrator: OKACHEKE
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH180_hires.png

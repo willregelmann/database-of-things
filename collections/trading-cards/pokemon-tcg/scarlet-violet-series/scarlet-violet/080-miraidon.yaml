@@ -6,4 +6,6 @@ attributes:
   number: "80/198"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv1/80_hires.png

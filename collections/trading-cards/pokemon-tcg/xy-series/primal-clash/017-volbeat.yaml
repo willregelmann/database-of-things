@@ -6,4 +6,6 @@ attributes:
   number: "17/160"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy5/17_hires.png

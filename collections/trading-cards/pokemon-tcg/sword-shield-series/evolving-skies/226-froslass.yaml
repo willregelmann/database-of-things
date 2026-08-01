@@ -6,4 +6,6 @@ attributes:
   number: "226/203"
   rarity: Rare Secret
   illustrator: Studio Bora Inc.
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/226_hires.png

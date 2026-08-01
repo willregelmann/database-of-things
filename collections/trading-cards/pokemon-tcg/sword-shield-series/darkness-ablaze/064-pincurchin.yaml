@@ -6,4 +6,6 @@ attributes:
   number: "64/189"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh3/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "81/198"
   rarity: Rare
   illustrator: NC Empire
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh6/81_hires.png

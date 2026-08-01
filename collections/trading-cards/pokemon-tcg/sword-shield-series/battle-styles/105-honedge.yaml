@@ -6,4 +6,6 @@ attributes:
   number: "105/163"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/105_hires.png

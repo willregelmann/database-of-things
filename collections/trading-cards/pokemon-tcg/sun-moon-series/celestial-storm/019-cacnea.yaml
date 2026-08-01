@@ -6,4 +6,6 @@ attributes:
   number: "19/168"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm7/19_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/75"
   rarity: Rare
   illustrator: CR CG gangs
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/33_hires.png

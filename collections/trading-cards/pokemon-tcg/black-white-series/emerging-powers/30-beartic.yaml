@@ -6,4 +6,6 @@ attributes:
   number: "30/98"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw2/30_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM161"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM161_hires.png

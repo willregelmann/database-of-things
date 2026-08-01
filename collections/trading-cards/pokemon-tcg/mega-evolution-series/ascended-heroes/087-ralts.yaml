@@ -6,4 +6,6 @@ attributes:
   number: "87/217"
   rarity: Common
   illustrator: Terada Tera
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-87/large

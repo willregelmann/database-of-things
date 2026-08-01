@@ -6,4 +6,6 @@ attributes:
   number: "28/112"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex6/28_hires.png

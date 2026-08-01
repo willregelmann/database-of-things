@@ -6,4 +6,6 @@ attributes:
   number: "16/62"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base3/16_hires.png

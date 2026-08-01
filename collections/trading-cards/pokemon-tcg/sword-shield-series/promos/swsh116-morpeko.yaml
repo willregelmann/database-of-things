@@ -6,4 +6,6 @@ attributes:
   number: "SWSH116"
   rarity: Promo
   illustrator: Atsushi Furusawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH116_hires.png

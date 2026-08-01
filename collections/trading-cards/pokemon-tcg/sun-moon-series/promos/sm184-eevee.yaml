@@ -6,4 +6,6 @@ attributes:
   number: "SM184"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM184_hires.png

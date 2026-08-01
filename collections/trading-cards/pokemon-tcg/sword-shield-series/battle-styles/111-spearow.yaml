@@ -6,4 +6,6 @@ attributes:
   number: "111/163"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh5/111_hires.png

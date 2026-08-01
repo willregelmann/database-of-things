@@ -6,4 +6,6 @@ attributes:
   number: "102/132"
   rarity: Common
   illustrator: Scav
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/102_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "100/165"
   rarity: Common
   illustrator: Motofumi Fujiwara
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard1/100_hires.png

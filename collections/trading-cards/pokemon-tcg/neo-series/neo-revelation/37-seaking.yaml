@@ -6,4 +6,6 @@ attributes:
   number: "37/64"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo3/37_hires.png

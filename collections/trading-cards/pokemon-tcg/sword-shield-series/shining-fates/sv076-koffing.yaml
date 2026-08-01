@@ -6,4 +6,6 @@ attributes:
   number: "SV076/SV122"
   rarity: Rare Shiny
   illustrator: Yumi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45sv/SV076_hires.png

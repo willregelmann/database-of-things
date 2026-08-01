@@ -6,4 +6,6 @@ attributes:
   number: "78/132"
   rarity: Common
   illustrator: matazo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/78_hires.png

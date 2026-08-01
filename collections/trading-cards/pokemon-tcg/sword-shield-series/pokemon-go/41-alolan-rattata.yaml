@@ -6,4 +6,6 @@ attributes:
   number: "41/78"
   rarity: Common
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/pgo/41_hires.png

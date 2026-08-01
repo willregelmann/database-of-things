@@ -6,4 +6,6 @@ attributes:
   number: "181/165"
   rarity: Illustration Rare
   illustrator: rika
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv3pt5/181_hires.png

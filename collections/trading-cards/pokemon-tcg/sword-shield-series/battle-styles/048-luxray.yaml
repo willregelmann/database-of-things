@@ -6,4 +6,6 @@ attributes:
   number: "48/163"
   rarity: Rare Holo
   illustrator: Kazuma Koda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh5/48_hires.png

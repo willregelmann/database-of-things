@@ -6,4 +6,6 @@ attributes:
   number: "109/163"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/109_hires.png

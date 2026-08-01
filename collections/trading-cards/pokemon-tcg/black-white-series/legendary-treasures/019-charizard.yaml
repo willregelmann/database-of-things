@@ -6,4 +6,6 @@ attributes:
   number: "19/113"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw11/19_hires.png

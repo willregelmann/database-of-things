@@ -6,4 +6,6 @@ attributes:
   number: "60/191"
   rarity: Uncommon
   illustrator: Po-Suzuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/60_hires.png

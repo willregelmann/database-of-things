@@ -6,4 +6,6 @@ attributes:
   number: "79/132"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/79_hires.png

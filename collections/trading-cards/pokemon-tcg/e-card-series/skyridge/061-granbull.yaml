@@ -6,4 +6,6 @@ attributes:
   number: "61/144"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/61_hires.png

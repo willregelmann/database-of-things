@@ -6,4 +6,6 @@ attributes:
   number: "BW22"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/bwp/BW22_hires.png

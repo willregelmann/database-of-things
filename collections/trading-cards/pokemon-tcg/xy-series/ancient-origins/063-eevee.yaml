@@ -6,4 +6,6 @@ attributes:
   number: "63/98"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy7/63_hires.png

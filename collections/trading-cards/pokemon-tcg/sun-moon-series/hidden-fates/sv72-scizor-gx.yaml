@@ -6,4 +6,6 @@ attributes:
   number: "SV72/SV94"
   rarity: Rare Shiny GX
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV72_hires.png

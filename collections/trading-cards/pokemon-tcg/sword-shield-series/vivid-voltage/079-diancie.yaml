@@ -6,4 +6,6 @@ attributes:
   number: "79/185"
   rarity: Rare Holo
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/79_hires.png

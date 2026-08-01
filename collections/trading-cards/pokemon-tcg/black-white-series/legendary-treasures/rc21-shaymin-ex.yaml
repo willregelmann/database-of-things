@@ -6,4 +6,6 @@ attributes:
   number: "RC21/RC25"
   rarity: Rare Ultra
   illustrator: Kanako Eo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/RC21_hires.png

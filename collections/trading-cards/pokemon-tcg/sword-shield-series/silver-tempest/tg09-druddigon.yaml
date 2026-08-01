@@ -6,4 +6,6 @@ attributes:
   number: "TG09/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Teeziro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12tg/TG09_hires.png

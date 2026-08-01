@@ -6,4 +6,6 @@ attributes:
   number: "34/106"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex9/34_hires.png

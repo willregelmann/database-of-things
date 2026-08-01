@@ -6,4 +6,6 @@ attributes:
   number: "210/203"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh7/210_hires.png

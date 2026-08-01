@@ -6,4 +6,6 @@ attributes:
   number: "90/84"
   rarity: Illustration Rare
   illustrator: Mékayu
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-90/large

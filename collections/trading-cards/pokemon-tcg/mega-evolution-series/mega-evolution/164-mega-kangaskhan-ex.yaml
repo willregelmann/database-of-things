@@ -6,4 +6,6 @@ attributes:
   number: "164/132"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/164_hires.png

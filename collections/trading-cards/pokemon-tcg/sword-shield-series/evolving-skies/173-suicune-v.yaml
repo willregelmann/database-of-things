@@ -6,4 +6,6 @@ attributes:
   number: "173/203"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/173_hires.png

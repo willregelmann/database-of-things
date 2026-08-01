@@ -6,4 +6,6 @@ attributes:
   number: "63/132"
   rarity: Uncommon
   illustrator: cochi8i
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me1/63_hires.png

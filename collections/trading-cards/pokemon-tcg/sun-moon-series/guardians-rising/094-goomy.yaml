@@ -6,4 +6,6 @@ attributes:
   number: "94/145"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm2/94_hires.png

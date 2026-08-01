@@ -6,4 +6,6 @@ attributes:
   number: "124/189"
   rarity: Rare
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/124_hires.png

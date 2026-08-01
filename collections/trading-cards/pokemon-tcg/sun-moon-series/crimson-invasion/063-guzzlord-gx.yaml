@@ -6,4 +6,6 @@ attributes:
   number: "63/111"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm4/63_hires.png

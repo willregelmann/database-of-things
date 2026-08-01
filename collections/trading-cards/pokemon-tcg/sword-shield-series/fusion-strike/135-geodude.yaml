@@ -6,4 +6,6 @@ attributes:
   number: "135/264"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/135_hires.png

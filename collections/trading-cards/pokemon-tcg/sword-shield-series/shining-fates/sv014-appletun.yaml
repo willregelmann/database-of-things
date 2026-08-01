@@ -6,4 +6,6 @@ attributes:
   number: "SV014/SV122"
   rarity: Rare Shiny
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV014_hires.png

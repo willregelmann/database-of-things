@@ -6,4 +6,6 @@ attributes:
   number: "43/90"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss3/43_hires.png

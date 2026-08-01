@@ -6,4 +6,6 @@ attributes:
   number: "DP26"
   rarity: Promo
   illustrator: Kazuyuki Kano
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dpp/DP26_hires.png

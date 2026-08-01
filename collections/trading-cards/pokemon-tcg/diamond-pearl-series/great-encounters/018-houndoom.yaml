@@ -6,4 +6,6 @@ attributes:
   number: "18/106"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp4/18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "93/202"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/93_hires.png

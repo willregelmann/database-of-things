@@ -6,4 +6,6 @@ attributes:
   number: "72/145"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/72_hires.png

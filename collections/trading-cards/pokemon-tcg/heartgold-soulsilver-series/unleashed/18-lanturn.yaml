@@ -6,4 +6,6 @@ attributes:
   number: "18/95"
   rarity: Rare
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss2/18_hires.png

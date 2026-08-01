@@ -6,4 +6,6 @@ attributes:
   number: "SWSH266"
   rarity: Promo
   illustrator: N-DESIGN Inc.
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH266_hires.png

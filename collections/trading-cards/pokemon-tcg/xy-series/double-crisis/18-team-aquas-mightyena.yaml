@@ -6,4 +6,6 @@ attributes:
   number: "18/34"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dc1/18_hires.png

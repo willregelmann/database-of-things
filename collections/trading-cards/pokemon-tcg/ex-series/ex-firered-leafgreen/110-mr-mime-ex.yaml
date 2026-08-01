@@ -6,4 +6,6 @@ attributes:
   number: "110/112"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex6/110_hires.png

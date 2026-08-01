@@ -6,4 +6,6 @@ attributes:
   number: "SV40/SV94"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sma/SV40_hires.png

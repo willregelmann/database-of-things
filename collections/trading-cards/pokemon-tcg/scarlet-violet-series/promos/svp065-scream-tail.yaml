@@ -6,4 +6,6 @@ attributes:
   number: "065"
   rarity: Promo
   illustrator: GIDORA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/65_hires.png

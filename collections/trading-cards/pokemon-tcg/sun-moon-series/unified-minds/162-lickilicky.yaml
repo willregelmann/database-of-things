@@ -6,4 +6,6 @@ attributes:
   number: "162/236"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/162_hires.png

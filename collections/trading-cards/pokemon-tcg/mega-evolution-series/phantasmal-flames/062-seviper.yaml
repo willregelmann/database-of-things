@@ -6,4 +6,6 @@ attributes:
   number: "62/94"
   rarity: Uncommon
   illustrator: hncl
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/62_hires.png

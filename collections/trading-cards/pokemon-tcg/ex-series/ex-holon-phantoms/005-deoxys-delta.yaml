@@ -6,4 +6,6 @@ attributes:
   number: "5/110"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex13/5_hires.png

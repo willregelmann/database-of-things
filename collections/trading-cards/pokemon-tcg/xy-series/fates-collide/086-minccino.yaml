@@ -6,4 +6,6 @@ attributes:
   number: "86/124"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy10/86_hires.png

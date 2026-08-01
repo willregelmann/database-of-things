@@ -6,4 +6,6 @@ attributes:
   number: "18/90"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss3/18_hires.png

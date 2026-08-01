@@ -6,4 +6,6 @@ attributes:
   number: "111/202"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/111_hires.png

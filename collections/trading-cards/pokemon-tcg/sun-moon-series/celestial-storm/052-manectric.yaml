@@ -6,4 +6,6 @@ attributes:
   number: "52/168"
   rarity: Rare
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm7/52_hires.png

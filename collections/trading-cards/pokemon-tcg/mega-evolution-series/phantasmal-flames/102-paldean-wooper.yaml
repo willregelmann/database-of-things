@@ -6,4 +6,6 @@ attributes:
   number: "102/94"
   rarity: Illustration Rare
   illustrator: OKACHEKE
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/102_hires.png

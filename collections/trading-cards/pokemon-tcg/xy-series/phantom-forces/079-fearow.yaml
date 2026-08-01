@@ -6,4 +6,6 @@ attributes:
   number: "79/119"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy4/79_hires.png

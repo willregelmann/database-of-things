@@ -6,4 +6,6 @@ attributes:
   number: "31/106"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex9/31_hires.png

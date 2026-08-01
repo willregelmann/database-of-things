@@ -6,4 +6,6 @@ attributes:
   number: "124/196"
   rarity: Radiant Rare
   illustrator: Sanosuke Sakuma
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh11/124_hires.png

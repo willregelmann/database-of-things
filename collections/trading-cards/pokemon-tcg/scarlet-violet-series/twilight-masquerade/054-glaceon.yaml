@@ -6,4 +6,6 @@ attributes:
   number: "54/167"
   rarity: Uncommon
   illustrator: rika
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/54_hires.png

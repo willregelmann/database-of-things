@@ -6,4 +6,6 @@ attributes:
   number: "60/88"
   rarity: Common
   illustrator: Shinya Komatsu
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me3-60/large

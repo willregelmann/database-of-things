@@ -6,4 +6,6 @@ attributes:
   number: "XY89"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY89_hires.png

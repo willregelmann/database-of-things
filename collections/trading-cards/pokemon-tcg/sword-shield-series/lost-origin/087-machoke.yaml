@@ -6,4 +6,6 @@ attributes:
   number: "87/196"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/87_hires.png

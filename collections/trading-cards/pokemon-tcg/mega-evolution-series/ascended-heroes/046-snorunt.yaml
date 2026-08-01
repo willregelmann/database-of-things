@@ -6,4 +6,6 @@ attributes:
   number: "46/217"
   rarity: Common
   illustrator: Wintr Wandr
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me2pt5-46/large

@@ -6,4 +6,6 @@ attributes:
   number: "14/86"
   rarity: Common
   illustrator: Julie Hang
+  type:
+    - Fire
 image: https://images.pokemontcg.io/rsv10pt5/14_hires.png

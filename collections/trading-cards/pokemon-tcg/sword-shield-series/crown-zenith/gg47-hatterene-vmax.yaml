@@ -6,4 +6,6 @@ attributes:
   number: "GG47/GG70"
   rarity: Rare Holo VMAX
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG47_hires.png

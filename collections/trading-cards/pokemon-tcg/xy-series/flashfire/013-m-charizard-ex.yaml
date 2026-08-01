@@ -6,4 +6,6 @@ attributes:
   number: "13/106"
   rarity: Rare Holo ex
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy2/13_hires.png

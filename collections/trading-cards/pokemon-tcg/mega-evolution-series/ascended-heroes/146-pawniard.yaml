@@ -6,4 +6,6 @@ attributes:
   number: "146/217"
   rarity: Common
   illustrator: Yuya Oka
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me2pt5-146/large

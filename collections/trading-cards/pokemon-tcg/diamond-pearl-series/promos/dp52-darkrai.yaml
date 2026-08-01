@@ -6,4 +6,6 @@ attributes:
   number: "DP52"
   rarity: Promo
   illustrator: Wataru Kawahara
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dpp/DP52_hires.png

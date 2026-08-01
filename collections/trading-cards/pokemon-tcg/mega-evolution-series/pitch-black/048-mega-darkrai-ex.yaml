@@ -6,4 +6,6 @@ attributes:
   number: "48/84"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me5-48/large

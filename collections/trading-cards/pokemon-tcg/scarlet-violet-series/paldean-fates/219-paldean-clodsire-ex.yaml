@@ -6,4 +6,6 @@ attributes:
   number: "219/91"
   rarity: Shiny Ultra Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4pt5/219_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM75"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM75_hires.png

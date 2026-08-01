@@ -6,4 +6,6 @@ attributes:
   number: "43/101"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex15/43_hires.png

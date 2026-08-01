@@ -6,4 +6,6 @@ attributes:
   number: "102/162"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy8/102_hires.png

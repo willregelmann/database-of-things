@@ -6,4 +6,6 @@ attributes:
   number: "17/95"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/17_hires.png

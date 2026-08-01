@@ -6,4 +6,6 @@ attributes:
   number: "43/123"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp2/43_hires.png

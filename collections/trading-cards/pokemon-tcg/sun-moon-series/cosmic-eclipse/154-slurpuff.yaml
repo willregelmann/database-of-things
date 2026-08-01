@@ -6,4 +6,6 @@ attributes:
   number: "154/236"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm12/154_hires.png

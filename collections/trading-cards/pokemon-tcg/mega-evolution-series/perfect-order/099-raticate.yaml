@@ -6,4 +6,6 @@ attributes:
   number: "99/88"
   rarity: Illustration Rare
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me3-99/large

@@ -6,4 +6,6 @@ attributes:
   number: "74/132"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/gym2/74_hires.png

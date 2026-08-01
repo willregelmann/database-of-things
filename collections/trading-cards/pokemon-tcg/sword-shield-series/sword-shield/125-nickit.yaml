@@ -6,4 +6,6 @@ attributes:
   number: "125/202"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh1/125_hires.png

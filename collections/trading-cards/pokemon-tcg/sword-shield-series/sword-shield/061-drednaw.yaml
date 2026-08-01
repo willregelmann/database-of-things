@@ -6,4 +6,6 @@ attributes:
   number: "61/202"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/61_hires.png

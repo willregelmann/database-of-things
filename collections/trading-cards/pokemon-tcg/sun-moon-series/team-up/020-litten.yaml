@@ -6,4 +6,6 @@ attributes:
   number: "20/181"
   rarity: Common
   illustrator: sui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm9/20_hires.png

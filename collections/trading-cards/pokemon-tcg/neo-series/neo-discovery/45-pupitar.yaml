@@ -6,4 +6,6 @@ attributes:
   number: "45/75"
   rarity: Uncommon
   illustrator: Hironobu Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo2/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "134/196"
   rarity: Rare Holo
   illustrator: Akira Komayama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/134_hires.png

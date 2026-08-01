@@ -6,4 +6,6 @@ attributes:
   number: "250/236"
   rarity: Rare Rainbow
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm12/250_hires.png

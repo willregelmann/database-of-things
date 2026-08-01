@@ -6,4 +6,6 @@ attributes:
   number: "HGSS08"
   rarity: Promo
   illustrator: Noriko Hotta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hsp/HGSS08_hires.png

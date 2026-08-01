@@ -6,4 +6,6 @@ attributes:
   number: "107"
   rarity: Promo
   illustrator: Orca
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/107_hires.png

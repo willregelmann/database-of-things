@@ -6,4 +6,6 @@ attributes:
   number: "5/106"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp4/5_hires.png

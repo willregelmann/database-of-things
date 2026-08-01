@@ -6,4 +6,6 @@ attributes:
   number: "111/110"
   rarity: Rare Secret
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex13/111_hires.png

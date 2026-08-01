@@ -6,4 +6,6 @@ attributes:
   number: "124/162"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy8/124_hires.png

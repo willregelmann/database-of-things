@@ -6,4 +6,6 @@ attributes:
   number: "95/198"
   rarity: Common
   illustrator: Nelnal
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/95_hires.png

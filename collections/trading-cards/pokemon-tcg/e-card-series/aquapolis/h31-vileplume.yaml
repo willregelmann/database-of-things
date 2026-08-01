@@ -6,4 +6,6 @@ attributes:
   number: "H31/H32"
   rarity: Rare Holo
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/H31_hires.png

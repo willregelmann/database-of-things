@@ -6,4 +6,6 @@ attributes:
   number: "183/91"
   rarity: Shiny Rare
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4pt5/183_hires.png

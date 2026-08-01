@@ -6,4 +6,6 @@ attributes:
   number: "4/123"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/4_hires.png

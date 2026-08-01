@@ -6,4 +6,6 @@ attributes:
   number: "61/92"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex12/61_hires.png

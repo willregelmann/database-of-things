@@ -6,4 +6,6 @@ attributes:
   number: "15/132"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp3/15_hires.png

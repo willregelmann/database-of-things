@@ -6,4 +6,6 @@ attributes:
   number: "82/189"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "57/130"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp1/57_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/131"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm6/15_hires.png

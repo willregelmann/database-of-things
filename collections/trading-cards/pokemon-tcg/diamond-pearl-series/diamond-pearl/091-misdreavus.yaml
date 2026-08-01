@@ -6,4 +6,6 @@ attributes:
   number: "91/130"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/91_hires.png

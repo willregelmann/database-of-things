@@ -6,4 +6,6 @@ attributes:
   number: "133/189"
   rarity: Rare Holo V
   illustrator: Uta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/133_hires.png

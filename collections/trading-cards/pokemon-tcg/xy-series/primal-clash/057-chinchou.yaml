@@ -6,4 +6,6 @@ attributes:
   number: "57/160"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy5/57_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "12/100"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex2/12_hires.png

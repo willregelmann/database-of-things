@@ -6,4 +6,6 @@ attributes:
   number: "35/123"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/35_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "93/144"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard3/93_hires.png

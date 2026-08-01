@@ -6,4 +6,6 @@ attributes:
   number: "63/165"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3pt5/63_hires.png

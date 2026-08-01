@@ -6,4 +6,6 @@ attributes:
   number: "33/191"
   rarity: Common
   illustrator: Mékayu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/33_hires.png

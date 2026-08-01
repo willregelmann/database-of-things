@@ -6,4 +6,6 @@ attributes:
   number: "41/116"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw9/41_hires.png

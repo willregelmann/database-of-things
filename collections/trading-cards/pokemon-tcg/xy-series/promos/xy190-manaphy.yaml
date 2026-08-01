@@ -6,4 +6,6 @@ attributes:
   number: "XY190"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY190_hires.png

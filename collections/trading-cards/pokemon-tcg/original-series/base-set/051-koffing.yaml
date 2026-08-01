@@ -6,6 +6,8 @@ attributes:
   number: "51/102"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base1/51_hires.png
 variants:
   - id: c2d98a49-aedc-4e22-abc4-7a706c048e03

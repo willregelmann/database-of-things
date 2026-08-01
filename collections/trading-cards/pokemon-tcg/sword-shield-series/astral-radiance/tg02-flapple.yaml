@@ -6,4 +6,6 @@ attributes:
   number: "TG02/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Misaki Hashimoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10tg/TG02_hires.png

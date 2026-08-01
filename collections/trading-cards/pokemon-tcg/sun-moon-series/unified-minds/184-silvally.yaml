@@ -6,4 +6,6 @@ attributes:
   number: "184/236"
   rarity: Rare Holo
   illustrator: Eske Yoshinob
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/184_hires.png

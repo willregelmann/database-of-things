@@ -6,4 +6,6 @@ attributes:
   number: "23/70"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/23_hires.png

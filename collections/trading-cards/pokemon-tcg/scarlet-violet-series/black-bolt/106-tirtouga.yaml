@@ -6,4 +6,6 @@ attributes:
   number: "106/86"
   rarity: Illustration Rare
   illustrator: Akino Fukuji
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/106_hires.png

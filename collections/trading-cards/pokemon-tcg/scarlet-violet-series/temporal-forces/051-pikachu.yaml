@@ -6,4 +6,6 @@ attributes:
   number: "51/162"
   rarity: Common
   illustrator: kodama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/51_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "114/135"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw8/114_hires.png

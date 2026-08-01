@@ -6,4 +6,6 @@ attributes:
   number: "38/195"
   rarity: Uncommon
   illustrator: Shinya Komatsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12/38_hires.png

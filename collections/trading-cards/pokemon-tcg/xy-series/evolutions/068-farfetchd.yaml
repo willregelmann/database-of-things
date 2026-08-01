@@ -6,4 +6,6 @@ attributes:
   number: "68/108"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy12/68_hires.png

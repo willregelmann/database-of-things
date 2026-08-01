@@ -6,4 +6,6 @@ attributes:
   number: "8/142"
   rarity: Common
   illustrator: Amelicart
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv7/8_hires.png

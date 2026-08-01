@@ -6,4 +6,6 @@ attributes:
   number: "H5/H32"
   rarity: Rare Holo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/H5_hires.png

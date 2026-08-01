@@ -6,4 +6,6 @@ attributes:
   number: "31/73"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh35/31_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/73"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm35/33_hires.png

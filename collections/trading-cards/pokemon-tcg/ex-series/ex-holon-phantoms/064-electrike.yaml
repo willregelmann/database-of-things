@@ -6,4 +6,6 @@ attributes:
   number: "64/110"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex13/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "115/147"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard2/115_hires.png

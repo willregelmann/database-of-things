@@ -6,4 +6,6 @@ attributes:
   number: "10/165"
   rarity: Rare Holo
   illustrator: Masako Yamashita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard1/10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "107/214"
   rarity: Common
   illustrator: Hitoshi Ariga
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/107_hires.png

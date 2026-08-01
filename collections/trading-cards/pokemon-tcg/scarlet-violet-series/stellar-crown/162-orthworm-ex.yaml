@@ -6,4 +6,6 @@ attributes:
   number: "162/142"
   rarity: Ultra Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/162_hires.png

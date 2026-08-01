@@ -6,4 +6,6 @@ attributes:
   number: "44/100"
   rarity: Uncommon
   illustrator: Kent Kanetsuna
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp5/44_hires.png

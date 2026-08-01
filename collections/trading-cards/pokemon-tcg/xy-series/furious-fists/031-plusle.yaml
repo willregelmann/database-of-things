@@ -6,4 +6,6 @@ attributes:
   number: "31/111"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy3/31_hires.png

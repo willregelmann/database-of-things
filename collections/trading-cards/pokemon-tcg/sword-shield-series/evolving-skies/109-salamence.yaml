@@ -6,4 +6,6 @@ attributes:
   number: "109/203"
   rarity: Rare Holo
   illustrator: kodama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/109_hires.png

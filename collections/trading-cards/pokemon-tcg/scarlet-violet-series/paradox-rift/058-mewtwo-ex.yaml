@@ -6,4 +6,6 @@ attributes:
   number: "58/182"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/58_hires.png

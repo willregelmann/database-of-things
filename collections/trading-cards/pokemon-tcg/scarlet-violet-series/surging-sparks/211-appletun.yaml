@@ -6,4 +6,6 @@ attributes:
   number: "211/191"
   rarity: Illustration Rare
   illustrator: MINAMINAMI Take
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/211_hires.png

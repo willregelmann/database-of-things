@@ -6,4 +6,6 @@ attributes:
   number: "26/146"
   rarity: Rare
   illustrator: Kazuaki Aihara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp6/26_hires.png

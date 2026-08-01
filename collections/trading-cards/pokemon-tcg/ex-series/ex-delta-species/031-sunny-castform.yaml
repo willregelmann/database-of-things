@@ -6,4 +6,6 @@ attributes:
   number: "31/113"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex11/31_hires.png

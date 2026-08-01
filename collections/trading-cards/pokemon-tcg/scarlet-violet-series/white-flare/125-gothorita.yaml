@@ -6,4 +6,6 @@ attributes:
   number: "125/86"
   rarity: Illustration Rare
   illustrator: Terada Tera
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/125_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "47/146"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy1/47_hires.png

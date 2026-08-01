@@ -6,4 +6,6 @@ attributes:
   number: "71/108"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw5/71_hires.png

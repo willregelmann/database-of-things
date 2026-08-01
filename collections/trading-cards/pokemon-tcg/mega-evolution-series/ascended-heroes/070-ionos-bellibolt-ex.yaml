@@ -6,4 +6,6 @@ attributes:
   number: "70/217"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-70/large

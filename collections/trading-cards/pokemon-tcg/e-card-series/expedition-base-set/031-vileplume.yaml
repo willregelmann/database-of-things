@@ -6,4 +6,6 @@ attributes:
   number: "31/165"
   rarity: Rare Holo
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard1/31_hires.png

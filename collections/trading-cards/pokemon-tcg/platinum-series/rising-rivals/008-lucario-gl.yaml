@@ -6,4 +6,6 @@ attributes:
   number: "8/111"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl2/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "18/108"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy6/18_hires.png

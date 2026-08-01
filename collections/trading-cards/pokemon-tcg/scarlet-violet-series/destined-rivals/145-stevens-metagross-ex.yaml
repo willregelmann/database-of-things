@@ -6,4 +6,6 @@ attributes:
   number: "145/182"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv10/145_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "77/124"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy10/77_hires.png

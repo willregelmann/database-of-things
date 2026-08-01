@@ -6,4 +6,6 @@ attributes:
   number: "116/236"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/116_hires.png

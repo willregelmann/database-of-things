@@ -6,4 +6,6 @@ attributes:
   number: "23/101"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex15/23_hires.png

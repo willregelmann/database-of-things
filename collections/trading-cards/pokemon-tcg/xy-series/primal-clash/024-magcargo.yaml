@@ -6,4 +6,6 @@ attributes:
   number: "24/160"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy5/24_hires.png

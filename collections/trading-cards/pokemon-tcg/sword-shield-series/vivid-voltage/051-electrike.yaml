@@ -6,4 +6,6 @@ attributes:
   number: "51/185"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/51_hires.png

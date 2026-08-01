@@ -6,4 +6,6 @@ attributes:
   number: "020"
   rarity: Promo
   illustrator: Anesaki Dynamic
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/20_hires.png

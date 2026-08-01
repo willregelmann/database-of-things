@@ -6,4 +6,6 @@ attributes:
   number: "184/196"
   rarity: Rare Ultra
   illustrator: GOSSAN
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh11/184_hires.png

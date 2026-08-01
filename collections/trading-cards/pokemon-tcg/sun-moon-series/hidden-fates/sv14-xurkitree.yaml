@@ -6,4 +6,6 @@ attributes:
   number: "SV14/SV94"
   rarity: Rare Shiny
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sma/SV14_hires.png

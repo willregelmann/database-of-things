@@ -6,4 +6,6 @@ attributes:
   number: "68/182"
   rarity: Common
   illustrator: Amelicart
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/68_hires.png

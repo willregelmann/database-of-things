@@ -6,4 +6,6 @@ attributes:
   number: "11/193"
   rarity: Rare
   illustrator: Ryuta Fuse
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/11_hires.png

@@ -6,4 +6,7 @@ attributes:
   number: "6/95"
   rarity: Rare Holo
   illustrator: Ken Ikuji
+  type:
+    - Water
+    - Darkness
 image: https://images.pokemontcg.io/ex4/6_hires.png

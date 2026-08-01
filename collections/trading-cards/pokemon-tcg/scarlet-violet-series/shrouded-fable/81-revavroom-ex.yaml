@@ -6,4 +6,6 @@ attributes:
   number: "81/64"
   rarity: Ultra Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv6pt5/81_hires.png

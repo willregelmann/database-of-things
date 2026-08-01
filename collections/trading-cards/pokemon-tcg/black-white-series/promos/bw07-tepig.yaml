@@ -6,4 +6,6 @@ attributes:
   number: "BW07"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW07_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG16/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Uta
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5gg/GG16_hires.png

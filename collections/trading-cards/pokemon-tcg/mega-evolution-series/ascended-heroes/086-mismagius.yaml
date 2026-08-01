@@ -6,4 +6,6 @@ attributes:
   number: "86/217"
   rarity: Rare
   illustrator: nisimono
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-86/large

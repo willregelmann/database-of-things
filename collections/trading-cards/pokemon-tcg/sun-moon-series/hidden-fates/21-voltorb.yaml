@@ -6,4 +6,6 @@ attributes:
   number: "21/68"
   rarity: Common
   illustrator: SATOSHI NAKAI
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm115/21_hires.png

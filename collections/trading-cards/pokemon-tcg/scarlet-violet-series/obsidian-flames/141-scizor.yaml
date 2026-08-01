@@ -6,4 +6,6 @@ attributes:
   number: "141/197"
   rarity: Rare
   illustrator: otumami
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/141_hires.png

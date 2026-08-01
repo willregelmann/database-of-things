@@ -6,4 +6,6 @@ attributes:
   number: "9/147"
   rarity: Rare
   illustrator: Hikaru Koike
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard2/9_hires.png

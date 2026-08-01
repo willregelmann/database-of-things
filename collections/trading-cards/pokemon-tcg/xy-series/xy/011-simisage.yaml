@@ -6,4 +6,6 @@ attributes:
   number: "11/146"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy1/11_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "117/86"
   rarity: Illustration Rare
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/117_hires.png

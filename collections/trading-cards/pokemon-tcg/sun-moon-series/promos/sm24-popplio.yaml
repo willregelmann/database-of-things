@@ -6,4 +6,6 @@ attributes:
   number: "SM24"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM24_hires.png

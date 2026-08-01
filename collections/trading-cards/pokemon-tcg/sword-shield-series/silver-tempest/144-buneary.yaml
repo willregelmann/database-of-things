@@ -6,4 +6,6 @@ attributes:
   number: "144/195"
   rarity: Common
   illustrator: saino misaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/144_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "H1/H32"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/H1_hires.png

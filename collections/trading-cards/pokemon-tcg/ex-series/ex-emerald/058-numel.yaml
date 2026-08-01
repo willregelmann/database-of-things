@@ -6,4 +6,6 @@ attributes:
   number: "58/106"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex9/58_hires.png

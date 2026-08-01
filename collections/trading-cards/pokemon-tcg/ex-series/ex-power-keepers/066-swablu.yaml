@@ -6,4 +6,6 @@ attributes:
   number: "66/108"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex16/66_hires.png

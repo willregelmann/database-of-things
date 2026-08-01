@@ -6,4 +6,6 @@ attributes:
   number: "138/132"
   rarity: Illustration Rare
   illustrator: saino misaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me1/138_hires.png

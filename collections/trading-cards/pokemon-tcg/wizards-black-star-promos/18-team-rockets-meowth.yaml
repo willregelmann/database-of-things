@@ -6,4 +6,6 @@ attributes:
   number: "18/53"
   rarity: Promo
   illustrator: Kunihiko Yuyama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/18_hires.png

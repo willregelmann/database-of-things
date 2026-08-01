@@ -6,4 +6,6 @@ attributes:
   number: "59/236"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/59_hires.png

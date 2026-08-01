@@ -6,4 +6,6 @@ attributes:
   number: "81/182"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/81_hires.png

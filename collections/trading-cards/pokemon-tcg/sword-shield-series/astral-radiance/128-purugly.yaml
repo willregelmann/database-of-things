@@ -6,4 +6,6 @@ attributes:
   number: "128/189"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/128_hires.png

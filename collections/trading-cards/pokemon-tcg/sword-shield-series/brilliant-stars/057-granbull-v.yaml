@@ -6,4 +6,6 @@ attributes:
   number: "57/172"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/57_hires.png

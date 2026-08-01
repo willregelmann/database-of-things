@@ -6,4 +6,6 @@ attributes:
   number: "6/195"
   rarity: Uncommon
   illustrator: zig
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12/6_hires.png

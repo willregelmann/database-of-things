@@ -6,4 +6,6 @@ attributes:
   number: "95/123"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp2/95_hires.png

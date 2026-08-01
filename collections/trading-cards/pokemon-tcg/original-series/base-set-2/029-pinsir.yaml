@@ -6,4 +6,6 @@ attributes:
   number: "29/130"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base4/29_hires.png

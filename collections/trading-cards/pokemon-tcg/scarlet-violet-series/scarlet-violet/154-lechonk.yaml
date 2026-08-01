@@ -6,4 +6,6 @@ attributes:
   number: "154/198"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/154_hires.png

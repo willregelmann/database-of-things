@@ -6,4 +6,6 @@ attributes:
   number: "5/99"
   rarity: Rare Holo ex
   illustrator: Shizurow
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw4/5_hires.png

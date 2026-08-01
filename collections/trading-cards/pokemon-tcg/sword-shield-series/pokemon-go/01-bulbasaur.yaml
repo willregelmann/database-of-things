@@ -6,4 +6,6 @@ attributes:
   number: "1/78"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pgo/1_hires.png

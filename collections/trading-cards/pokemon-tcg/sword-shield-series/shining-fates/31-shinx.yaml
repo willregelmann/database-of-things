@@ -6,4 +6,6 @@ attributes:
   number: "31/72"
   rarity: Common
   illustrator: Uta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45/31_hires.png

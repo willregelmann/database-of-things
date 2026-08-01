@@ -6,4 +6,6 @@ attributes:
   number: "108"
   rarity: Promo
   illustrator: REND
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/EspeonexMEPPromo108.jpg

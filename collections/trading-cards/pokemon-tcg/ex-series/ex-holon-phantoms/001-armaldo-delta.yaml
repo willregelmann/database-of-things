@@ -6,4 +6,7 @@ attributes:
   number: "1/110"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
+    - Metal
 image: https://images.pokemontcg.io/ex13/1_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "150/189"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/150_hires.png

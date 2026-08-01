@@ -6,4 +6,6 @@ attributes:
   number: "115/191"
   rarity: Common
   illustrator: takashi shiraishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/115_hires.png

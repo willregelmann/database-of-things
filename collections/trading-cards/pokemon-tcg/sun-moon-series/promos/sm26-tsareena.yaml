@@ -6,4 +6,6 @@ attributes:
   number: "SM26"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM26_hires.png

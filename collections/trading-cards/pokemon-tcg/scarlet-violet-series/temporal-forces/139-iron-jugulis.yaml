@@ -6,4 +6,6 @@ attributes:
   number: "139/162"
   rarity: Uncommon
   illustrator: KEIICHIRO ITO
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/139_hires.png

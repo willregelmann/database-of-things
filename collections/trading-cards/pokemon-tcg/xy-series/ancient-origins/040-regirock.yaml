@@ -6,4 +6,6 @@ attributes:
   number: "40/98"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy7/40_hires.png

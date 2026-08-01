@@ -6,4 +6,6 @@ attributes:
   number: "65/107"
   rarity: Common
   illustrator: Asuka Iwashita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex8/65_hires.png

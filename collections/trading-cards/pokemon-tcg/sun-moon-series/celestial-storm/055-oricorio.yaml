@@ -6,4 +6,6 @@ attributes:
   number: "55/168"
   rarity: Uncommon
   illustrator: Sekio
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm7/55_hires.png

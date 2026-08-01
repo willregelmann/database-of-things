@@ -6,4 +6,6 @@ attributes:
   number: "114/149"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw7/114_hires.png

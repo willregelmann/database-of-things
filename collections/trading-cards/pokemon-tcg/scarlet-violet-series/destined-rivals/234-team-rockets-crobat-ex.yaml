@@ -6,4 +6,6 @@ attributes:
   number: "234/182"
   rarity: Special Illustration Rare
   illustrator: cochi8i
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/234_hires.png

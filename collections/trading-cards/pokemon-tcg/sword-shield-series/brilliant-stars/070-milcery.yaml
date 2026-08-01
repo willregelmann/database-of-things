@@ -6,4 +6,6 @@ attributes:
   number: "70/172"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/70_hires.png

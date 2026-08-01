@@ -6,4 +6,6 @@ attributes:
   number: "SH10"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl4/SH10_hires.png

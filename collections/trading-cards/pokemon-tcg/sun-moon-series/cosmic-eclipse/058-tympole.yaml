@@ -6,4 +6,6 @@ attributes:
   number: "58/236"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/58_hires.png

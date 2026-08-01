@@ -6,4 +6,6 @@ attributes:
   number: "3/86"
   rarity: Double Rare
   illustrator: toriyufu
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me4-3/large

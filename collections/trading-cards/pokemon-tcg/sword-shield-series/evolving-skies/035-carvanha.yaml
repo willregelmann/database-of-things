@@ -6,4 +6,6 @@ attributes:
   number: "35/203"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/35_hires.png

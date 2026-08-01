@@ -6,4 +6,6 @@ attributes:
   number: "111/196"
   rarity: Rare
   illustrator: HYOGONOSUKE
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/111_hires.png

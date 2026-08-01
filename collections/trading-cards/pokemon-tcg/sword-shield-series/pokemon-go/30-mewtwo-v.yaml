@@ -6,4 +6,6 @@ attributes:
   number: "30/78"
   rarity: Rare Holo V
   illustrator: Nurikabe
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pgo/30_hires.png

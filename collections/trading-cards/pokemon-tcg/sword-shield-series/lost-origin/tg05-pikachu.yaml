@@ -6,4 +6,6 @@ attributes:
   number: "TG05/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: Atsushi Furusawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh11tg/TG05_hires.png

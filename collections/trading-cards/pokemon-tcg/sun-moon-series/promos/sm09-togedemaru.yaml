@@ -6,4 +6,6 @@ attributes:
   number: "SM09"
   rarity: Promo
   illustrator: match
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM09_hires.png

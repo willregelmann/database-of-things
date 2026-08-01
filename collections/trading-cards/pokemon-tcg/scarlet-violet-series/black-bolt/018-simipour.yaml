@@ -6,4 +6,6 @@ attributes:
   number: "18/86"
   rarity: Uncommon
   illustrator: Makura Tami
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/18_hires.png

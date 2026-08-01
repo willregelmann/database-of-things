@@ -6,4 +6,6 @@ attributes:
   number: "125/189"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/125_hires.png

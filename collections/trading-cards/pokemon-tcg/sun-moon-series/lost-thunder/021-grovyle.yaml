@@ -6,4 +6,6 @@ attributes:
   number: "21/214"
   rarity: Uncommon
   illustrator: Ayaka Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/21_hires.png

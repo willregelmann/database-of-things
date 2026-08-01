@@ -6,4 +6,6 @@ attributes:
   number: "SWSH264"
   rarity: Promo
   illustrator: N-DESIGN Inc.
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH264_hires.png

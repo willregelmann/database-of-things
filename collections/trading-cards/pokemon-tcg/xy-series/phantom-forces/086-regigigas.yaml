@@ -6,4 +6,6 @@ attributes:
   number: "86/119"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy4/86_hires.png

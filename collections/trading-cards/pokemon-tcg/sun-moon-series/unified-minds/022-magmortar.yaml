@@ -6,4 +6,6 @@ attributes:
   number: "22/236"
   rarity: Rare
   illustrator: KEIICHIRO ITO
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm11/22_hires.png

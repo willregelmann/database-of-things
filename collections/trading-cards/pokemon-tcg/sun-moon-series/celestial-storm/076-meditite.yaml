@@ -6,4 +6,6 @@ attributes:
   number: "76/168"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm7/76_hires.png

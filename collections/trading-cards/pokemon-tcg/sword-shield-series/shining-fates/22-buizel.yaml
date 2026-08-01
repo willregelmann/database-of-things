@@ -6,4 +6,6 @@ attributes:
   number: "22/72"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45/22_hires.png

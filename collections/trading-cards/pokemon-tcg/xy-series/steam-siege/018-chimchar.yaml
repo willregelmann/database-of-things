@@ -6,4 +6,6 @@ attributes:
   number: "18/114"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy11/18_hires.png

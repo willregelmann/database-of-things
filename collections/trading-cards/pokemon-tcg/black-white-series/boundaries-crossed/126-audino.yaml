@@ -6,4 +6,6 @@ attributes:
   number: "126/149"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw7/126_hires.png

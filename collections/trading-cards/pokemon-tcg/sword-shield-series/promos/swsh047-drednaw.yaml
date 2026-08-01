@@ -6,4 +6,6 @@ attributes:
   number: "SWSH047"
   rarity: Promo
   illustrator: Anesaki Dynamic
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH047_hires.png

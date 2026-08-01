@@ -6,4 +6,6 @@ attributes:
   number: "120/217"
   rarity: Rare
   illustrator: Nisota Niso
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-120/large

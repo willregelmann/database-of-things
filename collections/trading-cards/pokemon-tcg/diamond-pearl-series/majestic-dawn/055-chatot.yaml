@@ -6,4 +6,6 @@ attributes:
   number: "55/100"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp5/55_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "32/162"
   rarity: Common
   illustrator: REND
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/32_hires.png

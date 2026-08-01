@@ -6,4 +6,6 @@ attributes:
   number: "74/264"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/74_hires.png

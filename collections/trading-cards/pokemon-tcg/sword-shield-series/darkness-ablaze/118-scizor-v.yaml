@@ -6,4 +6,6 @@ attributes:
   number: "118/189"
   rarity: Rare Holo V
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/118_hires.png

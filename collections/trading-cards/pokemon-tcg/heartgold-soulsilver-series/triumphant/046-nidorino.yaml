@@ -6,4 +6,6 @@ attributes:
   number: "46/102"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/46_hires.png

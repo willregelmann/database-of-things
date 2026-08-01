@@ -6,4 +6,6 @@ attributes:
   number: "SV53/SV94"
   rarity: Rare Shiny GX
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sma/SV53_hires.png

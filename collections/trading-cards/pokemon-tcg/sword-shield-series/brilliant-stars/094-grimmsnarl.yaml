@@ -6,4 +6,6 @@ attributes:
   number: "94/172"
   rarity: Rare
   illustrator: DOM
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/94_hires.png

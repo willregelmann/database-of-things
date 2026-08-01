@@ -6,4 +6,6 @@ attributes:
   number: "9/20"
   rarity: Rare Holo
   illustrator: Hideaki Hakozaki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/9_hires.png

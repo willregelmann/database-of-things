@@ -6,4 +6,6 @@ attributes:
   number: "11/73"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh35/11_hires.png

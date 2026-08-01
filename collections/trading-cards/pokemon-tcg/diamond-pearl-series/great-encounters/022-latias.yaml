@@ -6,4 +6,6 @@ attributes:
   number: "22/106"
   rarity: Rare
   illustrator: Daisuke Ito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp4/22_hires.png

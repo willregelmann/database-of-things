@@ -6,4 +6,6 @@ attributes:
   number: "SM12"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM12_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "109/193"
   rarity: Uncommon
   illustrator: Jerky
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/109_hires.png

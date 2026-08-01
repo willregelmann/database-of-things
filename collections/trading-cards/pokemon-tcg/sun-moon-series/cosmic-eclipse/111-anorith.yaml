@@ -6,4 +6,6 @@ attributes:
   number: "111/236"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/111_hires.png

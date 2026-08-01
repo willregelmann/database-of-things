@@ -6,4 +6,6 @@ attributes:
   number: "25/110"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex13/25_hires.png

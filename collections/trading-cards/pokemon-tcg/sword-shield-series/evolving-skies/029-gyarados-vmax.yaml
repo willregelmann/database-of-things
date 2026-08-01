@@ -6,4 +6,6 @@ attributes:
   number: "29/203"
   rarity: Rare Holo VMAX
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/29_hires.png

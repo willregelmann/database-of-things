@@ -6,4 +6,6 @@ attributes:
   number: "80/181"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm9/80_hires.png

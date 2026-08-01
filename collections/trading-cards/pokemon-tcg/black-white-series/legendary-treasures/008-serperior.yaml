@@ -6,4 +6,6 @@ attributes:
   number: "8/113"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/8_hires.png

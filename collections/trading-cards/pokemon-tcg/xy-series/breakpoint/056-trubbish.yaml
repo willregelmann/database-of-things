@@ -6,4 +6,6 @@ attributes:
   number: "56/122"
   rarity: Common
   illustrator: OOYAMA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy9/56_hires.png

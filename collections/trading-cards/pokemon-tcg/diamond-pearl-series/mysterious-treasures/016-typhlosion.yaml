@@ -6,4 +6,6 @@ attributes:
   number: "16/123"
   rarity: Rare Holo
   illustrator: Kazuyuki Kano
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp2/16_hires.png

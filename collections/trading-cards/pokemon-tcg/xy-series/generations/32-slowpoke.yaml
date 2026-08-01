@@ -6,4 +6,6 @@ attributes:
   number: "32/83"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/32_hires.png

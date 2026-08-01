@@ -6,4 +6,6 @@ attributes:
   number: "61/100"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp5/61_hires.png

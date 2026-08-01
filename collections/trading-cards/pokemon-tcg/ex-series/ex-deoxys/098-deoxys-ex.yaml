@@ -6,4 +6,6 @@ attributes:
   number: "98/107"
   rarity: Rare Holo ex
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex8/98_hires.png

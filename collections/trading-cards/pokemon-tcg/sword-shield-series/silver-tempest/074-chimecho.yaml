@@ -6,4 +6,6 @@ attributes:
   number: "74/195"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/74_hires.png

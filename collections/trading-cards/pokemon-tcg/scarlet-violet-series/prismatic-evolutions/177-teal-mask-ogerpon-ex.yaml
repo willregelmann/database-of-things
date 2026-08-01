@@ -6,4 +6,6 @@ attributes:
   number: "177/131"
   rarity: Hyper Rare
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8pt5/177_hires.png

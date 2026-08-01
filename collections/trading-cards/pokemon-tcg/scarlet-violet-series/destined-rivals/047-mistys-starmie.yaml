@@ -6,4 +6,6 @@ attributes:
   number: "47/182"
   rarity: Uncommon
   illustrator: Natsumi Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/47_hires.png

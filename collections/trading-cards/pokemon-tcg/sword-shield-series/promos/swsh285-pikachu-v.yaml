@@ -6,4 +6,6 @@ attributes:
   number: "SWSH285"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH285_hires.png

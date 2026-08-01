@@ -6,4 +6,6 @@ attributes:
   number: "079"
   rarity: Promo
   illustrator: OKACHEKE
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/79_hires.png

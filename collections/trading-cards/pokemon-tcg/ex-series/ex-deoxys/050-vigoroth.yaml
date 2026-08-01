@@ -6,4 +6,6 @@ attributes:
   number: "50/107"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/50_hires.png

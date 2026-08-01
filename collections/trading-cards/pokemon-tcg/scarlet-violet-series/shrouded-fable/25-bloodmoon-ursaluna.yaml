@@ -6,4 +6,6 @@ attributes:
   number: "25/64"
   rarity: Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6pt5/25_hires.png

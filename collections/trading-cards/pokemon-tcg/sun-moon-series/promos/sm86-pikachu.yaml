@@ -6,4 +6,6 @@ attributes:
   number: "SM86"
   rarity: Promo
   illustrator: kodama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM86_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "80/189"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/80_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "73/146"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy1/73_hires.png

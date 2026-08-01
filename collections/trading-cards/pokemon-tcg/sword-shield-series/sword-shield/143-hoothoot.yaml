@@ -6,4 +6,6 @@ attributes:
   number: "143/202"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/143_hires.png

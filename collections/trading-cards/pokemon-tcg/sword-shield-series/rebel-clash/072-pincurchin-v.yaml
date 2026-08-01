@@ -6,4 +6,6 @@ attributes:
   number: "72/192"
   rarity: Rare Holo V
   illustrator: PLANETA Igarashi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/72_hires.png

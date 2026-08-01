@@ -6,4 +6,6 @@ attributes:
   number: "37/189"
   rarity: Rare Holo
   illustrator: so-taro
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh3/37_hires.png

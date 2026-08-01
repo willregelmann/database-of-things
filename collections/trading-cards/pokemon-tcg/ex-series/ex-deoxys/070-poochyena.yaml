@@ -6,4 +6,6 @@ attributes:
   number: "70/107"
   rarity: Common
   illustrator: Aimi Tomita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex8/70_hires.png

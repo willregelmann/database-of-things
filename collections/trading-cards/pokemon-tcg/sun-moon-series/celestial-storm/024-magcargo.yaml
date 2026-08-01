@@ -6,4 +6,6 @@ attributes:
   number: "24/168"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm7/24_hires.png

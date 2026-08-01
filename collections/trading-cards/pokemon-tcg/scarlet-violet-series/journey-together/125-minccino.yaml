@@ -6,4 +6,6 @@ attributes:
   number: "125/159"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/125_hires.png

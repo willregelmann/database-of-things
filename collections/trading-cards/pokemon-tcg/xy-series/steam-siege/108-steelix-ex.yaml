@@ -6,4 +6,6 @@ attributes:
   number: "108/114"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy11/108_hires.png

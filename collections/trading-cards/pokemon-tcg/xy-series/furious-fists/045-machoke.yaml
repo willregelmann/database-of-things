@@ -6,4 +6,6 @@ attributes:
   number: "45/111"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy3/45_hires.png

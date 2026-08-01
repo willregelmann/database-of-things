@@ -6,4 +6,6 @@ attributes:
   number: "GG51/GG70"
   rarity: Rare Holo V
   illustrator: kodama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5gg/GG51_hires.png

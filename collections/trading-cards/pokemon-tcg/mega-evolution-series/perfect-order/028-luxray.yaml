@@ -6,4 +6,6 @@ attributes:
   number: "28/88"
   rarity: Rare
   illustrator: Taiga Kasai
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me3-28/large

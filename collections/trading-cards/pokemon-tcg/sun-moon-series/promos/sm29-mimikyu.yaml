@@ -6,4 +6,6 @@ attributes:
   number: "SM29"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM29_hires.png

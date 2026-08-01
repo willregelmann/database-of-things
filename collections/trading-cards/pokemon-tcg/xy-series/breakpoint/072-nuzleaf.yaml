@@ -6,4 +6,6 @@ attributes:
   number: "72/122"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy9/72_hires.png

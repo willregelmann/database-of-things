@@ -6,4 +6,6 @@ attributes:
   number: "SL6"
   rarity: Rare Holo
   illustrator: Yuri Umemura
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/SL6_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "37/68"
   rarity: Common
   illustrator: Hasuno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm115/37_hires.png

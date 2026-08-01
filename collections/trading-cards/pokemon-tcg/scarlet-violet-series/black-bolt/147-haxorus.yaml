@@ -6,4 +6,6 @@ attributes:
   number: "147/86"
   rarity: Illustration Rare
   illustrator: akagi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/zsv10pt5/147_hires.png

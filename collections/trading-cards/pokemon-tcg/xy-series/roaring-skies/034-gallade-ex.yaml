@@ -6,4 +6,6 @@ attributes:
   number: "34/108"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy6/34_hires.png

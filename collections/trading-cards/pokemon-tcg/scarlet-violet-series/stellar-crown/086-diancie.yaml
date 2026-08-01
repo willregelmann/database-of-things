@@ -6,4 +6,6 @@ attributes:
   number: "86/142"
   rarity: Uncommon
   illustrator: Jiro Sasumo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/86_hires.png

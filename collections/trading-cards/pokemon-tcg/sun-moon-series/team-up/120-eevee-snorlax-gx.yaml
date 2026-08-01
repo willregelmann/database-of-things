@@ -6,4 +6,6 @@ attributes:
   number: "120/181"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm9/120_hires.png

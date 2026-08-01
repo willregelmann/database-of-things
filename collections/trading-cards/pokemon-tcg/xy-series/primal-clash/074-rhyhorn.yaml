@@ -6,4 +6,6 @@ attributes:
   number: "74/160"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy5/74_hires.png

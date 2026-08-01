@@ -6,4 +6,6 @@ attributes:
   number: "129/127"
   rarity: Rare Secret
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl1/129_hires.png

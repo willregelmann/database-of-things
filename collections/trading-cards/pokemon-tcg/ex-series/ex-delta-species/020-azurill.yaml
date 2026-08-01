@@ -6,4 +6,6 @@ attributes:
   number: "20/113"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex11/20_hires.png

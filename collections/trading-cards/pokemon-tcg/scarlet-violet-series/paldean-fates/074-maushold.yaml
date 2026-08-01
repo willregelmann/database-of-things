@@ -6,4 +6,6 @@ attributes:
   number: "74/91"
   rarity: Uncommon
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/74_hires.png

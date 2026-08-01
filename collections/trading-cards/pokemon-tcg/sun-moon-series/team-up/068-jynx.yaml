@@ -6,4 +6,6 @@ attributes:
   number: "68/181"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/68_hires.png

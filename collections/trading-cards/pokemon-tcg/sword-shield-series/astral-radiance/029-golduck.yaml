@@ -6,4 +6,6 @@ attributes:
   number: "29/189"
   rarity: Uncommon
   illustrator: otumami
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/29_hires.png

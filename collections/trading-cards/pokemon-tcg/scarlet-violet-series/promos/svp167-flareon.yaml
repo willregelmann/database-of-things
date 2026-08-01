@@ -6,4 +6,6 @@ attributes:
   number: "167"
   rarity: Promo
   illustrator: SIE NANAHARA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/167_hires.png

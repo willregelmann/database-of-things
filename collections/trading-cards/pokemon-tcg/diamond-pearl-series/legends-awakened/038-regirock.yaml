@@ -6,4 +6,6 @@ attributes:
   number: "38/146"
   rarity: Rare
   illustrator: Kazuaki Aihara
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp6/38_hires.png

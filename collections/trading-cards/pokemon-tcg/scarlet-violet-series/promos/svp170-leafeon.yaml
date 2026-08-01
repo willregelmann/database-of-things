@@ -6,4 +6,6 @@ attributes:
   number: "170"
   rarity: Promo
   illustrator: Iori Suzuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/170_hires.png

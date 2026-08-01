@@ -6,4 +6,6 @@ attributes:
   number: "187/159"
   rarity: Special Illustration Rare
   illustrator: Tsuyoshi Nagano
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/187_hires.png

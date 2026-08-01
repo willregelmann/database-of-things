@@ -6,4 +6,6 @@ attributes:
   number: "52/142"
   rarity: Common
   illustrator: Makura Tami
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv7/52_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "116/198"
   rarity: Common
   illustrator: kantaro
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/116_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/159"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12pt5/15_hires.png

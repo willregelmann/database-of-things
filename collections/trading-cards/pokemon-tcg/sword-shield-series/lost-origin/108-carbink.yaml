@@ -6,4 +6,6 @@ attributes:
   number: "108/196"
   rarity: Uncommon
   illustrator: Tika Matsuno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/108_hires.png

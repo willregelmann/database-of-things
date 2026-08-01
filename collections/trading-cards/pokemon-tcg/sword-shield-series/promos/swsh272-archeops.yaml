@@ -6,4 +6,6 @@ attributes:
   number: "SWSH272"
   rarity: Promo
   illustrator: Nisota Niso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH272_hires.png

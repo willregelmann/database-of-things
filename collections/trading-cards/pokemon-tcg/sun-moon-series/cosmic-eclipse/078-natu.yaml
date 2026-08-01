@@ -6,4 +6,6 @@ attributes:
   number: "78/236"
   rarity: Common
   illustrator: tetsuya koizumi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/78_hires.png

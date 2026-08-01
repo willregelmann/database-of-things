@@ -6,4 +6,6 @@ attributes:
   number: "20/165"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard1/20_hires.png

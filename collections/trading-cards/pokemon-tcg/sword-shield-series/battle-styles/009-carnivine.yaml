@@ -6,4 +6,6 @@ attributes:
   number: "9/163"
   rarity: Uncommon
   illustrator: AKIRA EGAWA
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh5/9_hires.png

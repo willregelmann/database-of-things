@@ -6,4 +6,6 @@ attributes:
   number: "35/132"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/gym2/35_hires.png

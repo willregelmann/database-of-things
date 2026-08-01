@@ -6,4 +6,6 @@ attributes:
   number: "DP15"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dpp/DP15_hires.png

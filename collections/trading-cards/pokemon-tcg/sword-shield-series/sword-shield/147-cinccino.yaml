@@ -6,4 +6,6 @@ attributes:
   number: "147/202"
   rarity: Rare
   illustrator: sui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/147_hires.png

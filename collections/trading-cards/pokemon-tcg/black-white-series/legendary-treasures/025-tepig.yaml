@@ -6,4 +6,6 @@ attributes:
   number: "25/113"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw11/25_hires.png

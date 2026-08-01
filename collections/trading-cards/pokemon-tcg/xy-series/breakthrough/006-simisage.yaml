@@ -6,4 +6,6 @@ attributes:
   number: "6/162"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy8/6_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "150/236"
   rarity: Uncommon
   illustrator: sowsow
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/150_hires.png

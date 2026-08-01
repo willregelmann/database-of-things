@@ -6,4 +6,6 @@ attributes:
   number: "92/189"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/92_hires.png

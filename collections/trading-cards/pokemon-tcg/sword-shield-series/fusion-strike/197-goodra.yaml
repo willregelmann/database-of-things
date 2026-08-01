@@ -6,4 +6,6 @@ attributes:
   number: "197/264"
   rarity: Rare
   illustrator: Nagomi Nijo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh8/197_hires.png

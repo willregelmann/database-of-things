@@ -6,4 +6,6 @@ attributes:
   number: "RT5"
   rarity: Rare Holo
   illustrator: Hiroki Fuchino
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/RT5_hires.png

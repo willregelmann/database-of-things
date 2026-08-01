@@ -6,4 +6,6 @@ attributes:
   number: "3/182"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/3_hires.png

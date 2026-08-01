@@ -6,4 +6,6 @@ attributes:
   number: "SV044/SV122"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45sv/SV044_hires.png

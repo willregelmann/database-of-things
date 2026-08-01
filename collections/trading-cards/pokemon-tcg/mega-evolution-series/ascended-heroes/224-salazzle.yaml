@@ -6,4 +6,6 @@ attributes:
   number: "224/217"
   rarity: Illustration Rare
   illustrator: Dsuke
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me2pt5-224/large

@@ -6,4 +6,6 @@ attributes:
   number: "59/98"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy7/59_hires.png

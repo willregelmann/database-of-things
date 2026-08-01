@@ -6,4 +6,6 @@ attributes:
   number: "88/123"
   rarity: Common
   illustrator: match
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/88_hires.png

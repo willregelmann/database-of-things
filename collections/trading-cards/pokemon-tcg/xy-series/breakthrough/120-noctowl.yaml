@@ -6,4 +6,6 @@ attributes:
   number: "120/162"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy8/120_hires.png

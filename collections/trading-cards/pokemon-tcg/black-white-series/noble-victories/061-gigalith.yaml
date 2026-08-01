@@ -6,4 +6,6 @@ attributes:
   number: "61/101"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw3/61_hires.png

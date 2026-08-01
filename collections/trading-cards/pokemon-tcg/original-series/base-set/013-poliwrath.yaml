@@ -6,6 +6,8 @@ attributes:
   number: "13/102"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/base1/13_hires.png
 variants:
   - id: daa4808d-c3ee-40bf-bfef-16f52892ffc7

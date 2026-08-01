@@ -6,4 +6,6 @@ attributes:
   number: "22/64"
   rarity: Uncommon
   illustrator: Kuroimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6pt5/22_hires.png

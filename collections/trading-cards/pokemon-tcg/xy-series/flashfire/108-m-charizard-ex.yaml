@@ -6,4 +6,6 @@ attributes:
   number: "108/106"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy2/108_hires.png

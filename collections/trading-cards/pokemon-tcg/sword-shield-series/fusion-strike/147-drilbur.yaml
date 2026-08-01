@@ -6,4 +6,6 @@ attributes:
   number: "147/264"
   rarity: Common
   illustrator: tetsuya koizumi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/147_hires.png

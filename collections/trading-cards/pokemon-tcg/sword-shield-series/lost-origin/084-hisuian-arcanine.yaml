@@ -6,4 +6,6 @@ attributes:
   number: "84/196"
   rarity: Rare Holo
   illustrator: Oswaldo KATO
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/84_hires.png

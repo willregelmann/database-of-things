@@ -6,4 +6,6 @@ attributes:
   number: "61/91"
   rarity: Uncommon
   illustrator: Mousho
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4pt5/61_hires.png

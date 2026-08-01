@@ -6,4 +6,6 @@ attributes:
   number: "67/165"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3pt5/67_hires.png

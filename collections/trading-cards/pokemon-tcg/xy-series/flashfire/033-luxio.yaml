@@ -6,4 +6,6 @@ attributes:
   number: "33/106"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy2/33_hires.png

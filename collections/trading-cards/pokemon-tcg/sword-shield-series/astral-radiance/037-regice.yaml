@@ -6,4 +6,6 @@ attributes:
   number: "37/189"
   rarity: Rare
   illustrator: aoki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/37_hires.png

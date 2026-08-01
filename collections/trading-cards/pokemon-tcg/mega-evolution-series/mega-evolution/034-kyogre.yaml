@@ -6,4 +6,6 @@ attributes:
   number: "34/132"
   rarity: Rare
   illustrator: Nisota Niso
+  type:
+    - Water
 image: https://images.pokemontcg.io/me1/34_hires.png

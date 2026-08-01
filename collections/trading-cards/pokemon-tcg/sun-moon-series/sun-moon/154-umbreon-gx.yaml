@@ -6,4 +6,6 @@ attributes:
   number: "154/149"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm1/154_hires.png

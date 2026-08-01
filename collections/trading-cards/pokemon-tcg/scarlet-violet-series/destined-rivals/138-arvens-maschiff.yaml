@@ -6,4 +6,6 @@ attributes:
   number: "138/182"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/138_hires.png

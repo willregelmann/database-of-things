@@ -6,4 +6,6 @@ attributes:
   number: "41/97"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/41_hires.png

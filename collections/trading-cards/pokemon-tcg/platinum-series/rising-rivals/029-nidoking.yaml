@@ -6,4 +6,6 @@ attributes:
   number: "29/111"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl2/29_hires.png

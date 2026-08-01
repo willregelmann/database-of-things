@@ -6,4 +6,6 @@ attributes:
   number: "73/91"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/73_hires.png

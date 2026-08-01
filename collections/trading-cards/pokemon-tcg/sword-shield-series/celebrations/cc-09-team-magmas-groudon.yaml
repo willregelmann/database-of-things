@@ -6,4 +6,6 @@ attributes:
   number: "9/95"
   rarity: Rare Classic
   illustrator: Kazuo Yazawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/cel25c/9_A_hires.png

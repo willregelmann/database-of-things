@@ -6,4 +6,6 @@ attributes:
   number: "79/101"
   rarity: Common
   illustrator: Shin-ichi Yoshikawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex5/79_hires.png

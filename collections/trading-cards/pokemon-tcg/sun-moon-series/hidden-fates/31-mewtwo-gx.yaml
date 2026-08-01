@@ -6,4 +6,6 @@ attributes:
   number: "31/68"
   rarity: Rare Holo GX
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm115/31_hires.png

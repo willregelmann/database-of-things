@@ -6,4 +6,6 @@ attributes:
   number: "113/182"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/113_hires.png

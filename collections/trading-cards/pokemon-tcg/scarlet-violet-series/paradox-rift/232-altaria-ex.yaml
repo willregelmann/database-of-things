@@ -6,4 +6,6 @@ attributes:
   number: "232/182"
   rarity: Ultra Rare
   illustrator: Saki Hayashiro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4/232_hires.png

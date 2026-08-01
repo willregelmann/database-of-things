@@ -6,6 +6,8 @@ attributes:
   number: "73/110"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base6/73_hires.png
 variants:
   - id: 962187d3-b4fa-4bcf-a2f0-7c1ba315541a

@@ -6,4 +6,6 @@ attributes:
   number: "105/198"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/105_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "25/159"
   rarity: Common
   illustrator: kodama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv9/25_hires.png

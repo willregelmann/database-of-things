@@ -6,4 +6,6 @@ attributes:
   number: "XY115"
   rarity: Promo
   illustrator: You Iribi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY115_hires.png

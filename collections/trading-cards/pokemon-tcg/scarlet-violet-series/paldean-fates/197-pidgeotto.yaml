@@ -6,4 +6,6 @@ attributes:
   number: "197/91"
   rarity: Shiny Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/197_hires.png

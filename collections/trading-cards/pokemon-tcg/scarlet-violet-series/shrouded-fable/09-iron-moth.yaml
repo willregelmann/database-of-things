@@ -6,4 +6,6 @@ attributes:
   number: "9/64"
   rarity: Uncommon
   illustrator: Shinji Kanda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6pt5/9_hires.png

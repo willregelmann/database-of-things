@@ -608,6 +608,121 @@ checklist — like other promo lines in this category, cards stay at
 year-only `date` precision until each gets its own individually-sourced
 date.
 
+## Pokémon type
+
+`attributes.type` (the Pokémon's energy type — `Fire`, `Water`, etc.) only
+applies to Pokémon-supertype cards; Trainer, Supporter, Item, Stadium, and
+Energy cards never get one, and that's correct, not a gap. Source it from
+the same live Pokémon TCG API already used for `number`/`rarity`/`date` —
+its `types` field maps directly onto this schema's 11-value enum with no
+translation needed (unlike `rarity`'s messy era-specific casing/wording
+history), and it's a `supertype: "Pokémon"` check away from correctly
+skipping every non-Pokémon card.
+
+**Backfilled catalog-wide: 17,004 of 20,121 cards carry it — every
+Pokémon-supertype card in the catalog.** The remaining 3,117 are all
+genuinely non-Pokémon (Trainers, Energies). Sourced via a bulk
+per-directory fetch (`/v2/cards?q=set.id:<id>&pageSize=250`, paginated
+past 250), not a per-card lookup — cheaper than the illustrator backfill
+by roughly two orders of magnitude in request count. Zero cards found
+with more than one value in `types`, despite the schema modeling it as an
+array. The two subsets the bulk API method couldn't reach (Mega
+Evolution-era promos, Celebrations' Classic Collection — 111 + 25 cards)
+were closed out separately by reading each card's own `image` directly —
+see below.
+
+**Format**: a block sequence, indented 2 spaces deeper than the `type:`
+key itself (matching this repo's convention for any other array-valued
+attribute, e.g. `attributes.zordComponents` elsewhere in the catalog) —
+`yaml.safe_dump` does NOT produce this indentation by default, it aligns
+list items with their parent key, so don't trust a naive dump without
+checking the output:
+
+```yaml
+attributes:
+  number: "4/102"
+  rarity: Rare Holo
+  illustrator: Mitsuhiro Arita
+  type:
+    - Fire
+```
+
+**Historical "Dragon" Pokémon are typed by their base element, not
+`Dragon`, and the API is right about it — confirmed against the physical
+card, not just trusted blindly.** Dragon wasn't an energy type with its
+own icon until Scarlet & Violet Series' Dragon Vault-style usage; Neo
+Revelation-era "Dragon" Pokémon (e.g. Kingdra, `19/64`) print a single
+ordinary type icon on the physical card (Kingdra's is Water), matching the
+API's `types: ["Water"]` exactly — verified by fetching the card's own
+`image` and inspecting the printed icon directly, not assumed. Don't
+second-guess the API on this without similarly checking a physical card
+first.
+
+**A set's own directory can fold in a sub-checklist that lives under a
+SEPARATE API set id — fetching only the main checklist's id silently
+misses it entirely, with no error to signal the gap.** Trainer Gallery
+(Brilliant Stars `swsh9tg`, Astral Radiance `swsh10tg`, Lost Origin
+`swsh11tg`, Silver Tempest `swsh12tg`), Galarian Gallery (Crown Zenith
+`swsh12pt5gg`), and the Shiny Vault subsets (Shining Fates `swsh45sv`,
+Hidden Fates `sma` — this one doesn't even follow the `<parent>sv` naming
+pattern the others do, don't guess it) each need their own `set.id:`
+query merged into the same directory's card pool before matching by
+number. Discover an unmapped sub-checklist's id the same way this file
+already documents for mapping a directory to its main set id: from one of
+its own card's `image` URL.
+
+**The live API can return two different cards with the same `number`
+value within one set — a genuine upstream data bug, not a sourcing
+mistake on this repo's part.** Confirmed on Black Bolt (`zsv10pt5`):
+`zsv10pt5-80` ("Antique Cover Fossil", a Trainer card, correctly filed
+here as `80/86`) comes back from the API with `number: "60"` instead of
+`"80"`, colliding with the real `zsv10pt5-60` ("Escavalier", a Pokémon).
+A naive last-write-wins number→card lookup can silently drop the real
+Pokémon's data (if the non-Pokémon entry overwrites it) with no error
+raised. When two API cards collide on the same number: if exactly one is
+`supertype: "Pokémon"`, keep that one — the other one(s) didn't need
+`type` written anyway, so nothing is lost. If two or more colliding
+entries are BOTH Pokémon, there is no safe automatic resolution — exclude
+that number from the lookup and leave it for manual sourcing rather than
+guessing which one owns the data. (This backfill hit exactly one such
+collision across the entire catalog, resolved via the single-Pokémon
+rule; zero cases needed manual exclusion.)
+
+**Celebrations' Classic Collection (`cc-*.yaml` files) must be
+hard-excluded from any number-based lookup — this isn't a numbering
+format quirk like the ones above, it's numbers borrowed wholesale from
+OTHER, unrelated expansions** (see the Numbering section's note on this
+subset). `cc-04-charizard.yaml`'s `4/102` is Base Set's own numbering,
+reused as homage — not card 4 of Celebrations' own 25-card checklist. A
+first attempt at this backfill matched these files by numerator against
+Celebrations' own API data (`cel25`) anyway and wrote real, wrong data:
+Charizard came back typed `Water`, Blastoise came back `Fire`, and four
+unrelated cards (Claydol, a Trainer card, Rocket's Zapdos, Venusaur — all
+coincidentally sitting at position `15` in their own original sets) all
+received the identical `Psychic` value from one bad match. Caught by a
+numerator-collision audit run across the *entire* catalog after the fact
+(the only collisions found anywhere were these 25 files), reverted to a
+byte-identical pre-touch state. **Resolved properly afterward by reading
+each of the 22 Pokémon cards' own `image` directly, one at a time** — no
+bulk shortcut exists for this subset since each card's number doesn't
+belong to any one fetchable set. Caught a real trap doing it this way:
+`cc-93-gardevoir-ex` ("Gardevoir ex δ", a Delta Species card) is typed
+`Fire` on the actual printed card, not `Psychic` as Gardevoir's normal
+game typing would suggest — Delta Species cards deliberately carry
+off-type energy as their whole gimmick, so don't infer a Classic
+Collection card's type from the Pokémon's usual typing, always read the
+specific printing.
+
+**The Mega Evolution-era promo line (`mega-evolution-series/promos/`) has
+no `api.pokemontcg.io` set id at all**, same reason its other fields are
+Bulbapedia-sourced (see the Numbering section). Of its 111 cards, 78 were
+covered by pkmncards.com (which indexes this line under
+`mega-evolution-promos` despite the missing official API id — same
+`class="color" title="Color"` markup pattern used for illustrator
+credits, just a different field). The remaining 32 (plus the one
+unnumbered jumbo promo) were resolved by reading each card's own `image`
+directly.
+
 ## Variants
 
 A card's distinct physical print treatments (1st Edition, Shadowless,

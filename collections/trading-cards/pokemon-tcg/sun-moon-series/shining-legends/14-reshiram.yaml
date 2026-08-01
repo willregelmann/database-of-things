@@ -6,4 +6,6 @@ attributes:
   number: "14/73"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm35/14_hires.png

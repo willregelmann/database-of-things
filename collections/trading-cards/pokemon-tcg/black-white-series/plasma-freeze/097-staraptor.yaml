@@ -6,4 +6,6 @@ attributes:
   number: "97/116"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw9/97_hires.png

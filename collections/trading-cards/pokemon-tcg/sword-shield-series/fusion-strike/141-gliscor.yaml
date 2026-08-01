@@ -6,4 +6,6 @@ attributes:
   number: "141/264"
   rarity: Uncommon
   illustrator: SATOSHI NAKAI
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/141_hires.png

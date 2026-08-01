@@ -6,4 +6,6 @@ attributes:
   number: "SM187"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM187_hires.png

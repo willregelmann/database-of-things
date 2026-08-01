@@ -6,4 +6,6 @@ attributes:
   number: "53/98"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy7/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "47/83"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/g1/47_hires.png

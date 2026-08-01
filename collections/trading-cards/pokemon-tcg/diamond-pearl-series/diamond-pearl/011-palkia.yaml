@@ -6,4 +6,6 @@ attributes:
   number: "11/130"
   rarity: Rare Holo
   illustrator: Nakaoka
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp1/11_hires.png

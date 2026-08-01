@@ -6,4 +6,6 @@ attributes:
   number: "SWSH230"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH230_hires.png

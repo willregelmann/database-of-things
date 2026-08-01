@@ -6,4 +6,6 @@ attributes:
   number: "7/86"
   rarity: Uncommon
   illustrator: Narano
+  type:
+    - Grass
 image: https://images.pokemontcg.io/rsv10pt5/7_hires.png

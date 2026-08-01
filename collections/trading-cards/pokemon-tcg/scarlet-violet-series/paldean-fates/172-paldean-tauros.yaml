@@ -6,4 +6,6 @@ attributes:
   number: "172/91"
   rarity: Shiny Rare
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4pt5/172_hires.png

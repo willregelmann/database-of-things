@@ -6,4 +6,6 @@ attributes:
   number: "3/123"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/3_hires.png

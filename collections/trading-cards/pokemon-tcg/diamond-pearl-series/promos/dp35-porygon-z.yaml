@@ -6,4 +6,6 @@ attributes:
   number: "DP35"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dpp/DP35_hires.png

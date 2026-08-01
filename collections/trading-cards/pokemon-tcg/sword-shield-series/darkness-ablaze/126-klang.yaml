@@ -6,4 +6,6 @@ attributes:
   number: "126/189"
   rarity: Uncommon
   illustrator: NC Empire
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/126_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "69/202"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/69_hires.png

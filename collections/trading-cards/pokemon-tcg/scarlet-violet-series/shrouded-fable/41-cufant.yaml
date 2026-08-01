@@ -6,4 +6,6 @@ attributes:
   number: "41/64"
   rarity: Common
   illustrator: Shinya Mizuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6pt5/41_hires.png

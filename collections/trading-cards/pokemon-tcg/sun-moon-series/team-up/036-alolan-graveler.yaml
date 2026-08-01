@@ -6,4 +6,6 @@ attributes:
   number: "36/181"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm9/36_hires.png

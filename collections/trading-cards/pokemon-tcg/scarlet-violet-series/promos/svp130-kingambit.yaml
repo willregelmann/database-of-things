@@ -6,4 +6,6 @@ attributes:
   number: "130"
   rarity: Promo
   illustrator: Oku
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/130_hires.png

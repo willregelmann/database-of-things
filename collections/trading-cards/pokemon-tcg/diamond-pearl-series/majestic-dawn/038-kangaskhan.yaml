@@ -6,4 +6,6 @@ attributes:
   number: "38/100"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp5/38_hires.png

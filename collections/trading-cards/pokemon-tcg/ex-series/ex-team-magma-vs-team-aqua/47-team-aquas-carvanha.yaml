@@ -6,4 +6,6 @@ attributes:
   number: "47/95"
   rarity: Common
   illustrator: Yosuke Da Silva
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/47_hires.png

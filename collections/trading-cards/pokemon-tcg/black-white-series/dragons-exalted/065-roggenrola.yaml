@@ -6,4 +6,6 @@ attributes:
   number: "65/124"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw6/65_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "67/92"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/67_hires.png

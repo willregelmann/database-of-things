@@ -6,4 +6,6 @@ attributes:
   number: "81/165"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard1/81_hires.png

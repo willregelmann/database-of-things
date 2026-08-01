@@ -6,4 +6,6 @@ attributes:
   number: "111/160"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy5/111_hires.png

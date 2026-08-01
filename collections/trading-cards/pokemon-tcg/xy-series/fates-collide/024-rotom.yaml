@@ -6,4 +6,6 @@ attributes:
   number: "24/124"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy10/24_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "RC6/RC25"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw11/RC6_hires.png

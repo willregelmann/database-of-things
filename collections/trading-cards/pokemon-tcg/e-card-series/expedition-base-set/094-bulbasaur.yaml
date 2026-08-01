@@ -6,4 +6,6 @@ attributes:
   number: "94/165"
   rarity: Common
   illustrator: Sachi Matoba
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard1/94_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG45/GG70"
   rarity: Rare Holo VMAX
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG45_hires.png

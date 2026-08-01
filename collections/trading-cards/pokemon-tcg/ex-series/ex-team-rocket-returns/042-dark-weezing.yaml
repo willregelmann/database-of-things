@@ -6,4 +6,7 @@ attributes:
   number: "42/109"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
+    - Darkness
 image: https://images.pokemontcg.io/ex7/42_hires.png

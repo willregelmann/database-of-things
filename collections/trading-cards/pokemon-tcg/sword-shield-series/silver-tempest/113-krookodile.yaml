@@ -6,4 +6,6 @@ attributes:
   number: "113/195"
   rarity: Rare Holo
   illustrator: Shiburingaru
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12/113_hires.png

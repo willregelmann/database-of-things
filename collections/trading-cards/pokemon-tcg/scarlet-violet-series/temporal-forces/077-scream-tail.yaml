@@ -6,4 +6,6 @@ attributes:
   number: "77/162"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/77_hires.png

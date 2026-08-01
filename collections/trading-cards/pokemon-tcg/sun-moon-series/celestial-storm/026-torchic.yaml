@@ -6,4 +6,6 @@ attributes:
   number: "26/168"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm7/26_hires.png

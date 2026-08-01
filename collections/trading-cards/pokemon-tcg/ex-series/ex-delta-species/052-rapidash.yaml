@@ -6,4 +6,6 @@ attributes:
   number: "52/113"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex11/52_hires.png

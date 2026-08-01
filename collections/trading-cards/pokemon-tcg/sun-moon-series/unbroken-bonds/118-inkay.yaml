@@ -6,4 +6,6 @@ attributes:
   number: "118/214"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm10/118_hires.png

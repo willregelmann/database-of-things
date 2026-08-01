@@ -6,4 +6,6 @@ attributes:
   number: "39/111"
   rarity: Uncommon
   illustrator: Yusuke Ishikawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/39_hires.png

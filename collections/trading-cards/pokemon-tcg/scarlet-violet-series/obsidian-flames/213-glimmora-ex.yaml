@@ -6,4 +6,6 @@ attributes:
   number: "213/197"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3/213_hires.png

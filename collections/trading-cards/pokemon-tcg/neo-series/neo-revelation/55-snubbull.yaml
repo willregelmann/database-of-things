@@ -6,4 +6,6 @@ attributes:
   number: "55/64"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo3/55_hires.png

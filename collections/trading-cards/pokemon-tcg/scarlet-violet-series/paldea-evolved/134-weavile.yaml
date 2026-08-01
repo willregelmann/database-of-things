@@ -6,4 +6,6 @@ attributes:
   number: "134/193"
   rarity: Rare
   illustrator: saino misaki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv2/134_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM163"
   rarity: Promo
   illustrator: Saya Tsuruta
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/smp/SM163_hires.png

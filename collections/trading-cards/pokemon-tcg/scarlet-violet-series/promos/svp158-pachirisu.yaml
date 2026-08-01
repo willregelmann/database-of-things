@@ -5,4 +5,6 @@ date: "2024"
 attributes:
   number: "158"
   rarity: Promo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/158_hires.png

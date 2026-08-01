@@ -6,4 +6,6 @@ attributes:
   number: "XY116"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY116_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "6/165"
   rarity: Rare Holo
   illustrator: Hiromichi Sugiyama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/6_hires.png

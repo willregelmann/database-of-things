@@ -6,4 +6,6 @@ attributes:
   number: "RC30/RC32"
   rarity: Rare Ultra
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC30_hires.png

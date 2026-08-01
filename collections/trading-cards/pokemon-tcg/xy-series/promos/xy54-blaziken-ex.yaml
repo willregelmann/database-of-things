@@ -6,4 +6,6 @@ attributes:
   number: "XY54"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "110/195"
   rarity: Uncommon
   illustrator: Uta
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12/110_hires.png

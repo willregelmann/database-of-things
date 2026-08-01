@@ -6,4 +6,6 @@ attributes:
   number: "171/181"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm9/171_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "36/73"
   rarity: Common
   illustrator: DemizuPosuka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm35/36_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "148/91"
   rarity: Shiny Rare
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/148_hires.png

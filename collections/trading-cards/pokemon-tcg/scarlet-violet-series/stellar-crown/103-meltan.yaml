@@ -6,4 +6,6 @@ attributes:
   number: "103/142"
   rarity: Common
   illustrator: Apios
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/103_hires.png

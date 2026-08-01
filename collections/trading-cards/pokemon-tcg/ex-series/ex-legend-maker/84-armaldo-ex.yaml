@@ -6,4 +6,6 @@ attributes:
   number: "84/92"
   rarity: Rare Holo ex
   illustrator: Kimiya Masago
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/84_hires.png

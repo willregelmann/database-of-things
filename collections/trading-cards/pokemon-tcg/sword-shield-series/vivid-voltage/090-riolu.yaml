@@ -6,4 +6,6 @@ attributes:
   number: "90/185"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/90_hires.png

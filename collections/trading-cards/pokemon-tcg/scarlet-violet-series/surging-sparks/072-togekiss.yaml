@@ -6,4 +6,6 @@ attributes:
   number: "72/191"
   rarity: Rare
   illustrator: Narano
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/72_hires.png

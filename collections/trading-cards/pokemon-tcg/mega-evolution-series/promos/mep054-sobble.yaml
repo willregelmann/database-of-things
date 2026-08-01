@@ -6,4 +6,6 @@ attributes:
   number: "054"
   rarity: Promo
   illustrator: Saboteri
+  type:
+    - Water
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/SobbleMEPPromo54.jpg

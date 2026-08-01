@@ -6,4 +6,6 @@ attributes:
   number: "XY202"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY202_hires.png

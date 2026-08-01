@@ -6,4 +6,6 @@ attributes:
   number: "227/203"
   rarity: Rare Secret
   illustrator: Saki Hayashiro
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/227_hires.png

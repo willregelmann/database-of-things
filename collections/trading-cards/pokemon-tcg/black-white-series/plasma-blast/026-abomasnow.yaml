@@ -6,4 +6,6 @@ attributes:
   number: "26/101"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw10/26_hires.png

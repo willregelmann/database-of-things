@@ -6,4 +6,6 @@ attributes:
   number: "XY66"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY66_hires.png

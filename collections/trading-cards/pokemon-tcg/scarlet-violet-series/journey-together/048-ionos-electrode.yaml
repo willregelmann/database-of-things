@@ -6,4 +6,6 @@ attributes:
   number: "48/159"
   rarity: Uncommon
   illustrator: GOTO minori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv9/48_hires.png

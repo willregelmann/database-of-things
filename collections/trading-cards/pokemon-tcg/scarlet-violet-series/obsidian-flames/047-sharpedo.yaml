@@ -6,4 +6,6 @@ attributes:
   number: "47/197"
   rarity: Uncommon
   illustrator: Tonji Matsuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3/47_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "30/181"
   rarity: Rare Holo
   illustrator: Hasuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm9/30_hires.png

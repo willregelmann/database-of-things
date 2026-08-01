@@ -6,4 +6,6 @@ attributes:
   number: "39/202"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/39_hires.png

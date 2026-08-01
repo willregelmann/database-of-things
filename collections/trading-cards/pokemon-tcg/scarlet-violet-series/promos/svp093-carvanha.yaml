@@ -6,4 +6,6 @@ attributes:
   number: "093"
   rarity: Promo
   illustrator: Tonji Matsuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/93_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "165/162"
   rarity: Illustration Rare
   illustrator: Susumu Maeya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/165_hires.png

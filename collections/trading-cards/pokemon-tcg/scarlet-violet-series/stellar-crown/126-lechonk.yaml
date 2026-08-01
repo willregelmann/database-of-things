@@ -6,4 +6,6 @@ attributes:
   number: "126/142"
   rarity: Common
   illustrator: REND
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/126_hires.png

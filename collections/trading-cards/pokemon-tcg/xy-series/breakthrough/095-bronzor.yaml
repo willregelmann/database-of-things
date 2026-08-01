@@ -6,4 +6,6 @@ attributes:
   number: "95/162"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy8/95_hires.png

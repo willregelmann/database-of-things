@@ -6,4 +6,6 @@ attributes:
   number: "BW12"
   rarity: Promo
   illustrator: Tomokazu Komiya
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bwp/BW12_hires.png

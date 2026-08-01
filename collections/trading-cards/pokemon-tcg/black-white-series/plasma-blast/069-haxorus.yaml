@@ -6,4 +6,6 @@ attributes:
   number: "69/101"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw10/69_hires.png

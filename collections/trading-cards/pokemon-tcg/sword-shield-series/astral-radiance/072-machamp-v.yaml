@@ -6,4 +6,6 @@ attributes:
   number: "72/189"
   rarity: Rare Holo V
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/72_hires.png

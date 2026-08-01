@@ -6,4 +6,6 @@ attributes:
   number: "120/147"
   rarity: Common
   illustrator: Takao Unno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/120_hires.png

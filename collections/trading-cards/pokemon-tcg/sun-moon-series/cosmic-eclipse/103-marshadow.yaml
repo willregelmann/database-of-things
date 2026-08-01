@@ -6,4 +6,6 @@ attributes:
   number: "103/236"
   rarity: Rare
   illustrator: "0313"
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/103_hires.png

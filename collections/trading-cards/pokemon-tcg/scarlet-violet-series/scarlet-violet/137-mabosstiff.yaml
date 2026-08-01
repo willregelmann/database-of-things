@@ -6,4 +6,6 @@ attributes:
   number: "137/198"
   rarity: Uncommon
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/137_hires.png

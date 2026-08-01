@@ -6,4 +6,6 @@ attributes:
   number: "41/113"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw11/41_hires.png

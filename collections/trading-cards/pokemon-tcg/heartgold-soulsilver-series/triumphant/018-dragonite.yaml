@@ -6,4 +6,6 @@ attributes:
   number: "18/102"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/18_hires.png

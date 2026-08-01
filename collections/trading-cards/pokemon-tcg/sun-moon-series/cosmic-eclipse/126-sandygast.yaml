@@ -6,4 +6,6 @@ attributes:
   number: "126/236"
   rarity: Common
   illustrator: Yukiko Baba
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/126_hires.png

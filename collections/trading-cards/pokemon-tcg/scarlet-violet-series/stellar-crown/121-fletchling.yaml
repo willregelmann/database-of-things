@@ -6,4 +6,6 @@ attributes:
   number: "121/142"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/121_hires.png

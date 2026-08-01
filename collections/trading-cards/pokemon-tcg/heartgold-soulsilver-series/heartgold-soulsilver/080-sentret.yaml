@@ -6,4 +6,6 @@ attributes:
   number: "80/123"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/80_hires.png

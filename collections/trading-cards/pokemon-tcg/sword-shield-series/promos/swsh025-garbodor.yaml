@@ -6,4 +6,6 @@ attributes:
   number: "SWSH025"
   rarity: Promo
   illustrator: tetsuya koizumi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH025_hires.png

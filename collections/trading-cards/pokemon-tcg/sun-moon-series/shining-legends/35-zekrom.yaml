@@ -6,4 +6,6 @@ attributes:
   number: "35/73"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm35/35_hires.png

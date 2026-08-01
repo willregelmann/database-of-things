@@ -6,4 +6,6 @@ attributes:
   number: "4/144"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/4_hires.png

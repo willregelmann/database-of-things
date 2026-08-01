@@ -6,4 +6,6 @@ attributes:
   number: "5/182"
   rarity: Uncommon
   illustrator: Kurata So
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/5_hires.png

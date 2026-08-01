@@ -6,4 +6,6 @@ attributes:
   number: "54/114"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw1/54_hires.png

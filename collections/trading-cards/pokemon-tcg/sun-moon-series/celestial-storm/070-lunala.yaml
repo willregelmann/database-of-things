@@ -6,4 +6,6 @@ attributes:
   number: "70/168"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm7/70_hires.png

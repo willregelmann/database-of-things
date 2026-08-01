@@ -6,4 +6,6 @@ attributes:
   number: "79/147"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/79_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "57/127"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/57_hires.png

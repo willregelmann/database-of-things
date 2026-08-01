@@ -6,4 +6,6 @@ attributes:
   number: "79/189"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/79_hires.png

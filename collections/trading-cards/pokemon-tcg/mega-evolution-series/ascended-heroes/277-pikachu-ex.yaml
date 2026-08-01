@@ -6,4 +6,6 @@ attributes:
   number: "277/217"
   rarity: Special Illustration Rare
   illustrator: James Turner
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-277/large

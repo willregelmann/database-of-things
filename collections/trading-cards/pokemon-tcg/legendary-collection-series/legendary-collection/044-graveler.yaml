@@ -6,6 +6,8 @@ attributes:
   number: "44/110"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base6/44_hires.png
 variants:
   - id: ab9c0891-260d-477a-a8c2-3d8d8f98bf32

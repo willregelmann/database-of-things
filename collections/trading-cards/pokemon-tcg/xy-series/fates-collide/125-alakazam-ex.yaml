@@ -6,4 +6,6 @@ attributes:
   number: "125/124"
   rarity: Rare Secret
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy10/125_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "72/203"
   rarity: Uncommon
   illustrator: chibi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/72_hires.png

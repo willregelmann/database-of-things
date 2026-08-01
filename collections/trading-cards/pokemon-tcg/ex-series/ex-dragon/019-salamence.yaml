@@ -6,4 +6,6 @@ attributes:
   number: "19/97"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/19_hires.png

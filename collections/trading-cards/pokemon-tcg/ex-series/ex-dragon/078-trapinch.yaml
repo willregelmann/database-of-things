@@ -6,4 +6,6 @@ attributes:
   number: "78/97"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex3/78_hires.png

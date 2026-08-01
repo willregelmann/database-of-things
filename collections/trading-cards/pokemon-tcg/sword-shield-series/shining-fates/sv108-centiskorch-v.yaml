@@ -6,4 +6,6 @@ attributes:
   number: "SV108/SV122"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45sv/SV108_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "102/101"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw10/102_hires.png

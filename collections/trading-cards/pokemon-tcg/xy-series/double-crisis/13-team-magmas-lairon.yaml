@@ -6,4 +6,6 @@ attributes:
   number: "13/34"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dc1/13_hires.png

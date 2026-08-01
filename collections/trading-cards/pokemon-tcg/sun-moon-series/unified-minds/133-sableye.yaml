@@ -6,4 +6,6 @@ attributes:
   number: "133/236"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/133_hires.png

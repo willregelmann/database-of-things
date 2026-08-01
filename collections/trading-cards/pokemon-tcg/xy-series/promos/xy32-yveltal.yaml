@@ -6,4 +6,6 @@ attributes:
   number: "XY32"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY32_hires.png

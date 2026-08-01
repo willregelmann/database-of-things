@@ -6,4 +6,6 @@ attributes:
   number: "88/189"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/88_hires.png

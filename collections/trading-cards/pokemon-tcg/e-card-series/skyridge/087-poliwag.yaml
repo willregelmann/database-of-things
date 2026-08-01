@@ -6,4 +6,6 @@ attributes:
   number: "87/144"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/87_hires.png

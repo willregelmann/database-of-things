@@ -6,4 +6,6 @@ attributes:
   number: "55/83"
   rarity: Common
   illustrator: Eri Yamaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/g1/55_hires.png

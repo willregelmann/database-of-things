@@ -6,4 +6,6 @@ attributes:
   number: "237/193"
   rarity: Ultra Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/237_hires.png

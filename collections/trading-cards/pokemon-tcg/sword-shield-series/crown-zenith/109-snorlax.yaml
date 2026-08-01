@@ -6,4 +6,6 @@ attributes:
   number: "109/159"
   rarity: Rare
   illustrator: Asako Ito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/109_hires.png

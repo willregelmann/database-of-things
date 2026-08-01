@@ -6,4 +6,6 @@ attributes:
   number: "GG52/GG70"
   rarity: Rare Holo VSTAR
   illustrator: Shibuzoh.
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5gg/GG52_hires.png

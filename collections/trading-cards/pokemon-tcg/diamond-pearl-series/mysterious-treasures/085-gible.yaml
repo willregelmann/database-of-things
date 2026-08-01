@@ -6,4 +6,6 @@ attributes:
   number: "85/123"
   rarity: Common
   illustrator: Hiroki Fuchino
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/85_hires.png

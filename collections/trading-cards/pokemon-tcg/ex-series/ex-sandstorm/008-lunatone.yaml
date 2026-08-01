@@ -6,4 +6,6 @@ attributes:
   number: "8/100"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex2/8_hires.png

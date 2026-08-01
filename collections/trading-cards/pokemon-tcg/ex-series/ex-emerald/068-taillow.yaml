@@ -6,4 +6,6 @@ attributes:
   number: "68/106"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex9/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "274/193"
   rarity: Hyper Rare
   illustrator: aky CG Works
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/274_hires.png

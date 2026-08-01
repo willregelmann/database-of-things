@@ -6,4 +6,6 @@ attributes:
   number: "108/172"
   rarity: Uncommon
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh9/108_hires.png

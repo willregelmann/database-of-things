@@ -6,4 +6,6 @@ attributes:
   number: "107/182"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/107_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "36/124"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/36_hires.png

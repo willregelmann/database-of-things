@@ -6,4 +6,6 @@ attributes:
   number: "62/131"
   rarity: Common
   illustrator: Mékayu
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv8pt5/62_hires.png

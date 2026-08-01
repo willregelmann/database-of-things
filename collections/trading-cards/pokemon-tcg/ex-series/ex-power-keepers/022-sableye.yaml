@@ -6,4 +6,6 @@ attributes:
   number: "22/108"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex16/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "181/192"
   rarity: Rare Ultra
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/181_hires.png

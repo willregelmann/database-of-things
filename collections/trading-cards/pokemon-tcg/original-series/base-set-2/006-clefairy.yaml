@@ -6,4 +6,6 @@ attributes:
   number: "6/130"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base4/6_hires.png

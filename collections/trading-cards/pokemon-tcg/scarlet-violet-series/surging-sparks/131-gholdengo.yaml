@@ -6,4 +6,6 @@ attributes:
   number: "131/191"
   rarity: Uncommon
   illustrator: Dsuke
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/131_hires.png

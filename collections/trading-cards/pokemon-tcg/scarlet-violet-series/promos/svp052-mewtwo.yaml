@@ -6,4 +6,6 @@ attributes:
   number: "052"
   rarity: Promo
   illustrator: Bun Toujo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/52_hires.png

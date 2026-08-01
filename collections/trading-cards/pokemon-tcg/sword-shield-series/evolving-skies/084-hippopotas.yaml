@@ -6,4 +6,6 @@ attributes:
   number: "84/203"
   rarity: Common
   illustrator: Yuya Oka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/84_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "55/132"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp3/55_hires.png

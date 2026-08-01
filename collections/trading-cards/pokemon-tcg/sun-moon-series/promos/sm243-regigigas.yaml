@@ -6,4 +6,6 @@ attributes:
   number: "SM243"
   rarity: Promo
   illustrator: Ryuta Fuse
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM243_hires.png

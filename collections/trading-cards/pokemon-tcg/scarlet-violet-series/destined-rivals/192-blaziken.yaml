@@ -6,4 +6,6 @@ attributes:
   number: "192/182"
   rarity: Illustration Rare
   illustrator: kodama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/192_hires.png

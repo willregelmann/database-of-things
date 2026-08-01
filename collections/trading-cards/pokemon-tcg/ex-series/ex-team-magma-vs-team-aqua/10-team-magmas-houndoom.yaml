@@ -6,4 +6,7 @@ attributes:
   number: "10/95"
   rarity: Rare Holo
   illustrator: Ken Ikuji
+  type:
+    - Fire
+    - Darkness
 image: https://images.pokemontcg.io/ex4/10_hires.png

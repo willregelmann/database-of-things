@@ -6,4 +6,6 @@ attributes:
   number: "230/193"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/230_hires.png

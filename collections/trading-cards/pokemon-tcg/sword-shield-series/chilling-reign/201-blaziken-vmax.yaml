@@ -6,4 +6,6 @@ attributes:
   number: "201/198"
   rarity: Rare Rainbow
   illustrator: Shigenori Negishi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/201_hires.png

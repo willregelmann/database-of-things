@@ -6,4 +6,6 @@ attributes:
   number: "23/198"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/23_hires.png

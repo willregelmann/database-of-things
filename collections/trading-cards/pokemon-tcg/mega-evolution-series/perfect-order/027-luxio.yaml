@@ -6,4 +6,6 @@ attributes:
   number: "27/88"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me3-27/large

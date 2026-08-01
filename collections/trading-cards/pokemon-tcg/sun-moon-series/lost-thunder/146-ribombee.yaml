@@ -6,4 +6,6 @@ attributes:
   number: "146/214"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/146_hires.png

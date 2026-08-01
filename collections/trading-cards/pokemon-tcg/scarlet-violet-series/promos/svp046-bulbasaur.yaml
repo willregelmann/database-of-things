@@ -6,4 +6,6 @@ attributes:
   number: "046"
   rarity: Promo
   illustrator: OKACHEKE
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/46_hires.png

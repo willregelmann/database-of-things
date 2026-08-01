@@ -6,4 +6,6 @@ attributes:
   number: "62/101"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw10/62_hires.png

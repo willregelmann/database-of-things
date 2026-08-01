@@ -6,4 +6,6 @@ attributes:
   number: "116/203"
   rarity: Rare Holo
   illustrator: Souichirou Gunjima
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/116_hires.png

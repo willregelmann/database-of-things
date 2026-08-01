@@ -6,4 +6,6 @@ attributes:
   number: "252/264"
   rarity: Rare Ultra
   illustrator: Narumi Sato
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/252_hires.png

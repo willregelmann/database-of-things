@@ -6,4 +6,6 @@ attributes:
   number: "18/64"
   rarity: Common
   illustrator: IKEDA Saki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6pt5/18_hires.png

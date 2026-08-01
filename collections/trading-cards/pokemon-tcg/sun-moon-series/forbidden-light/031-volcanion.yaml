@@ -6,4 +6,6 @@ attributes:
   number: "31/131"
   rarity: Rare Prism Star
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm6/31_hires.png

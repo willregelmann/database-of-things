@@ -6,4 +6,6 @@ attributes:
   number: "3/160"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy5/3_hires.png

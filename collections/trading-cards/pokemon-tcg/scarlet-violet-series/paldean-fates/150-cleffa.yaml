@@ -6,4 +6,6 @@ attributes:
   number: "150/91"
   rarity: Shiny Rare
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/150_hires.png

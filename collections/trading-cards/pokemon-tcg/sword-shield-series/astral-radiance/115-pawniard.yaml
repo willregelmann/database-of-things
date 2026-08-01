@@ -6,4 +6,6 @@ attributes:
   number: "115/189"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/115_hires.png

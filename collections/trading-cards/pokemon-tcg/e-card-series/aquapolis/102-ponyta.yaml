@@ -6,4 +6,6 @@ attributes:
   number: "102/147"
   rarity: Common
   illustrator: Shin-ichi Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard2/102_hires.png

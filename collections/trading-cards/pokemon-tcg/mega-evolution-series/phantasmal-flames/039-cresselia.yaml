@@ -6,4 +6,6 @@ attributes:
   number: "39/94"
   rarity: Uncommon
   illustrator: Raita Kazama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/39_hires.png

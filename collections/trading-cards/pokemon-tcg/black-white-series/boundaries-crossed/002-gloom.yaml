@@ -6,4 +6,6 @@ attributes:
   number: "2/149"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw7/2_hires.png

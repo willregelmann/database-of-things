@@ -6,4 +6,6 @@ attributes:
   number: "216/91"
   rarity: Shiny Ultra Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/216_hires.png

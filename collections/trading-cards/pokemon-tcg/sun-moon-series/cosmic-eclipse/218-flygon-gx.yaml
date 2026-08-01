@@ -6,4 +6,6 @@ attributes:
   number: "218/236"
   rarity: Rare Ultra
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/218_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "106/94"
   rarity: Illustration Rare
   illustrator: Uninori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me2/106_hires.png

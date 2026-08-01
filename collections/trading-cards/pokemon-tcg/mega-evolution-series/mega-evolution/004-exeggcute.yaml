@@ -6,4 +6,6 @@ attributes:
   number: "4/132"
   rarity: Common
   illustrator: aspara
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/4_hires.png

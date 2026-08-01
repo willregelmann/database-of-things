@@ -6,4 +6,6 @@ attributes:
   number: "20/92"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex12/20_hires.png

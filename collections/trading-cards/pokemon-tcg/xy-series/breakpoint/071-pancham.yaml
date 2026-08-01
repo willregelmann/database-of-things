@@ -6,4 +6,6 @@ attributes:
   number: "71/122"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy9/71_hires.png

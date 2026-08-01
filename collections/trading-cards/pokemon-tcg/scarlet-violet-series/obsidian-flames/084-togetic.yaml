@@ -6,4 +6,6 @@ attributes:
   number: "84/197"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3/84_hires.png

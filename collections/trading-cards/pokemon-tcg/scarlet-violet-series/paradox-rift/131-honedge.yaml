@@ -6,4 +6,6 @@ attributes:
   number: "131/182"
   rarity: Common
   illustrator: Nagomi Nijo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/131_hires.png

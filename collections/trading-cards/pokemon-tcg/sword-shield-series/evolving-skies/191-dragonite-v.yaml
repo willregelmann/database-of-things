@@ -6,4 +6,6 @@ attributes:
   number: "191/203"
   rarity: Rare Ultra
   illustrator: Saki Hayashiro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/191_hires.png

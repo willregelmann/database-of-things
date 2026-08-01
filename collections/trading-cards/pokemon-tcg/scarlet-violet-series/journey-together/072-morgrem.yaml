@@ -6,4 +6,6 @@ attributes:
   number: "72/159"
   rarity: Common
   illustrator: Lee HyunJung
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/72_hires.png

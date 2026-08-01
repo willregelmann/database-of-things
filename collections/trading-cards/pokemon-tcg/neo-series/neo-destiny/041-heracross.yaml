@@ -6,4 +6,6 @@ attributes:
   number: "41/105"
   rarity: Uncommon
   illustrator: K. Hoshiba, CR CG gangs
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/41_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "150/131"
   rarity: Special Illustration Rare
   illustrator: Kamome Shirahama
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8pt5/150_hires.png

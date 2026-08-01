@@ -6,4 +6,6 @@ attributes:
   number: "24/97"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex3/24_hires.png

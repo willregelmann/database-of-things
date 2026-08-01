@@ -6,4 +6,6 @@ attributes:
   number: "56/64"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo3/56_hires.png

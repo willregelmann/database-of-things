@@ -6,4 +6,6 @@ attributes:
   number: "38/106"
   rarity: Common
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy2/38_hires.png

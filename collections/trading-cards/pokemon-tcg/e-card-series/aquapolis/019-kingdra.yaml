@@ -6,4 +6,6 @@ attributes:
   number: "19/147"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard2/19_hires.png

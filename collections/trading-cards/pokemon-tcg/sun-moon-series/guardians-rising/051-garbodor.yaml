@@ -6,4 +6,6 @@ attributes:
   number: "51/145"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm2/51_hires.png

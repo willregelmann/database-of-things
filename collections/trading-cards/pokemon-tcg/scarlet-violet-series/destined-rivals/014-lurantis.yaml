@@ -6,4 +6,6 @@ attributes:
   number: "14/182"
   rarity: Uncommon
   illustrator: Masako Tomii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/14_hires.png

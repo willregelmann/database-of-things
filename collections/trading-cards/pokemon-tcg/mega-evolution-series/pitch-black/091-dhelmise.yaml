@@ -6,4 +6,6 @@ attributes:
   number: "91/84"
   rarity: Illustration Rare
   illustrator: Nakamura Ippan
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-91/large

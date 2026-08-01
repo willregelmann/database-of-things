@@ -6,4 +6,6 @@ attributes:
   number: "036"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/36_hires.png

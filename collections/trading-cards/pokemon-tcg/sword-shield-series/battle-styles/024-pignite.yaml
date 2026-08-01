@@ -6,4 +6,6 @@ attributes:
   number: "24/163"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/24_hires.png

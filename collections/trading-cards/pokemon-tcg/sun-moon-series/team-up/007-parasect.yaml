@@ -6,4 +6,6 @@ attributes:
   number: "7/181"
   rarity: Rare
   illustrator: Satoshi Shirai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm9/7_hires.png

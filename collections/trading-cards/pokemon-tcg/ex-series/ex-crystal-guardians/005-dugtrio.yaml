@@ -6,4 +6,6 @@ attributes:
   number: "5/100"
   rarity: Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex14/5_hires.png

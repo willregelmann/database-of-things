@@ -6,4 +6,6 @@ attributes:
   number: "77/189"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/77_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "63/172"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/63_hires.png

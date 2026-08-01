@@ -6,4 +6,6 @@ attributes:
   number: "8/130"
   rarity: Rare Holo
   illustrator: Nakaoka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp1/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "26/142"
   rarity: Common
   illustrator: Cona Nitanda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv7/26_hires.png

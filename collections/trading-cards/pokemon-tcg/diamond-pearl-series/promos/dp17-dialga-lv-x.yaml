@@ -6,4 +6,6 @@ attributes:
   number: "DP17"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dpp/DP17_hires.png

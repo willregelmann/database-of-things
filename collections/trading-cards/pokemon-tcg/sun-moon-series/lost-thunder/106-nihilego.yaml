@@ -6,4 +6,6 @@ attributes:
   number: "106/214"
   rarity: Rare Holo
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/106_hires.png

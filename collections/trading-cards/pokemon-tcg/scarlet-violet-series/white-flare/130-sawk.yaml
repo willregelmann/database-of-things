@@ -6,4 +6,6 @@ attributes:
   number: "130/86"
   rarity: Illustration Rare
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/130_hires.png

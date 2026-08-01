@@ -6,4 +6,6 @@ attributes:
   number: "94/167"
   rarity: Double Rare
   illustrator: akagi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/94_hires.png

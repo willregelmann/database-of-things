@@ -6,4 +6,6 @@ attributes:
   number: "006"
   rarity: Promo
   illustrator: Shimaris Yukichi
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/DrifblimMEPPromo6.jpg

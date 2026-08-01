@@ -6,4 +6,6 @@ attributes:
   number: "70/123"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss1/70_hires.png

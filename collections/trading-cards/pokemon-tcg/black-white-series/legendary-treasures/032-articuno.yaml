@@ -6,4 +6,6 @@ attributes:
   number: "32/113"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw11/32_hires.png

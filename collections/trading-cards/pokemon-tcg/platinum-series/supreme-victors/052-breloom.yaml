@@ -6,4 +6,6 @@ attributes:
   number: "52/147"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/52_hires.png

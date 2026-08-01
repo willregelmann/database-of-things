@@ -6,4 +6,6 @@ attributes:
   number: "94/100"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex2/94_hires.png

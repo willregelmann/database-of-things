@@ -6,4 +6,6 @@ attributes:
   number: "137/162"
   rarity: Uncommon
   illustrator: Yuu Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/137_hires.png

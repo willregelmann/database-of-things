@@ -6,4 +6,6 @@ attributes:
   number: "SM238"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM238_hires.png

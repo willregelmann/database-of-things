@@ -6,4 +6,6 @@ attributes:
   number: "BW03"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/bwp/BW03_hires.png

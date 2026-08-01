@@ -6,4 +6,6 @@ attributes:
   number: "SWSH137"
   rarity: Promo
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH137_hires.png

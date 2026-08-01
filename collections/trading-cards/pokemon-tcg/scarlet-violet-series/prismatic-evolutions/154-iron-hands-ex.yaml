@@ -6,4 +6,6 @@ attributes:
   number: "154/131"
   rarity: Special Illustration Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8pt5/154_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "80/132"
   rarity: Uncommon
   illustrator: Tomomi Ozaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/80_hires.png

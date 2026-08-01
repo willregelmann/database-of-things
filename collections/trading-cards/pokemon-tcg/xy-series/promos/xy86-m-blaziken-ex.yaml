@@ -6,4 +6,6 @@ attributes:
   number: "XY86"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY86_hires.png

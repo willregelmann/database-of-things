@@ -6,4 +6,6 @@ attributes:
   number: "77/196"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/77_hires.png

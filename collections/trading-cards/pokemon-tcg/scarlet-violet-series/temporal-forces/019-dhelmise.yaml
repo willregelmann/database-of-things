@@ -6,4 +6,6 @@ attributes:
   number: "19/162"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/19_hires.png

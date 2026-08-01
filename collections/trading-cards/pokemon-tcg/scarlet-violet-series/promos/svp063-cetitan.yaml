@@ -6,4 +6,6 @@ attributes:
   number: "063"
   rarity: Promo
   illustrator: GOSSAN
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/63_hires.png

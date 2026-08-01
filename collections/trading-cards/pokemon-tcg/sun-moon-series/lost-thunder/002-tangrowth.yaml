@@ -6,4 +6,6 @@ attributes:
   number: "2/214"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/2_hires.png

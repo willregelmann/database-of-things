@@ -6,4 +6,6 @@ attributes:
   number: "50/147"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/50_hires.png

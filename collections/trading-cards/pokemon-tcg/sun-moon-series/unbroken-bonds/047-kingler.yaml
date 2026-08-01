@@ -6,4 +6,6 @@ attributes:
   number: "47/214"
   rarity: Rare
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm10/47_hires.png

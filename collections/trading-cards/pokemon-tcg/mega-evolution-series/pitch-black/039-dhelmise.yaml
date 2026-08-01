@@ -6,4 +6,6 @@ attributes:
   number: "39/84"
   rarity: Uncommon
   illustrator: Oku
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-39/large

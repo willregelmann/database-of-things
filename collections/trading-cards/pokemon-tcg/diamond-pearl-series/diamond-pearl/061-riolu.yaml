@@ -6,4 +6,6 @@ attributes:
   number: "61/130"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp1/61_hires.png

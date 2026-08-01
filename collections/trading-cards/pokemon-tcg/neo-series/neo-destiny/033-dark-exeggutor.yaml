@@ -6,4 +6,6 @@ attributes:
   number: "33/105"
   rarity: Uncommon
   illustrator: Toshinao Aoki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo4/33_hires.png

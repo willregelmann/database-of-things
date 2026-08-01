@@ -6,4 +6,6 @@ attributes:
   number: "56/162"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/56_hires.png

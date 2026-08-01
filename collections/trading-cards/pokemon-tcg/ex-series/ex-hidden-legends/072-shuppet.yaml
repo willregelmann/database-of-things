@@ -6,4 +6,6 @@ attributes:
   number: "72/101"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex5/72_hires.png

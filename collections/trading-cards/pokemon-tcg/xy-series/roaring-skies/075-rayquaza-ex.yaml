@@ -6,4 +6,6 @@ attributes:
   number: "75/108"
   rarity: Rare Holo ex
   illustrator: Ryota Murayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy6/75_hires.png

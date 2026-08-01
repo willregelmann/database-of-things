@@ -6,4 +6,6 @@ attributes:
   number: "TG20/TG30"
   rarity: Rare Holo V
   illustrator: takuyoa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9tg/TG20_hires.png

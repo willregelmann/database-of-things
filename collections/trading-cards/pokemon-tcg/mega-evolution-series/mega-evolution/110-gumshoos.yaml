@@ -6,4 +6,6 @@ attributes:
   number: "110/132"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/110_hires.png

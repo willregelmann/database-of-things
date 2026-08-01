@@ -6,4 +6,6 @@ attributes:
   number: "63/191"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/63_hires.png

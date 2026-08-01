@@ -6,4 +6,6 @@ attributes:
   number: "SWSH003"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH003_hires.png

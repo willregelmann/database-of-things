@@ -6,4 +6,6 @@ attributes:
   number: "SV002/SV122"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV002_hires.png

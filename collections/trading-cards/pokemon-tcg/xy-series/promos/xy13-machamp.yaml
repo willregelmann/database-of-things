@@ -6,4 +6,6 @@ attributes:
   number: "XY13"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY13_hires.png

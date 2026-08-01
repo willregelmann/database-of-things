@@ -6,4 +6,6 @@ attributes:
   number: "76/165"
   rarity: Uncommon
   illustrator: Hiroaki Ito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard1/76_hires.png

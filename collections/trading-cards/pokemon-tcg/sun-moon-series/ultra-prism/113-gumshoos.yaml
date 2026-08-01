@@ -6,4 +6,6 @@ attributes:
   number: "113/156"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm5/113_hires.png

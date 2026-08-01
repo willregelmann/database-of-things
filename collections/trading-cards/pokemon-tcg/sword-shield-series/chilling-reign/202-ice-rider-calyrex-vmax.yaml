@@ -6,4 +6,6 @@ attributes:
   number: "202/198"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/202_hires.png

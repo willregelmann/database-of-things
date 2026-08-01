@@ -6,4 +6,6 @@ attributes:
   number: "44/113"
   rarity: Rare Holo ex
   illustrator: Shizurow
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw11/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/95"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss2/15_hires.png

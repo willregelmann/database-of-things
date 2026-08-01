@@ -6,4 +6,6 @@ attributes:
   number: "13/181"
   rarity: Uncommon
   illustrator: Ayaka Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm9/13_hires.png

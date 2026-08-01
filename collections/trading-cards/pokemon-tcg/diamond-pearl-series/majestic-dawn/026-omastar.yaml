@@ -6,4 +6,6 @@ attributes:
   number: "26/100"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp5/26_hires.png

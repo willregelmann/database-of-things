@@ -6,4 +6,6 @@ attributes:
   number: "206/197"
   rarity: Illustration Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv3/206_hires.png

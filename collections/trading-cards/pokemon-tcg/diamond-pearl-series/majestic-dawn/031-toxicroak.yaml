@@ -6,4 +6,6 @@ attributes:
   number: "31/100"
   rarity: Rare
   illustrator: Kent Kanetsuna
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp5/31_hires.png

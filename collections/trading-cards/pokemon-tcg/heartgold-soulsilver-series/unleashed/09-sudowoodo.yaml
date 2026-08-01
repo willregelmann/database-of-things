@@ -6,4 +6,6 @@ attributes:
   number: "9/95"
   rarity: Rare Holo
   illustrator: Sachiko Adachi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss2/9_hires.png

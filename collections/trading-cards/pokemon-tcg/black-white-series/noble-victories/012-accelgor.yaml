@@ -6,4 +6,6 @@ attributes:
   number: "12/101"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw3/12_hires.png

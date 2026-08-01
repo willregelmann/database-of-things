@@ -6,4 +6,6 @@ attributes:
   number: "54/115"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/54_hires.png

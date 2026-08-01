@@ -6,4 +6,6 @@ attributes:
   number: "SM218"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM218_hires.png

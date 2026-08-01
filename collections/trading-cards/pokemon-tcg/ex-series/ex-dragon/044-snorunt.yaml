@@ -6,4 +6,6 @@ attributes:
   number: "44/97"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex3/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "78/73"
   rarity: Rare Secret
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm35/78_hires.png

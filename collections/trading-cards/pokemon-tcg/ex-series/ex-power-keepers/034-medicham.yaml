@@ -6,4 +6,6 @@ attributes:
   number: "34/108"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex16/34_hires.png

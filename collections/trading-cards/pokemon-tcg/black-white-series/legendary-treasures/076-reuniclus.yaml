@@ -6,4 +6,6 @@ attributes:
   number: "76/113"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/76_hires.png

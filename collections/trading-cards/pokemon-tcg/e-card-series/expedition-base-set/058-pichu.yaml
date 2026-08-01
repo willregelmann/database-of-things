@@ -6,4 +6,6 @@ attributes:
   number: "58/165"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard1/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "19/198"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh6/19_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "TG17/TG30"
   rarity: Rare Holo VMAX
   illustrator: Naoki Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9tg/TG17_hires.png

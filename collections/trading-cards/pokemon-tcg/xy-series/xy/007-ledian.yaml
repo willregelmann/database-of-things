@@ -6,4 +6,6 @@ attributes:
   number: "7/146"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy1/7_hires.png

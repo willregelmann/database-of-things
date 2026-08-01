@@ -6,4 +6,6 @@ attributes:
   number: "215/198"
   rarity: Illustration Rare
   illustrator: Nelnal
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/215_hires.png

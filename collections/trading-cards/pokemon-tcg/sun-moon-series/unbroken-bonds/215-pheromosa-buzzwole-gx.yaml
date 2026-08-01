@@ -6,4 +6,6 @@ attributes:
   number: "215/214"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm10/215_hires.png

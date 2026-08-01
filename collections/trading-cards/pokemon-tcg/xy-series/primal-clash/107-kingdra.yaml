@@ -6,4 +6,6 @@ attributes:
   number: "107/160"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy5/107_hires.png

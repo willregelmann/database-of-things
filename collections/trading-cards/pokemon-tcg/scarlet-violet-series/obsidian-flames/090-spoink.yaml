@@ -6,4 +6,6 @@ attributes:
   number: "90/197"
   rarity: Common
   illustrator: GOSSAN
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3/90_hires.png

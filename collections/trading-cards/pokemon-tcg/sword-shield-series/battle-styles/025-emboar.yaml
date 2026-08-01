@@ -6,4 +6,6 @@ attributes:
   number: "25/163"
   rarity: Rare Holo
   illustrator: Anesaki Dynamic
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/25_hires.png

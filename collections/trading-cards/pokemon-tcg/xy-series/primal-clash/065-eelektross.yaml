@@ -6,4 +6,6 @@ attributes:
   number: "65/160"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy5/65_hires.png

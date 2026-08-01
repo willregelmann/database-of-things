@@ -6,4 +6,6 @@ attributes:
   number: "189/264"
   rarity: Rare Holo
   illustrator: Hasuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/189_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "113/91"
   rarity: Shiny Rare
   illustrator: Akira Komayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/113_hires.png

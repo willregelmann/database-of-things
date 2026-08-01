@@ -6,4 +6,6 @@ attributes:
   number: "BW15"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW15_hires.png

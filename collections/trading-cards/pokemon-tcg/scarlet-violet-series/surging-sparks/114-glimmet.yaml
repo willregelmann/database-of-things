@@ -6,4 +6,6 @@ attributes:
   number: "114/191"
   rarity: Common
   illustrator: Eri Kamei
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/114_hires.png

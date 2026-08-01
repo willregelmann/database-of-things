@@ -6,4 +6,6 @@ attributes:
   number: "HGSS21"
   rarity: Promo
   illustrator: Hideaki Hakozaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/hsp/HGSS21_hires.png

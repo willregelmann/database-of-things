@@ -6,4 +6,6 @@ attributes:
   number: "13/163"
   rarity: Rare
   illustrator: miki kudo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh5/13_hires.png

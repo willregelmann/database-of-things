@@ -6,4 +6,6 @@ attributes:
   number: "SWSH088"
   rarity: Promo
   illustrator: Tika Matsuno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH088_hires.png

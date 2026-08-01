@@ -6,4 +6,6 @@ attributes:
   number: "20/195"
   rarity: Rare
   illustrator: OKACHEKE
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12/20_hires.png

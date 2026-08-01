@@ -6,4 +6,6 @@ attributes:
   number: "94/202"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/94_hires.png

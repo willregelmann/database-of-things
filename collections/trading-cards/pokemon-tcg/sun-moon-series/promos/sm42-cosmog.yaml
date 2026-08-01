@@ -6,4 +6,6 @@ attributes:
   number: "SM42"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM42_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "108/165"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/108_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "54/168"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm7/54_hires.png

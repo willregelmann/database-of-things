@@ -6,4 +6,6 @@ attributes:
   number: "21/70"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/21_hires.png

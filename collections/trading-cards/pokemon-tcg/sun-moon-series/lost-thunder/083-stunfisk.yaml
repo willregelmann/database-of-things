@@ -6,4 +6,6 @@ attributes:
   number: "83/214"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/83_hires.png

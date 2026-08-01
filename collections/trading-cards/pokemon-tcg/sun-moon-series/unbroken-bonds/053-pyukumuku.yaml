@@ -6,4 +6,6 @@ attributes:
   number: "53/214"
   rarity: Uncommon
   illustrator: Asako Ito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm10/53_hires.png

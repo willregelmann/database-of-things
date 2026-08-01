@@ -6,4 +6,6 @@ attributes:
   number: "H2/H32"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard3/H2_hires.png

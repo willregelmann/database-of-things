@@ -6,4 +6,6 @@ attributes:
   number: "22/53"
   rarity: Promo
   illustrator: Toshinao Aoki
+  type:
+    - Water
 image: https://images.pokemontcg.io/basep/22_hires.png

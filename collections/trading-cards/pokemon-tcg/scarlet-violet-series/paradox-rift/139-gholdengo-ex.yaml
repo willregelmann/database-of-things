@@ -6,4 +6,6 @@ attributes:
   number: "139/182"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/139_hires.png

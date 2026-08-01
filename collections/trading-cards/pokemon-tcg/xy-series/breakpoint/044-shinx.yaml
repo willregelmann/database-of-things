@@ -6,4 +6,6 @@ attributes:
   number: "44/122"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy9/44_hires.png

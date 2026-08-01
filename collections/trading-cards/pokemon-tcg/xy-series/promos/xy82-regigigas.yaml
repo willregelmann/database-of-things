@@ -6,4 +6,6 @@ attributes:
   number: "XY82"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY82_hires.png

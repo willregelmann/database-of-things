@@ -6,4 +6,6 @@ attributes:
   number: "121/159"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/121_hires.png

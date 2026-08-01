@@ -6,4 +6,6 @@ attributes:
   number: "SWSH092"
   rarity: Promo
   illustrator: Uta
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH092_hires.png

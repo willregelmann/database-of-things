@@ -6,4 +6,6 @@ attributes:
   number: "160/236"
   rarity: Rare Holo GX
   illustrator: PLANETA Tsuji
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/160_hires.png

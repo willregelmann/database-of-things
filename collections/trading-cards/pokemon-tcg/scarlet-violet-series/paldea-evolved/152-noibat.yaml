@@ -6,4 +6,6 @@ attributes:
   number: "152/193"
   rarity: Common
   illustrator: chibi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv2/152_hires.png

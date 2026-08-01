@@ -6,4 +6,6 @@ attributes:
   number: "92/84"
   rarity: Illustration Rare
   illustrator: Jerky
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me5-92/large

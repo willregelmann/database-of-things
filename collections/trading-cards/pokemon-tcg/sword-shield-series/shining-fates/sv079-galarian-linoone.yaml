@@ -6,4 +6,6 @@ attributes:
   number: "SV079/SV122"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45sv/SV079_hires.png

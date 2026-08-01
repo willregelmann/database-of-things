@@ -6,4 +6,6 @@ attributes:
   number: "73/189"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/73_hires.png

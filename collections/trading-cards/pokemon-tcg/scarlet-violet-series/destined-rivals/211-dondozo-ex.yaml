@@ -6,4 +6,6 @@ attributes:
   number: "211/182"
   rarity: Ultra Rare
   illustrator: N-DESIGN Inc.
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/211_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "72/131"
   rarity: Common
   illustrator: cochi8i
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8pt5/72_hires.png

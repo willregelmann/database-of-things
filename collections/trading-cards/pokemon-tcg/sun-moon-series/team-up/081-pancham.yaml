@@ -6,4 +6,6 @@ attributes:
   number: "81/181"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm9/81_hires.png

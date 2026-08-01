@@ -6,4 +6,6 @@ attributes:
   number: "19/90"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss3/19_hires.png

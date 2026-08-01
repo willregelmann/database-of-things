@@ -6,4 +6,6 @@ attributes:
   number: "9/203"
   rarity: Common
   illustrator: Mika Pikazo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/9_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV6/SV94"
   rarity: Rare Shiny
   illustrator: kirisAki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sma/SV6_hires.png

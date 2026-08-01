@@ -6,4 +6,6 @@ attributes:
   number: "25/172"
   rarity: Uncommon
   illustrator: KEIICHIRO ITO
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh9/25_hires.png

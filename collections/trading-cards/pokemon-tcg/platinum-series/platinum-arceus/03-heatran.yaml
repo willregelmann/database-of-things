@@ -6,4 +6,6 @@ attributes:
   number: "3/99"
   rarity: Rare Holo
   illustrator: Keiko Moritsugu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/3_hires.png

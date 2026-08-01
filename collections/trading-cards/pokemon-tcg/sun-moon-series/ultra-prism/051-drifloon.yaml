@@ -6,4 +6,6 @@ attributes:
   number: "51/156"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/51_hires.png

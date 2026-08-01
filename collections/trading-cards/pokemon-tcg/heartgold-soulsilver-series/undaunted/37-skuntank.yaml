@@ -6,4 +6,6 @@ attributes:
   number: "37/90"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/hgss3/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM155"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM155_hires.png

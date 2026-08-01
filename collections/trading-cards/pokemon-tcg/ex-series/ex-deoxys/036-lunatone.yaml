@@ -6,4 +6,6 @@ attributes:
   number: "36/107"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex8/36_hires.png

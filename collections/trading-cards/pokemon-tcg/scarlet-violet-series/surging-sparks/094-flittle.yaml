@@ -6,4 +6,6 @@ attributes:
   number: "94/191"
   rarity: Common
   illustrator: buchi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/94_hires.png

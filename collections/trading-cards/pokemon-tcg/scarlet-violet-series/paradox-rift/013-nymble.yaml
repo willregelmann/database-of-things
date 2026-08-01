@@ -6,4 +6,6 @@ attributes:
   number: "13/182"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/13_hires.png

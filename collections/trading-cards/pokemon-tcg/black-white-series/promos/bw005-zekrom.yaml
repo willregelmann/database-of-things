@@ -6,4 +6,6 @@ attributes:
   number: "BW005"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bwp/BW005_hires.png

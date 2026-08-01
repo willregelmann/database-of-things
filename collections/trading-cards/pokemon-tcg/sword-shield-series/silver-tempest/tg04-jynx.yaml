@@ -6,4 +6,6 @@ attributes:
   number: "TG04/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12tg/TG04_hires.png

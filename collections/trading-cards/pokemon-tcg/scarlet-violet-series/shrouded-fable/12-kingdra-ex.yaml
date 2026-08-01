@@ -6,4 +6,6 @@ attributes:
   number: "12/64"
   rarity: Double Rare
   illustrator: toriyufu
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6pt5/12_hires.png

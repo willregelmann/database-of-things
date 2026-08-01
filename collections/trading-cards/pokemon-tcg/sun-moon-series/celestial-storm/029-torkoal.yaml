@@ -6,4 +6,6 @@ attributes:
   number: "29/168"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm7/29_hires.png

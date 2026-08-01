@@ -6,4 +6,6 @@ attributes:
   number: "56/108"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy12/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "49/75"
   rarity: Uncommon
   illustrator: CR CG gangs
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/49_hires.png

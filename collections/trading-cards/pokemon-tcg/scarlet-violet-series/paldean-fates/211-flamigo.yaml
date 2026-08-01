@@ -6,4 +6,6 @@ attributes:
   number: "211/91"
   rarity: Shiny Rare
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/211_hires.png

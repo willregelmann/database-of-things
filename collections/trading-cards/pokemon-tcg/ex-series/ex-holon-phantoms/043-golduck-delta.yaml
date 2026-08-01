@@ -6,4 +6,6 @@ attributes:
   number: "43/110"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex13/43_hires.png

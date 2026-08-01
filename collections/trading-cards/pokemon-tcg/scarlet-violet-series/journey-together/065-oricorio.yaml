@@ -6,4 +6,6 @@ attributes:
   number: "65/159"
   rarity: Common
   illustrator: aspara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/65_hires.png

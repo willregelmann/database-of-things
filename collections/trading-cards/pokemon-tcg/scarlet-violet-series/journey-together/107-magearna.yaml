@@ -6,4 +6,6 @@ attributes:
   number: "107/159"
   rarity: Rare
   illustrator: rika
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv9/107_hires.png

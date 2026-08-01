@@ -6,4 +6,6 @@ attributes:
   number: "17/102"
   rarity: Rare
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/17_hires.png

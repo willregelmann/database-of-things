@@ -6,4 +6,6 @@ attributes:
   number: "39/147"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard2/39_hires.png

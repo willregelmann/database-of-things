@@ -6,4 +6,6 @@ attributes:
   number: "14/95"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/14_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "104/106"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp4/104_hires.png

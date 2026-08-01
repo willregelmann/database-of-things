@@ -6,4 +6,6 @@ attributes:
   number: "74/109"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex7/74_hires.png

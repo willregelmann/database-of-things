@@ -6,4 +6,6 @@ attributes:
   number: "181/198"
   rarity: Rare Ultra
   illustrator: PLANETA Mochizuki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh6/181_hires.png

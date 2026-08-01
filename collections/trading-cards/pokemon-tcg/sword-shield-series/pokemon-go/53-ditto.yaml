@@ -6,4 +6,6 @@ attributes:
   number: "53/78"
   rarity: Rare Holo
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/53_hires.png

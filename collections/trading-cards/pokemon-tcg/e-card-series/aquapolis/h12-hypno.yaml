@@ -6,4 +6,6 @@ attributes:
   number: "H12/H32"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard2/H12_hires.png

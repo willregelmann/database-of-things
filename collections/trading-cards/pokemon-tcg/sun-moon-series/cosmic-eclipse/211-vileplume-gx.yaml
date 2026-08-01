@@ -6,4 +6,6 @@ attributes:
   number: "211/236"
   rarity: Rare Ultra
   illustrator: Kagemaru Himeno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm12/211_hires.png

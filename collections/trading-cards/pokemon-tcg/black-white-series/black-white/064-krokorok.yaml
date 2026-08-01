@@ -6,4 +6,6 @@ attributes:
   number: "64/114"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw1/64_hires.png

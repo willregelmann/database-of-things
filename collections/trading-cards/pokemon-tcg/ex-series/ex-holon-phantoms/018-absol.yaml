@@ -6,4 +6,6 @@ attributes:
   number: "18/110"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex13/18_hires.png

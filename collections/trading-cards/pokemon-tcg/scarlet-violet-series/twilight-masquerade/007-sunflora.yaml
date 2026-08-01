@@ -6,4 +6,6 @@ attributes:
   number: "7/167"
   rarity: Uncommon
   illustrator: Ounishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/7_hires.png

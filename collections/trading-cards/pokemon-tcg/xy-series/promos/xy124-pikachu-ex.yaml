@@ -6,4 +6,6 @@ attributes:
   number: "XY124"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY124_hires.png

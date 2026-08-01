@@ -6,4 +6,6 @@ attributes:
   number: "114/86"
   rarity: Illustration Rare
   illustrator: Natsumi Miyanose
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/114_hires.png

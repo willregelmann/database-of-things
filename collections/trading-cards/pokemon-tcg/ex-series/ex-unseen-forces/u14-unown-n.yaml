@@ -6,4 +6,6 @@ attributes:
   number: "N/28"
   rarity: Rare Holo
   illustrator: Nakaoka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex10/N_hires.png

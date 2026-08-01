@@ -6,4 +6,6 @@ attributes:
   number: "19/159"
   rarity: Rare Holo VSTAR
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5/19_hires.png

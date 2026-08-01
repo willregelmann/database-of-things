@@ -6,4 +6,6 @@ attributes:
   number: "95/127"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl1/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/156"
   rarity: Rare
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm5/41_hires.png

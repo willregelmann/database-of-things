@@ -6,4 +6,6 @@ attributes:
   number: "SWSH196"
   rarity: Promo
   illustrator: PLANETA Yamashita
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH196_hires.png

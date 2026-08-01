@@ -6,4 +6,6 @@ attributes:
   number: "47/98"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy7/47_hires.png

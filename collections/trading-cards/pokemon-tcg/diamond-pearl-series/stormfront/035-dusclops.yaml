@@ -6,4 +6,6 @@ attributes:
   number: "35/100"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/35_hires.png

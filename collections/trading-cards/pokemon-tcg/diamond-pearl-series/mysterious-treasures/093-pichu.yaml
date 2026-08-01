@@ -6,4 +6,6 @@ attributes:
   number: "93/123"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp2/93_hires.png

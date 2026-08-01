@@ -6,4 +6,6 @@ attributes:
   number: "88/197"
   rarity: Uncommon
   illustrator: Lee HyunJung
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3/88_hires.png

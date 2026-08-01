@@ -6,4 +6,6 @@ attributes:
   number: "SWSH100"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH100_hires.png

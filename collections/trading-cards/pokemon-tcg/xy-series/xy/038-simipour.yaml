@@ -6,4 +6,6 @@ attributes:
   number: "38/146"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy1/38_hires.png

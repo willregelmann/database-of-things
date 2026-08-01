@@ -6,4 +6,6 @@ attributes:
   number: "83/165"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/83_hires.png

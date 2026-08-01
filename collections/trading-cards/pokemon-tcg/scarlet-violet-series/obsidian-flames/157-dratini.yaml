@@ -6,4 +6,6 @@ attributes:
   number: "157/197"
   rarity: Common
   illustrator: satoma
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv3/157_hires.png

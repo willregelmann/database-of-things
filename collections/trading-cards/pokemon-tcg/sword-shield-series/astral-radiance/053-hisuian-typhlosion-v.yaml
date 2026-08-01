@@ -6,4 +6,6 @@ attributes:
   number: "53/189"
   rarity: Rare Holo V
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/53_hires.png

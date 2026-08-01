@@ -6,4 +6,6 @@ attributes:
   number: "DP16"
   rarity: Promo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dpp/DP16_hires.png

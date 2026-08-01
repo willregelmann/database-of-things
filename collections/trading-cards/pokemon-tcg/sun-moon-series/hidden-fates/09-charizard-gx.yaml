@@ -6,4 +6,6 @@ attributes:
   number: "9/68"
   rarity: Rare Holo GX
   illustrator: aky CG Works
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm115/9_hires.png

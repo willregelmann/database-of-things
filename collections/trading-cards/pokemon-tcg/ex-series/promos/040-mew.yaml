@@ -6,4 +6,6 @@ attributes:
   number: "040"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/np/40_hires.png

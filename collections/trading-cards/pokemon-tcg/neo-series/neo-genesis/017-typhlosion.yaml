@@ -6,4 +6,6 @@ attributes:
   number: "17/111"
   rarity: Rare Holo
   illustrator: Shin-ichi Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo1/17_hires.png

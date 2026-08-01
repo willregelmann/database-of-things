@@ -6,4 +6,6 @@ attributes:
   number: "SV23/SV94"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sma/SV23_hires.png

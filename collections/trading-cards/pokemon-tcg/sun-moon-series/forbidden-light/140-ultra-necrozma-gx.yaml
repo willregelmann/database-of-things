@@ -6,4 +6,6 @@ attributes:
   number: "140/131"
   rarity: Rare Rainbow
   illustrator: PLANETA Igarashi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm6/140_hires.png

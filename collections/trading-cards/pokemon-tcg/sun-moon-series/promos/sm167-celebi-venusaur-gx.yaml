@@ -6,4 +6,6 @@ attributes:
   number: "SM167"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM167_hires.png

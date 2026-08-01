@@ -6,4 +6,6 @@ attributes:
   number: "8/95"
   rarity: Rare Holo
   illustrator: Hideaki Hakozaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss2/8_hires.png

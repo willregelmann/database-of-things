@@ -6,4 +6,6 @@ attributes:
   number: "68/156"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm5/68_hires.png

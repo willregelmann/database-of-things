@@ -6,4 +6,6 @@ attributes:
   number: "33/99"
   rarity: Rare Holo
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw4/33_hires.png

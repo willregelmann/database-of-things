@@ -6,4 +6,6 @@ attributes:
   number: "70/195"
   rarity: Rare Holo V
   illustrator: takuyoa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/70_hires.png

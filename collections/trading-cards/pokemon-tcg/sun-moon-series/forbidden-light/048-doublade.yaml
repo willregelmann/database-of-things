@@ -6,4 +6,6 @@ attributes:
   number: "48/131"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm6/48_hires.png

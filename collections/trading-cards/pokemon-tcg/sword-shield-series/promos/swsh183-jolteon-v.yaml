@@ -6,4 +6,6 @@ attributes:
   number: "SWSH183"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH183_hires.png

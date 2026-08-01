@@ -6,4 +6,6 @@ attributes:
   number: "14/181"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm9/14_hires.png

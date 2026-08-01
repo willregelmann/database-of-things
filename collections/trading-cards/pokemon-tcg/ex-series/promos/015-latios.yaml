@@ -6,4 +6,6 @@ attributes:
   number: "015"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/np/15_hires.png

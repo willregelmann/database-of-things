@@ -6,4 +6,6 @@ attributes:
   number: "34/97"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/ex3/34_hires.png

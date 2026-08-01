@@ -6,4 +6,6 @@ attributes:
   number: "66/108"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy12/66_hires.png

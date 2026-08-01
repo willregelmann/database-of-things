@@ -6,4 +6,6 @@ attributes:
   number: "71/115"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex10/71_hires.png

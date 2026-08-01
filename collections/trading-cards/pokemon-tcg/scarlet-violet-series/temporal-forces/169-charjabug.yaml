@@ -6,4 +6,6 @@ attributes:
   number: "169/162"
   rarity: Illustration Rare
   illustrator: Mina Nakai
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv5/169_hires.png

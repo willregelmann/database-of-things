@@ -6,4 +6,6 @@ attributes:
   number: "SWSH053"
   rarity: Promo
   illustrator: SATOSHI NAKAI
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH053_hires.png

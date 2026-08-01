@@ -6,4 +6,6 @@ attributes:
   number: "SM124"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM124_hires.png

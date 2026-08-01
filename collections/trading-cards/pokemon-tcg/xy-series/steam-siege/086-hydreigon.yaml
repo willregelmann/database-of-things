@@ -6,4 +6,6 @@ attributes:
   number: "86/114"
   rarity: Rare Holo
   illustrator: Hideki Ishikawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy11/86_hires.png

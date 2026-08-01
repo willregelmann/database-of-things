@@ -6,4 +6,6 @@ attributes:
   number: "173/159"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/173_hires.png

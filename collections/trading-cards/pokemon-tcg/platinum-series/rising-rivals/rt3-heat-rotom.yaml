@@ -6,4 +6,6 @@ attributes:
   number: "RT3"
   rarity: Rare Holo
   illustrator: Lee HyunJung
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/RT3_hires.png

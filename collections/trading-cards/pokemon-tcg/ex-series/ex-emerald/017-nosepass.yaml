@@ -6,4 +6,6 @@ attributes:
   number: "17/106"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex9/17_hires.png

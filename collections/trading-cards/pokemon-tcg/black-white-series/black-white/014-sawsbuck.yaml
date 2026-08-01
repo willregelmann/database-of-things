@@ -6,4 +6,6 @@ attributes:
   number: "14/114"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/14_hires.png

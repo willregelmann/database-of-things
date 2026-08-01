@@ -6,4 +6,6 @@ attributes:
   number: "28/198"
   rarity: Rare Holo
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/28_hires.png

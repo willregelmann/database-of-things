@@ -6,4 +6,6 @@ attributes:
   number: "81/145"
   rarity: Rare Holo
   illustrator: Anesaki Dynamic
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm2/81_hires.png

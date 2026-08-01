@@ -6,4 +6,6 @@ attributes:
   number: "93/160"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy5/93_hires.png

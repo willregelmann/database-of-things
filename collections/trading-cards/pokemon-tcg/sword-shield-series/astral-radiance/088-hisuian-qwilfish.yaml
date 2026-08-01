@@ -6,4 +6,6 @@ attributes:
   number: "88/189"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh10/88_hires.png

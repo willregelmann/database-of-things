@@ -6,4 +6,6 @@ attributes:
   number: "23/101"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex5/23_hires.png

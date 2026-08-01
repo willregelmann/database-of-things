@@ -6,4 +6,6 @@ attributes:
   number: "226/236"
   rarity: Rare Ultra
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/226_hires.png

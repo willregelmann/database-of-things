@@ -6,4 +6,6 @@ attributes:
   number: "20/111"
   rarity: Rare Classic
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/cel25c/20_A_hires.png

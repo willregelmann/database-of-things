@@ -6,4 +6,6 @@ attributes:
   number: "93/101"
   rarity: Rare Classic
   illustrator: Masahiko Ishii
+  type:
+    - Fire
 image: https://images.pokemontcg.io/cel25c/93_A_hires.png

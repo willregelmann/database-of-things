@@ -6,4 +6,6 @@ attributes:
   number: "SWSH130"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH130_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "208/91"
   rarity: Shiny Rare
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4pt5/208_hires.png

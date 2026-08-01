@@ -6,4 +6,6 @@ attributes:
   number: "124/147"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/124_hires.png

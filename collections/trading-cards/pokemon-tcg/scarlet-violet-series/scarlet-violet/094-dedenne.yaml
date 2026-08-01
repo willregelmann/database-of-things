@@ -6,4 +6,6 @@ attributes:
   number: "94/198"
   rarity: Common
   illustrator: zig
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/94_hires.png

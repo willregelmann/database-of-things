@@ -6,4 +6,6 @@ attributes:
   number: "133/192"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/133_hires.png

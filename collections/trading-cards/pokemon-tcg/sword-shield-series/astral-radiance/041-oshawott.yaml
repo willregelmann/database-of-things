@@ -6,4 +6,6 @@ attributes:
   number: "41/189"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/41_hires.png

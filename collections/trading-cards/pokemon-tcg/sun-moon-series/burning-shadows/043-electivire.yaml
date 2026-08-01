@@ -6,4 +6,6 @@ attributes:
   number: "43/147"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm3/43_hires.png

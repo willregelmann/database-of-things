@@ -6,4 +6,6 @@ attributes:
   number: "200/191"
   rarity: Illustration Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8/200_hires.png

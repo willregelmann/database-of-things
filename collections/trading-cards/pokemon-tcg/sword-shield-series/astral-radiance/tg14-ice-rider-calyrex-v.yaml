@@ -6,4 +6,6 @@ attributes:
   number: "TG14/TG30"
   rarity: Rare Holo V
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10tg/TG14_hires.png

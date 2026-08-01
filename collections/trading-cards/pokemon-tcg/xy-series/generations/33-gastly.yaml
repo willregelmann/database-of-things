@@ -6,4 +6,6 @@ attributes:
   number: "33/83"
   rarity: Common
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/g1/33_hires.png

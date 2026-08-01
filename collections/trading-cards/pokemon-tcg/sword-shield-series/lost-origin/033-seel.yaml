@@ -6,4 +6,6 @@ attributes:
   number: "33/196"
   rarity: Common
   illustrator: GIDORA
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/33_hires.png

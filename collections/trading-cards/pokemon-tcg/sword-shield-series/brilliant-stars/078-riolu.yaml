@@ -6,4 +6,6 @@ attributes:
   number: "78/172"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/78_hires.png

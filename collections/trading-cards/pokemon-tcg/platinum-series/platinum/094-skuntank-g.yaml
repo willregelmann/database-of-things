@@ -6,4 +6,6 @@ attributes:
   number: "94/127"
   rarity: Common
   illustrator: Makoto Imai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/94_hires.png

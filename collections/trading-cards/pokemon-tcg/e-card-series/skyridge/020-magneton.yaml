@@ -6,4 +6,6 @@ attributes:
   number: "20/144"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard3/20_hires.png

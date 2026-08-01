@@ -6,4 +6,6 @@ attributes:
   number: "RC1/RC32"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Grass
 image: https://images.pokemontcg.io/g1/RC1_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "21/123"
   rarity: Rare
   illustrator: Kazuyuki Kano
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp2/21_hires.png

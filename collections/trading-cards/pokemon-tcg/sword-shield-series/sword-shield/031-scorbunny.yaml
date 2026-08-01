@@ -6,4 +6,6 @@ attributes:
   number: "31/202"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/31_hires.png

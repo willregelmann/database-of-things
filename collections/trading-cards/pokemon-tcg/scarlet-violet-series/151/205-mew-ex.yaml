@@ -6,4 +6,6 @@ attributes:
   number: "205/165"
   rarity: Hyper Rare
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3pt5/205_hires.png

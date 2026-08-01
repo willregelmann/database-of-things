@@ -6,4 +6,6 @@ attributes:
   number: "34/75"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo2/34_hires.png

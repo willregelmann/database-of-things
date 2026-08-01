@@ -6,4 +6,6 @@ attributes:
   number: "6/114"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw1/6_hires.png

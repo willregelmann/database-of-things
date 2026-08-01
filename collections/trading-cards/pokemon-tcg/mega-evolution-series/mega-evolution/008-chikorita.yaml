@@ -6,4 +6,6 @@ attributes:
   number: "8/132"
   rarity: Common
   illustrator: kamonabe
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "114/189"
   rarity: Rare Holo VSTAR
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/114_hires.png

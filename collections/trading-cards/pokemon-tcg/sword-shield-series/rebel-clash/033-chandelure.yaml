@@ -6,4 +6,6 @@ attributes:
   number: "33/192"
   rarity: Rare Holo
   illustrator: Taira Akitsu
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/33_hires.png

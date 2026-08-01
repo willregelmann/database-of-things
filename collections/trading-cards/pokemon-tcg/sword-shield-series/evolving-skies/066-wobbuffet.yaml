@@ -6,4 +6,6 @@ attributes:
   number: "66/203"
   rarity: Common
   illustrator: Anesaki Dynamic
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/66_hires.png

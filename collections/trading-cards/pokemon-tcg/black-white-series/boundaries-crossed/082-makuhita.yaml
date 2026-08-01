@@ -6,4 +6,6 @@ attributes:
   number: "82/149"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw7/82_hires.png

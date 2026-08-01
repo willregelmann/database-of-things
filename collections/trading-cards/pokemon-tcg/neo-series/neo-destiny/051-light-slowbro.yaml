@@ -6,4 +6,6 @@ attributes:
   number: "51/105"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo4/51_hires.png

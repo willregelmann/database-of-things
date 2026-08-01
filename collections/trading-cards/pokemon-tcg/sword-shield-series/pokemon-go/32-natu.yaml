@@ -6,4 +6,6 @@ attributes:
   number: "32/78"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pgo/32_hires.png

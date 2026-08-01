@@ -6,4 +6,6 @@ attributes:
   number: "81/159"
   rarity: Common
   illustrator: Scav
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "32/95"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/32_hires.png

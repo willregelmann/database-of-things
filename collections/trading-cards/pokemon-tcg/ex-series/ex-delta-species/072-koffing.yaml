@@ -6,4 +6,6 @@ attributes:
   number: "72/113"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex11/72_hires.png

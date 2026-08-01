@@ -6,4 +6,6 @@ attributes:
   number: "33/159"
   rarity: Common
   illustrator: Minahamu
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv9/33_hires.png

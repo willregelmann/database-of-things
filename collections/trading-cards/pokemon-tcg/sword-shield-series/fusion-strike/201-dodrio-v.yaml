@@ -6,4 +6,6 @@ attributes:
   number: "201/264"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/201_hires.png

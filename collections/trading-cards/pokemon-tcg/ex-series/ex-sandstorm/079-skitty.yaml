@@ -6,4 +6,6 @@ attributes:
   number: "79/100"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex2/79_hires.png

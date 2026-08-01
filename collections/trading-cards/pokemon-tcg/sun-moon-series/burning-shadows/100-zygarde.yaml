@@ -6,4 +6,6 @@ attributes:
   number: "100/147"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm3/100_hires.png

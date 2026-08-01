@@ -6,4 +6,6 @@ attributes:
   number: "127/264"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/127_hires.png

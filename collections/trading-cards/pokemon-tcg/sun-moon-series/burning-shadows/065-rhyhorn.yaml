@@ -6,4 +6,6 @@ attributes:
   number: "65/147"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm3/65_hires.png

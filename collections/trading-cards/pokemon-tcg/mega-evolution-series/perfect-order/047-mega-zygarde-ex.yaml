@@ -6,4 +6,6 @@ attributes:
   number: "47/88"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-47/large

@@ -6,4 +6,6 @@ attributes:
   number: "28/64"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6pt5/28_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "26/192"
   rarity: Rare Holo V
   illustrator: Saki Hayashiro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/26_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM07"
   rarity: Promo
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM07_hires.png

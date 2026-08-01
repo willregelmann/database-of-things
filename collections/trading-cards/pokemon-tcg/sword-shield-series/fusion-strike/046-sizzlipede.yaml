@@ -6,4 +6,6 @@ attributes:
   number: "46/264"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/46_hires.png

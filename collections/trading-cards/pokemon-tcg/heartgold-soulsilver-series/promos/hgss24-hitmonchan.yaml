@@ -6,4 +6,6 @@ attributes:
   number: "HGSS24"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hsp/HGSS24_hires.png

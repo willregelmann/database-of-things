@@ -6,4 +6,6 @@ attributes:
   number: "6/147"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/6_hires.png

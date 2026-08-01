@@ -6,4 +6,6 @@ attributes:
   number: "16/111"
   rarity: Uncommon
   illustrator: Kanako Eo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy3/16_hires.png

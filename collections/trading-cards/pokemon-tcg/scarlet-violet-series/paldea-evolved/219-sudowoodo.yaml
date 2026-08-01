@@ -6,4 +6,6 @@ attributes:
   number: "219/193"
   rarity: Illustration Rare
   illustrator: Narumi Sato
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv2/219_hires.png

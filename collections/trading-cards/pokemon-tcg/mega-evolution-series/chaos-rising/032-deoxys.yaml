@@ -6,4 +6,6 @@ attributes:
   number: "32/86"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me4-32/large

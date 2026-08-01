@@ -6,4 +6,6 @@ attributes:
   number: "89/192"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/89_hires.png

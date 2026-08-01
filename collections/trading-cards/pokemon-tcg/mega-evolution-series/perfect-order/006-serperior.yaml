@@ -6,4 +6,6 @@ attributes:
   number: "6/88"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-6/large

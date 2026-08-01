@@ -6,4 +6,6 @@ attributes:
   number: "BW69"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bwp/BW69_hires.png

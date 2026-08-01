@@ -6,4 +6,6 @@ attributes:
   number: "71/131"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/71_hires.png

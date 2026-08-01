@@ -6,4 +6,6 @@ attributes:
   number: "SV2/SV94"
   rarity: Rare Shiny
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sma/SV2_hires.png

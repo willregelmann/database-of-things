@@ -6,4 +6,6 @@ attributes:
   number: "156/182"
   rarity: Common
   illustrator: Ayako Ozaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/156_hires.png

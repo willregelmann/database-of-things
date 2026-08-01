@@ -6,4 +6,6 @@ attributes:
   number: "67/101"
   rarity: Common
   illustrator: sui
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw10/67_hires.png

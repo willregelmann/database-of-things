@@ -6,4 +6,6 @@ attributes:
   number: "50/72"
   rarity: Rare Holo V
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45/50_hires.png

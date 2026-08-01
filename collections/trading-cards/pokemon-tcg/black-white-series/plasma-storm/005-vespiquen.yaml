@@ -6,4 +6,6 @@ attributes:
   number: "5/135"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw8/5_hires.png

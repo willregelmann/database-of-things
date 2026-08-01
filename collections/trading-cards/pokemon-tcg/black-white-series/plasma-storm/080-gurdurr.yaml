@@ -6,4 +6,6 @@ attributes:
   number: "80/135"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw8/80_hires.png

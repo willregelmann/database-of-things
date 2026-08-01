@@ -6,4 +6,6 @@ attributes:
   number: "94/86"
   rarity: Illustration Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/zsv10pt5/94_hires.png

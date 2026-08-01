@@ -6,4 +6,6 @@ attributes:
   number: "8/163"
   rarity: Rare Holo
   illustrator: Mina Nakai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh5/8_hires.png

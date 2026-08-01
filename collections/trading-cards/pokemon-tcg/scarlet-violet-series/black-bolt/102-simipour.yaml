@@ -6,4 +6,6 @@ attributes:
   number: "102/86"
   rarity: Illustration Rare
   illustrator: Yoriyuki Ikegami
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/102_hires.png

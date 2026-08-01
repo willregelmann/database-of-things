@@ -6,4 +6,6 @@ attributes:
   number: "22/147"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm3/22_hires.png

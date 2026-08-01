@@ -6,4 +6,6 @@ attributes:
   number: "191/214"
   rarity: Rare Ultra
   illustrator: aky CG Works
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm10/191_hires.png

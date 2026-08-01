@@ -6,4 +6,6 @@ attributes:
   number: "74/132"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp3/74_hires.png

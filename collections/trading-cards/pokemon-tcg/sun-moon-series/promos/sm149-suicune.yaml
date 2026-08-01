@@ -6,4 +6,6 @@ attributes:
   number: "SM149"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM149_hires.png

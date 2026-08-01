@@ -6,4 +6,6 @@ attributes:
   number: "55/105"
   rarity: Uncommon
   illustrator: Shin-ichi Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/55_hires.png

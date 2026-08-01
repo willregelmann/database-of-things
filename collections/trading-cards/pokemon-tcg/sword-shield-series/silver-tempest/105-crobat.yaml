@@ -6,4 +6,6 @@ attributes:
   number: "105/195"
   rarity: Rare Holo
   illustrator: Yuya Oka
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12/105_hires.png

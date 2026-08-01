@@ -6,4 +6,6 @@ attributes:
   number: "90/182"
   rarity: Common
   illustrator: Ayako Ozaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/90_hires.png

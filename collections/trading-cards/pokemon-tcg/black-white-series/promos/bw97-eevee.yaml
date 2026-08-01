@@ -6,4 +6,6 @@ attributes:
   number: "BW97"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW97_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "194/264"
   rarity: Rare
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh8/194_hires.png

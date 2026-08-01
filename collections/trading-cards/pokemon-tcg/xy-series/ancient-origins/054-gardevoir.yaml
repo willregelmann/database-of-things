@@ -6,4 +6,6 @@ attributes:
   number: "54/98"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy7/54_hires.png

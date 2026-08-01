@@ -6,4 +6,6 @@ attributes:
   number: "SWSH020"
   rarity: Promo
   illustrator: Hideki Ishikawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH020_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "76/131"
   rarity: Rare
   illustrator: Megumi Mizutani
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/76_hires.png

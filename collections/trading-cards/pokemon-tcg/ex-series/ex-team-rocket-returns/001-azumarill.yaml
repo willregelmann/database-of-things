@@ -6,4 +6,6 @@ attributes:
   number: "1/109"
   rarity: Rare Holo
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex7/1_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "74/189"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/74_hires.png

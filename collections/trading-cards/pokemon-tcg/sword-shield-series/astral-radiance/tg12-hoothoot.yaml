@@ -6,4 +6,6 @@ attributes:
   number: "TG12/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10tg/TG12_hires.png

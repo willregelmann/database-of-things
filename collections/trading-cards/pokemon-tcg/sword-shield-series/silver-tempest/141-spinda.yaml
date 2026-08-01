@@ -6,4 +6,6 @@ attributes:
   number: "141/195"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/141_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "122/86"
   rarity: Illustration Rare
   illustrator: YASHIRO Nanaco
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/122_hires.png

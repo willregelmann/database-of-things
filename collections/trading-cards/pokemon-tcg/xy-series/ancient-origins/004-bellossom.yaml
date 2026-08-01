@@ -6,4 +6,6 @@ attributes:
   number: "4/98"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy7/4_hires.png

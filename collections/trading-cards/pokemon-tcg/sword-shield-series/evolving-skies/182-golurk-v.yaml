@@ -6,4 +6,6 @@ attributes:
   number: "182/203"
   rarity: Rare Ultra
   illustrator: Oswaldo KATO
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/182_hires.png

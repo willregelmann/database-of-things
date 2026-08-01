@@ -6,4 +6,6 @@ attributes:
   number: "151/214"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm10/151_hires.png

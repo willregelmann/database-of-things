@@ -6,4 +6,6 @@ attributes:
   number: "110/196"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/110_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "137"
   rarity: Promo
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/137_hires.png

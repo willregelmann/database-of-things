@@ -6,4 +6,6 @@ attributes:
   number: "33/146"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy1/33_hires.png

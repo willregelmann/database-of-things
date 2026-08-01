@@ -6,4 +6,6 @@ attributes:
   number: "70/127"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl1/70_hires.png

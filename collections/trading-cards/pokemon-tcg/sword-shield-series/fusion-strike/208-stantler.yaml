@@ -6,4 +6,6 @@ attributes:
   number: "208/264"
   rarity: Uncommon
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/208_hires.png

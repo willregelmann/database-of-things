@@ -6,4 +6,6 @@ attributes:
   number: "233/91"
   rarity: Special Illustration Rare
   illustrator: Kuroimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/233_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "66/113"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex11/66_hires.png

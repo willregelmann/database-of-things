@@ -6,4 +6,6 @@ attributes:
   number: "86/78"
   rarity: Rare Secret
   illustrator: PLANETA Mochizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pgo/86_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "188/185"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/188_hires.png

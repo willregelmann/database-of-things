@@ -6,4 +6,6 @@ attributes:
   number: "6/72"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45/6_hires.png

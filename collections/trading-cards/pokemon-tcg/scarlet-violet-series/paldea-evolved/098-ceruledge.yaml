@@ -6,4 +6,6 @@ attributes:
   number: "98/193"
   rarity: Rare
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv2/98_hires.png

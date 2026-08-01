@@ -6,4 +6,6 @@ attributes:
   number: "SV006/SV122"
   rarity: Rare Shiny
   illustrator: Ryuta Fuse
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV006_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "87/189"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/87_hires.png

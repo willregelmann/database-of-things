@@ -6,4 +6,6 @@ attributes:
   number: "52/100"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp7/52_hires.png

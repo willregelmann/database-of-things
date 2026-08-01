@@ -6,4 +6,6 @@ attributes:
   number: "43/149"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm1/43_hires.png

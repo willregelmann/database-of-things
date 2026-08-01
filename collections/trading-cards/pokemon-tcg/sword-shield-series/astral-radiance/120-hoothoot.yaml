@@ -6,4 +6,6 @@ attributes:
   number: "120/189"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/120_hires.png

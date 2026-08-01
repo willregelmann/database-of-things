@@ -6,4 +6,6 @@ attributes:
   number: "79/181"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm9/79_hires.png

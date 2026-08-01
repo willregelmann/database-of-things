@@ -6,4 +6,6 @@ attributes:
   number: "85/159"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5/85_hires.png

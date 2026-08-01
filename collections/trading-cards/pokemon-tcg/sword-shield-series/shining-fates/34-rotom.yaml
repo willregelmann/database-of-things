@@ -6,4 +6,6 @@ attributes:
   number: "34/72"
   rarity: Uncommon
   illustrator: ryoma uratsuka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45/34_hires.png

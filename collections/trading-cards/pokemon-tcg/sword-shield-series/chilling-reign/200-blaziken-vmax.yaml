@@ -6,4 +6,6 @@ attributes:
   number: "200/198"
   rarity: Rare Rainbow
   illustrator: AKIRA EGAWA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/200_hires.png

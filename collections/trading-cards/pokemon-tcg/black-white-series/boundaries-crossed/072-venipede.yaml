@@ -6,4 +6,6 @@ attributes:
   number: "72/149"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw7/72_hires.png

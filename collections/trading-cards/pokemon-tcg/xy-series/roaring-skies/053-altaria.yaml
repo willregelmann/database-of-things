@@ -6,4 +6,6 @@ attributes:
   number: "53/108"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/53_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "20/182"
   rarity: Common
   illustrator: LINNE
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4/20_hires.png

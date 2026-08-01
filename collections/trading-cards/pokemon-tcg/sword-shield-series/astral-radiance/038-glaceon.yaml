@@ -6,4 +6,6 @@ attributes:
   number: "38/189"
   rarity: Rare
   illustrator: saino misaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/38_hires.png

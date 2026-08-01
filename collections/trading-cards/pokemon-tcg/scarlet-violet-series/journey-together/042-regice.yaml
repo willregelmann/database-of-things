@@ -6,4 +6,6 @@ attributes:
   number: "42/159"
   rarity: Uncommon
   illustrator: Takumi Wada
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv9/42_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "64/102"
   rarity: Common
   illustrator: Kent Kanetsuna
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss4/64_hires.png

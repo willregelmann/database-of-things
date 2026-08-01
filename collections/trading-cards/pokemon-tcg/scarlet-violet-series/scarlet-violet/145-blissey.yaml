@@ -6,4 +6,6 @@ attributes:
   number: "145/198"
   rarity: Uncommon
   illustrator: chibi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/145_hires.png

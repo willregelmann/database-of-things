@@ -6,4 +6,6 @@ attributes:
   number: "142/182"
   rarity: Common
   illustrator: Nisota Niso
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv10/142_hires.png

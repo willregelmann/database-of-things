@@ -6,4 +6,6 @@ attributes:
   number: "52/100"
   rarity: Common
   illustrator: Daisuke Ito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp5/52_hires.png

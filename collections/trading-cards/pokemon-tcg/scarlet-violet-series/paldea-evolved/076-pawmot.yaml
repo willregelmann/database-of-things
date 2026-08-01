@@ -6,4 +6,6 @@ attributes:
   number: "76/193"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/76_hires.png

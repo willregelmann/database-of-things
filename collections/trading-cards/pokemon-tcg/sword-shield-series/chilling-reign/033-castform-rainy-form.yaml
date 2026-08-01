@@ -6,4 +6,6 @@ attributes:
   number: "33/198"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/33_hires.png

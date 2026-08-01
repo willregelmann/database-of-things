@@ -6,4 +6,6 @@ attributes:
   number: "33/90"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss3/33_hires.png

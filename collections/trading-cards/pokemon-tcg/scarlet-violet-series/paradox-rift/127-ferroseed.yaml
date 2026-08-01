@@ -6,4 +6,6 @@ attributes:
   number: "127/182"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/127_hires.png

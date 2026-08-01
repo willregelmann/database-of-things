@@ -6,4 +6,6 @@ attributes:
   number: "95/131"
   rarity: Rare Holo GX
   illustrator: PLANETA Otani
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm6/95_hires.png

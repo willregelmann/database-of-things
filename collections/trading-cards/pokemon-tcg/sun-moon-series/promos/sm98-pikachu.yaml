@@ -6,4 +6,6 @@ attributes:
   number: "SM98"
   rarity: Promo
   illustrator: Saya Tsuruta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM98_hires.png

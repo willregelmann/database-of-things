@@ -6,4 +6,6 @@ attributes:
   number: "150/86"
   rarity: Illustration Rare
   illustrator: Yoshioka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/zsv10pt5/150_hires.png

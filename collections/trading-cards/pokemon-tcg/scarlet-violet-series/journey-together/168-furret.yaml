@@ -6,4 +6,6 @@ attributes:
   number: "168/159"
   rarity: Illustration Rare
   illustrator: REND
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/168_hires.png

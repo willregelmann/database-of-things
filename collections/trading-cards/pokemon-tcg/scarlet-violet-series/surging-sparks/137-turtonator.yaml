@@ -6,4 +6,6 @@ attributes:
   number: "137/191"
   rarity: Uncommon
   illustrator: Rianti Hidayat
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/137_hires.png

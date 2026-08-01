@@ -6,4 +6,7 @@ attributes:
   number: "71/110"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
+    - Metal
 image: https://images.pokemontcg.io/ex13/71_hires.png

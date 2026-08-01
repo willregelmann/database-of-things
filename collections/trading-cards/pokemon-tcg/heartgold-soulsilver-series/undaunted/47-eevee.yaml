@@ -6,4 +6,6 @@ attributes:
   number: "47/90"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss3/47_hires.png

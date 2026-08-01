@@ -6,4 +6,6 @@ attributes:
   number: "45/111"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm4/45_hires.png

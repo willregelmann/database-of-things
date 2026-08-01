@@ -6,4 +6,6 @@ attributes:
   number: "15/108"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy6/15_hires.png

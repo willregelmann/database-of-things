@@ -6,4 +6,6 @@ attributes:
   number: "28/62"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base3/28_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "DP51"
   rarity: Promo
   illustrator: Wataru Kawahara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dpp/DP51_hires.png

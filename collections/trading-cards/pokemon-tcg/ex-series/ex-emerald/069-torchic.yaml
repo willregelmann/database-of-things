@@ -6,4 +6,6 @@ attributes:
   number: "69/106"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex9/69_hires.png

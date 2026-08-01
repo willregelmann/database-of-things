@@ -6,4 +6,6 @@ attributes:
   number: "90/144"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/90_hires.png

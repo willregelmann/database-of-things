@@ -6,4 +6,6 @@ attributes:
   number: "SWSH282"
   rarity: Promo
   illustrator: Shiburingaru
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH282_hires.png

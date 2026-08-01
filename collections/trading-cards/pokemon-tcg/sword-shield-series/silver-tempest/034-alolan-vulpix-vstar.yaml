@@ -6,4 +6,6 @@ attributes:
   number: "34/195"
   rarity: Rare Holo VSTAR
   illustrator: PLANETA Hiiragi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12/34_hires.png

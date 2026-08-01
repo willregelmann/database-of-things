@@ -6,4 +6,6 @@ attributes:
   number: "29/198"
   rarity: Uncommon
   illustrator: KEIICHIRO ITO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/29_hires.png

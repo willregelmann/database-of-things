@@ -6,4 +6,6 @@ attributes:
   number: "41/162"
   rarity: Rare
   illustrator: GOSSAN
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv5/41_hires.png

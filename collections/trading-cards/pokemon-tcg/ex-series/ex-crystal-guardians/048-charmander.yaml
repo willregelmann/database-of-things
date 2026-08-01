@@ -6,4 +6,6 @@ attributes:
   number: "48/100"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex14/48_hires.png

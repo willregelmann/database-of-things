@@ -6,4 +6,6 @@ attributes:
   number: "114/115"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex10/114_hires.png

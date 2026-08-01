@@ -6,4 +6,6 @@ attributes:
   number: "6/182"
   rarity: Common
   illustrator: Scav
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/6_hires.png

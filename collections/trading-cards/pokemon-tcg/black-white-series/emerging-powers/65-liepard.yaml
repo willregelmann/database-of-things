@@ -6,4 +6,6 @@ attributes:
   number: "65/98"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw2/65_hires.png

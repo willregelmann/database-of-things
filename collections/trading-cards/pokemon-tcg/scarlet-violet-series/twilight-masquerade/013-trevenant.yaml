@@ -6,4 +6,6 @@ attributes:
   number: "13/167"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/13_hires.png

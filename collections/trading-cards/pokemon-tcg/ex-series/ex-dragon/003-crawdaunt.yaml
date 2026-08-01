@@ -6,4 +6,6 @@ attributes:
   number: "3/97"
   rarity: Rare Holo
   illustrator: Hisao Nakamura
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex3/3_hires.png

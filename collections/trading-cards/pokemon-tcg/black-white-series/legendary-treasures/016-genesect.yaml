@@ -6,4 +6,6 @@ attributes:
   number: "16/113"
   rarity: Rare Holo
   illustrator: Ayaka Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/16_hires.png

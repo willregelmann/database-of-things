@@ -6,4 +6,6 @@ attributes:
   number: "16/100"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/16_hires.png

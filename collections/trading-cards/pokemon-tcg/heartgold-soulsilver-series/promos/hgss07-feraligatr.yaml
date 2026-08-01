@@ -6,4 +6,6 @@ attributes:
   number: "HGSS07"
   rarity: Promo
   illustrator: Kent Kanetsuna
+  type:
+    - Water
 image: https://images.pokemontcg.io/hsp/HGSS07_hires.png

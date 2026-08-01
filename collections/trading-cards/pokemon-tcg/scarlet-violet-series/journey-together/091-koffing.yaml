@@ -6,4 +6,6 @@ attributes:
   number: "91/159"
   rarity: Common
   illustrator: Rond
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv9/91_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "198/185"
   rarity: Rare Secret
   illustrator: aky CG Works
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh4/198_hires.png

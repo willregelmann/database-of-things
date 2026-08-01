@@ -6,4 +6,6 @@ attributes:
   number: "51/70"
   rarity: Uncommon
   illustrator: Sanosuke Sakuma
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/51_hires.png

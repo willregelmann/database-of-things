@@ -6,4 +6,6 @@ attributes:
   number: "118/203"
   rarity: Rare Holo
   illustrator: otumami
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/118_hires.png

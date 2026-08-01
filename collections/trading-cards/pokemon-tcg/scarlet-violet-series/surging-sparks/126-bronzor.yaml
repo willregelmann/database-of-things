@@ -6,4 +6,6 @@ attributes:
   number: "126/191"
   rarity: Common
   illustrator: Nabatame Kazutaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/126_hires.png

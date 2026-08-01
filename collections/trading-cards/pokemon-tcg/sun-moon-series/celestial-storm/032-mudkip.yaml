@@ -6,4 +6,6 @@ attributes:
   number: "32/168"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm7/32_hires.png

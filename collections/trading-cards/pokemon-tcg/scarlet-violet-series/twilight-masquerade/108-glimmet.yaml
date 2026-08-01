@@ -6,4 +6,6 @@ attributes:
   number: "108/167"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6/108_hires.png

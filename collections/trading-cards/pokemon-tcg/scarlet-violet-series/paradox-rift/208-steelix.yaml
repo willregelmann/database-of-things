@@ -6,4 +6,6 @@ attributes:
   number: "208/182"
   rarity: Illustration Rare
   illustrator: nisimono
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/208_hires.png

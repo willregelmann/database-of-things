@@ -6,4 +6,6 @@ attributes:
   number: "96/198"
   rarity: Rare
   illustrator: GOSSAN
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/96_hires.png

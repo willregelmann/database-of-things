@@ -6,4 +6,6 @@ attributes:
   number: "77/202"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/77_hires.png

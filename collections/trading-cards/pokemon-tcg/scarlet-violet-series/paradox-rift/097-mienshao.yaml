@@ -6,4 +6,6 @@ attributes:
   number: "97/182"
   rarity: Uncommon
   illustrator: Mousho
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/97_hires.png

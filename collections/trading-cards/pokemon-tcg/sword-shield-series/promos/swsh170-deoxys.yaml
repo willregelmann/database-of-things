@@ -6,4 +6,6 @@ attributes:
   number: "SWSH170"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH170_hires.png

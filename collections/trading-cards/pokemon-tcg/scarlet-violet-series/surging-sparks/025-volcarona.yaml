@@ -6,4 +6,6 @@ attributes:
   number: "25/191"
   rarity: Common
   illustrator: matazo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/25_hires.png

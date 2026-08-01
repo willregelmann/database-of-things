@@ -6,4 +6,6 @@ attributes:
   number: "101/197"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3/101_hires.png

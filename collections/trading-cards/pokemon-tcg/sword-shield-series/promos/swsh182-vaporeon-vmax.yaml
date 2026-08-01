@@ -6,4 +6,6 @@ attributes:
   number: "SWSH182"
   rarity: Promo
   illustrator: Atsushi Furusawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH182_hires.png

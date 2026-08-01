@@ -6,4 +6,6 @@ attributes:
   number: "41/101"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex5/41_hires.png

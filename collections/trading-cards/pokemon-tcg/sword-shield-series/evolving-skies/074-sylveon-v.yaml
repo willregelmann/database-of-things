@@ -6,4 +6,6 @@ attributes:
   number: "74/203"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/74_hires.png

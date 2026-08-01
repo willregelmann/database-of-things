@@ -6,4 +6,6 @@ attributes:
   number: "RT2"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl2/RT2_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "8/189"
   rarity: Common
   illustrator: aoki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/8_hires.png

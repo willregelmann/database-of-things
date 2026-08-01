@@ -6,4 +6,6 @@ attributes:
   number: "SV30/SV94"
   rarity: Rare Shiny
   illustrator: Mizue
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sma/SV30_hires.png

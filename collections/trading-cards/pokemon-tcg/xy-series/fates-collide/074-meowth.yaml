@@ -6,4 +6,6 @@ attributes:
   number: "74/124"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy10/74_hires.png

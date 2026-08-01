@@ -6,4 +6,6 @@ attributes:
   number: "13/172"
   rarity: Rare Holo V
   illustrator: Satoshi Shirai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh9/13_hires.png

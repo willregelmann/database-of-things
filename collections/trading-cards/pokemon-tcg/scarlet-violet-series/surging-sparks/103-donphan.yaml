@@ -6,4 +6,6 @@ attributes:
   number: "103/191"
   rarity: Common
   illustrator: GOSSAN
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/103_hires.png

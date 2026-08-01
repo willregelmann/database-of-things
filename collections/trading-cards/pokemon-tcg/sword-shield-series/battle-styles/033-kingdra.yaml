@@ -6,4 +6,6 @@ attributes:
   number: "33/163"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/33_hires.png

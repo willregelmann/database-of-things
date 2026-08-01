@@ -6,4 +6,6 @@ attributes:
   number: "049"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/49_hires.png

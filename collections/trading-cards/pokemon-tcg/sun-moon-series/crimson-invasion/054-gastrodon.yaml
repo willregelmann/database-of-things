@@ -6,4 +6,6 @@ attributes:
   number: "54/111"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm4/54_hires.png

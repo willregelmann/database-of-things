@@ -6,4 +6,6 @@ attributes:
   number: "153/162"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy8/153_hires.png

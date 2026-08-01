@@ -6,4 +6,6 @@ attributes:
   number: "73/159"
   rarity: Uncommon
   illustrator: Nisota Niso
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/73_hires.png

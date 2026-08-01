@@ -6,4 +6,6 @@ attributes:
   number: "SV062/SV122"
   rarity: Rare Shiny
   illustrator: Naoki Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV062_hires.png

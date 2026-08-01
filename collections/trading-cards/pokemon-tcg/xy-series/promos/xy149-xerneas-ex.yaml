@@ -6,4 +6,6 @@ attributes:
   number: "XY149"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xyp/XY149_hires.png

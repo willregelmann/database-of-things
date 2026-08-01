@@ -6,4 +6,6 @@ attributes:
   number: "84/124"
   rarity: Rare Holo
   illustrator: HiRON
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw6/84_hires.png

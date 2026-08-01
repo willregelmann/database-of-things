@@ -6,4 +6,6 @@ attributes:
   number: "185/196"
   rarity: Rare Ultra
   illustrator: N-DESIGN Inc.
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/185_hires.png

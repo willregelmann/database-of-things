@@ -6,4 +6,6 @@ attributes:
   number: "148/142"
   rarity: Illustration Rare
   illustrator: Saboteri
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/148_hires.png

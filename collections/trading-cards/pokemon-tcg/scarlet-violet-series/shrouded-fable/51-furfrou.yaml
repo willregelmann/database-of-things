@@ -6,4 +6,6 @@ attributes:
   number: "51/64"
   rarity: Common
   illustrator: Shinya Komatsu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6pt5/51_hires.png

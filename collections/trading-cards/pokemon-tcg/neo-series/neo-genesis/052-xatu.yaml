@@ -6,4 +6,6 @@ attributes:
   number: "52/111"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo1/52_hires.png

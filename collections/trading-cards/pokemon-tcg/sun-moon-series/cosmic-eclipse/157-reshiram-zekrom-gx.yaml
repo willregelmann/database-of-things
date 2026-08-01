@@ -6,4 +6,6 @@ attributes:
   number: "157/236"
   rarity: Rare Holo GX
   illustrator: Naoki Saito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm12/157_hires.png

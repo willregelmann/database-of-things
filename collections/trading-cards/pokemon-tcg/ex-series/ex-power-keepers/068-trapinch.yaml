@@ -6,4 +6,6 @@ attributes:
   number: "68/108"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex16/68_hires.png

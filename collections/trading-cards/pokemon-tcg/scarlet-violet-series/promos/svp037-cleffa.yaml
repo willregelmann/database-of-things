@@ -6,4 +6,6 @@ attributes:
   number: "037"
   rarity: Promo
   illustrator: Mina Nakai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/37_hires.png

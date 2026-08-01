@@ -6,4 +6,6 @@ attributes:
   number: "36/193"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv2/36_hires.png

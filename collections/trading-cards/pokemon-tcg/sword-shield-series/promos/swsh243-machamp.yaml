@@ -6,4 +6,6 @@ attributes:
   number: "SWSH243"
   rarity: Promo
   illustrator: GOSSAN
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH243_hires.png

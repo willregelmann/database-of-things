@@ -6,4 +6,6 @@ attributes:
   number: "032"
   rarity: Promo
   illustrator: PLANETA Hiiragi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/svp/32_hires.png

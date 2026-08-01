@@ -6,4 +6,6 @@ attributes:
   number: "55/163"
   rarity: Common
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/55_hires.png

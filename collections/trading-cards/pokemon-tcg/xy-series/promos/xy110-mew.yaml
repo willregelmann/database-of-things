@@ -6,4 +6,6 @@ attributes:
   number: "XY110"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY110_hires.png

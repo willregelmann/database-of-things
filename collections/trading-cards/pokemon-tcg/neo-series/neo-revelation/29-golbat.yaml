@@ -6,4 +6,6 @@ attributes:
   number: "29/64"
   rarity: Uncommon
   illustrator: Masako Yamashita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo3/29_hires.png

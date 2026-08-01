@@ -6,4 +6,6 @@ attributes:
   number: "201/214"
   rarity: Rare Ultra
   illustrator: PLANETA Otani
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/201_hires.png

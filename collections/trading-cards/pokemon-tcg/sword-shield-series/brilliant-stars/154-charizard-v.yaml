@@ -6,4 +6,6 @@ attributes:
   number: "154/172"
   rarity: Rare Ultra
   illustrator: Ryota Murayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh9/154_hires.png

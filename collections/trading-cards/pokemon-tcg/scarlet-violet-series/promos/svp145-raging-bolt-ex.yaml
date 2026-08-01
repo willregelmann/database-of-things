@@ -6,4 +6,6 @@ attributes:
   number: "145"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/svp/145_hires.png

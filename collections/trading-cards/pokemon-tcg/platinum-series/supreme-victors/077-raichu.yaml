@@ -6,4 +6,6 @@ attributes:
   number: "77/147"
   rarity: Uncommon
   illustrator: Takao Unno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/77_hires.png

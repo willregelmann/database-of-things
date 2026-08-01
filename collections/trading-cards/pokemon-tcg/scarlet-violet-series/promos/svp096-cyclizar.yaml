@@ -6,4 +6,6 @@ attributes:
   number: "096"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/96_hires.png

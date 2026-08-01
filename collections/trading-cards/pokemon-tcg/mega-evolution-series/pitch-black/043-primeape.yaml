@@ -6,4 +6,6 @@ attributes:
   number: "43/84"
   rarity: Common
   illustrator: GOSSAN
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me5-43/large

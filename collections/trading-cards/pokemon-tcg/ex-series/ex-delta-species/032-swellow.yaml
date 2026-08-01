@@ -6,4 +6,6 @@ attributes:
   number: "32/113"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex11/32_hires.png

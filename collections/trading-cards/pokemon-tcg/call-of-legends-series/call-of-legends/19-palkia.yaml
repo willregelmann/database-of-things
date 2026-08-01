@@ -6,4 +6,6 @@ attributes:
   number: "19/95"
   rarity: Rare Holo
   illustrator: Daisuke Iwamoto
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/19_hires.png

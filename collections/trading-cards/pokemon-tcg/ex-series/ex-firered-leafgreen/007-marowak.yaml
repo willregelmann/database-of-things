@@ -6,4 +6,6 @@ attributes:
   number: "7/112"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex6/7_hires.png

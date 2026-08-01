@@ -6,4 +6,6 @@ attributes:
   number: "11/20"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/11_hires.png

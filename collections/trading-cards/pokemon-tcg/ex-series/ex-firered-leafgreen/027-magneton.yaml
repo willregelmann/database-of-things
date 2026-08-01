@@ -6,4 +6,6 @@ attributes:
   number: "27/112"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex6/27_hires.png

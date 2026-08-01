@@ -6,4 +6,6 @@ attributes:
   number: "105/182"
   rarity: Uncommon
   illustrator: Yuya Oka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/105_hires.png

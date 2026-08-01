@@ -6,4 +6,6 @@ attributes:
   number: "82/114"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw1/82_hires.png

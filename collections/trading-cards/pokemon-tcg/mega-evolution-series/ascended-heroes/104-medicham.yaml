@@ -6,4 +6,6 @@ attributes:
   number: "104/217"
   rarity: Common
   illustrator: GIDORA
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-104/large

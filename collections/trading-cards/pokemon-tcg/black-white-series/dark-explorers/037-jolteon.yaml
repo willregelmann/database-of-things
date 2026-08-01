@@ -6,4 +6,6 @@ attributes:
   number: "37/108"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw5/37_hires.png

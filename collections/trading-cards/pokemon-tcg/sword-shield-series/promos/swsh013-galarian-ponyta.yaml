@@ -6,4 +6,6 @@ attributes:
   number: "SWSH013"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH013_hires.png

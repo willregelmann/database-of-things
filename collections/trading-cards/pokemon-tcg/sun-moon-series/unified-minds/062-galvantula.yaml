@@ -6,4 +6,6 @@ attributes:
   number: "62/236"
   rarity: Rare
   illustrator: Yumi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/62_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "205/182"
   rarity: Illustration Rare
   illustrator: Masako Tomii
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/205_hires.png

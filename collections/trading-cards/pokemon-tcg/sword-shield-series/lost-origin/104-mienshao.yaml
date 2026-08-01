@@ -6,4 +6,6 @@ attributes:
   number: "104/196"
   rarity: Uncommon
   illustrator: Shibuzoh.
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/104_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "142/182"
   rarity: Common
   illustrator: Taiga Kayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/142_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "10/98"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy7/10_hires.png

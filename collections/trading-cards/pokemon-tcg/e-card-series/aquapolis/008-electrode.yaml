@@ -6,4 +6,6 @@ attributes:
   number: "8/147"
   rarity: Rare
   illustrator: Shin-ichi Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard2/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "064"
   rarity: Promo
   illustrator: LINNE
+  type:
+    - Grass
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/SerperiorMEPPromo64.jpg

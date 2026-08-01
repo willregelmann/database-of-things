@@ -6,4 +6,6 @@ attributes:
   number: "26/86"
   rarity: Uncommon
   illustrator: Takeshi Nakamura
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me4-26/large

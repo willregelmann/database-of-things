@@ -6,4 +6,6 @@ attributes:
   number: "GG56/GG70"
   rarity: Rare Holo VSTAR
   illustrator: SIE NANAHARA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG56_hires.png

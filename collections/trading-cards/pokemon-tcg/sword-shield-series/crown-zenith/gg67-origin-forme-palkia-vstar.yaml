@@ -6,4 +6,6 @@ attributes:
   number: "GG67/GG70"
   rarity: Rare Secret
   illustrator: AKIRA EGAWA
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12pt5gg/GG67_hires.png

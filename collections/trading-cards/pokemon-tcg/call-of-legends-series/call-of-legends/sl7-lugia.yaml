@@ -6,4 +6,6 @@ attributes:
   number: "SL7"
   rarity: Rare Holo
   illustrator: Hideaki Hakozaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/col1/SL7_hires.png

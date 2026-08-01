@@ -6,4 +6,6 @@ attributes:
   number: "42/162"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv5/42_hires.png

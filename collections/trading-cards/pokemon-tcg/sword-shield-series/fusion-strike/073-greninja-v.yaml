@@ -6,4 +6,6 @@ attributes:
   number: "73/264"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/73_hires.png

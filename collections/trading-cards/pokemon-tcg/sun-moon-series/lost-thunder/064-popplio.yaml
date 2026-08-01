@@ -6,4 +6,6 @@ attributes:
   number: "64/214"
   rarity: Common
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm8/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "087"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/87_hires.png

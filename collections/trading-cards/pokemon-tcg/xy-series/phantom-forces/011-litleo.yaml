@@ -6,4 +6,6 @@ attributes:
   number: "11/119"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy4/11_hires.png

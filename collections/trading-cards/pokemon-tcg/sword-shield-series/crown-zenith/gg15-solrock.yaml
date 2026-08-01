@@ -6,4 +6,6 @@ attributes:
   number: "GG15/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Nobuhiro Imagawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12pt5gg/GG15_hires.png

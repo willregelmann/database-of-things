@@ -6,4 +6,6 @@ attributes:
   number: "9/106"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex9/9_hires.png

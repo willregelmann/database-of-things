@@ -6,4 +6,6 @@ attributes:
   number: "11/189"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/11_hires.png

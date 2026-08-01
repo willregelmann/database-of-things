@@ -6,4 +6,6 @@ attributes:
   number: "73/131"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/73_hires.png

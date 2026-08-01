@@ -6,4 +6,6 @@ attributes:
   number: "7/132"
   rarity: Uncommon
   illustrator: REND
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/7_hires.png

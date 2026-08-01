@@ -6,4 +6,6 @@ attributes:
   number: "95/124"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw6/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/198"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh6/51_hires.png

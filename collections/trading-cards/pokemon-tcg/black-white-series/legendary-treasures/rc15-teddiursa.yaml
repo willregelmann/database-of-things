@@ -6,4 +6,6 @@ attributes:
   number: "RC15/RC25"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/RC15_hires.png

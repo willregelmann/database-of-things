@@ -6,4 +6,6 @@ attributes:
   number: "SWSH073"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH073_hires.png

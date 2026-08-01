@@ -6,4 +6,6 @@ attributes:
   number: "34/167"
   rarity: Common
   illustrator: osare
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/34_hires.png

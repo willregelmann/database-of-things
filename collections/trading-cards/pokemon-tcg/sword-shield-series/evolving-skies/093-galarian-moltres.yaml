@@ -6,4 +6,6 @@ attributes:
   number: "93/203"
   rarity: Rare Holo
   illustrator: Kazuma Koda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh7/93_hires.png

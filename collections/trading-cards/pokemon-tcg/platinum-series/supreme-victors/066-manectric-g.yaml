@@ -6,4 +6,6 @@ attributes:
   number: "66/147"
   rarity: Uncommon
   illustrator: Ryota Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/66_hires.png

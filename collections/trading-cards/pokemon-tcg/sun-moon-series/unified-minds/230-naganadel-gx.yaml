@@ -6,4 +6,6 @@ attributes:
   number: "230/236"
   rarity: Rare Ultra
   illustrator: ConceptLab
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/230_hires.png

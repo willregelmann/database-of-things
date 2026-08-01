@@ -6,4 +6,6 @@ attributes:
   number: "004"
   rarity: Promo
   illustrator: Ounishi
+  type:
+    - Fighting
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/LunatoneMEPPromo4.jpg

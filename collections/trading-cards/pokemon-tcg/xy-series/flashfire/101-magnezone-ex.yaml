@@ -6,4 +6,6 @@ attributes:
   number: "101/106"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy2/101_hires.png

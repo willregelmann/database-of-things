@@ -6,4 +6,6 @@ attributes:
   number: "203"
   rarity: Promo
   illustrator: Saboteri
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/203_hires.png

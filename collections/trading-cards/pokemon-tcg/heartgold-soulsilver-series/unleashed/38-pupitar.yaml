@@ -6,4 +6,6 @@ attributes:
   number: "38/95"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss2/38_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "92/236"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/92_hires.png

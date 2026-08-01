@@ -6,4 +6,6 @@ attributes:
   number: "129/196"
   rarity: Rare Holo V
   illustrator: PLANETA Yamashita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh11/129_hires.png

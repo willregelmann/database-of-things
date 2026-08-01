@@ -6,4 +6,6 @@ attributes:
   number: "77/106"
   rarity: Common
   illustrator: Motofumi Fujiwara
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/77_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "262/182"
   rarity: Hyper Rare
   illustrator: takuyoa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/262_hires.png

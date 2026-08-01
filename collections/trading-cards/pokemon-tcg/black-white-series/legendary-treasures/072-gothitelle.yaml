@@ -6,4 +6,6 @@ attributes:
   number: "72/113"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/72_hires.png

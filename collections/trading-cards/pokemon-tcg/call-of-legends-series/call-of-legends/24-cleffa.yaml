@@ -6,4 +6,6 @@ attributes:
   number: "24/95"
   rarity: Rare
   illustrator: sui
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/col1/24_hires.png

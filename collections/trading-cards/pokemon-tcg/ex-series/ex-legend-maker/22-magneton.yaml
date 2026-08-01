@@ -6,4 +6,6 @@ attributes:
   number: "22/92"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex12/22_hires.png

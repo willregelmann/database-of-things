@@ -6,4 +6,6 @@ attributes:
   number: "149/191"
   rarity: Common
   illustrator: Ligton
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/149_hires.png

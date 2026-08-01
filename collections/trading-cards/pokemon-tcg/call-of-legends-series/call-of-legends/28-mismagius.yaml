@@ -6,4 +6,6 @@ attributes:
   number: "28/95"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/28_hires.png

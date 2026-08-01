@@ -6,4 +6,6 @@ attributes:
   number: "102/185"
   rarity: Amazing Rare
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/102_hires.png

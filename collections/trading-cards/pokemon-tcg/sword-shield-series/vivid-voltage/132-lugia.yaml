@@ -6,4 +6,6 @@ attributes:
   number: "132/185"
   rarity: Rare Holo
   illustrator: NC Empire
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh4/132_hires.png

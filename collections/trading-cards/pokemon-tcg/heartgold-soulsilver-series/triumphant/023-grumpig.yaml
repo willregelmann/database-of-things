@@ -6,4 +6,6 @@ attributes:
   number: "23/102"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/23_hires.png

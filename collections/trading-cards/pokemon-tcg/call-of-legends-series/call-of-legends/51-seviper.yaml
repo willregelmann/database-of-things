@@ -6,4 +6,6 @@ attributes:
   number: "51/95"
   rarity: Uncommon
   illustrator: Wataru Kawahara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/51_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "96/264"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh8/96_hires.png

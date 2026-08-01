@@ -6,4 +6,6 @@ attributes:
   number: "21/25"
   rarity: Rare Holo
   illustrator: kirisAki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/cel25/21_hires.png

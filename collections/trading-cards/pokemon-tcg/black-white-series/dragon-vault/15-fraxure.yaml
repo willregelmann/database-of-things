@@ -6,4 +6,6 @@ attributes:
   number: "15/20"
   rarity: Rare Holo
   illustrator: match
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/15_hires.png

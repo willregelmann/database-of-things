@@ -6,4 +6,6 @@ attributes:
   number: "102/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/102_hires.png

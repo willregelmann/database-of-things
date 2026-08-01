@@ -6,4 +6,6 @@ attributes:
   number: "46/88"
   rarity: Common
   illustrator: osare
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-46/large

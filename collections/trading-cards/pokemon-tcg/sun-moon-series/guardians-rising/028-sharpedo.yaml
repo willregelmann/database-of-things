@@ -6,4 +6,6 @@ attributes:
   number: "28/145"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm2/28_hires.png

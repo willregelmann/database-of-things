@@ -6,4 +6,6 @@ attributes:
   number: "107/181"
   rarity: Common
   illustrator: sui
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm9/107_hires.png

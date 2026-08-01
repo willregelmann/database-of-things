@@ -6,4 +6,6 @@ attributes:
   number: "6/193"
   rarity: Uncommon
   illustrator: GOSSAN
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv2/6_hires.png

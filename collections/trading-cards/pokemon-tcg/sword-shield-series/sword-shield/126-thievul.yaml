@@ -6,4 +6,6 @@ attributes:
   number: "126/202"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh1/126_hires.png

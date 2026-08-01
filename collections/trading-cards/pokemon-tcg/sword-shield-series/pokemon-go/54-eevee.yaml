@@ -6,4 +6,6 @@ attributes:
   number: "54/78"
   rarity: Common
   illustrator: N-DESIGN Inc.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pgo/54_hires.png

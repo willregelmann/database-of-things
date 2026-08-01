@@ -6,4 +6,6 @@ attributes:
   number: "139/131"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm6/139_hires.png

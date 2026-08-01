@@ -6,4 +6,6 @@ attributes:
   number: "19/106"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex9/19_hires.png

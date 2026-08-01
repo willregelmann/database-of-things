@@ -6,4 +6,6 @@ attributes:
   number: "95/189"
   rarity: Common
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh10/95_hires.png

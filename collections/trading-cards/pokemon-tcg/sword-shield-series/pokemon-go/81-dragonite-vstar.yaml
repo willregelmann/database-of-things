@@ -6,4 +6,6 @@ attributes:
   number: "81/78"
   rarity: Rare Rainbow
   illustrator: PLANETA Tsuji
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/pgo/81_hires.png

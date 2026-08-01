@@ -6,4 +6,6 @@ attributes:
   number: "58/113"
   rarity: Rare
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "7/147"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl3/7_hires.png

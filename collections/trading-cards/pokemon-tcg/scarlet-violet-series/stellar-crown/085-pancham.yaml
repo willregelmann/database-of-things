@@ -6,4 +6,6 @@ attributes:
   number: "85/142"
   rarity: Common
   illustrator: Tomomi Ozaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/85_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/198"
   rarity: Common
   illustrator: nagimiso
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv1/33_hires.png

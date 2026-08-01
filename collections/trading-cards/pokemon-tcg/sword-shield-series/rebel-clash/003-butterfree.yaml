@@ -6,4 +6,6 @@ attributes:
   number: "3/192"
   rarity: Rare
   illustrator: Taira Akitsu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh2/3_hires.png

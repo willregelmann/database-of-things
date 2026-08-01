@@ -6,4 +6,6 @@ attributes:
   number: "19/147"
   rarity: Rare
   illustrator: Ryota Saito
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/19_hires.png

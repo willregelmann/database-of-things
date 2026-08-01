@@ -6,4 +6,6 @@ attributes:
   number: "56/189"
   rarity: Uncommon
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/56_hires.png

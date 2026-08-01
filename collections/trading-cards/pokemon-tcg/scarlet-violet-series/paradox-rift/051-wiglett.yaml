@@ -6,4 +6,6 @@ attributes:
   number: "51/182"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4/51_hires.png

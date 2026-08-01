@@ -6,4 +6,6 @@ attributes:
   number: "13/127"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl1/13_hires.png

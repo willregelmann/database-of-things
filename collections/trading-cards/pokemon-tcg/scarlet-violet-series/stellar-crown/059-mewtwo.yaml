@@ -6,4 +6,6 @@ attributes:
   number: "59/142"
   rarity: Uncommon
   illustrator: kantaro
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/59_hires.png

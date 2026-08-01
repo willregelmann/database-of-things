@@ -6,4 +6,6 @@ attributes:
   number: "68/97"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex3/68_hires.png

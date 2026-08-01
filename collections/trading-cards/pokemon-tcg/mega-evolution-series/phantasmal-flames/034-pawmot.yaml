@@ -6,4 +6,6 @@ attributes:
   number: "34/94"
   rarity: Rare
   illustrator: satoma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me2/34_hires.png

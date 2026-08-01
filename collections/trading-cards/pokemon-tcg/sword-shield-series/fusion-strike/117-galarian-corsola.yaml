@@ -6,4 +6,6 @@ attributes:
   number: "117/264"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/117_hires.png

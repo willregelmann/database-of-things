@@ -6,6 +6,8 @@ attributes:
   number: "42/110"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base6/42_hires.png
 variants:
   - id: 67901d4e-e6a9-451d-af3a-3001b67692da

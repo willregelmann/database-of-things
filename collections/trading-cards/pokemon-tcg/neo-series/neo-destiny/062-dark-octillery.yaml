@@ -6,4 +6,6 @@ attributes:
   number: "62/105"
   rarity: Common
   illustrator: Shin-ichi Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo4/62_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "212/203"
   rarity: Rare Rainbow
   illustrator: Taira Akitsu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/212_hires.png

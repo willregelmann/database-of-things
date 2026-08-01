@@ -6,4 +6,6 @@ attributes:
   number: "115/203"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/115_hires.png

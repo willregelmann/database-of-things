@@ -6,4 +6,6 @@ attributes:
   number: "94/156"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm5/94_hires.png

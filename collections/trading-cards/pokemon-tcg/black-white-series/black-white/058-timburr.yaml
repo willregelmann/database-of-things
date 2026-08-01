@@ -6,4 +6,6 @@ attributes:
   number: "58/114"
   rarity: Common
   illustrator: match
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw1/58_hires.png

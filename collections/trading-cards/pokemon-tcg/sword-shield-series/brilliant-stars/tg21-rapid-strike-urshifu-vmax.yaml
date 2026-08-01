@@ -6,4 +6,6 @@ attributes:
   number: "TG21/TG30"
   rarity: Rare Holo VMAX
   illustrator: Scav
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9tg/TG21_hires.png

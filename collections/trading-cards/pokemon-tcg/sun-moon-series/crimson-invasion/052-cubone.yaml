@@ -6,4 +6,6 @@ attributes:
   number: "52/111"
   rarity: Common
   illustrator: sui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm4/52_hires.png

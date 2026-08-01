@@ -6,4 +6,6 @@ attributes:
   number: "18/95"
   rarity: Rare
   illustrator: Katsura Tabata
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/18_hires.png

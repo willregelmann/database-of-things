@@ -6,4 +6,6 @@ attributes:
   number: "216/167"
   rarity: Special Illustration Rare
   illustrator: MINAMINAMI Take
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/216_hires.png

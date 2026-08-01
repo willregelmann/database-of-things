@@ -6,4 +6,6 @@ attributes:
   number: "76/114"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw1/76_hires.png

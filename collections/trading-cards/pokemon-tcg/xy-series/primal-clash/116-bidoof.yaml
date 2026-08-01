@@ -6,4 +6,6 @@ attributes:
   number: "116/160"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy5/116_hires.png

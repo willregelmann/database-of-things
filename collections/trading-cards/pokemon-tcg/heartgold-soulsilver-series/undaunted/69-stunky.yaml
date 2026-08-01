@@ -6,4 +6,6 @@ attributes:
   number: "69/90"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/hgss3/69_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "16/88"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me3-16/large

@@ -6,4 +6,6 @@ attributes:
   number: "196/192"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/196_hires.png

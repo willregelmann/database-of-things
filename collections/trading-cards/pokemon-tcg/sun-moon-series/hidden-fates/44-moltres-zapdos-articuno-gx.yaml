@@ -6,4 +6,6 @@ attributes:
   number: "44/68"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm115/44_hires.png

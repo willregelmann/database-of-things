@@ -6,4 +6,6 @@ attributes:
   number: "8/75"
   rarity: Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo2/8_hires.png

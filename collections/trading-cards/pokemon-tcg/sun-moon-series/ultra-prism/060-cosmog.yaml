@@ -6,4 +6,6 @@ attributes:
   number: "60/156"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm5/60_hires.png

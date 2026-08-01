@@ -6,4 +6,6 @@ attributes:
   number: "BW61"
   rarity: Promo
   illustrator: Toyste Beach
+  type:
+    - Water
 image: https://images.pokemontcg.io/bwp/BW61_hires.png

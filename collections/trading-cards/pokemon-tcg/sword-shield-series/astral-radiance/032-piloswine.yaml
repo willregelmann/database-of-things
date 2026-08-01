@@ -6,4 +6,6 @@ attributes:
   number: "32/189"
   rarity: Uncommon
   illustrator: yuu
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/32_hires.png

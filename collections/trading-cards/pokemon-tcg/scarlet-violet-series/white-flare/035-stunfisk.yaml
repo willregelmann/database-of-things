@@ -6,4 +6,6 @@ attributes:
   number: "35/86"
   rarity: Uncommon
   illustrator: Yuya Oka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/35_hires.png

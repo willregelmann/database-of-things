@@ -6,4 +6,6 @@ attributes:
   number: "098"
   rarity: Promo
   illustrator: Tonji Matsuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/98_hires.png

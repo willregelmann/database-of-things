@@ -6,4 +6,6 @@ attributes:
   number: "SM53"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM53_hires.png

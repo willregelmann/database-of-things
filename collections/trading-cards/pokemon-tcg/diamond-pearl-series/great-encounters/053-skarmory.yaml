@@ -6,4 +6,6 @@ attributes:
   number: "53/106"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp4/53_hires.png

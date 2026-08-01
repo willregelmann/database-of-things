@@ -6,4 +6,6 @@ attributes:
   number: "14/84"
   rarity: Uncommon
   illustrator: OKUBO
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me5-14/large

@@ -6,4 +6,6 @@ attributes:
   number: "73/86"
   rarity: Uncommon
   illustrator: Tomomi Ozaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/zsv10pt5/73_hires.png

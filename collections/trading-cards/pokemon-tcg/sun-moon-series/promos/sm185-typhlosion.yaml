@@ -6,4 +6,6 @@ attributes:
   number: "SM185"
   rarity: Promo
   illustrator: Hideki Ishikawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM185_hires.png

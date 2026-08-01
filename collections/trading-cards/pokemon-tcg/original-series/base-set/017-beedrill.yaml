@@ -6,6 +6,8 @@ attributes:
   number: "17/102"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base1/17_hires.png
 variants:
   - id: 4d48e3c6-207a-48a2-9f7f-679bd264024c

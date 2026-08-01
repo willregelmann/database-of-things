@@ -6,4 +6,6 @@ attributes:
   number: "60/122"
   rarity: Common
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy9/60_hires.png

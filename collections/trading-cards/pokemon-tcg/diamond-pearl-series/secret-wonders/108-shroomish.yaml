@@ -6,4 +6,6 @@ attributes:
   number: "108/132"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp3/108_hires.png

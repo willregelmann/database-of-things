@@ -6,4 +6,6 @@ attributes:
   number: "203/193"
   rarity: Illustration Rare
   illustrator: Shinji Kanda
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/203_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "12/82"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base5/12_hires.png

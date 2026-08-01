@@ -6,4 +6,6 @@ attributes:
   number: "54/70"
   rarity: Rare Holo
   illustrator: so-taro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/54_hires.png

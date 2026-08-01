@@ -6,4 +6,6 @@ attributes:
   number: "26/98"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw2/26_hires.png

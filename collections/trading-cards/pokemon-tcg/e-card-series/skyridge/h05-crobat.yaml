@@ -6,4 +6,6 @@ attributes:
   number: "H5/H32"
   rarity: Rare Holo
   illustrator: Kimiya Masago
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/H5_hires.png

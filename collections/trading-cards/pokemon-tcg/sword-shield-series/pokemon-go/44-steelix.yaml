@@ -6,4 +6,6 @@ attributes:
   number: "44/78"
   rarity: Uncommon
   illustrator: GOSSAN
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pgo/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/113"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex11/51_hires.png

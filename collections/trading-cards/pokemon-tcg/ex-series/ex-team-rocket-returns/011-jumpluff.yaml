@@ -6,4 +6,6 @@ attributes:
   number: "11/109"
   rarity: Rare Holo
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex7/11_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "83/92"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex12/83_hires.png

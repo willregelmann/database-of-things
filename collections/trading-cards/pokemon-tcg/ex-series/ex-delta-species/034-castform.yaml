@@ -6,4 +6,6 @@ attributes:
   number: "34/113"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex11/34_hires.png

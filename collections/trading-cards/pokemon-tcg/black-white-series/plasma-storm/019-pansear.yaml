@@ -6,4 +6,6 @@ attributes:
   number: "19/135"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw8/19_hires.png

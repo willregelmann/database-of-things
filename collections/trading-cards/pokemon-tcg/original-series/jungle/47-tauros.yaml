@@ -6,4 +6,6 @@ attributes:
   number: "47/64"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base2/47_hires.png

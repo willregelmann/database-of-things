@@ -6,4 +6,6 @@ attributes:
   number: "DP23"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dpp/DP23_hires.png

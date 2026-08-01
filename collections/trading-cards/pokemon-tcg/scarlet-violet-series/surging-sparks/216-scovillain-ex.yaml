@@ -6,4 +6,6 @@ attributes:
   number: "216/191"
   rarity: Ultra Rare
   illustrator: PLANETA Igarashi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/216_hires.png

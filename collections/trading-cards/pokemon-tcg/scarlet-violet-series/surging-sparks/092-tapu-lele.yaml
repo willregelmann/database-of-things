@@ -6,4 +6,6 @@ attributes:
   number: "92/191"
   rarity: Rare
   illustrator: Natsumi Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/92_hires.png

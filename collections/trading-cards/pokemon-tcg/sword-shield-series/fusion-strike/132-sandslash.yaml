@@ -6,4 +6,6 @@ attributes:
   number: "132/264"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh8/132_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/101"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex15/33_hires.png

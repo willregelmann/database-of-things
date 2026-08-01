@@ -6,4 +6,6 @@ attributes:
   number: "SV43/SV94"
   rarity: Rare Shiny
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sma/SV43_hires.png

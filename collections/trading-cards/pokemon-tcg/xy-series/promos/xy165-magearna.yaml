@@ -6,4 +6,6 @@ attributes:
   number: "XY165"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY165_hires.png

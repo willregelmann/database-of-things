@@ -6,4 +6,6 @@ attributes:
   number: "120/86"
   rarity: Illustration Rare
   illustrator: Masako Tomii
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/zsv10pt5/120_hires.png

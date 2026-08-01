@@ -6,4 +6,6 @@ attributes:
   number: "80/105"
   rarity: Common
   illustrator: Jungo Suzuki, CR CG gangs
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo4/80_hires.png

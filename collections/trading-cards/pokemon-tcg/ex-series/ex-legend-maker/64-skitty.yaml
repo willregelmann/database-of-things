@@ -6,4 +6,6 @@ attributes:
   number: "64/92"
   rarity: Common
   illustrator: Satoshi Ohta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex12/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "64/108"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy12/64_hires.png

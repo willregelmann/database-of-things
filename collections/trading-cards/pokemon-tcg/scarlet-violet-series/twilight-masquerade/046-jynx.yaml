@@ -6,4 +6,6 @@ attributes:
   number: "46/167"
   rarity: Common
   illustrator: Gapao
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/46_hires.png

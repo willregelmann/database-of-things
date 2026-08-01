@@ -6,4 +6,6 @@ attributes:
   number: "DP29"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dpp/DP29_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "8/68"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm115/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "87/98"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw2/87_hires.png

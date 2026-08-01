@@ -6,4 +6,6 @@ attributes:
   number: "74/202"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/74_hires.png

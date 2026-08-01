@@ -6,4 +6,6 @@ attributes:
   number: "16/20"
   rarity: Rare Holo
   illustrator: Eske Yoshinob
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/16_hires.png

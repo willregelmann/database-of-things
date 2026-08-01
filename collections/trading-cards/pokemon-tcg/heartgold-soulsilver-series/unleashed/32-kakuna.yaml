@@ -6,4 +6,6 @@ attributes:
   number: "32/95"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss2/32_hires.png

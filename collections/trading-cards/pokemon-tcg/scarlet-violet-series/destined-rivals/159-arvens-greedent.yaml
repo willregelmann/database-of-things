@@ -6,4 +6,6 @@ attributes:
   number: "159/182"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/159_hires.png

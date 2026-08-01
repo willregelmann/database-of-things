@@ -6,4 +6,6 @@ attributes:
   number: "97/144"
   rarity: Common
   illustrator: Katsura Tabata
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard3/97_hires.png

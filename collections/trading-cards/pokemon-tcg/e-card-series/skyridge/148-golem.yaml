@@ -6,4 +6,6 @@ attributes:
   number: "148/144"
   rarity: Rare Secret
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/148_hires.png

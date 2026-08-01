@@ -6,4 +6,6 @@ attributes:
   number: "108/203"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/108_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "57/108"
   rarity: Rare Holo
   illustrator: TOKIYA
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy6/57_hires.png

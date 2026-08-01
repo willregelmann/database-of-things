@@ -6,4 +6,6 @@ attributes:
   number: "10/53"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/10_hires.png

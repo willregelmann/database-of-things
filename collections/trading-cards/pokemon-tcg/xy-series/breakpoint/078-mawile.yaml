@@ -6,4 +6,6 @@ attributes:
   number: "78/122"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy9/78_hires.png

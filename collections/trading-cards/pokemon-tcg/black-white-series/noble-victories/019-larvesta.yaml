@@ -6,4 +6,6 @@ attributes:
   number: "19/101"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw3/19_hires.png

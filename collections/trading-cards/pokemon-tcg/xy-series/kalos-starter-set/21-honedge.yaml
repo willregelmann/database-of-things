@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "21/39"
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy0/21_hires.png

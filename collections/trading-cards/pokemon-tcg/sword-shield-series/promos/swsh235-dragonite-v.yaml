@@ -6,4 +6,6 @@ attributes:
   number: "SWSH235"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swshp/SWSH235_hires.png

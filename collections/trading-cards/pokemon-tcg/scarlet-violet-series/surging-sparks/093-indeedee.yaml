@@ -6,4 +6,6 @@ attributes:
   number: "93/191"
   rarity: Uncommon
   illustrator: Sekio
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/93_hires.png

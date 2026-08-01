@@ -6,4 +6,6 @@ attributes:
   number: "78/163"
   rarity: Common
   illustrator: SATOSHI NAKAI
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/78_hires.png

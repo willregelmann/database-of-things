@@ -6,4 +6,6 @@ attributes:
   number: "52/195"
   rarity: Uncommon
   illustrator: aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12/52_hires.png

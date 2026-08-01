@@ -6,4 +6,6 @@ attributes:
   number: "56/202"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/56_hires.png

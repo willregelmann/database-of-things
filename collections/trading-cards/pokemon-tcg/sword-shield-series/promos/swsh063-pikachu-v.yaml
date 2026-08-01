@@ -6,4 +6,6 @@ attributes:
   number: "SWSH063"
   rarity: Promo
   illustrator: Ryota Murayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH063_hires.png

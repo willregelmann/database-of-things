@@ -6,4 +6,6 @@ attributes:
   number: "26/95"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/col1/26_hires.png

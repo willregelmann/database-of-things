@@ -6,4 +6,6 @@ attributes:
   number: "120/236"
   rarity: Uncommon
   illustrator: "0313"
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm11/120_hires.png

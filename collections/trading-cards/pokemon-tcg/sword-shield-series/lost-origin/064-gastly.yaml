@@ -6,4 +6,6 @@ attributes:
   number: "64/196"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh11/64_hires.png

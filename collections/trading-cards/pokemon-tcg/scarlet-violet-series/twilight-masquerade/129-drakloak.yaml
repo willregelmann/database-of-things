@@ -6,4 +6,6 @@ attributes:
   number: "129/167"
   rarity: Common
   illustrator: cochi8i
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/129_hires.png

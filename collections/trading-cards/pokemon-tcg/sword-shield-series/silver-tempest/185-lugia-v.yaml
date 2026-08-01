@@ -6,4 +6,6 @@ attributes:
   number: "185/195"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/185_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "21/53"
   rarity: Promo
   illustrator: Toshinao Aoki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/basep/21_hires.png

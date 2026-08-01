@@ -6,4 +6,6 @@ attributes:
   number: "174/185"
   rarity: Rare Ultra
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/174_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "148/195"
   rarity: Common
   illustrator: kurumitsu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/148_hires.png

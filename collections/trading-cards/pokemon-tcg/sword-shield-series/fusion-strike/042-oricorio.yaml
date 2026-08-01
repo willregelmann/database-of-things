@@ -6,4 +6,6 @@ attributes:
   number: "42/264"
   rarity: Rare
   illustrator: Oswaldo KATO
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/42_hires.png

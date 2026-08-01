@@ -6,4 +6,6 @@ attributes:
   number: "134/86"
   rarity: Illustration Rare
   illustrator: Atsuya Uki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/134_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "14/165"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard1/14_hires.png

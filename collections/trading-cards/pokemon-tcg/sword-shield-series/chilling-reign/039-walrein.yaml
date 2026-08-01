@@ -6,4 +6,6 @@ attributes:
   number: "39/198"
   rarity: Rare
   illustrator: KEIICHIRO ITO
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/39_hires.png

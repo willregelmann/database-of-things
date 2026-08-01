@@ -6,4 +6,6 @@ attributes:
   number: "172/197"
   rarity: Uncommon
   illustrator: Keisin
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/172_hires.png

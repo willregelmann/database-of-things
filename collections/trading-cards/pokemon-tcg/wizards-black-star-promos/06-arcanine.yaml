@@ -6,4 +6,6 @@ attributes:
   number: "6/53"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/basep/6_hires.png

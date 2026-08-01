@@ -6,4 +6,6 @@ attributes:
   number: "241/217"
   rarity: Illustration Rare
   illustrator: KEIICHIRO ITO
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-241/large

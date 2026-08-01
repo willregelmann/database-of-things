@@ -6,4 +6,6 @@ attributes:
   number: "69/160"
   rarity: Rare
   illustrator: PLANETA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy5/69_hires.png

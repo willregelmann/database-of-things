@@ -6,4 +6,6 @@ attributes:
   number: "SWSH192"
   rarity: Promo
   illustrator: OKACHEKE
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH192_hires.png

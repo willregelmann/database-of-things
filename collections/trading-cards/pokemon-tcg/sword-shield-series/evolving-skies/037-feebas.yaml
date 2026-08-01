@@ -6,4 +6,6 @@ attributes:
   number: "37/203"
   rarity: Common
   illustrator: tetsuya koizumi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/37_hires.png

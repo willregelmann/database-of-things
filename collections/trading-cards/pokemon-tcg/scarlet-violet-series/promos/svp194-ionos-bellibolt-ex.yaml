@@ -6,4 +6,6 @@ attributes:
   number: "194"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/194_hires.png

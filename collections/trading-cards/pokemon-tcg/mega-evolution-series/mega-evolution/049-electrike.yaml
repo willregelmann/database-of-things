@@ -6,4 +6,6 @@ attributes:
   number: "49/132"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me1/49_hires.png

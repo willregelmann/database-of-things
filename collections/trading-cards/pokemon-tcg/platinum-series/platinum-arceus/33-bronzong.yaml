@@ -6,4 +6,6 @@ attributes:
   number: "33/99"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl4/33_hires.png

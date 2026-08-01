@@ -6,4 +6,6 @@ attributes:
   number: "24/90"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss3/24_hires.png

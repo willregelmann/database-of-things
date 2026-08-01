@@ -6,4 +6,6 @@ attributes:
   number: "68/101"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex5/68_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM17"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM17_hires.png

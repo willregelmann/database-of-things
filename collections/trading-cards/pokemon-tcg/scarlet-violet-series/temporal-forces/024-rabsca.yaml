@@ -6,4 +6,6 @@ attributes:
   number: "24/162"
   rarity: Uncommon
   illustrator: mingo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/24_hires.png

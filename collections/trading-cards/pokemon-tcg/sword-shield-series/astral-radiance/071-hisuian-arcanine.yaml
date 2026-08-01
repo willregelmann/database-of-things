@@ -6,4 +6,6 @@ attributes:
   number: "71/189"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/71_hires.png

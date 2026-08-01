@@ -6,4 +6,6 @@ attributes:
   number: "94/203"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh7/94_hires.png

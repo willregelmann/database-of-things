@@ -6,4 +6,6 @@ attributes:
   number: "129/191"
   rarity: Common
   illustrator: Tonji Matsuno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8/129_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "36/53"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/basep/36_hires.png

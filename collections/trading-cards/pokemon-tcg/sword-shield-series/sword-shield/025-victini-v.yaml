@@ -6,4 +6,6 @@ attributes:
   number: "25/202"
   rarity: Rare Holo V
   illustrator: PLANETA Tsuji
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/25_hires.png

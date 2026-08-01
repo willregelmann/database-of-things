@@ -6,4 +6,6 @@ attributes:
   number: "27/135"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw8/27_hires.png

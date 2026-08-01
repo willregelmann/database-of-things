@@ -6,4 +6,6 @@ attributes:
   number: "XY36"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY36_hires.png

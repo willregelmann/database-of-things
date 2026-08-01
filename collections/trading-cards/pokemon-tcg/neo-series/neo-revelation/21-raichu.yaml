@@ -6,4 +6,6 @@ attributes:
   number: "21/64"
   rarity: Rare
   illustrator: Masako Yamashita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo3/21_hires.png

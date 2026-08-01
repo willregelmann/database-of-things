@@ -6,4 +6,6 @@ attributes:
   number: "62/114"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy11/62_hires.png

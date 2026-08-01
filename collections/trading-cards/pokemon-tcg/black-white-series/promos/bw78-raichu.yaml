@@ -6,4 +6,6 @@ attributes:
   number: "BW78"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bwp/BW78_hires.png

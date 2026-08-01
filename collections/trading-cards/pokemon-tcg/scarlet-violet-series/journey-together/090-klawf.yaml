@@ -6,4 +6,6 @@ attributes:
   number: "90/159"
   rarity: Uncommon
   illustrator: Shinya Komatsu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/90_hires.png

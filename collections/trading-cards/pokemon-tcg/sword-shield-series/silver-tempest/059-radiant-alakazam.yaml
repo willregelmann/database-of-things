@@ -6,4 +6,6 @@ attributes:
   number: "59/195"
   rarity: Radiant Rare
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/59_hires.png

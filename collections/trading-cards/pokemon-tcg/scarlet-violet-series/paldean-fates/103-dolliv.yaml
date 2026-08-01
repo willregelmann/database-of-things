@@ -6,4 +6,6 @@ attributes:
   number: "103/91"
   rarity: Shiny Rare
   illustrator: saino misaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4pt5/103_hires.png

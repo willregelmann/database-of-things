@@ -6,4 +6,6 @@ attributes:
   number: "XY75"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY75_hires.png

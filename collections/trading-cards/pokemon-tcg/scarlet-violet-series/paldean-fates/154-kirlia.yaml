@@ -6,4 +6,6 @@ attributes:
   number: "154/91"
   rarity: Shiny Rare
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/154_hires.png

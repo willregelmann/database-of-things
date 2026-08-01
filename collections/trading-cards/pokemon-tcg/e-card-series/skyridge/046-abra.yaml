@@ -6,4 +6,6 @@ attributes:
   number: "46/144"
   rarity: Common
   illustrator: Keiko Fukuyama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/46_hires.png

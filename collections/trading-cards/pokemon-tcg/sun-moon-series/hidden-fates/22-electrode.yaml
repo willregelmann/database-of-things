@@ -6,4 +6,6 @@ attributes:
   number: "22/68"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm115/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY58"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY58_hires.png

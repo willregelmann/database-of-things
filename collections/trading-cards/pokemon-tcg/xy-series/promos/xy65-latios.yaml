@@ -6,4 +6,6 @@ attributes:
   number: "XY65"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY65_hires.png

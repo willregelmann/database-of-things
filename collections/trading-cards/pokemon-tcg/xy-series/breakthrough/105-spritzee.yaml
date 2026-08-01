@@ -6,4 +6,6 @@ attributes:
   number: "105/162"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy8/105_hires.png

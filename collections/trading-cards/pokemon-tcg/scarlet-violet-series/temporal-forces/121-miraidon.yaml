@@ -6,4 +6,6 @@ attributes:
   number: "121/162"
   rarity: Rare
   illustrator: GOSSAN
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv5/121_hires.png

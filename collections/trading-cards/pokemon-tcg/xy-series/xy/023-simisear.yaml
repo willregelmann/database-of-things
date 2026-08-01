@@ -6,4 +6,6 @@ attributes:
   number: "23/146"
   rarity: Rare
   illustrator: sui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy1/23_hires.png

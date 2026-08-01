@@ -6,4 +6,6 @@ attributes:
   number: "XY76"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xyp/XY76_hires.png

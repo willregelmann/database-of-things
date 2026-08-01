@@ -6,4 +6,6 @@ attributes:
   number: "102/160"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy5/102_hires.png

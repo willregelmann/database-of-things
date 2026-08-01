@@ -6,4 +6,6 @@ attributes:
   number: "93/124"
   rarity: Common
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw6/93_hires.png

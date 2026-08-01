@@ -6,4 +6,6 @@ attributes:
   number: "26/130"
   rarity: Rare
   illustrator: Masahiko Ishii
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp1/26_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "11/98"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw2/11_hires.png

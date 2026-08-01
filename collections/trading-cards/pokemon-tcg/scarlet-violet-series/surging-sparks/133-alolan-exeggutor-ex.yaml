@@ -6,4 +6,6 @@ attributes:
   number: "133/191"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/133_hires.png

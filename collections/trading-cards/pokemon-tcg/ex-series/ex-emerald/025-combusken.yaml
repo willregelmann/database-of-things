@@ -6,4 +6,6 @@ attributes:
   number: "25/106"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex9/25_hires.png

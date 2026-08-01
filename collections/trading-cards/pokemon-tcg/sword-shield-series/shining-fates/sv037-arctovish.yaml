@@ -6,4 +6,6 @@ attributes:
   number: "SV037/SV122"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV037_hires.png

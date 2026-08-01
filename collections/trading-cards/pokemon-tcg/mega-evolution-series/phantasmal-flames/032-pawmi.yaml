@@ -6,4 +6,6 @@ attributes:
   number: "32/94"
   rarity: Common
   illustrator: Shimaris Yukichi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/me2/32_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "DP24"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dpp/DP24_hires.png

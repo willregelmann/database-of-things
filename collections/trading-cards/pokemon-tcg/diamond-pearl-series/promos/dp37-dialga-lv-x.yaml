@@ -6,4 +6,6 @@ attributes:
   number: "DP37"
   rarity: Promo
   illustrator: Ryo Ueda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dpp/DP37_hires.png

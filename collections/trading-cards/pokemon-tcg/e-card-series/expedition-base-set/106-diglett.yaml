@@ -6,4 +6,6 @@ attributes:
   number: "106/165"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard1/106_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "207/198"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh6/207_hires.png

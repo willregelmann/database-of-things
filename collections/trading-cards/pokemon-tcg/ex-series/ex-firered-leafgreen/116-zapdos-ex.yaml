@@ -6,4 +6,6 @@ attributes:
   number: "116/112"
   rarity: Rare Secret
   illustrator: Ryo Ueda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex6/116_hires.png

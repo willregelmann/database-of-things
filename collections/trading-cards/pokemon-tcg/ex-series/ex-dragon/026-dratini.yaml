@@ -6,4 +6,6 @@ attributes:
   number: "26/97"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/26_hires.png

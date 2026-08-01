@@ -5,4 +5,6 @@ date: "2024"
 attributes:
   number: "151"
   rarity: Promo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/svp/151_hires.png

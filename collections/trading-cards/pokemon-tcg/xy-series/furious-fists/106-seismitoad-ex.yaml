@@ -6,4 +6,6 @@ attributes:
   number: "106/111"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy3/106_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "140/182"
   rarity: Double Rare
   illustrator: Saki Hayashiro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4/140_hires.png

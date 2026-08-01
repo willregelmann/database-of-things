@@ -6,4 +6,6 @@ attributes:
   number: "51/95"
   rarity: Common
   illustrator: Jungo Suzuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex4/51_hires.png

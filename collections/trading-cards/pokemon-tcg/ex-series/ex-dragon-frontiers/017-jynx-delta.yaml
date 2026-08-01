@@ -6,4 +6,6 @@ attributes:
   number: "17/101"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex15/17_hires.png

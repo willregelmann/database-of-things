@@ -6,4 +6,6 @@ attributes:
   number: "54/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/gym1/54_hires.png

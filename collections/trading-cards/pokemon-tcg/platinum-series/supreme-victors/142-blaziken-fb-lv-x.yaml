@@ -6,4 +6,6 @@ attributes:
   number: "142/147"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/142_hires.png

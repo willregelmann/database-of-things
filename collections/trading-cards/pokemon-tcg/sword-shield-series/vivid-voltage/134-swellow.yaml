@@ -6,4 +6,6 @@ attributes:
   number: "134/185"
   rarity: Uncommon
   illustrator: kodama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh4/134_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "201"
   rarity: Promo
   illustrator: Krgc
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/201_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "55/70"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm75/55_hires.png

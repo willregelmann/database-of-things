@@ -6,4 +6,6 @@ attributes:
   number: "67/192"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/67_hires.png

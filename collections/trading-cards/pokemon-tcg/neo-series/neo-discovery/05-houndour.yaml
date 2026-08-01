@@ -6,4 +6,6 @@ attributes:
   number: "5/75"
   rarity: Rare Holo
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo2/5_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "28/72"
   rarity: Uncommon
   illustrator: HYOGONOSUKE
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45/28_hires.png

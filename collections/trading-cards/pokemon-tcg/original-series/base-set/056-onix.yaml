@@ -6,6 +6,8 @@ attributes:
   number: "56/102"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base1/56_hires.png
 variants:
   - id: 7613367f-492a-4ba8-9906-3c13f3c9c3bf

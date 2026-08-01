@@ -6,4 +6,6 @@ attributes:
   number: "76/181"
   rarity: Rare Holo
   illustrator: kirisAki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm9/76_hires.png

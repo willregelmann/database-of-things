@@ -6,4 +6,6 @@ attributes:
   number: "H23/H32"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard2/H23_hires.png

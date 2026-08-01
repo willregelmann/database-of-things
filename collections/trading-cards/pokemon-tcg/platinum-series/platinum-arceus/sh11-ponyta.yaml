@@ -6,4 +6,6 @@ attributes:
   number: "SH11"
   rarity: Rare Holo
   illustrator: Kanako Eo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/SH11_hires.png

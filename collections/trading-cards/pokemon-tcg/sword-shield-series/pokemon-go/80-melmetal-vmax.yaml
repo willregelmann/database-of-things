@@ -6,4 +6,6 @@ attributes:
   number: "80/78"
   rarity: Rare Rainbow
   illustrator: PLANETA Tsuji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pgo/80_hires.png

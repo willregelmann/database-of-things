@@ -6,4 +6,6 @@ attributes:
   number: "XY88"
   rarity: Promo
   illustrator: Atsuko Nishida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY88_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "33/123"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss1/33_hires.png

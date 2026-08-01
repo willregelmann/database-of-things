@@ -6,4 +6,6 @@ attributes:
   number: "141/182"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv10/141_hires.png

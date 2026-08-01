@@ -6,4 +6,6 @@ attributes:
   number: "127/192"
   rarity: Rare
   illustrator: Naoki Saito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/127_hires.png

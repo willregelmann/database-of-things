@@ -6,4 +6,6 @@ attributes:
   number: "SWSH213"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH213_hires.png

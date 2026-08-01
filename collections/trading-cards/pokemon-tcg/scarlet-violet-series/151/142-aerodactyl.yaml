@@ -6,4 +6,6 @@ attributes:
   number: "142/165"
   rarity: Rare
   illustrator: Shinji Kanda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/142_hires.png

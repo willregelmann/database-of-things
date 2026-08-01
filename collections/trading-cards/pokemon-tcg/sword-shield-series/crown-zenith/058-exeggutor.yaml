@@ -6,4 +6,6 @@ attributes:
   number: "58/159"
   rarity: Rare
   illustrator: Toshinao Aoki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5/58_hires.png

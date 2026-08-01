@@ -6,4 +6,6 @@ attributes:
   number: "128/195"
   rarity: Rare Holo V
   illustrator: N-DESIGN Inc.
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12/128_hires.png

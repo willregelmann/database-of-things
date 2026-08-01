@@ -6,4 +6,6 @@ attributes:
   number: "113/119"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy4/113_hires.png

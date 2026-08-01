@@ -6,4 +6,6 @@ attributes:
   number: "22/101"
   rarity: Rare
   illustrator: Sachiko Adachi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex15/22_hires.png

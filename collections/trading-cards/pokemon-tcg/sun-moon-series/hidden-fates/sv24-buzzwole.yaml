@@ -6,4 +6,6 @@ attributes:
   number: "SV24/SV94"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sma/SV24_hires.png

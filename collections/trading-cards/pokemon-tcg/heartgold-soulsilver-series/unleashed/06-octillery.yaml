@@ -6,4 +6,6 @@ attributes:
   number: "6/95"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/6_hires.png

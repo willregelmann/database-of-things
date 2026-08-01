@@ -6,4 +6,6 @@ attributes:
   number: "205/182"
   rarity: Illustration Rare
   illustrator: Natsumi Yoshida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/205_hires.png

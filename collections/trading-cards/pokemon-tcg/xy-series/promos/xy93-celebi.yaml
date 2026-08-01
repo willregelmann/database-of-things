@@ -6,4 +6,6 @@ attributes:
   number: "XY93"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY93_hires.png

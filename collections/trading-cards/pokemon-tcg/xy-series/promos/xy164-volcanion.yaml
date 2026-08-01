@@ -6,4 +6,6 @@ attributes:
   number: "XY164"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY164_hires.png

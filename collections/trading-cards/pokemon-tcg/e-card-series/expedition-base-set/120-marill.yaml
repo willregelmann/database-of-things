@@ -6,4 +6,6 @@ attributes:
   number: "120/165"
   rarity: Common
   illustrator: Satoshi Ohta
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/120_hires.png

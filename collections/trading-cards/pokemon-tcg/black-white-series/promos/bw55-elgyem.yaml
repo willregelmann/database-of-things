@@ -6,4 +6,6 @@ attributes:
   number: "BW55"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bwp/BW55_hires.png

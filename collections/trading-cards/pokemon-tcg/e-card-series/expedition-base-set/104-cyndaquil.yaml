@@ -6,4 +6,6 @@ attributes:
   number: "104/165"
   rarity: Common
   illustrator: Sachi Matoba
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/104_hires.png

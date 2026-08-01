@@ -6,4 +6,6 @@ attributes:
   number: "159/172"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/159_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "108/86"
   rarity: Illustration Rare
   illustrator: Nakamura Ippan
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/108_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV036/SV122"
   rarity: Rare Shiny
   illustrator: SATOSHI NAKAI
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV036_hires.png

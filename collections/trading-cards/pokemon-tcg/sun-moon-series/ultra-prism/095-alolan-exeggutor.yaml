@@ -6,4 +6,6 @@ attributes:
   number: "95/156"
   rarity: Rare
   illustrator: Hasuno
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm5/95_hires.png

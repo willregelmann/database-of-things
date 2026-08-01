@@ -6,4 +6,6 @@ attributes:
   number: "23/95"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/col1/23_hires.png

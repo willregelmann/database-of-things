@@ -6,4 +6,6 @@ attributes:
   number: "115/162"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy8/115_hires.png

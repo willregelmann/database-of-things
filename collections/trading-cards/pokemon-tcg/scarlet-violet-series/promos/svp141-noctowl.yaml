@@ -6,4 +6,6 @@ attributes:
   number: "141"
   rarity: Promo
   illustrator: Tetsu Kayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/141_hires.png

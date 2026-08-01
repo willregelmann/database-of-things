@@ -6,4 +6,6 @@ attributes:
   number: "100/198"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh6/100_hires.png

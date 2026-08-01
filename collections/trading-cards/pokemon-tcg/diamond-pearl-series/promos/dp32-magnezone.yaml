@@ -6,4 +6,6 @@ attributes:
   number: "DP32"
   rarity: Promo
   illustrator: Kent Kanetsuna
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dpp/DP32_hires.png

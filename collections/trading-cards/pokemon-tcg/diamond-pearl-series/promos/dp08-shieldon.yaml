@@ -6,4 +6,6 @@ attributes:
   number: "DP08"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dpp/DP08_hires.png

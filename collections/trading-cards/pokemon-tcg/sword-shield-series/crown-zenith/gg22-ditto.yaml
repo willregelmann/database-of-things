@@ -6,4 +6,6 @@ attributes:
   number: "GG22/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG22_hires.png

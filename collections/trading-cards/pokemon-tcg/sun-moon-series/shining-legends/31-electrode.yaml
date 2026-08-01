@@ -6,4 +6,6 @@ attributes:
   number: "31/73"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm35/31_hires.png

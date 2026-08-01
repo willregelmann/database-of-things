@@ -6,4 +6,6 @@ attributes:
   number: "8/236"
   rarity: Uncommon
   illustrator: Shibuzoh.
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm11/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "13/100"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/13_hires.png

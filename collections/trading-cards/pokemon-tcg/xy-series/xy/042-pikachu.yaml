@@ -6,4 +6,6 @@ attributes:
   number: "42/146"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy1/42_hires.png

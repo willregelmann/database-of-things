@@ -6,4 +6,6 @@ attributes:
   number: "20/68"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm115/20_hires.png

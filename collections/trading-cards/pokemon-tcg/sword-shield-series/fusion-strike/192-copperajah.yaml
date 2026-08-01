@@ -6,4 +6,6 @@ attributes:
   number: "192/264"
   rarity: Uncommon
   illustrator: KEIICHIRO ITO
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/192_hires.png

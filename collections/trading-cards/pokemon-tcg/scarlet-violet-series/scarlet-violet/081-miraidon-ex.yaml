@@ -6,4 +6,6 @@ attributes:
   number: "81/198"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv1/81_hires.png

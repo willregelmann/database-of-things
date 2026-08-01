@@ -6,4 +6,6 @@ attributes:
   number: "161/198"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh6/161_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "5/88"
   rarity: Common
   illustrator: Kurata So
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-5/large

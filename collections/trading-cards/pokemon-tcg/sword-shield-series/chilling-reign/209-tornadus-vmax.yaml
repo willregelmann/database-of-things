@@ -6,4 +6,6 @@ attributes:
   number: "209/198"
   rarity: Rare Rainbow
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/209_hires.png

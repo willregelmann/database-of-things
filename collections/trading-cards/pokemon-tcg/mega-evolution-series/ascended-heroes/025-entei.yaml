@@ -6,4 +6,6 @@ attributes:
   number: "25/217"
   rarity: Rare
   illustrator: Kazumasa Yasukuni
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me2pt5-25/large

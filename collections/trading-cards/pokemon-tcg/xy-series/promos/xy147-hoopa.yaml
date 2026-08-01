@@ -6,4 +6,6 @@ attributes:
   number: "XY147"
   rarity: Promo
   illustrator: Yoshinobu Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY147_hires.png

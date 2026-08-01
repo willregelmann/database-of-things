@@ -6,4 +6,6 @@ attributes:
   number: "106/189"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/106_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "47/149"
   rarity: Uncommon
   illustrator: You Iribi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm1/47_hires.png

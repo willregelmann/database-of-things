@@ -6,4 +6,6 @@ attributes:
   number: "35/106"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp4/35_hires.png

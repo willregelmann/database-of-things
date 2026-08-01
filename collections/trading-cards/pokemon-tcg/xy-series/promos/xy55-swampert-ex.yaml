@@ -6,4 +6,6 @@ attributes:
   number: "XY55"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY55_hires.png

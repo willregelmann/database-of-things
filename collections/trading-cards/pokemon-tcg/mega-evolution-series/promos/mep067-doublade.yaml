@@ -6,4 +6,6 @@ attributes:
   number: "067"
   rarity: Promo
   illustrator: Yukihiro Tada
+  type:
+    - Metal
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/DoubladeMEPPromo67.jpg

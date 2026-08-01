@@ -6,4 +6,6 @@ attributes:
   number: "130/192"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh2/130_hires.png

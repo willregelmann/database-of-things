@@ -6,4 +6,6 @@ attributes:
   number: "39/142"
   rarity: Common
   illustrator: MINAMINAMI Take
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/39_hires.png

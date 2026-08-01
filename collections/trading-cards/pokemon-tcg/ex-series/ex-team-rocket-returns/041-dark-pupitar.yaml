@@ -6,4 +6,7 @@ attributes:
   number: "41/109"
   rarity: Uncommon
   illustrator: Emi Miwa
+  type:
+    - Fighting
+    - Darkness
 image: https://images.pokemontcg.io/ex7/41_hires.png

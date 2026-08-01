@@ -6,4 +6,6 @@ attributes:
   number: "93/149"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw7/93_hires.png

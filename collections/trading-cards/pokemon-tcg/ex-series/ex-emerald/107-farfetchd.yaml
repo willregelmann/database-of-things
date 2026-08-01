@@ -6,4 +6,6 @@ attributes:
   number: "107/106"
   rarity: Rare Secret
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex9/107_hires.png

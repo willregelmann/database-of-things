@@ -6,4 +6,6 @@ attributes:
   number: "91/203"
   rarity: Rare Holo V
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/91_hires.png

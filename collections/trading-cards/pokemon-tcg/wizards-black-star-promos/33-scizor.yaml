@@ -6,4 +6,6 @@ attributes:
   number: "33/53"
   rarity: Promo
   illustrator: Hironobu Yoshida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/basep/33_hires.png

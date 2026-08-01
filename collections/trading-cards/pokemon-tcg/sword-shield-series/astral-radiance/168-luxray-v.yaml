@@ -6,4 +6,6 @@ attributes:
   number: "168/189"
   rarity: Rare Ultra
   illustrator: MUGENUP
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh10/168_hires.png

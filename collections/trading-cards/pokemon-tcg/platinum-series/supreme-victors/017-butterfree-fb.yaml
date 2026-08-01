@@ -6,4 +6,6 @@ attributes:
   number: "17/147"
   rarity: Rare
   illustrator: Lee HyunJung
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/17_hires.png

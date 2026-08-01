@@ -6,4 +6,6 @@ attributes:
   number: "27/214"
   rarity: Uncommon
   illustrator: Aya Kusube
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/27_hires.png

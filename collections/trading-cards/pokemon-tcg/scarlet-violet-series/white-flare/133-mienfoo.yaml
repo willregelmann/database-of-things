@@ -6,4 +6,6 @@ attributes:
   number: "133/86"
   rarity: Illustration Rare
   illustrator: Iori Suzuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/133_hires.png

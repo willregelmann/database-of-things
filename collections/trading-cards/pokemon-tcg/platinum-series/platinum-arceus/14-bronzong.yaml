@@ -6,4 +6,6 @@ attributes:
   number: "14/99"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl4/14_hires.png

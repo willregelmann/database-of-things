@@ -6,4 +6,6 @@ attributes:
   number: "75/99"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/bw4/75_hires.png

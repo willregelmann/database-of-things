@@ -6,4 +6,6 @@ attributes:
   number: "167/185"
   rarity: Rare Ultra
   illustrator: PLANETA Igarashi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh4/167_hires.png

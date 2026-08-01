@@ -6,4 +6,6 @@ attributes:
   number: "117/198"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/117_hires.png

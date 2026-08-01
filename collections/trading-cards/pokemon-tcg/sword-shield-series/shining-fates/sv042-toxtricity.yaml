@@ -6,4 +6,6 @@ attributes:
   number: "SV042/SV122"
   rarity: Rare Shiny
   illustrator: Hideki Ishikawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45sv/SV042_hires.png

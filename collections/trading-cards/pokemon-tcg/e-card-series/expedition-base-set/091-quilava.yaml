@@ -6,4 +6,6 @@ attributes:
   number: "91/165"
   rarity: Uncommon
   illustrator: Asuka Iwashita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/91_hires.png

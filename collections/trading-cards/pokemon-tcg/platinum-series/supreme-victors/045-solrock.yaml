@@ -6,4 +6,6 @@ attributes:
   number: "45/147"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl3/45_hires.png

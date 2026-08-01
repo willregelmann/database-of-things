@@ -6,4 +6,6 @@ attributes:
   number: "119/149"
   rarity: Uncommon
   illustrator: Naoki Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw7/119_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY50"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY50_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "2/25"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Fire
 image: https://images.pokemontcg.io/cel25/2_hires.png

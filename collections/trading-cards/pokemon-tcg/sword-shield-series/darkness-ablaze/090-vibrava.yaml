@@ -6,4 +6,6 @@ attributes:
   number: "90/189"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/90_hires.png

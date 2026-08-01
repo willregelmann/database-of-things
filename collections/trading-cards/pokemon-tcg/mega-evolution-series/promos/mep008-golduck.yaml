@@ -6,4 +6,6 @@ attributes:
   number: "008"
   rarity: Promo
   illustrator: Jiro Sasumo
+  type:
+    - Water
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/GolduckMEPPromo8.jpg

@@ -6,4 +6,6 @@ attributes:
   number: "86/185"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/86_hires.png

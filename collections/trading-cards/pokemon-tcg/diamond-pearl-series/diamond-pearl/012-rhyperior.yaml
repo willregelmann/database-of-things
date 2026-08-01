@@ -6,4 +6,6 @@ attributes:
   number: "12/130"
   rarity: Rare Holo
   illustrator: Nakaoka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp1/12_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "174/195"
   rarity: Rare Ultra
   illustrator: Saki Hayashiro
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12/174_hires.png

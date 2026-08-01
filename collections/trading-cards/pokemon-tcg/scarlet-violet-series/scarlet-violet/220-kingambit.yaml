@@ -6,4 +6,6 @@ attributes:
   number: "220/198"
   rarity: Illustration Rare
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv1/220_hires.png

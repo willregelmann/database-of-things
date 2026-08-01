@@ -6,4 +6,6 @@ attributes:
   number: "124/142"
   rarity: Common
   illustrator: Wintr Wandr
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/124_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "9/214"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm10/9_hires.png

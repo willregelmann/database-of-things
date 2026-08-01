@@ -6,4 +6,6 @@ attributes:
   number: "115"
   rarity: Promo
   illustrator: Uninori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/115_hires.png

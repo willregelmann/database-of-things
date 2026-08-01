@@ -6,4 +6,6 @@ attributes:
   number: "95/130"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp1/95_hires.png

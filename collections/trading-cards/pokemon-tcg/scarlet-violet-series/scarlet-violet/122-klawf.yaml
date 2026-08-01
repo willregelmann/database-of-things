@@ -6,4 +6,6 @@ attributes:
   number: "122/198"
   rarity: Rare
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/122_hires.png

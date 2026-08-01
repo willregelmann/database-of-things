@@ -6,4 +6,6 @@ attributes:
   number: "92/203"
   rarity: Rare Holo VMAX
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/92_hires.png

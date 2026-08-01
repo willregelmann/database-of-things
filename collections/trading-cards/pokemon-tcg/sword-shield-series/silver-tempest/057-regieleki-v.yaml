@@ -6,4 +6,6 @@ attributes:
   number: "57/195"
   rarity: Rare Holo V
   illustrator: Eske Yoshinob
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12/57_hires.png

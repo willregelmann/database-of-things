@@ -6,4 +6,6 @@ attributes:
   number: "124/86"
   rarity: Illustration Rare
   illustrator: Kanami Ogata
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/rsv10pt5/124_hires.png

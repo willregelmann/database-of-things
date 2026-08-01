@@ -6,4 +6,6 @@ attributes:
   number: "141/146"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp6/141_hires.png

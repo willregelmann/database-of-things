@@ -6,4 +6,6 @@ attributes:
   number: "9/185"
   rarity: Amazing Rare
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh4/9_hires.png

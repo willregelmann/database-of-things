@@ -6,4 +6,6 @@ attributes:
   number: "107/86"
   rarity: Illustration Rare
   illustrator: DOM
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/107_hires.png

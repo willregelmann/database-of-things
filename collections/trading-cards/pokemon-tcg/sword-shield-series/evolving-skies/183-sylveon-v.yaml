@@ -6,4 +6,6 @@ attributes:
   number: "183/203"
   rarity: Rare Ultra
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh7/183_hires.png

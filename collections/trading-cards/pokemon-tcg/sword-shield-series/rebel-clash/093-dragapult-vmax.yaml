@@ -6,4 +6,6 @@ attributes:
   number: "93/192"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/93_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "68/95"
   rarity: Common
   illustrator: Yosuke Da Silva
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex4/68_hires.png

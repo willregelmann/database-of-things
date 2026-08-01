@@ -6,4 +6,6 @@ attributes:
   number: "10/144"
   rarity: Rare
   illustrator: Kyoko Umemoto
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/10_hires.png

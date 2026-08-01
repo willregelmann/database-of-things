@@ -6,4 +6,6 @@ attributes:
   number: "107/106"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy2/107_hires.png

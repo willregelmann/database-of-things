@@ -6,4 +6,6 @@ attributes:
   number: "226/236"
   rarity: Rare Ultra
   illustrator: chibi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/226_hires.png

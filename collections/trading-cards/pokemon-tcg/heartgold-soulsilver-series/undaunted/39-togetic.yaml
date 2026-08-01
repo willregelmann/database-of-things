@@ -6,4 +6,6 @@ attributes:
   number: "39/90"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss3/39_hires.png

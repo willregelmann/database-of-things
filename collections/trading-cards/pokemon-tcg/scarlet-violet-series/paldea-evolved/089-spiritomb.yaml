@@ -6,4 +6,6 @@ attributes:
   number: "89/193"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv2/89_hires.png

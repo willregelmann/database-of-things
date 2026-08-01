@@ -6,4 +6,6 @@ attributes:
   number: "137/91"
   rarity: Shiny Rare
   illustrator: kantaro
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/137_hires.png

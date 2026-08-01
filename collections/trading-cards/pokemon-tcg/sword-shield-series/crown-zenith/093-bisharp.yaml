@@ -6,4 +6,6 @@ attributes:
   number: "93/159"
   rarity: Uncommon
   illustrator: DOM
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12pt5/93_hires.png

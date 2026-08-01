@@ -6,4 +6,6 @@ attributes:
   number: "SWSH079"
   rarity: Promo
   illustrator: KEIICHIRO ITO
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH079_hires.png

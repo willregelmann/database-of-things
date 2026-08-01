@@ -6,4 +6,6 @@ attributes:
   number: "44/116"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw9/44_hires.png

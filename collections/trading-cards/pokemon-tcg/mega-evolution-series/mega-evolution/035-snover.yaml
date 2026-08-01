@@ -6,4 +6,6 @@ attributes:
   number: "35/132"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Water
 image: https://images.pokemontcg.io/me1/35_hires.png

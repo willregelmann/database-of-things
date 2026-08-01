@@ -6,4 +6,6 @@ attributes:
   number: "132/182"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/132_hires.png

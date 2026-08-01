@@ -6,4 +6,6 @@ attributes:
   number: "77/145"
   rarity: Rare Holo
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/77_hires.png

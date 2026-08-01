@@ -6,4 +6,6 @@ attributes:
   number: "SV122/SV122"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh45sv/SV122_hires.png

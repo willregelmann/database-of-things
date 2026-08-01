@@ -6,4 +6,6 @@ attributes:
   number: "13/107"
   rarity: Rare Holo
   illustrator: Katsura Tabata
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex8/13_hires.png

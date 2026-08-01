@@ -6,4 +6,6 @@ attributes:
   number: "29/95"
   rarity: Uncommon
   illustrator: Takashi Yamaguchi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss2/29_hires.png

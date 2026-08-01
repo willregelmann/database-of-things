@@ -6,4 +6,6 @@ attributes:
   number: "76/78"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/pgo/76_hires.png

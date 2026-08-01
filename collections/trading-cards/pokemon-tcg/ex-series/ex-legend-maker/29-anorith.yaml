@@ -6,4 +6,6 @@ attributes:
   number: "29/92"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/29_hires.png

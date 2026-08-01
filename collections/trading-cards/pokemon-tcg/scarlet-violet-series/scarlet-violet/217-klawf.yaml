@@ -6,4 +6,6 @@ attributes:
   number: "217/198"
   rarity: Illustration Rare
   illustrator: Mina Nakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/217_hires.png

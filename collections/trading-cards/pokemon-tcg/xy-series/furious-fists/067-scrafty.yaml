@@ -6,4 +6,6 @@ attributes:
   number: "67/111"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy3/67_hires.png

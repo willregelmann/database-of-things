@@ -6,4 +6,6 @@ attributes:
   number: "SV51/SV94"
   rarity: Rare Shiny GX
   illustrator: PLANETA Igarashi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sma/SV51_hires.png

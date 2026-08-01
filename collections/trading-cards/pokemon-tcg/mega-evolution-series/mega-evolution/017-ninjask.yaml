@@ -6,4 +6,6 @@ attributes:
   number: "17/132"
   rarity: Uncommon
   illustrator: Apios
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/17_hires.png

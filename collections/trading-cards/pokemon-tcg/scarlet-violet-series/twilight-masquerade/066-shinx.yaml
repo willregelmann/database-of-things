@@ -6,4 +6,6 @@ attributes:
   number: "66/167"
   rarity: Common
   illustrator: Yuu Nishida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv6/66_hires.png

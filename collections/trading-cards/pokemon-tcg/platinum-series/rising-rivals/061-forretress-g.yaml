@@ -6,4 +6,6 @@ attributes:
   number: "61/111"
   rarity: Common
   illustrator: Ryota Saito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl2/61_hires.png

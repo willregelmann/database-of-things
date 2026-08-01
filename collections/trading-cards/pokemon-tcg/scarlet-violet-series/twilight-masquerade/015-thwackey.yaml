@@ -6,4 +6,6 @@ attributes:
   number: "15/167"
   rarity: Common
   illustrator: GOSSAN
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/15_hires.png

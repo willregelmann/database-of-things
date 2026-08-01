@@ -6,4 +6,6 @@ attributes:
   number: "35/101"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw10/35_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "110/236"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/110_hires.png

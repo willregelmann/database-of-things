@@ -6,4 +6,6 @@ attributes:
   number: "46/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp3/46_hires.png

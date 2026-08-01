@@ -6,4 +6,6 @@ attributes:
   number: "62/106"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex9/62_hires.png

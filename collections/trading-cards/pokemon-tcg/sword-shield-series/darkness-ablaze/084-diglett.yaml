@@ -6,4 +6,6 @@ attributes:
   number: "84/189"
   rarity: Common
   illustrator: Hideki Ishikawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/84_hires.png

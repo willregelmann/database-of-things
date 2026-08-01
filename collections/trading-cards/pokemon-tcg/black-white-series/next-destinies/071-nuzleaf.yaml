@@ -6,4 +6,6 @@ attributes:
   number: "71/99"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw4/71_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "095"
   rarity: Promo
   illustrator: Taiga Kasai
+  type:
+    - Fighting
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/LucarioMEPPromo95.jpg

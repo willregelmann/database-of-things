@@ -6,4 +6,6 @@ attributes:
   number: "59/131"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm6/59_hires.png

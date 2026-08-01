@@ -6,4 +6,6 @@ attributes:
   number: "71/145"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/71_hires.png

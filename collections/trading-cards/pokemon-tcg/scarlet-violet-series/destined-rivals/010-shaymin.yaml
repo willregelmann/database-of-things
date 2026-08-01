@@ -6,4 +6,6 @@ attributes:
   number: "10/182"
   rarity: Uncommon
   illustrator: tono
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/10_hires.png

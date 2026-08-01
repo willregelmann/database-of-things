@@ -6,4 +6,6 @@ attributes:
   number: "38/114"
   rarity: Common
   illustrator: Eri Yamaki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy11/38_hires.png

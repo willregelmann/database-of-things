@@ -6,4 +6,6 @@ attributes:
   number: "26/198"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv1/26_hires.png

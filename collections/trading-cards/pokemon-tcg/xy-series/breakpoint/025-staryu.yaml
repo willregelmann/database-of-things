@@ -6,4 +6,6 @@ attributes:
   number: "25/122"
   rarity: Common
   illustrator: Hiroki Asanuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/25_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "123/124"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw6/123_hires.png

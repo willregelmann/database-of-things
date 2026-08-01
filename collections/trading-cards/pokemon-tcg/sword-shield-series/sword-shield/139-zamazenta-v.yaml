@@ -6,4 +6,6 @@ attributes:
   number: "139/202"
   rarity: Rare Holo V
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh1/139_hires.png

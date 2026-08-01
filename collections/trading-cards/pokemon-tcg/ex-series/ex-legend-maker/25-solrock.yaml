@@ -6,4 +6,6 @@ attributes:
   number: "25/92"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex12/25_hires.png

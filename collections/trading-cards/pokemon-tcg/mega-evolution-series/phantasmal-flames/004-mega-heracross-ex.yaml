@@ -6,4 +6,6 @@ attributes:
   number: "4/94"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me2/4_hires.png

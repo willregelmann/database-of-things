@@ -6,4 +6,6 @@ attributes:
   number: "SV019/SV122"
   rarity: Rare Shiny
   illustrator: SATOSHI NAKAI
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh45sv/SV019_hires.png

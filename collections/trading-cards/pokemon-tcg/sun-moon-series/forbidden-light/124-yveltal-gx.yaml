@@ -6,4 +6,6 @@ attributes:
   number: "124/131"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm6/124_hires.png

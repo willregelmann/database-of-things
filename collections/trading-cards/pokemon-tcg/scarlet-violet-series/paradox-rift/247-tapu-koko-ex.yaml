@@ -6,4 +6,6 @@ attributes:
   number: "247/182"
   rarity: Special Illustration Rare
   illustrator: Jerky
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4/247_hires.png

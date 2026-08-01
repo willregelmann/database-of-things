@@ -6,4 +6,6 @@ attributes:
   number: "7/113"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/7_hires.png

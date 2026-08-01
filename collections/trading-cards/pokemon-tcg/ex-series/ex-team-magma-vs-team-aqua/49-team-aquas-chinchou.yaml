@@ -6,4 +6,6 @@ attributes:
   number: "49/95"
   rarity: Common
   illustrator: Kazuo Yazawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex4/49_hires.png

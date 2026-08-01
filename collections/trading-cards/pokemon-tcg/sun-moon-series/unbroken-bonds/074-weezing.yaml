@@ -6,4 +6,6 @@ attributes:
   number: "74/214"
   rarity: Rare
   illustrator: OOYAMA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm10/74_hires.png

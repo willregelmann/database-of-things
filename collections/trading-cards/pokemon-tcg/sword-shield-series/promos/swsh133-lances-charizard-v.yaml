@@ -6,4 +6,6 @@ attributes:
   number: "SWSH133"
   rarity: Promo
   illustrator: Hideki Ishikawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH133_hires.png

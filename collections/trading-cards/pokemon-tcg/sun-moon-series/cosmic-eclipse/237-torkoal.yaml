@@ -6,4 +6,6 @@ attributes:
   number: "237/236"
   rarity: Rare Secret
   illustrator: Ryota Murayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm12/237_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "129/86"
   rarity: Illustration Rare
   illustrator: toi8
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/129_hires.png

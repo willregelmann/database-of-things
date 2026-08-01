@@ -6,4 +6,6 @@ attributes:
   number: "6/70"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/6_hires.png

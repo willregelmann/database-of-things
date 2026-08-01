@@ -6,4 +6,6 @@ attributes:
   number: "18/106"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex9/18_hires.png

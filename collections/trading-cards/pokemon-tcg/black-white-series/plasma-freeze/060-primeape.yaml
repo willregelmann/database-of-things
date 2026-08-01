@@ -6,4 +6,6 @@ attributes:
   number: "60/116"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw9/60_hires.png

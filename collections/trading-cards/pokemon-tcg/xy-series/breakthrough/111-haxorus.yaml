@@ -6,4 +6,6 @@ attributes:
   number: "111/162"
   rarity: Rare Holo
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy8/111_hires.png

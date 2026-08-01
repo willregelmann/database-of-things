@@ -6,4 +6,6 @@ attributes:
   number: "21/73"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm35/21_hires.png

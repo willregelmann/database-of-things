@@ -6,4 +6,6 @@ attributes:
   number: "137/214"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/137_hires.png

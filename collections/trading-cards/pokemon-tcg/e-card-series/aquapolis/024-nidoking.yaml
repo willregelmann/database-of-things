@@ -6,4 +6,6 @@ attributes:
   number: "24/147"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard2/24_hires.png

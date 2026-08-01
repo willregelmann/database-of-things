@@ -6,4 +6,6 @@ attributes:
   number: "14/98"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw2/14_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "46/165"
   rarity: Common
   illustrator: Yoriyuki Ikegami
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3pt5/46_hires.png

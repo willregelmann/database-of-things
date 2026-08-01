@@ -6,4 +6,6 @@ attributes:
   number: "93/196"
   rarity: Rare Holo VSTAR
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/93_hires.png

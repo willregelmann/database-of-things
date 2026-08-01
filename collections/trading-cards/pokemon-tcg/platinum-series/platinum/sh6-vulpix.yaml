@@ -6,4 +6,6 @@ attributes:
   number: "SH6"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl1/SH6_hires.png

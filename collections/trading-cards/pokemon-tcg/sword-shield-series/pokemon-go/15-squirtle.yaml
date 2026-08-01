@@ -6,4 +6,6 @@ attributes:
   number: "15/78"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Water
 image: https://images.pokemontcg.io/pgo/15_hires.png

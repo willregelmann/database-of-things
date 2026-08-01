@@ -6,4 +6,6 @@ attributes:
   number: "40/149"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm1/40_hires.png

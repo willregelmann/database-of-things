@@ -6,4 +6,6 @@ attributes:
   number: "60/181"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/60_hires.png

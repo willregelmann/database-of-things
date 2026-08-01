@@ -6,4 +6,6 @@ attributes:
   number: "93/195"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/93_hires.png

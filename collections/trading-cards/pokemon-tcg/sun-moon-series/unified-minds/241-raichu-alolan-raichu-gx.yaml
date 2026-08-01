@@ -6,4 +6,6 @@ attributes:
   number: "241/236"
   rarity: Rare Rainbow
   illustrator: ConceptLab
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/241_hires.png

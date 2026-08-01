@@ -6,4 +6,6 @@ attributes:
   number: "69/108"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy6/69_hires.png

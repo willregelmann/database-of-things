@@ -6,4 +6,6 @@ attributes:
   number: "28/163"
   rarity: Rare
   illustrator: Shibuzoh.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh5/28_hires.png

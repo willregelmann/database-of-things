@@ -6,4 +6,6 @@ attributes:
   number: "3/131"
   rarity: Common
   illustrator: Uninori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8pt5/3_hires.png

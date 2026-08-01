@@ -6,4 +6,6 @@ attributes:
   number: "SWSH033"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH033_hires.png

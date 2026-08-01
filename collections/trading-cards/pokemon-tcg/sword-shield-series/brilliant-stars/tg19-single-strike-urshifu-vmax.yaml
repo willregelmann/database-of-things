@@ -6,4 +6,6 @@ attributes:
   number: "TG19/TG30"
   rarity: Rare Holo VMAX
   illustrator: kodama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9tg/TG19_hires.png

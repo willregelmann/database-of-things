@@ -6,4 +6,6 @@ attributes:
   number: "22/82"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base5/22_hires.png

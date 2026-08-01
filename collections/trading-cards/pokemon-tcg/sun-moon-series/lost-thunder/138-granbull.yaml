@@ -6,4 +6,6 @@ attributes:
   number: "138/214"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/138_hires.png

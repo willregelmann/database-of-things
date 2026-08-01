@@ -6,4 +6,6 @@ attributes:
   number: "TG10/TG30"
   rarity: Trainer Gallery Rare Holo
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12tg/TG10_hires.png

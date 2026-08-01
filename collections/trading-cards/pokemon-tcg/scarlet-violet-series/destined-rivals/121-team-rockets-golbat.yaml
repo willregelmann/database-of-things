@@ -6,4 +6,6 @@ attributes:
   number: "121/182"
   rarity: Uncommon
   illustrator: AKIRA EGAWA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/121_hires.png

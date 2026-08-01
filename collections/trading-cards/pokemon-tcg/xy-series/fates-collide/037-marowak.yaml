@@ -6,4 +6,6 @@ attributes:
   number: "37/124"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/37_hires.png

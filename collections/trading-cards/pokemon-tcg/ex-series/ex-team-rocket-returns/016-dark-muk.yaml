@@ -6,4 +6,7 @@ attributes:
   number: "16/109"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
+    - Darkness
 image: https://images.pokemontcg.io/ex7/16_hires.png

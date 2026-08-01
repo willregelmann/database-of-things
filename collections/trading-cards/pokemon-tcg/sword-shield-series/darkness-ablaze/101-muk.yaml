@@ -6,4 +6,6 @@ attributes:
   number: "101/189"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh3/101_hires.png

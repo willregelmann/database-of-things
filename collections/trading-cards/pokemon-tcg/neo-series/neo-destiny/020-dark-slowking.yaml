@@ -6,4 +6,6 @@ attributes:
   number: "20/105"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo4/20_hires.png

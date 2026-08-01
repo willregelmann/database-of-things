@@ -6,4 +6,6 @@ attributes:
   number: "128/236"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm12/128_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "RC24/RC32"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/g1/RC24_hires.png

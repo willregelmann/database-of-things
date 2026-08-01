@@ -6,4 +6,6 @@ attributes:
   number: "13/144"
   rarity: Rare
   illustrator: Hikaru Koike
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard3/13_hires.png

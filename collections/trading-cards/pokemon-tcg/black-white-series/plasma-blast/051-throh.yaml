@@ -6,4 +6,6 @@ attributes:
   number: "51/101"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw10/51_hires.png

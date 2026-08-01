@@ -6,4 +6,6 @@ attributes:
   number: "19/167"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/19_hires.png

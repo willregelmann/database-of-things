@@ -6,4 +6,6 @@ attributes:
   number: "38/202"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/38_hires.png

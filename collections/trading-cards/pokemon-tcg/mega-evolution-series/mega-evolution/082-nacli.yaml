@@ -6,4 +6,6 @@ attributes:
   number: "82/132"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/82_hires.png

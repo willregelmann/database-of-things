@@ -6,4 +6,6 @@ attributes:
   number: "29/189"
   rarity: Common
   illustrator: Uta
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/29_hires.png

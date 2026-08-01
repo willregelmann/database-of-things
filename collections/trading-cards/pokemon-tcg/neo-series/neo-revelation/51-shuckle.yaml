@@ -6,4 +6,6 @@ attributes:
   number: "51/64"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo3/51_hires.png

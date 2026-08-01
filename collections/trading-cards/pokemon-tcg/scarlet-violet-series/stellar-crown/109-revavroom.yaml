@@ -6,4 +6,6 @@ attributes:
   number: "109/142"
   rarity: Uncommon
   illustrator: GOSSAN
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/109_hires.png

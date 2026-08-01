@@ -6,4 +6,6 @@ attributes:
   number: "150/196"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/150_hires.png

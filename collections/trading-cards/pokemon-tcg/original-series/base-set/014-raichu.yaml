@@ -6,6 +6,8 @@ attributes:
   number: "14/102"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base1/14_hires.png
 variants:
   - id: 29554a21-f7cf-4886-b177-2542e90bb51f

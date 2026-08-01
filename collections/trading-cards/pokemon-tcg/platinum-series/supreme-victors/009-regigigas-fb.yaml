@@ -6,4 +6,6 @@ attributes:
   number: "9/147"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/9_hires.png

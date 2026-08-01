@@ -6,4 +6,6 @@ attributes:
   number: "47/64"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6pt5/47_hires.png

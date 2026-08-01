@@ -6,4 +6,6 @@ attributes:
   number: "31/116"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw9/31_hires.png

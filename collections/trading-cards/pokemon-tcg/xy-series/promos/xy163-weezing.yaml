@@ -6,4 +6,6 @@ attributes:
   number: "XY163"
   rarity: Promo
   illustrator: TOKIYA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY163_hires.png

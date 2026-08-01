@@ -6,4 +6,6 @@ attributes:
   number: "89/189"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh3/89_hires.png

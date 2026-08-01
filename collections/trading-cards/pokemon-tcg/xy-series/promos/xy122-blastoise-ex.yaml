@@ -6,4 +6,6 @@ attributes:
   number: "XY122"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY122_hires.png

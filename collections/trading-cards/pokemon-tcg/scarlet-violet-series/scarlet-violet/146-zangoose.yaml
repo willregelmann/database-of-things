@@ -6,4 +6,6 @@ attributes:
   number: "146/198"
   rarity: Common
   illustrator: Yuya Oka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/146_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "70/147"
   rarity: Uncommon
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl3/70_hires.png

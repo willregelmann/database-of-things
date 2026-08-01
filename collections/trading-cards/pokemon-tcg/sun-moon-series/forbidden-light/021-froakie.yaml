@@ -6,4 +6,6 @@ attributes:
   number: "21/131"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm6/21_hires.png

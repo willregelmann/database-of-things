@@ -6,4 +6,6 @@ attributes:
   number: "26/107"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex8/26_hires.png

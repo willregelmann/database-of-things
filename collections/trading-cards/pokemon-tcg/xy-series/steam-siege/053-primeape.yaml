@@ -6,4 +6,6 @@ attributes:
   number: "53/114"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy11/53_hires.png

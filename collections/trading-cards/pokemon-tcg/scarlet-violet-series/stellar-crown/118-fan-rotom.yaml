@@ -6,4 +6,6 @@ attributes:
   number: "118/142"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/118_hires.png

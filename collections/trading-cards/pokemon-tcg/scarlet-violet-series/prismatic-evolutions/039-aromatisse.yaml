@@ -6,4 +6,6 @@ attributes:
   number: "39/131"
   rarity: Common
   illustrator: Wintr Wandr
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/39_hires.png

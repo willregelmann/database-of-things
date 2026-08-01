@@ -6,4 +6,6 @@ attributes:
   number: "58/112"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex6/58_hires.png

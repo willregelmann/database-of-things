@@ -6,4 +6,6 @@ attributes:
   number: "SV11/SV94"
   rarity: Rare Shiny
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/sma/SV11_hires.png

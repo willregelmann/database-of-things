@@ -6,4 +6,6 @@ attributes:
   number: "105/189"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh3/105_hires.png

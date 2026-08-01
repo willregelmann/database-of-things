@@ -6,4 +6,6 @@ attributes:
   number: "GG12/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Scav
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG12_hires.png

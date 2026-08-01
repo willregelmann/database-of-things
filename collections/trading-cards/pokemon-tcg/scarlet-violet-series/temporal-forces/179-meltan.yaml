@@ -6,4 +6,6 @@ attributes:
   number: "179/162"
   rarity: Illustration Rare
   illustrator: Masa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv5/179_hires.png

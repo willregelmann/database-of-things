@@ -6,6 +6,8 @@ attributes:
   number: "28/102"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base1/28_hires.png
 variants:
   - id: ab437e1b-4df8-4489-90dc-a46c6ca5e658

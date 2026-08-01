@@ -6,4 +6,6 @@ attributes:
   number: "58/196"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh11/58_hires.png

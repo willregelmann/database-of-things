@@ -6,4 +6,6 @@ attributes:
   number: "SWSH203"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH203_hires.png

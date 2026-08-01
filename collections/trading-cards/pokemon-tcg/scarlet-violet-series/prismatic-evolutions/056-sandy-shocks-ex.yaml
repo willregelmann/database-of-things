@@ -6,4 +6,6 @@ attributes:
   number: "56/131"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8pt5/56_hires.png

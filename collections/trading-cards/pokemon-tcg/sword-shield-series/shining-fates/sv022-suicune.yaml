@@ -6,4 +6,6 @@ attributes:
   number: "SV022/SV122"
   rarity: Rare Shiny
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV022_hires.png

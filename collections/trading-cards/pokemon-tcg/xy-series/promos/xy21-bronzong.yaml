@@ -6,4 +6,6 @@ attributes:
   number: "XY21"
   rarity: Promo
   illustrator: match
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xyp/XY21_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/147"
   rarity: Rare
   illustrator: Yusuke Ishikawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/15_hires.png

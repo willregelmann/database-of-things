@@ -6,4 +6,6 @@ attributes:
   number: "SWSH136"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH136_hires.png

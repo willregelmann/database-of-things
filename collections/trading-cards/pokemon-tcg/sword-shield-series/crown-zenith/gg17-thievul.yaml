@@ -6,4 +6,6 @@ attributes:
   number: "GG17/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: NC Empire
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5gg/GG17_hires.png

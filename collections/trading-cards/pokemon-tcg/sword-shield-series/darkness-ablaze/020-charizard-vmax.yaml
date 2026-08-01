@@ -6,4 +6,6 @@ attributes:
   number: "20/189"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/20_hires.png

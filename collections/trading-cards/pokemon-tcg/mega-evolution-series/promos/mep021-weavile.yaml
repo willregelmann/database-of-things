@@ -6,4 +6,6 @@ attributes:
   number: "021"
   rarity: Promo
   illustrator: matazo
+  type:
+    - Darkness
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/WeavileMEPPromo21.jpg

@@ -6,4 +6,6 @@ attributes:
   number: "15/114"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw1/15_hires.png

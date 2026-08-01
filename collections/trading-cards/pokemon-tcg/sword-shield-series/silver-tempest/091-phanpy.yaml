@@ -6,4 +6,6 @@ attributes:
   number: "91/195"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/91_hires.png

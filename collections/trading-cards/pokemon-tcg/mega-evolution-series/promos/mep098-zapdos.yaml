@@ -6,4 +6,6 @@ attributes:
   number: "098"
   rarity: Promo
   illustrator: SIE NANAHARA
+  type:
+    - Lightning
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ZapdosMEPPromo98.jpg

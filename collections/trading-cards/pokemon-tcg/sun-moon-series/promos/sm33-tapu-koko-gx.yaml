@@ -6,4 +6,6 @@ attributes:
   number: "SM33"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM33_hires.png

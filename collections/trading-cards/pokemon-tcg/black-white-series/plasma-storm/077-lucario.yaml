@@ -6,4 +6,6 @@ attributes:
   number: "77/135"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw8/77_hires.png

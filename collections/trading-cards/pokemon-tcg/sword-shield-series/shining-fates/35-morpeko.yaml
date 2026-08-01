@@ -6,4 +6,6 @@ attributes:
   number: "35/72"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh45/35_hires.png

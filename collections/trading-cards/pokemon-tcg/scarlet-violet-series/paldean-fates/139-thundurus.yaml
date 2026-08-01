@@ -6,4 +6,6 @@ attributes:
   number: "139/91"
   rarity: Shiny Rare
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/139_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "213/203"
   rarity: Rare Rainbow
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh7/213_hires.png

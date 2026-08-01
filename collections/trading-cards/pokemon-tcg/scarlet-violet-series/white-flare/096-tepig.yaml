@@ -6,4 +6,6 @@ attributes:
   number: "96/86"
   rarity: Illustration Rare
   illustrator: Orca
+  type:
+    - Fire
 image: https://images.pokemontcg.io/rsv10pt5/96_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "39/163"
   rarity: Uncommon
   illustrator: Hasegawa Saki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/39_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "140/193"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv2/140_hires.png

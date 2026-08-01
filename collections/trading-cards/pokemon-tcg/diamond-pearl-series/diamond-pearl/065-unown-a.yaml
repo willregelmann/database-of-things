@@ -6,4 +6,6 @@ attributes:
   number: "65/130"
   rarity: Uncommon
   illustrator: Nakaoka
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/65_hires.png

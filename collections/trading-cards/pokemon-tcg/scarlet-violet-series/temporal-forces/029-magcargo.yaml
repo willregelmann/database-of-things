@@ -6,4 +6,6 @@ attributes:
   number: "29/162"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/29_hires.png

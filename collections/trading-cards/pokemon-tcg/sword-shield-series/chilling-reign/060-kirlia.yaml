@@ -6,4 +6,6 @@ attributes:
   number: "60/198"
   rarity: Uncommon
   illustrator: "0313"
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/60_hires.png

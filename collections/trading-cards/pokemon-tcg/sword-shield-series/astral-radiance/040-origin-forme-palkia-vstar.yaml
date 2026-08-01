@@ -6,4 +6,6 @@ attributes:
   number: "40/189"
   rarity: Rare Holo VSTAR
   illustrator: aky CG Works
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/40_hires.png

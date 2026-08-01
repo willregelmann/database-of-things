@@ -6,4 +6,6 @@ attributes:
   number: "4/182"
   rarity: Common
   illustrator: Jerky
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/4_hires.png

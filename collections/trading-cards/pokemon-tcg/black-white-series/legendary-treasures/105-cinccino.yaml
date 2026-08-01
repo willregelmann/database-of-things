@@ -6,4 +6,6 @@ attributes:
   number: "105/113"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/105_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "231/217"
   rarity: Illustration Rare
   illustrator: mingo
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-231/large

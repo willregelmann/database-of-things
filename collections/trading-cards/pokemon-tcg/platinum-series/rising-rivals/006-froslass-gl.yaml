@@ -6,4 +6,6 @@ attributes:
   number: "6/111"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl2/6_hires.png

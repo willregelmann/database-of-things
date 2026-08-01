@@ -6,4 +6,6 @@ attributes:
   number: "113/264"
   rarity: Rare Holo V
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/113_hires.png

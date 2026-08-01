@@ -6,4 +6,6 @@ attributes:
   number: "88/149"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw7/88_hires.png

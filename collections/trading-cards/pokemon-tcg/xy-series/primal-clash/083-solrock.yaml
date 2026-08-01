@@ -6,4 +6,6 @@ attributes:
   number: "83/160"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy5/83_hires.png

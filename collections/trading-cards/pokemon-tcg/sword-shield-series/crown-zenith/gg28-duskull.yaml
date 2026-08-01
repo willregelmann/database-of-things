@@ -6,4 +6,6 @@ attributes:
   number: "GG28/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12pt5gg/GG28_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "12/196"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh11/12_hires.png

@@ -6,5 +6,7 @@ attributes:
   number: "110"
   rarity: Promo
   illustrator: REND
+  type:
+    - Darkness
 image: >-
   https://archives.bulbagarden.net/wiki/Special:FilePath/UmbreonexMEPPromo110.jpg

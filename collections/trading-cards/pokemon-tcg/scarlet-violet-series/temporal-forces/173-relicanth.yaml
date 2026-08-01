@@ -6,4 +6,6 @@ attributes:
   number: "173/162"
   rarity: Illustration Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/173_hires.png

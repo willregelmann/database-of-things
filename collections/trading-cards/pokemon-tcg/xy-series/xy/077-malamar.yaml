@@ -6,4 +6,6 @@ attributes:
   number: "77/146"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy1/77_hires.png

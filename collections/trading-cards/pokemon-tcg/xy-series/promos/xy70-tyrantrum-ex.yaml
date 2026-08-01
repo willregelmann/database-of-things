@@ -6,4 +6,6 @@ attributes:
   number: "XY70"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY70_hires.png

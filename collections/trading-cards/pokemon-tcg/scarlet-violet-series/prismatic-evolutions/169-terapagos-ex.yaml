@@ -6,4 +6,6 @@ attributes:
   number: "169/131"
   rarity: Special Illustration Rare
   illustrator: mashu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/169_hires.png

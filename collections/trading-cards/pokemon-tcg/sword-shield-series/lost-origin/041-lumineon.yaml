@@ -6,4 +6,6 @@ attributes:
   number: "41/196"
   rarity: Uncommon
   illustrator: zig
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/41_hires.png

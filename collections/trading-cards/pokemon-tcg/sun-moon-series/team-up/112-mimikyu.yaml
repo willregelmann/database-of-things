@@ -6,4 +6,6 @@ attributes:
   number: "112/181"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm9/112_hires.png

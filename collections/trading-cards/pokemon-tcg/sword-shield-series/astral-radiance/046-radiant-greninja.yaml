@@ -6,4 +6,6 @@ attributes:
   number: "46/189"
   rarity: Radiant Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/46_hires.png

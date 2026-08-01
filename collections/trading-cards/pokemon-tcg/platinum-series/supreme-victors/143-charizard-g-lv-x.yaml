@@ -6,4 +6,6 @@ attributes:
   number: "143/147"
   rarity: Rare Holo LV.X
   illustrator: Wataru Kawahara
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/143_hires.png

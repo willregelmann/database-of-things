@@ -6,4 +6,6 @@ attributes:
   number: "241/91"
   rarity: Hyper Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/241_hires.png

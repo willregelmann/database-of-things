@@ -6,4 +6,6 @@ attributes:
   number: "SM157"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM157_hires.png

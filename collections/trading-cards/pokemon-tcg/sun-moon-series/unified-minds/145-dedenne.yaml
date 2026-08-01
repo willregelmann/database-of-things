@@ -6,4 +6,6 @@ attributes:
   number: "145/236"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm11/145_hires.png

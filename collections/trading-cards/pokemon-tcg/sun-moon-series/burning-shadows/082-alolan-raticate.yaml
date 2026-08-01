@@ -6,4 +6,6 @@ attributes:
   number: "82/147"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm3/82_hires.png

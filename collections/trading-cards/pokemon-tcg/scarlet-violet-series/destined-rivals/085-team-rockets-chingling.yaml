@@ -6,4 +6,6 @@ attributes:
   number: "85/182"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/85_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV13/SV94"
   rarity: Rare Shiny
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sma/SV13_hires.png

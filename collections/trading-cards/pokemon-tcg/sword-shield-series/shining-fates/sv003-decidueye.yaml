@@ -6,4 +6,6 @@ attributes:
   number: "SV003/SV122"
   rarity: Rare Shiny
   illustrator: nagimiso
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV003_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "90/217"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-90/large

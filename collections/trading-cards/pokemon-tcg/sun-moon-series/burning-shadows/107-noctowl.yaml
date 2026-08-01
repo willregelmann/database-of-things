@@ -6,4 +6,6 @@ attributes:
   number: "107/147"
   rarity: Uncommon
   illustrator: Sekio
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm3/107_hires.png

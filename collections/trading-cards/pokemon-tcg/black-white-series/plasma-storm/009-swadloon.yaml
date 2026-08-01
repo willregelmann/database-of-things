@@ -6,4 +6,6 @@ attributes:
   number: "9/135"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw8/9_hires.png

@@ -6,4 +6,7 @@ attributes:
   number: "40/109"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
+  type:
+    - Fighting
+    - Darkness
 image: https://images.pokemontcg.io/ex7/40_hires.png

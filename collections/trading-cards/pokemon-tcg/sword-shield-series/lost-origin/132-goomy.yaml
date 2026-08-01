@@ -6,4 +6,6 @@ attributes:
   number: "132/196"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/132_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "94/236"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/94_hires.png

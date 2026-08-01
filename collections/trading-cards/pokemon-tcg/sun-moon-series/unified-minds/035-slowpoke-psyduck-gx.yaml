@@ -6,4 +6,6 @@ attributes:
   number: "35/236"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm11/35_hires.png

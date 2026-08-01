@@ -6,4 +6,6 @@ attributes:
   number: "74/182"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/74_hires.png

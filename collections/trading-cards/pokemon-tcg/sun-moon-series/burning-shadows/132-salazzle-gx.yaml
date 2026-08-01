@@ -6,4 +6,6 @@ attributes:
   number: "132/147"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm3/132_hires.png

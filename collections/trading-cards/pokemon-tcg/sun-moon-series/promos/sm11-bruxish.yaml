@@ -6,4 +6,6 @@ attributes:
   number: "SM11"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM11_hires.png

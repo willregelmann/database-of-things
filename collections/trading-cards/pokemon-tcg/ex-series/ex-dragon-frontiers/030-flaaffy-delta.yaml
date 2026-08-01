@@ -6,4 +6,6 @@ attributes:
   number: "30/101"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex15/30_hires.png

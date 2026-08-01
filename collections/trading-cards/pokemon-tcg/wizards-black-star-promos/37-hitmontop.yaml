@@ -6,4 +6,6 @@ attributes:
   number: "37/53"
   rarity: Promo
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/basep/37_hires.png

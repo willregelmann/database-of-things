@@ -6,4 +6,6 @@ attributes:
   number: "41/198"
   rarity: Common
   illustrator: Yuu Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/41_hires.png

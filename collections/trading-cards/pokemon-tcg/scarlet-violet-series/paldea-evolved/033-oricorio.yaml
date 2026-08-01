@@ -6,4 +6,6 @@ attributes:
   number: "33/193"
   rarity: Rare
   illustrator: Haru Akasaka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv2/33_hires.png

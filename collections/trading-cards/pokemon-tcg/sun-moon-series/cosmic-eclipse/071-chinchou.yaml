@@ -6,4 +6,6 @@ attributes:
   number: "71/236"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm12/71_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "219/236"
   rarity: Rare Ultra
   illustrator: ConceptLab
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm11/219_hires.png

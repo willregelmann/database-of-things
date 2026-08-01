@@ -6,4 +6,6 @@ attributes:
   number: "BW40"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bwp/BW40_hires.png

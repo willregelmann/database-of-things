@@ -6,4 +6,6 @@ attributes:
   number: "117/195"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12/117_hires.png

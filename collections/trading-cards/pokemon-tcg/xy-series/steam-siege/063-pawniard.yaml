@@ -6,4 +6,6 @@ attributes:
   number: "63/114"
   rarity: Common
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy11/63_hires.png

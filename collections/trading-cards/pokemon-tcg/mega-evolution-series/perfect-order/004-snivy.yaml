@@ -6,4 +6,6 @@ attributes:
   number: "4/88"
   rarity: Common
   illustrator: Narumi Sato
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me3-4/large

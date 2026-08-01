@@ -6,4 +6,6 @@ attributes:
   number: "074"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/svp/74_hires.png

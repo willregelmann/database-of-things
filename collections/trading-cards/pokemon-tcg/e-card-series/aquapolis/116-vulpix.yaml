@@ -6,4 +6,6 @@ attributes:
   number: "116/147"
   rarity: Common
   illustrator: Keiko Fukuyama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard2/116_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "HGSS02"
   rarity: Promo
   illustrator: Takashi Yamaguchi
+  type:
+    - Water
 image: https://images.pokemontcg.io/hsp/HGSS02_hires.png

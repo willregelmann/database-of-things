@@ -6,4 +6,6 @@ attributes:
   number: "94/214"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/94_hires.png

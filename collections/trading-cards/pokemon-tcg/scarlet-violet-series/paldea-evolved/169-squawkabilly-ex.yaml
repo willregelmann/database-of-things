@@ -6,4 +6,6 @@ attributes:
   number: "169/193"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv2/169_hires.png

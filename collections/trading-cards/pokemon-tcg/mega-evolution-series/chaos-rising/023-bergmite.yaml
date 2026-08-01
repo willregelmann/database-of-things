@@ -6,4 +6,6 @@ attributes:
   number: "23/86"
   rarity: Common
   illustrator: Anesaki Dynamic
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me4-23/large

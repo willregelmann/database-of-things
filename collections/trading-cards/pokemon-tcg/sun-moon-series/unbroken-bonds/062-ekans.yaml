@@ -6,4 +6,6 @@ attributes:
   number: "62/214"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm10/62_hires.png

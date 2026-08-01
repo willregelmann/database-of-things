@@ -6,4 +6,6 @@ attributes:
   number: "221/214"
   rarity: Rare Rainbow
   illustrator: PLANETA Otani
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm8/221_hires.png

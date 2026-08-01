@@ -6,4 +6,6 @@ attributes:
   number: "XY14"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY14_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "52/102"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base1/52_hires.png
 variants:
   - id: 4145109b-1d84-427f-8e60-bf85734c324a

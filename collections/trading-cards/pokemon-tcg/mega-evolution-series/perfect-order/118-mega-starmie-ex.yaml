@@ -6,4 +6,6 @@ attributes:
   number: "118/88"
   rarity: Special Illustration Rare
   illustrator: takuyoa
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me3-118/large

@@ -6,4 +6,6 @@ attributes:
   number: "12/111"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo1/12_hires.png

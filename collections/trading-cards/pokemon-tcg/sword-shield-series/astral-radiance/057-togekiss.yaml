@@ -6,4 +6,6 @@ attributes:
   number: "57/189"
   rarity: Rare Holo
   illustrator: sui
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/57_hires.png

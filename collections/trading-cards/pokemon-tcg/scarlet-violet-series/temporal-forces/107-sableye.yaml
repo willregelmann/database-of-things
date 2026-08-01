@@ -6,4 +6,6 @@ attributes:
   number: "107/162"
   rarity: Uncommon
   illustrator: "0313"
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv5/107_hires.png

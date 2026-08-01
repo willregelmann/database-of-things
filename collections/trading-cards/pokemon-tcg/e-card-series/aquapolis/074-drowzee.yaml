@@ -6,4 +6,6 @@ attributes:
   number: "74/147"
   rarity: Common
   illustrator: Hisao Nakamura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard2/74_hires.png

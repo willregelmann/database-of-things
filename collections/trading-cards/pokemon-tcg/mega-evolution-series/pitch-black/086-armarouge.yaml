@@ -6,4 +6,6 @@ attributes:
   number: "86/84"
   rarity: Illustration Rare
   illustrator: Iwamoto05
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me5-86/large

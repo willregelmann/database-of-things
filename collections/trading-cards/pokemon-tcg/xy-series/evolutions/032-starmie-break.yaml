@@ -6,4 +6,6 @@ attributes:
   number: "32/108"
   rarity: Rare BREAK
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy12/32_hires.png

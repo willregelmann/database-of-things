@@ -6,4 +6,6 @@ attributes:
   number: "7/147"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard2/7_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "222/197"
   rarity: Special Illustration Rare
   illustrator: Toshinao Aoki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv3/222_hires.png

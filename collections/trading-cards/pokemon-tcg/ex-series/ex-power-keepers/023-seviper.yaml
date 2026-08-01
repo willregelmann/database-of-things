@@ -6,4 +6,6 @@ attributes:
   number: "23/108"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex16/23_hires.png

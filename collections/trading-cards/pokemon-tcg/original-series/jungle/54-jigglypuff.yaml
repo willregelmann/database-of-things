@@ -6,4 +6,6 @@ attributes:
   number: "54/64"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base2/54_hires.png

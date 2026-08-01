@@ -6,4 +6,6 @@ attributes:
   number: "205/198"
   rarity: Rare Rainbow
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/205_hires.png

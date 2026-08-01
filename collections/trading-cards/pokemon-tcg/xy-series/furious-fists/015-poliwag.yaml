@@ -6,4 +6,6 @@ attributes:
   number: "15/111"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy3/15_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "94/168"
   rarity: Uncommon
   illustrator: SATOSHI NAKAI
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm7/94_hires.png

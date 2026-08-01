@@ -6,4 +6,6 @@ attributes:
   number: "11/86"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/rsv10pt5/11_hires.png

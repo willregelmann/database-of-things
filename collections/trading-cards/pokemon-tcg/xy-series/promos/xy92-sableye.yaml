@@ -6,4 +6,6 @@ attributes:
   number: "XY92"
   rarity: Promo
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY92_hires.png

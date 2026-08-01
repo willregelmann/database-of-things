@@ -6,4 +6,6 @@ attributes:
   number: "56/73"
   rarity: Rare Shining
   illustrator: Naoki Saito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm35/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/130"
   rarity: Rare Holo
   illustrator: Hiroaki Ito
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp1/15_hires.png

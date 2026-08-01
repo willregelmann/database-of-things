@@ -6,4 +6,6 @@ attributes:
   number: "129/91"
   rarity: Shiny Rare
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4pt5/129_hires.png

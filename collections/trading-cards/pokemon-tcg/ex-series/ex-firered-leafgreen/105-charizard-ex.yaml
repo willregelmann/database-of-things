@@ -6,4 +6,6 @@ attributes:
   number: "105/112"
   rarity: Rare Holo ex
   illustrator: Hiromichi Sugiyama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex6/105_hires.png

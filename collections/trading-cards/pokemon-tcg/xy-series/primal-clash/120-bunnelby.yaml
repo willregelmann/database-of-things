@@ -6,4 +6,6 @@ attributes:
   number: "120/160"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy5/120_hires.png

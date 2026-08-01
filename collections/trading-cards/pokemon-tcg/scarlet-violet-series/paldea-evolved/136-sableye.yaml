@@ -6,4 +6,6 @@ attributes:
   number: "136/193"
   rarity: Rare
   illustrator: Nagomi Nijo
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv2/136_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "25/119"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/xy4/25_hires.png

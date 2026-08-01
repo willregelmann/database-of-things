@@ -6,4 +6,6 @@ attributes:
   number: "DP03"
   rarity: Promo
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/dpp/DP03_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "GG29/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG29_hires.png

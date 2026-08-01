@@ -6,4 +6,6 @@ attributes:
   number: "SWSH276"
   rarity: Promo
   illustrator: Narumi Sato
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH276_hires.png

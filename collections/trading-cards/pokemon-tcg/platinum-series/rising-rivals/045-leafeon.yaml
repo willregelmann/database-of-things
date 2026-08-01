@@ -6,4 +6,6 @@ attributes:
   number: "45/111"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl2/45_hires.png

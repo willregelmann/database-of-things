@@ -6,4 +6,6 @@ attributes:
   number: "29/86"
   rarity: Uncommon
   illustrator: cochi8i
+  type:
+    - Water
 image: https://images.pokemontcg.io/rsv10pt5/29_hires.png

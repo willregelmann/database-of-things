@@ -6,4 +6,6 @@ attributes:
   number: "67/100"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex2/67_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY24"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY24_hires.png

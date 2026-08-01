@@ -6,4 +6,6 @@ attributes:
   number: "37/64"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base2/37_hires.png

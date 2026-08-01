@@ -6,4 +6,6 @@ attributes:
   number: "152/202"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/152_hires.png

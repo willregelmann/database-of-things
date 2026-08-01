@@ -6,4 +6,6 @@ attributes:
   number: "083"
   rarity: Promo
   illustrator: Yuriko Akase
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/SlowbroMEPPromo83.jpg

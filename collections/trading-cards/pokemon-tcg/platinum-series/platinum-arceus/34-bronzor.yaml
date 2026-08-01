@@ -6,4 +6,6 @@ attributes:
   number: "34/99"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl4/34_hires.png

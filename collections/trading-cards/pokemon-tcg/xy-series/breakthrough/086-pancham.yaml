@@ -6,4 +6,6 @@ attributes:
   number: "86/162"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy8/86_hires.png

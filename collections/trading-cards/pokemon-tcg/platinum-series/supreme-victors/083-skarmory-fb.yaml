@@ -6,4 +6,6 @@ attributes:
   number: "83/147"
   rarity: Uncommon
   illustrator: Hironobu Yoshida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pl3/83_hires.png

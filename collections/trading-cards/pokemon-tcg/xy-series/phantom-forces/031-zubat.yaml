@@ -6,4 +6,6 @@ attributes:
   number: "31/119"
   rarity: Common
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy4/31_hires.png

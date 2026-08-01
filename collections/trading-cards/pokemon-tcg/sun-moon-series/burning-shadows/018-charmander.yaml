@@ -6,4 +6,6 @@ attributes:
   number: "18/147"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm3/18_hires.png

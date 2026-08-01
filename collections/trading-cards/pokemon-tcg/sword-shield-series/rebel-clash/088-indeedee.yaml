@@ -6,4 +6,6 @@ attributes:
   number: "88/192"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/88_hires.png

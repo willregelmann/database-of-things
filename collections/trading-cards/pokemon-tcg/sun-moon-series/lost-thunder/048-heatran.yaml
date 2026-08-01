@@ -6,4 +6,6 @@ attributes:
   number: "48/214"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm8/48_hires.png

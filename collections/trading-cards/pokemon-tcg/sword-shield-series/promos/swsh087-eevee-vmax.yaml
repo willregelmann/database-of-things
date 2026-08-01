@@ -6,4 +6,6 @@ attributes:
   number: "SWSH087"
   rarity: Promo
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH087_hires.png

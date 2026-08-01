@@ -6,4 +6,6 @@ attributes:
   number: "10/162"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/10_hires.png

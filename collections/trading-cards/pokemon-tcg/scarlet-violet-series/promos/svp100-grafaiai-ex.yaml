@@ -6,4 +6,6 @@ attributes:
   number: "100"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/100_hires.png

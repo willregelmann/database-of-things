@@ -6,4 +6,6 @@ attributes:
   number: "18/159"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/18_hires.png

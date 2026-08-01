@@ -6,4 +6,6 @@ attributes:
   number: "18/62"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base3/18_hires.png

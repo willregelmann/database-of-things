@@ -6,4 +6,6 @@ attributes:
   number: "116/91"
   rarity: Shiny Rare
   illustrator: Taira Akitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4pt5/116_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "83/159"
   rarity: Rare Holo
   illustrator: Souichirou Gunjima
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh12pt5/83_hires.png

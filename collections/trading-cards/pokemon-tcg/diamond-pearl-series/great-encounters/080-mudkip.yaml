@@ -6,4 +6,6 @@ attributes:
   number: "80/106"
   rarity: Common
   illustrator: Emi Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/80_hires.png

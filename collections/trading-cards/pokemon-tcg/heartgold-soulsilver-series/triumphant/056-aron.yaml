@@ -6,4 +6,6 @@ attributes:
   number: "56/102"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss4/56_hires.png

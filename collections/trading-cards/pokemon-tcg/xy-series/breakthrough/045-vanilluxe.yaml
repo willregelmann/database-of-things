@@ -6,4 +6,6 @@ attributes:
   number: "45/162"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/45_hires.png

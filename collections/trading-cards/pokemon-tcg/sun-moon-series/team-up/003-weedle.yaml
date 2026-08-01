@@ -6,4 +6,6 @@ attributes:
   number: "3/181"
   rarity: Common
   illustrator: SATOSHI NAKAI
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm9/3_hires.png

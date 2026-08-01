@@ -6,4 +6,6 @@ attributes:
   number: "SWSH303"
   rarity: Promo
   illustrator: Julie Hang
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH303_hires.png

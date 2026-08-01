@@ -6,4 +6,6 @@ attributes:
   number: "HGSS17"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hsp/HGSS17_hires.png

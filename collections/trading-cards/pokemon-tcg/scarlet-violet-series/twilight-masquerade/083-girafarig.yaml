@@ -6,4 +6,6 @@ attributes:
   number: "83/167"
   rarity: Common
   illustrator: Shinji Kanda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/83_hires.png

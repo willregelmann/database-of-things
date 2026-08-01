@@ -6,4 +6,7 @@ attributes:
   number: "95/95"
   rarity: Rare Holo LEGEND
   illustrator: Shinji Higuchi + Sachiko Eba
+  type:
+    - Water
+    - Fire
 image: https://images.pokemontcg.io/hgss2/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "198/202"
   rarity: Rare Ultra
   illustrator: aky CG Works
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/198_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "111/162"
   rarity: Double Rare
   illustrator: toriyufu
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv5/111_hires.png

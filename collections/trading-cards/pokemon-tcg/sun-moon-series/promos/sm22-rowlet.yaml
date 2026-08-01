@@ -6,4 +6,6 @@ attributes:
   number: "SM22"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM22_hires.png

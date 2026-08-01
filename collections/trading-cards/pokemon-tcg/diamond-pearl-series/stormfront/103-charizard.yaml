@@ -6,4 +6,6 @@ attributes:
   number: "103/100"
   rarity: Rare Secret
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp7/103_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "4/101"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw3/4_hires.png

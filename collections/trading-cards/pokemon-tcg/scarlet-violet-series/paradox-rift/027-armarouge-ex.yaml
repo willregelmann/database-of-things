@@ -6,4 +6,6 @@ attributes:
   number: "27/182"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4/27_hires.png

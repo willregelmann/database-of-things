@@ -6,4 +6,6 @@ attributes:
   number: "70/111"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo1/70_hires.png

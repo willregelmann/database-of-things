@@ -6,4 +6,6 @@ attributes:
   number: "197/196"
   rarity: Rare Rainbow
   illustrator: N-DESIGN Inc.
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/197_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "93/214"
   rarity: Rare
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/93_hires.png

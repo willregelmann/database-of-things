@@ -6,4 +6,6 @@ attributes:
   number: "2/189"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh3/2_hires.png

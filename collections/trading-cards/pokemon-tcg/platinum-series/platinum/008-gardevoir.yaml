@@ -6,4 +6,6 @@ attributes:
   number: "8/127"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/8_hires.png

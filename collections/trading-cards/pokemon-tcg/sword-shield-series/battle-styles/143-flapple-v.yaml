@@ -6,4 +6,6 @@ attributes:
   number: "143/163"
   rarity: Rare Ultra
   illustrator: PLANETA Mochizuki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh5/143_hires.png

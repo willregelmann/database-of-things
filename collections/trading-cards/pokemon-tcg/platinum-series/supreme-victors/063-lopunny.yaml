@@ -6,4 +6,6 @@ attributes:
   number: "63/147"
   rarity: Uncommon
   illustrator: Kanako Eo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/63_hires.png

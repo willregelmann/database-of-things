@@ -6,4 +6,6 @@ attributes:
   number: "95/99"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw4/95_hires.png

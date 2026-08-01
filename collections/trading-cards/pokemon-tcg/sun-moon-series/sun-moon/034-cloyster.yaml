@@ -6,4 +6,6 @@ attributes:
   number: "34/149"
   rarity: Rare
   illustrator: Yoshinobu Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm1/34_hires.png

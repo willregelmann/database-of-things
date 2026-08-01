@@ -6,4 +6,6 @@ attributes:
   number: "187/264"
   rarity: Uncommon
   illustrator: Oswaldo KATO
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh8/187_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "80/114"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy11/80_hires.png

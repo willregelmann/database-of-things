@@ -6,4 +6,6 @@ attributes:
   number: "27/214"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm10/27_hires.png

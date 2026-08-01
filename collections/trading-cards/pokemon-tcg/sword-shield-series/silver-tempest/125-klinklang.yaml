@@ -6,4 +6,6 @@ attributes:
   number: "125/195"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12/125_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "73/160"
   rarity: Rare
   illustrator: HiRON
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy5/73_hires.png

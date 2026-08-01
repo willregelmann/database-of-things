@@ -6,4 +6,6 @@ attributes:
   number: "67/236"
   rarity: Rare
   illustrator: AKIRA EGAWA
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm12/67_hires.png

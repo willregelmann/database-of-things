@@ -6,4 +6,6 @@ attributes:
   number: "RC20/RC32"
   rarity: Uncommon
   illustrator: MAHOU
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC20_hires.png

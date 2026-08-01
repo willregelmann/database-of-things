@@ -6,4 +6,6 @@ attributes:
   number: "46/78"
   rarity: Rare Holo
   illustrator: Shigenori Negishi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/pgo/46_hires.png

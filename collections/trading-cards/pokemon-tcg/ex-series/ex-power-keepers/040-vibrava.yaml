@@ -6,4 +6,6 @@ attributes:
   number: "40/108"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex16/40_hires.png

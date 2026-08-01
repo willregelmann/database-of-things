@@ -6,4 +6,6 @@ attributes:
   number: "167/203"
   rarity: Rare Ultra
   illustrator: You Iribi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh7/167_hires.png

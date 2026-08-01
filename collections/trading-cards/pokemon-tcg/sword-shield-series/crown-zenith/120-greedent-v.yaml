@@ -6,4 +6,6 @@ attributes:
   number: "120/159"
   rarity: Rare Holo V
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/120_hires.png

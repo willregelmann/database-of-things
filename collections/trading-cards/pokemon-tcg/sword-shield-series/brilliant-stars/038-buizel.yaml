@@ -6,4 +6,6 @@ attributes:
   number: "38/172"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh9/38_hires.png

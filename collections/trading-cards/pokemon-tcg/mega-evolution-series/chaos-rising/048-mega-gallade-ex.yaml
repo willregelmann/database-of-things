@@ -6,4 +6,6 @@ attributes:
   number: "48/86"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me4-48/large

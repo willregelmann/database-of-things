@@ -6,4 +6,6 @@ attributes:
   number: "52/163"
   rarity: Common
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh5/52_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH209"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swshp/SWSH209_hires.png

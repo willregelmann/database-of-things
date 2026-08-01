@@ -6,4 +6,6 @@ attributes:
   number: "92/86"
   rarity: Illustration Rare
   illustrator: matazo
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me4-92/large

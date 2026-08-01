@@ -6,4 +6,6 @@ attributes:
   number: "027"
   rarity: Promo
   illustrator: Atsushi Furusawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/27_hires.png

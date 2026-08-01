@@ -6,4 +6,6 @@ attributes:
   number: "103/163"
   rarity: Common
   illustrator: otumami
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/103_hires.png

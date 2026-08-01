@@ -6,4 +6,6 @@ attributes:
   number: "SWSH126"
   rarity: Promo
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH126_hires.png

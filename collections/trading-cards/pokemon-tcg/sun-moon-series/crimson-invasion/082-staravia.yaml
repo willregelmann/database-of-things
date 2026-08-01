@@ -6,4 +6,6 @@ attributes:
   number: "82/111"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm4/82_hires.png

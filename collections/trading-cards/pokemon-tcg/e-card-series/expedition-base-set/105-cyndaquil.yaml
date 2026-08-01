@@ -6,4 +6,6 @@ attributes:
   number: "105/165"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard1/105_hires.png

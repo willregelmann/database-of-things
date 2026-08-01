@@ -6,4 +6,6 @@ attributes:
   number: "6/185"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh4/6_hires.png

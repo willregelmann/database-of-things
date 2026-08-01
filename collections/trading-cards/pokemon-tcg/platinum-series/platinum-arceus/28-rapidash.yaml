@@ -6,4 +6,6 @@ attributes:
   number: "28/99"
   rarity: Rare
   illustrator: Lee HyunJung
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl4/28_hires.png

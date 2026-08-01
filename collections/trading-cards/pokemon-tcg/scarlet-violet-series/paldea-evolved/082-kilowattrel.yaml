@@ -6,4 +6,6 @@ attributes:
   number: "82/193"
   rarity: Uncommon
   illustrator: Pani Kobayashi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/82_hires.png

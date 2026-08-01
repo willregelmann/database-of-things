@@ -6,4 +6,6 @@ attributes:
   number: "21/147"
   rarity: Rare Holo GX
   illustrator: PLANETA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm3/21_hires.png

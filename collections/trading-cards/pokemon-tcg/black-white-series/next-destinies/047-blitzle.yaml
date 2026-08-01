@@ -6,4 +6,6 @@ attributes:
   number: "47/99"
   rarity: Common
   illustrator: sui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw4/47_hires.png

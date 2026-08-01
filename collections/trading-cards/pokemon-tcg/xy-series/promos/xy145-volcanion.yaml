@@ -6,4 +6,6 @@ attributes:
   number: "XY145"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY145_hires.png

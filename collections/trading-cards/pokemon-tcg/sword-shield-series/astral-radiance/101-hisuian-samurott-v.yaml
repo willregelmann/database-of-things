@@ -6,4 +6,6 @@ attributes:
   number: "101/189"
   rarity: Rare Holo V
   illustrator: Shin Nagasawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh10/101_hires.png

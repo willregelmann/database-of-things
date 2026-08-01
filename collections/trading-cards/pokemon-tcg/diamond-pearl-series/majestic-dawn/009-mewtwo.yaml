@@ -6,4 +6,6 @@ attributes:
   number: "9/100"
   rarity: Rare Holo
   illustrator: Kent Kanetsuna
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp5/9_hires.png

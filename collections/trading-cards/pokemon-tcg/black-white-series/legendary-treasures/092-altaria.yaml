@@ -6,4 +6,6 @@ attributes:
   number: "92/113"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw11/92_hires.png

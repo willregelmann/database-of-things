@@ -6,4 +6,6 @@ attributes:
   number: "84/99"
   rarity: Uncommon
   illustrator: Tomohiro Kitakaze
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw4/84_hires.png

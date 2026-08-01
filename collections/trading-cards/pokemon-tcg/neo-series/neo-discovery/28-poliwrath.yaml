@@ -6,4 +6,6 @@ attributes:
   number: "28/75"
   rarity: Rare
   illustrator: Shin-ichi Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo2/28_hires.png

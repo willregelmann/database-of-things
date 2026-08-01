@@ -6,4 +6,6 @@ attributes:
   number: "SM217"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM217_hires.png

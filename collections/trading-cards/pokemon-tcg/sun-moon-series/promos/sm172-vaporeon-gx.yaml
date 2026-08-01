@@ -6,4 +6,6 @@ attributes:
   number: "SM172"
   rarity: Promo
   illustrator: PLANETA Otani
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM172_hires.png

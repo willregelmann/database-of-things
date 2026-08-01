@@ -6,4 +6,6 @@ attributes:
   number: "106/162"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy8/106_hires.png

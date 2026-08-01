@@ -6,4 +6,6 @@ attributes:
   number: "125/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl3/125_hires.png

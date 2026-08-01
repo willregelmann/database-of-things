@@ -6,4 +6,6 @@ attributes:
   number: "96/97"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex3/96_hires.png

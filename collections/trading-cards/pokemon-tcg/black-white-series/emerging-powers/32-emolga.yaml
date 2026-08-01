@@ -6,4 +6,6 @@ attributes:
   number: "32/98"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw2/32_hires.png

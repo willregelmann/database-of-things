@@ -6,4 +6,6 @@ attributes:
   number: "173"
   rarity: Promo
   illustrator: Makura Tami
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/173_hires.png

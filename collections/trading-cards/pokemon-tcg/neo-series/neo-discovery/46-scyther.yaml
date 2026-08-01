@@ -6,4 +6,6 @@ attributes:
   number: "46/75"
   rarity: Uncommon
   illustrator: Kimiya Masago
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo2/46_hires.png

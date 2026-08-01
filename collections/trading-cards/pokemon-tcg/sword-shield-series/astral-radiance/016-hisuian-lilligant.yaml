@@ -6,4 +6,6 @@ attributes:
   number: "16/189"
   rarity: Rare Holo
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/16_hires.png

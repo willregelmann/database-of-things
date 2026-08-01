@@ -6,4 +6,6 @@ attributes:
   number: "37/159"
   rarity: Rare
   illustrator: Jerky
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv9/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "72/156"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm5/72_hires.png

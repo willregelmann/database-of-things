@@ -6,4 +6,6 @@ attributes:
   number: "228/182"
   rarity: Special Illustration Rare
   illustrator: Tonji Matsuno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/228_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "89/147"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ecard2/89_hires.png

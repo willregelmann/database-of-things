@@ -6,4 +6,6 @@ attributes:
   number: "3/92"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex12/3_hires.png

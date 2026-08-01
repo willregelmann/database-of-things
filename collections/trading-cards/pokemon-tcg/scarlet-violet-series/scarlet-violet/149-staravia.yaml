@@ -6,4 +6,6 @@ attributes:
   number: "149/198"
   rarity: Common
   illustrator: kantaro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/149_hires.png

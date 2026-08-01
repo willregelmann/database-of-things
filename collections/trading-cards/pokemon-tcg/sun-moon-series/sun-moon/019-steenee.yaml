@@ -6,4 +6,6 @@ attributes:
   number: "19/149"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm1/19_hires.png

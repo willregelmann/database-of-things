@@ -6,4 +6,6 @@ attributes:
   number: "105/217"
   rarity: Rare
   illustrator: Whisker
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-105/large

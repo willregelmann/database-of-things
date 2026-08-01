@@ -6,4 +6,6 @@ attributes:
   number: "18/25"
   rarity: Rare Holo V
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/cel25/18_hires.png

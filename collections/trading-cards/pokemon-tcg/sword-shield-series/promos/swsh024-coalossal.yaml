@@ -6,4 +6,6 @@ attributes:
   number: "SWSH024"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH024_hires.png

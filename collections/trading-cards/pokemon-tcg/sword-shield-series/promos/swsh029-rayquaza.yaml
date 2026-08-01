@@ -6,4 +6,6 @@ attributes:
   number: "SWSH029"
   rarity: Promo
   illustrator: so-taro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH029_hires.png

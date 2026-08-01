@@ -6,4 +6,6 @@ attributes:
   number: "79/123"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp2/79_hires.png

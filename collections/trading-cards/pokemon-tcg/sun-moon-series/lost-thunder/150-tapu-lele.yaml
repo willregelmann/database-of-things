@@ -6,4 +6,6 @@ attributes:
   number: "150/214"
   rarity: Rare Holo
   illustrator: Mizue
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm8/150_hires.png

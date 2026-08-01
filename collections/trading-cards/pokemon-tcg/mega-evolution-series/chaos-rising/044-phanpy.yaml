@@ -6,4 +6,6 @@ attributes:
   number: "44/86"
   rarity: Common
   illustrator: Akino Fukuji
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me4-44/large

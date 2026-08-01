@@ -5,4 +5,6 @@ date: "2013-11-08"
 attributes:
   number: "15/39"
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy0/15_hires.png

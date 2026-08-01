@@ -6,4 +6,6 @@ attributes:
   number: "38/53"
   rarity: Promo
   illustrator: Hideki Kazama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/basep/38_hires.png

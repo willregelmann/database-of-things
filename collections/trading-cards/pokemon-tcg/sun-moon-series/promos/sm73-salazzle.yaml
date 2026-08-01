@@ -6,4 +6,6 @@ attributes:
   number: "SM73"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM73_hires.png

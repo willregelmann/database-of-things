@@ -6,4 +6,6 @@ attributes:
   number: "115/112"
   rarity: Rare Secret
   illustrator: Ryo Ueda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex6/115_hires.png

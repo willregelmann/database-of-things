@@ -6,4 +6,6 @@ attributes:
   number: "95/101"
   rarity: Rare Holo ex
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex5/95_hires.png

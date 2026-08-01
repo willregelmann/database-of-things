@@ -6,4 +6,6 @@ attributes:
   number: "103/236"
   rarity: Common
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm11/103_hires.png

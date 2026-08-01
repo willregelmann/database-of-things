@@ -6,4 +6,6 @@ attributes:
   number: "89/214"
   rarity: Rare
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/89_hires.png

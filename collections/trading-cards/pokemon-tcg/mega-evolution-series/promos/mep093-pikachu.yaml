@@ -6,4 +6,6 @@ attributes:
   number: "093"
   rarity: Promo
   illustrator: DOM
+  type:
+    - Lightning
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/PikachuMEPPromo93.jpg

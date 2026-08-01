@@ -6,4 +6,6 @@ attributes:
   number: "88/132"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp3/88_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "132/189"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh10/132_hires.png

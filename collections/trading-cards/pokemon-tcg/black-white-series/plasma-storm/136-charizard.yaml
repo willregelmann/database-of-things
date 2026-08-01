@@ -6,4 +6,6 @@ attributes:
   number: "136/135"
   rarity: Rare Secret
   illustrator: Ayaka Yoshida
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw8/136_hires.png

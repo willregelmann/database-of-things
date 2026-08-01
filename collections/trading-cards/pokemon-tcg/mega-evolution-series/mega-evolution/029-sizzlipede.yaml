@@ -6,4 +6,6 @@ attributes:
   number: "29/132"
   rarity: Common
   illustrator: GIDORA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me1/29_hires.png

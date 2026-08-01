@@ -6,4 +6,6 @@ attributes:
   number: "55/111"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl2/55_hires.png

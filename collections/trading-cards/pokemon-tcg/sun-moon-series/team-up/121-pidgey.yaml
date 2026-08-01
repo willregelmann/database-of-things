@@ -6,4 +6,6 @@ attributes:
   number: "121/181"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm9/121_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "83/113"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw11/83_hires.png

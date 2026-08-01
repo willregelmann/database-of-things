@@ -6,4 +6,6 @@ attributes:
   number: "14/97"
   rarity: Rare
   illustrator: Aya Kusube
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/14_hires.png

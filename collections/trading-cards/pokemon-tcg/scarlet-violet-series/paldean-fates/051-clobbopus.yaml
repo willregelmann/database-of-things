@@ -6,4 +6,6 @@ attributes:
   number: "51/91"
   rarity: Common
   illustrator: Kedamahadaitai Yawarakai
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4pt5/51_hires.png

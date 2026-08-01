@@ -6,4 +6,6 @@ attributes:
   number: "12/146"
   rarity: Common
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy1/12_hires.png

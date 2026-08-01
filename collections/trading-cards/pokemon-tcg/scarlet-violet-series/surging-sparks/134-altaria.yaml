@@ -6,4 +6,6 @@ attributes:
   number: "134/191"
   rarity: Uncommon
   illustrator: rika
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/134_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "18/127"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl1/18_hires.png

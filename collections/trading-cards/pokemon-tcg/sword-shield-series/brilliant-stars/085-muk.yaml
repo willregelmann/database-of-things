@@ -6,4 +6,6 @@ attributes:
   number: "85/172"
   rarity: Rare
   illustrator: Scav
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/85_hires.png

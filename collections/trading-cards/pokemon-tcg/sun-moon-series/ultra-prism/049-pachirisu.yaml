@@ -6,4 +6,6 @@ attributes:
   number: "49/156"
   rarity: Common
   illustrator: OOYAMA
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm5/49_hires.png

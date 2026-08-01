@@ -6,4 +6,6 @@ attributes:
   number: "8/172"
   rarity: Rare Holo
   illustrator: Oswaldo KATO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh9/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "19/73"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh35/19_hires.png

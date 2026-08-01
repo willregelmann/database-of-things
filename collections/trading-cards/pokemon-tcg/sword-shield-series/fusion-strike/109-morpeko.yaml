@@ -6,4 +6,6 @@ attributes:
   number: "109/264"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh8/109_hires.png

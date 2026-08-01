@@ -6,4 +6,6 @@ attributes:
   number: "128/127"
   rarity: Rare Secret
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl1/128_hires.png

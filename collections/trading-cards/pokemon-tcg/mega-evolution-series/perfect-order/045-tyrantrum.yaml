@@ -6,4 +6,6 @@ attributes:
   number: "45/88"
   rarity: Rare
   illustrator: Dsuke
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me3-45/large

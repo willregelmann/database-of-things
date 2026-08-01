@@ -6,4 +6,6 @@ attributes:
   number: "SM225"
   rarity: Promo
   illustrator: nagimiso
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM225_hires.png

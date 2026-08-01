@@ -6,4 +6,6 @@ attributes:
   number: "59/88"
   rarity: Common
   illustrator: MINAMINAMI Take
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me3-59/large

@@ -6,4 +6,6 @@ attributes:
   number: "68/84"
   rarity: Uncommon
   illustrator: Masako Tomii
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me5-68/large

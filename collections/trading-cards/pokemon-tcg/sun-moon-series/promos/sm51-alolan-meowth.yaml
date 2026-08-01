@@ -6,4 +6,6 @@ attributes:
   number: "SM51"
   rarity: Promo
   illustrator: sui
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/smp/SM51_hires.png

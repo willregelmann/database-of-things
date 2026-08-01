@@ -6,4 +6,6 @@ attributes:
   number: "147/182"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv4/147_hires.png

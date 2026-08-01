@@ -6,4 +6,6 @@ attributes:
   number: "88/132"
   rarity: Rare
   illustrator: akagi
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me1/88_hires.png

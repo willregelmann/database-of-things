@@ -6,4 +6,6 @@ attributes:
   number: "58/131"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8pt5/58_hires.png

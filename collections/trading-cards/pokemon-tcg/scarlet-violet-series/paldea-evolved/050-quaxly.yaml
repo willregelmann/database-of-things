@@ -6,4 +6,6 @@ attributes:
   number: "50/193"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/50_hires.png

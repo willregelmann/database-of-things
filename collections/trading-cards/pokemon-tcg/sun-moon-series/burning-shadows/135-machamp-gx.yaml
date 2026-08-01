@@ -6,4 +6,6 @@ attributes:
   number: "135/147"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm3/135_hires.png

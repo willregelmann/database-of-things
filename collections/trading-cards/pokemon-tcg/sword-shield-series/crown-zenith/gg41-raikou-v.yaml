@@ -6,4 +6,6 @@ attributes:
   number: "GG41/GG70"
   rarity: Rare Holo V
   illustrator: nagimiso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12pt5gg/GG41_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "103/185"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh4/103_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "38/111"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy3/38_hires.png

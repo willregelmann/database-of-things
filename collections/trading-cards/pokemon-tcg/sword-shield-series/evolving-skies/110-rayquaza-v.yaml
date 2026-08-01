@@ -6,4 +6,6 @@ attributes:
   number: "110/203"
   rarity: Rare Holo V
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/110_hires.png

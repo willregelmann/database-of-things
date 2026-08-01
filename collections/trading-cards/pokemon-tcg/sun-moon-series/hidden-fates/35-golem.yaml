@@ -6,4 +6,6 @@ attributes:
   number: "35/68"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm115/35_hires.png

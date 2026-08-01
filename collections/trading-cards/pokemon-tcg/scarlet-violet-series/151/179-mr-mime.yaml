@@ -6,4 +6,6 @@ attributes:
   number: "179/165"
   rarity: Illustration Rare
   illustrator: OKACHEKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3pt5/179_hires.png

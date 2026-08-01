@@ -6,4 +6,6 @@ attributes:
   number: "148"
   rarity: Promo
   illustrator: hncl
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/148_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "58/102"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base1/58_hires.png
 variants:
   - id: 8fdd90f6-fa50-4539-b363-524dc1706e46

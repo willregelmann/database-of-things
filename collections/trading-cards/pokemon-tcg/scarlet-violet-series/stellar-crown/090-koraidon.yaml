@@ -6,4 +6,6 @@ attributes:
   number: "90/142"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/90_hires.png

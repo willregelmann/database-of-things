@@ -6,4 +6,6 @@ attributes:
   number: "38/167"
   rarity: Rare
   illustrator: saino misaki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/38_hires.png

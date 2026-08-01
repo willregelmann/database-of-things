@@ -6,4 +6,6 @@ attributes:
   number: "182"
   rarity: Promo
   illustrator: DOM
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/182_hires.png

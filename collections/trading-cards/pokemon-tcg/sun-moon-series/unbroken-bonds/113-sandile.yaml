@@ -6,4 +6,6 @@ attributes:
   number: "113/214"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm10/113_hires.png

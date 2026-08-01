@@ -6,4 +6,6 @@ attributes:
   number: "97/100"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp7/97_hires.png

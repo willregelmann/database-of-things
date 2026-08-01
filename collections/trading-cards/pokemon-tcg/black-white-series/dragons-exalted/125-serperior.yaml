@@ -6,4 +6,6 @@ attributes:
   number: "125/124"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw6/125_hires.png

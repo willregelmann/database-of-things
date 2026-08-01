@@ -6,4 +6,6 @@ attributes:
   number: "29/122"
   rarity: Common
   illustrator: Kanako Eo
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/29_hires.png

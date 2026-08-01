@@ -6,4 +6,6 @@ attributes:
   number: "60/124"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw6/60_hires.png

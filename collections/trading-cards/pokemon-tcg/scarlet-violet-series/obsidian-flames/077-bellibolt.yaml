@@ -6,4 +6,6 @@ attributes:
   number: "77/197"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv3/77_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "39/82"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base5/39_hires.png

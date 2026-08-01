@@ -6,4 +6,6 @@ attributes:
   number: "8/53"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/basep/8_hires.png

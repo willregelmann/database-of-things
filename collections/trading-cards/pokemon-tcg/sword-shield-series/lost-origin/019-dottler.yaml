@@ -6,4 +6,6 @@ attributes:
   number: "19/196"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh11/19_hires.png

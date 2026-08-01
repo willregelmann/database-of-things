@@ -6,4 +6,6 @@ attributes:
   number: "141/182"
   rarity: Uncommon
   illustrator: Shibuzoh.
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4/141_hires.png

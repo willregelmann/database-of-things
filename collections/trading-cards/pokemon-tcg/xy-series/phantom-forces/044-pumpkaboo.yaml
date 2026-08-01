@@ -6,4 +6,6 @@ attributes:
   number: "44/119"
   rarity: Common
   illustrator: HiRON
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy4/44_hires.png

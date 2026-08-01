@@ -6,4 +6,6 @@ attributes:
   number: "34/160"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/34_hires.png

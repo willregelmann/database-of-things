@@ -6,4 +6,6 @@ attributes:
   number: "32/106"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex9/32_hires.png

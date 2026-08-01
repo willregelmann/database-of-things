@@ -6,4 +6,6 @@ attributes:
   number: "SWSH144"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH144_hires.png

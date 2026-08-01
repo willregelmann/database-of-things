@@ -6,4 +6,6 @@ attributes:
   number: "83/105"
   rarity: Common
   illustrator: Etsuya Hattori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/83_hires.png

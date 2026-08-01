@@ -6,4 +6,6 @@ attributes:
   number: "113/203"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/113_hires.png

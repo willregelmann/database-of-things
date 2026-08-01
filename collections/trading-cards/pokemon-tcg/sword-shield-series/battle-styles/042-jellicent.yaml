@@ -6,4 +6,6 @@ attributes:
   number: "42/163"
   rarity: Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh5/42_hires.png

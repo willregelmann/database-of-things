@@ -6,4 +6,6 @@ attributes:
   number: "18/94"
   rarity: Double Rare
   illustrator: akagi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "43/162"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/43_hires.png

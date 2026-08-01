@@ -6,4 +6,6 @@ attributes:
   number: "97/100"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp5/97_hires.png

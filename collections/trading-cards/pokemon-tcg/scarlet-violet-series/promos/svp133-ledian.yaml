@@ -6,4 +6,6 @@ attributes:
   number: "133"
   rarity: Promo
   illustrator: Natsumi Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/133_hires.png

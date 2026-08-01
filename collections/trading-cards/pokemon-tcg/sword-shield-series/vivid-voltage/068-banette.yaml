@@ -6,4 +6,6 @@ attributes:
   number: "68/185"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh4/68_hires.png

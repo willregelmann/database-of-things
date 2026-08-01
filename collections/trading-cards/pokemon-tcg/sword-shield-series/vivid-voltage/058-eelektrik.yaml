@@ -6,4 +6,6 @@ attributes:
   number: "58/185"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/58_hires.png

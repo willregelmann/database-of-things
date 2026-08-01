@@ -6,4 +6,6 @@ attributes:
   number: "28/64"
   rarity: Uncommon
   illustrator: Toshinao Aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/neo3/28_hires.png

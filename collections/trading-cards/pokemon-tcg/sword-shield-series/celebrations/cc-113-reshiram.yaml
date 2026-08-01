@@ -6,4 +6,6 @@ attributes:
   number: "113/114"
   rarity: Rare Classic
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/cel25c/113_A_hires.png

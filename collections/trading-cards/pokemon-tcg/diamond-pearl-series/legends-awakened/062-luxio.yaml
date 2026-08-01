@@ -6,4 +6,6 @@ attributes:
   number: "62/146"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp6/62_hires.png

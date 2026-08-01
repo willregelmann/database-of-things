@@ -6,4 +6,6 @@ attributes:
   number: "65/142"
   rarity: Rare
   illustrator: Natsumi Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/65_hires.png

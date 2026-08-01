@@ -6,4 +6,6 @@ attributes:
   number: "13/109"
   rarity: Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex7/13_hires.png

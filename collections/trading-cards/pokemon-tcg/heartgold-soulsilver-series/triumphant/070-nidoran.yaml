@@ -6,4 +6,6 @@ attributes:
   number: "70/102"
   rarity: Common
   illustrator: match
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/70_hires.png

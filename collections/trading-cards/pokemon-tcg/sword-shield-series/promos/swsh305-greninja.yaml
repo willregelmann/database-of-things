@@ -6,4 +6,6 @@ attributes:
   number: "SWSH305"
   rarity: Promo
   illustrator: Taiga Kasai
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH305_hires.png

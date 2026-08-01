@@ -6,4 +6,6 @@ attributes:
   number: "174/198"
   rarity: Rare Ultra
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh6/174_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "4/72"
   rarity: Common
   illustrator: Uta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45/4_hires.png

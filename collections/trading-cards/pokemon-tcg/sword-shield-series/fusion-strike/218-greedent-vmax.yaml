@@ -6,4 +6,6 @@ attributes:
   number: "218/264"
   rarity: Rare Holo VMAX
   illustrator: PLANETA Mochizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/218_hires.png

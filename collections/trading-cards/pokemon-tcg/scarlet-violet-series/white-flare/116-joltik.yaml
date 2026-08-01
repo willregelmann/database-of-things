@@ -6,4 +6,6 @@ attributes:
   number: "116/86"
   rarity: Illustration Rare
   illustrator: HYOGONOSUKE
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/116_hires.png

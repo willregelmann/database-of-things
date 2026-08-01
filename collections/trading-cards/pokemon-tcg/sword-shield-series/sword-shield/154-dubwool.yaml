@@ -6,4 +6,6 @@ attributes:
   number: "154/202"
   rarity: Uncommon
   illustrator: You Iribi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/154_hires.png

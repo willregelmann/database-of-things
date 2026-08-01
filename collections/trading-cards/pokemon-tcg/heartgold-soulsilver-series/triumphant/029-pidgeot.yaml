@@ -6,4 +6,6 @@ attributes:
   number: "29/102"
   rarity: Rare
   illustrator: Suwama Chiaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/29_hires.png

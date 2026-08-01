@@ -6,4 +6,6 @@ attributes:
   number: "181/196"
   rarity: Rare Ultra
   illustrator: takuyoa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/181_hires.png

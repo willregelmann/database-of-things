@@ -6,4 +6,6 @@ attributes:
   number: "124/185"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/124_hires.png

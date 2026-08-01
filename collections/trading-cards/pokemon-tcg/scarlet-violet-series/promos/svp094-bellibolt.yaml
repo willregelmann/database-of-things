@@ -6,4 +6,6 @@ attributes:
   number: "094"
   rarity: Promo
   illustrator: Mizue
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/94_hires.png

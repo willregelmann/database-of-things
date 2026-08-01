@@ -6,4 +6,6 @@ attributes:
   number: "148/196"
   rarity: Rare
   illustrator: Nisota Niso
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh11/148_hires.png

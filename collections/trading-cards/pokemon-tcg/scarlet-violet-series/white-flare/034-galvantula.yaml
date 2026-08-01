@@ -6,4 +6,6 @@ attributes:
   number: "34/86"
   rarity: Uncommon
   illustrator: Shimaris Yukichi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/rsv10pt5/34_hires.png

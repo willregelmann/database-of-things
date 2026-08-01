@@ -6,4 +6,6 @@ attributes:
   number: "46/202"
   rarity: Common
   illustrator: SATOSHI NAKAI
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh1/46_hires.png

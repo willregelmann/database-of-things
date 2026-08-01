@@ -6,4 +6,6 @@ attributes:
   number: "150/142"
   rarity: Illustration Rare
   illustrator: MARINA Chikazawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv7/150_hires.png

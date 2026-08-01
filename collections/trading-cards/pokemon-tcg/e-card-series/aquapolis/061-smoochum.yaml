@@ -6,4 +6,6 @@ attributes:
   number: "61/147"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard2/61_hires.png

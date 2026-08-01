@@ -6,4 +6,6 @@ attributes:
   number: "BW49"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bwp/BW49_hires.png

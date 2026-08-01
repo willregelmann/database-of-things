@@ -6,4 +6,6 @@ attributes:
   number: "20/90"
   rarity: Rare
   illustrator: MAHOU
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss3/20_hires.png

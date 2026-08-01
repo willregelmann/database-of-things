@@ -6,4 +6,6 @@ attributes:
   number: "72/123"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/72_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "53/195"
   rarity: Common
   illustrator: Taira Akitsu
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12/53_hires.png

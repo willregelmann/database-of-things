@@ -6,4 +6,6 @@ attributes:
   number: "147/217"
   rarity: Common
   illustrator: Scav
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me2pt5-147/large

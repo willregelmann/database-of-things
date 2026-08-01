@@ -6,4 +6,6 @@ attributes:
   number: "165/131"
   rarity: Special Illustration Rare
   illustrator: Jerky
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8pt5/165_hires.png

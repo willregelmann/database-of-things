@@ -6,4 +6,6 @@ attributes:
   number: "153/236"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm12/153_hires.png

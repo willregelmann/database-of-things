@@ -6,4 +6,6 @@ attributes:
   number: "200/182"
   rarity: Illustration Rare
   illustrator: Taira Akitsu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/200_hires.png

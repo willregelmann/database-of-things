@@ -6,4 +6,6 @@ attributes:
   number: "37/92"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex12/37_hires.png

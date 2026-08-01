@@ -6,4 +6,6 @@ attributes:
   number: "44/131"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm6/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "90/172"
   rarity: Common
   illustrator: Narumi Sato
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/90_hires.png

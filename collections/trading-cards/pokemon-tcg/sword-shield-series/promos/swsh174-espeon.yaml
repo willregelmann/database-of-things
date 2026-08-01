@@ -6,4 +6,6 @@ attributes:
   number: "SWSH174"
   rarity: Promo
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH174_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "196/264"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh8/196_hires.png

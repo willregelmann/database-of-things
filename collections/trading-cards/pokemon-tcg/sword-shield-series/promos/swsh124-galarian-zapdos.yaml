@@ -6,4 +6,6 @@ attributes:
   number: "SWSH124"
   rarity: Promo
   illustrator: Oswaldo KATO
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH124_hires.png

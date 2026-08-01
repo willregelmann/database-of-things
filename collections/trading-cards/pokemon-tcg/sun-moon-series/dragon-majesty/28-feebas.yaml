@@ -6,4 +6,6 @@ attributes:
   number: "28/70"
   rarity: Common
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm75/28_hires.png

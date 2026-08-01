@@ -6,4 +6,6 @@ attributes:
   number: "17/112"
   rarity: Rare Holo
   illustrator: Tomokazu Komiya
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex6/17_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "95/264"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh8/95_hires.png

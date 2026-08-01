@@ -6,4 +6,6 @@ attributes:
   number: "43/111"
   rarity: Rare
   illustrator: PLANETA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy3/43_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "49/72"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45/49_hires.png

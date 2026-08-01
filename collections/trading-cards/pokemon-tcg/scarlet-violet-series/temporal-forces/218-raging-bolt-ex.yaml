@@ -6,4 +6,6 @@ attributes:
   number: "218/162"
   rarity: Hyper Rare
   illustrator: aky CG Works
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv5/218_hires.png

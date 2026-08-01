@@ -6,4 +6,6 @@ attributes:
   number: "51/86"
   rarity: Rare
   illustrator: IKEDA Saki
+  type:
+    - Darkness
 image: https://images.scrydex.com/pokemon/me4-51/large

@@ -6,4 +6,6 @@ attributes:
   number: "BW08"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/bwp/BW08_hires.png

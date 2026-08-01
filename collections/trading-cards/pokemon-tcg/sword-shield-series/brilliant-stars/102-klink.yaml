@@ -6,4 +6,6 @@ attributes:
   number: "102/172"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh9/102_hires.png

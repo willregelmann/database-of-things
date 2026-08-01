@@ -6,4 +6,6 @@ attributes:
   number: "89/159"
   rarity: Uncommon
   illustrator: Masako Tomii
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv9/89_hires.png

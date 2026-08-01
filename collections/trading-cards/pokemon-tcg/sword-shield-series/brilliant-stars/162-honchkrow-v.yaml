@@ -6,4 +6,6 @@ attributes:
   number: "162/172"
   rarity: Rare Ultra
   illustrator: zig
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh9/162_hires.png

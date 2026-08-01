@@ -6,4 +6,6 @@ attributes:
   number: "SM107"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/smp/SM107_hires.png

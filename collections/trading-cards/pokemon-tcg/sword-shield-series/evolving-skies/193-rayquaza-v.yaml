@@ -6,4 +6,6 @@ attributes:
   number: "193/203"
   rarity: Rare Ultra
   illustrator: PLANETA Mochizuki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh7/193_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "123/162"
   rarity: Rare
   illustrator: Yukiko Baba
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy8/123_hires.png

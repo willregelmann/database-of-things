@@ -6,4 +6,6 @@ attributes:
   number: "1/189"
   rarity: Rare Holo V
   illustrator: Ayaka Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/1_hires.png

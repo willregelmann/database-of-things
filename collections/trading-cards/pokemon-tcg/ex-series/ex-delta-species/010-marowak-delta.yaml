@@ -6,4 +6,7 @@ attributes:
   number: "10/113"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
+    - Metal
 image: https://images.pokemontcg.io/ex11/10_hires.png

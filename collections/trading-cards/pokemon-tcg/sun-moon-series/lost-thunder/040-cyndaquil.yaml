@@ -6,4 +6,6 @@ attributes:
   number: "40/214"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm8/40_hires.png

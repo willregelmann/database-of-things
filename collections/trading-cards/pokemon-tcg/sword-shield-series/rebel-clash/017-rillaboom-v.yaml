@@ -6,4 +6,6 @@ attributes:
   number: "17/192"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh2/17_hires.png

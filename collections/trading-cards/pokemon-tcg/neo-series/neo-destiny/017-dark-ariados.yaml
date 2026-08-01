@@ -6,4 +6,6 @@ attributes:
   number: "17/105"
   rarity: Rare
   illustrator: Toshinao Aoki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo4/17_hires.png

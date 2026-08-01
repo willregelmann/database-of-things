@@ -6,4 +6,6 @@ attributes:
   number: "123/159"
   rarity: Common
   illustrator: Atsuya Uki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/123_hires.png

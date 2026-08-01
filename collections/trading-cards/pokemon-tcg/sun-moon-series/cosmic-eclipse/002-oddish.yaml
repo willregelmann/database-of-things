@@ -6,4 +6,6 @@ attributes:
   number: "2/236"
   rarity: Common
   illustrator: Yumi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm12/2_hires.png

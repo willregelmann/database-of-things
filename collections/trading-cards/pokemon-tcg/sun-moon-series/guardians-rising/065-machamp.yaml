@@ -6,4 +6,6 @@ attributes:
   number: "65/145"
   rarity: Rare Holo
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm2/65_hires.png

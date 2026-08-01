@@ -6,4 +6,6 @@ attributes:
   number: "124/214"
   rarity: Uncommon
   illustrator: Suwama Chiaki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm10/124_hires.png

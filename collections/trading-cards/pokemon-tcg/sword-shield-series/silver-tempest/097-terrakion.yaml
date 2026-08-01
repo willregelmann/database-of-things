@@ -6,4 +6,6 @@ attributes:
   number: "97/195"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12/97_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "135/189"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh3/135_hires.png

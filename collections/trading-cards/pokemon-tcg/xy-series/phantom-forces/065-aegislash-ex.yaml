@@ -6,4 +6,6 @@ attributes:
   number: "65/119"
   rarity: Rare Holo ex
   illustrator: Ayaka Yoshida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy4/65_hires.png

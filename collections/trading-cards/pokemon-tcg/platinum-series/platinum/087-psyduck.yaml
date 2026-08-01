@@ -6,4 +6,6 @@ attributes:
   number: "87/127"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl1/87_hires.png

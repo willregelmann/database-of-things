@@ -6,4 +6,6 @@ attributes:
   number: "33/203"
   rarity: Uncommon
   illustrator: miki kudo
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/33_hires.png

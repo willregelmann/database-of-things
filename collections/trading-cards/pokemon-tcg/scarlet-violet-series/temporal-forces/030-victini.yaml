@@ -6,4 +6,6 @@ attributes:
   number: "30/162"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv5/30_hires.png

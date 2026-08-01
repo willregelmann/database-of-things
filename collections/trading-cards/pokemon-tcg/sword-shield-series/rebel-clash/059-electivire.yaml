@@ -6,4 +6,6 @@ attributes:
   number: "59/192"
   rarity: Rare
   illustrator: tetsuya koizumi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh2/59_hires.png

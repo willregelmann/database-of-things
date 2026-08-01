@@ -6,4 +6,6 @@ attributes:
   number: "83/132"
   rarity: Common
   illustrator: kodama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/83_hires.png

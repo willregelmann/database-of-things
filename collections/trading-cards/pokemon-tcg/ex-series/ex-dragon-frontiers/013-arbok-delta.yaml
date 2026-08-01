@@ -6,4 +6,6 @@ attributes:
   number: "13/101"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex15/13_hires.png

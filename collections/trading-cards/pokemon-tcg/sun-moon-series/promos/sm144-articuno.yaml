@@ -6,4 +6,6 @@ attributes:
   number: "SM144"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM144_hires.png

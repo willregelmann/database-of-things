@@ -6,4 +6,6 @@ attributes:
   number: "SV005/SV122"
   rarity: Rare Shiny
   illustrator: tetsuya koizumi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45sv/SV005_hires.png

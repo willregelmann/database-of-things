@@ -6,4 +6,6 @@ attributes:
   number: "207/264"
   rarity: Uncommon
   illustrator: ryoma uratsuka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/207_hires.png

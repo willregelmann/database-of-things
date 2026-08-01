@@ -6,4 +6,6 @@ attributes:
   number: "10/189"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh10/10_hires.png

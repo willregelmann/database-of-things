@@ -6,4 +6,6 @@ attributes:
   number: "SWSH278"
   rarity: Promo
   illustrator: Yuya Oka
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH278_hires.png

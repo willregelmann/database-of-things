@@ -6,4 +6,6 @@ attributes:
   number: "125/172"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh9/125_hires.png

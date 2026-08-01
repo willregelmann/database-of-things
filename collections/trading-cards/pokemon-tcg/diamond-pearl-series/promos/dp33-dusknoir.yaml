@@ -6,4 +6,6 @@ attributes:
   number: "DP33"
   rarity: Promo
   illustrator: Kent Kanetsuna
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dpp/DP33_hires.png

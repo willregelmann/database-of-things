@@ -6,4 +6,6 @@ attributes:
   number: "9/149"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm1/9_hires.png

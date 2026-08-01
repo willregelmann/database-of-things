@@ -6,4 +6,6 @@ attributes:
   number: "212/264"
   rarity: Common
   illustrator: Yuu Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/212_hires.png

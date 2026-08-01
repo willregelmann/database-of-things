@@ -6,4 +6,6 @@ attributes:
   number: "103/86"
   rarity: Illustration Rare
   illustrator: Kuroimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/rsv10pt5/103_hires.png

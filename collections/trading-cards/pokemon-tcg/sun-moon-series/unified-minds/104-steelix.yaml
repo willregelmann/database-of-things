@@ -6,4 +6,6 @@ attributes:
   number: "104/236"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm11/104_hires.png

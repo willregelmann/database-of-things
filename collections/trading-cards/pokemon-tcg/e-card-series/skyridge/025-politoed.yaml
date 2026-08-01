@@ -6,4 +6,6 @@ attributes:
   number: "25/144"
   rarity: Rare
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/25_hires.png

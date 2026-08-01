@@ -6,4 +6,6 @@ attributes:
   number: "SM129"
   rarity: Promo
   illustrator: Anesaki Dynamic
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM129_hires.png

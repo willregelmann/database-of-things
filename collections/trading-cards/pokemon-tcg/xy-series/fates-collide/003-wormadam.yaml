@@ -6,4 +6,6 @@ attributes:
   number: "3/124"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy10/3_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "138/236"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/138_hires.png

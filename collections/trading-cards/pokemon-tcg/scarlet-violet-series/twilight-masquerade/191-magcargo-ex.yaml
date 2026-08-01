@@ -6,4 +6,6 @@ attributes:
   number: "191/167"
   rarity: Ultra Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/191_hires.png

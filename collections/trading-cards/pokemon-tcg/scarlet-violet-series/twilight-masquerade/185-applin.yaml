@@ -6,4 +6,6 @@ attributes:
   number: "185/167"
   rarity: Illustration Rare
   illustrator: Katsunori Sato
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6/185_hires.png

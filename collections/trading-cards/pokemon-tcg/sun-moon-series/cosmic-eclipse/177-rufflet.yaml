@@ -6,4 +6,6 @@ attributes:
   number: "177/236"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/177_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "89/264"
   rarity: Common
   illustrator: Megumi Higuchi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh8/89_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/193"
   rarity: Uncommon
   illustrator: Oswaldo KATO
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/41_hires.png

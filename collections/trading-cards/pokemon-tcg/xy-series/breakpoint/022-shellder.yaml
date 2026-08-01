@@ -6,4 +6,6 @@ attributes:
   number: "22/122"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/22_hires.png

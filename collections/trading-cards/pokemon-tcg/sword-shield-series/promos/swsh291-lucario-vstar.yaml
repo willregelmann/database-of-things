@@ -6,4 +6,6 @@ attributes:
   number: "SWSH291"
   rarity: Promo
   illustrator: hncl
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH291_hires.png

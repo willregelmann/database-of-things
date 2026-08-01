@@ -6,4 +6,6 @@ attributes:
   number: "70/109"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex1/70_hires.png

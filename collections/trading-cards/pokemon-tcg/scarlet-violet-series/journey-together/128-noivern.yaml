@@ -6,4 +6,6 @@ attributes:
   number: "128/159"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/128_hires.png

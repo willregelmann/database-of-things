@@ -6,4 +6,6 @@ attributes:
   number: "GG26/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh12pt5gg/GG26_hires.png

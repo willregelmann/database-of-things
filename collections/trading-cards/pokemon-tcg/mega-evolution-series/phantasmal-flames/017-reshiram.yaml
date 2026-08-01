@@ -6,4 +6,6 @@ attributes:
   number: "17/94"
   rarity: Rare
   illustrator: AKIRA EGAWA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/17_hires.png

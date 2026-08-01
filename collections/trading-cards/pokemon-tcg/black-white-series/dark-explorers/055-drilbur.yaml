@@ -6,4 +6,6 @@ attributes:
   number: "55/108"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw5/55_hires.png

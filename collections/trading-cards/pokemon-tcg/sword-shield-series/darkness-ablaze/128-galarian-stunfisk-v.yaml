@@ -6,4 +6,6 @@ attributes:
   number: "128/189"
   rarity: Rare Holo V
   illustrator: PLANETA Tsuji
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh3/128_hires.png

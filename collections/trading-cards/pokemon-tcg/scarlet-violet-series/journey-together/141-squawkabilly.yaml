@@ -6,4 +6,6 @@ attributes:
   number: "141/159"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/141_hires.png

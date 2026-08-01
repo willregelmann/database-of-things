@@ -6,4 +6,6 @@ attributes:
   number: "23/95"
   rarity: Rare
   illustrator: Takashi Yamaguchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss2/23_hires.png

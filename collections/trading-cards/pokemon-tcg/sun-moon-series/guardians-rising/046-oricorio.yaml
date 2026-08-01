@@ -6,4 +6,6 @@ attributes:
   number: "46/145"
   rarity: Rare
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm2/46_hires.png

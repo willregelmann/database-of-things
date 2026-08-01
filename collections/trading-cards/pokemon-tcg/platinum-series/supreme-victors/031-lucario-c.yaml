@@ -6,4 +6,6 @@ attributes:
   number: "31/147"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/31_hires.png

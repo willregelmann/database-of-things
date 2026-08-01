@@ -6,4 +6,6 @@ attributes:
   number: "197"
   rarity: Promo
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/svp/197_hires.png

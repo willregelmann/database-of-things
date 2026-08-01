@@ -6,4 +6,6 @@ attributes:
   number: "117/214"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm8/117_hires.png

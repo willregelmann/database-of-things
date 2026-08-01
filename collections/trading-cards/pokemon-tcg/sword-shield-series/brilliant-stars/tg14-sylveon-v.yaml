@@ -6,4 +6,6 @@ attributes:
   number: "TG14/TG30"
   rarity: Rare Holo V
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9tg/TG14_hires.png

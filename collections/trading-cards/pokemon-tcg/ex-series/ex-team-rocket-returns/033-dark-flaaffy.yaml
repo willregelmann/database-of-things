@@ -6,4 +6,7 @@ attributes:
   number: "33/109"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
+    - Darkness
 image: https://images.pokemontcg.io/ex7/33_hires.png

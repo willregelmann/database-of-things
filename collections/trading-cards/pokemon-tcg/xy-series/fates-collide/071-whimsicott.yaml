@@ -6,4 +6,6 @@ attributes:
   number: "71/124"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy10/71_hires.png

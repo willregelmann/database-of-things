@@ -6,4 +6,6 @@ attributes:
   number: "83/99"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw4/83_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "68/142"
   rarity: Common
   illustrator: Yuu Nishida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/68_hires.png

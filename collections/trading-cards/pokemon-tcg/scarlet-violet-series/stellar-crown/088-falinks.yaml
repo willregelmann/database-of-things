@@ -6,4 +6,6 @@ attributes:
   number: "88/142"
   rarity: Common
   illustrator: Gapao
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/88_hires.png

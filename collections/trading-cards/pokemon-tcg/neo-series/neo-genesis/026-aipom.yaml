@@ -6,4 +6,6 @@ attributes:
   number: "26/111"
   rarity: Uncommon
   illustrator: Hironobu Yoshida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo1/26_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "61/147"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl3/61_hires.png

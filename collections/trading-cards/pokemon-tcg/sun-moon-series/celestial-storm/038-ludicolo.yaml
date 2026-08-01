@@ -6,4 +6,6 @@ attributes:
   number: "38/168"
   rarity: Rare Holo
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm7/38_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "16/75"
   rarity: Rare Holo
   illustrator: Hironobu Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/16_hires.png

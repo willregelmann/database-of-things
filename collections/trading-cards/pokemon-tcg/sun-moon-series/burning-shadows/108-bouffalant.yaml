@@ -6,4 +6,6 @@ attributes:
   number: "108/147"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm3/108_hires.png

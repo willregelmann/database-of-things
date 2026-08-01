@@ -6,4 +6,6 @@ attributes:
   number: "89/147"
   rarity: Common
   illustrator: OOYAMA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm3/89_hires.png

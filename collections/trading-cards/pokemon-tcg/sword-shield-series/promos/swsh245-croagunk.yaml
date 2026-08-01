@@ -6,4 +6,6 @@ attributes:
   number: "SWSH245"
   rarity: Promo
   illustrator: Yuya Oka
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH245_hires.png

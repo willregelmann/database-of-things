@@ -6,4 +6,6 @@ attributes:
   number: "37/110"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex13/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "56/182"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv10/56_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "164/264"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh8/164_hires.png

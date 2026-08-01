@@ -6,4 +6,6 @@ attributes:
   number: "10/119"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy4/10_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "54/172"
   rarity: Rare
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh9/54_hires.png

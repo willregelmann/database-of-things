@@ -6,4 +6,6 @@ attributes:
   number: "74/181"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm9/74_hires.png

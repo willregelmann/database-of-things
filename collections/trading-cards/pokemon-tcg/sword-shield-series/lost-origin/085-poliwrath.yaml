@@ -6,4 +6,6 @@ attributes:
   number: "85/196"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/85_hires.png

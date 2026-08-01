@@ -6,4 +6,6 @@ attributes:
   number: "35/75"
   rarity: Rare
   illustrator: Hironobu Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/35_hires.png

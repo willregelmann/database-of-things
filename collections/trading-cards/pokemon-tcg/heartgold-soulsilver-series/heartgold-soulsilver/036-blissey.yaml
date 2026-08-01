@@ -6,4 +6,6 @@ attributes:
   number: "36/123"
   rarity: Uncommon
   illustrator: Kanako Eo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/36_hires.png

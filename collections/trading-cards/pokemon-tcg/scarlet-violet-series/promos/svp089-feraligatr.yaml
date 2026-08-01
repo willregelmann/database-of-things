@@ -6,4 +6,6 @@ attributes:
   number: "089"
   rarity: Promo
   illustrator: Kurata So
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/89_hires.png

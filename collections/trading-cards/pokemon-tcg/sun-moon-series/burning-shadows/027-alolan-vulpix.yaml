@@ -6,4 +6,6 @@ attributes:
   number: "27/147"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm3/27_hires.png

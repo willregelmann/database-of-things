@@ -6,4 +6,6 @@ attributes:
   number: "119/162"
   rarity: Rare
   illustrator: Teeziro
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv5/119_hires.png

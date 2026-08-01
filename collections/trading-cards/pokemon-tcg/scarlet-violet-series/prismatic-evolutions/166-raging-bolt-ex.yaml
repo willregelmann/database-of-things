@@ -6,4 +6,6 @@ attributes:
   number: "166/131"
   rarity: Special Illustration Rare
   illustrator: Uninori
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8pt5/166_hires.png

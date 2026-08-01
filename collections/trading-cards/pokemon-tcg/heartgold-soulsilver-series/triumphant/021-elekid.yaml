@@ -6,4 +6,6 @@ attributes:
   number: "21/102"
   rarity: Rare
   illustrator: TOKIYA
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss4/21_hires.png

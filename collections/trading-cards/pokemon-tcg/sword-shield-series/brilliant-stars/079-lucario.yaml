@@ -6,4 +6,6 @@ attributes:
   number: "79/172"
   rarity: Rare Holo
   illustrator: GIDORA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/79_hires.png

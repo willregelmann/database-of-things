@@ -6,4 +6,6 @@ attributes:
   number: "72/114"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw1/72_hires.png

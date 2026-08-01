@@ -6,4 +6,6 @@ attributes:
   number: "81/131"
   rarity: Common
   illustrator: Keisin
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8pt5/81_hires.png

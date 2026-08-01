@@ -6,4 +6,6 @@ attributes:
   number: "134/167"
   rarity: Double Rare
   illustrator: Iwamoto05
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/134_hires.png

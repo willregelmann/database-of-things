@@ -6,4 +6,6 @@ attributes:
   number: "84/182"
   rarity: Uncommon
   illustrator: nagimiso
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv10/84_hires.png

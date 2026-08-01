@@ -6,4 +6,6 @@ attributes:
   number: "55/264"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/55_hires.png

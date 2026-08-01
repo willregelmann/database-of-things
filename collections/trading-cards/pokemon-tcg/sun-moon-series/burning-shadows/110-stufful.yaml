@@ -6,4 +6,6 @@ attributes:
   number: "110/147"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm3/110_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "41/159"
   rarity: Rare
   illustrator: Takeshi Nakamura
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv9/41_hires.png

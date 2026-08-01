@@ -6,4 +6,6 @@ attributes:
   number: "SM37"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/smp/SM37_hires.png

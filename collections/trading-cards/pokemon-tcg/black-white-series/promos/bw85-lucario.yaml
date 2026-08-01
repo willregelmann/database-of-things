@@ -6,4 +6,6 @@ attributes:
   number: "BW85"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bwp/BW85_hires.png

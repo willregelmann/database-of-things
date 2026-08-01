@@ -6,4 +6,6 @@ attributes:
   number: "49/107"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex8/49_hires.png

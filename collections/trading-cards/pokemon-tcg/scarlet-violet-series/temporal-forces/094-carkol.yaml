@@ -6,4 +6,6 @@ attributes:
   number: "94/162"
   rarity: Common
   illustrator: Anesaki Dynamic
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/94_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/198"
   rarity: Common
   illustrator: kurumitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv1/51_hires.png

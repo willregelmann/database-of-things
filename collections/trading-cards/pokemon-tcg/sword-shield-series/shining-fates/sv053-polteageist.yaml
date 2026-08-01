@@ -6,4 +6,6 @@ attributes:
   number: "SV053/SV122"
   rarity: Rare Shiny
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV053_hires.png

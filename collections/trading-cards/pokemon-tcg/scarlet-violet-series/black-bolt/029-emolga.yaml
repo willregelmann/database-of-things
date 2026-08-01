@@ -6,4 +6,6 @@ attributes:
   number: "29/86"
   rarity: Common
   illustrator: Tomowaka
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/zsv10pt5/29_hires.png

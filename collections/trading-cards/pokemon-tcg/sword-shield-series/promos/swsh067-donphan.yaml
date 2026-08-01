@@ -6,4 +6,6 @@ attributes:
   number: "SWSH067"
   rarity: Promo
   illustrator: Eri Yamaki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH067_hires.png

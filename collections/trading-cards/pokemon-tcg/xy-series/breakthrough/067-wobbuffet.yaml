@@ -6,4 +6,6 @@ attributes:
   number: "67/162"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy8/67_hires.png

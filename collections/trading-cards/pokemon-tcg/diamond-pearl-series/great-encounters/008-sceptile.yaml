@@ -6,4 +6,6 @@ attributes:
   number: "8/106"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/8_hires.png

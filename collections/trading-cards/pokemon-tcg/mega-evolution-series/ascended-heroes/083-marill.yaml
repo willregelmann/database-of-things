@@ -6,4 +6,6 @@ attributes:
   number: "83/217"
   rarity: Common
   illustrator: Yoshimoto Yoshimon
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me2pt5-83/large

@@ -6,4 +6,6 @@ attributes:
   number: "70/163"
   rarity: Rare
   illustrator: Narumi Sato
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/70_hires.png

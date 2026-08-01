@@ -6,4 +6,6 @@ attributes:
   number: "213/264"
   rarity: Uncommon
   illustrator: AKIRA EGAWA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/213_hires.png

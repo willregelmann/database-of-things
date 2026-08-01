@@ -6,4 +6,6 @@ attributes:
   number: "BW59"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bwp/BW59_hires.png

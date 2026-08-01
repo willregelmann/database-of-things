@@ -6,4 +6,7 @@ attributes:
   number: "92/95"
   rarity: Rare Holo LEGEND
   illustrator: Shinji Higuchi + Noriko Takaya
+  type:
+    - Lightning
+    - Water
 image: https://images.pokemontcg.io/hgss2/92_hires.png

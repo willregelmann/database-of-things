@@ -6,4 +6,6 @@ attributes:
   number: "65/84"
   rarity: Double Rare
   illustrator: Keisuke Azuma
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me5-65/large

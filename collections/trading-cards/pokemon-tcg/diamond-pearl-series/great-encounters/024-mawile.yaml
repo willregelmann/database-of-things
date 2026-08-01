@@ -6,4 +6,6 @@ attributes:
   number: "24/106"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp4/24_hires.png

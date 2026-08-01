@@ -6,4 +6,6 @@ attributes:
   number: "4/95"
   rarity: Rare Holo
   illustrator: Wataru Kawahara
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/4_hires.png

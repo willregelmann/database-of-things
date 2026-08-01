@@ -6,4 +6,6 @@ attributes:
   number: "74/132"
   rarity: Rare
   illustrator: Whisker
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me1/74_hires.png

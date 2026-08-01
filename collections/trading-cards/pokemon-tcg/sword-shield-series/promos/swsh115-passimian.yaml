@@ -6,4 +6,6 @@ attributes:
   number: "SWSH115"
   rarity: Promo
   illustrator: Teeziro
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH115_hires.png

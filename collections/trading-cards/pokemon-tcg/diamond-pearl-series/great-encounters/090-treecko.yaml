@@ -6,4 +6,6 @@ attributes:
   number: "90/106"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp4/90_hires.png

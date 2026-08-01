@@ -6,4 +6,6 @@ attributes:
   number: "10/131"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm6/10_hires.png

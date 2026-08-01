@@ -6,4 +6,6 @@ attributes:
   number: "136/191"
   rarity: Rare
   illustrator: danciao
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/136_hires.png

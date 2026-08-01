@@ -6,4 +6,6 @@ attributes:
   number: "60/236"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/60_hires.png

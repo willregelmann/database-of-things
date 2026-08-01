@@ -6,4 +6,6 @@ attributes:
   number: "6/100"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex14/6_hires.png

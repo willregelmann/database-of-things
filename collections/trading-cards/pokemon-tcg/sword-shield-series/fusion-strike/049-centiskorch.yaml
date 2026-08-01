@@ -6,4 +6,6 @@ attributes:
   number: "49/264"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh8/49_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "149"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/svp/149_hires.png

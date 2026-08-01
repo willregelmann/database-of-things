@@ -6,4 +6,6 @@ attributes:
   number: "278/217"
   rarity: Special Illustration Rare
   illustrator: akagi
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-278/large

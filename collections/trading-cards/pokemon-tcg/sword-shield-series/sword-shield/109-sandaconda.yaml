@@ -6,4 +6,6 @@ attributes:
   number: "109/202"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/109_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "95/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm3/95_hires.png

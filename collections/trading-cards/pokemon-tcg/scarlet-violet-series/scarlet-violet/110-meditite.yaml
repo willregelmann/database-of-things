@@ -6,4 +6,6 @@ attributes:
   number: "110/198"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/110_hires.png

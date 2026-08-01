@@ -6,4 +6,6 @@ attributes:
   number: "44/196"
   rarity: Common
   illustrator: Oswaldo KATO
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh11/44_hires.png

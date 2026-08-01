@@ -6,4 +6,6 @@ attributes:
   number: "71/142"
   rarity: Rare
   illustrator: GIDORA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/71_hires.png

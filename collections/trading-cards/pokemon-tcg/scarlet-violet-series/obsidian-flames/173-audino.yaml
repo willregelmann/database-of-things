@@ -6,4 +6,6 @@ attributes:
   number: "173/197"
   rarity: Common
   illustrator: Tika Matsuno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3/173_hires.png

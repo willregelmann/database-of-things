@@ -6,4 +6,6 @@ attributes:
   number: "SM92"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/smp/SM92_hires.png

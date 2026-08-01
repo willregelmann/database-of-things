@@ -6,4 +6,6 @@ attributes:
   number: "SWSH304"
   rarity: Promo
   illustrator: REND
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH304_hires.png

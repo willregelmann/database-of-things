@@ -6,4 +6,6 @@ attributes:
   number: "8/214"
   rarity: Rare Holo
   illustrator: nagimiso
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/8_hires.png

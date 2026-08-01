@@ -6,4 +6,6 @@ attributes:
   number: "77/198"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh6/77_hires.png

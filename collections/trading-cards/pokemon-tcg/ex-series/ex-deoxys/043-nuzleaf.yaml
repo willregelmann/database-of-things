@@ -6,4 +6,6 @@ attributes:
   number: "43/107"
   rarity: Uncommon
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex8/43_hires.png

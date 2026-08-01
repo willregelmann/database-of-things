@@ -6,4 +6,6 @@ attributes:
   number: "67/189"
   rarity: Uncommon
   illustrator: Taira Akitsu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/67_hires.png

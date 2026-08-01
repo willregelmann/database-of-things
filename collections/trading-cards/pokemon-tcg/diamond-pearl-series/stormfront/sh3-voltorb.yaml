@@ -6,4 +6,6 @@ attributes:
   number: "SH3"
   rarity: Rare Holo
   illustrator: Kent Kanetsuna
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/dp7/SH3_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "132/86"
   rarity: Illustration Rare
   illustrator: Jerky
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/132_hires.png

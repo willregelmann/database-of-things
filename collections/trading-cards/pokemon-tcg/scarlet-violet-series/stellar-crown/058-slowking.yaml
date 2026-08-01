@@ -6,4 +6,6 @@ attributes:
   number: "58/142"
   rarity: Uncommon
   illustrator: Tetsu Kayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv7/58_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "135/162"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/135_hires.png

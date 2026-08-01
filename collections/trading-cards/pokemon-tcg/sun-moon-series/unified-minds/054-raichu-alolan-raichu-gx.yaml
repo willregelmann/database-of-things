@@ -6,4 +6,6 @@ attributes:
   number: "54/236"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm11/54_hires.png

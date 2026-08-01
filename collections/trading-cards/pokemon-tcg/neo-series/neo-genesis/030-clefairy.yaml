@@ -6,4 +6,6 @@ attributes:
   number: "30/111"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo1/30_hires.png

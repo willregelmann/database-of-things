@@ -6,4 +6,6 @@ attributes:
   number: "106/236"
   rarity: Rare Holo GX
   illustrator: PLANETA Igarashi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm11/106_hires.png

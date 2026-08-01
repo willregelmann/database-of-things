@@ -6,4 +6,6 @@ attributes:
   number: "91/101"
   rarity: Rare Holo ex
   illustrator: Ryo Ueda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex15/91_hires.png

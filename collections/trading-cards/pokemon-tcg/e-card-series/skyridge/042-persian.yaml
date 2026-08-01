@@ -6,4 +6,6 @@ attributes:
   number: "42/144"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/42_hires.png

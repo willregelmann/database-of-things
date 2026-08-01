@@ -6,4 +6,6 @@ attributes:
   number: "104/86"
   rarity: Illustration Rare
   illustrator: Kariya
+  type:
+    - Fire
 image: https://images.pokemontcg.io/rsv10pt5/104_hires.png

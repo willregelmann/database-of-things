@@ -6,4 +6,6 @@ attributes:
   number: "42/83"
   rarity: Rare Holo
   illustrator: PLANETA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/g1/42_hires.png

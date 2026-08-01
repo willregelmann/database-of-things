@@ -6,4 +6,6 @@ attributes:
   number: "36/102"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss4/36_hires.png

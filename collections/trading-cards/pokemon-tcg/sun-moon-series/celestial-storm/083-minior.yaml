@@ -6,4 +6,6 @@ attributes:
   number: "83/168"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm7/83_hires.png

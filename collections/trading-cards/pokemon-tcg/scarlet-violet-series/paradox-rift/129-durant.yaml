@@ -6,4 +6,6 @@ attributes:
   number: "129/182"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/129_hires.png

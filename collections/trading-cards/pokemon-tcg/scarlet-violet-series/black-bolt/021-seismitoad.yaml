@@ -6,4 +6,6 @@ attributes:
   number: "21/86"
   rarity: Uncommon
   illustrator: Yukihiro Tada
+  type:
+    - Water
 image: https://images.pokemontcg.io/zsv10pt5/21_hires.png

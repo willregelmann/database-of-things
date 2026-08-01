@@ -6,4 +6,6 @@ attributes:
   number: "8/217"
   rarity: Common
   illustrator: Kariya
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me2pt5-8/large

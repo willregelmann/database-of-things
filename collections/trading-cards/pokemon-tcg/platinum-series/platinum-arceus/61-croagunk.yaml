@@ -6,4 +6,6 @@ attributes:
   number: "61/99"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pl4/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "121/159"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/121_hires.png

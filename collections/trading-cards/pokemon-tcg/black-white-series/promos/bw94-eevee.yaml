@@ -6,4 +6,6 @@ attributes:
   number: "BW94"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW94_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "44/114"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy11/44_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "76/189"
   rarity: Uncommon
   illustrator: Hataya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/76_hires.png

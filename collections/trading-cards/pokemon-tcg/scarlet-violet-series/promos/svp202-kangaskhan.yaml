@@ -6,4 +6,6 @@ attributes:
   number: "202"
   rarity: Promo
   illustrator: Uta
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/svp/202_hires.png

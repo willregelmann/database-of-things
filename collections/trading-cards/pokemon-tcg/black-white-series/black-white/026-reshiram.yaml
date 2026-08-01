@@ -6,4 +6,6 @@ attributes:
   number: "26/114"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw1/26_hires.png

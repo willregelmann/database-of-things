@@ -6,4 +6,6 @@ attributes:
   number: "61/191"
   rarity: Common
   illustrator: Shinya Mizuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/61_hires.png

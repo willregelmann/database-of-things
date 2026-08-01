@@ -6,4 +6,6 @@ attributes:
   number: "75/119"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy4/75_hires.png

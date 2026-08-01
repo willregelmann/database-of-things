@@ -6,4 +6,6 @@ attributes:
   number: "58/191"
   rarity: Common
   illustrator: Hoshino KURO
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/58_hires.png

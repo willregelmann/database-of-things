@@ -6,4 +6,6 @@ attributes:
   number: "XY94"
   rarity: Promo
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY94_hires.png

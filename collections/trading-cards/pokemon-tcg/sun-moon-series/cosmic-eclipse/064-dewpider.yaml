@@ -6,4 +6,6 @@ attributes:
   number: "64/236"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "59/101"
   rarity: Common
   illustrator: Ken Ikuji
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex5/59_hires.png

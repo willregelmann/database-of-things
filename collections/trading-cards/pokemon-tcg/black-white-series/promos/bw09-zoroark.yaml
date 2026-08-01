@@ -6,4 +6,6 @@ attributes:
   number: "BW09"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bwp/BW09_hires.png

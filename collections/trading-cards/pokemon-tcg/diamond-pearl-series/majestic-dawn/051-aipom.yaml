@@ -6,4 +6,6 @@ attributes:
   number: "51/100"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp5/51_hires.png

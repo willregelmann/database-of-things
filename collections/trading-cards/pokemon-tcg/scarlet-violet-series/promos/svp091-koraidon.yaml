@@ -6,4 +6,6 @@ attributes:
   number: "091"
   rarity: Promo
   illustrator: Anesaki Dynamic
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/svp/91_hires.png

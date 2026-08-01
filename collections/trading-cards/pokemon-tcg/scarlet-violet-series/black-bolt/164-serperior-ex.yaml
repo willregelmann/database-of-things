@@ -6,4 +6,6 @@ attributes:
   number: "164/86"
   rarity: Special Illustration Rare
   illustrator: Ryota Murayama
+  type:
+    - Grass
 image: https://images.pokemontcg.io/zsv10pt5/164_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "55/142"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv7/55_hires.png

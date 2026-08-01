@@ -6,4 +6,6 @@ attributes:
   number: "26/90"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss3/26_hires.png

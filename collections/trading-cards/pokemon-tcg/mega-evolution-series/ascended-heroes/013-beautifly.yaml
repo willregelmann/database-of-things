@@ -6,4 +6,6 @@ attributes:
   number: "13/217"
   rarity: Uncommon
   illustrator: Narumi Sato
+  type:
+    - Grass
 image: https://images.scrydex.com/pokemon/me2pt5-13/large

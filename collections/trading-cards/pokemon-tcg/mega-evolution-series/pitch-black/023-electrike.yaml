@@ -6,4 +6,6 @@ attributes:
   number: "23/84"
   rarity: Common
   illustrator: Dsuke
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me5-23/large

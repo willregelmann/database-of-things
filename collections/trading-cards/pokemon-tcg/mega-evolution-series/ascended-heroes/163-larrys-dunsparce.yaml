@@ -6,4 +6,6 @@ attributes:
   number: "163/217"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-163/large

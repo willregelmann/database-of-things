@@ -6,4 +6,6 @@ attributes:
   number: "TG12/TG30"
   rarity: Rare Holo V
   illustrator: HYOGONOSUKE
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12tg/TG12_hires.png

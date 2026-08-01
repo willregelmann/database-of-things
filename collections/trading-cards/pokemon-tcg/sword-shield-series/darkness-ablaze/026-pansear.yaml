@@ -6,4 +6,6 @@ attributes:
   number: "26/189"
   rarity: Common
   illustrator: Megumi Higuchi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/26_hires.png

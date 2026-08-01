@@ -6,4 +6,6 @@ attributes:
   number: "14/25"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/cel25/14_hires.png

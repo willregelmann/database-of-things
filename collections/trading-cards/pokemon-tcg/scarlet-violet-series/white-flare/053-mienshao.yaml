@@ -6,4 +6,6 @@ attributes:
   number: "53/86"
   rarity: Uncommon
   illustrator: Keisin
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/rsv10pt5/53_hires.png

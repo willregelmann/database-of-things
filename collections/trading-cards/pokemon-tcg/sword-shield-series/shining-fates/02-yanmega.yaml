@@ -6,4 +6,6 @@ attributes:
   number: "2/72"
   rarity: Rare
   illustrator: Souichirou Gunjima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh45/2_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "18/82"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base5/18_hires.png

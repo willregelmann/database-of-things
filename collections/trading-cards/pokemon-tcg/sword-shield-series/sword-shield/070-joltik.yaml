@@ -6,4 +6,6 @@ attributes:
   number: "70/202"
   rarity: Common
   illustrator: Motofumi Fujiwara
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh1/70_hires.png

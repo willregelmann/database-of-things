@@ -6,4 +6,6 @@ attributes:
   number: "110/189"
   rarity: Rare Holo
   illustrator: Yuya Oka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/110_hires.png

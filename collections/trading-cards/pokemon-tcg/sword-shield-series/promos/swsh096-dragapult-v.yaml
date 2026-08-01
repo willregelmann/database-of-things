@@ -6,4 +6,6 @@ attributes:
   number: "SWSH096"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH096_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "RC32/RC32"
   rarity: Rare Ultra
   illustrator: Kanako Eo
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/g1/RC32_hires.png

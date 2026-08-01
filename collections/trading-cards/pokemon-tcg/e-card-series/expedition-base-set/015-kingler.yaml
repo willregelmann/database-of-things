@@ -6,4 +6,6 @@ attributes:
   number: "15/165"
   rarity: Rare Holo
   illustrator: Shin-ichi Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/15_hires.png

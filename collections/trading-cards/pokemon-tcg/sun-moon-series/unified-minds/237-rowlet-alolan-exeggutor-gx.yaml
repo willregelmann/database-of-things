@@ -6,4 +6,6 @@ attributes:
   number: "237/236"
   rarity: Rare Rainbow
   illustrator: ConceptLab
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm11/237_hires.png

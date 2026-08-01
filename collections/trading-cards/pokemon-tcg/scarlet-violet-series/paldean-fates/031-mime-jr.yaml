@@ -6,4 +6,6 @@ attributes:
   number: "31/91"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/31_hires.png

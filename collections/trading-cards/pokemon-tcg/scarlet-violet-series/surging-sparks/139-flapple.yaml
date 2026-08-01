@@ -6,4 +6,6 @@ attributes:
   number: "139/191"
   rarity: Uncommon
   illustrator: GOTO minori
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/139_hires.png

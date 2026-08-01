@@ -6,4 +6,6 @@ attributes:
   number: "90/214"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/90_hires.png

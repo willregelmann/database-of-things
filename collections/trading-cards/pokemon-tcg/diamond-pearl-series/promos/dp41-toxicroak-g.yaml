@@ -6,4 +6,6 @@ attributes:
   number: "DP41"
   rarity: Promo
   illustrator: Ryota Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dpp/DP41_hires.png

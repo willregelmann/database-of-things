@@ -6,4 +6,6 @@ attributes:
   number: "38/105"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/neo4/38_hires.png

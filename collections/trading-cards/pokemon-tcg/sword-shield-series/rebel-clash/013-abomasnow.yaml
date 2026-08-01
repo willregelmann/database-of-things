@@ -6,4 +6,6 @@ attributes:
   number: "13/192"
   rarity: Rare
   illustrator: Kazuma Koda
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh2/13_hires.png

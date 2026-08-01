@@ -6,4 +6,6 @@ attributes:
   number: "60/95"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/60_hires.png

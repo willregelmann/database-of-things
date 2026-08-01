@@ -6,4 +6,6 @@ attributes:
   number: "41/100"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp7/41_hires.png

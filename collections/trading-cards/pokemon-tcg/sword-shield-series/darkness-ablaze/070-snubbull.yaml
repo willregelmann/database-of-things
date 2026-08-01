@@ -6,4 +6,6 @@ attributes:
   number: "70/189"
   rarity: Common
   illustrator: otumami
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh3/70_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "AR4"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl4/AR4_hires.png

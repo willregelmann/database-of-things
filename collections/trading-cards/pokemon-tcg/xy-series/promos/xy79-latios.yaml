@@ -6,4 +6,6 @@ attributes:
   number: "XY79"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xyp/XY79_hires.png

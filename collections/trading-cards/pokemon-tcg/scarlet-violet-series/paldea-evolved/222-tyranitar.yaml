@@ -6,4 +6,6 @@ attributes:
   number: "222/193"
   rarity: Illustration Rare
   illustrator: Nurikabe
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv2/222_hires.png

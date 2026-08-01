@@ -6,4 +6,6 @@ attributes:
   number: "55/147"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl3/55_hires.png

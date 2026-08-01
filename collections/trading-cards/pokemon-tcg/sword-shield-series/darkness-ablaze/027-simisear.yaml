@@ -6,4 +6,6 @@ attributes:
   number: "27/189"
   rarity: Uncommon
   illustrator: "0313"
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/27_hires.png

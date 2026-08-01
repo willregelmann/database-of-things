@@ -6,4 +6,6 @@ attributes:
   number: "134/162"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv5/134_hires.png

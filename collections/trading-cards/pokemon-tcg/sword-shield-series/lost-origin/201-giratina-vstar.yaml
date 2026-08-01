@@ -6,4 +6,6 @@ attributes:
   number: "201/196"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/201_hires.png

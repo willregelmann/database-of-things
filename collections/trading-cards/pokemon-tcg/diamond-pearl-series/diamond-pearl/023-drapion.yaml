@@ -6,4 +6,6 @@ attributes:
   number: "23/130"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/23_hires.png

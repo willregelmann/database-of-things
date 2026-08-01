@@ -6,4 +6,6 @@ attributes:
   number: "74/135"
   rarity: Uncommon
   illustrator: Kouji Tajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw8/74_hires.png

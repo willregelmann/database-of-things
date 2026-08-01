@@ -6,4 +6,6 @@ attributes:
   number: "78/182"
   rarity: Uncommon
   illustrator: nisimono
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/78_hires.png

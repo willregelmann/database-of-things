@@ -6,4 +6,6 @@ attributes:
   number: "087"
   rarity: Promo
   illustrator: Shimaris Yukichi
+  type:
+    - Fighting
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/BinacleMEPPromo87.jpg

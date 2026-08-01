@@ -6,4 +6,6 @@ attributes:
   number: "105/182"
   rarity: Common
   illustrator: Minahamu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/105_hires.png

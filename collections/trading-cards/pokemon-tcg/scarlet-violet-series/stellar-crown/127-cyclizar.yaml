@@ -6,4 +6,6 @@ attributes:
   number: "127/142"
   rarity: Common
   illustrator: Nurikabe
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv7/127_hires.png

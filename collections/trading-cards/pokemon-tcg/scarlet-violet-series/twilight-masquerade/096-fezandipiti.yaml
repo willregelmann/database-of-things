@@ -6,4 +6,6 @@ attributes:
   number: "96/167"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv6/96_hires.png

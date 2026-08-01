@@ -6,4 +6,6 @@ attributes:
   number: "GG05/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: zig
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12pt5gg/GG05_hires.png

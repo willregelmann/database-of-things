@@ -6,4 +6,6 @@ attributes:
   number: "107/202"
   rarity: Common
   illustrator: Misa Tsutsui
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/107_hires.png

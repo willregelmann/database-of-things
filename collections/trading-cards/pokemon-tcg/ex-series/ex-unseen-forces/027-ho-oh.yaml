@@ -6,4 +6,6 @@ attributes:
   number: "27/115"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/27_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "114/84"
   rarity: Special Illustration Rare
   illustrator: GIDORA
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me5-114/large

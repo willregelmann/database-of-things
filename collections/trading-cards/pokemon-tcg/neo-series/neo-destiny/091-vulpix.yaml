@@ -6,4 +6,6 @@ attributes:
   number: "91/105"
   rarity: Common
   illustrator: Masako Yamashita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/neo4/91_hires.png

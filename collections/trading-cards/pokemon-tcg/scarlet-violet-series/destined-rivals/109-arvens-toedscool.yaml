@@ -6,4 +6,6 @@ attributes:
   number: "109/182"
   rarity: Common
   illustrator: Fujimoto Gold
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv10/109_hires.png

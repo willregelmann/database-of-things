@@ -6,4 +6,6 @@ attributes:
   number: "TG22/TG30"
   rarity: Rare Holo V
   illustrator: Ryuta Fuse
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10tg/TG22_hires.png

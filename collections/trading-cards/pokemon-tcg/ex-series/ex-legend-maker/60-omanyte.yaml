@@ -6,4 +6,6 @@ attributes:
   number: "60/92"
   rarity: Common
   illustrator: Kenkichi Toyama
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex12/60_hires.png

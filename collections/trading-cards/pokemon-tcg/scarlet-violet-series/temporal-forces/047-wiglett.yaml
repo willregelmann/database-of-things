@@ -6,4 +6,6 @@ attributes:
   number: "47/162"
   rarity: Common
   illustrator: OKUBO
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv5/47_hires.png

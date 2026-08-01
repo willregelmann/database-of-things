@@ -6,4 +6,6 @@ attributes:
   number: "44/168"
   rarity: Common
   illustrator: Asako Ito
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm7/44_hires.png

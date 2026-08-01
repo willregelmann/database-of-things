@@ -6,4 +6,6 @@ attributes:
   number: "121/195"
   rarity: Common
   illustrator: ryoma uratsuka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh12/121_hires.png

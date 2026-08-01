@@ -6,4 +6,6 @@ attributes:
   number: "58/147"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm3/58_hires.png

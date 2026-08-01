@@ -6,4 +6,6 @@ attributes:
   number: "128/162"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy8/128_hires.png

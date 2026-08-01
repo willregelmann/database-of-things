@@ -6,4 +6,6 @@ attributes:
   number: "18/107"
   rarity: Rare
   illustrator: Hironobu Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex8/18_hires.png

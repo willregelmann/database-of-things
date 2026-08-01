@@ -6,4 +6,6 @@ attributes:
   number: "SWSH214"
   rarity: Promo
   illustrator: aky CG Works
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH214_hires.png

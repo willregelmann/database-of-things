@@ -6,4 +6,6 @@ attributes:
   number: "82/99"
   rarity: Rare Holo ex
   illustrator: Shizurow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw4/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV42/SV94"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sma/SV42_hires.png

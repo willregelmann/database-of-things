@@ -6,4 +6,6 @@ attributes:
   number: "79/110"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex13/79_hires.png

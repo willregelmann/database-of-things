@@ -6,4 +6,6 @@ attributes:
   number: "55/113"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/55_hires.png

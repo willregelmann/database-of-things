@@ -6,4 +6,6 @@ attributes:
   number: "149/147"
   rarity: Rare Secret
   illustrator: Toshinao Aoki
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl3/149_hires.png

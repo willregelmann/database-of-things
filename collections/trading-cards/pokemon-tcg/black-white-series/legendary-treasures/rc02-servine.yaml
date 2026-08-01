@@ -6,4 +6,6 @@ attributes:
   number: "RC2/RC25"
   rarity: Common
   illustrator: kirisAki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/RC2_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "XY132"
   rarity: Promo
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY132_hires.png

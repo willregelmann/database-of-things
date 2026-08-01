@@ -6,4 +6,6 @@ attributes:
   number: "18/131"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm6/18_hires.png

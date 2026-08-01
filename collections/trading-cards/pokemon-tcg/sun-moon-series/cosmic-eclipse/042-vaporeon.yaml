@@ -6,4 +6,6 @@ attributes:
   number: "42/236"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/42_hires.png

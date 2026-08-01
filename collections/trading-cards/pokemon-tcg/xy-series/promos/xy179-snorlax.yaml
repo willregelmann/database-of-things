@@ -6,4 +6,6 @@ attributes:
   number: "XY179"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xyp/XY179_hires.png

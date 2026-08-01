@@ -6,4 +6,6 @@ attributes:
   number: "75/116"
   rarity: Common
   illustrator: Midori Harada
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw9/75_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "103/217"
   rarity: Common
   illustrator: Lee HyunJung
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-103/large

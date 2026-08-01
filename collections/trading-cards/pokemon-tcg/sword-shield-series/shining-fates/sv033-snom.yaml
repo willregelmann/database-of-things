@@ -6,4 +6,6 @@ attributes:
   number: "SV033/SV122"
   rarity: Rare Shiny
   illustrator: Yumi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV033_hires.png

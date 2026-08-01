@@ -6,6 +6,8 @@ attributes:
   number: "30/110"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base6/30_hires.png
 variants:
   - id: 82ec521a-8be1-4b9a-844e-7dcae144f48c

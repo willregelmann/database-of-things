@@ -6,4 +6,6 @@ attributes:
   number: "25/72"
   rarity: Rare
   illustrator: nagimiso
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45/25_hires.png

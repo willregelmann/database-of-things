@@ -6,4 +6,6 @@ attributes:
   number: "19/88"
   rarity: Rare
   illustrator: Yoshioka
+  type:
+    - Water
 image: https://images.scrydex.com/pokemon/me3-19/large

@@ -6,4 +6,6 @@ attributes:
   number: "10/70"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm75/10_hires.png

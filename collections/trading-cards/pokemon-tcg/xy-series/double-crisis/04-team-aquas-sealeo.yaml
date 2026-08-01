@@ -6,4 +6,6 @@ attributes:
   number: "4/34"
   rarity: Common
   illustrator: Naoki Saito
+  type:
+    - Water
 image: https://images.pokemontcg.io/dc1/4_hires.png

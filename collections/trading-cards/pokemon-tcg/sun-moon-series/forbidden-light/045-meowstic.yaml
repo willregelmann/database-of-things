@@ -6,4 +6,6 @@ attributes:
   number: "45/131"
   rarity: Rare
   illustrator: "0313"
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm6/45_hires.png

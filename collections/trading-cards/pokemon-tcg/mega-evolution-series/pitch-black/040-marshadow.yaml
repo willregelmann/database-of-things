@@ -6,4 +6,6 @@ attributes:
   number: "40/84"
   rarity: Uncommon
   illustrator: Nakamura Ippan
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-40/large

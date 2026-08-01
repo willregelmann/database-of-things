@@ -6,4 +6,6 @@ attributes:
   number: "52/185"
   rarity: Rare
   illustrator: SATOSHI NAKAI
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh4/52_hires.png

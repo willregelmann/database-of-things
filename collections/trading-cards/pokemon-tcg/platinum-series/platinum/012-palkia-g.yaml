@@ -6,4 +6,6 @@ attributes:
   number: "12/127"
   rarity: Rare Holo
   illustrator: Yusuke Ishikawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl1/12_hires.png

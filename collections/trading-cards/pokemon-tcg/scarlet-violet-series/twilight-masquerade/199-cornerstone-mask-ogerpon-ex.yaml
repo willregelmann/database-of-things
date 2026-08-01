@@ -6,4 +6,6 @@ attributes:
   number: "199/167"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv6/199_hires.png

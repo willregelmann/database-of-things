@@ -6,4 +6,6 @@ attributes:
   number: "7/111"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy3/7_hires.png

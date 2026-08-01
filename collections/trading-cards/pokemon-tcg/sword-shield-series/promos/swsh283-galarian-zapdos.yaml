@@ -6,4 +6,6 @@ attributes:
   number: "SWSH283"
   rarity: Promo
   illustrator: Rianti Hidayat
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH283_hires.png

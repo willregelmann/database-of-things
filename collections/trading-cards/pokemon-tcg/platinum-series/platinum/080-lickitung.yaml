@@ -6,4 +6,6 @@ attributes:
   number: "80/127"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl1/80_hires.png

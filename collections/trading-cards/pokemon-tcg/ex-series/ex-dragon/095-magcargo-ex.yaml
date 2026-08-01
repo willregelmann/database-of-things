@@ -6,4 +6,6 @@ attributes:
   number: "95/97"
   rarity: Rare Holo ex
   illustrator: Hikaru Koike
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex3/95_hires.png

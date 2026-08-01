@@ -6,4 +6,6 @@ attributes:
   number: "025"
   rarity: Promo
   illustrator: Kouki Saitou
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/np/25_hires.png

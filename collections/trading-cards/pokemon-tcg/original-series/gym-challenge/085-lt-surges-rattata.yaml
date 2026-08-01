@@ -6,4 +6,6 @@ attributes:
   number: "85/132"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/gym2/85_hires.png

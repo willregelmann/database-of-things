@@ -6,4 +6,6 @@ attributes:
   number: "048"
   rarity: Promo
   illustrator: Gemi
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/48_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "149/144"
   rarity: Rare Secret
   illustrator: Hajime Kusajima
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard3/149_hires.png

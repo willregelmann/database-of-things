@@ -6,4 +6,6 @@ attributes:
   number: "76/114"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy11/76_hires.png

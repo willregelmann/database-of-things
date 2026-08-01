@@ -6,4 +6,6 @@ attributes:
   number: "76/172"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh9/76_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "38/130"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp1/38_hires.png

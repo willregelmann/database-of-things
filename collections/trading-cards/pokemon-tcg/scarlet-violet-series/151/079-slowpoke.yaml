@@ -6,4 +6,6 @@ attributes:
   number: "79/165"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv3pt5/79_hires.png

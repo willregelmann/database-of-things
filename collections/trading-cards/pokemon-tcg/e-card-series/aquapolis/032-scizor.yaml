@@ -6,4 +6,6 @@ attributes:
   number: "32/147"
   rarity: Rare
   illustrator: Hisao Nakamura
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard2/32_hires.png

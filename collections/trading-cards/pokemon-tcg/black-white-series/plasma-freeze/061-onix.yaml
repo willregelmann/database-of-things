@@ -6,4 +6,6 @@ attributes:
   number: "61/116"
   rarity: Uncommon
   illustrator: Toyste Beach
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw9/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "3/147"
   rarity: Rare Holo
   illustrator: Lee HyunJung
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl3/3_hires.png

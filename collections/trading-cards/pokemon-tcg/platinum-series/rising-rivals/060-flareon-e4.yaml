@@ -6,4 +6,6 @@ attributes:
   number: "60/111"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pl2/60_hires.png

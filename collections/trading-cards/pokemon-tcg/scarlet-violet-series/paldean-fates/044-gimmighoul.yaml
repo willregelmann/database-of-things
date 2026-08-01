@@ -6,4 +6,6 @@ attributes:
   number: "44/91"
   rarity: Common
   illustrator: OKUBO
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/44_hires.png

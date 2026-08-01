@@ -6,4 +6,6 @@ attributes:
   number: "139/167"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/139_hires.png

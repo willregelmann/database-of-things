@@ -6,4 +6,6 @@ attributes:
   number: "2/106"
   rarity: Rare Holo
   illustrator: Ryo Ueda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/2_hires.png

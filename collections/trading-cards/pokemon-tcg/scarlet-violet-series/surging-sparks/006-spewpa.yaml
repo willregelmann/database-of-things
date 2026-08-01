@@ -6,4 +6,6 @@ attributes:
   number: "6/191"
   rarity: Common
   illustrator: tono
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv8/6_hires.png

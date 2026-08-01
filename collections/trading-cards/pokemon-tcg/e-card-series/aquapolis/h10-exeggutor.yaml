@@ -6,4 +6,6 @@ attributes:
   number: "H10/H32"
   rarity: Rare Holo
   illustrator: Yukiko Baba
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard2/H10_hires.png

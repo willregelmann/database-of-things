@@ -6,4 +6,6 @@ attributes:
   number: "150/147"
   rarity: Rare Secret
   illustrator: Toshinao Aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl3/150_hires.png

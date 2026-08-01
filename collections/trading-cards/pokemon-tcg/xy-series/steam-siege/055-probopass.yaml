@@ -6,4 +6,6 @@ attributes:
   number: "55/114"
   rarity: Rare
   illustrator: MAHOU
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy11/55_hires.png

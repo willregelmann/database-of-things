@@ -6,4 +6,6 @@ attributes:
   number: "SM49"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM49_hires.png

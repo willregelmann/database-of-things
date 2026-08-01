@@ -6,4 +6,6 @@ attributes:
   number: "36/86"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me4-36/large

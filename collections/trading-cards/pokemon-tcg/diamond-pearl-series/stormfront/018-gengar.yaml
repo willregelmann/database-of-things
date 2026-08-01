@@ -6,4 +6,6 @@ attributes:
   number: "18/100"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp7/18_hires.png

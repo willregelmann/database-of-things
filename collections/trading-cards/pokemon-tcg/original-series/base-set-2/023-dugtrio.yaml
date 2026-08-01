@@ -6,4 +6,6 @@ attributes:
   number: "23/130"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/base4/23_hires.png

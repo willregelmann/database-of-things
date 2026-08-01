@@ -6,4 +6,6 @@ attributes:
   number: "99/123"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/99_hires.png

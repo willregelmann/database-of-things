@@ -6,4 +6,6 @@ attributes:
   number: "198/214"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm8/198_hires.png

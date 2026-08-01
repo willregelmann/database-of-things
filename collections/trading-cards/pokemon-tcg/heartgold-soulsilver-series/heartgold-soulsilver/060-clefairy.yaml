@@ -6,4 +6,6 @@ attributes:
   number: "60/123"
   rarity: Common
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/60_hires.png

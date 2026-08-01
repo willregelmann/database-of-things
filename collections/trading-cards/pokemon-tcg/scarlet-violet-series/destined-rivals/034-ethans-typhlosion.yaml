@@ -6,4 +6,6 @@ attributes:
   number: "34/182"
   rarity: Rare
   illustrator: danciao
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv10/34_hires.png

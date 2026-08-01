@@ -6,4 +6,6 @@ attributes:
   number: "253/217"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-253/large

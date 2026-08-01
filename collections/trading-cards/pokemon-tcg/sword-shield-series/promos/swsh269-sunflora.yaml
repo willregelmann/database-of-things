@@ -6,4 +6,6 @@ attributes:
   number: "SWSH269"
   rarity: Promo
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH269_hires.png

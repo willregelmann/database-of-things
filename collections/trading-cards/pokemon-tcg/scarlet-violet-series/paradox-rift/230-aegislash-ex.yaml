@@ -6,4 +6,6 @@ attributes:
   number: "230/182"
   rarity: Ultra Rare
   illustrator: Satoshi Shirai
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/230_hires.png

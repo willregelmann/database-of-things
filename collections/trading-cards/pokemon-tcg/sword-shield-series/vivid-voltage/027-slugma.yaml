@@ -6,4 +6,6 @@ attributes:
   number: "27/185"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh4/27_hires.png

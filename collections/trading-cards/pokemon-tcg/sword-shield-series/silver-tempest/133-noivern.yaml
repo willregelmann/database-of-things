@@ -6,4 +6,6 @@ attributes:
   number: "133/195"
   rarity: Rare
   illustrator: aoki
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12/133_hires.png

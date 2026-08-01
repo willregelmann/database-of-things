@@ -6,4 +6,6 @@ attributes:
   number: "61/214"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm10/61_hires.png

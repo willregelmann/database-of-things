@@ -6,4 +6,6 @@ attributes:
   number: "SM230"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM230_hires.png

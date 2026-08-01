@@ -6,4 +6,6 @@ attributes:
   number: "71/108"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy12/71_hires.png

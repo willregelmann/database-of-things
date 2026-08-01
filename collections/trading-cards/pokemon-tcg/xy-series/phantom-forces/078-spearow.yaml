@@ -6,4 +6,6 @@ attributes:
   number: "78/119"
   rarity: Common
   illustrator: Mizue
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy4/78_hires.png

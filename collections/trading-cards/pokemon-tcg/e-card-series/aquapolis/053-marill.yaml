@@ -6,4 +6,6 @@ attributes:
   number: "53/147"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard2/53_hires.png

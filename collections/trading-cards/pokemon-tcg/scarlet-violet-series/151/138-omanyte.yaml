@@ -6,4 +6,6 @@ attributes:
   number: "138/165"
   rarity: Uncommon
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/138_hires.png

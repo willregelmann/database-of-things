@@ -6,4 +6,6 @@ attributes:
   number: "SV070/SV122"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV070_hires.png

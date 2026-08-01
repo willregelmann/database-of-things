@@ -6,4 +6,6 @@ attributes:
   number: "118/185"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/118_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "BW80"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bwp/BW80_hires.png

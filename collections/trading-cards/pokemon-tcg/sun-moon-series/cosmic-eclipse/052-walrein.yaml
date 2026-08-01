@@ -6,4 +6,6 @@ attributes:
   number: "52/236"
   rarity: Rare
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm12/52_hires.png

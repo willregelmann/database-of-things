@@ -6,4 +6,6 @@ attributes:
   number: "170/236"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm12/170_hires.png

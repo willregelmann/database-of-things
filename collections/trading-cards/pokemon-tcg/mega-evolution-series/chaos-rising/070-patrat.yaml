@@ -6,4 +6,6 @@ attributes:
   number: "70/86"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me4-70/large

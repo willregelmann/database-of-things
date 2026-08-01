@@ -6,4 +6,6 @@ attributes:
   number: "6/18"
   rarity: Rare Holo
   illustrator: MPC Film
+  type:
+    - Fire
 image: https://images.pokemontcg.io/det1/6_hires.png

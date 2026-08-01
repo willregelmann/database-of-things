@@ -6,4 +6,6 @@ attributes:
   number: "63/86"
   rarity: Uncommon
   illustrator: Haru Akasaka
+  type:
+    - Metal
 image: https://images.scrydex.com/pokemon/me4-63/large

@@ -6,4 +6,6 @@ attributes:
   number: "161/198"
   rarity: Uncommon
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/161_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/145"
   rarity: Rare Holo
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm2/58_hires.png

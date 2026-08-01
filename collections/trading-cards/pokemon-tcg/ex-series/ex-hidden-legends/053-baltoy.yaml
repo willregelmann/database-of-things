@@ -6,4 +6,6 @@ attributes:
   number: "53/101"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex5/53_hires.png

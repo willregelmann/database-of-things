@@ -6,4 +6,6 @@ attributes:
   number: "160/145"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm2/160_hires.png

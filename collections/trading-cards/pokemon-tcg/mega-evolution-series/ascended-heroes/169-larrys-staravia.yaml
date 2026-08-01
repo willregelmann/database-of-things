@@ -6,4 +6,6 @@ attributes:
   number: "169/217"
   rarity: Uncommon
   illustrator: Fujimoto Gold
+  type:
+    - Colorless
 image: https://images.scrydex.com/pokemon/me2pt5-169/large

@@ -6,4 +6,6 @@ attributes:
   number: "226/198"
   rarity: Ultra Rare
   illustrator: PLANETA Tsuji
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv1/226_hires.png

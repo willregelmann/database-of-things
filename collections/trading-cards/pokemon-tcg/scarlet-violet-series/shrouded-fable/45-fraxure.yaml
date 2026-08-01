@@ -6,4 +6,6 @@ attributes:
   number: "45/64"
   rarity: Common
   illustrator: Uninori
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv6pt5/45_hires.png

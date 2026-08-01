@@ -6,4 +6,6 @@ attributes:
   number: "17/111"
   rarity: Common
   illustrator: TOKIYA
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm4/17_hires.png

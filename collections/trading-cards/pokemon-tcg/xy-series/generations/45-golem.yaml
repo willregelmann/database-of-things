@@ -6,4 +6,6 @@ attributes:
   number: "45/83"
   rarity: Rare Holo
   illustrator: Hasuno
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/g1/45_hires.png

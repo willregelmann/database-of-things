@@ -6,4 +6,6 @@ attributes:
   number: "125/165"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard1/125_hires.png

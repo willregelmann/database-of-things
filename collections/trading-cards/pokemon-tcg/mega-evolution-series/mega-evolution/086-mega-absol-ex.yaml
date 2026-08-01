@@ -6,4 +6,6 @@ attributes:
   number: "86/132"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me1/86_hires.png

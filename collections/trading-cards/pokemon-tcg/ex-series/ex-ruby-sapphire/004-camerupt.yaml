@@ -6,4 +6,6 @@ attributes:
   number: "4/109"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex1/4_hires.png

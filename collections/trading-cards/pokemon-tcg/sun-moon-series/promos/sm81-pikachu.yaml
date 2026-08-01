@@ -6,4 +6,6 @@ attributes:
   number: "SM81"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM81_hires.png

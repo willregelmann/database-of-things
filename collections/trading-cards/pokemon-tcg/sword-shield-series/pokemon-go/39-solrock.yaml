@@ -6,4 +6,6 @@ attributes:
   number: "39/78"
   rarity: Uncommon
   illustrator: Sekio
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/pgo/39_hires.png

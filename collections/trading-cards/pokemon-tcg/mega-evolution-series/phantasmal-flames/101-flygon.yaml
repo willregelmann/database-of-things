@@ -6,4 +6,6 @@ attributes:
   number: "101/94"
   rarity: Illustration Rare
   illustrator: Ryota Murayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/me2/101_hires.png

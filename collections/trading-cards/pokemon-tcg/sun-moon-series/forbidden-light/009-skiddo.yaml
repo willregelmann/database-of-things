@@ -6,4 +6,6 @@ attributes:
   number: "9/131"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm6/9_hires.png

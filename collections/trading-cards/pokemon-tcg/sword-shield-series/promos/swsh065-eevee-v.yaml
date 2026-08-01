@@ -6,4 +6,6 @@ attributes:
   number: "SWSH065"
   rarity: Promo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH065_hires.png

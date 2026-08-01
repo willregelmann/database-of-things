@@ -6,4 +6,6 @@ attributes:
   number: "64/181"
   rarity: Rare
   illustrator: miki kudo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm9/64_hires.png

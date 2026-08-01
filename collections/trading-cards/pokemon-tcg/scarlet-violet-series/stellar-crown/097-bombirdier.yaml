@@ -6,4 +6,6 @@ attributes:
   number: "97/142"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv7/97_hires.png

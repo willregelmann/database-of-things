@@ -6,4 +6,6 @@ attributes:
   number: "28/149"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm1/28_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM214"
   rarity: Promo
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM214_hires.png

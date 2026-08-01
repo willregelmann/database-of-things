@@ -6,4 +6,6 @@ attributes:
   number: "60/167"
   rarity: Uncommon
   illustrator: Ligton
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/60_hires.png

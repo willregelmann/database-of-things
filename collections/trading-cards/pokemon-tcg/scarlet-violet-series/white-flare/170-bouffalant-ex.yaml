@@ -6,4 +6,6 @@ attributes:
   number: "170/86"
   rarity: Special Illustration Rare
   illustrator: Rianti Hidayat
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/rsv10pt5/170_hires.png

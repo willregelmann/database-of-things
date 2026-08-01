@@ -6,4 +6,6 @@ attributes:
   number: "102/217"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Fighting
 image: https://images.scrydex.com/pokemon/me2pt5-102/large

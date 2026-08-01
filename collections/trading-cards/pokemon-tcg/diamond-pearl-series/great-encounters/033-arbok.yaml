@@ -6,4 +6,6 @@ attributes:
   number: "33/106"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/33_hires.png

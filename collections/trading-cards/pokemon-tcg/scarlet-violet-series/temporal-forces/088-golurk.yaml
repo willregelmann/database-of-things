@@ -6,4 +6,6 @@ attributes:
   number: "88/162"
   rarity: Uncommon
   illustrator: Oku
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/88_hires.png

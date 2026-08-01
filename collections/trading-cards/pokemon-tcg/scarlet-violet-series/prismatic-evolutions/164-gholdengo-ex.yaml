@@ -6,4 +6,6 @@ attributes:
   number: "164/131"
   rarity: Special Illustration Rare
   illustrator: Shigenori Negishi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8pt5/164_hires.png

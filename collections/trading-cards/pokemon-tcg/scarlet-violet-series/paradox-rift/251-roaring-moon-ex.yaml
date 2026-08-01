@@ -6,4 +6,6 @@ attributes:
   number: "251/182"
   rarity: Special Illustration Rare
   illustrator: Ryota Murayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/251_hires.png

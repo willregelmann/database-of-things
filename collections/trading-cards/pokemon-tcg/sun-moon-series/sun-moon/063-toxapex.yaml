@@ -6,4 +6,6 @@ attributes:
   number: "63/149"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm1/63_hires.png

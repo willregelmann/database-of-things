@@ -6,4 +6,6 @@ attributes:
   number: "145/192"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/145_hires.png

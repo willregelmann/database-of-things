@@ -6,4 +6,6 @@ attributes:
   number: "146/91"
   rarity: Shiny Rare
   illustrator: Nisota Niso
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/146_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM99"
   rarity: Promo
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM99_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "13/214"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/13_hires.png

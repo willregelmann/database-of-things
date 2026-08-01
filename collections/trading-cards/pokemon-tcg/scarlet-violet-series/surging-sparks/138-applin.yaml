@@ -6,4 +6,6 @@ attributes:
   number: "138/191"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv8/138_hires.png

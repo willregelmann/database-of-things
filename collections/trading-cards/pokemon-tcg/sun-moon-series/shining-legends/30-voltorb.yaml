@@ -6,4 +6,6 @@ attributes:
   number: "30/73"
   rarity: Common
   illustrator: match
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm35/30_hires.png

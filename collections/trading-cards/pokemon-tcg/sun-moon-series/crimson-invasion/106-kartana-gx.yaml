@@ -6,4 +6,6 @@ attributes:
   number: "106/111"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm4/106_hires.png

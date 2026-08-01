@@ -6,4 +6,6 @@ attributes:
   number: "198/182"
   rarity: Illustration Rare
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4/198_hires.png

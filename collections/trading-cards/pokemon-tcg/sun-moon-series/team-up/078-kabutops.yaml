@@ -6,4 +6,6 @@ attributes:
   number: "78/181"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm9/78_hires.png

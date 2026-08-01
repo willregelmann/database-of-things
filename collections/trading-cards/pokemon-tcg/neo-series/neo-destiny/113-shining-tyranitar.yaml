@@ -6,4 +6,6 @@ attributes:
   number: "113/105"
   rarity: Shining Holofoil
   illustrator: Ken Sugimori
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/neo4/113_hires.png

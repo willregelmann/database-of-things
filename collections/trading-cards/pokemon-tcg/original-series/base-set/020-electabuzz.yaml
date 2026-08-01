@@ -6,6 +6,8 @@ attributes:
   number: "20/102"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base1/20_hires.png
 variants:
   - id: c2c25847-26ad-4bb1-b036-badab7f9c91d

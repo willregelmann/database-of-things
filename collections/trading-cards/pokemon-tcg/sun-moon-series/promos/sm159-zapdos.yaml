@@ -6,4 +6,6 @@ attributes:
   number: "SM159"
   rarity: Promo
   illustrator: Misa Tsutsui
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM159_hires.png

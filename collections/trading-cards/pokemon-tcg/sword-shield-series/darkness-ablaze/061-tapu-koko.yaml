@@ -6,4 +6,6 @@ attributes:
   number: "61/189"
   rarity: Rare Holo
   illustrator: Hasuno
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh3/61_hires.png

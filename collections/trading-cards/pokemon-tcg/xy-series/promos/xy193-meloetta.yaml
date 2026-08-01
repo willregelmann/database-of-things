@@ -6,4 +6,6 @@ attributes:
   number: "XY193"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY193_hires.png

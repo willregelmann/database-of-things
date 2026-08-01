@@ -6,4 +6,6 @@ attributes:
   number: "89/145"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm2/89_hires.png

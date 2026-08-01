@@ -6,4 +6,6 @@ attributes:
   number: "155/132"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Grass
 image: https://images.pokemontcg.io/me1/155_hires.png

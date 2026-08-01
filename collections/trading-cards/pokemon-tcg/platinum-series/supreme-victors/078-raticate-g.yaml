@@ -6,4 +6,6 @@ attributes:
   number: "78/147"
   rarity: Uncommon
   illustrator: Ryota Saito
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/78_hires.png

@@ -6,6 +6,8 @@ attributes:
   number: "45/110"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base6/45_hires.png
 variants:
   - id: a8a993e6-4885-41a6-80f5-9c972cbaa13d

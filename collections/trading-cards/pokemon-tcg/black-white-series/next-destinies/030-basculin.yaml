@@ -6,4 +6,6 @@ attributes:
   number: "30/99"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw4/30_hires.png

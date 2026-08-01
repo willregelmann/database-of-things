@@ -6,4 +6,6 @@ attributes:
   number: "106/163"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh5/106_hires.png

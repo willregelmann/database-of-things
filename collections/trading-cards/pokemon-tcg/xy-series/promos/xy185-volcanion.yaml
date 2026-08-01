@@ -6,4 +6,6 @@ attributes:
   number: "XY185"
   rarity: Promo
   illustrator: Hasuno
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY185_hires.png

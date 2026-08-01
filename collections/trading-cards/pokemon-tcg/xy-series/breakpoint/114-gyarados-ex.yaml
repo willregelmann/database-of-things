@@ -6,4 +6,6 @@ attributes:
   number: "114/122"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/114_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "92/202"
   rarity: Common
   illustrator: Hasegawa Saki
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh1/92_hires.png

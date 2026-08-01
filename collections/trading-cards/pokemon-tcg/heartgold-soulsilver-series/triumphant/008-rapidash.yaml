@@ -6,4 +6,6 @@ attributes:
   number: "8/102"
   rarity: Rare Holo
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/hgss4/8_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/159"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv9/22_hires.png

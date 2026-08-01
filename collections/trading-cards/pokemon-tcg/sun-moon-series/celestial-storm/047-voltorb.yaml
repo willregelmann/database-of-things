@@ -6,4 +6,6 @@ attributes:
   number: "47/168"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm7/47_hires.png

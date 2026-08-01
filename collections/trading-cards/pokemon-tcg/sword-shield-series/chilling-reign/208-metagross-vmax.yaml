@@ -6,4 +6,6 @@ attributes:
   number: "208/198"
   rarity: Rare Rainbow
   illustrator: Ryota Murayama
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh6/208_hires.png

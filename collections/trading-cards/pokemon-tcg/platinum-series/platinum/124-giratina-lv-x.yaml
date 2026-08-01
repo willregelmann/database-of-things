@@ -6,4 +6,6 @@ attributes:
   number: "124/127"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl1/124_hires.png

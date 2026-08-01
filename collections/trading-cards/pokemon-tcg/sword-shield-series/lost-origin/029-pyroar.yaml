@@ -6,4 +6,6 @@ attributes:
   number: "29/196"
   rarity: Rare Holo
   illustrator: Misa Tsutsui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh11/29_hires.png

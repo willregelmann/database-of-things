@@ -6,4 +6,6 @@ attributes:
   number: "115/86"
   rarity: Illustration Rare
   illustrator: Yukiko Baba
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/zsv10pt5/115_hires.png

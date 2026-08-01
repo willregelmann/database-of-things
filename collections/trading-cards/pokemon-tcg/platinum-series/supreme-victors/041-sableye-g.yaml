@@ -6,4 +6,6 @@ attributes:
   number: "41/147"
   rarity: Rare
   illustrator: Yusuke Ishikawa
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/pl3/41_hires.png

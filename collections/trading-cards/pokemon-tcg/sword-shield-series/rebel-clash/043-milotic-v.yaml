@@ -6,4 +6,6 @@ attributes:
   number: "43/192"
   rarity: Rare Holo V
   illustrator: Ayaka Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh2/43_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "51/203"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh7/51_hires.png

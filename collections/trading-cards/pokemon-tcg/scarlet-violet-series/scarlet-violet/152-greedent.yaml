@@ -6,4 +6,6 @@ attributes:
   number: "152/198"
   rarity: Uncommon
   illustrator: kantaro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv1/152_hires.png

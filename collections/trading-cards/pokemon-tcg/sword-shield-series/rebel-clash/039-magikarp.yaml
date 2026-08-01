@@ -6,4 +6,6 @@ attributes:
   number: "39/192"
   rarity: Common
   illustrator: kanahei
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh2/39_hires.png

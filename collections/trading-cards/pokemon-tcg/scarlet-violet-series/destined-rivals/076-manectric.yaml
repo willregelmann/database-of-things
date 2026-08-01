@@ -6,4 +6,6 @@ attributes:
   number: "76/182"
   rarity: Uncommon
   illustrator: Izucch
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv10/76_hires.png

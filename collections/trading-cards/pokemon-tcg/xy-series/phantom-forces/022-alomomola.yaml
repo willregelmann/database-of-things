@@ -6,4 +6,6 @@ attributes:
   number: "22/119"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy4/22_hires.png

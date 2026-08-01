@@ -6,4 +6,6 @@ attributes:
   number: "22/100"
   rarity: Rare
   illustrator: Daisuke Ito
+  type:
+    - Fire
 image: https://images.pokemontcg.io/dp5/22_hires.png

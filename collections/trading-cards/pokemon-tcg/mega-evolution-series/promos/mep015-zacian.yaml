@@ -6,4 +6,6 @@ attributes:
   number: "015"
   rarity: Promo
   illustrator: Shiburingaru
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/ZacianMEPPromo15.jpg

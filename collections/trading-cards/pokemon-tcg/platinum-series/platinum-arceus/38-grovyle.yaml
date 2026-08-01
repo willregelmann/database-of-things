@@ -6,4 +6,6 @@ attributes:
   number: "38/99"
   rarity: Uncommon
   illustrator: Tomoaki Imakuni
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pl4/38_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM83"
   rarity: Promo
   illustrator: kodama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/smp/SM83_hires.png

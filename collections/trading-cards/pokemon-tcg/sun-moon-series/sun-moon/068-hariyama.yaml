@@ -6,4 +6,6 @@ attributes:
   number: "68/149"
   rarity: Rare
   illustrator: Miki Tanaka
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm1/68_hires.png

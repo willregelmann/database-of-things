@@ -6,4 +6,6 @@ attributes:
   number: "154/142"
   rarity: Illustration Rare
   illustrator: Jerky
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv7/154_hires.png

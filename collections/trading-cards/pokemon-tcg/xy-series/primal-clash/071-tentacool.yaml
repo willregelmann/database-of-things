@@ -6,4 +6,6 @@ attributes:
   number: "71/160"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy5/71_hires.png

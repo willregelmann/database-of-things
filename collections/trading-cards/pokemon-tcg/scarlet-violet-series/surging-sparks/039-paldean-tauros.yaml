@@ -6,4 +6,6 @@ attributes:
   number: "39/191"
   rarity: Uncommon
   illustrator: toi8
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8/39_hires.png

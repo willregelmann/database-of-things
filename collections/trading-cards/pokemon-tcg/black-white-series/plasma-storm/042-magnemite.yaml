@@ -6,4 +6,6 @@ attributes:
   number: "42/135"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bw8/42_hires.png

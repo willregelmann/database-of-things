@@ -6,4 +6,6 @@ attributes:
   number: "69/91"
   rarity: Double Rare
   illustrator: Nisota Niso
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4pt5/69_hires.png

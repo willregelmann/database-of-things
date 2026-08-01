@@ -6,4 +6,6 @@ attributes:
   number: "27/106"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex9/27_hires.png

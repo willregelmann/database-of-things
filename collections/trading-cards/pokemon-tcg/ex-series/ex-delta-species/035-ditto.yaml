@@ -6,4 +6,6 @@ attributes:
   number: "35/113"
   rarity: Uncommon
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex11/35_hires.png

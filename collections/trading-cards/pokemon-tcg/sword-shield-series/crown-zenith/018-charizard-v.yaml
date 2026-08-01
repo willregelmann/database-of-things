@@ -6,4 +6,6 @@ attributes:
   number: "18/159"
   rarity: Rare Holo V
   illustrator: N-DESIGN Inc.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12pt5/18_hires.png

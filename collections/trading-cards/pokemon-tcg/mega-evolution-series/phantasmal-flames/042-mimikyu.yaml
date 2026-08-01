@@ -6,4 +6,6 @@ attributes:
   number: "42/94"
   rarity: Common
   illustrator: miki kudo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/42_hires.png

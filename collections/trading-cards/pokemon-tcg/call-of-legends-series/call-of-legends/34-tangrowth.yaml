@@ -6,4 +6,6 @@ attributes:
   number: "34/95"
   rarity: Rare
   illustrator: Hideaki Hakozaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/col1/34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "22/99"
   rarity: Rare
   illustrator: Mana Ibe
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/pl4/22_hires.png

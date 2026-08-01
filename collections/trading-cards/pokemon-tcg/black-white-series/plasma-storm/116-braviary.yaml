@@ -6,4 +6,6 @@ attributes:
   number: "116/135"
   rarity: Rare
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw8/116_hires.png

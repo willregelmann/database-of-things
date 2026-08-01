@@ -6,4 +6,6 @@ attributes:
   number: "30/167"
   rarity: Common
   illustrator: Teeziro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv6/30_hires.png

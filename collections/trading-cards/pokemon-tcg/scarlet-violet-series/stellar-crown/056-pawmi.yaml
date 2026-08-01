@@ -6,4 +6,6 @@ attributes:
   number: "56/142"
   rarity: Common
   illustrator: Natsumi Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv7/56_hires.png

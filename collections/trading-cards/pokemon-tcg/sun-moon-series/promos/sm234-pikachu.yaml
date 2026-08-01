@@ -6,4 +6,6 @@ attributes:
   number: "SM234"
   rarity: Promo
   illustrator: Naoki Saito
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM234_hires.png

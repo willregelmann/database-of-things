@@ -6,4 +6,6 @@ attributes:
   number: "14/147"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard2/14_hires.png

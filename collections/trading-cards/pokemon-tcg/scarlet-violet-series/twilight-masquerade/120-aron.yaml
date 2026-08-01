@@ -6,4 +6,6 @@ attributes:
   number: "120/167"
   rarity: Common
   illustrator: Gapao
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv6/120_hires.png

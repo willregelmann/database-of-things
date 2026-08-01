@@ -6,4 +6,6 @@ attributes:
   number: "29/160"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy5/29_hires.png

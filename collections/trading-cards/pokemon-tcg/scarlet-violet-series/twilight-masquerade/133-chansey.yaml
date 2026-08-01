@@ -6,4 +6,6 @@ attributes:
   number: "133/167"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv6/133_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SH7"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl3/SH7_hires.png

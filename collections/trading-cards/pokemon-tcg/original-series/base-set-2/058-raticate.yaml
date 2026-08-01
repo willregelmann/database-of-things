@@ -6,4 +6,6 @@ attributes:
   number: "58/130"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base4/58_hires.png

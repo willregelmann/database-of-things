@@ -6,4 +6,6 @@ attributes:
   number: "256/236"
   rarity: Rare Rainbow
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm12/256_hires.png

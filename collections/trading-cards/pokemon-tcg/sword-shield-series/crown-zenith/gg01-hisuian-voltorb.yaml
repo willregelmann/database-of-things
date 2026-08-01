@@ -6,4 +6,6 @@ attributes:
   number: "GG01/GG70"
   rarity: Trainer Gallery Rare Holo
   illustrator: HYOGONOSUKE
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh12pt5gg/GG01_hires.png

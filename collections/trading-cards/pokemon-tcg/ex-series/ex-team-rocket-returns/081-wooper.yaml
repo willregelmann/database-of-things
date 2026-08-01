@@ -6,4 +6,6 @@ attributes:
   number: "81/109"
   rarity: Common
   illustrator: Kouki Saitou
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex7/81_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "66/131"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv8pt5/66_hires.png

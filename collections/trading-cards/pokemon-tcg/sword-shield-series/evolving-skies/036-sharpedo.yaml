@@ -6,4 +6,6 @@ attributes:
   number: "36/203"
   rarity: Rare
   illustrator: Kazuma Koda
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh7/36_hires.png

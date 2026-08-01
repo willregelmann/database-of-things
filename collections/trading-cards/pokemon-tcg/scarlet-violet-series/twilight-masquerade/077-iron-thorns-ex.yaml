@@ -6,4 +6,6 @@ attributes:
   number: "77/167"
   rarity: Double Rare
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv6/77_hires.png

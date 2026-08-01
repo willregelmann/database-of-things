@@ -6,4 +6,6 @@ attributes:
   number: "39/70"
   rarity: Uncommon
   illustrator: Shigenori Negishi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/39_hires.png

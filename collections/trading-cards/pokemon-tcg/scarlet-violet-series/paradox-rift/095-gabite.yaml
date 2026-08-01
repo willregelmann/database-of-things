@@ -6,4 +6,6 @@ attributes:
   number: "95/182"
   rarity: Common
   illustrator: Nisota Niso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4/95_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "111/165"
   rarity: Common
   illustrator: GOSSAN
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv3pt5/111_hires.png

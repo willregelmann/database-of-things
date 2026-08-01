@@ -6,4 +6,6 @@ attributes:
   number: "SV17/SV94"
   rarity: Rare Shiny
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sma/SV17_hires.png

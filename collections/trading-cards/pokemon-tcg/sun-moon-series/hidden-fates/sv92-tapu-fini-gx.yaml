@@ -6,4 +6,6 @@ attributes:
   number: "SV92/SV94"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/sma/SV92_hires.png

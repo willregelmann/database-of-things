@@ -6,4 +6,6 @@ attributes:
   number: "53/70"
   rarity: Common
   illustrator: hatachu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/53_hires.png

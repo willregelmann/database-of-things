@@ -6,4 +6,6 @@ attributes:
   number: "51/75"
   rarity: Uncommon
   illustrator: CR CG gangs
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/neo2/51_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "119/91"
   rarity: Shiny Rare
   illustrator: Shigenori Negishi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv4pt5/119_hires.png

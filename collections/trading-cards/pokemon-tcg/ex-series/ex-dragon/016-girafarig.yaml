@@ -6,4 +6,6 @@ attributes:
   number: "16/97"
   rarity: Rare
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex3/16_hires.png

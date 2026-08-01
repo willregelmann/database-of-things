@@ -6,4 +6,6 @@ attributes:
   number: "83/156"
   rarity: Rare Holo
   illustrator: Yoshinobu Saito
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm5/83_hires.png

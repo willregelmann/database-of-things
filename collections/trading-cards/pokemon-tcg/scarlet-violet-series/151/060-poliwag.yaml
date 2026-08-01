@@ -6,4 +6,6 @@ attributes:
   number: "60/165"
   rarity: Common
   illustrator: Kurata So
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/60_hires.png

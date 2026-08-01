@@ -6,4 +6,6 @@ attributes:
   number: "22/111"
   rarity: Rare
   illustrator: PLANETA
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy3/22_hires.png

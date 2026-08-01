@@ -6,4 +6,6 @@ attributes:
   number: "87/95"
   rarity: Rare Holo Prime
   illustrator: Wataru Kawahara
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss2/87_hires.png

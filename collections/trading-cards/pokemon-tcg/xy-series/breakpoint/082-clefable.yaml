@@ -6,4 +6,6 @@ attributes:
   number: "82/122"
   rarity: Rare
   illustrator: Sanosuke Sakuma
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy9/82_hires.png

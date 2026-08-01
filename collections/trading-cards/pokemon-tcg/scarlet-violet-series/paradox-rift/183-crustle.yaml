@@ -6,4 +6,6 @@ attributes:
   number: "183/182"
   rarity: Illustration Rare
   illustrator: OKUBO
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv4/183_hires.png

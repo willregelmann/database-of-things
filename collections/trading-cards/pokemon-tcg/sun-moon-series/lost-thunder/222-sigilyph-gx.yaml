@@ -6,4 +6,6 @@ attributes:
   number: "222/214"
   rarity: Rare Rainbow
   illustrator: PLANETA Igarashi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm8/222_hires.png

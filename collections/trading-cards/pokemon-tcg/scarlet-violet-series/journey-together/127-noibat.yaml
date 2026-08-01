@@ -6,4 +6,6 @@ attributes:
   number: "127/159"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/127_hires.png

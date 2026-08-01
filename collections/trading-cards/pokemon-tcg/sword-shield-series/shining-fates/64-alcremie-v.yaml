@@ -6,4 +6,6 @@ attributes:
   number: "64/72"
   rarity: Rare Ultra
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45/64_hires.png

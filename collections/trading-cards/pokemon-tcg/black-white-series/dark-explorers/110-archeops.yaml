@@ -6,4 +6,6 @@ attributes:
   number: "110/108"
   rarity: Rare Secret
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bw5/110_hires.png

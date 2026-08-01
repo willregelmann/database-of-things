@@ -6,4 +6,6 @@ attributes:
   number: "38/94"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/38_hires.png

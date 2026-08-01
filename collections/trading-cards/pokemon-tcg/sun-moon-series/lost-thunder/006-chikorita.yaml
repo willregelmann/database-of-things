@@ -6,4 +6,6 @@ attributes:
   number: "6/214"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm8/6_hires.png

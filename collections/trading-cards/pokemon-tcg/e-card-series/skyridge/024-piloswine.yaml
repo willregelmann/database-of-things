@@ -6,4 +6,6 @@ attributes:
   number: "24/144"
   rarity: Rare
   illustrator: Yuka Morii
+  type:
+    - Water
 image: https://images.pokemontcg.io/ecard3/24_hires.png

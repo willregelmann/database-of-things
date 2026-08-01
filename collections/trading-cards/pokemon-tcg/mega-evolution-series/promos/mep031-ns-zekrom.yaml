@@ -6,4 +6,6 @@ attributes:
   number: "031"
   rarity: Promo
   illustrator: Bun Toujo
+  type:
+    - Dragon
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/NZekromMEPPromo31.jpg

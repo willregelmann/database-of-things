@@ -6,4 +6,6 @@ attributes:
   number: "070"
   rarity: Promo
   illustrator: Nisota Niso
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/70_hires.png

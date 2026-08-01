@@ -6,4 +6,7 @@ attributes:
   number: "5/113"
   rarity: Rare Holo
   illustrator: Kouki Saitou
+  type:
+    - Fire
+    - Metal
 image: https://images.pokemontcg.io/ex11/5_hires.png

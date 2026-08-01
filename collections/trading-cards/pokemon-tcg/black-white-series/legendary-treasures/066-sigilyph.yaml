@@ -6,4 +6,6 @@ attributes:
   number: "66/113"
   rarity: Rare Holo
   illustrator: Shigenori Negishi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw11/66_hires.png

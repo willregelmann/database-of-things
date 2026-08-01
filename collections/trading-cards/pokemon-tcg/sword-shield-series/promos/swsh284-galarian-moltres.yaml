@@ -6,4 +6,6 @@ attributes:
   number: "SWSH284"
   rarity: Promo
   illustrator: Shinji Kanda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH284_hires.png

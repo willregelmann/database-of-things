@@ -6,4 +6,6 @@ attributes:
   number: "16/78"
   rarity: Uncommon
   illustrator: kurumitsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/pgo/16_hires.png

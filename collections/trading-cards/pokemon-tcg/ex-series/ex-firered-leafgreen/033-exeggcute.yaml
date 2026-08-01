@@ -6,4 +6,6 @@ attributes:
   number: "33/112"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex6/33_hires.png

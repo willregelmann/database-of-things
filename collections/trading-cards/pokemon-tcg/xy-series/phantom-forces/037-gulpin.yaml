@@ -6,4 +6,6 @@ attributes:
   number: "37/119"
   rarity: Common
   illustrator: Hajime Kusajima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy4/37_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "100/113"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/bw11/100_hires.png

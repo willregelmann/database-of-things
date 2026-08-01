@@ -6,4 +6,6 @@ attributes:
   number: "137/165"
   rarity: Common
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv3pt5/137_hires.png

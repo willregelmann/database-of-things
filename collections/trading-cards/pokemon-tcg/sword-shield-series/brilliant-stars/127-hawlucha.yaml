@@ -6,4 +6,6 @@ attributes:
   number: "127/172"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh9/127_hires.png

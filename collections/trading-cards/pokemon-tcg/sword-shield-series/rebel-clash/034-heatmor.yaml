@@ -6,4 +6,6 @@ attributes:
   number: "34/192"
   rarity: Uncommon
   illustrator: Satoshi Shirai
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/34_hires.png

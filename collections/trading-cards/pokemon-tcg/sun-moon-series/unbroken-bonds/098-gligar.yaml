@@ -6,4 +6,6 @@ attributes:
   number: "98/214"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm10/98_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "59/124"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Metal
 image: https://images.pokemontcg.io/xy10/59_hires.png

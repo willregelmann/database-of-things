@@ -6,4 +6,6 @@ attributes:
   number: "60/86"
   rarity: Uncommon
   illustrator: OKUBO
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/rsv10pt5/60_hires.png

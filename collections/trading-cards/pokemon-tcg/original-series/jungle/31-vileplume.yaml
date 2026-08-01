@@ -6,4 +6,6 @@ attributes:
   number: "31/64"
   rarity: Rare
   illustrator: Keiji Kinebuchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base2/31_hires.png

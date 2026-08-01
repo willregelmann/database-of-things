@@ -6,4 +6,6 @@ attributes:
   number: "85/144"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ecard3/85_hires.png

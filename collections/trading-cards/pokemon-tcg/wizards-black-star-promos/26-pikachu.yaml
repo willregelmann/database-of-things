@@ -6,4 +6,6 @@ attributes:
   number: "26/53"
   rarity: Promo
   illustrator: Gakuji Nomoto
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/basep/26_hires.png

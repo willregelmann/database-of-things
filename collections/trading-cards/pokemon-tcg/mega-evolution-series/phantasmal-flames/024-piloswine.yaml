@@ -6,4 +6,6 @@ attributes:
   number: "24/94"
   rarity: Common
   illustrator: Shinya Komatsu
+  type:
+    - Water
 image: https://images.pokemontcg.io/me2/24_hires.png

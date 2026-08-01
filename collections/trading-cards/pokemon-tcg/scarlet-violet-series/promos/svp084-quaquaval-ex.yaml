@@ -6,4 +6,6 @@ attributes:
   number: "084"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/84_hires.png

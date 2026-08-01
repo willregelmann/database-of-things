@@ -6,4 +6,7 @@ attributes:
   number: "37/109"
   rarity: Uncommon
   illustrator: Nakaoka
+  type:
+    - Fire
+    - Darkness
 image: https://images.pokemontcg.io/ex7/37_hires.png

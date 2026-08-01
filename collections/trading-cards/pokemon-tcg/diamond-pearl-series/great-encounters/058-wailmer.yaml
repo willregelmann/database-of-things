@@ -6,4 +6,6 @@ attributes:
   number: "58/106"
   rarity: Uncommon
   illustrator: Satoshi Ohta
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/58_hires.png

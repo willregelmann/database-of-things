@@ -6,4 +6,6 @@ attributes:
   number: "93/156"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm5/93_hires.png

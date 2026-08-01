@@ -6,4 +6,6 @@ attributes:
   number: "237/191"
   rarity: Special Illustration Rare
   illustrator: Kuroimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8/237_hires.png

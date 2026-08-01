@@ -6,4 +6,6 @@ attributes:
   number: "11/147"
   rarity: Rare Holo
   illustrator: Hiroki Fuchino
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/11_hires.png

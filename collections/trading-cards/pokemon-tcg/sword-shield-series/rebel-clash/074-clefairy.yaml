@@ -6,4 +6,6 @@ attributes:
   number: "74/192"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh2/74_hires.png

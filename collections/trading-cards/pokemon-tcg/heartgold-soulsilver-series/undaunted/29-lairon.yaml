@@ -6,4 +6,6 @@ attributes:
   number: "29/90"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss3/29_hires.png

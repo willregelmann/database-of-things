@@ -6,4 +6,6 @@ attributes:
   number: "114/91"
   rarity: Shiny Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv4pt5/114_hires.png

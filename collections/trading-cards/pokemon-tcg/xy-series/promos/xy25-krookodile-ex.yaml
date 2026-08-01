@@ -6,4 +6,6 @@ attributes:
   number: "XY25"
   rarity: Promo
   illustrator: PLANETA
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xyp/XY25_hires.png

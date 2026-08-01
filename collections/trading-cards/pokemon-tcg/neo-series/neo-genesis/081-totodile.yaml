@@ -6,4 +6,6 @@ attributes:
   number: "81/111"
   rarity: Common
   illustrator: Hironobu Yoshida
+  type:
+    - Water
 image: https://images.pokemontcg.io/neo1/81_hires.png

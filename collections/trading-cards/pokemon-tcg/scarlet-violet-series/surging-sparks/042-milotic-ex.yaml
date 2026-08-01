@@ -6,4 +6,6 @@ attributes:
   number: "42/191"
   rarity: Double Rare
   illustrator: hncl
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv8/42_hires.png

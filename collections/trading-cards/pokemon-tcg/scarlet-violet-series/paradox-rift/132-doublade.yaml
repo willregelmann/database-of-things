@@ -6,4 +6,6 @@ attributes:
   number: "132/182"
   rarity: Common
   illustrator: Bun Toujo
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv4/132_hires.png

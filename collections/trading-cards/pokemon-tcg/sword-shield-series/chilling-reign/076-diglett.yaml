@@ -6,4 +6,6 @@ attributes:
   number: "76/198"
   rarity: Common
   illustrator: Souichirou Gunjima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh6/76_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SV073/SV122"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh45sv/SV073_hires.png

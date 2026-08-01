@@ -6,4 +6,6 @@ attributes:
   number: "11/185"
   rarity: Uncommon
   illustrator: otumami
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh4/11_hires.png

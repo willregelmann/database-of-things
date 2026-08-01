@@ -6,4 +6,6 @@ attributes:
   number: "SM186"
   rarity: Promo
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM186_hires.png

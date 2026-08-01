@@ -6,4 +6,6 @@ attributes:
   number: "20/110"
   rarity: Rare
   illustrator: Hiromichi Sugiyama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex13/20_hires.png

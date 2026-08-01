@@ -6,4 +6,6 @@ attributes:
   number: "4/202"
   rarity: Rare
   illustrator: chibi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/4_hires.png

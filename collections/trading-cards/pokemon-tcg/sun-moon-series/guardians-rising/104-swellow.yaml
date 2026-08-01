@@ -6,4 +6,6 @@ attributes:
   number: "104/145"
   rarity: Rare
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm2/104_hires.png

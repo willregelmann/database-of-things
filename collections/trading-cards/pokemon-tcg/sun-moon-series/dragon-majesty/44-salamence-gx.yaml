@@ -6,4 +6,6 @@ attributes:
   number: "44/70"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm75/44_hires.png

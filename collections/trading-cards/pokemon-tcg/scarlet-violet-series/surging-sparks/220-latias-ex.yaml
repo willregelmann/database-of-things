@@ -6,4 +6,6 @@ attributes:
   number: "220/191"
   rarity: Ultra Rare
   illustrator: takuyoa
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/220_hires.png

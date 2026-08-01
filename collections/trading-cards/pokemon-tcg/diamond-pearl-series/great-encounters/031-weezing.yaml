@@ -6,4 +6,6 @@ attributes:
   number: "31/106"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/31_hires.png

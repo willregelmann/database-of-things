@@ -6,4 +6,6 @@ attributes:
   number: "057"
   rarity: Promo
   illustrator: Saboteri
+  type:
+    - Water
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/MudkipMEPPromo57.jpg

@@ -6,4 +6,6 @@ attributes:
   number: "141/192"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/141_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SWSH307"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH307_hires.png

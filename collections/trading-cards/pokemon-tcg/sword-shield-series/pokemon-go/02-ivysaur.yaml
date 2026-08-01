@@ -6,4 +6,6 @@ attributes:
   number: "2/78"
   rarity: Uncommon
   illustrator: zig
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pgo/2_hires.png

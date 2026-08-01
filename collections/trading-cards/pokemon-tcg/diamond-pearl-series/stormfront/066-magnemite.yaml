@@ -6,4 +6,6 @@ attributes:
   number: "66/100"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp7/66_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "9/108"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy6/9_hires.png

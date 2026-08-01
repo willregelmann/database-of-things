@@ -6,4 +6,6 @@ attributes:
   number: "49/97"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex3/49_hires.png

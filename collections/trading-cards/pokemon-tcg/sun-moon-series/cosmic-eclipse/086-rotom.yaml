@@ -6,4 +6,6 @@ attributes:
   number: "86/236"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm12/86_hires.png

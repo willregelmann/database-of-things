@@ -6,4 +6,6 @@ attributes:
   number: "18/99"
   rarity: Rare
   illustrator: Hiroki Fuchino
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl4/18_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "8/86"
   rarity: Common
   illustrator: Saboteri
+  type:
+    - Grass
 image: https://images.pokemontcg.io/rsv10pt5/8_hires.png

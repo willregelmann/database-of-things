@@ -6,4 +6,6 @@ attributes:
   number: "79/142"
   rarity: Common
   illustrator: Fujimoto Gold
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv7/79_hires.png

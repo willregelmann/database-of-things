@@ -6,6 +6,8 @@ attributes:
   number: "60/102"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/base1/60_hires.png
 variants:
   - id: 92f4044b-6e32-4449-b236-ae8485f9ea3e

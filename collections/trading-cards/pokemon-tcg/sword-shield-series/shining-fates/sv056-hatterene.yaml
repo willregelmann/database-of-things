@@ -6,4 +6,6 @@ attributes:
   number: "SV056/SV122"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV056_hires.png

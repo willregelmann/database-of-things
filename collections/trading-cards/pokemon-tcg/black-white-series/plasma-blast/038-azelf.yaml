@@ -6,4 +6,6 @@ attributes:
   number: "38/101"
   rarity: Rare
   illustrator: Naoyo Kimura
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw10/38_hires.png

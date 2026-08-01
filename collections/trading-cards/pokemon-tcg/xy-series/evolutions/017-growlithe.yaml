@@ -6,4 +6,6 @@ attributes:
   number: "17/108"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy12/17_hires.png

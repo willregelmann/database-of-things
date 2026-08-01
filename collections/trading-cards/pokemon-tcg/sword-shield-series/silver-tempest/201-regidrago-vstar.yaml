@@ -6,4 +6,6 @@ attributes:
   number: "201/195"
   rarity: Rare Rainbow
   illustrator: PLANETA Yamashita
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh12/201_hires.png

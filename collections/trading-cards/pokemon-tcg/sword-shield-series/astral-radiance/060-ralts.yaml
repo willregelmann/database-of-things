@@ -6,4 +6,6 @@ attributes:
   number: "60/189"
   rarity: Common
   illustrator: Hataya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh10/60_hires.png

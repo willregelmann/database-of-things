@@ -6,4 +6,6 @@ attributes:
   number: "114/146"
   rarity: Rare Holo
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy1/114_hires.png

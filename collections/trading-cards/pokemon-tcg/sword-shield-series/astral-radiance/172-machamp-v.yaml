@@ -6,4 +6,6 @@ attributes:
   number: "172/189"
   rarity: Rare Ultra
   illustrator: Shinya Komatsu
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/172_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "122/214"
   rarity: Rare
   illustrator: SATOSHI NAKAI
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm10/122_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM215"
   rarity: Promo
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM215_hires.png

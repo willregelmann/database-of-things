@@ -6,4 +6,6 @@ attributes:
   number: "112/160"
   rarity: Uncommon
   illustrator: match
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/xy5/112_hires.png

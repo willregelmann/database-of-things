@@ -6,4 +6,6 @@ attributes:
   number: "127/185"
   rarity: Rare Holo VMAX
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh4/127_hires.png

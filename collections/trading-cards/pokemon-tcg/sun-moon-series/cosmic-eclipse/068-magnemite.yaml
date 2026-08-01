@@ -6,4 +6,6 @@ attributes:
   number: "68/236"
   rarity: Common
   illustrator: Suwama Chiaki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm12/68_hires.png

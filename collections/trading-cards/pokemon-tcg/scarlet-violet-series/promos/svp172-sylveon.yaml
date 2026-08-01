@@ -6,4 +6,6 @@ attributes:
   number: "172"
   rarity: Promo
   illustrator: Susumu Maeya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/svp/172_hires.png

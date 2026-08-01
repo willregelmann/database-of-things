@@ -6,4 +6,6 @@ attributes:
   number: "82/106"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/82_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "66/191"
   rarity: Common
   illustrator: Pani Kobayashi
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv8/66_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SH5"
   rarity: Rare Holo
   illustrator: Kagemaru Himeno
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl1/SH5_hires.png

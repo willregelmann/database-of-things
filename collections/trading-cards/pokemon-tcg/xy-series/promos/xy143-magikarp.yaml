@@ -6,4 +6,6 @@ attributes:
   number: "XY143"
   rarity: Promo
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY143_hires.png

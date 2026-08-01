@@ -6,4 +6,6 @@ attributes:
   number: "10/124"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw6/10_hires.png

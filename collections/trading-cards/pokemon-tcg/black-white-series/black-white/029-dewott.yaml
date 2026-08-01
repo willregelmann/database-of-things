@@ -6,4 +6,6 @@ attributes:
   number: "29/114"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw1/29_hires.png

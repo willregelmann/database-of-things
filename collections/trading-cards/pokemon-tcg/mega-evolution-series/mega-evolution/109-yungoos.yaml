@@ -6,4 +6,6 @@ attributes:
   number: "109/132"
   rarity: Common
   illustrator: Mékayu
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me1/109_hires.png

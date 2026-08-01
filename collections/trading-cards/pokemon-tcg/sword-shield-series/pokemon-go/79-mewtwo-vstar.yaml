@@ -6,4 +6,6 @@ attributes:
   number: "79/78"
   rarity: Rare Rainbow
   illustrator: PLANETA Mochizuki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pgo/79_hires.png

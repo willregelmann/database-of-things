@@ -6,4 +6,6 @@ attributes:
   number: "68/91"
   rarity: Common
   illustrator: chibi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv4pt5/68_hires.png

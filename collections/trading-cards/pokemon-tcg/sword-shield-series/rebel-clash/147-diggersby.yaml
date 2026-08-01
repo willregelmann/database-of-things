@@ -6,4 +6,6 @@ attributes:
   number: "147/192"
   rarity: Rare
   illustrator: kodama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh2/147_hires.png

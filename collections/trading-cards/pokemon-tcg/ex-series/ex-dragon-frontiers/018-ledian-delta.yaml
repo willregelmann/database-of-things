@@ -6,4 +6,6 @@ attributes:
   number: "18/101"
   rarity: Rare
   illustrator: Hajime Kusajima
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex15/18_hires.png

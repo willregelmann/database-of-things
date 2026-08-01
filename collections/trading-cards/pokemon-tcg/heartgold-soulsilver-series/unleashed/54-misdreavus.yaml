@@ -6,4 +6,6 @@ attributes:
   number: "54/95"
   rarity: Common
   illustrator: Hideaki Hakozaki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss2/54_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "59/95"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss2/59_hires.png

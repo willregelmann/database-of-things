@@ -6,4 +6,6 @@ attributes:
   number: "108/198"
   rarity: Common
   illustrator: Ryuta Fuse
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv1/108_hires.png

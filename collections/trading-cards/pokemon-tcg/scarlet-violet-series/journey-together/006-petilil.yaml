@@ -6,4 +6,6 @@ attributes:
   number: "6/159"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/6_hires.png

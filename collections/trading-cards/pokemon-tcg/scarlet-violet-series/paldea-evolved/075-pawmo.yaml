@@ -6,4 +6,6 @@ attributes:
   number: "75/193"
   rarity: Uncommon
   illustrator: Hitoshi Ariga
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/75_hires.png

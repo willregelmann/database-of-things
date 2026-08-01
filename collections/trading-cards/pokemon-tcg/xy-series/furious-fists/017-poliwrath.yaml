@@ -6,4 +6,6 @@ attributes:
   number: "17/111"
   rarity: Rare Holo
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy3/17_hires.png

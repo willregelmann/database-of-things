@@ -6,4 +6,6 @@ attributes:
   number: "SV048/SV122"
   rarity: Rare Shiny
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh45sv/SV048_hires.png

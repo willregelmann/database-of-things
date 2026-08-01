@@ -6,4 +6,6 @@ attributes:
   number: "210/167"
   rarity: Special Illustration Rare
   illustrator: Saboteri
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv6/210_hires.png

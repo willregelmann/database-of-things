@@ -6,4 +6,6 @@ attributes:
   number: "11/106"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy2/11_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "17/20"
   rarity: Rare Holo
   illustrator: kawayoo
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/17_hires.png

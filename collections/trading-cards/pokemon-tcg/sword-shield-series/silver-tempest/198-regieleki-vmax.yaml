@@ -6,4 +6,6 @@ attributes:
   number: "198/195"
   rarity: Rare Rainbow
   illustrator: N-DESIGN Inc.
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh12/198_hires.png

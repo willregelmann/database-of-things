@@ -6,4 +6,6 @@ attributes:
   number: "34/115"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ex10/34_hires.png

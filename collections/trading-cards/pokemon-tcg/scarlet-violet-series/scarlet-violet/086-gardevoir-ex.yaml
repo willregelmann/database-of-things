@@ -6,4 +6,6 @@ attributes:
   number: "86/198"
   rarity: Double Rare
   illustrator: N-DESIGN Inc.
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv1/86_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "23/101"
   rarity: Uncommon
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw3/23_hires.png

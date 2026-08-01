@@ -6,4 +6,6 @@ attributes:
   number: "59/106"
   rarity: Rare
   illustrator: Hitoshi Ariga
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy2/59_hires.png

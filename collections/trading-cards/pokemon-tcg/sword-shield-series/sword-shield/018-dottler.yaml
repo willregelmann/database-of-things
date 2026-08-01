@@ -6,4 +6,6 @@ attributes:
   number: "18/202"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh1/18_hires.png

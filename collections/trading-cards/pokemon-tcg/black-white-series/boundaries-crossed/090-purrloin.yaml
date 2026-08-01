@@ -6,4 +6,6 @@ attributes:
   number: "90/149"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/bw7/90_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "14/111"
   rarity: Rare
   illustrator: Anesaki Dynamic
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm4/14_hires.png

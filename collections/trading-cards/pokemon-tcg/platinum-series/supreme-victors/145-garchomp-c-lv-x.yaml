@@ -6,4 +6,6 @@ attributes:
   number: "145/147"
   rarity: Rare Holo LV.X
   illustrator: Shizurow
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/pl3/145_hires.png

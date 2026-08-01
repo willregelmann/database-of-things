@@ -6,4 +6,6 @@ attributes:
   number: "111/114"
   rarity: Rare Ultra
   illustrator: Ryo Ueda
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/xy11/111_hires.png

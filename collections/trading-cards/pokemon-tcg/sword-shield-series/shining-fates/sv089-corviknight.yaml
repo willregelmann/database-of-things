@@ -6,4 +6,6 @@ attributes:
   number: "SV089/SV122"
   rarity: Rare Shiny
   illustrator: kirisAki
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh45sv/SV089_hires.png

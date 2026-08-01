@@ -6,4 +6,6 @@ attributes:
   number: "25/107"
   rarity: Rare
   illustrator: Kouki Saitou
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex8/25_hires.png

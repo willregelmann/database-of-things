@@ -6,4 +6,6 @@ attributes:
   number: "35/102"
   rarity: Uncommon
   illustrator: Takashi Yamaguchi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss4/35_hires.png

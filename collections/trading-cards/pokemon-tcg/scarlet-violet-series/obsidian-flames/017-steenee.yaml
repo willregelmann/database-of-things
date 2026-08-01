@@ -6,4 +6,6 @@ attributes:
   number: "17/197"
   rarity: Common
   illustrator: nagimiso
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv3/17_hires.png

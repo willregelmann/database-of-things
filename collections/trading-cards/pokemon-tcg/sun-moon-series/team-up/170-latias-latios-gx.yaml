@@ -6,4 +6,6 @@ attributes:
   number: "170/181"
   rarity: Rare Ultra
   illustrator: Sanosuke Sakuma
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm9/170_hires.png

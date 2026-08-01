@@ -6,4 +6,6 @@ attributes:
   number: "BW65"
   rarity: Promo
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bwp/BW65_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "13/132"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/gym1/13_hires.png

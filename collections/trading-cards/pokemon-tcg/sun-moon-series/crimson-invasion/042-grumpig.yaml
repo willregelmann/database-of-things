@@ -6,4 +6,6 @@ attributes:
   number: "42/111"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm4/42_hires.png

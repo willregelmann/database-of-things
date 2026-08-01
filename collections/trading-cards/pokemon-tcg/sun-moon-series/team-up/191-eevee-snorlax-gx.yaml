@@ -6,4 +6,6 @@ attributes:
   number: "191/181"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm9/191_hires.png

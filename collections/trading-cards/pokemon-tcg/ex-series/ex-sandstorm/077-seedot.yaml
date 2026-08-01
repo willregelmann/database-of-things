@@ -6,4 +6,6 @@ attributes:
   number: "77/100"
   rarity: Common
   illustrator: Ken Sugimori
+  type:
+    - Grass
 image: https://images.pokemontcg.io/ex2/77_hires.png

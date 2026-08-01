@@ -6,4 +6,6 @@ attributes:
   number: "64/162"
   rarity: Common
   illustrator: yuu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/64_hires.png

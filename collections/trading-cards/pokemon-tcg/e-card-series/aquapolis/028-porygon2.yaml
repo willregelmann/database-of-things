@@ -6,4 +6,6 @@ attributes:
   number: "28/147"
   rarity: Rare
   illustrator: Hikaru Koike
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard2/28_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "103/147"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/pl3/103_hires.png

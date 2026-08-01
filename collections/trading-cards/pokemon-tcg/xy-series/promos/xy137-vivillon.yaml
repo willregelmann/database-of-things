@@ -6,4 +6,6 @@ attributes:
   number: "XY137"
   rarity: Promo
   illustrator: match
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xyp/XY137_hires.png

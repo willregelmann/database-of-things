@@ -6,4 +6,6 @@ attributes:
   number: "SWSH204"
   rarity: Promo
   illustrator: Atsushi Furusawa
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swshp/SWSH204_hires.png

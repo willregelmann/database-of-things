@@ -6,4 +6,6 @@ attributes:
   number: "32/108"
   rarity: Uncommon
   illustrator: Sachiko Adachi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex16/32_hires.png

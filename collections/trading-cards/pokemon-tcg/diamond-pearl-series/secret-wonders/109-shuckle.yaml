@@ -6,4 +6,6 @@ attributes:
   number: "109/132"
   rarity: Common
   illustrator: Emi Yoshida
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dp3/109_hires.png

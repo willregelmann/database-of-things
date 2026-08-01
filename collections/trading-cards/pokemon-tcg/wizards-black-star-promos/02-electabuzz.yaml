@@ -6,4 +6,6 @@ attributes:
   number: "2/53"
   rarity: Promo
   illustrator: Ken Sugimori
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/basep/2_hires.png

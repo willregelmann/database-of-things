@@ -6,4 +6,6 @@ attributes:
   number: "096"
   rarity: Promo
   illustrator: Krgc
+  type:
+    - Fire
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/MoltresMEPPromo96.jpg

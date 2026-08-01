@@ -6,4 +6,6 @@ attributes:
   number: "SV118/SV122"
   rarity: Rare Holo V
   illustrator: Saki Hayashiro
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh45sv/SV118_hires.png

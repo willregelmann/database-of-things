@@ -6,4 +6,6 @@ attributes:
   number: "147/236"
   rarity: Common
   illustrator: Motofumi Fujiwara
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/147_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "12/18"
   rarity: Rare Holo
   illustrator: MPC Film
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/det1/12_hires.png

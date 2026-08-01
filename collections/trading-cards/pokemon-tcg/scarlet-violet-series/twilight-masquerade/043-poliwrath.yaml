@@ -6,4 +6,6 @@ attributes:
   number: "43/167"
   rarity: Uncommon
   illustrator: Nisota Niso
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv6/43_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "15/105"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/neo4/15_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "34/64"
   rarity: Uncommon
   illustrator: Mitsuhiro Arita
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/base2/34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "TG22/TG30"
   rarity: Rare Holo V
   illustrator: You Iribi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12tg/TG22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "47/95"
   rarity: Uncommon
   illustrator: Noriko Hotta
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/col1/47_hires.png

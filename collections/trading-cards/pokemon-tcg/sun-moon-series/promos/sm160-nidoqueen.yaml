@@ -6,4 +6,6 @@ attributes:
   number: "SM160"
   rarity: Promo
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM160_hires.png

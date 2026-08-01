@@ -6,4 +6,6 @@ attributes:
   number: "19/106"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp4/19_hires.png

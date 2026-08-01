@@ -6,4 +6,6 @@ attributes:
   number: "17/83"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Water
 image: https://images.pokemontcg.io/g1/17_hires.png

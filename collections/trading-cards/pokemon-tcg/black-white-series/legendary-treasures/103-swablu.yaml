@@ -6,4 +6,6 @@ attributes:
   number: "103/113"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/103_hires.png

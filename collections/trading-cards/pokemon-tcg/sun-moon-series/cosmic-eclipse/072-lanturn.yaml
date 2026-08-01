@@ -6,4 +6,6 @@ attributes:
   number: "72/236"
   rarity: Rare
   illustrator: otumami
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sm12/72_hires.png

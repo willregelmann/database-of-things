@@ -6,4 +6,6 @@ attributes:
   number: "5/149"
   rarity: Rare
   illustrator: Eri Yamaki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm1/5_hires.png

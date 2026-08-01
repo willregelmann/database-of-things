@@ -6,4 +6,6 @@ attributes:
   number: "13/78"
   rarity: Common
   illustrator: Shibuzoh.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pgo/13_hires.png

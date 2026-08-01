@@ -6,4 +6,6 @@ attributes:
   number: "49/189"
   rarity: Rare Holo V
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/49_hires.png

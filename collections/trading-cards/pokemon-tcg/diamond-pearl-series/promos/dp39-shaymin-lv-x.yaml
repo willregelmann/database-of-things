@@ -6,4 +6,6 @@ attributes:
   number: "DP39"
   rarity: Promo
   illustrator: Shizurow
+  type:
+    - Grass
 image: https://images.pokemontcg.io/dpp/DP39_hires.png

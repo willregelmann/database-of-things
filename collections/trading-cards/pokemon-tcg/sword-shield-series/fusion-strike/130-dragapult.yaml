@@ -6,4 +6,6 @@ attributes:
   number: "130/264"
   rarity: Rare Holo
   illustrator: Souichirou Gunjima
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/130_hires.png

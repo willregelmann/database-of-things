@@ -6,4 +6,6 @@ attributes:
   number: "125/236"
   rarity: Rare Holo GX
   illustrator: Mitsuhiro Arita
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm11/125_hires.png

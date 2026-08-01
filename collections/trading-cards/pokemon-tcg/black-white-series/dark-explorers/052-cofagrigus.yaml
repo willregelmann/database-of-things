@@ -6,4 +6,6 @@ attributes:
   number: "52/108"
   rarity: Rare
   illustrator: kawayoo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/bw5/52_hires.png

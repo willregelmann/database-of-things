@@ -6,4 +6,6 @@ attributes:
   number: "47/101"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex5/47_hires.png

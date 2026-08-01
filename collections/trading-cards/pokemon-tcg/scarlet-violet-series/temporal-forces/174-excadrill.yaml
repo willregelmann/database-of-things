@@ -6,4 +6,6 @@ attributes:
   number: "174/162"
   rarity: Illustration Rare
   illustrator: Saboteri
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv5/174_hires.png

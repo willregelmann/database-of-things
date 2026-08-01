@@ -6,4 +6,6 @@ attributes:
   number: "36/131"
   rarity: Common
   illustrator: Aya Kusube
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8pt5/36_hires.png

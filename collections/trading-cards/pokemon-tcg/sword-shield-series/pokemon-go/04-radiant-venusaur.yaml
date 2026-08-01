@@ -6,4 +6,6 @@ attributes:
   number: "4/78"
   rarity: Radiant Rare
   illustrator: Misa Tsutsui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/pgo/4_hires.png

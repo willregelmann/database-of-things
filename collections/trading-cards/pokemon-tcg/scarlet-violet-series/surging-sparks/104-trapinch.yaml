@@ -6,4 +6,6 @@ attributes:
   number: "104/191"
   rarity: Common
   illustrator: Taiga Kayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/104_hires.png

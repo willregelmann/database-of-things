@@ -6,4 +6,6 @@ attributes:
   number: "96/196"
   rarity: Rare
   illustrator: Shiburingaru
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh11/96_hires.png

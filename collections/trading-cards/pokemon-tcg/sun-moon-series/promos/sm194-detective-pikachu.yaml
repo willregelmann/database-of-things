@@ -6,4 +6,6 @@ attributes:
   number: "SM194"
   rarity: Promo
   illustrator: MPC Film
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM194_hires.png

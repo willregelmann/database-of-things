@@ -6,4 +6,6 @@ attributes:
   number: "27/168"
   rarity: Uncommon
   illustrator: Mizue
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm7/27_hires.png

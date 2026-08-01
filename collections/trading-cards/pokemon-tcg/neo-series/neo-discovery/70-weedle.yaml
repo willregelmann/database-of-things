@@ -6,4 +6,6 @@ attributes:
   number: "70/75"
   rarity: Common
   illustrator: Miki Tanaka
+  type:
+    - Grass
 image: https://images.pokemontcg.io/neo2/70_hires.png

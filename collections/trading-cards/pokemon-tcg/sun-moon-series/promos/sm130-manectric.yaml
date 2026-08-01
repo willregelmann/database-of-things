@@ -6,4 +6,6 @@ attributes:
   number: "SM130"
   rarity: Promo
   illustrator: Ryota Murayama
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/smp/SM130_hires.png

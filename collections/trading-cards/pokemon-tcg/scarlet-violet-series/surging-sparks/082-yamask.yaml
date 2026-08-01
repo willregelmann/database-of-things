@@ -6,4 +6,6 @@ attributes:
   number: "82/191"
   rarity: Common
   illustrator: IKEDA Saki
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/82_hires.png

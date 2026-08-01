@@ -6,4 +6,6 @@ attributes:
   number: "RC3/RC25"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/bw11/RC3_hires.png

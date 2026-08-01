@@ -6,4 +6,6 @@ attributes:
   number: "17/115"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex10/17_hires.png

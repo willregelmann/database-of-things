@@ -6,4 +6,6 @@ attributes:
   number: "72/146"
   rarity: Common
   illustrator: Toyste Beach
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy1/72_hires.png

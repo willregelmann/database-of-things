@@ -6,4 +6,6 @@ attributes:
   number: "156/191"
   rarity: Common
   illustrator: Saboteri
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv8/156_hires.png

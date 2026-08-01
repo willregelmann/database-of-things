@@ -6,4 +6,6 @@ attributes:
   number: "75/236"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/75_hires.png

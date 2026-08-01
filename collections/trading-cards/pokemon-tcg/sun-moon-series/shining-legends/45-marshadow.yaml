@@ -6,4 +6,6 @@ attributes:
   number: "45/73"
   rarity: Rare Holo
   illustrator: Emi Ando
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm35/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "39/214"
   rarity: Common
   illustrator: Mina Nakai
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm8/39_hires.png

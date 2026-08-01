@@ -6,4 +6,6 @@ attributes:
   number: "32/70"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm75/32_hires.png

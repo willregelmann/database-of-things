@@ -6,4 +6,6 @@ attributes:
   number: "89/95"
   rarity: Rare Holo Prime
   illustrator: Wataru Kawahara
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss2/89_hires.png

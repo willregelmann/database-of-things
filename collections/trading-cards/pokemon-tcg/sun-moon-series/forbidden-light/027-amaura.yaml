@@ -6,4 +6,6 @@ attributes:
   number: "27/131"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm6/27_hires.png

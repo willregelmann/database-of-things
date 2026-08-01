@@ -6,4 +6,6 @@ attributes:
   number: "066"
   rarity: Promo
   illustrator: Nisota Niso
+  type:
+    - Fighting
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/TyrantrumMEPPromo66.jpg

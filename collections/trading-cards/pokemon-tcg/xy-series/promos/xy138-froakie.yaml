@@ -6,4 +6,6 @@ attributes:
   number: "XY138"
   rarity: Promo
   illustrator: Sanosuke Sakuma
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY138_hires.png

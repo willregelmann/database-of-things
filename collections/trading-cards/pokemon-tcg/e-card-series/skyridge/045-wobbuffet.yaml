@@ -6,4 +6,6 @@ attributes:
   number: "45/144"
   rarity: Uncommon
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ecard3/45_hires.png

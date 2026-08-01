@@ -6,4 +6,6 @@ attributes:
   number: "6/123"
   rarity: Rare Holo
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/hgss1/6_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/119"
   rarity: Rare Holo ex
   illustrator: Eske Yoshinob
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/xy4/58_hires.png

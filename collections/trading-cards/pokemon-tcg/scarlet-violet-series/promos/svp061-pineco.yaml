@@ -6,4 +6,6 @@ attributes:
   number: "061"
   rarity: Promo
   illustrator: Nobuhiro Imagawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/61_hires.png

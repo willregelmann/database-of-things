@@ -6,4 +6,6 @@ attributes:
   number: "101/156"
   rarity: Rare Holo GX
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm5/101_hires.png

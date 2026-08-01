@@ -6,4 +6,6 @@ attributes:
   number: "12/147"
   rarity: Common
   illustrator: Shigenori Negishi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm3/12_hires.png

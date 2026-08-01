@@ -6,4 +6,6 @@ attributes:
   number: "129/182"
   rarity: Uncommon
   illustrator: satoma
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv10/129_hires.png

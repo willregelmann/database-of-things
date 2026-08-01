@@ -6,4 +6,6 @@ attributes:
   number: "5/107"
   rarity: Rare Holo
   illustrator: Hajime Kusajima
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex8/5_hires.png

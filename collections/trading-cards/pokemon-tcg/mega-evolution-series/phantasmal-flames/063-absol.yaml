@@ -6,4 +6,6 @@ attributes:
   number: "63/94"
   rarity: Common
   illustrator: Takumi Wada
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/me2/63_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "130/94"
   rarity: Mega Hyper Rare
   illustrator: takuyoa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/me2/130_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "52/123"
   rarity: Uncommon
   illustrator: Sumiyoshi Kizuki
+  type:
+    - Water
 image: https://images.pokemontcg.io/hgss1/52_hires.png

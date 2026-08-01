@@ -6,4 +6,6 @@ attributes:
   number: "113/191"
   rarity: Common
   illustrator: KEIICHIRO ITO
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv8/113_hires.png

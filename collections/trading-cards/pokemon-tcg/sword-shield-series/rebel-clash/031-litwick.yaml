@@ -6,4 +6,6 @@ attributes:
   number: "31/192"
   rarity: Common
   illustrator: Sekio
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh2/31_hires.png

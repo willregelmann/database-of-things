@@ -6,4 +6,6 @@ attributes:
   number: "155/236"
   rarity: Uncommon
   illustrator: tetsuya koizumi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm11/155_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "122/159"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv9/122_hires.png

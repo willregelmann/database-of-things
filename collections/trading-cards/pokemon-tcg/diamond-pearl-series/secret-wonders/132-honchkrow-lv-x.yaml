@@ -6,4 +6,6 @@ attributes:
   number: "132/132"
   rarity: Rare Holo LV.X
   illustrator: Ryo Ueda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/dp3/132_hires.png

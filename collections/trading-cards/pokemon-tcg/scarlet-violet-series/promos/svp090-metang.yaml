@@ -6,4 +6,6 @@ attributes:
   number: "090"
   rarity: Promo
   illustrator: Uta
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/90_hires.png

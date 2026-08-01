@@ -6,4 +6,6 @@ attributes:
   number: "076"
   rarity: Promo
   illustrator: kurumitsu
+  type:
+    - Grass
 image: https://images.pokemontcg.io/svp/76_hires.png

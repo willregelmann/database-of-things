@@ -6,4 +6,6 @@ attributes:
   number: "120"
   rarity: Promo
   illustrator: Shiburingaru
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/svp/120_hires.png

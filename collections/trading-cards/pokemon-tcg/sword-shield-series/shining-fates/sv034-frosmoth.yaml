@@ -6,4 +6,6 @@ attributes:
   number: "SV034/SV122"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV034_hires.png

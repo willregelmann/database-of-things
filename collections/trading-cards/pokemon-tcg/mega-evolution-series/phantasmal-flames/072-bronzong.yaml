@@ -6,4 +6,6 @@ attributes:
   number: "72/94"
   rarity: Uncommon
   illustrator: Masako Tomii
+  type:
+    - Metal
 image: https://images.pokemontcg.io/me2/72_hires.png

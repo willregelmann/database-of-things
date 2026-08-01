@@ -6,4 +6,6 @@ attributes:
   number: "81/94"
   rarity: Common
   illustrator: Dsuke
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/me2/81_hires.png

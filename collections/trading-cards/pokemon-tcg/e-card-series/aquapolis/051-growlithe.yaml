@@ -6,4 +6,6 @@ attributes:
   number: "51/147"
   rarity: Uncommon
   illustrator: Kyoko Umemoto
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ecard2/51_hires.png

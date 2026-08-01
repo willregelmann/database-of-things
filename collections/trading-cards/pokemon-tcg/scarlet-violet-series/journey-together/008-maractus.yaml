@@ -6,4 +6,6 @@ attributes:
   number: "8/159"
   rarity: Uncommon
   illustrator: Dsuke
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv9/8_hires.png

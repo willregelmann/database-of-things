@@ -6,4 +6,6 @@ attributes:
   number: "22/110"
   rarity: Rare
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/ex13/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "71/162"
   rarity: Common
   illustrator: mele
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv5/71_hires.png

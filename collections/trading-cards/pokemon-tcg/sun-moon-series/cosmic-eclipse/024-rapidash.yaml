@@ -6,4 +6,6 @@ attributes:
   number: "24/236"
   rarity: Uncommon
   illustrator: Misa Tsutsui
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sm12/24_hires.png

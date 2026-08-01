@@ -6,4 +6,6 @@ attributes:
   number: "167/163"
   rarity: Rare Rainbow
   illustrator: PLANETA Tsuji
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/167_hires.png

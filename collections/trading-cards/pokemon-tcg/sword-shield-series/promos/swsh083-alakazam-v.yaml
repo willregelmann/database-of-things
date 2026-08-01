@@ -6,4 +6,6 @@ attributes:
   number: "SWSH083"
   rarity: Promo
   illustrator: Ayaka Yoshida
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swshp/SWSH083_hires.png

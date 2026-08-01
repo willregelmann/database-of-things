@@ -6,4 +6,6 @@ attributes:
   number: "104"
   rarity: Promo
   illustrator: Nisota Niso
+  type:
+    - Psychic
 image: https://archives.bulbagarden.net/wiki/Special:FilePath/MewtwoMEPPromo104.jpg

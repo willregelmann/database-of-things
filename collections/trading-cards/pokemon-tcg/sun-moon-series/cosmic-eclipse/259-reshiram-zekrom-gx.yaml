@@ -6,4 +6,6 @@ attributes:
   number: "259/236"
   rarity: Rare Rainbow
   illustrator: Naoki Saito
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sm12/259_hires.png

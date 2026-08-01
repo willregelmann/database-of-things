@@ -6,4 +6,6 @@ attributes:
   number: "129/202"
   rarity: Common
   illustrator: AKIRA EGAWA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh1/129_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "27/217"
   rarity: Common
   illustrator: Ounishi
+  type:
+    - Fire
 image: https://images.scrydex.com/pokemon/me2pt5-27/large

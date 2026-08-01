@@ -6,4 +6,6 @@ attributes:
   number: "50/162"
   rarity: Double Rare
   illustrator: takuyoa
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv5/50_hires.png

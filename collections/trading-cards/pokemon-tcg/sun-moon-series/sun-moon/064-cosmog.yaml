@@ -6,4 +6,6 @@ attributes:
   number: "64/149"
   rarity: Common
   illustrator: Megumi Mizutani
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm1/64_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "5/119"
   rarity: Common
   illustrator: kawayoo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy4/5_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "89/123"
   rarity: Common
   illustrator: Yusuke Ohmura
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp2/89_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "153/217"
   rarity: Rare
   illustrator: nagimiso
+  type:
+    - Dragon
 image: https://images.scrydex.com/pokemon/me2pt5-153/large

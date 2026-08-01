@@ -6,4 +6,6 @@ attributes:
   number: "SV032/SV122"
   rarity: Rare Shiny
   illustrator: Misa Tsutsui
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh45sv/SV032_hires.png

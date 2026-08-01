@@ -6,4 +6,6 @@ attributes:
   number: "GG39/GG70"
   rarity: Rare Holo V
   illustrator: Jerky
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12pt5gg/GG39_hires.png

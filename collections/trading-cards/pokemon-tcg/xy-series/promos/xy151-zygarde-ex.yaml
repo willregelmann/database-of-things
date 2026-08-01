@@ -6,4 +6,6 @@ attributes:
   number: "XY151"
   rarity: Promo
   illustrator: Eske Yoshinob
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xyp/XY151_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "24/182"
   rarity: Common
   illustrator: Toshinao Aoki
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv10/24_hires.png

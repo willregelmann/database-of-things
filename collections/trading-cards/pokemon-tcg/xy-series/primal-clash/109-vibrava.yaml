@@ -6,4 +6,6 @@ attributes:
   number: "109/160"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy5/109_hires.png

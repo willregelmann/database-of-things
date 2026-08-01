@@ -6,4 +6,6 @@ attributes:
   number: "70/189"
   rarity: Common
   illustrator: Akira Komayama
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh10/70_hires.png

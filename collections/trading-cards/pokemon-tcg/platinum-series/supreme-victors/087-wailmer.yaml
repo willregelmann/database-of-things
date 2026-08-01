@@ -6,4 +6,6 @@ attributes:
   number: "87/147"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/pl3/87_hires.png

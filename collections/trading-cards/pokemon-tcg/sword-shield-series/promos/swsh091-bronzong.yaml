@@ -6,4 +6,6 @@ attributes:
   number: "SWSH091"
   rarity: Promo
   illustrator: Atsushi Furusawa
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swshp/SWSH091_hires.png

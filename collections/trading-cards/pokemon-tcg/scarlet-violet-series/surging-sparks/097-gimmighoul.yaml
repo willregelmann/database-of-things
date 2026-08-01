@@ -6,4 +6,6 @@ attributes:
   number: "97/191"
   rarity: Common
   illustrator: Scav
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv8/97_hires.png

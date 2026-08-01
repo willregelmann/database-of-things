@@ -6,4 +6,6 @@ attributes:
   number: "69/198"
   rarity: Common
   illustrator: Sanosuke Sakuma
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh6/69_hires.png

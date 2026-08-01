@@ -6,4 +6,6 @@ attributes:
   number: "119"
   rarity: Promo
   illustrator: Natsumi Yoshida
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/119_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "30/90"
   rarity: Uncommon
   illustrator: TOKIYA
+  type:
+    - Metal
 image: https://images.pokemontcg.io/hgss3/30_hires.png

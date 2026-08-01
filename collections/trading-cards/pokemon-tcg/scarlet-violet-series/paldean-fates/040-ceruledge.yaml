@@ -6,4 +6,6 @@ attributes:
   number: "40/91"
   rarity: Rare
   illustrator: Ryota Murayama
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/40_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "173/196"
   rarity: Rare Ultra
   illustrator: PLANETA Yamashita
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh11/173_hires.png

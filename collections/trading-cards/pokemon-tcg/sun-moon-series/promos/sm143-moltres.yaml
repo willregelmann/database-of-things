@@ -6,4 +6,6 @@ attributes:
   number: "SM143"
   rarity: Promo
   illustrator: Hitoshi Ariga
+  type:
+    - Fire
 image: https://images.pokemontcg.io/smp/SM143_hires.png

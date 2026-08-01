@@ -6,6 +6,8 @@ attributes:
   number: "22/110"
   rarity: Rare
   illustrator: Mitsuhiro Arita
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/base6/22_hires.png
 variants:
   - id: 6015b91b-151d-48c0-8647-e218c443d619

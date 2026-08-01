@@ -6,4 +6,6 @@ attributes:
   number: "144/86"
   rarity: Illustration Rare
   illustrator: Saya Tsuruta
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/rsv10pt5/144_hires.png

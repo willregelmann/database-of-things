@@ -5,4 +5,6 @@ date: "2024"
 attributes:
   number: "152"
   rarity: Promo
+  type:
+    - Water
 image: https://images.pokemontcg.io/svp/152_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "BW71"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/bwp/BW71_hires.png

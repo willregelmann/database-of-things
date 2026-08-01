@@ -6,4 +6,6 @@ attributes:
   number: "108/214"
   rarity: Common
   illustrator: "0313"
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sm10/108_hires.png

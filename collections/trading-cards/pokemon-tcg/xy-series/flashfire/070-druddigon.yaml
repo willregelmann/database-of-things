@@ -6,4 +6,6 @@ attributes:
   number: "70/106"
   rarity: Rare Holo
   illustrator: Ryota Murayama
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy2/70_hires.png

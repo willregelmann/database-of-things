@@ -6,4 +6,6 @@ attributes:
   number: "61/159"
   rarity: Common
   illustrator: Izucch
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv9/61_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/64"
   rarity: Common
   illustrator: Yuu Nishida
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6pt5/31_hires.png

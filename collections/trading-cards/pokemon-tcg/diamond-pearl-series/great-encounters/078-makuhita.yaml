@@ -6,4 +6,6 @@ attributes:
   number: "78/106"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/dp4/78_hires.png

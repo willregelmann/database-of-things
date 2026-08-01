@@ -6,4 +6,6 @@ attributes:
   number: "106"
   rarity: Promo
   illustrator: takuyoa
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/svp/106_hires.png

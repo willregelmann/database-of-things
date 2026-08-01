@@ -6,4 +6,6 @@ attributes:
   number: "5/146"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy1/5_hires.png

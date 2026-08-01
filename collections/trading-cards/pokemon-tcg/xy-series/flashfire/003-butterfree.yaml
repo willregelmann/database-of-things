@@ -6,4 +6,6 @@ attributes:
   number: "3/106"
   rarity: Rare
   illustrator: sui
+  type:
+    - Grass
 image: https://images.pokemontcg.io/xy2/3_hires.png

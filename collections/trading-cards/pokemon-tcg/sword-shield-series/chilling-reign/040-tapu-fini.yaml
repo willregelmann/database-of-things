@@ -6,4 +6,6 @@ attributes:
   number: "40/198"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh6/40_hires.png

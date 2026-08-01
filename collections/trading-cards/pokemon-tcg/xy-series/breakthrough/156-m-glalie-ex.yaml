@@ -6,4 +6,6 @@ attributes:
   number: "156/162"
   rarity: Rare Ultra
   illustrator: 5ban Graphics
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy8/156_hires.png

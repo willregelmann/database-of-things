@@ -6,4 +6,6 @@ attributes:
   number: "177/159"
   rarity: Ultra Rare
   illustrator: 5ban Graphics
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/sv9/177_hires.png

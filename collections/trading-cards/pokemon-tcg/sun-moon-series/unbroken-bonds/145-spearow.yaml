@@ -6,4 +6,6 @@ attributes:
   number: "145/214"
   rarity: Common
   illustrator: tetsuya koizumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm10/145_hires.png

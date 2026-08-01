@@ -6,4 +6,6 @@ attributes:
   number: "29/132"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Water
 image: https://images.pokemontcg.io/gym1/29_hires.png

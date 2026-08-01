@@ -6,4 +6,6 @@ attributes:
   number: "42/192"
   rarity: Uncommon
   illustrator: Eri Yamaki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh2/42_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "155/182"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sv10/155_hires.png

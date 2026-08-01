@@ -6,4 +6,6 @@ attributes:
   number: "170/163"
   rarity: Rare Rainbow
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh5/170_hires.png

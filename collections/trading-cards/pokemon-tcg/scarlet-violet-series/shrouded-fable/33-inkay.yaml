@@ -6,4 +6,6 @@ attributes:
   number: "33/64"
   rarity: Common
   illustrator: Mori Yuu
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv6pt5/33_hires.png

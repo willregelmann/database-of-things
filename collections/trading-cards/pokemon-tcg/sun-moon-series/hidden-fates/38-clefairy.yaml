@@ -6,4 +6,6 @@ attributes:
   number: "38/68"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sm115/38_hires.png

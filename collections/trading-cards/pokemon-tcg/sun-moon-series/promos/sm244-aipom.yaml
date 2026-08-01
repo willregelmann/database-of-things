@@ -6,4 +6,6 @@ attributes:
   number: "SM244"
   rarity: Promo
   illustrator: Shibuzoh.
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM244_hires.png

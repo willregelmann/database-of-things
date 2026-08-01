@@ -6,4 +6,6 @@ attributes:
   number: "66/217"
   rarity: Uncommon
   illustrator: Shiburingaru
+  type:
+    - Lightning
 image: https://images.scrydex.com/pokemon/me2pt5-66/large

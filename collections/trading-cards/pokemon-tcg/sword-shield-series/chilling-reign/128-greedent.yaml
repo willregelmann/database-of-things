@@ -6,4 +6,6 @@ attributes:
   number: "128/198"
   rarity: Rare Holo
   illustrator: HYOGONOSUKE
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh6/128_hires.png

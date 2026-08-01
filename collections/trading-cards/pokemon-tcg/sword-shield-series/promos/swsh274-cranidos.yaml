@@ -6,4 +6,6 @@ attributes:
   number: "SWSH274"
   rarity: Promo
   illustrator: GIDORA
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swshp/SWSH274_hires.png

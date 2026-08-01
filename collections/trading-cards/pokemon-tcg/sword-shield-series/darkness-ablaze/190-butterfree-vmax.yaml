@@ -6,4 +6,6 @@ attributes:
   number: "190/189"
   rarity: Rare Rainbow
   illustrator: aky CG Works
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swsh3/190_hires.png

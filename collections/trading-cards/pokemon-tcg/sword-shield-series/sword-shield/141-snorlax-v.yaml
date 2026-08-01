@@ -6,4 +6,6 @@ attributes:
   number: "141/202"
   rarity: Rare Holo V
   illustrator: Masakazu Fukuda
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh1/141_hires.png

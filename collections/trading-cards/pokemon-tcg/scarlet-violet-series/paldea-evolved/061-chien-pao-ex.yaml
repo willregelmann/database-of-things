@@ -6,4 +6,6 @@ attributes:
   number: "61/193"
   rarity: Double Rare
   illustrator: aky CG Works
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv2/61_hires.png

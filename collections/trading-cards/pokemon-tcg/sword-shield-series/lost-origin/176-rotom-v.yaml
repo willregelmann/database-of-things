@@ -6,4 +6,6 @@ attributes:
   number: "176/196"
   rarity: Rare Ultra
   illustrator: PLANETA Mochizuki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/swsh11/176_hires.png

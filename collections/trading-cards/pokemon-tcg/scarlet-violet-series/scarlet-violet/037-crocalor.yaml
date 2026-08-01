@@ -6,4 +6,6 @@ attributes:
   number: "37/198"
   rarity: Uncommon
   illustrator: kantaro
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv1/37_hires.png

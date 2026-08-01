@@ -6,4 +6,6 @@ attributes:
   number: "105/123"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp2/105_hires.png

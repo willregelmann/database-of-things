@@ -6,4 +6,6 @@ attributes:
   number: "31/189"
   rarity: Uncommon
   illustrator: Mina Nakai
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/31_hires.png

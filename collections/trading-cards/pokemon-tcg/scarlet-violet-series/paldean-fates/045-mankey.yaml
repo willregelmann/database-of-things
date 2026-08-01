@@ -6,4 +6,6 @@ attributes:
   number: "45/91"
   rarity: Common
   illustrator: nagimiso
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sv4pt5/45_hires.png

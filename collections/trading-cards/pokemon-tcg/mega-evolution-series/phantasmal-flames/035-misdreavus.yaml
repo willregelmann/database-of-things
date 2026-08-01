@@ -6,4 +6,6 @@ attributes:
   number: "35/94"
   rarity: Common
   illustrator: Mousho
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/me2/35_hires.png

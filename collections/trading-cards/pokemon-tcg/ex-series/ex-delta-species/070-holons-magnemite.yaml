@@ -6,4 +6,6 @@ attributes:
   number: "70/113"
   rarity: Common
   illustrator: Katsura Tabata
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ex11/70_hires.png

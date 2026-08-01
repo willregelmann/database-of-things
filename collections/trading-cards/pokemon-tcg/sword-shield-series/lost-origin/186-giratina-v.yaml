@@ -6,4 +6,6 @@ attributes:
   number: "186/196"
   rarity: Rare Ultra
   illustrator: Shinji Kanda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh11/186_hires.png

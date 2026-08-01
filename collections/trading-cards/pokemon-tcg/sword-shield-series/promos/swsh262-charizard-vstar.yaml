@@ -6,4 +6,6 @@ attributes:
   number: "SWSH262"
   rarity: Promo
   illustrator: KIYOTAKA OSHIYAMA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH262_hires.png

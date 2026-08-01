@@ -6,4 +6,6 @@ attributes:
   number: "118"
   rarity: Promo
   illustrator: Shimaris Yukichi
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/svp/118_hires.png

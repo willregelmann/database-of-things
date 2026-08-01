@@ -6,4 +6,6 @@ attributes:
   number: "99/185"
   rarity: Rare Holo VMAX
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh4/99_hires.png

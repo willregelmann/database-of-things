@@ -6,4 +6,6 @@ attributes:
   number: "24/122"
   rarity: Uncommon
   illustrator: Saya Tsuruta
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy9/24_hires.png

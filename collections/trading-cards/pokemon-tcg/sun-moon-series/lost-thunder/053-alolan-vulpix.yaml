@@ -6,4 +6,6 @@ attributes:
   number: "53/214"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Water
 image: https://images.pokemontcg.io/sm8/53_hires.png

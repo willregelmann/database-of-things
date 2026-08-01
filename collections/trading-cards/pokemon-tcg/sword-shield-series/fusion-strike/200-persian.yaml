@@ -6,4 +6,6 @@ attributes:
   number: "200/264"
   rarity: Uncommon
   illustrator: Lee HyunJung
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh8/200_hires.png

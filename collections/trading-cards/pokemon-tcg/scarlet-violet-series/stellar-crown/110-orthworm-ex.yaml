@@ -6,4 +6,6 @@ attributes:
   number: "110/142"
   rarity: Double Rare
   illustrator: PLANETA Yamashita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv7/110_hires.png

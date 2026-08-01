@@ -6,4 +6,6 @@ attributes:
   number: "TG23/TG30"
   rarity: Rare Holo V
   illustrator: Taira Akitsu
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/swsh10tg/TG23_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM85"
   rarity: Promo
   illustrator: Emi Ando
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/smp/SM85_hires.png

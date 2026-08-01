@@ -6,4 +6,6 @@ attributes:
   number: "XY107"
   rarity: Promo
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xyp/XY107_hires.png

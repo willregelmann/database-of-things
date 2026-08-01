@@ -6,4 +6,6 @@ attributes:
   number: "69/147"
   rarity: Common
   illustrator: Atsuko Nishida
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/ecard2/69_hires.png

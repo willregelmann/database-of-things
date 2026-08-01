@@ -6,4 +6,6 @@ attributes:
   number: "63/193"
   rarity: Double Rare
   illustrator: N-DESIGN Inc.
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv2/63_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "145/195"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12/145_hires.png

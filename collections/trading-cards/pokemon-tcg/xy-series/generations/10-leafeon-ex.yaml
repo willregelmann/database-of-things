@@ -6,4 +6,6 @@ attributes:
   number: "10/83"
   rarity: Rare Holo ex
   illustrator: Naoki Saito
+  type:
+    - Grass
 image: https://images.pokemontcg.io/g1/10_hires.png

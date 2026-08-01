@@ -6,4 +6,6 @@ attributes:
   number: "43/130"
   rarity: Uncommon
   illustrator: Keiji Kinebuchi
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/base4/43_hires.png

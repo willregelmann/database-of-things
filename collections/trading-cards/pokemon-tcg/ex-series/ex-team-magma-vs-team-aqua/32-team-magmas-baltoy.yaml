@@ -6,4 +6,6 @@ attributes:
   number: "32/95"
   rarity: Uncommon
   illustrator: Atsuko Ujiie
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/ex4/32_hires.png

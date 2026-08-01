@@ -6,4 +6,6 @@ attributes:
   number: "7/162"
   rarity: Common
   illustrator: Taiga Kasai
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/7_hires.png

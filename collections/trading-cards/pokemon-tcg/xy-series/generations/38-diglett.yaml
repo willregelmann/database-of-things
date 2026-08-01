@@ -6,4 +6,6 @@ attributes:
   number: "38/83"
   rarity: Common
   illustrator: Tomokazu Komiya
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/g1/38_hires.png

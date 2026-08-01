@@ -6,4 +6,6 @@ attributes:
   number: "GG55/GG70"
   rarity: Rare Holo VSTAR
   illustrator: Aya Kusube
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5gg/GG55_hires.png

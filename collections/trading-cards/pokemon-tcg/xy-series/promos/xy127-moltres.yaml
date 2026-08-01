@@ -6,4 +6,6 @@ attributes:
   number: "XY127"
   rarity: Promo
   illustrator: OOYAMA
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xyp/XY127_hires.png

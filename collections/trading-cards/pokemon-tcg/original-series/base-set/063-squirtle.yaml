@@ -6,6 +6,8 @@ attributes:
   number: "63/102"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Water
 image: https://images.pokemontcg.io/base1/63_hires.png
 variants:
   - id: f36b3341-4e1b-40fb-8b34-d960e629ef00

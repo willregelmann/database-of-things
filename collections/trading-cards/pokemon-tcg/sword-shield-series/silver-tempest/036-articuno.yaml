@@ -6,4 +6,6 @@ attributes:
   number: "36/195"
   rarity: Rare Holo
   illustrator: Naoyo Kimura
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh12/36_hires.png

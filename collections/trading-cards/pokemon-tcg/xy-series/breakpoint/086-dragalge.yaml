@@ -6,4 +6,6 @@ attributes:
   number: "86/122"
   rarity: Rare Holo
   illustrator: Shin Nagasawa
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/xy9/86_hires.png

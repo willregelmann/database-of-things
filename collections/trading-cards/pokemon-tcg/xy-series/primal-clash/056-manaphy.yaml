@@ -6,4 +6,6 @@ attributes:
   number: "56/160"
   rarity: Rare Holo
   illustrator: sui
+  type:
+    - Water
 image: https://images.pokemontcg.io/xy5/56_hires.png

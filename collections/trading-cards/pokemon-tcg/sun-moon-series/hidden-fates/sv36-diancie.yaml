@@ -6,4 +6,6 @@ attributes:
   number: "SV36/SV94"
   rarity: Rare Shiny
   illustrator: Akira Komayama
+  type:
+    - Fairy
 image: https://images.pokemontcg.io/sma/SV36_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "63/97"
   rarity: Common
   illustrator: Kyoko Umemoto
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex3/63_hires.png

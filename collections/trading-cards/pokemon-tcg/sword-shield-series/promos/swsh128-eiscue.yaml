@@ -6,4 +6,6 @@ attributes:
   number: "SWSH128"
   rarity: Promo
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH128_hires.png

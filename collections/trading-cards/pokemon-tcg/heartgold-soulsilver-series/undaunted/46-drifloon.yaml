@@ -6,4 +6,6 @@ attributes:
   number: "46/90"
   rarity: Common
   illustrator: Kagemaru Himeno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hgss3/46_hires.png

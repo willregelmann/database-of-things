@@ -6,4 +6,6 @@ attributes:
   number: "H29/H32"
   rarity: Rare Holo
   illustrator: Hikaru Koike
+  type:
+    - Metal
 image: https://images.pokemontcg.io/ecard3/H29_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "56/264"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/56_hires.png

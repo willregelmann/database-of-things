@@ -6,4 +6,6 @@ attributes:
   number: "36/106"
   rarity: Uncommon
   illustrator: Masakazu Fukuda
+  type:
+    - Water
 image: https://images.pokemontcg.io/dp4/36_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "134/165"
   rarity: Rare
   illustrator: kirisAki
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/134_hires.png

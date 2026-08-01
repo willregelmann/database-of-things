@@ -6,4 +6,6 @@ attributes:
   number: "24/189"
   rarity: Rare Holo
   illustrator: Ryuta Fuse
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh3/24_hires.png

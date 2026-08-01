@@ -6,4 +6,6 @@ attributes:
   number: "26/191"
   rarity: Common
   illustrator: Heisuke Kitazawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/sv8/26_hires.png

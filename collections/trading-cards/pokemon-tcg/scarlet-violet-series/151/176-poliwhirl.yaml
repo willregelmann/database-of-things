@@ -6,4 +6,6 @@ attributes:
   number: "176/165"
   rarity: Illustration Rare
   illustrator: Gemi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv3pt5/176_hires.png

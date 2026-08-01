@@ -6,4 +6,6 @@ attributes:
   number: "69/264"
   rarity: Uncommon
   illustrator: Shin Nagasawa
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/69_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "207/182"
   rarity: Illustration Rare
   illustrator: Tomokazu Komiya
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sv4/207_hires.png

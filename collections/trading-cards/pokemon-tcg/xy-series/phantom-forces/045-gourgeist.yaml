@@ -6,4 +6,6 @@ attributes:
   number: "45/119"
   rarity: Rare Holo
   illustrator: Kanako Eo
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/xy4/45_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "152/214"
   rarity: Common
   illustrator: MAHOU
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm8/152_hires.png

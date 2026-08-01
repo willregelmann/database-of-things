@@ -6,4 +6,6 @@ attributes:
   number: "10/78"
   rarity: Rare Holo
   illustrator: N-DESIGN Inc.
+  type:
+    - Fire
 image: https://images.pokemontcg.io/pgo/10_hires.png

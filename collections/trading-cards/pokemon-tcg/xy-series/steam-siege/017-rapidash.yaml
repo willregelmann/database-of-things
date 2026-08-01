@@ -6,4 +6,6 @@ attributes:
   number: "17/114"
   rarity: Uncommon
   illustrator: Yukiko Baba
+  type:
+    - Fire
 image: https://images.pokemontcg.io/xy11/17_hires.png

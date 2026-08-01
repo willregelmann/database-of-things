@@ -6,4 +6,6 @@ attributes:
   number: "122/264"
   rarity: Uncommon
   illustrator: Tika Matsuno
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh8/122_hires.png

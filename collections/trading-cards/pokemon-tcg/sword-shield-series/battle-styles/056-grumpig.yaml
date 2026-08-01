@@ -6,4 +6,6 @@ attributes:
   number: "56/163"
   rarity: Uncommon
   illustrator: Tomokazu Komiya
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh5/56_hires.png

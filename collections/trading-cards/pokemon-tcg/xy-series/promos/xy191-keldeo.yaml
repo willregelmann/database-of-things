@@ -6,4 +6,6 @@ attributes:
   number: "XY191"
   rarity: Promo
   illustrator: Hajime Kusajima
+  type:
+    - Water
 image: https://images.pokemontcg.io/xyp/XY191_hires.png

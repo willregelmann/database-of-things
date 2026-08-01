@@ -6,4 +6,6 @@ attributes:
   number: "18/91"
   rarity: Common
   illustrator: OKACHEKE
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/sv4pt5/18_hires.png

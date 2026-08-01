@@ -6,4 +6,6 @@ attributes:
   number: "73/236"
   rarity: Common
   illustrator: otumami
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sm11/73_hires.png

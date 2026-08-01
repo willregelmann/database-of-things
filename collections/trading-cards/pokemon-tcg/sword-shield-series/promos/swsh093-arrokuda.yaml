@@ -6,4 +6,6 @@ attributes:
   number: "SWSH093"
   rarity: Promo
   illustrator: tetsuya koizumi
+  type:
+    - Water
 image: https://images.pokemontcg.io/swshp/SWSH093_hires.png

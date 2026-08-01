@@ -6,4 +6,6 @@ attributes:
   number: "105/189"
   rarity: Common
   illustrator: Mitsuhiro Arita
+  type:
+    - Metal
 image: https://images.pokemontcg.io/swsh10/105_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "9/162"
   rarity: Uncommon
   illustrator: matazo
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sv5/9_hires.png

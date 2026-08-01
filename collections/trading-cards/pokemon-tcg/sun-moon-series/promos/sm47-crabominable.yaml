@@ -6,4 +6,6 @@ attributes:
   number: "SM47"
   rarity: Promo
   illustrator: Mitsuhiro Arita
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/smp/SM47_hires.png

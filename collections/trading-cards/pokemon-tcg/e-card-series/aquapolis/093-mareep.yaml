@@ -6,4 +6,6 @@ attributes:
   number: "93/147"
   rarity: Common
   illustrator: Hizuki Misono
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ecard2/93_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "31/84"
   rarity: Double Rare
   illustrator: 5ban Graphics
+  type:
+    - Psychic
 image: https://images.scrydex.com/pokemon/me5-31/large

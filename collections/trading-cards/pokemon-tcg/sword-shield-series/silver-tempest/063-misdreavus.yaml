@@ -6,4 +6,6 @@ attributes:
   number: "63/195"
   rarity: Common
   illustrator: HYOGONOSUKE
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/63_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "SM182"
   rarity: Promo
   illustrator: tetsuya koizumi
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/smp/SM182_hires.png

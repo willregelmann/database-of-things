@@ -6,4 +6,6 @@ attributes:
   number: "58/264"
   rarity: Common
   illustrator: sowsow
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh8/58_hires.png

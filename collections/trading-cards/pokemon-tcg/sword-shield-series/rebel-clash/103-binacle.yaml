@@ -6,4 +6,6 @@ attributes:
   number: "103/192"
   rarity: Common
   illustrator: Saya Tsuruta
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/swsh2/103_hires.png

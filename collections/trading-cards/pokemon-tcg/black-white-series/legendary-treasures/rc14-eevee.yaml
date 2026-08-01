@@ -6,4 +6,6 @@ attributes:
   number: "RC14/RC25"
   rarity: Uncommon
   illustrator: kirisAki
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/bw11/RC14_hires.png

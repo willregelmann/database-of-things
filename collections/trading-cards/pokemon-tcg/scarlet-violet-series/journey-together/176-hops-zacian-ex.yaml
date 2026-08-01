@@ -6,4 +6,6 @@ attributes:
   number: "176/159"
   rarity: Ultra Rare
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sv9/176_hires.png

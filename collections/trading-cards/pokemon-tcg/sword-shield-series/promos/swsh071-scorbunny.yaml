@@ -6,4 +6,6 @@ attributes:
   number: "SWSH071"
   rarity: Promo
   illustrator: Akira Komayama
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swshp/SWSH071_hires.png

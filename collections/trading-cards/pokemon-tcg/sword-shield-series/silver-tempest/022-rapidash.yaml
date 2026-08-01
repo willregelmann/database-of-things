@@ -6,4 +6,6 @@ attributes:
   number: "22/195"
   rarity: Rare Holo
   illustrator: Megumi Higuchi
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh12/22_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "75/113"
   rarity: Common
   illustrator: Sachiko Adachi
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex11/75_hires.png

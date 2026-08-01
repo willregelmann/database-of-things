@@ -6,4 +6,6 @@ attributes:
   number: "1/20"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Dragon
 image: https://images.pokemontcg.io/dv1/1_hires.png

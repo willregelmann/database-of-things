@@ -6,4 +6,6 @@ attributes:
   number: "104"
   rarity: Promo
   illustrator: PLANETA Igarashi
+  type:
+    - Metal
 image: https://images.pokemontcg.io/svp/104_hires.png

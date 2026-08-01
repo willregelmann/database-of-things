@@ -6,4 +6,6 @@ attributes:
   number: "HGSS13"
   rarity: Promo
   illustrator: Midori Harada
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/hsp/HGSS13_hires.png

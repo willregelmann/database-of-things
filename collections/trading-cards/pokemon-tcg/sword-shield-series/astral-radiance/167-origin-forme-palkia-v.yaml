@@ -6,4 +6,6 @@ attributes:
   number: "167/189"
   rarity: Rare Ultra
   illustrator: Oswaldo KATO
+  type:
+    - Water
 image: https://images.pokemontcg.io/swsh10/167_hires.png

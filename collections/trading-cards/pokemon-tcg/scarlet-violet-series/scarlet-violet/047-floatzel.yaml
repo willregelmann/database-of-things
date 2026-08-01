@@ -6,4 +6,6 @@ attributes:
   number: "47/198"
   rarity: Uncommon
   illustrator: Gemi
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv1/47_hires.png

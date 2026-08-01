@@ -6,4 +6,6 @@ attributes:
   number: "25/53"
   rarity: Promo
   illustrator: Toshinao Aoki
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/basep/25_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "10/130"
   rarity: Rare Holo
   illustrator: Mikiko Takeda
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp1/10_hires.png

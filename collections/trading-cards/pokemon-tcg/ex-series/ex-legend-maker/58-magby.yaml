@@ -6,4 +6,6 @@ attributes:
   number: "58/92"
   rarity: Common
   illustrator: Yuka Morii
+  type:
+    - Fire
 image: https://images.pokemontcg.io/ex12/58_hires.png

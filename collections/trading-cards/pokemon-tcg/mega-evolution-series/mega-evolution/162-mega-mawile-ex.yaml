@@ -6,4 +6,6 @@ attributes:
   number: "162/132"
   rarity: Ultra Rare
   illustrator: aky CG Works
+  type:
+    - Metal
 image: https://images.pokemontcg.io/me1/162_hires.png

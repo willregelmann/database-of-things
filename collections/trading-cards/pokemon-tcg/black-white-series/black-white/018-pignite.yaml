@@ -6,4 +6,6 @@ attributes:
   number: "18/114"
   rarity: Uncommon
   illustrator: 5ban Graphics
+  type:
+    - Fire
 image: https://images.pokemontcg.io/bw1/18_hires.png

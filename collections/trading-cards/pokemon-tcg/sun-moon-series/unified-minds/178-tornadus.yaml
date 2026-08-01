@@ -6,4 +6,6 @@ attributes:
   number: "178/236"
   rarity: Uncommon
   illustrator: Anesaki Dynamic
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm11/178_hires.png

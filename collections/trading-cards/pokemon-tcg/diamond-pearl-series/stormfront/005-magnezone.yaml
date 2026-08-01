@@ -6,4 +6,6 @@ attributes:
   number: "5/100"
   rarity: Rare Holo
   illustrator: Masakazu Fukuda
+  type:
+    - Metal
 image: https://images.pokemontcg.io/dp7/5_hires.png

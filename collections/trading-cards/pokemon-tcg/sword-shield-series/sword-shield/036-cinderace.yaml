@@ -6,4 +6,6 @@ attributes:
   number: "36/202"
   rarity: Rare
   illustrator: Shin Nagasawa
+  type:
+    - Fire
 image: https://images.pokemontcg.io/swsh1/36_hires.png

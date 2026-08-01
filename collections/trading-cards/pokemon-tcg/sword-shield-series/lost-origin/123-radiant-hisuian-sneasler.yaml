@@ -6,4 +6,6 @@ attributes:
   number: "123/196"
   rarity: Radiant Rare
   illustrator: Akira Komayama
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swsh11/123_hires.png

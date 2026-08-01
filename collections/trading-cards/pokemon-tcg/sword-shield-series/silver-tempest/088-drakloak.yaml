@@ -6,4 +6,6 @@ attributes:
   number: "88/195"
   rarity: Uncommon
   illustrator: kurumitsu
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/swsh12/88_hires.png

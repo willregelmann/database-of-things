@@ -6,4 +6,6 @@ attributes:
   number: "47/123"
   rarity: Uncommon
   illustrator: Miki Tanaka
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/hgss1/47_hires.png

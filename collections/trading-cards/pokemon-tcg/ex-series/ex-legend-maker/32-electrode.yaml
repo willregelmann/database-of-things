@@ -6,4 +6,6 @@ attributes:
   number: "32/92"
   rarity: Uncommon
   illustrator: Midori Harada
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/ex12/32_hires.png

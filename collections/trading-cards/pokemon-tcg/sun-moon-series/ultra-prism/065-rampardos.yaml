@@ -6,4 +6,6 @@ attributes:
   number: "65/156"
   rarity: Rare Holo
   illustrator: Yoshinobu Saito
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/sm5/65_hires.png

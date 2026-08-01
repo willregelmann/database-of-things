@@ -6,4 +6,6 @@ attributes:
   number: "66/123"
   rarity: Uncommon
   illustrator: Kazuyuki Kano
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/dp2/66_hires.png

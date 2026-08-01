@@ -6,4 +6,6 @@ attributes:
   number: "SWSH207"
   rarity: Promo
   illustrator: Oswaldo KATO
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/swshp/SWSH207_hires.png

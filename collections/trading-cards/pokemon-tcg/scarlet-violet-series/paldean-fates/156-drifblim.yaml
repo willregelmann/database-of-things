@@ -6,4 +6,6 @@ attributes:
   number: "156/91"
   rarity: Shiny Rare
   illustrator: otumami
+  type:
+    - Psychic
 image: https://images.pokemontcg.io/sv4pt5/156_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "58/64"
   rarity: Common
   illustrator: Keiji Kinebuchi
+  type:
+    - Grass
 image: https://images.pokemontcg.io/base2/58_hires.png

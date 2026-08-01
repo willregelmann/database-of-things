@@ -6,4 +6,6 @@ attributes:
   number: "146/214"
   rarity: Uncommon
   illustrator: kawayoo
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/sm10/146_hires.png

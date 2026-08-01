@@ -6,4 +6,6 @@ attributes:
   number: "37/132"
   rarity: Uncommon
   illustrator: Ken Sugimori
+  type:
+    - Fire
 image: https://images.pokemontcg.io/gym1/37_hires.png

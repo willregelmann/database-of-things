@@ -6,4 +6,6 @@ attributes:
   number: "157/145"
   rarity: Rare Rainbow
   illustrator: 5ban Graphics
+  type:
+    - Metal
 image: https://images.pokemontcg.io/sm2/157_hires.png

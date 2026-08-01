@@ -6,4 +6,6 @@ attributes:
   number: "SV26/SV94"
   rarity: Rare Shiny
   illustrator: Masakazu Fukuda
+  type:
+    - Darkness
 image: https://images.pokemontcg.io/sma/SV26_hires.png

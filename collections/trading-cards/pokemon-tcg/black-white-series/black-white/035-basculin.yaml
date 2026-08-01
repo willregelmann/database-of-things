@@ -6,4 +6,6 @@ attributes:
   number: "35/114"
   rarity: Uncommon
   illustrator: Naoyo Kimura
+  type:
+    - Water
 image: https://images.pokemontcg.io/bw1/35_hires.png

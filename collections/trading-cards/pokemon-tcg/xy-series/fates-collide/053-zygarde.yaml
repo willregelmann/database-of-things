@@ -6,4 +6,6 @@ attributes:
   number: "53/124"
   rarity: Rare
   illustrator: 5ban Graphics
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/xy10/53_hires.png

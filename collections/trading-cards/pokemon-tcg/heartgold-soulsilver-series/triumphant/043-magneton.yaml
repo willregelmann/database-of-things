@@ -6,4 +6,6 @@ attributes:
   number: "43/102"
   rarity: Uncommon
   illustrator: Noriko Hotta
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/hgss4/43_hires.png

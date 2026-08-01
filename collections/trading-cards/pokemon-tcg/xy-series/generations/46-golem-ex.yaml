@@ -6,4 +6,6 @@ attributes:
   number: "46/83"
   rarity: Rare Holo ex
   illustrator: Toyste Beach
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/g1/46_hires.png

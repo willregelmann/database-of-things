@@ -6,4 +6,6 @@ attributes:
   number: "111/159"
   rarity: Common
   illustrator: Naoyo Kimura
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/swsh12pt5/111_hires.png

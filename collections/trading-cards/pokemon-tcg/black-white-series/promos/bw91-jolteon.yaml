@@ -6,4 +6,6 @@ attributes:
   number: "BW91"
   rarity: Promo
   illustrator: The Pokémon Company Art Team
+  type:
+    - Lightning
 image: https://images.pokemontcg.io/bwp/BW91_hires.png

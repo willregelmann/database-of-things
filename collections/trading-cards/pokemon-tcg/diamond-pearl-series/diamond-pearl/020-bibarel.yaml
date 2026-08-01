@@ -6,4 +6,6 @@ attributes:
   number: "20/130"
   rarity: Rare
   illustrator: Ken Sugimori
+  type:
+    - Colorless
 image: https://images.pokemontcg.io/dp1/20_hires.png

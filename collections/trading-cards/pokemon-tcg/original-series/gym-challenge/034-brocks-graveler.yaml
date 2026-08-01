@@ -6,4 +6,6 @@ attributes:
   number: "34/132"
   rarity: Uncommon
   illustrator: Atsuko Nishida
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/gym2/34_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "5/123"
   rarity: Rare Holo
   illustrator: Ken Sugimori
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/hgss1/5_hires.png

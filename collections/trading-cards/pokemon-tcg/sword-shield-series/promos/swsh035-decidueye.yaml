@@ -6,4 +6,6 @@ attributes:
   number: "SWSH035"
   rarity: Promo
   illustrator: Souichirou Gunjima
+  type:
+    - Grass
 image: https://images.pokemontcg.io/swshp/SWSH035_hires.png

@@ -6,4 +6,6 @@ attributes:
   number: "111/113"
   rarity: Rare Holo ☆
   illustrator: Masakazu Fukuda
+  type:
+    - Fighting
 image: https://images.pokemontcg.io/ex11/111_hires.png

@@ -6,4 +6,7 @@ attributes:
   number: "24/95"
   rarity: Uncommon
   illustrator: K. Utsunomiya
+  type:
+    - Grass
+    - Darkness
 image: https://images.pokemontcg.io/ex4/24_hires.png

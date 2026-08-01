@@ -6,4 +6,6 @@ attributes:
   number: "40/142"
   rarity: Uncommon
   illustrator: Ryuta Fuse
+  type:
+    - Water
 image: https://images.pokemontcg.io/sv7/40_hires.png

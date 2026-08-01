@@ -6,4 +6,6 @@ attributes:
   number: "5/68"
   rarity: Uncommon
   illustrator: Hasuno
+  type:
+    - Grass
 image: https://images.pokemontcg.io/sm115/5_hires.png
