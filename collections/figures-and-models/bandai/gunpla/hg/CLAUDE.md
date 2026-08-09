@@ -15,16 +15,17 @@ hg/
   hguc/    # High Grade Universal Century — 330 kits, the original/largest sub-line
   hggs/    # High Grade Gundam SEED (original 2002-2010s era) — 84 kits
   hgce/    # High Grade Cosmic Era (newer current-era SEED prefix) — 55 kits
+  hg00/    # High Grade Gundam 00 — 74 kits
 ```
 
 Confirmed but **not yet populated** (raw wiki page count before redirect
 dedup — true unique counts will be lower, HGUC's 546→330, HGGS's 149→84,
-and HGCE's 101→56 are rough dedup-ratio guides): HG00/Gundam 00 (138),
-HGGTO/08th MS Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans
-(120), HGAGE/Gundam AGE (80), HGBF/Build Fighters (65), HGAC/After
-Colony-Wing (36), HGBD/Build Divers (30), HGFC/Future Century-G Gundam
-(26), plus ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB, HGCC,
-HGM, HGGU) at 1-13 raw pages each.
+HGCE's 101→56, and HG00's 138→75 are rough dedup-ratio guides): HGGTO/08th
+MS Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans (120), HGAGE/
+Gundam AGE (80), HGBF/Build Fighters (65), HGAC/After Colony-Wing (36),
+HGBD/Build Divers (30), HGFC/Future Century-G Gundam (26), plus ~9 smaller
+ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB, HGCC, HGM, HGGU) at 1-13 raw
+pages each.
 
 **HGGS and HGCE are two separate sub-lines despite both covering the
 Cosmic Era/SEED timeline** — confirmed by checking their category members
