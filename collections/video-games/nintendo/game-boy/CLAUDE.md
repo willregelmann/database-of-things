@@ -1,5 +1,10 @@
 # Game Boy — curation hints
 
+**Status: all 499 North American-released licensed Game Boy titles are
+catalogued**, per Wikipedia's "List of Game Boy games" NA column (see
+Sourcing below). Japan- and PAL-exclusive titles, unlicensed releases, and
+Game Boy Color games are out of scope for this directory — see Scope.
+
 ## Scope
 
 Original Game Boy (DMG) releases only. **Game Boy Color is a separate
@@ -115,8 +120,12 @@ resolved in the pipeline, not just noted for next time):**
   photo (5 of the 25-game pilot batch landed here as genuine, documented
   gaps — not a parsing bug).
 
-**Pilot batch (25 games, alphabetically first): individual sourcing
-conflicts, filed with Wikipedia's value per the policy above —**
+**At full-library scale (499 games total), roughly a quarter of games had
+some Wikipedia/Fandom disagreement on developer, publisher, or exact
+release date.** All filed with Wikipedia's value per the policy above,
+without exception — that rate is too high to document individually (it
+would bury the guidance in this file under noise), so a handful of
+representative examples are kept below instead of an exhaustive log:
 
 - *Alleyway*: NA release date. Wikipedia: August 1, 1989. Fandom: August 11,
   1989. Filed as `1989-08-01`.
@@ -133,6 +142,58 @@ conflicts, filed with Wikipedia's value per the policy above —**
 - *Arcade Classic No. 3: Galaga / Galaxian*: developer. Wikipedia: Namco.
   Fandom: TOSE (with Namco credited only as the Japan-region *publisher*,
   not developer). Filed as Namco.
+- **Most publisher disagreements turned out to be the two sources using
+  different corporate granularity for the same real company, not an actual
+  factual dispute** — e.g. "Malibu Games" (Wikipedia) vs. "Malibu
+  Interactive"/"Black Pearl Software" (Fandom, an imprint/parent of the
+  same publisher), or "Asmik Corporation of America" vs. "Asmik Ace" (US
+  arm vs. Japanese parent). Filed with Wikipedia's name either way per
+  policy; worth knowing before assuming every flagged conflict reflects
+  real uncertainty about who actually published a game.
+- A few disagreements looked like genuinely different companies with no
+  obvious naming-variant explanation (*Chase H.Q.*: Bits Studios vs. Taito;
+  *Crystal Quest*: NovaLogic vs. Data East) — these are real, unresolved
+  conflicts between the two sources, not corporate-name noise, and a third
+  source would be needed to actually settle them.
+
+**Two more small sourcing bugs found and fixed scaling from the 25-game
+pilot to the full library:**
+
+- **A wiki-authored filename typo can defeat a case-sensitive `File:`
+  prefix check** — one infobox's `image =` field read `FIle:Hook (GB)
+  (NA).jpg` (capital I), which a naive `if not filename.startswith('File:')`
+  check doesn't catch, producing a doubled `File:FIle:...` lookup that
+  fails. Strip any case-insensitive `file:` prefix before re-adding it
+  canonically.
+- **An infobox's stated filename extension doesn't always match the
+  actually-uploaded file** — `NBA Jam`'s infobox named `NBA Jam (GB)
+  (NA).png`, but the real file on the wiki is a `.jpg`. Caught by the
+  `imageinfo` lookup failing, resolved by searching the wiki directly for
+  the game's file rather than assuming the infobox text is authoritative
+  about its own asset's extension.
+- **A superscript or accented Unicode character in a title can be silently
+  dropped by a naive `[^a-z0-9]` slugify strip** — the pilot batch's own
+  `Alien³` produced `alien.yaml` instead of `alien-3.yaml` this way (fixed
+  by hand at the time). Fixed properly for the full library via
+  `unicodedata.normalize('NFKD', s)` + dropping combining marks before the
+  ASCII strip, which correctly folds `é→e`, `³→3`, `ō→o`, etc. instead of
+  eating the character entirely.
+
+**Franchise tagging at full-library scale**: matched titles against
+`tags/franchises/` by keyword, reusing existing tags where they already
+existed (`batman`, `mortal-kombat`, `pac-man`, `power-rangers`,
+`spider-man`, `star-wars`, `street-fighter`, `contra`, plus the pilot's own
+`alien`/`predator`/`the-addams-family`/`aladdin`/`animaniacs`/
+`adventure-island`/`rocky-and-bullwinkle`), and creating ~110 new ones for
+recognizable licensed IP and flagship game franchises not yet tagged
+anywhere in the catalog (movie/TV tie-ins, wrestling promotions, and
+multi-entry game series like *Mega Man*, *Kirby*, *Tetris*, *Castlevania*).
+**Deliberately left untagged**: real-world sports leagues/athletes (Madden,
+FIFA, NHL, PGA Tour, NBA Jam, Tecmo Bowl — not fictional IP in the
+collectible-franchise sense), and Nintendo's own "Arcade Classic"-style
+compilations of public-domain-adjacent classic arcade games (repackaging,
+not itself a franchise being collected — same call as the pilot's
+untagged Arcade Classic No. 1-4).
 
 ## Common pitfalls
 
