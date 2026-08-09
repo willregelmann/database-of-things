@@ -84,6 +84,29 @@ drops a third of the line. Fields worth reading: `Lineup no.`, `Scale`,
 brace matching rather than a non-greedy regex — the infobox contains nested
 templates and links, and a lazy `.+?}}` truncates it.
 
+## Images
+
+283 of 285 kits carry `image`, backfilled from the same Gunpla Wiki
+infoboxes as everything else here — resolved via the `imageinfo` API
+endpoint and normalized for the space/underscore inconsistency documented
+in [`../rg/CLAUDE.md`](../rg/CLAUDE.md). 7 kits had no infobox `image` at
+all but did have a "Stock Photos" gallery further down the page; used the
+first stock photo as a documented fallback rather than leaving them
+imageless, same as [`../eg/CLAUDE.md`](../eg/CLAUDE.md)'s American Type
+kit. **Two kits have no image anywhere on their page and stay
+imageless**: `Bazooka for Aile Strike Gundam` (empty gallery entirely) and
+`RX-78-2 Gundam (10th Anniversary Model)` (both Packaging and Stock
+Photos galleries present but empty).
+
+**One real kit is still missing from this directory, found while
+resolving images, not yet filed**: `MG MBF-02+EW454F Strike Rouge +
+Ootori (Ver. RM)` (Lineup no. 173) exists on the wiki with real data but
+uses a fourth infobox template spelling this repo hasn't accounted for —
+`{{Template:Plamo Infobox|...}}`, the literal `Template:` namespace
+prefix inside the braces, distinct from the `Plamo Infobox` /
+`Plamo_Infobox` / `Gunpla_Infobox` variants already documented above.
+Worth filing as its own follow-up.
+
 ## Not yet recorded
 
 `Price` and `JAN/ISBN` are available on most kit pages and aren't captured —
