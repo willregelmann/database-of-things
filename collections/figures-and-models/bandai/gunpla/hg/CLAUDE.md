@@ -15,16 +15,20 @@ hg/
   hguc/    # High Grade Universal Century — 330 kits, the original/largest sub-line
   hggs/    # High Grade Gundam SEED (original 2002-2010s era) — 84 kits
   hgce/    # High Grade Cosmic Era (newer current-era SEED prefix) — 55 kits
+  hg00/    # High Grade Gundam 00 — 74 kits
+  hggto/   # High Grade Gundam The Origin (08th MS Team-Thunderbolt era) — 62 kits
+  hgibo/   # High Grade Iron-Blooded Orphans — 63 kits
+  hgage/   # High Grade Gundam AGE — 41 kits
+  hgbf/    # High Grade Build Fighters — 38 kits
+  hgac/    # High Grade After Colony (Gundam Wing) — 21 kits
+  hgbd/    # High Grade Build Divers — 20 kits
+  hgfc/    # High Grade Future Century (G Gundam) — 11 kits
 ```
 
 Confirmed but **not yet populated** (raw wiki page count before redirect
-dedup — true unique counts will be lower, HGUC's 546→330, HGGS's 149→84,
-and HGCE's 101→56 are rough dedup-ratio guides): HG00/Gundam 00 (138),
-HGGTO/08th MS Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans
-(120), HGAGE/Gundam AGE (80), HGBF/Build Fighters (65), HGAC/After
-Colony-Wing (36), HGBD/Build Divers (30), HGFC/Future Century-G Gundam
-(26), plus ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB, HGCC,
-HGM, HGGU) at 1-13 raw pages each.
+dedup — true unique counts will be lower per sub-line's own dedup ratio,
+generally 45-65%): ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB,
+HGCC, HGM, HGGU) at 1-13 raw pages each.
 
 **HGGS and HGCE are two separate sub-lines despite both covering the
 Cosmic Era/SEED timeline** — confirmed by checking their category members
@@ -86,7 +90,28 @@ outright typos/copy-paste errors** — HGGS had one kit labeled `1/44`
 Era unit (a copy-pasted infobox, not a real cross-grade kit) — see
 `hggs/CLAUDE.md`. Skim the scale/classification distribution for
 obviously-wrong outliers before trusting a bulk field extraction
-wholesale.
+wholesale. **The `Release Date` field itself can carry the same kind of
+typo** — HGBD's `GNX-803OG Ogre GN-X` infobox said `May 19, 2015`, flatly
+contradicted by the article's own opening prose ("released in 2018") and
+by the line not existing before 2018 at all; cross-check an outlier date
+against the surrounding text, not just the field.
+
+**A second wiki-image placeholder filename exists**:
+`Gunpla-Wiki-No-Image-Available.jpg` (HGBD), a sibling to the plain
+`No-Image-Available.jpg` seen on HGUC — both are literal placeholder
+strings the wiki uses in place of a real filename, not real files. Treat
+any `image=` value containing "No-Image-Available" as empty and fall back
+to the page's Stock Photos gallery.
+
+**A sub-line can have unusually heavy redirect dedup from alternate-title
+spellings, not just `/Variants` pages** — HGFC's 26 raw candidates
+resolved to only 11 real kits (58% dedup, the heaviest of any sub-line so
+far), almost entirely from in-fiction alias titles (a mobile suit's
+"awakened"/upgraded-mode name redirecting to its base kit page, e.g.
+`Burning Gundam` → `GF13-017NJII God Gundam`) and a straight
+spelling-variant pair (`Nobel`/`Noble` Gundam). Always resolve with
+`redirects=1` and trust the unique-target count, not the raw count, same
+lesson as every prior sub-line — just with a wider gap here.
 
 Every other convention (flat directory per sub-line, `<slugified-name>.yaml`
 no number prefix, no `variants` sub-entities, unreleased/`{{Canceled}}`
