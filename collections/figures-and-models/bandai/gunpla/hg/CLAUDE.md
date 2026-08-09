@@ -14,16 +14,17 @@ hg/
   _collection.yaml
   hguc/    # High Grade Universal Century — 330 kits, the original/largest sub-line
   hggs/    # High Grade Gundam SEED (original 2002-2010s era) — 84 kits
+  hgce/    # High Grade Cosmic Era (newer current-era SEED prefix) — 55 kits
 ```
 
 Confirmed but **not yet populated** (raw wiki page count before redirect
-dedup — true unique counts will be lower, HGUC's 546→330 and HGGS's
-149→84 are rough dedup-ratio guides): HG00/Gundam 00 (138), HGGTO/08th MS
-Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans (120), HGCE/
-Cosmic Era current-era (101), HGAGE/Gundam AGE (80), HGBF/Build Fighters
-(65), HGAC/After Colony-Wing (36), HGBD/Build Divers (30), HGFC/Future
-Century-G Gundam (26), plus ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC,
-HGRG, HGGB, HGCC, HGM, HGGU) at 1-13 raw pages each.
+dedup — true unique counts will be lower, HGUC's 546→330, HGGS's 149→84,
+and HGCE's 101→56 are rough dedup-ratio guides): HG00/Gundam 00 (138),
+HGGTO/08th MS Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans
+(120), HGAGE/Gundam AGE (80), HGBF/Build Fighters (65), HGAC/After
+Colony-Wing (36), HGBD/Build Divers (30), HGFC/Future Century-G Gundam
+(26), plus ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB, HGCC,
+HGM, HGGU) at 1-13 raw pages each.
 
 **HGGS and HGCE are two separate sub-lines despite both covering the
 Cosmic Era/SEED timeline** — confirmed by checking their category members
@@ -67,6 +68,16 @@ silently extracted the literal word "thumb" instead of the filename.
 Worth a sanity check (does the resolved "filename" look like a real
 image filename?) rather than assuming every infobox follows the plain
 `image = Some-File.jpg` format.
+
+**Unreleased-kit markers vary per sub-line — grep for more than one
+pattern.** On top of `{{Canceled}}`/`{{Template:Canceled}}` (see
+[`../pg/CLAUDE.md`](../pg/CLAUDE.md)) and "Under Consideration" (see
+[`../rg/CLAUDE.md`](../rg/CLAUDE.md)), HGCE turned up a third:
+`{{PollsDoesNotGuarantee}}`, marking a fan-census poll result that was
+never actually produced. None of these pages have a usable infobox, which
+is what naturally excludes them from a parse pass keyed on infobox
+presence — but don't assume "has no infobox" is itself sufficient
+evidence something's unreleased without checking why it's missing one.
 
 **A sub-line's own infobox `Scale` and `Classification` fields can have
 outright typos/copy-paste errors** — HGGS had one kit labeled `1/44`
