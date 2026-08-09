@@ -6,7 +6,7 @@ confirmed via research before filing anything (see the top-level
 [`../CLAUDE.md`](../CLAUDE.md)'s warning about this). Full-scope research
 (2026-08-08) found roughly 20 real sub-lines totaling ~1,480 raw wiki pages
 — by far the largest grade in the Gunpla family, bigger than every other
-grade combined. Populated so far:
+grade combined. **All confirmed sub-lines are now populated:**
 
 ```
 hg/
@@ -30,17 +30,30 @@ hg/
   hgrg/    # High Grade Reconguista in G — 4 kits
   hggb/    # High Grade Gunpla Builders (Build Fighters precursor) — 3 kits
   hgcc/    # High Grade Correct Century (Turn A Gundam) — 1 kit
+  hgm/     # High Grade Mechanics (0083 large mobile armors, 1/550 scale) — 1 kit
+  hggu/    # High Grade Gundam Wing Dual Story G-Unit — 1 kit
 ```
 
-Confirmed but **not yet populated** (raw wiki page count before redirect
-dedup): HGM/Neue Ziel (1), HGGU/Gundam Geminass (1).
+~1,181 kits total. If a genuinely new HG sub-line surfaces later (a new
+timeline tie-in, a newly announced prefix), research its scope the same
+way documented below before scaffolding it — this list isn't necessarily
+exhaustive forever, just exhaustive as of the 2026-08-08 research pass.
 
 **HGGS and HGCE are two separate sub-lines despite both covering the
 Cosmic Era/SEED timeline** — confirmed by checking their category members
 directly. HGGS is the original 2002-2010s SEED-era HG line; HGCE is a
 distinct, newer prefix used for current-era SEED kits (SEED Freedom-tie-in
 releases, sports-team collabs, etc.). Don't merge them into one directory
-just because they cover the same in-universe timeline.
+just because they cover the same in-universe timeline. Likewise, HGAC
+(After Colony/Wing TV series) and HGGU (the Wing "G-Unit" manga spin-off)
+are two separate Gundam Wing-adjacent sub-lines with independent
+numbering, not one.
+
+**Not every HG sub-line uses the grade's standard 1/144 scale** — HGM
+("High Grade Mechanics") is a distinct sub-line for oversized mobile
+armors from Mobile Suit Gundam 0083, built at 1/550 to keep the kit a
+manageable size. Verify scale per kit/sub-line rather than assuming
+1/144, same rule as [`../../CLAUDE.md`](../../CLAUDE.md).
 
 **A kit's `Classification` field can list a second grade/sub-line it's
 also nominally "part of the lineup" of, without actually being filed
@@ -171,6 +184,15 @@ sitting in the unrelated `Need paint? =` field instead — recovered by
 reading the misplaced field. Skim for obviously-wrong outliers, check
 adjacent fields for a misplaced value, and cross-check against
 surrounding prose before trusting a bulk field extraction wholesale.
+
+**When reusing a prior sub-line's scripts by prefix substitution, verify
+the string-slice offsets got updated too** — copying `hgcc/build_draft.py`
+to `hgm/` via a blind text substitution (`HGCC`→`HGM`) left a stale
+`n[5:]` slice sized for the 5-character `"HGCC "` prefix instead of the
+4-character `"HGM "`, silently truncating the first real character off
+every kit name until caught by eyeballing the draft output. Always
+re-check a copied script's hardcoded lengths/offsets against the new
+prefix's actual length, not just its text.
 
 Every other convention (flat directory per sub-line, `<slugified-name>.yaml`
 no number prefix, no `variants` sub-entities, unreleased/`{{Canceled}}`
