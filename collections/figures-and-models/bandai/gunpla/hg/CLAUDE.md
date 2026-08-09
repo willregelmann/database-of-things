@@ -15,16 +15,24 @@ hg/
   hguc/    # High Grade Universal Century — 330 kits, the original/largest sub-line
   hggs/    # High Grade Gundam SEED (original 2002-2010s era) — 84 kits
   hgce/    # High Grade Cosmic Era (newer current-era SEED prefix) — 55 kits
+  hg00/    # High Grade Gundam 00 — 74 kits
+  hggto/   # High Grade Gundam The Origin (08th MS Team-Thunderbolt era) — 62 kits
+  hgibo/   # High Grade Iron-Blooded Orphans — 63 kits
+  hgage/   # High Grade Gundam AGE — 41 kits
+  hgbf/    # High Grade Build Fighters — 38 kits
+  hgac/    # High Grade After Colony (Gundam Wing) — 21 kits
+  hgbd/    # High Grade Build Divers — 20 kits
+  hgfc/    # High Grade Future Century (G Gundam) — 11 kits
+  hgiba/   # High Grade Iron-Blooded Arms (IBO add-on weapon sets) — 11 kits
+  hggt/    # High Grade Gundam Thunderbolt — 6 kits
+  hgaw/    # High Grade After War (Gundam X) — 7 kits
 ```
 
 Confirmed but **not yet populated** (raw wiki page count before redirect
-dedup — true unique counts will be lower, HGUC's 546→330, HGGS's 149→84,
-and HGCE's 101→56 are rough dedup-ratio guides): HG00/Gundam 00 (138),
-HGGTO/08th MS Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans
-(120), HGAGE/Gundam AGE (80), HGBF/Build Fighters (65), HGAC/After
-Colony-Wing (36), HGBD/Build Divers (30), HGFC/Future Century-G Gundam
-(26), plus ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB, HGCC,
-HGM, HGGU) at 1-13 raw pages each.
+dedup — true unique counts will be lower per sub-line's own dedup ratio):
+HGBC/Build Custom weapon & accessory sets (11), HGRG/Gundam Reconguista in
+G (7), HGGB/G Gundam Beginning-Forever movie (5), HGCC/Turn A Gundam (3),
+HGM/Neue Ziel (1), HGGU/Gundam Geminass (1).
 
 **HGGS and HGCE are two separate sub-lines despite both covering the
 Cosmic Era/SEED timeline** — confirmed by checking their category members
@@ -32,6 +40,15 @@ directly. HGGS is the original 2002-2010s SEED-era HG line; HGCE is a
 distinct, newer prefix used for current-era SEED kits (SEED Freedom-tie-in
 releases, sports-team collabs, etc.). Don't merge them into one directory
 just because they cover the same in-universe timeline.
+
+**A short prefix can be an add-on weapon/accessory-set sub-line, not
+mobile-suit kits** — HGI-BA ("Iron-Blooded Arms") is a distinct sub-line
+from HGI-BO's actual mobile-suit kits, bundling weapon runners with a
+small companion figure. Still filed the same way as any other sub-line
+(own directory, own numbering) — it's sold as its own boxed, JAN'd,
+HG-classified kit, not a component of some other kit. Don't assume a
+sub-line is out of scope just because its contents aren't a full mobile
+suit; check the `Classification` field and box-art description.
 
 ## Sourcing: verify the wiki category name, it's rarely the short prefix
 
@@ -42,7 +59,9 @@ method (same as every other grade) is the reliable way to enumerate a
 sub-line's real kit pages by the prefix that actually appears in kit
 titles — **always resolve with `redirects=1`** before trusting a raw
 count; HGUC's 546 raw pages resolved to 330 real unique kits, HGGS's 149
-resolved to 84.
+resolved to 84. A sub-line's redirect dedup ratio varies widely — HGFC's
+26 raw resolved to only 11 real kits (58% dedup, mostly from in-fiction
+alias titles and spelling-variant pairs, not `/Variants` pages).
 
 **MediaWiki's anonymous API caps `titles=` at 50 values per call** — chunk
 at 20 (same as every other grade's fetch script) rather than requesting
@@ -60,6 +79,16 @@ out to be either duplicates already captured or genuine redlinks (kits
 referenced but with no page written yet), not real gaps. Not every
 sub-line has these — HGGS had none.
 
+**Not every `/`-subpage is a `/Variants` list page, though — some are real
+kits filed as subpages of their base kit's title.** HGGT had two
+(`<base>/ONA Ver.`, `<base>/Bandit Flower Ver.`), each with a full
+infobox, own `Release Date`, and own `image` — genuine distinct releases,
+not navigational pages. The discriminator is always infobox presence, not
+the `/` in the title. Renamed these to a parenthetical form for the `name`
+field (matching every other bracketed-variant naming in this project)
+since the wiki's own parenthetical alternate title for the same page was
+just a redirect alias, not a separate missing kit.
+
 **A malformed infobox `image =` value can be a full `[[File:...|thumb]]`
 wikilink instead of a bare filename** — one HGUC kit
 (`RX-78-3 Gundam + MS-09RS Rick Dom`) had this, and the standard
@@ -68,6 +97,19 @@ silently extracted the literal word "thumb" instead of the filename.
 Worth a sanity check (does the resolved "filename" look like a real
 image filename?) rather than assuming every infobox follows the plain
 `image = Some-File.jpg` format.
+
+**A second wiki-image placeholder filename exists**:
+`Gunpla-Wiki-No-Image-Available.jpg` (HGBD), a sibling to the plain
+`No-Image-Available.jpg` seen on HGUC — both are literal placeholder
+strings the wiki uses in place of a real filename, not real files. Treat
+any `image=` value containing "No-Image-Available" as empty and fall back
+to the page's Stock Photos gallery.
+
+**An infobox `image` filename can carry the wrong sub-line prefix without
+being wrong** — HGAW's `GX-9900-DV Gundam X Divider` uses a file named
+`HGUC-Gundam-X-Divider-box.jpg`, just a wiki upload-naming inconsistency;
+the page's own title and category are unambiguously HGAW. Trust the
+page's title/category over an inconsistent asset filename.
 
 **Unreleased-kit markers vary per sub-line — grep for more than one
 pattern.** On top of `{{Canceled}}`/`{{Template:Canceled}}` (see
@@ -79,14 +121,30 @@ is what naturally excludes them from a parse pass keyed on infobox
 presence — but don't assume "has no infobox" is itself sufficient
 evidence something's unreleased without checking why it's missing one.
 
-**A sub-line's own infobox `Scale` and `Classification` fields can have
-outright typos/copy-paste errors** — HGGS had one kit labeled `1/44`
-(should be `1/144`, no such Gunpla scale exists) and another labeled
-`Classification = High Grade Universal Century` despite being a Cosmic
-Era unit (a copy-pasted infobox, not a real cross-grade kit) — see
-`hggs/CLAUDE.md`. Skim the scale/classification distribution for
-obviously-wrong outliers before trusting a bulk field extraction
-wholesale.
+**A bare keyword hit for "unreleased"/"canceled" is very often a false
+positive — always verify against the page's own infobox, never trust the
+keyword alone.** Recurred on PG, HG00, HGAC, and HGFC: the match was
+boilerplate Variants-section prose about a *different*, unrelated kit
+(often a different grade entirely), not a marker on the page in question.
+
+**A sub-line's own infobox `Scale`, `Classification`, and `Release Date`
+fields can have outright typos/copy-paste errors** — HGGS had one kit
+labeled `1/44` (should be `1/144`, no such Gunpla scale exists) and
+another labeled `Classification = High Grade Universal Century` despite
+being a Cosmic Era unit (a copy-pasted infobox, not a real cross-grade
+kit) — see `hggs/CLAUDE.md`. HGBD's `GNX-803OG Ogre GN-X` infobox said
+`Release Date = May 19, 2015`, flatly contradicted by the article's own
+opening prose ("released in 2018") and by the line not existing before
+2018 at all — corrected by hand. **HGI-BA's `Mobile Suit Option Set 7`
+had an entire infobox (lineup no., date, price, JAN) copy-pasted
+byte-for-byte from a sibling kit's page**, despite the two having
+distinct box art and completely different included parts — when a whole
+infobox looks suspiciously identical to a different kit's, don't trust
+any of its fields; correct what surrounding context supports (title, box
+art filename, numbering sequence) and leave the rest unset rather than
+propagate values known to be wrong. Skim for obviously-wrong outliers and
+cross-check against surrounding prose/context before trusting a bulk
+field extraction wholesale.
 
 Every other convention (flat directory per sub-line, `<slugified-name>.yaml`
 no number prefix, no `variants` sub-entities, unreleased/`{{Canceled}}`
