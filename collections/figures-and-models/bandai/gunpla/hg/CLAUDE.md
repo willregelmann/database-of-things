@@ -15,16 +15,24 @@ hg/
   hguc/    # High Grade Universal Century — 330 kits, the original/largest sub-line
   hggs/    # High Grade Gundam SEED (original 2002-2010s era) — 84 kits
   hgce/    # High Grade Cosmic Era (newer current-era SEED prefix) — 55 kits
+  hg00/    # High Grade Gundam 00 — 74 kits
+  hggto/   # High Grade Gundam The Origin — 62 kits
 ```
 
 Confirmed but **not yet populated** (raw wiki page count before redirect
 dedup — true unique counts will be lower, HGUC's 546→330, HGGS's 149→84,
-and HGCE's 101→56 are rough dedup-ratio guides): HG00/Gundam 00 (138),
-HGGTO/08th MS Team-Thunderbolt era (124), HGI-BO/Iron-Blooded Orphans
-(120), HGAGE/Gundam AGE (80), HGBF/Build Fighters (65), HGAC/After
-Colony-Wing (36), HGBD/Build Divers (30), HGFC/Future Century-G Gundam
-(26), plus ~9 smaller ones (HGGT, HGAW, HGI-BA, HGBC, HGRG, HGGB, HGCC,
-HGM, HGGU) at 1-13 raw pages each.
+HGCE's 101→56, HG00's 138→75, and HGGTO's 124→64 are rough dedup-ratio
+guides): HGI-BO/Iron-Blooded Orphans (120), HGAGE/Gundam AGE (80), HGBF/
+Build Fighters (65), HGAC/After Colony-Wing (36), HGBD/Build Divers (30),
+HGFC/Future Century-G Gundam (26), plus ~9 smaller ones (HGGT, HGAW,
+HGI-BA, HGBC, HGRG, HGGB, HGCC, HGM, HGGU) at 1-13 raw pages each.
+
+**A prefix's own letters don't reliably tell you what it stands for —
+verify via the infobox `Classification` field.** HGGTO's raw category
+size suggested "08th MS Team"/"Thunderbolt" era at first glance; its
+kits' own `Classification = High Grade Gundam The Origin` field showed
+it's actually the *Mobile Suit Gundam: The Origin* prequel line. Don't
+guess a sub-line's real scope from its prefix alone.
 
 **HGGS and HGCE are two separate sub-lines despite both covering the
 Cosmic Era/SEED timeline** — confirmed by checking their category members
@@ -41,8 +49,7 @@ categorizes by spelled-out name (`Category:High Grade Universal Century`,
 method (same as every other grade) is the reliable way to enumerate a
 sub-line's real kit pages by the prefix that actually appears in kit
 titles — **always resolve with `redirects=1`** before trusting a raw
-count; HGUC's 546 raw pages resolved to 330 real unique kits, HGGS's 149
-resolved to 84.
+count.
 
 **MediaWiki's anonymous API caps `titles=` at 50 values per call** — chunk
 at 20 (same as every other grade's fetch script) rather than requesting
@@ -54,11 +61,10 @@ chunking silently returns a `toomanyvalues` error instead of data.
 Mode)/Variants`) is a list page linking to sibling releases, not a
 product itself; it resolves as a "real" page under `redirects=1` but has
 no infobox and must be excluded from the item set. Also a good place to
-cross-reference for kits missing from the main `allpages` sweep — HGUC's
-did surface 25 additional candidate titles this way, though all turned
-out to be either duplicates already captured or genuine redlinks (kits
-referenced but with no page written yet), not real gaps. Not every
-sub-line has these — HGGS had none.
+cross-reference for kits missing from the main `allpages` sweep — worth
+checking every time, though it's often empty (HGGS/HG00 had none, HGGTO's
+2 surfaced no new kits, only HGUC's actually found anything and even
+those turned out to be duplicates/redlinks already known).
 
 **A malformed infobox `image =` value can be a full `[[File:...|thumb]]`
 wikilink instead of a bare filename** — one HGUC kit
@@ -70,14 +76,16 @@ image filename?) rather than assuming every infobox follows the plain
 `image = Some-File.jpg` format.
 
 **Unreleased-kit markers vary per sub-line — grep for more than one
-pattern.** On top of `{{Canceled}}`/`{{Template:Canceled}}` (see
-[`../pg/CLAUDE.md`](../pg/CLAUDE.md)) and "Under Consideration" (see
-[`../rg/CLAUDE.md`](../rg/CLAUDE.md)), HGCE turned up a third:
-`{{PollsDoesNotGuarantee}}`, marking a fan-census poll result that was
-never actually produced. None of these pages have a usable infobox, which
-is what naturally excludes them from a parse pass keyed on infobox
-presence — but don't assume "has no infobox" is itself sufficient
-evidence something's unreleased without checking why it's missing one.
+pattern, and always confirm the page's OWN template rather than trusting
+a bare keyword hit.** Three known so far: `{{Canceled}}`/
+`{{Template:Canceled}}` (see [`../pg/CLAUDE.md`](../pg/CLAUDE.md)),
+"Under Consideration" (see [`../rg/CLAUDE.md`](../rg/CLAUDE.md)), and
+`{{PollsDoesNotGuarantee}}` (HGCE — a fan-census poll result never
+produced). A bare "canceled"/"unreleased" keyword hit is often just
+boilerplate "Variants" section text about a *different*, sibling kit
+being canceled (HG00 had 7 of these false positives against 1 real one)
+— check for the page's own template, not just a keyword match anywhere
+on the page.
 
 **A sub-line's own infobox `Scale` and `Classification` fields can have
 outright typos/copy-paste errors** — HGGS had one kit labeled `1/44`
@@ -89,8 +97,7 @@ obviously-wrong outliers before trusting a bulk field extraction
 wholesale.
 
 Every other convention (flat directory per sub-line, `<slugified-name>.yaml`
-no number prefix, no `variants` sub-entities, unreleased/`{{Canceled}}`
-kit checks) follows [`../rg/CLAUDE.md`](../rg/CLAUDE.md),
-[`../eg/CLAUDE.md`](../eg/CLAUDE.md), [`../pg/CLAUDE.md`](../pg/CLAUDE.md),
-and [`../sd/CLAUDE.md`](../sd/CLAUDE.md) — see each sub-line's own
-`CLAUDE.md` for its specific numbers and quirks.
+no number prefix, no `variants` sub-entities) follows
+[`../rg/CLAUDE.md`](../rg/CLAUDE.md), [`../eg/CLAUDE.md`](../eg/CLAUDE.md),
+[`../pg/CLAUDE.md`](../pg/CLAUDE.md), and [`../sd/CLAUDE.md`](../sd/CLAUDE.md)
+— see each sub-line's own `CLAUDE.md` for its specific numbers and quirks.
