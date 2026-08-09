@@ -62,8 +62,8 @@ reliably:
    (`nintendo.fandom.com`), same MediaWiki-API access pattern used for
    Gunpla Wiki elsewhere in this repo (raw `api.php`, browser User-Agent, no
    login needed — rendered pages 402 but the API doesn't). Gives an
-   independent developer/publisher/date check plus `genre` and box art (no
-   equivalent on Wikipedia's table). Verified against **date/dev/pub
+   independent developer/publisher/date check plus box art (no equivalent on
+   Wikipedia's table). Verified against **date/dev/pub
    conflict-resolution policy**: Wikipedia's value wins on disagreement (it
    already read date+publisher together per-region, which is the safer
    read); a genuine conflict still gets the item filed with Wikipedia's
