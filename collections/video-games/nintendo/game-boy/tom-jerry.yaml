@@ -1,0 +1,10 @@
+id: 17f0fad2-e182-43d6-a487-619b89158dcf
+name: "Tom & Jerry"
+type: game
+date: "1992-10"
+tags:
+  - 8ddf3fab-e58b-429a-b1e7-99cf6bf557bd
+attributes:
+  developer: Beam Software
+  publisher: Hi Tech Expressions
+image: https://static.wikia.nocookie.net/nintendo/images/e/ea/Tom_and_Jerry_GB_box.jpg/revision/latest?cb=20250628061648&path-prefix=en

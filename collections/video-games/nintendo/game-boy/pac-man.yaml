@@ -1,0 +1,10 @@
+id: 192a03de-0a01-4085-95e8-7d57ae1599ab
+name: Pac-Man
+type: game
+date: "1991-04"
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
+attributes:
+  developer: Namco
+  publisher: Namco
+image: https://static.wikia.nocookie.net/nintendo/images/5/55/Pac-Man_%28GB%29_%28NA%29.jpg/revision/latest?cb=20221216043030&path-prefix=en
