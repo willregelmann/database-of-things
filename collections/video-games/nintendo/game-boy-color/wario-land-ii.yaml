@@ -1,0 +1,11 @@
+id: e7fe7722-7366-46b5-962b-bcf4c63cd593
+name: Wario Land II
+type: game
+date: "1999-03-31"
+tags:
+  - 2e11207a-e253-4f9b-8f56-3ef92c1d8531
+attributes:
+  developer: "Nintendo R&D1"
+  publisher: Nintendo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/7/7b/Wario_Land_II_%28Game_Boy_Color%29_%28NA%29.png/revision/latest?cb=20120927215940&path-prefix=en

@@ -1,0 +1,11 @@
+id: 189daebc-619e-4b4c-907f-67f194b3f23b
+name: Alice in Wonderland
+type: game
+date: "2000-10-04"
+tags:
+  - 5737d7f9-d42b-4b02-bf13-6e90793f8afa
+attributes:
+  developer: Digital Eclipse
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/f/f8/Alice_in_Wonderland_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20120511013825&path-prefix=en

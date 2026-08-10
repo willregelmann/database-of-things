@@ -1,0 +1,11 @@
+id: eb39966b-a808-4b34-b193-5a20dcfdd927
+name: Chicken Run
+type: game
+date: "2000-11-03"
+tags:
+  - fc077afe-7ba6-4471-ad81-29727cbe889c
+attributes:
+  developer: Blitz Games
+  publisher: THQ
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/d/db/Chicken_Run.jpg/revision/latest?cb=20200903025450&path-prefix=en

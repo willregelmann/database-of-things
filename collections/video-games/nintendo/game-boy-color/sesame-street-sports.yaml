@@ -1,0 +1,11 @@
+id: 277aec02-c7aa-4197-97be-faef7580cab1
+name: Sesame Street Sports
+type: game
+date: "2001-11-15"
+tags:
+  - 07af314c-67c4-4457-b4ab-e079af3701e9
+attributes:
+  developer: Bonsai Entertainment Corporation
+  publisher: NewKidCo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/b/b4/Sesame_Street_Sports.jpg/revision/latest?cb=20200910110020&path-prefix=en

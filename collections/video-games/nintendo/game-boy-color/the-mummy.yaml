@@ -1,0 +1,11 @@
+id: 4a4a10c5-e6ec-4b24-88b3-e7d56ffce909
+name: The Mummy
+type: game
+date: "2000-12-15"
+tags:
+  - 64b80d94-660e-4ab0-935d-a1b2f784e3f9
+attributes:
+  developer: Konami
+  publisher: Konami
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/4/4e/The_Mummy_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224215957&path-prefix=en

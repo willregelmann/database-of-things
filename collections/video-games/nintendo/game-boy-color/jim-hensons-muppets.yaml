@@ -1,0 +1,11 @@
+id: 1dee608c-832b-46ca-8c8b-0372fd2d4baa
+name: "Jim Henson's Muppets"
+type: game
+date: "2000-04"
+tags:
+  - b950aaf9-475a-4756-a8eb-f70e738d54da
+attributes:
+  developer: Tarantula Studios
+  publisher: Take 2 Interactive
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/f/fa/Jim_Henson%27s_The_Muppets.jpg/revision/latest?cb=20250510022515&path-prefix=en

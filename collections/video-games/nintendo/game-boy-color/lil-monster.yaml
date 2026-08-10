@@ -1,0 +1,9 @@
+id: 6db86856-ec62-43fa-a5ab-b43b0ea7da76
+name: "Lil' Monster"
+type: game
+date: "2000-08"
+attributes:
+  developer: KID
+  publisher: Agetec
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/f/fb/Lil%27_Monster.png/revision/latest?cb=20200908012510&path-prefix=en

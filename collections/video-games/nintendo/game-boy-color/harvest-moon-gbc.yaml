@@ -1,0 +1,11 @@
+id: 198bb5c0-60d2-42d9-bc24-e64c4fc9b55d
+name: Harvest Moon GBC
+type: game
+date: "1999-11"
+tags:
+  - b1ff31f0-fc76-4615-830a-b387ee29f7bb
+attributes:
+  developer: TOSE
+  publisher: Natsume Inc.
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/9/91/HarvestMoonGBC.jpg/revision/latest?cb=20090501162443&path-prefix=en

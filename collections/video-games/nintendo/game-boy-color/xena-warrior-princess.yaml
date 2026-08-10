@@ -1,0 +1,11 @@
+id: db2065f7-2fd2-4807-a363-ea0b0029b23c
+name: "Xena: Warrior Princess"
+type: game
+date: "2001-08"
+tags:
+  - c9a7e611-47ac-4c8b-a5bc-825f12fc9955
+attributes:
+  developer: Titus Software
+  publisher: Titus Software
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/d/d3/Xena_Warrior_Princess_%28NA%29.jpg/revision/latest?cb=20221101185708&path-prefix=en

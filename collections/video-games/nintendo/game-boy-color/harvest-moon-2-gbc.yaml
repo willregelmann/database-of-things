@@ -1,0 +1,11 @@
+id: 99a6b285-22d0-4c96-aa28-15e15aebe9b8
+name: Harvest Moon 2 GBC
+type: game
+date: "2000-11-07"
+tags:
+  - b1ff31f0-fc76-4615-830a-b387ee29f7bb
+attributes:
+  developer: Victor Interactive Software
+  publisher: Natsume Inc.
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/a/ac/Harvest_Moon_2_GBC_Box_Art_NA.png/revision/latest?cb=20190703042525&path-prefix=en

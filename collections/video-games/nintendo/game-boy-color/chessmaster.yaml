@@ -1,0 +1,11 @@
+id: 1c019229-55cd-4c0a-a51d-5933299a85e7
+name: Chessmaster
+type: game
+date: "1999-11-15"
+tags:
+  - 2c6b1933-afa9-4940-953c-2edb5e57d432
+attributes:
+  developer: Park Place Productions
+  publisher: Mindscape
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/6/62/Chessmaster_Game_Boy_Color_NA.jpg/revision/latest?cb=20240816214622&path-prefix=en

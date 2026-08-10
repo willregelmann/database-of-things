@@ -1,0 +1,11 @@
+id: f3d2ae76-0ef2-464e-9d31-e26ea4dc29c6
+name: "Bob the Builder: Fix It Fun!"
+type: game
+date: "2001-09-01"
+tags:
+  - ab07f3d9-45dc-4c7f-a34f-bec8bf9d9ec0
+attributes:
+  developer: Tiertex
+  publisher: THQ
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/b/bd/Bob_the_Builder_Fix_it_Fun.jpg/revision/latest?cb=20200909083241&path-prefix=en

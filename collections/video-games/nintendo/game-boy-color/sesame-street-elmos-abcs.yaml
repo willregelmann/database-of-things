@@ -1,0 +1,11 @@
+id: 20f4d475-9f3c-4443-8eed-93a61ed8e5c6
+name: "Sesame Street: Elmo's ABCs"
+type: game
+date: "1999-03"
+tags:
+  - 07af314c-67c4-4457-b4ab-e079af3701e9
+attributes:
+  developer: Bonsai Entertainment Corporation
+  publisher: NewKidCo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/f/f8/Sesame_Street_Elmo%27s_ABCs_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20221124205401&path-prefix=en

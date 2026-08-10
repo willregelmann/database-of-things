@@ -1,0 +1,11 @@
+id: 5abd1771-10f5-4859-b0ac-1742c4585d5e
+name: Pokémon Trading Card Game
+type: game
+date: "2000-04-10"
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
+attributes:
+  developer: "Hudson Soft, Creatures Inc."
+  publisher: Nintendo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/1/18/Pokemon_Trading_Card_Game_%28NA%29.jpg/revision/latest?cb=20250311000633&path-prefix=en

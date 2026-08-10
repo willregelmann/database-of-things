@@ -1,0 +1,11 @@
+id: 10d7838e-4082-46ae-b2a5-99dd260ed74d
+name: "Daffy Duck: Fowl Play"
+type: game
+date: "1999-12"
+tags:
+  - 0cbe4dab-07d1-4c0f-a4ef-4ca6508a450f
+attributes:
+  developer: Sunsoft
+  publisher: Sunsoft
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/e/e3/Daffy_Duck_Fowl_Play_%28NA%29.jpg/revision/latest?cb=20250420014823&path-prefix=en

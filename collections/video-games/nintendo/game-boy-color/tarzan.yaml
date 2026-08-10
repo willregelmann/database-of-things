@@ -1,0 +1,11 @@
+id: 12c9b822-dd81-47b9-84b8-0440d8de7ef3
+name: Tarzan
+type: game
+date: "1999-06-24"
+tags:
+  - 4b9063ce-59a3-4fcf-b17e-189b5703870e
+attributes:
+  developer: Digital Eclipse
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/09/Tarzan_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20260321072308&path-prefix=en

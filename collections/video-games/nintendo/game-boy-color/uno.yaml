@@ -1,0 +1,11 @@
+id: b685f902-3b57-40db-b901-5958b7a67ea7
+name: Uno
+type: game
+date: "1999-12-16"
+tags:
+  - e0ab23aa-19a2-4830-8a69-ee651156bc9f
+attributes:
+  developer: HotGen
+  publisher: Mattel Interactive
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/7/79/Uno_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224201019&path-prefix=en

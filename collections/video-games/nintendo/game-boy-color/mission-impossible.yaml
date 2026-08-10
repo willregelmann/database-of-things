@@ -1,0 +1,11 @@
+id: 37049eea-708f-4844-805f-d4f2575d5669
+name: "Mission: Impossible"
+type: game
+date: "2000-02-22"
+tags:
+  - 1b3a19a7-833e-4ed5-b1c3-7a108a7b3d6e
+attributes:
+  developer: Rebellion
+  publisher: Infogrames
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/1/18/Mission_Impossible_GBC_Box_Art_NA.jpg/revision/latest?cb=20221017021949&path-prefix=en

@@ -1,0 +1,10 @@
+id: dfc6fadb-92dc-42db-a415-d7c2cd6b91b4
+name: "Game & Watch Gallery 2"
+type: game
+date: "1998-11-20"
+tags:
+  - f10ecf01-6316-449f-9cac-35fe95c16754
+attributes:
+  developer: TOSE
+  publisher: Nintendo
+  compatible_with_game_boy: true

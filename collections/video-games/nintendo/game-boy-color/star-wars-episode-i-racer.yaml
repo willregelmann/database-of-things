@@ -1,0 +1,11 @@
+id: e9d2325e-9986-4b68-ac54-6c80468f98e0
+name: "Star Wars Episode I: Racer"
+type: game
+date: "1999-12-06"
+tags:
+  - 1f8376a1-a0c8-4c8e-b620-bcfef4a07503
+attributes:
+  developer: Pax Softonica
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/0e/Star_Wars_Episode_I_Racer_GBC.jpg/revision/latest?cb=20191017202100&path-prefix=en

@@ -1,0 +1,11 @@
+id: ab27f972-102f-4518-8b22-d93662158090
+name: Rainbow Six
+type: game
+date: "2000-04-03"
+tags:
+  - a873f257-f6ed-4b39-9d4f-c4e7c19f775d
+attributes:
+  developer: Crawfish Interactive
+  publisher: Red Storm Entertainment
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/b/be/Tom_Clancys_Rainbow_Six_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20200817153738&path-prefix=en

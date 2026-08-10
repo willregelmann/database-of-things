@@ -1,0 +1,11 @@
+id: 3d46b3d9-8d73-4b1c-baf1-8ffe35eaf040
+name: "X-Men: Mutant Wars"
+type: game
+date: "2000-11-17"
+tags:
+  - 2c04cd01-8ec9-4669-bf5d-24403fe4f5e9
+attributes:
+  developer: "Avit, Inc."
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/35/X-Men_Mutant_Wars_Box_Art_NA.jpg/revision/latest?cb=20220316013312&path-prefix=en

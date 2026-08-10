@@ -1,0 +1,10 @@
+id: 7ac23faf-d62a-48e1-ada8-0d13cabc06a0
+name: Super Breakout
+type: game
+date: "1998-12"
+tags:
+  - bbf8118d-f20f-4723-9ffc-6a66f4495271
+attributes:
+  developer: Morning Star Multimedia
+  publisher: Majesco
+  compatible_with_game_boy: true

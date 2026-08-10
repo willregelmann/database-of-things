@@ -1,0 +1,11 @@
+id: 5d41d778-9e38-4cf9-a13d-079836b8b2ac
+name: Toonsylvania
+type: game
+date: "2000-06"
+tags:
+  - 2ccecdd1-7f28-41ea-b37f-ee2fa7dff7c0
+attributes:
+  developer: RFX Interactive
+  publisher: Ubi Soft
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/a/ab/Toonsylvania.jpg/revision/latest?cb=20200908220309&path-prefix=en

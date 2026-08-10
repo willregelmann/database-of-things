@@ -1,0 +1,11 @@
+id: ce2293fc-3717-4b24-9e01-f45c9d093a7d
+name: Monopoly
+type: game
+date: "1999-05"
+tags:
+  - 22dc6461-a02f-424b-ad8a-1abdbb93400a
+attributes:
+  developer: Sculptured Software
+  publisher: Majesco
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/9/9f/Monopoly_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224190216&path-prefix=en

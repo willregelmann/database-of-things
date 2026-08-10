@@ -1,0 +1,11 @@
+id: afe8f4fb-fc65-4bc0-9766-452ef17eae04
+name: Pokémon Crystal Version
+type: game
+date: "2001-07-29"
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
+attributes:
+  developer: Game Freak
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/4/4e/Pokemon_Crystal_%28NA%29.png/revision/latest?cb=20140817222714&path-prefix=en

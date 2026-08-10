@@ -1,0 +1,11 @@
+id: ea7686d7-93c5-4d2e-8bcf-8df1e15cbb88
+name: Catz
+type: game
+date: "1999-12-01"
+tags:
+  - 73af6623-c2cb-43ec-8c3c-d52ab3973f99
+attributes:
+  developer: Saffire
+  publisher: Mindscape
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/b/b1/Catz_%28NA%29_%28GBC%29.jpg/revision/latest?cb=20200715130720&path-prefix=en

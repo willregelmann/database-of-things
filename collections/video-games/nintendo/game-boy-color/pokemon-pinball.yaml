@@ -1,0 +1,11 @@
+id: 4365c73d-8163-426a-a591-d1b6a1a5d92f
+name: Pokémon Pinball
+type: game
+date: "1999-06-28"
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
+attributes:
+  developer: "HAL Laboratory, Jupiter Corporation"
+  publisher: Nintendo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/6/67/Pokemon_Pinball_%28NA%29.png/revision/latest?cb=20250613011622&path-prefix=en

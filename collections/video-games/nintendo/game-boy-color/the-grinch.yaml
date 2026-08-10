@@ -1,0 +1,11 @@
+id: 5457a0f6-9005-4ca9-989c-fa5b2e316f41
+name: The Grinch
+type: game
+date: "2000-11-24"
+tags:
+  - df0fb233-1d6e-41ce-ab7b-738468d810d1
+attributes:
+  developer: Konami
+  publisher: Konami
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/f/f6/The_Grinch.jpg/revision/latest?cb=20200906073448&path-prefix=en

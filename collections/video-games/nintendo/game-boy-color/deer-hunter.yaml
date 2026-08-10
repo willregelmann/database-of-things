@@ -1,0 +1,11 @@
+id: f8e0cc0e-8bed-4cba-8ce2-c6b49d9e3d01
+name: Deer Hunter
+type: game
+date: "1999-12-22"
+tags:
+  - c8fece99-9441-4773-8bef-5e7582a93f32
+attributes:
+  developer: Morning Star Multimedia
+  publisher: Vatical Entertainment
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/e/ea/Deer_Hunter.jpg/revision/latest?cb=20200908122642&path-prefix=en

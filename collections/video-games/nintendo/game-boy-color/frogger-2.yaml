@@ -1,0 +1,11 @@
+id: fa2e4212-0e4a-4e69-969e-7d1fbd31a1b8
+name: Frogger 2
+type: game
+date: "2000-09-23"
+tags:
+  - 7624a091-1bdd-4c38-b34a-3d8658c81c51
+attributes:
+  developer: Game Titan
+  publisher: Hasbro Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/2a/Frogger_2_Swampy%27s_Revenge.png/revision/latest?cb=20200908022802&path-prefix=en

@@ -1,0 +1,10 @@
+id: 24c9073d-2c4b-48df-afd1-f7da964f254d
+name: "Atlantis: The Lost Empire"
+type: game
+date: "2001-06-14"
+tags:
+  - b4b5ce88-b412-4824-a50b-af272ee68f46
+attributes:
+  developer: Eurocom
+  publisher: THQ
+  compatible_with_game_boy: false

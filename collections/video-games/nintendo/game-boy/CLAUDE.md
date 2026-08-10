@@ -9,10 +9,13 @@ Game Boy Color games are out of scope for this directory — see Scope.
 
 Original Game Boy (DMG) releases only. **Game Boy Color is a separate
 platform**, not a variant of this one — it has its own hardware, its own
-product code prefix, and an exclusive library alongside its backward-
-compatible one. File it as `video-games/nintendo/game-boy-color/`, a
-sibling directory, when it's added — don't fold GBC-exclusive titles in
-here.
+product code prefix, and its own cartridge shape, distinct from DMG carts
+even for a title playable on both. See
+[`../game-boy-color/CLAUDE.md`](../game-boy-color/CLAUDE.md) — don't fold
+GBC-format cartridges in here, including "Dual Mode" ones that also run on
+original Game Boy hardware; that backward-compatibility is a cartridge
+attribute over there, not a reason to split it between the two platform
+directories.
 
 ## Directory structure
 

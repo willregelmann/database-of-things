@@ -1,0 +1,10 @@
+id: 5b8d511a-2ace-482c-b67a-b343f2568d24
+name: WCW Mayhem
+type: game
+date: "2000-05-10"
+tags:
+  - e8845bc0-6850-420c-b005-e2b14cafb8ec
+attributes:
+  developer: 2n Productions
+  publisher: Electronic Arts
+  compatible_with_game_boy: false

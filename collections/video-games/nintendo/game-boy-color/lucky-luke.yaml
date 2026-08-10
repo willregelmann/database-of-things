@@ -1,0 +1,10 @@
+id: 8a6f223e-14a9-4cb7-8f5f-a7759fc289c9
+name: Lucky Luke
+type: game
+date: "1999-07-09"
+tags:
+  - 8577c08e-afc2-4121-8f5a-a09c068b5864
+attributes:
+  developer: Infogrames
+  publisher: Infogrames
+  compatible_with_game_boy: false

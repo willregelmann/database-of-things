@@ -1,0 +1,11 @@
+id: f04ec783-fc3a-4155-9d1b-9e4a4d3b810b
+name: "Cruis'n Exotica"
+type: game
+date: "2000-11-06"
+tags:
+  - 6e12ed31-a44b-4fb4-a50b-e5d636ef7a09
+attributes:
+  developer: Crawfish Interactive
+  publisher: Midway
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/9/92/Cruis%27n_Exotica_%28GBC%29.jpg/revision/latest?cb=20200614030038&path-prefix=en

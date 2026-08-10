@@ -1,0 +1,11 @@
+id: 459ef62d-5d14-419d-b67c-35f1a2d00b78
+name: "Power Rangers: Time Force"
+type: game
+date: "2001-04-15"
+tags:
+  - 47fe1bfd-b1bf-4852-9571-69e955c19542
+attributes:
+  developer: "Natsume Co., Ltd."
+  publisher: THQ
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/f/fc/Power_Rangers_Time_Force_%28GBC%29.jpg/revision/latest?cb=20200619053015&path-prefix=en

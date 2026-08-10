@@ -1,0 +1,11 @@
+id: f8cc2c91-9b35-421f-9135-8cc8d19b69dc
+name: Lego Racers
+type: game
+date: "2000-12-29"
+tags:
+  - a1d27f64-77ab-48de-9abc-c4ea2895e144
+attributes:
+  developer: Climax Studios
+  publisher: Lego Media
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/01/LEGO_Racer_%28NA%29.jpg/revision/latest?cb=20170613023212&path-prefix=en

@@ -1,0 +1,10 @@
+id: f55391ee-c1a6-44db-8db1-689354e809f3
+name: The Rugrats Movie
+type: game
+date: "1999-02-28"
+tags:
+  - 4cf95ff5-467c-44aa-8214-8dec7054e694
+attributes:
+  developer: Software Creations
+  publisher: THQ
+  compatible_with_game_boy: true

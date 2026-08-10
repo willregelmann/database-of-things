@@ -1,0 +1,11 @@
+id: 123000bd-1433-4862-a5e9-83542f8ce1e9
+name: "Earthworm Jim: Menace 2 the Galaxy"
+type: game
+date: "1999-11-16"
+tags:
+  - f8ecfe4b-eee3-4415-806e-e0ce7c6c3e30
+attributes:
+  developer: David A. Palmer Productions
+  publisher: Crave Entertainment
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/f/f6/Earthworm_Jim_Menace_2_the_Galaxy_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230223150252&path-prefix=en

@@ -1,0 +1,11 @@
+id: f7d5db0e-abf2-42d2-8ec0-4b5c5a596759
+name: Missile Command
+type: game
+date: "1999-09"
+tags:
+  - 4bc52c06-3032-453c-8b14-6f7262d62655
+attributes:
+  developer: The Code Monkeys
+  publisher: Hasbro Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/7/7e/Missile_Command_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224202739&path-prefix=en

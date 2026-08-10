@@ -1,0 +1,10 @@
+id: b947cb9f-3eb2-4a07-a720-a0bc0853c610
+name: Frogger
+type: game
+date: "1998-12-31"
+tags:
+  - 7624a091-1bdd-4c38-b34a-3d8658c81c51
+attributes:
+  developer: Morning Star Multimedia
+  publisher: Majesco
+  compatible_with_game_boy: true

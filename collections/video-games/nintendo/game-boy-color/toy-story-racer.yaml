@@ -1,0 +1,11 @@
+id: 7687e2e6-d0e7-43fb-8221-a018efd1a736
+name: Toy Story Racer
+type: game
+date: "2001-02-28"
+tags:
+  - 9856a0df-5972-4936-93cb-d3c862c5bc16
+attributes:
+  developer: Tiertex
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/8/8f/Toy_Story_Racer_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230222031409&path-prefix=en

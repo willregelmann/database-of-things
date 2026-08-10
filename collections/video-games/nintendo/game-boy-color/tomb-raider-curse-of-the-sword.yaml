@@ -1,0 +1,11 @@
+id: 3db7d772-e9e8-46f2-a744-f1f2c6eb3145
+name: "Tomb Raider: Curse of the Sword"
+type: game
+date: "2001-06-01"
+tags:
+  - 1a21a692-0f1f-4360-95df-ab2e9d2aa422
+attributes:
+  developer: Core Design
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/4/4f/Tomb_Raider_Curse_of_the_Sword_Box_Art_NA.jpg/revision/latest?cb=20190811222846&path-prefix=en

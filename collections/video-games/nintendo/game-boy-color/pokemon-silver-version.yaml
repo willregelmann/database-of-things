@@ -1,0 +1,11 @@
+id: f1f5a09d-9b32-4bbc-a4b4-ccdfb6f74a45
+name: Pokémon Silver Version
+type: game
+date: "2000-10-14"
+tags:
+  - 175817b0-ba6b-49ca-90a9-f0777b4149e4
+attributes:
+  developer: Game Freak
+  publisher: Nintendo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/0/08/Pokemon_Gold_%28NA%29.jpg/revision/latest?cb=20111104144754&path-prefix=en

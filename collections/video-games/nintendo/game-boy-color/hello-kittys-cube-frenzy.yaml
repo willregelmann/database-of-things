@@ -1,0 +1,11 @@
+id: 44f1bc5a-40e1-4f11-a587-80214c71bea3
+name: "Hello Kitty's Cube Frenzy"
+type: game
+date: "1999-12-28"
+tags:
+  - 9dac43f1-f545-4eae-95fe-3f493f065baf
+attributes:
+  developer: Torus Games
+  publisher: NewKidCo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/8/84/Hello_Kitty%27s_Cube_Frenzy_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224200525&path-prefix=en

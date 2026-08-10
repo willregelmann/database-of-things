@@ -1,0 +1,11 @@
+id: 07d4f62d-371b-46d9-a577-d7ebf7e6d8f8
+name: "Bugs Bunny: Crazy Castle 3"
+type: game
+date: "1999-01-29"
+tags:
+  - 0cbe4dab-07d1-4c0f-a4ef-4ca6508a450f
+attributes:
+  developer: Kemco
+  publisher: Nintendo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/3/35/CrazyCastle3.jpg/revision/latest?cb=20240816214918&path-prefix=en

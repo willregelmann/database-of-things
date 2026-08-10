@@ -1,0 +1,11 @@
+id: ebb55164-7a23-4869-8028-f7784b20398b
+name: "A Bug's Life"
+type: game
+date: "1998-12-01"
+tags:
+  - 8c3f8d7c-5020-460e-b148-eac60301f2d5
+attributes:
+  developer: Tiertex
+  publisher: THQ
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/1/1b/A_Bug%27s_Life_%28GBC%29.jpg/revision/latest?cb=20200614041459&path-prefix=en

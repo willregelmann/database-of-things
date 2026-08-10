@@ -1,0 +1,11 @@
+id: 08b9d62c-9a72-421d-809e-8884b22268fa
+name: "The Emperor's New Groove"
+type: game
+date: "2000-12-01"
+tags:
+  - 9f17ebdc-96aa-4257-aab3-20799f4cb048
+attributes:
+  developer: Sandbox Studios
+  publisher: Ubi Soft
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/a/a8/Disney%27s_The_Emperor%27s_New_Groove.jpg/revision/latest?cb=20250423233923&path-prefix=en

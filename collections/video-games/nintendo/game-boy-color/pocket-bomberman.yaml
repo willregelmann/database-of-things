@@ -1,0 +1,10 @@
+id: 139c60c6-0f0c-4351-837a-af1a595ce5c5
+name: Pocket Bomberman
+type: game
+date: "1998-11-18"
+tags:
+  - 171881e2-7e62-45f8-8a35-5661316e0d05
+attributes:
+  developer: Hudson Soft
+  publisher: Nintendo
+  compatible_with_game_boy: true

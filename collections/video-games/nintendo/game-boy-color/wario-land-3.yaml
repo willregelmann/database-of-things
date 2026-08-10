@@ -1,0 +1,11 @@
+id: 8bea11b6-7e41-4d93-abfa-e087084064aa
+name: Wario Land 3
+type: game
+date: "2000-05-30"
+tags:
+  - 2e11207a-e253-4f9b-8f56-3ef92c1d8531
+attributes:
+  developer: "Nintendo R&D1"
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/b/bf/Wario_Land_3_%28NA%29.png/revision/latest?cb=20250307155553&path-prefix=en

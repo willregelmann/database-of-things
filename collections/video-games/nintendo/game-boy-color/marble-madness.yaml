@@ -1,0 +1,10 @@
+id: 48d789e2-ca3c-439a-8685-998406d7c8f8
+name: Marble Madness
+type: game
+date: "1999-12"
+tags:
+  - b220c4d3-2abb-4bc0-89ef-76aa534b0d76
+attributes:
+  developer: Digital Eclipse
+  publisher: Midway
+  compatible_with_game_boy: false

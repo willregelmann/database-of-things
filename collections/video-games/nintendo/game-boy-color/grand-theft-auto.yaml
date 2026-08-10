@@ -1,0 +1,11 @@
+id: ff98749a-145b-4e30-8a5b-7ac29234ca62
+name: Grand Theft Auto
+type: game
+date: "1999-11-22"
+tags:
+  - a41194a3-e495-47fe-b966-6ec7923ca033
+attributes:
+  developer: Tarantula Studios
+  publisher: Rockstar Games
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/9/91/Grand_Theft_Auto_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20120922120401&path-prefix=en

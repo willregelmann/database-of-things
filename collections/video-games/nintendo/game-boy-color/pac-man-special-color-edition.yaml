@@ -1,0 +1,11 @@
+id: 23780a46-60e7-4631-baff-a2c0e423ecb1
+name: "Pac-Man: Special Color Edition"
+type: game
+date: "1999-08"
+tags:
+  - b7e65c93-47fc-4159-85e8-482c8ad2a7f6
+attributes:
+  developer: Namco
+  publisher: Namco
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/9/95/Pac-Man_Special_Color_Edition_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224191647&path-prefix=en

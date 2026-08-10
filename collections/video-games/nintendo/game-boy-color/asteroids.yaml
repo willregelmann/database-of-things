@@ -1,0 +1,11 @@
+id: 35bf10a4-9dd9-4c39-b196-943c3796cf65
+name: Asteroids
+type: game
+date: "1999-09-01"
+tags:
+  - 0e713bf2-d319-4a41-8c39-76ce83e43a7a
+attributes:
+  developer: Syrox Developments
+  publisher: Activision
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/f/f8/Asteroids_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224203609&path-prefix=en

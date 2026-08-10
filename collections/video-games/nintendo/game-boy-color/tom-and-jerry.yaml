@@ -1,0 +1,11 @@
+id: 5f494e4f-13d0-4c53-a71a-e29431384ebc
+name: Tom and Jerry
+type: game
+date: "1999-09-27"
+tags:
+  - 8ddf3fab-e58b-429a-b1e7-99cf6bf557bd
+attributes:
+  developer: Morning Star Multimedia
+  publisher: Majesco
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/2e/Tom_and_Jerry_%28GBC%29.jpg/revision/latest?cb=20200617210035&path-prefix=en

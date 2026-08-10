@@ -1,0 +1,11 @@
+id: 6e854aac-5e40-4f4c-8e07-7cdabe9b6467
+name: The Land Before Time
+type: game
+date: "2001-07-14"
+tags:
+  - 5f4bb926-890e-4db6-9794-1207a51377ea
+attributes:
+  developer: Eclipse Entertainment
+  publisher: Conspiracy Entertainment
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/07/The_Land_Before_Time.jpg/revision/latest?cb=20200802130809&path-prefix=en

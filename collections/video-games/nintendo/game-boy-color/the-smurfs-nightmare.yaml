@@ -1,0 +1,10 @@
+id: 21151d7f-4529-4cac-bf3f-8cdf3f8eb5ff
+name: "The Smurfs' Nightmare"
+type: game
+date: "1999-02-28"
+tags:
+  - 066970ff-b11b-47b7-9216-6a670983d73e
+attributes:
+  developer: Bit Managers
+  publisher: Infogrames
+  compatible_with_game_boy: false

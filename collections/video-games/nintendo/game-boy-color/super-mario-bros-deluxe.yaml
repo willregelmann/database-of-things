@@ -1,0 +1,11 @@
+id: c537304f-69c8-460b-8496-2333c6112ba0
+name: Super Mario Bros. Deluxe
+type: game
+date: "1999-05-10"
+tags:
+  - 5e302888-035d-4d4b-87f3-ff22e4597294
+attributes:
+  developer: "Nintendo R&D2"
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/a/ae/SMBDeluxe_Boxart.png/revision/latest?cb=20140817223130&path-prefix=en

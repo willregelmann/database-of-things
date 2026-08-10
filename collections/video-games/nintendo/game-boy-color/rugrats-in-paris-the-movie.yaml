@@ -1,0 +1,11 @@
+id: b5cb6653-4f59-48ea-83a3-ff3206255c80
+name: "Rugrats in Paris: The Movie"
+type: game
+date: "2000-11-15"
+tags:
+  - 4cf95ff5-467c-44aa-8214-8dec7054e694
+attributes:
+  developer: Software Creations
+  publisher: THQ
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/4/4c/Rugrats_in_Paris_The_Movie_%28NA%29_%28GBC%29.jpg/revision/latest?cb=20250423234817&path-prefix=en

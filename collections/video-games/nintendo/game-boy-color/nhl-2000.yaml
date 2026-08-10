@@ -1,0 +1,9 @@
+id: 3c27d782-29f9-4652-b7f4-0b4fae2de0e9
+name: NHL 2000
+type: game
+date: "1999-08"
+attributes:
+  developer: Tiertex
+  publisher: THQ
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/4/43/NHL_2000.jpg/revision/latest?cb=20121115175353&path-prefix=en

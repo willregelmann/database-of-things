@@ -1,0 +1,11 @@
+id: 5b899b38-ac57-4341-b765-ffecb6257d98
+name: Battleship
+type: game
+date: "1999-01-01"
+tags:
+  - 65a2694e-8804-466c-bb0e-86034382b74a
+attributes:
+  developer: Pack-In-Video
+  publisher: Majesco
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/d/d1/Battleship_%28GBC%29.jpg/revision/latest?cb=20200613235133&path-prefix=en

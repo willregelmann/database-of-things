@@ -1,0 +1,11 @@
+id: 598ffa7b-095e-4954-ac98-431dd26cc7dd
+name: Heroes of Might and Magic
+type: game
+date: "2000-04-29"
+tags:
+  - 2a766d97-d31f-41ad-8a97-4ea218719bcf
+attributes:
+  developer: KnowWonder
+  publisher: The 3DO Company
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/7/71/Heroes_of_Might_%26_Magic.png/revision/latest?cb=20200628115101&path-prefix=en

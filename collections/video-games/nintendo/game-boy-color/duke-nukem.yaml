@@ -1,0 +1,11 @@
+id: fc7f68de-a7b1-41cf-8e62-97c67c2546eb
+name: Duke Nukem
+type: game
+date: "1999-09-10"
+tags:
+  - 5adf67a8-40f4-41f3-ae85-39a18436bbc5
+attributes:
+  developer: Torus Games
+  publisher: GT Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/35/Duke_Nukem_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230218210315&path-prefix=en

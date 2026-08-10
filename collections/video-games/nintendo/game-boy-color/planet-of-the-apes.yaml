@@ -1,0 +1,11 @@
+id: 8a146948-8711-450d-9f03-51287dd19fc4
+name: Planet of the Apes
+type: game
+date: "2001-12-06"
+tags:
+  - a8b0a80c-a88c-458c-864d-02f0b0a0544a
+attributes:
+  developer: Torus Games
+  publisher: Ubi Soft
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/08/Planet_of_the_Apes_%28GBC%29.jpg/revision/latest?cb=20200910084730&path-prefix=en

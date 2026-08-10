@@ -1,0 +1,11 @@
+id: e85d7873-8ac3-4731-8799-90a9022d0612
+name: "Pong: The Next Level"
+type: game
+date: "1999-12"
+tags:
+  - bfb463ce-d0e0-4750-a27a-6db3d1168c62
+attributes:
+  developer: Morning Star Multimedia
+  publisher: Hasbro Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/21/Pong_The_Next_Level.jpg/revision/latest?cb=20200909171952&path-prefix=en

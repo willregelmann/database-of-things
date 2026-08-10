@@ -1,0 +1,11 @@
+id: e10a4a36-1f5c-4f1c-a1cd-2c308bed285e
+name: Centipede
+type: game
+date: "1998-11-30"
+tags:
+  - c0b8db5a-3fd8-4cd8-a267-ad7a134a8436
+attributes:
+  developer: Accolade
+  publisher: Majesco
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/b/bf/Centipede_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230217002019&path-prefix=en

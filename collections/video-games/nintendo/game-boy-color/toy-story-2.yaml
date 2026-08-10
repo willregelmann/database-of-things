@@ -1,0 +1,11 @@
+id: 6ed809c5-fe7a-48dd-b349-378d9a3e9eb0
+name: Toy Story 2
+type: game
+date: "1999-01-01"
+tags:
+  - 9856a0df-5972-4936-93cb-d3c862c5bc16
+attributes:
+  developer: Tiertex
+  publisher: THQ
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/c/c2/Toy_Story_2_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20120120011447&path-prefix=en

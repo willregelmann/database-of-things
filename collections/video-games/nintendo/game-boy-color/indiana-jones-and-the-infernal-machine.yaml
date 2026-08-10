@@ -1,0 +1,11 @@
+id: 5f58eb4e-f104-4f05-81bd-733af2876f0f
+name: Indiana Jones and the Infernal Machine
+type: game
+date: "2001-03-22"
+tags:
+  - c3e724e4-38a2-42d1-86f1-96fda8aea15d
+attributes:
+  developer: HotGen
+  publisher: THQ
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/22/Indiana_Jones_and_the_Infernal_Machine_%28GBC%29.jpg/revision/latest?cb=20200719013208&path-prefix=en

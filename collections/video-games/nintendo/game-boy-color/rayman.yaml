@@ -1,0 +1,10 @@
+id: f1e5a784-7178-4681-9323-7f0551ac587d
+name: Rayman
+type: game
+date: "2000-03-29"
+tags:
+  - 8ca95101-9080-443a-aa3a-80d6bea72ee0
+attributes:
+  developer: Digital Eclipse
+  publisher: Ubi Soft
+  compatible_with_game_boy: false

@@ -1,0 +1,9 @@
+id: f0d8ab4e-ae7c-410f-9434-95a7035043bf
+name: "International Track & Field"
+type: game
+date: "2000-01-19"
+attributes:
+  developer: Konami
+  publisher: Konami
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/3/38/International_Track_%26_Field_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224215518&path-prefix=en

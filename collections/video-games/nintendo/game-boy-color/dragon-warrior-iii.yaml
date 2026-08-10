@@ -1,0 +1,11 @@
+id: 0e529797-8eb2-47e5-8601-8039afbc464b
+name: Dragon Warrior III
+type: game
+date: "2001-07-07"
+tags:
+  - cde0226b-1034-4056-b9eb-17456d756336
+attributes:
+  developer: TOSE
+  publisher: Enix
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/1/17/Dragon_Quest_III.png/revision/latest?cb=20110901000021&path-prefix=en

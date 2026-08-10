@@ -1,0 +1,11 @@
+id: 810710a2-8f22-4ffc-8430-2e40a2e3d7cf
+name: Dinosaur
+type: game
+date: "2000-05-19"
+tags:
+  - 22b12e5d-62fc-4c17-912c-ce0054c36177
+attributes:
+  developer: Digital Eclipse
+  publisher: Ubi Soft
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/1/17/Dinosaur%27us.jpg/revision/latest?cb=20201120225350&path-prefix=en

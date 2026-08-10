@@ -1,0 +1,11 @@
+id: cc7fcb1c-35d0-496d-979f-9fdc2f7be340
+name: "Looney Tunes: Twouble!"
+type: game
+date: "1998-12"
+tags:
+  - 0cbe4dab-07d1-4c0f-a4ef-4ca6508a450f
+attributes:
+  developer: Bit Managers
+  publisher: Infogrames
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/7/7a/Looney_Tunes_Twouble.png/revision/latest?cb=20200628215626&path-prefix=en
