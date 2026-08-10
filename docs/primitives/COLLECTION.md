@@ -100,3 +100,10 @@ them. `../../collection-attributes.schema.json` (governing this collection's
 own `attributes`, see above) resolves the same way, but independently — a
 directory can inherit one without the other, since an item's attribute
 shape and a collection record's attribute shape are unrelated data.
+
+**`tags` inherits differently — by accumulation, not nearest-ancestor.**
+CLAUDE.md/schema resolution stops at the first ancestor that has one; a
+collection's `tags`, by contrast, implicitly apply to every nested
+collection and item below it, all the way down, regardless of how many
+levels deep. See [`collections/CLAUDE.md`](../../collections/CLAUDE.md#tags)
+for the tag-vs-`attributes` heuristic this difference drives.
