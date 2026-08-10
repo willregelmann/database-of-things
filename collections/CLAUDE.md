@@ -110,15 +110,33 @@ enough.
 `tags` is a flat array of ids referencing `tags/` entities — the fix for
 groupings directory position can't express, franchise being the main case.
 
+**Tags accumulate down the hierarchy; `attributes` don't — use that
+difference to decide which one a new field belongs in.** A tag placed on
+a collection implicitly applies to every collection and item nested under
+it, recursively, all the way down — that's the mechanism, not just a
+convention: the validator resolves an item's tags from itself *or any
+ancestor collection* and flags re-tagging a child with what an ancestor
+already carries as a duplicate. An `attributes` field carries no such
+propagation — it describes only the one entity it's written on, and says
+nothing about that entity's parent, children, or siblings. So the test for
+a new field is: **would this value hold uniformly for everything nested
+below some point in the tree, and should it apply to all of it
+automatically? Tag the root of that subtree once.** **Is it a fact about
+just this one collection or item, unrelated to what's nested inside or
+around it? That's an `attributes` field** (or, if it's already implied by
+where the entity sits, nothing at all — directory position needs no
+restating).
+
 - Reference by **id**, always — reuse an existing tag or create its entity
   file first; no ad hoc string tagging. Duplicate ids in one list are an
   error.
 - **Franchise always goes in `tags`, never in `attributes`** — even within
   one line, and even the first time it appears (don't wait for it to span
-  two collections). Tag at the **highest level where it's uniformly true**:
-  the collection if the whole thing is one franchise, individual items if a
-  collection mixes franchises — never both an item and its already-tagged
-  ancestor.
+  two collections). It's the recurring instance of the general rule above:
+  a franchise is true of everything under it, so it belongs at the
+  **highest level where it's uniformly true** — the collection if the
+  whole thing is one franchise, individual items if a collection mixes
+  franchises — never both an item and its already-tagged ancestor.
 - Don't over-tag: skip anything directory position or `attributes` already
   covers, and keep the list short — rarely more than 5.
 
