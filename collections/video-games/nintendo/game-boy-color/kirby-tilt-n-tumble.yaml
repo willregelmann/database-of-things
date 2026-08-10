@@ -1,0 +1,11 @@
+id: d7b8b98f-0339-491c-847e-7db15aa9c133
+name: "Kirby Tilt 'n' Tumble"
+type: game
+date: "2001-04-11"
+tags:
+  - c56e8ce1-dd49-460c-93a8-14048616d1da
+attributes:
+  developer: "Nintendo R&D2"
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/07/Kirby_Tilt_n_Tumble_%28NA%29.jpg/revision/latest?cb=20090423204215&path-prefix=en

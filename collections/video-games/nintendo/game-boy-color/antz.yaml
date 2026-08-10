@@ -1,0 +1,11 @@
+id: b7426212-e1ef-43ab-ad3a-0e01a1a1d6d5
+name: Antz
+type: game
+date: "1999-09-24"
+tags:
+  - 15599fd4-f2ad-4714-bc22-9098acfa7b54
+attributes:
+  developer: "CLCE & Planet"
+  publisher: Infogrames
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/4/4a/Antz.png/revision/latest?cb=20200821211326&path-prefix=en

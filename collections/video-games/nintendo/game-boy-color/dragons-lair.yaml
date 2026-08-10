@@ -1,0 +1,11 @@
+id: 4d089713-a6d5-446d-9a50-c120d207b347
+name: "Dragon's Lair"
+type: game
+date: "2001-01-15"
+tags:
+  - 7dfe31d7-9d82-4465-b05d-4392554de290
+attributes:
+  developer: Digital Eclipse
+  publisher: Capcom
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/27/Dragon%27s_Lair_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20221127024628&path-prefix=en

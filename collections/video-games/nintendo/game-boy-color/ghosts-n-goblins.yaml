@@ -1,0 +1,10 @@
+id: 9aac5724-0ee0-45de-aedd-165823a68fee
+name: "Ghosts 'n Goblins"
+type: game
+date: "2000-01"
+tags:
+  - f8c4bbd3-0c1a-4c85-9d6d-f883797b623c
+attributes:
+  developer: Digital Eclipse
+  publisher: Capcom
+  compatible_with_game_boy: true

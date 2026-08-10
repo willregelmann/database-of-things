@@ -1,0 +1,11 @@
+id: b95824d7-c846-41ae-882b-34d2f64badb1
+name: Wacky Races
+type: game
+date: "2000-06-09"
+tags:
+  - f3e7aa63-7ec7-4583-bb6c-81a63350ea24
+attributes:
+  developer: "Velez & Dubail"
+  publisher: Infogrames
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/9/9a/Wacky_Races.jpg/revision/latest?cb=20200906072340&path-prefix=en

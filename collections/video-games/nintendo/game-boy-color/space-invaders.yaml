@@ -1,0 +1,11 @@
+id: b3743fcb-23d3-49c4-a5d2-80de1cca5bff
+name: Space Invaders
+type: game
+date: "1999-10-27"
+tags:
+  - 88dd4549-28b6-43eb-91cb-a388b3467a96
+attributes:
+  developer: Crawfish Interactive
+  publisher: Activision
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/8/89/Space_Invaders_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224203359&path-prefix=en

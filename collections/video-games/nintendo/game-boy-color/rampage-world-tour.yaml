@@ -1,0 +1,11 @@
+id: 05f40ccd-9fb9-4883-99d1-34708d0bfb34
+name: "Rampage: World Tour"
+type: game
+date: "1998-12"
+tags:
+  - e101503f-83eb-4cde-b98f-74509acefa4f
+attributes:
+  developer: Digital Eclipse
+  publisher: Midway
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/c/c8/Rampage_World_Tour_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20200820104303&path-prefix=en

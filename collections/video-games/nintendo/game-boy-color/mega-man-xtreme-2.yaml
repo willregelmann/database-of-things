@@ -1,0 +1,11 @@
+id: 42abde84-89e1-4794-ab86-bb753e1a9f79
+name: Mega Man Xtreme 2
+type: game
+date: "2001-10-30"
+tags:
+  - 6e259783-d5c1-4ecd-871e-51345c19cb1f
+attributes:
+  developer: Capcom
+  publisher: Capcom
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/7/70/Mega_Man_Xtreme_2_%28NA%29.jpg/revision/latest?cb=20110505155442&path-prefix=en

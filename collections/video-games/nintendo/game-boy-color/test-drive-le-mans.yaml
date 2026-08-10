@@ -1,0 +1,11 @@
+id: 08e7b319-b773-4f10-88de-099a325d1a01
+name: Test Drive Le Mans
+type: game
+date: "2000-06-02"
+tags:
+  - 41216287-0462-4095-b333-6110e8c6df40
+attributes:
+  developer: "Velez & Dubail"
+  publisher: Infogrames
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/1/1f/Le_Mans_24_Hours.jpg/revision/latest?cb=20200906062638&path-prefix=en

@@ -1,0 +1,11 @@
+id: b73cefdc-0930-4c39-a6ef-39c6e285ee7a
+name: Snoopy Tennis
+type: game
+date: "2001-04-06"
+tags:
+  - ac1e0c9a-534a-4ebd-a92d-e35c015b5641
+attributes:
+  developer: Mermaid Studios
+  publisher: Infogrames
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/5/5e/Snoopy_Tennis_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224233202&path-prefix=en

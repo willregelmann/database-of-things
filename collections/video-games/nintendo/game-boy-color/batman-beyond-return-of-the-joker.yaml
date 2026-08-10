@@ -1,0 +1,10 @@
+id: 05df1307-8e04-4071-a749-b692c8678e48
+name: "Batman Beyond: Return of the Joker"
+type: game
+date: "2000-11-20"
+tags:
+  - 9c45b05e-e737-4b76-a20f-9105dae77cba
+attributes:
+  developer: Kemco
+  publisher: Ubi Soft
+  compatible_with_game_boy: false

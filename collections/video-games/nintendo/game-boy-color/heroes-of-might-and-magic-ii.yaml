@@ -1,0 +1,11 @@
+id: 6e75ccb3-ca95-44d7-818d-afc74979f793
+name: Heroes of Might and Magic II
+type: game
+date: "2000-12"
+tags:
+  - 2a766d97-d31f-41ad-8a97-4ea218719bcf
+attributes:
+  developer: KnowWonder
+  publisher: The 3DO Company
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/37/Heroes_of_Might_%26_Magic_II.jpg/revision/latest?cb=20200628115700&path-prefix=en

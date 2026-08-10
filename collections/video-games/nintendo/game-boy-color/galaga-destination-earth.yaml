@@ -1,0 +1,11 @@
+id: ba2cd62b-e922-4194-9f0f-814f08439c1a
+name: "Galaga: Destination Earth"
+type: game
+date: "2000-09-25"
+tags:
+  - b51262d9-aee1-413b-ab57-ad752c4ca59f
+attributes:
+  developer: Pipe Dream Interactive
+  publisher: Hasbro Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/3b/Galaga_Destination_Earth.jpg/revision/latest?cb=20200908082611&path-prefix=en

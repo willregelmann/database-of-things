@@ -1,0 +1,11 @@
+id: 6f578859-7384-43a6-90aa-afdecfb1711b
+name: Donkey Kong Country
+type: game
+date: "2000-11-20"
+tags:
+  - 1c539dd3-b70a-4163-acf1-ad293d622cd8
+attributes:
+  developer: Rare
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/a/aa/Donkey_Kong_Country_%28Game_Boy_Color%29_%28NA%29.jpg/revision/latest?cb=20240923053022&path-prefix=en

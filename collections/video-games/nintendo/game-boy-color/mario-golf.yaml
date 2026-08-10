@@ -1,0 +1,11 @@
+id: efe0caa7-d77c-4dd3-b8bc-2fe9718241d8
+name: Mario Golf
+type: game
+date: "1999-10-05"
+tags:
+  - 5e302888-035d-4d4b-87f3-ff22e4597294
+attributes:
+  developer: Camelot Software Planning
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/6/6d/Mario_Golf_%28Game_Boy_Color%29_%28NA%29.png/revision/latest?cb=20140817221950&path-prefix=en

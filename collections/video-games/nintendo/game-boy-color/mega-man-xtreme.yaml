@@ -1,0 +1,11 @@
+id: 7ae1d32b-e61f-4db2-b779-c19e6790bb80
+name: Mega Man Xtreme
+type: game
+date: "2001-01-11"
+tags:
+  - 6e259783-d5c1-4ecd-871e-51345c19cb1f
+attributes:
+  developer: Capcom
+  publisher: Capcom
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/3/39/Mega_Man_Xtreme_%28NA%29.jpg/revision/latest?cb=20120511012826&path-prefix=en

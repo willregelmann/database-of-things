@@ -1,0 +1,11 @@
+id: afb6fcb3-2865-467f-9926-b241e14a3e44
+name: "Monsters, Inc."
+type: game
+date: "2001-10-19"
+tags:
+  - c1434f06-64b5-418d-8796-0e66c6022b1f
+attributes:
+  developer: Vicarious Visions
+  publisher: THQ
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/f/fb/Monsters%2C_Inc_%28GBC%29.jpg/revision/latest?cb=20200820034931&path-prefix=en

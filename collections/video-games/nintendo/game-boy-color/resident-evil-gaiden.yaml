@@ -1,0 +1,11 @@
+id: 3e7ecd1d-bb6b-4728-a763-06a9beef7868
+name: Resident Evil Gaiden
+type: game
+date: "2002-06-03"
+tags:
+  - d4302bd7-8324-4839-a4a0-b58dfad2245a
+attributes:
+  developer: "Capcom, M4 Ltd."
+  publisher: Capcom
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/9/9f/Resident_Evil_Gaiden_%28NA%29.png/revision/latest?cb=20140817223536&path-prefix=en

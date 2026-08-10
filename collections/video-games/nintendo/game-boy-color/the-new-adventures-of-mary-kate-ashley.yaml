@@ -1,0 +1,11 @@
+id: 0363aa90-5f7d-4d6c-95ec-9357452ec24c
+name: "The New Adventures of Mary-Kate & Ashley"
+type: game
+date: "1999-12"
+tags:
+  - d6433a1b-48ab-44a6-9721-7f5b2fe0978a
+attributes:
+  developer: Crawfish Interactive
+  publisher: Club Acclaim
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/3/37/The_New_Adventures_of_Mary-Kate_%26_Ashley.jpg/revision/latest?cb=20200908022234&path-prefix=en

@@ -1,0 +1,11 @@
+id: 5987d719-9ff0-4c8e-b563-aa8c9812e749
+name: Dogz
+type: game
+date: "1999-12-01"
+tags:
+  - 73af6623-c2cb-43ec-8c3c-d52ab3973f99
+attributes:
+  developer: Saffire
+  publisher: Mindscape
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/f/f9/Dogz_%28GBC%29.png/revision/latest?cb=20200715125709&path-prefix=en

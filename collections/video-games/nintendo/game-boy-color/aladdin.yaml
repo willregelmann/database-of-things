@@ -1,0 +1,9 @@
+id: 081d6634-9eaf-428b-a3df-ec1f4e991a90
+name: Aladdin
+type: game
+date: "2000-11-07"
+attributes:
+  developer: Crawfish Interactive
+  publisher: Ubi Soft
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/c/c4/Aladdin_GBC.jpg/revision/latest?cb=20240908014704&path-prefix=en

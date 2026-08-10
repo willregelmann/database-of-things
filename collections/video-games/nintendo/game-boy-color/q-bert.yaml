@@ -1,0 +1,11 @@
+id: 6c6e0fd0-22ec-461d-9faa-91df4d4a3ea5
+name: "Q*bert"
+type: game
+date: "2000-09-25"
+tags:
+  - 05d306bc-9acf-4bf7-906a-0efb8fcf280d
+attributes:
+  developer: Pipe Dream Interactive
+  publisher: Hasbro Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/31/Qbert_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224213243&path-prefix=en

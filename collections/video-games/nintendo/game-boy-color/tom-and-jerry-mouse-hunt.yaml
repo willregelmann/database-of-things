@@ -1,0 +1,11 @@
+id: 39c93888-1bc1-4e55-94bb-9caa4be4cc77
+name: "Tom and Jerry: Mouse Hunt"
+type: game
+date: "2001-03-14"
+tags:
+  - 8ddf3fab-e58b-429a-b1e7-99cf6bf557bd
+attributes:
+  developer: Conspiracy Entertainment
+  publisher: Conspiracy Entertainment
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/1/16/Tom_and_Jerry_Mouse_Hunt.jpg/revision/latest?cb=20221120201802&path-prefix=en

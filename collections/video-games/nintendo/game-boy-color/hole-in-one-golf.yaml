@@ -1,0 +1,9 @@
+id: 4263a30d-a135-4ec9-88ed-9ccf24ef7c55
+name: Hole in One Golf
+type: game
+date: "1999-08-30"
+attributes:
+  developer: "Natsume Co., Ltd."
+  publisher: Natsume Inc.
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/e/ef/Hole_in_One_Golf_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224191440&path-prefix=en

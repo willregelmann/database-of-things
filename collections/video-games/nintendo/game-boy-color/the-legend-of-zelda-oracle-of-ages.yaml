@@ -1,0 +1,11 @@
+id: 4a760f67-5d54-4453-8f3c-e6d2d070ff6a
+name: "The Legend of Zelda: Oracle of Ages"
+type: game
+date: "2001-05-14"
+tags:
+  - fe321124-3746-4479-9703-7ec57b7327e3
+attributes:
+  developer: Flagship
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/4/40/TLoZ_Oracle_of_Ages_%28NA%29.jpg/revision/latest?cb=20250307161205&path-prefix=en

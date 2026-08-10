@@ -1,0 +1,11 @@
+id: 3d5156c1-90c2-4669-84d0-fdafedeb3ac4
+name: "Godzilla: The Series"
+type: game
+date: "1999-12"
+tags:
+  - 340279e5-7bb4-4bfd-91b2-44c78b3e4bd1
+attributes:
+  developer: Crawfish Interactive
+  publisher: Crave Entertainment
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/d/da/Godzilla_The_Series.jpg/revision/latest?cb=20230218193804&path-prefix=en

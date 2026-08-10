@@ -1,0 +1,10 @@
+id: e91a71cd-a7ff-4203-a84c-b1688588ea8e
+name: "Tony Hawk's Pro Skater 2"
+type: game
+date: "2000-11-07"
+tags:
+  - 87a08b61-869c-43ef-a005-f5d561ece85b
+attributes:
+  developer: "Natsume Co., Ltd."
+  publisher: Activision
+  compatible_with_game_boy: false

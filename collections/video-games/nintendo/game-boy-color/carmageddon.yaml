@@ -1,0 +1,11 @@
+id: 6347cf26-4384-4586-9afa-054da537787e
+name: Carmageddon
+type: game
+date: "2000-04-01"
+tags:
+  - 54d370bd-59d3-4076-8c57-0992f8c5513a
+attributes:
+  developer: Aqua Pacific
+  publisher: Titus Software
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/9/98/Carmageddon_%28NA%29.jpg/revision/latest?cb=20221103200922&path-prefix=en

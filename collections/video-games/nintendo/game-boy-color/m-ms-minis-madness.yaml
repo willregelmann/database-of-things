@@ -1,0 +1,11 @@
+id: c5a0dde9-dcc1-43d0-9639-6a853d2036ba
+name: "M&M's Minis Madness"
+type: game
+date: "2000-12-08"
+tags:
+  - db0ac484-344e-4ae0-b85d-eb4d4897e4be
+attributes:
+  developer: Pipe Dream Interactive
+  publisher: Majesco
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/3c/M%26M%27s_Mini_Madness.jpg/revision/latest?cb=20200908110128&path-prefix=en

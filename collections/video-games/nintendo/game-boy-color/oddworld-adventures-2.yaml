@@ -1,0 +1,11 @@
+id: 0341e049-d104-498a-b482-d7199f1c9bc4
+name: Oddworld Adventures 2
+type: game
+date: "2000-01"
+tags:
+  - ddd50e0c-e14c-436f-847f-d3ee00651ba6
+attributes:
+  developer: Saffire
+  publisher: GT Interactive
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/6/6a/Oddworld_Adventures_2_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224212928&path-prefix=en

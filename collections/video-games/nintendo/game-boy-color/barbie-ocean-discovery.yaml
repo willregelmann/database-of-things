@@ -1,0 +1,11 @@
+id: 2c7c6981-1b3c-49b7-b9df-be829c12446b
+name: "Barbie: Ocean Discovery"
+type: game
+date: "1999-05-01"
+tags:
+  - 80ae5ef0-09ae-4abe-93cb-f455de2d81a5
+attributes:
+  developer: Realtime Associates
+  publisher: Mattel Interactive
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/9/9f/Barbie_Ocean_Discovery.jpg/revision/latest?cb=20200908114519&path-prefix=en

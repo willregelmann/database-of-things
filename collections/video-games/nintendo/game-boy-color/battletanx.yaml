@@ -1,0 +1,10 @@
+id: dcf578ac-bfbb-414c-a212-060227bbb737
+name: BattleTanx
+type: game
+date: "2000-03-01"
+tags:
+  - 98ebd746-412b-4b1c-a27e-ed617f3b739d
+attributes:
+  developer: Lucky Chicken Games
+  publisher: 3DO
+  compatible_with_game_boy: false

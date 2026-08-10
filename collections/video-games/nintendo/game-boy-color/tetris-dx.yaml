@@ -1,0 +1,11 @@
+id: 2a432906-f3ab-40b9-833a-6f14b21efca2
+name: Tetris DX
+type: game
+date: "1998-11-18"
+tags:
+  - b5c51de0-0318-4c3f-913d-c147efec9920
+attributes:
+  developer: Nintendo
+  publisher: Nintendo
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/e/e3/Tetris_DX_%28NA%29.png/revision/latest?cb=20250103164826&path-prefix=en

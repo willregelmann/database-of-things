@@ -1,0 +1,11 @@
+id: 4e75d549-d40a-4527-88e3-fbf00468ed27
+name: Classic Bubble Bobble
+type: game
+date: "1999-10-01"
+tags:
+  - 0e0b2f69-9a8f-40be-af77-a36862f6ddef
+attributes:
+  developer: "Dreams Co., Ltd."
+  publisher: Metro3D
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/3/30/Classic_Bubble_Bobble_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224195249&path-prefix=en

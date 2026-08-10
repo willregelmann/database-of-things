@@ -1,0 +1,11 @@
+id: a5ec5432-6732-44b5-a917-8c103f542d1c
+name: The Mummy Returns
+type: game
+date: "2001-04-26"
+tags:
+  - 64b80d94-660e-4ab0-935d-a1b2f784e3f9
+attributes:
+  developer: Game Brains
+  publisher: Universal Interactive
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/7/7e/The_Mummy_Returns.jpg/revision/latest?cb=20200804124328&path-prefix=en

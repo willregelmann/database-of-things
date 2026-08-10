@@ -1,0 +1,11 @@
+id: 3b4aa1c4-9d68-4c10-ace9-96c285cc5790
+name: "Worms: Armageddon"
+type: game
+date: "2000-01"
+tags:
+  - 7872f8d4-0311-4af8-9663-48fbef8ded71
+attributes:
+  developer: Infogrames
+  publisher: Infogrames
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/1/17/Worms_Armaggedon_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20200911033721&path-prefix=en

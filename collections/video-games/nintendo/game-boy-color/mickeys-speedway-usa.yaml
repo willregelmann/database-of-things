@@ -1,0 +1,11 @@
+id: 94a4b4a4-9a74-4047-8c13-010a61e39f93
+name: "Mickey's Speedway USA"
+type: game
+date: "2001-03-25"
+tags:
+  - e3552aec-d55d-40fa-bc16-aea5e48e0cf5
+attributes:
+  developer: Rare
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/6/68/Mickey%27s_Speedway_USA_GBC.jpg/revision/latest?cb=20250522061736&path-prefix=en

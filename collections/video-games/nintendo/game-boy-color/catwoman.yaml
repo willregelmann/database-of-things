@@ -1,0 +1,11 @@
+id: 4872fb20-7fa7-4c3a-bfaa-16bf5173da21
+name: Catwoman
+type: game
+date: "1999-12-01"
+tags:
+  - 6d2c47b0-d1fa-4448-a352-b28a51334a93
+attributes:
+  developer: Kemco
+  publisher: Kemco
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/0e/Catwoman_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224193611&path-prefix=en

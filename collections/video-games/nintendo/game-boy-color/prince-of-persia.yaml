@@ -1,0 +1,10 @@
+id: fe712ecd-916c-4265-b1d9-83fcbeb66da7
+name: Prince of Persia
+type: game
+date: "1999-07-20"
+tags:
+  - 0d845184-9b44-48eb-87ee-975faae74007
+attributes:
+  developer: Ed Magnin and Associates
+  publisher: Red Orb Entertainment
+  compatible_with_game_boy: true

@@ -1,0 +1,11 @@
+id: d5fd6f89-451e-47e1-be29-0d6403f14079
+name: "Dragon Warrior I & II"
+type: game
+date: "2000-09-27"
+tags:
+  - cde0226b-1034-4056-b9eb-17456d756336
+attributes:
+  developer: TOSE
+  publisher: Enix
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/9/9c/Dragon_Quest_I_%26_II_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20221127032543&path-prefix=en

@@ -1,0 +1,11 @@
+id: 9e867428-a841-4ae2-a2e6-0bced28e3076
+name: "Mickey's Racing Adventure"
+type: game
+date: "1999-11-22"
+tags:
+  - e3552aec-d55d-40fa-bc16-aea5e48e0cf5
+attributes:
+  developer: Rare
+  publisher: Nintendo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/26/Mickey_Racing_Adventure.jpg/revision/latest?cb=20101001211535&path-prefix=en

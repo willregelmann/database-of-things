@@ -1,0 +1,11 @@
+id: 005a77e0-91ce-4bb3-a226-ea1f84935c5e
+name: "The Lion King: Simba's Mighty Adventure"
+type: game
+date: "2000-12-01"
+tags:
+  - 2d99ce91-c4c1-443e-b25d-6bfdba1e2f51
+attributes:
+  developer: Torus Games
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/7/79/The_Lion_King_Simba%27s_Mighty_Adventure.jpg/revision/latest?cb=20200716033034&path-prefix=en

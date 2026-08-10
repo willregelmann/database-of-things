@@ -1,0 +1,11 @@
+id: bd0900d0-c6ca-4501-a533-b8aceba4e43a
+name: Army Men
+type: game
+date: "2000-02-22"
+tags:
+  - eb54f887-cf04-4f00-958f-a8dd650bd49c
+attributes:
+  developer: Digital Eclipse
+  publisher: The 3DO Company
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/3f/Army_Men_%28Game_Boy_Color%29.jpg/revision/latest?cb=20200805091448&path-prefix=en

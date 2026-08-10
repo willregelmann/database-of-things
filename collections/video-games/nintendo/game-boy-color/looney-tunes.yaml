@@ -1,0 +1,11 @@
+id: 4899ef9c-e2bd-4fea-bbf4-db0d9e8e9bad
+name: Looney Tunes
+type: game
+date: "1999-09"
+tags:
+  - 0cbe4dab-07d1-4c0f-a4ef-4ca6508a450f
+attributes:
+  developer: Sunsoft
+  publisher: Sunsoft
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/5/59/Looney_Tunes_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20250318220010&path-prefix=en

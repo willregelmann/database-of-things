@@ -1,0 +1,10 @@
+id: 532defb3-5ddc-48fe-8cd3-7647c5d01368
+name: Looney Tunes Racing
+type: game
+date: "2000-12"
+tags:
+  - 0cbe4dab-07d1-4c0f-a4ef-4ca6508a450f
+attributes:
+  developer: Xantera
+  publisher: Infogrames
+  compatible_with_game_boy: false

@@ -1,0 +1,11 @@
+id: 8db3f25f-a5c0-44fd-bb04-e931a8389cc0
+name: Legend of the River King GBC
+type: game
+date: "1999-11-23"
+tags:
+  - 89595a63-4188-4394-8c1d-f7717a97e6b2
+attributes:
+  developer: TOSE
+  publisher: Natsume Inc.
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/b/b6/Legend_of_the_River_King_%28GBC%29.jpg/revision/latest?cb=20200802110449&path-prefix=en

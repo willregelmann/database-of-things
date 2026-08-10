@@ -1,0 +1,10 @@
+id: 9c620958-fb8a-40dd-95d1-1f8d6c64bf15
+name: Mortal Kombat 4
+type: game
+date: "1998-12"
+tags:
+  - d86d8e5d-1d70-478d-b595-9c454d3c7073
+attributes:
+  developer: Digital Eclipse
+  publisher: Midway Games
+  compatible_with_game_boy: true

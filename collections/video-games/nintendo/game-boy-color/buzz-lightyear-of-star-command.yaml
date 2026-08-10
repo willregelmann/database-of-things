@@ -1,0 +1,11 @@
+id: 1b4a79cd-0d51-48ba-9cde-d9e8944fbf16
+name: Buzz Lightyear of Star Command
+type: game
+date: "2000-11-07"
+tags:
+  - 9856a0df-5972-4936-93cb-d3c862c5bc16
+attributes:
+  developer: "Traveller's Tales"
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/2/20/Buzz_Lightyear_of_Star_Command_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20251123050300&path-prefix=en

@@ -1,0 +1,11 @@
+id: 3e959573-3f1c-423b-bd43-982cb9a48924
+name: "Star Wars: Yoda Stories"
+type: game
+date: "1999-12"
+tags:
+  - 1f8376a1-a0c8-4c8e-b620-bcfef4a07503
+attributes:
+  developer: Torus Games
+  publisher: THQ
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/5/5d/Star_Wars_Yoda_Stories_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230223143700&path-prefix=en

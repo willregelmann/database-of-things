@@ -1,0 +1,11 @@
+id: 75fd34ca-9849-41fe-8795-5e1c7257d839
+name: "Yars' Revenge"
+type: game
+date: "1999-09"
+tags:
+  - 83997e11-b1eb-4d2e-a5eb-53d023483622
+attributes:
+  developer: Telegames
+  publisher: Telegames
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/8/82/Yars%27_Revenge.jpg/revision/latest?cb=20200908193943&path-prefix=en

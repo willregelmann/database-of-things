@@ -1,0 +1,11 @@
+id: bc9b5b85-d3e3-49f7-b99e-5e61aa6bae64
+name: "Yogi Bear: Great Balloon Blast"
+type: game
+date: "2000-12-17"
+tags:
+  - 6ee8a650-a9fa-403c-9b88-1ce089cf280f
+attributes:
+  developer: ITL
+  publisher: "Bam! Entertainment"
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/c/cf/Yogi_Bear_Great_Balloon_Blast_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230224210458&path-prefix=en

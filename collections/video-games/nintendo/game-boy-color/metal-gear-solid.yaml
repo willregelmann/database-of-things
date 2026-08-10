@@ -1,0 +1,10 @@
+id: 1a3e1248-1607-4650-aeac-0d8fd7f0a6aa
+name: Metal Gear Solid
+type: game
+date: "2000-04-24"
+tags:
+  - 39a574de-cc50-453c-8997-1c5744f44d09
+attributes:
+  developer: TOSE
+  publisher: Konami
+  compatible_with_game_boy: false

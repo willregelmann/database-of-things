@@ -1,0 +1,10 @@
+id: 2f0c78ed-fc32-415d-aa0b-a75f7cec1b1b
+name: "Gex: Enter the Gecko"
+type: game
+date: "1998-12"
+tags:
+  - 4a2a042b-7d95-49f4-a63d-22d82cba28fb
+attributes:
+  developer: David A. Palmer Productions
+  publisher: Crave Entertainment
+  compatible_with_game_boy: true

@@ -1,0 +1,11 @@
+id: 4e3695c6-5245-4141-b7c6-4626fa6f5a23
+name: Mr. Driller
+type: game
+date: "2000-08-02"
+tags:
+  - 60e9b352-7bdb-4b32-967c-435c49806188
+attributes:
+  developer: Namco
+  publisher: Namco
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/4/48/Mr._Driller_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20230222214049&path-prefix=en

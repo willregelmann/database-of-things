@@ -1,0 +1,11 @@
+id: 7fe55946-1e74-4149-ac8d-8262950258e7
+name: Spider-Man
+type: game
+date: "2000-08"
+tags:
+  - 3d042782-b0b4-46d9-b44b-638ec611e910
+attributes:
+  developer: Vicarious Visions
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/6/69/Spider-Man_%28GBC%29_%28NA%29.jpg/revision/latest?cb=20130907163342&path-prefix=en

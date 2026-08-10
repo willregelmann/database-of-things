@@ -1,0 +1,11 @@
+id: 57201ad9-5f8b-4adc-8a2d-df4f332343c1
+name: Bomberman Quest
+type: game
+date: "1999-11"
+tags:
+  - 171881e2-7e62-45f8-8a35-5661316e0d05
+attributes:
+  developer: Hudson Soft
+  publisher: Electro Brain
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/0/0c/Bomberman_Quest_%28EU%29.jpg/revision/latest?cb=20180522021541&path-prefix=en

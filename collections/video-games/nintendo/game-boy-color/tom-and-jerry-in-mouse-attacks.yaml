@@ -1,0 +1,11 @@
+id: b2edb6e7-3ec5-42f9-a445-a413de01c172
+name: "Tom and Jerry in Mouse Attacks!"
+type: game
+date: "2000-12-08"
+tags:
+  - 8ddf3fab-e58b-429a-b1e7-99cf6bf557bd
+attributes:
+  developer: Warthog
+  publisher: NewKidCo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/b/b3/Tom_and_Jerry_Mouse_Attacks.jpg/revision/latest?cb=20200617210712&path-prefix=en

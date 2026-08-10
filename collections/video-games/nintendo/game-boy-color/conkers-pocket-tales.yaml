@@ -1,0 +1,11 @@
+id: e58bd24c-3140-4a59-ad18-de7c55bdaa82
+name: "Conker's Pocket Tales"
+type: game
+date: "1999-06-08"
+tags:
+  - 6fcf5635-1a72-43d2-960d-1e11c8ce0cf2
+attributes:
+  developer: Rare
+  publisher: Rare
+  compatible_with_game_boy: true
+image: https://static.wikia.nocookie.net/nintendo/images/e/e1/Conker%27s_Pocket_Tales_%28NA%29.png/revision/latest?cb=20200920025032&path-prefix=en

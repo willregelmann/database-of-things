@@ -1,0 +1,10 @@
+id: c37ee71b-d1f9-4325-ba11-e411325135a5
+name: Tomb Raider
+type: game
+date: "2000-06-08"
+tags:
+  - 1a21a692-0f1f-4360-95df-ab2e9d2aa422
+attributes:
+  developer: Core Design
+  publisher: THQ
+  compatible_with_game_boy: false

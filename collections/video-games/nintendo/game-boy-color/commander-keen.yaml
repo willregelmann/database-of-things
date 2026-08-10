@@ -1,0 +1,11 @@
+id: 130f9ed0-4a96-4062-a7b7-228d70989bc0
+name: Commander Keen
+type: game
+date: "2001-05-30"
+tags:
+  - f3daa9a8-9e46-485e-9fbb-c16064a1e100
+attributes:
+  developer: David A. Palmer Productions
+  publisher: Activision
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/0/05/Commander_Keen.jpg/revision/latest?cb=20200909214347&path-prefix=en

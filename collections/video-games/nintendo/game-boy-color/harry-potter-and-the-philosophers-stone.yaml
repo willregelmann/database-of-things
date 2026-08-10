@@ -1,0 +1,11 @@
+id: a0571c50-e956-44a0-a346-64b411ea1bde
+name: "Harry Potter and the Philosopher's Stone"
+type: game
+date: "2001-11-15"
+tags:
+  - 9ae1c860-5383-43ae-ae78-35340e4cb114
+attributes:
+  developer: Griptonite Games
+  publisher: Electronic Arts
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/3/3d/Harry_Potter_and_the_Philosopher%27s_Stone_%28GBC%29.jpg/revision/latest?cb=20200811033514&path-prefix=en

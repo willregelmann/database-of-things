@@ -1,0 +1,11 @@
+id: 74e845fa-af9e-4c8e-a9c3-8600ed7b8571
+name: "Winnie the Pooh: Adventures in the 100 Acre Wood"
+type: game
+date: "2000-03"
+tags:
+  - 63cca6de-92c8-45a3-9f25-527f59e15221
+attributes:
+  developer: TOSE
+  publisher: NewKidCo
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/9/98/Winnie_the_Pooh_Adventure_in_the_100_Acre_Wood.jpeg.jpg/revision/latest?cb=20170929182955&path-prefix=en

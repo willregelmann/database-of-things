@@ -1,0 +1,11 @@
+id: f2b37b06-d214-41c6-8b94-ce7a3a240f25
+name: Little Nicky
+type: game
+date: "2000-12"
+tags:
+  - d45fa85f-7791-4a20-912d-7a9b0e62b6e8
+attributes:
+  developer: Digital Eclipse
+  publisher: Ubi Soft
+  compatible_with_game_boy: false
+image: https://static.wikia.nocookie.net/nintendo/images/e/e7/Little_Nicky.jpg/revision/latest?cb=20221020211844&path-prefix=en
